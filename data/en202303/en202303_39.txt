@@ -1,0 +1,74 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Zhihao , ZHANG Yueping Differential Quasi -Yagi Antenna and Array   Research Papers
+Differential QuasiDifferential Quasi --Yagi Antenna and ArrayYagi Antenna and Array
+ZHU Zhihao1, ZHANG Yueping2
+(1. Key Laboratory of Ministry of Education of Design and Electromag ⁃
+netic Compatibility of High⁃Speed Electronic Systems , Shanghai Jiao 
+Tong University , Shanghai 200240 , China ;
+ 2. Nanyang Technological University , Singapore 639798 , Singapore )DOI: 10.12142 /ZTECOM .202303006
+https ://link .cnki.net/urlid/ 34.1294 .TN.20230804 .1848 .002, published online 
+August 7, 2023
+Manuscript received : 2023 -03-11
+Abstract : A novel differential quasi -Yagi antenna is first presented and compared with a normal single -ended counterpart . The simulated 
+and measured results show that the differential quasi -Yagi antenna outperforms the conventional single -ended one . The differential quasi -
+Yagi antenna is then used as an element for linear arrays . A study of the coupling mechanism between the two differential and the two single -
+ended quasi -Yagi antennas is conducted , which reveals that the TE0 mode is the dominant mode , and the driver is the decisive part to account 
+for the mutual coupling . Next , the effects of four decoupling structures are respectively evaluated between the two differential quasi -Yagi an ‐
+tennas . Finally , the arrays with simple but effective decoupling structures are fabricated and measured . The measured results demonstrate 
+that the simple slit or air -hole decoupling structure can reduce the coupling level from −18 dB to −25 dB and meanwhile maintain the imped ‐
+ance matching and radiation patterns of the array over the broad bandwidth . The differential quasi -Yagi antenna should be a promising an ‐
+tenna candidate for many applications .
+Keywords : differential quasi -Yagi antenna and array ; mutual coupling ; surface wave
+Citation  (Format 1): ZHU Z H , ZHANG Y P . Differential quasi -Yagi antenna and array [J]. ZTE Communications , 2023 , 21(3): 37–44. DOI : 
+10.12142 /ZTECOM .202303006
+Citation  (Format 2): Z. H. Zhu and Y . P. Zhang , “Differential quasi -Yagi antenna and array ,” ZTE Communications , vol. 21, no. 3, pp. 37–44, 
+Sept. 2023 . doi: 10.12142 /ZTECOM .202303006 .
+1 Introduction
+With the trend toward the system -on-chip (SoC) and 
+system -in-package (SiP) solutions of radio and ra ‐
+dar transceivers , differential antennas are getting 
+popular for their advantages such as low cross -
+polarization , common -mode rejection , symmetrical radiation 
+pattern , and seamless integration with differential circuits[1–4].
+A quasi -Yagi antenna was originally proposed as a single -
+ended antenna[5] although the driver is differential . Now , the 
+quasi -Yagi antenna is an important type of antennas for end -
+fire radiation . However , most reported quasi -Yagi antennas 
+are single -ended antennas[5–8]. They need to use baluns or 
+complicated feeding networks to convert differential drivers to 
+single -ended inputs , which greatly increases design complex ‐
+ity and degrades antenna performance . In addition , the cou ‐
+pling between two conventional single -ended quasi -Yagi an ‐
+tennas was examined for the design of quasi -Yagi arrays . How ‐
+ever, the dominant electromagnetic mechanism and the key 
+structural part for coupling are not clear .
+To our best knowledge , the first differential quasi -Yagi an ‐
+tenna[9] was implemented in a thin cavity -down ceramic ball 
+grid array package in low temperature co -fired ceramic 
+(LTCC ) technology . It achieved a 10 dB impedance band ‐
+width of 2.3 GHz from 60.6 GHz to 62.9 GHz and a peak gain 
+of 6 dBi at 62 GHz . The bandwidth was too narrow for 60 GHz radios, which typically require the bandwidth of 7 GHz from 
+57 GHz to 64 GHz . Furthermore , there has been no differen ‐
+tial quasi -Yagi array reported up to now .
+In this paper , we present the design , analysis , and mea ‐
+surement of a differential quasi -Yagi antenna and array on 
+high dielectric constant substrates . We design the differen ‐
+tial quasi -Yagi antenna and discuss the simulated and mea ‐
+sured results in Section 2. We describe the differential quasi -
+Yagi linear arrays , study the coupling mechanism between 
+the two differential quasi -Yagi antennas , evaluate the effects 
+of decoupling structures , and discuss the simulated and mea ‐
+sured results in Section 3. Finally , we draw the conclusion in 
+Section 4.
+2 Differential Quasi -Yagi Antenna
+Fig. 1 shows the structure and dimensions of the differential 
+quasi -Yagi antenna proposed in this paper . Note that the an ‐
+tenna consists of three elements , namely a driver , a reflector , 
+and a director . The driver is fed by a differential coplanar 
+strip (CPS) line , which is gradually transformed into two 
+single -ended tapered coupled microstrip lines (TCML ). More 
+commonly , there are more than one director to improve the an ‐
+tenna gain . The driver and director are horizontally printed on 
+the top surface of a substrate of dielectric constant εr, loss tan ‐
+gent δ, length ls, width ws, and thickness h. The reflector is 
+37

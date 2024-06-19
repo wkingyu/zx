@@ -1,0 +1,111 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+field scenario , the computational complexity is relatively high 
+due to the massive elements . Therefore , it is valuable to de ⁃
+sign a near -field localization algorithm with low complexity 
+and pilot overhead .
+4.3 Near -Field Behavior of XL -Array
+As one of the main innovations of 6G wireless communica ⁃
+tions , the successful application of XL -MIMO depends on the 
+investigation and understanding of the near -field propagation . 
+In addition , it is valuable to study the physically accurate 
+near -field propagation model of XL -arrays .
+Specifically , the near -field EM channel model proposed in 
+Ref. [60] accurately depicts the physical EM wave transmis ⁃
+sion in the near -field scenario , which can be utilized to ana ⁃
+lyze the impact of discrete array aperture and polarization 
+mismatch . Nevertheless , the physical channel model in Ref . 
+[60] is totally based on theoretical analysis with Maxwell ’s 
+EM field theory , so it is also meaningful to carry out channel 
+measurements to verify and modify the near -field EM chan ⁃
+nel model .
+Moreover , the authors in Ref . [58–60] utilized the infor ⁃
+mation of VRs to remove the elements of the antenna array 
+that contributed less to the signal transmission , and con ⁃
+structed equivalent dimensionality reduction channels to re ⁃
+duce the computational complexity . However , how to accu ⁃
+rately measure VR using channel estimation methods is still 
+an open question .
+5 Conclusions
+The far -field assumptions tend to be invalid owing to the 
+large array size and short wavelength in 6G wireless commu ⁃
+nications . Hence , the near -field effect and spherical wave ⁃
+front are no longer dispensable in some envisioned 6G sce ⁃
+narios . In this paper , we discussed the challenges and oppor ⁃
+tunities of near -field communication in terms of the funda ⁃
+mentals and applications in various schemes . We first intro ⁃
+duced the three regions of free -space propagation and the 
+corresponding wavefronts , with an emphasis on the radiating 
+near -field and spherical wavefront . Then , we derived the 
+near -field MIMO channel model and discussed the impact of 
+spatial non -stationarity property on near -field propagation . 
+In addition , we introduced several appealing works with re ⁃
+spect to beam training and localization in the near -field sce ⁃
+narios and a recent work exploiting the spatial non -
+stationarity in the near field to achieve low -complexity trans ⁃
+mission design . Finally , some insights into the future im ⁃
+provements of near -field communication were discussed .
+References
+[1] CHETTRI L , BERA R . A comprehensive survey on Internet of Things 
+(IoT) toward 5G wireless systems [J]. IEEE Internet of Things journal , 2020 , 7(1): 16–32. DOI : 10.1109 /JIOT .2019 .2948888
+[2] GARCIA M H C , MOLINA -GALAN A , BOBAN M , et al . A tutorial on 5G 
+NR V 2X communications [J]. IEEE communications surveys & tutorials , 
+2021 , 23(3): 1972–2026 . DOI : 10.1109 /COMST .2021 .3057017
+[3] LI S C , LI D X , ZHAO S S . 5G Internet of Things : a survey [J]. Journal of 
+industrial information integration , 2018 , 10: 1–9. DOI : 10.1016 /j.
+jii.2018 .01.005
+[4] SHAFI M , MOLISCH A F , SMITH P J , et al . 5G: A tutorial overview of 
+standards , trials , challenges , deployment , and practice [J]. IEEE journal 
+on selected areas in communications , 2017 , 35(6): 1201–1221 . DOI : 
+10.1109 /JSAC .2017 .2692307
+[5] SHAFIQUE K , KHAWAJA B A , SABIR F , et al . Internet of Things (IoT) 
+for next -generation smart systems : A review of current challenges , future 
+trends and prospects for emerging 5G-IoT scenarios [J]. IEEE access , 
+2020 , 8: 23022–23040 . DOI : 10.1109 /ACCESS .2020 .2970118
+[6] WANG C X , HAIDER F , GAO X Q , et al . Cellular architecture and key 
+technologies for 5G wireless communication networks [J]. IEEE communi ⁃
+cations magazine , 2014 , 52(2): 122– 130. DOI : 10.1109 /
+MCOM .2014 .6736752
+[7] AGIWAL M , SAXENA N , ROY A . Towards connected living : 5G enabled 
+Internet of Things (IoT) [J]. IETE technical review , 2019 , 36(2): 190–202. 
+DOI: 10.1080 /02564602 .2018 .1444516
+[8] YOU X H , WANG C X , HUANG J , et al . Towards 6G wireless communica ⁃
+tion networks : vision , enabling technologies , and new paradigm shifts [J]. 
+Science China information sciences , 2020 , 64(1): 110301 . DOI : 10.1007 /
+s11432 -020 -2955 -6
+[9] ZHANG Z Q , XIAO Y , MA Z , et al . 6G wireless networks : vision , require ⁃
+ments , architecture , and key technologies [J]. IEEE vehicular technology 
+magazine , 2019 , 14(3): 28–41. DOI : 10.1109 /MVT .2019 .2921208
+[10] YANG P , XIAO Y , XIAO M , et al . 6G wireless communications : vision 
+and potential techniques [J]. IEEE network , 2019 , 33(4): 70–75. DOI : 
+10.1109 /MNET .2019 .1800418
+[11] ZHANG L , LIANG Y C , NIYATO D . 6G Visions : Mobile ultra -
+broadband , super internet -of-things , and artificial intelligence [J]. China 
+communications , 2019 , 16(8): 1–14. DOI : 10.23919 /JCC .2019 .08.001
+[12] LU H Q , ZENG Y , YOU C S , et al . A tutorial on near -field XL -MIMO 
+communications towards 6G [EB/OL ]. (2023 -10-17) [2023 -11-10]. http ://
+arxiv .org/abs/ 2310 .11044
+[13] PIZZO A , SANGUINETTI L , MARZETTA T L . Fourier plane -wave series 
+expansion for holographic MIMO communications [J]. IEEE transactions 
+on wireless communications , 2022 , 21(9): 6890–6905 . DOI : 10.1109 /
+TWC .2022 .3152965
+[14] CUI M Y , WU Z D , LU Y , et al . Near -field MIMO communications for 
+6G: Fundamentals , challenges , potentials , and future directions [J]. IEEE 
+communications magazine , 2023 , 61(1): 40–46. DOI : 10.1109 /
+MCOM .004.2200136
+[15] TATARIA H , SHAFI M , MOLISCH A F , et al . 6G wireless systems : Vi⁃
+sion, requirements , challenges , insights , and opportunities [J]. Proceed ⁃
+ings of the IEEE , 2021 , 109(7): 1166–1199 . DOI : 10.1109 /
+JPROC .2021 .3061701
+[16] AN J C , YUEN C , DAI L L , et al . Toward beam focusing -aided near -field 
+communications : research advances , potential , and challenges [EB/OL ] 
+(2023 -09-17) [2023 -11-10]. http://arxiv .org/abs/ 2309 .09242
+[17] LIU Y W , WANG Z L , XU J Q , et al . Near -field communications : a tuto ⁃
+rial review [EB/OL ]. [2023 -11-10]. http://arxiv .org/abs/ 2305 .17751 .pdf
+[18] ZHANG H Y , SHLEZINGER N , GUIDI F , et al . 6G wireless communica ⁃
+tions : from far -field beam steering to near -field beam focusing [J]. IEEE 
+communications magazine , 2023 , 61(4): 72–77. DOI : 10.1109 /
+MCOM .001.2200259
+[19] SHERMAN J . Properties of focused apertures in the Fresnel region [J]. 
+IRE transactions on antennas and propagation , 1962 , 10(4): 399–408. 
+13

@@ -1,0 +1,97 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface    Special Topic
+(BCI -2a)[31].
+1) Experiment on Nature ’s Scientific Data : 21 electrodes 
+were used to record EEG data from 13 healthy subjects , in‐
+cluding 8 males and 5 females . This data set provided five dif ‐
+ferent BCI paradigm data sets to imagine the movement of dif ‐
+ferent body parts , such as the left hand , the right hand , or dif ‐
+ferent finger movements . Among these available EEG data 
+sets, we considered the first classical motor imagination data ‐
+set (Classical , CLA ). The CLA dataset consisted of three types 
+of motor imagination data using EEG signals , corresponding to 
+left -hand movement , right -hand movement , and maintaining 
+neutrality respectively . That is , the participants did not imag ‐
+ine anything . Six subjects in the CLA data were considered , 
+specific to A to F subjects , since the “CLASubjectF 1509163
+StLRHand ” data file contained only two category labels and 
+was therefore not considered . The sampling frequency of the 
+EEG signal was 200 Hz, and each collected data file con ‐
+tained 15 min sessions . Each 15-minute session included 300 
+trials . The total time of each trial was 3 s, which started with a 
+one -second motion MI cue , and each trial lasted 1.5–2.5 s.
+2) Experiment on BCI Competition IV -2a: This dataset is a 
+publicly available dataset for BCI Competition IV , which is de ‐
+scribed in detail by TANGERMANN et al .[31] for the data char ‐
+acteristics of the competition . The BCI -2a dataset , which re ‐
+corded EEG data from nine subjects using 22 electrodes , pro‐
+vided four different types of motor imagination data : left -hand 
+movement , right -hand movement , exercise of both feet , and 
+tongue movement imagination . The EEG signal was sampled 
+at a frequency of 250 Hz, and the data for each subject con ‐
+sisted of two files , each consisting of six EEG recording blocks 
+containing 48 trials , for a total of 576 trials .
+4.2 Experimental Methods
+The collection of the CLA data set is to extract the brain 
+imagination data of 21 channels continuously for 0.85 s at a 
+sampling frequency of 200 Hz, starting from the action stimu ‐
+lus for each subject[30]. For the BCI -2a dataset , some research ‐
+ers have tried to use a relatively large window (about 3 s to 4 s) 
+for their studies[32–33], but a relatively small window is more re ‐
+alistic for online BMI[27]. Therefore , the proposed method uses a 0.85-second EEG window to decode subjects ’ motor images . 
+We first cropped the 0.85-second EEG signal at [0, 0.85] after 
+the beginning of the trial for CLA and at [2, 2.85] after the be ‐
+ginning of the visual cue for BCI -2a. The CLA data consists of 
+21 channels , where the number of samples in each channel is 
+170 (the same as sampling frequency 200 Hz × 0.85 s), and 
+the BCI -2a data set has a total of 22 channels , in which the 
+number of samples per channel is 213 (about sampling fre ‐
+quency 250 Hz × 0.85 s).
+For the CLA dataset , we evaluated the performance of the 
+EEG signal within 0.85 s by dividing it into a training set and 
+a test set , respectively , and as in Ref . [27], we executed 10 
+Monte Carlo trials at 100 episodes , and in each trial , the se ‐
+quences of the trials were randomized . The performance was 
+observed on the training set based on the success rate of the 
+trials , which was calculated as the ratio of the number of suc ‐
+cessful trials at each step to reach the specified goal to the to ‐
+tal number of trials considered . For the BCI -2a dataset , the 
+performance was evaluated directly based on the existing 
+training and test sets of each subject . In DDQN , we adopted 
+the ε-greedy method for the exploration strategy , where the ex ‐
+ploration probability of the intelligence was set to ε = 0.1 at 
+the beginning of the trial and decays every 20 episodes , with 
+each exploration probability decaying to half of the original 
+one, so that the agent would be more inclined to be exploited 
+as the trial progressed .
+4.3 Feature Extraction
+In order to illustrate the advantages of DDQN for EEG de ‐
+coding , this paper compares the DDQN algorithm with classi ‐
+cal supervised learning algorithms (the SVM , decision tree , 
+and random forest ) and the Q -KTD algorithm based on tradi ‐
+tional reinforcement learning . In order to make the experiment 
+more convincing , we follow the feature extraction approach in ‐
+troduced in Ref . [27] to construct Features 1 and 2, which is 
+constructed as follows :
+Feature 1: In order to obtain the complete information held 
+in the EEG data , Feature 1 was extracted by first cropping the 
+EEG signal data for 0.85 s, and then concatenating each chan ‐
+nel of the cropped data as one motor imagery state vector for 
+▲Figure 3. Network structure of electroencephalogram (EEG ) signal decoder based on double deep Q -network (DDQN )Data input
+Convolutional kernel_size= (5×5)
+BatchNorm
+ELU
+Pooling
+Convolutional kernel_size= (5×5) 
+out_channels = 128
+BatchNorm
+ELU
+Pooling
+ELUFully connected (64)
+Fully connected (4)
+…Action 1
+Action 2
+Action 3
+Action 4
+ELU: activation function exponential linear unit
+07

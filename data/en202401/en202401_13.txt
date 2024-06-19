@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+La={σ1,σ2,⋯,σK}, Ld={γ1,γ2,⋯,γL}, (22)
+where . denotes the order operation . By performing KL addi ⁃
+tional near -field beam training tests , we can get the optimal 
+near -field beam .
+Simulation results validate the advantages of original and 
+improved schemes compared with the sweep scheme as shown 
+in Fig. 6. The improved scheme can achieve over 90% of the 
+data rate and reduce overhead by 95% compared with the 
+sweep scheme . This stems from the remarkable data process ⁃
+ing capabilities in neural networks and the full leveraging of 
+the output in the improved scheme .
+3.2 Localization for Near -Field Communications
+3.2.1 Challenges
+In THz systems , the performance of positioning can be im ⁃
+proved since all the geometric information is included in the 
+channel state information (CSI) measurements , which can be es ⁃
+timated more accurately with narrow beams[42]. In addition , RIS 
+can provide reliable and high -precision estimation performance 
+with low energy consumption , and the large size of the RIS 
+panel enables high -accuracy positioning parameter estima ⁃
+tion[43]. Therefore , research on RIS -aided localization has at ⁃
+tracted increasing attention , while most of them adopted the pla ⁃
+nar wavefront based on the far -field channel model[44–52].
+However , in some envisioned scenarios with the XL -RIS 
+panel , the typical indoor communication distances may not 
+guarantee the validity of far -field conditions . In addition , UE 
+is usually located in the near -field area of the XL -RIS in the 
+THz localization system owing to the short wavelength[53]. 
+Therefore , the spherical wavefront of near -field transmission 
+should be considered in XL -RIS -based THz localization , 
+where the transmitted wavefront will arrive at each element of the RIS panel with different Angles of Arrival (AoAs ). The as ⁃
+sumption that all the RIS elements share a common AoA of 
+the same path is no longer valid , making the channel estima ⁃
+tion and localization more challenging .
+3.2.2 Existing Works
+Although near -field RIS behavior has attracted increasing 
+attention recently , the study on RIS -aided near -field localiza ⁃
+tion is still in its infancy . Most researchers considering the 
+spherical wavefront mainly analyzed the Fisher information 
+matrix (FIM) and the Cramer -Rao lower bound (CRLB ) to il ⁃
+lustrate the position error bound (PEB) and orientation error 
+bound (OEB ), which could be derived as performance bench ⁃
+marks for the practical algorithms[48, 54–55]. In addition , the au ⁃
+thors of Ref . [56] proposed an algorithm of RIS -aided near -
+field joint channel estimation and localization (NF-JCEL ) in 
+THz systems , which addressed the specific issue of channel 
+estimation and UE positioning in the near -field scenario .
+3.2.3 RIS -Aided Near -Field Localization Algorithm
+The authors of Ref . [56] considered the uplink transmission 
+of a THz localization system as shown in Fig. 7, where the di ⁃
+rect links between the AP and the UE are assumed to be ob ⁃
+structed . The receiving antenna arrays of the AP and the RIS 
+are assumed to be ULA and UPA , respectively .
+Assuming that the UE is located at the near field of the RIS 
+panel , the authors derived the two -dimensional Fresnel ap ⁃
+proximation of the distance between the m-th element and UE 
+u, and approximated the near -field array response as :
+aN,i
+R,u(ωu, φu, d0
+u)[m]=exp(-j2π
+λi(Jm(ωu, φu)+
+Qm(ωu, φu, d0
+u))),
+(23)
+▲Figure 6. Normalized SNR for the original and improved schemesSNR: signal -to-noise ratio
+▲Figure 7. System model and communication scenarioAP: access point
+LoS: line -of-sightRIS: reconfigurable intelligent surface
+UE: user equipmentTransmit SNR/dB0.0   2.5   5.0  7.5  10.0 12.5 15.0 17.5 20.0Normalized SNROriginal
+Improved (K=5, L=1)
+Improved (K=10, L=1)
+Improved (K=1, L=2)
+Improved (K=5, L=2)
+Improved (K=10, L=2)
+Sweep scheme1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+UE 1UE 2 xyz
+APRIS
+LoS 
+path
+LoS 
+pathLoS path
+blocked
+LoS path
+blocked
+09

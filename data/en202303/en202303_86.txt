@@ -1,0 +1,104 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Research Papers   Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System
+CSI is more serious , so the averaged sum rates decrease dur ‐
+ing the DL transmission period . However , the channel predic ‐
+tion can combat this fading , with more obvious gain in the last 
+few time slots as shown in this figure . By considering the chan ‐
+nel prediction errors and utilizing the statistical characteris ‐
+tics, the proposed beamforming can even achieve better perfor ‐
+mance which is close to the ideal case .
+Fig. 8 presents the fall of the performance during the DL 
+time slots within the half -frame period under different UE ve ‐
+locities . Considering the advantage of joint channel prediction 
+and proposed robust beamforming design , we take the 
+WMMSE method with no prediction as the benchmark . The av ‐
+eraged sum rates decrease more rapidly with the increasing of 
+velocity . This is because the velocity is a sign of channel varia ‐
+tion. Though the achievable gain of channel prediction gets 
+smaller as the velocity increase , which can be observed by 
+comparing Figs . 5 and 6, the joint robust design can imple ‐
+ment more substantial performance gain as the time -varying 
+effects become severer .
+5 Conclusions
+In this paper , we investigate the beamforming design un ‐
+der channel prediction errors in a time -varying MIMO sys ‐
+tem. By collecting the prediction errors and exploiting the 
+statistical characteristics of the error samples , we propose a 
+robust beamforming design to further combat the detriment 
+caused by channel aging based on the channel prediction sys ‐
+tem. Due to the uncertainty brought by the error part , we ex ‐
+ploit deterministic equivalents to obtain the closed -form ex ‐
+pression to derive the robust beamforming matrix . Our simu ‐
+lation results show the effectiveness of the proposed beam ‐
+forming design and reveal that the achievable gain even 
+grows as UE velocities increase . The proposed design can maintain the outperformance during the DL transmission 
+time while the channels vary fast .
+References
+[1] NADEEM Q U A , KAMMOUN A , ALOUINI M S . Elevation beamforming with 
+full dimension MIMO architectures in 5G systems : a tutorial [J]. IEEE communi ‐
+cations surveys & tutorials , 2019 , 21(4): 3238–3273 . DOI : 10.1109 /
+COMST .2019 .2930621
+[2] LARSSON E G , EDFORS O , TUFVESSON F , et al . Massive MIMO for next 
+generation wireless systems [J]. IEEE communications magazine , 2014 , 52(2): 
+186–195. DOI : 10.1109 /MCOM .2014 .6736761
+[3] CASTAÑEDA E , SILVA A , GAMEIRO A , et al . An overview on resource alloca ‐
+tion techniques for multi -user MIMO systems [J]. IEEE communications surveys 
+& tutorials , 2017 , 19(1): 239–284. DOI : 10.1109 /COMST .2016 .2618870
+[4] CHRISTENSEN S S , AGARWAL R , DE CARVALHO E , et al . Weighted sum -
+rate maximization using weighted MMSE for MIMO -BC beamforming design [J]. 
+IEEE transactions on wireless communications , 2008 , 7(12): 4792–4799 . DOI : 
+10.1109 /T-WC.2008 .070851
+[5] SHI Q J , RAZAVIYAYN M , LUO Z Q , et al . An iteratively weighted MMSE ap ‐
+proach to distributed sum -utility maximization for a MIMO interfering broadcast 
+channel [J]. IEEE transactions on signal processing , 2011 , 59(9): 4331–4340 . 
+DOI: 10.1109 /TSP .2011 .2147784
+[6] WU Y P , JIN S , GAO X Q , et al . Transmit designs for the MIMO broadcast 
+channel with statistical CSI [J]. IEEE transactions on signal processing , 2014 , 
+62(17): 4451–4466 . DOI : 10.1109 /TSP .2014 .2336637
+[7] WU D Y , ZHANG H T . Tractable modelling and robust coordinated beamform ‐
+ing design with partially accurate CSI [J]. IEEE wireless communications let ‐
+ters, 2021 , 10(11): 2384–2387 . DOI : 10.1109 /LWC .2021 .3101037
+[8] ZHENG J K , ZHANG J Y , BJÖRNSON E , et al . Impact of channel aging on cell -
+free massive MIMO over spatially correlated channels [J]. IEEE transactions on 
+wireless communications , 2021 , 20(10): 6451–6466 . DOI : 10.1109 /
+TWC .2021 .3074421
+[9] LIU L H , FENG H , YANG T , et al . MIMO -OFDM wireless channel predic ‐
+tion by exploiting spatial -temporal correlation [J]. IEEE transactions on wire ‐
+less communications , 2014 , 13(1): 310– 319. DOI : 10.1109/
+TWC .2013 .112613 .130455
+[10] YIN H F , WANG H Q , LIU Y Z , et al . Addressing the curse of mobility in mas ‐
+sive MIMO with prony -based angular -delay domain channel predictions [J]. 
+IEEE journal on selected areas in communications , 2020 , 38(12): 2903–
+2917 . DOI : 10.1109 /JSAC .2020 .3005473
+[11] WU C , YI X P , ZHU Y M , et al . Channel prediction in high -mobility massive 
+MIMO : from spatio -temporal autoregression to deep learning [J]. IEEE journal 
+on selected areas in communications , 2021 , 39(7): 1915–1930 . DOI : 10.1109 /
+JSAC .2021 .3078503
+[12] THEODORIDIS S . Machine learning : a Bayesian and optimization perspective 
+[M]. Orlando , USA : Academic press , 2015
+[13] YUAN J D , NGO H Q , MATTHAIOU M . Machine learning -based channel pre ‐
+diction in massive MIMO with channel aging [J]. IEEE transactions on wire ‐
+less communications , 2020 , 19(5): 2960–2973 . DOI : 10.1109 /
+TWC .2020 .2969627
+[14] XU K , SHEN Z X , WANG Y R , et al . Location -aided mMIMO channel track ‐
+ing and hybrid beamforming for high -speed railway communications : an angle -
+domain approach [J]. IEEE systems journal , 2020 , 14(1): 93–104. DOI : 
+10.1109 /JSYST .2019 .2911296
+[15] XIA X C , XU K , ZHAO S B , et al . Learning the time -varying massive MIMO 
+channels : robust estimation and data -aided prediction [J]. IEEE transactions 
+on vehicular technology , 2020 , 69(8): 8080–8096 . DOI : 10.1109 /
+TVT.2020 .2968637
+[16] ENGEL Y , MANNOR S , MEIR R . The kernel recursive least -squares algo ‐
+rithm [J]. IEEE transactions on signal processing , 2004 , 52(8): 2275–2285 . 
+DOI: 10.1109 /TSP .2004 .830985
+▲Figure 8. Sum rate versus DL time slots under different beamforming 
+methods with v=60 km/hDL: downlink     WMMSE : weighted minimum mean -squared -errorDL time slot in a period1 2 3 4 5 6 7No prediction+WMMSE
+Prediction+proposed robust designv=3 km/h
+v=60 km/h
+v=120 km/hAveraged sunm rate/ (bit·s-1·Hz-1)10.2
+9.8
+9.4
+9.0
+8.6
+8.2
+84

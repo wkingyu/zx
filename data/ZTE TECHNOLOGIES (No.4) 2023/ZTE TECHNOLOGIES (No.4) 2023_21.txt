@@ -1,0 +1,80 @@
+on-screen setup wizard and enter the 
+Launcher to use the system.
+To enable ecosystem upgrade and 
+switching, STB hardware con/f_iguration 
+needs to ful/f_ill certain requirements. 
+For example, a 4K STB powered by 
+AndroidTV requires a minimum memory 
+of 2GB. Therefore, when upgrading a 
+4K STB from AOSP to AndroidTV, it is 
+necessary to ensure that its memory is 
+equal to or greater than 2GB. 
+The following is a step-by-step 
+explanation of online upgrade and 
+switching from AOSP to AndroidTV. 
+System Version Upgrade and 
+Switching
+The imaging partition of old and 
+new systems needs to be planned and 
+designed. As shown in Fig. 1, the front 
+shared partitions (green) need to be oﬀset 
+and size consistent, while non-shared 
+partitions (blue and orange) do not require 
+oﬀset and size consistency.
+The upgrade program of the old system 
+is responsible for downloading and saving 
+the new system upgrade package to the 
+cache partition. It also performs signature 
+and integrity veri/f_ication on the upgrade 
+package. If the veri/f_ication is successful, it 
+triggers the old system to enter recovery AOSP STBs can be online upgraded 
+and switched to the AndriodTV system. 
+Similarly, when bidding for new products, 
+some operators repeatedly weigh the 
+choices between RDK-V and AndroidTV, 
+expecting STBs to support seamless online 
+upgrade and switching between the two 
+ecosystems. The ability of STBs to support 
+online ecosystem upgrade and switching 
+has gradually become an important 
+requirement for operators. 
+Solution
+The process of online ecosystem 
+upgrade and switching goes through the 
+following three steps.
+System version upgrade and switching:  
+Upgrade from AOSP to AndroidTV, or 
+switching between RDK and AndroidTV.
+Key data update and switching: 
+Due to varying storage partition 
+and formatting requirements for key 
+management (such as attestation key 
+and widevine key) in diﬀerent systems 
+like AOSP, AndroidTV and RDK-V, keys 
+cannot be reused across systems. 
+Therefore, it is essential to download 
+and set new keys online based on the 
+new system. 
+System version and key upgrade and 
+switching completed:  After the new 
+system starts up, users can follow the Fig. 1. The imaging 
+partition of old and 
+new systems.RPMB
+Bootloader
+Reserved
+Env
+Misc
+Conf
+Cache
+Boot Boot
+System Super
+Data Data0Save keys (such as attestation key and widevine key)
+Uboot
+Save the uboot environment variable
+Save the system boot identi/f_ier
+Save the key con/f_iguration
+Save the upgrade package
+Linux kernel partition
+System partition
+User data partition
+19AUG 2023

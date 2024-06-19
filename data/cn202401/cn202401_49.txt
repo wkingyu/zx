@@ -1,0 +1,89 @@
+共享码本随机接入有限块长信息理论极限分析 高俊园  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1随之增加 。此外 ，在给定用户载荷 、码长 、基站天线数和最
+大允许误差的情况下 ，与独立码本随机接入相比 ，Ka个活
+跃用户共享码本随机接入时所需的每比特能量较少 。这是因
+为当用户共享同一个码本时 ，在译码过程中只需搜索一个码
+本空间即可 ，因而支持 Ka个活跃用户可靠接入所需的每比
+特能量减少 ，且用户数越多 ，共享码本随机接入节省的每比
+特能量越多 。
+5 结束语
+面向未来  umMTC 场景中的巨连接 、零星活跃 、小包传
+输和低功耗的需求 ，本文围绕共享码本随机接入信息理论极
+限分析的关键科学问题 ，建立了非渐近域下大规模随机接入
+系统传输性能紧致的理论极限界 ，系统性地分析天线数 、码
+长、用户载荷 、发送功率 、平均每用户误差概率等参数之间
+的非渐近理论关系 。仿真结果证实了推导的非渐近理论界的
+紧致性 ，并且表明当活跃用户数量低于某一门限时 ，存在近
+似多用户干扰消除的效果 。此外 ，通过在基站配置大量天
+线，可以有效降低平均每用户误差概率 ，从而保证大量用户
+能够可靠地接入通信系统 。与独立码本随机接入相比 ，用户
+共享同一码本时数据译码所需搜索的空间较小 ，因此共享码
+本随机接入能够实现更高的能量效率 。本文建立的共享码本
+随机接入非渐近理论界对探索 umMTC 场景的性能极限具有
+重要意义 。
+参考文献
+[1] POLYANSKIY Y . A perspective on massive random-access [C]//
+Proceedings of IEEE International Symposium on Information 
+Theory (ISIT). IEEE , 2017 : 2523 -2527 . DOI : 10.1109 /
+ISIT.2017 .8006984
+[2] KOWSHIK S S , ANDREEV K , FROLOV A , et al . Energy efficient 
+coded random access for the wireless uplink [J]. IEEE 
+transactions on communications , 2020 , 68(8): 4694 -4708 . DOI : 
+10.1109 /TCOMM .2020 .3000635
+[3] KOWSHIK S S , ANDREEV K , FROLOV A , et al . Energy efficient 
+random access for the quasi-static fading MAC [C]//Proceedings 
+of IEEE International Symposium on Information Theory (ISIT). 
+IEEE , 2019 : 2768 -2772 . DOI: 10.1109 /ISIT.2019 .8849288
+[4] NGO K H , LANCHO A , DURISI G , et al . Massive uncoordinated 
+access with random user activity [C]//Proceedings of IEEE 
+International Symposium on Information Theory (ISIT). IEEE , 
+2021 : 3014 -3019 . DOI: 10.1109 /ISIT45174 .2021 .9518253
+[5] RAVI J , KOCH T . Scaling laws for many-access channels and 
+unsourced random access [C]//Proceedings of 55th Asilomar 
+Conference on Signals , Systems , and Computers . IEEE , 2021 : 
+1482 -1487 . DOI: 10.1109 /IEEECONF 53345 .2021 .9723116
+[6] FENGLER A , HAGHIGHATSHOAR S , JUNG P , et al . Non-
+bayesian activity detection , large-scale fading coefficient estimation , and unsourced random access with a massive MIMO 
+receiver [J]. IEEE transactions on information theory , 2021 , 67(5): 
+2925 -2951 . DOI: 10.1109 /TIT.2021 .3065291
+[7] POLYANSKIY Y , POOR H V , VERDU S . Channel coding rate in the 
+finite blocklength regime [J]. IEEE transactions on information 
+theory , 2010 , 56(5): 2307 -2359 . DOI: 10.1109 /TIT.2010 .2043769
+[8] FANO R M . Transmission of information [M]. New York : John 
+Wiley and Sons , 1961
+[9] PANG L H , ZHANG J , ZHANG Y , et al . Investigation and 
+comparison of 5G channel models : from QuaDRiGa , NYUSIM , 
+and MG 5G perspectives [J]. Chinese journal of electronics , 2022 , 
+31(1): 1-17. DOI: 10.1049 /cje.2021 .00.103
+[10] REEVES G , GASTPAR M C . Approximate sparsity pattern 
+recovery : information-theoretic lower bounds [J]. IEEE 
+transactions on information theory , 2013 , 59(6): 3451 -3465 . 
+DOI: 10.1109 /TIT.2013 .2253852
+[11] GAO J Y , WU Y P , SHAO S , et al . Energy efficiency of massive 
+random access in MIMO quasi-static Rayleigh fading channels 
+with finite blocklength [J]. IEEE transactions on information 
+theory , 2023 , 69(3): 1618 -1657 . DOI: 10.1109 /TIT.2022 .3220261
+作 者 简 介
+高俊园 ，上海交通大学电子信息与电气工程学院
+在读博士研究生 ；主要研究方向为大规模随机接
+入、有限块长信息理论分析等 。
+                       吴 泳 澎 ，上 海 交 通 大 学 教 授 ，IEEE Senior 
+Member ， IEEE ICC 、Globecom 、VTC 等国际
+著名会议技术委员会主席及委员 ；研究方向为空
+时无线通信理论与关键技术 ；主持国家自然科学
+基金 、国家重点研发计划子课题 ，负责中兴通
+讯、国家电网等的多个科研项目 ；获国家自然基
+金委优秀青年基金 、IEEE 通信学会亚太区杰出青
+年研究学者奖 、季寒冰青年教师奖 、中国科协
+“青年托举人才计划 ”和2014 德国洪堡学者等荣誉 ，博士论文 《多
+用户 MIMO 传输理论方法 》获首届中国通信学会 “全国信息通信领
+域优秀博士学位论文 ”奖，并获多个学术会议最佳论文奖 ；发表论
+文90余篇。
+张文军 ，上海交通大学教授 、数字电视国家工程
+研究中心首席科学家 、未来媒体网络协同创新中
+心主任 ；主要研究方向为视频编码与无线传输 、
+多媒体语义分析与广播 /宽带网络融合 ；是2006
+年发布的中国 DTTB 标准 （DTMB ）的主要贡献
+者；发表论文 130余篇，拥有专利 238项。
+45

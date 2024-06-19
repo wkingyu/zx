@@ -1,0 +1,67 @@
+congestion. 
+Accurate congestion control based on in-band 
+telemetry: In the traditional DCQCN, the 1-bit 
+ECN congestion indication fails to accurately 
+convey link congestion levels, hindering 
+accurate traﬃc control at the source. Therefore, 
+an in-band telemetry-based solution is 
+proposed to carry more path load information. 
+The intermediate device /f_ills available 
+bandwidth, queue depth, timestamps, and sent 
+byte counts in the telemetry packet. After 
+collecting telemetry date from all network 
+devices on the path, the end adjusts traﬃc 
+accurately in real time based on a trained and 
+optimized traﬃc scheduling algorithm. This 
+optimization aims to achieve high throughput, 
+low latency, and congestion-free end-to-end 
+path traﬃc. 
+Multi-Path Accurate Flow Control for 
+End-Network Collaboration
+The network side collaborates with the end side, 
+leveraging the RoCE network’s  equal-cost 
+multi-path routing (ECMP) and multiple load 
+balancing technologies to improve data 
+transmission eﬃciency.
+ECMP end-network collaboration noti/f_ication: The RoCE network in the AI model training data 
+center uses the fat-tree CLOS architecture and 
+has abundant ECMP paths. The RoCE controller 
+comprehends the network topology, and 
+synchronizes ECMP data to the end side to 
+optimize data transmission and improve 
+network eﬃciency.  
+Load balancing tailored to traﬃc characteristics: 
+The end selects load balancing technologies 
+based on traﬃc characteristics (e.g., mouse /f_low, 
+and elephant /f_low), routing packets through 
+packet or source port hashing, and adjusts 
+policies in real time to enhance data 
+transmission eﬃciency.
+As AI model parameters increase from 100 billion 
+to one trillion and AI chip computing power remains 
+limited, a 10,000-card intelligent computing cluster 
+network becomes inevitable. Therefore, accurate 
+end-network congestion control in large-scale 
+networking scenarios poses a pressing industry 
+challenge. ZTE’s innovative solution for RoCEv2 
+end-network collaboration aims to improve RoCE 
+network throughout, enhance AI model training 
+network performance, unlock additional AI 
+computing power, and boost model training 
+eﬃciency. 
+ 
+ 
+ 
+ 
+Throughput 
+ 
+ 
+ ECMP path noti/f_ication ECMP path noti/f_ication
+Multi-path accurate /f_low control 
+ Multi-path accurate /f_low control
+ 
+ 
+ 
+ 
+ JUN 2024
+ 23

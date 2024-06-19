@@ -1,0 +1,56 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Zhihao , ZHANG Yueping Research Papers   Differential Quasi -Yagi Antenna and Array
+3.1 Linear Arrays
+Fig. 7 shows the top views of the two - and four -element E -
+plane linear differential quasi -Yagi arrays . The differential 
+quasi -Yagi element is the same as the differential quasi -Yagi 
+antenna presented in the previous section . The distance be ‐
+tween the two adjacent elements is d.
+3.2 Coupling Mechanism
+The mutual coupling between elements needs to be consid ‐
+ered especially in the design of a phased array because strong 
+mutual coupling may cause scan blindness . The mutual cou ‐
+pling is determined by the transmission coefficient | S21| or |Sdd21| 
+of an array . DEAL et al .[7] determined the E -plane mutual cou ‐
+pling between two single -ended quasi -Yagi antennas imple ‐
+mented on the same substrate to be below –18 dB and , in most 
+cases , below –20 dB for the center -to-center spacing equal to 
+or greater than the half wavelength at 10 GHz[7]. They also made 
+an effort to identify the source of mutual coupling and con ‐
+cluded from their measurements of the testing structures that , 
+for a 15-mm -array spacing that corresponds to the half wave ‐
+length at the central frequency of 10 GHz , mutual coupling is 
+almost solely due to coupling through the air[7].
+To get a deeper insight into the coupling mechanism , we 
+have conducted a simulated study of mutual coupling between 
+two single -ended and two differential quasi -Yagi antennas , re‐
+spectively . First , we keep the drivers , the substrate , and the 
+truncated ground plane but remove all the other building 
+blocks . Fig. 8(a) shows the simulated electric field distribution on the top surface of the substrate for the case with one driver 
+fed by a lumped port and the other driver matched to a load at ▼Table 1. Single -ended and differential quasi -Yagi antennas
+Reference
+Ref. [7]
+This workBandwidth/%
+48
+73Gain/dBi
+4.6
+4.4Efficiency/%
+93
+94X-pol/dB
+−12
+−21FBR/dB
+12
+15
+FBR: front -to-back ratio      X -pol: cross -polarization
+▲Figure 7. Structures of the E -plane linear differential quasi -Yagi ar ‑
+rays of (a) two elements and (b) four elements▲Figure 8. Simulated electric field distributions : (a) only driver , (b) 
+driver and director , (c) driver , director and differential coplanar strip 
+(CPS ), (d) driver , director , CPS and balun , and (e) driver , director , 
+CPS and tapered coupled microstrip line (TCML )d
+(a)
+(b)d d d
+1 2 3 4(b)(a)
+(c)
+(d)
+(e)
+40

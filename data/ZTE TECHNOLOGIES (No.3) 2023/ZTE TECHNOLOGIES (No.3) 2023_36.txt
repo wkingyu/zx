@@ -1,0 +1,63 @@
+Fig. 1. Remote 
+driving scenario 
+of RTGC.
+has been widely adopted in port 
+scenarios. However, for the remote 
+driving of RTGC in the port, the 5G 
+network still faces the following 
+challenges: the large uplink 
+bandwidth caused by the backhaul 
+of multiple HD videos, the low 
+network latency and high reliability 
+required by the two-way transmitting 
+and receiving of control commands, 
+and the concurrent services caused 
+by the remote control of multiple 
+RTGCs at the same time. ZTE’s 
+port-oriented 5G remote driving 
+solution now is at the forefront of 
+the industry and has overcome the 
+above diﬃculties by introducing key 
+technologies and solutions such as 
+SuperMIMO, SuperCell, I-frame 
+collision elimination, frame 
+replication and elimination for 
+reliability (FRER), and local traﬃc 
+oﬄoad function (TOF) based on 
+NodeEngine, a base station with 
+embedded computing engine.
+The real-time backhaul of HD 
+videos of RTGC remote control 
+requires a network with large 
+uplink bandwidth capability. 
+Generally, there are two to four RTGCs deployed in a 400-meter 
+container area, and each RTGC has 
+four to six HD video cameras for 
+video backhaul. Therefore, there are 
+totally 24-channel HD videos at the 
+same time. Considering the probability 
+of I-frame collision, the maximum 
+uplink instantaneous rate can 
+reach over 250 Mbps. Taking the 
+bandwidth of 100M in the 3.5G 
+band of ITU as an example, an 
+uplink bandwidth of 180–200 Mbps 
+can be provided in practical 
+applications, which cannot fully 
+meet the transmission requirement. 
+ZTE’s SuperMIMO can eliminate cell 
+boundaries through the multiple-
+input multiple-output antenna 
+technology and improve spectrum 
+resource utilization through the space 
+division multiplexing technology. The 
+maximum cell capacity can be 
+increased by four times, eﬀectively 
+meeting the requirement for large 
+uplink bandwidth for HD video 
+backhaul of RTGC.
+The transmission of remote 
+control commands for RTGC 
+requires a network with very low 
+latency and very high reliability. 
+345G Fully-Connected Factory Special Topic

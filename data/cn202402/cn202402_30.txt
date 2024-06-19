@@ -1,0 +1,95 @@
+大模型训练技术综述 田海东  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2错流水也是异步的思想 。
+2） 轻量级 、细粒度任务调度
+将接口访问任务拆解为轻量级 、细粒度子任务可以实现
+局部并行 。例如 ：DeepFreeze[60]通过建立有向无环图实现分
+片和序列任务的重新组织调度 ，进而可以实现分层并行 ；
+Gemini[61]使用交错流水的方式进行接口访问任务调度 。文献
+[62]建立分层模型 ，并使用模拟的方法改进接口传输调度
+算法 。
+3） 检查点计划及存储策略
+关于检查点的生成频度 ，Mimose[63]等研究出一种 GPU
+内存在线估算器 ，可以预测给定激活张量的内存使用率输
+入，并生成一个检查点计划 ，有效避免 GPU 内存溢出问题 。
+模型训练状态的存储策略也会影响检查点效率 。在分布
+式训练中 ，可通过副本布局策略化来提升检查点的保存和读
+取效率 。Gemini[61]采用多副本的方式 ，在本地和远程机器的
+CPU 内存中维护检查点 ，并通过环状拓扑算法提高本地读取
+副本的恢复时间 。
+6 总结与展望
+本文按照大模型训练的一般流程 ，回顾和总结了大模型
+训练主要阶段的相关技术背景及要点 。随着大模型参数规模
+的不断增大 、多模态数据处理类型的扩展 ，大模型训练的各
+个阶段都存在较大的优化空间 。为进一步提升训练效率 ，我
+们认为后续还需重点展开以下几个方面的研究 ：
+1）以数据为中心 。数据的质量和数量对大模型的训练
+结果非常重要 ，这已经成为学术界和产业界的共识 。很多研
+究人员开始转向以数据为中心的研究 ，其主要目的是设法提
+升数据质量 ，增加数据数量 ，而不是过多地考虑模型结构 。
+这种转变在大模型领域尤其明显 。
+2）数据加载智能化和异构加速 。根据模型需求动态调
+整数据加载策略 ，并结合事务感知或应用感知的缓存预取策
+略，有助于加快数据加载过程 。此外 ，对于图像 、视频 、音
+频等非文本数据 ，如何结合专用集成电路 （ASIC ）或现场
+可编程门阵列 （FPGA ）等异构加速技术来有效提升数据预
+处理的效率 ，也是后续重要的研究方向 。
+3）网络通信领域定制 。针对大模型训练场景特征 ，融
+合CXL 等低延迟总线技术的发展 ，网络通信还需在新型网
+络拓扑 、流量工程优化 、互联总线协议领域定制等方面进行
+针对性优化 ，以更好地适配大模型训练网络的特点 。
+4）训练并行及自动化 。大模型的算法结构和规模正在
+快速迭代 ，如何充分利用有限的计算存储网络资源 ，通过多
+维度细粒度的并行拆分策略和卸载技术 ，实现高效的训练并行，是一个需要持续研究的主题 。未来 ，在用户给定模型和
+机器资源后 ，能够有效组合多种并行技术 ，自动帮助用户制
+定最优的并行策略 ，是分布式训练并行的终极目标 。
+致谢
+感谢中兴通讯股份有限公司熊先奎 、张景涛 、姚海东和朱
+炫鹏对本研究的帮助 ！
+参考文献
+[1] AWADA U , ZHANG J K , CHEN S , et al . Machine learning driven 
+latency optimization for Internet of things applications in edge 
+computing [J]. ZTE Communications , 2022 , 21(2): 40-52. DOI : 
+10.12142 /ZTECOM .202302007
+[2] CAI W B , YANG S L , SUN G , et al . Adaptive load balancing for 
+parameter servers in distributed machine learning over 
+heterogeneous networks [J]. ZTE Communications , 2023 , 21(1): 
+72-80. DOI: 10.12142 /ZTECOM .202301009  
+[3] ZHAO Z P , ZHAO Y L , YAN B Y , et al . Auxiliary fault location on 
+commercial equipment based on supervised machine learning [J]. 
+ZTE Communications , 2022 , 20(S1): 7-15. DOI : 10.12142 /
+ZTECOM .2022 S1002  
+[4] 韩炳涛 , 刘涛 , 唐波 . 深度学习的 10年回顾与展望  [J]. 中兴通讯技
+术, 2022 , 28(6): 75-84. DOI: 10.12142 /ZTETJ .202206013
+[5] 张振国 , 杨倩倩 , 贺诗波 . 基于深度学习的图像语义通信系统  [J]. 中
+兴通讯技术 , 2023 , 29(2): 54-61. DOI: 10.12142 /ZTETJ .202302011
+[6] 潘囿丞 , 侯永帅 , 杨卿 , 等. 大规模语言模型的跨云联合训练关键技
+术 [J]. 中 兴 通 讯 技 术 , 2023 , 29(4): 49-56. DOI : 10.12142 /
+ZTETJ .202304010
+[7] 曾炜, 苏腾, 王晖, 等. 鹏程·盘古：大规模自回归中文预训练语言模型
+及 应 用  [J]. 中 兴 通 讯 技 术 , 2022 , 28(2): 33-43. DOI : 10.12142 /
+ZTETJ .202202006
+[8] 韩旭, 张正彦 , 刘知远 . 知识指导的预训练语言模型  [J]. 中兴通讯技
+术, 2022 , 28(2): 10-15. DOI: 10.12142 /ZTETJ .202202003
+[9] ZHAO W Z , ZHOU K , LI J Y , et al . A survey of large language 
+models [EB/OL ]. (2023 -03-31) [2024 -02-25]. https ://arxiv .org/
+abs/2303 .18223
+[10] HERNANDEZ D , BROWN T , CONERLY T , et al . Scaling laws and 
+interpretability of learning from repeated data [EB/OL ]. (2022 -
+05-21)[2024 -02-25]. https ://arxiv .org/abs/ 2205 .10487
+[11] LEE K , IPPOLITO D , NYSTROM A , et al . Deduplicating training 
+data makes language models better [EB/OL ]. [2024 -02-25]. 
+http://arxiv .org/abs/ 2107 .06499
+[12] PENEDO G , MALARTIC Q , HESSLOW D , et al . The refinedweb 
+dataset for falcon llm : outperforming curated corpora with web 
+data, and web data only [EB/OL ]. (2023 -07-01) [2024 -02-25]. 
+https ://arxiv .org/abs/ 2306 .01116
+[13] LONGPRE S , YAUNEY G , REIF E , et al . A pretrainer ’s guide to 
+training data : measuring the effects of data age , domain 
+coverage , quality , &toxicity [EB/OL ]. (2023 -05-22) [2024 -02-
+25]. https ://arxiv .org/abs/ 2305 .13169
+[14] GAN R , WU Z , SUN R , et al . Ziya 2: data-centric learning is all 
+LLMs need [EB/OL ]. (2023 -05-22) [2024 -02-25]. https ://arxiv .
+org/abs/ 2311 .03301
+[15] CARLINI N , TRAMER F , WALLACE E , et al . Extracting training 
+26

@@ -1,0 +1,64 @@
+computing power, large video memory, high-speed 
+interconnection and high-performance concurrent 
+multiple storage are chosen to improve system 
+parallel operation rates, thereby boosting cluster 
+computing power. Additionally, the independently 
+developed DPU smart NIC provides a lossless network 
+with ultra-large bandwidth and ultra-low latency, 
+enhancing overall reliability and eﬃciency. 
+Regarding the resource management platform, 
+multiple heterogeneous hardware devices are 
+connected to meet eﬃcient resource management 
+needs for AI model training and inference. ZTE’s AI 
+resource management platform, TECS, provides job 
+scheduling and intelligent computing cluster 
+management, including computing enhancement 
+(such as vGPU technology), storage enhancement 
+(such as supporting high-performance /f_ile storage), 
+network enhancement (such as supporting integrated 
+communication technology), and cluster management 
+scheduling. 
+TECS is an enhanced product based on the original 
+self-developed general computing resource 
+management product, tailored for AI model training 
+and inference requirements. It can function separately 
+from the original product and integrate seamlessly to 
+achieve uni/f_ied management and orchestration of 
+general and intelligent computing, or can be 
+independently deployed to manage and orchestrate intelligent computing resources. 
+In product solution, ZTE has launched an all-in-one 
+(AIO) out-of-the-box training machine to accurately 
+meet the requirements of industry secondary training 
+and real-time inference service scenarios, as shown in 
+Fig. 2. This all-in-one machine integrates computing, 
+storage, network devices, and AI platform software, 
+supporting mainstream AI frameworks. It minimizes 
+costs for training and inference of private domain 
+models while lowering technical thresholds. This 
+means that users do not need complex deployment 
+and con/f_iguration procedures, and can be put into 
+operation quickly, achieving /f_lexible allocation of 
+training and inference resources.
+Security Is the Basis
+Among the three basic elements of AI—computing 
+power, algorithms, and data, computing power is the 
+core element and primary driver for the 
+comprehensive advancement and rapid application of 
+AI systems. Therefore, it is critical to provide secure 
+and reliable computing power. ZTE focuses on 
+developing intelligent computing power, striving to 
+establish multi-channel supply chains both 
+domestically and internationally, speci/f_ically tailored 
+to AI model training and inference scenarios. ZTE 
+provides a complete set of mature solutions based on 
+high-performance AI servers and IB switches sourced 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ JUN 2024
+15 

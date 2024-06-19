@@ -1,0 +1,55 @@
+大模型训练技术综述 田海东  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2大模型训练技术综述
+A Survey on Large Model Training Technologies
+田海东 /TIAN Haidong ，张明政 /ZHANG Mingzheng ，
+常锐/CHANG Rui ，童贤慧 /TONG Xianhui
+（ 中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202402004
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240419 .0912.002.html
+网络出版日期 ：2024 -04-20
+收稿日期 ：2024 -03-02
+摘要 ：实现高效训练已成为影响大模型应用普及的关键要素之一 。按照数据准备 、数据加载 、模型初始化及评估 、训练并行 、模型状态保存的
+一般训练流程 ，对大模型高效训练的主要技术进行分析和论述 。面对大模型规模的持续增长 、数据处理类型的扩展 ，现有大模型训练技术仍存
+在较大的优化空间 。认为未来大模型训练重点研究方向包括以数据为中心 、数据加载智能化和异构加速 、网络通信领域定制 、训练并行及自
+动化。
+关键词 ：大模型 ；数据准备 ；数据加载 ；模型初始化 ；模型评估 ；训练并行 ；训练网络 ；检查点
+Abstrac t:Achieving efficient training has become one of the key factors affecting the popularization of large model applications . The main 
+technologies of efficient training of large models are analyzed and discussed according to the general training process of data preparation , 
+dataloader , model initialization and evaluation , training parallelism , and model state preservation . In the face of the continuous growth of 
+large model scale and the expansion of data processing types , there is still a large room for optimization of existing large model training tech ⁃
+nologies . In the future , the key research directions of large model training include data-centric , intelligent dataloader and heterogeneous ac ⁃
+celeration , customization in the field of network communication , training parallelism and automation .
+Keywords :large model ; data preparation ; dataloader ; model initialization ; model evaluation ; training parallelism ; training network ; checkpoint
+引用格式 ：田海东 , 张明政 , 常锐, 等. 大模型训练技术综述  [J]. 中兴通讯技术 , 2024 , 30(2): 21-28. DOI: 10.12142 /ZTETJ .202402004
+Citation ： TIAN H D , ZHANG M Z , CHANG R , et al . A survey on large model training technologies [J]. ZTE technology journal , 2024 , 30(2): 21-
+28. DOI: 10.12142 /ZTETJ .202402004
+近年来 ，深度学习[1-5]领域取得了重大进展 ，特别是以
+ChatGPT 为代表的大语言模型 （下文统称大模型 ） ，在
+人机问答 、内容生成领域展示出了人工智能的强大威力 ，让
+人们看到了通用人工智能 （AGI）的曙光 。未来大模型有望
+成为一项引发新一代工业革命和促进社会发展的变革性技
+术。然而 ，大模型的训练对数据准备与预处理 、并行训练过
+程计算访存效率 、过程状态保存与故障恢复等方面都有着苛
+刻的要求 。如何实现大模型的高效训练 ，已成为学术界和工
+业界共同的研究热点 。本文中 ，我们将按照模型训练的一般
+流程 ，并聚焦主要训练过程 ，对大模型高效训练的主要技术
+进行分析和论述 。
+1 数据准备
+按照所能处理的数据类型 ，大模型可分为两类 ：语言类
+大模型[6-8]和多模态类大模型 。语言类大模型的文本数据来源不仅包括网页 、对话文本 、书籍等通用数据 ，还包含多种
+语言的语料库 、科技论文 、代码等专用数据 。多模态类大模
+型的数据一般来源于网页和专用数据集 ，常见形式是图片文
+本对 。语言类大模型训练数据的准备流程一般包括收集 、过
+滤、去重 、隐私去除 、分词 。在转化为向量数据后 ，相关数
+据被加载到图形处理器 （GPU）中进行训练[9]。而多模态类
+大模型则需要对图片 、视频 、语音等非文本的数据对象 ，先
+进行适当的解码 、缩放 、裁剪 、归一化处理 ，再通过特征提
+取将其转化为向量数据 。数据准备的主要方法如下 ：
+1）去重和过滤
+由于来源数据良莠不齐 ，大模型中会不可避免的引入噪
+声、冗余 、无关甚至有害的数据 ，有些数据还会涉及个人隐
+私。文献 [10]研究发现 ，反复重复一小部分数据可能会对系
+统性能造成巨大危害 。这是因为重复数据的训练会导致系统
+从零开始训练和微调性能变差 。所以删除重复的数据 ，可使
+21

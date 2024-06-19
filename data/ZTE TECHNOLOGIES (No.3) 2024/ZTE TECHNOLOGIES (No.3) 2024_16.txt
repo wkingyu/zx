@@ -1,0 +1,72 @@
+o date, AI has experienced three major 
+shifts and two downturns. In November 
+2022, OpenAI released ChatGPT and its 
+generative AI technology, employing 
+transformer algorithms and pre-trained AI models. 
+This propelled the third wave of AI development to 
+unprecedented heights, marking a turning point and 
+peak of excitement in AI models.
+The generative AI technology can create new 
+content, imitate human creativity and innovation, 
+and play an important role in numerous /f_ields, 
+driving the prosperity and advancement of AI. 
+Large-scale miracles are being achieved as bigger 
+models bring greater intelligence. As AI technologies 
+evolve, various industries will use AI to enhance 
+operational eﬃciency, create business value, and 
+move from a digital realm to a digital and intelligent 
+world. 
+Faced with opportunities and challenges in 
+generative AI technology, ZTE steadfastly maintains 
+its role as a driver of the digital and intelligent 
+economy, striving to be the ultimate AI company and 
+serve as a leading AI enterprise model. Additionally, 
+ZTE is committed to helping industries build 
+end-to-end intelligent computing infrastructure and 
+digital transformation solutions. Leveraging its 
+universal computing solution, ZTE has launched the 
+Nebula intelligent computing solution, guided by 
+openness, eﬃciency, intelligence, and security 
+concepts, and oriented towards training and inference scenarios. The solution spans intelligent 
+infrastructure, AI platforms, AI models, and 
+applications, empowering operators to build 
+intelligent computing centers and drive digital 
+intelligent transformation across industries (Fig. 1).
+Intelligent Computing Infrastructure: 
+Eﬃcient and Secure
+ZTE intelligent computing infrastructure layer, 
+including IDCs, AI computing, integrated storage, 
+lossless network, and resource management 
+platform, supports the construction of diverse and 
+multi-layered intelligent computing infrastructure. It 
+ranges from AI model training & intelligent computing 
+centers, hybrid training & intelligent computing 
+centers, to edge training integrated computers. Each 
+layer caters to speci/f_ic performance, cost, and service 
+needs in diﬀerent scenarios. This multi-layer design 
+enhances adaptability, /f_lexibility, and user choice.
+Eﬃciency Is the Priority 
+The cost of single AI model training is high, so an 
+eﬃcient intelligent computing infrastructure is 
+required. ZTE builds such infrastructure through 
+hardware, resource management, and product 
+solutions.  
+In hardware selection, processors with high 
+Chief Scientist of ZTE 
+Product PlanningWang Weibin
+Chief Architect of ZTE 
+CCN ProductLu Guanghui
+ZTE AI Full-Stack Intelligent 
+Computing Solution: 
+Empowering Various Industries
+T
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intelligent Computing Special Topic 
+ 14

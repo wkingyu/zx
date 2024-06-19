@@ -1,0 +1,76 @@
+Introduction to Low-altitude 
+Economy
+ow-altitude airspace typically refers to 
+the airspace within 1,000 meters from 
+the ground, and it may extend to 3,000 
+meters based on diﬀerent regional 
+characteristics and actual needs. Low-altitude 
+airspace has gradually transformed from a natural 
+resource into an economic resource. In the past, 
+although low-altitude airspace was accessible, 
+human entry was infrequent due to many 
+restrictions, and conventional methods to mark, 
+measure, and plan physical space were not 
+applicable. With the rapid development of 
+sensing, communication, positioning, digital and 
+intelligence technologies, low-altitude airspace 
+can now be fully digitized into computable 
+airspace. Under the framework of computable 
+airspace, intelligent machines can quickly process 
+complex data, making large-scale low-altitude 
+activities possible, thereby creating huge 
+low-altitude economic value.
+The development and expansion of 
+low-altitude airspace has not only signi/f_icantly 
+reduced the ground traﬃc pressure, but also 
+created a new industrial space with broader 
+applications and prospects. The low-altitude 
+economy, driven by urban air transportation, 
+drone distribution and logistics, urban drone 
+applications, and consumer and industrial drone 
+applications, has witnessed rapid growth, and is 
+poised to foster a variety of innovative 
+applications on a scale comparable to, or even 
+exceeding, that of the traditional transport industry. This will rede/f_ine the paradigm of work and 
+life, creating a new low-altitude industry ecosystem 
+that includes low-altitude manufacturing, 
+low-altitude operation, low-altitude protection and 
+comprehensive services. 
+Bolstered by the market and policies, China's 
+low-altitude economy has developed rapidly. 
+Notably, China secures a leading position in the 
+global civilian drone market, accounting for 70% 
+of the global market. The low-altitude economy is 
+predicted to  contribute 3 –5 trillion yuan to 
+China’s economy by 2025. It is becoming a new 
+economic growth opportunity for both China and 
+the world.
+ZTE’s Integrated Sensing and 
+Communication Solution
+Despite its broad prospects, the low-altitude 
+economy faces the challenge of insuﬃcient support 
+capabilities in low-altitude communication, sensing, 
+navigation, making eﬀective control and /f_light 
+services diﬃcult.
+For low-altitude communications, given the 
+enhanced intelligence of low-altitude aircraft, there 
+is a need for higher bandwidth communication to 
+support a wider range of /f_light data.
+For low-altitude sensing, the signal quality of 
+satellite navigation (such as Beidou Satellite and 
+GPS) is unstable due to the obstruction of buildings 
+in urban environments. Traditional ground radar has 
+high deployment costs and lacks the networking 
+capability. Communication base stations or other 
+auxiliary facilities are needed to improve the 
+accuracy of perception and positioning.
+ 
+ZTE’s Integrated Sensing and 
+Communication Solution Helps 
+Low-altitude Economy Take Oﬀ
+L
+RAN Solution 
+Manager, ZTEHai Zhenkun
+Chief Engineer of RAN 
+Product Planning, ZTEZhao Zhiyong5G-Advanced Special Topic 
+20 

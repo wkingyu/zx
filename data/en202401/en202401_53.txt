@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions    Special Topic
+tions such as in -flight Internet , flight information transmis ⁃
+sion, communication and navigation , improving the safety of 
+aircraft and the comfort of passengers . LEO satellites can also 
+cover marine areas and provide communication services for 
+ships at sea . This is of great significance for communication 
+between ships , remote monitoring and rescue . LEO satellites 
+can make up for the lack of communication infrastructure in 
+remote areas and provide people with communication services 
+such as telephone , Internet and data transmission . This is also 
+important for residents , researchers and rescue teams in re ⁃
+mote areas . Communication links between LEO satellites and 
+terminals usually face problems such as fading and multipath 
+interference[34]. In order to obtain lower delay and larger band ⁃
+width , fast beam training is very important to accurately point 
+the beam direction of the antenna towards the terminal , thus 
+enhancing the signal strength , improving the quality of the re ⁃
+ceived and transmitted signals , and further reducing the inter ⁃
+ference and improving the spectral efficiency . Meanwhile , 
+LEO satellite systems usually have multiple beams and can 
+provide services to multiple users at the same time , so the fast 
+multi -beam training algorithm has a wide range of application 
+prospects here as well .
+4 Simulation Results and Testbed
+We now use the simulation results to evaluate the perfor ⁃
+mance of the typical beam training methods previously pre ⁃
+sented in Section 3. It is worth stating that we focus on the 
+EMIB and HMB methods because the multi -beam scheme is 
+more efficient in terms of beam training overhead . The num ⁃
+ber of BSs and the operating frequency are set to K = 5 and 
+fc=28 GHz respectively , and the signal wavelength is λc=
+0.01 m. The planar antenna array of BS contains Nx=4, Nz=
+128 antennas , and the spacing between the antennas is dx=
+dz=λc/2. The reference SNR is γ=P0NxNzρ0
+r2
+0σ2 with ρ0 =
+-72 dB, P0=15 dBm, and σ2 = -70 dBm. And the achiev ⁃
+able rate in bit ∙s−1∙Hz−1 is given by R=log2(1+
+γ|fT
+BBFT
+RFg1|2).
+Fig. 7 plots the effect of SNR on the identification accuracy . 
+With the same simulation setup , we use EIMB training with 
+the near -field codebook and exhaustive training with the dis ⁃
+crete Fourier transform (DFT) codebook (“Exhaustive -DFT”) 
+as the baseline . Firstly , it can be seen that with increasing 
+SNR, the influence of noise becomes smaller and the identifi ⁃
+cation accuracy of all beam training methods gradually in ⁃
+creases ; under the exhaustive beam training , the accuracy 
+with the near -field codebook converges to 1, while that with 
+the far -field codebook is significantly lower , which confirms 
+the effectiveness of the designed codebook in near -field condi ⁃
+tions . In addition , to compare the performance of different 
+beam training methods , the performance of EIMB is quite lower compared with the exhaustive and HMB approaches 
+when utilizing near -field codebooks . Moreover , when the SNR 
+is relatively low , the identification accuracy is considerably 
+improved compared with EIMB training . However , it can be 
+noticed that as the number of multi -beams B decreases , the ac ⁃
+curacy gradually decreases , since the number of sub -beams R 
+increases as B decreases , which makes the leakage interfer ⁃
+ence between sub -beams have a greater effect on the identifi ⁃
+cation result .
+Fig. 8 plots the effect of different codebook sizes on the 
+beam training overhead . Beam training overhead is deter ⁃
+mined by the size of the space scanned by each beam training 
+algorithm . To meet the actual situation without affecting the re ⁃
+sults of the situation , increased single search overhead 
+weights and other parameters , such as the exhaustive algo ⁃
+rithm’s overhead , are proportional to the size of the codebook . 
+The exhaustive approach traverses the entire beam space and 
+▲Figure 8. Training overhead versus codebook size▲Figure 7. Success beam identification accuracy versus SNRDFT: discrete Fourier transform
+EIMB : equal interval multi -beamHMB : hash multi -beam
+SNR: signal -to-noise ratio
+EIMB : equal interval multi -beam HMB : hash multi -beamSNR/dBBeam identification accuracyHMB , B=16
+HMB , B=32
+HMB , B=64
+EIMB , B=16
+EIMB , B=32
+EIMB , B=64
+Exhuastive
+Exhuastive -DFT
+-15      - 10       - 5         0          5          10        15        20        25        301
+0.8
+0.6
+0.4
+0.2
+0
+Codebook size50  100 150  200 250 300 350 400 450 500Beam training overhead2 500
+2 000
+1 500
+1 000
+500
+0HMB , B=8
+HMB , B=16
+HMB , B=32
+EIMB , B=8
+EIMB , B=16
+EIMB , B=32
+Exhuastive
+49

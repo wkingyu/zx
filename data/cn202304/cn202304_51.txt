@@ -1,0 +1,89 @@
+通用在网计算系统架构及协议设计 姚柯翰  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4播SID和对应的 Function 等信息 。以中间系统 -中间系统协议
+（ISIS）为例 ，传递在网计算可以使用两种方式 。
+1）扩展 ISIS SRv 6协议中 Sub-TLV 字段
+SRv6 Locator TLV 用于发布 SRv6 Locator 以及该 Locator
+相关的 Endpoint SID 。Locator 具有定位功能 ，一般要在段路
+由域内唯一标识 ，Endpoint SID 用于标识网络中的某个目的
+节点 。
+ISIS的SRv6 Locator TLV 格式 如图 7所示。其中 ，Locator
+（variable ）表示发布的 SRv6 Locator ，长度可变 ；Sub-TLVs
+（variable ）可以根据类型不同 ，携带不同信息 ，长度可变 。
+因此 ，可以有方案 1：扩展 Sub-TLVs ，新增一种描述在
+网计算原语信息的报文结构 。其中 ，Type 字段表示在网计
+算原语类型 ，Length 字段表示 Value 长度 。Value 为交换机支
+持的在网计算原语补充信息 ，如果 Value 等于 0则无补充
+信息 。
+2）扩展一种新类型的 SRv6 Sub-TLV
+ISIS本身有多种 Sub-TLV 协议报文格式 ，分别用来传递
+不同信息 。其中 ，SRv6 Capabilities Sub-TLV 用于通告 SRv6能力 。SRv6 Capabilities Sub-TLV 的格式 如
+图8所示。
+因此 ，可以有方案 2：新定义一种用于
+传 递 在 网 计 算 原 语 能 力 的 Sub-TLV 类 型
+SRv6 INC Sub-TLV 。其中 ，Type 字段为网
+计算原语能力 ，Optional Sub-sub-TLVs 为
+交换机支持的在网计算原语 。
+4 在网计算发展的挑战
+1）网络设备硬件资源受限
+目前 ，可编程网络设备尚不能支持大
+规模或泛在的在网计算 ，主要原因在于可
+编程硬件片上资源受限 。例如 Tofino 交换芯片 ，其片上的静
+态 随 机 存 取 存 储 器 （SRAM ） 、 三 态 内 容 可 寻 址 存 储 器
+（TCAM ）存储空间约数十兆字节[6]，只能存储少量的带状态
+数据 。另外 ，分布式机器学习及高性能计算需要在网计算具
+备高精度浮点数处理能力 ，但目前可编程交换芯片只能支持
+整型数据处理 。
+2）跨设备资源管理和任务协同
+分布式系统中高并发 、大数据量的处理任务对在网计算
+资源提出挑战 ，这导致在网计算的加速性能有限 ，因此需要
+设计跨交换资源的管理机制以及任务跨设备的分解调度机
+制，以实现在网计算的规模扩展 。交换机资源如何池化以及
+如何利用控制器进行资源和任务协同 ，还有待进一步研究 。
+3）计算可靠性挑战
+在网计算在转发的同时要实现对数据的处理 ，这给传统
+的可靠性机制带来了挑战 。网络尽力而为的转发机制可能会
+造成在网计算结果错误 。例如 ，在网数据在聚合过程中会丢
+弃已聚合的数据包 ，只保留最后的聚合结果 ，传统的可靠性
+机制会将这一行为判断为丢包 。再如 ，在网计算设备可能由
+于资源不足或其他原因导致无法完成在网计算任务 ，可靠性
+机制需要能够灵活判断和计算 。不同的场景对于可靠性的要
+求不同 ，这给在网计算的发展带来了很大的挑战 。
+4）安全性挑战
+在网计算需要在网络转发节点终结一部分数据流并进行
+数据操作 ，这在一定程度上为网络引入了安全风险 。目前 ，
+在网计算的主要应用和设计聚焦在安全可控的网络场景中 。
+未来 ，面向通用泛在的在网计算应用场景 ，如何提升系统安
+全性 ，降低数据计算结果被篡改的风险成为挑战 。
+5 结束语
+本文分析了在网计算在多种应用场景下的共性能力 ，并图6 复合 Segment 使交换机同时支持转发和在网计算INC：在网计算      TLV ：类型、长度、值的组合
+图7 中间系统 -中间系统协议 SRv6 Locator TLVMTID ：多拓扑标识      TLV ：类型、长度、值的组合
+图8 中间系统 -中间系统协议 SRv6 Capabilities Sub-TLV 报文格式TLV：类型、长度、值的组合正常转发 Segment
+复合 Segment
+正常转发 Segment
+在网计算 SegmentLocator
+XXXFunction
+Forwarding FunctionAgreements
+XXXXX
+Locator
+XXX
+XXX
+XXXFunction
+Compound Function
+Forwarding Function
+INC FunctionAgreements
+XXXXX
+XXXXX
+Opt TLV Type
+➡
+Type
+Metric
+Flags
+LocSize
+Sub-tlv-lenLength
+Algorithm
+Locator (variable )
+Sub-TLV (variable )R R R R MTID
+Type
+Optional Sub-sub-TLVsLength Flags
+47

@@ -1,0 +1,89 @@
+072024/NO.05
+中兴通讯技术 ( 简讯 ) 
+表1  R19 TEI增强小课题
+编号
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+145GS enhancement on On-demand broadcast 
+of GNSS assistance data
+New WID on Indirect Network Sharing
+Minimize the number of Policy Associations
+New WID on Architecture support of Roaming 
+Value-Added Services
+WID: TEI19_SLUPiR Spending Limits for UE 
+Policies in Roaming scenario
+WID on enhancing NEF Parameter Provisioning procedure 
+with static UE IP address and UP security policy
+TEI19 WID on support for ProSe services in NPNs
+TEI19 on enabling Multiple Location Procedure for 
+Emergency LCS Routing
+New WID on Roaming traﬃc oﬄoading via 
+home-session breakout
+New WID: Deferred 5GC-MT-LR Procedure for Periodic Location 
+Events based NRPPa Periodic Measurement Reports
+5GS enhancement on QoS monitoring enhancement
+New WID on subscription control for reference 
+time distribution in EPS
+New WID on providing per-subscriber VLAN instructions 
+from UDM and DN-AAA
+New WID: TEI19_TPlmnNfSel; NF discovery and 
+selection by target PLMN支持LMF按基站请求来决定广播GNSS辅助数据
+支持间接网络共享
+通过签约控制是否建立UE策略关联和AM 策略管理
+支持漫游场景下根据终端类型来发送欢迎短信，
+以及支持基于签约的路由到第三方特定核心网
+支持在漫游场景中基于费用限制修改UE策略
+支持第三方通过NEF为用户配置静态UE IP地址信息和
+用户面安全策略
+NPN网络支持邻近服务（ProSe ）
+一个多位置过程能为多个LCS 客户端提供位置结果
+漫游场景下，如何选择部署在拜访网络（例如公有云）的H-UPF
+引入一种基于NRPPa周期性测量报告的周期性位置事件延迟的
+5GC MT-LR过程
+AMF配置基站的QoS监测能力并发送到SMF
+在EPS中支持基于签约的通过基站为用户提供参考时间服务
+UDM/DN-AAA增强以支持基于用户的VLAN处理配置
+漫游场景下在目标PLMN代理NF的发现立项名 研究内容以及支持家庭基站的FS_5G_Femto。这些新
+需求，主要为了解决运营商在实际5G网络部
+署中的新场景问题。
+在2024年 3月全会中，进一步通过了如下14
+个TEI（ technical enhancements and improve-
+ments） 19课题（只需要1 个全会周期的小课
+题），这些课题均为解决运营商在实际5G网络部
+署中的存在的新需求，如表 1所示。
+在R19的课题中，并没有包括前几个版本一
+直研究的热门课题，例如网络切片，定位业务，
+垂直领域相关的NPN、 TSN、5G-LAN等课题。这
+些课题相对来说标准定义已经比较完善，在3GPP
+内对于是否进一步增强尚未达成共识，后续将根
+据运营商部署这些功能之后所面临的实际需求再
+考虑进行增强。
+5G-Advanced在 R20的新需求和场景目前也在
+3GPP SA1讨论，2024年 3月全会通过了如下三个现有5G技术的进一步演进，这部分课题是
+R19的主要内容，例如支持IMS增强的
+FS_NG_RTC_Ph2、支持卫星接入增强的
+FS_5GSAT_ARCH_Ph3、支持XR业务增强的
+FS_XRM Ph2、支持UPF能力开放增强的FS_ 
+UPEAS_Ph2 、支持边缘计算增强的
+FS_eEDGE_5GC_ph3、支持AIML增强的
+FS_AIML_CN、支持消息业务的优先级处理
+增强FS_MPS4msg、支持无人机介入增强的
+FS_UAS_Ph3以及支持D2D增强的FS_5G_ 
+ProSe_Ph3 。这部分课题一些是针对R18 已
+经识别的需求但是没有时间研究，也有一些
+从其他工作组来的新需求，例如为了支持
+RAN侧 AI需要对网络侧功能进行增强。
+R19的全新需求，例如支持系统节能能力开
+放的FS_EnergySys、支持3GPP系统内分流的
+FS_MASSS、支持新的用户标识管理的FS_eUUI5

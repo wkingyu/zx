@@ -1,0 +1,71 @@
+大模型训练技术综述 田海东  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2[50] RAJBHANDARI S , LI C L , YAO Z W , et al . DeepSpeed-MoE : 
+advancing mixture-of-experts inference and training to power 
+next-generation AI scale [EB/OL ]. [2024 -02-25]. http://arxiv .org/
+abs/2201 .05596
+[51] HE J A , ZHAI J D , ANTUNES T , et al . FasterMoE : modeling and 
+optimizing training of large-scale dynamic pre-trained models 
+[C]//Proceedings of the 27th ACM SIGPLAN Symposium on 
+Principles and Practice of Parallel Programming . ACM , 2022 . 
+DOI: 10.1145 /3503221 .3508418
+[52] JIA Z H , ZAHARIA M , AIKEN A . Beyond data and model 
+parallelism for deep neural networks [EB/OL ]. [2024 -02-25]. 
+http://arxiv .org/abs/ 1807 .05358
+[53] ZHENG L M , LI Z H , ZHANG H , et al . Alpa : automating inter-and 
+intra-operator parallelism for distributed deep learning [EB/OL ]. 
+(2022 -01-28)[2024 -02-25]. https ://arxiv .org/abs/ 2201 .12023
+[54] 王卫斌 , 周建锋 , 黄兵 . ODICT 融合的网络 2030  [J]. 中兴通讯技术 , 
+2022 , 28(1): 47-56. DOI: 10.12142 /ZTETJ .202201011
+[55] KIM J , DALLY W J , SCOTT S , et al . Technology-driven , highly-
+scalable dragonfly topology [EB/OL ]. [2024 -02-25]. https ://
+pages .cs.wisc.edu/~markhill/restricted/isca 08_dragonfly .pdf
+[56] WANG W Y , GHOBADI M , SHAKERI K , et al . How to build low-
+cost networks for large language models (without sacrificing 
+performance )? [EB/OL ]. (2023 -07-22)[2024 -02-25]. https ://doi.
+org/10.48550 /arxiv .2307 .12169
+[57] GRAHAM R L , LEVI L , BURREDY D , et al . Scalable hierarchical 
+aggregation and reduction protocol (SHARP )TM streaming-
+aggregation hardware design and evaluation [ C]//International 
+Conference on High Performance Computing . Springer , 2020 : 
+41-59. DOI: 10.1007 /978-3-030-50743 -5_3
+[58] SAPIO A , CANINI M , HO C Y , et al . Scaling distributed machine 
+learning with In-network aggregation [EB/OL ]. [2024 -02-25]. 
+http://arxiv .org/abs/ 1903 .06701
+[59] MOHAN J , PHANISHAYEE A , CHIDAMBARAM V . CheckFreq : 
+fre-quent , fine-grained DNN checkpointing [EB/OL ]. [2024 -02-
+25]. https ://www .microsoft .com/en-us/research/uploads/prod/
+2020 /12/checkfreq-fast 21.pdf
+[60] NICOLAE B , LI J L , WOZNIAK J M , et al . DeepFreeze : towards 
+scalable asynchronous checkpointing of deep learning models 
+[C]//Proceedings of 20th IEEE/ACM International Symposium on 
+Cluster , Cloud and Internet Computing (CCGRID ). IEEE , 2020 : 
+172-181. DOI: 10.1109 /CCGrid 49817 .2020 .00-76
+[61] WANG Z , JIA Z , ZHENG S , et al . GEMINI : fast failure recovery in 
+distributed training with In-memory checkpoints [C]//
+Proceedings of the 29th Symposium on Operating Systems 
+Principles . ACM , 2023 : 364-381. DOI : 10.1145 /
+3600006 .3613145
+[62] MAURYA A , NICOLAE B , RAFIQUE M M , et al . Towards 
+efficient I/O scheduling for collaborative multi-level checkpointing [C]//Proceedings of 29th International Symposium 
+on Modeling , Analysis , and Simulation of Computer and 
+Telecommunication Systems (MASCOTS ). IEEE , 2021 : 1-8. 
+DOI: 10.1109 /MASCOTS 53633 .2021 .9614284
+[63] LIAO J J , LI M Z ,   SUN Q X , et al . Mimose : an input-aware 
+checkpointing planner for efficient training on GPU [EB/OL ]. 
+(2022 -09-06)[2024 -02-25]. https ://arxiv .org/abs/ 2209 .02478
+作 者 简 介
+田海东 ，中兴通讯股份有限公司先进计算存储
+架构师 、项目经理 ；主要从事计算存储系统架
+构演进 、近数据处理 、存储体系端侧优化等方
+向的研究 。
+张明政 ，中兴通讯股份有限公司先进计算存储算
+法工程师 ；主要从事人工智能深度学习 、感算融
+合等方向的算法研究 。
+常锐 ，中兴通讯股份有限公司先进计算存储架构
+师；主要从事大模型训推系统 、数据流支撑平台 、
+安全可信计算等方向的研究 。
+童贤慧 ，中兴通讯股份有限公司先进计算存储系
+统工程师 ；主要从事数据预处理 、安全可信计算 、
+对等系统等方向的研究 。
+28

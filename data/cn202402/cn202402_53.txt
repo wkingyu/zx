@@ -1,0 +1,88 @@
+低资源集群中的大语言模型分布式推理技术 冯文佼   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2过独创的适应性通信策略和显存管理方案 ，我们有效克服了
+带宽和显存限制 ，构建了一个高效推理框架 ，使得有限资源
+下的 LLM 推理成为可能 。此项成果推进了中国 AI的自主发
+展，为中国 AI产业的发展和全球技术多样性贡献了重要
+力量 。
+致谢
+感谢电子科技大学信息与通信工程学院赵舒心和熊彦旭
+硕士对本研究技术与实验部分的贡献 ！
+参考文献
+[1] OpenAI . ChatGPT [EB/OL ]. (2022 -12-30) [2024 -02-25]. https ://
+openai .com/blog/chatgpt
+[2] AMINABADI R Y , RAJBHANDARI S , AHMAD AWAN A , et al . 
+DeepSpeed-inference : enabling efficient inference of transformer 
+models at unprecedented scale [C]//Proceedings of SC 22: 
+International Conference for High Performance Computing , 
+Networking , Storage and Analysis . IEEE , 2022 : 1-15. DOI : 
+10.1109 /SC41404 .2022 .00051
+[3] NVIDIA . FasterTransformer [EB/OL ]. (2022 -03-20)[2024 -02-25]. 
+https ://github .com/NVIDIA/FasterTransformer
+[4] VASWANI A , SHAZEER N , PARMAR N , et al . Attention is all you 
+need [C]//Proceedings of the 31st International Conference on 
+Neural Information Processing Systems . ACM , 2017 : 6000 –
+6010 . DOI: 10.5555 /3295222 .3295349
+[5] LI Z H , ZHENG L M , ZHONG Y M , et al . AlpaServe : statistical 
+multiplexing with model parallelism for deep learning serving [EB/
+OL]. [2024 -02-25]. http://arxiv .org/abs/ 2302 .11665
+[6] Github . FlexFlow [EB/OL ]. [2024 -02-25]. https ://github .com/
+Flexflow/FlexFlow/tree/inference
+[7] MIAO X P , SHI C N , DUAN J F , et al . SpotServe : serving 
+generative large language models on preemptible instances [EB/
+OL]. [2024 -02-25]. http://arxiv .org/abs/ 2311 .15566
+[8] REN J , RAJBHANDARI S , AMINABADI R Y , et al . ZeRO-offload : 
+democratizing billion-scale model training [EB/OL ]. [2024 -02-
+25]. http://arxiv .org/abs/ 2101 .06840
+[9] RAJBHANDARI S , RUWASE O , RASLEY J , et al . ZeRO-infinity : 
+breaking the GPU memory wall for extreme scale deep learning 
+[EB/OL ]. [2024 -02-25]. http://arxiv .org/abs/ 2104 .07857
+[10] SHOEYBI M , PATWARY M , PURI R , et al . Megatron-LM : 
+training multi-billion parameter language models using model 
+parallelism [EB/OL ]. [2024 -02-25]. http ://arxiv .org/abs/
+1909 .08053 .pdf
+[11] HuggingFace . Hugging face accelerate [EB/OL ]. [2024 -02-25]. 
+https ://huggingface .co/docs/accelerate/index
+[12] LI Y J , PHANISHAYEE A , MURRAY D , et al . Harmony : 
+overcoming the hurdles of GPU memory capacity to train 
+massive DNN models on commodity servers [EB/OL ]. [2024 -
+02-25]. http://arxiv .org/abs/ 2202 .01306
+[13] HUANG C C , JIN G , LI J Y . SwapAdvisor : pushing deep learning beyond the GPU memory limit via smart swapping [C]//
+Proceedings of the Twenty-Fifth International Conference on 
+Architectural Support for Programming Languages and 
+Operating Systems . ACM , 2020 : 1341 –1355 . DOI : 10.1145 /
+3373376 .3378530
+[14] WANG L N , YE J M , ZHAO Y Y , et al . Superneurons : dynamic 
+GPU memory management for training deep neural networks 
+[C]//Proceedings of the 23rd ACM SIGPLAN Symposium on 
+Principles and Practice of Parallel Programmin g. ACM , 2018: 41–
+53. DOI: 10.1145 /3178487 .3178491
+[15] LUO L , NELSON J , CEZE L , et al . Parameter hub : a rack-scale 
+parameter server for distributed deep neural network training 
+[C]//Proceedings of the ACM Symposium on Cloud Computing . 
+ACM , 2018 : 41-54. DOI: 10.1145 /3267809 .3267840
+[16] PASZKE A , GROSS S , MASSA F , et al . Pytorch : an imperative 
+style , high-performance deep learning library [EB/OL ]. (2019 -
+12-03)[2024 -02-25]. https ://arxiv .org/abs/ 1912 .01703
+作 者 简 介
+冯文佼 ，电子科技大学在读硕士研究生 ；研究方
+向为分布式机器学习系统及其优化技术 、大模型
+分布式推理优化技术 。
+李宗航 ，电子科技大学在读博士研究生 、牛津大
+学和南洋理工大学访问学者 ；研究方向包括分布
+式人工智能 、联邦学习和大模型分布式计算 ；相
+关研究入选中国通信学会 2021 领先创新科技成
+果；发表论文 20余篇 ，授权中国发明专利 6项，
+出版学术著作 1部。
+                        虞红芳 ，电子科技大学教授 、博士生导师 ，信息
+与通信工程学院副院长 ；长期致力于智慧网络及
+应用研究 ；受邀在全球学术会议上做报告 10余
+次，担任 3个网络领域全球高水平期刊的副主
+编；获得 2016 年教育部自然科学奖二等奖 ，主
+持研发的 “跨数据中心高性能分布式机器学习系
+统GeoMX ”和“基于轻量级虚拟化的大规模网
+络创新平台 Klonet ”分别获中国通信学会 2021
+年未来网络领先创新科技成果奖 、2021 年网络 5.0创新科技成果
+奖；发表论文 100余篇；授权中国发明专利 30余项、美国发明专
+利2项，出版学术专著 4本。
+49

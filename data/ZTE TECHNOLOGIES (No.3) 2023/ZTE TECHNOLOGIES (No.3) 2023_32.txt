@@ -1,0 +1,74 @@
+he wave of digital economy in 
+China has led to an increase in 
+the proportion of domestic 
+industrial digitalization from 
+77% in 2016 to 81.5% in 2021. This highlights 
+the growing consensus that digital 
+transformation is indispensable for high-
+quality development of enterprises. However, 
+compared with developed countries such as 
+Germany where the proportion of industrial 
+digitalization is as high as 91.3%, China has 
+signi/f_icant room for growth and presents great 
+market prospects.
+Challenges
+In addition to the great development 
+opportunities, China’s industrial digitalization 
+also faces huge challenges. 
+The /f_irst challenge is related to the 
+understanding of digitalization and systematic 
+top-level design. When enterprises are 
+confronted with a large number of emerging 
+technologies and production system 
+innovations that diﬀer from the legacy 
+production processes, they have diﬀerent 
+perceptions of how to build digitalization and 
+form a digital economy. This makes it diﬃcult 
+to form a systematic construction idea and 
+top-level design.
+The second challenge is to connect 
+data silos. Enterprise digitalization requires 
+solving the problem of data and capacity 
+interoperability among multiple traditional 
+isolated systems, and ensuring the long-term 
+coexistence of the old information system with the new system during the transformation 
+process. This makes it more diﬃcult to 
+support the inherently complicated 
+reconstruction of enterprise information 
+systems. 
+The third challenge comes from the 
+ever-changing application requirements and 
+ineﬃcient development process. As we 
+know, enterprise digitalization requires the 
+development of a large number of new 
+applications. The traditional development 
+mode relies on professional software 
+engineers, which are costly and time-
+consuming. It is hard to adapt to the 
+changing business needs.
+The fourth challenge is using new 
+technologies and insuﬃcient personnel 
+capabilities. The rapidly evolving 
+technologies have brought technical barriers 
+to the digital transformation of enterprises. 
+Cloud, big data, AI, blockchain, and other 
+digital technologies are becoming more and 
+more complex, which require a large 
+amount of manpower and resources to 
+master them. This further increases the 
+diﬃculty of enterprise application 
+development and the potential cost of 
+exploring these technologies.
+Digital Nebula Solution
+ZTE has developed the Digital Nebula 
+solution which is based on its accumulated 
+experience in digital transformation and 
+exploration in large enterprises, typical 
+vertical industries, and complex urban “Digital Nebula” Boosts Digital 
+Transformation of Industries
+Vice General Manager of 
+ZTE Industry Digital 
+Solution Dept.Cui Zhuo
+Architect of ZTE Industry 
+Digital Solution Dept.Ren JunT
+305G Fully-Connected Factory Special Topic

@@ -1,0 +1,55 @@
+面向 6G的无线接入网络数字孪生技术  段向阳  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3面向 6G的无线接入网络
+数字孪生技术  
+Digital Twin Technology for Wireless Access Network Oriented to 6G
+段向阳 /DUAN Xiangyang1，2，康红辉 /KANG Honghui1，2，
+吕星哉 /LYU Xingzai1，2，芮华/RUI Hua1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia Tech ⁃
+nology , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202303007
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230620 .1345.006.html
+网络出版日期 ：2023 -06-20
+收稿日期 ：2023 -04-25
+摘要 ：未来 6G网络不但可以为数字孪生技术提供数据传输 、高可靠性连接等基础能力 ，自身也可以利用数字孪生技术来实现网络智能化 。从数
+字孪生技术的原理及 6G网络的需求出发 ，研究了数字孪生无线网络的架构 、关键技术和应用等 ，探讨了数字孪生技术在 6G无线接入网络中的
+作用。认为数字孪生无线网络可成为 6G网络的基础性架构 ，也是 6G网络智能化的关键使能因素 。
+关键词 ：数字孪生 ；6G；人工智能 ；大数据 ；无线信道
+Abstrac t:The future 6G networks can not only provide basic capabilities such as data transmission and high-reliability guarantee for digital 
+twin technologies , but also utilize digital twin technologies to achieve network intelligence . Focusing on the principles of digital twin tech ⁃
+nologies and the requirements of 6G networks , the architecture , key technologies , and applications of digital twin wireless networks are 
+studied , and the role of digital twin technologies in 6G wireless access networks is analyzed . It is believed that digital twin wireless net ⁃
+works will become the fundamental architecture of 6G networks , and will be the key factor of the intelligentization of 6G networks .
+Keywords :digital twin ; 6G; artificial intelligence ; big data ; wireless channel
+引用格式 ：段向阳 , 康红辉 , 吕星哉 , 等. 面向 6G的无线接入网络数字孪生技术  [J]. 中兴通讯技术 , 2023 , 29(3): 32-37. DOI :10.12142 /
+ZTETJ .202303007
+Citation : DUAN X Y , KANG H H , LYU X Z , et al . Digital twin technology for wireless access network oriented to 6G [J]. ZTE technology jour ⁃
+nal, 2023 , 29(3): 32-37. DOI:10.12142 /ZTETJ .202303007
+1 数字孪生无线网络发展现状
+数字孪生技术能够将物理世界的物 、人、事及其互动联
+系在数字世界中建立虚拟映像 ，是近年来的革命性技
+术。在数字域构造一个物理对象或系统的虚拟数字孪生体 ，
+可以有效地模拟 、优化和预测对应物理实体的行为和性
+能[1]。目前数字孪生技术已在多个垂直行业实现落地应用 ，
+如自动驾驶 、数字城市 、数字矿山 、数字工厂等 。在电信领
+域，无线通信网络不仅可以为数字孪生在各个领域的应用提
+供泛在高速的连接 ，也可以借助数字孪生技术来实现新架
+构、新流程和新服务[2-3]。
+在传统电信网络中 ，解决网络 “规建维优 ”问题的思路
+是：使用物理公式对网络环境进行简化 ，设置约束条件 ，将
+问题建模为一个数学优化问题来求解 ，或者用数值近似方法来逼近最优解 。但随着网络日趋复杂 ，网络参数数急剧增
+加，在现网路测评估中使用常规算法变得越来越不可行 。当
+前运营商在网络 “规运维优 ”中面临诸多困难 ：在外场特别
+是To B 场景中 ，环境多变 ，运维费时费力 ，故障诊断和分
+析困难 ；新技术效果和理论与仿真差距大 ，难以提前实地验
+证，落地部署缓慢 ；同时数据被封闭在不同网元上 ，形成无
+数“数据孤岛 ” ，难以汇聚为大数据以发挥其价值 。
+未来的 6G网络显然不能再采用传统思路 ，而是要采用
+以人工智能为核心驱动力的网络 “规建维优 ”方案 。人工智
+能驱动方案避免了数学建模的抽象性转换问题 ，更能满足现
+网需求 ，可通过大规模神经网络计算来快速给出合理决策 。
+这样的系统首先需要一个和现网十分接近的数字模型来为人
+工智能提供输入数据 ；其次 ，由于人工智能结果的不可解释
+32

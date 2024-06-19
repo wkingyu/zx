@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Research Papers   Massive Unsourced Random Access Under Carrier Frequency Offset
+multiple -input and multiple -output (MIMO ) technology pro ‐
+vides high spatial resolution within the same time/frequency 
+resource to increase spectral efficiency . Different from addi ‐
+tive white Gaussian noise (AWGN ) channels , it requires chan ‐
+nel estimation for detection under MIMO fading channels , 
+forming URA a joint AD and CE (JADCE ) problem that is con ‐
+sidered as a multiple measurement vector (MMV ) problem and 
+solved by CS algorithms like approximate message passing 
+(AMP )[4]. Leveraging channel structural sparsity in the virtual 
+angular domain , Ref. [5] presented a performance gain by per ‐
+forming AD at the spatial domain and CE at the angular do ‐
+main . Promoting the CCS -based URA to the massive MIMO 
+scenario , the work of Ref . [10] introduced a covariance -based 
+paradigm and proposed a maximum likelihood decoder esti ‐
+mating large -scale fading coefficients (LSFCs ) for AD . Ref . 
+[11] further promoted the case of independent and identically 
+distributed (i.i.d.) channels considered in Ref . [10] to the case 
+of correlated channels . Leveraging the rich spatial information 
+reserved in multiple antennas , Refs . [12–14] captured the 
+strong similarity/correlation between slot -wise user channels 
+and proposed uncoupled URA transmission schemes . In Refs . 
+[13] and [14], the authors considered the angular domain 
+MIMO channel and proposed an expectation -maximization -
+aided generalized approximate message passing algorithm 
+with a Markov random field support structure (EM -MRF -
+GAMP ) for JADCE . The similar statistics of slot -wise channels 
+of each user couple the split message fragments , which elimi ‐
+nates the need for redundancies to improve the coding rate . 
+Accordingly , message stitching takes on the form of a cluster ‐
+ing decoder , recognizing slot -distributed channels of each ac ‐
+tive user based on similarity . Eliminating the need for redun ‐
+dancies in CCS , the uncoupled URA schemes[12–14] achieve 
+higher coding rates and spectral efficiency .
+Unfortunately , all the above works consider an ideal sce ‐
+nario where users are perfectly synchronized with the BS . 
+However , caused by the mismatch between the carrier frequen ‐
+cies of the local oscillators at users and the BS , carrier fre ‐
+quency offset (CFO) inevitably exists . CFO corrupts the phase 
+of channel measurements and imposes significant contamina ‐
+tion on the JADCE results . Few works in the context of mas ‐
+sive access address the issue of CFO estimation . In Ref . [15], 
+the authors adopted a Lasso -based method for CFO estima ‐
+tion, but only focused on the AD results . The authors of Ref . 
+[16] introduced a CS method for JADCE under CFO in the 
+framework of orthogonal frequency division multiple access 
+(OFDMA ). The key idea is to expand the measurement matrix 
+with a finite number of discrete frequency offsets sampled in 
+the possible region . The JADCE problem as a generalized 
+MMV problem with structured sparsity is then solved by the 
+proposed structured -GAMP algorithm . However , the CFO esti ‐
+mation in Ref . [16] is discrete , and the measurement matrix 
+size will increase accordingly in URA applications , resulting 
+in greater computational complexity . To our knowledge , no ex ‐isting work has discussed URA under CFO .
+In this paper , confronted with the issue of CFO , we formu ‐
+late URA as a JADCE problem with a bilinear signal detection 
+structure . We consider the MIMO channel in the angular do ‐
+main to promote the sparsity of the CS problem . A novel CS al ‐
+gorithm termed Markov -chain -aided parametric bilinear gener ‐
+alized approximate message passing (MC -PBiGAMP ) is pro ‐
+posed for JADCE , which captures the clustered sparsity struc ‐
+ture of the angular domain channel . An uncoupled transmis ‐
+sion design for URA is then employed to reduce system com ‐
+plexity . With messages divided for slotted emitting , data list 
+reconstruction is conducted in the form of a clustering decoder 
+leveraging unique channel statistics . Simulation results show 
+that the proposed method outperforms state -of-the-art ap ‐
+proaches in terms of JADCE and reaches reliable URA system 
+performance .
+The rest of the paper is organized as follows . The URA sys ‐
+tem model is given in the next section . In Section 3, the MC -
+PBiGAMP algorithm is proposed for JADCE under CFO . 
+Then , the uncoupled URA transmission design of low com ‐
+plexity is discussed in Section 4. Numerical results are pre ‐
+sented in Section 5, followed by concluding remarks drawn in 
+Section 6. Throughout this paper , the j-th column and i-th row 
+of matrix X are denoted by xj and xi,:, respectively , and the 
+(i, j)-th entry of X is represented by xi,j ; (∙)T, (∙)*, and (∙)H 
+stand for the conjugate , transpose , and conjugate transpose , re‐
+spectively . Denote x the Euclid norm of vector x, and ∙2 
+and ∙F represent the the l2-norm and the Frobenius norm , re‐
+spectively . For an integer X>0, the shorthand notation [X] 
+stands for the set {1,2,⋯, X}. Finally , CN(x;x̂, μx) signifies 
+the complex Gaussian distribution of a random variable x with 
+mean x̂ and variance μx.
+2 System Model
+In this paper , we consider an uplink transmission scenario 
+where Ka active users communicate to a single BS equipped 
+with a uniform linear array (ULA ) of M half -wavelength 
+spaced antennas . The channel h͂
+k∈CM between the k-th user 
+and the BS is described on a geometric basis as[5]
+h͂
+k=ρk∑l=1Lgk,le(θk,l), (1)
+where ρk is the LSFC which follows the standard Log -distance 
+path loss model as log10ρk=-128.1-37.6log10(Dk) with dis ‐
+tance Dk measured in km , gk,l~CN(0, 1) is the complex path 
+gain of the l-th path , θk,l∈[-π/2, π/2] is the angle of arrival 
+(AOA ), and e(θk, l) is given by
+e(θk, l)=1
+M[1, e-jπsinθk,l,⋯, e-jπ(M-1)sinθk,l]T
+. (2)
+The spatial domain channel can be transformed to the angu ‐
+46

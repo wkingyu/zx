@@ -1,0 +1,88 @@
+and intelligent 5G industrial gateway are 
+based on the carrier-grade TECS Cloud 
+Foundation (TCF), supporting on-demand 
+deployment of third-party industrial 
+applications such as manufacturing 
+execution system (MES), warehouse 
+management system (WMS), supervisory 
+control and data acquisition (SCADA) and 
+cloud-based programmable logic controller 
+(PLC). The 5G /f_ield network achieves the 
+shortest path and optimal architecture 
+from production devices to the platform, 
+deeply integrates with OICT, and creates a 
+closed-loop of business operations 
+between production devices.
+Native deterministic network capabilities:  
+The 5G /f_ield network natively supports 
+end-to-end deterministic network capabilities 
+such as URLLC enhancement, 5G LAN, time 
+sensitive network (TSN), frame replication 
+and elimination for reliability (FRER), board/
+NE/link backup, and high-precision indoor 
+positioning. It can provide a deterministic 
+performance guarantee for core production 
+operations such as industrial control.
+Lightweight equipment and simplified 
+networking:  The lightweight 5G core network 
+i5GC is based on carrier-grade 5GC and only 
+includes essential 5G network functions. It 
+adopts a uni/f_ied virtualized network function 
+(VNF) design and simpli/f_ies the internal 
+communication mechanism, requiring only a 
+single server at its simplest con/f_iguration. 
+The industrial base station and intelligent 
+industrial gateway achieve high integration, hyper-convergence, and industrial-grade 
+high reliability. With end-to-end 5G LAN 
+Layer 2 communication capabilities, the 5G 
+network provides simpli/f_ied networking 
+where “devices hop onto the platfrom” 
+without the  need for deploying and 
+con/f_iguring tunnel devices, seamlessly 
+connecting or smoothly replacing 
+traditional wired production networks.
+Multi-protocol one-stop access:  The industrial-
+grade intelligent 5G industrial gateway 
+SmartEdge 6100 supports rich access modes 
+such as RS-485/232, CAN, Ethernet or WiFi, 
+as well as a variety of industrial protocols 
+such as CANBus, Modbus, EtherCAT, OPC UA, 
+and S7 Comm, which can seamlessly connect 
+with diﬀerent types of industrial equipment.
+Free from planning, debugging and O&M: 
+Customers can be free from network 
+planning through 3D laser environmental 
+survey, 3D modeling and business-oriented 
+network pre-planning. They can be free 
+from network debugging through factory 
+pre-installed software version, out-of-the-
+box on site, one-click modi/f_ication, and 
+hour-level commissioning. They can 
+also be free from network O&M through 
+service-oriented terminal and service 
+supervision, visual presentation, automatic 
+maintenance and optimization.
+Application and Practice
+The 5G /f_ield network solution is applicable to 
+the construction of 5G fully-connected factories 
+Fig. 1. 5G /f_ield 
+network solution.
+Production
+line/shop/f_loor
+5G CPE
+APP
+TCF...pRRUOT-i5GCPrivate cloud Operator 5GC
+pRRU
+RRU/AAU5G industrial gateway
+5G modules 5G field networkTCFAMF SMF UPF PCF UDM ...
+TCFNR IDOS vPLC IMS iMES ...
+5G industrial
+base station
+PLC SwitchData acquisition
+Machine vision inspection
+PLC control
+AGV schedulingSwitch PLC
+Sensor/
+actuatorIO module
+AGV Unmanned forkliftIndustrial camera
+15JUN 2023

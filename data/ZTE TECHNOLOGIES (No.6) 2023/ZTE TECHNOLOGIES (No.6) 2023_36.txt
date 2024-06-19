@@ -1,0 +1,80 @@
+igital transformation is 
+accelerating across numerous 
+industries, and there is a 
+growing trend towards building 
+robust data networks. The rapid adoption 
+of cloud computing, big data, and Internet 
+of things (IoT) is fueling an explosive growth 
+in data traﬃc. The traditional traﬃc models 
+are evolving in both operator networks 
+and enterprise campuses. As southbound 
+and northbound traﬃc steadily rises, 
+eastbound and westbound traﬃc is also 
+soaring as a major traﬃc mode. The existing 
+10GE network architecture is inadequate 
+to accommodate these traﬃc changes, 
+making 100GE and multi-100GE network 
+convergence the mainstream choices. 
+Core/aggregation switches play an 
+increasingly important role in the network. 
+They are responsible for connecting a large 
+number of access-layer devices, handling 
+the convergence of northbound and 
+southbound user traﬃc, and exchanging 
+a great deal of eastbound and westbound 
+traﬃc. This presents unprecedented 
+challenges for device performance. 
+Scalability, reliability, and security are also 
+key indicators that users consider when 
+evaluating aggregation-layer devices. 
+ZXR10 C89E is a /f_lagship high-end 
+core switch developed by ZTE for 
+ultra-broadband networks. It can be 
+widely used as a campus core, data center 
+ 
+New-Generation High-End Switch 
+ZXR10 C89E: Facilitating Digital 
+Transformation of Enterprise Campus
+Wireline Product 
+Planning Manager, ZTEWen PingD
+ 
+ (DC), or metropolian area network (MAN) 
+aggregation switch in scenarios such as 
+telecommunications networks, campus 
+networks, medical networks, government 
+networks, energy networks, and /f_inancial 
+networks. This switch is designed to build 
+a 100GE-class ultra-high-bandwidth data 
+network for customers.
+The ZXR10 C89E series switch adopts a 
+large-capacity, fully distributed modular 
+design and oﬀers high-density full-wirespeed 
+solutions for GE, 10GE, and 100GE ports, 
+catering to the demands of multi-layer 
+link bandwidth. It delivers comprehensive 
+support for perfect QoS, all-round security 
+protection, and multi-service transport, 
+enabling users to construct an eﬃcient, 
+intelligent, and reliable network. The series 
+consists of three types of products: ZXR10 
+C89E-4, ZXR10 C89E-8, and ZXR10 C89E-12, 
+each with varying capacity. For speci/f_ic 
+details, please refer to Table 1. 
+CLOS Architecture to Signi/f_icantly 
+Increase Forwarding Eﬃciency
+ZXR10 C89E employs a CLOS architecture 
+that incorporates in-house non-blocking 
+switching chips, a distributed switching 
+design, and multiple switching planes to 
+maximize data forwarding eﬃciency. It 
+utilizes a cell switching mechanism to split 
+a data packet into multiple equal-length cells, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+34 

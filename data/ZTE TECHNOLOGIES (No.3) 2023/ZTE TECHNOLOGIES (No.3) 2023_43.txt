@@ -1,0 +1,90 @@
+unmanned overhead travelling crane 
+in hot-rolling, cold-rolling, and silicon 
+steel production shopfloors. The 
+on-board PLC is connected to 
+the warehouse management system 
+through 5G, and the HD videos 
+from inside the factory are transmitted 
+back to the centralized control room in 
+real time, enabling unmanned and 
+automatic control of the overhead 
+travelling crane. This has greatly 
+improved the safety and overall 
+eﬃciency of production. In the future, 
+ZTE’s 5G computing power base for 
+industrial control will also be applied 
+in more core production fields such as 
+smart molten steel transport and 
+unmanned stacker-reclaimers.
+WISCO Model Leads Intelligent 
+Digital Transformation of Steel 
+Industry
+Under the guidance of 5G full-
+connected factory construction, WISCO, 
+a leading enterprise in the steel industry 
+in China,  is continuously strengthening 
+the penetration of 5G technologies in 
+the core production field. They are 
+moving from single-point scenarios 
+to systematic and comprehensive 
+applications in production lines, 
+shopfloors, campuses, and enterprises.  
+ZTE will collaborate with Wuhan 
+Unicom to further improve the 
+end-edge-cloud-network integration 
+capability of the 5G computing power 
+base for industrial control. They will explore 
+more core production scenarios of WISCO 
+and build an industry benchmark for 5G 
+fully-connected factory. The model of 
+WISCO will also be applied to more steel 
+companies, facilitating the intelligent 
+digital transformation of the steel 
+metallurgy industry and promoting the 
+industry’s long-term high-quality 
+development.data can be oﬄoaded and processed 
+locally in the shopfloor through the 
+NodeEngine base station with a built-
+in computing engine, achieving the 
+integration of "network" and “service”.
+The IDOS R88 is an intelligent digital 
+O&M portal for enterprise users. It is a 
+lightweight, plug-and-play, end-to-
+end, intelligent, and minimalistic O&M 
+system that provides end-to-end 
+visual monitoring of service scenarios, 
+including the performance data of the 
+entire network, system fault alarms 
+and SLA assurance. The IDOS R88 
+works with the NodeEngine base 
+station with a built-in computing 
+engine to realize the integration of 
+cloud and network within the private 
+network of WISCO. This enables fast 
+deployment without the need for 
+additional hardware.
+5G Brings Infinite Possibilities 
+In November 2022, China's 5G+ 
+Industrial Internet Conference was 
+held in Wuhan, Hubei Province. The 
+conference was jointly hosted by the 
+Ministry of Industry and Information 
+Technology and the Hubei Provincial 
+Government with the theme of 
+"Integrating Everything with Digital 
+Intelligence to Create the Future". It 
+showcased the latest achievements of 
+China's integrated development of the 
+5G+ industrial Internet. The "unmanned 
+application of WISCO based on 5G 
+industrial control private network" jointly 
+built by ZTE and Wuhan Unicom with 
+WISCO was selected as a typical 
+application example at the conference. 
+ZTE’s 5G computing power base 
+for industrial control promotes the 
+integration of IT, CT and OT while 
+meeting the high reliability requirements 
+of industrial control. It has achieved the 
+large-scale implementation of the 
+41JUN 2023

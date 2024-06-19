@@ -1,0 +1,98 @@
+support visual data processing services. At 
+present, the machine vision services in the 
+on-site network require the addition of 
+dedicated industrial computers and servers, 
+resulting in the complexity of on-site 
+networking.
+To address these issues, industrial base 
+stations provide an integrated computing 
+and network solution that decouples the 
+computing and I/O of PLCs through the 
+virtualization technology (Fig. 1). This 
+allows the PLCs, machine vision, big data, 
+and other services to share the computing 
+platforms based on general hardware 
+computing power. Additionally, the PLC IO 
+function can be extended to the industrial 
+gateway, which, together with the intrinsic 
+determination capability of industrial base 
+stations, normalizes the IT and OT networks 
+to achieve /f_lat networking on the site. This 
+facilitates collaboration and interaction of 
+on-site devices, achieving multi-service 
+integration and collaboration.
+Conclusion
+Driven by policies and technologies, 
+there is a growing trend towards the 
+convergence and normalization of OT and 
+IT in the on-site network /f_ield. ZTE's 5G 
+Binjiang Factory in Nanjing has been 
+exploring the application of the 5G 
+industrial /f_ield network solution in intelligent manufacturing. On the QCell 
+assembly line, an on-site network service 
+platform has been built using the industrial 
+base station solution and the 5G industrial 
+gateway. This platform enables uni/f_ied 
+access management of southbound devices 
+and buses in the OT domain, and IT 
+services such as virtual PLC runtime 
+environment and computer vision 
+detection. This platform also provides 
+machine vision applications, including the 
+logic control of the manufacturing line and 
+electronic fence, as well as northbound 
+data interface services.
+The 5G industrial base station solution 
+makes full use of the bene/f_its of 5G 
+networks and address issues such as many 
+layers of industrial Ethernet networks, 
+many fault points, and service adjustment 
+diﬃculty. This solution enables wireless PLC 
+and allows production control to shift from 
+PLC local multi-point, and discrete 
+management to centralized and integrated 
+management. It facilitates the transition of 
+business logic from the non-compatible 
+and closed ecological mode of traditional 
+PLC manufacturers to the software-based 
+and open ecological mode of cloud-based 
+PLC. Thus, the industrial site network 
+evolves from silos and OT local control to 
+OICT integration that allows for /f_lexible 
+manufacturing and digital and intelligent 
+production.Fig. 1. Industrial 
+base station 
+solution diagram.
+5G one-stop field network Traditional PLC industrial control
+5GC
+Field 1
+Field 1Industrial
+computer SCADA/
+HMISCADA/
+HMI
+Industrial switch
+PLC cabinet: PLC+I/O PLC cabinet: PLC+I/O PLC cabinet: 
+I/O serial port 
+is reserved5G industrial
+gatewayCloud PLC
+@Industrial
+base station
+Industrial
+computer
+Industrial switchField N5GC vPLC
+RunTime
+RT OS NRT OS
+TCF cloud foundationIDESCADA/
+MES/WCS
+(option) Switch (GE)  MES/WCS
+Sensor Executor Robot  Converter
+...
+Sensor Executor Robot  Converter
+...
+Sensor Executor Robot  Converter...5G industrial
+gatewayField N
+PLC cabinet: 
+I/O serial port 
+is reserved
+Sensor Executor Robot  Converter...
+19JUN 2023

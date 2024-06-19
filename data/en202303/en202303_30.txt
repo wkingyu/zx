@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3YU Junpeng , CHEN Yiyu Special Topic   A Practical Reinforcement Learning Framework for Automatic Radar Detection
+[14] HAARNOJA T , ZHOU A , ABBEEL P , et al . Soft actor -critic : off -policy maximum 
+entropy deep reinforcement learning with a stochastic actor [EB/OL ]. (2018 -08-08) 
+[2023 -04-16]. https ://arxiv .org/abs/ 1801 .01290
+[15] FUJIMOTO S , VAN HOOF H , MEGER D . Addressing function approximation er ‐
+ror in actor -critic methods [C]//International Conference on Machine Learning . 
+PMLR , 2018 : 1587–1596
+[16] FUJIMOTO S , MEGER D , PRECUP D . Off -policy deep reinforcement learning 
+without exploration [EB/OL ]. (2019 -08-10) [2023 -04-16]. https ://arxiv .org/abs/
+1812 .02900
+[17] KUMAR A , FU J , TUCKER G , et al . Stabilizing off -policy Q -learning via boot ‐
+strapping error reduction [EB/OL ]. (2019 -11-25) [2023 -04-16]. https ://arxiv .org/
+abs/1906 .00949
+[18] NACHUM O , DAI B , KOSTRIKOV I , et al . AlgaeDICE : policy gradient from arbi ‐
+trary experience [EB/OL ]. (2019 -12-04) [2023 -04-16]. https ://arxiv .org/abs/
+1912 .02074
+[19] LIU Y , SWAMINATHAN A , AGARWAL A , et al . Off -policy policy gradient with 
+state distribution correction [EB/OL ]. (2019 -07-16) [2023 -04-16]. https ://arxiv .org/
+abs/1904 .08473
+[20] KUMAR A , ZHOU A , TUCKER G , et al . Conservative Q -learning for offline rein ‐
+forcement learning [EB/OL ]. (2020 -08-19) [2023 -04-16]. https ://arxiv .org/abs/
+2006 .04779
+[21] MATSUSHIMA T , FURUTA H , MATSUO Y , et al . Deployment -efficient rein ‐
+forcement learning via model -based offline optimization [EB/OL ]. (2020 -06-05) 
+[2023 -04-16]. https ://arxiv .org/abs/ 2006 .03647
+[22] YU T H , THOMAS G , YU L , et al . MOPO : model -based offline policy optimization 
+[J]. Advances in neural information processing systems , 2020 , 33: 14129 -14142 .
+[23] KIDAMBI R , RAJESWARAN A , NETRAPALLI P , et al . MOReL : Model -based 
+offline reinforcement learning [J]. Advances in neural information processing sys ‐
+tems, 2020 , 33: 21810–21823
+[24] YU T H , KUMAR A , RAFAILOV R , et al . COMBO : conservative offline model -
+based policy optimization [EB/OL ]. (2022 -01-27) [2023 -04-16]. https ://arxiv .org/
+abs/2102 .08363
+[25] JANNER M , FU J , ZHANG M , et al . When to trust your model : Model -based 
+policy optimization [C]//The 33rd International Conference on Neural Information 
+Processing Systems . ACM , 2019 : 12519–12530
+[26] FINN C , ABBEEL P , LEVINE S . Model -agnostic meta -learning for fast adaptation 
+of deep networks [C]//The 34th International Conference on Machine Learning . 
+ACM , 2017 : 1126–1135 . DOI : 10.5555 /3305381 .3305498
+[27] NICHOL A , ACHIAM J , SCHULMAN J . On first -order meta -learning algorithms 
+[EB/OL ]. (2018 -10-22) [2023 -04-16]. https ://arxiv .org/abs/ 1803 .02999
+[28] SONG X Y , GAO W B , YANG Y X , et al . ES -MAML : simple hessian -free meta 
+learning [EB/OL ]. (2020 -07-07) [2023 -04-16]. https ://arxiv .org/abs/ 1910 .01215
+[29] ANTONIO A , STORKEY A , EDWARDS H . How to train your MAML [EB/OL ]. 
+(2019 -03-15) [2023 -04-16]. https ://arxiv .org/abs/ 1810 .09502
+[30] DUAN Y , SCHULMAN J , CHEN X , et al . RL2: fast reinforcement learning via 
+slow reinforcement learning [EB/OL ]. (2016 -11-10) [2023 -04-16]. https ://arxiv .org/
+abs/1611 .02779
+[31] MISHRA N , ROHANINEJAD M , CHEN X , et al . A simple neural attentive meta -
+learner [EB/OL ]. (2018 -02-15) [2023 -04-16]. http://arxiv .org/abs/ 1707 .03141 .
+[32] PARISOTTO E . Meta Reinforcement Learning through Memory [D]//Pittsburgh : 
+Carnegie Mellon University , 2021
+[33] SÆMUNDSSON S , HOFMANN K , DEISENROTH M P . Meta reinforcement 
+learning with latent variable Gaussian processes [EB/OL ]. (2018 -05-20) [2023 -06-
+16]. https ://arxiv .org/abs/ 1803 .07551
+[34] ZINTGRAF L , SHIARLIS K , KURIN V , et al . Fast context adaptation via meta -
+learning [C]//The 36th International Conference on Machine Learning . ICML , 
+2019 : 13262–13276
+[35] LAN L , LI Z , GUAN X , et al . Meta reinforcement learning with task embedding 
+and shared policy [C]//The 28th International Joint Conference on Artificial Intelli ‐
+gence . ACM , 2019 : 2794–2800 . DOI :10.24963 /ijcai .2019 /387
+[36] HUMPLIK J , GALASHOV A , HASENCLEVER L , et al . Meta reinforcement 
+learning as task inference [EB/OL ]. (2019 -05-15) [2023 -06-16]. https ://arxiv .org/abs/1905 .06424
+[37] FAKOOR R , CHAUDHARI P , SOATTO S , et al . Meta -Q-Learning [EB/OL ]. 
+(2019 -09-30) [2023 -06-16]. http://arxiv .org/abs/ 1910 .00125
+[38] RAILEANU R , GOLDSTEIN M , SZLAM A D , et al . Fast adaptation to new envi ‐
+ronments via policy -dynamics value functions [C]//International Conference on Ma ‐
+chine Learning . ICML , 2020 : 7920–7931
+[39] ZINTGRAF L , SCHULZE S , LGL M , et al . VariBAD : variational Bayes -adaptive 
+deep RL via meta -learning [J]. The journal of machine learning research , 2021 , 22
+(1): 13198–13236
+[40] HE K M , FAN H Q , WU Y X , et al . Momentum contrast for unsupervised visual 
+representation learning [C]//Conference on Computer Vision and Pattern Recogni ‐
+tion (CVPR ). IEEE , 2020 : 9726–9735 . DOI : 10.1109 /CVPR 42600 .2020 .00975
+[41] LASKIN M , SRINIVAS A , ABBEEL P C . Contrastive unsupervised representa ‐
+tions for reinforcement learning [C]//The 37th International Conference on Ma ‐
+chine Learning . ICML , 2020 : 5595–5606
+[42] WANG B , XU S , KEUTZER K , et al . Improving context -based meta -
+reinforcement learning with self -supervised trajectory contrastive learning [EB/
+OL]. (2021 -05-10) [2023 -04-16]. https ://arxiv .org/abs/ 2103 .06386
+[43] WANG S S , LIU Z , XIE R , et al . Reinforcement learning for compressed -sensing 
+based frequency agile radar in the presence of active interference [J]. Remote sens ‐
+ing, 2022 , 14(4): 968. DOI : 10.3390 /rs14040968
+[44] PATTANAYAK K , KRISHNAMURTHY V , BERRY C . Meta -cognition . an 
+inverse -inverse reinforcement learning approach for cognitive radars [C]//The 25th 
+International Conference on Information Fusion (FUSION ). IEEE , 2022 : 1–8
+[45] ZHAI W T , WANG X R , GRECO M S , et al . Weak target detection in massive 
+MIMO radar via an improved reinforcement learning approach [C]//IEEE Interna ‐
+tional Conference on Acoustics , Speech and Signal Processing (ICASSP ). IEEE , 
+2022 : 4993–4997 . DOI : 10.1109 /ICASSP 43922 .2022 .9746472
+[46] OTT J , SERVADEI L , MAURO G , et al . Uncertainty -based meta -reinforcement 
+learning for robust radar tracking [C]//The 21st IEEE International Conference on 
+Machine Learning and Applications (ICMLA ). IEEE , 2023 : 1476–1483 . DOI : 
+10.1109 /ICMLA 55696 .2022 .00232
+[47] SNOW L , KRISHNAMURTHY V , SADLER B M . Identifying coordination in a 
+cognitive radar network -a multi -objective inverse reinforcement learning approach 
+[C]//IEEE International Conference on Acoustics , Speech and Signal Processing 
+(ICASSP ). IEEE , 2023 : 1–5. DOI : 10.1109 /ICASSP 49357 .2023 .10096376
+[48] MENG F Q , TIAN K S , WU C F . Deep reinforcement learning -based radar net ‐
+work target assignment [J]. IEEE sensors journal , 2021 , 21(14): 16315–16327 . 
+DOI: 10.1109 /JSEN .2021 .3074826
+[49] FU J , KUMAR A , NACHUM O , et al . D4RL: Datasets for deep data -driven rein ‐
+forcement learning [EB/OL ]. (2020 -04-15) [2023 -04-16]. https ://arxiv .org/abs/
+2004 .07219
+[50] KINGMA D P , WELLING M . Auto -encoding variational Bayes [EB/OL ]. (2013 -
+12-10) [2023 -04-16]. https ://arxiv .org/abs/ 1312 .6114
+Biographies
+YU Junpeng  received his master ’s degree in communication and information sys ‐
+tems. He is a senior engineer with the Nanjing Research Institute of Electronics 
+Technology , the deputy secretary -general of Intelligent Perception Special Commit ‐
+tee of Jiangsu Association of Artificial Intelligence . His research interests include 
+radar systems and intelligent processing technologies based on artificial intelli ‐
+gence . He has participated in many key artificial intelligence projects sponsored by 
+the Ministry of Science and Technology of the People ’s Republic of China .
+CHEN Yiyu (yiyuiii@foxmail .com) is currently a PhD student in the Department 
+of Computer Science and Technology , Nanjing University , China . His research in ‐
+terest includes meta -reinforcement learning and robot control .
+28

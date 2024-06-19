@@ -1,0 +1,52 @@
+低资源集群中的大语言模型分布式推理技术 冯文佼   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2低资源集群中的大语言模型
+分布式推理技术
+Accelerating Distributed Inference of Large Language Models in
+Low-Resource Clusters
+冯文佼 /FENG  Wenjiao， 李宗航 /LI Zonghang ， 
+虞红芳 /YU Hongfang
+（电子科技大学 ，中国 成都 611731 ）
+（University of Electronic Science and Technology of China ，Chengdu 
+611731 ，China ）DOI：10.12142 /ZTETJ .202402007
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240404 .2315.002.html
+网络出版日期 ：2024 -04-08
+收稿日期 ：2024 -02-20
+摘要 ：探索了一种并行能力更强 、具有更好兼容性的大语言模型 （LLM）分布式推理范式 。该范式专为弱算力 、小显存环境设计 。同时面向主
+机内外差异带宽 ，设计了基于通信树的高效 All-Reduce 组通信技术 ；针对小显存集群 ，设计了细粒度的显存管理与调度技术 。最后，基于这些
+关键技术 ，构建了一套针对资源受限场景的 LLM 推理软件系统 ，旨在用数量有限的低资源设备 ，最大化能推理的 LLM，同时通过优化通信策略
+与计算调度加速分布式推理 。实验证明 ，在应用上述技术后 ，本方案的首词元生成延迟降低 34%~61%，每秒生成词元吞吐量提升 52%~150%，
+显存占用降低 61%。
+关键词 ：LLM 分布式推理范式 ；资源受限场景 ；优化通信策略与计算调度
+Abstrac t:A distributed inference paradigm for large language model (LLM) with stronger parallelism and better compatibility is explored , 
+which is designed for weak computing power and small memory environments . Meanwhile , an efficient All-Reduce group communication 
+technique based on communication tree is designed for the different bandwidths inside and outside the host , and a fine-grained memory 
+management and scheduling technique is designed for small memory clusters . Finally , based on these key techniques , a set of LLM infer ⁃
+ence software system for resource-constrained scenarios is constructed , aiming to maximize the LLMs that can be inferenced with a lim ⁃
+ited number of low-resource devices , and at the same time accelerating the distributed inference by optimizing the communication strategy 
+and computation scheduling . Experiments demonstrate that after applying the above techniques , the first lexical element generation latency 
+is reduced by 34%~61%, the lexical element generation throughput per second is increased by 52%~150%, and the memory occupation is re ⁃
+duced by 61%.
+Keywords :LLM distributed inference paradigm ; resource-constrained scenarios ; communication and computation scheduling optimization
+引用格式 ：冯文佼 , 李宗航 , 虞红芳 . 低资源集群中的大语言模型分布式推理技术  [J]. 中兴通讯技术 , 2024 , 30(2): 43-49. DOI : 10.12142 /
+ZTETJ .202402007
+Citation ： FENG W J , LI Z H , YU H F . Accelerating distributed inference of large language models in low-resource clusters [J]. ZTE technology 
+journal , 2024 , 30(2): 43-49. DOI: 10.12142 /ZTETJ .202402007
+作为科技革命的核心 ，人工智能 （AI）在计算机视觉和
+自然语言处理等领域取得了重大进步 。OpenAI 在2022
+年底发布的 ChatGPT[1]引领了大语言模型 （LLM）时代 ，引
+发了对人工智能技术潜力的广泛探讨 。然而 ，在全球 AI技
+术竞争日益激烈和国际环境变化的背景下 ，高性能计算资源
+变得更加珍贵 ，尤其是面对 AI芯片出口的限制 ，中国 AI技
+术的独立发展变得迫在眉睫 。由于存在技术鸿沟 ，中国 AI
+硬件在短期内仍然面临着诸如弱算力 、小显存和多机低互联
+带宽的技术挑战 。为推动大模型 AI产业的发展 ，中国学术界和工业界提出了在资源受限环境下进行 LLM 推理的策略 。
+通过整合中低端算力资源 ，该策略实现超大模型的高效运
+行，既减少了对国外高端硬件的依赖 ，也为中小企业和教育
+机构提供了低成本的推理与部署方案 ，促进了国产 AI计算
+卡的快速发展 。因此 ，研究低资源环境下的 LLM 推理优化
+技术 ，成为了推动中国 AI发展 “降本增效 ”的关键 。
+现 有 LLM 推 理 系 统 ，如DeepSpeed[2]和FasterTrans ‐
+former[3]，主要为强算力 、高带宽 、大显存的高性能智算中
+心提供高效的 LLM 推理能力 。但与高性能智算中心相比 ，
+43

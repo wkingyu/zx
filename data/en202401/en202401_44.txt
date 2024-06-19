@@ -1,0 +1,104 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Special Topic   Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model
+References
+[1] PIZZO A , MARZETTA T L , SANGUINETTI L . Spatially -stationary model 
+for holographic MIMO small -scale fading [J]. IEEE journal on selected ar ⁃
+eas in communications , 2020 , 38(9): 1964–1979 . DOI : 10.1109 /
+JSAC .2020 .3000877
+[2] HUANG C W , HU S , ALEXANDROPOULOS G C , et al . Holographic 
+MIMO surfaces for 6G wireless networks : opportunities , challenges , and 
+trends [J]. IEEE wireless communications , 2020 , 27(5): 118–125. DOI : 
+10.1109 /MWC .001.1900534
+[3] AN J C , YUEN C , HUANG C W , et al . A tutorial on holographic MIMO 
+communications : part I : channel modeling and channel estimation [J]. 
+IEEE communications letters , 2023 , 27(7): 1664–1668 . DOI : 10.1109 /
+LCOMM .2023 .3278683
+[4] AN J C , YUEN C , HUANG C W , et al . A tutorial on holographic MIMO 
+communications : part II : performance analysis and holographic beamform ⁃
+ing [J]. IEEE communications letters , 2023 , 27(7): 1669–1673 . DOI : 
+10.1109 /LCOMM .2023 .3278682
+[5] AN J C , YUEN C , HUANG C W , et al . A tutorial on holographic MIMO 
+communications : part III : open opportunities and challenges [J]. IEEE 
+communications letters , 2023 , 27(7): 1674–1678 . DOI : 10.1109 /
+LCOMM .2023 .3278676
+[6] PIZZO A , MARZETTA T , SANGUINETTI L . Holographic MIMO commu ⁃
+nications under spatially -stationary scattering [C]//Proc . 54th Asilomar 
+Conference on Signals , Systems , and Computers . IEEE , 2020 : 702–706. 
+DOI: 10.1109 /IEEECONF 51394 .2020 .9443506
+[7] ZHANG H B , ZHANG H L , DI B Y , et al . Holographic integrated sensing 
+and communication [J]. IEEE journal on selected areas in communica ⁃
+tions , 2022 , 40(7): 2114–2130 . DOI : 10.1109 /JSAC .2022 .3155548
+[8] DENG R Q , ZHANG Y T , ZHANG H B , et al . Reconfigurable holographic 
+surfaces for ultra -massive MIMO in 6G: practical design , optimization and 
+implementation [J]. IEEE journal on selected areas in communications , 
+2023 , 41(8): 2367–2379 . DOI : 10.1109 /JSAC .2023 .3288248
+[9] ZHU J A , LIU K Z , WAN Z , et al . Sensing RISs : enabling dimension -
+independent CSI acquisition for beamforming [J]. IEEE transactions on in ⁃
+formation theory , 2023 , 69(6): 3795–3813 . DOI : 10.1109 /
+TIT.2023 .3243836
+[10] GOLDSMITH A . Wireless communications [M]. New York : Cambridge 
+University Press , 2005
+[11] ALI JAFAR S , FAKHEREDDIN M J . Degrees of freedom for the MIMO 
+interference channel [J]. IEEE transactions on information theory , 2007 , 
+53(7): 2637–2642 . DOI : 10.1109 /TIT.2007 .899557
+[12] TSE D , VISWANATH P . Fundamentals of wireless communication [M]. 
+Cambridge : Cambridge University Press , 2005
+[13] PIZZO A , DE JESUS TORRES A , SANGUINETTI L , et al . Nyquist sam ⁃
+pling and degrees of freedom of electromagnetic fields [J]. IEEE transac ⁃
+tions on signal processing , 2022 , 70: 3935–3947 . DOI : 10.1109 /
+TSP.2022 .3183445
+[14] PIZZO A , MARZETTA T L , SANGUINETTI L . Degrees of freedom of ho ⁃
+lographic MIMO channels [C]//Proc . IEEE 21st International Workshop 
+on Signal Processing Advances in Wireless Communications (SPAWC ). 
+IEEE , 2020 : 1–5. DOI : 10.1109 /SPAWC 48557 .2020 .9154219
+[15] WEI L , HUANG C W , ALEXANDROPOULOS G C , et al . Tri -polarized 
+holographic MIMO surfaces for near -field communications : channel mod ⁃
+eling and precoding design [J]. IEEE transactions on wireless communica ⁃
+tions , 2023 , 22(12): 8828–8842 . DOI : 10.1109 /TWC .2023 .3266298
+[16] SHEN Y S , HE Z , SHA W , et al . Electromagnetic effective -degree -of-freedom prediction with parabolic equation method [J]. IEEE transactions 
+on antennas and propagation , 2023 , 71(4): 3752–3757 . DOI : 10.1109 /
+TAP.2022 .3233487
+[17] YUAN S , CHEN X M , HUANG C W , et al . Effects of mutual coupling on 
+degree of freedom and antenna efficiency in holographic MIMO communi ⁃
+cations [J]. IEEE open journal of antennas and propagation , 2023 , 4: 237–
+244. DOI : 10.1109 /OJAP .2023 .3245667
+[18] AKROUT M , SHYIANOV V , BELLILI F , et al . Super -wideband massive 
+MIMO [J]. IEEE journal on selected areas in communications , 2023 , 41
+(8): 2414–2430 . DOI : 10.1109 /JSAC .2023 .3288269
+[19] ORFANIDIS S J . Electromagnetic waves and antennas [M]. Rutgers : Rut⁃
+gers University , 2002
+[20] CHU L J . Physical limitations of omni -directional antennas [J]. Journal of 
+applied physics , 1948 , 19(12): 1163–1175 . DOI : 10.1063 /1.1715038
+Biographies
+SUN Yunqi (sun.yunqi@zte .com.cn) received his BE and PhD degrees from Ts ⁃
+inghua University , China in 2017  and 2022 , respectively . He is currently an en ⁃
+gineer with ZTE Corporation . His research interests include massive MIMO , ho⁃
+lographic MIMO , antenna theory , and radio sensing .
+JIAN Mengnan received her BS degree in information engineering from Bei ⁃
+jing Institute of Technology , China in 2016  and MS degree from Tsinghua Uni ⁃
+versity , China in 2019 . She is currently an engineer with ZTE Corporation . Her 
+research interests include massive MIMO , reconfigurable intelligent surfaces , 
+and holographic MIMO .
+YANG Jun received his BS degree in geophysics from the China University of 
+Geosciences (Wuhan ) in 2011  and joint -training PhD degree in geophysics from 
+the University of Science and Technology of China and the University of North 
+Carolina at Charlotte , USA in 2016 . He is currently an algorithm engineer with 
+ZTE Corporation . His research interests include reconfigurable intelligent sur ⁃
+faces , MIMO channel modeling , and computational electromagnetics .
+ZHAO Yajun received his BE , MS, and PhD degrees . Since 2010 , he has as ⁃
+sumed the role of Chief Engineer at the Wireless and Computing Product R&D 
+Institute , ZTE Corporation . Prior to this , he contributed to wireless technology re ⁃
+search at the Wireless Research Department , Huawei . Currently , his primary fo ⁃
+cus centers on 5G standardization technology and the advancement of future mo ⁃
+bile communication technology , particularly 6G. His research pursuits encom ⁃
+pass a broad spectrum , including reconfigurable intelligent surfaces (RIS), spec ⁃
+trum sharing , flexible duplex , CoMP , and interference mitigation . He has played 
+an instrumental role in founding the RIS Tech Alliance (RISTA ) and currently 
+holds the position of Deputy Secretary General within the organization . Addition ⁃
+ally, he is a founding member of the RIS task group under the purview of the Chi ⁃
+na IMT -2030  (6G) Promotion Group , where he serves as the deputy leader .
+CHEN Yijian graduated from Central South University , China . He is currently 
+working at ZTE Corporation . His research interests include reconfigurable intel ⁃
+ligent metasurfaces , extremely large -scale MIMO technology , and electromag ⁃
+netic information theory .
+40

@@ -1,0 +1,68 @@
+crucial requirement for operators. 
+Requirement
+The STB ecosystem is categorized 
+based on operating systems, primarily 
+including AndroidTV, AOSP, RDK-V, 
+and Linux/Ecos. From the operator’s 
+perspective, a comparison of the 
+advantages and disadvantages of each 
+ecosystem is given in Table 1. 
+Operators make dynamic choices 
+for the ecosystem based on their own 
+circumstances and business interests. For 
+example, some operators initially choose 
+AOSP but later opt for AndroidTV to 
+incorporate premium content and service 
+from Google. They hope that existing mid the /f_ierce competition 
+landscape of the set-top 
+box (STB) industry, various 
+ecosystem manufacturers, 
+including Google, operators, content 
+providers, CA/ DRM vendors, and 
+middleware vendors, engage in a dynamic 
+game of cooperation and competition. 
+They form multiple ecosystem factions, 
+each relying on diﬀerent software 
+operating systems to capture their 
+respective market share. Operators, driven 
+by their individual circumstances and 
+commercial interests, continually adapt 
+their ecosystem choices. Therefore, there 
+is a growing need for STBs to support 
+online upgrade and switching between 
+diﬀerent ecosystems, which has become a Online Upgrade and Switching 
+Scheme for Set-Top Box Ecosystem
+Chief R&D Engineer of 
+ZTE DHome ProductsLiu ChenggangA
+Table 1. A comparison 
+of the advantages and 
+disadvantages of each 
+ecosystem. Ecosystem
+AndroidTV
+AOSP
+RDK-V
+Linux/EcosAdvantages Disadvantages
+Built on the Google ecosystem, it inherently provides 
+users with a wide range of content options, including 
+YouTube and Net/f_lix.
+Based on the open Android system, it provides users 
+with a rich choice of content. Operators have strong 
+control over the ecosystem. 
+The ecosystem matures rapidly and can provide users 
+with a wealth of content choices such as YouTube 
+and Net/f_lix. Operators have strong control over the 
+ecosystem. 
+It has obvious cost advantage. 
+Operators have strong control over the ecosystem.Google dominates the ecosystem, while operators 
+have little control. 
+Frequent system updates lead to higher maintenance 
+costs.
+Unable to introduce Google’s premium applications 
+and content, such as YouTube, Google Assistant, and 
+Google App Store. 
+Compared with Android TV, it falls short in content 
+diversity and industry in/f_luence. 
+Due to the low hardware con/f_iguration and the lack of 
+ecological content and service, it can only provide 
+basic live TV and video on demand (VOD). 
+18New Video Ecosystem Special Topic

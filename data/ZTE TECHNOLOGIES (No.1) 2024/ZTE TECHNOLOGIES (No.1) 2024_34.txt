@@ -1,0 +1,81 @@
+station modi/f_ication will enable all base 
+stations at 16 crossroads within one square 
+kilometer to provide V2X services.
+Paving the Way for Future 
+Applications
+With this groundbreaking, ultra-reliable 
+network guarantee as the cornerstone, 
+combined with cutting edge high-precision 
+roadside perception and a digital-twin 
+cloud control platform, autonomous 
+vehicles will gain access to comprehensive 
+and reliable V2X information. Lidars, 4D 
+imaging radars, high-de/f_inition cameras, 
+and other sensors are equipped on the 
+traﬃc light stand for real-time, 
+beyond-line-of-sight perception. The cloud 
+control platform is a massive data source 
+that can provide perceptual data for 
+autonomous driving companies to facilitate 
+better vehicle perception, prediction and 
+planning. It is estimated that if every 
+crossroad in Suzhou is connected to the 
+platform, 198 PB of data will be generated 
+per day, equivalent to the daily amount of 
+data collected by 290,000 autonomous vehicles using on-board sensors. 
+Automobile companies can also purchase 
+this data to develop and deliver their own 
+driver assistance services, thereby 
+enhancing their core competitiveness. 
+Moreover, the platform can serve as an 
+overall monitoring center that inspects 
+conditions of vehicles and roadside 
+equipment, enabling the government to 
+enhance road eﬃciency through trend 
+prediction and congestion optimization. 
+Currently, the ultra-reliable 5G network 
+guarantee has been trialed in the pilot 
+intelligent road area spanning 162 
+kilometers, where L2 vehicles can achieve 
+L4 autonomous driving services solely 
+through roadside sensing and reliable 5G 
+transmission, without the need for onboard 
+sensors. Three Robobus lines have also 
+been commercialized on the 5G intelligent 
+road. The self-driving bus is empowered 
+and operated with real-time roadside 
+perception data and is remotely monitored 
+by the cloud control platform. There is no 
+bus driver behind the steering wheel of the 
+L4 Robobus, only a safety supervisor who 
+awaits nearby in case of any unforeseen 
+emergencies. Additionally, over 1,000 
+self-driving vehicles from more than 20 
+automobile companies are connected to 
+the system for real time supervision, both in 
+the technology park and on the intelligent 
+road. These vehicles include RoboBus, 
+RoboTaxi, automated delivery, sweeper, 
+patrol, sightseeing shuttle, truck, and 
+retail cart.
+With more than 3.1 million 5G base 
+stations in China, a solid foundation has 
+been established for the future rollout and 
+large-scale commercialization of the 
+integrated 5G vehicle-road-cloud system. 
+Looking ahead, the ultra-reliable network is 
+poised to enhance the autonomous driving 
+capabilities of diverse automated 
+applications, ultimately bringing an 
+improved and more intelligent urban 
+lifestyle to people.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5G-Advanced Special Topic
+32 

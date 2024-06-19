@@ -1,0 +1,156 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model    Special Topic
+antennas , which is η≤ë û N-λδ, where N is the number of 
+the antennas in the ULA with spacing δ. The same approach 
+can be applied to the UPA , yielding a DOF of η≤
+êëúûN-()πλ2()4δ2.
+3 Numerical Simulations of DOF
+3.1 ULA and UPA Configuration
+We use the circuit model to analyze the DOF of ULA and 
+UPA with mutual coupling under a Rayleigh scattering envi ⁃
+ronment . The channel DOF is defined as the significant singu ⁃
+lar values of the channel matrix . The configurations of ULA 
+and UPA can be found in Fig . 3.
+As shown in Fig . 3, the two tilt angles should meet β+
+γ=π, where γ should avoid nπ/2 to make the tight -
+coupled dipoles physically feasible . Note that the spacing δ, 
+the tilt angle γ, and the distance D fully determine the ar ⁃
+ray configuration .
+When considering the NLoS scenario with the Rayleigh fad ⁃
+ing model , the trans -impedance matrix can be given by
+ZRayleigh
+RT =c
+2πfDα2ℜ[ZR(f)]1
+2Fℜ[ZT(f)]1
+2,
+(12)
+where α is the path loss parameter , and F is a small -scale fad ⁃
+ing matrix with Fij~CN(0,1/2).
+3.2 Numerical DOF Analysis
+We define the rank of the channel matrix as the DOF of the 
+system . We aim to investigate the DOF of the ULA and UPA communication system under various scenarios . These sce ⁃
+narios consider the near -field and the far -field , the antenna 
+spacing , and the distance between the Tx and Rx respec ⁃
+tively . These scenarios are listed in Table 1 with indexes 1–
+16. Note that we only change the antenna numbers in the 
+transmitting array and fix the receiving ULA and UPA with 
+16 half -wavelength antennas and 4×4 half -wavelength an ⁃
+tennas respectively . To study the statistical properties of 
+▼Table 1. ULA and UPA configurations for mutual coupling simulation
+Configuration 
+Index
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16Configuration 
+Type
+ULA_FF
+ULA_NF
+ULA_FF_MC
+ULA_NF_MC
+ULA_FF_DEN
+ULA_NF_DEN
+ULA_FF_UDEN
+ULA_NF_UDEN
+UPA_FF
+UPA_NF
+UPA_FF_MC
+UPA_NF_MC
+UPA_FF_DEN
+UPA_NF_DEN
+UPA_FF_UDEN
+UPA_NF_UDENDistance/
+λ
+200
+10
+200
+10
+200
+10
+200
+200
+200
+10
+200
+10
+200
+10
+200
+200Spacing/
+λ
+0.5
+0.5
+0.25
+0.25
+0.25
+0.25
+0.1
+0.1
+0.5
+0.5
+0.25
+0.25
+0.25
+0.25
+0.1
+0.1Antenna 
+Number
+16
+16
+16
+16
+31
+31
+76
+76
+16
+16
+16
+16
+49
+49
+256
+256Aperture Area
+7.5λ
+7.5λ
+3.75λ
+3.75λ
+7.5λ
+7.5λ
+7.5λ
+7.5λ
+1.5λ×1.5λ
+1.5λ×1.5λ
+0.75λ×0.75λ
+1.5λ×1.5λ
+1.5λ×1.5λ
+1.5λ×1.5λ
+1.5λ×1.5λ
+1.5λ×1.5λ
+DEN： dense
+FF： far -field
+MC： mutual -couplingNF： near -field
+UDEN： ultra dense 
+ULA： uniform linear arrayUPA： uniform planar array
+▲Figure 3. ULA and UPA configuration , with the transmitting and receiving arrays spaced by D. (a) ULA configuration : The transmitting and receiv ⁃
+ing arrays are parallel to each other and have N dipoles and M dipoles respectively ; the dipoles are parallel to each other with spacing δ. (b) UPA con ⁃
+figuration : The transmitting and receiving arrays are parallel to each other and have N0×N1 dipoles and M0×M1 dipoles respectively ; the dipoles are 
+parallel to each other with spacing δULA : uniform linear array      UPA : uniform planar array(a) (b)N1M1
+Receiving UPA Transmitting UPATransmitting ULAReceiving  ULA
+N M1 10 0D
+γ γ
+β β
+N0M0D
+37

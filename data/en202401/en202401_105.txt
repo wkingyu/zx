@@ -1,0 +1,88 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Filter Design of Wireless Base Station Power Supply    Research Papers
+If U is the noise source , Z1 is the filter impedance , and Z2 is 
+the load impedance , it is hoped that the filter impedance can 
+withstand more interference voltage . Usually , the load imped ⁃
+ance cannot be changed . In this case , the value of Z1 should 
+be increased , so that Z1 is much larger than Z2, to ensure that 
+the load is less disturbed .
+If Z1 represents the source impedance and Z2 represents the 
+filter impedance , in this case it is necessary to ensure that the 
+noise that enters the filter is as little as possible , and the 
+source impedance cannot be changed , and then Z2 should be 
+much less than Z1.
+The conclusion can be drawn from the above . On the load 
+side, the impedance of the filter should be higher than that of 
+the load ; on the noise source side , the impedance of the filter 
+should be lower than the load impedance . Usually in the EMI 
+filter , the inductor in series indicates high resistance , and the 
+capacitor in parallel indicates low resistance .
+The source impedance of the prototype noise source is ca ⁃
+pacitive in the low frequency band , corresponding to low resis ⁃
+tance , so the LC -type (one inductor and one capacitor ) filter 
+should be selected . The source impedance of the noise source 
+can be regarded as a part of the filter , that is , the noise source 
+impedance side of the LC filter is parallel to an internal im ⁃
+pedance capacitor , which can be equivalent to a π-type filter , 
+as shown in Fig .17. Therefore , in order to better filter effect , 
+you can choose a π-type filter .6 Filter Design
+EMI filters play a role in the conductive EMI frequency 
+range of the lower frequency band (from 150 kHz to several 
+megahertz ), so the filter design is mainly for this frequency 
+band design . In the design of the EMI filter , if the input of the 
+device is an alternating current (AC) source , it is necessary to 
+select the appropriate Y capacitor according to the AC leak ⁃
+age current limit of the corresponding device . In this paper , 
+the input of the wireless base station power supply prototype 
+is direct current (DC) input , so the AC leakage current limit is 
+not considered . In the design of the EMI filter , the capaci ⁃
+tance of the Y capacitor can be used to reduce the inductance 
+of the required CM inductor , reduce the volume of the CM 
+choke , and achieve the compact design of the filter .
+The filter of the prototype adopts a two -stage and two -
+channel π-type filter , and the CM choke adopts double -wire 
+and winding , with the line diameter of 1.1 mm . The single -
+channel and two -channel co -currents are 26 A and 52 A, and 
+the current density is about 16.522 A/mm2. The circuit of the 
+original filter is shown in Fig . 2.
+Fig. 18(a) represents the CM noise equivalent circuit with a 
+first -order π-type filter , C1 and C2 represent the Y capacitors , 
+Lcm represents the CM inductance component of the CM 
+choke , and Rcm represents the LISN equivalent resistance . Cs 
+indicates the impedance within the noise source . The noise 
+source is transformed with the source impedance part to make 
+the power supply equivalent , and the voltage source is 
+equated with the current source , and the equivalent circuit 
+diagram is obtained as shown in Fig . 18(b).
+In Fig . 19, the noise voltage Ucm1 across Rcm in the absence 
+of the filter is defined as :
+Ucm1=Rcm⋅Is
+jωCsRcm+1 . (22)
+The parallel connection of 2C2 and Cs is set to C3, and the 
+noise voltage Ucm2 across Rcm after accessing the π-type filter is :
+Ucm2=
+Rcm⋅Is
+1-ω2Lcm(C3)+jωRcm(2C1+C3)-j2ω3RcmLcmC1C3 .(23)
+Then the CM IL of the first order π-type filter is :
+ILcm=
+20log|
+|||||1-ω2LcmC3+jωRcm(2C1+C3)-j2ω3RcmLcmC1C3
+jωRcmCs+1|
+|||||
+.(24)
+Let s=jω and substitute it into Eq . (24) to obtain the IL ex ⁃
+pression for the first -order π-type filter , we can have :
+ILcm(s)=
+20log|
+||
+|||2RcmLcmC1C3⋅s3+LcmC3⋅s2+Rcm(2C1+C3)⋅s+1
+RcmCs⋅s+1|
+||
+|||
+.(25)
+▲Figure 16. Impedance mismatch
+▲Figure 17. Filter diagram
+LC filter
+π-type filterSource impedanceZ1
+Z2U2U
+101

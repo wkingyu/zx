@@ -1,0 +1,69 @@
+ith the acceleration of digital 
+transformation in the industry, 
+intelligent operation and 
+maintenance (O&M) requirements 
+within the telecom /f_ield are becoming increasingly 
+complex. Consequently, intelligent O&M has 
+emerged as one of the key factors for maintaining 
+competitiveness in the digital era. However, due to 
+the rapid development of services and continuous 
+technological updates, traditional O&M methods are 
+inadequate to meet the evolving O&M requirements 
+of communication devices. The advent of AI model 
+has brought breakthroughs in the /f_ield of intelligent 
+O&M. It oﬀers a more user-friendly man-machine 
+interaction mode, processes massive structured data, 
+delivers high-precision analysis and prediction, and 
+empowers advanced O&M capabilities.
+Applications of AI Model in Intelligent O&M
+The AI model technology has been widely used in 
+intelligent O&M in the telecom /f_ield, which includes 
+O&M knowledge Q&A, fault and exception detection, 
+root cause location, and fault prediction and 
+prevention.
+O&M knowledge Q&A: When the AI model is 
+utilized in the telecom /f_ield for knowledge 
+questions and answers, its capabilities in storage, 
+memory, understanding, and application become 
+especially crucial. By analyzing a large amount of 
+communication data and technical documents, 
+the AI model can deeply understand various WAI Model Empowers Intelligent 
+Operation and Maintenance for 
+Eﬃciency Enhancement
+communication devices, protocols, and network 
+topologies. This comprehensive understanding 
+allows the AI model to eﬃciently integrate 
+contextual information when addressing complex 
+communication issues, and quickly and accurately 
+generate answers to questions. Additionally, the AI 
+model also has the capability to continuously 
+update and re/f_ine its knowledge base based on 
+real-time communication data and the latest 
+industry trends to keep pace with the latest 
+knowledge and provide timely and reliable 
+support and guidance for operation and 
+maintenance personnel.
+Fault and exception detection: Utilizing AI-model 
+intelligent algorithms and models, the system 
+processes and analyzes collected data to identify 
+abnormal data or behaviors that are inconsistent 
+with the normal status. This typically involves 
+feature extraction, data modeling and classi/f_ication, 
+and formulation of abnormal judgment standards. 
+In practice, to enhance detection accuracy and 
+robustness, considerations for data temporal 
+characteristics, spatial correlations, and trends over 
+time are often necessary. Moreover, tailored 
+algorithms and models may be required to 
+accommodate diverse data characteristics and 
+business needs in various domains and application 
+scenarios. Furthermore, continuous updates and 
+optimizations of algorithms and models are 
+essential to ensure system reliability and stability, 
+enabling adaptation to new fault types and 
+changes in scenarios. 
+ 
+Chief Engineer of ZTE 
+MANO Product 
+PlanningHe WeiIntelligent Computing Special Topic 
+28 

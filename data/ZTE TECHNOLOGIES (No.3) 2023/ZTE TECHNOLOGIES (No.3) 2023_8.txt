@@ -1,0 +1,59 @@
+ince 2020, the global deployment 
+of 5G networks has been initiated. 
+At present, there are more than 
+three million 5G base stations 
+built worldwide. Moreover, 5G networks 
+have been widely adopted and implemented 
+in important industries. 
+The industrial Internet is the central 
+component among various elements in 
+the application of 5G in factories. It 
+directly serves the IT and OT business 
+systems of enterprises, while the 5G 
+network plays a crucial role in ensuring 
+its smooth operation. 
+Great Challenges Faced by Industrial 
+Internet in Rapid Deployment
+Fueled by the surge of digital economy 
+in recent years, the industrial Internet has 
+experienced rapid development. However, 
+as the industrial Internet expands on a 
+large scale, certain challenges have 
+emerged in its platform construction.
+Currently, the typical application of the 
+industrial Internet primarily revolves 
+around simple digital transformation, 
+lacking a uni/f_ied construction solution. 
+This “single-point” service approach may exacerbate the creation of 
+information silos within enterprise 
+digital transformation. Moreover, 
+traditional enterprises’ IT and OT 
+networks are constructed by diﬀerent 
+manufacturers and managed by 
+independent departments, resulting 
+in internal “walls”. Consequently, the 
+digital transformation of enterprises 
+is still in its preliminary stage. 
+At present, the industrial Ethernet 
+continues to dominate the network 
+infrastructure in the production domain 
+of enterprises. However, the complex 
+wired connections pose great pressures 
+on network deployment and /f_lexible 
+transformation within these enterprises. 
+Most enterprises are incapable of moving 
+to cloud at the production edge. The 
+more complex the process and scale of 
+intelligent manufacturing, the greater 
+the need for data integration and 
+exposure among various systems. 
+However, in the core OT domain of 
+industry, the mainstream industrial 
+control systems are currently 
+incompatible and lack interoperability. 
+For enterprises, the most valuable 
+asset is data. The current state of 5G+ Industrial Internet: 
+Creating a New Era of 
+Fully-Connected Factories
+SWang Jingfei, Director of ZTE Wireless ToB Planning
+06Expert Views

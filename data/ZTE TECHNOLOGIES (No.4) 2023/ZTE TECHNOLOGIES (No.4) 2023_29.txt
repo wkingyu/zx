@@ -1,0 +1,69 @@
+played a pivotal role in the development of FTTR 
+standards, product de/f_inition, commercial 
+models, and interconnectivity. It has developed 
+comprehensive whole-home networking 
+solutions and product systems for both residential 
+and enterprise scenarios. These solutions have 
+been widely deployed in 15 provinces in China, 
+including Guangdong, Shandong and Henan. ZTE 
+continues to empower operators in upgrading 
+Wi-Fi quality, overcoming the /f_inal bottleneck of 
+gigabit connectivity, and delivering a seamless 
+user experience.
+Furthermore, operators leverage their 
+powerful network pipeline advantage, enabling 
+them to boast a user base reaching hundreds of 
+millions. With the vast user scale in mind, 
+operators built on the foundation of new gigabit 
+broadband need to explore inventive gigabit 
+value-added services to increase ARPU and 
+enhance user stickiness. By complementing the 
+“smart networking connectivity” capability with 
+UHD video services, operators can tap into diverse 
+needs of users in the video sector. This will in turn 
+drive network optimization and improve 
+connectivity to better support video services, 
+thereby achieving a collaborative development of 
+gigabit networks and services.
+Fig. 1. ZTE end-to-end 
+UHD video solution. 
+the availability of VR content sources.
+The advancements in 8K and AI technology 
+drive the development of more immersive and 
+interactive UHD video services. Innovations like 
+AI-enabled image enhancement, MVV, AI virtual 
+trials, FVV, and bullet time viewing are gradually 
+gaining industry recognition and undergoing 
+trial promotions. ZTE, as a leading provider of 
+multimedia video solutions, has launched end-
+to-end UHD multi-dimensional video products 
+and 4K/8K UHD terminal devices (Fig. 1). These 
+products integrate new technologies such as 
+UHD, strong interactivity, and AI enhancement, 
+and have been commercially deployed in sectors 
+including education, healthcare, sports, tourism, 
+and home entertainment.
+Combination of FTTR and 8K: Unleashing 
+the Potential of Operator’s Pipelines 
+One of the key strengths of operators is their 
+strong network pipeline connectivity, 
+particularly their control over the home network 
+portal. With this network portal, operators can 
+oﬀer true gigabit experience and leverage smart 
+networking technologies to create a competitive 
+edge. As a leader in FTTR solutions, ZTE has 
+8K@60fps decoding
+for UHD display
+Cloud production
+and broadcastingService
+platform
+AVS3.0, 8K@60fps decoding, 4K@60fps encodingDual-gigabit for fast connection
+HDMI2.1 for high-speed transmission
+4G/16G storage 3.2 TOPS AI computing
+CDN
+B980V210G PON 5G/Wi-Fi6 8K STBContent collection
+5GVideo processing Content transmission Display'AI super-resolution to
+enhance image qualityFree-viewpoint video to
+deliver immersive experience Metaverse to combine
+digital and real worlds
+27AUG 2023

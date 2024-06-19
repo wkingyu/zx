@@ -1,0 +1,70 @@
+of energy consumption and emissions. 
+5G+ Applications Create a Fresh Engine 
+for Industrial Development
+Since 2020, the 5G+ Industrial Internet 
+Conference sponsored by MIIT and the 
+Hubei Provincial Government, has been held 
+consecutively in Wuhan for three years. Hubei 
+is actively promoting the development of 5G+ 
+applications to enhance the modernization of 
+the industrial chain. ZTE is fully cooperating with 
+operators to drive the digitalization upgrade 
+across various industries.
+ZTE partners with Hubei Mobile to build an 
+intelligent 5G+ optical cable manufacturing 
+factory in Wuhan, achieving full 5G coverage 
+throughout the factory campus. Leveraging 
+the functionalities of 5G+ automatic logistics, 
+5G+ monitoring platforms, and 5G+ energy 
+consumption data collection, while ensuring 
+that all factory data remains within the campus, 
+ZTE implements remote real-time visualization 
+of production, comprehensive monitoring of 
+the entire production process, and intelligent 
+energy-eﬃcient manufacturing. This drives the 
+digital transformation and upgrading of the 
+enterprise. 
+ZTE collaborates with Hubei Mobile to 
+empower the pharmaceutical industry in 
+Wuhan by building a 5G fully-connected 
+traditional Chinese medicine (TCM) production 
+line. Through cutting-edge technologies such 
+as 5G, edge computing, and digital twin, ZTE 
+provides an exclusive 5G private network 
+with full coverage for the production campus, 
+creating a virtual factory. It oﬀers industrial 
+internet applications like automated guided 
+vehicles (AGVs), 5G data acquisition systems, 
+and remote integrated control, enabling 
+visualized and intelligent management. As 
+a result, production eﬃciency has seen a 
+remarkable increase of over 30%.
+ZTE works with Hubei Unicom in Wuhan to 
+commercialize FRER functions extensively 
+based on its edge computing gateway 
+(SmartEdge) and computing base station (NodeEngine). This advancement has 
+signi/f_icantly increased the proportion of 
+data with a latency of less than 20 ms on 
+FRER channels to 99.99%. This represents a 
+two-nines increase in reliability compared to 
+the single-frequency solution, thereby helping 
+enterprises achieve unmanned on-site driving 
+operations.
+In China’s 14th Five-Year Plan, several crucial 
+directives have been outlined. These include 
+accelerating the large-scale deployment of 5G 
+networks, elevating the standard of telecom 
+equipment, core electronic components, and 
+key software industries, building 5G-based 
+application scenarios and industrial ecosystems, 
+and promoting the eﬃciency enhancement of 
+emerging sectors like 5G and big data centers. 
+These requirements provide clear guidance 
+for the future of various industries. ZTE will 
+continue to work closely with operators 
+worldwide to build robust networks, explore 
+opportunities for new growth, and contribute to 
+creating a favorable business environment for 
+the booming development of Wuhan’s digital 
+economy. ZTE conducts 2.6G+4.9G carrier aggregation test in Donghu Meiyuan
+41OCT 2023

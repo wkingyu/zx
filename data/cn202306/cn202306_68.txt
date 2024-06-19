@@ -1,0 +1,106 @@
+零信任关键技术与产业发展研究 张云畅  等 专家论坛
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6中国缺少产业服务平台支撑 ，零信任需求侧与供给侧的发展
+步调不一 ，市场流通产品方案存在覆盖面不广 、适配性不
+高、服务性不足等基础问题 。
+4 零信任产业发展建议
+1）全面统筹规划 ，强化零信任整体战略布局
+强化政策引导 ，完善中国零信任体系构建 。依托财政资
+金、国家专项等 ，全面跟进和研判美国在参考架构 、关键技
+术、融合应用等方面的最新进展 ，加大零信任架构关键技术
+的科研投入 。抓住行业数字化升级转型机遇 ，推动网络安全
+架构向零信任架构迁移 ，鼓励组织研究并出台零信任创新应
+用试点示范 、专项项目等支持政策 ，并在财政投资的网络安
+全项目中同步配套零信任架构和关键网络安全基础设施建设
+措施 ，明确零信任高质量发展路线图 。广泛征集零信任应用
+实践案例 ，并对独具行业代表性和可推广性的优秀案例进行
+宣传 ，鼓励零信任产品供应商借鉴学习 ，不断优化产品升
+级，促进各行业需求方与供应商的长期稳定合作 。鼓励传统
+信息安全提供商 、新型云安全提供商与行业用户深度融合 ，
+打造一批有影响力的零信任行业应用标杆 。在党政 、金融 、
+能源 、交通等领域开展零信任安全试点示范 ，提升零信任网
+络安全架构在实际应用中的市场影响力 。
+2）重视培育创新 ，发展零信任自主创新技术
+深化核心自主研究 ，打造中国零信任创新引擎 。加快构
+建基于软件定义边界 、身份安全 、微隔离三大技术路线的零
+信任标准体系 ，推进跨云跨网智能安全管控 、基于数字身份
+的细颗粒度访问控制 、可持续数据安全监测和评估等产品升
+级。同步构建零信任安全测评体系 ，深入剖析零信任技术能
+力与功能需求 ，助力零信任应用部署 ，依托 “零信任能力成
+熟度 ”的评估模型 ，分级分类分步骤差异化部署零信任 。推
+进电信运营商 、互联网企业 、行业用户 、安全企业 、科研机
+构、高等院校等建立零信任联合创新中心 、联合实验室等 ，
+打造创新试验床 ，促进研究成果应用转化 ，保障零信任产品
+创新能力持续供给 ，同时定期开展零信任技术专题研讨 ，助
+力零信任技术创新以及产品研发 。
+3）增强产业协同 ，构建零信任健康产业生态
+积极推动供需联动 ，释放中国零信任集群效应 。针对中
+国大型网络安全供应商提供政策优化保障 ，打造可以带动跨
+领域 、跨行业能力整合的龙头企业 ，带动中小型企业蓬勃发
+展。依托算网融合产业及标准推进委员会等第三方产业平
+台，提供交流论坛 、项目推介 、实践比赛 、案例评优等多举
+措多层次供需对接服务 ，切实强化零信任产业合作 。聚焦零
+信任产业链上下游 ，绘制零信任产业图谱 ，适配党政 、金融、能源 、交通等领域建立多维度零信任能力评估体系 ，从
+核心技术功能 、应用解决方案 、关键能力成熟度等多维度 ，
+引导以优秀产品服务能力为导向的零信任市场良性发展 。
+参考文献
+[1] The White House . Improving the nation's cybersecurity [EB/OL ]. (2021 -05-
+12)[2023 -10-25]. https ://www .whitehouse .gov/briefing-room/presidential-
+actions/ 2021 /05/12/executive-order-on-improving-the-nations-
+cybersecurity
+[2] The White House . Draft federal strategy for moving the U .S. government 
+towards a zero trust architecture [EB/OL ]. (2021 -09-07) [2023 -10-25]. 
+https ://www .whitehouse .gov/omb/briefing-room/ 2021 /09/07/office-of-
+management-and-budget-releases-draft-federal-strategy-for-moving-
+the-u-s-government-towards-a-zero-trust-architecture
+[3] Defense Information Systems Agency . Thunderdome realizing zero trust 
+[EB/OL ]. [2023 -10-25]. https ://dd80b675424 c132b90b3-e48385 e382d2e5
+d17821 a5e1d8e4c86b. ssl. cf1. rackcdn . com/external/fact-
+sheetthunderdometemplatefinal .pdf
+[4] The White House . Moving the U .S. government toward zero trust 
+cybersecurity principles [EB/OL ]. (2022 -01-26)[2023 -10-25]. https ://www .
+whitehouse .gov/wp-content/uploads/ 2022 /01/M-22-09.pdf
+[5] U.S. Department of Defense . The department of defense releases the 
+president's fiscal year 2023  defense budget [EB/OL ]. (2022 -03-28)[2023 -
+10-25]. https ://www .defense .gov/News/Releases/Release/Article/ 2980014 /
+the-department-of-defense-releases-the-presidents-fiscal-year- 2023 -
+defense-budg
+[6] The White House . Administration cybersecurity priorities for the FY 2024  
+budget [EB/OL ]. (2022 -07-22)[2023 -10-25]. https ://www .whitehouse .gov/
+wp-content/uploads/ 2022 /07/M-22-16.pdf
+[7] CSA. The Singapore cybersecurity strategy 2021  [EB/OL ]. (2021 -10-05)
+[2023 -10-25]. https ://www .csa.gov.sg/Tips-Resource/publications/ 2021 /
+singapore-cybersecurity-strategy- 2021
+[8] Government of Canada . Network and security strategy [EB/OL ]. (2021 -04-
+12) [2023 -10-25]. https ://www .canada .ca/en/shared-services/corporate/
+publications/network-security-strategy .html
+[9] European Commission . Laying down measures for a high common level of 
+cybersecurity at the institutions , bodies [EB/OL ]. (2022 -03-22) [2023 -10-
+25]. https ://eur-lex .europa .eu/legal-content/EN/TXT/ ?uri=CELEX :
+52022 PC0122
+[10] National Institute of Standards and Technology . Zero trust architecture [EB/
+OL]. [2023 -10-25]. https ://nvlpubs .nist.gov/nistpubs/SpecialPublications/
+NIST .SP.800-207.pdf
+[11] Cybersecurity and Infrastructure Security Agency . Zero trust maturity 
+model draft [EB/OL ]. [2023 -10-25]. https ://www .cisa.gov/zero-trust-
+maturity-model
+[12] Cloud Security Alliance . SDP specification v 1.0 [EB/OL ]. (2014 -04-30)
+[2023 -10-25]. https ://downloads .cloudsecurityalliance .org/initiatives/sdp/
+SDP_Specification_ 1.0.pdf?_ga= 2.228130653 .1951536048 .1669190328 -
+1229248686 .1669036181
+[13] Cloud Security Alliance . Software-defined perimeter (SDP) specification 
+v2.0 [EB/OL ]. (2022 -03-10) [2023 -10-25]. https ://cloudsecurityalliance .
+org/artifacts/software-defined-perimeter-zero-trust-specification-v 2
+[14] Gartner . Market guide for zero trust network access [EB/OL ]. (2019 -04-
+29)[2023 -10-25]. https ://www .gartner .com/en/documents/ 3912802
+[15] 白杨 . 零信任安全的 2022 : 产业迎来爆发期 , “去虚向实 ”将成行业共识  [EB/
+OL]. (2021 -04-19) [2023 -10-25]. https ://finance .sina.com.cn/chanjing/
+cyxw/ 2022 -03-03/doc-imcwipih 6443414 .shtml
+[16] Market Research . Zero trust security market by solution type , deployment 
+mode , authentication type , organization size , vertical and region - global 
+forecast to 2027  [EB/OL ]. (2019 -04-29) [2023 -10-25]. https ://www .
+marketresearch .com/MarketsandMarkets-v 3719 /Zero-Trust-Security-
+Solution-Type- 31844180
+[17] 中共中央党史和文献研究院 . 习近平关于网络强国论述摘编  [M]. 北京: 中央
+文献出版社 , 2021
+64

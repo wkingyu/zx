@@ -1,0 +1,130 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian RIS -Assisted Cell Free MIMO : A Survey    Review
+and Computers . IEEE , 2015 : 695– 699. DOI : 10.1109 /
+ACSSC .2015 .7421222
+[8] BJÖRNSON E , SANGUINETTI L . Making cell -free massive MIMO com ⁃
+petitive with MMSE processing and centralized implementation [J]. IEEE 
+transactions on wireless communications , 2020 , 19(1): 77–90. DOI : 
+10.1109 /TWC .2019 .2941478
+[9] LIU P , LUO K , CHEN D , et al . Spectral efficiency analysis of cell -free 
+massive MIMO systems with zero -forcing detector [J]. IEEE transactions 
+on wireless communications , 2020 , 19(2): 795–807. DOI : 10.1109 /
+TWC .2019 .2948841
+[10] PAPAZAFEIROPOULOS A , KOURTESSIS P , DI RENZO M , et al . Per⁃
+formance analysis of cell -free massive MIMO systems : a stochastic geom ⁃
+etry approach [J]. IEEE transactions on vehicular technology , 2020 , 69
+(4): 3523–3537 . DOI : 10.1109 /TVT .2020 .2970018
+[11] ELHOUSHY S , IBRAHIM M , HAMOUDA W . Cell -free massive MIMO : 
+a survey [J]. IEEE communications surveys & tutorials , 2022 , 24(1): 
+492–523. DOI : 10.1109 /COMST .2021 .3123267
+[12] JIN Y , ZHANG J Y , JIN S , et al . Channel estimation for cell -free 
+mmwave massive MIMO through deep learning [J]. IEEE transactions on 
+vehicular technology , 2019 , 68(10): 10325–10329 . DOI : 10.1109 /
+TVT.2019 .2937543
+[13] ATTARIFAR M , ABBASFAR A , LOZANO A . Modified conjugate beam ⁃
+forming for cell -free massive MIMO [J]. IEEE wireless communications 
+letters , 2019 , 8(2): 616–619. DOI : 10.1109 /LWC .2018 .2890470
+[14] MOSLEH S , ALMOSA H , PERRINS E , et al . Downlink resource alloca ⁃
+tion in cell -free massive MIMO systems [C]//Proc . International Confer ⁃
+ence on Computing , Networking and Communications (ICNC ). IEEE , 
+2019 : 883–887. DOI : 10.1109 /ICCNC .2019 .8685542
+[15] ZHAO Y Q , XU W , SUN H , et al . Cooperative reflection design with tim ⁃
+ing offsets in distributed multi -RIS communications [J]. IEEE wireless 
+communications letters , 2021 , 10(11): 2379–2383 . DOI : 10.1109 /
+LWC .2021 .3100989
+[16] ZHAO Y Q , XU W , YOU X H , et al . Cooperative reflection and synchro ⁃
+nization design for distributed multiple -RIS communications [J]. IEEE 
+journal of selected topics in signal processing , 2022 , 16(5): 980–994. 
+DOI: 10.1109 /JSTSP .2022 .3173749
+[17] ZHAO Y Q , XU W , HUANG Y M , et al . Joint transceiver and passive 
+beamforming optimization for RIS -assisted MIMO systems [C]//Proc . 13th 
+International Conference on Wireless Communications and Signal Pro ⁃
+cessing (WCSP ). IEEE , 2021 : 1– 5. DOI : 10.1109 /
+WCSP 52459 .2021 .9613174
+[18] ZHU F S , ZHAO Y Q , XU W , et al . CSIT -free model aggregation for 
+multi -RIS -assisted over -the-air computation [C]//Proc . International Sym ⁃
+posium on Wireless Communication Systems (ISWCS ). IEEE , 2022 : 1–
+5. DOI : 10.1109 /ISWCS 56560 .2022 .9940351
+[19] SHI W , XU W , YOU X H , et al . Intelligent reflection enabling technolo ⁃
+gies for integrated and green internet -of-everything beyond 5G: communi ⁃
+cation , sensing , and security [J]. IEEE wireless communications , 2023 , 30
+(2): 147–154. DOI : 10.1109 /MWC .018.2100717
+[20] BUZZI S , D􀆳ANDREA C , ZAPPONE A , et al . User -centric 5G cellular 
+networks : resource allocation and comparison with the cell -free massive 
+MIMO approach [J]. IEEE transactions on wireless communications , 
+2020 , 19(2): 1250–1264 . DOI : 10.1109 /TWC .2019 .2952117
+[21] ABDALLAH A , MANSOUR M M . Efficient angle -domain processing for 
+FDD -based cell -free massive MIMO systems [J]. IEEE transactions on 
+communications , 2020 , 68(4): 2188– 2203 . DOI : 10.1109 /
+TCOMM .2020 .2969351
+[22] ABDALLAH A , MANSOUR M M . Angle -based multipath estimation and 
+beamforming for FDD cell -free massive MIMO [C]//Proc . IEEE 20th In ⁃
+ternational Workshop on Signal Processing Advances in Wireless Com ⁃
+munications (SPAWC ). IEEE , 2019 : 1–5. DOI : 10.1109 /
+SPAWC .2019 .8815420
+[23] KIM S , SHIM B . FDD -based cell -free massive MIMO systems [C]//Proc . 
+IEEE 19th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC ). IEEE , 2018 : 1–5. DOI : 10.1109 /
+SPAWC .2018 .8446023
+[24] BJÖRNSON E , HOYDIS J , SANGUINETTI L . Massive MIMO networks : 
+spectral , energy , and hardware efficiency [J]. Foundations and trends in 
+signal processing , 2017 , 11(3/4): 154–655. DOI : 10.1561 /2000000093
+[25] KIM S , SHIM B . AoD -based statistical beamforming for cell -free massive 
+MIMO systems [C]//Proc . IEEE 88th Vehicular Technology Conference 
+(VTC -Fall). IEEE , 2018 : 1–5. DOI : 10.1109 /VTCFall .2018 .8690646
+[26] BJÖRNSON E , SANGUINETTI L . Scalable cell -free massive MIMO sys ⁃
+tems [J]. IEEE transactions on communications , 2020 , 68(7): 4247–
+4261 . DOI : 10.1109 /TCOMM .2020 .2987311
+[27] INTERDONATO G , KARLSSON M , BJÖRNSON E , et al . Local partial 
+zero -forcing precoding for cell -free massive MIMO [J]. IEEE transactions 
+on wireless communications , 2020 , 19(7): 4758–4774 . DOI : 10.1109 /
+TWC .2020 .2987027
+[28] CHAKRABORTY S , BJÖRNSON E , SANGUINETTI L . Centralized 
+and distributed power allocation for max -min fairness in cell -free 
+massive MIMO [C]//Proc . 53rd Asilomar Conference on Signals , Sys⁃
+tems , and Computers . IEEE , 2019 : 576–580. DOI : 10.1109 /
+IEEECONF 44664 .2019 .9048903
+[29] KASAM J , CASTANHEIRA D , SILVA A , et al . Distributed hybrid equal ⁃
+ization for cooperative millimeter -wave cell -free massive MIMO [J]. IEEE 
+transactions on communications , 2022 , 70(8): 5300–5316 . DOI : 
+10.1109 /TCOMM .2022 .3186980
+[30] FENG C H , SHEN W Q , AN J P , et al . Weighted sum rate maximization 
+of the mmwave cell -free MIMO downlink relying on hybrid precoding [J]. 
+IEEE transactions on wireless communications , 2022 , 21(4): 2547–
+2560 . DOI : 10.1109 /twc.2021 .3113458
+[31] YETIS C M , BJÖRNSON E , GISELSSON P . Joint analog beam selection 
+and digital beamforming in millimeter wave cell -free massive MIMO sys ⁃
+tems [J]. IEEE open journal of the communications society , 2021 , 2: 
+1647–1662. DOI : 10.1109 /OJCOMS .2021 .3094823
+[32] ROGALIN R , BURSALIOGLU O Y , PAPADOPOULOS H , et al . Scal ⁃
+able synchronization and reciprocity calibration for distributed multiuser 
+MIMO [J]. IEEE transactions on wireless communications , 2014 , 13(4): 
+1815–1831 . DOI : 10.1109 /twc.2014 .030314 .130474
+[33] LI B Q , ZHU X , JIANG Y F , et al . Cooperative time synchronization and 
+parameter estimation via broadcasting for cell -free massive MIMO net ⁃
+works [C]//Proc . IEEE Wireless Communications and Networking Confer ⁃
+ence (WCNC ). IEEE , 2022 : 2100– 2105 . DOI : 10.1109 /
+WCNC 51071 .2022 .9771548
+[34] CAO Y , WANG P , ZHENG K , et al . Experimental performance evalua ⁃
+tion of cell -free massive MIMO systems using COTS RRU with OTA reci ⁃
+procity calibration and phase synchronization [J]. IEEE journal on se ⁃
+lected areas in communications , 2023 , 41(6): 1620–1634 . DOI : 10.1109 /
+JSAC .2023 .3276057
+[35] ZHANG Y T , DI B Y , ZHANG H L , et al . Beyond cell -free MIMO : energy 
+efficient reconfigurable intelligent surface aided cell -free MIMO commu ⁃
+nications [J]. IEEE transactions on cognitive communications and net ⁃
+working , 2021 , 7(2): 412–426. DOI : 10.1109 /TCCN .2021 .3058683
+[36] LU H C , ZHAO D , WANG Y Z , et al . Joint power control and passive 
+beamforming in reconfigurable intelligent surface assisted user -centric 
+networks [J]. IEEE transactions on communications , 2022 , 70(7): 4852–
+4866 . DOI : 10.1109 /TCOMM .2022 .3174071
+[37] LE Q N , NGUYEN V D , DOBRE O A , et al . Energy efficiency maximiza ⁃
+tion in RIS -aided cell -free network with limited backhaul [J]. IEEE com ⁃
+munications letters , 2021 , 25(6): 1974–1978 . DOI : 10.1109 /
+LCOMM .2021 .3062275
+[38] ZHANG Z J , DAI L L . A joint precoding framework for wideband recon ⁃
+figurable intelligent surface -aided cell -free network [J]. IEEE transac ⁃
+tions on signal processing , 2021 , 69: 4085–4101 . DOI : 10.1109 /
+TSP.2021 .3088755
+[39] HUANG S C , YE Y , XIAO M , et al . Decentralized beamforming design 
+for intelligent reflecting surface -enhanced cell -free networks [J]. IEEE 
+85

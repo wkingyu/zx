@@ -1,0 +1,126 @@
+反无人机技术综述 ：通信技术与人工智能的融合 邱宝华 技术广角
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2CHTB .0.2017 -05-015
+[9] YAN S , CAO X Y , LIU Z L , et al . Interference management in 6G 
+space and terrestrial integrated networks : challenges and 
+approaches [J]. Intelligent and converged networks , 2020 , 1(3): 
+271-280. DOI: 10.23919 /ICN.2020 .0022
+[10] GHOSH A , RATASUK R , MONDAL B , et al . LTE-advanced : 
+next-generation wireless broadband technology [J]. IEEE 
+wireless communications , 2010 , 17(3): 10-22. DOI : 10.1109 /
+MWC .2010 .5490974
+[11] DONG Z W , SUN J , SUN J M , et al . Research on sea clutter 
+suppression using sparse dictionary learning [C]//Proceedings of 
+IEEE 8th Joint International Information Technology and Artificial 
+Intelligence Conference (ITAIC ). IEEE , 2019 : 967-971. DOI : 
+10.1109 /ITAIC .2019 .8785824
+[12] WANG L , TANG J , LIAO Q M . A study on radar target detection 
+based on deep neural networks [J]. IEEE sensors letters , 2019 , 3
+(3): 7000504 . DOI: 10.1109 /LSENS .2019 .2896072
+[13] CHEN X L , SU N Y , GUAN J , et al . Integrated processing of radar 
+detection and classification for moving target via time-
+frequency graph and CNN learning [C]//Proceedings of URSI 
+Asia-Pacific Radio Science Conference (AP-RASC ). IEEE , 2019 : 
+1-4
+[14] 罗俊海 , 王芝燕 . 无人机探测与对抗技术发展及应用综述  [J]. 控制
+与决策 , 2022 , 37(3): 530-544
+[15] RAJ V , C A A . Understanding the future communication : 5G to 
+6G [J]. International research journal on advanced science hub , 
+2021 , 3(Special Issue 6S): 17-23. DOI: 10.47392 /irjash .2021 .159
+[16] SHEKHAR , SINGHAL A , SHARMA R , et al . Study of analysis of 
+multiple input and multiple outputs (mimo ) technology in 
+wireless communication [C]//Proceedings of International 
+Conference on Micro-Electronics and Telecommunication 
+Engineering (ICMETE ). IEEE , 2016 : 658-662. DOI : 10.1109 /
+ICMETE .2016 .134
+[17] TAN R , LIM H S , SMITS A B , et al . Improved micro-Doppler 
+features extraction using Smoothed-Pseudo Wigner-Ville 
+distribution [C]//Proceedings of IEEE Region 10 Conference 
+(TENCON ). IEEE , 2016 : 730-733. DOI : 10.1109 /
+TENCON .2016 .7848099
+[18] SUN Y X , FU H , ABEYWICKRAMA S , et al . Drone classification 
+and localization using micro-doppler signature with low-
+frequency signal [C]//Proceedings of IEEE International 
+Conference on Communication Systems (ICCS ). IEEE , 2018 : 
+413-417. DOI: 10.1109 /ICCS .2018 .8689237
+[19] PARK D , LEE S , PARK S , et al . Radar-spectrogram-based UAV 
+classification using convolutional neural networks [J]. Sensors , 
+2020 , 21(1): 210. DOI: 10.3390 /s21010210
+[20] LIU Y , LIU J Y . Recognition and classification of rotorcraft by 
+micro-Doppler signatures using deep learning [C]//International 
+Conference on Computational Science . Springer , 2018 : 141-
+152.10.1007 /978-3-319-93698 -7_11
+[21] LI H, WU X J , KITTLER J . Infrared and visible image fusion using 
+a deep learning framework [C]//Proceedings of 24th International 
+Conference on Pattern Recognition (ICPR ). IEEE , 2018 : 2705 -
+2710 . DOI: 10.1109 /ICPR .2018 .8546006
+[22] MA J Y , YU W , LIANG P W , et al . FusionGAN : a generative 
+adversarial network for infrared and visible image fusion [J]. 
+Information fusion , 2019 , 48: 11-26. DOI : 10.1016 /j.
+inffus .2018 .09.004
+[23] 张雅雯 , 胡士强 . 低空目标的雷达 /可见光协同监视跟踪方法研究  
+[J]. 计算机工程与应用 , 2018 , 54(6): 234-240
+[24] CHEN Y R , AGGARWAL P , CHOI J , et al . A deep learning 
+approach to drone monitoring [C]//Proceedings of Asia-Pacific Signal and Information Processing Association Annual Summit 
+and Conference (APSIPA ASC ). IEEE , 2017 : 686-691. DOI : 
+10.1109 /APSIPA .2017 .8282120
+[25] SCHUMANN A , SOMMER L , KLATTE J , et al . Deep cross-
+domain flying object classification for robust UAV detection [C]//
+Proceedings of 14th IEEE International Conference on Advanced 
+Video and Signal Based Surveillance (AVSS ). IEEE , 2017 : 1-6. 
+DOI: 10.1109 /AVSS .2017 .8078558
+[26] AKER C , KALKAN S . Using deep networks for drone detection 
+[EB/OL ]. [2024 -02-26]. https ://arxiv .org/abs/ 1706 .05726
+[27] NALAMATI M , KAPOOR A , SAQIB M , et al . Drone detection in 
+long-range surveillance videos [C]//Proceedings of 16th IEEE 
+International Conference on Advanced Video and Signal Based 
+Surveillance (AVSS ). IEEE , 2019 : 1-6. DOI : 10.1109 /
+AVSS .2019 .8909830
+[28] MAGOULIANITIS V , ATALOGLOU D , DIMOU A , et al . Does 
+deep super-resolution enhance UAV detection ? [C]//
+Proceedings of 16th IEEE International Conference on Advanced 
+Video and Signal Based Surveillance (AVSS ). IEEE , 2019 : 1-6. 
+DOI: 10.1109 /AVSS .2019 .8909865
+[29] CRAYE C , ARDJOUNE S . Spatio-temporal semantic 
+segmentation for drone detection [C]//Proceedings of 16th IEEE 
+International Conference on Advanced Video and Signal Based 
+Surveillance (AVSS ). IEEE , 2019 : 1-5. DOI : 10.1109 /
+AVSS .2019 .8909854
+[30] ANWAR M Z , KALEEM Z , JAMALIPOUR A . Machine learning 
+inspired sound-based amateur drone detection for public safety 
+applications [J]. IEEE transactions on vehicular technology , 2019 , 
+68(3): 2526 -2534 . DOI: 10.1109 /TVT.2019 .2893615
+[31] 王威, 安腾飞 , 欧建平 . 无人机被动音频探测和识别技术研究  [J]. 声
+学技术 , 2018 , 37(1): 89-93
+[32] JEON S , SHIN J W , LEE Y J , et al . Empirical study of drone 
+sound detection in real-life environment with deep neural 
+networks [C]//Proceedings of 25th European Signal Processing 
+Conference (EUSIPCO ). IEEE , 2017 : 1858 -1862
+[33] LIU H , WEI Z Q , CHEN Y T , et al . Drone detection based on an 
+audio-assisted camera array [C]//Proceedings of IEEE Third 
+International Conference on Multimedia Big Data (BigMM ). IEEE , 
+2017 : 402-406. DOI: 10.1109 /BigMM .2017 .57
+[34] KONG M M , LIU J , ZHANG Z H , et al . Radio ground-to-air 
+interference signals recognition based on support vector 
+machine [C]//Proceedings of IEEE International Conference on 
+Digital Signal Processing (DSP). IEEE , 2015 : 987-990. DOI : 
+10.1109 /ICDSP .2015 .7252025
+[35] YAN H H , ZHOU B , LIU J , et al . Radio signal recognition based 
+on constructing typical spectrum [C]//Proceedings of 2nd IEEE 
+International Conference on Computer and Communications 
+(ICCC ). IEEE , 2016 : 1889 -1894 . DOI : 10.1109 /
+CompComm .2016 .7925030
+[36] ZHANG M , DIAO M , GUO L M . Convolutional neural networks 
+for automatic cognitive radio waveform recognition [J]. IEEE 
+access , 1074 , 5: 11074 -11082 . DOI : 10.1109 /
+ACCESS .2017 .2716191
+[37] LI R D , HU J H , YANG S Y . Deep gated recurrent unit 
+convolution network for radio signal recognition [C]//Proceedings 
+of IEEE 19th International Conference on Communication 
+Technology (ICCT ). IEEE , 2019 : 159-163. DOI : 10.1109 /
+ICCT 46805 .2019 .8947225
+[38] MUZAMMAL M , TALAT R , SODHRO A H , et al . A multi-sensor 
+data fusion enabled ensemble approach for medical data from 
+body sensor networks [J]. Information fusion , 2020 , 53: 155-
+164. DOI: 10.1016 /j.inffus .2019 .06.021
+98

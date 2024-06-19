@@ -1,0 +1,110 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Research Papers   Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos
+16 males and 14 females aged between 22 and 33 years . All of 
+them have normal or corrected -to-normal sight . The experi ⁃
+ments were conducted in the test environment following ITU -T 
+P.913[38]. A flagship HMD , i.e., HTC VIVE Pro , was employed 
+as the display device , which has a screen with an original reso ⁃
+lution of 2 880×1 600 pixels , a refresh rate of 90 Hz, and a 
+horizontal FOV of 110 degrees . Moreover , a 360 -degree video 
+player with the Equirectangular projection was developed to 
+display the videos on the HMD . The display FOV , length of 
+the MTP latency , and audio latency can be set as desired . Our 
+study adopted a single -stimuli scoring strategy[38].
+3.2.2 Experiment 1: Obtaining Perceptual Video Quality
+In this experiment , ten YUV 420 original videos were em ⁃
+ployed to form a video database , including four 360 -degree 
+videos (i.e., denoted as O 1 to O 4) proposed by Joint Video Ex ⁃
+ploration Team (JVET ) of ITU -T VCEG and ISO/IEC 
+MPEG[39–40] and six 2D videos (i.e., denoted as V 1 to V 6) pro⁃
+vided by the Ultra Video Group[41], as shown in Fig . 2. The 
+360 -degree videos have a spatial resolution of 3 840×1 920 
+pixels , a framerate of 30 fps and a length of 10 s. The 2D vid ⁃
+eos have a spatial resolution of 3 840×2 160 pixels , a framer ⁃
+ate of 120 fps and a length of 5 s. The experiment was divided 
+into 2 sub -experiments , which were designed to investigate 
+the impact of bitrate and frame rate on the perceptual video 
+quality . Details of the experiment settings are introduced as 
+follows :
+1) Investigating the impact of video bitrate
+Four 360 -degree videos , i.e., O1 to O 4, were utilized to in ⁃
+vestigate the relationship between the video bitrate and the 
+perceptual video quality . The bits per pixel (BPP) were em ⁃
+ployed to unify the coding bitrates under different resolutions . 
+It can be calculated by
+BPP=Br
+RH×RV×f , (1)
+where Br and f are the video bitrate and frame rate , respec ⁃tively . RH and RV are the horizontal and vertical source resolu ⁃
+tions . The original 360 -degree videos were down -sampled and 
+encoded using an x 265 encoder according to the settings 
+listed in Table 1.
+During the experiment , video sequences were displayed in 
+random orders using the HMD . Subjects can change their 
+viewport by rotating their head . There was a 10-second inter ⁃
+val between each two video sequences . Subjects could rate the 
+perceptual video quality using the Absolute Category Rating 
+(ACR ) 5-point scale (corresponding to the perceived quality of 
+“excellent ,” “good,” “fair,” “poor,” and “bad” from 5 to 1 
+point ) during the 10-second interval . Before the formal test , 
+the subjects were asked to rate a few example videos to get fa ⁃
+miliar with the scoring scale and the scoring tool .
+2) Investigating the impact of frame rate
+To the best of our knowledge , there is no 360 -degree video 
+database containing videos with a frame rate higher than 60 
+fps. As the screen refresh rate of the current HMDs can reach 
+90 Hz, we have to use six 2D videos with a high frame rate , i.e., 
+V1 to V 6, to study the impact of frame rate . Each original video 
+was repeated twice to generate a video of 10 s. Then , they were 
+down -sampled to 60 fps, 30 fps, and 15 fps. These videos (in⁃
+cluding the original 120 fps) were further spatially down -
+sampled to 960 × 540. Videos generated from V 1 to V 4 were 
+encoded with a fixed quantization parameter (QP), i.e., 22, us⁃
+▼Table 1. Experimental setup
+BPP
+0.016
+0.032
+0.056
+0.08
+0.16
+0.20Bitrate/ (Mbit/s )
+720P 
+(1 280×640)
+0.39
+0.79
+1.38
+1.97
+3.93
+4.921080 P 
+(1 920×960)
+0.89
+1.77
+3.10
+4.42
+8.85
+11.062K 
+(2 160×1 080)
+1.12
+2.24
+3.92
+5.60
+11.20
+14.00BPP
+0.011
+0.024
+0.056
+0.08
+0.16
+0.20Bitrate/ (Mbit/s )
+4K 
+(3 840×1 920)
+2.50
+5.20
+12.39
+17.70
+35.39
+44.24
+BPP: bits per pixel
+▲Figure 2. Content of test sequences : (a) Basketball , (b) Harbor , (c) KiteFlite , (d) Gaslamp , (e) Beauty , (f) Bosphorus , (g) Honeybee , (h) Jockey , (i) 
+ReadySetGo , and (j) YachRide(a) (b) (c) (d) (e)
+(f) (g) (h) (i) (j)
+94

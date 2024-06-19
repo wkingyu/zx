@@ -1,0 +1,80 @@
+Introduction
+n the surging tide of the information age, the 
+development of integrated global 
+communication networks encompassing sea, 
+sky, and land has become a key driving 
+force in societal progress. Despite signi/f_icant 
+advancements in terrestrial network expansion, vast 
+oceans and remote lands still face the reality of 
+lacking network coverage, leaving a considerable 
+proportion of the globe in an information isolation. 
+Leveraging its profound technical expertise and 
+insight into the era’s trends, ZTE has introduced the 
+5G non-terrestrial network (NTN) solution based on 
+3GPP standards. This article delves into ZTE 5G NTN 
+concept, implementation, and prospects, 
+illuminating how it sets a new direction for the future 
+development of integrated satellite-terrestrial 
+communication networks.
+Satellite Communication: Meeting Urgent 
+Demands for Comprehensive Coverage
+Addressing the challenge of facilitating eﬀective 
+communication and emergency responses in areas 
+without terrestrial network coverage is a 
+signi/f_icant hurdle facing the global 
+communications industry. Satellite 
+communication has emerged as a key solution to 
+this challenge. The widespread deployment of 
+satellite communication is gradually revealing its 
+indispensable strategic role in the communications 
+sector (Fig. 1). Leading companies are leveraging 
+satellite communication as a breakthrough, 
+exploring diverse technological pathways. 
+SpaceX’s Starlink program has deployed over 5,000 
+satellites in orbit, with a user base exceeding two million; the emerging force, AST SpaceMobile, is 
+closely collaborating with numerous global 
+operators to co-develop future strategies.
+However, current satellite communication 
+methods have their limitations. Traditional satellite 
+telephony oﬀers stable signals and strong 
+environmental adaptability but requires bulky, 
+cumbersome terminals. Moreover, satellite 
+broadband services, represented by Starlink, have 
+made technical advancements, yet their terminal 
+equipment and service fees remain relatively high, 
+hindering widespread adoption.
+ZTE 5G NTN: Achieving Universal 
+Connectivity Through Space, Air, and Land 
+Integration
+ZTE has proposed a unique, 3GPP-compliant 5G 
+NTN solution. This approach opens up 
+communication channels for remote areas, providing 
+not only convenience and eﬃciency in 
+communication for users but also paving new 
+avenues for economic growth within the industry.
+In its initial phase, the solution leverages mature 
+geostationary satellites. These high-orbit satellites 
+eﬀectively cover vast areas, thereby signi/f_icantly 
+reducing the number of satellites required. This 
+approach not only conserves resources but also 
+contributes to global environmental protection. The 
+solution aligns with 3GPP standards, ensuring 
+minimal resource utilization for emergency 
+communication and IoT services. This marks a 
+multifunctional and forward-looking milestone in 
+telecommunications development.
+As networks evolve to the next step, especially 
+with low earth orbit (LEO) satellites, the renewable 
+network architecture will support satellite uplink 
+ 
+ 
+ZTE 5G NTN: Bridging Global 
+Connectivity Divide
+I
+RAN Solution 
+Manager, ZTEMa Wenbin
+Chief Engineer of RAN 
+Product Planning, ZTEHao Ruijing
+
+5G-Advanced Special Topic 
+24 

@@ -1,0 +1,82 @@
+he 14th Five-Year Plan marks a pivotal 
+phase in China’s digital and intelligent 
+transformation. The 5G+ industrial 
+Internet will  drive innovation to 
+develop new applications and ecosystems. Key 
+sectors like power, transportation and railways will 
+undergo gradual upgrades via private networks. 
+The Ministry of Industry and Information 
+Technology’s Industry Internet Innovation and 
+Development Action Plan (2021–2023) outlines 
+strategies supporting the advancement of “5G+ 
+industrial Internet” and deploying new 
+technologies such as deterministic networks. To 
+develop high-quality 5G+ industrial Internet and 
+private networks, the focus includes upgrading 
+enterprise intranets, integrating IT with OT 
+networks, building secure campus networks, 
+establishing external networks for enterprises 
+with high-performance, high-reliability, 
+high-/f_lexibility and high-security network 
+services, deploying new technologies such as 
+cloud-network/computing-network convergence, 
+deterministic networks, and IPv6 segment routing 
+(SRv6), and promoting industrial access to 
+high-quality external networks with a focus on data and network security. 
+In collaboration with the China Academy of 
+Information and Communications Technology 
+(CAICT) and leading device manufacturers, China 
+Mobile actively drives technological innovation 
+and industrial applications in the slicing packet 
+network (SPN) /f_ield for various industrial scenarios. 
+The practical implementation of application 
+solutions is underway in sectors like power, 
+transportation, coal mines, ports, healthcare, and 
+industrial campuses. In January 2023, the Research 
+Report on the Requirements and Application of 
+SPN in Industrial Scenarios was approved during 
+the plenary session of the Industrial Internet 
+Industry Alliance.
+Transport Demand Analysis in Typical 
+Industry Scenarios
+Network transport demands diﬀer across 
+various industry scenarios. For instance, in typical 
+service scenarios like 5G+ industrial Internet and 
+smart grids, Table 1 outlines variations in transport 
+capabilities and index requirements for 
+communication networks across eight service 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TResearch on SPN 2.0 Technical 
+Features and Application 
+Solutions in Industry Scenarios
+Deputy Director of Broadband 
+Network Research Dept., 
+Technology and Standards 
+Institute, CAICTLi Fang
+Senior Engineer of Broadband 
+Network Research Dept., 
+Technology and Standards 
+Institute, CAICTZhao Junfeng
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expert Views
+06 

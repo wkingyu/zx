@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Special Topic   Lossy Point Cloud Attribute Compression with Subnode -Based Prediction
+where w1 and w2 represent the number of points in two adja ⁃
+cent nodes , which makes the transform more adaptive to the 
+sparsity of point clouds .
+To further explore the local spatial correlation , the inter -
+depth upsampling (IDUS ) method[13] is proposed to predict at ⁃
+tributes of nodes in the transform domain . As shown in Fig . 2, 
+the upsampling process is realized by means of a weighted av ⁃
+erage based on geometric distance in the mean attribute 
+space . During the prediction procedure , for each node at 
+Level l, there are mainly two types of nodes used for predic ⁃
+tion, which are parent -level neighbors at Level l-1 and 
+subnode -level neighbors at Level l[14]. However , there are still 
+some already -encoded neighbors that are not utilized in the 
+current prediction and the prediction reference relationship 
+can be further refined to improve the attribute compression ef ⁃
+ficiency .
+3 Proposed Approach
+Based on the framework described in Section 2.2, we pro ⁃
+pose a subnode -based transform domain prediction for RAHT 
+that considers more accurate spatial correlations among 
+nodes . In addition to the parent -level neighbors and subnode -
+level neighbors in G -PCC, some other effective neighbors are 
+also utilized for upsampled transform domain prediction . As il ⁃
+lustrated in Fig . 3, the parent -level neighbors at level l-1 in⁃
+clude three types of nodes , which are the parent node (Npm), 
+co-plane parent neighbor node (sharing a side with the sub ⁃
+node to be predicted , Ncppnn ), and co -line parent neighbor 
+node (sharing an edge with the subnode to be predicted , 
+Nclpnn ). For the subnode -level neighbors at Level l, there are 
+the co -plane subnode in the co -plane parent neighbor node 
+(Ncpsn ), co -line subnode in the co -line parent neighbor node 
+(Nclsncl ) and proposed co -line subnode in the co -plane parent 
+neighbor node (Nclsncp ). With these predictive reference nodes , we design an optimized transform domain prediction 
+for RAHT . Compared with the original prediction scheme in 
+G-PCC, we first introduce already -encoded neighbor nodes 
+Nclsncp  as reference candidates and the neighbor search for 
+nodes Nclsncp  is described in Section 3.1. Since a new type of 
+predictive reference neighbors is added , we further propose a 
+geometric distribution -based prediction to refine the original 
+node prediction reference relationship , which is then detailed 
+in Section 3.2.
+3.1 Neighbor Search for Reference Candidates
+Since the proposed co -line subnodes (Nclsncp ) exist in the 
+co-plane parent neighbor nodes (Ncppnn ), the neighbor search 
+is mainly decomposed into two stages : 1) determining the co -
+plane parent neighbor nodes and 2) deciding co -line subnodes 
+reference candidates . Specifically , for each subnode to be pre ⁃
+dicted , the corresponding parent node has at most six co -
+plane parent neighbor nodes . Among them , already -encoded 
+subnodes Nclsncp  can only exist in three parent neighbor 
+nodes (Fig. 4), which are located on the left , front and bottom 
+of Npn respectively .
+Further considering 
+the position of each sub ⁃
+node to be predicted in 
+its Npn as well as the 
+distribution of corre ⁃
+sponding Ncppnn , the 
+detailed existence of 
+Nclsncp  of each subnode 
+to be predicted is shown 
+in Fig . 4. Note that the 
+position indexes (from 0 
+to 8) are organized ac ⁃
+cording to the Morton or ⁃
+der. Specifically , we de ⁃
+note Ntbp i  as the i-th 
+subnode to be predicted 
+in the same Npn. Then , 
+it can be seen that only 
+Ntbp 0 contains six 
+Parent-level  
+nodes in Level 
+l-1Parent node
+Co-plane parent neigh ⁃
+bor node
+Co-line parent neighbor 
+node
+Subnode-level  
+nodes in 
+Level lCo-plane subnode
+Co-line subnode in Nclpnn
+Co‐line subnode 
+in NcppnnType Description Symbols in Diagram
+NcppnnNcpsnNclpnn
+NclsnclNpn
+Nclsncp
+▲Figure 3. Notations of different types of nodes for transform domain 
+prediction , which include parent -level neighbor nodes at level l-1 and 
+subnode -level neighbor nodes at level l 𝑙
+▲Figure 2. Upsampled transform domain prediction for region adaptive hierarchical transform (RAHT ) in 
+geometry -based point cloud compression (G-PCC ), where upsampling prediction is performed in the mean attribute 
+space and transformation is performed in the sum attribute spaceNeighbors at Level l-1
+Neighbors at Level l
+Decoded attributes at Level l
+at Level lOriginal sum of attributesat Level l-1Decoded sum of attributes
+at Level l-1Decoded mean attributes
+attributes at Level lPredicted mean
+Predicted sum of attributes 
+at Level lNormalization Weighted 
+average
+Transform TransformInverse 
+normalization
+Transformed residuals-
+32

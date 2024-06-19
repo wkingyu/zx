@@ -1,0 +1,52 @@
+面向 5G-A 的无线网络节能关键技术 郭 诚  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6面向 5G-A的无线网络
+节能关键技术
+Key Technologies for 5G-A Wireless Network Energy Saving
+郭诚/GUO Cheng ，陈梦竹 /CHEN Mengzhu
+（ 中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202306003
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231211 .1116 .004.html
+网络出版日期 ：2023 -12-12
+收稿日期 ：2023 -10-15
+摘要 ：建立网络能耗模型 ，对基站在数据发送状态 、接收状态 、休眠模式及模式转换的相对功耗进行建模 ，可以评估各种网络节能技术的节能
+增益。面向 5G-A，从时域 、空域、频域和功率域等方面 ，研究包括公共信号轻量化设计 、极简小区架构 、小区不连续发送 /接收模式 、基站唤
+醒机制 、节能测量上报增强等网络节能的关键技术 ，使能更动态 、高效、精准的无线传输 ，并通过终端和基站间信息交互的方式提升节能效果 。
+随后，仿真验证了这些技术的正确性和有效性 。
+关键词 ：网络节能 ；能耗建模 ；极简小区架构 ；测量上报增强
+Abstrac t:The network energy consumption model is established to analyze the relative power consumption of base stations for transmission/
+reception , sleep modes , and mode transmission , and evaluate the energy-saving gains of various network energy-saving techniques . In 
+terms of time domain , space domain , frequency domain , and power domain , key techniques for network energy saving , including light ⁃
+weight design of common signals , simplified cell architecture , cell discontinuous transmission/reception mode , base station wake-up 
+mechanism , enhanced channel state information measurement/reporting for network energy-saving are researched , and enabling more dy ⁃
+namic , efficient , and accurate wireless transmission . In addition , the energy-saving gain is improved through information interaction be ⁃
+tween the device terminal and the base station , and then the effectiveness of the techniques is verified and analyzed through system-level 
+simulation .
+Keywords :network energy saving ; energy consumption modeling ; simplified cell architecture ; enhanced measurement report
+引用格式 ：郭诚, 陈梦竹 . 面向 5G-A 的无线网络节能关键技术  [J]. 中兴通讯技术 , 2023 , 29(6): 11-15. DOI: 10.12142 /ZTETJ .202306003
+Citation ： GUO C , CHEN M Z . Key technologies for 5G-A wireless network energy saving [J]. ZTE technology journal , 2023 , 29(6): 11-15. 
+DOI: 10.12142 /ZTETJ .202306003
+1 5G-A无线网络节能演进
+全球气候变化正在对全人类生存发展带来日益严峻的影
+响，走向碳中和已成为全球的共识 。作为数字化转型
+重要底座的移动通信网络 ，聚焦数据中心 、通信基站 、通信
+机房 3类重点设施 。工业和信息化部发布的 《信息通信行业
+绿色低碳发展行动计划 （2022 —2025 年）》[1]要求推动基站
+主设备及配套设施节能技术的应用推广 ，使5G基站能效提
+升20%以上 。通过信息通信行业数字化转型来赋能全社会
+降碳 ，促进居民低碳环保生活 ，从而更好地推动城乡绿色智
+慧发展 。
+电信运营商及设备商自 2G时代起就不断启动节能减排
+计划 ，研究网络节能手段 ，应对气候及能耗的挑战 。在过去的时间里 ，随着产业链的不断发展与成熟 ，芯片技术的不断
+提高 ，通过不断优化电路设计 、硬件实现算法 ，网络节能已
+经取得了很大的进步 。一些基础节能功能包含符号关断 、通
+道关断 、载波关断和设备深度休眠等被提出 ，以适应不同的
+通信网络负荷[2]。
+随着 5G-A 时代到来 ，无线通信将使用更高的频段作为
+信号载体 ，数据速率达到太比特每秒量级 ，同时全息通信 、
+智能交互 、感官互联 、数字孪生 、通信感知等新业务需求不
+断涌现 ，这给网络流量带来了百倍甚至千倍的激增 。要想在
+保持比特增长的同时尽量降低功耗 ，需要基于高集成芯片 、
+高效率器件 、新升级工艺 、强算力算法 ，打造新一代绿色设
+备，实现极致的关断深度和响应时间[3]。
+11

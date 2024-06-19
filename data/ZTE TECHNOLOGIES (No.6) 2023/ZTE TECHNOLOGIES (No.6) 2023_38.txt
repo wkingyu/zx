@@ -1,0 +1,98 @@
+C89E further enhances equipment stability by 
+adopting a hardware separation design from 
+control boards and switching boards. 
+High-reliability control:  This feature is 
+achieved through complete isolation 
+between control and forwarding planes, 
+with a multi-core multi-process processing 
+mechanism that ensures device management, 
+route calculation and entry synchronization 
+do not aﬀect each other. 
+High-reliability system:  ZXR10 C89E boasts a 
+fully distributed software system architecture, 
+supporting intelligent, dynamic loading 
+and updates at the process level, allowing 
+/f_lexible addition of new functions without 
+interrupting service upgrades. It also supports 
+distributed protocol processing to increase 
+eﬃciency and stability. 
+Comprehensive security protocols:  ZXR10 
+C89E provides secure SSH login modes and 
+user-level access control. It oﬀers various 
+protocol security protection methods, 
+including ARP, STP, DHCP, and robust routing 
+protocol encryption algorithms to ensure 
+protocol security. 
+All-round reliability functions:  ZXR10 C89E 
+provides a comprehensive set of reliability 
+features including ERPS, FRR, GR, Ethernet 
+OAM, MC-LAG, and other service protection 
+functions. These functions can ensure 
+network security.
+Abundant IPv6 Functions to Facilitate 
+Network Transformation
+ZXR10 C89E supports basic IPv6 protocols 
+such as RIPng, OSPFv3, IS-ISv6 and BGP4+, along 
+with carrier-class IPv6 functions like DHCPv6 
+snooping and PIMv6. Furthermore, it boasts 
+robust IPv6 forwarding and routing capabilities 
+and supports dual-stack deployment for 
+both IPv4 and IPv6. The system also provides 
+comprehensive IPv6 management and 
+maintenance, ensuring high security and 
+reliability. Additionally, ZXR10 C89E supports 
+IPv4 to IPv6 tunnel conversion to facilitate a 
+smooth transition from IPv4 to IPv6. 
+ 
+Green, Energy-Eﬃcient, and 
+Eco-Friendly
+ZXR10 C89E features a highly eﬃcient 
+power system, minimizing power conversion 
+losses. Its advanced chip technology reduces 
+component energy consumption, resulting 
+in reduced operational power consumption. 
+Dynamic speed-controlled fans support 
+continuous speed adjustment. It is also 
+compatible with a 240V/380V high-voltage 
+direct current supply system, enhancing power 
+eﬃciency of the equipment room. Complying 
+with lead-free RoHS, WEEE, and ISO14001 
+standards, ZXR10 C89E utilizes eco-friendly 
+packaging materials, aligning with the “Green 
+Earth, Nature Care” philosophy.
+Network Virtualization and  SDN Free 
+Mobility
+ZXR10 C89E oﬀers the functionality of VxLAN 
+virtual network  and SDN free mobility.
+VxLAN virtual network: ZXR10 C89E builds a 
+VxLAN overlay virtual network on the basis of 
+traditional L2 and L3 networks, achieving the 
+decoupling of network identity from physical 
+location. Through the use of the BGP-EVPN 
+protocol,  VxLAN tunnels can be automatically 
+created, enabling the automatic provisioning 
+of virtual networks. 
+SDN free mobility: ZXR10 C89E provides 
+user group-based identity authentication 
+and automatic SDN controller policy 
+delivery, enabling automatic provisioning 
+of user services and eliminating the need 
+for secondary authentication during user 
+roaming.
+The ZXR10 C89E series switch is a new 
+generation of core switch developed by ZTE 
+based on its self-developed architecture. It 
+oﬀers high capacity and high performance while 
+fully ensuring the high reliability and availability 
+of the system. It builds new-generation data 
+networks and accelerates digital transformation 
+for customers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic
+36

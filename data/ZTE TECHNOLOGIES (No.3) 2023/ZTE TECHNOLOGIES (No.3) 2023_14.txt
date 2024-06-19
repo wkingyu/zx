@@ -1,0 +1,85 @@
+Core Requirements and Challenges 
+of the 5G Field Network
+Traditional industrial control networks 
+connect all devices through wired networks, 
+such as industrial Ethernet and /f_ield buses, 
+with programmable logic controller (PLC) at 
+the core. However, this presents several 
+challenges for the digital transformation of 
+the industrial control network. First, wired 
+networks are diﬃcult to deploy and prone 
+to failures, which don’t allow the production 
+lines to make quick adjustments, resulting in 
+low /f_lexibility and hard service upgrades. 
+Additionally, the traditional PLC ecosystem is 
+closed, and regular upgrades of software 
+and hardware can be costly. 
+We have implemented 5G digital 
+transformation in many industries. For 
+example, in a steel-making enterprise’s cran e 
+scenario, 5G is utilized to support wireless 
+PLC northbound connection between the 
+unmanned crane and its control system. This 
+allows convenient deployment of the crane 
+while avoiding many hidden troubles and 
+fault points caused by moving cables. In an 
+automatic logistics sorting scenario, a large-
+scale automatic control center requires the 
+cooperation of PLCs with thousands of I/O 
+points. By using 5G technology, the master-
+slave PLC system can be connected wirelessly, 
+greatly simplifying the cable deployment and facilitating the upgrade of the automatic 
+logistics sorting system. Furthermore, 
+in 3C electronics manufacturing where 
+elastic production is a signi/f_icant 
+requirement, 5G technology can be 
+used to enable wireless PLC southbound 
+connections between the PLC and the 
+end equipment, enabling /f_lexible and 
+elastic production. 
+After analyzing typical /f_ield network 
+scenarios, we’ve found that using 5G to 
+serve the /f_ield applications should be done 
+step by step, and there are three top 
+challenges to be addressed when 
+implementing 5G /f_ield networks. 
+Diﬃculty in performance guarantee:  
+With 5G-driven cord-cutting, the 
+deterministic requirements have become 
+higher and higher. For example, the 
+southbound communication of PLC 
+requires ultra-low latency assurance.
+Requirement of cloud, network and 
+applications:  Applications are key to 
+digital transformation of industries. How 
+can we easily deploy all kinds of 
+applications? We need to take into 
+account cloud platform and applications 
+besides the 5G network.
+Complex network O&M:  Although 5G 
+provides convenience to applications, 
+traditional 5G networks are really 
+complicated for enterprise self-O&M. 
+Fig. 2. Three key 
+capabilities of 
+5G /f_ield network.
+Node Engine Edge gatewayOne-stop 
+cloud & network products
+Simplified O&M
+for enterprisesAll-in-one
+managementLightweight
+deploymentApplication
+oriented5 in 1
+Deterministic guaranteeUltra-low
+latencyUltra-low
+jitterUltra-high
+reliability
+Campus Shop/f_loor Production
+line
+ IT domain
+Production management
+OT domainField bus or RT Ethernet
+Process control, actuator, controllerIndustrial Ethernet
+Data collection and monitor
+5G field network
+125G Fully-Connected Factory Special Topic

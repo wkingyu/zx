@@ -1,0 +1,85 @@
+超大规模天线阵列下的多用户快速波束训练 司 源  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1练开销越大 ，不适合多用户下的波束训练 。
+5 结束语
+针对超大规模天线阵列波束训练开销过高的问题 ，本文
+中我们研究了基于哈希函数的多用户快速波束训练方案 ，重
+点分析了哈希码本对波束对齐性能的影响 。我们提出了随机
+和固定两种码本设计方法 ，并根据理论分析结果得到最佳的
+码本生成参数 。仿真结果表明 ，所提方案实现了接近传统轮
+询方案的性能 ，但仅需要一半的训练开销 ，并且支持多用户
+同时训练 ，同时所提方案波束对齐准确率远远优于采用完全
+随机哈希码本的已有方案 。
+参考文献
+[1] 张跃平 . 2022 年度十大天线技术进展  [J]. 中兴通讯技术 , 2023 , 29
+(2): 67-71. DOI: 10.12142 /ZTETJ .202302013
+[2] 3GPP. User equipment (UE) radio transmission and reception : 
+3GPP TS 38.101-1 V18.3.0 [S]. 2023
+[3] 李福昌 , 王伟 . 5G高低频组网协同机制与策略  [J]. 中兴通讯技术 , 
+2022 , 28(4): 3-6. DOI: 10.12142 /ZTETJ .202204002
+[4] 3GPP. Physical layer procedures for data : 3GPP TS 38.214 
+V18.0.0 [S]. 2023
+[5] DAI L L , TAN J B , CHEN Z , et al . Delay-phase precoding for 
+wideband THz massive MIMO [J]. IEEE transactions on wireless 
+communications , 2022 , 21(9): 7271 -7286 . DOI : 10.1109 /
+TWC .2022 .3157315
+[6] 王海明 , 陈祎祎 . 6G: 跨频段协同通信  [J]. 中兴通讯技术 , 2022 , 28
+(4): 42-43. DOI: 10.12142 /ZTETJ .202204009
+[7] 刘利平 , 菅梦楠 , 陈艺戬 . 太赫兹技术发展及其应用于 6G的挑战分析  
+[J]. 中 兴 通 讯 技 术 , 2021 , 27(2): 17-24. DOI : 10.12142 /
+ZTETJ .202102005
+[8] 胡田钰 , 李玲香 , 陈智 . 多频段协同通信的新机遇 ——太赫兹通信感
+知一体化  [J]. 中兴通讯技术 , 2022 , 28(4): 14-18. DOI : 10.12142 /
+ZTETJ .202204004
+[9] 谢峰, 王菲, 刘汉超 . 面向 6G的多频段智能融合组网  [J]. 中兴通讯技
+术, 2022 , 28(4): 25-30. DOI: 10.12142 /ZTETJ .202204006
+[10] WANG J Y , LAN Z , PYO C W , et al . Beam codebook based 
+beamforming protocol for multi-Gbps millimeter-wave WPAN 
+systems [J]. IEEE journal on selected areas in communications , 
+2009 , 27(8): 1390 -1399 . DOI: 10.1109 /JSAC .2009 .091009
+[11] ZHANG J J , HUANG Y M , SHI Q J , et al . Codebook design for 
+beam alignment in millimeter wave communication systems [J]. 
+IEEE transactions on communications , 2017 , 65(11): 4980 -
+4995 . DOI: 10.1109 /TCOMM .2017 .2730878
+[12] CHEN K J , QI C H . Beam training based on dynamic hierarchical 
+codebook for millimeter wave massive MIMO [J]. IEEE 
+communications letters , 2019 , 23(1): 132-135. DOI : 10.1109 /
+LCOMM .2018 .2881084
+[13] QI C H , CHEN K J , DOBRE O A , et al . Hierarchical codebook-
+based multiuser beam training for millimeter wave massive 
+MIMO [J]. IEEE transactions on wireless communications , 2020 , 
+19(12): 8142 -8152 . DOI: 10.1109 /TWC .2020 .3019523[14] RAMASAMY D , VENKATESWARAN S , MADHOW U . 
+Compressive adaptation of large steerable arrays [C]//
+Proceedings of Information Theory and Applications Workshop . 
+IEEE , 2012 : 234-239. DOI: 10.1109 /ITA.2012 .6181796
+[15] MARZI Z , RAMASAMY D , MADHOW U . Compressive channel 
+estimation and tracking for large arrays in mm-Wave picocells 
+[J]. IEEE journal of selected topics in signal processing , 2016 , 10
+(3): 514-527. DOI: 10.1109 /JSTSP .2016 .2520899
+[16] HASSANIEH H , ABARI O , RODRIGUEZ M , et al . Fast millimeter 
+wave beam alignment [C]//Proceedings of the 2018  Conference 
+of the ACM Special Interest Group on Data Communication . 
+ACM , 2018 : 432–445. DOI: 10.1145 /3230543 .3230581
+[17] WANG X , HOU X L , CHEN L , et al . Hash-based fast beam 
+alignment for 6G sub-terahertz MIMO [C]//Proceedings of 27th 
+Asia Pacific Conference on Communications (APCC ). IEEE , 
+2022 : 317-322. DOI: 10.1109 /APCC 55198 .2022 .9943685
+[18] YOU C S , ZHENG B X , ZHANG R . Fast beam training for IRS-
+assisted multiuser communications [J]. IEEE wireless 
+communications letters , 2020 , 9(11): 1845 -1849 . DOI : 10.1109 /
+LWC .2020 .3005980
+[19] LI Z H , QI C H . Beam training with limited feedback for multiuser 
+mmWave massive MIMO [C]//Proceedings of GLOBECOM 2020  - 
+2020  IEEE Global Communications Conference . IEEE , 2020 : 1-6. 
+DOI: 10.1109 /GLOBECOM 42002 .2020 .9348205
+作 者 简 介
+司源 ，中兴通讯股份有限公司技术预研工程师 ；
+主要研究领域为多天线技术 、码本设计 。
+禹宏康 ，中兴通讯股份有限公司技术预研工程师 ；
+主要研究领域为多天线技术 、近场通信 ；发表论
+文10余篇。
+陈艺戬 ，中兴通讯股份有限公司技术预研资深专
+家、青年领军人才 、深圳市地方级领军人才 ；主
+要研究领域为 6G技术预研 ；发表论文 10篇，获
+授权专利 50项。
+73

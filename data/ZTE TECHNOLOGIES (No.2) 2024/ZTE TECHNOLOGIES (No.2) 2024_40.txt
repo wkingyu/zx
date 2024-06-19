@@ -1,0 +1,64 @@
+Guangdong Mobile Embraces SPN 
+Dynamic Energy Solution for Green Transport
+SPN AI Dynamic Energy Saving 
+Solution
+The existing SPN experiences noticeable tidal 
+eﬀects and periodic traﬃc /f_luctuations over time. 
+The innovative AI dynamic energy-saving solution 
+collects real-time network data, analyzes and 
+predicts changes in service load, and devises 
+energy-saving schemes at chip, module, board, and 
+network levels, ensuring intelligent power 
+conservation while maintaining strict transmission 
+performance. 
+Utilizing big data technologies and AI algorithms, 
+the solution analyzes SPN traﬃc, predicts service 
+trends, and implements precise energy-saving 
+policies. It also incorporates various security 
+protection mechanisms and energy-saving exit 
+strategies according to network device and service 
+operation statuses, thereby ensuring network and 
+service security. 
+Traﬃc Data Analysis: Determining 
+Mainstream Scenarios
+Based on half-year traﬃc data, scenarios are 
+categorized into base station and private line traﬃc 
+ 
+Senior Expert of 
+Wireline Product 
+Service Planning, ZTEHan Jike
+Deputy Manager of 
+Transport Power 
+Oﬃce, Network 
+Management Center, 
+China Mobile 
+GuangdongYang Xinjianmid global warming, the Chinese 
+government aims to achieve carbon 
+peak by 2030 and carbon neutrality by 
+2060, as outlined in the 2021 State 
+Council Government Work Report. China Mobile has 
+diligently implemented this directive by upgrading 
+its “Green Action Plan” to the “C/two.superior Three 
+Capabilities—Carbon Peak and Carbon Neutrality 
+Action Plan” in 2021, setting clear energy 
+conservation and carbon reduction goals. By the end 
+of the 14th Five-Year Plan, comprehensive energy 
+consumption and carbon emissions per unit of total 
+telecom services are projected to decline by over 
+20% compared to the 13th Five-Year Plan. 
+The energy consumption proportion of China 
+Mobile’s transport network ranges from 5% to 10%. 
+There are obvious tidal eﬀects and periodical traﬃc 
+variations, but power consumption of network 
+devices does not vary with service loads, leading to 
+substantial wasted energy. To address these 
+challenges, China Mobile Guangdong (Guangdong 
+Mobile for short) and ZTE initiated AI energy-saving 
+research and development for SPN in April 2021, 
+successfully piloting the application in the existing 
+Shaoguan network in May 2022. A
+ 
+ 
+ 
+ 
+38 Success Stories 

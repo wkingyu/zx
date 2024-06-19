@@ -1,0 +1,37 @@
+ZTE C OMMUNICATIONS
+December  2023  Vol.21 No.4 (Issue 85, End of Volume )
+Submission of a manuscript implies that the submitted work has not been published before (except as part of a thesis or lecture note or report or in the form of an 
+abstract ); that it is not under consideration for publication elsewhere ; that its publication has been approved by all co ⁃authors as well as by the authorities  at the 
+institute where the work has been carried out ; that , if and when the manuscript is accepted for publication , the authors hand over the transferable copyrights of the 
+accepted manuscript to ZTE Communications; and that the manuscript or parts thereof will not be published elsewhere in any language without the consent of the 
+copyright holder . Copyrights include , without spatial or timely limitation , the mechanical , electronic and visual reproduction and distribution ; electronic storage and 
+retrieval ; and all other forms of electronic publication or any other types of publication including all subsidiary rights .
+Responsibility for content rests on authors of signed articles and not on the editorial board of ZTE Communications or its sponsors .
+All rights reserved .
+StatementThis magazine is a free publication for you . If you do not want to receive it in the future , you can send th e “TD unsubscribe ” mail to 
+magazine@zte .com.cn. We will not send you this magazine again after receiving your email . Thank you for your support .Serial par ameters : CN 34-1294 /TN*2003 *q*16*106*en*P*￥20.00*2200*12*2023 -123D Point Cloud Processing and Applications
+01Editorial ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ SUN Huifang , LI Ge , CHEN Siheng , LI Li , GAO Wei
+03Perceptual Quality Assessment for Point Clouds : A Survey ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao
+17Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression ⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ ZHANG Huiran , DONG Zhen , WANG Mingsheng
+29Lossy Point Cloud Attribute Compression with Subnode -Based Prediction ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei
+38Point Cloud Processing Methods for 3D Point Cloud Detection Tasks ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong
+47Perceptual Optimization for Point -Based Point Cloud Rendering ⋅⋅⋅⋅⋅⋅⋅⋅ YIN Yujie , CHEN Zhang
+54Local Scenario Perception and Web AR Navigation ⋅⋅⋅SHI Wenzhe , LIU Yanbin , ZHOU Qinfen
+60Research on Fall Detection System Based on Commercial Wi -Fi Devices ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan
+69Incident and Problem Ticket Clustering and Classification Using Deep Learning ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican
+78A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing
+85Mixed Electric and Magnetic Coupling Design Based on Coupling Matrix Extraction ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ XIONG Zhiang , ZHAO Ping , FAN Jiyuan , WU Zengqiang , GONG Hongwei
+91Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian
+Ⅰ   Table of Contents for Volume 21, 2023CONTENTS
+Special Topic  ▶
+Research Paper s ▶
+Roundup ▶

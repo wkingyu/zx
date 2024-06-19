@@ -1,0 +1,92 @@
+requirements. According to customer 
+requirements and deployment patterns, ZTE has 
+proposed three modes for FRER networking.
+Mode 1: SE+NE FRER
+In the SE+NE FRER mode, uplink data is 
+replicated through the gateway SE9102, 
+transmitted separately through two 5G 
+modules, and then converged, selective-
+received and forwarded at the NE side. 
+After being duplicated on the NE side, 
+downlink data is received, de-duplicated 
+and forwarded by two modules of the 
+gateway SE9102, as shown in Fig. 1.
+In the unmanned driving project of a steel 
+hot rolling factory, multiple dedicated PADs 
+are deployed to build an independent inter-
+frequency physical dual-network in the 3.5 GHz 
+and 2.1 GHz bands. The SE gateway is deployed 
+for each travelling crane, and access control 
+(one channel of PLC packets) and video data 
+(two channels of HD IP cameras) are used 
+together with NodeEngine to establish 
+inter-frequency FRER channels. With the 
+dedicated slices con/f_igured for control data and 
+the EdgeQoS guarantee of NodeEngine, the 
+delay eﬀect of control data on the FRER 
+channels reaches 20 ms @99.99%. Compared 
+with a single-frequency network, the reliability 
+of the inter-frequency dual-network is enhanced 
+from 99.99% to 99.9999%, which helps 
+enterprises achieve unmanned on-site driving. 
+Mode 2: SE+MEP FRER 
+In the SE+MEP FRER mode, the FRER gateway 
+function establishes tunnels with UPFs through 
+internal ebridge modules of the MEC platform 
+(MEP). The uplink data is duplicated through the 
+gateway SE9102 and sent respectively through 
+the two 5G modules. Convergence and selective 
+forwarding are implemented at the MEP side. 
+After being duplicated on the MEP side, 
+downlink data is received, de-duplicated and 
+forwarded by the two modules of the industrial 
+gateway SE9102. 
+ZTE has participated in building a 5G smart 
+factory for a large steel company in China. To 
+extend coverage of the 5G private network, control-plane and user-plane NEs of the core 
+network i5GC such as AMF, SMF, UDM and 
+UPF are moved down to the branch area of the 
+steel company. This meets the needs of 5G 
+network application of the production control 
+system such as smart molten iron transport, 
+unmanned transport of /f_inished hot-rolling 
+products, driving positioning of travelling crane 
+and intelligent warehouse management. In 
+addition, a private dual-band wireless network 
+(2.6 GHz+4.9 GHz) is built in combination with 
+the SE+MEP FRER function to ensure that user 
+services can satisfy network needs of high 
+reliability and low latency. 
+Mode 3: SE+UPF FRER
+In the above two networking modes, NEs 
+or MEC servers need to be deployed on the 
+network side, which increases the deployment 
+cost to some extent. Based on existing 5G 
+network nodes, FRER can be built in UPF in the 
+future, and the UPF+hot standby function will 
+be implemented. When the active UPF fails, 
+traﬃc will be smoothly switched over to the 
+hot standby UPF, and UEs do not need to be 
+oﬄine. This solution is highly integrated, 
+reduces external dependency, and decreases 
+deployment costs. It also reduces the number 
+of network nodes, simpli/f_ies the network and 
+improves network reliability, which is applicable 
+to the scenario where UPFs are moved to edge 
+in the campus network. 
+FRER is one of the important solutions to 
+ensure service reliability in the /f_ield of 
+production control. It can be implemented in 
+actual networks based on heterogeneous 
+network architectures such as 5G+WiFi, 
+5G+wired, and 5G dual-band. The FRER 
+redundancy transmission mechanism improves 
+the success rate of end-to-end traﬃc data 
+transmission and ensures the reliability of 
+accurate data transmission and reception. This 
+provides deterministic service guarantees such 
+as delay, reliability and availability in ToB 
+industrial application scenarios. FRER is 
+therefore a complete service-based 
+high-reliability solution.
+23JUN 2023

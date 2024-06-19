@@ -1,0 +1,52 @@
+算力网络四面三级算力度量技术体系 杜宗鹏  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4算力网络四面三级算力度量
+技术体系
+Three-Level and Four-Aspect Computing Measurement System 
+in Computing Force Network*
+杜宗鹏 /DU Zongpeng ，李志强 /LI Zhiqiang ，陆璐/LU Lu
+（ 中国移动通信有限公司研究院 ，中国 北京 100053  ）
+(China Mobile Research Institute , Beijing 100053 , China )DOI：10.12142 /ZTETJ .202304003
+网络出版地址 ：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230717 .1807 .006.html
+网络出版日期 ：2023 -07-18
+收稿日期 ：2023 -05-26
+摘要 ：算力网络要实现广泛的算力互联 ，就离不开统一的算力度量和算力建模机制 。算力度量技术主要解决算力描述的标准化 ，提供方便的跨
+厂商互通能力 、算力资源协同管控能力 。对算力网络中算力度量需求进行分析 ，并提出四面三级算力度量技术体系 ，同时还探索了在算力路由
+决策中 ，网络按需进行算力信息通告等关键技术 ，为后续的算力度量研究提供参考 。
+关键词 ：算力网络 ；算力度量 ；算力建模 ；算网融合 ；算力感知流量调度
+Abstrac t:Unified measurement and modeling mechanisms are the guarantee for the computing force network to realize extensive comput ⁃
+ing interconnection . The computing measurement technology mainly solves the standardization of computing information description and 
+provides convenient cross-vendor communication ability and collaborative control ability of computing resources . The three-level and four-
+aspect measurement system is proposed , and the key technologies such as on-demand computing information transmission for the com ⁃
+puting aware routing decision are also explored , to form a reference for future computing measurement research .
+Keywords :computing force network ; computing measurement ; computing modeling ; computing and network convergence ; computing-
+aware traffic steering
+引 用 格 式 ：杜 宗 鹏 , 李 志 强 , 陆 璐 . 算 力 网 络 四 面 三 级 算 力 度 量 技 术 体 系  [J]. 中 兴 通 讯 技 术 , 2023 , 29(4): 8-13. DOI : 10.12142 /
+ZTETJ .202304003
+Citation ： DU Z P , LI Z Q , LU L . Three-level and four-aspect computing measurement system in computing force network [J]. ZTE technol ⁃
+ogy journal , 2023 , 29(4): 8-13. DOI: 10.12142 /ZTETJ .202304003
+随着互联网技术的不断进步 ，当今社会的发展逐渐呈现
+数字化 、智能化的趋势 。智能运算需要大量的算力来
+完成数据处理 。为了缓解云数据中心的计算压力 ，获得更快
+的业务响应速度 ，算力逐渐从中心走向边缘 ，形成网络中泛
+在的算力资源 。为了支持分散算力资源的统一感知 、统一决
+策和统一管理 ，算力网络的概念被提出[1-5]。算力网络将提
+供算力和网络的一体化服务 ，支持算力资源和网络资源的联
+合优化 ，从而充分利用有限的算网资源 ，为用户提供高品质
+的算力服务 。
+不同算力业务的算力需求有所不同 ，不同算力节点的服务能力也各不相同 。要实现灵活高效的业务调配和服务映
+射，算力网络首先需要对算力进行感知 ，而算力度量就是算
+力感知的基础之一 。正如热力学温标的提出者开尔文勋爵曾
+提到的 ： “如果你无法测量它 ，那么你就无法改进它 ” 。
+传统运营商主要提供网络资源 ，在用户需求 、网络能力
+度量方面也有相对成熟的方案 。网络度量常见的度量方式包
+括带宽和流量等 。运营商围绕带宽和流量提供网络服务 ，进
+行网络运营 ，同时也可以基于时长 、网络质量 ，与用户进行
+签约 ，并提供网络服务 。
+算力网络提供的是算力和网络的综合服务 ，这时需要一
+种方便对算力进行度量的机制 。该机制一方面可以支持用户
+对算力需求的描述 ，另一方面也可以支持运营商 、服务提供
+商或第三方对所提供的算力能力的描述 。
+* 作者确认算力网络译为 computing force network基金项目 ：北京邮电大学 -中国移动研究院联合创新中心基金资助 （CMYJY-
+202000332 ） 、东南大学 -中国移动研究院联合创新中心基金资助 （CMYJY- 202100163 ）
+08

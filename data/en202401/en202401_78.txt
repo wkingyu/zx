@@ -1,0 +1,100 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+which includes five parts : pre -analysis , pre -processing , en⁃
+coder , decoder , and restoration . The pre -analysis part in ⁃
+cludes network -based RoI detection to identify regions of in ⁃
+terest , in addition to input region classification and statistical 
+analysis modules . The pre -processing part includes RoI -based 
+packing , resampling , rearranging , and resampling of temporal 
+and spatial dimensions . The codecs can use existing legacy co ⁃
+decs, layered codecs , neural network -based codecs , and 
+network -based adapters for humans . In the restoration part , 
+RoI -based packing and scaling are reversed and spatio -
+temporal resampling is used to reconstruct the input video and 
+fed into the back -end machine vision task network . In addi ⁃
+tion to the above main route , some additional information , in⁃
+cluding RoI metadata , descriptors and sampling ratios , is also 
+transmitted for the restoration of the input signal .
+In addition , the test software platform of VCM called Test 
+Model Under Verification (TMUV ) 1.0 is also developed and 
+verified , and its flow chart is shown in Fig . 7. Among them , 
+different strategies are adopted for the input video frame ac ⁃
+cording to intra -frame and inter -frame . The intra -frame is pre -
+processed and spatially down -sampled and then compressed 
+by an end -to-end codec for the intra -frame , utilizing spatial 
+up-sampling and RoI unpacking to restore . For inter -frames , 
+the overall process is similar , while the up -and -down sampling 
+part is different from that in intra -frames , using up -and -down 
+sampling based on time dimension and space dimension . In 
+addition , the traditional codec is used for compression , and 
+the compression result of the intra -frame is processed by the 
+intra -frame human eye adapter to assist in the encoding and 
+decoding of the inter -frame , and then converted into a code 
+stream suitable for machine vision by the inter -frame machine 
+adapter for subsequent frame -to-frame reconstruction . Finally , 
+intra -frames and inter -frames are mixed and assembled , and sent to subsequent machine vision tasks .
+6 Conclusions
+We introduce the current development status , background 
+and evaluation framework of the VCM standard , in addition to 
+some mainstream implementation methods and the latest ad ⁃
+vances . VCM is a research hotspot with numerous scholars 
+and companies deeply involved . The VCM standardization or ⁃
+ganization has established guidelines for use cases , require ⁃
+ments , test frameworks , datasets , and evaluation metrics . Ad⁃
+ditionally , a series of proposals and evidence are collected to 
+facilitate the formation of an international standard . At pres ⁃
+ent, the two main routes (Track -1 and Track -2) have achieved 
+significant performance gains , and related methods are further 
+explored and improved . However , there are still some prob ⁃
+lems in the existing schemes , such as insufficient support for 
+multitask , high complexity of learning -based schemes , and dif ⁃
+ficulties in simultaneously achieving efficient compression for 
+human vision and machine vision . As standardization ad ⁃
+vances and more in -depth research is conducted , it is ex ⁃
+pected that the VCM standard can achieve efficient machine 
+vision -oriented compression and facilitate M 2M communica ⁃
+tion in the wild . Our aim in writing this paper is to promote a 
+deeper understanding of VCM among scholars and research ⁃
+ers, and to encourage greater involvement in this field to drive 
+its rapid development . Currently , there is a growing expecta ⁃
+tion for the convergence of research areas between two types 
+of video coding standard organizations : NNVC , which focuses 
+on neural network -based approaches , and JVET , which is cen ⁃
+tered on traditional codecs . The merging of expertise aims to 
+encompass the existing VCM standard and foster the develop ⁃
+ment of video coding techniques specifically tailored for ma ⁃
+chine vision applications . As research progresses in the field 
+▲Figure 7. Flowchart of VCM ’s test software platform TMUV 1.0Pre -processing based 
+on analysis (e.g., blur , 
+BG removal and pack ⁃
+ing)Spatial 
+down -samplingIntra -frame codec 
+(E2E)Spatial 
+up-samplingROI unpacking , 
+etc.Rec intra
+Frame mixer for 
+machine branch
+ROI unpacking , 
+etc.Spatial/temporal 
+up-samplingIMAIntra -frame codec 
+(conventional )IHA
+Spatial/temporal 
+down -samplingPre -processing based 
+on analysis (e.g., blur , 
+BG removal and pack ⁃
+ing)
+Machine -targeted RA 
+configuration (QP off ⁃
+sets for higher TID )Rec interRec video
+Side informationSide information
+Intra -frame
+Input 
+image/video
+Inter -frameAnalysis (e.g., 
+ROI detection )Codec control (e.g., 
+spatial QP offsets )
+BG: background Gaussian
+IHA: intra -human adapterIMA: inter -machine adapter
+RA: random accessROI: region of interest
+QP: quantization parameter TID: temporal ID 
+74

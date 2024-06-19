@@ -1,0 +1,94 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Special Topic   Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems
+Nran. Each active element has two modes : active and passive . 
+In the active mode , the active elements can receive and pro ⁃
+cess the signal , and the XL -HRIS can estimate the channel be ⁃
+tween the transmitter and the active elements at the ULA . In 
+the passive mode , each element can only reflect the signal 
+with a programmable phase shift . All other N-Nact elements 
+in the ULA are passive elements , which can only operate in 
+the passive mode .
+2.2 Signal Model and Channel Model
+The channel hR∈CN×1 between the transmitter and the 
+ULA can be expressed as
+hR=gwR(θ, r), (1)
+where g denotes the complex gain ; θ is the azimuth angle of 
+the receive signal at the center of the XL -HRIS ; r denotes the 
+distance between the transmitter and the center of the XL -
+HRIS . The steering vector can be expressed as
+wR(θ, r)=éëejkc() r1-r,…, ejkc() rN-rùûT
+, (2)
+where kc=2πλc is the wave number ; rn denotes the distance 
+from the transmitter to the n-th element at the ULA , n=
+1,⋯, N, which can be expressed as
+rn=r2-2rχndθ+χ2
+nd2, (3)
+where χn=n-() N+12. Assume that all the pilots are 
+transmitted by the transmitter , and when the XL -HRIS is in 
+the active mode , the receive signal ysub∈CNsub×1 at the c -
+subarray can be denoted as
+ysub=Phsub+zsub, (4)
+where zsub is the additional Gaussian noise with 0 zero and σ2 
+variance , and the channel between the UE and the c -subarray 
+can be expressed as
+hsub=gwsub(θ, r), (5)
+where
+wsub(θ, r)=é
+ëêêêêejkc() rsub,1-r,…, ejkc()rsub,Nsub-rù
+ûúúúúT
+, (6)
+where rsub, n denotes the distance from the transmitter to the n-th 
+elem ent at the c -subarray , which can be denoted a s
+rsub, n=r2-2rδndθ+δ2
+nd2, (7)
+where δn=n-() Nsub+12, for n=1,⋯, Nsub. Similarly , the 
+channel between the UE and the r -subarray can be denoted as hran.
+Considering that the aperture of the c -subarray is small compared to the whole ULA , the phase variations of the re ⁃
+ceive signal among the c -subarray can be ignored . As a result , 
+the channel can be simplified as the planar wave model , 
+which can be denoted as
+hsim=gasim(θ), (8)
+where the simplified steering vector can be expressed as
+asim(θ)=[e-jδ1kcdθ,⋯, e-jδNsubkcdθ]T
+. (9)
+Due to the large number of elements at the XL -HRIS , esti⁃
+mation of the cascade channel between the UE and the BS has 
+high computational complexity . Hence , a two -stage decoupled 
+separate channel estimation scheme is proposed in this paper , 
+in which the UE transmits pilots to the RIS firstly , while the 
+RIS estimates the channel between the UE and the RIS 
+through the two active subarrays . Then , the RIS reflects the 
+signal to the BS , and the BS estimates the RIS -BS channel . 
+Since the channel between the RIS and the BS is stable , it 
+only needs to be estimated once at the beginning of the chan ⁃
+nel correlation time . However , the channel between the UE 
+and the RIS needs to be estimated frequently . This paper only 
+focuses on the estimation of the UE -RIS channel .
+As only part of elements at the XL -HRIS are active , the full 
+dimensional UE -RIS channel estimation faces many chal ⁃
+lenges . Due to the spatial sparsity of the UE -RIS channel , we 
+only estimate the channel parameters through the active ele ⁃
+ments in this paper , and then reconstruct the full dimensional 
+channel . In the XL -HRIS -aided system , the computational 
+complexity remains high due to the need to estimate more pa ⁃
+rameters under the spherical wave model . Fortunately , the re ⁃
+ceive signal of the c -subarray and that of the r -subarray in the 
+proposed XL -HRIS architecture can be processed respec ⁃
+tively . A decoupled estimation strategy is adopted to reduce 
+the computational complexity . Firstly , the angle of arrival 
+(AoA) parameter is estimated from the receive signal of the c -
+subarray , and then the distance parameter is detected from the 
+receive signal of the r -subarray . However , since the c -
+subarray detects the AoA parameter based on the planar -wave 
+model , which differs from the practical spherical -wave model , 
+channel model mismatch can occur , which affects the estima ⁃
+tion accuracy . In the next section , the impacts of the c -
+subarray scale on the AoA parameter estimation accuracy will 
+be analyzed , and an estimation error lower bound will be 
+given . The influence of the estimation error on the system com ⁃
+munication performance will be also studied .
+3 LB and SE Analysis Under Model Mismatch
+3.1 Problem Description
+When the XL -HRIS is in the active mode , the receive sig ⁃
+nal at the c -subarray can be denoted as
+26

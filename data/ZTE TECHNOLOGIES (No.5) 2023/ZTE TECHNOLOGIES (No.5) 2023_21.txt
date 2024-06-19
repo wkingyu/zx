@@ -1,0 +1,73 @@
+system is a prerequisite for smooth 
+network deployment. ZTE provides a 
+comprehensive guarantee system for 
+network quality, user experience, and 
+network operations through intelligent 
+network management and the VMAX big 
+data platform. 
+The key to assuring network quality 
+is timely detecting indicator changes, 
+identifying wireless network changes, and 
+analyzing poor quality. ZTE’s system can 
+automatically detect network indicator 
+changes and analyze the root causes 
+through self-learning of past indicators and 
+training of the change detection model. In 
+the past, it was diﬃcult to obtain device 
+degradation trends from the existing 
+information when a fault occurred. Alarms 
+were only handled after the fault threshold 
+was triggered. Additionally, locating the root 
+alarm from a large number of alarms, and 
+diagnosing the root causes were ineﬃcient. 
+ZTE’s alarm handling expert function rapidly 
+identi/f_ies root alarms and locates root 
+causes after detecting problems, improving 
+troubleshooting eﬃciency. ZTE’s equipment 
+failure prediction function can detect 
+potential problems in advance to reduce the 
+failure loss rate.capabilities by leveraging automation, 
+portability, and remote transformation. For 
+wireless network drive tests, ZTE utilizes the 
+WNG solution based on cloud services and 
+automatic test terminals. This solution allows 
+test tasks to be delivered from the cloud, 
+data to be collected via handheld terminal, 
+and reports to be generated with just one 
+click. ZTE is also promoting the application 
+of the virtual drive test mode based on MR in 
+acceptance and optimization. By combining 
+virtual drive tests, KPI, and CQT, ZTE is able 
+to replace the traditional drive test mode in 
+multiple projects around the world, reducing 
+drive test costs in the network optimization 
+test phase. 
+Core network service test items can 
+be complicated. ZTE’s iTest terminal 
+test tool on the AIC platform provides a 
+complete set of easy-to-use test items and 
+functions for diﬀerent NFV components 
+and VNFs in diﬀerent scenarios. After 
+major operations such as core network 
+acceptance, version upgrade, and capacity 
+expansion are completed, the iTest tool 
+can automatically perform tests in multiple 
+places simultaneously. This greatly reduces 
+test diﬃculty and saves test time.
+During the acceptance phase, a large 
+amount of data and photos need to be 
+collected for the acceptance report. The 
+traditional manual editing and output 
+process can be prone to human errors 
+and ineﬃcient. ZTE’s digital platform and 
+intelligent tools can be used together 
+to automatically collect data, manage 
+data uniformly, and generate customized 
+reports automatically, improving document 
+production eﬃciency and shortening the 
+acceptance period.
+Network Quality and User 
+Experience Assurance System
+Establishing a complete network 
+quality and user experience assurance 
+19OCT 2023

@@ -1,0 +1,98 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3YU Junpeng , CHEN Yiyu A Practical Reinforcement Learning Framework for Automatic Radar Detection    Special Topic
+in parallel over a span of about 44 days to complete the rein ‐
+forcement learning training for AlphaStar , the StarCraft II algo ‐
+rithm[5]. The high training cost associated with deep reinforce ‐
+ment learning significantly restricts its range of applications .
+This paper aims to address these challenges by proposing a 
+practical radar operation reinforcement learning framework that 
+integrates offline reinforcement learning and meta -reinforcement 
+learning methods . The framework consists of the environment 
+modeling of radar detection , the integrated learning structure 
+and the learning objectives . Our experimental results of the 
+MATLAB radar detection simulator indicate that the ability of 
+our method in automatic radar detection has basically reached 
+the level of humans , thus promoting the practical application of 
+reinforcement learning in radar detection . This paper is struc ‐
+tured as follows . First , in Section 2, we introduce the related 
+works . Then , in Section 3, we demonstrate our reinforcement 
+learning framework for automatic radar detection . In Section 4, 
+the experimental settings and results are introduced . Finally ,  in 
+Section 5, we draw a conclusion .
+2 Related Works
+In this section , we introduce the background and related 
+works about our proposed framework , including reinforcement 
+learning and its correlational research with radar control .
+2.1 Reinforcement Learning
+Reinforcement learning is one of the popular paradigms of ma ‐
+chine learning . The framework of reinforcement learning is 
+shown in Fig . 1, which mainly includes two parts : agent and envi ‐
+ronment . The operation of reinforcement learning is a process of 
+continuous interaction between agents and the environment , 
+where the environment provides agents with the current state and 
+numerical rewards , while agents output actions to the environ ‐
+ment according to existing information (usually the current state ). 
+The environment gives the state and rewards after the action is 
+executed , and so forth until the environment terminates (done). 
+In this process , agents often choose actions and learn strategies 
+to maximize expected cumulative rewards .
+The environment model of reinforcement learning is generally 
+based on the Markov decision process (MDP ). MDP is defined 
+by a quaternion S, A, R, T, where S is the set of environmental 
+states , A is the set of optional actions , the state transition func ‐
+tion T: S×A×S→[0, 1] gives the probability of transition 
+from state s and action a to state s′, and the reward function R:S×A×S→R provides the reward value for each step .
+The agent algorithm of reinforcement learning aims to learn a 
+policy π, and the policy determines the execution of action a 
+(deterministic policy ) or the execution probability (non -
+deterministic policy ) in each state s. The classical reinforcement 
+learning algorithm considers that the MDP model of the environ ‐
+ment is given in advance , and the optimization goal of the policy 
+π is to maximize the expected cumulative discount reward . The 
+parameters of the parameterization policy πθ are θ, and the for ‐
+mula for calculating the optimal parameters θ* is:
+θ*=arg max
+θ Eπθ[∑t=0Tγtrt] ,(1)
+where T refers to the number of time steps that the environ ‐
+ment runs , and the discount factor γ∈[0,1] is used to bal ‐
+ance long -term rewards and short -term rewards . γ signifi ‐
+cantly stabilizes the reinforcement learning algorithm in an en ‐
+vironment with excessive T.
+Reinforcement learning algorithms can be divided into two 
+categories : value function -based and policy gradient -based . The 
+reinforcement learning algorithm based on the value function 
+makes decisions according to the state action value function 
+Qπ(s,a). In the DRL algorithms based on the value function , 
+Qπ(s,a) is constructed by a neural network , supplemented by 
+some designs to enhance the stability of the algorithm[9]. Note 
+that deep networks enable policies to adapt to tasks with a much 
+wider range . This kind of algorithm performs better in the dis ‐
+crete action environment , but it is difficult to expand to the con ‐
+tinuous action environment . Common algorithms include the 
+deep Q -network (DQN )[9], dueling double deep Q -network 
+(D3QN)[10], deep recurrent Q -network (DRQN )[11], etc. Reinforce ‐
+ment learning algorithms based on policy gradients directly cal ‐
+culate the policy function πθ(a|s) modeling and optimization . 
+Commonly used algorithms based on policy gradients are actor -
+critic architectures , which perform better in continuous action 
+environments , including deep deterministic policy gradient 
+(DDPG )[12], proximal policy optimization (PPO)[13], soft actor -
+critic (SAC)[14], twin -delayed deep deterministic policy gradient 
+(TD3)[15], etc.
+While reinforcement learning algorithms have demonstrated 
+effective performance in simulated environments , two primary 
+challenges exist in copying this performance to real -world sce ‐
+narios : 1) The inconsistency between the simulator and the ac ‐
+tual environment , which is often referred to as the Sim 2Real 
+gap, tends to result in catastrophic failure of deploying simulator -
+trained policies in the real world ; 2) the high cost of real -world 
+sampling and the complexity of the real -world tasks result in a 
+significant difference between the collected data and the actual 
+situation . Especially in intelligent radar detection tasks , due to 
+the large scale of the actual environment , it is difficult to collect 
+sufficient training data that are needed . The actual environment 
+can change greatly at any time with factors such as weather , ter‐ ▲Figure 1. Framework of reinforcement learningAgent
+EnvironmentRt+1
+St+1AtRtReward State Action
+St
+23

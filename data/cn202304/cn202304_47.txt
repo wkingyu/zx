@@ -1,0 +1,45 @@
+通用在网计算系统架构及协议设计 姚柯翰  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4通用在网计算系统架构及
+协议设计
+System Architecture and Protocol Design for 
+Generic In-Network Computing
+姚柯翰 /YAO Kehan ，陆璐/LU Lu，徐世萍 /XU Shiping
+（ 中国移动通信有限公司研究院 ，中国 北京 100053  ）
+(China Mobile Research Institute , Beijing 100053 , China )DOI：10.12142 /ZTETJ .202304009
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230718 .1826 .002.html
+网络出版日期 ：2023 -07-19
+收稿日期 ：2023 -05-20
+摘要 ：生成式人工智能大模型训练以及海量的大数据实时处理对任务处理性能提出了更高要求 。在网计算在数据完成尽力而为转发的基础上 ，
+进一步将计算相关的操作卸载至转发节点 ，可以有效提升系统计算效率 。针对当前在网计算系统设计碎片化问题开展研究 ，提出了满足多种在
+网计算场景的通用系统架构 ，并进行相关协议设计 。通用在网计算架构兼顾了系统实现的灵活性以及应用开发友好性 ，为进一步推进在网计算
+的规模化应用提供了新思路 。
+关键词 ：在网计算 ；算力网络 ；网络架构 ；网络协议
+Abstrac t:The large model training of generative artificial intelligence and the real-time processing of big data need higher requirements for 
+task processing performance . On the basis of completing the best-effort forwarding of data , in-network computing (INC) further offloads 
+computing-related operations to network forwarding nodes , which can effectively improve the system computing efficiency . Aiming at solv ⁃
+ing the problem of design fragmentation of INC systems , a generic system architecture is proposed to meet different requirements of vari ⁃
+ous INC scenarios , and related protocols are designed . The generic INC architecture takes into account the flexibility of system implementa ⁃
+tion and the friendliness of application development , and puts forward a new idea for further improving the scalability of INC .
+Keywords :in-network computing ; computing force network*; network architecture ; network protocol
+引用格式 ：姚柯翰 , 陆璐, 徐世萍 . 通用在网计算系统架构及协议设计  [J]. 中兴通讯技术 , 2023 , 29(4): 43-48. DOI: 10.12142 /ZTETJ .202304009
+Citation ： YAO K H , LU L , XU S P . System architecture and protocol design for generic in-network computing [J]. ZTE technology journal , 
+2023 , 29(4): 43-48. DOI: 10.12142 /ZTETJ .202304009
+1 在网计算的发展
+在网计算 （INC）指将部分计算任务卸载至网络 ，让数
+据在完成转发的同时实现数据处理 ，从而提升数据计
+算效率 。如图1所示 ，传统的计算模式是数据由终端产生 ，
+全部送往集中的数据处理节点 （如数据中心 ）来完成运算 。在网计算则可实现数据边转发边处理 ，大大降低数据处理节
+点的负载 。
+1.1 在网计算演进历程
+在网计算的技术理念首次出现在 1995 年由美国国防部
+高级研究计划局 （DARPA ）提出的主动网络中[1]。在主动网
+络中 ，网络数据包不仅携带数据 ，还携带了数据的操作信息
+或程序 。在网计算可以给主动网络中的转发节点使能主动计
+算属性 ，基于数据包中的程序指令对数据包进行操作 ，从而
+实现应用相关的功能 ，比如防火墙或网页代理等 。但主动网
+络并未形成主流技术体系 ，主要原因在于其实现依赖于中央
+处理器 （CPU）的处理能力 。而网络设备的核心要务是进行
+* 作者确认算力网络译为 computing force network
+图1 端侧计算向在网计算演进CPU：中央处理器      GPU ：图形处理器CPU CPUGPU GPU
+43

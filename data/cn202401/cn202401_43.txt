@@ -1,0 +1,101 @@
+智能增强的免授权多址接入技术 于含笑  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1结果可靠性 。与PDNN 类似 ，DDNN 数据处理过程可表示为
+以下映射方程 ：
+Λ̂
+D=fD(yp，[y[m]]M
+m=1；S，Λ̂
+P)。 （19）
+我们在瑞利信道和莱斯信道场景下对所提方案进行了性
+能仿真验证 。图9仿真中展示了在只使用前导序列进行联合
+用户活动检测和信道估计的情况下 ，不同信噪比的信道估计
+的归一化均方误差 （NMSE ） 。除了所提方法 ，我们还展示
+了传统压缩传感方法的性能及全连接神经网络方案的性能 。
+我们构建了与所提网络计算复杂度类似的全连接神经网络方
+案，输入与所提网络相同 。仿真结果表明 ，尽管只利用了导
+频信号来估计信道状态 ，相比于基于压缩感知的方法 ，
+PDNN 仍取得了性能上的提升 。这说明了所提方案在利用数
+据信号中包含的信息方面的效率 。此外 ，相对于全连接神经
+网络 ，本文所提模型驱动的神经网络检测精度明显提升 。
+在图 10中，我们显示了基站配备单天线和 4天线场景
+下，仅利用前导序列时检测活跃用户状态错误概率与 SNR
+的关系 。与图 9中的结果类似 ，我们所提出的 PDNN 和
+UAD-CE-NN 在用户活动检测方面优于其他方案 。仿真结果
+验证了所提出的 UAD-CE-NN 相比传统方案的性能增益 。
+4 结束语
+免授权多址接入技术是使能大规模物联终端低时延 、低开销接入的有效技术手段 。面向免授权接入过程导致的用户
+数据叠加干扰问题 ，通过与非正交多址技术融合 ，并利用人
+工智能对免授权多址收发机进行增强设计 ，基于数据挖掘能
+力与通信模型的联合驱动 ，可有效提升数据传输可靠性以及
+频谱资源利用率 。面对未来 6G在无线通信场景中所提出的
+新愿景以及更高指标需求 ，我们仍需针对全场景进行接入技
+术的拓展并开展智能技术的弹性演进研究 ，对无源场景 、感
+知业务场景 、非地面等新场景完成针对性的增强设计及协议
+研发 ，并在智能增强方面实现鲁棒性增强 、自演进能力进一
+步拓展 ，以助力智能内生多址技术的发展 。
+参考文献
+[1] IMT- 2030 (6G)推进组 . 6G典型场景和关键能力  [R]. 2022
+[2] YUAN Z F , YU G H , LI W M , et al . Multi-user shared access for 
+Internet of Things [C]//Proceedings of IEEE 83rd Vehicular 
+Technology Conference (VTC Spring ). IEEE , 2016 : 1-5. DOI : 
+10.1109 /VTCSpring .2016 .7504361
+[3] AU K , ZHANG L Q , NIKOPOUR H , et al . Uplink contention based 
+SCMA for 5G radio access [C]//Proceedings of IEEE Globecom 
+Workshops (GC Wkshps ). IEEE , 2014 : 900-905. DOI : 10.1109 /
+GLOCOMW .2014 .7063547
+[4] JANG H S , LEE H , QUEK T Q S , et al . Deep learning-based 
+cellular random access framework [J]. IEEE transactions on 
+wireless communications , 2021 , 20(11): 7503 -7518 . DOI : 
+10.1109 /TWC .2021 .3085303
+[5] NASIR Y S , GUO D N . Multi-agent deep reinforcement learning 
+for dynamic power allocation in wireless networks [J]. IEEE 
+ 图9 信道估计结果与基准方案性能对比示意图AMP ：近似消息传递算法
+DLAMP ：深度学习增强的近似消息传
+递算法
+FCNN ：全连接神经网络
+NMSE ：归一化均方误差
+OMP ：正交匹配追踪算法PDNN ：导频检测网络
+SBL：稀疏贝叶斯学习算法
+SNR：信噪比
+UAD-CE-NN ：用户激活检测与信
+道估计网络SNR/dB5 10 15 20 25AMP
+PDNN
+UAD-CE-NN
+FCNN
+DLAMP
+OMP
+SBLNMSE/dB1
+0
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+-8
+-9
+AMP ：近似消息传递算法
+FCNN ：全连接神经网络
+OMP ：正交匹配追踪算法
+PDNN ：导频检测网络RX：接收天线
+SNR：信噪比
+UAD-CE-NN ：用 户 激 活 检 测 与
+信道估计网络
+图10 用户激活状态性能对比示意图错误概率0.40
+0.35
+0.30
+0.25
+0.20
+0.15
+0.10
+0.05
+0
+SNR/dB5 10 15 20 25PDNN :4RX
+UAD-CE-NN :4RX
+AMP :4RX
+OMP :4RX
+FCNN :4RX
+PDNN :1RX
+UAD-CE-NN :1RX
+39

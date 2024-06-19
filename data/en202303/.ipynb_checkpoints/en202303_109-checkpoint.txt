@@ -1,0 +1,102 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Simulation and Modeling of Common Mode EMI Noise in Planar Transformers    Research Papers
+diameter is 20.6 mm, the distance between turns is 0.4 mm, 
+and the relative permittivity of the filler material is 4.4.
+The simulation result of the finite element simulation soft ‐
+ware is 21.769 pF, and the calculation result of Eq . (1) is 
+20.89 pF, with an error of 4.04%. The main source of error is 
+the edge effect of the parallel plate capacitor . In Fig . 1(b), 
+the electric field strength between conductors is basically 
+uniform , and the electric field distribution at the edge of the 
+conductor is obviously uneven . However , Fig. 1(c) shows that 
+most of the electric field energy is stored between conduc ‐
+tors, so it is reasonable to use an approach that approximates 
+a parallel plate capacitor .
+2.2 Calculation of Equivalent Capacitance for Common 
+Mode Noise of Planar Transformers
+For a planar transformer , due to the close magnetic coupling 
+of each layer of windings , the magnetic flux or induced electro ‐
+motive force linked by each turn of the winding is basically the 
+same , and the alternating current (AC) resistance of each turn 
+of the winding is much smaller than the excitation inductance . 
+If the leakage inductance is ignored , it can be approximated 
+that the potential of the winding is linearly distributed along the 
+number of turns and the length of the winding .
+Assuming that the potential on the transformer winding in 
+Fig. 1(a) is linearly distributed along the turn length , and the 
+distributed capacitance is evenly distributed along the wind ‐
+ing, the integral of the primary winding and the secondary 
+winding along the turn length l can be expressed as :
+∫0l
+vp(x)dx=vph+vpl
+2⋅l,(2)
+∫0l
+vs(x)dx=vsh+vsl
+2⋅l.(3)
+The charge Q stored between the turns of the primary and 
+secondary windings in Fig . 1(a) can be expressed as :
+Q=∫0lC0
+l⋅[vp(x)-vs(x)]dx=C0
+lé
+ëêêêê∫0l
+vp(x)dx-∫0l
+vs(x)dxù
+ûúúúú.
+(4)
+Substituting Eqs . (2) and (3) into Eq . (4), we can get :
+Q=C0(vph+vpl
+2-vsh+vsl
+2).
+(5)
+Considering that when the windings between different 
+turns of the planar transformer are connected , the outlet 
+ports of the windings on the same side need to be staggered 
+by a certain angle . At this time , the voltage difference be ‐
+tween the relative position of the primary winding and the 
+secondary winding will change with the staggered angle . However , it can be obtained from Eq . (5) that the induced 
+charge Q between turns is determined by the structural ca ‐
+pacitance C0 between the primary and secondary windings 
+and the midpoint potential of the primary and secondary 
+windings . As long as the assumption of uniform distribution 
+of potential on the windings is established , the charge Q is 
+not affected by the voltage difference distribution of the pri ‐
+mary and secondary windings . As long as the assumption of 
+uniform distribution of potential on the windings holds , the 
+charge Q is not affected by the voltage difference distribution 
+of the primary and secondary windings . As shown in  Fig. 2, 
+the angles between the primary winding outlet port and the 
+secondary winding outlet port are 180°, 135° and −135°. The 
+potential difference between the primary winding and the 
+secondary winding changes . However , ignoring the influence 
+of port voids , after the integration operation of Eq . (4), the fi ‐
+nal induced charge Q between turns and the turns of three 
+different outlet port angles is the same .
+The primary and secondary windings of a planar trans ‐
+former are multi -turn, so it is only necessary to follow the cal ‐
+culation method of Eq . (5). The inductive charge between 
+each turn of the primary and secondary windings is added up 
+to the charge Qall stored between the primary and secondary 
+windings of the entire planar transformer . Qall characterizes 
+the transfer capability of transformer common mode noise .
+Taking the single -layer single -turn planar transformer in 
+Fig. 3 as an example to calculate Qall, we find that the turn ra ‐
+tio of the primary and secondary windings is 3:1, the primary 
+winding has 3 turns , which are P1, P2, and P3, respectively , 
+and the secondary winding has 1 turn , which is S1. The trans ‐
+former adopts a 2-layer parallel winding on the primary side , 
+an 8-layer parallel winding on the secondary side , and a stag ‐
+gered winding on the primary and secondary sides . The spe ‐
+cific stacked structure is shown in Fig . 3. At the same time , 
+the laminated structure parameters of the planar transformer 
+are given in Table 1. Under the symmetrical structure , the fac ‐
+ing areas between P1, P2, P3 and S1 are basically the same , 
+and S is uniformly taken as the facing area between the turns 
+of the primary and secondary windings .
+The charge QP1S1 stored between the first turn P1 of the 
+primary winding and the secondary winding S1 can be ex ‐
+pressed as :
+(a) Outlet port : 180° (b) Outlet port : 135° (c) Outlet port : −135°
+▲Figure 2. Schematic diagrams of different angles of the outlet ports of 
+the primary and secondary windings180° 135° 
+−135° 
+107

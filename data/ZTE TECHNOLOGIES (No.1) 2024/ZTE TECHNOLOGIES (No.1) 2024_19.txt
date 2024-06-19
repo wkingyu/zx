@@ -1,0 +1,91 @@
+has not only enhanced evaluation eﬃciency 
+and accuracy but also expedited the 
+development of the entire XR industry chain. 
+The evaluation system covers media quality, 
+interactive quality, and display quality. Key 
+evaluation factors include the realism of VR 
+audio, video, and freedom of movement, user 
+susceptibility to dizziness, as well as the 
+occurrence of issues like screen distortion and 
+video stuttering during playback. Moreover, ZTE 
+has pioneered the incorporation of digital twin 
+technology in the industry by establishing a 
+digital twin simulation platform. This platform 
+serves as the industry’s /f_irst XR experience 
+evaluation system integrating digital twin 
+technology. The twin platform eﬃciently 
+collects and processes data, analyzes service 
+features, and iteratively optimizes evaluation 
+algorithms, contributing to a signi/f_icant 
+enhancement in the accuracy of the evaluation 
+system.
+Cloud Rendering and Computing Power Base 
+Station: Creating Ultimate User Experience
+The current processing capability of 
+terminals falls short of the demands for 
+complete immersion, and the existing network 
+architecture fails to meet the low-latency 
+requirements essential for robust interactive XR 
+services. A standout feature of the X-Edge 
+solution lies in the pioneering introduction of 
+an industry-exclusive cloud rendering and 
+computing power base station. This innovation 
+facilitates precise identi/f_ication of XR services, 
+ensuring the prioritized scheduling of these 
+services. Notably, the rendering function is 
+shifted from the terminal to the base station, 
+resulting in a reduction in both power 
+consumption and terminal complexity. This 
+strategic oﬄoading enhances the overall 
+eﬃciency and performance of XR services. 
+Eﬃcient XR Terminals: Enhanced Battery 
+Performance
+The XR terminal's energy-saving feature has 
+a triple impact: enhancing battery life, 
+alleviating terminal heating issues, and delivering a more comfortable user-wearing 
+experience. For instance, consider a video frame 
+rate of 60 fps, where the XR service transmits 
+one frame of data packets at a 16.7 ms interval. 
+In conventional solutions, the connected-mode 
+discontinuous reception (C-DRX) period is 
+typically an integer (e.g., 6/8/10/20/30), which 
+doesn't precisely align with the XR service cycle. 
+As data volume increases, this misalignment 
+grows, resulting in noticeable jitter. 
+The X-Edge solution introduces adaptive 
+adjustments to wake-up signals by the gNodeB 
+based on identi/f_ied period characteristics. This 
+dynamic matching ensures that the C-DRX 
+period aligns seamlessly with the XR service 
+period. Simulations indicate a noteworthy 20% 
+reduction in power consumption as a result of 
+this intelligent adaptation, underlining the 
+eﬃciency gains provided by the X-Edge 
+solution. 
+Unlocking Vast VR Expedition 
+Experiences with mmWave Technolog y
+Through groundbreaking innovations and the 
+support of 5G mmWave technology, VR 
+large-space expedition applications have 
+eﬀectively addressed operational eﬃciency 
+challenges. The seamless integration of 
+advanced technologies has not only optimized 
+performance but has also ushered in a new era of 
+immersive experiences on a grand scale. These 
+applications, evolving continuously, are set to 
+rede/f_ine the virtual reality landscape, oﬀering 
+users an unparalleled cinematic journey within 
+expansive virtual environments. 
+Looking ahead, the market for VR 
+large-space expedition applications is 
+experiencing remarkable growth, surpassing a 
+size of 10 billion yuan. This growth underscores 
+the increasing popularity and commercial 
+viability of these applications. With their ability 
+to provide captivating and realistic 
+experiences, VR large-space expedition 
+applications are poised to lead the way in the 
+widespread commercial utilization of VR 
+services. 
+ FEB 2024
+17 

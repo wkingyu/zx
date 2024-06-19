@@ -1,0 +1,142 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface    Special Topic
+is compared when training the agent , and the learning time of 
+the agent under the two datasets is shown in Tables 1 and 2. 
+According to the results , it is clear that the agent using DDQN 
+learns much faster compared with the Q -KTD algorithm using 
+Feature 1, and the learning time is not much different from 
+the Q -KTD algorithm using Feature 2. However , the general ‐
+ization of DDQN is much better than the Q -KTD algorithm .
+Finally , in order to reflect the stability of decoding based on 
+the deep reinforcement learning algorithm , we conducted 10 
+repeated experiments under different random seeds , and de ‐
+scribed their mean and standard deviation . The experimental 
+results are shown in Fig . 6.
+5 Conclusions
+This paper investigates the applicability and feasibility of 
+the deep double Q reinforcement learning algorithm in the 
+brain -computer interface . We use two different EEG signal da ‐
+tasets and evaluate the performance of DDQN on both the da ‐
+tasets . The experimental results show that DDQN performs 
+well in the correct decoding of EEG signals and has better gen ‐
+eralization . This indicates that deep reinforcement learning 
+can learn the correct decoding of EEG signals through feed ‐
+back signals and has better generalization than the Q -KTD re ‐
+inforcement learning algorithm . In the future , we will investi ‐
+gate further applications of deep reinforcement learning in 
+EEG signals .
+References
+[1] WILLETT F R , AVANSINO D T , HOCHBERG L R , et al . High -performance 
+brain -to-text communication via handwriting [J]. Nature , 2021 , 593(7858 ): 
+249–254. DOI : 10.1038 /s41586 -021 -03506 -2
+[2] CRUZ A , PIRES G , LOPES A , et al . A self -paced BCI with a collaborative con ‐
+troller for highly reliable wheelchair driving : experimental tests with physically 
+disabled individuals [J]. IEEE transactions on human -machine systems , 2021 , 
+51(2): 109–119. DOI : 10.1109 /THMS .2020 .3047597
+[3] SCHWARZ A , HÖLLER M K , PEREIRA J , et al . Decoding hand movements 
+from human EEG to control a robotic arm in a simulation environment [J]. Journal 
+of neural engineering , 2020 , 17(3): 036010 . DOI : 10.1088 /1741 -2552 /ab882e
+[4] SONG Y H , WU W F , LIN C Q , et al . Assistive mobile robot with shared control 
+of brain -machine interface and computer vision [C]//4th Information Technol ‐
+ogy, Networking , Electronic and Automation Control Conference (ITNEC ). 
+IEEE , 2020 : 405–409. DOI : 10.1109 /ITNEC 48623 .2020 .9085096
+[5] ANG K K , CHIN Z Y , WANG C C , et al . Filter bank common spatial pattern al ‐
+gorithm on BCI competition IV datasets 2a and 2b [J]. Frontiers in neurosci ‐
+ence, 2012 , 6: 39. DOI : 10.3389 /fnins .2012 .00039
+[6] TONIN L , CARLSON T , LEEB R , et al . Brain -controlled telepresence robot by 
+motor -disabled people [C]//Annual International Conference of the IEEE Engi ‐
+neering in Medicine and Biology Society . IEEE , 2011 : 4227–4230 . DOI : 
+10.1109 /IEMBS .2011 .6091049
+[7] GROSSE -WENTRUP M , BUSS M . Multiclass common spatial patterns and in ‐
+formation theoretic feature extraction [J]. IEEE transactions on biomedical engi ‐
+neering , 2008 , 55(8): 1991–2000 . DOI : 10.1109 /TBME .2008 .921154
+[8] JIN J , XIAO R , DALY I , et al . Internal feature selection method of CSP based 
+on L 1-norm and Dempster ⁃Shafer theory [J]. IEEE transactions on neural net ‐
+works and learning systems , 2020 , 32(11): 4814–4825 . DOI : 10.1109 /
+TNNLS .2020 .3015505▼Table 2. Comparison of learning time of DDQN and Q -KTD algo ‑
+rithm agent on BCI -2a dataset
+Subject
+A
+B
+C
+D
+EAlgorithm
+DDQN
+25.94
+25.31
+22.59
+25.6
+25.35Q-KTD_Feature 1/min
+229.93
+232.93
+235.17
+234.75
+233.66Q-KTD_Feature 2/min
+11.64
+11.69
+12.62
+13.12
+12.62
+BCI -2a: BCI competition IV -2a 
+DDQN : double deep Q -networks algorithm 
+Q-KTD : Q-learning via kernel temporal difference algorithm▼Table 1. Comparison of learning time of DDQN and Q -KTD algo ‑
+rithm agent on classical (CLA ) dataset
+Subject
+A01
+A02
+A03
+A04
+A05
+A06
+A07
+A08
+A09Algorithm
+DDQN
+18.69
+9.3
+19.26
+16.55
+19.95
+14.96
+17.16
+18.11
+16.71Q-KTD_Feature 1/min
+103.14
+117.8
+103.1
+79.73
+112.97
+54.86
+108.93
+103.73
+87.46Q-KTD_Feature 2/min
+10.72
+10.94
+11.05
+8.82
+10.67
+6.43
+11
+10.53
+8.44
+DDQN : double deep Q -networks algorithm 
+Q-KTD : Q-learning via kernel temporal difference algorithm(b)
+CLA EEG signal
+Epochs0  20 40 60 80 100Subject -A01Success rate0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+▲Figure 6. Results of experiments on (a) BCI -2a and (b) CLA under 10 
+different random seeds(a)
+Epochs0  20 40 60 80 100Success rateSubject -A
+BCI -2a EEG signal 0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+BCI -2a: BCI competition IV -2a
+CLA: ClassicalEEG : electroencephalogram
+09

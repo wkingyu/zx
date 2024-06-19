@@ -1,0 +1,163 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Special Topic   Perceptual Optimization for Point -Based Point Cloud Rendering
+MSE=1
+mn∑
+i=0m-1∑
+j=0n-1
+  I(i, j)-K(i, j)2
+, (8)
+PSNR=10log()MAX2
+MSE
+10, (9)
+where the image pixels are m*n, I(i, j) represents the reference 
+point cloud sequence view pixel points , K(i, j) represents the 
+quantized distortion point cloud sequence view pixel points , and 
+MAX denotes the possible maximum pixel value of the image .
+The improvement ratios of PSNR of the proposed method 
+are shown in Table 2.
+As can be seen from Table 2, the PSNR of each point 
+cloud sequence has been improved using the proposed 
+method regardless of the size of the geometric quantization 
+parameters . As the geometric quantization parameter in ⁃
+creases , more points are retained in the point cloud se ⁃
+quence . Therefore , for the same point cloud sequence , the ad ⁃
+vantage of the proposed method will be more significant with 
+the increase in the density of the point cloud sequence . The 
+reasons for the above phenomenon are that sparse point 
+clouds are more likely to produce outliers , and the original 
+point rendering will have worse subjective perception quality 
+so that the PSNR improvement ratio will be more pro ⁃
+nounced . After rendering through outlier detection , the 
+PSNR of each point cloud sequence is improved . Specifi ⁃
+cally , the average PSNR improvement ratio is 3.6%.
+3.3 Time Complexity
+Specifically , we record the rendering time in the experiment 
+in Section 3.2. Then we calculate the ratio of increased render ⁃
+ing time spent for the original rendering and the proposed ren ⁃
+dering , as shown in Eq . (10).
+Tr=T1-T0
+T0×100%, (10)where Tr is the ratio of increased rendering time , T1 is the 
+rendering time using the proposed method , and T0 is the 
+original rendering time . The calculation results are shown 
+in Table 3.
+Observing the results , we can conclude that the rendering 
+time is increased by 5.8% on average due to the added outlier 
+detection .
+3.4 Ablation Studies
+To evaluate the effectiveness of using the local and global 
+geometric features in outlier detection , we conduct studies us ⁃
+ing three -point cloud sequences : Andrew , David and Phil . For 
+quantization , we still use the same geometric quantization pa ⁃
+rameters as set in Section 3.2: {1/10,1/2,15/18}.
+The local and global geometric features are respectively 
+used and then compared with the original rendering without 
+optimization . For performance evaluation , the individual point 
+cloud sequences are also projected onto the three planes of 
+the point cloud enclosing the box to get the view from the cor ⁃
+responding perspective . The PSNR of the point cloud se ⁃
+quences under each rendering method is calculated from the 
+undistorted point cloud sequence image and distorted point 
+cloud sequence image . Finally , we calculate the average 
+PSNR improvement compared with the original rendering 
+method , as shown in Table 4.
+It is seen that both local and global geometric features con ⁃
+tribute to improving the quality of the point cloud sequence . 
+However , both individual features are less effective than using 
+both. In addition , the local geometric feature contributes more 
+compared with the global geometric feature .
+▼Table 3. Ratio of increased rendering time
+Tested Point Clouds
+Andrew
+David
+Phil
+Ricardo
+Sarah
+Facade
+Head
+House without roof
+Egyptian mask
+Frog
+AverageRatio of Increased Rendering Time (Tr)/%
+6
+5
+6
+5
+5
+6
+8
+6
+5
+6
+5.8
+▼Table 4. Average improvement ratio of PSNR in ablation studies
+Tested Point Clouds
+Andrew
+David
+PhilPSNR Average Improvement Ratio/%
+Global only
++0.6
++0.9
++1.0Local only
++1.2
++2.1
++2.4Global + local
++3.1
++5.1
++5.2Tested Point 
+Clouds
+Andrew
+David
+Phil
+Ricardo
+Sarah
+Facade
+Head
+House without roof
+Egyptian mask
+FrogAverage Improve ⁃
+ment Ratio of 
+PSNR/% 
++3.1
++5.1
++5.2
++3.6
++4.4
++1.5
++4.6
++6.0
++0.8
++2.0Geometric Quantization Parameters/% 
+1/10
++1.9
++2.6
++2.7
++3.2
++2.1
++1.4
++3.7
++3.0
++0.7
++2.11/2
++3.2
++5.0
++5.2
++3.6
++4.9
++1.4
++5.0
++7.2
++0.8
++2.115/18
++4.1
++7.6
++7.7
++4.1
++6.2
++1.7
++5.3
++7.9
++0.9
++1.9▼Table 2. PSNR improvement ratio before and after optimization with 
+geometric quantization parameters
+PSNR : peak signal -to-noise ratio PSNR : peak signal -to-noise ratio
+52

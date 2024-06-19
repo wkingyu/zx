@@ -1,0 +1,83 @@
+the deployment of functionalities. 
+The STB management platform can be 
+deployed on the local physical server or in the 
+cloud, giving customers the /f_lexibility to choose. 
+Figure 2 depicts a schematic diagram where 
+load balancer (LB) ensures load balancing by 
+distributing STBs to various ACS/FS instances. To 
+ensure security and reliability, LB and DB/APP are 
+con/f_igured with backups in active/standby mode. 
+Additionally, if needed, geographic disaster 
+recovery solutions can also be provided.  
+ZTE supports customers in building their 
+own STB management system. For customers 
+with speci/f_ic needs, it can also provide 
+software-as-a service (SaaS) solutions in a 
+tenant model, reducing their investment costs.  
+The STB management platform can enhance 
+user viewing experience, increase user satisfaction, 
+reduce after-sales costs and improve the eﬃciency 
+for customers. Looking ahead, the platform 
+will keep evolving to be more user-centric and 
+intelligent, aiming to deliver even greater value to 
+customers. platform enables /f_irmware upgrades for STBs 
+either triggered by the platform itself or initiated 
+by STBs. Additionally, various operations such 
+as app installation, update, uninstallation, and 
+cache clearing are supported for APK /f_iles.  
+When system, service or network faults occur 
+in the STB, the STB management platform can 
+remotely diagnose and troubleshoot the faults. 
+The supported diagnostic processes include 
+ping diagnosis, traceroute diagnosis, speed 
+testing and log reporting. The platform can 
+initiate automatic diagnosis on the STB and 
+report the results. It also supports intelligent 
+analysis of logs. With user authorization, it can 
+provide remote desktop and remote console 
+for deep diagnosis. Remote desktop allows 
+users to view the STB interface and operate it 
+using a virtual remote control, similar to on-site 
+operation. Remote console enables logging 
+into the STB for ADB debugging. 
+The STB management platform can also 
+generate a variety of statistical reports, providing 
+valuable support for customer operations. By 
+collecting STB parameters, obtaining running 
+information, as well as analyzing user behavior, 
+the platform can generate reports across 
+multiple dimensions. These reports include 
+geographical distribution of STBs, trends 
+in new user acquisition, online user rates, 
+popular programs and applications, as well as 
+information about the brands and models of TV 
+sets and remote controllers connected to STBs. 
+In the future, with the integration of a business 
+intelligence (BI) analysis engine, there will be 
+an increase in data mining capabilities and 
+improved data presentation.  
+The STB management platform supports 
+the integration of third-party STBs. There are 
+two main integration methods available. The 
+/f_irst method involves third-party STBs in two 
+ways. The third-party STB vendors develop 
+their own integration using interfaces and 
+protocols. The second method encompasses 
+direct integration with ZTE’s STB management 
+agent, as illustrated in Fig. 1. The second 
+method is recommended as it can signi/f_icantly 
+reduces the integration period and accelerate Fig. 2. Deployment 
+diagram of the STB 
+management platform.
+Internet
+...DB/APP-1
+activeDB/APP-2
+standby
+LB-2
+standby
+FireWallLB-1
+activeACS/FS-4
+ACS/FS-3
+ACS/FS-2
+ACS/FS-1
+23AUG 2023

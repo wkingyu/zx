@@ -1,0 +1,69 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SHI Wenzhe , LIU Yanbin , ZHOU Qinfen Special Topic   Local Scenario Perception and Web AR Navigation
+enough . To ensure a stable anchoring effect , a 
+filtering manner is used to optimize the position ⁃
+ing algorithm as follows .
+1) A high -pass filter and a low -pass filter are 
+used to eliminate incorrect positioning (Fig. 4)；
+2) The camera position information of the 
+first k frames and the sliding average value are 
+used to smooth the track of the current frame .
+Because the original environment on the web 
+side supports only a single thread and the loca ⁃
+tion algorithm based on the local point cloud 
+cannot meet the real -time requirement (20 fps) 
+with limited computing resources on the web 
+side, the proposed algorithm is optimized by de ⁃
+laying video frames (Fig. 5). To ensure the sta ⁃
+bility of the local point cloud positioning algo ⁃
+rithm , the optical flow tracking algorithm is in ⁃
+troduced to improve the number of 2D-3D 
+matches by using the previous frame ’s prior 
+knowledge , as shown in Fig . 6. Figs 7 and 8 
+show the experimental results without and with 
+the optical flow respectively . The stability of 
+model anchoring is improved during the posi ⁃
+tioning process .
+4 Conclusions
+This paper proposes a Web AR indoor navi ⁃
+gation system based on local point cloud map 
+positioning , which has beneficial effects on 
+technical value compared with the prior art . It 
+innovatively proposes the idea of point -cloud distribution , 
+that is , to download the map of local point -cloud to the Web 
+front end and use the computing power of the Web front end 
+for positioning . Compared with an existing mainstream visual -
+based positioning manner for AR navigation , GPS -based posi ⁃
+tioning manner and multi -sensor fusion positioning manner , 
+the positioning manner provided in the present invention 
+does not depend on any additional sensor or external comput ⁃
+ing environment , thereby reducing development and deploy ⁃
+ment costs .
+A lightweight web front -end positioning algorithm is pre ⁃
+sented for indoor Web AR navigation when the computational 
+power of the web front -end is limited . A degree of dependence 
+on network communication is reduced , the requirement of 
+Web AR navigation on a network environment is reduced , and 
+environment adaptability is improved . It takes a short time to 
+deliver the web front -end positioning system to the point cloud 
+for indoor Web AR navigation . In a small -scale indoor scenario , 
+the positioning frequency on the iPhone 13 can reach 90 fps, 
+which brings users a smooth user experience based on satisfying 
+the real -time positioning requirements for Web AR navigation .
+▲Figure 4. High -pass filter is 
+added for Web AR navigationDestination 1
+vConsoleview reset back mock 1mock 2outputShow
+▲Figure 3. No filter is added for 
+Web AR navigationDestination 1
+view reset back mock 1mock 2outputShow
+vConsole▲Figure 5. Delaying two frames without optical flowORB : oriented FAST and rotated BRIEF      PDR : pedestrian dead reckoningDelay 2 framesRenderingInterpolation Local positioning PDRORB frame without optical flow
+i-1 i i+1 i+2 i+3 i+4 i+5 i+6 i+7
+i-2 i-1 i-1 i-1 i i+1 i+2 i+3 i+4 i+4 i+5 i+6Xi-1XiXi+2Xi+4Xi+6
+XiXi+2Xi+1Xi+3Xi+5Xi+5 Xi+6Xi+4CalculateFrame
+▲Figure 6. Experiment of adding interpolation for optical streamsLK: Lucas Kanade      ORB : oriented FAST and rotated BRIEF       PDR : pedestrian dead reckoningRendered 
+frameCalculateFrame
+Xi+8Xi+10Xi+6Xi+4Xi+2XiXi+1Xi+3Xi+5Xi+7Xi+9Xi-1XiXi+2Xi+4Xi+6Xi+10
+i-2 i-1 i-1 i-1 i i+1 i+2 i+3 i+4 i+5 i+6 i+7 i+8 i+9i+10i-1 i i+1 i+2 i+3 i+4 i+5 i+6 i+7 i+8 i+9i+10 i+11 i+12Optical traffic fails , and new 
+features are required .Interpolation LK PDR Local positioningAdding ORB interpolation for optical streams
+Xi+8
+58

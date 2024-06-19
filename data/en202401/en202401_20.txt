@@ -1,0 +1,68 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Special Topic   Link Budget and Enhanced Communication Distance for Ambient Internet of Things
+Link Budget and Enhanced Communication Link Budget and Enhanced Communication 
+Distance for Ambient Internet of ThingsDistance for Ambient Internet of Things
+YANG Yibing1, LIU Ming1, XU Rongtao2, 
+WANG Gongpu1, GONG Wei3
+(1. School of Computer and Information Technology , Beijing Jiaotong 
+University , Beijing 100044 , China；
+ 2. School of Electronic and Information Engineering , Beijing Jiaotong 
+University , Beijing 100044 , China；
+ 3. School of Computer Science and Technology , University of Science 
+and Technology of China , Hefei 230026 , China )DOI: 10.12142 /ZTECOM .202401003
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20240223 .1839 .002.html, 
+published online February 26, 2024
+Manuscript received : 2023 -12-02
+Abstract : Backscatter communications will play an important role in connecting everything for beyond 5G (B5G) and 6G systems . One open 
+challenge for backscatter communications is that the signals suffer a round -trip path loss so that the communication distance is short . In this 
+paper , we first calculate the communication distance upper bounds for both uplink and downlink by measuring the tag sensitivity and reflec ⁃
+tion coefficient . It is found that the activation voltage of the envelope detection diode of the downlink tag is the main factor limiting the back ⁃
+scatter communication distance . Based on this analysis , we then propose to implement a low -noise amplifier (LNA ) module before the enve ⁃
+lope detection at the tag to enhance the incident signal strength . Our experimental results on the hardware platform show that our method can 
+increase the downlink communication range by nearly 20 m.
+Keywords : ambient IoT (AIoT ); B5G; backscatter communication ; link budget ; low -noise amplifier (LNA ); Release 19; tag chip sensitivity ; 
+upper bounds
+Citation  (Format 1): YANG Y B , LIU M , XU R T , et al . Link budget and enhanced communication distance for ambient Internet of Things [J]. 
+ZTE Communications , 2024 , 22(1): 16–23. DOI : 10.12142 /ZTECOM .202401003
+Citation  (Format 2): Y. B. Yang , M. Liu, R. T. Xu, et al ., “Link budget and enhanced communication distance for ambient Internet of Things ,” 
+ZTE Communications , vol. 22, no. 1, pp. 16–23, Mar. 2024 . doi: 10.12142 /ZTECOM .202401003 .
+1 Introduction
+Backscatter communications (BackCom ), a key technol ⁃
+ogy for ambient Internet of Things (AIoT ), have the ad ⁃
+vantages of low hardware cost , low maintenance , easy 
+deployment and flexible extension , and will play an 
+important role in connecting everything for B 5G and 6G sys ⁃
+tems. It was first introduced in the late 1940 s by 
+STOCKMAN[1]. Afterward , the radio frequency identification 
+(RFID )[2] system enabled by BackCom has been widely used 
+for commodity identification , item tracking , logistic manage ⁃
+ment , etc. Recently , the third -generation partnership project 
+(3GPP) started investigating the scenarios , use cases , services 
+and targets of the potential use of BackCom in future wireless 
+networks , and the corresponding network is referred to as am ⁃
+bient IoT[3] in Release 19.
+Different from traditional wireless communications , the backscatter transmitters (e.g., tags , devices , and sensors ) do 
+not need to generate the carrier signal by itself . BackCom 
+transmits information by reflecting the received RF signal in a 
+modulated way . So, it leaves out the RF units of traditional 
+communication equipment such as a local oscillator , a mixer , 
+and a duplexer , which greatly simplifies the RF frontend and 
+reduces the power consumption dedicated to RF signal trans ⁃
+mission . As a consequence , backscatter devices do not need 
+batteries but can accomplish wireless signal reception and 
+transmission by wireless energy harvesting (EH) and Back ⁃
+Com, which significantly improves its sustainability[4–6]. 
+Therefore , BackCom has been regarded as a promising solu ⁃
+tion to passive and green IoT .
+One open challenge for BackCom is that the signals suffer a 
+round -trip path loss so that the communication distance is 
+short , which is largely different from traditional point -to-point 
+communications . Specifically , the signals in traditional point -
+to-point communication systems experience a one -way path 
+loss, and both the transmitter and receiver are equipped with 
+power amplifiers to enhance signal quality . As a result , it is 
+relatively easier to achieve long -range communication . In con ⁃
+This work was supported in part by National Natural Science Foundation 
+of China under Grant Nos . 61971029  and U 22B2004 , and in part by Beijing 
+Municipal Natural Science Foundation under Grant No . L222002 .
+16

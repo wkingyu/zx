@@ -1,0 +1,50 @@
+面向 6G的星地融合网络架构 徐 晖  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5面向 6G的星地融合网络架构
+Integrated Satellite and Terrestrial Network 
+Architecture for 6G
+徐晖/XU Hui1，2，陈山枝 /CHEN Shanzhi2，
+艾明/AI Ming1，2
+（ 1.大唐移动通信设备有限公司 ，中国 北京 100083 ；
+2.无线移动通信全国重点实验室 （中国信息通信科技集团有限公司 ） ，中
+国 北京 100019  ）
+(1.Datang Mobile Communications Equipment Co . , Ltd, Beijing 100083 , 
+China ;
+2.State Key Laboratory of Wireless Mobile Communications (CICT ), Bei⁃
+jing 100019 , China )DOI：10.12142 /ZTETJ .202305003
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231017 .0948.002.html
+网络出版日期 ：2023 -10-18
+收稿日期 ：2023 -08-10
+摘要 ：通过对卫星星座的发展和星地融合网络研究的回顾 ，明确了 6G的星地融合网络的发展趋势 ，提出了智简赋能的 6G网络体系架构和弹性
+可重构的 6G星地融合架构 ，并分析了星地融合网络中的关键技术问题 ，包括星上轻量化虚拟化技术 、星上边缘计算功能以及广播 /多播技术 。
+认为 6G星地融合网络将通过星地协同实现网络资源和计算资源的统一调度 ，同时可以根据业务需求和网络状态智能实现网络功能的按需弹性
+部署。
+关键词 ：6G网络架构 ；星地融合网络架构 ；边缘计算 ；广播/多播
+Abstrac t:Through a review of the development of satellite constellations and research on the integrated satellite and terrestrial networks , the 
+trend of the integrated satellite and terrestrial networks for 6G is put forward . An intelligent simplicity empowerment 6G network architec ⁃
+ture and a resilient and reconfigurable integrated satellite and terrestrial architecture are proposed . Then the key technical issues in the inte ⁃
+grated satellite and terrestrial networks , including lightweight virtualization technology onboard satellites , onboard edge computing function , 
+and broadcast/multicast technology are analyzed . It is believed that 6G integrated satellite and terrestrial networks will achieve unified sched ⁃
+uling of network and computing resources through satellite-terrestrial cooperation and can intelligently deploy network functions flexibly ac ⁃
+cording to service requirements and network conditions .
+Keywords :6G network architecture ; integrated satellite and terrestrial network architecture ; edge computing ; broadcast/multicast
+引用格式 ：徐晖, 陈山枝 , 艾明 . 面向 6G的星地融合网络架构  [J]. 中兴通讯技术 , 2023 , 29(5): 9-15. DOI:10.12142 /ZTETJ .202305003
+Citation : XU H , CHEN S Z , AI M . Integrated satellite and terrestrial network architecture for 6G [J]. ZTE technology journal , 2023 , 29(5): 9-15. 
+DOI:10.12142 /ZTETJ .202305003
+随着信息和通信技术的发展 ，6G网络将为用户提供丰富
+的沉浸式体验 ，通过协同和融合的方式实现无处不在
+的连接 。6G网络将解决连接 、覆盖 、容量 、数据速率和终
+端移动性方面的问题 ，实现全域覆盖 ，为用户提供获得教
+育、卫生 、农业 、运输 、物流等服务 。同时 ，6G网络将通
+过地面蜂窝网络与非地面蜂窝网络的互通和融合 ，支持全域
+的服务连续性 。卫星通信网络作为地面移动通信网络的重要
+补充 ，在6G网络中将与地面移动通信网络深度融合 。6G网络将通过星地融合真正实现无处不在的连接 ，弥合数字
+鸿沟[1-2]。
+1 6G星地融合网络的愿景和需求
+1.1 6G网络愿景
+5G大规模的商用 ，提升了用户的通信服务体验 ，为垂
+直行业的数字化转型提供了技术手段 。面向 2030 及未来 ，
+6G网络通过人机物智能互联 、协同共生 ，满足经济社会高
+质量发展需求 ，服务智慧化生产与生活 ，推动并构建普惠智
+能的人类社会[3]。 基金项目 ：国家重点研发计划项目 （2020 YFB1807901 ）
+09

@@ -1,0 +1,69 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SHI Wenzhe , LIU Yanbin , ZHOU Qinfen Special Topic   Local Scenario Perception and Web AR Navigation
+Local Scenario Perception and Local Scenario Perception and 
+Web AR NavigationWeb AR Navigation
+SHI Wenzhe1,2, LIU Yanbin1,2, ZHOU Qinfen1
+(1. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China ；
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202304007
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231129 .1522 .004.html, 
+published online November 30, 2023
+Manuscript received : 2023 -06-20
+Abstract : This paper proposes a local point cloud map -based Web augmented reality (AR) indoor navigation system solution . By delivering 
+the local point cloud map to the web front end for positioning , the real -time positioning can be implemented only with the help of the comput ⁃
+ing power of the web front end . In addition , with the characteristics of short time consumption and accurate positioning , an optimization solu ⁃
+tion to the local point cloud map is proposed , which includes specific measures such as descriptor de -duplicating and outlier removal , thus im ⁃
+proving the quality of the point cloud . In this document , interpolation and smoothing effects are introduced for local map positioning , enhanc ⁃
+ing the anchoring effect and improving the smoothness and appearance of user experience . In small -scale indoor scenarios , the positioning fre ⁃
+quency on an iPhone 13 can reach 30 fps, and the positioning precision is within 50 cm. Compared with an existing mainstream visual -based 
+positioning manner for AR navigation , this specification does not rely on any additional sensor or cloud computing device , thereby greatly sav ⁃
+ing computing resources . It takes a very short time to meet the real -time requirements and provide users with a smooth positioning effect .
+Keywords : Web AR ; three -dimensional reconstruction ; navigation ; positioning
+Citation  (Format 1): SHI W Z , LIU Y B , ZHOU Q F . Local scenario perception and Web AR navigation [J]. ZTE Communications , 2023 , 21(4): 
+54–59. DOI : 10.12142 /ZTECOM .202304007
+Citation (Format 2): W. Z. Shi, Y. B. Liu, and Q . F. Zhou , “Local scenario perception and Web AR navigation ,” ZTE Communications , vol. 21, 
+no. 4, pp. 54–59, Dec. 2023 . doi: 10.12142 /ZTECOM .202304007 .
+1 Introduction
+There are three existing positioning manners for aug ⁃
+mented reality (AR) navigation : visual positioning , GPS 
+positioning , and multi -sensor fusion positioning . Spe⁃
+cifically , visual positioning is based on a conventional 
+simultaneous localization and mapping (SLAM ) framework , and 
+the main steps include feature extraction , feature matching , 
+and position solving . This model has high precision , but re ⁃
+quires high computing power and cannot run on the Web side .
+Outdoor AR navigation can achieve good results by using 
+GPS technology . However , in an indoor scenario , the signal 
+strength of GPS is greatly affected , and consequently , position ⁃
+ing precision is obviously reduced . Therefore , the GPS -based 
+positioning manner cannot be applied to indoor AR navigation .
+A positioning manner of multi -sensor fusion is to obtain the 
+position of a camera by fusing data from sensors such as an in ⁃
+ertial sensor , a laser radar , Bluetooth , and Wi -Fi. In this man ⁃
+ner, although positioning accuracy is high , the sensor is vulner ⁃
+able to environments , thereby decreasing positioning perfor ⁃
+mance . In addition , in this manner , a large number of sensors need to be calibrated and fused , and a development cost is high .
+Although the foregoing three methods can obtain relatively 
+high precision in certain specific scenarios , they cannot be ap ⁃
+plied to an indoor Web AR navigation scenario . The core rea ⁃
+son is that the computing power on the Web side is limited 
+and cannot meet the intensive requirements of AR computing . 
+If a positioning system that meets performance requirements 
+can be implemented on the web front end by using limited 
+computing power , dependence on an external computing envi ⁃
+ronment or device will be reduced , development costs can be 
+cut, and the application scope and user experience of indoor 
+Web AR navigation will be greatly improved .
+2 Key Technologies of Visual Perception
+2.1 3D Reconstruction Techniques
+To implement a visual method of good positioning , preci ⁃
+sion is indispensable for a robust three -dimensional recon ⁃
+struction process . An objective of three -dimensional recon ⁃
+struction is to obtain a geometric structure and a structure of 
+an object or a scene from a group of images , which may be 
+implemented by using a motion recovery structure (Structure -
+from -Motion , SFM ). SFM is a method for implementing three -
+dimensional reconstruction and mainly used in a phase of con ⁃
+This work is supported in part by ZTE Industry⁃University⁃Institute Coop ⁃
+eration Funds .
+54

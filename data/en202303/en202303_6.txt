@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Special Topic   Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface
+Even so , frequent calibration (retraining ) is necessary due to 
+the plasticity of the brain . Therefore , some scholars have fo ‐
+cused on developing an adaptive BCI architecture that allows 
+interaction with a dynamic environment[15–17], where BCI us ‐
+ers learn by trial -and -error to adjust their brain activity to the 
+decoder by observing how the external device performs the 
+task (using feedback information ). Among them , reinforcement 
+learning (RL)[18] is the general framework that makes the sys ‐
+tem adapt to the new environment . It is an interactive learning 
+paradigm that can improve policies through constant interac ‐
+tion with the environment , aiming to learn the best mapping re ‐
+lationship from the environmental state to the action . Thus , an 
+RL-based BCI framework is explored , which provides a gen ‐
+eral framework for constructing dynamic mappings from neu ‐
+ral intentions to actions adapted to changing environments , re‐
+quiring only a scalar signal (reward ) feedback from the envi ‐
+ronment to strengthen the decoder to complete the task , rather 
+than a specific permanently available supervisory signal[19]. At 
+the same time , an RL -based BCI architecture is a more reason ‐
+able learning solution to those patients unable to produce pre ‐
+cise limb movements . In this case , they only need to under ‐
+stand which action will yield the greatest return when reach ‐
+ing the goals in their environment .
+Multiple studies have shown that RL can be used in the rat 
+EEG signal[20–21] and neuronal activity to control the basic 
+BCI system[19, 22]. DIGIOVANNA et al .[19] first proposed a Q (λ)-
+learning algorithm with the temporal difference (TD) error in 
+an RL -based BCI paradigm , which experimentally trained rats 
+to control prostheses in a two -target selection task . Further ‐
+more , SANCHEZ et al .[23] applied Q (λ)-learning to predict one -
+step actions , extending the RL -based BCI framework to pri ‐
+mates performing center -out tasks . In addition , the BCI para ‐
+digm using RL has been successfully applied to closed -loop 
+experiments of intracortical signals in monkeys[24–25]. BAE et 
+al.[26] combined the kernel temporal differences (KTD ) (λ) al‐
+gorithm with the Q -learning algorithm to obtain a reinforce ‐
+ment learning -based neural decoding algorithm (Q-KTD ), and 
+the feasibility of this method for BCI decoding was demon ‐
+strated in a center -out extension task of intracortical signals in 
+monkeys . THAPA et al .[27] further investigated the applicabil ‐
+ity and feasibility of Q -KTD in an EEG -based BCI system , 
+demonstrating that the Q -KTD algorithm can correctly learn 
+the mapping between neural intentions in EEG signals and ex ‐
+ternal device control commands . However , there are still some 
+challenges in EEG -based RL interface using Q -KTD : 1) The 
+number of kernel units increases with the number of samples ; 
+2) the curse of dimensionality limits the decoding capability of 
+the Q -KTD algorithm ; 3) the Q -KTD decoding technique 
+based on Q -Learning has a generalization problem and re ‐
+quires a long training time .
+To overcome the above problems , this paper proposes to use 
+double deep Q -network (DDQN ), a deep reinforcement learn ‐
+ing algorithm , to decode EEG . DDQN[28], as a variant of deep Q-networks (DQN )[29], uses a neural network to approximate 
+the value function and takes into account the generalization 
+while dealing with high -dimensional inputs . In addition , the 
+dual -value network architecture of DDQN can effectively sup ‐
+press the influence of overestimation of action values on the 
+decision -making process and is robust to EEG signals that 
+may have random interference .
+In section 2, this paper introduces the DDQN algorithm and 
+the basic paradigm based on reinforcement learning brain -
+computer interface . In section 3, the EEG decoder based on 
+DDQN is described and the network structure diagram is 
+given . In section 4, the feasibility and advantages of DDQN 
+for EEG signal decoding are verified by comparative experi ‐
+ments . In section 5, this paper is summarized , and the pros ‐
+pect of future research is discussed .
+2 Preliminary
+This paper mainly adopts DDQN to perform the end -to-end 
+decoding operation of EEG , and the related concepts and ba ‐
+sic knowledge are introduced as follows .
+2.1 Reinforcement Learning
+RL is a learning framework for dealing with sequential deci ‐
+sion problems , which can usually be modeled as a Markov De ‐
+cision Process (MDP ) that can be represented by a five -tuple 
+(S, A, P, R, γ), where :
+1) S denotes the state space and st∈S represents the state of 
+the agent at the moment t;
+2) A denotes the action space and at∈A represents the action 
+executed by the agent at time t;
+3) P: S×A×S →[0, 1] denotes the state transition probabil ‐
+ity, and P(st+1| st, at) denotes the probability that the agent 
+executes the action  at in state  st to the next state  st+1;
+4) R: S×A → R denotes the reward function and R(st,  at) 
+represents the immediate reward obtained by the agent by ex ‐
+ecuting the action  at in the state  st;
+5) γ ∈[0, 1] is the discount factor used to balance immediate 
+and delayed rewards .
+The action selection of an agent in reinforcement learning 
+obeys the policy π, which is expressed as the mapping rela ‐
+tionship π: S→A between the state and the executable ac ‐
+tion of the agent . RL algorithms can be classified into two cat ‐
+egories , policy -based and value -based methods . In the value -
+based RL method , the policy will not be updated explicitly , 
+but a value table or value function is maintained , and new 
+policies are derived from this value table or value function . 
+The state -action value function is Qπ: S×A → R. Qπ(st, at) 
+represents the expected cumulative reward obtained by the 
+agent executing action at in state  st  and following the cur ‐
+rent policy π until the end of the episode , which can be ex ‐
+pressed as :
+Qπ(st, at)=Eπ{∑tγtR(st, π(st)) | st=s,  at=a }.(1)
+04

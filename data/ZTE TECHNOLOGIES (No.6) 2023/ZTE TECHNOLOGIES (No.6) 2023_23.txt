@@ -1,0 +1,75 @@
+esh Wi-Fi has now become the 
+dominant choice for home 
+users. Managing home network 
+devices eﬃciently from a
+remote location and monitoring the quality 
+of home Wi-Fi has emerged as a new 
+challenge for operators. To address this, ZTE 
+has launched the smart cloud platform (SCP), 
+the industry’s /f_irst integrated management 
+platform. Designed to align with the 
+development trends and management 
+characteristics of customer premises 
+equipment (CPE), SCP empowers operators 
+to visualize and control home Wi-Fi networks, 
+enhancing the quality of home Wi-Fi 
+experience. Its rich functionalities oﬀer 
+substantial value to various departments 
+within the operator, assisting the O&M 
+department in enhancing operational 
+eﬃciency, the marketing department in 
+increasing revenue generation, and the  
+provisioning department in improving 
+installation eﬃciency.
+Enabling Remote Home Network 
+Management: Transitioning from 
+“Black Box” to Visible and 
+Manageable Operations
+The ZTE SCP is the industry’s /f_irst integrated 
+platform that can manage mesh access points 
+(APs), IP cameras (IPCs), and /f_iber to the room 
+(FTTR) devices simultaneously. Based on ZTE’s 
+/f_lexible and open-source TECS cloud 
+foundation (TCF), SCP supports interactions 
+with managed devices through protocols like MQTT, WebSocket, TR-069, and TR-157 BDC. 
+Combined with AI and big data analysis 
+technologies, it enables remote visual 
+con/f_iguration management of home 
+networks. It provides real-time insights into 
+the current and historical performance of 
+home networks, transforming operational 
+management from a “black box” into a 
+visible and manageable system (Fig. 1) .
+Opex Savings: Rapid Fault Handling 
+with Abundant NBIs and Third-Party 
+Device Management via Open SBIs  
+For the O&M department of the operator, 
+SCP possesses leading capabilities in Wi-Fi 
+network analysis and diagnosis and oﬀers a 
+wide range of northbound interfaces (NBIs) 
+and southbound interfaces (SBIs). It allows 
+engineers to quickly locate faults in home 
+networks based on various factors, such as 
+interference, coverage, connectivity, site, and 
+device. It also supports solving some faults 
+remotely with the click of a button. 
+Abundant NBIs for rapid fault handling: 
+SCP provides a variety of NBIs to connect 
+with operators’ existing operation 
+support systems (OSSs), enabling call 
+center agents to handle faults online. 
+When a user contacts the call center to 
+report a fault, an agent can quickly 
+follow the procedure described in the 
+operation guide to locate and resolve the 
+fault. This reduces the need for engineer 
+visits and boosts user satisfaction.
+Open SBIs for connecting with third-party 
+ 
+Smart Cloud Platform : 
+Wi-Fi in Hands, Experience in Mind
+M
+SCP International 
+Marketing 
+Representative, ZTEZhang Lin DEC 2023
+ 21

@@ -1,0 +1,78 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Research Papers   Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks
+GLOBECOM 42002 .2020 .9322362
+[4] DUAN C F , DUAN R Q , FENG J , et al . A novel channel allocation strategy in 
+low earth orbit satellite networks [C]//6th International Conference on Computer 
+and Communications (ICCC ). IEEE , 2021 : 8–13. DOI : 10.1109 /
+ICCC 51575 .2020 .9345173
+[5] ZHOU J , YE X G , PAN Y , et al . Dynamic channel reservation scheme based on 
+priorities in LEO satellite systems [J]. Journal of systems engineering and elec ‐
+tronics , 2015 , 26(1): 1–9. DOI : 10.1109 /JSEE .2015 .00001
+[6] LI Z W , XIE Z C , LIANG X W . Dynamic channel reservation strategy based on 
+DQN algorithm for multi -service LEO satellite communication system [J]. IEEE 
+wireless communications letters , 2021 , 10(4): 770–774. DOI : 10.1109 /
+LWC .2020 .3043073
+[7] MARAL G , RESTREPO J , DEL RE E , et al . Performance analysis for a guaran ‐
+teed handover service in an LEO constellation with a “satellite -fixed cell ” sys‐
+tem [J]. IEEE transactions on vehicular technology , 1998 , 47(4): 1200–1214 . 
+DOI: 10.1109 /25.728509
+[8] WANG X L , WANG X X . The research of channel reservation strategy in LEO 
+satellite network [C]//11th International Conference on Dependable , Autonomic 
+and Secure Computing . IEEE , 2014 : 590–594. DOI : 10.1109 /DASC .2013 .131
+[9] BOUKHATEM L , GAITI D , PUJOLLE G . A channel reservation algorithm for 
+handover issues in LEO satellite systems based on a satellite -fixed cell coverage 
+[C]//IEEE VTS 53rd Vehicular Technology Conference . IEEE , 2001 : 2975–
+2979 . DOI : 10.1109 /VETECS .2001 .944147
+[10] BEYLOT A L , BOUMERDASSI S . Adaptive channel reservation schemes in 
+multitraffic LEO satellite systems [C]//IEEE Global Telecommunications Con ‐
+ference . IEEE , 2002 : 2740–2743 . DOI : 10.1109 /GLOCOM .2001 .966272
+[11] ZOU Q Y , ZHU L D . Dynamic channel allocation strategy of satellite communi ‐
+cation systems based on grey prediction [C]//International Symposium on Net ‐
+works , Computers and Communications (ISNCC ). IEEE , 2019 : 1–5. DOI : 
+10.1109 /ISNCC .2019 .8909122
+[12] CHATTERJEE S , SAHA J , BANERJEE S , et al . Neighbour Location Based 
+Channel Reservation scheme for LEO Satellite communication [C]//Interna ‐
+tional Conference on Communications , Devices and Intelligent Systems 
+(CODIS ). IEEE , 2012 : 73–76. DOI : 10.1109 /CODIS .2012 .6422139
+[13] RAHMAN M , WALINGO T , TAKAWIRA F . Adaptive handover scheme for 
+LEO satellite communication system [C]//Proceedings of AFRICON . IEEE , 
+2015 : 1–5. DOI : 10.1109 /AFRCON .2015 .7332051
+[14] CHEN L M , GUO Q , WANG H Y . A handover management scheme based on 
+adaptive probabilistic resource reservation for multimedia LEO satellite net ‐
+works [C]//WASE International Conference on Information Engineering . IEEE , 
+2010 : 255–259. DOI : 10.1109 /ICIE .2010 .67
+[15] LIU S J , HU X , WANG W D . Deep reinforcement learning based dynamic channel allocation algorithm in multibeam satellite systems [J]. IEEE access , 
+2018 , 6: 15733–15742 . DOI : 10.1109 /ACCESS .2018 .2809581
+[16] CHOWDHURY P K , ATIQUZZAMAN M , IVANCIC W . Handover schemes in 
+satellite networks : state -of-the-art and future research directions [J]. IEEE 
+communications surveys & tutorials , 2006 , 8(4): 2–14. DOI : 10.1109 /
+COMST .2006 .283818
+[17] BHATNAGAR S , SUTTON R S , GHAVAMZADEH M , et al . Natural 
+actor‐critic algorithms [J]. Automatica , 2009 , 45(11): 2471–2482 . DOI : 
+10.1016 /j.automatica .2009 .07.008
+Biographies
+CHENG Lei received her BS degree in communication engineering from Uni ‐
+versity of Electronic Science and Technology of China (UESTC ) in 2019 . She 
+now is pursuing her PhD degree at the National Key Laboratory of Wireless 
+Communications , UESTC . Her research interests include resource management 
+and network control in space -air-ground/satellite -terrestrial integrated networks 
+by using optimization theory and machine learning techniques .
+QIN Shuang (blueqs@uestc .edu.cn) received his BS degree in electronic infor ‐
+mation science and technology and PhD degree in communication and informa ‐
+tion system from University of Electronic Science and Technology of China 
+(UESTC ) in 2006  and 2012 , respectively . He is currently a professor with the 
+National Key Laboratory of Wireless Communications , UESTC . His research in ‐
+terests include wireless and mobile networks .
+FENG Gang received his BE and ME degrees in electronic engineering from 
+University of Electronic Science and Technology of China (UESTC ) in 1986  and 
+1989 , respectively , and PhD degree in information engineering from The Chinese 
+University of Hong Kong , China in 1998 . He joined the School of Electric and 
+Electronic Engineering , Nanyang Technological University , Singapore in Decem ‐
+ber 2000  as an assistant professor and became an associate professor in October 
+2005 . He is currently a professor with the National Laboratory of Wireless Com ‐
+munications , UESTC . He has extensive research experience and has published 
+widely on wireless networking . His research interests include next generation mo ‐
+bile networks , mobile cloud computing , and AI -enabled wireless networking . He 
+has received the IEEE ComSoc TAOS Best Paper Award and the ICC Best Paper 
+Award in 2019 . A number of his papers have been highly cited .
+62

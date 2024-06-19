@@ -1,0 +1,56 @@
+大语言模型时代的智能运维 裴 丹   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2大语言模型时代的智能运维
+Artificial Intelligence for IT Operations in Era of 
+Large Language Model
+裴丹/PEI Dan1，张圣林 /ZHANG Shenglin2，
+孙永谦 /SUN Yongqian2，裴昶华 /PEI Changhua3
+（ 1.清华大学 ，中国 北京 100084 ；
+2.南开大学 ，中国 天津 300457 ；
+3.中国科学院计算机网络信息中心 ，中国 北京 100190  ）
+(1.Tsinghua University , Beijing 100084 , China ;
+2.Nankai University , Tianjin 300457 , China ;
+3.Computer Network Information Center , Chinese Academy of Sciences , 
+Beijing 100190 , China )DOI：10.12142 /ZTETJ .202402009
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.tn.20240407 .1926.002.html
+网络出版日期 ：2024 -04-09
+收稿日期 ：2024 -03-10
+摘要 ：大语言模型由于其强大的语言能力 、代码生成能力 、工具编排能力 ，将是智能运维 （AIOps ）落地取得突破的重要因素 。大模型时代的
+AIOps 架构是多 AIOps 智能体的人机协同系统 。首先列举了 AIOps 对大语言模型的应用需求 ，探讨了大语言模型时代的 AIOps 架构，其次总结
+了将大语言模型整合到运维工作流程中所面临的挑战 ，最后结合这些挑战给出了解决思路并倡议以 “社区众包 ，群体智慧 ”的方式加速落地运
+维大语言模型 。
+关键词 ：大语言模型 ；智能运维 ；人机协同 ；智能体
+Abstrac t:Due to its powerful linguistic capabilities , code generation abilities , and tool orchestration capabilities , the large language model will 
+be an important factor in the breakthrough of artificial intelligence for IT operations (AIOps ). The architecture of AIOps in the era of large mod ⁃
+els is a human-machine collaborative system composed of multiple AIOps intelligent agents . Firstly , the application requirements of AIOps 
+for large language models are listed and the architecture of AIOps in the era of large language models is explored . Secondly , the challenges 
+of integrating large language models into operational workflows are summarized , and solutions to these challenges are proposed . Finally , it 
+advocates for the acceleration of large language model implementation in operations through the "community crowdsourcing and collective 
+intelligence" approach .
+Keywords :large language model ; AIOps ; human-machine synergy ; Agent
+引用格式 ：裴丹, 张圣林 , 孙永谦 , 等. 大语言模型时代的智能运维  [J]. 中兴通讯技术 , 2024 , 30(2): 56-62. DOI: 10.12142 /ZTETJ .202402009
+Citation ： PEI D , ZHANG S L , SUN Y Q , et al . Artificial intelligence for IT operations in era of large language model [J]. ZTE technology journal , 
+2024 , 30(2): 56-62. DOI: 10.12142 /ZTETJ .202402009
+近年来 ，大语言模型 （LLM）的出现对自然语言处理 、
+机器学习和人工智能等众多领域产生了革命性的影
+响。诸如生成式预训练 Transformer 模型 （GPT）系列[1]，在
+理解和生成自然语言以及执行复杂的文本处理任务上表现出
+了前所未有的卓越能力 。因此 ，LLM 在各行业中得到了广泛
+应用 ，并已逐步渗透到智能运维 （AIOps ）这一前沿领域 。
+本文系统地研究了 AIOps 领域对 LLM 的具体应用需求 ，
+深入剖析了大语言模型时代下的 AIOps 体系架构的发展趋
+势。同时 ，本文中 ，针对将 LLM 有效整合至运维工作流程
+所面临的挑战 ，我们进行了深度探讨 ，着重强调了群体智慧
+协同创新对于促进专用于运维场景的大语言模型 （OpsLLM ）
+技术研发与快速迭代的重要性 。1 智能运维领域对大语言模型的需求
+1.1 AIOps工具更为人性化的交互方式
+运维环境的复杂性和数据规模化特性 ，在人工运维阶段
+给用户和决策者带来的挑战逐渐加剧[2]。运维环境中通常包
+含多种模态的数据 ，这会进一步增加分析处理的难度 。随着
+AIOps 工具的出现 ，运维系统逐步具备了数据采集监控 （相
+当于眼睛 ） 、自动化运维 （如同手 ）和智能运维 （相当于大
+脑）的功能 。然而 ，尽管这些工具的功能日益强大 ，但它们
+的使用却相对繁琐 ，通常需要通过特定的界面进行交互 ，这
+增加了决策者理解其输出的难度 。在LLM 时代 ，已有的运
+维工具可以通过自然语言与人进行交流 ，从而使决策者能够
+56

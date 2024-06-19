@@ -1,0 +1,83 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Special Topic   Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams
+ploring their potential applications . In addition , the develop ⁃
+ment of mobile communication technologies toward the near -
+field region has unlocked more possibilities for the practical ap ⁃
+plication of this kind of short -range beams . In this section , we 
+will categorize current applications of Bessel beams into three 
+classes for discussion : wireless power transfer , sensing , and 
+communication , and provide an introduction to the challenges 
+that exist in current research in each category .
+4.1 Wireless Power Transfer
+Wireless power transfer holds promising prospects in the 
+near -field range , providing a convenient and efficient means of 
+electricity delivery for applications such as sensor networks and 
+mobile terminals . The efficiency is one of the most crucial prop ⁃
+erties in WPT systems . To enhance transfer efficiency , research ⁃
+ers are exploring ways to focus energy at the transmitting end . 
+There are many types of beams designed for energy focus , such 
+as focusing beams and supergain beams . Among these , Bessel 
+beams offer a compromise , providing a solution that does not de ⁃
+pend on high -precision positioning but still provides excellent 
+focusing performance . Due to their non -diffracting characteris ⁃
+tics and excellent directionality , Bessel beams can ensure that 
+the emitted energy remains focused without dispersion within an 
+effective range along a line . Additionally , Bessel beams have a 
+long focal depth , which makes it possible to charge multiple de ⁃
+vices simultaneously .
+In Ref . [10], a transmissive metasurface unit was designed to 
+compare the power transmission performance of Bessel beams 
+with focused beams and high -gain directional beams , as shown 
+in Fig . 7. The experimental results validated that Bessel beams 
+could consistently maintain excellent focusing performance 
+within their propagation range , making them an excellent choice 
+for short -range wireless power transfer . Additionally , the possi ⁃
+bility of simultaneously charging multiple devices using the long 
+focal depth , large energy focusing range and self -healing charac ⁃
+teristics of Bessel beams was preliminarily explored in this 
+study . This work was further expanded in Ref . [22] in the follow ⁃
+ing year . The researchers designed a metasurface with high 
+transmission coefficient units by controlling and superimposing 
+two Bessel beams . They achieved a Bessel beam with a half -
+power beam length (HPBL ) exceeding 10%. This design enables 
+a uniform energy distribution over a wide range along a single 
+line, allowing simultaneous power transfer to multiple receiving 
+devices . A WPT system with five receiving targets was designed 
+(Fig. 8), and the scenarios under different apertures of receiving 
+antennas were discussed . Experimental results demonstrated 
+that the receiving targets achieved similar and high WPT effi ⁃
+ciency , showcasing the excellent capability of Bessel beams in 
+multiple -target energy transfer . In Ref . [35], the aperture field of 
+the Bessel beam was modulated by introducing Gaussian func ⁃
+tions. The generated Gaussian -Bessel beam was compared with 
+the TEM mode of a coaxial cable and the Bessel beam for power 
+transmission efficiency between two radiating apertures in the near -field zone . The designed transmitter efficiently transferred 
+radiofrequency power over a range of several wavelengths , 
+achieving high efficiency (exceeding 50% at 30 wavelengths ). 
+The experimental results demonstrated that the Gaussian -Bessel 
+beam was the optimal choice in this scenario due to its narrow 
+spectrum and reduced diffraction of the radiated beam . In Ref . 
+[36], the coupling coefficient between focused apertures support ⁃
+ing two types of cylindrical vector beams (Laguerre -Gaussian 
+and Bessel -Gaussian ) was derived in closed form . The results 
+demonstrated that within the Fresnel zone , a finite aperture Bes ⁃
+sel beam closely approaches the optimal field profile , exhibiting 
+optimal wireless energy transfer performance . In Ref . [37], two 
+coupled transverse magnetic (TM)-polarized , transverse electric 
+(TE)-polarized , or hybrid -polarized Bessel beams launchers 
+were evaluated and compared for WPT efficiency in the near -
+field radiation region . The study demonstrated the excellent per ⁃
+formance of Bessel beams for WPT application in the micro ⁃
+▲Figure 7. E-field intensity distributions of (a) high -gain directional 
+beam , (b) focused beam and (c) Bessel beam[10]
+▲Figure 8. Schematic of the multitarget wireless power transfer (WPT ) 
+system[22](a)
+(b)
+(c)E-field/ (V/m)
+200
+100
+0
+#n #2#1
+Receiving targetsFeedQuasi -Bessel beam …
+Metasurface
+58

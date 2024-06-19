@@ -1,0 +1,330 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions    Special Topic
+while the time slots with the (L+1)-th to 2L-th highest power 
+are marked in blue . In Fig . 5(a), when voting is performed on the 
+multi -beams corresponding to the orange markers , it is observed 
+that direction 26 in BS 1 receives a significant number of votes , 
+while the votes in BS 2 are more scattered . Consequently , the di ⁃
+rection with the highest number of votes across both BSs is di ⁃
+rection 26 in BS 1, denoted as m1=1. Subsequently , in Fig . 5
+(b), voting is conducted on the remaining BS 2 using the multi -
+beams marked in blue . This voting process leads to the determi ⁃
+nation of m2=2 and direction 5.
+Here we discuss the advantages of HMB training . Com ⁃
+pared with the single -beam , multi -beam can scan multiple di ⁃
+rections simultaneously , greatly reducing the number of 
+beams to cover the space . Both the hashing and the equal in ⁃
+terval approaches use multi -beam . However , the EIMB 
+method uses a predetermined multi -beam combination ap ⁃
+proach as well as a hard decision of threshold comparison , 
+while the proposed hash method utilizes hashing multi -beam , 
+multi -round voting , and soft decision , which are the main as ⁃
+pects that make the difference .
+1) HMB training employs randomly selected hash functions , 
+which can be perceived as introducing a perturbation to the 
+deterministic combination approach , thereby rendering the 
+combination random . This randomness ensures that the sub -
+beams are sufficiently dispersed , thereby reducing the impact 
+of leakage interference between sub -beams , particularly after 
+multiple rounds of voting . As in Fig . 4, if there is interference 
+from beam 1 to 9 in the first round , but 1 and 9 are not in the 
+same multi -beam in subsequent rounds , there will be no fur ⁃
+ther interference from beam 1.
+2) By employing an L-round voting mechanism , each round 
+carries an equal weight , thus mitigating the influence of errors 
+from individual rounds when L is relatively large . Moreover , 
+since L is complexity dependent , we indicate that L is on the 
+order of O(logMs) when the identification error is equal to 1/Ms. That is , we sacrifice some ac ⁃
+curacy compared with the exhaus ⁃
+tive approach but greatly reduce 
+the training overhead to BlogMN.
+3) Another distinction lies in the 
+use of the soft decision . We con ⁃
+sider the relative value , unlike the 
+equal interval method that consid ⁃
+ers the absolute value . This ap ⁃
+proach makes it less susceptible to 
+noise and variations in practical 
+power strength . Hence , our method 
+achieves higher accuracy and 
+greater robustness .
+3.4 Potential Application Scenarios
+There are many potential applica ⁃
+tion scenarios for near -field beam 
+training , and four categories are 
+highlighted here : reconfigure able intelligent surface (RIS) as⁃
+sisted near -field communication systems[25], integrated sensing 
+and communication (ISAC ) systems[26], high frequency (HF) 
+communication[27] and low earth orbit (LEO) satellite communi ⁃
+cation[28], as shown in Fig . 6.
+3.4.1 RIS -Assisted Near -Field Communication
+As a key technology for future wireless communications , 
+RIS can manipulate electromagnetic waves , thereby improving 
+the efficiency of spectrum and energy[29]. In particular , with a 
+large number of passive reflective units , RIS can be pro ⁃
+grammed to control the propagation environment of wireless 
+communications to achieve signal enhancement or interfer ⁃
+ence suppression . For high -frequency communications in 
+HMIMO scenarios such as millimeter wave communications , 
+the direct path between the base station and the user can be 
+easily blocked by obstacles . By deploying one or more RISs[30], 
+a virtual LoS BS -RIS -user link can be provided to improve its 
+communication performance . As shown in Fig . 6(a), three 
+kinds of links exist in the RIS -assisted communication sce ⁃
+nario : the BS -RIS link , the RIS -RIS link , and the RIS -user 
+link. In order to obtain a large beamforming gain , the corre ⁃
+sponding beam training is required between all three paths to 
+establish the link with high SNR . Because of the high frequen ⁃
+cies and the fact that both BS and RIS can be considered as 
+large aperture antenna arrays , all three links tend to be in 
+near -field communication . Therefore , beam training methods 
+in near -field communication can be applied to extend the cov ⁃
+erage of the communication and improve the signal -to-noise 
+ratio (SNR) of the paths .
+3.4.2 ISAC
+ISAC , where both sensing and communication functional ⁃
+ities share the same frequency bands and hardware , has 
+emerged as a crucial technology for future wireless systems[31]. ▲Figure 5. Voting process in a scenario involving two BSs(b) (a)BS 1 BS 2 BS 1 BS 2
+13
+26
+10
+32
+12
+18
+16
+2725
+8
+7
+28
+4
+14
+19
+2224
+9
+11
+30
+31
+17
+15
+235
+21
+6
+1
+20
+29
+3
+2L=1b=1
+b=2
+b=3
+b=4
+b=5
+b=6
+b=7
+b=819
+22
+27
+4
+17
+25
+5
+76
+13
+29
+10
+8
+3
+26
+321
+23
+20
+30
+18
+12
+15
+921
+16
+28
+14
+24
+31
+2
+11
+b=1
+b=2
+b=3
+b=4
+b=5
+b=6
+b=7
+b=8
+…L=225
+5
+9
+7
+28
+6
+30
+23
+31
+16
+24
+19
+15
+1
+2726
+21
+23
+32
+4
+20
+10
+1418
+13
+11
+17
+8
+22
+12
+2917
+9
+11
+31
+3
+10
+20
+3026
+27
+23
+8
+14
+21
+13
+729
+22
+12
+32
+19
+5
+18
+2415
+2
+6
+4
+28
+1
+16
+2513
+26
+10
+32
+12
+18
+16
+2725
+8
+7
+28
+4
+14
+19
+2224
+9
+11
+30
+31
+17
+15
+235
+21
+6
+1
+20
+29
+3
+219
+22
+27
+4
+17
+25
+5
+76
+13
+29
+10
+8
+3
+26
+321
+23
+20
+30
+18
+12
+15
+921
+16
+28
+14
+24
+31
+2
+11
+25
+5
+9
+7
+28
+6
+30
+23
+31
+16
+24
+19
+15
+1
+2726
+21
+23
+32
+4
+20
+10
+1418
+13
+11
+17
+8
+22
+12
+2917
+9
+11
+31
+3
+10
+20
+3026
+27
+23
+8
+14
+21
+13
+729
+22
+12
+32
+19
+5
+18
+2415
+2
+6
+4
+28
+1
+16
+25
+47

@@ -1,0 +1,74 @@
+Extensive 10G PON Deployment
+ue to the signi/f_icant 
+advantage of /f_iber over 
+copper as a transmission 
+medium and the decline
+in /f_iber optic cable prices, passive optical 
+network (PON), characterized by its /f_iber 
+infrastructure, passiveness, and P2MP 
+topology, has achieved great success over 
+the past 15 years. As the transition from 
+copper to optical and the acceleration 
+of bandwidth continue to deepen, the 
+deployment of 10G PON and the upgrade 
+from GPON to 10G PON have become 
+industry standards. By the end of June 2023, 
+global 10G PON shipments had exceeded 30 
+million PON ports, with China’s market share 
+accounting for approximately 80%. The 
+extensive deployment of 10G PON in the 
+Chinese market has signi/f_icantly advanced 
+the maturity of the 10G PON industry chain 
+and reduced costs.
+The deployment of 10G PON and the 
+provision of gigabit services are mutually 
+reinforcing. According to analysis data from 
+the consulting /f_irm Omdia, by the end of 
+2022, gigabit bandwidth services accounted 
+for about 8% of /f_ixed broadband (FBB), and 
+this /f_igure is expected to increase to 28% by 
+2026. The global deployment of 10G PON 
+is accelerating, and it is estimated that by 2026, global 10G PON shipments will surpass 
+those of GPON. The next three years are 
+expected to be a prime window for 10G PON 
+deployment.
+Due to variations in population and 
+economic development, the timing and 
+scale of 10G PON construction may diﬀer 
+among regions worldwide. As 10G PON 
+deployment gains momentum in North 
+America and Europe, it is expected China’s 
+market share will gradually decrease, 
+while the Asia-Paci/f_ic and South American 
+regions are expected to have a competitive 
+edge in 10G PON construction.
+Five Major Factors Driving Extensive 
+10G PON Deployment
+New service experience requirements: 
+Operators have transitioned their 
+construction approach from being 
+technology-driven to experience-driven. 
+Basic broadband services, particularly 
+video services, now account for 
+more than 50% of the total traﬃc. 
+Platforms like Net/f_lix, YouTube, and 
+Tiktok contribute signi/f_icantly to this 
+surge in traﬃc. In the post-pandemic 
+era, remote work, online education, and 
+digital transformation of enterprises and 
+industries have greatly driven the demand 
+for increased bandwidth. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D
+Golden Opportunity for 
+Extensive 10G PON 
+Deployment
+Sun Jin, FN Product Planning Director, ZTE Expert View
+06 

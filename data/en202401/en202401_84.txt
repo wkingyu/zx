@@ -1,0 +1,104 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian Review   RIS -Assisted Cell Free MIMO : A Survey
+also be utilized under angle -based precoding according to dif ⁃
+ferent requirements[21].
+While the above precoding techniques can achieve optimal 
+antenna gain , they demand the same number of radio fre ⁃
+quency (RF) chains as that of the transmit antennas . This 
+causes high hardware cost and power consumption , especially 
+in CF MIMO systems equipped with a vast number of APs . To 
+this end , hybrid analog and digital precoding , for which mul ⁃
+tiple antennas are connected to the same RF chain , is a more 
+attractive alternative[29]. However , due to the unit -modulus 
+constraint of the analog phase shifters , it is hard to obtain the 
+optimal solution of the hybrid precoding . Up to now , the exist ⁃
+ing studies on the design of hybrid precoding schemes in CF 
+MIMO systems are mainly divided into two kinds . One ex ⁃
+ploits the block coordinate descent (BCD ) algorithm to alterna ⁃
+tively optimize the analog and digital domain precodings[30], 
+and the other resorts to heuristic solutions , where analog pre ⁃
+coding is designed by maximizing the received signal power 
+and traditional digital precoding schemes such as ZF can be 
+utilized based on the equivalent channel for multiuser interfer ⁃
+ence cancellation . Besides , advanced machine learning -based 
+solutions have also shown great potential in the design of hy ⁃
+brid precoding[31].
+2.3 Synchronization and Phase Calibration
+In CF MIMO systems with massive geographically distrib ⁃
+uted APs and users , the signals from different APs generally 
+experience different propagation delays , leading to timing syn ⁃
+chronization among the received signals . To realize coherent 
+transmission , the APs need to maintain relative signal time 
+synchronization and phase calibration[32]. Furthermore , the 
+synchronization accuracy requirement of CF MIMO networks 
+becomes more demanding as more users become time -
+sensitive . To address this issue , many time synchronization 
+schemes are proposed , such as one -way message dissemina ⁃
+tion, two -way message exchange , and receiver -only synchroni ⁃
+zation . Generally , after the clock offset and clock skew are es ⁃
+timated , the above timing misalignment management schemes 
+are adopted[33]. Besides , to ensure accurate CSI at the APs , 
+phase calibration should be performed on the uplink transmit ⁃
+ted signals . To this end , a reference signal is needed to obtain 
+the over -the-air reciprocity calibration[34].
+3 Two Performance Metrics For RIS -Assisted 
+Cell -Free MIMO
+With the help of RISs , CF MIMO can enable better commu ⁃
+nication to user terminals than typical massive MIMO and 
+pure CF MIMO . To harvest the promised performance gains 
+provided by the RIS -assisted CF MIMO technique , it is neces ⁃
+sary to optimize the resource allocation of the distributed net ⁃
+work . The optimization objective can be different QoS metrics 
+based on the actual need . In this section , we investigate the in ⁃
+terplay between the RIS -assisted MIMO technique and wire ⁃less resource allocation optimization in terms of various com ⁃
+munication metrics .
+3.1 Energy Efficiency
+RISs are highly recommended in CF MIMO systems due to 
+their low cost and energy consumption . Various studies have 
+been devoted to deeply investigating how RIS acts as an 
+energy -efficient technique in CF MIMO systems . By itera ⁃
+tively optimizing the digital beamforming at the APs and the 
+RIS -based analog beamforming , the energy efficiency of the 
+RIS -assisted CF MIMO system can beat that of the conven ⁃
+tional distributed antenna system and the no -RIS case by or ⁃
+ders of magnitude in Ref . [35]. Furthermore , it is observed 
+that by replacing some of the APs with RISs , a two -fold perfor ⁃
+mance gain in terms of energy efficiency can be harvested 
+compared with the conventional CF MIMO scheme without 
+RIS, which indicates the validity of RISs . Similarly , the au ⁃
+thors in Ref . [36] proposed an iterative alternating algorithm 
+based on a fractional programming method and successive 
+lower -bound maximization to maximize the energy efficiency . 
+The simulation also illustrates that with the default settings , 
+the proposed design can offer an improvement of at least 
+168% higher energy efficiency than traditional user -centric 
+CF MIMO systems without RIS assistance .
+However , the above research has not considered practical 
+constraints such as limited backhaul capacity . As a remedy , 
+Ref. [37] devised an energy efficiency maximization design for 
+RIS -aided CF MIMO networks under the constraints of per -
+AP transmit power , limited backhaul capacity , nonconvexity 
+of RIS reflection , and minimum achievable rate requirement . 
+As expected , the performance of the proposed RIS -aided CF 
+MIMO system outperforms that of the co -located network with 
+or without RIS .
+3.2 Spectral Efficiency
+As a counterpart of energy efficiency , spectral efficiency is 
+also a main communication metric . Since RIS can construct a 
+favorable propagation environment by artificially creating a 
+virtual line -of-sight (LoS) link , the signals of users at a dead 
+zone or cell edge can be improved , thus bringing about spec ⁃
+tral efficiency enhancement to the CF MIMO system .
+As the first attempt , the authors in Ref . [38] proposed the 
+concept of RIS -assisted CF MIMO to improve the network ca ⁃
+pacity or the spectral efficiency of the distributed MIMO sys ⁃
+tem. Specifically , the authors considered a general framework 
+with multiple antennas , multiple APs , multiple users , multiple 
+RISs and multiple carriers . At the beginning of a large coher ⁃
+ent timescale , each user is matched with specified RISs by the 
+proposed linear conic relaxation -based matching method . In 
+the rest of the coherent timescale , only the channels of the 
+matched user -RIS pairs are estimated and exploited for joint 
+active and passive precoding design , and those of the un ⁃
+matched RISs are modeled as random noise . This process is 
+80

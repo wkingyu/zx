@@ -1,0 +1,91 @@
+大模型知识管理系统 周 扬   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2占总相关上下文的比例 ，反映上下文覆盖的完整性 。
+通过同时关注上述 4个维度指标 ，RAGAs 可以综合评估
+RAG 系统在可靠性 、准确性和泛化能力等方面的整体水平 ，
+为持续优化和改进系统性能提供量化指引 。接下来 ，我们将
+详细介绍这 4个评估指标的具体含义 。
+Faithfulness 是衡量 RAG 生成的答案 Answer 与检索到的
+上下文 Context 的事实一致性 。它是根据 Answer 和Context 计
+算得出的 。Faithfulness 的取值范围为 0～1之间 ，且越高越
+好，计算公式如公式 （1）所示 ：
+Faithfulness score=
+| |Number of claims that can be inferred from given context
+| |Total number of claims in the generated answer 。 （1）
+Answer Relevancy 是评估 RAG 生成的答案 （Answer ）与
+用户问题 （Question ）之间的相关程度 。当RAG 生成的答案
+不完整或包含不相关的信息时 ，系统则将获得较低分数 。
+Answer Relevancy 的取值范围为 0～1之间 ，且越高越好 ，计
+算公式如公式 （2）所示 ：
+Answer Relevancy=1
+n∑
+i=1n
+ sim(q,qi)， （2）
+其中 ，q为原始问题 Question ，qi为提示 LLM 生成基于该
+Answer 的可能的第 i个问题 ，sim(q,qi)是计算原始问题 q和
+生成问题 qi的余弦相似度 。
+Context Relevancy 衡量检索到的上下文 Context 的相关
+性，根据用户问题 Question 和检索到的上下文 Context 计算得
+到，取值范围在 0～1之间 ，值越高表示相关性越好 。理想
+情况下 ，检索到的 Context 应只包含解答 Question 的信息 ，计
+算公式如公式 （3）所示 ：
+Context Relevancy=||S
+| |Total number of sentences in retrived context 。（3）
+Context Recall 是衡量检索到的上下文 Context 与人类提
+供的真实答案 Ground truth 的一致性程度 。它是根据 Ground 
+truth 和检索到的 Context 计算出来的 ，取值范围在 0～1之间 ，
+值越高表示性能越好 ，计算公式如公式 （4）所示 ：
+Context Recall=| |GT sentences that can be attributed to context
+| |Number of sentences in GT 。 （4）
+4 结束语
+本研究旨在构建一个基于 RAG 架构的大型企业知识管
+理系统 ，以期为企业提供高效的知识检索和利用能力 。本文
+中我们提出了基于 RAG 构建企业知识管理系统的架构 、流程和方法 。该系统采用开放的系统架构设计 ，可基于开源或
+商业 LLM 构建 ，充分保障了企业关注的数据安全 ；支持多
+种知识来源 ，包括文档 、知识图谱 、数据库和问答等 ，通过
+深度挖掘和融合这些异构知识源 ，形成了全面的专业知识基
+础。此外 ，我们设计并实现了完整的知识检索方案 ，包括检
+索前处理 、知识检索 、检索后处理和答案生成等环节 ，并采
+用了多种创新技术来提升检索效率和答案质量 ，介绍了使用
+RAGAs 评估框架对构建的企业知识管理系统进行评估和迭
+代优化的情况 。大量用户反馈和实验评估表明 ，该系统在准
+确性 、知识覆盖范围 、检索效率和用户体验等多个维度均有
+着优异的表现 。
+然而 ，系统中仍存在一些需要进一步改进的问题 。首
+先，当前系统所使用的知识来源仍以文本为主 ，缺乏将多模
+态知识融入系统的合理方法 。其次 ，尽管采用了多种文档切
+分和检索优化手段 ，但在实际应用场景中还需要针对特定的
+文档内容设计定制化文档切分算法 。最后 ，系统已经较好地
+缓解了大模型幻觉的问题 ，但在企业应用场景下还需要考虑
+企业合规对齐 、数据安全等问题 。
+在未来 ，我们希望可以设计更多的垂直领域文档切分算
+法，采取更有效的 embedding 和Rerank 组合模型 ，进一步提
+升RAG 技术的检索效率和准确度 ，同时引入最终回答的合
+规审查机制 ，构建一个更高效 、更安全的基于 RAG 的大模
+型知识管理系统 。
+参考文献
+[1] 牛菁 . 大数据赋能企业知识管理创新机理与路径研究 : 基于华为案例  
+[J]. 中国新通信 , 2023 , 25(11): 19-21. DOI : 10.3969 /j.issn.1673 -
+4866 .2023 .11.008
+[2] BAI J Z , BAI S , CHU Y F , et al . Qwen technical report [EB/OL ]. 
+[2024 -02-25]. http://arxiv .org/abs/ 2309 .16609
+[3] TEAM G , ANIL R , BORGEAUD S , et al . Gemini : a family of highly 
+capable multimodal models [EB/OL ]. [2024 -02-25]. http ://arxiv .
+org/abs/ 2312 .11805
+[4] TEAM G , MESNARD T , HARDIN C , et al . Gemma : open models 
+based on gemini research and technology [EB/OL ]. [2024 -02-
+25]. http://arxiv .org/abs/ 2403 .08295
+[5] LEWIS P , PEREZ E , PIKTUS A , et al . Retrieval-augmented 
+generation for knowledge-intensive NLP tasks [C]//Proceedings 
+of the 34th International Conference on Neural Information 
+Processing Systems . ACM , 2020 : 9459 –9474 . DOI : 10.5555 /
+3495724 .3496517
+[6] TOUVRON H , LAVRIL T , IZACARD G , et al . LLaMA : open and 
+efficient foundation language models [EB/OL ]. [2024 -02-25]. 
+http://arxiv .org/abs/ 2302 .13971
+[7] ZENG A H , LIU X , DU Z X , et al . GLM- 130B: an open bilingual 
+pre-trained model [EB/OL ]. [2024 -02-25]. http ://arxiv .org/abs/
+2210 .02414
+[8] LI J Y , FEI H , LIU J , et al . Unified named entity recognition as 
+word-word relation classification [J]. Proceedings of the AAAI 
+70

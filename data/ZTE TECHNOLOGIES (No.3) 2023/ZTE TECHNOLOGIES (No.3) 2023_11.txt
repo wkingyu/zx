@@ -1,0 +1,90 @@
+protocols: /f_ieldbus technology, industrial 
+Ethernet technology, and wireless 
+technology. Comparing the three 
+technologies, the /f_ieldbus technology 
+oﬀers higher reliability, the industrial 
+Ethernet technology has greater 
+transmission rates, and the wireless 
+technology provides a more portable and 
+/f_lexible deployment method. 
+The /f_ieldbus technology is primarily 
+used to support data communication 
+between /f_ield sensors and controllers, 
+between controllers and actuators, or 
+between controllers and various 
+input/output control stations. 
+The industrial Ethernet technology 
+complies with the TCP/IP framework 
+and oﬀers advantages such as simple 
+interfaces, open protocols, high 
+reliability, fast transmission rate and 
+convenient interoperability. 
+The wireless technology, represented by 
+5G, oﬀers signi/f_icant advantages, including 
+the elimination of the need for power line 
+deployment and the ability to connect to a 
+greater number of monitoring and control 
+points. 5G can be combined with time 
+sensitive networking (TSN). When TSN is 
+deployed between controllers and /f_ield 
+devices, 5G enables high-quality deterministic 
+delay transmission of control signals. When 
+TSN is deployed between controllers, 5G 
+achieves high-precision synchronous 
+transmission of collaborative signals. When 
+TSN is deployed between IT networks and 
+OT network, 5G enables the uploading of 
+production data to information systems and 
+the distribution of control and management 
+information to production equipment. 
+5G Computing Network Collaboration 
+Provides Flexible Customization of 
+Computing Power for Fully-Connected 
+Factories
+Thanks to network exposure, 5G 
+networks inherently have collaborative computing capabilities across cloud, edge, 
+and terminals. While investing in the 
+construction of a 5G network, industrial 
+enterprises can also deploy computing 
+power close to their production sites. The 
+enterprises can /f_lexibly con/f_igure the 
+computing resources of 5G networks 
+according to the speci/f_ic needs of diﬀerent 
+scenarios such as “factory-level” and 
+“shop-/f_loor + production-line-level”. By 
+deploying the most suitable service 
+systems nearby, they can minimize the 
+delay loss caused by network detour. At 
+the same time, the edge computing power 
+is deployed within the enterprise campus, 
+which falls within the domain of enterprise 
+management. This enables uni/f_ied 
+management of computing resources and 
+upper-layer applications in accordance with 
+the enterprise’s security policies, eﬀectively 
+reducing data security risks. 
+With the /f_lexible computing 
+capabilities in the industrial Internet, 
+enterprises will have more choices for 
+their core business in the OT domain. 
+They are no longer limited to traditional 
+closed system solutions oﬀered by 
+industrial control enterprises. Instead, 
+they have the opportunity to embrace 
+emerging open system solutions, 
+continuously accumulating production 
+data and driving ongoing optimization 
+and eﬃciency improvements. 
+Conclusion
+As one of the global leaders in 5G 
+networks, ZTE has worked with more than 
+90 operators and 500 partners worldwide 
+to drive innovation and explore a wide 
+range of 5G applications. It has accumulated 
+numerous successful use cases in various 
+industries. In the era of digital transformation 
+and the construction of 5G fully-connected 
+factories, ZTE has always been a powerful 
+partner for operators and industry 
+enterprises. 
+09JUN 2023

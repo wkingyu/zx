@@ -1,0 +1,55 @@
+  Fig. 1. The 128TR 
+AAU.  
+ 
+ 
+ 
+Standard evolution: In 3GPP Release 18, 
+supporting up to 24 DMRS ports for both 
+uplink and downlink is achievable 
+without additional DMRS overhead. 
+Release 19, speci/f_ic to 128TR, introduces 
+support for 128 port CSI-RS. This 
+enhancement improves channel state 
+information estimation and utilization, 
+facilitating better beamforming and 
+overall network optimization.
+We have successfully tested the /f_irst 
+128TR massive MIMO AAU at 4.9 GHz in 
+collaboration with China Mobile. The results 
+demonstrate that on a 100 MHz single 
+carrier, the downlink peak data rate of the 
+cell is 10.3 Gbps, twice the current 5G 
+network’s maximum spectrum eﬃciency. 
+The uplink peak data rate is 2.8 Gbps, 2.4 
+times the existing 5G network’s maximum 
+spectrum eﬃciency.
+During the festival of lights event in China 
+(Nov. 21–30), the 128TR AAU outperformed 
+64TR sites, boosting downlink and uplink rates by 70% and improving spectrum 
+eﬃciency by over 40%. It excelled in 
+emergency support at large-scale concerts 
+with 800+ connected users, and its 
+power-saving scheme reduced 
+consumption to watt-levels, ensuring 
+considerable energy savings for base 
+stations. 
+ZTE’s UBR Series for Site Simplicity 
+and Energy Eﬃciency
+In response to the needs of both 
+developed and developing markets, ZTE 
+oﬀers a comprehensive ultra-broadband 
+radio (UBR) series based on the 
+new-generation platform, providing 
+simpli/f_ied and energy-eﬃcient solutions to 
+CSPs. These solutions aim to optimize TCO 
+through simpli/f_ied site deployment and 
+signi/f_icant energy savings.
+Simpli/f_ied site deployment: ZTE’s UBR 
+series streamlines tower sites with unique 
+features. It includes the industry’s only 
+ 
+ 
+ 
+ 
+5G-Advanced Special Topic 
+28 

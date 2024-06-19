@@ -1,0 +1,48 @@
+基于数字孪生的算力网络自优化技术研究 许 胜  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3基于数字孪生的
+算力网络自优化技术研究
+Self-Optimization Technology of 
+Computing Power Network Based on Digital Twin
+许胜/XU Sheng ，许方敏 /XU Fangmin ，赵成林 /ZHAO Chenglin
+（ 北京邮电大学 ，中国 北京 100876  ）
+(Beijing University of Posts and Telecommunications , Beijing 100876 , 
+China )DOI：10.12142 /ZTETJ .202303009
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230621 .1945.003.html
+网络出版日期 ：2023 -06-25
+收稿日期 ：2023 -04-20
+摘要 ：将数字孪生网络技术引入算力网络 ，可以建立算力网络的虚拟映射网络 。数字孪生网络系统通过高保真的虚实实时交互 ，实现对算力网
+络的高效分析 、诊断和控制 。以算力网络的自优化为例 ，提出了一种数字孪生算力网络的结构自优化模型 ，实现了数字孪生算力网络中网络自
+学习、自验证 、自演进的实时闭环控制 。与传统自组织网络 （SON）不同的是 ，将物理网络基础设施与 SON 模块分离 ，将SON 自优化的过程
+迁移到虚拟网络中 ，降低了算力网络运维的复杂度 ，提高了网络的灵活性和适应性 。仿真实验证明 ，引入数字孪生网络技术后 ，可以迅速地处
+理算力网络服务超时问题 ，降低网络整体服务时延 。
+关键词 ：数字孪生 ；算力网络 ；SON ；遗传算法
+Abstrac t:By introducing the digital twin network technology into the computing power network , the virtual mapping network of the comput ⁃
+ing power network can be established . Digital twin network system realizes efficient analysis , diagnosis , and control of computing power 
+network through high-fidelity real-time interaction between virtual and real . Taking the self-optimization of computing power network as an 
+example , a structural self-optimization model of digital twin computing power network is proposed , which realizes the real-time closed-
+loop control of network self-learning , self-verification , and self-evolution in digital twin computing power network . Different from the tradi ⁃
+tional self-organizing network (SON ), the physical network infrastructure is separated from the SON module , and the SON self-optimization 
+process is migrated to the virtual network , which reduces the complexity of computing power network operation and maintenance , and im ⁃
+proves the flexibility and adaptability of the network . Simulation results show that the introduction of digital twin network technology can 
+quickly deal with the problem of computing power network service timeout and reduce the overall service delay of the network .
+Keywords :digital twin ; computing power network ; SON ; genetic algorithm
+引 用 格 式 ：许胜 , 许方敏 , 赵成林 . 基于数字孪生的算力网络自优化技术研究  [J]. 中兴通讯技术 , 2023 , 29(3): 46-50. DOI :10.12142 /
+ZTETJ .202303009
+Citation ： XU S , XU F M , ZHAO C L . Self-optimization technology of computing power network based on digital twin [J]. ZTE technology jour ⁃
+nal, 2023 , 29(3): 46-50. DOI:10.12142 /ZTETJ .202303009
+当前，随着新一轮科技革命和产业变革的不断深入 ，新
+技术 、新业态 、新场景和新模式不断涌现 。庞大的数
+据处理和价值挖掘都离不开算力 ，算力已成为信息社会的核
+心生产力 。中国准确把握算力时代的脉络 ，提出要加快智能
+化综合性数字信息基础设施建设 ，实施 “东数西算 ”工程 ，
+打通经济社会发展的信息 “大动脉 ” ，推动数字经济与实体经济融合发展 。算力网络的核心思想是将分布的算力节点连
+接起来 ，动态实时感知计算资源和网络资源状态 ，进而统筹
+分配和调度计算任务 ，形成一张计算资源可感知 、可分配 、
+可调度的网络[1-2]。
+随着算网一体的演进 ，网络运行的高可靠性 、网络测试
+的高成本等 ，都使新技术的部署更加困难 。针对目前算力网
+络性能遇到的瓶颈问题 ，传统的方法是进行手动优化 。然
+而，这种方法在很大程度上依赖于操作和维护专家的经验 ，
+且随着算力网络规模的日益增大 ，实现难度大大增加[3]。 基金项目 ：北京市自然科学基金 -海淀前沿项目 （L202017 ）
+46

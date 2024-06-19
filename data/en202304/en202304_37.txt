@@ -1,0 +1,158 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Special Topic   Lossy Point Cloud Attribute Compression with Subnode -Based Prediction
+where the octree and RAHT configuration are applied for ge ⁃
+ometry and attribute respectively . In terms of the test condi ⁃
+tions , as shown in Table 1, C1 (i.e., lossless geometry lossy at ⁃
+tributes ) and C 2 conditions (i.e., near -lossless/lossy geometry lossy attributes ) are both evalu ⁃
+ated on the reference software 
+TMC 13-v22.0 and GeS -TM -v2.0.
+4.1 Datasets
+The test datasets provided by 
+MPEG G -PCC can be mainly clas ⁃
+sified into three categories : Cat ⁃
+egory 1—Static Objects and 
+Scenes datasets (i.e., Cat1), Cat⁃
+egory 2—Dynamic Objects datas ⁃
+ets (i.e., Cat2), and Category 3—
+Dynamic Acquisition datasets (i.
+e., Cat 3). Specifically , sequences 
+in Cat 1 are further divided based 
+on the density and surface conti ⁃
+nuity of point clouds (i.e., Solid , 
+Dense , Sparse , and Scant ). For 
+Cat2, test classes A , B and C indi ⁃
+cate the complexity of point 
+clouds , where A is the lowest and 
+C is the highest . The division of 
+Cat3 is more detailed , including 
+automotive frame -based data ac ⁃
+quired by spinning and non -
+spinning LiDAR sensors (i.e., Am -
+frame ) and automotive LiDAR ac ⁃
+quired data after fused and reprocessed (i.e., Am -fused ). Note 
+that Am -fused datasets have both color and reflectance attri ⁃
+butes . In terms of the CTCs , the Cat 1 and Cat 3 datasets are 
+tested on TMC 13v22.0 while the Cat 2 datasets are tested on 
+GeS -TMv2.0. All test sequences mentioned above are avail ⁃
+able in the MPEG content repository[31].
+4.2 Performance Evaluations
+The attribute compression performances compared with 
+TMC 13-v22.0 are shown in Table 2, where the negative Bjon ⁃
+tegaard delta (BD) rate illustrates the coding gains against the 
+anchor . From Table 2, it can be seen that consistent coding 
+▼Table 2. Performance of the proposed method against TMC 13-v22.0 under C 1 and C 2 configurations
+Dataset Category
+Solid average
+Dense average
+Sparse average
+Scant average
+Am -fused average
+Am -frame spinning average
+Am -frame non -spinning average
+Overall average
+Average encoding/decoding time/%C1 End -to-End BD -Attribute Rate/%
+Luma
+−0.4
+−0.2
+−0.2
+−0.2
+−0.3
+/
+/
+−0.2
+102/103Chroma Cb
+−0.3
+−0.2
+−0.2
+−0.2
+−1.2
+/
+/
+-0.3Chroma Cr
+−0.4
+−0.2
+−0.1
+−0.3
+−1.1
+/
+/
+-0.3Reflectance
+/
+/
+/
+/
+−1.1
+−0.3
+−0.6
+-0.5C2 End -to-End BD -Attribute Rate/%
+Luma
+−0.2
+−0.2
+−0.2
+−0.2
+−0.1
+/
+/
+-0.2
+100/107Chroma Cb
+−0.3
+−0.5
+−0.1
+−0.3
+−0.6
+/
+/
+-0.3Chroma Cr
+−0.2
+−0.1
+−0.3
+−0.2
+−0.7
+/
+/
+-0.2Reflectance
+/
+/
+/
+/
+−0.2
+−0.2
+−0.2
+-0.2
+BD: Bjontegaard delta▼Table 1. Common test conditions in G -PCC
+G-PCC Platform
+TMC 13
+GeS -TMConditions
+C1
+√
+√C2
+√
+√Datasets
+Cat1
+√Cat2
+√Cat3
+√
+G-PCC: geometry -based point cloud compression
+▲Figure 5. Transform domain prediction based on the three types of neighbor subnode geometric distri ⁃
+butionsParent -Level node
+Proposed
+Co-plane parent
+neighbor node
+Is there a co -plane 
+subnode ？
+Is there a co -line 
+subnode ？Use co -plane subnode 
+to predict
+Use co -line subnode 
+to predict
+Use co -plane parent 
+neighbor node to predictUse co -line parent 
+neighbor node to predictCo-line parent
+neighbor node
+Is there a co -line 
+subnode ？Y
+N NY
+Y
+NUse co -line 
+subnode to predict
+34

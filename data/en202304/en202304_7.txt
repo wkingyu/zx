@@ -1,0 +1,71 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+paper aims to promote the continuous progress and practical 
+application of point cloud technology . A deeper understanding 
+of point cloud quality assessment can pave the way for im ⁃
+proved 3D data utilization in various industries and open up 
+new possibilities in the fields of design , analytics , and immer ⁃
+sive experiences .
+2 Subjective Point Cloud Quality Assessment
+This chapter delves into the assessment of human percep ⁃
+tion of point clouds with the aim of understanding how users 
+subjectively perceive the quality of these 3D data representa ⁃
+tions . The chapter begins by describing various common 
+types of point cloud distortion that may affect human percep ⁃
+tion. By shedding light on these distortions , the chapter high ⁃
+lights the importance of addressing these issues to improve 
+the overall quality of point cloud visualization and ensure a 
+more accurate user experience . An introduction to existing 
+point cloud databases follows the discussion of point cloud 
+distortion . This section focuses on databases curated specifi ⁃
+cally for subjective quality assessment purposes . The signifi ⁃
+cance of such databases lies in their ability to provide re ⁃
+searchers with carefully controlled test cases that allow for 
+the systematic study of human perception at different levels 
+of distortion .
+2.1 Common Types of Distortion in Point Clouds
+As the point cloud distortion modeled in LS -PCQA[4] (a 
+large -scale PCQA dataset ) by LIU et al ., point clouds are not 
+only subjected to various degrees of noise , compression , and 
+sampling , but even localized distortions such as loss , rotation , 
+and Audio Video Coding Standard (AVS) during the actual 
+generation and communication transmission process . We se ⁃
+lect four most common types of point cloud distortion to intro ⁃
+duce , including color noise , geometric noise , downsampling and point cloud compression . The visual effects of the various 
+distortions are shown in Fig . 2.
+1) Color noise . Point cloud color noise is defined as un ⁃
+wanted variations and inaccuracies in the color information as ⁃
+sociated with individual points in a 3D point cloud . When ac ⁃
+quiring point cloud data from various sources such as 3D scan ⁃
+ners and LiDAR systems , color information is typically cap ⁃
+tured along with the 3D coordinates of each point . However , 
+due to factors such as sensor noise , lighting conditions , and 
+calibration errors , the color values assigned to the points may 
+deviate from the true color of the corresponding object or sur ⁃
+face in the real world . This may result in an inconsistent vi ⁃
+sual appearance of the point cloud and affect subsequent ap ⁃
+plications that rely on accurate color information .
+2) Geometry noise . Point cloud geometry noise is the inher ⁃
+ent irregularities and inaccuracies in the spatial coordinates of 
+individual points in a 3D point cloud . These inaccuracies can 
+arise from a variety of causes , including sensor limitations , 
+measurement errors , calibration issues and occlusions during 
+data acquisition . As a result , the point cloud may contain 
+shifted or misaligned points , resulting in reduced geometric 
+accuracy and fidelity . Geometry noise can adversely affect the 
+quality of the 3D model derived from the point cloud as well 
+as subsequent tasks .
+3) Downsampling . Point cloud downsampling is a key tech ⁃
+nique used to reduce the data size of 3D point clouds while 
+preserving the underlying structural and spatial information . 
+Large -scale point clouds acquired from 3D scanning or Li ⁃
+DAR systems may contain millions or billions of points , and 
+processing and storing these points require extensive computa ⁃
+tion. Downsampling involves the systematic removal of a sub ⁃
+set of points from the original data , thereby effectively simpli ⁃
+fying its representation without significantly affecting its over ⁃
+all shape and characteristics . However , downsampling also 
+▲Figure 2. Visualization of common point cloud distortions . The first row shows the reference point clouds and the second row from left to right 
+shows the distortion effects of color noise , geometric noise , downsampling , geometry -based point cloud compression (GPCC ) and video -based point 
+cloud compression (VPCC ), respectively . The selected point clouds shown are derived from existing databases[5–6] or related research[7]
+04

@@ -1,0 +1,95 @@
+面向 6G移动通信的极化多址接入技术 崔宏基  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1除上述方案外 ，文献 [11]提出的基于极化编码的高斯多
+址接入信道 （GMAC ）信道无源多址接入方案 ，使用联合检
+测和译码算法 ，能够有效贴近编码时隙 ALOHA （CSA）的
+理论界 。文献 [12]使用随机扩频的方案来减少多用户间干
+扰，进一步提高了极化随机接入系统的接入能力 。通过上述
+描述 ，可以看出 ，无源极化多址接入系统是一种提高 6G系
+统吞吐率的有效手段 ，是有未来 6G无线接入方案有力的候
+选方案 。
+4 结束语
+本文提出了多种极化多址接入系统 ，包括有源多址接入
+和无源多址接入 。有源极化多址接入包括编码域 NOMA 和功
+率域 NOMA 方案 ，利用系统的极化效应来提升系统容量 。无
+源极化多址方案 ，以编码随机接入为基础 ，证明了 SEC 经
+SPT变换后的合成子信道中存在极化现象 ，本文所提出的
+PSA随机接入方案可以有效提升系统的接入能力 。
+综上所述 ，基于极化编码的多址接入技术 ，是满足未来
+6G移动通信需求的重要候选技术 ，具有广阔的应用前景 。
+参考文献
+[1] ITU-R . Framework and overall objectives of the future 
+development of IMT for 2030  and beyond [R]. 2023
+[2] POLYANSKIY Y . A perspective on massive random-access [C]//
+Proceedings of IEEE International Symposium on Information 
+Theory (ISIT). IEEE , 2017 : 2523 -2527 . DOI : 10.1109 /
+isit.2017 .8006984
+[3] ARIKAN E . Channel polarization : a method for constructing capacity-achieving codes for symmetric binary-input 
+memoryless channels [J]. IEEE transactions on information 
+theory , 2009 , 55(7): 3051 -3073 . DOI: 10.1109 /TIT.2009 .2021379
+[4] 牛凯 . 极化码原理与应用  [M]. 北京: 科学出版社 , 2021
+[5] NIU K , CHEN K . CRC-aided decoding of polar codes [J]. IEEE 
+communications letters , 2012 , 16(10): 1668 -1671 . DOI : 10.1109 /
+lcomm .2012 .090312 .121501
+[6] LI B, SHEN H , TSE D . An adaptive successive cancellation list 
+decoder for polar codes with cyclic redundancy check [J]. IEEE 
+communications letters , 2012 , 16(12): 2044 -2047 . DOI : 10.1109 /
+lcomm .2012 .111612 .121898
+[7] PIAO J N , DAI J C , NIU K . CRC-aided sphere decoding for short 
+polar codes [J]. IEEE communications letters , 2019 , 23(2): 210-
+213. DOI: 10.1109 /lcomm .2018 .2885771
+[8] DAI J C , NIU K , SI Z , et al . Polar-coded non-orthogonal multiple 
+access [J]. IEEE transactions on signal processing : a publication of 
+the IEEE signal processing society , 2017 , 66(5): 1374 -1389 . DOI :
+10.1109 /TSP.2017 .2786273
+[9] ZHANG Z J , NIU K , DAI J C , et al . Polar-slotted ALOHA over slot 
+erasure channel [J]. IEEE transactions on vehicular technology , 
+2023 , 72(1): 760-771. DOI: 10.1109 /tvt.2022 .3204321
+[10] SUN Z , XIE Y X , YUAN J H , et al . Coded slotted ALOHA for 
+erasure channels : design and throughput analysis [J]. IEEE 
+transactions on communications , 2017 , 65(11): 4817 -4830 . DOI : 
+10.1109 /tcomm .2017 .2734649
+[11] MARSHAKOV E , BALITSKIY G , ANDREEV K , et al . A polar code 
+based unsourced random access for the Gaussian MAC [C]//
+Proceedings of IEEE 90th Vehicular Technology Conference 
+(VTC2019 -Fall ). IEEE , 2019 : 1-5. DOI : 10.1109 /
+vtcfall .2019 .8891583
+[12] PRADHAN A K , AMALLADINNE V K , NARAYANAN K R , et al . 
+Polar coding and random spreading for unsourced multiple 
+access [C]//Proceedings of ICC 2020  - 2020  IEEE International 
+Conference on Communications (ICC). IEEE , 2020 : 1-6. DOI : 
+10.1109 /icc40277 .2020 .9148687
+作 者 简 介
+崔宏基 ，北京邮电大学在读博士研究生 ；主要研
+究方向为 5G/6G移动通信 、信道编码和多址接入 。
+                         牛凯 ，北京邮电大学人工智能学院教授 、博士生
+导师，北京邮电大学泛网无线通信教育部重点实
+验室副主任 ，中国电子学会信息论分会副主任委
+员；主要研究方向为 5G/6G移动通信 、智能信号
+处理；先后主持多项国家自然科学基金重点与面
+上项目 、重点研发计划项目 ；荣获中国电子学会
+科技奖自然科学一等奖 ；发表论文 200余篇，申
+请国家发明专利 100余项，所提极化码高可靠编
+码方案被写入 5G标准。
+图7 PSA随机接入方案经时隙擦除信道传输的系统吞吐率随输入负载
+变化的性能对比图IRSA ：非规则时隙随机接入
+PSA：极化时隙 ALOHASC：串行抵消
+SCL：串行抵消列表Λ1(x)-based IRSA
+Λ1(x)-based PSA （pSC）
+Λ1(x)-based PSA （pSCL）
+ΛO2(x)-based PSA （pSC）
+ΛO2(x)-based PSA （pSCL）
+Λ2(x)-based IRSA
+Λ1(x)-based IRSA （ε=0.0）
+负载流量0  0.2 0.4 0.6 0.8   10.68 0.70 0.72 0.74 0.78网络吞吐量0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+00.75
+0.70
+0.65
+25

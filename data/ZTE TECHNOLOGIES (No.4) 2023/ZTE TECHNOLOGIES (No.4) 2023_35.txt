@@ -1,0 +1,95 @@
+In addition, in emergency scenarios, the 
+solution oﬀers a one-click shutdown feature 
+to quickly take content oﬄine, minimizing the 
+negative impact of unauthorized content. It also 
+provides a one-click reset function for TVOD 
+to reset any on-compliant content, ensuring 
+compliance and security.
+Service Security
+To ensure the security of CDN services, ZTE 
+secure CDN solution oﬀers security protection 
+in terms of user service, service quality, source 
+legitimacy, and node disaster recovery. These 
+security measures provide reliable protection 
+and support for CDN services.  
+User service anti-hotlink protection:  User 
+requests are encrypted using algorithms such 
+as AES or MD5 to prevent unauthorized access 
+or hotlinking. 
+Service quality protection:  By utilizing 
+forward error correction (FEC) for live 
+streaming, the solution ensures user viewing 
+quality even in scenarios with a 2% packet loss, 
+without introducing any additional latency. 
+Additionally, the automatic repeat-request 
+(ARQ) technology for VOD enables automatic 
+retransmission of lost packets, ensuring 
+optimal user experience even in situations 
+with a 5% packet loss. 
+Fraudulent website alert:  The system for 
+detecting fraudulent websites leverages big 
+data resources and advanced technologies 
+to build a precise and eﬃcient system for 
+technical blocking and countermeasures. attacks, abnormal login, reverse shell, and local 
+privilege escalation.  
+Service security:  By utilizing the operating 
+system kernel protection technology, ZTE 
+secure CDN solution monitors and protects 
+the content in CDN servers in real time to 
+prevent unauthorized tampering. The solution 
+incorporates remote disaster recovery and 
+anti-hotlink protection technologies to 
+safeguard service security within CDN servers. 
+Additionally, the data masking technology is 
+also used to prevent the disclosure of sensitive 
+data stored in CDN servers. 
+Content Security
+The CDN host server primarily consists of VOD 
+content, live streaming content, TSTV and TVOD, 
+and database. ZTE secure CDN solution protects 
+the security of the content within CDN from the 
+three aspects: 
+Local content tampering prevention:  Using 
+the operating system kernel event-triggering 
+technology, the solution protects the security 
+of the content stored in CDN host servers. 
+Content distribution tempering prevention: 
+Comparing feature values of the /f_iles, the 
+solution safeguards the security of VOD 
+content distributed between CDN nodes.
+Live streaming tempering prevention:  
+Implementing tamper-proo/f_ing for streaming 
+media based on I-frame and for HLS content 
+based on TS /f_ile feature values, the solution 
+ensures the security of live content distributed 
+between CDN nodes. 
+Fig. 1. Functional 
+modules of ZTE 
+secure CDN solution.Host security
+Risk discovery
+Intrusion detection and defense
+Audit and event sourcingService security
+Content security
+Service security
+Data securityOS compliance
+detectionMiddleware
+compliance detectionDatabase compliance
+detectionContent distribution
+tempering preventionTVOD reset One-click shutdownWeak password
+detectionSoftware vulnerability
+detectionAbnormal file
+detectionLive stream
+ tampering preventionMulticast source
+tampering preventionLocal content
+tampering prevention
+Malicious scanningLocal privilege
+escalationMalicious process
+detectionSource redundancy
+for live streamingFEC ARQ
+Login log audit Operation log audit Log retention Anti-disclosureEncrypted storage of
+sensitive informationEncrypted
+transmission of logsCSFR attack Deserialization attack File upload attackFraudulent website
+alertHotlink protectionBackdoor detection Abnormal login Directory traversalActive/standby platform
+disaster recoveryLive private network
+disaster recoveryAnycast scheduling
+33AUG 2023

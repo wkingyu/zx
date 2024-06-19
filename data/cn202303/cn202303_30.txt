@@ -1,0 +1,53 @@
+无线网络孪生中的统计信道建模方法 ：现状与前沿 张树韬  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3无线网络孪生中的统计信道建模
+方法：现状与前沿
+Statistical Channel Modeling Methods in Wireless Network Twinning : 
+Current Status and Frontiers
+张树韬 /ZHANG Shutao1，2，薛烨/XUE Ye3，
+史清江 /SHI Qingjiang3，4，张纵辉 /CHANG Tsung-Hui1，5
+（ 1.香港中文大学 （深圳） ，中国 深圳 518172 ；
+2.鹏城实验室 ，中国 深圳 518055 ；
+3.深圳市大数据研究院 ，中国 深圳 518172 ；
+4.同济大学 ，中国 上海 200082 ；
+5.广东省大数据计算基础理论与方法重点实验室 ，中国 深圳 518172  ）
+(1.The Chinese University of Hong Kong (Shenzhen ), Shenzhen 518172 , China ;
+2.Pengcheng Laboratory , Shenzhen 518055 , China ;
+3.Shenzhen Institute of Big Data , Shenzhen 518172 , China ;
+4.Tongji University , Shanghai 200082 , China ;
+5.GuangDong Key Laboratory of Big Data Computing , Shenzhen 518172 , China )DOI：10.12142 /ZTETJ .202303006
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230623 .1021 .002.html
+网络出版日期 ：2023 -06-25
+收稿日期 ：2023 -04-25
+摘要 ：数字孪生作为一种全新的数据驱动范式开始赋能各行各业 。着重讨论了无线网络孪生的发展现状和无线网络孪生中最基础的数字孪生信
+道建模技术 。针对现有数字孪生信道建模方法的不足 ，设计了一套面向无线网络的在地化统计信道建模方法 ，旨在实现对无线信道高效准确的
+数字孪生 。搭建了可视化平台 ，以展示该数字孪生信道模型对特定无线网络环境大尺度多径统计特性的刻画 。最后，展示了设计的数字孪生信
+道模型在 5G无线网络优化中的两种典型应用 。
+关键词 ：角度功率谱 ；信道建模 ；数字孪生 ；网络优化 ；稀疏优化
+Abstrac t:Digital twins have emerged as a new data-driven paradigm empowering various industries . The development status of wireless 
+network twinning and the most fundamental digital twin channel modeling techniques are emphasized . In response to the limitations of ex ⁃
+isting digital twin channels , a localized statistical channel modeling method for wireless networks is proposed to achieve efficient and accu ⁃
+rate digital twinning of wireless channels . Furthermore , a visualization platform is introduced to demonstrate how this digital twin channel 
+model characterizes the large-scale multipath statistical properties of specific wireless network environments . Finally , two typical applica ⁃
+tions of the designed digital twin channel model in the optimization of 5G wireless networks are presented .
+Keywords :angular power spectrum ; channel modeling ; digital twin ; network optimization ; sparse optimization
+引用格式 ： 张树韬 , 薛烨, 史清江 , 等. 无线网络孪生中的统计信道建模方法 ：现状与前沿  [J]. 中兴通讯技术 , 2023 , 29(3): 26-31. DOI :10.12142 /
+ZTETJ .202303006
+Citation ： ZHANG S T , XUE Y , SHI Q J , et al . Statistical channel modeling methods in wireless network twinning : current status and frontiers 
+[J]. ZTE technology journal , 2023 , 29(3): 26-31. DOI:10.12142 /ZTETJ .202303006
+1 无线网络孪生
+数字孪生是一种将现实世界的物理系统与数字世界的虚
+拟模型相结合的技术 。这一概念最早可追溯至 2002 年
+密 歇 根 大 学 M. GRIEVES 教 授 提 出 的 产 品 生 命 周 期 管 理
+（PLM）[1]。2011 年美国空军研究实验室在航空航天领域首
+次提到数字孪生 。2013 年德国提出工业 4.0，随后数字孪生
+技术在工业制造领域得到关注并被逐渐推广 。总的来说 ，数
+字孪生技术充分利用传感器生成的实时数据 、历史数据等多种信息 ，将多学科行业知识集成到虚拟模型中 ，从而对现实
+场景进行多物理量 、多尺度 、多概率的仿真 。通过在计算机
+上创建物理实体的镜像 “克隆 ” ，数字孪生具有高预测性能 、
+全生命周期等优势 。因此 ，数字孪生在城市交通 、航空航
+天、医疗卫生等各行各业都受到广泛关注 。特别地 ，本文关
+注数字孪生技术在无线网络中的具体部署与应用 ，即如何从
+真实无线网络中合理地构建出对应的数字孪生网络 ，我们将
+这一过程称之为无线网络孪生 。
+26

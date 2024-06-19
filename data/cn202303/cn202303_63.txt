@@ -1,0 +1,57 @@
+智能计算中心发展态势研究 焦奕硕  等 专家论坛
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3智能计算中心发展态势研究
+Advances of Intelligent Computing Center
+焦奕硕 /JIAO Yishuo ，邸绍岩 /DI Shaoyan
+（ 中国信息通信研究院 ，中国 北京 100191 ）
+（China Academy of Information Communication Technology ，Beijing 
+100191 ，China  ）DOI：10.12142 /ZTETJ .202303011
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20211018 .1755.002.html
+网络出版日期 ：2021 -10-19
+收稿日期 ：2021 -09-15
+摘要 ：智能计算中心是中国新型基础设施建设的重要组成部分 ，是满足人工智能算力需求 、支撑国家智能化转型的重要力量之一 。智能计算中
+心已得到国家和业界高度关注 ，将会迎来规模化建设和应用 。智能计算中心作为智能算力的系统集成和融合创新平台 ，将从需求侧拉动各类人
+工智能技术创新进步 。此外，智能计算中心将大大降低智能算力的使用门槛 ，推动人工智能普惠化发展 ，助力各行业智慧化转型升级 。
+关键词 ：智能计算中心 ；人工智能 ；算力基础设施 ；新基建
+Abstrac t:The intelligent computing center is an important part of China's new infrastructure construction , and it is one of the important 
+forces to meet the needs of artificial intelligence (AI) computing power and support the country's intelligent transformation . The intelligent 
+computing center is highly concerned by the country and the industry and will usher in large-scale construction and application . As the 
+systematic integration of various kinds of intelligent computing devices and techniques , the intelligent computing center will lead to the 
+creative development of AI techniques . In addition , the intelligent computing center will greatly reduce the threshold of the use of intelli ⁃
+gent computing power , promote the inclusive development of artificial intelligence , and help the intelligent transformation and upgrading 
+of various industries .
+Keywords :intelligent computing center ; artificial intelligence ; computing infrastructure ; new infrastructure construction
+引用格式 ： 焦奕硕 , 邸绍岩 . 智能计算中心发展态势研究  [J]. 中兴通讯技术 , 2023 , 29(3): 59-63. DOI:10.12142 /ZTETJ .202303011
+Citation ： JIAO Y S ,DI S Y . Advances of intelligent computing center [J]. ZTE technology journal , 2023 , 29(3): 59-63. DOI :10.12142 /
+ZTETJ .202303011
+随着国民经济各行业向数字化 、网络化和智能化的加速
+转型 ，人工智能技术不断发展 ，应用场景不断拓展 。
+然而 ，人工智能模型训练所需的海量数据和大规模算力已逐
+渐超过了多数企业的能力范围 。这与日益增长的人工智能应
+用需求产生了较大矛盾 。建造智能计算中心 ，能够大规模生
+产智能算力 ，并按需为人工智能应用落地提供算法 、算力和
+数据服务 。智能计算中心越发受到地方政府关注 ，有望成为
+支撑和引领数字经济 、智慧社会发展的关键新型基础设施
+之一 。
+1 智能计算中心发展背景
+1.1 智能计算中心是满足人工智能算力需求的重要途径
+随着人工智能在各行各业的加速落地 ，数据处理需求加
+速增长 ，算法模型复杂化程度不断提升 ，智能算力需求也急
+速增长 。据OpenAI 的统计数据 ，自2012 年以来 ，人工智能
+模型所需的计算量增长了 30万倍 。目前 ，暴力计算仍是人工智能解决一些应用问题最有效的手段 。神经网络的能力边
+界有待于进一步探索 ，预计未来会需更高的算力 。在全球引
+起轰动的 ChatGPT 参数量达到了 1 750亿，微软甚至专门为
+OpenAI 搭建了人工智能计算中心来支撑相关模型所需算力 。
+然而 ，除了以微软为代表的顶级科技巨头 ，绝大多数企业无
+法承担人工智能计算中心的建设和运营费用 。据互联网数据
+中心 （IDC）调研 ，74.5%的企业期望采用具有公共设施意
+义上的人工智能计算中心 。那么 ，通过统一建设高性能 、大
+规模的智能计算中心 ，并面向公众以服务形式提供算力 ，成
+为解决该问题的重要途径 。
+1.2 智能计算中心是 “新基建”国家战略的重要组成部分
+2018 年底的中央经济工作会议提出了 “新型基础设施
+建设 ” （后简称为 “新基建 ” ） 。 “ 新基建 ”的概念正式进入
+公众视野 。2020 年4月，国家发展和改革委员会 （后简称为
+“国家发展改革委 ” ） 在新闻发布会中进一步明确了 “新基
+建”的范围 ，提出 “新基建 ”包括信息基础设施 、融合基础
+59

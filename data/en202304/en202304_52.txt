@@ -1,0 +1,138 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Perceptual Optimization for Point -Based Point Cloud Rendering    Special Topic
+The average Euclidean distance of the N nearest neighbor ⁃
+ing points is taken as the rendering radius of the point . Thus 
+the rendering radius ri of the i-th point is :
+ri=1
+N×∑
+n=1N
+  (xn
+i, yn
+i, zn
+i)-(xi, yi, zi)2
+. (1)
+As can be seen from the above equation , outlier points far 
+away from the central region of the point cloud sequence will 
+have too sizeable Euclidean distance from their nearest neigh ⁃
+bors, and thus , the rendering radius ri will be too large , which 
+in turn results in an impaired subjective perception of the 
+quality of the rendered point cloud sequence .
+In order to solve the problem of too large a rendering ra ⁃
+dius of outlier points in the above method , we need to add a 
+process of detecting and determining outlier points before 
+rendering each point in the point cloud sequence . We deter ⁃
+mine whether each point is an outlier , filter the outlier points 
+and change their rendering radii . For the outlier points , the 
+minimum rendering radius is used . For the non -outlier 
+points , the radius of the nearest neighbor rendering ri is used 
+as shown in Eq . (1).
+Outlier detection is a commonly used detection method in 
+data analysis and processing , often used to identify abnormal 
+samples or points in outlier states that significantly deviate 
+from the central region of the sequence . Many outlier mining 
+methods can be categorized into five groups : distribution -
+based , depth -based , clustering -based , distance -based , and 
+density -based[14–15]. Commonly used detection methods are 
+distance detection -based K -nearest neighbor algorithms , iso⁃
+lated forest methods , clustering -based DBSCAN algorithms[16], 
+LOF algorithms[17], supervised or unsupervised algorithms 
+based on machine learning[18], and distribution -based and 
+density -based outlier detection[19]. However , the above meth ⁃
+ods have the disadvantages of high time complexity , poor de ⁃
+tection results in high -dimensional sparseness , and insignifi ⁃
+cant mathematical geometric features .
+Since determining the rendering radius in terms of the near ⁃
+est neighboring points is through geometric features , detecting 
+outlier states at each point based on geometric features is rea ⁃
+sonable . To ensure the accuracy of detection , global and local 
+geometric features construct a comprehensive judgment condi ⁃
+tion to quickly check and judge whether the current point is in 
+an outlier state .
+The implementation complexity of the detection method 
+needs to be as low as possible for rendering . So we use dis ⁃
+crete point detection techniques based on statistical distribu ⁃
+tions , combining local and global geometric features to judge 
+outliers . This is a method that has solid probabilistic statisti ⁃
+cal theory support . After modeling , it does not require model -
+based data , and only the minimum amount of information de ⁃
+scribing the model needs to be stored , which can effectively re ⁃
+duce the data storage .2.2 Construction of Outlier Judgment Conditions
+The basic principle of the algorithm for point cloud render ⁃
+ing through outlier detection in this paper is to determine 
+whether the detected point is in an outlier state by judging 
+whether the point satisfies the distribution type of the dataset 
+and, thus , whether the point is in an outlier state . Assuming 
+that the data satisfy the condition of obeying normal distribu ⁃
+tion, p0 belongs to the dataset p, and the mean and standard 
+deviation of this dataset are pˉ and σ, respectively . The judg ⁃
+ment criteria of outlier detection are shown in Eq . (2)[20]. When 
+Eq. (2) is not satisfied , the point p0 is determined to be in an 
+outlier state .
+|
+|||||p0-pˉ
+σ|
+|||||≤3 . (2)
+From Eq . (1), we can see that the rendering method based 
+on the nearest neighbor distance determines the size of the 
+rendering radius of each point in the point cloud sequence by 
+the geometric density feature in the local area . Therefore , the 
+geometric features of outlier points are also chosen as density 
+features in this method , i.e., the rendering radius is calculated 
+based on the nearest -neighbor distance .
+Let the rendering radius of the nearest N (N=10) neigh ⁃
+bors of the detection point be rn
+i, the mean value of the local 
+geometric density feature be E(r), and the standard deviation 
+be σr. E(r) and σr are calculated in Eqs . (3) and (4).
+E(r)=1
+N∑
+n=1N
+rn
+i, (3)
+σr=∑
+n=1N
+  rn
+i-E(r)2
+N . (4)
+Combining the outlier judgment criteria , we substitute the 
+rendering radius data into Eq . (2), and the outlier judgment 
+criteria for the local geometric feature construction are shown 
+as follows[12]:
+|
+|||||ri-E(r)
+σr|
+|||||=|
+||
+||
+||
+||
+|||||
+||
+||
+||
+ri-1
+N∑
+n=1N
+rn
+i
+∑
+n=1N
+  rn
+i-E(r)2
+N|
+||
+||
+||
+||
+|||||
+||
+||
+||
+≤3
+. (5)
+When the detection point does not satisfy the local determi ⁃
+nation condition of the above equation , it is determined that 
+the detection point is in the outlier state .
+Since the number of detected points in the point set covered 
+by the local geometric features is small , only local features are 
+49

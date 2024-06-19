@@ -1,0 +1,71 @@
+tasks and instructions directly executed in the 
+production environment. Task decomposition 
+can occur after overall planning or through 
+iterative decomposition.  
+Environment and perception: The analysis and 
+execution of a task depend on the context of its 
+environment. To understand the environment, a 
+kind of modeling mode is required /f_irst to convert 
+real-world information into a machine-readable 
+language. For example, Metaverse is an environment 
+modeling mode for the physical world, while the 
+digital twin solution in the communication industry is 
+an environment modeling mode for the 
+communication network.
+Memory and learning: The agent learns from 
+other agents and environment feedback through 
+imitation or reinforcement learning, and stores 
+these learning outcomes into memory, enabling 
+them to resolve similar problems in the future. The 
+ability to learn and adjust to changing 
+environments plays a vital role in the 
+self-evolution of agents. 
+Agent Value Analysis
+ 
+First, the current agent’s value mainly relies on LLMs, essentially a conditional probability 
+generation model. Utilizing diﬀerent prompts, such 
+as text generation, task disassembly, logical 
+inference, and scenario understanding, LLMs 
+generate diﬀerent types of outputs. Based on the 
+output capability of LLMs, agents build humanized 
+roles to serve within the production /f_ield.  
+Second, from a mainstream industry perspective, 
+the value of agents is embodied by a composite 
+expert team composed of both human and multiple 
+virtual members. This setup massively improves the 
+scope of work, enabling one person to do the work 
+traditionally requiring multiple persons. The 
+paradigm has shifted from using tools to 
+orchestrating multiple agents, which then use tools 
+to complete tasks. Compared with conventional 
+tools, LLM-based agents can provide greater 
+generality and /f_lexibility in judgment and 
+decision-making.
+ 
+Experimental Results of ZTE 
+At present, ZTE has developed four types of 
+agents based on its understanding of  of LLMs and 
+the communications industry. These include 
+assurance assistant, intelligent Q&A, fault assistant, 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 1. Agent 
+deployment and 
+deﬁnition. 
+LLMHumanAgent-1
+Working 
+envirmonment       Other Agents
+EnvironmentLearning
+Perception Skill
+Memory AgentThink
+Internal 
+driverExternal driver Agent-2
+Agent-N Expert Views
+10 

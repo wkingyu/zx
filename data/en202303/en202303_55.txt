@@ -1,0 +1,42 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Massive Unsourced Random Access Under Carrier Frequency Offset    Research Papers
+[20] MYERS N J , HEATH R W . Message passing -based joint CFO and channel es ‐
+timation in mmWave systems with one -bit ADCs [J]. IEEE transactions on 
+wireless communications , 2019 , 18(6): 3064–3077 . DOI : 10.1109 /
+TWC .2019 .2909865
+[21] CHEN L , LIU A , YUAN X J . Structured turbo compressed sensing for massive 
+MIMO channel estimation using a Markov prior [J]. IEEE transactions on ve ‐
+hicular technology , 2018 , 67(5): 4635– 4639 . DOI : 10.1109 /
+TVT.2017 .2787708
+[22] PARKER J T , SCHNITER P . Parametric bilinear generalized approximate 
+message passing [J]. IEEE journal of selected topics in signal processing , 
+2016 , 10(4): 795–808. DOI : 10.1109 /JSTSP .2016 .2539123
+[23] KUHN H W . The Hungarian method for the assignment problem [J]. Naval re ‐
+search logistics , 2005 , 52(1): 7–21. DOI : 10.1002 /nav.20053
+Biographies
+XIE Xinyu received his BS degree in telecommunication engineering from Xid ‐
+ian University , China in 2019 . He is currently working toward a PhD degree in 
+electronic engineering at Shanghai Jiao Tong University , China . His research in ‐
+terests include massive random access and compressed sensing .WU Yongpeng (yongpeng .wu@sjtu .edu.cn) received his BS degree in telecom ‐
+munication engineering from Wuhan University , China in July 2007 , and PhD 
+degree in communication and signal processing from the National Mobile Com ‐
+munications Research Laboratory , Southeast University , China in 2013 . He is 
+currently a tenure -track associate professor with the Department of Electronic 
+Engineering , Shanghai Jiao Tong University , China . His research interests in ‐
+clude massive MIMO/MIMO systems , massive machine type communication , 
+physical layer security , and signal processing for wireless communications .
+YUAN Zhifeng received his MS degree in signal and information processing 
+from Nanjing University of Post and Telecommunications , China in 2005 . From 
+2004  to 2006 , he was mainly engaged in FPGA/SOC ASIC design . He has been 
+a member of the Wireless Technology Advance Research Department , ZTE  
+Corporation since 2006  and has been responsible for the research of the new 
+multiple access group since 2012 . His research interests include wireless com ‐
+munication , MIMO systems , information theory , multiple access , error control 
+coding , adaptive algorithm , and high -speed VLSI design .
+MA Yihua received his BE degree from Southeast University , China in 2015  
+and MS degree from Peking University , China in 2018 . He is now a pre -re‐
+search expert engineer in the Department of Wireless Algorithm , ZTE Corpora ‐
+tion. His main research interests include mMTC , grant -free transmissions , NO‐
+MA, and joint communication and sensing . In these areas , he has published and 
+applied more than 10 papers and 20 patents .
+53

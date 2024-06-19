@@ -1,0 +1,64 @@
+/f_irst end-to-end XR evaluation system based on 
+digital twins, providing intelligent multi-target 
+optimization results for network planning and 
+optimization. The XR rendering based on 
+computing power at base stations minimizes 
+latency, and the terminal energy-saving solution 
+mitigates heat generated in XR devices, improving 
+user comfort during wear. 
+Intelligent Identi/f_ication: Base Station-Level 
+Service Identi/f_ication Database
+The XR industry is undergoing signi/f_icant 
+growth and development, with a robust 
+demand for XR applications across various 
+sectors. However, the wide range of services 
+and diverse features pose challenges in 
+standardizing requirements for mobile 
+networks. ZTE has a unique advantage in the 
+industry with base station-level deep packet 
+inspection (DPI) capabilities, enabling the identi/f_ication of 16,000 types of services (apps) 
+and oﬀering targeted guarantees for diﬀerent 
+XR services.
+Intelligent Scheduling: Self-Learning Features 
+of XR to Improve Eﬃciency
+Once diﬀerent XR data /f_lows are identi/f_ied, 
+ensuring the reliability of each speci/f_ic XR 
+service becomes crucial. An intelligent 
+scheduling policy can help to reduce waiting 
+delays in XR services. The XR video source 
+coding algorithm follows a quasi-periodic rule, 
+for example, transmitting one frame of data 
+packet every 8.33 ms for a 120 fps video. The 
+next-generation base station (gNodeB) 
+automatically learns the periodic features of 
+diﬀerent XR data /f_lows and matches them with 
+eﬃcient scheduling policies, eﬀectively 
+reducing delay and jitter in XR services.
+Multi-User Anti-Congestion Scheme: User 
+Experience Fully Guaranteed in Large-Capacity 
+Scenarios
+Video data packets typically consist of I 
+frames and P frames. An I frame encompasses all 
+the image information, making it considerably 
+larger than a P frame, which only contains 
+supplementary information. In high-capacity 
+scenarios where I frames are indispensable, 
+simultaneous requests for XR service from 
+multiple users can lead to I frame collisions and 
+immediate congestion at the base station. This, 
+in turn, results in delayed XR services and a 
+subpar user experience. To address this issue, 
+the X-Edge solution employs an anti-congestion 
+policy, strategically staggering service traﬃc 
+periods to prevent congestion. The outcomes 
+indicate a signi/f_icant reduction in collision 
+probability, speci/f_ically by a factor of 10, 
+translating to a 10-fold decrease in the 
+probability of video stalling.
+XR Evaluation System: Accelerating Industry 
+Chain Growth
+Built upon a diﬀerentiated guarantee for XR 
+services, ZTE has established an end-to-end XR 
+evaluation system. Leveraging digital twins, it 
+5G-Advanced Special Topic 
+ 16

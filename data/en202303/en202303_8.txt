@@ -1,0 +1,100 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Special Topic   Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface
+generates a control signal to the external device . After the ex ‐
+ternal device completes the action , the neural decoder receives 
+a feedback signal Rt. In future tasks , the neural decoder uses 
+this feedback to continuously adjust the policy , which learns 
+the optimal function mapping of the neural state to the action di ‐
+rectly . The decoding structure is shown in Fig . 1.
+3 DDQN -Based EEG Decoder
+An EEG signal decoder based on the Q -KTD RL algorithm 
+provides the possibility of continuous learning of BCI , but its 
+generalization is not negligible for a continuously useful de ‐
+coder . Therefore , we try to use DDQN to decode the EEG sig ‐
+nal correctly in this paper .
+For the decoding task of EEG signals , a BCI decoder is con ‐
+sidered a reinforcement learning agent , and the decoding of 
+EEG signals is modeled as a common center -out task for BCI , 
+associating the class of MI data with a specific direction , mod ‐
+eled as a single -step reinforcement learning problem , as 
+shown in Fig . 2. A reinforcement learning environment lo ‐
+cated at the center of the origin (0, 0) with a radius of 1 is set 
+up. In the center -out task , the reinforcement learning agent 
+(the green square in Fig . 2) is located at the center of the ori ‐
+gin (0, 0) at the beginning of each trial . By decoding each trial’s MI data , the BCI decoder generates a specific action
+(one of up , down , left, and right ), and the agent (located at the 
+origin position (0, 0)) moves a distance of length 1 in the corre ‐
+sponding direction to a corresponding location (one of the 
+purple circles in Fig . 2), and then receives an immediate re ‐
+ward based on the location reached by the agent . This paper 
+uses a double deep Q -networks algorithm to train the agent to 
+obtain a BCI decoder to decode EEG signals correctly .
+The state vector of DDQN is the EEG signal , and the agent 
+takes action based on the current state . The optional action of 
+the agent is the same as the label set of the EEG signal . Ac‐
+cording to the label information of the EEG signal , the feed ‐
+back from the environment can be received , and the reward of 
+the environment feedback contains two values of −1 and 1. If 
+the current action performed by the agent is consistent with 
+the label of the EEG signal , the environment feeds a positive 
+reward value . Otherwise , the environment provides a negative 
+value to the agent . The pseudocode of the algorithm is given 
+by Algorithm 1. Moreover , we give the network architecture of 
+the DDQN -based EEG signal decoder in Fig . 3.
+Algorithm 1. DDQN -based EEG decoding
+Input : the empty replay buffer  D, initial network parameters  θ, 
+copy of θ θ-, EEG signal sequences X, the training batch 
+size Nb, explore probabilistic decay frequency Nε, and target 
+network replacement frequency N-.
+Output : action at
+For episode= 1 to M do
+Randomly initialize EEG signal sequences X
+If episode mod Nε = 0
+    ε = ε× RLepsilonDecayRate
+End if
+For t=0 to T do
+       Set state st← X and select action at based on the ε-
+greedy policy
+       Execute action at and observe reward rt
+        Store (st, at, rt, st+1) in D
+        Sample a minibatch of Nb tuples (s, a, r, s′) ~ Unif (D)
+        Construct target values , one for each of the Nb tuples :
+yDDQN
+j =ì
+í
+îïï
+ïïïï                             rj ,                 if   sj+1 is terminal
+rj+ γQ( )st+1, argmax
+a Q( ) st+1, a ; θ;θ-,  otherwise
+        Do a gradient descent step with loss ‖yDDQN
+j -
+Q(sj, aj; θ)‖2
+        Replace target parameters θ- ← θ every N- steps
+End
+End
+4 Experimental Analysis
+4.1 Experimental Data
+We conducted experiments on two publicly available data 
+sets: Nature’s Scientific Data[30] and BCI Competition IV -2a BCI: brain -computer interface      EEG : electroencephalogram
+▲Figure 1. Reinforcement learning (RL)-based BCI decoding structure
+▲Figure 2. (a) Classical dataset and (b) BCI Competition IV -2a (BCI -
+2a) dataset are set to a center -out task . The center is located at the ori ‑
+gin (0,0), represented by a green square , and each class target is a 
+purple circle(a) (b)
+Classes of electroencephalogram (EEG ) signals               AgentAgent
+BCI decoder
+Targets External devices
+EEG signalsEnvironment
+ActionsState
+Rewards
+X−1    −0.5           0          0.5        11
+0.5
+0
+−0.5
+−1Y
+X−1    −0.5           0          0.5        11
+0.5
+0
+−0.5
+−1Y
+06

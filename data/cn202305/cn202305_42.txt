@@ -1,0 +1,50 @@
+面向 6G无线环境可预测的感知重构 、语义表征及应用 张建华  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5面向 6G无线环境可预测的
+感知重构 、语义表征及应用
+Sensing Reconstruction , Semantic Representation and 
+Application Towards 6G Predictive Wireless Environment
+张建华 /ZHANG Jianhua ，田艺璇 /TIAN Yixuan ，
+孙语瞳 /SUN Yutong ，于力/YU Li
+（ 北京邮电大学  网络与交换技术国家重点实验室 ，中国 北京 100876  ）
+(Beijing University of Posts and Telecommunications , State Key Lab of 
+Networking and Switching Technology , Beijing 100876 , China )DOI：10.12142 /ZTETJ .202305007
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231016 .0909.004.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-10
+摘要 ：面对 6G通信多样复杂的应用场景 ，精确低复杂的环境信息和信道模型是实现 6G智简传输和组网的基础 。面向 6G无线环境可预测 ，对无
+线环境的感知重构 、语义表征与应用展开研究 ，分析了现有的环境感知技术与重构算法 ，并对无线环境可预测的语义表征方法进行总结 。围绕
+目前存在的信道建模与预测难题 ，介绍了信道在线预测的 6G网络设计与感知重构平台 。相关实验验证了该平台的可行性和准确性 。认为未来无
+线环境可预测的关键是提高无线环境感知精度 ，提升无线环境语义的可解释性 ，建立一个面向 6G信道的通用性系统模型 。
+关键词 ：无线环境 ；环境感知 ；环境重构 ；语义表征 ；可预测信道
+Abstrac t:In view of the diverse and complex application scenarios of 6G communications , accurate and low-complexity environment infor ⁃
+mation , and channel models are the basis for achieving the 6G wisdom-evolutionary and primitive-concise network . The sensing recon ⁃
+struction , semantic representation , and application of wireless environments toward 6G predictive wireless environment are investigated . 
+The existing environment sensing techniques and reconstruction algorithms are analyzed ，and the semantic representation methods are sum ⁃
+marized for a predictive wireless environment . Focusing on the existing channel modeling and prediction challenges , we introduce the 6G 
+network design method for channel online prediction and the predictive radio environment for digital twin communication platform . The key 
+to future predictive wireless environment is to improve the accuracy of wireless environment sensing , enhance the interpretability of wire ⁃
+less environment semantics , and establish a universal system model for 6G channels .
+Keywords :wireless environments ; environment sensing ; environment reconstruction ; semantic representation ; predictive channel
+引用格式 ：张建华 , 田艺璇 , 孙语瞳 , 等. 面向 6G无线环境可预测的感知重构 、语义表征及应用  [J]. 中兴通讯技术 , 2023 , 29(5): 38-44. DOI :
+10.12142 /ZTETJ .202305007
+Citation ： ZHANG J H , TIAN Y X , SUN Y T , et al . Sensing reconstruction , semantic representation and application towards 6G predictive wire ⁃
+less environment [J]. ZTE technology journal , 2023 , 29(5): 38-44. DOI:10.12142 /ZTETJ .202305007
+第6代移动通信系统 （6G）的愿景是提供跨越物理世界
+和数字世界的即时 、高效 、智能的通信[1]。信息论奠
+基人香农将信道列为通信系统模型的六大模块之一 ，信道所
+呈现的特性依赖于电波传播的无线环境及其物理属性 。然
+而，一方面 ，6G面临 Sub- 10 GHz 、毫米波 、太赫兹等多频
+段，通感一体化[2]、超高速移动 、智能反射面 、超大规模多
+输入多输出 （MIMO ）等新技术和多样应用的挑战 ，呈现更加复杂和高动态的无线环境 ；另一方面 ，为了满足未来通信
+服务高质量 、全覆盖的要求 ，6G网络还面临着复杂多样通
+信场景带来的巨大挑战[3-4]。
+传统的系统设计方式是先依次得到典型场景的电波传播
+模型 ，然后通过离线仿真进行网络设计[5]。这种方式存在着
+传输性能远离瞬态最优 、环境适应性不足 、系统优化成本
+高、迭代周期长的问题 ，因此我们迫切需要探索基于物理环
+境感知重建的自底向上的无线信道预测新范式[6]。2019 年，
+文献 [7]提出基于大数据方法的信道预测框架和思路 ，并对
+场景级 、米级和波长级的信道特征预测进行分析 ，进而提出基 金 项 目 ：国 家 自 然 科 学 基 金 项 目 （92167202 、61925102 、62201086 、
+62101069 、62201087 ）
+38

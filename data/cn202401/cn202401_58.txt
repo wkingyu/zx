@@ -1,0 +1,88 @@
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1大规模离散 MU-MIMO ：低复杂度 、信息理论最优检测与多用户编码 陈学辉  等 热点专题
+参考文献
+[1] DAI L L , WANG B C , DING Z G , et al . A survey of non-orthogonal 
+multiple access for 5G [C]//Proceedings of IEEE Communications 
+Surveys & Tutorials . IEEE , 2018 : 2294 -2323 . DOI : 10.1109 /
+COMST .2018 .2835558
+[2] PING L , LIU L H , WU K Y , et al . Interleave division multiple-
+access [J]. IEEE transactions on wireless communications , 2006 , 
+5(4): 938-947. DOI: 10.1109 /TWC .2006 .1618943
+[3] CHI Y H , LIU L , SONG G H , et al . Practical MIMO-NOMA : low 
+complexity and capacity-approaching solution [J]. IEEE 
+transactions on wireless communications , 2018 , 17(9): 6251 -
+6264 . DOI: 10.1109 /TWC .2018 .2858222
+[4] YU J L , YUAN Y P , ZHANG B L . 1-bit nonlinear mapping precoder 
+for downlink massive MU-MIMO systems [C]//Proceedings of 
+30th Wireless and Optical Communications Conference (WOCC ). 
+IEEE , 2021 : 162-165. DOI: 10.1109 /WOCC 53213 .2021 .9603167
+[5] CHERIF M , BOUALLEGUE R . The effect of high power amplifier 
+nonlinearity on MU-Massive mimo system performance over 
+Rayleigh fading channel [C]//Proceedings of 15th International 
+Wireless Communications & Mobile Computing Conference 
+(IWCMC ). IEEE , 2019 : 1426 -1429 . DOI : 10.1109 /
+IWCMC .2019 .8766449
+[6] KWAK H Y , NO J S , PARK H . Design of irregular SC-LDPC codes 
+with non-uniform degree distributions by linear programming [J]. 
+IEEE transactions on communications , 2019 , 67(4): 2632 -2646 . 
+DOI: 10.1109 /TCOMM .2018 .2889850
+[7] CHI Y H , LIU L , SONG G H , et al . Constrained capacity optimal 
+generalized multi-user MIMO : a theoretical and practical 
+framework [J]. IEEE transactions on communications , 2022 , 70
+(12): 8086 -8104 . DOI: 10.1109 /TCOMM .2022 .3207813
+[8] GUO D N , SHAMAI S , VERDU S . Mutual information and 
+minimum mean-square error in Gaussian channels [J]. IEEE 
+transactions on information theory , 2005 , 51(4): 1261 -1282 . DOI : 
+10.1109 /TIT.2005 .844072
+[9] LIU L , LIANG C L , MA J J , et al . Capacity optimality of AMP in 
+coded systems [J]. IEEE transactions on information theory , 2021 , 
+67(7): 4429 -4445 . DOI: 10.1109 /TIT.2021 .3083748
+[10] MA J J , PING L . Orthogonal amp [J]. IEEE access , 2017 , 5: 
+2020 -2033 . DOI: 10.1109 /access .2017 .2653119
+[11] LIU L , LIANG S S , PING L . Capacity optimality of OAMP in 
+coded large unitarily invariant systems [C]//Proceedings of IEEE 
+International Symposium on Information Theory (ISIT). IEEE , 
+2022 : 1384 -1389 . DOI: 10.1109 /ISIT50566 .2022 .9834360
+[12] LIU L , HUANG S Q , KURKOSKI B M . Memory AMP [J]. IEEE 
+transactions on information theory , 2022 , 68(12): 8015 -8039 . 
+DOI: 10.1109 /TIT.2022 .3186166
+[13] LIU L , CHI Y H , YUEN C , et al . Capacity-achieving MIMO-
+NOMA : iterative LMMSE detection [J]. IEEE transactions on 
+signal processing , 2019 , 67(7): 1758 -1773 . DOI : 10.1109 /
+TSP.2019 .2896242
+[14] RANGAN S . Generalized approximate message passing for 
+estimation with random linear mixing [C]//Proceedings of IEEE International Symposium on Information Theory Proceedings . 
+IEEE , 2011 : 2168 -2172 . DOI: 10.1109 /ISIT.2011 .6033942
+[15] LIU L , CHI Y H , LI Y , et al . Achievable rates of generalized linear 
+systems with orthogonal/vector AMP receiver [J]. IEEE 
+transactions on signal processing , 2023 , 71: 4116 -4133 . DOI : 
+10.1109 /TSP.2023 .3328064
+[16] TIAN F Y , LIU L , CHEN X M . Generalized memory approximate 
+message passing for generalized linear model [J]. IEEE 
+transactions on signal processing , 2022 , 70: 6404 -6418 . DOI : 
+10.1109 /TSP.2022 .3213414
+作 者 简 介
+陈学辉 ，西安电子科技大学信息与通信工程学院
+在读硕士研究生 ；主要研究方向为近似消息传递
+类算法 、多载波调制技术等 。
+池育浩 ，西安电子科技大学华山准聘副教授 、
+IEEE ICCT 2023 移动与无线网络分会联合主席 ；
+研究方向为多用户编码与迭代接收机设计 、多载
+波调制技术 ；主持多个国家自然科学基金青年项
+目、教育部 “春晖计划 ”项目、陕西省自然科学
+基础研究计划青年项目 ；获得第 30届中国电子学
+会信息论大会 （CIEIT 2023 ）最佳海报奖 ；发表
+论文 20余篇。
+                         刘雷 ，浙江大学百人计划研究员 、博士生导师 ，
+华为启真优秀青年学者 ，IEEE 和中国通信学会高
+级会员 ，信息论旗舰会议 IEEE ITW 2021 出版联
+合 主 席 ，2020 年 度 《IEEE Transactions on 
+Communications 》期刊模范审稿人 ，是国际上
+最早展开记忆消息传递研究的学者之一 ；长期从
+事消息传递理论与算法 ，及其在信号处理 、无线
+通信、信息论及编码领域的应用研究 ；主持国家
+自然科学基金优秀青年项目 （海外）和青年项目 、中兴通讯产学研
+基金项目 ，担任国家自然科学基金重大项目子课题负责人 、海创基
+金项目课题负责人 ；获中国电子学会第 30届信息论学术年会青年新
+星奖和最佳海报奖 ；发表论文 50余篇。
+54

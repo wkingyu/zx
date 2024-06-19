@@ -1,0 +1,73 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3YU Junpeng , CHEN Yiyu Special Topic   A Practical Reinforcement Learning Framework for Automatic Radar Detection
+A Practical Reinforcement Learning A Practical Reinforcement Learning 
+Framework for Automatic Radar DetectionFramework for Automatic Radar Detection
+YU Junpeng1, CHEN Yiyu2
+(1. Nanjing Research Institute of Electronics Technology , Nanjing
+ 210039 , China；
+ 2. Nanjing University , Nanjing 210023 , China )DOI: 10.12142 /ZTECOM .202303004
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20230802 .1625 .002.html, 
+published online August 3, 2023
+Manuscript received : 2023 -06-16
+Abstract : At present , the parameters of radar detection rely heavily on manual adjustment and empirical knowledge , resulting in low automa ‐
+tion. Traditional manual adjustment methods cannot meet the requirements of modern radars for high efficiency , high precision , and high auto ‐
+mation . Therefore , it is necessary to explore a new intelligent radar control learning framework and technology to improve the capability and 
+automation of radar detection . Reinforcement learning is popular in decision task learning , but the shortage of samples in radar control tasks 
+makes it difficult to meet the requirements of reinforcement learning . To address the above issues , we propose a practical radar operation rein ‐
+forcement learning framework , and integrate offline reinforcement learning and meta -reinforcement learning methods to alleviate the sample 
+requirements of reinforcement learning . Experimental results show that our method can automatically perform as humans in radar detection 
+with real -world settings , thereby promoting the practical application of reinforcement learning in radar operation .
+Keywords : meta -reinforcement learning ; radar detection ; reinforcement learning ; offline reinforcement learning
+Citation  (Format 1): YU J P , CHEN Y Y . A practical reinforcement learning framework for automatic radar detection [J]. ZTE Communications , 
+2023 , 21(3): 22–28. DOI : 10.12142 /ZTECOM .202303004
+Citation (Format 2): J. P. Yu and Y . Y. Chen , “A practical reinforcement learning framework for automatic radar detection ,” ZTE Communica ⁃
+tions, vol. 21, no. 3, pp. 22–28, Sept . 2023 . doi: 10.12142 /ZTECOM .202303004 .
+1 Introduction
+The advent of modern radar systems has brought forth a 
+demand for higher efficiency , precision , and automa ‐
+tion[1]. However , the current radar detection parameters 
+heavily depend on manual adjustment and empirical 
+knowledge , which significantly hampers automation[2]. Tradi ‐
+tional manual adjustment methods are increasingly inadequate 
+to meet these growing demands . This inadequacy necessitates 
+the exploration of a new intelligent radar control learning frame ‐
+work and technology that can enhance the capability and auto ‐
+mation of radar detection .
+One promising learning approach is reinforcement learning , 
+which has gained popularity in decision -task learning . Rein ‐
+forcement learning is a major paradigm within the machine 
+learning field , distinct from perceptual learning typified by im ‐
+age processing . Perceptual learning primarily involves super ‐
+vised learning , while reinforcement learning seeks to address se ‐
+quential decision -making problems through rewards . The rein ‐forcement learning algorithm , based on the Bellman equation , 
+continually learns and improves through trial and error within an 
+environment , thereby accumulating experience and developing 
+superior strategies for given tasks[3]. In recent years , deep rein ‐
+forcement learning (DRL ), with its powerful feature representa ‐
+tion and function -fitting capabilities , has shown remarkable pro ‐
+ficiency in various areas such as gaming and robotics . Notable 
+accomplishments include AlphaGo ’s consecutive victories over 
+human world champions in Go[4], AlphaStar ’s top master rank in 
+StarCraft II[5], Suphx’s rise to the top ten sections of the profes ‐
+sional Japanese Mahjong platform “Tianfeng” developed by Mi ‐
+crosoft Research Asia[6], and the flexible and universal tokamak 
+magnetic controller architecture developed by the DeepMind 
+team for nuclear fusion projects[7]. Furthermore , deep reinforce ‐
+ment learning has been progressively implemented across vari ‐
+ous industries .
+However , the application of reinforcement learning in radar 
+control tasks is hindered by the shortage of samples . The effec ‐
+tiveness of deep reinforcement learning is currently heavily reli ‐
+ant on the availability of extensive learning data and substantial 
+computing resources . For instance , the chess benchmark algo ‐
+rithm , MuZero , requires approximately 106 steps of data[8] to 
+achieve initial results in training . This process takes roughly 11 
+days at a sampling rate of 60 steps per second . Furthermore , 
+DeepMind utilized 384 tensor processing units (TPUs ) running 
+This work is supported by Science and Technology Innovation 2030  New 
+Generation Artificial Intelligence Major Project under Grant No . 
+2021 ZD0113303 , the National Natural Science Foundation of China under 
+Grant Nos . 62192783  and 62276128 , and in part by the Collaborative Inno ⁃
+vation Center of Novel Software Technology and Industrialization .
+The authors contribute equally to this paper .
+22

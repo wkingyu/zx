@@ -1,0 +1,63 @@
+a more /f_lexible model architecture. It provides O&M 
+personnel with lower maintenance threshold and 
+continuously generalizes O&M capabilities.
+Architecture and Key Technologies of ZTE 
+CCN AI O&M Model  
+ZTE CCN AI O&M model is based on the Nebula 
+model, developed by ZTE, in the telecom /f_ield. It uses 
+high-quality corpus for /f_ine-tuning the base models 
+and generating an AI O&M model oriented to the core 
+network and network cloud (Fig. 1). There are three 
+types of AI O&M model applications: intelligent 
+interaction (CoPilot-I), intelligent analysis (CoPilot-A), 
+and intelligent generation (CoPilot-G). 
+CoPilot-I:  It provides the functions such as 
+professional knowledge Q&A, network health 
+querying, and key indicator information querying.
+CoPilot-A:  It includes fault analysis assistance, 
+network optimization assistance, and inspection 
+report.
+CoPilot-G:  It generates inspection reports, 
+operation solutions, and network reports.
+To meet the above-mentioned AI O&M model 
+capabilities, all AI O&M model products targeted for 
+ZTE core network and network cloud incorporate the 
+currently popular key technologies such as 
+retrieval-augmented generation (RAG) and 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Root cause location: Based on fault detection, ZTE 
+conducts further analysis of abnormal data to 
+infer the cause and location of the fault, thereby 
+identifying the speci/f_ic type and location. This 
+requires various diagnosis technologies and 
+methods, such as fault tree analysis and expert 
+systems. Through root cause analysis, the 
+system can pinpoint the origins of issues more 
+accurately and take eﬀective measures to 
+resolve faults, thereby enhancing system 
+reliability and stability.
+Fault prediction and prevention: The AI model 
+can learn from vast amounts of historical O&M 
+data to identify patterns and trends in fault 
+occurrence, establishing a fault occurrence model. 
+Utilizing this model, the AI model monitors and 
+analyzes real-time data to predict potential fault 
+risks and send early warnings, providing O&M 
+personnel with suﬃcient time to take preventive 
+measures and reduce the fault rate. This predictive 
+maintenance approach not only reduces the 
+impact of sudden failures but also maximizes 
+system stability and availability, enhancing 
+operational eﬃciency and resource utilization.
+Compared with traditional AI for IT operations 
+(AIOps), the AI model provides enhanced intelligent 
+O&M capabilities, such as simpler interaction, 
+broader knowledge coverage, fault self-learning, and 
+ JUN 2024
+ 29

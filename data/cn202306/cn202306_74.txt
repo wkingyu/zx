@@ -1,0 +1,57 @@
+集成电路产业技术发展趋势探讨 刘新阳  等 企业视界
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6来看 ，中国既要在先进工艺 、先进封装 、架构创新等方面进
+行多路径创新 ，同时也要坚持多样化发展 ，进行独特的路径
+创新 ，建立可持续发展生态 。
+致谢
+感谢深圳市中兴微电子技术有限公司王健 、庞健和吴枫
+对本论文做出的贡献 ！
+参考文献
+[1] 白冰, 裴丽, 左晓燕 . 用于人工智能的硅基光电子芯片  [J]. 中兴通讯技术 , 2021 , 
+27(1): 77-82. DOI:10.12142 /ZTETJ .202101015
+[2] 韩炳涛 , 刘涛, 唐波 . 深度学习的 10年回顾与展望  [J]. 中兴通讯技术 , 2022 , 27
+(6): 75-84. DOI:10.12142 /ZTETJ .202206013
+[3] ZHANG C C , ZHANG N , CAO W , et al ., AI-based optimization of handover 
+strategy in non-terrestrial networks [J]. ZTE communications , 2021 , 19(4): 
+98-104. DOI: 10.12142 /ZTECOM .202104011
+[4] LIU W C , SHEN M Q , ZHANG A D , et al . Artificial intelligence rehabilitation 
+evaluation and training system for degeneration of joint disease [J]. ZTE 
+communications , 2021 , 19(3): 46-55. DOI: 10.12142 /ZTECOM .202103006
+[5] LU F , GU L , TIAN X H , et al . Federated learning based on extremely sparse 
+series clinic monitoring data [J]. ZTE communications , 2022 , 20(3): 27-34. 
+DOI: 10.12142 /ZTECOM .202203004
+[6] 陆平, 欧阳新志 , 高雯雯 . 5G行业虚拟专网能力提升与实践  [J]. 中兴通讯技术 , 
+2022 , 27(2): 68-74. DOI:10.12142 /ZTETJ .202202011
+[7] 张启明 , 郑兴明 , 张寿勇 . 5G TSN 技术的创新研究  [J]. 中兴通讯技术 , 2022 , 27
+(3): 78-83. DOI:10.12142 /ZTETJ .202203013
+[8] LIU Z , GAO Y , LI D P , et al . Enabling energy efficiency in 5G network [J]. 
+ZTE communications , 2021 , 19(1): 20 –29. DOI : 10.12142 /
+ZTECOM .202101004
+[9] XIAO K , LIU X , HAN X H , et al . Flexible multiplexing mechanism for 
+coexistence of URLLC and eMBB services in 5G networks [J]. ZTE 
+communications , 2021 , 19(2): 82–90, DOI: 10.12142 /ZTECOM . 202102011
+[10] 刘新阳 . 5G半导体产业发展和创新趋势思考  [J]. 中兴通讯技术 , 2021 , 27(4): 
+51-52. DOI:10.12142 /ZTETJ .202104010
+[11] 李乐琪 , 刘新阳 , 庞健 . Chiplet 关键技术与挑战  [J]. 中兴通讯技术 , 2022 , 27
+(5): 57-62. DOI:10.12142 /ZTETJ .202205011
+[12] YANG J F , JIN H Y , TANG R X , et al . Harnessing the power of llms in 
+practice : a survey on chatgpt and beyond [EB/OL ]. (2023 -04-26) [2023 -
+10-15]. https ://arxiv .org/abs/ 2304 .13712[13] GitHub . AI and memory wall [EB/OL ]. [2023 -10-15]. https ://github .com/
+amirgholami/ai_and_memory_wall
+作 者 简 介
+刘新阳 ，深圳市中兴微电子技术有限公司副总经
+理、中国通信学会集成电路专委会副主任委员 、
+中兴通讯股份有限公司多媒体与移动网络国家重
+点实验室 IC研发中心主任 ，曾任中兴通讯硬件研
+究所副所长 、微电子研究院副院长 、终端事业部
+整体解决方案产品线产品总经理 ；主要负责中兴
+微电子芯片战略与技术规划 、运营工作 ，拥有 20
+余年通信集成电路规划 、研发、经营管理经验 。
+晁沛荫 ，深圳市中兴微电子技术有限公司战略规
+划总监 ；具备丰富的电子 、通信 、芯片等 ICT行
+业领域经验 ，研究方向为集成电路宏观环境和中
+长期规划 。
+李婷宇 ，深圳市中兴微电子技术有限公司技术规
+划工程师 ；主要从事人工智能技术规划及芯片架
+构的研究工作 。
+70

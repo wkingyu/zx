@@ -1,0 +1,116 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Special Topic   Towards Near -Field Communications for 6G: Challenges and Opportunities
+DOI: 10.1109 /TAP .1962 .1137900
+[20] SELVAN K T , JANASWAMY R . Fraunhofer and Fresnel Distances : uni⁃
+fied derivation for aperture antennas [J]. IEEE antennas and propagation 
+magazine , 2017 , 59(4): 12–15. DOI : 10.1109 /MAP .2017 .2706648
+[21] KRAUS J D , MARHEFKA R J . Antennas for all applications [M]. New 
+York , USA : McGraw -Hill School , 2001
+[22] LU H Q , ZENG Y . Communicating with extremely large -scale array/sur ⁃
+face: unified modeling and performance analysis [J]. IEEE transactions 
+on wireless communications , 2022 , 21(6): 4039–4053 . DOI : 10.1109 /
+TWC .2021 .3126384
+[23] HEATH R W , GONZÁLEZ -PRELCIC N , RANGAN S , et al . An overview 
+of signal processing techniques for millimeter wave MIMO systems [J]. 
+IEEE journal of selected topics in signal processing , 2016 , 10(3): 436–
+453. DOI : 10.1109 /JSTSP .2016 .2523924
+[24] CUI M Y , DAI L L . Channel estimation for extremely large -scale MIMO : 
+far-field or near -field? [J]. IEEE transactions on communications , 2022 , 
+70(4): 2663–2677 . DOI : 10.1109 /TCOMM .2022 .3146400
+[25] MARTÍNEZ À O , DE CARVALHO E , NIELSEN J Ø . Towards very large 
+aperture massive MIMO : a measurement based study [C]//IEEE Globe ⁃
+com Workshops (GC Wkshps ). IEEE , 2014 : 281–286. DOI : 10.1109 /
+GLOCOMW .2014 .7063445
+[26] YUAN Z Q , ZHANG J H , JI Y L , et al . Spatial non -stationary near -field 
+channel modeling and validation for massive MIMO systems [J]. IEEE 
+transactions on antennas and propagation , 2023 , 71(1): 921–933. DOI : 
+10.1109 /TAP .2022 .3218759
+[27] HAN Y , JIN S , WEN C K , et al . Channel estimation for extremely large -
+scale massive MIMO systems [J]. IEEE wireless communications letters , 
+2020 , 9(5): 633–637. DOI : 10.1109 /LWC .2019 .2963877
+[28] TIAN J C , HAN Y , JIN S , et al . Low -overhead localization and VR identi ⁃
+fication for subarray -based ELAA systems [J]. IEEE wireless communica ⁃
+tions letters , 2023 , 12(5): 784–788. DOI : 10.1109 /LWC .2023 .3244000
+[29] LÓPEZ C F , WANG C X . Novel 3-D non -stationary wideband models for 
+massive MIMO channels [J]. IEEE transactions on wireless communica ⁃
+tions , 2018 , 17(5): 2893–2905 . DOI : 10.1109 /TWC .2018 .2804385
+[30] WANG J , WANG C X , HUANG J , et al . A general 3D space -time -
+frequency non -stationary THz channel model for 6G ultra -massive MIMO 
+wireless communication systems [J]. IEEE journal on selected areas in 
+communications , 2021 , 39(6): 1576– 1589 . DOI : 10.1109 /
+JSAC .2021 .3071850
+[31] BAI T Y , HEATH R W . Analysis of beam sweep channel estimation in 
+MmWave massive MIMO networks [C]//IEEE Global Conference on Sig ⁃
+nal and Information Processing (GlobalSIP ). IEEE , 2016 : 615–619. 
+DOI: 10.1109 /GlobalSIP .2016 .7905915
+[32] CHEN K J , QI C H , LI G Y . Two -step codeword design for millimeter 
+wave massive MIMO systems with quantized phase shifters [J]. IEEE 
+transactions on signal processing , 1027 , 68: 170–180. DOI : 10.1109 /
+TSP.2019 .2959250
+[33] MA K , HE D X , SUN H C , et al . Deep learning assisted mmWave beam 
+prediction with prior low -frequency information [C]//IEEE International 
+Conference on Communications . IEEE , 2021 : 1–6. DOI : 10.1109 /
+ICC42927 .2021 .9500788
+[34] QI C H , WANG Y J , LI G Y . Deep learning for beam training in millime ⁃
+ter wave massive MIMO systems [J]. IEEE transactions on wireless com ⁃
+munications , 2020 . DOI : 10.1109 /TWC .2020 .3024279
+[35] QI C H , DONG P H , MA W Y , et al . Acquisition of channel state informa ⁃
+tion for mmWave massive MIMO : traditional and machine learning -based 
+approaches [J]. Science China information sciences , 2021 , 64(8): 181301 . DOI: 10.1007 /s11432 -021 -3247 -2
+[36] WEI X H , DAI L L , ZHAO Y J , et al . Codebook design and beam training 
+for extremely large -scale RIS : far -field or near -field? [J]. China communi ⁃
+cations , 2022 , 19(6): 193–204. DOI : 10.23919 /JCC .2022 .06.015
+[37] ZHANG Y P , WU X , YOU C S . Fast near -field beam training for ex ⁃
+tremely large -scale array [J]. IEEE wireless communications letters , 
+2022 , 11(12): 2625–2629 . DOI : 10.1109 /LWC .2022 .3212344
+[38] REZAIE S , MANCHÓN C N , DE CARVALHO E . Location - and 
+orientation -aided millimeter wave beam selection using deep learning 
+[C]//IEEE International Conference on Communications (ICC). IEEE , 
+2020 : 1–6. DOI : 10.1109 /ICC40277 .2020 .9149272
+[39] JIANG G L , QI C H . Near -field beam training based on deep learning for 
+extremely large -scale MIMO [J]. IEEE communications letters , 2023 , 27
+(8): 2063–2067 . DOI : 10.1109 /LCOMM .2023 .3289513
+[40] LIU W , REN H , PAN C H , et al . Deep learning based beam training for 
+extremely large -scale massive MIMO in near -field domain [J]. IEEE com ⁃
+munications letters , 2023 , 27(1): 170–174. DOI : 10.1109 /
+LCOMM .2022 .3210042
+[41] LIU W , PAN C H , REN H , et al . Low -overhead beam training scheme for 
+extremely large -scale RIS in near field [J]. IEEE transactions on commu ⁃
+nications , 2023 , 71(8): 4924– 4940 . DOI : 10.1109 /
+TCOMM .2023 .3278728
+[42] FAN D , GAO F F , LIU Y W , et al . Angle domain channel estimation in 
+hybrid millimeter wave massive MIMO systems [J]. IEEE transactions on 
+wireless communications , 2018 , 17(12): 8165–8179 . DOI : 10.1109 /
+TWC .2018 .2874640
+[43] ZHOU G , PAN C H , REN H , et al . Channel estimation for RIS -aided mul ⁃
+tiuser millimeter -wave systems [J]. IEEE transactions on signal process ⁃
+ing, 2021 , 70: 1478–1492 . DOI : 10.1109 /TSP .2022 .3158024
+[44] HE J G , WYMEERSCH H , KONG L , et al . Large intelligent surface for 
+positioning in millimeter wave MIMO systems [C]//The 91st Vehicular 
+Technology Conference (VTC2020 -Spring ). IEEE , 2020 : 1–5. DOI : 
+10.1109 /VTC 2020 -Spring 48590 .2020 .9129075
+[45] LIU Y , HONG S , PAN C H , et al . Optimization of RIS configurations for 
+multiple -RIS -aided mmWave positioning systems based on CRLB analy ⁃
+sis [EB/OL ]. (2021 -11-28) [2023 -12-12]. http://arxiv .org/abs/ 2111 .14023
+[46] WANG R , XING Z , LIU E W . Joint location and communication study for 
+intelligent reflecting surface aided wireless communication system [EB/
+OL]. (2021 -05-01) [2023 -12-12]. http://arxiv .org/abs/ 2103 .01063
+[47] FENG Z Y , WANG B , ZHAO Y P , et al . Power optimization for target lo ⁃
+calization with reconfigurable intelligent surfaces [J]. Signal processing , 
+2021 , 189: 108252 . DOI : 10.1016 /j.sigpro .2021 .108252
+[48] ELZANATY A , GUERRA A , GUIDI F , et al . Reconfigurable intelligent 
+surfaces for localization : position and orientation error bounds [J]. IEEE 
+transactions on signal processing , 2021 , 69: 5386–5402 . DOI : 10.1109 /
+TSP.2021 .3101644
+[49] ZHANG H B , ZHANG H L , DI B Y , et al . Towards ubiquitous position ⁃
+ing by leveraging reconfigurable intelligent surface [J]. IEEE communica ⁃
+tions letters , 2021 , 25(1): 284– 288. DOI : 10.1109 /
+LCOMM .2020 .3023130
+[50] HE J G , WYMEERSCH H , SANGUANPUAK T , et al . Adaptive beam ⁃
+forming design for mmWave RIS -aided joint localization and communica ⁃
+tion [C]//IEEE Wireless Communications and Networking Conference 
+Workshops (WCNCW ). IEEE , 2020 : 1–6. DOI : 10.1109 /
+WCNCW 48565 .2020 .9124848
+[51] FASCISTA A , COLUCCIA A , WYMEERSCH H , et al . RIS -aided joint lo ⁃
+calization and synchronization with a single -antenna mmwave receiver 
+14

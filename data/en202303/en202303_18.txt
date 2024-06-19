@@ -1,0 +1,115 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Special Topic   Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management
+where σ represents the softmax nonlinearity . By applying the 
+above steps to every node in G1, we can get the agent -level 
+representations h1 for all nodes .
+3.2.2 Aggregation Module and Bus -Level Attention Module
+The implementation of a graph attention network is intrinsi ‐
+cally flat , as it only propagates information across the edges of a 
+graph . The purpose of this architecture is to define a strategy in 
+a power distribution network that allows one to use two or more 
+graph attention networks hierarchically to extract representa ‐
+tions from the graph structure . Formally , given the input embed ‐
+ding, which is the output of the upper network , we seek to de ‐
+fine a strategy to output a new coarsened graph embedding .
+The new graph embedding contains fewer nodes and node 
+connectivity and can then be used as input to another graph at ‐
+tention module .
+As a result , the aggregation module is designed primarily to 
+cluster the agent -level nodes into the classes of buses which 
+means that the agent -level embedding h1 will be transformed 
+to the bus -level embedding h1′ via this module . The aggrega ‐
+tion process is demonstrated in the upper part of Fig . 4. Spe‐
+cifically , bus j’s embedding h1′
+j is the calculation of the em ‐
+bedding of all the agents situated on bus j.
+h1'
+j=ϕ(V1
+v,b()v=j(h1
+v)), (9)
+where ϕ denotes the projection function in the aggregation 
+module and b(v) indicates the bus where node v is located .
+Then , the bus embedding h1′ is transformed into the bus rep ‐
+resentation h2 through the bus -level attention module with the 
+graph topology G2 . The structure of the bus -level graph atten ‐
+tion module is similar to that of the agent -level attention mod ‐
+ule which utilizes Eqs . (6)–(8) to calculate the representation 
+but the topology inserted is G2 .
+3.2.3 Readout Layer and Concatenation
+Inspired by JK -net architecture[20], which has proposed a 
+readout layer that aggregates node features to make a fixed -
+size representation , we apply a permutation -invariant read ‐
+out layer to an extracted and integrated representation of 
+agents . The summarized output feature of the readout layer 
+after the agent -level attention module is as follows :
+
+f1=1
+||V1∑
+i=1||V1
+h1
+imax||V1
+i=1 h1
+i
+, (10)
+where ‖ is the concatenation operation . The pooling opera ‐
+tion in the readout layer is mainly to distill essential informa ‐
+tion of the state into latent representation while dropping re ‐
+dundant information .
+Similarly , we can obtain the integrated representation f2 
+after the bus -level graph attention module . As shown in Fig . 4, we apply a readout layer after each attention module . Then 
+the concatenation of each readout layer is applied to aggre ‐
+gate the features .
+h3=é
+ëf1f2ù
+û. (11)
+The final representation h3 is then fed into the linear func ‐
+tion to predict the global state value .
+3.3 Graph Contrastive Learning
+According to the large -scale energy management environ ‐
+ment where hundreds of agents lead to a high dimension of 
+model input , it can be difficult to learn representations 
+through RL objectives as it only depends on reward from the 
+environment . Graph contrastive learning , which has proven its 
+effectiveness on graph prediction tasks[21], has not yet been ex ‐
+plored in reinforcement learning , mainly due to the different 
+nature of the problem . Inspired by graph contrastive learning 
+already used in graph prediction tasks and image contrastive 
+learning used in a pixel -based environments[22], we devise a 
+graph contrast learning objective as an auxiliary task in our re ‐
+inforcement learning task . The objective is devised mainly to 
+stimulate the MAHGA to learn better representation from 
+high -dimensional and various observation inputs .
+To apply graph contrastive learning to MARL , we first intro ‐
+duce augmentations that should be made to the graph . The 
+graph augmentation methods include : 1) Observation masking . 
+We randomly select agents and mask certain ratios of agents ’ 
+observations . Observation masking drives models to recover 
+masked agent observation using their unmasked information . 
+The underlying assumption is that missing partial node attri ‐
+butes does not influence the model performance much . 2) 
+Edge dropping . It is devised to remove the connectivity in G1 
+by randomly dropping a certain ratio of edges . It indicates that 
+the semantic meaning of G1 has certain robustness to the edge 
+connectivity pattern variances . We also follow an independent 
+and identically distributed (i.i.d.) uniform distribution to drop 
+each edge .
+Specifically , given the graph data Zq composed of graph to ‐
+pology G1 and observations of all nodes from the training 
+batch of the size N, Zq will undergo graph data augmentations 
+mentioned above to obtain two correlated graphs Zi
+q as a posi ‐
+tive pair . The other N–1 graphs in the batch are also aug ‐
+mented to generate N–1 augmented graphs . Then , we utilize 
+the normalized temperature -scaled cross -entropy loss (NT-
+Xent ) for graph Zq as:
+ln=-logexp () Zq
+iWsZq
+j/τ
+∑
+k=1,k≠qN
+exp () Zq
+iWsZk
+j/τ
+, (12)
+where we employ a bilinear product to evaluate the similarity 
+16

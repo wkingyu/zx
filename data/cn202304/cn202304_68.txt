@@ -1,0 +1,58 @@
+数据管理系统发展趋势与挑战 韩银俊  等 企业视界
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4数据管理系统发展趋势与挑战
+Development Trends and Challenges of Data Management Systems
+韩银俊 /HAN Yinjun1，2，牛家浩 /NIU Jiahao1，2，
+屠要峰 /TU Yaofeng1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia , Shen ⁃
+zhen 518055 , China )DOI：10.12142 /ZTETJ .202304012
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230725 .1301 .002.html
+网络出版日期 ：2023 -07-26
+收稿日期 ：2023 -06-10
+摘要 ：数据是数字经济时代重要的生产要素 。数据管理成为释放数据价值的重要引擎 。回顾了数据管理技术的迭代变迁历程 ，分析了构建新一
+代数据管理基础设施的关键技术及挑战 。结合中兴通讯在数据管理领域进行的创新和研发实践 ，展示了应对这些挑战的思路 、方案及取得的成
+效。最后，对数据管理技术发展进行了总结和展望 。指出数据域技术栈应当走低碳高效 、可持续发展路线 ，而高能效数据管理技术是可持续发
+展的关键 。
+关键词 ：数据管理 ；数据分析 ；数据库 ；大数据 ；人工智能
+Abstrac t:Data is an important factor of production in the era of digital economy . Data management is an important engine for releasing the 
+value of data . The iterative evolution of data management technology is reviewed , and the key technologies and challenges of building a 
+new generation of data management infrastructure are analyzed . Combined with ZTE ’s innovation and R&D practices in the field of data 
+management , the ideas to solve these challenges , solutions , and results achieved are demonstrated . Finally , the development of data man ⁃
+agement technology is summarized and prospected . It is pointed out that the data domain technology stack should follow a low-carbon , effi⁃
+cient , and sustainable development path , and high energy efficiency data management technology is the key to sustainable development .
+Keywords :data management ; data analysis ; database ; big data ; artificial intelligence
+引用格式 ：韩银俊 , 牛家浩 , 屠要峰 . 数据管理系统发展趋势与挑战  [J]. 中兴通讯技术 , 2023 , 29(4): 64-71. DOI: 10.12142 /ZTETJ .202304012
+Citation ：HAN Y J , NIU J H , TU Y F . Development trends and challenges of data management systems [J]. ZTE technology journal , 2023 , 29
+(4): 64-71. DOI: 10.12142 /ZTETJ .202304012
+数据作为新型生产要素 ，对传统生产方式变革具有重大
+影响 ，要构建以数据为关键要素的数字经济 。数据 、
+算法 、算力是数字经济时代核心的 3个要素 。其中 ，数据具
+有可共享 、可复制 、可无限供给等特征 ，是推动数字经济发
+展的关键生产要素 ，已上升到国家战略高度 。
+随着应用需求的发展 ，数据管理系统也在不断完善 ，每
+10年会出现一次比较大的技术变革 ，产品形态不断繁荣发
+展——从 20世纪 60年代的文件系统 、数据库 、数据仓库 、
+数据湖发展到现在的湖仓一体 ，产业规模也在持续扩大 。数
+据管理系统如今已在各个行业得到广泛应用 ，成为数字经济
+不可或缺的通用基础设施 。
+随着信息技术的高速发展和数据量的迅速膨胀 ，大规
+模、高性能的新型数据管理系统不断涌现 。云基础设施的
+逐渐成熟以及企业用户需求的推动 ，使得云原生数据管理
+系统近年来蓬勃发展 ，催生出各类基于云架构的数据管理服务 。人工智能 （AI）技术和数据管理技术相辅相成 ：AI
+技术越来越多地应用在数据管理系统的计算 、存储和运维
+等方面 ，数据管理系统为 AI训练和推理提供高效的数据服
+务。异构处理器 、新型存储和网络技术的快速发展 ，正在
+改变数据管理系统依赖的底层环境 ，给数据管理与分析技
+术的发展带来新的机遇与挑战 。湖仓一体为用户提供的数
+据管理平台不仅具有数据仓库的结构化和治理优点 ，还拥
+有数据湖的扩展性和机器学习的便利性 。数据要素的可信
+流通使得数据安全成为热点 。如何保证数据的安全和隐私
+成为数据管理系统的关键诉求 。
+1 数据管理技术的迭代变迁
+数据管理是计算机科学中一个非常重要的领域 ，涉及大
+量的技术创新和研究成果 。该领域共获得 5次计算机图灵
+奖，并衍生出网状层次数据库 、关系数据库 、数据仓库 、
+64

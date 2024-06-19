@@ -1,0 +1,59 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Special Topic   Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions
+Many application scenarios for future communications , such 
+as vehicle to everything , sensing as a service , smart home , re⁃
+mote sensing , and other future wireless application scenarios 
+shown in Fig . 6(b), require high performance sensing and wire ⁃
+less communication technologies . Meanwhile , HMIMO , as a 
+key technology in future communication , enables future com ⁃
+munication signals to have higher resolution in both time and 
+angular domains , which provides a technical basis for ISAC . 
+In future ISAC communication scenarios , extremely large -
+scale antenna arrays at the BS or techniques incorporating 
+RIS will introduce the characteristics of near -field regions and 
+high -frequency communication[32]. Therefore , near -field based 
+beam scanning training can be applied here and used to im ⁃
+prove the signal quality for sensing and communication , and 
+to enhance the overall ISAC sensing and wireless communica ⁃
+tion capabilities .
+3.4.3 HF Communication : MmWave and THz
+Terahertz and mmWave bands can be used for next -
+generation mobile communications to enhance mobile broad ⁃
+band because of their abundant spectrum resources . Through 
+the technology of multiple antennas or multiple reflection 
+units in HMIMO , the control of high -frequency signals is more stable and reliable . To summarize , mmWave and terahertz can 
+achieve point -to-point transmission at a high speed and short 
+distances according to their characteristics[33]. Many applica ⁃
+tions , such as mmWave and terahertz BS , can be arranged in ⁃
+doors and outdoors as shown in Fig . 6(c). High -bandwidth 
+wireless communication is achieved through beam manage ⁃
+ment and allocation based on the distance and angle informa ⁃
+tion between the terminal and the BS . However , the signal can 
+be easily blocked by objects such as buildings , trees , and rain ⁃
+water due to its high frequency , which can result in signal at ⁃
+tenuation and degradation of transmission quality . Therefore , 
+when performing point -to-point transmission , the transmission 
+path of the signal and environmental factors need to be taken 
+into account to avoid excessive obstruction of the signal . At 
+this time , the application of beam training methods in the near 
+field can better manage and align the beams of high frequency 
+and improve the stability of wireless communication .
+3.4.4 LEO Satellite Communication
+LEO communications have a wide range of applications in 
+many fields[28], as shown in Fig . 6(d). LEO satellites can be 
+used in the field of aviation to provide wide -area coverage of 
+communication services for aircraft . It can support applica ⁃
+▲Figure 6. Potential application scenarios                             HF : high frequency                        LEO : low earth orbit                      RIS : reconfigureable intelligent surface(a) RIS -assisted near -field communication systems (b) Integrated sensing and communication 
+(c) HF communication : mmWave and THz (d) LEO satellite communicationFrequency/Hz
+HF line -of-sight 
+directional beamBS-RIS link
+RIS -RIS link
+RIS -user linkUsersBlockage
+RIS 3RIS 1 RIS 2
+BSVehicle to everything Sensing as a service
+Smart home Remote sensing
+mmWave
+MicrowaveTHz
+Infrared …
+108 109 1010 1011 1012 1013 1014 1015 1016 1017 1018 1019
+48

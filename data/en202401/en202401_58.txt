@@ -1,0 +1,98 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Special Topic   Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams
+fisheye lenses[8], metasurfaces[9–11], metamaterial lenses[12], 
+phased array antennas[13], radial line slot array (RLSA )[14–15], and 
+leaky radial waveguides[16]. However , in recent years , with the in ⁃
+crease in communication and sensing scenarios of higher fre ⁃
+quency bands in the near -field region and the in -depth study of 
+Bessel beams , the bright application potential of the Bessel beam 
+is gradually being discovered and explored in areas such as wire ⁃
+less power transfer (WPT ), sensing , and communication , espe ⁃
+cially in the near -field region . These studies have helped demon ⁃
+strate the significance of researching the generation of Bessel 
+beams and further explore the unique properties of Bessel beams .
+In this paper , we conduct a survey on the theory and research 
+related to the Bessel beam . A brief review of the concept and ba ⁃
+sic theory of Bessel beams is provided in Section 2. Approaching 
+from the perspectives of generation and applications , the current 
+research on Bessel beams are categorized and discussed in Sec ⁃
+tions 3 and 4, respectively . Additionally , insightful discussions on 
+the challenges existing in research on Bessel beams are provided . 
+This review aims to aid researchers in understanding the concepts 
+of Bessel beams and exploring their potential applications .
+2 Theory of Bessel Beam
+The concept of the Bessel beam is inspired by the scalar wave 
+equation in free space . When considering only the intensity of 
+the electric field and neglecting its directionality , the wave equa ⁃
+tion can be expressed by the following scalar expression[5]:
+(∇2-1
+c2∂2
+∂t2)E(x, y, z, t)=0.
+(1)
+The Bessel beam , as an exact non -singular solution to the 
+above equation for scalar fields propagating into the source -
+free region z≥0, can be expressed in the axisymmetric form 
+as follows :
+E(x, y, z, t)=exp[i(βz-
+ωt)]∫02π
+exp[ ] iα( ) xcosϕ+ysinϕ=
+exp[i(βz-ωt)]J0(αρ), (2)
+where x, y and z represent the three -dimensional coordinates , 
+and ρ2=x2+y2; β and α represent the longitudinal and trans ⁃
+verse wave vectors , respectively , and β2+α2=(ω/c)2; J0 rep⁃
+resents the zero -order Bessel function of the first kind . The most 
+remarkable feature of the Bessel beam is that , when the wave 
+number β is real , it generates a non -diffracting field , that is , its 
+time -averaged intensity profile is independent of z:
+I(x, y, z⩾0)=1
+2|E(x, y, z, t)|2
+=I(x, y, z=0).(3)
+For reference , an ideal Bessel beam profile is illustrated in 
+Fig. 1[17]. Compared with other forms of beam focusing , such as linear beamforming and focused beams , the key distinction of 
+Bessel beams lies in their objective to achieve focusing along a 
+line. The Bessel beam can be conceptually understood as “a 
+beam propagating along a line ”, spreading in space as a cylin ⁃
+der. On the contrary , the traditional phased array linearly 
+shifted beam can be understood as “a beam pointing in a direc ⁃
+tion”, spreading in space as a cone , and the focused beam can 
+be considered as a “beam pointing to a point ”, achieving spatial 
+concentration at a single point . Therefore , compared with other 
+beamforming techniques , Bessel beams have a larger focusing 
+range and the advantage of not diffusing in the propagation di ⁃
+rection , allowing for their self -healing property .
+However , one can easily find from Eq . (2) that an ideal Bessel 
+beam would require an infinite generating aperture and infinite 
+energy because it is not square integrable . The actually gener ⁃
+ated Bessel beam is represented by a truncated version of Eq . 
+(2) with a finite aperture at the xOy plane , given by the follow ⁃
+ing expression :
+E(x, y, z=0, t)=
+ì
+í
+îï
+ïïï
+ïï
+ï
+ïïï
+ïïexp[ ] i()βz-ωt∫02π
+exp[ ] iα( ) xcosϕ+ysinϕdϕ
+2π=
+exp[ ] i()βz-ωtJ0()αρ()ρ⩽R
+0             () ρ>R .(4)
+The truncated Bessel beam is illustrated in Fig . 2. Based on 
+Fig. 2 and Eq . (4), it can be observed that the truncated Bessel 
+beam can be regarded as a superposition of a series of plane 
+waves with the same amplitude and the same angle relative to 
+the z-axis, but different azimuthal angles distributed in the range 
+of 0 to 2π. Such a series of plane waves will produce a geometri ⁃
+cal shadow zone , i.e., a region where the truncated Bessel beam 
+cannot maintain its non -diffracting characteristics . Therefore , 
+the propagation range of the truncated Bessel beam is given as :
+Ring system of the Bessel beam
+Center lobe of the Bessel beam
+Ideal propagation volume
+The center lobe of the 
+Bessel beam remains stabley
+xz
+▲Figure 1. Illustration of an ideal Bessel beam[17]
+54

@@ -1,0 +1,92 @@
+local automatic optimization of controller 
+power parameters, global optimization of 
+controller power parameters, automatic 
+power optimization of the detector, and 
+automatic channel power equalization. 
+The APO solution implements 
+network-wide power equalization by 
+overlaying the  power adjustments at 
+both the optical multiplexing section 
+(OMS) layer and the OCH layer. At the 
+OMS layer, when the actual engineering 
+parameters (such as /f_iber length) do not 
+match the power budget design during 
+network commissioning, or when /f_iber 
+link attenuation changes during network 
+maintenance, APO enables the system 
+to automatically adjust the attenuation 
+of optical attenuators or the gain of 
+ampli/f_iers. This allows the system to 
+maintain the intended target power budget 
+as designed. At the OCH layer, when 
+individual wavelength channels experience 
+power /f_luctuations due to factors like /f_iber 
+connector losses, APO automatically adjusts 
+the attenuation of boards equipped with 
+channel attenuation adjustment capabilities 
+(such as VMUX). This restores wavelength 
+channels with abnormal power levels to 
+their optimal operating points. 
+During network commissioning, 
+APO’s network-wide power setting and 
+adjustment capabilities can improve the 
+eﬃciency of new network deployment. 
+Throughout network operation, APO’s 
+real-time intelligent monitoring and 
+network-wide power optimization 
+capabilities can reduce the manpower costs 
+of routine operation and maintenance. 
+In addition, APO can rapidly respond to 
+network power changes, reducing network 
+adjustment time, network degradation 
+duration, and even service failure time. This 
+signi/f_icantly strengthens network reliability 
+and stability, leading to a substantial 
+improvement in the intelligence of network 
+self-healing capabilities. 
+In the scenario of WASON service restoration, APO can automatically 
+adjust the optical power of service paths, 
+enabling the WASON network to possess 
+a genuine automatic global exhaustive 
+route computation capability. This greatly 
+enhances network robustness. 
+Flexible Grids for Self-Intelligence 
+Management 
+A key concept of a /f_lexible grid is 
+frequency slot, which refers to a spectrum 
+section that meets the de/f_inition of a 
+/f_lexible grid as speci/f_ied in G.694.1. At any 
+given moment, this spectrum segment 
+can be used for only one optical channel 
+and is uniquely de/f_ined by its central 
+frequency and slot width. Compared with 
+the traditional /f_ixed grid network, a /f_lexible 
+grid network has the /f_lexibility to select a 
+range of slot widths as required. 
+In comparison to the traditional /f_ixed-grid 
+network, where all NEs are /f_ixed-grid 
+components, and the spectrum resource 
+management granularity is based on /f_ixed 
+wavelengths, a /f_lexible-grid network oﬀers a 
+diﬀerent approach. In a /f_lexible-grid network, 
+there's no need for manual grid division in 
+the network management. The network 
+is composed entirely of fully automated 
+/f_lexible-grid NEs. The control plane can 
+dynamically create and remove optical-layer 
+wave channels as required, without human 
+intervention. Resource allocation in a fully 
+automated /f_lexible-grid network is based 
+on fundamental frequency slots, allowing 
+the control plane to eﬃciently allocate 
+optical-layer resources within its designated 
+spectral range.
+In the 100G+ OTN service scenario, 
+signals with diﬀerent transmission rates 
+or signals with the same transmission 
+rate but using diﬀerent modulation 
+modes and coding schemes have 
+diﬀerent baud rates. This necessitates 
+the use of diﬀerent channel spacing. The 
+concept of a /f_lexible grid is exceptionally 
+30Digital & Intelligent Network Services Special Topic

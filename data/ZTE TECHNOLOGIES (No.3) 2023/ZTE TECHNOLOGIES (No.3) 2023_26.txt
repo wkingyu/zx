@@ -1,0 +1,74 @@
+5G Dual-Domain Private Network 
+Solutions Facilitate Personalized 
+User Access
+ToB Architect of ZTE RAN 
+Product PlanningZhao Qiongying
+ZTE CCN Product 
+Planning ManagerLu Qiangith the expansion of 5G 
+private network services, 
+various industry customers 
+such as schools, governments, 
+medical centers, tourist resorts and industrial 
+parks hope to replace their existing Wi-Fi 
+networks or deploy hybrid private networks 
+using 5G. For con/f_identiality requirements 
+of business data, these enterprises usually 
+have their own intranet. When employees 
+use personal mobile phones to access the 
+enterprise’s intranet through 5G network, 
+they need to log in through a VPN or by 
+other means, which can be quite complex 
+and poses potential security risks. Therefore, 
+it would be a great convenience for 
+enterprise or campus users to use their 
+personal phones with B2C SIM cards 
+(personal phone cards) to access both 
+the Internet normally and enterprise 
+intranet in the campus without changing 
+the SIM cards or phone numbers, while 
+preventing data out/f_low.
+For seamless access, a dual-domain 
+private network is essential to provide 
+enterprise private network access services 
+for both B2B and B2C. This network 
+enables seamless interconnection between 
+the Internet and enterprise services for 
+industry customers, facilitating the 
+integration of B2C and B2B services.
+Combining the Internet and enterprise 
+service access requirements of industry 
+customers, ZTE provides /f_lexible 5G 
+dual-domain private network solutions to meet the deployment needs of diﬀerent 
+application scenarios. 
+5G Dual-Domain Private Network 
+Solution Based on ULCL
+The ULCL-based 5G dual-domain private 
+network adopts the uplink classi/f_ier (ULCL) 
+oﬄoading solution. It forwards uplink data 
+traﬃc to diﬀerent UEs as required by the 
+/f_ilter, and combines downlink data traﬃc 
+from multiple anchors of the UEs. The traﬃc 
+is oﬄoaded through ULCL. In this case, the 
+primary anchor is located on the user plane 
+function (UPF) of the public network, while 
+the secondary anchor is located on the edge 
+UPF of the campus. Local traﬃc within the 
+campus is oﬄoaded to the campus’s 
+intranet through the edge UPF.
+An enterprise user /f_irst forwards data 
+traﬃc through the public network’s UPF. 
+When the user moves to the campus, a TA 
+update message is triggered and SMF 
+sends a policy update request to PCF for 
+event update. After delivering the policy 
+update, PCF triggers a UL-CL procedure and 
+an edge UPF is inserted into the original 
+user session. In this way, the user session is 
+distributed locally by the edge UPF, while 
+any missed data is still sent back to the 
+public network’s UPF for processing, as 
+illustrated in Fig. 1.
+The ULCL oﬄoading solution has the 
+following bene/f_its:
+Users in the campus can still use the W
+245G Fully-Connected Factory Special Topic

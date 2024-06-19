@@ -1,0 +1,62 @@
+ccording to public information released 
+by China’s National Anti-Fraud Center, 
+telecom fraud has become the crime 
+with the largest number of cases, the 
+fastest growth rate, and the widest coverage in 
+recent years. By the end of 2022, China’s public 
+security departments had cracked 1.156 million 
+telecom fraud cases, arrested 1.553 million 
+suspects, and intercepted over 916.5 billion yuan 
+of funds related to fraud cases. The increasing 
+prevalence of telecom fraud pose a signi/f_icant 
+threat to personal and property safety.
+Diﬃculties and Challenges in SMS Fraud 
+Monitoring  
+SMS fraud stands out as one of the most 
+common types of telecom fraud. Fraudsters 
+constantly alter and adapt SMS contents to bypass 
+the SMS monitoring system of telecom operators. 
+Some common tactics employed by/uni00A0 fraudsters 
+include:
+Circumventing keyword rules by utilizing 
+combining mutations, escape characters, homophones, and similar shapes.
+Using a combination of Chinese characters, 
+symbols, and digits to express standard URLs 
+and numbers, evading regular expression 
+monitoring policies implemented in the 
+existing network.
+Evading traﬃc and keyword thresholds through 
+utilizing a vast pool of numbers.
+Making breakthroughs through methods such 
+as dialing tests to enable the sending of massive 
+messages.  
+The traditional fraud management solution with 
+a long upgrade period faces huge challenges. 
+Overly lax policies may lead to low interception 
+eﬃciency, while overly strict policies aﬀect normal 
+communication.  
+AI Model Enables Technological 
+Revolution  
+On November 30, 2022, OpenAI launched 
+ChatGPT, which obtained 100 million users within 
+two months after its launch. Built on the 
+ 
+ 
+Protecting People’s Lives Through “Smart 
+Safeguard” AI Anti-Fraud System
+ 
+ 
+ 
+ 
+ 
+ 
+A
+ 
+ 
+ 
+Chief Planning 
+Engineer of ZTE 
+Messaging ProductsHuang Xiaobing
+ZTE Product Planning 
+Expert EngineerWang Wei
+36 Success Stories 

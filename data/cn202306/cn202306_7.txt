@@ -1,0 +1,49 @@
+基于多点信道海图的低能耗网络覆盖结构优化 叶远青  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6基于多点信道海图的
+低能耗网络覆盖结构优化
+Optimization of Low-Energy Network Coverage Structure Based 
+on Multipoint Channel Charting
+叶远青 /YE Yuanqing ，张四海 /ZHANG Sihai ，
+朱近康 /ZHU Jinkang
+（ 中国科学技术大学 ，中国 合肥 230026  ）
+(University of Science and Technology of China , Hefei 230026 , China )DOI：10.12142 /ZTETJ .202306002
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231212 .1548 .008.html
+网络出版日期 ：2023 -12-13
+收稿日期 ：2023 -10-15
+摘要 ：资源小区覆盖结构是实现超高数据密度类业务场景的关键覆盖结构之一 ，其具有弹性可扩展 、高能效按需覆盖的特点 。依托这种覆盖结
+构，研究了一种基于多点信道海图的资源小区优化方法 ，旨在发射功率约束下提高系统和速率 。将多点信道海图感知到的相邻用户划分到同一
+资源小区 ，通过在资源小区内分配正交资源块和在资源小区间复用正交资源块的方式 ，减少系统干扰并提升系统和速率 。仿真结果表明 ，该方
+法能够有效提高系统和速率 ，不需要用户位置信息和瞬时信道状态信息 ，并且在相同系统和速率的情况下 ，资源小区覆盖结构可以有效降低网
+络能耗 。
+关键词 ：多点信道海图 ；低能耗 ；资源小区
+Abstrac t:Resource cell coverage structure is one of the key coverage structures to achieve ultra-high data density scenarios , which has the 
+characteristics of elastic scalability and high energy efficiency on-demand coverage . Relying on the above coverage structure , a multipoint 
+channel charting-based resource cell generation method is proposed to improve sum system rate under transmit power constraint . Specifi ⁃
+cally, adjacent users on multipoint channel charting are grouped into the same resource cell to reduce system interference and improve sum 
+system rate by allocating orthogonal resource blocks within the resource cell and multiplexing RBs between resource cells , respectively . 
+Simulation results show that the proposed method provides significant gain in capacity without requiring user location information or instan ⁃
+taneous channel state information . It also indicates that the resource cell coverage structure can effectively reduce network energy con ⁃
+sumption under the same sum system rate condition .
+Keywords :multipoint channel charting ; low-energy ; resource cell
+引用格式 ：叶远青 , 张四海 , 朱近康 . 基于多点信道海图的低能耗网络覆盖结构优化  [J]. 中兴通讯技术 , 2023 , 29(6): 3-10. DOI : 10.12142 /
+ZTETJ .202306002
+Citation ： YE Y Q , ZHANG S H , ZHU J K . Optimization of low-energy network coverage structure based on multipoint channel charting [J]. 
+ZTE technology journal , 2023 , 29(6): 3-10. DOI: 10.12142 /ZTETJ .202306002
+人工智能的发展和智能设备的普及对 6G移动网络提出
+了核心需求 。6G网络将支持高速率 、大容量 、超密集
+类型的业务 ，即超高数据密度业务 （uHDD ）[1]。随着数据
+流量的急剧增长和连接设备数量的不断增加 ，无线网络的能
+源消耗也在快速增长 。这将导致温室气体大量产生 ，对环境
+保护和可持续发展造成重大威胁[2]。因此 ，未来移动通信和网络技术的发展势必要统筹兼顾能耗和资源 ，打造绿色通信
+网络 。
+为了提高无线网络的能效 ，在由分布单元 （DU） 、集中
+单元 （CU）与核心网构成的 5G三级网络结构的基础上 ，创
+新演进出更多的无线覆盖结构 ，如5G云无线接入网 （C-
+RAN）覆盖结构 、雾无线接入网 （Fog-RAN ）覆盖结构 、无
+蜂窝大规模输入输出 （MIMO ）覆盖结构等 。但这些传统无
+线覆盖结构部署方式较为固定 ，只能在局部范围内进行有限
+的调整 ，难以与业务分布不均匀的 uHDD 场景匹配 ，降低了
+网络的容量覆盖能力 。基金项目 ：科技部重点研发项目 （2022 YFB2902302 ） ；华为技术有限公司无线
+研究创新项目 （FA2019051101 ）
+03

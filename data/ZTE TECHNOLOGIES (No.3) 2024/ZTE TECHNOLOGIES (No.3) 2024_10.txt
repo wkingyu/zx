@@ -1,0 +1,114 @@
+tasks and thousands of nodes may run 
+simultaneously. Utilizing the task scheduling 
+platform optimally matches tasks with available 
+resources, minimizing queue wait time, maximizing 
+parallel task operations, and achieving optimal 
+resource utilization. Currently, there are two 
+mainstream scheduling systems: Slurm and 
+Kubernetes.
+Slurm, primarily for task scheduling in HPC 
+scenarios, is widely used by supercomputers 
+(including Tianhe Computer) and computer clusters 
+around the world. Kubernetes, a container 
+orchestration platform, is used to schedule, 
+automatically deploy, manage, and extend 
+containerized applications. At present, Kubernetes 
+and wider container ecosystems are increasingly 
+mature, shaping a general computing platform and 
+ecosystem.
+In AI task scheduling, Slurm and Kubernetes face 
+diﬀerent challenges. The deep learning workload 
+shares similarities with HPC, making Slurm suitable for 
+managing machine learning clusters. However, Slurm 
+is not part of the machine learning ecosystem 
+developed around containers, so it is diﬃcult to 
+integrate AI platforms like Kube/f_low into such 
+environments. In addition, Slurm is complex to use 
+and maintain. Conversely, Kubernetes is easier to use, 
+integrates well with common machine learning 
+frameworks, and sees increasing adoption for big 
+model training. Yet, scheduling GPUs with Kubernetes may lead to prolonged resource idle time, resulting in 
+low average cluster usage (about 20%). Resources can 
+only be scheduled by card, lacking the ability to split, 
+schedule by card type, or queue them. 
+Deployment Scenario 
+Due to the varying requirements of computing 
+characteristics and deployment locations for 
+pre-training basic AI models, /f_ine-tuning industry AI 
+models, and adapting AI models to customer 
+scenarios, the intelligent computing center adopts a 
+three-level deployment model (Fig. 2). This includes 
+the Hub AI model training center, provincial training 
+and inference integration resource pool, and edge 
+training and inference AIO, aligned with the 
+hierarchical architecture of operators’ computing 
+data centers.
+Operators bear the responsibility of improving 
+innovation in key software and hardware 
+technologies and building intelligent computing 
+infrastructure. ZTE oﬀers a full range of products 
+spanning from IDCs, chips, servers, storage, data 
+communications, to resource management 
+platforms. Leveraging its extensive experience in the 
+telecom and government-enterprise sectors, ZTE is 
+poised to assist operators in realizing their ambitions 
+in intelligent computing technology innovation and 
+development. 
+Fig. 2. Hierarchical 
+deployment of the 
+intelligent 
+computing center.
+Scenario 1: AI model training
+Centralized creation
+Scenario:  Basic AI model pre-training
+Feature: 4+N centralized deployment 
+and ultra large-scale GPU cluster
+Key Challenge:  Improving large-scale 
+cluster computing and energy 
+eﬃciency, and training reliabilityScenario 2: Training & inference 
+integration Scenario 3: Edge training 
+& inference
+General DC upgrade
+Scenario: AI model /f_ine-tunning/inference/
+application
+Feature: Distributed on-demand expansion 
+and diverse computing power applications
+Key Challenge:  Improving diverse resource 
+management and resource eﬃciency, and 
+exposing decoupling capabilities and an 
+application ecosystemAIO  provisioning
+Scenario:  Enterprise private-domain data 
+/f_ine-tuning /inference/application 
+Feature: On-demand edge deployment and 
+integrated training & inference
+Key Challenge: Rapidly deploying for 
+government- enterprise customers, and 
+delivering integrated intelligent computing 
+servicesCentralized training 
+Inference TrainingGeneral 
+computing
+NV/BR/CAM … NV/BR/CAM … x86/ZF
+Uni/f_ied cloud platform
+Native computing
+Model update and data collection
+Edge training &
+ inference  
+AIO machineEdge training &
+ inference  
+AIO machineEdge training &
+ inference  
+AIO machine
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Expert Views
+08 

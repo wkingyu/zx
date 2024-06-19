@@ -1,0 +1,116 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions    Special Topic
+setup , for weapons with high probability of getting high re ⁃
+wards , more attempts are required to get a certain cumulative 
+reward . Combining the adaptive learning capabilities of ma ⁃
+chine learning with the domain knowledge of wireless com ⁃
+munications allows interaction with changing environ ⁃
+ments[40], thus enabling algorithms to adapt effectively to new 
+environments .
+2) Near -field characteristics -based beam training : The char ⁃
+acteristics of near -field communication are the challenges and 
+possible future research directions for studying near -field 
+beam training methods . For example , for HMIMO near -field 
+communication systems , the near -field beam splitting effect 
+poses a new challenge to beam training , where beams gener ⁃
+ated at different frequencies are distorted to different loca ⁃
+tions . To overcome this challenge , an effective broadband rain ⁃
+bow beam training scheme is proposed[41], which utilizes a true 
+time delay (TTD) device to flexibly control the near -field beam 
+splitting effect in order to achieve fast beam training . Also , 
+based on the distance -domain and angle -domain dimensional 
+challenges due to the near -field spherical wave properties , a 
+2D polar -domain codebook is proposed[21], where each beam 
+codeword points to a specific location with a target angle and 
+distance . In terms of angle and distance sampling , the sam ⁃
+pling can be designed to minimize the column coherence of 
+neighboring code words .
+6 Conclusions
+In this paper , we provide a comprehensive overview of 
+near -field beam training for HMIMO communication sce ⁃
+narios . Specifically , we first introduce the characteristics of 
+near -field communication in HMIMO scenarios , and the dif ⁃
+ferences between beam training in near -field and far -field 
+conditions . Then , based on the system model of the interest 
+scenario and the codebook forms for beam training , we intro ⁃
+duce several typical methods for near -field beam training : ex⁃
+haustive beam training , hierarchical beam training and multi -
+beam training . Also , we discuss some potential application 
+scenarios of near -field beam training . Our performance analy ⁃
+sis compares the effectiveness of these methods and confirms 
+their validity on the hardware testbed . Moreover , we discuss 
+the research challenges of near -field beam training and pro ⁃
+pose several possible future research directions . In the fu ⁃
+ture, we will propose more efficient near -field beam training 
+methods for HMIMO scenarios .
+References
+[1] PIZZO A , SANGUINETTI L , MARZETTA T L . Fourier plane -wave series 
+expansion for holographic MIMO communications [J]. IEEE transactions 
+on wireless communications , 2022 , 21(9): 6890–6905 . DOI : 10.1109 /
+TWC .2022 .3152965
+[2] HUANG C W , HU S , ALEXANDROPOULOS G C , et al . Holographic 
+MIMO surfaces for 6G wireless networks : opportunities , challenges , and trends [J]. IEEE wireless communications , 2020 , 27(5): 118–125. DOI : 
+10.1109 /MWC .001.1900534
+[3] HU S , RUSEK F , EDFORS O . Beyond massive MIMO : the potential of 
+data transmission with large intelligent surfaces [J]. IEEE transactions on 
+signal processing , 2018 , 66(10): 2746–2758 . DOI : 10.1109 /
+TSP.2018 .2816577
+[4] DARDARI D , DECARLI N . Holographic communication using intelligent 
+surfaces [J]. IEEE communications magazine , 2021 , 59(6): 35–41. DOI : 
+10.1109 /MCOM .001.2001156
+[5] CHEN Z , MA X Y , ZHANG B , et al . A survey on terahertz communica ⁃
+tions [J]. China communications , 2019 , 16(2): 1–35. DOI : 10.12676 /j.
+cc.2019 .02.001
+[6] WANG J Y , LAN Z , PYO C W , et al . Beam codebook based beamforming 
+protocol for multi -Gbps millimeter -wave WPAN systems [J]. IEEE journal 
+on selected areas in communications , 2009 , 27(8): 1390–1399 . DOI : 
+10.1109 /JSAC .2009 .091009
+[7] HUANG Y , WU Q Q , LU R , et al . Massive MIMO for cellular -connected 
+UAV : challenges and promising solutions [J]. IEEE communications maga ⁃
+zine, 2021 , 59(2): 84–90. DOI : 10.1109 /MCOM .001.2000552
+[8] SAAD W , BENNIS M , CHEN M Z . A vision of 6G wireless systems : Appli ⁃
+cations , trends , technologies , and open research problems [J]. IEEE net ⁃
+work , 2020 , 34(3): 134–142. DOI : 10.1109 /MNET .001.1900287
+[9] VA V , CHOI J , HEATH R W . The impact of beamwidth on temporal chan ⁃
+nel variation in vehicular channels and its implications [J]. IEEE transac ⁃
+tions on vehicular technology , 2017 , 66(6): 5014–5029 . DOI : 10.1109 /
+TVT.2016 .2622164
+[10] SELVAN K T , JANASWAMY R . Fraunhofer and Fresnel Distances : Uni⁃
+fied derivation for aperture antennas [J]. IEEE antennas and propagation 
+magazine , 2017 , 59(4): 12–15. DOI : 10.1109 /MAP .2017 .2706648
+[11] HUR S , KIM T , LOVE D J , et al . Millimeter wave beamforming for wire ⁃
+less backhaul and access in small cell networks [J]. IEEE transactions on 
+communications , 2013 , 61(10): 4391–4403 . DOI : 10.1109 /
+TCOMM .2013 .090513 .120848
+[12] HE T , XIAO Z Y . Suboptimal beam search algorithm and codebook de ⁃
+sign for millimeter -wave communications [J]. Mobile networks and appli ⁃
+cations , 2015 , 20(1): 86–97. DOI : 10.1007 /s11036 -015 -0568 -5
+[13] XIAO Z Y , HE T , XIA P F , et al . Hierarchical codebook design for beam ⁃
+forming training in millimeter -wave communication [J]. IEEE transac ⁃
+tions on wireless communications , 2016 , 15(5): 3380–3392 . DOI : 
+10.1109 /TWC .2016 .2520930
+[14] QI C H , CHEN K J , DOBRE O A , et al . Hierarchical codebook -based 
+multiuser beam training for millimeter wave massive MIMO [J]. IEEE 
+transactions on wireless communications , 2020 , 19(12): 8142–8152 . 
+DOI: 10.1109 /TWC .2020 .3019523
+[15] HEADLAND D , MONNAI Y , ABBOTT D , et al . Tutorial : terahertz beam ⁃
+forming , from concepts to realizations [J]. APL photonics , 2018 , 3(5): 
+051101 . DOI : 10.1063 /1.5011063
+[16] WU Z D , DAI L L . Multiple access for near -field communications : SDMA 
+or LDMA ? [J]. IEEE journal on selected areas in communications , 2023 , 
+41(6): 1918–1935 . DOI : 10.1109 /JSAC .2023 .3275616
+[17] ALKHATEEB A , MO J H , GONZALEZ -PRELCIC N , et al . MIMO pre ⁃
+coding and combining solutions for millimeter -wave systems [J]. IEEE 
+communications magazine , 2014 , 52(12): 122–131. DOI : 10.1109 /
+MCOM .2014 .6979963
+[18] WEI X H , DAI L L , ZHAO Y J , et al . Codebook design and beam training 
+for extremely large -scale RIS : far -field or near -field? [J]. China communi ⁃
+cations , 2022 , 19(6): 193–204. DOI : 10.23919 /JCC .2022 .06.015
+[19] CHEN J W , GAO F F , JIAN M N , et al . Hierarchical codebook design for 
+near -field mmWave MIMO communications systems [J]. IEEE wireless 
+communications letters , 2023 , 12(11): 1926–1930 . DOI : 10.1109 /
+LWC .2023 .3299354
+[20] YOU C S , ZHENG B X , ZHANG R . Fast beam training for IRS -assisted 
+multiuser communications [J]. IEEE wireless communications letters , 
+2020 , 9(11): 1845–1849 . DOI : 10.1109 /LWC .2020 .3005980
+51

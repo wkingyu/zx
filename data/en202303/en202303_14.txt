@@ -1,0 +1,97 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Special Topic   Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management
+generated will pass through the distribution network and 
+cause voltage fluctuations , the goal of grid -aware energy man ‐
+agement is to control these components inside buildings to 
+keep the voltage within the safe range while satisfying build ‐
+ing users ’ energy demands . And grid -aware energy manage ‐
+ment can be formulated as a cooperative task since all agents 
+share one common objective which is to stabilize voltages at 
+every node in the whole distribution network . Ref. [5] applied 
+deep reinforcement learning to grid -aware energy management 
+as they used independent proximal policy optimization and 
+rule -based control to stabilize voltage .
+However , it is a non -trivial task to directly apply reinforce ‐
+ment learning algorithms to grid -aware energy management , be‐
+cause of the following challenges . 1) Cooperation among agents . 
+The distribution network is a complex and nonlinear system , 
+which results in a ripple effect to the voltage of all nodes within 
+the distribution network if one agent takes action . Agents in pre ‐
+vious work have been limited in their ability to learn coopera ‐
+tion by only utilizing their own observations during both the 
+training and execution phases . This has resulted in difficulty in 
+stabilizing voltage across all nodes . 2) Large state space from 
+the large -scale agent system . There are hundreds of households 
+on the power distribution network in reality . Directly learning a 
+centralized agent system in a training process requires handling 
+large state space and high -dimensional environments , which 
+will cause serious scalability and efficiency problems[13]. 3) To‐
+pology of the distribution network . In the distribution network , 
+each node is connected with some other nodes , forming a tree 
+graph structure . The voltage of each node is affected by all 
+other nodes , but the impact declines as the distance increases . 
+Therefore , introducing the topology of the distribution network 
+to algorithms can assist the agents in learning better correla ‐
+tions with each other . 4) The importance of different agents . 
+Each building is regarded as an agent , but the building types 
+are various and different types of buildings have different en ‐
+ergy demands . For instance , typically , restaurants have more 
+energy demand at noon for people to have meals , which indi ‐
+cates restaurants must pay more attention than offices when 
+making decisions at noon .
+To address the above challenges , we propose a multi -agent 
+hierarchical graph attention reinforcement learning framework 
+(MAHGA ) to better stabilize voltage in a power distribution 
+network . Our major contributions are summarized as follows : 
+1) We approach this task with the paradigm of centralized 
+training and decentralized execution , enabling agents to learn 
+better cooperation . 2) We model the whole distribution net ‐
+work as agent -level topology and bus -level topology . Based on 
+these topologies , we construct an elaborate hierarchical graph 
+attention architecture to extract correlations from agents and 
+power grids . And it can facilitate the MARL -based methods 
+deployed to the realistic power system . 3) Graph contrastive 
+learning with two graph augmentations considered RL charac ‐
+teristics is designed as an auxiliary task in the reinforcement learning (RL) process to improve representation learning from 
+graphs . 4) To the best of our knowledge , this is the first work 
+to consider the topology characteristics to tackle voltage and 
+energy tasks with large -scale agents . Experiments on several 
+real -world datasets reveal that our approach achieves the best 
+performance and can significantly mitigate voltage violations . 
+The paper is organized as follows : In Section 2, we give the 
+background of grid -aware energy management with the MARL 
+formulations and introduce centralized training and decentral ‐
+ized execution . We describe the details of our method in Sec ‐
+tion 3. In Section 4, we demonstrate the results of the experi ‐
+ments , and in Section 5, we give a literature review of the re ‐
+lated work . We conclude our work in Section 6.
+2 Problem Formulation
+2.1 Grid -Aware Energy Management
+In the power system field , power distribution networks are 
+modeled as a tree graph structure , where the node and edge 
+represent a bus and a branch , respectively[14]. More specifi ‐
+cally , a bus refers to a node in a power distribution network 
+where power lines , buildings , and other electrical devices join 
+together , and electrical power will be generated , distributed , 
+or consumed here . The distribution network example is shown 
+at the bottom of Fig . 1. For instance , the third bus in this fig ‐
+ure is connected with the second bus , the fourth bus , and the 
+eleventh bus . Hundreds of various buildings are distributed on 
+these buses , and each building contains multiple controllable 
+components : 1) HVAC : heating , ventilation , and air condition ‐
+ing system , which consumes electricity primarily to control the 
+temperature , humidity , and purity of the air inside a building 
+affiliated with the storage to save cooling or thermal energy ; 2) 
+DHW : domestic hot water system , which can generate hot wa ‐
+ter by consuming electricity , affiliated with a tank to store hot 
+water ; 3) Battery : used for electricity storage or electricity sup ‐
+ply to other equipment ; 4) PV: photovoltaics , which is a micro -
+▲Figure 1. An illustrative example of grid -aware energy managementDHW : domestic hot water
+HVAC : heating , ventilation , and air conditioningPV: photovoltaicBuildings
+(agents )Control components
+HVAC DHW PV Battery
+Branch
+Bus1 2 3 4 5
+7 8 911 12
+Partial distribution network
+12

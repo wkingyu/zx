@@ -1,0 +1,108 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Special Topic   Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management
+formation is available during training and that each agent can 
+only use local information during execution to achieve decen ‐
+tralized execution[6–7,16]. In this paper , grid -aware energy man ‐
+agement is formulated as a cooperative task because all agents 
+share one common objective , which is to stabilize voltages at 
+every bus in the whole distribution network . If each agent only 
+observes local information on its located bus in the training 
+phase , it is usually difficult to learn to control voltage within 
+the safety range and guarantee service quality[2, 11]. One reason 
+is that the environment is non -stationary if only considering 
+the local observation where one agent ’s action can actually af ‐
+fect the whole distribution network[17].
+As a result , we approach grid -aware energy management with 
+the paradigm of CTDE . In CTDE , agents’ information is shared 
+in the training phase . In the execution phase and the time we 
+evaluate the algorithm performance , agents are only allowed to 
+make decisions based on their local observation . Specifically , in 
+this paper , we improve and introduce our algorithms all based 
+on the actor -critic class . After combining the structure of CTDE 
+with actor -critic RL algorithms , the critic mainly assists the ac ‐
+tor in learning during training , and the input of the critic is 
+global information ; while the input of the actor is local informa ‐
+tion, and the actor needs to make decisions independently in 
+the execution phase . The advantages of CTDE for grid -aware 
+energy management are twofold . On one hand , the centralized 
+training process can motivate multiple agents to learn coopera ‐
+tion by perceiving a more comprehensive landscape . On the 
+other hand , the execution process is fully decentralized without 
+requiring complete information in the training phase , which 
+guarantees efficiency and flexibility in online management . By 
+applying CTDE , the learned strategies can be deployed to the 
+power grid and achieve cooperative control without any commu ‐
+nication device . Note that the paradigm of centralized training 
+and centralized execution does not apply to this task due to 
+commercial settings and users ’ privacy provision[18].
+3 Method
+In order to address the aforementioned challenges , we ap ‐
+proach this grid -aware energy management task with the CTDE 
+paradigm and propose a novel MAHGA approach . In the follow ‐
+ing, we first introduce the construction of the graph topology . 
+After that , we discuss our hierarchical graph attention architec ‐
+ture for the critic to better extract agents ’ correlations . Finally , 
+graph contrastive learning is devised as an auxiliary task in the 
+training process to improve representation learning from graphs . 
+The overview of MAHGA is s hown in Fig . 2, where the agent 
+takes action depending on its own observation by using the 
+policy . In the training phase , the critic predicts global value 
+based on all agents ’ observations and is updated by RL loss 
+and graph contrastive loss . The policy is updated by correspond ‐
+ing RL loss with the predicted value from the critic . When in 
+the execution phase , only the policy is used and it makes deci ‐
+sions by solely using agents ’ local observation .3.1 Graph Topology Modeling
+To capture the correlation between agents , we consider the 
+unique characteristics of distribution networks and construct 
+two graph structures , agent -level graph topology G1(V1,D1) 
+and bus -level graph topology G2(V2,D2), respectively . Note 
+that G represents graph topology , V represents the set of all 
+nodes in the graph , and D represents the adjacency matrix 
+which indicates how nodes are connected . For instance , if 
+node i is connected to node  j, Dij equals 1; otherwise , Dij 
+equals 0. As for the agent -level graph topology , every agent is 
+modeled as a node . The node set V1 consists of all agents in 
+the environment . We devise two types of operations to connect 
+edges . The first is the operation of nodes on the same bus 
+where all nodes on the same bus are connected with each 
+other . Nodes on the same bus form a complete graph . The first 
+operation for connecting edges is defined as follows :
+D1′
+ij=ì
+í
+î1,  b(i)=b(j)
+0,  otherwise 
+, (2)
+where b(i) denotes the bus , on which node  i is located .
+The second operation is to connect nodes from the adjacent 
+buses . In detail , all nodes on bus i will be connected to the 
+nodes on bus  j, if bus i and bus  j are connected in the distribu ‐
+tion network . Different from the first operation , this operation 
+makes all nodes on two adjacent buses form a complete bipar ‐
+tite graph . The second operation for connecting edges is de ‐
+fined as follows :
+D1′
+ij=ì
+í
+î1,  if b(i) and b(j) are adjacent
+0,  otherwise . (3)
+Then the adjacency matrix obtained from these two opera ‐
+tions is taken as the union to form the final adjacency matrix 
+for agent -level graph topology :
+D1
+ij=D1'
+ij∪D1''
+ij. (4)
+To sum up , the first operation is to model the relationship of 
+all the buildings on the same bus , and the second is to model 
+▲Figure 2. Overview of multi -agent hierarchical graph attention 
+(MAHGA ), where each agent has one policy and shares the same criticRL: reinforcement learningRL loss + contrastive lossAgent 1
+π π πAgent m Agent nMulti -agent environment
+Hierarchical graph attention model (critic )
+π
+vSharing
+Observation
+Action
+Policy
+Critic… …
+14

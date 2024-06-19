@@ -1,0 +1,71 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Special Topic   Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems
+Impacts of Model Mismatch and Impacts of Model Mismatch and 
+Array Scale on Channel Estimation for Array Scale on Channel Estimation for 
+XLXL--HRISHRIS --Aided SystemsAided Systems
+LU Zhizheng , HAN Yu , JIN Shi
+(National Mobile Communications Research Laboratory , Southeast Uni ⁃
+versity , Nanjing 210096 , China )DOI: 10.12142 /ZTECOM .202401004
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20240308 .1541 .002, 
+published online March 11, 2024
+Manuscript received : 2024 -01-25
+Abstract : Extremely large -scale hybrid reconfigurable intelligence surface (XL-HRIS ), an improved version of the RIS , can receive the inci ⁃
+dent signal and enhance communication performance . However , as the RIS size increases , the phase variations of the received signal across 
+the whole array are nonnegligible in the near -field region , and the channel model mismatch , which will decrease the estimation accuracy , 
+must be considered . In this paper , the lower bound (LB) of the estimated parameter is studied and the impacts of the distance and signal -to-
+noise ratio (SNR) on LB are then evaluated . Moreover , the impacts of the array scale on LB and spectral efficiency (SE) are also studied . Simu ⁃
+lation results verify that even in extremely large -scale array systems with infinite SNR , channel model mismatch can still limit estimation ac ⁃
+curacy . However , this impact decreases with increasing distance .
+Keywords : XL-HRIS ; near -field; LB; model mismatch ; parameter estimation
+Citation  (Format 1): LU Z Z , HAN Y , JIN S . Impacts of model mismatch and array scale on channel estimation for XL -HRIS -aided systems [J]. 
+ZTE Communications , 2024 , 22(1): 24–33. DOI : 10.12142 /ZTECOM .202401004
+Citation  (Format 2): Z. Z. Lu, Y. Han , and S . Jin, “Impacts of model mismatch and array scale on channel estimation for XL -HRIS -aided sys ⁃
+tems,” ZTE Communications , vol. 22, no. 1, pp. 24–33, Mar. 2024 . doi: 10.12142 /ZTECOM .202401004 .
+1 Introduction
+Reconfigurable intelligence surface (RIS) is a candidate 
+enabling technology for future 6G wireless communica ⁃
+tion systems[1]. It can increase the spectral efficiency 
+(SE) through reconfiguring the communication environ ⁃
+ment with low hardware cost and little consumption[2–4]. To in ⁃
+crease the SE of the communication systems , the phase shift of 
+each element at the RIS should be devised specifically , which 
+requires the acquisition of channel state information (CSI) in ad ⁃
+vance . However , for the passive RIS[5–13] that is composed of 
+nearly passive elements , only the cascade channel between the 
+transmitter and the receiver can be estimated , leading to high 
+computational complexity and high pilot overhead that is equal 
+to the number of elements at the RIS . CSI of the two separate 
+channels (i.e., the channel between the user equipment (UE) 
+and the RIS and that between the RIS and the BS ) cannot be 
+utilized directly to enhance communication performance . 
+Hence , the hybrid RIS (HRIS ), which is composed of both pas ⁃sive and active elements , has been proposed to estimate the CSI 
+in separate channels . The passive elements can only reflect the 
+signal with a programmable phase shift , while the active ele ⁃
+ments can also process the receive signal[14–18]. Many studies 
+have been conducted on channel estimation for HRIS -aided sys ⁃
+tems[19–21]. The authors of Ref . [19] proposed a two -stage chan ⁃
+nel estimation scheme , in which the HRIS estimated the chan ⁃
+nel between the UE and the HRIS firstly , followed by the BS es ⁃
+timating the channel between the HRIS and the BS . In Ref . 
+[20], the UE and the BS transmitted pilots to the HRIS , respec ⁃
+tively , and then the HRIS estimated the two separate channels . 
+In Ref . [21], the HRIS was equipped with only one single RF 
+chain , which enabled the estimation of the two separate chan ⁃
+nels with low hardware cost .
+However , as more elements are employed in the HRIS , it 
+becomes necessary to consider extremely large -scale HRIS 
+(XL-HRIS ) aided systems for further 6G wireless communica ⁃
+tion systems . When the aperture of the array is large , the 
+phase variations of the receive signal among the whole array 
+cannot be ignored , and the channel should be modeled by the 
+spherical -wave model . This will lead to high computational 
+complexity for channel estimation , because the high -
+dimension channel vector and the emerging distance param ⁃
+eter need to be considered in the near -field region[22–29]. Espe ⁃
+This work was supported in part by the National Natural Science Founda ⁃
+tion of China (NSFC ) under Grant Nos . 62301148 , 62341107 , and 
+62261160576 , in part by the Natural Science Foundation of Jiangsu Prov ⁃
+ince under Grant No . BK20230824 , and in part by the Key Technologies 
+R&D Program of Jiangsu (Prospective and Key Technologies for Indus ⁃
+try) under Grant Nos . BE2023022  and BE 2023022 -1.
+24

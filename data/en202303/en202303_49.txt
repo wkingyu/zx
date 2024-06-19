@@ -1,0 +1,109 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Massive Unsourced Random Access Under Carrier Frequency Offset    Research Papers
+lar domain by
+hk=UH
+Mh͂
+k , (3)
+where UH
+M is the M-dimensional discrete Fourier transform 
+(DFT) matrix . The angular domain channel is sparse with few 
+elements of dominant magnitude . This is attributed to the high 
+spatial resolution of massive MIMO , leveraging large -scale an ‐
+tennas against finite propagation paths . Also , due to the spec ‐
+tral leakage of DFT , the angular domain channel reveals a 
+clustered sparsity structure with nonzero elements spaced ad ‐
+jacent to dominant elements[17].
+In the URA scenario , active users pick up codewords/col ‐
+umns from a common codebook/coding matrix to transmit the 
+B-bit payload . We choose to generate the common codebook 
+by the sparse regression code[18]. Each entry of the codebook 
+A=[a1,⋯, a2B]∈CN×2B is generated from an i .i.d. Gaussian 
+distribution CN(1, 1/N) such that E{a2
+2}=1. We assume 
+that oscillators at users are synchronized to the same fre ‐
+quency through calibration[19–20], i.e., CFOs are the same for 
+all users . Considering a block fading channel where channel 
+coefficients remain unchanged in N symbol transmissions , the 
+received signal at the BS under CFO is represented as
+Y͂=∑kdiag(τ(ω))aikh͂T
+k+W͂=diag(τ(ω))ABH͂+W͂ ,(4)
+where ω≜2πΔfT with Δf the frequency offset between users 
+and the BS in Hz and T the sampling period , τ(ω)=
+[1, ejω,⋯, ej(N-1)ω]T is the corresponding phase rotation vector 
+due to CFO , B∈{0,1}2B×Ka is a selection matrix , H͂=
+[h͂
+1,⋯, h͂
+Ka]T∈CKa×M, and W͂ is the AWGN matrix with ele ‐
+ments generated from i .i.d. CN(0, σ2
+w). The (ik, k)-th entry of 
+B is nonzero only if the k-th user transmits the information se ‐
+quence mk with decimal(mk)=ik, where decimal(mk) is the 
+the radix ten equivalent of mk. The received signal in the angu ‐
+lar domain can be calculated as
+Y=diag(τ(ω))ABH͂U*
+M+W͂U*
+M=diag(τ(ω))ABH+W,
+(5)
+where H=[h1,⋯, hKa]T, and W≜W͂U*
+M is the equivalent 
+noise matrix .
+3 Proposed Algorithm for JADCE under CFO
+3.1 Problem Formulation and Probability Model
+Data detection in URA is to determine which column of A is 
+transmitted . For better illustration , we rewrite Eq . (5) as
+Y=diag(U*
+N|c)AX+W=Z+W, (6)
+where UN is the N-dimensional DFT matrix , c=UT
+Nτ(ω) is sparse due to the Vandermonde structure of τ(ω), X≜BH, 
+and Z≜diag(U*
+Nc)AX. Since Ka≪2B, X is row sparse . Fur‐
+thermore , the sparse rate of X is promoted due to the sparsity 
+of angular domain channels . Our purpose is to recover sparse 
+c and X from the noisy observation Y with known UN and A, 
+recognized as a CS recovery problem . Note that the URA re ‐
+ceiver does not attempt to link the message to its source de ‐
+vice, therefore , we do no need to reconstruct B.
+To solve the structured -matrix estimation problem , we start 
+with reformulating the random variable dependency corre ‐
+sponding to Eq . (6), taking on the form
+zn,m=∑i=1N∑j=12Bciz(i, j)
+n,mxj,m , (7)
+where z()i, j
+n,m≜un,ian,j is an element of a third -order tensor 
+{z()i,j
+n=[z()i, j
+n,1,⋯,z()i, j
+n,M]T}∀i,j. For the sparse vector c, we assign 
+a Bernoulli -Gaussian prior to each independent component 
+ci, i.e.,
+p(ci)=λcδ(cn)+(1-λc)CN(0, σ2
+c) , (8)
+where λc is the sparsity fraction of c and δ(∙) represents the 
+Dirac -delta function . Similarly , a Bernoulli -Gaussian prior is 
+used to model the conditional probability
+p(xj, m|sj, m)=δ(xj, m)δ(sj, m+1)+
+CN(xj, m;0, σ2
+x)δ(sj, m-1) , (9)
+where sj, m∈{-1, 1} is the binary state of xj, m with sj, m=±1 
+signifying that xj, m is nonzero/zero . To capture the clustered 
+sparsity of the angular domain channel support sj, :=
+[sj, 1,⋯, sj, M], we employ the Markov chain (MC) model[21] as 
+follows
+p(sj, :)=p(sj,1)∏m=2Mp(sj, m|||sj, m-1),(10)
+where the transition probability p(sj, m|sj, m-1) is given by
+p(sj, m|sj, m-1)=ì
+í
+îïïïï
+ïïïï() 1-p011-sj,mpsj,m
+01, sj, m-1=0
+() 1-p10sj,mp1-sj,m
+01, sj, m-1=1 , (11)
+and p(sj,1) is initialized as a steady -state distribution with 
+p(sj,1=0)=p10(p01+p10) and p(sj,1=1)=p10(p01+p10). 
+The MC model depicts the average cluster size and the aver ‐
+age gap between two clusters by parameters p10 and p01, re‐
+spectively . A smaller value of p10 indicates a larger cluster 
+length and a smaller value of p01 leads to a larger average gap 
+between two clusters . And in general , the sparsity of x is mea ‐
+sured as λx≜p10(p01+p10).
+47

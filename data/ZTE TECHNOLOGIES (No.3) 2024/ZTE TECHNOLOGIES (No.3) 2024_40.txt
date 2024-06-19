@@ -1,0 +1,108 @@
+Fig. 1. ZTE “Smart 
+Safeguard” anti-fraud 
+big model system.
+ 
+ 
+ 
+daily average number of overseas junk SMS 
+messages dropped from 500,000 to 600,000 to 
+20,000 to 30,000. The forecast success rate and 
+interception accuracy rate can reach up to 99%. 
+In addition, the number of fraud-related cases 
+has signi/f_icantly decreased. In August 2023, the 
+month-on-month ratio of overseas 
+fraud-related cases decreased by 64%. 
+Following the oﬃce’s provisioning, the system 
+received high acclaim from the operator and the 
+anti-fraud center of the province.
+Operator B’s achievements:  The total number of 
+mobile-originated (MO) messages initiated by 
+domestic terminals is 4 million per day, all of which 
+are monitored by the Smart Safeguard system. 
+The average daily interception success rate for 
+junk and fraudulent messages has increased from 
+57.25% to 93.60%. The false interception ratio has 
+reduced from 42.75% to 6.4%.
+In addition, ZTE’s AI anti-fraud technologies have 
+been chosen by China’s Ministry of Industry and 
+Information Technology as an innovative technology 
+application for preventing and controlling telecom 
+fraud, and they have been promoted nationwide.  
+Future Evolution and Prospect 
+The introduction of anti-fraud model marks the beginning of AI model application in the 
+communication sector. The Smart Safeguard series 
+models will be developed, evolved, and applied 
+across multiple domains, including service scope, 
+media capabilities, and industrial applications.
+Field expansion and capability openness:  ZTE 
+will achieve capability replication and openness, 
+further exploring the application of anti-fraud 
+governance in 5G communication, IT, and 
+content release.
+Computer vision model:  Besides SMS text 
+content anti-fraud, multimedia content is a 
+fast-growing form of telecom fraud. To ensure 
+that media content is trustworthy, secure, and 
+reliable in the new 5G communications era, the 
+Smart Safeguard model must eﬃciently identify 
+and combat  fraudulent multimedia content in 
+the future. 
+Industrial model: 5G industrial customers have 
+diverse requirements including intelligent 
+dialogues, industrial knowledge services, and 
+enterprise applications. By supporting L0/L1/L2 
+AI models and integrating them into platforms 
+on the new communications network side, such 
+as the 5G messaging platform, ZTE “Smart 
+Safeguard” model can rapidly meet the AI 
+capability requirements of 5G industrial 
+communication, eﬀectively serving government 
+and enterprise customers.
+ 
+ 
+ 
+ 
+ 
+Feature 
+extractionSample 
+mapping Model 
+MGMT
+Data 
+cleaningModel 
+training evaluationModel training 
+sub/f_lowModel prediction sub/f_low
+Scenario model Result vector
+Result vector
+Result vector
+Result vectorLLM model
+MLP modelResult cacheFinger print 
+matching
+Protocol conversion 
+Security access
+SM proxyApproval Interception/
+releasePrediction Synthetical mark/uni00A0
+result Model invocation 
+Model 
+provisioning  Manual 
+auditContent 
+convergence 
+Fraud 
+sample Sample 
+cleaningMultidimensional 
+reports
+Statistics 
+analysis
+Result analysis
+ Public security 
+information center
+Complaints platformCommunication 
+administration bureau
+Group information 
+security Continuous training: Improving judgment accuracy
+Real-time inference: implementing eﬃcient interceptionHuman feedback: Continuously improving sample library
+SNS analysisDetailed list 
+warehousing  Incremental sampleManual audit of sub/f_lows
+Sample 
+management
+ 
+38 Success Stories 

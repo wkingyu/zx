@@ -1,0 +1,71 @@
+Enhancing User Perception with 
+uSmartNet: Achieving a Leap in 
+User Experience
+Deputy Director of ZTE 
+Integrated Technology 
+Delivery Dept.Qian Zhengtieith the rise of the 
+metaverse, big data and 
+generative AI are gradually 
+penetrating into diverse 
+sectors, creating new application /f_ields. 
+Meanwhile, the global digital economy is 
+developing rapidly, and the construction of 
+5G networks is speeding up. Communication 
+networks are becoming more complex, and 
+the number of applications is increasing. 
+People have raised higher requirements 
+for network quality, and user experience 
+has become the key to the success of 
+communication network businesses. 
+A conventional KPI de/f_ined based on 
+an event trigger counter cannot visually 
+re/f_lect actual user experience of a network. 
+As a result, the focus of network quality 
+improvement is gradually shifting from the 
+conventional target of improving network 
+KPIs to the core target of improving user 
+experience. For operators, there is an urgent 
+need to establish a network indicator 
+identi/f_ication and optimization system 
+based on user perception, and ensure that it 
+provides eﬃcient and accurate functions in 
+daily networks. 
+Rapidly identifying and solving user 
+perception problems, and achieving 
+predictability and prevention of such 
+problems, is an ongoing goal pursued by 
+the technical team of ZTE Global Services in 
+the digital and intelligent era. Through the Wdelivery of a large number of commercial 
+network projects around the world in recent 
+years, ZTE has accumulated comprehensive 
+service capabilities in platforms, personnel, 
+knowledge, and processes. The company has 
+developed an end-to-end user perception 
+identi/f_ication, improvement, and prediction 
+solution based on uSmartNet, with rate and 
+latency perception as its core objectives. 
+USmartNet is an autonomous network 
+platform that integrates big data and 
+AI technologies, providing end-to-end 
+coverage for communication networks 
+from single domain to cross-domains 
+(Fig. 1). The p latform provides insights into 
+data from multiple domains including users, 
+terminals, services, networks, and operation,  
+supporting the digital and intelligent 
+transformation of operators. In terms of 
+ensuring user experience, uSmartNet uses 
+a comprehensive KPI+KQI+QoE approach 
+to establish a user perception evaluation 
+system to accurately restore service 
+perception. Leveraging the perception 
+analysis and processing capabilities of big 
+data, wireless networks, bearer networks, 
+and core networks, it builds an end-to-end 
+user perception analysis and optimization 
+system to demarcate and locate end-to-end 
+quality problems, analyze user perception 
+and network complaints, predict perception 
+problems, and handle the problems in a 
+closed loop quickly. 
+32Digital & Intelligent Network Services Special Topic

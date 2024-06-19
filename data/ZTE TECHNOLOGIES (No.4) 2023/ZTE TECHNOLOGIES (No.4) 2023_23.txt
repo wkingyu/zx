@@ -1,0 +1,83 @@
+mechanism to replace the keys in the 
+old system and con/f_igure new system 
+keys. 
+Establish a reliable mechanism for 
+uploading and downloading keys.
+Build a retry mechanism for reliable 
+key con/f_iguration.
+Develop an interactive user interface (UI) 
+for end users, helping them understand 
+and complete the upgrade process.
+Ensure uninterrupted usage of critical 
+applications like Launcher, YouTube, 
+Net/f_lix, and Amazon Prime in the new 
+system. 
+Value
+With the support of STBs for online 
+ecosystem upgrade and switching, 
+operators have the /f_lexibility to choose 
+desired ecosystems while maximizing 
+their ROI on /f_ixed assets. This not only 
+drives the rapid growth and prosperity 
+of ecosystems such as Google and RDK-V 
+but also empowers operators to navigate 
+ecosystem choices with con/f_idence. ZTE, 
+as a pioneer in the industry, has adopted 
+this advanced technical scheme and 
+successfully facilitated the upgrade and 
+switching from AOSP to AndroidTV for 
+millions of STB devices in the existing 
+network of the AMX project in Mexico. This 
+achievement signi/f_ies a win-win outcome 
+for all parties involved. starting the system upgrade. 
+Step 2: The STB carries the encrypted 
+device identi/f_ier and requests the key 
+management & provision server to 
+download the corresponding key /f_ile 
+(Fig. 3).
+Step 3: The key management & 
+provision server processes the STB 
+request. After successful veri/f_ication, 
+it locates the corresponding key /f_ile 
+based on the device identi/f_ier and 
+returns it to the STB (Fig. 3). 
+Step 4:  The STB utilizes a secure 
+application to write obtained new 
+keys into TEE with the expected level 
+of security, and then triggers a system 
+reboot (Fig. 4). 
+New System Setup Wizard
+The new system will automatically 
+enter the setup wizard after it starts 
+up. When the user /f_inishes the relevant 
+setup wizard, the new system will enter 
+the Launcher normally, and the whole 
+process of online upgrade and switching 
+between the old and new systems has 
+been completed. 
+To ensure the safety and reliability of 
+online key updates during the ecosystem 
+upgrade and switching process, the 
+following design requirements are of 
+great importance. 
+Use a secure TEE con/f_iguration 
+Fig. 4. Step 4 for online 
+download and writing 
+of new keys to commercial 
+STBs.
+1
+2
+3
+4Key management & 
+provision server
+Key tool serverZTE Key OTA APP
+Provision tool (libprovision.so)
+System
+ID
+TA encryption key Derive
+BL32Decrypt
+Provision TANew widevine keybox
+Old widevine keybox
+Widevine TANew WV system ID yyy for ATV
+Old WV system ID xxx for AOSP
+21AUG 2023

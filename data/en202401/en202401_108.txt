@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Research Papers   Filter Design of Wireless Base Station Power Supply
+wireless base station power supply prototype , and the effective ⁃
+ness of the filter design is verified by simulation and experi ⁃
+mental measurements . Experimental results show that the de ⁃signed filter improves the noise rejection effect in the low and 
+medium frequency bands by about 12 dB compared with the 
+original filter , and the occupied board area is reduced by 60%.
+▲Figure 24. Noise spectrum of the prototype with original filterAV: average value     QP : quasi -peak value
+▲Figure 25. Prototype removes raw noise from the filterAV: average value     CM : common mode     DM : differential mode     QP : quasi -peak value(a) L noise (b) N noiseFrequency/Hz Frequency/HzQP
+AVFull spectrum Full spectrumLevel in dB μ
+150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30MQP
+AV
+EN 55032  class B voltage on mains AVEN 55032  class B voltage on mains QP80
+70
+60
+50
+40
+30
+20
+10
+080
+70
+60
+50
+40
+30
+20
+10
+0EN 55032  class B voltage on mains AVEN 55032  class B voltage on mains QPLevel in dB μ
+QP
+AV
+EN 55032  class B current on RF probe AVEN 55032  class B current on RF probe QP
+(a) L noiseFrequency/Hz150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30MLevel in dB μ90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+QP
+AVLevel in dB μ60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+(c) CM noiseFrequency/Hz
+Level in dB μ90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+Frequency/Hz150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M
+(b) N noise
+60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+-5
+-10
+(d) DM noiseFrequency/HzLevel in dB μQP
+AV
+QP
+AV
+EN 55032  class B voltage on mains AVEN 55032  class B voltage on mains QP
+EN 55032  class B voltage on mains AVEN 55032  class B voltage on mains QPEN 55032  class B current on RF probe AVEN 55032  class B current on RF probe QP150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M
+150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M 150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M
+104

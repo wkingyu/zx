@@ -1,0 +1,51 @@
+基于长短期记忆网络的数字孪生移动通信网络环境生成技术 梁广明  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3基于长短期记忆网络的数字孪生
+移动通信网络环境生成技术
+Digital Twin Environment Generation for Mobile Communication 
+Networks : A Long Short-Term Memory Approach
+梁广明 /LIANG Guangming1，杨鲲/YANG Kun1，
+刘强/LIU Qiang1，陈建军 /CHEN Jianjun2，3
+（ 1.电子科技大学 ，中国 成都 611731 ；
+2.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+3.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.University of Electronic Science and Technology of China , Chengdu 
+611731 , China ;
+2.ZTE Corporation , Shenzhen 518057 , China ;
+3.State Key Laboratory of Mobile Network and Mobile Multimedia Tech ⁃
+nology , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202303004
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230620 .1322.004.html
+网络出版日期 ：2023 -06-20
+收稿日期 ：2023 -04-26
+摘要 ：未来 6G时代将进入虚拟化的数字孪生世界 ，实现“万物智联 ，数字孪生 ”的愿景 。移动通信网络的数字孪生需要建立物理通信网络与孪
+生通信网络之间的高精度映射 ，保证孪生虚拟数据与实际物理数据保持高度匹配 。针对上述数字孪生环境生成的问题 ，采用了数据驱动的长短
+期记忆网络的方法 ，对移动通信网络中的无线信道 、基站业务流和用户移动轨迹进行时序预测与生成 ，从而构建出高精度数字孪生环境 。仿真
+结果表明 ，所提算法能精准生成未来时序数据 ，与物理通信网络真实数据保持高度一致 。
+关键词 ：移动通信网络 ；数字孪生 ；长短期记忆网络 ；时序预测
+Abstrac t:The future 6G era will enter a virtual digital twin world and realize the vision of wisdom connection and digital twin . The digital twin 
+of mobile communication network needs to establish a high-precision mapping between the physical communication network and the twin 
+communication network to ensure that the virtual data and the physical data are highly matched . To solve the problem of digital twin environ ⁃
+ment generation , the method of data-driven long short-term memory network is adopted to predict the time sequence of wireless channel , 
+base station traffic flow and user mobility trajectory in mobile communication network , so as to construct a high-precision digital twin envi ⁃
+ronment . Simulation results show that the proposed algorithm can accurately predict future time series data .
+Keywords :mobile communication network ; digital twin ; long short-term memory network ; time series prediction
+引用格式 ：梁广明 , 杨鲲, 刘强, 等. 基于长短期记忆网络的数字孪生移动通信网络环境生成技术  [J]. 中兴通讯技术 , 2023 , 29(3): 15-20. DOI :
+10.12142 /ZTETJ .202303004
+Citation : LIANG G M ,YANG K ,LIU Q , et al . Digital twin environment generation for mobile communication networks : a long short-term 
+memory approach [J]. ZTE technology journal , 2023 , 29(3): 15-20. DOI:10.12142 /ZTETJ .202303004
+数字孪生是指对物理世界的数字镜像 ，借助数据驱动的
+方法对物体实体的历史数据和实时数据进行分析与挖
+掘，从而对物理实体进行高精度模拟和预测 。同时 ，数字孪
+生需要具备强大的智能纠错和数据自生成能力 。当前数字孪
+生已经开始应用在各个领域中 ，为各项技术提供模拟 、验证
+和试错的高精度孪生环境 。在工业领域 ，文献 [1]提出了一
+种数据驱动的工业设备数字孪生结构和维护框架 ，为发电厂的风力涡轮机开发了一个数字孪生体 ，以便进行故障预测与
+检测 。在电力和能源领域 ，文献 [2]提出了一种采用前馈神
+经网络的冷却器数字孪生方法 ，将孪生体收集到的数据提供
+给遗传算法 ，从而进行多目标优化 ，使冷却效率 、性能系数
+和湿球效率实现最大化 。在医疗与健康领域 ，文献 [3]提出
+了一种模拟患者的头部行为的数字孪生模型 ，并在该模型上
+检测患者颈动脉狭窄的严重程度 ，实现了非侵入式的检测 。
+IMT- 2030 （6G）推进组在 《6G总体愿景与潜在关键技
+术白皮书 》[4]中指出 ，未来 6G时代将进入虚拟化的数字孪生 基金项目 ：国家重点研发计划 （2021 YFB2900204 ） ；国家自然基金 （62132004 ）
+15

@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Special Topic   Point Cloud Processing Methods for 3D Point Cloud Detection Tasks
+the BEV method .
+3) FPS
+Farthest point sampling (FPS) is a commonly used sampling 
+algorithm , especially suitable for LiDAR 3D point cloud data . 
+It can guarantee uniform sampling of samples , so it is widely 
+used. For example , in PointNet++[12], a 3D point cloud deep 
+learning framework , sample points are sampled by FPS and 
+then clustered as the receptive field ; in VoteNet[19], the scat ⁃
+tered points obtained by voting are sampled by FPS and then 
+clustered ; in PVN 3D[20], a 6D pose estimation algorithm , it is 
+used to select eight feature points of the object to vote and cal ⁃
+culate the pose .
+The principle of the FPS algorithm is : Given a point cloud 
+with N points , a point P0 is selected from the point cloud as 
+the starting point to obtain a sampling point set S = {P0}. Then 
+we calculate the distance from all points to P0 to form an N-
+dimensional array L, select the point corresponding to the 
+maximum value as P1, and update the sampling point set S = 
+{P0, P1}. Then we calculate the distance from all points to P1. 
+For each point Pi, if the distance to P1 is less than L[i], L[i] = 
+d(Pi, P1) is updated . Therefore , the stored L in the array is al ⁃
+ways the shortest distance from each point to the sampling 
+point set S. The point corresponding to the maximum value in 
+L is then selected as P2 and the sampling point set S = {P0, P1, 
+P2} is updated . The above steps are repeated until N’ target 
+sampling points are sampled .
+Several evaluation metrics are commonly used to assess the 
+performance of an algorithm in 3D object detection . Here are 
+some of the most common ones :
+• Average precision (AP): This is a widely used metric that 
+measures the accuracy of object detection algorithms . It is cal ⁃
+culated by computing the area under the precision -recall 
+curve . AP is often used to compare the performance of differ ⁃
+ent algorithms on a given dataset .
+• Intersection over union (IoU): This metric measures the 
+overlap between the predicted bounding box and the ground 
+truth bounding box . It is calculated as the ratio of the intersec ⁃
+tion area to the union area of the two boxes . IoU is often used 
+as a threshold to determine whether a detection is true posi ⁃
+tive or false positive .
+• Mean average precision (mAP ): This metric is similar to 
+AP, but it is calculated by taking the average of AP values 
+across multiple object categories ; mAP is often used to evalu ⁃
+ate the overall performance of an object detection algorithm .
+• Precision : This metric measures the proportion of true 
+positives among all detections . It is calculated as TP/ (TP + 
+FP), where TP is the number of true positives and FP is the 
+number of false positives .
+• Recall : This metric measures the proportion of true posi ⁃
+tives among all ground truth objects . It is calculated as TP/ (TP+
+FN), where TP is the number of true positives and FN is the 
+number of false negatives .
+These metrics are important for evaluating 3D object detec ⁃tion because they provide a quantitative measure of the object 
+performance . By comparing these metrics across different algo ⁃
+rithms , researchers can identify which ones are most effective 
+for a given task .
+3 Voxel -Based Point Cloud Processing Methods
+Voxel -based 3D point cloud object detection methods con ⁃
+vert irregular point clouds into compact -shaped voxelized rep ⁃
+resentations and then efficiently extract point cloud features 
+for 3D object detection through 3D convolutional neural net ⁃
+works . During voxelization , the point cloud data are divided 
+into a certain number of voxels , and these voxels are grouped 
+and down -sampled . Since the point cloud data need to be 
+down -sampled during the voxelization process , some detailed 
+information will be lost . The degree of information loss is 
+closely related to the chosen resolution .
+Although the voxelization process causes information loss , 
+it has many advantages . First , the voxelized point cloud data 
+will be stored in an orderly manner in memory , which will 
+help reduce random memory access and increase data comput ⁃
+ing efficiency . Second , thanks to the ordered storage and 
+down -sampling of data brought about by voxelization , this type 
+of method can handle point cloud data in a large amount . In 
+addition , the voxelized data can efficiently be processed by 
+spatial convolution , which is beneficial for extracting multi -
+scale and multi -level local feature information .
+When it comes to voxel -based methods[5, 21–24], VoxelNet[21] 
+has to be mentioned , which is a pioneering work . VoxelNet 
+proposes a voxel feature encoding (VFE) layer , which groups 
+points within a voxel in Fig . 1, and the number of point clouds 
+after grouping is not exactly the same . In order to reduce the 
+imbalance of the number of point clouds between groups , re⁃
+duce the sampling deviation , and save computing resources , 
+the grouped point clouds are randomly sampled so that the 
+number of points in each group does not exceed a fixed value 
+T. In each group , they apply PointNet[11] to learn features on 
+each point and aggregate point features to obtain voxel -level 
+features .
+VFE is an important module . The VFE layer i n Fig . 3 voxel ⁃
+izes the original 3D point cloud data and learns voxel -level  
+features . This method combines the original point cloud repre ⁃
+sentation and 3D voxel representation . After extracting features 
+from the point cloud , VoxelNet uses convolutional middle lay ⁃
+ers and region proposal networks (RPNs )[25] to generate the final 
+3D detection box .
+The key innovation of VoxelNeXt[5] is to omit the steps of an ⁃
+chor, sparse⁃to⁃dense , RPN , non max suppression (NMS ), etc., 
+and directly predict objects from sparse voxel features . Based 
+on VoxelNet , VoxelNeXt has better accuracy and a speed 
+trade -off than other detectors in nuScenes[26]. Compared with 
+the CenterPoint[27], fully sparse 3D object detector (FSD)[28] 
+and other methods , VoxelNeXt is more friendly to long -
+distance object detection in Fig . 4.
+40

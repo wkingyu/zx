@@ -1,0 +1,87 @@
+during the /f_inal presentation, allowing users 
+to seamlessly switch between diﬀerent 
+viewpoints while maintaining a high level of 
+temporal consistency across all frames.
+360-Degree FVV
+FVV refers to a business model centered 
+around events and activities, where multiple 
+or surround cameras are used to capture 
+video information from multiple viewpoints. 
+Through stages such as production, 
+transmission, distribution, and playback, 
+users have the ability to freely rotate their 
+view of the captured objects or scenes from 
+any viewpoint by manipulating the user 
+interface.
+FVV fully leverages the advantages of 
+multiple viewpoints, detailed capture, 
+and freedom of viewing. It allows users to 
+enjoy videos from diﬀerent viewpoints and 
+interactively rotate the view, enhancing their 
+sense of participation and interactivity while 
+getting rid of the dependency on traditional 
+director viewpoints.
+FVV can also be applied in the production 
+of special eﬀect scenes, creating eﬀects 
+like bullet time and freeze-frame surround. 
+With enhanced technologies like virtual 
+viewpoints and AI recognition, FVV delivers 
+an exceptional user experience, oﬀering 
+superior immersion and engagement. 
+8K VR FOV
+Due to restrictions in terminal decoding 
+capabilities and network bandwidth, current 
+VR videos are mostly in 4K resolution. As a 
+result, the actual image quality experienced 
+by users is relatively low, signi/f_icantly 
+aﬀecting their viewing experience. The 
+adoption of 8K VR poses higher requirements 
+for both transmission bandwidth and 
+terminal decoding capabilities, which are 
+not yet widely available in terminal devices. 
+Therefore, there exists a contradiction 
+between the clarity and resource can enjoy an immersive experience of these 
+live events on a big screen, with more 
+realistic images, amazing special eﬀects, 
+richer scenarios, and /f_iner performances. 
+8K UHD /f_ilms and TV shows revolutionize 
+the visual experience, making viewers 
+feel as if they were physically present 
+at the scene. In addition, leveraging the 
+ultra-high resolution and realistic images, 
+8K UHD video can empower the industries 
+like industrial manufacturing and remote 
+healthcare.  
+Interactive Video
+Frame-Synchronized MVV
+MVV refers to the simultaneous 
+broadcasting of multiple independent video 
+streams from diﬀerent viewpoints to users 
+during events such as sports broadcasts. 
+This allows users to choose their preferred 
+viewing point or even watch multiple 
+viewpoints at the same time. By breaking 
+the traditional rules of TV broadcasting, 
+this function gives users the freedom to 
+personalize their viewing experience. 
+As multi-viewpoint videos are transmitted 
+independently, various synchronization 
+issues may arise during camera capture, 
+encoding, transmission, relay, buﬀering, 
+decoding, and rendering. To address these 
+issues, multi-channel frame synchronization 
+technology is adopted to guarantee 
+the consistency of the multi-viewpoint 
+video feeds, allowing users to experience 
+a seamless and synchronized viewing 
+experience. 
+The core technology, multi-channel frame 
+synchronization, utilizes a synchronization 
+signal generator at the camera side to 
+achieve signal synchronization. During 
+video encoding, synchronization tags are 
+embedded, and when playing back at 
+the client side, the frame synchronization 
+information from multiple video streams 
+is decoded. This enables frame alignment 
+29AUG 2023

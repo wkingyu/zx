@@ -1,0 +1,59 @@
+大语言模型算法演进综述 朱炫鹏  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2大语言模型算法演进综述
+Review of Evolution of Large Language Model Algorithms
+朱炫鹏 /ZHU Xuanpeng ，姚海东 /YAO Haidong ，刘隽/LIU Jun，
+熊先奎 /XIONG Xiankui
+（ 中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202402003
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240422 .2005.004.html
+网络出版日期 ：2024 -04-23
+收稿日期 ：2024 -03-02
+摘要 ：基于 Transformer 架构的大语言模型展现出强大的能力 ，是人类迈向通用人工智能 （AGI）的一个重大进步 。大语言模型架构和算法的演
+进分为提高推理效率 、提高模型能力两条技术路线 。介绍了两条技术路线主流的技术方案和思路 。提高推理效率的方法有分布式推理 、计算优
+化、访存优化 、量化等 ；提高模型能力主要是引入新的架构 ，如混合专家 （MoE）模型、状态空间模型 （SSM）等。
+关键词 ：大语言模型 ；Transformer ；注意力
+Abstrac t:The large language model based on the Transformer architecture shows powerful capabilities , and it is a major progress towards artifi ⁃
+cial general intelligence (AGI). The evolution of large language model architecture and algorithms is divided into two technical paths : improving 
+the inference efficiency and model capability . The mainstream technical solutions and ideas for the two technical routes are described . Meth ⁃
+ods for improving inference efficiency include distributed inference , computing optimization , memory access optimization , and quantification . 
+To improve model capabilities , new architectures such as mixture of experts (MoE ) and state space model (SSM ) are introduced .
+Keywords :large language model ; Transformer ; attention
+引用格式 ：朱炫鹏 , 姚海东 , 刘隽, 等. 大语言模型算法演进综述  [J]. 中兴通讯技术 , 2024 , 30(2): 9-20. DOI: 10.12142 /ZTETJ .202402003
+Citation ： ZHU X P , YAO H D , LIU J , et al . Review of evolution of large language model algorithms [J]. ZTE technology journal , 2024 , 30(2): 9-
+20. DOI: 10.12142 /ZTETJ .202402003
+1 大语言模型算法发展概况
+OpenAI 于2022 年、2023 年 分 别 发 布 ChatGPT[1]和GPT-
+4[2]，其强大的会话能力 、多模态能力震惊业界 ，是人
+类迈向通用人工智能 （AGI）的一个重大进步 。ChatGPT 和
+GPT- 4能力强大的原因有两个 ：一是 Transformer[3]架构的自
+注意力机制 ，可获取任意距离间单词的相关信息 ；二是大
+模型 、大数据 、大算力 ，规模超过了一定阈值 ，则会产生
+涌现能力[4]。
+目前各大公司都发布了自己的大语言模型 （LLM） 。本
+文中 ，我们主要介绍大语言模型在两条技术路线上的架构和
+算法的演进 。
+1.1 语言模型的发展历程
+语言模型的发展经历了统计语言模型 、神经语言模型 、
+预训练语言模型和大语言模型 4个阶段[5]。其结构从基于统
+计概率发展到基于神经网络 ，模型复杂度不断增加 ，能力也
+出现了质的提升 。
+1） 统计语言模型最初的语言模型是基于统计概率的 ，即根据语料统计出
+在某个上下文出现某个词的概率 ，根据概率选择最合适的词 。
+2） 神经语言模型
+文献 [6]首次将神经网络引入语言模型 。常见的模型结
+构有循环神经网络 （RNN）[7]、长短期记忆网络 （LSTM ）[8]
+等。RNN 用隐藏层保存逐个输入的词的信息 ，但由于梯度
+消失和梯度爆炸 ，只能保留短期信息 。LSTM 使用门控机制 ，
+可以选择性地保留长期信息 。
+3） 预训练语言模型
+ELMo[9]用预训练的双向 LSTM 网络根据上下文动态生成
+词向量 ，解决了一词多义问题 。双向 LSTM 网络可以在下游
+任务上微调 ，得到更好的效果 。基于 Transformer 的双向编码
+器表征法 （BERT ）[10]也采用了预训练 +下游任务微调的
+范式 。
+4） 大语言模型
+预训练语言模型的性能随着规模的增大而提高 ，成幂律
+关系[11-12]。OpenAI 设计了大型语言模型 GPT- 3[13]。该模型表
+现出强大的能力 ，性能和规模超越了幂律关系 ，出现了涌现
+09

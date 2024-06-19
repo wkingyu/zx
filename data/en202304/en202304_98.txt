@@ -1,0 +1,157 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos    Research Papers
+ing the x .265 encoder to generate high -quality videos . To in ⁃
+vestigate whether the QP can influence the impact of framer ⁃
+ates on the perceptual video quality , V5 and V 6 were encoded 
+with four different QPs , i.e., 22, 32, 36, and 39, to generate 
+four quality levels . During the experiment , video sequences 
+were displayed in their resolution in random orders . It is noted 
+that videos with 120 fps were displayed at 90 fps on the HMD 
+since the refresh rate of the HMD is only 90 Hz.
+3.2.3 Experiment 2: Obtaining Visual Realism
+Three high -quality stereoscopic videos (3 840×3 840 resolu ⁃
+tion) were downloaded . Note that the audio tracks were not 
+used in this experiment . These videos last for 20 s and have a 
+frame rate of 30 fps. The projection mode is equirectangular . 
+They were firstly separated into two monoscopic videos , namely 
+the left and right videos , separately . To investigate the impact 
+of stereoscopic vision , the left videos and stereoscopic videos 
+were utilized as the test materials that were further encoded 
+into three quality levels : 1 Mbit/s , 5 Mbit/s and 14 Mbit/s  for 
+monoscopic videos and 2 Mbit/s , 8 Mbit/s and 18 Mbit/s for 
+stereoscopic videos . The FOV was set to be 60 degrees , 90 de⁃
+grees and 110 degrees , respectively . The ACR 5-point scale 
+was also used in this experiment to record the evaluation 
+scores for the perceptual video quality and visual realism . To 
+obtain visual realism , the subjects were asked a question : “To 
+what extent are your visual experiences in the virtual environ ⁃
+ment consistent with that in the real world ?”.
+3.2.4 Experiment 3: Obtaining Perceptual Audio Quality
+The audio tracks from the perceptual evaluation of audio 
+quality (PEAQ ) conformance test listed in ITU -R BS .1387[42] 
+were employed as the reference . More specifically , six 
+samples , four music pieces and two speeches , were used , as 
+summarized in Table 2. The sampling frequency of all audio 
+files is 48 kHz . Stereo (two -channel ) audio files were used for 
+the test . They were encoded using the Advanced Audio Codec 
+(AAC ) encoder with a bit rate of 8 kbit/s , 16 kbit/s , 32 kbit/s , 
+64 kbit/s , 128 kbit/s , 256 kbit/s , and 320 kbit/s , respectively 
+and a sampling rate of 48 kHz . The generated audio se ⁃
+quences were displayed to subjects on a high -fidelity head ⁃
+phone in a random order . After each display , the subjects 
+were asked to rate the quality levels of audio files in ACR 5-
+point scales .
+3.2.5 Experiment 4: Obtaining Acoustic Realism
+The left videos in Experiment 2 encoded with 14 Mbit/s and 
+corresponding audio files were used in this experiment to in ⁃vestigate the influence of the audio quality and spatial audio 
+on acoustic realism . The audio component of these videos was 
+in eight channels with each representing the sound from one 
+direction . The original audio files were encoded using the 
+AAC codec with a bit rate of 128 kbit/s and a sampling rate 
+of 44.1 kHz . The sound from front -left and front -right was 
+firstly mixed into the stereo audio . Then , the stereo audio 
+files and original spatial audio files were encoded with 16 
+kbit/s , 32 kbit/s , 64 kbit/s , and 128 kbit/s to generate four 
+quality levels . After the display of each audiovisual se ⁃
+quence , two questions were asked : “How do you rate the qual ⁃
+ity of the audio you just heard ?” and “To what extent are your 
+acoustic experiences in the virtual environment consistent 
+with that in the real world ?”. Then , the subjects used the 
+ACR 5-point scale to score the audio quality and acoustic re ⁃
+alism of the test sequences separately .
+3.2.6 Experiment 5: Obtaining Proprioceptive Matching
+In this experiment , the influence of the MTP latency and AL 
+on proprioceptive matching was investigated . First , three left vi ⁃
+sion videos in Experiment 2 with “excellent ” video quality 
+were displayed with seven lengths of MTP latency , i.e., 0 ms, 
+20 ms, 60 ms, 100 ms, 200 ms, 300 ms, and 500 ms, in a ran ⁃
+dom order . Their audio files (high quality , 128 kbit/s ) were dis ⁃
+played with no audio latency . Then , these videos were dis ⁃
+played with no MTP latency while the corresponding spatial 
+audio files (high quality , 128 kbit/s ) were displayed with eight 
+different lengths of audio latency , i.e., 0 ms, 20 ms, 60 ms, 
+150 ms, 300 ms, 500 ms, 1 000 ms, and 2 000 ms, respec ⁃
+tively . The subjects were asked to score the degree of proprio ⁃
+ceptive matching for the test sequences with the ACR 5-
+point scale .
+3.2.7 Experiment 6: Obtaining Spatial Presence
+As listed in Table 3, the original stereoscopic videos (i.e., 
+denoted as S 1 to S 3) and corresponding stereo audio files in 
+Experiment 2 were first encoded and displayed on the HMD 
+with no MTP latency and AL . Then , the original audiovisual 
+files were encoded with high quality and displayed with six 
+MTP latencies , i.e., 0 ms, 20 ms, 80 ms, 150 ms, 300 ms, and 
+▼Table 2. Experimental setup
+File Name
+FCODSB 1.WAV
+GCODCLA .WAV
+LCODHRP .WAVSignal Type
+music
+music
+musicFile Name
+LCODPIP .WAV
+NCODSFE .WAV
+KREFSME .WAVSignal Type
+music
+speech
+speech▼Table 3. Experimental setup
+No.
+S1
+S1
+S1
+S1
+S1
+S1
+S2
+S2
+S2Video /
+(Mbit/s )
+2
+8
+18
+18
+2
+4
+2
+8
+18Audio /
+(kbit/s )
+16
+32
+64
+16
+64
+128
+16
+64
+128No.
+S2
+S2
+S2
+S3
+S3
+S3
+S3
+S3
+S3Video /
+(Mbit/s )
+8
+18
+2
+2
+8
+18
+8
+18
+2Audio /
+(kbit/s )
+16
+32
+64
+32
+64
+128
+16
+32
+128
+95

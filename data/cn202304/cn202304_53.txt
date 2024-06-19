@@ -1,0 +1,49 @@
+大规模语言模型的跨云联合训练关键技术 潘囿丞  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4大规模语言模型的
+跨云联合训练关键技术
+Key Technologies for Cross-Cloud Joint Training of 
+Large-Scale Language Models
+潘囿丞 /PAN Youcheng ，侯永帅 /HOU Yongshuai ，
+杨卿/YANG Qing ，余跃/YU Yue，相洋/XIANG Yang
+（ 鹏城实验室 ，中国 深圳 518055  ）
+(Peng Cheng Laboratory , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202304010
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230724 .1522 .002.html
+网络出版日期 ：2023 -07-25
+收稿日期 ：2023 -06-08
+摘要 ：模型参数规模的不断增加使模型训练所需的算力资源变得更加庞大 ，导致很多情况下单个算力集群难以满足大规模语言模型的训练需求 。
+大规模语言模型的跨云联合训练成为解决这一问题的有效方式 。以自然语言处理大模型的跨云预训练和微调为例 ，介绍了大规模语言模型跨云
+训练的主要挑战和关键技术 ，并探讨了这些技术在跨云训练过程中的具体应用 、实际效果和未来场景 。这些技术将为智能化应用和人机交互等
+提供有力支持 。
+关键词 ：大规模语言模型 ；算力资源 ；跨云训练 ；自然语言处理
+Abstrac t:As the scale of model parameters continues to grow , the computational resources required for model training become significantly 
+larger . This often leads to situations where a single computing cluster is insufficient to meet the training needs of large-scale language mod ⁃
+els. Cross-cloud joint training of large-scale language models has emerged as an effective solution to addressing this challenge . In this 
+study , taking cross-cloud pre-training and fine-tuning of natural language processing models as examples , we introduce the main chal ⁃
+lenges and key technologies involved in cross-cloud training of large-scale language models . The specific applications , practical effects , and 
+future scenarios of these technologies in the cross-cloud training process are explored . These technologies will provide strong support for 
+intelligent applications and human-computer interaction .
+Keywords :large-scale language model ; computational resource ; cross-cloud training ; natural language processing
+引用格式 ：潘囿丞 , 侯永帅 , 杨卿 , 等. 大规模语言模型的跨云联合训练关键技术  [J]. 中兴通讯技术 , 2023 , 29(4): 49-56. DOI : 10.12142 /
+ZTETJ .202304010
+Citation ： PAN Y C , HOU Y S , YANG Q , et al . Key technologies for cross-cloud joint training of large-scale language models [J]. ZTE technol ⁃
+ogy journal , 2023 , 29(4): 49-56. DOI: 10.12142 /ZTETJ .202304010
+大规模语言模型是一种使用深度学习方法技术在大规模
+无标注文本语料数据上进行训练的人工智能方法 。近
+年来 ，这类模型得到了快速发展 ，模型能力实现极大提升 。
+然而 ，模型的参数规模也变得越来越大 。例如 ，2018 年谷
+歌的 BERT-Base 模型只有 1.1亿个参数[1]，而到了 2020 年，
+OpenAI 的GPT- 3模型的参数量已经达到 1 750亿个[2]。随着
+模型参数的增加 ，模型训练所需的算力资源也变得更加庞
+大。BERT-Base 模型可以在单张图形处理器 （GPU）上训
+练，而GPT- 3模型则需要在数千张 GPU 上进行数月的训练 。当前 ，单个算力集群很少具备数千张 GPU 算力卡的规模 ，
+即使是那些具有数千张卡的算力集群 ，也很难将它们在长时
+间内集中用于同一个任务 。因此 ，为了满足大规模语言模型
+的训练需求 ，需要将多个算力集群的资源联合训练来提高效
+率。随着 “东数西算 ”工程的逐步开展 ，中国各地建立了大
+量的算力集群 。异地跨云计算将成为今后大模型训练的可行
+方式 。
+1 基于多算力集群的跨云训练方法
+1.1 跨云计算的并行训练方式
+在跨云集群环境中进行模型训练 ，需要解决不同云集群 基金项目 ：科技创新 2030 —“新一代人工智能 ”重大项目 （2022 ZD0115301 ）
+49

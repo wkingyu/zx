@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Perceptual Quality Assessment for Point Clouds : A Survey    Special Topic
+rich color information that point clouds have .
+In the PCQA standards collected by MPEG , in addition to 
+p2point[68] and p 2plane[47, 49], there is also PSNRyuv[10] that can 
+perceive the texture distortion of colored point clouds . Since 
+this method is based on the expansion of PSNR , it inevitably 
+possesses the limitations of PSNR itself[88–89]. Therefore , 
+ALEXIOU et al .[52] considered extending Structural Similarity 
+(SSIM )[88]. They focused on studying four factors : geometry , 
+normal vector , curvature , and color , and proposed PointSSIM . 
+Meanwhile , MEYNET et al .[53] explored four factors in Point 
+Cloud Quality Metric (PCQM ), namely , curvature , brightness , 
+chroma , and hue . These factors are combined by using opti ⁃
+mal linear weighting . Furthermore , DINIZ et al . further ex ⁃
+plored  point cloud color perception and proposed statistical 
+variants of local binary patterns (LBP)[56–57], perceived color 
+distance patterns (PCDP )[58], and local luminance patterns 
+(LLP)[59], achieving excellent performance on multiple data ⁃
+bases . Besides , they combined geometric and color statistical 
+information to propose a low -complexity BitDance[60] algo ⁃
+rithm . These methods combine the geometric and color infor ⁃
+mation of point clouds and promote the development of objec ⁃
+tive quality assessment of colored point clouds to a certain ex ⁃
+tent. However , whether the underlying principles of these 
+methods are in line with the human visual system still needs 
+to be further verified . YANG et al .[55] proposed GraphSIM 
+based on the fact that the human visual system is more sensi ⁃
+tive to high -frequency signals , integrating local graph similar ⁃
+ity features and color gradients . ZHANG et al .[63] improved 
+GraphSIM with consideration to the multi -scale characteristic 
+of human visual perception and proposed MS -GraphSIM . We 
+can see that many current works are paying more attention to 
+the perception mechanism of the human visual system itself . 
+On the other hand , we also see XU et al .[62] combining the con ⁃
+cept of elastic potential energy similarity , interpreting point 
+cloud distortion as the work done by external forces on the ref ⁃
+erence point cloud , and creatively combining relevant knowl ⁃
+edge in the physical field with visual perception . Whether the 
+rich research results in other fields can guide objective point 
+cloud quality assessment is a topic worthy of attention and in -
+depth exploration .
+The above methods all involve reference point clouds when 
+evaluating point cloud quality , and in many practical cases , 
+we cannot obtain all the reference point clouds or there are no 
+point clouds for reference at all . Therefore , related research on 
+RR and NR assessment methods is very necessary . Due to the 
+lack of reference information , RR and NR 
+objective PCQA methods are more chal ⁃
+lenging . A Reduced Reference Metric for 
+Visual Quality Evaluation of Point Cloud 
+Content (PCMRR )[72] and Reduced refer ⁃
+ence Point Cloud Quality Assessment (R-
+PCQA )[73] are two commonly used model -
+based RR PCQA methods . The former re ⁃duces references by extracting statistical features in the geom ⁃
+etry, color and normal vector domains , while the latter 
+achieves reduced -reference by fitting the relationship between 
+quantization steps and perceived quality . Feature extraction 
+can be divided into two types . One is to manually extract the 
+required features based on the model itself . For example , 
+ZHOU et al .[76] combined human brain cognition to design a 
+blind evaluation method using a structure -guided resampling 
+(SGR) method , extracting three features : ensemble density , 
+color naturalness , and angle consistency . ZHANG et al .[64] 
+used 3D scene statistics (3D-NSS) and entropy to extract qual ⁃
+ity perception features , and finally used support vector regres ⁃
+sion (SVR) to get the quality score of the point cloud . SU et al .
+[75] explored from the perspective of end -user Quality of Expe ⁃
+rience (QoE) and developed a bitstream -based no -reference 
+method . Another type is to use deep learning to extract point 
+cloud quality features . Typical methods include ResSCNN[4] 
+and perceptual quality assessment of point clouds (PKT -
+PCQA )[77]. The former is based on sparse convolutional neural 
+networks and the latter is based on progressive knowledge 
+transfer . Combined with Table 3, it is not difficult to find that 
+existing works rarely extract quality features of point cloud 
+models themselves through deep learning . One possible rea ⁃
+son is that point clouds , as a dense data structure , require a 
+huge amount of space and cost in storage and calculation . 
+Therefore , point clouds are not suitable for direct feature ex ⁃
+traction through deep learning .
+3.2 Projection -Based Methods
+As shown in Fig . 4, the projection -based method projects a 
+3D point cloud and represents the quality of the entire point 
+cloud by evaluating the quality of the projection . The method 
+effectively circumvents the problems of storage space and 
+computational overhead caused by the point cloud . Projection -
+based methods can be used for full -reference objective point 
+cloud quality evaluation[6, 36, 65], as well as reduced -reference[74] 
+and no -reference quality evaluation methods[66–67, 78–84]. Re⁃
+garding the setup of projection , ALEXIOU et al . conducted ex ⁃
+periments in Ref . [25]. The results show that when the projec ⁃
+tion exceeds six projection planes , the quality prediction per ⁃
+formance does not significantly improve . Based on these re ⁃
+sults, YANG et al .[6] first projected the reference point cloud 
+and distorted point clouds onto six planes separately through 
+perspective projection , and then extracted global and local fea ⁃
+tures of depth and color images through projection to evaluate 
+▲Figure 4. General framework of projection -based point cloud quality assessment (PCQA ) 
+methods . Dashed lines indicate different amounts of reference information in full -reference 
+(FR), reduced -reference (RR), and no -reference (NR) methodsDistorted
+Pointcloud
+Reference
+PointcloudProjectionImage/video 
+processingFeature
+extraction & fusionPooling Quality
+09

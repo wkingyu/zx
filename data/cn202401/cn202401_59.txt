@@ -1,0 +1,52 @@
+面向卫星通信与导航的下一代多址接入 侯天为  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1面向卫星通信与导航的
+下一代多址接入
+Next Generation Multiple Access for Satellite Communication and 
+Navigation Networks
+侯天为 /HOU Tianwei ，关达/GUAN Da ，孙昕/SUN Xin
+（ 北京交通大学 ，中国 北京 100044  ）
+(Beijing Jiaotong University , Beijing 100044 , China )DOI：10.12142 /ZTETJ .202401010
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240226 .1524.009.html
+网络出版日期 ：2024 -02-26
+收稿日期 ：2023 -12-18
+摘要 ：面向卫星通信与导航 （SCAN ）系统多样复杂的应用场景 ，下一代多址接入 （NGMA ）技术可以提供更高的通信速率 、更多的接入数量和
+更广的覆盖面积 。面向 SCAN 系统，对基于多功能 NGMA 、基于多资源 NGMA 和基于多技术 NGMA 展开研究 ，分析了现有的 NGMA 技术对
+SCAN 系统的性能增益 。最后，总结 SCAN-NGMA 面临的挑战 ，展望了未来发展的方向 ，为SCAN-NGMA 架构的进一步演进提供了参考依据 。
+关键词 ：NGMA ；SCAN ；多功能 NGMA ；多资源 NGMA ；多技术 NGMA
+Abstrac t:In the context of diverse and intricate application scenarios within satellite communication and navigation (SCAN ) systems , next gen ⁃
+eration multiple access (NGMA ) technology offers the potential for increased communication rates , expanded access capacity , and broader cov ⁃
+erage . It focuses on investigating the application of multi-function-based NGMA , multi-resource-based NGMA , and multi-technology-based 
+NGMA within the SCAN system . It also analyzes the performance enhancements that existing NGMA technology can bring to the SCAN sys ⁃
+tem. Furthermore , this paper concludes by summarizing the challenges inherent in SCAN-NGMA system . It also looks ahead to the future de ⁃
+velopment direction , providing valuable insights that serve as a reference for the ongoing evolution of SCAN-NGMA architecture .
+Keywords :NGMA ; SCAN ; multi-function NGMA ; multi-resource NGMA ; multi-technology NGMA
+引 用 格 式 ：侯 天 为 , 关 达 , 孙 昕 . 面 向 卫 星 通 信 与 导 航 的 下 一 代 多 址 接 入  [J]. 中 兴 通 讯 技 术 , 2024 , 30(1): 55-59. DOI : 10.12142 /
+ZTETJ .202401010
+Citation ： HOU T W , GUAN D , SUN X . Next generation multiple access for satellite communication and navigation networks [J]. ZTE technol ⁃
+ogy journal , 2024 , 30(1): 55-59. DOI: 10.12142 /ZTETJ .202401010
+多址接入技术作为移动通信系统中的重要组成部分之
+一，一直被誉为无线通信 “皇冠上的明珠 ” 。随着 5G
+的全面商用 ，6G已经开始被研究 。为了满足下一代移动通
+信系统对超高速率 、海量接入和多功能复用信号的需求 ，下
+一代多址接入 （NGMA ）技术就显得至关重要[1]。
+随着无线通信系统的发展 ，NGMA 可以被分为多功能
+NGMA （MF-NGMA ） 、多资源 NGMA （MR-NGMA ）和多技
+术NGMA （MT-NGMA ）[2]。在MR-NGMA 中，多种技术正
+在持续挖掘时域 、频域 、码域 、功率域 、空域和多普勒域等
+资源的非正交性 。MT-NGMA 主要关注多种先进通信技术与NGMA 的结合 ，例如智能超表面 、去蜂窝通信 、毫米波通信
+等[3-5]。多种先进技术的结合 ，可以针对性地提高无线通信
+系统性能 。在MF-NGMA 中，空域 、功率域等非正交算法使
+无线信号具有多种不同的功能 ，包括通信感知一体化或通信
+导航一体化等[6]。
+1 面向卫星通信与导航的 MR-NGMA
+卫星通信与卫星导航作为 6G中不可或缺的部分 ，具有
+全天候 、全覆盖等优点 。与传统地面通信相比 ，卫星通信系
+统具有超高移动性的特点 ，在多址接入技术方面具有较大的
+不同 ，受到了广泛的关注 。
+1.1 正交时频空接入技术
+近年来 ，随着学界对 6G技术的研究 ，卫星通信和导航基金项目 ：中央高校基础科研业务费重点项目 （2023 JBZY 012） ；国家自然科学
+基 金 青 年 项 目 （62201028 ） ；北 京 市 自 然 科 学 基 金 “海 淀 联 合 ”项 目
+（L232041 ） ；中国科协青年人才托举项目 （2022 QNRC 001） ；欧盟“玛丽居里学
+者”项目 （101106428 ）
+55

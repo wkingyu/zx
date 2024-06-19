@@ -1,0 +1,124 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Recent Advances in Video Coding for Machines Standard and Technologies    Review
+could be widely deployed . This technology was also used simi ⁃
+larly in Ref . [59], where a content -adaptive resampling (CAR ) 
+network was proposed to achieve spatial down -sampling and 
+was restored through bicubic interpolation , using frame extrac ⁃
+tion to perform down -sampling in the time domain . At the de ⁃
+coding end , the video frame interpolation network based on 
+the optical flow was used for restoration .
+5.3.4 Video Coding for Machines Optimized by End -to-End 
+Video Compression Framework
+Similar to learning -based end -to-end image compression algo ⁃
+rithms , such methods can also be used for video compression . 
+Traditional encoders adopt different coding strategies for I -frames 
+and P -frames of video . This feature was considered and a 
+learning -based video codec was proposed in Ref . [60], including 
+feature extraction , feature encoding and decoding , image recon ⁃
+struction , and neural network modules . Besides , different training 
+network models were adopted for the I -frame and P -frame , and 
+the reconstruction result of the compressed code stream of the I -
+frame was used to assist in the reconstruction of the P -frame .
+5.3.5 Hybrid Learning -Based Model and Traditional Codec to 
+Boost Video Coding for Machines
+The learning -based end -to-end compression method has a 
+high compression performance , but its time complexity is 
+high, and it will be time -consuming to compress all frames 
+end -to-end. In order to solve this problem , some proposals 
+have adopted hybrid video coding methods that only adopt 
+learning -based compression algorithms for the important 
+frames . Learning -based image coding was only used for I -
+frames and optical flow -based inter -frame coding for P -frames[61]. In application , only the RoI area and auxiliary tar ⁃
+get frame position information were encoded for image cod ⁃
+ing. The RoI area was determined by the object detection net ⁃
+work . For video coding , only in the smallest RoI region that 
+all objects in a group of pictures (GOP ) were coded . The net ⁃
+work optimized the loss function for image reconstruction 
+MSE . This method performed well on object detection and in ⁃
+stance segmentation but had a negative gain on object track ⁃
+ing. In Ref . [62], learning -based image coding was used for 
+the I -frame , and the traditional encoder VVC was used for 
+the P -frame , which achieved good results in object detection , 
+instance segmentation and object tracking .
+5.4 Framework of VCM Track -2 Standardization
+The method in VCM Track -2 started earlier and received 
+many valuable proposals during several meetings after the CfP 
+was proposed . In the 140th meeting of MPEG , 17 Track -2 pro⁃
+posal responses were officially received , involving technical 
+directions such as end -to-end video compression , traditional 
+block -based video compression , hybrid end -to-end and tradi ⁃
+tional video compression . In the current solution , there is a 
+maximum performance improvement of 55% for object track ⁃
+ing, a maximum performance improvement of 45% for in ⁃
+stance segmentation , and a maximum performance improve ⁃
+ment of 40% for object detection . Based on the current effect , 
+MPEG continues to promote the VCM standardization work 
+and officially transfers Track -2 from the demand group to the 
+video group . In the most recent meetings , the main work con ⁃
+tent of VCM Track -2 was to promote standardization and de ⁃
+velop the test software platform of VCM .
+Fig. 6 shows the overall framework of the Track -2 proposal , 
+▲Figure 6. An overall framework of the Track -2 proposalAI: artificial intelligence
+BG: background GaussianFG: foreground Gaussian
+NN: neural networkROI: region of interest
+VCM : video coding for machinesAdditional information :
+decoder model selection ;
+ROI metadata and descriptors ;
+spatial resampling ratio and model selection/parameter setting ;
+temporal resampling ratio and model selection/parameter setting ;Conformance point of 
+existing standardConformance point of 
+VCMOutput 
+video
+Task networkInput 
+videoPre -analysisVCM encoder
+Input do ⁃
+main cate ⁃
+gorization Statistics 
+analysisNetwork -
+based ROI 
+detectionPre -processing Encoder Decoder RestorationVCM decoder
+BG re ⁃
+movalBG blur ⁃
+ringFG re ⁃
+freshing
+ROI pack ⁃
+ingROI scal ⁃
+ingLayered en ⁃
+coder
+NN encoder
+NN adaptor 
+for human (if 
+NN combines 
+existing en ⁃
+coder )
+Existing en ⁃
+coderNN decoder
+NN adaptor for 
+human (if NN 
+combines exist ⁃
+ing decoder )
+Existing de ⁃
+coderNN adaptor for 
+machine (if NN 
+combines exist ⁃
+ing decoder )ROI based repacking 
+resampling
+Unpacking Rescaling
+ROI based repacking , 
+resampling
+Spatial resampling
+Temporal interpolation
+Post filteringPro⁃
+cessed 
+videoRec 
+video
+Temporal resampling
+(AI/statistics -based )Spatial resampling 
+(frame/sequence level )Spatial/temporal bit alloca ⁃
+tionROI based filtering , resa ⁃
+mpling , and packingLayered de ⁃
+coder
+Video 
+bit⁃
+stream
+73

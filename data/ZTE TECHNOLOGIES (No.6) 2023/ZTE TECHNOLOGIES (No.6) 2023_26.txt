@@ -1,0 +1,84 @@
+FTTR-B Opens New Horizons for 
+Small and Micro Enterprises
+FM Product Planning 
+Manager, ZTEZhao JingF
+ 
+ 
+ 
+iber to the room (FTTR) all-optical 
+networking is bringing a 
+second /f_iber transformation 
+revolution and is experiencing
+explosive growth in China. The FTTR 
+technology gives operators the con/f_idence to 
+commit to bandwidth guarantees, the tool to 
+fully utilize their installation and maintenance 
+advantages, and the means to develop the 
+small and micro enterprise (SME) market.
+Traditionally, over 90% of SMEs build their 
+own networks using equipment purchased 
+from the open market. These networks lack 
+uni/f_ied standards for design, deployment, 
+and operation and maintenance (O&M), 
+leading to issues like severe bandwidth 
+bottlenecks, poor Wi-Fi coverage, frequent 
+network failures, and diﬃculties in localizing 
+faults. As a result, they cannot meet the 
+digital transformation needs of enterprises.
+As /f_iber-to-the-enterprise installation  inevitably 
+transitions to /f_iber-in-the-enterprise 
+deployment, ZTE has launched the FTTR 
+to business (FTTR-B) solution to help 
+SMEs build all-optical enterprise networks 
+based on passive optical network (PON) 
+technology. In the solution, the FTTR-B 
+main optical network terminal (ONT) is 
+the core device sitting at the entry to 
+the enterprise network. The main ONT 
+connects to the operator network through 
+an uplink PON port and to several room 
+ONTs via a downlink PON port to form an 
+all-optical local area network (LAN). With 
+its integration of the functions of an access 
+gateway, a router, an access controller 
+(AC), an integrated access device (IAD), and a power over Ethernet (PoE) switch, 
+the main ONT enables all-in-one simpli/f_ied 
+networking by replacing multiple devices 
+essential to a traditional enterprise 
+network. 
+In addition, the solution uses /f_iber as 
+the transmission medium and replaces the 
+traditional P2P copper-based connectivity 
+network with a point to multi point (P2MP) 
+/f_iber-based optical distribution network 
+(ODN) within the enterprise network. The 
+ODN features compact devices, robust 
+environmental adaptability, resistance to 
+electromagnetic and lightning interference, 
+and no need for equipment maintenance. 
+Compared with cable, /f_iber has a much 
+longer lifespan of up to 30 years, is much 
+cheaper, and therefore can signi/f_icantly 
+reduce the overall network construction cost. 
+As shown in Fig. 1, the FTTR-B all-optical 
+network solution can be used to replace 
+the traditional self-built network approach 
+of SMEs. By enabling the construction of an 
+all-optical enterprise network characterized 
+by superfast deployment, ultimate user 
+experiences, and ultra-simpli/f_ied O&M, the 
+solution can help SMEs with their digital 
+transformation.
+FTTR-B Helps Operators Reap Value 
+in Installation, Maintenance and 
+Management Services and Develop 
+Value-Added Services
+FTTR-B enhances network connectivity 
+for enterprises, thereby increasing network 
+revenue. By transitioning from a single /f_iber 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+24 

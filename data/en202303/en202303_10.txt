@@ -1,0 +1,156 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Special Topic   Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface
+each experiment . For example , for the BCI -2a dataset which 
+has 22 channel numbers , each channel has 213 samples , so 
+the size of the motion imagery state vector in each experiment 
+is 4 686 (equal to 213 samples × 22 channels ). Alternatively , 
+for the CLA data , which has 21 channels , each channel con ‐
+tains 170 samples , so the size of the state vector in each experi ‐
+ment is 3 570 (equal to 170 samples × 21 channels ).
+Feature 2: It has been proved that EEG signals contain fre ‐
+quency information[34], therefore , this paper adopts the same 
+way as Ref . [27] to extract the frequency information as Feature 
+2. For the dataset BCI -2a and CLA 
+dataset , firstly , the fast Fourier trans ‐
+form is performed on the EEG data 
+with a cropped duration of 0.85 s, 
+and then the selected complex fre ‐
+quency components correspond to 
+the real and imaginary values , re‐
+spectively . For the BCI -2a data , the 
+real and imaginary values of the 
+transformed 0–15 Hz were used 
+for frequency classification , yield ‐
+ing a 550 dimensional feature state 
+vector for each experiment . For the 
+CLA dataset , using the frequency 
+components between 0–5 Hz, a 
+complex frequency feature with 5 
+dimensions of real values and 4 di‐
+mensions of imaginary values for 
+each channel is obtained , and the 
+components for each channel are 
+concatenated to obtain a feature 
+state vector with a dimension of 189 
+(equal to 9 × 21 channels ).
+4.4 Experimental Results and 
+Analysis
+Firstly , the reinforcement learn ‐
+ing agent is trained on the CLA and 
+BCI -2a training sets , respectively , 
+and its learning curve is observed . 
+Fig. 4 shows the learning curves of 
+the first subject on each of the two 
+datasets . The learning curves show 
+that the DDQN algorithm can cor ‐
+rectly learn the correct mapping of 
+EEG signals to actions directly in 
+the MI center -out task with full 
+learning by the agent as the experi ‐
+ment progresses .
+Secondly , the generalization ef ‐
+fect of the DDQN algorithm on the 
+test set was compared with that of 
+the traditional supervised learning algorithms (the SVM , decision tree , and random forest ) and 
+the Q -KTD algorithm . The result was shown in Fig . 5. For the 
+same EEG data set , under different feature extraction , the gen ‐
+eralization effect of DDQN algorithm on EEG decoding was 
+significantly better than Q -KTD algorithm . Moreover , due to 
+the small sample size and high dynamic characteristics of 
+EEG signals , the classification performance of traditional su ‐
+pervised learning algorithms is poor , compared with DDQN -
+based EEG decoding .
+Thirdly , the running time of DDQN and Q -KTD algorithms 
+(a)Average success rate0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0   20  40   60 80 100
+EpisodesMonte carlo 1
+Monte carlo 2
+Monte carlo 3
+Monte carlo 4
+Monte carlo 5
+Monte carlo 6
+Monte carlo 7
+Monte carlo 8
+Monte carlo 9
+Monte carlo 10
+(b)
+▲Figure 4. Learning curves of double deep Q -network (DDQN ) on (a) Classical (CLA ) dataset and (b) 
+BCI competition IV -2a EEG data (BCI -2a) dataset , where each color represents the average success 
+rate of 10 Monte Carlo trials
+(a) BCI -2a data , Feature 1 (b) BCI -2a data , Feature 2
+(c) Classical data , Feature 1 (d) Classical data , Feature 2
+▲Figure 5. The generalizability of DDQN is compared with other classical algorithms for decoding 
+based on Feature 1 (left) and Feature 2 (right ) on the (a)(b)BCI -2a dataset and (c)(d) Classical (CLA ) 
+dataset , respectivelyBCI -2a: BCI competition IV -2a
+DDQN : double deep Q -networks algorithm Q-KTD : Q-learning via kernel temporal difference algorithm
+SVM : support vector machineSubjectA01 A 02 A 03 A 04 A 05 A 06 A 07 A 08 A 09DDQN
+Q-KTD (Feature -1)
+SVM (Feature -1)
+Decision trees (Feature -1)
+Random forests (Feature -1)80
+70
+60
+50
+40
+30
+20Test accuracy/%80
+70
+60
+50
+40
+30
+20Test accuracy/%DDQN
+Q-KTD (Feature -2)
+SVM (Feature -2)
+Decision trees (Feature -2)
+Random forests (Feature -2)
+SubjectA01 A 02 A 03 A 04 A 05 A 06 A 07 A 08 A 09
+DDQN
+Q-KTD (Feature -1)
+SVM (Feature -1)
+Decision trees (Feature -1)
+Random forests (Feature -1)90
+80
+70
+60
+50
+40
+30Test accuracy/%
+A B C D E
+Subject SubjectA B C D E90
+80
+70
+60
+50
+40
+30Test accuracy/%DDQN
+Q-KTD (Feature -1)
+SVM (Feature -1)
+Decision trees (Feature -1)
+Random forests (Feature -1)
+Subject
+(b)EpisodesMonte carlo 1
+Monte carlo 2
+Monte carlo 3
+Monte carlo 4
+Monte carlo 5
+Monte carlo 6
+Monte carlo 7
+Monte carlo 8
+Monte carlo 9
+Monte carlo 10
+0   20  40   60 80 100Average success rate1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+08

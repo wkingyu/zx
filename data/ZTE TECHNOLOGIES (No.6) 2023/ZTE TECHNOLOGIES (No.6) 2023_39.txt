@@ -1,0 +1,65 @@
+ FM Product Planning 
+Manager, ZTEHu Fuguo
+Link Net Achieves Fast End-to-End 
+FTTH Deployment in Indonesia 
+Using Light PON Solution
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to the national strategy and has launched 
+large-scale FTTH deployments in regions 
+like Java, Sumatra, Sulawesi, and Kalimantan 
+according to its own growth plans. 
+New Challenges 
+Link Net, the second largest /f_ixed-line 
+operator in Indonesia, has a /f_ixed broadband 
+network with more than 3 million home 
+passed, among which 2.4 million belong to 
+the hybrid /f_iber-coaxial (HFC) network. During 
+the network upgrade and transformation 
+process, Link Net has two options to consider: 
+one is to upgrade the existing HFC network 
+using the Docsis technology, and the other 
+is to build an FTTH network using the PON 
+technology. After a thorough assessment, 
+Link Net prefers PON that utilizes a passive 
+optical /f_iber network over Docsis that involves 
+active access, as PON has substantial cost 
+savings in O&M. Moreover, considering the 
+limited global applications and unclear future 
+evolution path of the Docsis technology, 
+Link Net has made a /f_irm decision to use the Accelerating FTTH Deployment
+ 
+s the global /f_iberization process 
+accelerates, FTTH has found 
+widespread deployment 
+worldwide for its excellent
+technical features such as ultra-high 
+bandwidth, long-haul transmission, and 
+energy eﬃciency, making it a critical access 
+technology for /f_ixed broadband networks. 
+However, due to Indonesia’s extensive island 
+geography, the cost of FTTH construction 
+remains high, resulting in a relatively low 
+maturity in /f_ixed broadband infrastructure 
+with a penetration rate of only 17%. To 
+improve national broadband accessibility and 
+boost digital growth, the Indonesian Ministry 
+of Communication has outlined strategic 
+broadband network development goals 
+for the 2020–2024 period. This plan aims 
+to increase the country’s /f_ixed broadband 
+penetration rate to 30%, necessitating the 
+construction of approximately 28 million lines 
+of FTTH networks. As a leader in Indonesia’s 
+/f_ixed-line market, Link Net actively responds ADEC 2023
+37 

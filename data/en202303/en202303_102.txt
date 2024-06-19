@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Research Papers   Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems
+problem . Since R is a Hermitian matrix , we only need to con ‐
+sider the upper triangular part when calculating the objective 
+function in Eq . (28). The main idea of the greedy algorithm is 
+that the objective function does not decrease after adding 
+|
+|[R]ij|
+|, i<j into or removing it out of the subset Sr. The algo ‐
+rithm consists of two steps . The first one is to define an initial 
+full antenna set S0={1,…, Nt} and sort all the elements 
+|
+|[R]ij|
+|, i<j in descending order . To ensure that the con ‐
+straint |Sr|>0 is satisfied , two antennas i and j corresponding 
+to [R]ij are partitioned into Sr in order . The second step is to 
+consider different cases of partitioning antenna i, j into differ ‐
+ent subsets and choose the one that maximizes the objective 
+function . In this process , if two antennas i and j belong to two 
+different subsets , only four cases related to two subsets are 
+considered . Otherwise , Nt
+RF cases are considered if both anten ‐
+nas belong to S0. For simplicity of description , we define a 
+function fRSr as follows :
+fRSr(Sr,nsel,r)=
+ì
+í
+îïïïï
+ïïïï0,  ||Sr=0 or { } nsel=Nt
+RF, and r=0
+1
+||Sr( )∑i,j∈Sr|
+||||| |
+|||||[]Rupi,j+1
+2∑i∈Sr||[]Ri,i, otherwise,
+(29)
+where  nsel denotes the number of subsets that already have ele ‐
+ments , and Rup is the upper triangular part of R. The partition 
+optimization algorithm is summarized in Algorithm 3. With 
+{Sr}Nt
+RF
+r=1, we can easily get Up, and then use the HBF -WMO al ‐
+gorithm proposed in Section 3 to optimize FRF with the PC -
+dynamic architecture .
+Algorithm 3: Dynamic subarrays partition optimization
+  Input : R, Nt
+RF, S0, nsel=0
+   1: Sort Rup in descending order :
+     |
+|[R]i,j|
+|≥|
+|[R]ik,jk|
+|≥⋯≥|
+|[R]iK,jK|
+|, 1≤ik<jk≤
+Nt, K=Nt(Nt-1)/2
+   2: For k=1:K repeat :
+   3:  If ik, jk∈S0:
+   4:    If nsel<Nt
+RF:  
+Snsel←{}ik,jk,S0\{}ik,jk,nsel←nsel+1
+   5:     Else : rmax=argmax
+r(fRSr(Sr∪{ik, jk},nsel, r))
+         Srmax←{ik, jk}, S0\{ik, jk}
+   6:  Else if ik∈Sm, jk∈Sl ,∀m,l∈{0,1,…,nsel}, m≠l:
+      ucrt=fRSr(Sm,nsel,m)+fRSr(Sl,nsel, l)
+      unewj=fRSr(Sm∪{jk},nsel,m)+fRSr(Sl\{jk},nsel,l)
+       unewi=fRSr(Sm\{ik},nsel,m)+fRSr(Sl∪{ik},nsel,l) unewij=fRSr( ) () Sm\{}ik∪{}jk,nsel,m+
+fRSr( ) () Sl\{}jk∪{}ik,nsel,l
+          u=[ucrt,unewj,unewi,unewij]
+      max(u)=unewj and m≠0,  Sm←{jk},Sl\{jk}
+      max(u)=unewi and l≠0,  Sm\{ik},Sl←{ik}
+      max(u)=unewij and m,l≠0, 
+(Sm\{ik})←{jk},(Sl\{jk})←{ik}
+  Output : {Sr}Nt
+RF
+r=1
+5 Simulation Results
+In this section , we first provide some simulation results 
+to show the spectral efficiency performance of the proposed 
+HBF -WMO algorithm in Section 3 with fixed hybrid archi ‐
+tectures , in comparison with the optimal fully -digital one . 
+Then , we compare the spectral efficiency performance of 
+fixed and dynamic partitions of antenna subarrays with the 
+PC architecture .
+Considering an mmWave MIMO -OFDM system as that in 
+Fig. 1, we assume that the transmitter takes a half -wavelength 
+spaced UPA with Nt=512 antennas for the transmission of 
+Ns=2 data streams . Five fixed hybrid architectures at the 
+transmitter are evaluated , including the FC and PC architec ‐
+tures , and three types of the OL architecture . Considering the 
+issue of practical implementation of the HBF architecture , we 
+propose three specified OL architectures when four RF chains 
+are employed with a 16×32 UPA at the transmitter , which 
+are shown in Fig . 3. The numbers indicate the antenna in ‐
+dexes , and the units in the same color mean that the corre ‐
+sponding antenna elements are connected to the same RF 
+chain . The antennas within framed squares are overlapped 
+and connected to multiple RF chains . The receiver takes a 
+UPA with Nr=8 antennas and Nr
+RF=2 RF chains with a 
+fixed PC architecture . The number of subcarriers is set to 
+N=64, the bandwidth is 100 MHz and the center fre ‐
+quency is 28 GHz . The signal -to-noise ratio (SNR ) is de ‐
+fined as 1
+σ2. We take CDL -A as the channel model to evalu ‐
+ate the system performance in a more practical NLOS sce ‐
+nario . In the simulation , the stopping condition is set as the 
+relative difference between the objective function values of 
+two consecutive iterations becomes smaller than δ=10-3.
+5.1 Performance with Different Fixed Hybrid Architectures
+Fig. 4 shows the performance of spectral efficiency as a 
+function of SNR for the proposed HBF -WMO algorithm with 
+different fixed architectures in CDL -A when four RF chains 
+are equipped at the transmitter . The performance curves of the 
+FC, PC, and OL architectures are labeled as “FC”, “PC”, and 
+“OL”, respectively . For comparison , two FDBF algorithms , 
+namely the FDBF with singular value decomposition (SVD) on 
+100

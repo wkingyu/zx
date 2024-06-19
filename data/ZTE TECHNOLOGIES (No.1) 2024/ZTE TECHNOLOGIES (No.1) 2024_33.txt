@@ -1,0 +1,73 @@
+transmitted through one node but 
+processed and computed at the other 
+location, such as a central cloud or regional 
+computing center. This results in 
+prolonged transmission delays and 
+increased investment. ZTE has innovatively 
+merged 5G network and computing 
+capability by simply inserting a computing 
+board, NodeEngine, into 5G base stations. 
+This allows service data to be processed 
+locally in real time, rather than being 
+transmitted over long distances, thereby 
+accelerating decision-making processes. 
+NodeEngine boasts plug-and-play 
+functionality, delivering exceptional 
+performance and ample capacity to enable 
+real-time processing and sending of 
+roadside perception data. This deployment 
+method eliminates the need for new 
+machine rooms, leveraging existing base 
+station resources to reduce the 
+deployment costs and the deployment 
+time. Moreover, computing power can be 
+shared across base stations to form an edge 
+cloud, ensuring uninterrupted service 
+delivery. It is estimated that a single base 
+ 
+autonomous vehicles. Additionally, to 
+ensure the independent transmission of 
+both links, two distinct frequency points 
+are adopted, thereby minimizing 
+interference and maximizing the 
+bandwidth resources of V2X services. For 
+instance, a 100M private V2X network can 
+be virtually created on the existing 100M 
+public network, restricting public network 
+users from accessing the private V2X 
+network, thus enhancing transmission 
+reliability. Moreover, through intelligent 
+pre-scheduling, required service resources 
+and periodicity can be accurately 
+identi/f_ied, allowing the network side to 
+proactively provide dynamic resource 
+reservations for terminals, thereby 
+reducing service latency. Overall, ZTE’s 
+solution achieves a low latency of 20 ms 
+and a high reliability of 99.99%, 
+demonstrating industry leading 
+performance for driving safety.
+Ultra-Reliable Computing Service
+In traditional methods, data is 
+ 
+Fig. 1. Ultra-reliable 5G 
+network guarantee 
+solution for 
+autonomous driving.
+Cloud
+Network
+Road
+5G dual-modem gateway
+ 
+VehicleCentral 
+cloud
+Edge 
+cloud
+Ultra-reliable 5G network
+NodeEngine inside 
+the base station
+ 
+ 
+ 
+ FEB 2024
+ 31

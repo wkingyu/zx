@@ -1,0 +1,51 @@
+基于机器学习的智能路由解释方法 孟子立  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5基于机器学习的智能路由
+解释方法
+Interpreting Machine Learning-Based Intelligent Routing Algorithms
+孟子立 /MENG Zili ，徐明伟 /XU Mingwei
+（ 清华大学 ，中国 北京 100084 ）
+（Tsinghua University ，Beijing 100084 ，China  ）DOI：10.12142 /ZTETJ .202305009
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231017 .0948.002.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-02
+摘要 ：综述了基于机器学习的智能路由方法的进展 ，并提出了一种针对基于机器学习的智能路由技术的解释方法 。该方法可以对神经网络等黑
+盒子技术的输出决策结果进行解释 ，支持几乎所有类型的智能路由算法 。网络管理员可以利用该方法理解智能路由算法为何做出某些决策 ，并
+在此技术上进一步优化算法 ，排除故障 ，增强部署信心 。
+关键词 ：智能路由 ；图神经网络 ；超图；可解释性
+Abstrac t:The recent advances in machine-learning-based intelligent routing algorithms are reviewed and a new interpretation method for 
+machine-learning-based intelligent routing algorithms is proposed . This method can explain output decision results of black-box technolo ⁃
+gies such as neural networks . Network operators can therefore utilize such an interpretation method to understand the logic behind it . Fur⁃
+ther optimizations of the algorithm , debugging , and enhancing the confidence of deployment can be explored .
+Keywords :intelligent routing ; graph neural network ; hypergraph ; interpretability
+引用格式 ：孟子立 , 徐明伟 . 基于机器学习的智能路由解释方法  [J]. 中兴通讯技术 , 2023 , 29(5): 56-60. DOI: 10.12142 /ZTETJ .202305009
+Citation ： MENG Z L , XU M W . Interpreting machine learning-based intelligent routing algorithms [J]. ZTE technology journal , 2023 , 29(5): 56-
+60. DOI: 10.12142 /ZTETJ .202305009
+路由是网络中的重要科学问题 ，是数据包从一端到另一
+端寻路所必需的组成部分 。近年来 ，智能路由技术也
+得到业界越来越多的关注 。智能路由技术智能的智能性主要
+体现在路由算法开始采用机器学习 、深度学习等技术 ，并使
+用了图神经网络 、强化学习等建模 、训练方法来对路由算法
+进行优化 。
+然而 ，随着机器学习等复杂算法的引入 ，路由的决策过
+程逐渐变得黑盒化 、不透明 。因此 ，尽管网络管理员知道某
+神经网络的路由算法较优 ，但可能较难理解其背后的逻辑 ，
+从而不敢轻易相信 。因此 ，基于机器学习的智能路由技术面
+临部署困难等问题 。
+1 基于机器学习的智能路由主要技术
+一方面 ，人工智能技术在近年来发展十分迅猛 ；另一方面，软件定义网络与可编程路由设备的研究甚至规模部署也
+为基于机器学习的复杂路由算法提供了部署的可能 。本节将
+按照机器学习技术的分类 ，从监督学习和强化学习两种常用
+的机器学习方法对智能路由的主要技术进行介绍 。
+1.1 基于监督学习的技术
+监督学习是一种预先将网络状态和与其对应的较优的路
+由策略标记出来的技术 。该技术使得模型能够准确地完成输
+入到输出映射 。目前监督学习的趋势是所采用的模型基本上
+是深度神经网络 。近年来 ，业界提出了一些基于监督学习的
+路由方法 ，这些方法要么直接采用深度神经网络进行决策优
+化，要么引入一些深度学习的模块辅助现有算法进行决策 。
+在直接使用深度神经网络进行决策的解决方案中 ，常见
+的做法是将网络拓扑 （网络信息 ）与数据包序列号 、流量需
+求矩阵 、链路利用率 、延迟 、吞吐量 、流量特征等信息通过
+滤波器进行特征提取后 ，放到深度学习模型中 ，然后让深度 基金项目 ：国家自然科学基金项目 （62221003 ）
+56

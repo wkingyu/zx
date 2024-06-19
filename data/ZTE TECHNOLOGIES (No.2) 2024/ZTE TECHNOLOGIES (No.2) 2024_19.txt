@@ -1,0 +1,73 @@
+Orchestrator
+Cloud private network controllerSPN controller T-SRv6 domain
+SR-TPSPN
+SRv6 policyT-SRv6 node T-SRv6 node
+T-SRv6 END.BXC extensionCloud private network
+SRv6 policyCentral computing
+Fig. 2. SPN 2.0 
+T-SRv6 transport 
+solution.
+an intelligent closed-loop system solution for service 
+quality assurance, and successfully veri/f_ied this 
+solution on ZTE’s existing intelligent management 
+and control system, ZENIC ONE (UME). This solution 
+changes manual and passive O&M to automatic and 
+active O&M in some scenarios, increasing network 
+maintenance eﬃciency and service security, reducing 
+customer complaint rates, and improving customer 
+satisfaction.
+Moreover, the industry has begun to harness the 
+power of native AI in SPN devices to create an 
+intelligent energy-saving solution. AI is used to adapt 
+to the tidal traﬃc patterns of the existing network, 
+collect network data in real time and analyze service 
+load changes. Multi-layer energy-saving solutions 
+have been developed at the chip, module, board, 
+and network levels to achieve intelligent power 
+saving while strictly guaranteeing the transmission 
+performance of the transport network. This 
+innovative intelligent energy-saving solution has 
+been piloted and tested in China Mobile’s existing 
+network in 2022. Preliminary veri/f_ication results 
+indicate an energy-saving eﬀect of 15%. 
+SPN 2.0 Technology Progress
+SPN technology has been applied on a large scale 
+in China, with smooth progress in both domestic 
+and international standardization eﬀorts. The 
+standard on SPN 1.0 was released by China Communications Standards Association (CCSA) in 
+2021, while the ITU-T MTN standards, including 
+G.8310, G.8312, G.8321, G.8331, and G.8350, were all 
+released by September 2022. Currently, CCSA is in 
+the process of releasing standards for SPN 2.0 FGU. 
+The enterprise standards for miniaturized SPN and 
+computing-network SPN of China Mobile have 
+basically been formulated. Additionally, ITU-T has 
+approved FGU as a new work item. Complemented 
+by the drafts of IETF series standards, SPN 2.0 is 
+expected to further enrich the SPN standards 
+system.
+With the application of SPN products in the 
+industrial sector, the Alliance of Industrial Internet in 
+China has released a research report that 
+summarizes SPN's application in industrial scenarios. 
+The 5G transport group of IMT-2020(5G) Promotion 
+Group's 2022 research report on 5G-R transport 
+technology and network management & control 
+solution has identi/f_ied SPN as the most preferred 
+technology. In 2022, the SPN 2.0 solution was 
+awarded the “Most Innovative Network Slicing Case” 
+at the Network X held by Informa in Netherlands, 
+highlighting the global recognition of SPN 
+technology. As the SPN 2.0 technologies and 
+solutions continue to be adopted by operators and 
+integrated into industrial private networks, SPN 
+technology is poised to enter a new stage of 
+development, empowering various industries and 
+shaping an intelligent digital future.
+ 
+ 
+ 
+ 
+ 
+APR 2024 
+ 17

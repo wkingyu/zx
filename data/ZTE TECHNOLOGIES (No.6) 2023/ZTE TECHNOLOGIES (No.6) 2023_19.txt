@@ -1,0 +1,57 @@
+renders ODN topology and links visible 
+and manageable and makes resource 
+statistics constantly accurate. On that basis, 
+it constructs an intelligent, real-time, and 
+accurate optical network monitoring system, 
+thereby enhancing operational eﬃciencies 
+and reducing operational costs. 
+In addition to enabling rapid network 
+construction, Light ODN allows for the 
+optimization of ODNs and the visualization 
+of dumb resources. It advances the 
+application of PON technology in enterprise, 
+campus, and home scenarios like /f_iber to 
+the room (FTTR). By combining the NMS of 
+the ODN with the element management 
+system (EMS) of the OLT, Light ODN creates 
+an end-to-end fully visualized PON network 
+that serves as an intelligent foundation of 
+all-optical access.
+On top of its existing features like 
+pre-connectorization, image recognition, 
+automatic data synchronization, and network topology restoration, Light ODN 
+will incorporate research results in areas 
+such as /f_iber sensing and intelligent analysis 
+and prediction. It will combine AI analysis 
+and prediction applications, and integrate 
+key technologies such as all-parameter 
+perception of optical networks, automatic 
+topology discovery, real-time link 
+monitoring, fault location and delineation, 
+and risk prediction and warning to help 
+operators build digitalized, intelligent FTTx 
+networks with integrated sensing and 
+communication capabilities.
+ZTE's Light ODN solution has been 
+deployed in multiple countries including 
+Peru and Indonesia. In addition to helping 
+operators rapidly build ODNs, it also makes 
+optical network topologies visible and 
+optical network resources manageable, 
+enhancing the utilization eﬃciency of optical 
+infrastructure and achieving a win-win with 
+the customers.
+ Fig. 2. Link diagnosis 
+results page.X
+OLT Status Normal
+OLT PON Port Status is normal
+OTDR device is not con/f_igured
+Distribution Fiber BrokenLink Channel AnalysisTest Type Test Result
+Diagnosis View ZTEGD22C5799 (ONU)
+X
+ 
+ 
+ 
+ 
+DEC 2023 
+ 17

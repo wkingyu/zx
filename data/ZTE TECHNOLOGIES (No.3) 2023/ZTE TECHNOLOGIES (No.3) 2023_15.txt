@@ -1,0 +1,86 @@
+Three Core Capabilities for ZTE 5G 
+Field Network
+After extensive practice, ZTE has proposed 
+three key capabilities of 5G /f_ield network: 
+deterministic guarantee, one-stop cloud-
+network solution, and simpli/f_ied O&M for 
+enterprises (Fig. 2). 
+Deterministic Guarantee 
+For common applications of 5G /f_ield 
+network such as data collection, AGVs and 
+PLC northbound, deterministic requirements 
+of 20 ms @99.99% are typical. To meet these 
+requirements, it is recommended to use 
+network enhancements such as local traﬃc 
+oﬄoading and frame replication and 
+elimination for reliability (FRER) to improve 
+network capabilities. In addition, features 
+such as short SR period, intelligent 
+pre-scheduling and low MCSs can be 
+introduced to improve the air interface 
+capabilities. To accurately guarantee 
+diﬀerent applications, precise service 
+identi/f_ication, scheduling and KPI 
+measurement can be used. 
+As 5G cord-cutting continues, latency 
+requirements become higher, less than
+10 ms @99.999% for applications like 
+PLC southbound, along with strict jitter 
+requirements. For these services, URLLC 
+technology needs to be introduced to 
+provide ultra-low latency and ultra-high 
+reliability, and TSN technology also needs 
+to be introduced to guarantee jitter as 
+low as 1 ms. 
+One-Stop Cloud-Network Products
+Applications play a key role in the digital 
+and intelligent transformation of industries. 
+To achieve /f_lexible, convenient, and 
+low-cost deployment of various industrial 
+applications, cloudi/f_ication is currently the 
+trend. That means cloud, network, and 
+industry applications should be taken into consideration during transformation. For 
+this purpose, ZTE provides one-stop 
+cloud-network products for 5G /f_ield 
+network, so that computing power can be 
+extended from the campus network to the 
+/f_ield network, enabling on-demand 
+deployment of applications. On the edge 
+side, ZTE provides the industry-only 
+site-level computing engine, NodeEngine. By 
+inserting the computing engine board into 
+BBU, ZTE can rapidly upgrade the common 
+base station to the computing base station 
+to implement local traﬃc oﬄoading and 
+local application deployment. This helps to 
+integrate 5G base stations with industrial 
+applications. On the terminal side, ZTE has 
+launched a series of 5G edge gateways that 
+provide not only abundant interfaces 
+for interconnection with various industrial 
+devices but also built-in computing 
+platforms for applications such as video 
+coding and PLC control. 
+Simplified O&M for Enterprises
+To reduce the barriers of applying 5G to 
+vertical sectors, ZTE has developed a series 
+of features that greatly simplify O&M for 
+enterprises. These features include an 
+all-in-one management system that 
+provides end-to-end management 
+capabilities across wireless network, core 
+network, bearer network, /f_ixed network, 
+and terminals, and the self-service IDOS 
+portal that enables enterprises to monitor 
+and manage the applications independently. 
+By working with operators and 
+industry partners, ZTE has gotten 
+rich experience in building 5G fully-
+connected factory in industries such as 
+manufacturing, logistics, ports and mines. 
+Leveraging its innovative 5G industrial 
+Internet integration capabilities, ZTE will 
+continue to empower the intelligent 
+transformation and upgrade of China's 
+manufacturing industry. 
+13JUN 2023

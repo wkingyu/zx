@@ -1,0 +1,69 @@
+ZTE Dynamic RIS: Towards 
+Cost-Eﬃcient and Sustainable 
+5G-Advanced and Beyond
+Challenges Facing 5G-Advanced 
+and Beyond
+s 5G commercialization gains 
+momentum, active exploration 
+of 5G-Advanced and 6G 
+communication systems is
+underway. Nevertheless, the industry faces challenges 
+on this evolutionary journey. Traditional network 
+deployment proves inadequate for seamless 
+coverage due to the assumption of an uncontrollable 
+wireless environment, and the construction cost 
+and energy consumption remain notably high. The 
+advent of 5G-Advanced and future communication 
+systems introduces new and demanding services, 
+such as high-speed, low-latency applications (e.g., 
+mixed reality, holographic rendering, sensing, 
+and wireless medical services), creating a notable 
+contradiction between service capacity requirements 
+and limited spectrum resources.
+While 5G continues to dominate headlines, 
+the telecom industry is already focusing on 
+technological advancements beyond the 5G 
+era. Recon/f_igurable intelligent surface (RIS) has 
+emerged as a robust contender for 5G-Advanced Aand 6G mobile networks, gaining global attention 
+from academia and industry stakeholders. 
+RIS: A Novel Form of Antennas for 
+Next-Generation Networks 
+RIS stands out as a cutting-edge and promising 
+technology, poised for commercial success in 
+5G-Advanced and 6G. This innovation oﬀers enhanced 
+performance, cost-eﬀectiveness, easy deployment, 
+and low-carbon networks, playing a pivotal role in the 
+cost-eﬃcient and sustainable evolution of 5G-Advanced 
+and beyond. The fundamental principle of RIS lies in 
+creating an intelligent and adaptable environment 
+through digital programming, manipulating the 
+electromagnetic properties of metamaterials for 
+unparalleled /f_lexibility.
+In contrast to conventional materials following 
+Snell’s Law, which dictates that the angles of re/f_lection 
+and incidence signals remain equal and unalterable, 
+RIS leverages electromagnetic (EM) metamaterials to 
+precisely control the direction, width, and quantity of EM 
+waves, facilitating accurate re/f_lection or penetration. 
+ZTE Leading RIS Application in 5G Networks 
+for Ecosystem Growth
+ZTE has long been committed to R&D and commercial 
+trials in the /f_ield of RIS. Leveraging advanced algorithms, 
+a diverse range of product oﬀerings and extensive 
+partnerships, ZTE continues to drive the development of 
+the RIS ecosystem.
+Diverse Portfolio
+ZTE has launched a diverse RIS product portfolio 
+including re/f_lective RIS and refractive RIS, tailored to 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RAN Product Solution 
+Manager, ZTERen Tao 5G-Advanced Special Topic
+18 

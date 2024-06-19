@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research Papers   Research on Fall Detection System Based on Commercial Wi -Fi Devices
+formation of the user ’s activity , while the vertical component 
+can extract the frequency difference information of the user ’s 
+activity . Overall , using a CNN model can extract high -order in ⁃
+formation about the user ’s activity in both time and space do ⁃
+mains , thus obtaining a high -order representation of the user ’s 
+activity .
+Let S be the input data set . This work pre -collects sample 
+data of falls as well as normal activities and extracts features 
+for training , where each sample datum has a time length of T=
+2 s and a sampling frequency of 1 000 Hz. Each input sample 
+of the classification model s∈S is a DWT 2D spectrum of 5×
+2 000, where the sampling length of the time dimension is 2 
+000 and the frequency dimension is quantified into 5 levels .
+Our work first extracts the spatial features of the 2D spec ⁃
+trum using convolutional and pooling layers[30–31].
+F=g2(f2(g1(f1(S, θ1),θ2),θ3),θ4),  (4)
+where f1 and f2 represent the convolutional layers , g1 and g2 
+represent the pooling layers , θ1- θ4 represent the parameters , 
+and F represents the extracted spatial features . Specifically , 
+we first generate six feature maps of dimension 5×1 880 using 
+six convolutional kernels of dimension 1×121, and then gener ⁃
+ate six feature maps of dimension 5×940 using the maximum 
+pooling layer . Then we continue to generate 16 feature maps 
+of dimension 5×200 using 16 convolutional kernels of dimen ⁃
+sion 1×5, and then generate 16 feature maps of dimension 5×
+100 using the maximum pooling layer . The feature maps are 
+then generated using the maximum pooling layer . With two 
+convolutional and pooling layers , we extract the spatial fea ⁃
+tures of the signal . Next , we spread the dimensionality of the 
+features and input them to the subsequent fully connected 
+(FC) and Softmax layers for fall detection .
+R=softmax(h2(h1(F,θ5),θ6),θ7),(5)
+where h1 and h2 represent the fully connected layer and θ5-
+θ7  represent the parameters . The FC layers are activated us ⁃
+ing rectified linear units (ReLU ) and each FC layer uses a 
+dropout mechanism to avoid overfitting . In this way , we use 
+features to determine the presence of dropout activity .
+The system ’s overall algorithm is shown in Algorithm 1.
+Algorithm 1. Fall detection algorithm
+Input : CSIraw, the raw CSI measurements .
+Output : Fall detection results .
+Signal interpolation :
+CSIinterp ← CSIraw
+Signal denoise :
+CSIdenoise ← CSIinterp
+Signal smoothing :
+CSIsmooth ← CSIdenoise
+Principal component analysis :PCs ← PCA (CSIsmooth) PC2 ← the second PCs calculate DWT 
+Spectrum :
+DWT spectrum ← DWT (PC2) with demy wavelet base clas ⁃
+sify falls and non -falls:
+Fall detection results ← deep model (trained model , DWT 
+Spectrum )
+return Fall detection results
+3 System Evaluation
+3.1 Experiment Methodology
+1) Experimental setup . The goal of our work is to imple ⁃
+ment a low -cost, senseless , non -contact fall detection system , 
+so this paper uses a commercially available Wi -Fi device for 
+the experiments . The experiments are based on a previously 
+acquired dataset , the acquisition environment of which is 
+shown in Fig . 6, and the size of the common home environ ⁃
+ment is 9.6 m×3.6 m. The yellow area is the fall monitoring 
+area, and the line -of-sight path between the transmitter and 
+receiver is obscured by a door . We use the CSITools platform 
+and an Intel 5300  wireless card to collect CSI information . 
+The center frequency of the wireless cards for both the trans ⁃
+mitter and receiver is set to 5.825 GHz with a bandwidth of 
+20 MHz . The receiver is set to monitor modes to receive data 
+from the transmitter . The transmitter sends CSI information 
+at a frequency of 1 000 Hz.
+2) Data acquisition . Our work collects data in the monitor ⁃
+ing area in Fig . 6. There are five members in the family of the 
+experiment . To obtain data on falls , this work asks partici ⁃
+pants to perform the fall action on their own with controlled 
+risk. Specifically , participants wear protective equipment and 
+pretend to fall unconsciously whenever possible . To obtain 
+more data on falls , we also use dummies to simulate real users 
+to perform falls . In addition , we collect non -falling activities of 
+each user in their daily life . To collect data on normal activi ⁃
+ties, users are asked to perform activities in the monitored 
+area. In total , about 600 sets of fall samples and 2 000 sets of 
+non -fall samples are collected in this work . Among the fall 
+▲Figure 6. Experimental environment setupMonitoring area9.6 m
+Living room
+RxTx
+Balcony
+Monitoring 
+area3.6 m
+64

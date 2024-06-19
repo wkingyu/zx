@@ -1,0 +1,79 @@
+compared to SDH and MSTP technologies, ensuring 
+the high security and reliability of rail transit services.
+Ultra-High-Precision 1588 Time 
+Synchronization
+The SPN equipment supports synchronous 
+Ethernet function for stable and reliable frequency 
+synchronization, along with PTP function for 
+ultra-high-precision time synchronization, providing 
+necessary synchronization signals to the wireless 
+subsystem of metros.
+SPN’s high-precision time synchronization 
+includes ultra-high-precision clock sources and 
+ultra-high-precision time transfer technologies. Time 
+servers track satellites, enhancing performance from 
+100 ns to 30 ns. The ultra-high-precision time transfer 
+technology improves the transmission time 
+synchronization precision of SPN through optimized 
+interface timestamp processing, evolution of the 
+1588 time synchronization protocol, and enhanced 
+single-/f_iber bidirectional link symmetry. SPN can 
+deliver ultra-high time precision of ±5 ns to each site, 
+ensuring precise synchronization for various new 
+metro services in the future.
+Intelligent Management and Control
+ZTE’s new universal management engine (UME) 
+system integrates network management, service 
+control, and network analysis functions, serving as the 
+core system that enables network resource pooling, 
+network connection automation and optimization, and 
+O&M automation. Through the UME system, the SPN network achieves centralized network management 
+and control, uni/f_ied network-wide policies, end-to-end 
+network visualization, and intelligent O&M, thereby 
+improving O&M eﬃciency. 
+Moreover, it implements uni/f_ied management of 
+resources across the entire network, oﬀering 
+real-time visualization and visual analysis of existing 
+network resource information across multiple 
+dimensions, including services, tunnel connections, 
+capacity, and sites, enabling accurate identi/f_ication 
+of network resource bottlenecks. Based on SDN 
+technology, the SPN network supports centralized 
+path calculation, ensuring optimal route 
+determination during service provisioning, and 
+preventing rerouting failures caused by resource 
+con/f_licts during service recovery. 
+Additionally, the SPN network supports one-click 
+automatic and rapid deployment, an end-to-end 
+service quality detection mechanism, intelligent 
+communication fault diagnosis, and automatic 
+optimization and adjustment of channel 
+bandwidth, providing strong support for smart 
+metro operation. 
+Since the launch of Changsha Metro Line 6, its 
+communications system has been operating smoothly, 
+with all service performance indicators meeting the 
+strict requirements of the intelligent rail transit system 
+for transport networks. This serves as an important 
+reference for future large-scale commercial 
+deployment. ZTE remains committed to oﬀering 
+comprehensive technical support for the operation of 
+the Changsha Metro communications transmission 
+network, and strives to establish a premium rail transit 
+network.
+Fig. 1. The video 
+surveillance service 
+carried by the 
+combination of 
+SPN hard slicing 
+and soft slicing.
+Station 1Station 2 Station 3
+Control 
+Center
+100GE Eth
+PW1/LSP1PW2/LSP2PW3/LSP3
+Switching module
+Switching module
+Switching moduleSwitching module
+N×5G hard slicing
+ 37 APR 2024

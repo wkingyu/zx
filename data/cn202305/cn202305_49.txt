@@ -1,0 +1,51 @@
+面向下一代移动通信的前传网络关键技术 赵俊皓  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5面向下一代移动通信的
+前传网络关键技术
+Key Technologies for Fronthaul Network in 
+Next-Generation Mobile Communication
+赵俊皓 /ZHAO Junhao ，张俊文 /ZHANG Junwen ，
+迟楠/CHI Nan
+（ 复旦大学  电磁波信息科学教育部重点实验室 ，中国 上海 200433  ）
+(Key Laboratory of EMW Information (MoE ), Fudan University , Shanghai 
+200433 , China )DOI：10.12142 /ZTETJ .202305008
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231016 .1012.010.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-08
+摘要 ：下一代宽带移动通信的容量相对 5G通信提升百倍至千倍 ，这对支撑其发展的前传光通信网络的物理基础提出了巨大的挑战 。系统回顾和
+梳理了移动前传网络的需求 、技术和实现架构等 。以光纤无线融合接入为基础 ，重点针对数字前传技术 、模拟前传技术和数模结合前传技术 3
+类移动前传架构 ，围绕其网络架构 、关键技术和未来发展方向进行了深入的分析和探讨 ，并对未来前传网络关键技术进行展望 。本研究可为未
+来移动前传网络的研究提供参考 。
+关键词 ：前传网络 ；接入网 ；光载无线
+Abstrac t:The next-generation broadband mobile communication is expected to increase capacity by hundreds to thousands of times com ⁃
+pared with 5G communication , posing significant challenges to the physical foundation of the fronthaul optical communication network that 
+supports its development . A systematic review of mobile fronthaul networks is provided , including their requirements , technologies , and 
+implementation architectures . Furthermore , three types of mobile fronthaul architectures based on radio-over-fiber access are highlighted : 
+digital fronthaul technology , analog fronthaul technology , and hybrid digital-analog fronthaul technology . Then the network architectures , key 
+technologies , and future development directions are discussed , offering valuable insights and references for the research on the mobile fron ⁃
+thaul networks of future communication .
+Keywords :fronthaul network ; access network ; radio-over-fiber
+引用格式 ：赵俊皓 , 张俊文 , 迟楠. 面向下一代移动通信的前传网络关键技术  [J]. 中兴通讯技术 , 2023 , 29(5): 45-55. DOI: 10.12142 /ZTETJ .202305008
+Citation ： ZHAO J H , ZHANG J W , CHI N . Key technologies for fronthaul network in next-generation mobile communication [J]. ZTE technol ⁃
+ogy journal , 2023 , 29(5): 45-55. DOI: DOI: 10.121 42/ZTETJ .202305008
+进入21世纪以来 ，通信需求的爆炸性增长给宽带通信接
+入带来巨大考验 ，也为新型高速通信技术的发展提供
+机遇 。如图 1（a）所示 ，与5G相比 ，下一代宽带移动通信
+在数据容量 、网络覆盖范围 、能源消耗 、时延 、可靠性以及
+网络连接密度方面提出新的需求[1]，通信容量提升百倍至千
+倍，这对支撑其发展的前传光通信网络的物理基础提出重大
+挑战 。随着数据流量的指数级增长 ，现有前传光网络带宽已
+不能完全满足未来业务流量需求 ，亟需物理层通信技术的变革。当前 ，以通用公共无线接口 （CPRI ）为主要接口标准的
+集中式无线接入网[2]和云无线接入网是主流的前传网络 。但
+由于存在低频谱效率和大数据速率需求 ，CPRI 的可扩展性
+受到限制 。如今 ，移动前传网络的发展面临两大挑战 ：一方
+面，未来移动前传网络亟需寻求新的光前传网络实现架构 ，
+实现大带宽 、高速率 、低时延的移动前传网络 ；另一方面 ，
+亟需开发新型前传数据调制 、传输和解调实现方式 ，压缩前
+传通信的带宽 ，以进一步提高前传通信的传输效率 。
+对此 ，业界展开了大量深入的研究 。在网络架构实现方
+面，相干技术的下沉为高速短距离光接入及光互连提供了机
+遇，包括基于相干载波聚合技术的点到多点相干技术[3]，以
+及基于相干的无源光网络[4]，均有望提供巨大的前传通信网基金项目 ：国家自然科学基金资助项目 （62171137 、62235005 、61925104 ） ；
+上海市自然科学基金资助项目 （21ZR1408700 ）
+45

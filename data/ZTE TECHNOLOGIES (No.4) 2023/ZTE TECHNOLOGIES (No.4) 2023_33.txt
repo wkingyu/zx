@@ -1,0 +1,83 @@
+Smart media processing system:  It is 
+deployed in the central access oﬃce, 
+responsible for enhanced processing 
+on received videos, including protocol 
+conversion, identi/f_ication, aggregation, 
+transformation, and enhancement. 
+These processes aim to generate 
+scenario-oriented video media streams. 
+UHD CDN: It is also deployed in 
+the central access oﬃce. Its main 
+responsibilities include distributing and 
+storing media content. It ensures that 
+videos are distributed to the required 
+locations and stored or cached based on 
+demand. 
+Terminal video playback:  It involves 
+integrating the multi-dimensional video 
+SDK into the terminal app. The terminal 
+app connects to the video distribution 
+network, decodes the media streams, and 
+renders them according to the scenario 
+for seamless playback.
+The smart spectator business scenario 
+primarily includes innovative videos 
+such as frame-synchronized MVV, VR, 
+FVV, and virtual viewpoint. It relies on 
+advanced technologies such as full 
+Gigabit network, video capture, encoding, 
+broadcasting, storage and transmission, as 
+well as terminal decoding and rendering 
+techniques, to deliver a higher-de/f_inition, 
+multi-dimensional, and interactive viewing 
+experience. By leveraging cutting-edge 
+video technologies, it adds vitality to 
+large-scale events and activities, increasing 
+the viewers’ sense of immersion and 
+engagement. placed around the venue is limited due to 
+place or cost constraints. As a result, users 
+may experience visual jitters caused by 
+large disparities between adjacent camera 
+positions during viewpoint transitions. To 
+solve this problem, AI synthesis technology 
+can be applied between adjacent 
+frames to generate N virtual viewpoints, 
+eﬀectively /f_illing in the missing viewpoints 
+and ensuring smoother and more /f_luid 
+transitions in FVV and bullet time eﬀects. 
+Smart Spectator Experience at World 
+University Games 
+ZTE’s multidimensional video products 
+integrate the features of ultra-high 
+de/f_inition, interactive, and AI-enhanced 
+video capabilities to provide users with 
+a brand-new experience. These products 
+have been commercially deployed in 
+various industries such as education, 
+healthcare, sports, and tourism. One 
+notable service is the smart spectator live 
+broadcasting that supports MVV, FVV, and 
+UHD VR content, catering to both on-site 
+viewers using small screens and oﬀ-site 
+viewers on large screens. In July 2023, the 
+31st FISU Summer World University Games 
+was held in Chengdu, China, and ZTE’s 
+multi-dimensional video products played 
+a crucial role in enhancing the smart 
+spectator experience, providing innovative 
+features like MVV, FVV, VR and virtual 
+viewpoints.    
+As shown in Fig. 1, the smart spectator 
+system consists of four main parts: video 
+capture and streaming adjustment, smart 
+media processing system, UHD CDN, and 
+terminal video playback.
+Video capture and streaming 
+adjustment: It involves deploying 
+cameras at the venue to capture real-time 
+video and encode it. The encoded video 
+streams are then transmitted to the 
+system through dedicated lines or reliable 
+networks.  
+The venue of the 31st FISU Summer World University Games.
+31AUG 2023

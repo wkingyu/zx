@@ -1,0 +1,69 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Special Topic   Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model
+Degree of Freedom Analysis for Degree of Freedom Analysis for 
+Holographic MIMO Based on Holographic MIMO Based on 
+a Mutuala Mutual --CouplingCoupling --Compliant Channel ModelCompliant Channel Model
+SUN Yunqi1,2, JIAN Mengnan1,2, YANG Jun1,2, 
+ZHAO Yajun1,2, CHEN Yijian1,2
+(1. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202401005
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20240307 .1433 .002, published 
+online March 9, 2024
+Manuscript received : 2023 -12-14
+Abstract : Degree of freedom (DOF ) is a key indicator for spatial multiplexing layers of a wireless channel . Traditionally , the channel of a 
+multiple -input multiple -output (MIMO ) half -wavelength dipole array has a DOF that equals the antenna number . However , recent studies sug ⁃
+gest that the DOF could be less than the antenna number when strong mutual coupling is considered . We utilize a mutual -coupling -compliant 
+channel model to investigate the DOF of the holographic MIMO (HMIMO ) channel and give a upper bound of the DOF with strong mutual cou ⁃
+pling . Our numerical simulations demonstrate that a dense array can support more DOF per unit aperture as compared with a half -wavelength 
+MIMO system .
+Keywords : channel model ; degree of freedom ; holographic MIMO ; mutual coupling
+Citation  (Format 1): SUN Y Q , JIAN M N , YANG J , et al . Degree of freedom analysis for holographic MIMO based on a mutual -coupling -
+compliant channel model [J]. ZTE Communications , 2024 , 22(1): 34–40. DOI : 10.12142 /ZTECOM .202401005
+Citation  (Format 2): Y. Q. Sun, M. N. Jian , J. Yang , et al ., “Degree of freedom analysis for holographic MIMO based on a mutual -coupling -
+compliant channel model ,” ZTE Communications , vol. 22, no. 1, pp. 34–40, Mar. 2024 . doi: 10.12142 /ZTECOM .202401005 .
+1 Introduction
+Holographic MIMO (HMIMO ) is a new concept of com ⁃
+munication technology , which has attracted increas ⁃
+ing interest from researchers[1–5]. There are two ma ⁃
+jor types of HMIMO systems . One of them is commu ⁃
+nicating through a transmitting array with possibly uncount ⁃
+able antennas[6]. The other refers to collecting and forming the 
+phase information through the holographic principle[7–9]. Both 
+types of HMIMO communication systems offer increased capa ⁃
+bility for electromagnetic field manipulation , therefore indicat ⁃
+ing an increase in the degree of freedom (DOF ) of the spatial 
+channel .
+The DOF can be defined in three ways : the rank definition , 
+the spatial multiplexing gain definition , and the bandwidth 
+definition . The rank definition defines the rank of the MIMO 
+channel matrix as the DOF of the system[10]. The spatial multi ⁃
+plexing gain definition is the limit of the channel capacity 
+over the logarithmic signal -to-noise ratio (SNR) as the SNR 
+grows to infinity[11]. This definition is based on the fact that the MIMO channel capacity grows linearly with logarithmic SNR 
+and the smaller number of antennas between the transmitting 
+and receiving side when the SNR is large enough . The band ⁃
+width definition is a direct expansion of the time -frequency 
+bandwidth by applying the spatial Fourier transform to the 
+spatial domain[12–14]. The conjugate domain is the so -called 
+wavenumber domain , which is band -limited because the radi ⁃
+ating electromagnetic waves are bounded by their vacuum 
+wavenumber , such that ,
+k=kx+ky+kz, (1)
+k2=k2
+x+k2
+y+k2
+z, (2)
+where k is the wavevector of the electromagnetic wave , and k=
+|k|; kx, ky,  and kz are the wavevectors in xyz directions , kx=
+|kx|, ky=|ky|, and kz=|kz|.
+The spatial bandwidth is defined as the area in the wave ⁃
+number domain supported by the possible wavevectors satisfy ⁃
+ing the restrictions . Related research shows that this restric ⁃
+tion forms a circular area denoted by k2
+x+k2
+y≤k2, which is es ⁃
+sentially the propagating modes of the electromagnetic waves 
+This work was supported in part by National Key Research and Develop ⁃
+ment Program of China under Grant No . 2020 YFB1807600 .
+34

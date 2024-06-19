@@ -1,0 +1,68 @@
+eﬃciency and operation bene/f_its.
+5G Networking and Coverage 
+Solution for Open-Pit Mines
+Generally, in small-and-medium-sized 
+open-pit mines, a hybrid 5G private 
+network is used to construct an 
+independent UPF resource pool in the 
+mining area for disaster recovery and 
+ensuring that production data does not 
+go out of the mines. The public network 
+and private network share 5G new radios 
+(NRs), and traﬃc is logically isolated 
+through the slicing technology. Physical 
+resource blocks (PRBs) are deployed to 
+reserve high-priority air interface 
+resources for private network services. In 
+a large open-pit mine, security 
+requirements are extremely high. In 
+general, an independent private network 
+solution is deployed to provide the 
+highest security, in which base stations 
+and the core network are exclusively 
+used and physically isolated from the 
+public network. 
+Considering the distinct environments 
+and requirements of each functional area, the planning of the open-pit mine 
+network needs to be tailored to individual 
+areas. In a mine or a large-scale operation 
+platform where overlapping coverage 
+and co-channel interference are serious, 
+SuperCell is needed to avoid frequent 
+handover and co-channel interference. 
+On the transportation road, line coverage 
+is needed to reduce cell handover and 
+ensure service experience of continuous 
+driving. In living areas and coal washing 
+areas, full coverage is needed to make a 
+large number of terminals connected. 
+For the scenario where the working 
+surface of an open-pit mine moves 
+slowly, ZTE has developed trailer-type 
+movable base stations that integrate 
+the antenna, baseband and mast. 
+The antenna can move upwards and 
+downwards, as high as 18 meters, and 
+has strong wind resistance capability. 
+The movable base stations are /f_lexible 
+and can quickly complete swap and 
+network recovery. 
+5G Enhanced Technologies Ensure 
+Continuous High-Intensity 
+Operations of Core Production 
+IDOS 
+Explosion
+Unmanned mining truck
+Patrol vehicle
+Remote miningTDD NRFDD&TDD NRFDD&TDD NRUPF
+5GCMine operation platformMining Transportation Washing Storage Loading
+Intelligent
+schedulingVideo
+surveillanceVideo
+surveillanceUnmanned
+mining truckRemote mining Remote drilling
+SPN
+access ringFig. 1. 5G networking 
+and coverage solution 
+for open-pit mines.
+37JUN 2023

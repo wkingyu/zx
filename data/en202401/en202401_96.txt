@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Review   Research on Multi -Core Processor Analysis for WCET Estimation
+1) The static probabilistic timing analysis (SPTA ) method , 
+as its name suggests , is similar to static analysis in its ap ⁃
+proach . However , unlike traditional static analysis methods , 
+SPTA considers uncertain behaviors in the hardware , soft ⁃
+ware, and program as stochastic events and uses probability 
+distribution methods to analyze the upper bound of the pW ⁃
+CET distribution , rather than the WCET upper bound[23]. 
+Therefore , the SPTA method must determine certain dynamic 
+attributes of the program before executing the code . For those 
+attributes that cannot be accurately determined , such as cache 
+replacement and shared cache conflicts in multi -core environ ⁃
+ments , the results may be overly pessimistic due to conserva ⁃
+tive estimates . Thus , the main challenge of SPTA is to accu ⁃
+rately construct the model and determine the necessary infor ⁃
+mation for the model to ensure the accuracy of the SPTA 
+analysis . As far as we are aware , SPTA techniques have not 
+been extended to address multi -level caches or multi -core sys ⁃
+tems with shared caches .
+2) The measurement -based probabilistic timing analysis 
+(MBPTA ) method is based on the extreme value theory (EVT) 
+and uses the extreme value method to estimate the pWCET 
+distribution of a program[23]. Current MBPTA methods first use 
+the idea of dynamic detection to execute the program under 
+dynamic measurement methods and obtain a sample of execu ⁃
+tion time observations , which is called a measurement proto ⁃
+col. Under this measurement protocol , the program is ex ⁃
+ecuted multiple times in one or more scenarios , and in a fixed 
+initial state , the pWCET distribution is finally derived by 
+EVT. Constructing an appropriate measurement protocol is 
+critical in this method , and the initial state must be a sample 
+that is likely to occur in the scenario being studied . Similarly , 
+this method encounters significant challenges due to the diver ⁃
+sity of scenarios and initial states . In practical operation , there 
+may not exist a single input pattern or hardware state .
+4 Multi -Core WCET Analysis Tools
+4.1 Commercial Tools
+Table 3 provides a comparison of the functional support and 
+model methods used by some comprehensive tools in the field 
+of WCET analysis . In the table , aiT, which is a commercial tool developed by AbsInt , uses static analysis techniques to 
+create control flow graphs and performs value analysis , cache 
+analysis , pipeline analysis , path analysis , loop and recursion 
+analysis , and many more . It supports the analysis of both in ⁃
+struction and data cache and offers support for various cache 
+replacement policies . It also supports both in -order and out -of-
+order pipelines and can analyze certain PCI buses[24]. Addi ⁃
+tionally , this software supports multiple chips with different ar ⁃
+chitectures , including PowerPC and ARM . In conclusion , aiT 
+is a powerful and feature -rich commercial tool that is widely 
+applicable to WCET analysis .
+RapiTime , another commercial tool developed by Rapita 
+Systems , uses a hybrid testing approach that combines static 
+analysis with testing to generate a not overly pessimistic WCET 
+upper bound . It is not restricted to specific platforms or proces ⁃
+sors, but requires certain means to access embedded devices to 
+collect partial testing information and analyze the WCET[25]. 
+This tool is a direct manifestation of dynamic methods .
+XMOS Timing Analyzer , a commercial tool developed by 
+XMOS Ltd ., is primarily designed for XMOS processors . The 
+tool uses a dynamic measurement approach where the code is 
+annotated with specific markers and binary tools are utilized 
+to measure the time between two endpoints . This tool still em ⁃
+ploys a dynamic testing approach[26].
+In commercial application scenarios , WCET analysis of 
+hard real -time embedded systems , such as aiT , still uses static 
+analysis . However , in some soft real -time embedded system 
+scenarios , dynamic analysis or hybrid -based analysis is often 
+used when the feasibility is taken into account .
+4.2 Open -Source Tools
+Table 4 provides a comparison of open -source multi -core 
+WCET analysis tools . In the table , Chronos is a WCET analy ⁃
+sis tool developed by the National University of Singapore . It 
+uses a static analysis approach implemented on a SimpleSca ⁃
+lar simulator that emulates an instruction set like MIPS (Mi⁃
+croprocessor without interlocked piped stages architecture ). 
+This tool supports the analysis of instruction cache , data 
+cache , hierarchical cache , and shared cache . It also provides 
+support for microarchitecture modeling of superscalar , in -
+order , out -of-order , and dynamic branch prediction for pipe ⁃
+▼Table 3. Comparison of commercial multi -core WCET analysis tools
+Tool
+aiT
+RapiTime
+XMOS Timing AnalyzerCompany
+AbsInt
+Rapita Systems
+XMOS Ltd .Method
+Static analysis
+Hybrid -based
+Measurement -basedTarget Processors
+Am486,
+IntelDX 4,
+ARM ,
+PowerPC ,
+etc.
+-
+XMOS processorsCore Area
+Cache
+I-Cache ,
+D-Cache ,
+direct/SA ,
+LRU , PLRU ,
+pseudo round robin
+-
+-Pipeline
+In-order/
+out-of-order
+-
+-Periphery
+PCI bus
+-
+-
+ARM : Advanced RISC Machine 
+D-cache : data cache I-Cache : instruction cache 
+LRU : least recently used PCI: Peripheral Component Interconnect 
+PLRU : pseudo -LRU SA: set associative cache 
+WCET : worst -case execution time
+92

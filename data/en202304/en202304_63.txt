@@ -1,0 +1,71 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research Papers   Research on Fall Detection System Based on Commercial Wi -Fi Devices
+Research on Fall Detection System Research on Fall Detection System 
+Based on Commercial WiBased on Commercial Wi --Fi DevicesFi Devices
+GONG Panyin1, ZHANG Guidong1, ZHANG Zhigang2,3, 
+CHEN Xiao2,3, DING Xuan1
+(1. School of software , Tsinghua University , Beijing 100084 , China ；
+ 2. ZTE Corporation , Shenzhen 518057 , China ；
+ 3. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China )DOI: 10.12142 /ZTECOM .202304008
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231025 .1621 .002.html, 
+published online October 26, 2023
+Manuscript received : 2023 -04-07
+Abstract : Falls are a major cause of disability and even death in the elderly , and fall detection can effectively reduce the damage . Compared 
+with cameras and wearable sensors , Wi -Fi devices can protect user privacy and are inexpensive and easy to deploy . Wi -Fi devices sense user ac ⁃
+tivity by analyzing the channel state information (CSI) of the received signal , which makes fall detection possible . We propose a fall detection sys ⁃
+tem based on commercial Wi -Fi devices which achieves good performance . In the feature extraction stage , we select the discrete wavelet trans ⁃
+form (DWT ) spectrum as the feature for activity classification , which can balance the temporal and spatial resolution . In the feature classification 
+stage , we design a deep learning model based on convolutional neural networks , which has better performance compared with other traditional 
+machine learning models . Experimental results show our work achieves a false alarm rate of 4.8% and a missed alarm rate of 1.9%.
+Keywords : fall detection ; commercial Wi -Fi devices ; discrete wavelet transform ; deep learning model
+Citation  (Format 1): GONG P Y , ZHANG G D , ZHANG Z G , et al . Research on fall detection system based on commercial Wi -Fi devices [J]. 
+ZTE Communications , 2023 , 21(4): 60–68. DOI : 10.12142 /ZTECOM .202304008
+Citation  (Format 2): P. Y. Gong , G. D. Zhang , Z. G. Zhang , et al ., “Research on fall detection system based on commercial Wi -Fi devices ,” 
+ZTE Communications , vol. 21, no. 4, pp. 60–68, Dec. 2023 . doi: 10.12142 /ZTECOM .202304008 .
+1 Introduction
+Population aging  is a common phenomenon in the world 
+today , and the health as well as safety of the elderly is 
+a growing concern . Every year , one -third of the elderly 
+people over 65 fall down , resulting in injury or even 
+death[1]. Most of the elderly deaths caused by falls are due to 
+untimely treatment , so fall detection has become an important 
+method to prevent fall -related deaths in the elderly .
+Extensive research has been conducted on fall detection 
+techniques . Traditional methods mainly use cameras[2–3], 
+wearable sensors[4–5], and ambient environment sensing -based 
+approaches[6–8] for fall detection . Camera -based detection sys ⁃
+tems require infrastructure deployment and video data collec ⁃
+tion, which raises the user ’s privacy concerns . Solutions 
+based on wearable sensors require users to carry specific de ⁃
+vices , which is inconvenient . Ambient environment sensing -
+based approaches require specific infrastructures (e.g., radar 
+and infrared ) and are expensive , which prevents them from 
+pervasive applications . Therefore , it is important to find a fall 
+detection solution that is device -independent , privacy protect ⁃
+ing, secure , inexpensive and easy to deploy . The emergence of 
+commercial Wi -Fi[9–10], which can effectively meet these con ⁃
+ditions , has also received a lot of attention from researchers . Wi-Fi devices sense the user ’s activity by analyzing the chan ⁃
+nel state information (CSI) of the received signal , which en ⁃
+ables various applications such as gesture recognition[11–12], 
+gait recognition[13–14], and trajectory tracking[15–16], and there ⁃
+fore we have found an opportunity that Wi -Fi has the feasibil ⁃
+ity of performing fall detection .
+Most existing work can be divided into two stages : feature 
+extraction and feature classification . Feature extraction refers 
+to the extraction of parameters from the original Wi -Fi signal 
+as human fall features , and feature classification refers to the 
+construction of classifiers to identify fall actions based on vari ⁃
+ous classification methods . In feature extraction , most existing 
+work can be divided into two categories . The first category is 
+to directly use the original features in the received signal , 
+mainly the amplitude and phase information of CSI , including 
+WiFall[17], RT -Fall[18], Anti -Fall[19], FallViewer[20], etc. WiFall 
+is the first work that utilizes commercial Wi -Fi devices for fall 
+detection , which characterizes human activity by using the 
+fluctuation of the amplitude of CSI . Furthermore , Anti -fall 
+combines the amplitude and phase information of CSI to char ⁃
+acterize human activities . Considering that the phase of CSI 
+collected by commercial devices contains random noise , RT -
+Fall reduces the impact of random phase by calculating the 
+60

@@ -1,0 +1,59 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+[48] ISO/IEC MPEG . Hybrid loss training based on reversed SIMO in feature compres ⁃
+sion for object detection and instance segmentation : m63174  [S]. 2023
+[49] MINNEN D , BALLÉ J , TODERICI G . Joint autoregressive and hierarchical 
+priors for learned image compression [C]//The 32nd International Conference 
+on Neural Information Processing Systems . ACM , 2018 : 10794–10803 . DOI : 
+10.5555 /3327546 .3327736
+[50] ISO/IEC MPEG . ZJU’s response to VCM CfE : deep learning -based compres ⁃
+sion for machine vision : m56445  [S]. 2021
+[51] ISO/IEC MPEG .  End -to-end image compression towards machine vision for 
+object detection : m57500  [S]. 2021
+[52] ISO/IEC MPEG . End -to-end learning -based compression for object detection : 
+m58165  [S]. 2021
+[53] ISO/IEC MPEG . Object detection and instance segmentation results with re ⁃
+cent NN codecs : m58050  [S]. 2021
+[54] ISO/IEC MPEG . Response to call for proposals from Ericsson : m60757  [S]. 
+2022
+[55] KALVA H , ADZIC V , KRAUSE B F A , et al . Response to VCM CfP from the 
+Florida Atlantic University and OP solutions , LLC : m60743  [S]. Geneva : ISO/
+IEC MPEG , 2022
+[56] WANG C Y , BOCHKOVSKIY A , LIAO H . YOLOv 7: trainable bag -of-freebies 
+sets new state -of-the-art for real -time object detectors [C]//The IEEE/CVF Con ⁃
+ference on Computer Vision and Pattern Recognition . IEEE , 2023 : 7464–
+7475 . DOI : 10.1109 /cvpr 52729 .2023 .00721
+[57] ISO/IEC MPEG . Response to VCM CfP : video coding with machine -attention : 
+m60378  [S]. 2022
+[58] ISO/IEC MPEG . Video coding for machines CfP response from Alibaba and 
+City University of Hong Kong : m60737  [S]. 2022
+[59] ISO/IEC MPEG . Response to VCM call for proposals –an EVC based solution : 
+m60779  [S]. 2022
+[60] ISO/IEC MPEG . Response to the CfP on video coding for machine from Zheji ⁃
+ang University : m60741  [S]. 2022
+[61] ISO/IEC MPEG . Response to VCM call for proposals from Tencent –an end -
+to-end learning based solution : m60777  [S]. 2020
+[62] ISO/IEC MPEG . Response to the CfP of the VCM by Nokia : m60753  [S]. 2022Biographies
+ZHANG Qiang is the Director of the Big Video Committee of ZTE Corpora ⁃
+tion. His research interests include computer vision , audio and video codec , 
+transmission , and network architecture .
+MEI Junjun is the Chief R&D engineer in the audio and video field of ZTE Cor ⁃
+poration , engaged in the evolution of the integrated video cloud network architec ⁃
+ture, computer vision , audio and video codec , and transmission technologies .
+GUAN Tao is the senior system architect of ZTE Corporation , mainly engaged 
+in the architecture design and algorithm research of video systems and industri ⁃
+al digital systems . He has participated in standard organizations , initiated and 
+compiled the formulation of a number of communication standards , and applied 
+for more than 20 national invention patents .
+SUN Zhewen is a student at the School of Electronic Information and Commu ⁃
+nications , Huazhong University of Science and Technology , China , currently en ⁃
+gaged in research on video coding .
+ZHANG Zixiang is pursuing his master ’s degree at the School of Electronic 
+Information and Communications , Huazhong University of Science and Technol ⁃
+ogy, China . He is currently engaged in research on video coding .
+YU Li (hustlyu@hust .edu.cn) received her PhD degree from Huazhong Univer ⁃
+sity of Science and Technology (HUST ), China in 1999 , where she is currently a 
+professor with the School of Electronic Information and Communications , 
+HUST . Her research interests include image and video coding , multimedia com ⁃
+munications , and artificial intelligence .
+76

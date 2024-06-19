@@ -1,0 +1,107 @@
+智能算力核心基础系统软件的现状与展望 郑纬民  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2保障训练效率和稳定性方面也发挥着至关重要的作用 。随着
+模型规模的不断扩大 ，如Meta 的Llama- 2 70B模型涉及的数
+据量高达约 8 TB，这对存储系统也有着更高的要求 。这些数
+据在训练过程中将被频繁且随机地读取 。同时 ，为了模型的
+持续迭代和优化 ，新的数据不断被添加到训练集中 。此外 ，
+在大模型训练过程中可能会遇到的硬件故障或算法错误要求
+存储系统必须具备有效的容错机制 ，例如通过定期创建模型
+参数的检查点来实现错误恢复 ，保证训练的连续性和数据的
+完整性 。因此 ，为了支持高效的大模型训练 ，存储系统需要
+综合优化并发读效率 、异步写效率和检错纠错等能力 。
+近年来 ，为了应对这些挑战 ，业界已经有了不少研究和
+进展 。例如 ，Google 在训练 Gemini 模型时 ，将传统硬盘检查
+点更换为内存检查点 ，并设置冗余存储 ，这样既减少了写入
+时间 ，又确保了在部分节点出错时能够恢复完整的参数和优
+化器状态 。中国的 MegaScale[43]万卡训练系统引入了两阶段
+检查点机制 ，即首先将 GPU 显存状态传输至 CPU 内存 ，随
+后异步将数据传输至分布式文件系统 。这种设计大幅提高了
+训练效率 ，同时保持了 GPU 的计算任务和存储系统之间的
+非阻塞传输[44-45]。
+尽管在存储系统方面已取得一定的进展 ，但如何在提升
+效率 、保障训练稳定性与优化训练结果之间找到最佳平衡
+点，依然是一个值得深入研究和探讨的重要课题 。
+5 结束语
+高效的系统软件是发挥底层硬件性能的必要条件 。中国
+智能算力平台的硬件能力已经接近国际领先水平 ，但是其上
+的核心基础系统软件仍有较大的进步空间 。为了提升中国算
+力平台竞争力 ，更好地服务大模型预训练等重要应用场景 ，
+清华大学的研究团队在核心基础系统软件层做了深入研究 。
+2021 年，清华团队开发了 “八卦炉 ”系统 ，对上述智能算
+力软件栈的 10个核心基础软件深入优化 ，成功在新一代神
+威超级计算机上高效支持了百万亿参数量大模型预训练任
+务。目前 ， “八卦炉 ”系统仍在持续迭代 ，在更多的国产芯
+片平台 （天数 、沐曦 、壁仞 、寒武纪等 ）上深度优化核心软
+件栈 ，为充分发挥国产算力硬件能力做好软件支持 。
+参考文献
+[1] NVIDIA Corporation . CUDA toolkit [EB/OL ]. [2024 -02-20]. https ://
+developer .nvidia .com/cuda-toolk it
+[2] TILLET P , KUNG H T , COX D . Triton : an intermediate language 
+and compiler for tiled neural network computations [C]//
+Proceedings of the 3rd ACM SIGPLAN International Workshop on 
+Machine Learning and Programming Languages . ACM , 2019 : 10–19. DOI: 10.1145 /3315508 .3329973
+[3] 中科寒武纪科技股份有限公司 . 寒武纪基础软件平台  [EB/OL ]. 
+[2024 -02-22]. https ://www .cambricon .com/index .php?m=
+content&c=index&a=lists&catid= 71
+[4] 华为技术有限公司 . Ascend C ：面向算子开发场景的编程语言  [EB/
+OL]. [2024 -02-22]. https ://www .hiascend .com/zh/ascend-c
+[5] 上海壁仞科技股份有限公司 . BIRENSUPA ™软件开发平台  [EB/OL ]. 
+[2024 -02-22]. https ://www .birentech .com/product_details/ 1.html
+[6] 摩尔线程智能科技 （北京 ）有限责任公司 . MUSA SDK [EB/OL ]. 
+[2024 -02-21]. https ://developer .mthreads .com/musa/musa-sdk
+[7] STONE J E , GOHARA D , SHI G C . OpenCL : a parallel 
+programming standard for heterogeneous computing systems [J]. 
+Computing in science and engineering , 2010 , 12(3): 66-73
+[8] The Khronos® SYCL ™ Working Group . SYCL ™ 2020  Specification 
+(revision 8) [EB/OL ]. [2024 -02-24]. https ://registry .khronos .org/
+SYCL/specs/sycl- 2020 /html/sycl- 2020 .html
+[9] Modular Inc . Mojo - the programming language for all AI 
+developers [EB/OL ]. [2024 -02-22]. https ://www .modular .com/
+max/mojo
+[10] Intel Corporation . Intel® oneAPI DPC++ Library . [EB/OL ]. [2024 -
+02-22]. https ://www .intel.com/content/www/us/en/developer/
+tools/oneapi/dpc-library .html
+[11] JIA Y Q . Caffe [EB/OL ]. [2024 -02-22]. https ://caffe .
+berkeleyvision .org/
+[12] Google Inc . Tensorflow [EB/OL ]. [2024 -02-22]. https ://www .
+tensorflow .org/
+[13] Meta Platform Inc . Pytorch [EB/OL ]. [2024 -02-23]. https ://
+pytorch .org/
+[14] 百度在线网络技术 （北京）有限公司 . 源于产业实践的开源深度学习
+平台 [EB/OL ]. [2024 -02-22]. https ://www .paddlepaddle .org.cn/
+[15] 华 为 技 术 有 限 公 司 . 昇 思 MindSpore [EB/OL ]. [2024 -02-22]. 
+https ://www .mindspore .cn/
+[16] SHOEYBI M , PATWARY M , PURI R , et al . Megatron-lm : training 
+multi-billion parameter language models using model 
+parallelism [EB/OL ]. [2024 -02-25]. https ://arxiv .org/abs/
+1909 .08053
+[17] Microsoft Corporation . Deepspeed [EB/OL ]. [2024 -02-25]. 
+www .deepspeed .ai
+[18] Huggingface Inc . Huggingface [EB/OL ]. [2024 -02-25]. https ://
+huggingface .co/
+[19] NVIDIA Corporation . NVLink and NVSwitch [EB/OL ]. [2024 -02-
+25]. https ://www .nvidia .com/en-us/data-center/nvlink
+[20] HE J A , ZHAI J D , ANTUNES T , et al . FasterMoE : modeling and 
+optimizing training of large-scale dynamic pre-trained models 
+[C]//Proceedings of the 27th ACM SIGPLAN Symposium on 
+Principles and Practice of Parallel Programming . ACM , 2022 : 
+120-134. DOI: 10.1145 /3503221 .3508418
+[21] ZHAI M S , HE J A , MA Z X , et al . SmartMoE : efficiently training 
+sparsely-activated models through combining offline and online 
+parallelization [EB/OL ]. [2024 -02-21]. https ://www .usenix .org/
+conference/atc 23/presentation/zhai
+[22] NVIDIA Corporation . NVIDIA collective communications library 
+[EB/OL ]. [2024 -02-25]. https ://developer .nvidia .com/nccl
+[23] Microsoft Corporation . MSCCL Leaderboard [EB/OL ]. [2024 -02-
+25]. https ://microsoft .github .io/msccl-leaderboard/
+[24] Intel Corporation . Intel® oneAPI collective communications 
+library [EB/OL ]. [2024 -02-20]. https ://www .intel.com/content/
+www/us/en/developer/tools/oneapi/oneccl .html
+[25] AMD Corporation . RCCL Documantation [EB/OL ]. [2024 -02-
+20]. https ://rocm .docs .amd.com/projects/rccl/en/latest/api .html
+[26] Meta Platform Inc . Gloo Documentation [EB/OL ]. [2024 -02-20]. 
+https ://github . com/facebookincubator/gloo/blob/main/docs/
+readme .md
+[27] DONG J B , WANG S C , FENG F , et al . ACCL : architecting highly 
+07

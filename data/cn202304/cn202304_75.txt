@@ -1,0 +1,106 @@
+数据管理系统发展趋势与挑战 韩银俊  等 企业视界
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4理基础上进行云 、边、端以及多云之间数据和计算的协同 ，
+实现全国一体化的高能效数据管理 ，形成低碳发展新格局 ，
+成为未来数据管理的主要方向 。
+在海量数据和丰富应用场景的驱动下 ，更多的数据技术
+和应用创新将全面落地 。数据采集 、数据治理 、数据流通 、
+数据开发利用 、数据安全保护等各方面将协同推进 。数据要
+素规模化产业集群和规范化产业生态将逐步形成 。数据要素
+的价值将得到充分挖掘和释放 ，从而进一步促进数字经济和
+实体经济深度融合 ，助力数字经济高质量可持续发展 。中兴
+通讯将持续致力于新型数据管理系统的研发 ，协同推动数据
+一体化 、新硬件加速 、智能化数据管理等新技术的快速商用
+落地 ，实现横向跨域拉通和智能敏捷赋能 ，繁荣生态合作 ，
+助力客户在数字经济时代建立可持续的竞争优势 。
+参考文献
+[1] 杜小勇 , 卢卫, 张峰 . 大数据管理系统的历史 、现状与未来  [J]. 软件学报 , 2019 , 
+30(1): 127-141. DOI: 10.13328 /j.cnki.jos.005644
+[2] CODD E F . A relational model of data for large shared data banks [J]. 
+Communications of the acm , 1983 , 26(1): 64-69
+[3] GRAY J , REUTER A . Transaction processing : concepts and techniques [M]. 
+San Francisco : Morgan Kaufmann Publishers Inc ., 1992
+[4] HAN J W , KAMBER M . Data mining : concepts and techniques , second 
+edition [M]. San Francisco : Morgan Kaufmann Publishers Inc ., 2002
+[5] PAVLO A , ASLETT M . What's really new with NewSQL [J]. ACM sigmod 
+record , 2016 , 45(2): 45-55
+[6] GHEMAWAT S , GOBIOFF H , LEUNG S T . The Google file system [C]//
+Proceedings of the nineteenth ACM symposium on Operating systems 
+principles . ACM , 2003 : 29-43. DOI: 10.1145 /945445 .945450
+[7] DEAN J , GHEMAWAT S . MapReduce [J]. Communications of the acm , 
+2008 , 51(1): 107-113. DOI: 10.1145 /1327452 .1327492
+[8] CHANG F , DEAN J , GHEMAWAT S , et al . Bigtable : a distributed storage 
+system for structured data [J]. ACM transactions on computer systems , 
+2008 , 26(2): 1-26. DOI: 10.1145 /1365815 .1365816
+[9] Apache Software Foundation . Apache Hadoop [EB/OL ]. [2023 -05-25]. 
+https ://hadoop .apache .org.
+[10] HUSSAIN IQBAL M , SZABIST , RAHIM SOOMRO T . Big data analysis : 
+apache storm perspective [J]. International journal of computer trends and 
+technology , 2015 , 19(1): 9-14. DOI: 10.14445 /22312803 /ijctt-v 19p103
+[11] ZAHARIA M , XIN R S , WENDELL P , et al . Apache spark [J]. 
+Communications of the ACM , 2016 , 59(11): 56-65. DOI: 10.1145 /2934664
+[12] CARBONE P , KATSIFODIMOS A , EWEN S , et al . Apache flink : stream and 
+batch processing in a single engine [EB/OL ]. [2023 -05-25]. http ://sites .
+computer .org/debull/A 15dec/p 28.pdf
+[13] 维基百科 . 数据湖  [EB/OL ]. [2023 -05-25]. https ://zh.wikipedia .org/wiki/%
+E6%95%B0%E6%8D%AE%E 6%B9%96
+[14] ZAHARIA M , GHODSI A , XIN R , et al . Lakehouse : a new generation of 
+open platforms that unify data warehousing and advanced analytics [EB/
+OL]. [2023 -05-25]. https ://cs.stanford .edu/~matei/papers/ 2021 /
+cidr_lakehouse .pdf
+[15] 李战怀 , 李国良 , 陈跃国 . “十四五 ”数据库发展趋势与挑战  [J]. 中国计算机学
+会通讯 , 2022 , 6: 8-11
+[16] VAN AKEN D , PAVLO A , GORDON G J , et al . Automatic database 
+management system tuning through large-scale machine learning [C]//
+Proceedings of the 2017  ACM International Conference on Management 
+of Data . ACM , 2017 : 1009 -1024 . DOI: 10.1145 /3035918 .3064029
+[17] VUPPALAPATI M , MIRON J , AGARWAL R , et al . Building an elastic query 
+engine on disaggregated storage [C]//NSDI . USENIX , 2020 : 449-462
+[18] MARCUS R , NEGI P , MAO H Z , et al . Neo [J]. Proceedings of the VLDB endowment , 2019 , 12(11): 1705 -1718 . DOI: 10.14778 /3342263 .3342644
+[19] KRASKA T , BEUTEL A , CHI E H , et al . The case for learned index 
+structures [C]//Proceedings of the 2018  International Conference on 
+Management of Data . ACM , 2018 ： 489-504
+[20] CHEN T Y , GAO J , CHEN H D , et al . LOGER : a learned optimizer towards 
+generating efficient and robust query execution plans [J]. Proceedings of 
+the VLDB endowment , 2023 , 16(7): 1777 -1789 . DOI : 10.14778 /
+3587136 .3587150
+[21] 梅宏, 杜小勇 , 金海, 等. 大数据技术前瞻  [J]. 大数据 , 2023 , 9(1): 1-20
+[22] DAS SHARMA D . Compute Express Link : an open industry-standard 
+interconnect enabling heterogeneous data-centric computing [C]//
+Proceedings of 2022  IEEE Symposium on High-Performance 
+Interconnects (HOTI ). IEEE , 2022 : 5-12. DOI : 10.1109 /
+HOTI 55740 .2022 .00017
+[23] Apache Iceberg . Apache Iceberg homepage [EB/OL ]. [2023 -05-25]. https ://
+iceberg .apache .org
+[24] Apache Hudi . Apache Hudi hompage [EB/OL ]. [2023 -05-25]. https ://hudi .
+apache .org
+[25] Delta Lake . Delta Lake hompage [EB/OL ]. [2023 -05-25]. https ://delta .io
+[26] EDARA P , PASUMANSKY M . Big metadata [J]. Proceedings of the VLDB 
+endowment , 2021 , 14(12): 3083 -3095 . DOI: 10.14778 /3476311 .3476385
+[27] POTHARAJU R , KIM T , SONG E , et al . Hyperspace [J]. Proceedings of the 
+VLDB endowment , 2021 , 14(12): 3043 -3055 . DOI : 10.14778 /
+3476311 .3476382
+[28] TA-SHMA P , KHAZMA G , LUSHI G , et al . Extensible data skipping [C]//
+Proceedings of 2020  IEEE International Conference on Big Data (Big Data ). 
+IEEE , 2021 : 372-382. DOI: 10.1109 /BigData 50022 .2020 .9377740
+[29] 全国信标委大数据标准工作组 . 2022 .数据要素流通标准化白皮书 （2022 版）
+[R]. 2022
+[30] 中兴通讯 . 2023  Netnumen Ztppc 数据要素可信流通平台  [R]. 2023
+作 者 简 介
+韩银俊 ，中兴通讯股份有限公司数据智能研发总
+工、中兴通讯青年领军人才 ；负责新型数据库技
+术、大数据湖仓融合技术和高性能存储相关技术
+的研发工作 ，主要研究方向为数据库 、人工智能 、
+大数据及存储 ；获省级科技进步奖一等奖 3项。
+牛家浩 ，中兴通讯股份有限公司数据智能系统架
+构师、中兴通讯青年领军人才 ；负责大数据平台
+规划和技术研究工作 ，主要研究方向为大数据 、
+湖仓融合 、数据安全及隐私保护等 。
+屠要峰 ，中兴通讯股份有限公司中心研究院副院
+长、数据库技术专家委员会主任 ，中国计算机学
+会杰出会员 、南京分部副主席 、数据库专委 、大
+数据专委 、信息存储常委 ，中国人工智能学会常
+务理事 ，中国开源软件联盟理事 ；负责中兴通讯
+数据智能平台研发 ，主要研究方向为大数据 、人
+工智能 、数据库及存储 。
+71

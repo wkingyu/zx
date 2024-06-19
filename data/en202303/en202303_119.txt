@@ -1,0 +1,75 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3DING Jianwen , LIU Yao , LIAO Hongjian , SUN Bin , WANG Wei Statistical Model of Path Loss for Railway 5G Marshalling Yard Scenario   Research Papers
+Statistical Model of Path Loss for Statistical Model of Path Loss for 
+Railway Railway 55G Marshalling Yard ScenarioG Marshalling Yard Scenario
+DING Jianwen1, LIU Yao1, LIAO Hongjian1, SUN Bin1, 
+WANG Wei2
+(1. Beijing Jiaotong University , Beijing 100044 , China ;
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202303015
+https ://link .cnki.net/urlid/ 34.1294 .TN.20230905 .2004 .002, published online 
+September 6, 2023
+Manuscript received : 2022 -10-25
+Abstract : The railway mobile communication system is undergoing a smooth transition from the Global System for Mobile Communications -
+Railway (GSM -R) to the Railway 5G. In this paper , an empirical path loss model based on a large amount of measured data is established to 
+predict the path loss in the Railway 5G marshalling yard scenario . According to the different characteristics of base station directional anten ‐
+nas, the antenna gain is verified . Then we propose the position of the breakpoint in the antenna propagation area , and based on the breakpoint 
+segmentation , a large -scale statistical model for marshalling yards is established .
+Keywords : 5G-R; marshalling yard ; path loss prediction ; statistical modeling
+Citation  (Format 1): DING J W , LIU Y , LIAO H J , et al . Statistical model of path loss for railway 5G marshalling yard scenario [J]. ZTE Com ‐
+munications , 2023 , 21(3): 117–122. DOI : 10.12142 /ZTECOM .202303015
+Citation  (Format 2): J. W. Ding , Y. Liu, H. J. Liao , et al ., “Statistical model of path loss for railway 5G marshalling yard scenario ,” ZTE Com ⁃
+munications , vol. 21, no. 3, pp. 117–122, Sept . 2023 . doi: 10.12142 /ZTECOM .202303015 .
+1 Introduction
+With the deployment and advancement of the 5G 
+“new infrastructure ” strategy , a series of techno ‐
+logical innovations for the new generation of rail ‐
+way mobile communication are actively being car ‐
+ried out in China . Taking 5G as an opportunity , 5G for Rail ‐
+way (5G-R) has been widely regarded as a solution to meeting 
+the diverse requirements of railway wireless communica ‐
+tions[1–2]. Railway 5G is composed of 5G-R and the public 5G 
+network dedicated to the railway . Among them , 5G-R refers to 
+a private 5G network that provides services for the railway sys ‐
+tem, which is completely independent and highly reliable . 
+However , the current 5G-R bandwidth is limited and cannot 
+carry a large number of high -bandwidth services in railways[3]. 
+It is necessary to use the dedicated frequency of the public 5G 
+network to carry out some services uncorrelated to driving 
+safety because the 5G-R frequency has not been approved . At 
+present , the development of the Railway 5G is in the prelimi ‐
+nary stage , without enough technical standards for the con ‐
+struction of a railway wireless network . For various scenarios 
+with higher frequencies , it is necessary to conduct a large num ‐
+ber of field measurements and tests to collect test data . The current technical standards can be summarized and improved 
+more accurately based on these data . Compared with the previ ‐
+ous, the current railway system has changed a lot . Therefore , 
+we need to determine the field strength prediction model un ‐
+der typical railway scenarios and provide corresponding tech ‐
+nical standards for the construction of the Railway 5G through 
+the evaluation of wireless network coverage . At the same time , 
+high -speed railway is also one of the important application sce ‐
+narios of the 6G mobile communication technology in the fu ‐
+ture. A 6G network can provide more comprehensive perfor ‐
+mance indicators , such as ultra -low delay jitter , ultra -high se ‐
+curity , stereo coverage , and ultra -high positioning accuracy . 
+With the help of 6G, more high -speed railway business and ap ‐
+plication requirements can be realized , and the development 
+of railway digitalization can be promoted[4]. Therefore , we not 
+only need to build a 5G-R network in an all -round way , but 
+also make theoretical and technical preparations for 6G.
+The channel parameters of 5G including path loss exponent 
+and shadow fading were measured in the scene of campus in 
+Ref. [5]. A new path loss prediction model for the viaduct area 
+was deduced through statistical analysis of the measurement 
+results in Ref . [6]. To model the path loss of viaducts and 
+plains , Ref . [7] proposed a modified free space model with 
+good results . The authors in Ref . [8] divided viaducts into four 
+areas : suburban , open , mountainous and urban . They calcu ‐
+lated respective path loss exponent and standard deviations of 
+shadow fading . Ref. [9] measured and analyzed the path loss 
+This work was supported in part by the Fundamental Research Funds 
+for the Central Universities under Grant No . 2022 JBXT 001, in part by NS ⁃
+FC under Grant No . 62171021 , in part by the Project of China State Rail ⁃
+way Group under Grant No . P2021 G012, and in part by ZTE Industry⁃Uni ⁃
+versity⁃Institute Cooperation Funds under Grant No . I21L00220 .
+117

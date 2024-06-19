@@ -1,0 +1,78 @@
+ince the launch of 5G in 2018, 5G 
+applications have been deployed at 
+signi/f_icant scale. However, as the 
+development of 5G applications 
+continues, certain scenarios have emerged where the 
+current capabilities of 5G such as extreme high speed 
+exceed the actual demands, leading to higher costs 
+for 5G terminals and posing challenges for 
+large-scale deployment of 5G applications. 
+The introduction of 5G reduced capability 
+(RedCap), also referred to as NR Light, in 3GPP 
+Release 17, came at the right time, achieving a 
+trade-oﬀ of cost and performance. 5G RedCap 
+obtains the advantages of low cost and low power 
+consumption by reducing terminal complexity while 
+inheriting unique characteristics from 5G such as 
+high capacity, low latency and network slicing, 
+enabling mid- and high-speed IoT scenarios and 
+promoting the large-scale deployment of 5G 
+applications. In the upcoming 3GPP Release 18, 
+RedCap will further reduce the terminal capability. 
+This version, called 5G eRedCap, can be described as 
+the 5G/uni00A0equivalent of 4G Cat.1 and Cat. 1bis, extending 
+the application boundary of 5G RedCap. 
+Currently, three addressable 5G RedCap use cases 
+are proposed in 3GPP Release 17. These include 
+industrial wireless sensors, video surveillance, and 
+wearables, which can be widely used across multiple 
+vertical industries such as smart manufacturing, 
+smart power grid, and smart city. The application of 
+5G RedCap is poised to accelerate the digital 
+transformation within these industries.
+5G RedCap has broad prospects due to its 
+cost-eﬀective advantage. The deployment of 5G 
+RedCap will start to take shape in the coming years 
+with China expected to lead the initial commercial 
+deployment, followed by a phased global rollout. According to Counterpoint Research, 5G RedCap 
+modules will constitute 18% of total cellular IoT module 
+shipments by 2030, indicating the signi/f_icant market 
+potential. In the long term, 5G RedCap provides an 
+evolution path for existing mid-tier 4G connections.
+ZTE “Basic + Enhanced + X” RedCap 
+Solution
+To address the application scenarios of 5G RedCap, 
+ZTE has launched the “Basic + Enhanced + X” 5G 
+RedCap Solution to facilitate the smooth rollout of 
+RedCap across diﬀerent stages and various scenarios, 
+enabling 5G RedCap to go from being "usable" to 
+being “useful” . 
+The basic 5G RedCap features ensure that RedCap 
+terminals can smoothly access the existing 5G 
+networks. When these terminals access the 5G 
+network as a new type of 5G terminal, access control, 
+user identi/f_ication and a /f_lexible bandwidth part 
+(BWP) strategy are required. ZTE supports all these 
+basic features to guarantee eﬃcient connectivity of 
+5G RedCap terminals to the existing 5G network. 
+The enhanced RedCap features aim to maximize the 
+usage ratio of network resources. When integrated 
+into the existing 5G network, the compatibility with 
+both the existing network and terminals needs to be 
+considered for 5G RedCap. ZTE supports the 5G 
+RedCap enhancements in terms of capacity, 
+coverage, and power saving. In terms of capacity, 
+ZTE provides functions such as BWP Adaptive 
+Adding and Deleting and Non-aligned Space 
+Division Pairing to maximize spectrum eﬃciency 
+and improve the user experience in large-capacity 
+scenarios such as multi-channel concurrent 
+high-de/f_inition video surveillance. In terms of 
+coverage, recognizing that 5G RedCap with reduced 
+5G RedCap Poised to Boost 5G 
+Applications 
+S
+RAN Solution 
+Manager, ZTECao Ni
+5G-Advanced Special Topic 
+22 

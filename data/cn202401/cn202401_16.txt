@@ -1,0 +1,46 @@
+基于无线光通信的非正交多址接入技术研究 李 亮  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1基于无线光通信的非正交
+多址接入技术研究
+Non-Orthogonal Multiple Access Technology Based on 
+Optical Wireless Communication
+李亮/LI Liang1，董宇涵 /DONG Yuhan1，2，关迅/GUAN Xun1，2，
+宋健/SONG Jian1，2，3，张晓平 /ZHANG Xiaoping1
+（ 1.清华大学深圳国际研究生院 ，中国 深圳 518055 ；
+2.鹏城实验室 ，中国 深圳 518000 ；
+3.清华大学 ，中国 北京 100084  ）
+(1.Tsinghua Shenzhen International Graduate School , Shenzhen 518055 , 
+China ;
+2.Pengcheng Laboratory , Shenzhen 518000 , China ;
+3.Tsinghua University , Beijing 100084 , China )DOI：10.12142 /ZTETJ .202401004
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.tn.20240226 .1616.013.html
+网络出版日期 ：2024 -02-27
+收稿日期 ：2023 -12-20
+摘要 ：将非正交多址接入 （NOMA ）技术应用于无线光通信系统 ，可以提高系统容量和频谱效率 。首先阐述了基于无线光通信 （OWC ）的非正
+交多址技术的基本原理和系统结构 ，并综述了功率分配 、用户分组 、波束控制等优化技术的研究进展 。之后 ，展示了该项技术与无人机
+（UAV） 、智能反射面 （IRS） 、混合光 /射频 （RF）等新兴技术的融合 ，这些融合技术可以使能更多的通信场景和需求 。最后，通过使用强化学习
+来优化一种新型无人机辅助无线光通信非正交多址方案 ，并展示了该方案在新型系统中综合性能提升的效果 。
+关键词 ：OWC ；NOMA ；功率域 NOMA ；深度强化学习
+Abstrac t:Applying non-orthogonal multiple access (NOMA ) technology to optical wireless communication (OWC ) systems can improve sys ⁃
+tem capacity and spectral efficiency . The basic principle and system structure of OWC-NOMA are first presented , and the related research 
+progress including power allocation , user grouping , beam control , and other optimization techniques is summarized . Then , the integration of 
+OWC-NOMA with emerging technologies such as unmanned aerial vehicles (UAV), intelligent reflecting surface (IRS), and hybrid optical/ra ⁃
+dio frequency (RF) is introduced , which is capable of facilitating more communication scenarios and requirements . Finally , the overall perfor ⁃
+mance improvement of the system by applying reinforcement learning on a novel UAV-assisted OWC-NOMA scheme is demonstrated .
+Keywords :OWC ; NOMA ; power domain NOMA ; deep reinforcement learning
+引用格式 ：李亮 , 董宇涵 , 关迅 , 等. 基于无线光通信的非正交多址接入技术研究  [J]. 中兴通讯技术 , 2024 , 30(1): 12-18. DOI : 10.12142 /
+ZTETJ .202401004
+Citation ： LI L, DONG Y H , GUAN X , et al . Non-orthogonal multiple access technology based on optical wireless communication [J]. ZTE 
+technology journal , 2024 , 30(1): 12-18.  DOI : 10.12142 /ZTETJ .202401004
+近年来 ，无线光通信 （OWC ）技术受到了学术界和产业
+界的关注 。当前 ，射频 （RF）通信存在频谱资源不
+足、设备间干扰严重 ，以及电磁辐射等问题 。OWC 具有工
+作频带宽 、免授权频谱 、不受电磁干扰 、时延低 、成本低 、
+部署方便等优点 ，将作为 6G时代射频通信技术的重要补
+充[1]。如图 1所示 ，OWC 包括红外 、可见光 、紫外等频段 。
+目前 ，OWC 技术主要包括可见光通信 （VLC） 、自由空间光
+基金项目 ：广东省自然科学基金 （2022 A1515010209 ）
+ 图1 电磁波谱图波长/m
+无线电波 微波红外线 紫外线 X射线 γ射线10610010-310-810-1110-13
+频率750 700 600 500 400单位：nm   
+12

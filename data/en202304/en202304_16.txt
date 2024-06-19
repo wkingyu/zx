@@ -1,0 +1,129 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Perceptual Quality Assessment for Point Clouds : A Survey    Special Topic
+quality . Therefore , point cloud quality assessment has be ⁃
+come a topic of great interest . Then we review the subjective 
+quality evaluation of point clouds from three aspects : com ⁃
+mon distortion types of point clouds , commonly used subjec ⁃
+tive experimental setups , and existing subjective datasets . 
+However , conducting subjective experiments is costly . There ⁃
+fore, we further discusses objective point cloud quality evalu ⁃
+ation methods , including model -based and projection -based 
+methods . To assess these objective methods , we provide the 
+evaluation criteria and report the performance of multiple ap ⁃
+proaches on four datasets . Overall , point cloud quality evalua ⁃
+tion requires further research and exploration by relevant re ⁃
+searchers and practitioners in both subjective and objective 
+methods .
+References
+[1] CAO C , PREDA M , ZAHARIA T . 3D point cloud compression : a survey [C]//
+24th International Conference on 3D Web Technology . ACM , 2019 : 1–9. 
+DOI: 10.1145 /3329714 .3338130
+[2] CHARLES R Q , HAO S , MO K C , et al . PointNet : deep learning on point sets 
+for 3D classification and segmentation [C]//2017  IEEE Conference on Com ⁃
+puter Vision and Pattern Recognition (CVPR ). IEEE , 2017 : 77–85. DOI : 
+10.1109 /CVPR .2017 .16
+[3] GUO Y L , WANG H Y , HU Q Y , et al . Deep learning for 3D point clouds : a 
+survey [J]. IEEE transactions on pattern analysis and machine intelligence , 
+2021 , 43(12): 4338 –4364 . DOI : 10.1109 /TPAMI .2020 .3005434
+[4] LIU Y P , YANG Q , XU Y L , et al . Point cloud quality assessment : dataset con ⁃
+struction and learning -based no -reference metric [J]. ACM transactions on 
+multimedia computing , communications , and applications , 2023 , 19(2s): 
+No.80. DOI : 10.1145 /3550274
+[5] LIU Q , SU H L , DUANMU Z F , et al . Perceptual quality assessment of colored 
+3D point clouds [J]. IEEE transactions on visualization and computer graph ⁃
+ics, 2023 , 29(8): 3642 –3655 . DOI : 10.1109 /TVCG .2022 .3167151
+[6] YANG Q , CHEN H , MA Z , et al . Predicting the perceptual quality of point 
+cloud : a 3D-to-2D projection -based exploration [J]. IEEE transactions on mul ⁃
+timedia , 2021 , 23: 3877 –3891 . DOI : 10.1109 /TMM .2020 .3033117
+[7] LAZZAROTTO D , TESTOLINA M , EBRAHIMI T . On the impact of spatial 
+rendering on point cloud subjective visual quality assessment [C]//14th Inter ⁃
+national Conference on Quality of Multimedia Experience (QoMEX ). IEEE , 
+2022 : 1–6. DOI : 10.1109 /QoMEX 55416 .2022 .9900898
+[8] ALEXIOU E , EBRAHIMI T . On the performance of metrics to predict quality 
+in point cloud representations [C]//Proc . SPIE 10396 , Applications of Digital 
+Image Processing XL . SPIE , 2017 : 282–297. DOI : 10.1117 /12.2275142
+[9] NEHMÉ Y , FARRUGIA J P , DUPONT F , et al . Comparison of subjective 
+methods , with and without explicit reference , for quality assessment of 3D 
+graphics [C]//ACM Symposium on Applied Perception . ACM , 2019 : 1–9. 
+DOI: 10.1145 /3343036 .3352493
+[10] EBRAHIMI T , ALEXIOU E , FONSECA T A , et al . A novel methodology for 
+quality assessment of voxelized point clouds [C]//Proc . Applications of Digi ⁃
+tal Image Processing XLI . SPIE , 2018 . DOI : 10.1117 /12.2322741
+[11] ALEXIOU E , VIOLA I , BORGES T M , et al . A comprehensive study of the 
+rate -distortion performance in MPEG point cloud compression [J]. APSIPA 
+transactions on signal and information processing , 2019 , 8(1): e27. DOI : 
+10.1017 /atsip .2019 .20
+[12] JAVAHERI A , BRITES C , PEREIRA F , et al . Subjective and objective qual ⁃
+ity evaluation of 3D point cloud denoising algorithms [C]//2017  IEEE Inter ⁃
+national Conference on Multimedia & Expo Workshops (ICMEW ). IEEE , 
+2017 : 1–6. DOI : 10.1109 /ICMEW .2017 .8026263
+[13] ALEXIOU E , EBRAHIMI T . Impact of visualisation strategy for subjective 
+quality assessment of point clouds [C]//2018  IEEE International Conference 
+on Multimedia & Expo Workshops (ICMEW ). IEEE , 2018 : 1–6. DOI : 10.1109 /ICMEW .2018 .8551498
+[14] ALEXIOU E , PINHEIRO A M G , DUARTE C , et al . Point cloud subjective 
+evaluation methodology based on reconstructed surfaces [C]//Proc . SPIE 
+10752 , Applications of Digital Image Processing XLI . SPIE , 2018 , 10752 : 
+160–173. DOI : 10.1117 /12.2321518
+[15] JAVAHERI A , BRITES C , PEREIRA F , et al . Subjective and objective qual ⁃
+ity evaluation of compressed point clouds [C]//IEEE 19th International Work ⁃
+shop on Multimedia Signal Processing (MMSP ). IEEE , 2017 : 1–6. DOI : 
+10.1109 /MMSP .2017 .8122239
+[16] DA SILVA CRUZ L A , DUMIĆ E , ALEXIOU E , et al . Point cloud quality 
+evaluation : towards a definition for test conditions [C]//2019  Eleventh Inter ⁃
+national Conference on Quality of Multimedia Experience (QoMEX ). IEEE , 
+2019 : 1–6. DOI : 10.1109 /QoMEX .2019 .8743258
+[17] ZERMAN E , GAO P , OZCINAR C , et al . Subjective and objective quality as ⁃
+sessment for volumetric video compression [J]. Electronic imaging , 2019 , 31
+(10): 323–1. DOI : 10.2352 /issn .2470 -1173 .2019 .10.iqsp -323
+[18] SU H L , DUANMU Z F , LIU W T , et al . Perceptual quality assessment of 3d 
+point clouds [C]//2019  IEEE International Conference on Image Processing 
+(ICIP ). IEEE , 2019 : 3182 –3186 . DOI : 10.1109 /ICIP .2019 .8803298
+[19] JAVAHERI A , BRITES C , PEREIRA F , et al . Point cloud rendering after 
+coding : impacts on subjective and objective quality [J]. IEEE transactions on 
+multimedia , 2021 , 23: 4049 –4064 . DOI : 10.1109 /TMM .2020 .3037481
+[20] ZERMAN E , OZCINAR C , GAO P , et al . Textured mesh vs coloured point 
+cloud : a subjective study for volumetric video compression [C]//Twelfth Inter ⁃
+national Conference on Quality of Multimedia Experience (QoMEX ). IEEE , 
+2020 : 1–6. DOI : 10.1109 /QoMEX 48832 .2020 .9123137
+[21] CAO K M , XU Y , COSMAN P . Visual quality of compressed mesh and point 
+cloud sequences [J]. IEEE access , 2020 , 8: 171203 –171217 . DOI : 10.1109 /
+ACCESS .2020 .3024633
+[22] ALEXIOU E , EBRAHIMI T . On subjective and objective quality evaluation 
+of point cloud geometry [C]//Ninth International Conference on Quality of 
+Multimedia Experience (QoMEX ). IEEE , 2017 : 1–3. DOI : 10.1109 /Qo⁃
+MEX .2017 .7965681
+[23] ALEXIOU E , EBRAHIMI T . Point cloud quality assessment metric based on 
+angular similarity [C]//2018  IEEE International Conference on Multimedia 
+and Expo (ICME ). IEEE , 2018 : 1–6. DOI : 10.1109 /ICME .2018 .8486512
+[24] ALEXIOU E , EBRAHIMI T . Benchmarking of objective quality metrics for 
+colorless point clouds [C]//2018  Picture Coding Symposium (PCS). IEEE , 
+2018 : 51–55. DOI : 10.1109 /PCS .2018 .8456252
+[25] ALEXIOU E , EBRAHIMI T . Exploiting user interactivity in quality assess ⁃
+ment of point cloud imaging [C]//Eleventh International Conference on Qual ⁃
+ity of Multimedia Experience (QoMEX ). IEEE , 2019 : 1–6. DOI : 10.1109 /
+QoMEX .2019 .8743277
+[26] VIOLA I , SUBRAMANYAM S , CESAR P . A color -based objective quality 
+metric for point cloud contents [C]//Twelfth International Conference on 
+Quality of Multimedia Experience (QoMEX ). IEEE , 2020 : 1–6. DOI : 
+10.1109 /QoMEX 48832 .2020 .9123089
+[27] JAVAHERI A , BRITES C , PEREIRA F , et al . Improving PSNR -based qual ⁃
+ity metrics performance for point cloud geometry [C]//2020  IEEE Interna ⁃
+tional Conference on Image Processing (ICIP ). IEEE , 2020 : 3438 –3442 . 
+DOI: 10.1109 /ICIP 40778 .2020 .9191233
+[28] HUA L , YU M , JIANG G Y , et al . VQA -CPC: a novel visual quality assess ⁃
+ment metric of color point clouds [C]//Proc . SPIE 11550 , Optoelectronic Im ⁃
+aging and Multimedia Technology VII . SPIE , 2020 , 11550 : 244–252. DOI : 
+10.1117 /12.2573686
+[29] ALEXIOU E , UPENIK E , EBRAHIMI T . Towards subjective quality assess ⁃
+ment of point cloud imaging in augmented reality [C]//IEEE 19th Interna ⁃
+tional Workshop on Multimedia Signal Processing (MMSP ). IEEE , 2017 : 1–
+6. DOI : 10.1109 /MMSP .2017 .8122237
+[30] ALEXIOU E , EBRAHIMI T , BERNARDO M V , et al . Point cloud subjective 
+evaluation methodology based on 2D rendering [C]//Tenth International Con ⁃
+ference on Quality of Multimedia Experience (QoMEX ). IEEE , 2018 : 1–6. 
+DOI: 10.1109 /QoMEX .2018 .8463406
+[31] PERRY S , CONG H P , DA SILVA CRUZ L A , et al . Quality evaluation of 
+static point clouds encoded using MPEG codecs [C]//2020  IEEE Interna ⁃
+tional Conference on Image Processing (ICIP ). IEEE , 2020 : 3428 –3432 . 
+DOI: 10.1109 /ICIP 40778 .2020 .9191308
+13

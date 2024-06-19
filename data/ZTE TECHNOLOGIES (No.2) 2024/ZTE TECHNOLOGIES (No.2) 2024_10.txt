@@ -1,0 +1,55 @@
+services.
+Starting in mid-2019, China Mobile explored SPN 
+/f_ine-granularity technology for 5G+ industries and 
+enterprise private lines. It adopted the N×10 Mbps-based 
+FGU solution, releasing the  Technical White Paper on 
+SPN FGU in June 2021. By the second half of 2021, 
+enterprise standards were completed. In June 2022, 
+SPN 2.0 technical white paper and private line 
+products were launched, and comprehensive 
+evaluation of multi-vendor SPN 2.0 equipment is 
+ongoing. China’s Ministry of Industry and 
+Information Technology (MIIT) has oﬃcially 
+published three SPN industry standards: YD/T 
+3826-2021, YD/T 3974-2021, and YD/T 4172-2022. 
+Additionally, three industry standards, including Test 
+Methods for SPN Equipment,  have been submitted for 
+approval. Research is ongoing for six industry 
+standards, such as  Technical Requirements for 
+Fine-Granularity Transport of SPN and Technical 
+Requirements for Interworking of SPN.
+As a key technology in the SPN slicing channel 
+layer, metro transport network (MTN) has 
+systematic international standards in ITU-T. By 
+January 2023, /f_ive international standard 
+recommendations (MTN architecture G.8310, MTN 
+interface G.8312, MTN equipment function G.8321, 
+MTN linear protection G.8331, MTN network 
+management and control G.8350) and one technical report of network evolution G.sup.69 
+had been released. The MTN synchronization 
+standard was completed in 2023. At the 
+September 2022 ITU-T SG15 plenary session, 
+Chinese members successfully obtained approval 
+for the G.fgMTN standard, indicating international 
+recognition for the core architecture and key 
+technologies of the MTN extension /f_ine-granularity 
+sub-channel.
+Research on SPN 2.0 Application 
+Solutions in Industrial Scenarios
+Analysis of SPN 2.0 Applications in Industry 
+Scenarios
+The industrial Internet includes two network 
+application scenarios: industrial intranet and 
+industrial external network. The industrial intranet 
+connects the data of production, control and other 
+enterprise sectors, managing daily operations 
+through OT and IT networks. The industrial 
+external network provides highly reliable, 
+low-latency connections for remote production 
+control. Telecom operators in China must evolve 
+into integrated service providers supporting the 
+industrial Internet. Their networks should not only 
+prioritize reliable security, carrier-class high 
+reliability and deterministic transport, but also 
+ Expert Views
+08 

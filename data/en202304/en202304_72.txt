@@ -1,0 +1,68 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Incident and Problem Ticket Clustering and Classification Using Deep Learning   Research Papers
+Incident and Problem Ticket Incident and Problem Ticket 
+Clustering and Classification UsingClustering and Classification Using
+Deep LearningDeep Learning
+FENG Hailin1, HAN Jing2, HUANG Leijun1, 
+SHENG Ziwei3, GONG Zican2
+(1. Zhejiang A&F University , Hangzhou 310007 , China ；
+ 2. ZTE Corporation , Shenzhen 518057 , China ；
+ 3. Huazhong University of Science and Technology , Wuhan 430074 , 
+China )DOI: 10.12142 /ZTECOM .202304009
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20231115 .1421 .002.html, 
+published online November 16, 2023
+Manuscript received : 2022 -12-19
+Abstract : A holistic analysis of problem and incident tickets in a real production cloud service environment is presented in this paper . By ex ⁃
+tracting different bags of words , we use principal component analysis (PCA) to examine the clustering characteristics of these tickets . Then K -
+means and latent Dirichlet allocation (LDA ) are applied to show the potential clusters within this Cloud environment . The second part of our 
+study uses a pre -trained bidirectional encoder representation from transformers (BERT ) model to classify the tickets , with the goal of predict ⁃
+ing the optimal dispatching department for a given ticket . Experimental results show that due to the unique characteristics of ticket descrip ⁃
+tion, pre -processing with domain knowledge turns out to be critical in both clustering and classification . Our classification model yields 86% 
+accuracy when predicting the target dispatching department .
+Keywords : problem ticket ; ticket clustering ; ticket classification
+Citation  (Format 1): FENG H L , HANG J , HUANG L J , et al . Incident and problem ticket clustering and classification using deep learning 
+[J]. ZTE Communications , 2023 , 21(4): 69–77. DOI : 10.12142 /ZTECOM .202304009
+Citation (Format 2): H. L. Feng , J. Han , L. J. Huang , et al ., “Incident and problem ticket clustering and classification using deep learning ,” 
+ZTE Communications , vol. 21, no. 4, pp. 69–77, Dec. 2023 . doi: 10.12142 /ZTECOM .202304009 .
+1 Introduction
+For cloud service providers , maintaining an outstanding 
+service level agreement with minimum downtime and 
+incident response time is critical to the business . In or ⁃
+der to provide such a prominent high -level reliability 
+and availability , IT operation plays an important role . How ⁃
+ever, the emergence of modern computing architectures , such 
+as virtual machines , containers , server -less architecture , and 
+micro -services , brings additional challenges to the manage ⁃
+ment of such environments[1–2].
+Problem and incident tickets have been a long -standing 
+mechanism in carrying on any issues reflected by customers , 
+or any alerts raised by monitoring systems . According to the 
+Information Technology Infrastructure Library (ITIL) specifica ⁃
+tion, the incident , problem , and change (IPC) systems fulfill 
+the tracking , analysis , and mitigation of problems[3]. Change 
+requests are nowadays mostly managed differently due to the 
+practice of DevOps . Incident and problem tickets often share 
+the same system and process . An incident or problem ticket 
+usually starts with a short description of the problem that has 
+been originally observed . The ticket itself may be augmented by the personnel assigned along the debugging and resolution 
+process . There are also multiple software platforms and ser ⁃
+vices to help enterprises manage those tickets , including BMC 
+Remedy , IBM Smart Cloud Control Desk , SAP Solution Man ⁃
+ager, ServiceNow , etc.[4]
+However , dispatching an incident or problem ticket is still 
+basically a manual process depending on human knowledge . 
+Some of the ticket management systems offer insights such as 
+agent skill level , capacity , and relevance . There are some early 
+works attempting to dispatch tickets based on the agent ’s 
+speed from historical data[5]. Our observation reveals that dis ⁃
+patching to individual agents might be a secondary issue . In⁃
+stead , finding the matching department for a specific issue ap ⁃
+pears to be a primary one especially if a prompt resolution pe ⁃
+riod is the desired outcome . It is not uncommon for some tickets 
+to go through multiple departments before it lands on the right 
+one. For example , a service unavailable problem might be 
+caused by security settings , networking , hosting services , appli ⁃
+cations , or even databases , and the specific problem may be re ⁃
+solved by one of the departments or by multiple departments . 
+Therefore , it is essential to find the most likely de partment , es⁃
+69

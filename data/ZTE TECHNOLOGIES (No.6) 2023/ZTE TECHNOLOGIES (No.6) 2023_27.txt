@@ -1,0 +1,87 @@
+such as video acceleration, oﬃce application 
+acceleration, and acceleration for speci/f_ied 
+users/websites.
+FTTR-B Builds an All-Optical 
+Enterprise Network with Upgraded 
+Access Bandwidth, User Experience, 
+and O&M Capability
+Superfast Deployment
+The FTTR-B enterprise network features 
+a simpli/f_ied two-layer P2MP architecture, 32 
+concurrent connections, various installation 
+methods, and /f_lexible power supply.
+One network to the user side: Fiber 
+replaces copper and extends to the 
+user side, reducing the overall cabling 
+workload.
+One network for integrated service 
+access:  One optical network provides 
+both wired and Wi-Fi access to services 
+including data, voice, and video.
+One device with multiple functions:  The 
+all-in-one FTTR main ONT integrates the 
+functions of an access gateway, a router, an 
+AC, an IAD, and a PoE switch, simplifying 
+device provisioning and deployment.
+One-network evolution:  The all-optical 
+network can be smoothly upgraded to 
+Fig. 1. Evolution of network 
+solutions for SMEs.Self-built network solution for SMEs FTTR-B network solution for SMEs
+Public 
+cloudInternet
+OLT
+Operator
+SMEEnterprise broadband/Internet 
+private line
+NAS 
+server/printerFTTR main ONT
+Ceiling-mounted APPOF
+Desktop room ONT
+AC
+Enterprise gateway
+Access switch Access switch
+...... ......InternetPublic 
+cloud
+OLT
+Operator
+SME
+Access gateway
+......NAS 
+server/printerIADEnterprise broadband/Internet 
+private line
+ 
+for enterprise broadband/Internet private 
+lines to an FTTR-B all-optical enterprise 
+network, connections are expanded from a 
+single point to an entire network (Fig. 2). This 
+improvement not only enhances customer 
+stickiness, but also leads to a threefold 
+increase in ARPU and an 80% reduction in 
+network churn rate.
+FTTR-B enhances the installation and 
+maintenance service connection for 
+enterprises, leading to increased revenue 
+in the installation and maintenance 
+service sector. The operator can provide 
+maintenance for the FTTR-B enterprise 
+network. This not only enhances customer 
+retention but also allows the operator to 
+increase revenue by oﬀering value-added 
+services. These services include basic 
+maintenance services like speed tests, on-site 
+engineer visits, and analysis reports, as well 
+as advanced maintenance services such as 
+quality analysis and network optimization.
+FTTR-B enhances the telecom service 
+connection for enterprises, increasing 
+telecom service revenue. Through the 
+combination of network and cloud service, 
+it enables one-hop cloud access via 
+VxLAN/IPsec. This enhancement facilitates 
+the deployment of value-added services 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 25

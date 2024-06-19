@@ -1,0 +1,95 @@
+production safety and aﬀects work eﬃciency 
+and transfer eﬃciency. 
+Underground terminal devices are complex, 
+including cameras, sensors, controllers, robots, 
+wearable devices, and mobile phones. Their 
+interface protocols are quite diﬀerent, and 
+there is no uni/f_ied standard or platform for 
+centralized access and monitoring. 
+There are high security requirements. The 
+production data shall not be out of the 
+industrial park, and relevant underground 
+devices have explosion-proof requirements.
+ZTE uses Mini5GC to meet the special 
+underground deployment environments and 
+security and explosion-proof requirements. In 
+this way, underground production data can be 
+unloaded locally, video collection and personnel 
+management data can be uploaded to the 
+data center of the park, and the data can be 
+connected to the underground voice system. 
+All the networks in the park are managed in a 
+uni/f_ied manner and deliver the same service 
+experience. 
+5G wireless transmission is an innovation in 
+modern coal mining technologies. It helps to 
+change workers’ operating habits and improve 
+their working environments. It is of great 
+signi/f_icance to improve the eﬃciency of 
+comprehensive mining, reduce the number of 
+workers and their labor intensity, and improve 
+the intelligent mining capability.
+Coal mine intelligence is the core technical 
+support for high-quality development of the 
+coal industry. This coal mine is super-large 
+state-owned coal mine with a capacity of 
+10 million tons, and it is also one of the /f_irst 
+batch of 71 smart demonstration mines in 
+China. A set of Mini5GC is deployed under the 
+mine to achieve full 5G coverage of the mining 
+area, setting a benchmark for intelligent 
+construction of coal mines and playing an 
+demonstration role in the reconstruction coal 
+mines across the country. This is a successful 
+practice of 5G moving from supporting system 
+to core operation, and it is also a solid step 
+in the application of 5G private networks in 
+industrial scenarios. The /f_irst call is connected, and the whole system 
+is delivered from the factory. After arriving at the 
+site, Mini5GC provides one-click con/f_iguration 
+modi/f_ication and automatic dialing test to realize 
+rapid service provisioning within hours. Finally, 
+Mini5GC provides local O&M and centralized 
+O&M for enterprises to select according to their 
+needs, freeing them from service operation and 
+maintenance. Remote O&M can also be provided 
+to monitor the status of the private network. 
+Mini5GC can be deployed on the operator side 
+or ZTE OpenLab to facilitate the professional 
+O&M of private network and core network. 
+In addition to /f_lexible networking of 
+production lines in industrial shop/f_loors, ZTE 
+Mini5GC can also provide core technologies for 
+intelligent development of coal mines. It is 
+applicable to the scenarios in mining areas such 
+as high-de/f_inition video, unmanned driving, 
+intelligent sensors, integrated voice, and 
+inspection robots, meeting the requirements of 
+network bandwidth, latency and reliability, as 
+well as edge computing capabilities. Derived 
+from ZTE’s public network and core network 
+products, Mini5GC has mature 4G/5G access 
+functions and provides operators and industry 
+users with deterministic network capabilities 
+such as 5G LAN, TSN and URLLC to continuously 
+empower the industry. 
+A coal mine in Shaanxi takes the lead in its 
+intelligent transformation. Adhering to the 
+concept of network-cloud synergy with the 
+network as the basis and the cloud as the core, 
+the coal mine works with ZTE to create an 
+innovative intelligent solution for underground 
+comprehensive mining work. They explore an 
+eﬀective development path for deep integration 
+of 5G and smart mines. 
+The coal production process includes well 
+construction, excavation, comprehensive mining, 
+transportation and cleaning, and the working 
+environment covers the upper and lower wells. 
+The main diﬃculties are:
+The working environment is complex, dusty 
+and watery. With limited underground space 
+and frequent movement of large equipment, 
+optical and copper cables are often scratched 
+or damaged, which causes hidden dangers in 
+21JUN 2023

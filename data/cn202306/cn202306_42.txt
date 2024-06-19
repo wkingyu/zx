@@ -1,0 +1,79 @@
+低开销智能反射面辅助无线通信研究综述 陈天贝  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 610.1109 /TVT.2022 .3224926
+[81] ZHANG Q , WANG Y H , LI H , et al . Resource allocation for energy efficient 
+STAR-RIS aided MEC systems [J]. IEEE wireless communications letters , 
+2023 , 12(4): 610-614. DOI: 10.1109 /LWC .2023 .3236411
+[82] FANG F , WU B B , FU S , et al . Energy-efficient design of STAR-RIS aided 
+MIMO-NOMA networks [J]. IEEE transactions on communications , 2023 , 
+71(1): 498-511. DOI: 10.1109 /TCOMM .2022 .3223706
+[83] LIU Y W , MU X D , XU J Q , et al . STAR : simultaneous transmission and 
+reflection for 360° coverage by intelligent surfaces [J]. IEEE wireless 
+communications , 2021 , 28(6): 102-109. DOI: 10.1109 /MWC .001.2100191
+[84] LIU R Q , DOU J W , LI P , et al . Simulation and field trial results of 
+reconfigurable intelligent surfaces in 5G networks [J]. IEEE access , 2022 , 
+10: 122786 -122795 . DOI: 10.1109 /ACCESS .2022 .3223447
+[85] ZHANG S W , ZHANG R . Intelligent reflecting surface aided multi-user 
+communication : capacity region and deployment strategy [J]. IEEE 
+transactions on communications , 2021 , 69(9): 5790 -5806 . DOI : 10.1109 /
+TCOMM .2021 .3079128
+[86] YOU C S , ZHENG B X , ZHANG R . Wireless communication via double IRS : 
+channel estimation and passive beamforming designs [J]. IEEE wireless 
+communications letters , 2021 , 10(2): 431-435. DOI : 10.1109 /
+LWC .2020 .3034388
+[87] WANG J H , TANG W K , HAN Y , et al . Interplay between RIS and AI in 
+wireless communications : fundamentals , architectures , applications , and 
+open research problems [J]. IEEE journal on selected areas in 
+communications , 2021 , 39(8): 2271 -2288 . DOI : 10.1109 /
+JSAC .2021 .3087259
+[88] ZHANG S , LI M Y , JIAN M N , et al . AIRIS : Artificial intelligence enhanced 
+signal processing in reconfigurable intelligent surface communications [J]. 
+China communications , 2021 , 18(7): 158-171. DOI : 10.23919 /
+JCC.2021 .07.013
+[89] LIU W , PAN C H , REN H , et al . Low-overhead beam training scheme for 
+extremely large-scale RIS in near field [J]. IEEE transactions on 
+communications , 2023 , 71(8): 4924 -4940 . DOI : 10.1109 /
+TCOMM .2023 .3278728
+[90] JIANG Y H , GAO F F , JIAN M N , et al . Reconfigurable intelligent surface 
+for near field communications : beamforming and sensing [J]. IEEE 
+transactions on wireless communications , 2023 , 22(5): 3447 -3459 . DOI : 
+10.1109 /TWC .2022 .3218531
+[91] CUI M Y , WU Z D , LU Y , et al . Near-field MIMO communications for 6G: 
+fundamentals , challenges , potentials , and future directions [J]. IEEE 
+communications magazine , 2023 , 61(1): 40-46. DOI : 10.1109 /
+MCOM .004.2200136
+[92] 杨晓宇 , 尉志青 , 孟春伟 . 可重构智能表面辅助的通信感知一体化系统  [J]. 中
+兴通讯技术 , 2022 , 28(5): 17-22
+[93] RIHAN M , ZAPPONE A , BUZZI S , et al . Passive vs . active reconfigurable 
+intelligent surfaces for integrated sensing and communication : challenges 
+and opportunities [J]. IEEE network , 2023 , (99): 1. DOI : 10.1109 /
+MNET .2023 .3321542
+[94] LIU R , LI M , LUO H H , et al . Integrated sensing and communication with 
+reconfigurable intelligent surfaces : opportunities , applications , and future directions [J]. IEEE wireless communications , 2023 , 30(1): 50-57. DOI : 
+10.1109 /MWC .002.2200206
+[95] 李斌, 刘文帅 , 谢万城 , 等. 智能超表面赋能移动边缘计算部分任务卸载策略  
+[J]. 电子与信息学报 , 2022 , 44(7): 2309 -2316
+[96] BAI T , PAN C H , HAN C , et al . Reconfigurable intelligent surface aided 
+mobile edge computing [J]. IEEE wireless communications , 2021 , 28(6): 
+80-86. DOI: 10.1109 /MWC .001.2100142
+作 者 简 介
+陈天贝 ，北京邮电大学信息与通信工程学院在读
+硕士研究生 ；主要研究领域为智能反射面技术 。
+李娜 ，北京邮电大学副教授 、博士生导师 ，主要
+研究领域为 5G/6G无线组网关键技术 、无线内生
+安全、物理层安全 ；先后主持和参与国家重点研
+发计划 、国家自然科学基金 、北京市自然科学基
+金等国家级省部级项目 10余项，曾获 1项科研成
+果奖励 ；已发表论文 40余篇 ，获授权专利 10余
+项，出版专著 1部。
+                          陶小峰 ，北京邮电大学教授 、博士生导师 ，移动
+互联网安全技术国家工程研究中心主任 ，无线新
+技术研究所副所长 ，英国工程技术学会会士 ，
+IEEE 通信学会北京分会主席 ，中国科协联合国信
+息咨商专业委员会委员 ；主要研究方向为 5G/
+6G；曾 主 持 国 家 杰 出 青 年 科 学 基 金 、国 家
+“863”计划重大项目 、北京市自然科学基金等项
+目，被评为北京市科技新星 、科技北京百名领军
+人才 、 “万人计划 ”科技创新领军人才 ，曾2次获得国家技术发明
+奖；已发表论文 200余篇，出版学术专著 3部。
+38

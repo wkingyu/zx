@@ -1,0 +1,101 @@
+基于无线光通信的非正交多址接入技术研究 李 亮  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1优势进一步增加 。这是因为随着用户数量增加 ，映射到离散
+动作所需要的连续动作也更多 ，动作空间增加的也更多 。此
+时传统 DDPG 算法更难探索到更好的策略 ，训练也更难收
+敛，相应的测试结果也会更差 。
+5 结束语
+本文中 ，我们介绍了 OWC-NOMA 技术的基本原理 、系
+统结构 、研究进展和新兴技术的融合 ，展示了 OWC-NOMA
+技术在 6G时代的巨大应用潜力和应用前景 。OWC-NOMA 技
+术可以有效地提高 OWC 的频谱效率和系统容量 ，同时也可
+以降低系统的复杂度和同步 /滤波要求 。OWC-NOMA 技术还
+可以与无人机 、智能反射面 、混合光 /射频等一系列新兴的
+技术相结合 ，服务更多的通信场景和需求 。最后 ，介绍了一
+项无人机辅助 VLC-NOMA 的研究进展 ，并通过深度强化学
+习方法优化了系统的性能 。OWC-NOMA 技术是一种具有创
+新性和前瞻性的通信技术 ，值得我们进行进一步的研究和
+探索 。
+参考文献
+[1] WANG C X , YOU X H , GAO X Q , et al . On the road to 6G: visions , 
+requirements , key technologies , and testbeds [J].IEEE 
+communications surveys & tutorials , 2023 , 25(2): 905-974. DOI : 
+10.1109 /COMST .2023 .3249835
+[2] MOHSAN S A H , SADIQ M , LI Y , et al . NOMA-based VLC 
+systems : a comprehensive review [J]. Sensors (basel ), 2023 , 23
+(6): 2960 . DOI: 10.3390 /s23062960
+[3] DAI L L , WANG B C , DING Z G , et al . A survey of non-orthogonal 
+multiple access for 5G [J]. IEEE communications surveys & 
+tutorials , 2018 , 20(3): 2294 -2323 . DOI : 10.1109 /
+comst .2018 .2835558
+[4] MARSHOUD H , KAPINAS V M , KARAGIANNIDIS G K , et al . Non-
+orthogonal multiple access for visible light communications [J]. 
+IEEE photonics technology letters , 2016 , 28(1): 51-54. DOI : 
+10.1109 /lpt.2015 .2479600
+[5] KIZILIRMAK R C , ROWELL C R , UYSAL M . Non-orthogonal 
+multiple access (NOMA ) for indoor visible light communications 
+[C]//Proceedings of 4th International Workshop on Optical 
+Wireless Communications (IWOW ). IEEE , 2015 : 98-101. DOI : 
+10.1109 /iwow .2015 .7342274
+[6] YIN L , POPOOLA W O , WU X P , et al . Performance evaluation of 
+non-orthogonal multiple access in visible light communication [J]. 
+IEEE transactions on communications , 2016 , 64(12): 5162 -5175 . 
+DOI: 10.1109 /tcomm .2016 .2612195
+[7] ZHANG L , WEI Z X , CHEN Y J , et al . VCSEL-based multi-user 
+optical wireless communication system using non-orthogonal 
+multiple access [C]//Proceedings of 14th Pacific Rim Conference 
+on Lasers and Electro-Optics (CLEO PR 2020 ).IEEE , 2020 . DOI : 
+10.1364 /cleopr .2020 .c3f_5
+[8] WANG G C , GONG C , XU Z Y . Signal characterization for multiple 
+access non-line of sight scattering communication [J]. IEEE 
+transactions on communications , 2018 , 66(9): 4138 -4154 . DOI : 10.1109 /tcomm .2018 .2830766
+[9] LI Q, SHANG T , TANG T , et al . Adaptive user association scheme 
+for indoor multi-user NOMA-VLC systems [J]. IEEE wireless 
+communications letters , 2023 , 12(5): 873-877. DOI : 10.1109 /
+lwc.2023 .3247420
+[10] EROGLU Y S , ANJINAPPA C K , GUVENC I , et al . Slow beam 
+steering and NOMA for indoor multi-user visible light 
+communications [J]. IEEE transactions on mobile computing , 
+2021 , 20(4): 1627 -1641 . DOI: 10.1109 /tmc.2019 .2960495
+[11] PHAM Q V , HUYNH-THE T , ALAZAB M , et al . Sum-rate 
+maximization for UAV-assisted visible light communications 
+using NOMA : swarm intelligence meets machine learning [J]. 
+IEEE Internet of Things journal , 2020 , 7(10): 10375 -10387 . DOI : 
+10.1109 /jiot.2020 .2988930
+[12] SULEIMEN A , KIZILIRMAK R C . UAV assisted vehicular 
+communication with VLCusing NOMA [C]//Proceedings of 12th 
+International Symposium on Communication Systems , Networks 
+and Digital Signal Processing (CSNDSP ). IEEE , 2020 : 1-5. DOI : 
+10.1109 /csndsp 49049 .2020 .9249511
+[13] JIAN Y H , WANG C C , CHOW C W , et al . Optical beam 
+steerable orthogonal frequency division multiplexing (OFDM ) 
+non-orthogonal multiple access (NOMA ) visible light 
+communication using spatial-light modulator based 
+reconfigurable intelligent surface [J]. IEEE photonics journal , 
+2023 , 15(4): 1-8. DOI: 10.1109 /jphot .2023 .3294834
+[14] SINGH P , BOHARA V A , SRIVASTAVA A . On the optimal 
+assignment of mirror element in UAV and OIRS-assisted OWC 
+based architecture [C]//Proceedings of IEEE 97th Vehicular 
+Technology Conference (VTC2023 -Spring ). IEEE , 2023 :1-7. 
+DOI: 10.1109 /vtc2023 -spring 57618 .2023 .10199990
+[15] RAHAIM M B , VEGNI A M , LITTLE T D C . A hybrid Radio 
+Frequency and broadcast Visible Light Communication system 
+[C]//Proceedings of IEEE GLOBECOM Workshops (GC Wkshps ). 
+IEEE , 2011 : 792-796. DOI: 10.1109 /glocomw .2011 .6162563
+[16] SHI D Y , ZHANG X , SHI L N . A joint backscatter and VLC-
+NOMA communication scheme for B 5G/6G umMTC system [C]//
+Proceedings of IEEE International Symposium on Broadband 
+Multimedia Systems and Broadcasting (BMSB ). IEEE , 2021 :1-4. 
+DOI: 10.1109 /bmsb 53066 .2021 .9547027
+[17] BESTER C J , JAMES S D , KONIDARIS G . Multi-pass Q-
+networks for deep reinforcement learning with parameterised 
+action spaces [EB/OL ].(2019 -05-10)[2024  -01-04]. https ://arxiv .
+org/abs/ 1905 .04388
+[18] LILLICRAP T , HUNT J J , PRITZEL A , et al . Continuous control 
+with deep reinforcement learning [EB/OL ].(2019 -07-05)[2024 -
+01-04]. https ://arxiv .org/abs/ 1509 .02971
+作 者 简 介
+李亮 ，清华大学深圳国际研究生院在读硕士生 ；
+主要研究方向为无人机辅助无线光通信 ，具体包
+括无人机路径规划 、深度强化学习等 。
+17

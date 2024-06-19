@@ -1,0 +1,130 @@
+大语言模型算法演进综述 朱炫鹏  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2[5] 王海宁 . 自然语言处理技术发展  [J]. 中兴通讯技术 , 2022 , 27(2): 59-
+64. DOI: 10.12142 /ZTETJ .202202009
+[6] BENGIL Y , REJEAN D , PASCAL V . A neural probabilistic language 
+model [EB/OL ]. (2003 -03-01) [2024 -03-10]. https ://dl.acm.org/
+doi/10.5555 /944919 .944966
+[7] MIKOLOV T , KARAFIAT M , BURGET L , et al . Khudanpur . 
+Recurrent neural network based language model [EB/OL ]. [2024 -
+03-10]. https ://www .fit.vut.cz/research/publication/ 9362 /.en
+[8] HOCHREITER S , SCHMIDHUBER J . Long short-term memory 
+[J]. Neural computation , 1997 , 9(8): 1735 -1780 . DOI : 10.1162 /
+neco .1997 .9.8.1735
+[9] PETERS M , NEUMANN M , IYYER M , et al . Deep contextualized 
+word representations [C]//Proceedings of the 2018  Conference of 
+the North American Chapter of the Association for Computational 
+Linguistics . Association for Computational Linguistics , 2018 : 
+2227 -2237 . DOI: 10.18653 /v1/n18-1202
+[10] DEVLIN J , CHANG M , LEE K , et al . BERT : pre-training of deep 
+bidirectional transformers for language understanding [EB/OL ]. 
+(2018 -11-11)[2024 -03-10]. https ://arxiv .org/abs/ 1810 .04805
+[11] KAPLAN J , MCCANDLISH S , HENIGHAN T , et al . Scaling laws 
+for neural language models [EB/OL ]. [2024 -03-10]. https ://arxiv .
+org/abs/ 2001 .08361
+[12] HOFFMANN J , BORGEAUD S , MENSCH A , et al . Training 
+compute-optimal large language models [EB/OL ]. [2024 -03-
+10]. https ://arxiv .org/abs/ 2001 .08361
+[13] BROWN T B , MANN B , RYDER N , et al . Language models are 
+few-shot learners [C]//Proceedings of the 34th International 
+Conference on Neural Information Processing Systems . ACM , 
+2020 : 1877 -1901 . DOI: 10.5555 /3495724 .3495883
+[14] RADFOR A , NARASIMHAN K , SALIMANS T , et al . Improving 
+language understanding by generative pre-training [EB/OL ]. 
+[2024 -03-10]. https ://cdn .openai .com/research-covers/
+language-unsupervised/language_understanding_paper .pdf
+[15] RADFORD A , WU J , CHILD R , et al . Language models are 
+unsupervised multitask learners [EB/OL ]. (2020 -05-28) [2024 -
+03-10]. https ://arxiv .org/abs/ 2005 .14165
+[16] JACOBS R A , JORDAN M I , NOWLAN S J , et al . Adaptive 
+mixtures of local experts [J]. Neural computation , 1991 , 3(1): 79-
+87. DOI: 10.1162 /neco .1991 .3.1.79
+[17] KIM S , HOOPER C , WATTANAWONG T , et al . Full stack 
+optimization of transformer inference : a survey [EB/OL ]. (2023 -
+02-27)[2024 -03-10]. https ://arxiv .org/abs/ 2302 .14017
+[18] TOUVRON H , MARTIN L , STONE K , et al . Llama 2: open 
+foundation and fine-tuned chat models [EB/OL ]. (2023 -05-18)
+[2024 -03-10]. https ://arxiv .org/abs/ 2307 .09288
+[19] CHOI J , LI H , KIM B , et al . Accelerating transformer networks 
+through recomposing softmax layers [EB/OL ]. [2024 -03-10]. 
+https ://ieeexplore .ieee.org/document/ 9975410
+[20] POPE R , DOUGLAS H , CHOWDHERY A , et al . Efficiently scaling 
+Transformer inference [EB/OL ]. (2022 -11-09) [2024 -03-10]. 
+https ://arxiv .org/abs/ 2211 .05102
+[21] 马子轩 ，翟季冬 ，韩文弢 ，等，郑纬民 . 高效训练百万亿参数预训练模
+型的系统挑战和对策  [J]. 中兴通讯技术 , 2022 , 27(2): 51-58. DOI : 
+10.12142 /ZTETJ .202202008
+[22] SHOEYBI M , PATWARY M , PURI R , et al . Megatron-LM 
+training multi-billion parameter language models using model 
+parallelism [EB/OL ]. (2019 -09-17) [2024 -03-13]. https ://arxiv .
+org/abs/ 1909 .08053
+[23] NARAYANAN D , SHOEYBI M , CASPER J , et al . Efficient large-
+scale language model training on GPU Clusters using megatron-
+LM [EB/OL ]. (2021 -04-09) [2024 -03-10]. https ://arxiv .org/abs/
+2104 .04473
+[24] KORTHIKANTI V , CASPER J , LYM S , et al . Reducing activation 
+recomputation in large transformer models [EB/OL ]. (2022 -05-10)[2024 -03-10]. https ://arxiv .org/abs/ 2205 .05198
+[25] SHAZEER N . Fast transformer decoding : one write-head is all 
+you need [EB/OL ]. (2019 -11-06)[2024 -03-10]. https ://arxiv .org/
+abs/1911 .02150
+[26] AINSLIE J , LEE-THORP J , DE JONG M , et al . GQA : training 
+generalized multi-query transformer models from multi-head 
+checkpoints [C]//Proceedings of the 2023  Conference on 
+Empirical Methods in Natural Language Processing . Association 
+for Computational Linguistics , 2023 : 4895 -4901 . DOI : 10.18653 /
+v1/2023 .emnlp-main .298
+[27] STERN M , SHAZEER N M , USZKOREIT J , et al . Blockwise 
+parallel decoding for deep autoregressive models [EB/OL ]. 
+[2023 -03-10]. https ://arxiv .org/pdf/ 1811 .03115 .pdf
+[28] LEVIATHAN Y , KALMAN M , MATIAS Y . Fast inference from 
+transformers via speculative decoding [C]//Proceedings of the 
+40th International Conference on Machine Learning . ACM , 2023 : 
+19274 -19286 . DOI: 10.5555 /3618408 .3619203
+[29] HE B , HOFMANN T . Simplifying transformer blocks [EB/OL ]. 
+(2023 -11-03)[2023 -03-10]. https ://arxiv .org/abs/ 2311 .01906
+[30] DAO T , FU Y D , FU Y , et al . Flashattention : fast and memory-
+efficientexact attention with io-awareness . [EB/OL ]. [2023 -03-
+10].https ://arxiv . abs/ 2205 .14135
+[31] DAO T . Flashattention- 2: Faster attention with better parallelism 
+and work partitioning [EB/OL ]. (2023 -06-17) [2024 -03-10]. 
+https ://arxiv .org/abs/ 2307 .08691
+[32] DAO T , HAZIZA D , MASSA F , et al . Flash-decoding for long-
+context inference [EB/OL ]. (2023 -06-17)[2024 -03-10]. https ://
+pytorch .org/blog/flash-decoding/
+[33] HONG K , DAI G , XU J , et al . FlashDecoding++ : faster large 
+language model inference on GPUs [EB/OL ]. (2023 -11-02)
+[2024 -03-10]. https ://arxiv .org/abs/ 2311 .01282
+[34] KWON W , LI Z H , ZHUANG S Y , et al . Efficient memory 
+management for large language model serving with 
+PagedAttention [EB/OL ]. (2023 -09-12) [2024 -03-10]. https ://
+arxiv.org/abs/ 2309 .06180
+[35] WAN Z , WANG X , LIU C , et al . Efficient large language models : 
+a survey [EB/OL ]. (2023 -12-06)[2024 -03-10]. https ://arxiv .org/
+abs/2312 .03863
+[36] DETTERS T , LEWIS M , BELKADA Y . LLM .int8(): 8-bit matrix 
+multiplication for transformers at scale [EB/OL ]. (2022 -08-15)
+[2024 -03-10]. https ://arxiv .org/abs/ 2208 .07339
+[37] FRANTAR E , ASHKBOOS S , HOEFLER T , et al . GPTQ : accurate 
+post-training quantization for generative pre-trained 
+transformers [EB/OL ]. (2022 -10-31)[2024 -03-10]. https ://arxiv .
+org/abs/ 2210 .17323
+[38] CHEE J , CAI Y , KULESHOV V , et al . QuIP : 2-bit quantization of 
+large language models with guarantees [EB/OL ]. (2022 -06-25)
+[2024 -03-10]. https ://arxiv .org/abs/ 2307 .13304
+[39] LIN J , TANG J , TANG H , et al . AWQ : activation-aware weight 
+quantization for LLM compression and acceleration [EB/OL ]. 
+(2023 -10-13)[2024 -03-10]. https ://arxiv .org/abs/ 2306 .00978
+[40] LEE C , JIN J , KIM T , et al . OWQ : Lessons learned from 
+activation outliers for weight quantization in large language 
+models [EB/OL ]. (2023 -06-04) [2024 -03-10]. https ://arxiv .org/
+abs/2306 .02272
+[41] DETTERS T , SVIRSCHEVSKI R , EGIAZARIAN V , et al . SpQR : a 
+sparse-quantized representation for near-lossless LLM weight 
+compression [EB/OL ]. (2023 -06-05)[2024 -03-10]. https ://arxiv .
+org/abs/ 2306 .03078
+[42] KIM J Y , HENRY R , FAHIM R , et al . FineQuant : unlocking 
+efficiency with fine-grained weight-only quantization for LLMs 
+[EB/OL ]. (2023 -08-16) [2024 -03-10]. https ://arxiv .org/abs/
+2308 .09723
+[43] YAO Z , AMINABADI Y R , ZHANG M , et al . ZeroQuant : efficient 
+19

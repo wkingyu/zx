@@ -1,0 +1,70 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Simulation and Modeling of Common Mode EMI Noise in Planar Transformers   Research Papers
+Simulation and Modeling of Common Mode Simulation and Modeling of Common Mode 
+EMI Noise in Planar TransformersEMI Noise in Planar Transformers
+LI Wei1, JI Jingkang1, LIU Yuanlong1, SUN Jiawei2, 
+LIN Subin2
+(1. ZTE Corporation , Shenzhen 518057 , China；
+ 2. Fuzhou University , Fuzhou 350108 , China )DOI: 10.12142 /ZTECOM .202303014
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20230810 .1409 .004.html, 
+published online August 10, 2023
+Manuscript received : 2022 -11-21
+Abstract : The transformer is the key circuit component of the common -mode noise current when an isolated converter is working . The high -
+frequency characteristics of the transformer have an important influence on the common -mode noise of the converter . Traditionally , the mea ‐
+surement method is used for transformer modeling , and a single lumped device is used to establish the transformer model , which cannot be 
+predicted in the transformer design stage . Based on the transformer common -mode noise transmission mechanism , this paper derives the 
+transformer common -mode equivalent capacitance under ideal conditions . According to the principle of experimental measurement of the net ‐
+work analyzer , the electromagnetic field finite element simulation software three -dimensional (3D) modeling and simulation method is used to 
+obtain the two -port parameters of the transformer , extract the high -frequency parameters of the transformer , and establish its electromagnetic 
+compatibility equivalent circuit model . Finally , an experimental prototype is used to verify the correctness of the model by comparing the ex ‐
+perimental measurement results with the simulation prediction results .
+Keywords : planar transformer ; electromagnetic compatibility ; common -mode noise ; simulation ; modeling
+Citation  (Format 1): LI W , JI J K , LIU Y L , et al . Simulation and modeling of common mode EMI noise in planar transformers [J]. ZTE Com ‐
+munications , 2023 , 21(3): 105–116. DOI : 10.12142 /ZTECOM .202303014
+Citation  (Format 2): W. Li, J. K. Ji, Y. L. Liu, et al ., “Simulation and modeling of common mode EMI noise in planar transformers ,” ZTE 
+Communications , vol. 21, no. 3, pp. 105–116, Jun. 2023 . doi: 10.12142 /ZTECOM .202303014 .
+1 Introduction
+Isolated power converters are widely used in applications 
+that require isolation between the input side and the out ‐
+put side . However , due to the high voltage and current 
+rate of change when switching devices in the power con ‐
+verter are turned on or off , serious electromagnetic interfer ‐
+ence (EMI) noise is generated[1]. For converters including iso ‐
+lation transformers , the critical path of common -mode noise in ‐
+cludes the distributed capacitance between the primary and 
+secondary windings of the transformer in addition to the direct -
+to-ground coupling capacitance of the voltage trip point[2–4]. 
+The transmission mechanism of common mode noise and the 
+establishment of an electromagnetic compatibility model are 
+of great significance for the analysis and suppression of com ‐
+mon mode noise of isolated power converters .
+Magnetic components in power converters often occupy a 
+large volume . As power converters develop toward high 
+power density , traditional wound transformers are gradually 
+replaced by planar transformers due to their disadvantages of 
+large size and weight . Planar transformers generally use 
+multi -layer printed circuit board (PCB) traces as windings . 
+The primary and secondary windings are tightly coupled , with low leakage inductance . At the same time , the core 
+height is greatly reduced , so that planar transformers have a 
+smaller size , which is widely used in isolated converters with 
+high power density[5–7]. However , the copper thickness of the 
+printed circuit board is limited by the process . In order to im ‐
+prove the current capacity , it is necessary to increase the 
+width of the planar transformer windings and adopt the 
+method of multi -layer parallel wiring , which will greatly in ‐
+crease the facing area between the primary and secondary 
+windings of the planar transformer , increase the distributed 
+capacitance between the windings , and deteriorate the high -
+frequency characteristics of the planar transformer[8]. For the 
+integrally installed planar transformer , its printed circuit 
+board windings and the main circuit share the same PCB , 
+and its discrete devices cannot be obtained to evaluate its 
+electromagnetic compatibility characteristics . Therefore , the 
+relevant parameters of the electromagnetic compatibility 
+equivalent circuit model of the planar transformer can be ex ‐
+tracted through electromagnetic field simulation software . 
+Compared with the traditional wound transformer , the struc ‐
+tural parameters of the planar transformer are stable and con ‐
+sistent , and it is easy to model in the electromagnetic field fi ‐
+nite element simulation software .
+105

@@ -1,0 +1,88 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin Research Papers   A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate
+After filters are designed , every individual filter is directly 
+connected through T -junctions[11] to form a multiplexer . The 
+machining physical drawing and microscope photo of the inter ‐
+nal structure are shown in Fig . 7. The proposed duplexer is 
+fabricated by computerized numerical control (CNC ) milling 
+technology . The cavity is made of brass with a gold -plated sur ‐
+face. The simulation and measured results show that the du ‐
+plexer passband is 197–203 GHz and 207–213 GHz , the 
+isolation degree is 22.51 dB at 205 GHz , the average in -band 
+return loss is less than 15 dB, and the average in -band inser ‐
+tion loss (IL) is less than 0.8 dB, which is 0.58 dB at mini ‐
+mum , as shown in Fig . 8. Compared with the simulation re ‐
+sults, the overall frequency shift is 3 GHz and the isolation de ‐gree is 8 dB worse . However , the single -channel bandwidth is 
+not different from the simulation results . The reason may be 
+that the length of the resonant cavity in the center of the two 
+channels is larger than the simulated value , and the width of 
+the coupling window is similar to the simulated value , which 
+leads to the same bandwidth and downward frequency shift .
+4 Measurement Results
+For terahertz wireless communication , the link -budget of 
+the system mainly includes transmit power , antenna gain , free 
+space loss , and atmospheric attenuation[12]. The received 
+power can be calculated as follows :
+PR=PT+GT+GR+20lg (c
+4πRf)-L0-Lex , (1)
+where PT is the transmitter output power in dBm , GT and GR 
+are antennas gains , R is the transmission distance , L0 is atmo ‐
+spheric attenuation which is less than 0.01 dB, and Lex is an 
+excess loss set to 3 dB.
+The transmitting antenna and receiving antenna both use 
+the WR -4 band lens antenna . The baseband power input to 
+the 220 GHz sub -harmonic mixer is less than −10 dBm , and 
+combined with the test results in Section 3, we can get the an ‐
+tenna transmit power PT less than −20 dBm . Therefore , the 
+maximum received power of the receiver is −35.78 dBm .
+Receiver sensitivity Si,min, which is the minimum received 
+power of the receiver and can be calculated as follows :
+Si,min=-174+10lgB+NF+SNR , (2)
+where B is signal bandwidth as 2.6 GHz , NF is the receiver 
+noise factor that can be calculated from the system cascade 
+noise factor calculation formula as 13 dB, and SNR is the 
+minimum signal -to-noise ratio required for baseband demodu ‐
+lation which requires at least 19 dB using 16QAM modula ‐
+tion. Therefore , the receiver sensitivity can be calculated as 
+−46.02 dBm . The difference between the received power and 
+the receiver sensitivity is 10.24 dB, which means the system 
+has a link -budget of 10.24 dB.
+The block diagram of the single -channel experiment is 
+shown in Fig . 9. The LO signals of the transmitter and receiver 
+are both provided by the 110 GHz twelve -octave frequency 
+multiplier . The influence of phase white noise at the far end of 
+the local oscillator on the communication quality is great[13], 
+and the deterioration of phase white noise at the far end of the 
+local oscillator with the frequency multiplier is 20 log10(n), so 
+the input of the local oscillator signal should reduce its far -
+end white noise as much as possible . Compared with a phase -
+locked loop (PLL), the phase -locked dielectric resonator oscil ‐
+lator (PDRO ) has a better phase noise . Therefore , the input of 
+this oscillator selects PDRO at 8.5 GHz and 9 GHz , and its 
+phase noise at 1 MHz can reach −131 dBc/Hz .
+The experimental scenario is shown in Fig . 10. In the trans ‐
+(a) (b)
+▲Figure 7. Physical diagram of duplexer : (a) appearance and (b) mi‑
+croscope photo of internal structure
+▲Figure 8. Duplexer simulation and test data(a) Return loss and suppression system
+(b) Isolation between Ports 2 and 3S-parameter/dB0
+-20
+-40
+-60
+-80
+-100
+Frequency/GHz170 180 190 200 210 220 230 240 250 260S11_Mea
+S21_Mea
+S31_Mea
+Simulation
+S32_Mea
+S32_Sim-20
+-40
+-60
+-80
+-100
+-120
+-140
+-160S-parameter/dB
+Frequency/GHz170 180 190 200 210 220 230 240 250 260
+66

@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3SHEN Jiahao , JIANG Ke , TAN Xiaoyang Boundary Data Augmentation for Offline Reinforcement Learning    Special Topic
+reconstruction error of the two autoencoders as the suspicious 
+identification signal .
+On the other hand , based on an adversarial generation net ‐
+work , Anomaly Detection with Generative Adversarial Net ‐
+works (ADGAN ) [26] generates OOD samples by checking 
+whether the sampled data are satisfactory in a hidden space , 
+while PNET[27] uses the generation network to generate and 
+identify OOD samples based on their reconstruction errors .
+2.3 Generative Model for Offline Reinforcement Learning
+Generative models have been widely used in offline rein ‐
+forcement learning for different usages . In BCQ[16] and BEAR[17] 
+algorithms , conditional variational autoencoders generate data 
+that satisfies the constraint . Action -conditioned Q -learning 
+(AQL )[28] replaces the conditional variational autoencoder in 
+BEAR with a residual generative model to improve fitting per ‐
+formance . MCQ[20] uses a generative model such as conditional 
+GAN to estimate the sampling policy . Diffusion Q -learning[29] 
+uses a diffusion model to constrain target policy and add a loss 
+of maximum action value to the original diffusion loss . Select ‐
+ing from Behavior Candidates (SfBC )[30] also uses a diffusion 
+model combined with an in -sample planning technique to fur ‐
+ther avoid selecting out -of-sample actions and increase compu ‐
+tational efficiency . Unlike prior work , we use a generative 
+model to generate data not only following the same distribution 
+as the experience but also in uncertain regions for agents .
+3 Preliminaries
+A Markov decision process (MDP ) can be specified by a 
+tuple S, A, r, T, γ, where S regards the state space , A is 
+the action space , r: S×A→R is the reward function , 
+which is used to evaluate the action under state s, T: S×
+A→S is the transition , and γ represents the discount fac ‐
+tor. Reinforcement learning 
+aims to find a policy to maxi ‐
+mize the expected cumulative 
+rewards . Q function  Qπ(s, a)=
+Eπ[∑t=0∞ γtrt|s, a] measures 
+the discounted long -term re ‐
+ward given the state -action 
+pair (s, a) and the policy π. Q-
+learning is a classic method 
+that trains the Q -value func ‐
+tion by minimizing the Bell ‐
+man error over  Q[31]. In the set ‐
+ting of continuous action 
+space , Q-learning methods use 
+an exact or approximate maxi ‐
+mization scheme , such as the 
+cross entropy method (CEM )
+[32], to recover the greedy 
+policy as follows :Q←arg min
+QE[B^π
+Q(s, a)-Q(s, a)]2 ,
+π←arg max
+πEsEa∼π()⋅|sQ()s, a , (1)
+where B^π
+Q(s, a) represents the empirical Bellman target , de‐
+fined as  B^π
+Q(s, a)=r(s, a)+γEa′∼π(⋅|s′)Q(s′, a′).
+In the setting of offline reinforcement learning , Eq. (1) 
+would be performed on a dataset D, and the result is collected 
+via a behavior policy πβ. Due to the aforementioned distribu ‐
+tion shift issue , OOD queries usually yield incorrectly esti ‐
+mated Bellman targets . CQL , as a representative OOD -
+constraint offline RL algorithm , tries to underestimate the Q -
+values for OOD state -action pairs to prevent the agent from 
+the extrapolation error[6] as follows :
+Q←argmin
+Qα⋅(Es∼D, a∼π()a|s[Q(s, a)]-
+Es, a∼D[Q(s, a)])+1
+2Es, a, s'∼Dé
+ëêêêê(Q(s, a)-B  π
+Q  
+(s, a))2ù
+ûúúúú
+ ,(2)
+where π is the new policy to be learned and α is the balance -
+coefficient . CQL tries to prevent the Q -value of OOD actions 
+from being overestimated , but avoiding OOD queries would 
+degrade the robustness when the agent faces an unseen state .
+4 Method
+In this section , we first introduce the boundary OOD data 
+in our work . Then we illustrate the primary approach that is 
+utilized to generate the boundary OOD data . Finally , we give 
+the detailed design of the proposed method BCQL . The frame ‐
+work of our proposed method is shown in Fig . 1, where the 
+▲Figure 1. Overall architecture of the proposed Boundary Conservative Q Learning (Boundary -CQL , 
+BCQL ) method , where the left column illustrates the pipeline to generate boundary OOD data based on an 
+adversarial generative model , while the right column performs Offline RL with the generated dataOOD : out of distribution      ORL : offline reinforcement learningGenerator for OOD states
+DiscriminatorTraining set
+GeneratorReal
+Fake
+Reference policy
+Entropyz
+Random 
+noiseOffline reinforcement learning with 
+OOD data augmentation
+Data 
+buffer
+OOD 
+bufferORL network
+Target 
+policy
+31

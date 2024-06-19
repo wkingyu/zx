@@ -1,0 +1,57 @@
+大模型知识管理系统 周 扬   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2大模型知识管理系统
+Large Model Knowledge Management System
+周扬/ZHOU Yang ，蔡霈涵 /CAI Peihan ，
+董振江 /DONG Zhenjiang
+（ 南京邮电大学 ，中国 南京 210023  ）
+(Nanjing University of Posts and Telecommunications , Nanjing 210023 , 
+China )DOI：10.12142 /ZTETJ .202402010
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240422 .1818.002.html
+网络出版日期 ：2024 -04-23
+收稿日期 ：2024 -03-10
+摘要 ：企业知识管理至关重要 ，而传统企业知识管理系统存在构建成本高 、知识利用率低的问题 。提出了基于大模型检索增强生成 （RAG）技
+术构建企业知识管理系统的方案 。首先介绍了整体方案架构 、业务流程与 4类知识构建技术 ，然后重点介绍了检索前处理 、知识检索 、检索后
+处理等全流程知识检索技术 ，并设计了全面的测评框架 。经过实践检验 ，该方案具有知识构建效率高且成本低 、意图理解精确 、知识检索准确
+等特点与优势 。
+关键词 ：RAG；知识管理系统 ；大模型 ；知识工程
+Abstrac t:Enterprise knowledge management is very important , but traditional enterprise knowledge management systems suffer from high 
+construction costs and low knowledge utilization rate . A scheme to build enterprise knowledge management system based on retrieval-
+augmented generation (RAG) technology is proposed . Firstly , the overall scheme architecture , business processes and four types of knowl ⁃
+edge construction technologies are introduced , and then the whole process of knowledge retrieval technology are discussed , such as re ⁃
+trieval pre-processing , knowledge retrieval , retrieval post-processing , and subsequently a comprehensive evaluation framework is de ⁃
+signed . The scheme has the characteristics and advantages of high efficiency and low cost of knowledge construction , accurate intention un ⁃
+derstanding , and accurate knowledge retrieval .
+Keywords :RAG; knowledge management system ; large model ; knowledge engineering
+引用格式 ：周扬，蔡霈涵 ，董振江 . 大模型知识管理系统  [J]. 中兴通讯技术 , 2024 , 30(2): 63-71. DOI: 10.12142 /ZTETJ .202402010
+Citation ： ZHOU Y , CAI P H , DONG Z J . Large model knowledge management system [J]. ZTE technology journal , 2024 , 30(2): 63-71. DOI : 
+10.12142 /ZTETJ .202402010
+在当今信息化快速发展的时代 ，企业面临着前所未有的
+数据增长和知识爆炸挑战 。有效地管理和利用这些知
+识资源成为企业获得竞争优势 、促进创新和提高决策质量的
+关键因素 。这是企业知识管理[1]的重要研究内容 ，旨在帮助
+组织系统地收集 、整合 、共享和分析企业内外的知识和信
+息，从而最大化知识资产的价值 。
+传统企业知识管理系统以共享知识库为核心 ，如ONES 
+Wiki 、PingCode Wiki 等，旨在搭建共享知识和交流平台 。该
+方案面临多重挑战 ，主要包括 ：1）知识库的内容来源于多
+源异构 ，大量非结构化知识需要人工处理 ，转换为关系数据
+库或知识图谱数据后才能提供服务 ，但构建效率低 、成本
+高、周期长 。2）传统的全文检索技术仅依赖于关键词匹配
+和倒排索引 。随着知识库规模的扩大 ，用户在庞大的知识库中难以获取所需知识 ，检索效率低下 。3）系统功能单一 ，
+用户体验差 。系统主要提供固定字段检索或按关键词的全文
+检索 ，用户需要在搜索结果中自行提取所需信息 ，多次搜索
+仍难以找到合适信息 。
+随着人工智能技术 ，尤其是大语言模型 （LLM）技术的
+迅猛发展 ，企业知识管理的潜力有待进一步挖掘 。LLM 如
+ChatGPT 、Qwen[2]、Gemini[3]、Gemma[4]等，具有良好的自然
+语言理解能力 ，不仅可以处理和分析大量文本数据 ，还能够
+生成高质量摘要 ，回答复杂的查询 ，甚至推动自动化决策 。
+这些能力有助于大幅提升知识管理的效率和智能化水平 。但
+是大语言模型在生成最终答案时 ，因自身专业领域知识不
+足、知识更新不及时以及企事业单位数据无法获取等原因 ，
+会出现幻觉而生成不当内容 ，这在要求内容准确 、专业 、合
+规的政企领域成为应用推广的最大障碍 。检索增强生成
+（RAG）应运而生 ，成为了当前业界解决该问题的核心技术 。
+ 基金项目 ：江苏省重点研发计划项目 （BE2023025 ）
+63

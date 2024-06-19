@@ -1,0 +1,54 @@
+智能增强的免授权多址接入技术 于含笑  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1智能增强的免授权多址接入技术
+AI-Enhanced Grant-Free Multiple Access Technologies
+于含笑 /YU Hanxiao ，费泽松 /FEI Zesong
+（ 北京理工大学通信技术研究所 ，中国 北京 100081  ）
+(Research Institute of Communication Technology , Beijing Institute of 
+Technology , Beijing 100081 , China )DOI：10.12142 /ZTETJ .202401007
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20240227 .1008 .002.html
+网络出版日期 ：2024 -02-27
+收稿日期 ：2024 -01-16
+摘要 ：免授权多址接入技术是未来海量物联 （IoT）场景的关键使能技术 。在免授权接入系统中 ，由于用户和基站间缺少授权信息 ，易产生用户
+难识别以及用户间强干扰等问题 ，一方面可将免授权多址技术与非正交多址接入技术结合来缓解随机接入造成的用户干扰问题 ，另一方面也可
+以进一步利用人工智能技术强大的数据特征提取能力 ，对收发机算法进行优化 ，以有效降低用户碰撞概率 ，实现海量物联场景下的大规模通信 。
+分析了当前未来移动通信网络中多址接入技术的需求 、发展历程及研究现状 。指出未来需要针对全场景进行接入技术拓展和智能技术弹性演进
+研究，以助力智能内生多址技术发展 。
+关键词 ：免授权接入 ；海量物联 ；非正交多址接入 ；人工智能
+Abstrac t:The grant-free multiple access technology is regarded as a key enabling technology for future massive Internet of Things (IoT) sce⁃
+nario . In the grant-free access system , the lack of scheduling information between the user and the base station brings the problems such 
+as difficulty to identify the active user set and strong interference between users . Hence , the combination of the grant-free multiple access 
+technology and the non-orthogonal multiple access technology can enhance the user interference elimination capability , and furthermore , 
+the powerful data feature extraction capability of artificial intelligence technology can be utilized to optimize the transceiver algorithms of the 
+authorization-free multiple access system , which can effectively reduce the collision probability of the user and enhance the capability of 
+user identification and collision data recovery . The demand , the development , and the state of art of the multiple access technology in the fu ⁃
+ture wireless communication network are summarized . It is pointed out that in the future , it is necessary to expand access technology for all 
+scenarios and conduct research on the elastic evolution of intelligent technology , in order to support the development of intelligent endog ⁃
+enous multiple access technology .
+Keywords :grant-free access ; massive IoT ; non-orthogonal multiple access ; artificial intelligence
+引用格式 ：于含笑 ，费泽松 . 智能增强的免授权多址接入技术  [J]. 中兴通讯技术 , 2024 , 30(1): 33-40. DOI: 10.12142 /ZTETJ .202401007
+Citation ： YU H X , FEI Z S . AI-enhanced grant-free multiple access technologies [J]. ZTE technology journal , 2024 , 30(1): 33-40. DOI : 
+10.12142 /ZTETJ .202401007
+移动通信技术经历了 1G时代到 5G时代的演进 ，从传统
+人-人、人-机通信 ，逐渐拓展到人 -机-物三元间通
+信。在6G构建及部署初期 ，工业自动化 、智能电网等垂直
+物联网应用需要无处不在的无线通信基础设施 ，为未来的
+智能和互联的社会提供全面集成的支持平台 。但是 ，大多
+数机器类通信设备具有低计算 、小存储以及低功率预算特
+征，为了给海量物联网设备提供有效服务 ，亟需对未来通
+信网络系统多址接入技术进行重构 ，以满足未来大规模设
+备接入需求[1]。
+多址接入技术是一种通过对时 、频、空、码等无线资源
+进行划分 ，构造用户特有传输通道以实现多用户通信的关键
+使能技术 ，也是移动通信系统持续演进的重要推动力 。每一代通信系统都有自己独特的多址接入技术 ，第1代移动通信
+技术主要采用频分多址接入 （FDMA ）技术 ，通过使用户的
+数据在不同的频带上传输而避免用户间信号干扰 。第2代移
+动通信系统采用时分多址接入 （TDMA ）技术 ，利用不同时
+隙来区分用户 。第3代移动通信系统则采用码分多址接入
+（CDMA ）技术 ，利用不同的正交码字对用户进行区分 ，从
+而在接收端对不同用户进行识别 。第4代移动通信系统采用
+正交频分复用 （OFDM ）技术 ，在频分复用的基础上进一步
+压缩频带 ，提高频谱利用率 。到了第 5代移动通信系统 ，为
+满足物联网场景下大规模连接 、低时延 、高吞吐量的需求 ，
+学术界开始关注于非正交多址与免授权接入技术 。
+33

@@ -1,0 +1,99 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Special Topic   Link Budget and Enhanced Communication Distance for Ambient Internet of Things
+transmitter and the backscatter signal receiver are collocated 
+in one device commonly referred to as a reader . A typical 
+reader may communicate with multiple backscatter tags in the 
+surrounding area . The popular EPC C 1G2 RFID system 
+adopts this MBCS configuration .
+In the downlink of MBCS , the reader broadcasts the RF car ⁃
+rier signal and signaling information simultaneously . The RF 
+carrier signal can be leveraged by the tag to transmit its infor ⁃
+mation back to the reader . The signaling information is used to 
+activate specific tags and deliver associated commands . More 
+specifically , the tag will be awakened and decode the signal ⁃
+ing. Depending on signaling from the reader , the tag transmits 
+its own information by reflecting and modulating the RF car ⁃
+rier signals[18]. Consequently , the reader performs signal pro ⁃
+cessing to the received backscatter signal to retrieve the tag in ⁃
+formation . It is worth noting that the backscattered signals that 
+carry the tag information suffer from the power attenuation of 
+both downlink and uplink .
+As shown in Fig 1(b), the BBCS consists of three compo ⁃
+nents : a backscatter reader , a tag , and an RF carrier source . In 
+comparison with MBCS , BBCS separates the RF carrier source 
+functionality from the backscatter signaling and information 
+transceiver . This can not only offer flexibility to the practical 
+deployment but improve the signal strength at the reader . The 
+backscatter signal received by the reader also undergoes the 
+path loss of both uplink and downlink . Whereas , since the RF 
+carrier source and the reader are not necessarily collocated 
+and the former can be close to the tag , the incident signal 
+power at the tag antenna in BBCS can be higher than that in 
+MBCS .
+Instead of generating an active RF signal in traditional wire ⁃
+less communication systems , the tag in MBCS and BBCS con ⁃
+trols and changes the load impedance of the antenna to modu ⁃
+late the incident carrier signals . This yields the RF carrier re ⁃
+flected from the tag antenna in an alternating manner . The tag 
+can encode its information by properly controlling the chang ⁃
+ing pattern of the reflected signal . The reader , on the other 
+hand , can retrieve the information from the tag by observing 
+the variation of the backscatter signal .
+Let Za denote the complex tag antenna impedance of the tag antenna . The reflection coefficient of the tag antenna can be 
+expressed as :
+Γ=Zc-Z*
+a
+Zc+Za , (1)
+where  Zc is the complex load impedance . When  Γ=0 (Zc=
+Z*
+a), it is called the impedance matching state or the imped ⁃
+ance absorption state , and the tag does not generate any re ⁃
+flected signals . When Γ≠0, the tag modulates the imped ⁃
+ance of load to alter the reflection coefficient , thereby causing 
+changes in the amplitude and phase of the reflected signals . 
+This process is known as the impedance modulation , and the 
+alteration of the reflected signal is detectable and decodable 
+into data by the reader .
+The process of impedance modulation is analogous to target 
+identification in radar systems , where the radar cross section 
+(RCS) serves as a metric to quantify the target ’s ability to re ⁃
+flect radar waves . By considering the tag as the target for as ⁃
+sessing its reflective capability , we can express the tag an ⁃
+tenna RCS[19] as follows :
+σi=λ2Gtag2
+4π|Γi-As|2
+, (2)
+where λ is the wavelength and Gtag is the tag antenna gain . 
+Tag RCS affects the field backscattered from a loaded an ⁃
+tenna RCS . It can be divided into load -dependent and load -
+independent components . The subscript i indicates that the 
+load Zci is connected to the tag antenna , corresponding to the 
+reflection coefficient Γi. For example , when there are only 
+two load states , i=1 is for the tag information bit “0” and i=
+2 is for the tag information bit “1”. As corresponds to the 
+structural mode of the tag antenna , which is a load -
+independent antenna characteristic . Its value is complex , in 
+general , and depends on the geometry and materials used for 
+the antenna construction .
+The tag modulates its information by changing the RCS , 
+and the modulated backscatter signal is proportional to the dif ⁃
+ference of tag RCS (Δσ). Furthermore , the magnitude of Δσ is 
+shown as below .
+Δσ=λ2Gtag2
+4πα|Γ1-Γ2|2
+, (3)
+where the coefficient α depends on the tag ’s 
+modulation system . When the duty cycle of 
+the tag’s square -wave modulated signal is 
+50%, we can have α=1/4[20].
+3 Link Budget
+3.1 Downlink Budget
+In the downlink communication , the reader ▲Figure 1. Two backscatter communication systems : (a) monostatic backscatter communi ⁃
+cation system and (b) bistatic backscatter communication systemCarrier signal
+Backscattered signal
+Reader Tag
+(a)G ddownGtag
+dupRF carrier source
+Reader Tag
+(b)
+18

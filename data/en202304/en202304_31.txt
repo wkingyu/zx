@@ -1,0 +1,36 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Special Topic   Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression
+decomposition [J]. IEEE signal processing letters , 2020 , 27: 246–250. DOI : 
+10.1109 /LSP .2020 .2965322
+[42] RAMALHO E , PEIXOTO E , MEDEIROS E . Silhouette 4D with context se ⁃
+lection : lossless geometry compression of dynamic point clouds [J]. IEEE sig ⁃
+nal processing letters , 2021 , 28: 1660 –1664 . DOI : 10.1109 /
+lsp.2021 .3102525
+[43] ISO. Common test conditions for G -PCC document N 00106 : ISO/IEC JTC 1/
+SC 29/WG 7 MPEG [S]. 2021
+Biographies
+ZHANG Huiran received her BE and ME degrees in School of Geodesy and 
+Geomatics and State Key Laboratory of Information Engineering in Surveying 
+Mapping and Remote Sensing , both from Wuhan University , China in 2020  and 
+2023 , respectively . She is currently the surveyor of Guangzhou Urban Planning 
+and Design Survey Research Institute , China . Her research interests include 
+point cloud data processing and compression . She participated in several proj ⁃
+ects related to the field of remote sensing and published one paper in Geomat ⁃ics and Information Science of Wuhan University .
+DONG Zhen (dongzhenwhu@whu .edu.cn) received his BE and PhD degrees in 
+remote sensing and photogrammetry from Wuhan University , China in 2011  and 
+2018 , respectively . He is a professor with the State Key Laboratory of Informa ⁃
+tion Engineering in Surveying , Mapping and Remote Sensing (LIESMARS ), Wu⁃
+han University . His research interests include 3D reconstruction , scene under ⁃
+standing , point cloud processing as well as their applications in intelligent 
+transportation system , digital twin cities , urban sustainable development and ro ⁃
+botics . He received over 10 honors from various national and international com ⁃
+petitions and published around 60 papers in various journals and conferences .
+WANG Mingsheng received his BE degree in College of Computer Science 
+and Technology from Jilin University , China in 2001 , and ME degree in School 
+of Computer Science and Engineering from South China University of Technolo ⁃
+gy, China in 2004 . He is currently a senior engineer with Guangzhou Urban 
+Planning & Design Survey Research Institute , China . His research interests in ⁃
+clude computer applications and software , physiography , and surveying . He re ⁃
+ceived over 20 honors from various national competitions and published around 
+50 papers in various journals and conferences .
+28

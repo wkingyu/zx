@@ -1,0 +1,146 @@
+低开销智能反射面辅助无线通信研究综述 陈天贝  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6[45] ELBIR A M , PAPAZAFEIROPOULOS A , KOURTESSIS P , et al . Deep 
+channel learning for large intelligent surfaces aided mm-wave massive 
+MIMO systems [J]. IEEE wireless communications letters , 2020 , 9(9): 
+1447 -1451 . DOI: 10.1109 /LWC .2020 .2993699
+[46] JENSEN T L , DE CARVALHO E . An optimal channel estimation scheme for 
+intelligent reflecting surfaces based on a minimum variance unbiased 
+estimator [C]//Proceedings of ICASSP 2020  - 2020  IEEE International 
+Conference on Acoustics , Speech and Signal Processing (ICASSP ). IEEE , 
+2020 : 5000 -5004 . DOI: 10.1109 /ICASSP 40776 .2020 .9053695
+[47] YANG Y F , ZHENG B X , ZHANG S W , et al . Intelligent reflecting surface 
+meets OFDM : protocol design and rate maximization [J]. IEEE transactions 
+on communications , 2020 , 68(7): 4522 -4535 . DOI : 10.1109 /
+TCOMM .2020 .2981458
+[48] WANG P L , FANG J , DUAN H P , et al . Compressed channel estimation for 
+intelligent reflecting surface-assisted millimeter wave systems [J]. IEEE 
+signal processing letters , 2020 , 27: 905-909. DOI : 10.1109 /
+LSP.2020 .2998357
+[49] MAO Z D , LIU X Q , PENG M G . Channel estimation for intelligent 
+reflecting surface assisted massive MIMO systems —a deep learning 
+approach [J]. IEEE communications letters , 2022 , 26(4): 798-802. DOI : 
+10.1109 /LCOMM .2022 .3147200
+[50] CHUNG H , KIM S . Efficient two-stage beam training and channel 
+estimation for ris-aided mmwave systems via fast alternating least 
+squares [C]//Proceedings of ICASSP 2022  - 2022  IEEE International 
+Conference on Acoustics , Speech and Signal Processing (ICASSP ). IEEE , 
+2022 : 5188 -5192 . DOI: 10.1109 /ICASSP 43922 .2022 .9746094
+[51] GAN X , ZHONG C J , HUANG C W , et al . Multiple RISs assisted cell-free 
+networks with two-timescale CSI : performance analysis and system 
+design [J]. IEEE transactions on communications , 2022 , 70(11): 7696 -
+7710 . DOI: 10.1109 /TCOMM .2022 .3208629
+[52] YANG S J , LYU W T , XIU Y , et al . Active 3D double-RIS-aided multi-user 
+communications : two-timescale-based separate channel estimation via 
+Bayesian learning [J]. IEEE transactions on communications , 2023 , 71(6): 
+3605 -3620 . DOI: 10.1109 /TCOMM .2023 .3265115
+[53] WANG Z R , LIU L , CUI S G . Channel estimation for intelligent reflecting 
+surface assisted multiuser communications : framework , algorithms , and 
+analysis [J]. IEEE transactions on wireless communications , 2020 , 19(10): 
+6607 -6620 . DOI: 10.1109 /TWC .2020 .3004330
+[54] WEI Y , ZHAO M M , ZHAO M J , et al . Channel estimation for IRS-aided 
+multiuser communications with reduced error propagation [J]. IEEE 
+transactions on wireless communications , 2022 , 21(4): 2725 -2741 . DOI : 
+10.1109 /TWC .2021 .3115161
+[55] WEI X H , SHEN D C , DAI L L . Channel estimation for RIS assisted 
+wireless communications —part II : an improved solution based on double-
+structured sparsity [J]. IEEE communications letters , 2021 , 25(5): 1403 -
+1407 . DOI: 10.1109 /LCOMM .2021 .3052787
+[56] XU M , ZHANG S , MA J P , et al . Deep learning-based time-varying 
+channel estimation for RIS assisted communication [J]. IEEE 
+communications letters , 2022 , 26(1): 94-98. DOI : 10.1109 /
+LCOMM .2021 .3127160
+[57] HE J G , WYMEERSCH H , DI RENZO M , et al . Learning to estimate RIS-
+aided mmWave channels [J]. IEEE wireless communications letters , 2022 , 
+11(4): 841-845. DOI: 10.1109 /LWC .2022 .3147250
+[58] AN J C , XU C , WU Q Q , et al . Codebook-based solutions for 
+reconfigurable intelligent surfaces and their open challenges [J]. IEEE 
+wireless communications , 2022 , (99): 1-8. DOI : 10.1109 /
+MWC .010.2200312
+[59] JIA X , AN J C , LIU H , et al . Environment-aware codebook for 
+reconfigurable intelligent surface-aided MISO communications [J]. IEEE 
+wireless communications letters , 2023 , 12(7): 1174 -1178 . DOI : 10.1109 /
+LWC .2023 .3265399
+[60] TANG W K , LI X , DAI J Y , et al . Wireless communications with 
+programmable metasurface : transceiver design and experimental results 
+[J]. China communications , 2019 , 16(5): 46-61. DOI : 10.23919 /j.
+cc.2019 .05.004
+[61] ZHENG B X , YOU C S , MEI W D , et al . A survey on channel estimation and 
+practical passive beamforming design for intelligent reflecting surface 
+aided wireless communications [J]. IEEE communications surveys & 
+tutorials , 2022 , 24(2): 1035 -1071 . DOI: 10.1109 /COMST .2022 .3155305
+[62] HU X L , WANG J W , ZHONG C J . Statistical CSI based design for 
+intelligent reflecting surface assisted MISO systems [J]. Science China 
+information sciences , 2020 , 63(12): 222303 . DOI : 10.1007 /s11432 -020-3033 -3
+[63] JIA Y H , YE C C , CUI Y . Analysis and optimization of an intelligent 
+reflecting surface-assisted system with interference [J]. IEEE transactions 
+on wireless communications , 2020 , 19(12): 8068 -8082 . DOI : 10.1109 /
+TWC .2020 .3019088
+[64] LIU J , ZHANG J , ZHANG Q , et al . Secrecy rate analysis for reconfigurable 
+intelligent surface-assisted mimo communications with statistical CSI [J]. 
+China communications , 2021 , 18(3): 52-62. DOI : 10.23919 /
+JCC.2021 .03.005
+[65] BIE Q Y , LIU Y , WANG Y X , et al . Deployment optimization of 
+reconfigurable intelligent surface for relay systems [J]. IEEE transactions 
+on green communications and networking , 2022 , 6(1): 221-233. DOI : 
+10.1109 /TGCN .2022 .3145026
+[66] LIU C , TIAN C , LIU P X . RIS-assisted secure transmission exploiting 
+statistical CSI of eavesdropper [C]//Proceedings of 2021  IEEE Global 
+Communications Conference (GLOBECOM ). IEEE , 2022 : 1-6. DOI : 
+10.1109 /GLOBECOM 46510 .2021 .9685746
+[67] SHI X , WANG J T , SONG J . Triple-structured sparsity-based channel 
+feedback for RIS-assisted MU-MIMO system [J]. IEEE communications 
+letters , 2022 , 26(5): 1141 -1145 . DOI: 10.1109 /LCOMM .2022 .3147220
+[68] WU M H , GAO Z , HUANG Y , et al . Deep learning-based rate-splitting 
+multiple access for reconfigurable intelligent surface-aided tera-hertz 
+massive MIMO [J]. IEEE journal on selected areas in communications , 
+2023 , 41(5): 1431 -1451 . DOI: 10.1109 /JSAC .2023 .3240781
+[69] CHEN W C , WEN C K , LI X , et al . Adaptive bit partitioning for 
+reconfigurable intelligent surface assisted FDD systems with limited 
+feedback [J]. IEEE transactions on wireless communications , 2022 , 21(4): 
+2488 -2505 . DOI: 10.1109 /TWC .2021 .3112819
+[70] CHEN W C , WEN C K , LI X , et al . Channel customization for limited 
+feedback in RIS-assisted FDD systems [J]. IEEE transactions on wireless 
+communications , 2023 , 22(7): 4505 -4519 . DOI : 10.1109 /
+TWC .2022 .3226442
+[71] SOKAL B , GOMES P R B , DE ALMEIDA A L F , et al . Reducing the control 
+overhead of intelligent reconfigurable surfaces via a tensor-based low-
+rank factorization approach [J]. IEEE transactions on wireless 
+communications , 2023 , 22(10): 6578 -6593 . DOI : 10.1109 /
+TWC .2023 .3244487
+[72] YU X H , LI D , XU Y J , et al . Convolutional autoencoder-based phase shift 
+feedback compression for intelligent reflecting surface-assisted wireless 
+systems [J]. IEEE communications letters , 2022 , 26(1): 89-93. DOI : 
+10.1109 /LCOMM .2021 .3123941
+[73] JAMALI V , ALEXANDROPOULOS G C , SCHOBER R , et al . Low-to-zero-
+overhead IRS reconfiguration : decoupling illumination and channel 
+estimation [J]. IEEE communications letters , 2022 , 26(4): 932-936. DOI : 
+10.1109 /LCOMM .2022 .3141206
+[74] LI J, LI X , BI Y J , et al . Energy-efficient joint resource allocation with 
+reconfigurable intelligent surfaces in symbiotic radio networks [J]. IEEE 
+transactions on cognitive communications and networking , 2022 , 8(4): 
+1816 -1827 . DOI: 10.1109 /TCCN .2022 .3188986
+[75] SUN S Y , FU M , SHI Y M , et al . Towards reconfigurable intelligent 
+surfaces powered green wireless networks [C]//Proceedings of 2020  IEEE 
+Wireless Communications and Networking Conference (WCNC ). IEEE , 
+2020 : 1-6. DOI: 10.1109 /WCNC 45663 .2020 .9120857
+[76] YANG Z H , CHEN M Z , SAAD W , et al . Energy-efficient wireless 
+communications with distributed reconfigurable intelligent surfaces [J]. 
+IEEE transactions on wireless communications , 2022 , 21(1): 665-679. 
+DOI: 10.1109 /TWC .2021 .3098632
+[77] YANG B , CAO X L , HUANG C W , et al . Intelligent spectrum learning for 
+wireless networks with reconfigurable intelligent surfaces [J]. IEEE 
+transactions on vehicular technology , 2021 , 70(4): 3920 -3925 . DOI : 
+10.1109 /TVT.2021 .3064042
+[78] PAN Q Q , WU J , NEBHEN J , et al . Artificial intelligence-based energy 
+efficient communication system for intelligent reflecting surface-driven 
+VANETs [J]. IEEE transactions on intelligent transportation systems , 2022 , 
+23(10): 19714 -19726 . DOI: 10.1109 /TITS .2022 .3152677
+[79] GUPTA K D , NIGAM R , SHARMA D K , et al . LSTM-based energy-
+efficient wireless communication with reconfigurable intelligent surfaces 
+[J]. IEEE transactions on green communications and networking , 2022 , 6
+(2): 704-712. DOI: 10.1109 /TGCN .2021 .3135437
+[80] GUO Y , FANG F , CAI D H , et al . Energy-efficient design for a NOMA 
+assisted STAR-RIS network with deep reinforcement learning [J]. IEEE 
+transactions on vehicular technology , 2023 , 72(4): 5424 -5428 . DOI : 
+37

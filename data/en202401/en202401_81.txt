@@ -1,0 +1,57 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian RIS -Assisted Cell Free MIMO : A Survey   Review
+RISRIS --Assisted CellAssisted Cell --Free MIMOFree MIMO :: A Survey A Survey
+ZHAO Yaqiong1, KE Hongqin1, XU Wei1,2, YE Xinquan3, 
+CHEN Yijian3
+(1. National Mobile Communications Research Laboratory , Southeast 
+University , Nanjing 211189 , China；
+ 2. Purple Mountain Laboratories , Nanjing 211111 , China；
+ 3. ZTE Corporation , Shenzhen 518507 , China )DOI: 10.12142 /ZTECOM .202401009
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20240311 .1430 .002, published 
+online March 12, 2024
+Manuscript received : 2023 -07-15
+Abstract : Cell -free (CF) multiple -input multiple -output (MIMO ) is a promising technique to enable the vision of ubiquitous wireless connec ⁃
+tivity for next -generation network communications . Compared to traditional co -located massive MIMO , CF MIMO allows geographically dis ⁃
+tributed access points (APs) to serve all users on the same time -frequency resource with spatial multiplexing techniques , resulting in better 
+performance in terms of both spectral efficiency and coverage enhancement . However , the performance gain is achieved at the expense of de ⁃
+ploying more APs with high cost and power consumption . To address this issue , the recently proposed reconfigurable intelligent surface (RIS) 
+technique stands out with its unique advantages of low cost , low energy consumption and programmability . In this paper , we provide an over ⁃
+view of RIS -assisted CF MIMO and its interaction with advanced optimization designs and novel applications . Particularly , recent studies on 
+typical performance metrics such as energy efficiency (EE) and spectral efficiency (SE) are surveyed . Besides , the application of RIS -assisted 
+CF MIMO techniques in various future communication systems is also envisioned . Additionally , we briefly discuss the technical challenges 
+and open problems for this area to inspire research direction and fully exploit its potential in meeting the demands of future wireless communi ⁃
+cation systems .
+Keywords : mmWave ; beyond 5G (B5G); Internet of Everything (IoE); cell -free MIMO ; RIS; unmanned aerial vehicle (UAV ); physical layer 
+security (PLS); wireless energy transfer (WET )
+Citation  (Format 1): ZHAO Y Q , KE H Q , XU W , et al . RIS -assisted cell -free MIMO : a survey [J]. ZTE Communications , 2024 , 22(1): 77–86. 
+DOI: 10.12142 /ZTECOM .202401009
+Citation  (Format 2): Y. Q. Zhao , H. Q. Ke, W. Xu, et al ., “RIS -assisted cell -free MIMO : a survey ,” ZTE Communications , vol. 22, no. 1, pp. 
+77–86, Mar. 2024 . doi: 10.12142 /ZTECOM .202401009 .
+1 Introduction
+With the promising new technologies such as the mil ⁃
+limeter wave (mmWave ), massive multiple -input 
+multiple -output (MIMO ), and ultra -dense network 
+(UDN ), 5G wireless communication and beyond 
+can provide increased data rates , as well as reduced latency , 
+higher reliability , and greater connectivity , which further sup ⁃
+ports novel applications such as telemedicine and remote driv ⁃
+ing[1–3]. However , there are new challenges in practical de ⁃
+ployment of these technologies . For example , mmWave suffers 
+from low penetration and is vulnerable to interference , leading 
+to limited signal coverage . Besides , massive MIMO and UDN 
+require the intensive deployment of more co -located antennas 
+and base stations (BSs). This incurs high costs and power con ⁃
+sumption . Furthermore , as cell density increases , inter -cell in ⁃
+terference becomes dominant , which negatively affects the sys ⁃
+tem performance[4].Recently , a novel user -centric network mechanism called 
+cell -free (CF) MIMO was proposed to address the issue[5–7].In 
+CF MIMO systems , geographically distributed access points 
+(APs) cooperate to serve all user equipment (UE) without cell 
+boundaries through coherent transmission , as shown in Fig . 1. 
+This work was supported in part by ZTE Industry⁃University⁃Institute Co ⁃
+operation Funds .
+ ▲Figure 1. Cell -free multiple -input multiple -output (MIMO ) networkAP: access point      CPU : central processing unit     UE : user equipmentCPUAP
+UE
+Optical fiber
+Wireless link
+77

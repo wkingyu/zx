@@ -1,0 +1,43 @@
+下一代多址接入技术的挑战与关键进展 陈 为  等 专家论坛
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1下一代多址接入技术的挑战与
+关键进展
+Challenges and Key Progress in Next Generation Multiple 
+Access Technology
+陈为/CHEN Wei1，2，艾渤/AI Bo1，2
+（ 1.北京交通大学 ，中国 北京 100044 ；
+2.先进轨道交通自主运行全国重点实验室 ，中国 北京 100044  ）
+(1.Beijing Jiaotong University , Beijing 100044 , China ;
+2.State Key Laboratory of Advanced Rail Autonomous Operation , Beijing 
+100044 , China )DOI：10.12142 /ZTETJ .202401014
+网络出版地址 ：http：//kns.cnki.net/kcms/detail/ 34.1228.TN.20240226 .1537.011.html
+网络出版日期 ：2024 -02-27
+收稿日期 ：2023 -12-20
+摘要 ：下一代多址接入技术将突破以正交性为基础的设计原则 ，通过非正交性的设计和更先进的信息处理技术获得更高的谱效和能效 。针对海
+量随机接入与非正交多址接入 （NOMA ）面临的不同挑战 ，认为不同的接入方法与接收机设计可大幅提升大规模接入与数据传输的效率 。此外，
+人工智能 、大规模多输入多输出 （MIMO ）和多基站协作等技术的蓬勃发展也为下一代多址技术的发展提供了新的可能 。
+关键词 ：海量随机接入 ；NOMA ；人工智能 ；大规模 MIMO
+Abstrac t:The next generation of multiple access technology will break through the design principles based on orthogonality , and achieve 
+higher spectral and energy efficiency through non-orthogonality design and more advanced information processing technologies . In re ⁃
+sponse to the different challenges faced by massive random access and non-orthogonal multiple access (NOMA ), it is believed that differ ⁃
+ent access methods and receiver designs can significantly improve the efficiency of large-scale access and data transmission . In addition , 
+the flourishing development of technologies such as artificial intelligence , massive multiple input multiple output (MIMO ), and multi-cell co ⁃
+operation has also provided new possibilities for the development of next-generation multiple access technology .
+Keywords :massive random access ; NOMA ; artificial intelligence ; massive MIMO
+引用格式 ：陈为, 艾渤 . 下一代多址接入技术的挑战与关键进展  [J]. 中兴通讯技术 , 2024 , 30(1): 82-88. DOI: 10.12142 /ZTETJ .202401014
+Citation ： CHEN W , AI B . Challenges and key progress in next generation multiple access technology [J]. ZTE technology journal , 2024 , 30(1): 
+82-88. DOI: 10.12142 /ZTETJ .202401014
+1 发展下一代多址技术的背景与意义
+为推动社会数字化转型 ，物联网 、智能城市 、智能交
+通、远程医疗 、智能工厂等各种应用蓬勃发展 ，全球
+范围内的连接设备数量显著增长 。面向如图 1所示的各类新
+兴应用带来的海量连接 ，我们需要为 6G设计合适的多址技
+术，即下一代多址技术 ，这样能够让海量用户在给定的无线
+资源上高效且灵活地连接网络 ，传输数据 。传统的正交多址
+因其低效的资源分配策略和有限的支持用户数而难以满足
+6G通信系统提出的挑战性要求 。因此 ，下一代多址技术将
+突破以正交性为基础的设计原则 ，通过非正交性的设计和更先进的信息处理技术获得更高的谱效和能效 。
+基金项目 ：国家自然科学基金 （62122012 、62221001 ） ；中兴通讯产学研合作
+基金 （HC-CN- 20221208006 ）
+ 图1 新兴应用下的海量连接示意图
+82

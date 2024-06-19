@@ -1,0 +1,55 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3GAO Yang Special Topic   Reinforcement Learning and Intelligent Decision
+agent hierarchical graph attention reinforcement learning can 
+well manage the grid energies and significantly reduce voltage 
+violation numbers .
+The third paper , titled “A Practical Reinforcement Learn ‐
+ing Framework for Automatic Radar Detection ,” studies radar 
+detection in a data driven way . Noting that manual adjustment 
+in radar detection is time and money expensive , the authors in 
+this work propose automatically achieving radar detection with 
+the combination of offline RL and meta RL . The proposed 
+method can reduce real -world interaction complexity and en ‐
+able fast adaptation to new environments . Empirical results in ‐
+dicate the high efficiency of RL -based radar detection .
+The fourth paper , titled “Boundary Data Augmentation for 
+Offline Reinforcement Learning ,” investigates the fundamen ‐
+tal issue in offline RL . Theoretically , offline RL can boost data 
+efficiency . However , the existence of distribution shift results 
+in unreliable value estimation , and this makes it difficult to 
+construct offline RL algorithms in risk sensitive scenarios . To 
+address these concerns , this work proposes the use of genera ‐
+tive adversarial nets to augment the dataset and calibrate the 
+confidence in value estimation . The experimental results show 
+the great potential of generative modeling for improving offline 
+RL performance .
+In summary , we hope this special issue will accelerate the 
+scientific investigation of applicable RL in more general 
+decision -making or optimization scenarios . The articles in this 
+special issue are not only innovative but also provide precious experimental evidence and practical experience in the field . 
+These contributed works bring more insights into algorithm de ‐
+sign, bottleneck circumventing , and real -world deployment of 
+deep RL and will facilitate the development of deep RL . Last 
+but not least , we sincerely express our gratitude to all authors , 
+reviewers , and the editorial board , who have made efforts to 
+the success of this special issue .
+Biography
+GAO Yang  received his PhD degree from the Department of Computer Science 
+and Technology , Nanjing University , China in 2000 . He is currently a professor 
+with the Department of Computer Science and Technology , Nanjing University , 
+and is the Executive Vice President of the National Institute of Healthcare Big 
+Data at Nanjing University . He leads the artificial intelligence reasoning and 
+learning team of Nanjing University which was selected as the Outstanding Sci ‐
+ence and Technology Innovation Team of Jiangsu Province ’s Higher Education 
+Institutions in 2019 . He is the fellow of CAAI . His research interests include ar ‐
+tificial intelligence and machine learning , especially multi -agent systems and 
+reinforcement learning . He has published more than 200 papers in top confer ‐
+ences and journals in and outside China . He have more than 20 authorized pat ‐
+ents. He translated two books : One is Statistical Reinforcement Learning ; the 
+other is Algorithm Perspective of Machine Learning , and edited one book en ‐
+titled Distributed Artificial Intelligence . He received the second prize of the Ji ‐
+angsu Provincial Science and Technology Award once , the second prize of the 
+Wu Wenjun Natural Science Award of the Chinese Artificial Intelligence Soci ‐
+ety once , and the Research Achievement Award of the Multi Agent System Pro ‐
+fessional Group of the Chinese Computer Society once .
+02

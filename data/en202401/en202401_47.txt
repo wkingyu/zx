@@ -1,0 +1,104 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions    Special Topic
+hk=NxNz∑
+l=1L
+βle-jψlgl(θ, ϕ, r) , (2)
+where L is the number of paths , βl and ψl denote the complex 
+path gain and phase shift of the l-th path . In the line of sight 
+(LoS) link dominated channel , β1≫βl, l≠1, thus
+hk=NxNzβ1e-jψ1g1(θ, ϕ, r) , (3)
+where g1(θ, ϕ, r) denotes the near -field steering vector , which 
+is given by
+g1(θ, ϕ, r)=1
+NxNz[e-j2π
+λc( )D( )-Nx-1
+2,-Nz-1
+2-rk,…,
+e-j2π
+λc( ) D()m,n-rk,…, e-j2π
+λc( )D( )Nx-1
+2,Nz-1
+2-rk]H, (4)
+where D(m, n) is the distance between the (m, n)-th antenna 
+of the k-th BS and the user .
+Fully implementing digital beamforming is challenging be ⁃
+cause of the massive size of the antenna array and the high ex ⁃
+penses and power consumption of the RF chain[17]. The solu ⁃
+tion here is hybrid analog/digital precoding , where the re ⁃
+quired precoding and beamforming are in the analog and digi ⁃
+tal domains . The digital precoding layer adds more DoF to the 
+precoding design problem than the pure analog beamforming 
+solution . This allows hybrid precoding to achieve better perfor ⁃
+mance , especially in multi -stream and multi -user transmis ⁃
+sions . It is important to note that analog beamforming with fi ⁃
+nite RF chains and constant amplitude constraints relies heav ⁃
+ily on predefined codebooks . Let a(θ, ϕ, r)=FRFkfBBk denote 
+the beam -aligned observation vector , also known as the code ⁃
+word . Codebook -based beam training is to find the optimal 
+beam -aligned observation vector a from the codebook C=
+[a(θ1, ϕ1, r1);…;a(θN, ϕN, rN)]  to maximize the beam gain 
+at the receiver . It can be easily obtained that the optimal 
+beam -aligned observation vector is a(θ, ϕ, r)=g1(θ, ϕ, r). 
+Without loss of generality , it is similar to the ULA scenario 
+where the users are all in the yz-plane . The near -field channel 
+is modeled as :
+hk=NxNzβ1e-jψ1b1(θ, r) , (5)
+where the near -field steering vector considers two dimensions .
+A qualitative change in HMIMO compared with MIMO sys ⁃
+tems is that HMIMO cell elements are placed denser and 
+denser to form almost spatially continuous apertures . At the 
+same time , the number of antenna units is increasing (Nx and 
+Nz are larger in HMIMO systems ). In this case , the neighbor ⁃
+ing cell elements in between will act . Mutual coupling , which 
+is considered harmful in conventional communication sys ⁃
+tems, can be mitigated in MIMO antenna arrays by placing neighboring antenna elements within a half -wavelength dis ⁃
+tance of each other . However , proper utilization of mutual cou ⁃
+pling in HMIMO surfaces has the potential to achieve super 
+directionality , which can be more apparent when the number 
+of cell elements becomes larger . In addition , this feature can 
+potentially improve the received SNR , thus extending the cov ⁃
+erage of the structure . In conclusion , it is important to study 
+the mutual coupling effects and devise convenient mathemati ⁃
+cal models for coupling -aware wireless design . In addition to 
+mutual coupling , spatially continuous apertures offer another 
+important potential , that is signal processing can be performed 
+entirely on the EM domain instead of the traditional digital do ⁃
+main . To this end , EM -inspired analyses and techniques can 
+be designed to revolutionize the existing frameworks for wire ⁃
+less operation into one based on the hybrid digital EM do ⁃
+main , or even hybrid digital and EM -based frameworks , pav⁃
+ing the way for a high degree of integration . Flexible process ⁃
+ing aims for high spatial resolution and low latency wireless 
+communication .
+3 Near -Field Beam Training
+This section focuses on beam training in near -field commu ⁃
+nication . First , three major existing methods are introduced : 
+exhaustive beam training[18], hierarchical beam training[18–19] 
+and multi -beam training[20]. Then , we will analyze the potential 
+application scenarios of near -field beam training .
+3.1 Exhaustive Beam Training
+A straightforward approach to this problem is conducting an 
+exhaustive search for the various dimensions of the con ⁃
+structed codebook . The performance of the exhaustive search 
+method depends mainly on the constructed codebook .
+Considering the scenario under HMIMO , where the users 
+are located in a three -dimensional space , the simplest way to 
+construct the codebook is a codebook with equally spaced 
+samples in each of the three dimensions , i.e., polar coordinate 
+(θ, ϕ, r) or cartesian coordinate (x, y, z). Subsequently , all code ⁃
+words in the designed near -field codebook are traversed se ⁃
+quentially in exhaustive search training[18]. Similarly , if we 
+consider the scenario where the users are all in the yz-plane , it 
+is a 2D exhaustive search for θ and r dimensions or the x and 
+y dimensions . In addition to this , we can consider the polar -
+domain near -field codebook[21], which is given by C=
+{C1,C2,…,CN} with Cn={cn,0, cn,1,…, cn,Sn-1}, ∀n∈N. Each 
+codeword cn,sn,sn∈Sn≜{0,1,…,Sn-1} corresponds to a 
+beam pointing to a specific direction -and -distance pair , 
+(θn, rn,sn), which is given by cn,sn=b(θn, rn,sn). The codebook is 
+constructed in the following manner . Initially , the two -
+dimensional spatial domain is divided into N sectors with a 
+central angle θn. In the distance domain , the distance for each 
+sector is divided into Sn distinctive non -uniform regions that 
+correspond to each central angle θn. The distance sampling in ⁃
+43

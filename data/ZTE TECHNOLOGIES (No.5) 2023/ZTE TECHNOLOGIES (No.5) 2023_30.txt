@@ -1,0 +1,71 @@
+Intelligent OTN Solution: Enabling  
+Fast and Simpli/f_ied Deployment of 
+Self-Healing Networks
+Chief Engineer of 
+Wireline Technology 
+Support, ZTEChen Senecent years have witnessed a 
+booming development within 
+the global ICT sector. The 
+deployment of 5G networks 
+on a large scale is in progress, leading 
+to an explosive surge in network traﬃc 
+from various applications. Additionally, 
+new technologies like intelligent driving, 
+AI, and ChatGPT continue to emerge, 
+imposing higher requirements on the 
+rate and bandwidth of infrastructure 
+networks. Enhancing digital intelligence 
+of OTN foundational network has become 
+a pressing need for network operators. 
+ZTE has been exploring the realm of 
+OTN intelligence and has introduced its 
+collaborative solution integrating network 
+management and control with WDM/OTN 
+automatically switched optical network 
+(WASON). Additionally, new intelligent 
+technologies such as power balancing 
+and /f_lexible grids have also been unveiled. 
+These eﬀorts are aimed at building highly 
+intelligent transmission networks for 
+customers.
+Management and Control Integrated 
+Solution for End-to-End Management 
+and Distributed Control
+The traditional OTN management and 
+control approach implements dynamic 
+network restoration and control through 
+a centralized mode. This method, when Rcompared to WASON’s operation on the 
+device side, results in a longer interaction 
+process. This, in turn, leads to increased 
+uncertainty factors, including disrupted 
+signaling channels between OTN 
+management and control and the devices. 
+As a result, stability issues emerge, thereby 
+presenting signi/f_icant risks in engineering 
+applications. Though the WASON function 
+is stable and supports dynamic restoration, 
+it lacks the global route computation 
+capability, which becomes a bottleneck for 
+supporting large networks with more than 
+300 network elements (NEs). To leverage 
+the advantages of both, ZTE has rolled 
+out a collaborative solution that combines 
+intelligent OTN management and control 
+with WASON, enabling the management 
+and control to have the route computation 
+capability. 
+As shown in Fig. 1, the management and 
+control integrated solution utilizes the global 
+perspective of the management and control 
+server for end-to-end service allocation. 
+It hands over the services with restoration 
+attribute to the WASON distributed control, 
+and the services with non-restoration 
+attribute to the management and control 
+server. This approach enables end-to-end 
+management and control, promoting 
+coordinated development of the control 
+plane. Additionally, the WASON distributed 
+control function is used to restore services 
+and improve the operational stability of 
+28Digital & Intelligent Network Services Special Topic

@@ -1,0 +1,53 @@
+面向新型智能计算中心的全调度以太网技术 段晓东  等 专家论坛
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4面向新型智能计算中心的
+全调度以太网技术
+Global Scheduling Ethernet for New Intelligent Computing Center
+段晓东 /DUAN Xiaodong ，程伟强 /CHENG Weiqiang ，
+王瑞雪 /WANG Ruixue ，王雯萱 /WANG Wenxuan
+（ 中国移动通信有限公司研究院 ，中国 北京 100053  ）
+(The Research Institution of China Mobile , Beijing 100053 , China )DOI：10.12142 /ZTETJ .202304011
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230724 .1702 .010.html
+网络出版日期 ：2023 -07-25
+收稿日期 ：2023 -06-08
+摘要 ：智能计算中心网络作为智能计算中心的连接底座 ，需要具备高性能 、低时延的通信能力 。一旦网络性能不佳 ，就会严重影响分布式训练的
+效果。智能计算中心网络体系是一个多要素融合的复杂系统 ，依赖于智能计算业务 、网络设备 、交换芯片 、网卡、仪表等上下游产业协同创新 。
+提出一种新型全调度以太网 （GSE）技术架构 ，在最大限度地兼容以太网生态链的前提下 ，基于报文容器 （PKTC ）转发、负载均衡机制以及基于
+报文容器的动态全局调度队列 （DGSQ ）全局调度技术 ，构建超大规模 、超高带宽 、超低时延 、超高可靠的智能计算中心网络 ，助力 AI产业发展 。
+关键词 ：人工智能生成内容 ；智算中心网络 ；全调度以太网 ；报文容器 ；动态全局调度队列
+Abstrac t:The intelligent computing center network , as the connection base of the intelligent computing center , needs to have high perfor ⁃
+mance and low latency communication capability . Once the network performance is poor , it can seriously affect the effect of distributed 
+training . An intelligent computing center network system is a multi-element integration of complex systems , relying on intelligent comput ⁃
+ing services , network equipment , switching chips , network cards , instruments , and other upstream and downstream industry collaborative 
+innovation . A new global scheduling Ethernet (GSE) technology architecture is proposed to build an ultra-large scale , ultra-high bandwidth , 
+ultra-low latency , and ultra-reliable intelligent computing center network with maximum compatibility with the Ethernet ecosystem , innova ⁃
+tive forwarding and load balancing mechanism based on packet containers (PKTC ) and dynamic global scheduling queue (DGSQ ) global 
+scheduling technology based on packet containers to help the development of AI industry .
+Keywords :artificial intelligence-generated content ; intelligent computing center network ; GSE ; packet container ; dynamic global scheduling queue
+引用格式 ：段晓东 , 程伟强 , 王瑞雪 , 等. 面向新型智能计算中心的全调度以太网技术  [J]. 中兴通讯技术 , 2023 , 29(4): 57-63. DOI : 10.12142 /
+ZTETJ .202304011
+Citation ： DUAN X D , CHENG W Q , WANG R X , et al . Global scheduling Ethernet for new intelligent computing center [J]. ZTE technology 
+journal , 2023 , 29(4): 57-63. DOI: 10.12142 /ZTETJ .202304011
+1 AI业务与智能计算中心产业的发展
+1.1 AI业务发展趋势
+人工智能 （AI）业务发展经历了漫长的历程 。20世纪 50
+年代 ，人们开始尝试模拟人脑的神经网络来解决计算
+机视觉和语音识别的问题 。但由于当时无法解决神经网络计
+算复杂度高和可解释性差的问题 ， AI技术进入了 “寒冬 ” 。
+2012 —2017 年，Hinton 等提出卷积神经网络 ，大大推动计算
+机视觉和深度学习的发展 。同时 ，基于深度学习的 AlphaGo
+战胜围棋世界冠军 ，进一步点燃人们在深度学习领域探索的
+热情与信心 。2017 —2022 年，基于大型神经网络的 Trans ‐
+former 架构出现 ，该模型可以更好地捕捉序列之间的依赖关系，开 启 了 基 于 深 度 学 习 的 AI新 时 代 。2022 年11月，
+OpenAI 公司开发的大规模智能语言模型 ChatGPT 横空出世 。
+ChatGPT 结合了 GPT- 3.5和GPT- 4系列的大型语言模型 ，展
+现出惊人的语言能力[1]。该模型深入各个领域 ，在引爆全球
+科技领域的同时 ，推动 AI产业全面进入大模型时代 。因此 ，
+ChatGPT 的出现具有跨时代的意义 。
+近年来 ，随着算力经济的高速发展[2]，AI业务在自动驾
+驶、语音识别和自然语言处理等领域取得了许多重大成就 ，
+并涌现出人工智能即服务 （AIaaS ）和模型即服务 （MaaS ）
+两种新型服务模式 。当前 ，教育 、医疗 、智慧城市和智能制
+造等行业迫切需要 AI赋能 ，例如 ：华为云 、百度云 、阿里
+云和腾讯云等提供 AIaaS 的企业均为用户提供高品质的人工
+57

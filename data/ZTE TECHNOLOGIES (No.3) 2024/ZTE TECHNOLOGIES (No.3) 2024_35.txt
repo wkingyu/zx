@@ -1,0 +1,71 @@
+to 5G intelligent terminals to establish a comprehensive 
+cloud-edge-end collaboration system. 
+Conclusion 
+To foster the industrial applications of “AI model + 
+5G” , ZTE has launched the AiCube all-in-one machine. 
+The AiCube consists of computing hardware, a cloud 
+platform, and an AI platform. The computing 
+hardware is compatible with CPUs/GPUs from various 
+manufacturers and models. The cloud platform 
+implements uni/f_ied resource management, allocates 
+computing resources on demand, and can deploy 
+both 5G networks and AI models. The AI platform 
+provides operators and enterprise customers with 
+tools such as data management, model 
+development, model training, model inference, and 
+application statistics to enhance usability and 
+eﬃciency.
+As a full-stack intelligent computing solution 
+provider, ZTE will work closely with operators and 
+industry customers to continually advance “AI model + 
+5G” applications, co-create a new intelligent computing 
+ecosystem, embrace a future of intelligent computing, 
+and inject new impetus into the development of the 
+digital economy.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+and facilitating access to voice, image, and video data 
+from anywhere in the industry, thereby greatly 
+enriching the datasets of AI models. In addition, the 
+5G network provides user authentication and 
+transmission encryption technologies to ensure the 
+security and eﬀectiveness of data access, thus greatly 
+enhancing the quality of AI model datasets.
+5G Network Expands AI Model Application 
+Scenarios
+5G, as a dynamic innovation catalyst, is rapidly 
+gaining ground across industries, expanding the 
+application scenarios for AI models. On the one hand, 
+through the deployment of 5G private networks, 
+heterogeneous and massive connections of monitoring 
+devices, such as sensors and cameras at front-line 
+production sites, can be supported. These new scenarios 
+also pose additional requirements for AI models in the 
+industry. Leveraging the multi-mode analysis 
+capabilities of AI models, intelligent and accurate fault 
+warning and risk management can be achieved, 
+signi/f_icantly improving production eﬃciency. On the 
+other hand, 5G networks also promote the collaboration 
+among AI models. Currently, AI models primarily 
+collaborate between the cloud and edge. With the 
+applications of 5G networks, AI agents can be extended 
+ 
+ 
+ 
+JUN 2024
+33 

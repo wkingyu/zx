@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Simulation and Modeling of Common Mode EMI Noise in Planar Transformers    Research Papers
+Fig. 20. The noise prediction results are in good agreement 
+with the measured results , which shows the accuracy of the 
+extraction and modeling of the common mode noise equiva ‐
+lent circuit of the planar transformer .
+6 Conclusions
+In this paper , the mechanism of common -mode noise con ‐
+duction of planar transformers is analyzed and a method for 
+extracting planar transformer models through simulation is 
+introduced . The following conclusions are obtained :
+1) The common -mode noise transmission capability of pla ‐
+nar transformers is reflected in the induced charge Q be‐
+tween the primary and secondary windings of planar trans ‐
+formers . At the same time , according to the theoretical deri ‐
+vation of the potential distribution on the planar transformer 
+winding , the induced charge Q can be represented by two ca ‐
+pacitors .
+2) When using a network analyzer to measure a planar 
+transformer , the measurement result is a two -port network in ‐
+cluding leakage inductance , magnetizing inductance , and 
+inter -turn capacitance .3) With the help of the simulation software , the Z-
+parameters of the planar transformer can be obtained , and 
+the EMI model of the planar transformer can be established 
+through the Z-parameters . Finally , the accuracy of the simu ‐
+lation and modeling is verified through a full -bridge circuit 
+prototype experiment .
+References
+[1] MOHAMMADI M , ADIB E , YAZDANI M R . Family of soft -switching single -
+switch PWM converters with lossless passive snubber [J]. IEEE transactions 
+on industrial electronics , 2015 , 62(6): 3473–3481 . DOI : 10.1109 /
+TIE.2014 .2371436
+[2] LI Y M , ZHANG H , WANG S , et al . Investigating switching transformers for 
+common mode EMI reduction to remove common mode EMI filters and Y -
+capacitors in flyback converters [J]. IEEE journal of emerging and selected 
+topics in power electronics , 2018 , 6(4): 2287–2301 . DOI : 10.1109 /
+JESTPE .2018 .2827041
+[3] ZHANG H , WANG S , LI Y M , et al . Two -capacitor transformer winding ca ‐
+pacitance models for common -mode EMI noise analysis in isolated DC –DC 
+converters [J]. IEEE transactions on power electronics , 2017 , 32(11): 8458–
+8469 . DOI : 10.1109 /TPEL .2017 .2650952
+[4] CHU Y B , WANG S . A generalized common -mode current cancelation ap ‐
+proach for power converters [J]. IEEE transactions on industrial electronics , 
+2015 , 62(7): 4130–4140 . DOI : 10.1109 /TIE.2014 .2387335
+[5] TRIA L A R , ZHANG D M , FLETCHER J E . Planar PCB transformer model 
+for circuit simulation [J]. IEEE transactions on magnetics , 2016 , 52(7): 1–4. 
+DOI: 10.1109 /tmag .2016 .2516995
+[6] ALI SAKET M , ORDONEZ M , SHAFIEI N . Planar transformers with near -
+zero common -mode noise for flyback and forward converters [J]. IEEE transac ‐
+tions on power electronics , 2018 , 33(2): 1554–1571 . DOI : 10.1109 /
+TPEL .2017 .2679717
+[7] MASWOOD A I , SONG L K . Design aspects of planar and conventional SMPS 
+transformer : A cost benefit analysis [J]. IEEE transactions on industrial elec ‐
+tronics , 2003 , 50(3): 571–577. DOI : 10.1109 /TIE.2003 .812469
+[8] ALI SAKET M , SHAFIEI N , ORDONEZ M . Planar transformer winding tech ‐
+nique for reduced capacitance in LLC power converters [C]//Proceedings of 
+2016  IEEE Energy Conversion Congress and Exposition (ECCE ). IEEE , 
+2017 : 1–6. DOI : 10.1109 /ECCE .2016 .7855352
+[9] ZHANG Z L , HE B H , HU D D , et al . Common -mode noise modeling and re ‐
+duction for 1-MHz eGaN multioutput DC –DC converters [J]. IEEE transac ‐
+tions on power electronics , 2019 , 34(4): 3239–3254 . DOI : 10.1109 /
+TPEL .2018 .2850351
+[10] CHEN Q B , CHEN W . An evaluation method of transformer behaviors on 
+the suppression of common -mode conduction noise in switch mode power 
+supply [J]. Proceedings of the CSEE , 2012 , 32(18): 73-79+180
+[11] FU K N , CHEN W . Evaluation method of flyback converter behaviors on 
+common -mode noise [J]. IEEE access , 2019 , 7: 28019–28030 . DOI : 
+10.1109 /ACCESS .2019 .2902462
+[12] LIU S , ZHANG Y T , YU D Y . Research and design of EMI digital filters us ‐
+ing scattering parameters [C]//International Conference on Wireless Commu ‐
+nications & Signal Processing . IEEE , 2009 : 1–5. DOI : 10.1109 /
+WCSP .2009 .5371392
+[13] WANG S , LEE F C , ODENDAAL W G . Characterization and parasitic ex ‐
+traction of EMI filters using scattering parameters [J]. IEEE transactions on 
+power electronics , 2005 , 20(2): 502– 510. DOI : 10.1109 /
+TPEL .2004 .842949
+[14] FRICKEY D A . Conversions between S , Z, Y, H, ABCD , and T parameters 
+which are valid for complex source and load impedances [J]. IEEE transac ‐
+tions on microwave theory and techniques , 1994 , 42(2): 205–211. DOI : 
+10.1109 /22.275248
+ ▲Figure 20. Predicted noise spectrum and measured noise spectrumFrequency/HzForecast results
+Measured resulte100
+80
+60
+40
+20
+0
+1×1051×1061×1071×108Noise voltage/dB μV
+▲Figure 19. Equivalent circuit diagram considering only the voltage sourceQ2Q4ZLmZLkQ5
+ZC1
+ZC2
+ZcmQ8
+115

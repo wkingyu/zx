@@ -1,0 +1,136 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+[32] SOLIMINI A G . Are there side effects to watching 3D movies ? A prospective 
+crossover observational study on visually induced motion sickness [J]. PLoS 
+one, 2013 , 8(2): e56160 . DOI : 10.1371 /journal .pone .0056160
+[33] SHARPLES S , COBB S , MOODY A , et al . Virtual reality induced symptoms 
+and effects (VRISE ): comparison of head mounted display (HMD ), desktop 
+and projection display systems [J]. Displays , 2008 , 29(2): 58–69. DOI : 
+10.1016 /j.displa .2007 .09.005
+[34] SUBRAMANYAM S , LI J, VIOLA I , et al . Comparing the quality of highly re ⁃
+alistic digital humans in 3DoF and 6DoF: a volumetric video case study [C]//
+2020  IEEE Conference on Virtual Reality and 3D User Interfaces (VR). 
+IEEE , 2020 : 127–136. DOI : 10.1109 /VR46266 .2020 .00031
+[35] ALEXIOU E , YANG N Y , EBRAHIMI T . PointXR : a toolbox for visualiza ⁃
+tion and subjective evaluation of point clouds in virtual reality [C]//Twelfth 
+International Conference on Quality of Multimedia Experience (QoMEX ). 
+IEEE , 2020 : 1–6. DOI : 10.1109 /QoMEX 48832 .2020 .9123121
+[36] WU X J , ZHANG Y , FAN C L , et al . Subjective quality database and objec ⁃
+tive study of compressed point clouds with 6DoF head -mounted display [J]. 
+IEEE transactions on circuits and systems for video technology , 2021 , 31
+(12): 4630 –4644 . DOI : 10.1109 /TCSVT .2021 .3101484
+[37] ZHANG J , HUANG W B , ZHU X Q , et al . A subjective quality evaluation for 
+3D point cloud models [C]//2014  International Conference on Audio , Lan ⁃
+guage and Image Processing . IEEE , 2015 : 827 –831. DOI : 10.1109 /
+ICALIP .2014 .7009910
+[38] GUTIÉRREZ J , VIGIER T , LE CALLET P . Quality evaluation of 3D objects 
+in mixed reality for different lighting conditions [J]. Electronic imaging , 
+2020 , 32(11): no. 128. DOI : 10.2352 /issn .2470 -1173 .2020 .11.hvei -128
+[39] TURK G , LEVOY M . Zippered polygon meshes from range images [C]//21st 
+Annual Conference on Computer Graphics and Interactive Techniques . 
+ACM , 1994 : 311–318. DOI : 10.1145 /192161 .192241
+[40] MPEG -PCC. MPEG point cloud datasets [DB/OL ]. (2017 -01-15) [2018 -05-
+26]. http ://mpegfs .int-evry.fr/MPEG/PCC/DataSets/pointCloud/CfP/datasets . 
+mpeg point cloud datasets
+[41] JPEG . JPEG pleno database [DB/OL ]. (2016 -11-04)[2018 -04-12]. http ://ple⁃
+nodb .jpeg.org
+[42] HUA L , YU M , HE Z Y , et al . CPC -GSCT : visual quality assessment for co ⁃
+loured point cloud based on geometric segmentation and colour transforma ⁃
+tion [J]. IET image processing , 2022 , 16(4): 1083 –1095 . DOI : 10.1049 /
+ipr2.12211
+[43] AK A , ZERMAN E , QUACH M , et al . BASICS : broad quality assessment of 
+static point clouds in compression scenarios [EB/OL ]. (2023 -02-09)[2023 -05-
+06]. https ://arxiv .org/abs/ 2302 .04796
+[44] LIU Q , YUAN H , HAMZAOUI R , et al . Reduced reference perceptual qual ⁃
+ity model with application to rate control for video -based point cloud com ⁃
+pression [J]. IEEE transactions on image processing , 2021 , 30: 6623 –6636 . 
+DOI: 10.1109 /TIP.2021 .3096060
+[45] LIU Q , SU H L , CHEN T X , et al . No -reference bitstream -layer model for per ⁃
+ceptual quality assessment of V -PCC encoded point clouds [J]. IEEE transac ⁃
+tions on multimedia , 2023 , 25: 4533 –4546 . DOI : 10.1109 /
+TMM .2022 .3177926
+[46] QUACH M , VALENZISE G , DUFAUX F . Improved deep point cloud geom ⁃
+etry compression [C]//IEEE 22nd International Workshop on Multimedia Sig ⁃
+nal Processing (MMSP ). IEEE , 2020 : 1– 6. DOI : 10.1109 /
+MMSP 48831 .2020 .9287077
+[47] TIAN D , OCHIMIZU H , FENG C , et al . Geometric distortion metrics for point 
+cloud compression [C]//2017  IEEE International Conference on Image Process ⁃
+ing (ICIP). IEEE , 2018 : 3460 –3464 . DOI : 10.1109 /ICIP .2017 .8296925
+[48] MEKURIA R , BLOM K , CESAR P . Design , implementation , and evaluation 
+of a point cloud codec for tele -immersive video [J]. IEEE transactions on cir ⁃
+cuits and systems for video technology , 2017 , 27(4): 828 –842. DOI : 
+10.1109 /TCSVT .2016 .2543039
+[49] MEKURIA R , LI Z , TULVAN C , et al . Evaluation criteria for PCC (point 
+cloud compression ): MPEG : MPEG -I 2016 /n16332  [S]. 2016
+[50] MEYNET G , DIGNE J , LAVOUÉ G . et al : A quality metric for 3D point 
+clouds [C]//Eleventh International Conference on Quality of Multimedia Ex ⁃
+perience (QoMEX ). IEEE , 2019 : 1–3. DOI : 10.1109 /QoMEX .2019 .8743313
+[51] JAVAHERI A , BRITES C , PEREIRA F , et al . A generalized Hausdorff dis ⁃
+tance based quality metric for point cloud geometry [C]//Twelfth Interna ⁃tional Conference on Quality of Multimedia Experience (QoMEX ). IEEE , 
+2020 : 1–6. DOI : 10.1109 /QoMEX 48832 .2020 .9123087
+[52] ALEXIOU E , EBRAHIMI T . Towards a point cloud structural similarity 
+metric [C]//2020  IEEE International Conference on Multimedia & Expo 
+Workshop s (ICMEW ). IEEE , 2020 : 1– 6. DOI : 10.1109 /
+ICMEW 46912 .2020 .9106005
+[53] MEYNET G , NEHMÉ Y , DIGNE J , et al . PCQM : A full -reference quality 
+metric for colored 3D point clouds [C]//Twelfth International Conference on 
+Quality of Multimedia Experience (QoMEX ). IEEE , 2020 : 1–6. DOI : 
+10.1109 /QoMEX 48832 .2020 .9123147
+[54] JAVAHERI A , BRITES C , PEREIRA F , et al . Mahalanobis based point to 
+distribution metric for point cloud geometry quality evaluation [J]. IEEE sig ⁃
+nal processing letters , 2020 , 27: 1350 –1354 . DOI : 10.1109 /
+LSP.2020 .3010128
+[55] YANG Q , MA Z , XU Y L , et al . Inferring point cloud quality via graph simi ⁃
+larity [J]. IEEE transactions on pattern analysis and machine intelligence , 
+2022 , 44(6): 3015 –3029 . DOI : 10.1109 /TPAMI .2020 .3047083
+[56] DINIZ R , FREITAS P G , FARIAS M C Q . Multi -distance point cloud quality 
+assessment [C]//2020  IEEE International Conference on Image Processing 
+(ICIP ). IEEE , 2020 : 3443 –3447 . DOI : 10.1109 /ICIP 40778 .2020 .9190956
+[57] DINIZ R , FREITAS P G , FARIAS M C Q . Towards a point cloud quality as ⁃
+sessment model using local binary patterns [C]//Twelfth International Confer ⁃
+ence on Quality of Multimedia Experience (QoMEX ). IEEE , 2020 : 1–6. 
+DOI: 10.1109 /QoMEX 48832 .2020 .9123076
+[58] DINIZ R , FREITAS P G , FARIAS M . A novel point cloud quality assessment 
+metric based on perceptual color distance patterns [C]//IS&T International 
+Symposium on Electronic Imaging Science and Technology 2021 , Image 
+Quality and System Performance XVIII . IS&T , 2021 . DOI : 10.2352 /
+issn.2470 -1173 .2021 .9.iqsp -256
+[59] DINIZ R , FREITAS P G , FARIAS M C Q . Local luminance patterns for point 
+cloud quality assessment [C]//IEEE 22nd International Workshop on Multi ⁃
+media Signal Processing (MMSP ). IEEE , 2020 : 1–6. DOI : 10.1109 /
+MMSP 48831 .2020 .9287154
+[60] DINIZ R , FREITAS P G , FARIAS M C Q . Color and geometry texture de ⁃
+scriptors for point -cloud quality assessment [J]. IEEE signal processing let ⁃
+ters, 2021 , 28: 1150 –1154 . DOI : 10.1109 /LSP .2021 .3088059
+[61] HUA L , JIANG G Y , YU M , et al . BQE -CVP : blind quality evaluator for col ⁃
+ored point cloud based on visual perception [C]//2021  IEEE International 
+Symposium on Broadband Multimedia Systems and Broadcasting (BMSB ). 
+IEEE , 2021 : 1–6. DOI : 10.1109 /BMSB 53066 .2021 .9547070
+[62] XU Y L , YANG Q , YANG L , et al . EPES : point cloud quality modeling using 
+elastic potential energy similarity [J]. IEEE transactions on broadcasting , 
+2022 , 68(1): 33–42. DOI : 10.1109 /TBC .2021 .3114510
+[63] ZHANG Y J , YANG Q , XU Y L . MS -GraphSIM : inferring point cloud quality 
+via multiscale graph similarity [C]//29th ACM International Conference on 
+Multimedia . ACM , 2021 : 1230 –1238 . DOI : 10.1145 /3474085 .3475294
+[64] ZHANG Z C , SUN W , MIN X K , et al . No -reference quality assessment for 
+3D colored point cloud and mesh models [J]. IEEE transactions on circuits 
+and systems for video technology , 2022 , 32(11): 7618 –7631 . DOI : 10.1109 /
+TCSVT .2022 .3186894
+[65] HE Z Y , JIANG G Y , JIANG Z D , et al . Towards a colored point cloud qual ⁃
+ity assessment method using colored texture and curvature projection [C]//
+2021  IEEE International Conference on Image Processing (ICIP ). IEEE , 
+2021 : 1444 –1448 . DOI : 10.1109 /ICIP 42928 .2021 .9506762
+[66] TAO W X , JIANG G Y , JIANG Z D , et al . Point cloud projection and multi -
+scale feature fusion network based blind quality assessment for colored point 
+clouds [C]//29th ACM International Conference on Multimedia . ACM , 2021 : 
+5266 –5272 . DOI : 10.1145 /3474085 .3475645
+[67] LIU Q , YUAN H , SU H L , et al . PQA -net: Deep no reference point cloud 
+quality assessment via multi -view projection [J]. IEEE transactions on cir ⁃
+cuits and systems for video technology , 2021 , 31(12): 4645 –4660 . DOI : 
+10.1109 /TCSVT .2021 .3100282
+[68] CIGNONI P , ROCCHINI C , SCOPIGNO R . Metro : measuring error on simpli ⁃
+fied surfaces [J]. Computer graphics forum , 1998 , 17(2): 167–174. DOI : 
+10.1111 /1467 -8659 .00236
+[69] TIAN D , OCHIMIZU H , FENG C , et al . Evaluation metrics for point cloud 
+compression : ISO/IEC JTC m 74008  [S]. 2017 ,
+14

@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SUN Huifang , LI Ge , CHEN Siheng , LI Li, GAO Wei Special Topic   3D Point Cloud Processing and Applications
+precision . Experimental results showcase its superior perfor ⁃
+mance over existing MPEG standards .
+The fourth paper titled “Point Cloud Processing Methods 
+for 3D Point Cloud Detection Tasks ” revolves around the piv ⁃
+otal role of 3D point cloud processing in object detection . 
+Given the complexity of data acquired from LiDAR sensors , 
+the paper offers a review of point cloud processing methods 
+and how they influence detection outcomes . The discussion 
+underscores the evolution of voxelization and sampling strate ⁃
+gies, emphasizing their implications for feature extraction and 
+final detection performance .
+The fifth paper titled “Perceptual Optimization for Point -
+Based Point Cloud Rendering ” delves into the challenges in 
+point -based rendering for point clouds . The established 
+method of determining rendering radius using neighboring 
+points' distances is problematic . The paper introduces an out ⁃
+lier detection mechanism that optimizes the perceptual quality 
+of rendering , using local and global geometric features to de ⁃
+tect outliers . Results confirm the significant improvements in 
+rendering quality with this approach .
+The sixth paper titled “Local Scenario Perception and Web 
+AR Navigation ” explores the exciting convergence of web 
+technologies and augmented reality (Web AR ). As Web AR 
+grapples with computational demands , the paper introduces 
+an indoor navigation system based on local point cloud map 
+positioning . This novel approach minimizes the need for exter ⁃
+nal sensors , highlighting a promising avenue for precise and 
+widespread application of Web AR navigation .
+To conclude , this special issue aims to be an indispensable 
+guide for researchers , industry experts , and students delving 
+into 3D point cloud processing and its varied applications . We 
+anticipate that the content will spur more research and ad ⁃
+vancements , shaping the future trajectory of digital spatial 
+data analysis . Our deepest gratitude extends to all the authors , 
+reviewers , and editorial staff for their invaluable contributions 
+that have made this issue a success . We earnestly hope that 
+the articles in this special issue offer both clarity and insight 
+to all readers in this emerging domain .
+Biographies
+SUN Huifang  graduated from Harbin Engineering University , China , and re ⁃
+ceived his PhD degree from University of Ottawa , Canada . He was an associate 
+professor in Fairleigh Dickinson University in 1990 . He joined Sarnoff Corpora ⁃
+tion in 1990  as a member of technical staff and was promoted to a technology 
+leader for digital video communication . In 1995 , he joined Mitsubishi Electric 
+Research Laboratories (MERL ) and was promoted as Vice President and Depu ⁃
+ty Director in 2003  and currently is a retired Fellow of MERL . He has co -au⁃
+thored two books and published more than 160 journal and conference papers . 
+He holds 64 US patents . He won the Technical Achievement Award for optimi ⁃
+zation and specification of the Grand Alliance HDTV video compression algo ⁃
+rithm in 1994  at Sarnoff Lab . He received the best paper award of 1992  IEEE 
+Transaction on Consumer Electronics , the best paper award of 1996  ICCE  and the best paper award of 2003  IEEE Transaction on CSVT . He was an associate 
+editor for IEEE Transaction on Circuits and Systems for Video Technology  and 
+was the Chair of Visual Processing Technical Committee of IEEE Circuits and 
+System Society . He is an IEEE life fellow .
+LI Ge is currently a full professor at the School of Electronic and Computer En ⁃
+gineering , Peking University , China . He received his PhD degree from the De ⁃
+partment of Electrical Engineering , Auburn University , USA in 1999 . He has 
+several years of research work experience in industry . His research interests in ⁃
+clude point cloud compression and its standardization , image/video processing 
+and analysis , machine learning , and signal processing . He has published over 
+100 high quality papers and holds lots of granted US and global patents . He ac ⁃
+tively submitted many technical proposals to MPEG PCC and is also currently 
+the Lead Chair for the standardization of point cloud compression in the Audio 
+Video Coding Standard (AVS) Workgroup of China . He served as the Panel 
+Chair of IEEE ICME 2021 , the International Liaison Chair of PCS 2022 , etc.
+CHEN Siheng is a tenure -track associate professor of Shanghai Jiao Tong 
+University , China . Before joining Shanghai Jiao Tong University , he was a re ⁃
+search scientist at Mitsubishi Electric Research Laboratories (MERL ) and an 
+autonomy engineer at Uber Advanced Technologies Group (ATG ), working on 
+the perception and prediction systems of self -driving cars . Before joining in ⁃
+dustry , Dr. CHEN was a postdoctoral research associate at Carnegie Mellon 
+University , USA . He received his doctorate in electrical and computer engi ⁃
+neering from Carnegie Mellon University . He has published over 80 papers on 
+prestigious venues , including Nature Computational Science , Nature Scientific 
+Data , IEEE Signal Processing Magazine , IEEE Transactions on Signal Pro ⁃
+cessing , IEEE Transactions on Image Processing , IEEE Transactions on Pat ⁃
+tern Analysis and Machine Intelligence , ICASSP , NeurIPS , ICML , ICLR and 
+CVPR . His work on sampling theory of graph data received the 2018  IEEE 
+Signal Processing Society Young Author Best Paper Award . His co -authored 
+paper on structural health monitoring received ASME SHM/NDE 2020  Best 
+Journal Paper Runner -Up Award and another paper on 3D point cloud pro ⁃
+cessing received the Best Student Paper Award at 2018  IEEE Global Confer ⁃
+ence on Signal and Information Processing . Dr. CHEN contributed to the proj ⁃
+ect of scene -aware interaction , winning MERL President 􀆳s Award . He serves 
+as the associate editor for IEEE Transactions on Signal and Information Pro ⁃
+cessing over Networks . His research interests include collaborative AI and 3D 
+scene understanding .
+LI Li received his BS and PhD degrees in electronic engineering from Univer ⁃
+sity of Science and Technology of China (USTC ), China in 2011  and 2016 , re⁃
+spectively . He was a visiting assistant professor in University of Missouri -Kan⁃
+sas City , USA from 2016  to 2020 . He joined the Department of Electronic Engi ⁃
+neering and Information Science of USTC as a research fellow in 2020  and be ⁃
+came a professor in 2022 . His research interests include image/video/point 
+cloud coding and processing . He received the Best 10% Paper Award at the 
+2016  IEEE Visual Communications and Image Processing (VCIP ) and the 2019  
+IEEE International Conference on Image Processing (ICIP ).
+GAO Wei is an assistant professor at the School of Electronic and Computer En ⁃
+gineering , Peking University , Shenzhen , China . His research has been focused on 
+perception -inspired multimedia coding and processing , including both efficient 
+algorithms and systems . He won the 2021  IEEE Multimedia Rising Star Runner 
+Up Award for Outstanding Early -stage Career Achievements in the area of 3D Im ⁃
+mersive media research . He is currently serving or has served as the associate ed ⁃
+itor for several international journals on multimedia computing and machine lean ⁃
+ing, including Signal Processing , etc. He is also an Elected Member of IEEE 
+CASS VSPC -TC, and APSIPA IVM -TC. He has organized workshops and special 
+sessions at ICME 2023 , ACM MM 2022 , VCIP 2022 , and ICME 2021 . He is a tu ⁃
+torial speaker for point cloud related topics at ICME 2023  and ICIP 2023 . He is 
+also the leader to establish several open source projects , including OpenPoint ⁃
+Cloud , OpenAICoding , etc. He is a senior member of IEEE .
+02

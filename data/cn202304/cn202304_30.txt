@@ -1,0 +1,57 @@
+算力网络资源协同调度探索与应用 彭开来  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4算力网络资源协同调度探索与应用
+Collaborative Scheduling of Computing Power Network 
+Resources : Exploration and Application
+彭开来 /PENG Kailai1，王旭/WANG Xu2，
+唐琴琴 /TANG Qinqin2
+（ 1.网络通信与安全紫金山实验室 ，中国 南京 211111 ；
+2.北京邮电大学网络与交换技术全国重点实验室 ，中国 北京 100876  ）
+(1.Purple Mountain Laboratories , Nanjing 211111 , China ;
+2.State Key Laboratory of Networking and Switching Technology , Beijing 
+University of Posts and Telecommunications , Beijing 100876 , China )DOI：10.12142 /ZTETJ .202304006
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230724 .1549 .008.html
+网络出版日期 ：2023 -07-24
+收稿日期 ：2023 -06-12
+摘要 ：算力网络融合了多区域 、多层级的算力资源 。针对面向用户差异化需求下全域大范围多层次算力资源的弹性灵活调度问题 ，设计了一个
+算力网络资源协同调度平台 。针对差异化业务需求 ，该平台可以形成多公有云与私有云之间的算力资源调度策略以及算网资源协同调度策略 ，
+实现资源的自动最优分配 。同时，该平台能够自动发现 、纳管算力资源 ，并基于新的资源池情况实现分配策略的自动调整 ，实现用户无感业务
+扩缩容 ，以此弹性调度算力资源 。
+关键词 ：算力网络 ；协同调度 ；微服务 ；动态扩缩容
+Abstrac t:The computing power network integrates computing power resources from multiple regions and levels . In response to the flexible 
+scheduling problem of computing power resources across a wide range and at multiple levels under differential user needs , a computing 
+power network resource collaborative scheduling platform is designed . The platform forms a computing power resource scheduling strategy 
+between multiple public and private clouds and a computing network resource collaborative scheduling strategy based on differentiated busi ⁃
+ness needs , to achieve automated and optimal allocation of corresponding resources . At the same time , the platform can automatically dis ⁃
+cover and manage computing resources , and automatically adjust allocation strategies based on the new resource pool situation , achieving 
+user insensitive business expansion and contraction , and thereby flexibly scheduling computing resources .
+Keywords :computing power network ; collaborative scheduling ; micro services ; dynamic scaling
+引用格式 ： 彭开来 , 王旭, 唐琴琴 . 算力网络资源协同调度探索与应用  [J]. 中兴通讯技术 , 2023 , 29(4): 26-31. DOI:10.12142 /ZTETJ .202304006
+Citation ： PENG K L , WANG X , TANG Q Q . Collaborative scheduling of computing power network resources : exploration and application [J].  
+ZTE technology journal ， 2023 , 29(4): 26-31. DOI:10.12142 /ZTETJ .202304006
+5G、物联网等新型网络技术的发展带来了数字经济的高
+速发展和数字应用场景的爆发式增加 ，随之而来的是数
+据的海量增长与算力的高度需求 。根据华为发布的 《计算
+2030 》预测 ，2030 年人类将进入尧字节 （YB）数据时代 ，
+通用算力将是现有算力的 10倍。在全球数字经济时代大背
+景下 ，算力相关技术及产业正成为国家推动经济发展的强
+大动力 。2021 年5月，国家发展改革委 、中央网信办 、工
+业和信息化部 、国家能源局联合印发了 《全国一体化大数
+据中心协同创新体系算力枢纽实施方案 》 ，实施推进 “东数
+西算 ”工程 ，进一步推进中国数字经济的发展 。这对于抢
+占数字产业链制高点 ，推动建设数字强国有着极其重要的
+战略意义[1]。在此背景下 ，本文对算力网络的资源协同调度
+展开研究 。物联网时代下 ，网络中数据量呈爆发式增长 ，传统的云
+计算模式在处理海量的数据和应对实时业务需求方面存在不
+少弊端 。在云计算模式下 ，所有数据需要上传到云计算中心
+进行处理 ，现有的云计算平台的计算能力难以满足日益增长
+的数据需求 。同时 ，这种计算模式对终端的需求有一定的响
+应时间 ，难以满足如无人驾驶等新型业务场景下实时性较强
+的业务需求[2]。因此 ，仅靠单一云端算力难以满足所有业务
+需求 。在此背景下 ，边缘计算应运而生 。边缘计算通过引入
+边缘侧算力 ，使得网络中的部分数据无须上传至云计算中
+心，在网络边缘侧就能完成数据的分析与计算 。这不仅可以
+高效快速地反馈需求 ，还分担了云计算中心的部分数据请求
+任务[3]。此外 ，随着无线接入侧能力的大幅提升 ，大量的终
+端设备逐渐接入网络中 ，提供了大量的端侧算力 。因此 ，目
+26

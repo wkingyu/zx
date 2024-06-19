@@ -1,0 +1,88 @@
+网络智能传输研究进展 廖乙鑫  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5[36] ZHANG L , CUI Y , WANG M W , et al . DeepCC : bridging the gap between 
+congestion control and applications via multiobjective optimization [J]. 
+IEEE/ACM transactions on networking , 2022 , 30(5): 2274 -2288 . DOI : 
+10.1109 /TNET .2022 .3167713
+[37] MAO H Z , NETRAVALI R , ALIZADEH M . Neural adaptive video streaming 
+with pensieve [C]//Proceedings of the Conference of the ACM Special 
+Interest Group on Data Communication . ACM , 2017 : 197–210. DOI : 
+10.1145 /3098822 .3098843
+[38] HUANG T C , ZHANG R X , ZHOU C , et al . QARC : video quality aware rate 
+control for real-time video streaming based on deep reinforcement 
+learning [C]//Proceedings of the 26th ACM International Conference on 
+Multimedia . ACM , 2018 : 1208 –1216 . DOI: 10.1145 /3240508 .3240545
+[39] ROBITZA W , GARCIA M N , RAAKE A . A modular HTTP adaptive streaming 
+QoE model —candidate for ITU-T P .1203  (“P.NATS ”) [C]//Proceedings of 
+2017  Ninth International Conference on Quality of Multimedia Experience 
+(QoMEX ). IEEE , 2017 : 1-6. DOI: 10.1109 /QoMEX .2017 .7965689
+[40] ESWARA N , ASHIQUE S , PANCHBHAI A , et al . Streaming video QoE 
+modeling and prediction : a long short-term memory approach [J]. IEEE 
+transactions on circuits and systems for video technology , 2020 , 30(3): 
+661-673. DOI: 10.1109 /tcsvt .2019 .2895223
+[41] LAI Z Q , HU Y C , CUI Y , et al . Furion : engineering high-quality immersive 
+virtual reality on today ’s mobile devices [C]//Proceedings of the 23rd 
+Annual International Conference on Mobile Computing and Networking . 
+ACM , 2017 : 409–421. DOI: 10.1145 /3117811 .3117815
+[42] ZUO X T , YANG J Y , WANG M W , et al . Adaptive bitrate with user-level 
+QoE preference for video streaming [C]//Proceedings of IEEE INFOCOM 
+2022  - IEEE Conference on Computer Communications . IEEE , 2022 : 
+1279 -1288 . DOI: 10.1109 /INFOCOM 48880 .2022 .9796953
+[43] LV G R , WU Q H , WANG W R , et al . Lumos : towards better video 
+streaming QoE through accurate throughput prediction [C]//Proceedings of 
+IEEE INFOCOM 2022  - IEEE Conference on Computer Communications . 
+IEEE , 2022 : 650-659. DOI: 10.1109 /INFOCOM 48880 .2022 .9796948
+[44] ZHANG J , SHI H , CUI Y , et al . To punctuality and beyond : meeting 
+application deadlines with DTP [C]//Proceedings of 2022  IEEE 30th 
+International Conference on Network Protocols (ICNP ). IEEE , 2022 : 1-11. 
+DOI: 10.1109 /ICNP 55882 .2022 .9940391
+[45] CUI Y , WANG L , WANG X , et al . FMTCP : a fountain code-based multipath 
+transmission control protocol [J]. IEEE/ACM transactions on networking , 
+2015 , 23(2): 465-478. DOI: 10.1109 /TNET .2014 .2300140
+[46] ZHENG Z L , MA Y F , LIU Y M , et al . XLINK : QoE-driven multi-path QUIC 
+transport in large-scale video services [C]//Proceedings of the 2021  ACM 
+SIGCOMM 2021  Conference . ACM , 2021 : 418-432. DOI : 10.1145 /
+3452296 .3472893
+[47] ZUO X T , CUI Y , WANG X , et al . Deadline-aware multipath transmission 
+for streaming blocks [C]//Proceedings of IEEE INFOCOM 2022  - IEEE 
+Conference on Computer Communications . IEEE , 2022 : 2178 -2187 . DOI : 
+10.1109 /INFOCOM 48880 .2022 .9796942
+[48] LIU X , ZHANG F J , HOU Z Y , et al . Self-supervised learning : generative or 
+contrastive [J]. IEEE transactions on knowledge and data engineering , 
+2023 , 35(1): 857-876. DOI: 10.1109 /TKDE .2021 .3090866
+[49] BROWN T , MANN B , RYDER N , et al . Language models are few-shot 
+learners [EB/OL ]. (2020 -05-28) [2023 -07-25]. https ://arxiv .org/abs/
+2005 .14165
+[50] HU S H , ZENG G X , BAI W , et al . Aeolus : a building block for proactive 
+transport in datacenter networks [J]. IEEE/ACM transactions on 
+networking , 2022 , 30(2): 542-556. DOI: 10.1109 /TNET .2021 .3119986[51] BAI W , HU S H , CHEN K , et al . One more config is enough : saving (DC)
+TCP for high-speed extremely shallow-buffered datacenters [J]. IEEE/
+ACM transactions on networking , 2021 , 29(2): 489-502. DOI : 10.1109 /
+TNET .2020 .3032999
+[52] WU H T , FENG Z Q , GUO C X , et al . ICTCP : Incast Congestion Control for 
+TCP in data center networks [C]//Proceedings of the 6th International 
+Conference . ACM , 2010 : 1–12. DOI: 10.1145 /1921168 .1921186
+作 者 简 介
+廖乙鑫 ，北京邮电大学在读硕士研究生 ；主要研
+究领域为低时延网络传输 、视频传输 。
+王子逸 ，北京邮电大学副研究员 ；主要研究领域
+为低时延网络传输 、流媒体传输 、边缘计算等 ；
+在《IEEE/ACM Transactions on Networking 》、
+INFOCOM 等权威期刊与会议上发表论文多篇 。
+                        崔勇 ，清华大学长聘教授 、网络技术研究所所长 ，
+教育部 “长江学者 ”特聘教授 ，首届“青年长江
+学者”获得者 ，中国互联网协会学术工作委员会
+秘书长 ，中国通信学会边缘计算委员会副主任委
+员， 《 IEEE Transactions on Parallel and 
+Distributed Systems 》等4个IEEE 期刊的编委 ，
+曾长期担任国际标准工作组主席 ；主要研究方向
+为低时延传输技术 、视频分析 、内容安全 、流媒
+体传输 、网络数字孪生 、网络 AI等；获国家优秀青年科学基金和教
+育部新世纪人才等项目持续支持 ，2019 年成功在北京组织国际网络
+通信领域顶级会议 Sigcomm' 19并担任大会副主席 ，参与研制我国
+第一台 “IPv6核心路由器 ” ，参与建设中国下一代互联网示范工程
+CNGI-CERNET 2；获国家科技进步二等奖 1次、国家技术发明二等
+奖1次，多次获得国家信息产业重大技术发明 ；发表论文 100余篇，
+获国家发明专利 40余项，完成 RFC国际标准 10余项，出版学术著
+作4部。
+67

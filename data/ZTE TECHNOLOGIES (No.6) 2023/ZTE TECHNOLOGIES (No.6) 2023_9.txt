@@ -1,0 +1,75 @@
+Policy support:  According to a World 
+Bank report, every 10% increase in /f_ixed 
+broadband penetration is associated 
+with a 1.38% increase in GDP growth, 
+and each doubling of bandwidth results 
+in a 0.3% increase in GDP growth. 
+More than 140 countries and regions 
+worldwide have elevated broadband 
+network development to the level of a 
+national strategic priority. Some have 
+even included gigabit networks in 
+their development plans. For example, 
+the Chinese government proposed 
+the “dual-gigabit dual-acceleration” 
+plan, the European Union released 
+the Gigabit Community Plan, the 
+German government proposed the 
+Gigabit Germany Plan, and the Italian 
+government launched the 1 Giga 
+strategy. These national policies and 
+/f_inancial support mechanisms provide 
+essential guidance and positive 
+incentives.
+Competition-driven:  Operators are 
+currently engaged in /f_ierce market 
+competition to secure more user resources 
+and maximize their pro/f_its. It is critical 
+for the operators to use diﬀerentiated 
+technologies and services to maintain a 
+competitive edge. This includes oﬀering 
+attractive service packages to improve 
+customer quality of experience (QoE) and ensure a competitive advantage.
+Network upgrade and reconstruction: 
+As the service life of traditional PSTN, 
+DSL, and DOCSIS network technologies 
+and devices progresses, they no longer 
+meet the demands of the new era. For 
+example, some OLT devices that have 
+been used for over a decade have reached 
+the end of their life cycles. They cannot 
+be upgraded or maintained to support 
+new functionalities and performance 
+requirements and thus necessitate an 
+upgrade to a new device platform.
+Continuous decline in 10G PON costs: 
+The extensive development of 10G PON 
+is also driving continuous cost reductions. 
+According to statistics from the consulting 
+/f_irm Dells’ Oro Group, the price of 10G PON 
+ports decreased by 43% from 2018 to 2022, 
+while the cost of 10G PON ONUs dropped 
+by 62%, making the cost-eﬀective 
+deployment of 10G PON feasible. Due to 
+the point-to-multipoint (P2MP) nature of 
+PON, the reduction in PON device prices 
+depends on the decrease in ONU costs.
+Moreover, the higher bandwidth of 
+10G PON translates to faster rates and an 
+enhanced user experience. Considering 
+the tidal and pinpointing eﬀects, the 
+network must accommodate burst 
+bandwidth needs rather than just the 
+ 
+ 
+ 
+ 
+ 
+ 
+The global deployment of 10G PON 
+is accelerating, and the next three 
+years are expected to be a prime 
+window for 10G PON deployment.
+/gid00052/gid00084/gid00077/gid00001/gid00043/gid00072/gid00077
+DEC 2023 
+ 07

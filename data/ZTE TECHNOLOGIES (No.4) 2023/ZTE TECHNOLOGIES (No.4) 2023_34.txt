@@ -1,0 +1,74 @@
+incidents at the host and business levels. 
+Through the professional service security 
+operation center (SSOC), secure CDN also 
+achieves manageable, controllable and 
+centralized management, allowing for rapid 
+respond to various security incidents.
+ZTE Secure CDN Solution
+ZTE secure CDN solution consists of two 
+major components: the management center 
+and the client program. The management 
+center adopts a B/S architecture, allowing 
+administrators to manage the host devices 
+eﬀectively. This includes managing device login 
+accounts, process management, log auditing, 
+security policy con/f_iguration, host security, and 
+anti-tampering module settings, creating an 
+integrated security system. The client program 
+is an independent program running on the local 
+host. It executes tasks and policies issued by the 
+management center, and collects and reports 
+behavior data necessary for security auditing 
+and detection. The functional modules of ZTE 
+secure CDN solution are shown in Fig. 1.
+Host security:  By utilizing log analysis 
+and event tracing technologies, combined 
+with functions such as asset management, 
+vulnerability scanning, risk detection, and 
+baseline check, ZTE secure CDN solution 
+promptly identi/f_ies potential security risks 
+in servers. These risks include security 
+vulnerabilities, weak passwords, /f_ile upload 
+risks, and /f_ileless attacks. The solution oﬀers 
+comprehensive protection and early warning 
+against malicious scanning, brute-force s many countries place great 
+importance on security, speci/f_ic 
+laws and regulations have been 
+developed to standardize and 
+supervise product safety. In China, laws and 
+regulations such as the “Cybersecurity Law”, 
+“Basic Requirements for Information System 
+Security Protection”, “Data Security Law”, and 
+“Personal Information Protection Law” have been 
+implemented. In the European Union, regulations 
+such as the “General Data Protection Regulation” 
+and “European Cyber Resilience Act” have been 
+introduced, covering various areas including 
+host security, data security, personal information, 
+and network security. Moreover, national-level 
+cybersecurity initiatives like network protection 
+campaigns and National Cybersecurity Awareness 
+Weeks continue to expand, demonstrating 
+the signi/f_icant attention given to security by 
+the respective countries. At the same time, 
+cyberattackers are becoming more sophisticated 
+in their techniques, diversifying their attack 
+methods and aiming at lower-level targets. These 
+observations reveal that content delivery network 
+(CDN) customers face three key security pressures: 
+external attack pressure, compliance governance 
+pressure, and security operation and maintenance 
+(O&M) pressure.
+To address the security demands mentioned 
+above, ZTE has developed its secure CDN 
+solution that incorporates security as a signi/f_icant 
+component of CDN. Secure CDN builds a 
+CDN system that is founded on host security 
+and targets business security. It achieves a 
+comprehensive protection from the inside out by 
+detecting, analyzing, blocking and tracing security Secure CDN: Achieving Managable, 
+Controllable and Centralized 
+Management 
+Chief Engineer of CDN 
+Product Planning, ZTEZhang YuA
+32New Video Ecosystem Special Topic

@@ -1,0 +1,71 @@
+面向 Critical MTC 的无连接传输 李志岗  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1[16] XING S S , XU X Q , CHEN Y , et al . Advanced grant-free 
+transmission for small packets URLLC services [C]//Proceedings 
+of IEEE International Conference on Communications 
+Workshops (ICC Workshops ). IEEE , 2019 : 1-5. DOI : 10.1109 /
+ICCW .2019 .8757186
+[17] YUAN Z F , LI Z G , LI W M , et al . Contention-based grant-free 
+transmission with extremely sparse orthogonal pilot scheme [C]//
+Proceedings of IEEE 94th Vehicular Technology Conference 
+(VTC2021 -Fall ). IEEE , 2021 : 1-6. DOI : 10.1109 /VTC 2021 -
+Fall52928 .2021 .9625265
+[18] KE M L , GAO Z , WU Y P , et al . Compressive sensing-based 
+adaptive active user detection and channel estimation : massive 
+access meets massive MIMO [J]. IEEE transactions on signal 
+processing , 1809 , 68: 764-779. DOI: 10.1109 /TSP.2020 .2967175
+[19] JIANG H , QU D M , DING J , et al . Multiple preambles for high 
+success rate of grant-free random access with massive MIMO 
+[J]. IEEE transactions on wireless communications , 2019 , 18
+(10): 4779 -4789 . DOI: 10.1109 /TWC .2019 .2929126
+[20] YUAN Z F , LI W M , LI Z G , et al . Contention-based grant-free 
+transmission with independent multi-pilot scheme [C]//
+Proceedings of IEEE 92nd Vehicular Technology Conference 
+(VTC2020 -Fall ). IEEE , 2020 : 1-7. DOI : 10.1109 /VTC 2020 -
+Fall49728 .2020 .9348828
+[21] MAHMOOD N H , ABREU R , BÖHNKE R , et al . Uplink Grant-
+Free Access Solutions for URLLC services in 5G New Radio [C]//
+Proceedings of 16th International Symposium on Wireless 
+Communication Systems (ISWCS ). IEEE , 2019 : 607-612. DOI : 
+10.1109 /ISWCS .2019 .8877253
+[22] LIU Y , DENG Y S , ELKASHLAN M , et al . Analyzing grant-free 
+access for URLLC service [J]. IEEE journal on selected areas in 
+communications , 2021 , 39(3): 741-755. DOI : 10.1109 /
+JSAC .2020 .3018822
+[23] WANG C , CHEN Y , WU Y Q , et al . Performance evaluation of 
+grant-free transmission for uplink URLLC services [C]//
+Proceedings of IEEE 85th Vehicular Technology Conference 
+(VTC Spring ). IEEE , 2017 : 1-6. DOI : 10.1109 /
+VTCSpring .2017 .8108593
+[24] DING J , CHOI J . SIC aided K-repetition for mission-critical MTC 
+in cell-free massive MIMO [C]//Proceedings of IEEE Conference 
+on Standards for Communications and Networking (CSCN ). 
+IEEE , 2021 : 167-173. DOI: 10.1109 /CSCN 53733 .2021 .9686139
+[25] LI W M , YUAN Z F , MA Y H , et al . Grant-free data-only 
+transmission with correlated antenna array [C]//Proceedings of 
+IEEE Globecom Workshops (GC Wkshps ). IEEE , 2021 : 1-7. 
+DOI: 10.1109 /GCWkshps 52748 .2021 .9681993
+[26] YUAN Z F , HU Y Z , LI W M , et al . Blind multi-user detection for 
+autonomous grant-free high-overloading multiple-access 
+without reference signal [C]//Proceedings of IEEE 87th Vehicular 
+Technology Conference (VTC Spring ). IEEE , 2018 : 1-7. DOI : 
+10.1109 /VTCSpring .2018 .8417836作 者 简 介
+李志岗 ，中兴通讯股份有限公司技术预研无线高
+级工程师 ；主要研究方向为新型多址接入技术 、
+无连接传输 。
+袁志锋 （通信作者 ） ，中兴通讯股份有限公司无线
+算法预研工程师 ；研究领域涉及信息论 、多址 、
+纠错码 、自适应算法 、MIMO 系统和高速软硬件
+算法。
+董展谊 ，中兴通讯股份有限公司技术预研无线资
+深专家 ；主要从事 6G预研工作 ；带领团队完成业
+务网络架构及相关协议的原型开发工作 ，并作为
+首席设计者 ，开发了验证平台通用驱动程序软件
+框架和通用 eCpri 程序软件框架 。
+李文斌 ，中兴通讯股份有限公司技术预研无线高
+级系统工程师 ；主要从事 5G/6G关键技术原型验
+证相关工作 。
+梁楚龙 ，中兴通讯股份有限公司算法部预研工程
+师；研究方向为信道编码及其在通信系统中的应
+用；发表论文近 40篇。
+67

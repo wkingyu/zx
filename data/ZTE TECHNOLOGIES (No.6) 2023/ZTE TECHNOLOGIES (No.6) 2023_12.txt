@@ -1,0 +1,56 @@
+n the post-pandemic era, broadband 
+network  development is gaining 
+renewed momentum. Speci/f_ically, the 
+development of broadband 
+access has /f_ive characteristics:
+Dominance of video services in 
+broadband network traﬃc:  Video 
+services have garnered favor among 
+a vast user base through their /f_lexible 
+presentation, robust interactivity, and 
+real-time accessibility. The widespread 
+popularity of platforms such as Net/f_lix, 
+YouTube, and TikTok is further propelling 
+the growth of video services. In addition, 
+video is developing into fragmented and 
+short-form content. According to reports 
+from consulting /f_irms, video services 
+now account for over 50% of global 
+broadband traﬃc, aﬃrming the adage 
+that “video is king.” 
+Increased demand for symmetrical 
+bandwidth:  The emergence of 
+applications like remote work, 
+interactive community, online 
+education, online gaming, and 
+live-streamed shopping has spurred a 
+heightened demand for symmetrical 
+bandwidth. This marks a departure  from the traditional traﬃc model, where 
+downstream bandwidth far exceeded 
+upstream bandwidth, and poses new 
+requirements for enhancing end-to-end 
+network bandwidth.
+Accelerated digital transformation: 
+In the realm of home connectivity, 
+there is a gradual shift away from 
+aging twisted-pair and coaxial cable 
+infrastructure towards /f_iber-optic 
+solutions. While /f_iber to the home 
+(FTTH) deployment is still in progress, 
+/f_iber to the room (FTTR) has emerged 
+as a new trend and a transition to an 
+all-optical home network is becoming 
+the prevailing direction. By the end of 
+2022, /f_iber to the anything (FTTx) users 
+had accounted for more than 65% of 
+/f_ixed broadband (FBB) subscribers. In 
+the realm of corporate campuses and 
+ 
+ 
+Chief Engineer of FM 
+Product Planning, ZTEWang Xinsheng
+ZXA10 C600E: Industry’s 
+First New-Generation Tbps-Level 
+All-Optical Access Platform 
+I Turbocharging FTTx Network Special Topic
+10 

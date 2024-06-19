@@ -1,0 +1,57 @@
+数据中心光模块技术及演进 张平化  等 企业视界
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1数据中心光模块技术及演进
+Data Center Optical Module Technology and Its Evolution
+张平化 /ZHANG Pinghua ，王会涛 /WANG Huitao ，
+付志明 /FU Zhiming
+（ 中兴光电子技术有限公司 ，中国 南京 210012  ）
+(ZTE Photonics Technology Co . , Ltd, Nanjing 210012 , China )DOI：10.12142 /ZTETJ .202401015
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20240304 .1751 .002.html
+网络出版日期 ：2024 -02-28
+收稿日期 ：2024 -01-16
+摘要 ：算力需求提升带动网络带宽成倍增加 ，数据中心能耗呈指数型增长 。针对低功耗 、高带宽的技术需求 ，硅光、共封装光学 （CPO）等技
+术有望成为长期解决方案 。硅光芯片采用光互联 ，叠加 CPO 技术，将光引擎与交换芯片共同封装 ，在速率提高的同时大大缩减功耗 。液冷技
+术、线性驱动可插拨光模块 （LPO） 、相干技术及薄膜铌酸锂等技术成为光模块优化主要新趋势 。LPO 在高线性度跨阻放大器 （TIA）/驱动芯片
+厂商大力推动下或可快速落地 。相干精简版解决方案在数据中心 2 km以内传输距离方面有竞争优势 。
+关键词 ：硅光；CPO；LPO；薄膜铌酸锂
+Abstrac t:Network bandwith multiplies and power consumption of data centers increases exponentially . SiPh and co-package optics (CPO) 
+may be long-term solutions around the technical requirements of low-power consumption and high-bandwidth . SiP chips can be optical in ⁃
+terconnection . Using SiPh and CPO stacking techniques which can realize co-package of optical engines and switch chips , power consump ⁃
+tion can be greatly reduced when transmission rate inreases . Besides , liquid cooling technology , linear-drive pluggable optics (LPO), coher ⁃
+ent technology , and thin film lithium niobate will be main development trends of optical modules . LPO should be quick landing with vigorous 
+promotion of high-linearity trans-impedance amplifier (TIA)/driver manufacturers . Coherent lite solution becomes competitive when solving 
+under 2 km transmission in data centers .
+Keywords :SiPh; CPO ; LPO ; thin film lithium niobate
+引用格式 ：张平化 ，王会涛 ，付志明 . 数据中心光模块技术及演进  [J]. 中兴通讯技术 , 2024 , 30(1): 89-98. DOI: 10.12142 /ZTETJ .202401015
+Citation ： ZHANG P H , WANG H T , FU Z M . Data center optical module technology and its evolution [J]. ZTE technology journal , 2024 , 30(1): 
+89-98. DOI: 10.12142 /ZTETJ .202401015
+1 数据中心光模块技术创新点
+作为数据存储和计算的中心 ，数据中心在各个时期承载
+的主要功能有所差异 。自2000 年以来 ，全球数据中心从计
+算中心发展到信息中心 ，再发展至云计算中心 ，目前正向算
+力中心演变 。
+1.1 算力时代下低功耗成为技术创新点
+算力需求提升带动网络带宽成倍增加 ，数据中心能耗呈
+指数型增长 。设备厂商 Cisco 的数据显示[1]，2010 —2022 年
+全球数据中心的网络交换带宽提升了 80倍，背后的代价是
+交换芯片功耗增加约 8倍，光模块功耗增加 26倍，交换芯片
+串行器 /解串器 （SerDes ）功耗增加 25倍。
+如何解决功耗问题成为下一代高速光互联应用的最大挑
+战。液冷技术成为数据中心突破节能瓶颈最有效的方式 。液
+冷光模块是未来技术的一个亮点 。
+在光模块降耗的发展趋势下 ，行业围绕驱动器 、调制器、激光器及电接口 4个方面降低功耗 。在驱动器方面 ，如
+果采用线性驱动可插拨光模块 （LPO）技术路线 ，则可在数
+据链路中只使用线性模拟元件 ，无需数字信号处理 （DSP）
+或者时钟数据恢复 （CDR）芯片 ，从而降低 DSP/CDR 产生
+的功耗 。在调制器方面 ，薄膜铌酸锂基于自身较低的半波电
+压，所需要的驱动电压更小 ，从而具备优越的低功耗特性 ，
+成为产业界尝试解决调制器功耗问题的重要途径 。在激光器
+方面 ，提高激光器的电光效率和耦合效率是两种降低功耗的
+途径 。在电接口方面 ，缩短交换芯片和光引擎之间的连接长
+度，采用诸如近封装光学 （NPO）和共封装光学 （CPO）之
+类的超密集封装 ，可实现更高密度的高速端口 ，提升整机的
+带宽密度 。而NPO/CPO 背后的技术 ，即硅光技术 ，是以光
+子和电子为信息载体的硅基光电子大规模集成技术 。
+1.2 算力时代下高带宽需求是技术原动力
+数据中心设备之间的连接由高速光接口提供 ，并且根据
+89

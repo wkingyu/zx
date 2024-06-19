@@ -1,0 +1,118 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Special Topic   Towards Near -Field Communications for 6G: Challenges and Opportunities
+where Jm(ωu, φu)=mzΔRωu-myΔRφu,and Qm(ωu, φu, d0
+u)=
+((mzΔR)2+(myΔR)2
+-J2
+m(ωu,φu))/2d0
+u.
+Then , the authors carried out the NF -JCEL algorithm by es ⁃
+timating the AoAs ωu=sin ϕu,0, φu=sin θu,0 cos ϕu,0, the dis ⁃
+tance d0
+u, and the cascaded channel attenuation gu,i, and fi ⁃
+nally obtained the position of UE u by utilizing the geometric 
+relationship . Furthermore , because the steering vectors were 
+frequency -dependent , the authors processed the channel esti ⁃
+mation on each sub -band .
+1) RIS training phase shifts and pilot design
+The authors utilized different RIS phase shift vectors to ob ⁃
+tain a unique estimation of the channel matrix . The pseudo -
+random (PN) sequences were utilized as the transmitting pilot 
+at different time slots , which are statistically orthogonal with 
+each other , and the RIS phase shift vector changed for S times 
+in a pilot data duration . Then the composited signal vector 
+which collected the received signals in the S different phase 
+shifts could be obtained , and we had a least square (LS) esti⁃
+mator of Axt as ------Axt, where A is the channel matrix to be esti ⁃
+mated , and xt is the pilot sequence in the t-th time slot .
+Note that the rank of the cascaded channel moves up by 
+employing diverse phase shifts of the RIS to avoid noise am ⁃
+plification when utilizing the LS estimation . Since the chan ⁃
+nel coefficients are unknown , the existing RIS phase designs 
+such as the random phase shift and the Discrete Fourier 
+Transform (DFT) matrix are considered . By collecting the re ⁃
+ceived signal in the τ pilot durations , the covariance matrix 
+of the received signal is estimated as the mean covariance 
+matrix of ------Axt.
+2) Estimation of AoAs
+The authors provided a novel method to separate the dis ⁃
+tance and AoAs in the covariance matrix . With complicated 
+mathematical manipulations , they constructed a down -
+sampled Toeplitz matrix T to decouple the distance and the 
+AoAs . Therefore , the far -field angle estimation methods could 
+be obtained with the sampled correlation matrix .
+Specifically , the authors applied a computationally efficient 
+subspace -based method to estimate the angles . By leveraging 
+the key idea of the MUSIC algorithm , the AoAs could be esti ⁃
+mated by minimizing the following cost function :
+f(ω, φ)=bH(ω, φ)Πmb(ω, φ), (24)
+where b(ω,φ)=v(ω)⊗s(φ), v(ω)[]z=exp(-j4π
+λzΔRω), s(φ)[]y=
+exp(-j4π
+λyΔRφ), and Πm is designed by utilizing the property 
+of the sampled correlation matrix T.
+By applying the Lagrangian multiplier method , the rela ⁃
+tionship between each optimal ωu and φu is obtained . Then , 
+substitute the equation into the objective function and the op ⁃timal value of ω can be reached by solving a one -
+dimensional problem . Since ωu=sinϕu, we can search in the 
+interval of ωu∈[-1,1] and obtain the U largest peaks as the 
+estimator of ωu. Finally , by utilizing the relationship between 
+ωu and φu, we have U vectors ŝ(φu) corresponding to ω̂u, and 
+the estimator of φu is obtained by applying the LS estimation .
+3) Estimation of distances , channel gains and locations
+Similar to the method of tackling ω and φ, the authors trans ⁃
+form the estimation of distance into the following problem .
+d0
+u∗=argmind0
+u((diag{pu}qu)H
+Πn(diag{pu}qu)),(25)
+where pu=é
+ëêêêêexp(-j2π
+λJ-N0),⋯, exp(-j2π
+λJN0)ù
+ûúúúúT
+, qu=
+é
+ëê
+êêêexp(-jπQ-N0
+λd0
+u),⋯, exp(-jπQN0
+λd0
+u)ù
+ûú
+úúú
+ , and Πn is designed 
+in the similar way as Πm. By conducting one -dimensional 
+search , the U largest peaks of the searching results are ob ⁃
+tained as the estimated distances .
+Finally , the LS method can be applied to estimate the chan ⁃
+nel gain of sub -band i, and the localization of UE u can be ob ⁃
+tained according to the geometric relationship with the estima ⁃
+tion over different frequency bands .
+4) Simulation results
+Simulation results validate the advantages of the NF -
+JCEL algorithm over its far -field counterpart in the near -
+field scenario . As shown in Fig. 8(a), the NF -JCEL algo ⁃
+rithm outperforms the corresponding far -field cases in the 
+root mean square error (RMSE ) of UE locations . In addition , 
+along with the increase of elements , the NF -JCEL algorithm 
+obtains better performance while the conventional far -field 
+model suffers severe degradation . When it comes to the 
+RMSE performance of the estimated channel coefficients , 
+similar trends in the sum RMSE can be observed in Figs . 8
+(b) and 8(c).
+This phenomenon is owing to the fact that more elements 
+can provide more angular information , thus leading to higher 
+angular resolution when estimating the AoAs . In contrast , the 
+conventional far -field model neglects the distinction of AoAs 
+at the RIS , so that the approximation error of the planar wave ⁃
+front becomes more severe though the correlation matrices of 
+larger dimensions are exploited .
+3.3 Transmission Scheme Design for Near -Field Commu ⁃
+nications
+3.3.1 Challenges
+As the antenna array size increases , the Rayleigh distance 
+significantly extends from a few meters to tens or hundreds of 
+meters[17]. Consequently , the plane wave assumption in the far 
+field becomes invalid . Based on the spherical wave character ⁃
+10

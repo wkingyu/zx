@@ -1,0 +1,80 @@
+ZTE is dedicated to continuously 
+innovating its AAU/RRU solutions for 
+wireless networks, with a focus on 
+addressing key challenges such as the 
+growing demand for large capacity and 
+optimal user experience, crowded tower 
+space, and a high carbon footprint. ZTE 
+AAU/RRU series is well-suited for any CSPs 
+modernizing 4G networks and rolling out 
+5G networks, with careful consideration of 
+the best TCO.
+Industry’s First Single Sub-6 GHz
+5G Cell Achieves Peak Throughput of 
+10 Gbps+       
+Over the past four years, since the advent 
+of 5G networks, the number of 5G users has 
+surpassed 1.2 billion. Both total mobile 
+internet traﬃc and monthly average user 
+traﬃc (DOU) have doubled. Various video 
+applications continue to evolve, 
+introducing services like 4K/8K resolution, 
+VR/AR, and glasses-free 3D. Existing service 
+upgrades and new services impose higher 
+demands on network capabilities. 
+According to GlobalData’s predictions, 
+global network traﬃc is expected to 
+increase 3.5 times by 2026 compared to 
+2022. The emergence of new high-traﬃc 
+services will intensify the demand for 
+network throughput, thereby amplifying 
+the need for capacity enhancement. 
+The introduction of ultra-large-scale 
+MIMO, with increased channels and antenna elements in higher sub-6 GHz 
+frequencies, is a key research area in 
+evolving wireless technologies for 
+5G-Advanced and 6G, recognized by 
+standardization organizations and 
+enterprises. Integrated sensing and 
+communication (ISAC) also represents a 
+signi/f_icant innovation for 5G-Advanced and 
+6G. The industry anticipates incorporating 
+higher frequency bands like 4.9 GHz in 
+sub-6 GHz for improved sensing accuracy 
+with more transceivers.
+Coverage enhancement:  The new 
+AAU (Fig. 1) has doubled transceivers and 
+antenna elements, which enhance 
+beamforming capabilities and signi/f_icantly 
+improve cell capacity and coverage. The 
+128TR AAU boasts 798 antenna elements, 
+providing a coverage gain of over 5 dB 
+compared to the conventional 64TR AAU 
+with a maximum of 192 antenna elements. 
+Notably, the vertical scan angle has 
+expanded from 12 to 24 degrees, ensuring 
+suﬃcient vertical coverage, especially for 
+high-rise buildings in densely populated 
+urban areas.
+Capacity increase: The new AAU 
+achieves 32 downlink streams and 24 
+uplink streams, doubling spectral 
+eﬃciency compared to 64TR without 
+relying on protocols or increasing 
+uplink/downlink DMRS overhead. This 
+results in a doubling of cell peak data rate 
+and up to a 40% enhancement in user 
+throughputs. 
+ 
+ 
+ 
+ 
+ 
+Next-Generation Radios: Unprecedented 
+Capacity, Simpli/f_ied Site Deployment 
+and Superior Energy Eﬃciency
+RAN Solution Manager, 
+ZTEYang Lisha
+RAN Product Planning 
+Manager, ZTELi Ting FEB 2024
+ 27

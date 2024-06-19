@@ -1,0 +1,82 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian Review   RIS -Assisted Cell Free MIMO : A Survey
+wireless communications letters , 2021 , 10(3): 673–677. DOI : 10.1109 /
+LWC .2020 .3045884
+[40] ELHOUSHY S , IBRAHIM M , HAMOUDA W . Exploiting RIS for limiting 
+information leakage to active eavesdropper in cell -free massive MIMO 
+[J]. IEEE wireless communications letters , 2022 , 11(3): 443–447. DOI : 
+10.1109 /LWC .2021 .3130169
+[41] AL-NAHHAS B , CHAABAN A , HOSSAIN M J . Improving UAV commu ⁃
+nication in cell free MIMO using a reconfigurable intelligent surface [C]//
+Proc. IEEE Globecom Workshops (GC Wkshps ). IEEE , 2022 : 1152–
+1157 . DOI : 10.1109 /GCWkshps 56602 .2022 .10008748
+[42] SHI E Y , ZHANG J Y , CHEN S F , et al . Wireless energy transfer in RIS -
+aided cell -free massive MIMO systems : opportunities and challenges [J]. 
+IEEE communications magazine , 2022 , 60(3): 26–32. DOI : 10.1109 /
+MCOM .001.2100671
+[43] YANG Z Y , ZHANG Y . Beamforming optimization for RIS -aided SWIPT 
+in cell -free MIMO networks [J]. China communications , 2021 , 18(9): 175–
+191. DOI : 10.23919 /JCC .2021 .09.014
+[44] KHALIL A A , SELIM M Y , RAHMAN M A . CURE : enabling RF energy 
+harvesting using cell -free massive MIMO UAVs assisted by RIS [C]//
+Proc. IEEE 46th Conference on Local Computer Networks (LCN). IEEE , 
+2021 : 533–540. DOI : 10.1109 /LCN 52139 .2021 .9524984
+[45] SUN H R , ZHANG S , MA J P , et al . Time -delay unit based beam squint 
+mitigation for RIS -aided communications [J]. IEEE communications let ⁃
+ters, 2022 , 26(9): 2220–2224 . DOI : 10.1109 /LCOMM .2022 .3184074
+[46] XU W , YANG Z , NG D W K , et al . Edge learning for B 5G networks with 
+distributed signal processing : semantic communication , edge computing , 
+and wireless sensing [J]. IEEE journal of selected topics in signal process ⁃
+ing, 2023 , 17(1): 9–39. DOI : 10.1109 /JSTSP .2023 .3239189
+[47] PAN Y J , PAN C H , JIN S , et al . Joint channel estimation and localiza ⁃
+tion in the near field of RIS enabled mmwave/subTHz communications 
+[EB/OL ]. (2022 -08-24)[2023 -03-30]. https ://arxiv .org/abs/ 2208 .11343
+[48] CUI M Y , WU Z D , LU Y , et al . Near -field MIMO communications for 
+6G: fundamentals , challenges , potentials , and future directions [J]. IEEE 
+communications magazine , 2023 , 61(1): 40–46. DOI : 10.1109 /
+MCOM .004.2200136
+[49] LIU F , CUI Y H , MASOUROS C , et al . Integrated sensing and communi ⁃
+cations : toward dual -functional wireless networks for 6G and beyond [J]. 
+IEEE journal on selected areas in communications , 2022 , 40(6): 1728–
+1767 . DOI : 10.1109 /JSAC .2022 .3156632
+[50] GUO H Z , LI J Y , LIU J J , et al . A survey on space -air-ground -sea inte ⁃
+grated network security in 6G [J]. IEEE communications surveys & tutori ⁃
+als, 2022 , 24(1): 53–87. DOI : 10.1109 /COMST .2021 .3131332Biographies
+ZHAO Yaqiong received her BE degree in electrical engineering from South ⁃
+east University , China in 2018 . She is currently working toward a PhD degree 
+with the School of Information Science and Engineering , National Mobile Com ⁃
+munications Research Laboratory , Southeast University . Her current research 
+interests include massive MIMO , mmWave communications , and reconfigurable 
+intelligent surfaces for wireless communications .
+KE Hongqin received his BE degree in electrical engineering from Xiamen 
+University , China in 2022 . He is currently working toward an MS degree with 
+the School of Information Science and Engineering , National Mobile Communi ⁃
+cations Research Laboratory , Southeast University , China . His current research 
+interests include massive MIMO , integrated sensing and communication , and re ⁃
+configurable intelligent surfaces for wireless communications .
+XU Wei (wxu@seu .edu.cn) received his BSc degree in electrical engineering and 
+MS and PhD degrees in communication and information engineering from South ⁃
+east University , China in 2003 , 2006  and 2009 , respectively . Between 2009  and 
+2010 , he was a post -doctoral research fellow with the Department of Electrical 
+and Computer Engineering , University of Victoria , Canada . He is currently a pro ⁃
+fessor at the National Mobile Communications Research Laboratory , Southeast 
+University . He was an adjunct professor of the University of Victoria , Canada 
+from 2017  to 2020 , and a Distinguished Visiting Fellow of the Royal Academy of 
+Engineering , UK in 2019 . He is also with the Purple Mountain Laboratory and 
+has served as a project leader since 2020 . He has co -authored over 100 refereed 
+journal papers in addition to 36 domestic patents and four US patents granted . 
+His research interests include information theory , signal processing and machine 
+learning for wireless communications . He was an editor of IEEE Communications 
+Letters  from 2012  to 2017 . He is currently an editor of IEEE Transactions on 
+Communications  and a senior editor of IEEE Communications Letters . He re ⁃
+ceived the Best Paper Awards from a number of prestigious IEEE conferences in ⁃
+cluding IEEE Globecom/ICCC , etc. He received the Science and Technology 
+Award for Young Scholars of the Chinese Institute of Electronics in 2018 .
+YE Xinquan received his MS degree from Xidian University , China in 2018 . 
+He is currently an engineer with ZTE Corporation . His research interests in ⁃
+clude cell -free massive MIMO and reconfigurable intelligent surface .
+CHEN Yijian received his BS degree from Central South University , China in 
+2006 . He is currently a senior engineer with ZTE Corporation . His current re ⁃
+search interests include massive MIMO , coordinated multi -point transmission , 
+high -frequency communications , and channel modeling .
+86

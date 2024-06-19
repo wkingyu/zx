@@ -1,0 +1,135 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression    Special Topic
+References
+[1] MI X X , YANG B S , DONG Z , et al . Automated 3D road boundary extraction 
+and vectorization using MLS point clouds [J]. IEEE transactions on intelligent 
+transportation systems , 2022 , 23(6): 5287 –5297 . DOI : 10.1109 /
+TITS .2021 .3052882
+[2] DONG Z , LIANG F X , YANG B S , et al . Registration of large -scale terrestrial 
+laser scanner point clouds : a review and benchmark [J]. ISPRS journal of pho ⁃
+togrammetry and remote sensing , 2020 , 163: 327–342. DOI : 10.1016 /j.is⁃
+prsjprs .2020 .03.013
+[3] GRAZIOSI D , NAKAGAMI O , KUMA S , et al . An overview of ongoing point 
+cloud compression standardization activities : video -based (V-PCC) and 
+geometry -based (G-PCC) [J]. APSIPA transactions on signal and information 
+processing , 2020 , 9: e13
+[4] DE QUEIROZ R L , CHOU P A . Compression of 3D point clouds using a 
+region -adaptive hierarchical transform [J]. IEEE transactions on image pro ⁃
+cessing , 2016 , 25(8): 3947 –3956 . DOI : 10.1109 /TIP.2016 .2575005
+[5] BLETTERER A , PAYAN F , ANTONINI M , et al . Point cloud compression us ⁃
+ing depth maps [J]. Electronic imaging , 2016 , 2016 (21):1–6
+[6] MEKURIA R , BLOM K , CESAR P . Design , implementation , and evaluation of 
+a point cloud codec for tele -immersive video [J]. IEEE transactions on circuits 
+and systems for video technology , 2017 , 27(4): 828–842. DOI : 10.1109 /
+TCSVT .2016 .2543039
+[7] DE QUEIROZ R L , CHOU P A . Motion -compensated compression of dynamic 
+voxelized point clouds [J]. IEEE transactions on image processing , 2017 , 26
+(8): 3886 –3895 . DOI : 10.1109 /TIP.2017 .2707807
+[8] CAO C , PREDA M , ZAHARIA T . 3D point cloud compression : a survey [C]//
+The 24th International Conference on 3D Web Technology . ACM , 2019 : 1–9. 
+DOI: 10.1145 /3329714 .3338130
+[9] GRAZIOSI D , NAKAGAMI O , KUMA S , et al . An overview of ongoing point 
+cloud compression standardization activities : video -based (V-PCC) and 
+geometry -based (G-PCC) [J]. APSIPA transactions on signal and information 
+processing , 2020 , 9(1): e13. DOI : 10.1017 /atsip .2020 .12
+[10] HUANG Y , PENG J L , KUO C J , et al . Octree -based progressive geometry 
+coding of point clouds [C]//The 3rd Eurographics/IEEE VGTC   Conference 
+on Point -Based Graphics . IEEE , 2016 : 103–110
+[11] FAN Y X , HUANG Y , PENG J L . Point cloud compression based on hierar ⁃
+chical point clustering [C]//Asia -Pacific Signal and Information Processing 
+Association Annual Summit and Conference . IEEE , 2014 : 1–7. DOI : 
+10.1109 /APSIPA .2013 .6694334
+[12] DRICOT A , ASCENSO J . Adaptive multi -level triangle soup for geometry -
+based point cloud coding [C]//The 21st International Workshop on Multime ⁃
+dia Signal Processing (MMSP ). IEEE , 2019 : 1–6. DOI : 10.1109 /
+MMSP .2019 .8901791
+[13] HE C , RAN L Q , WANG L , et al . Point set surface compression based on 
+shape pattern analysis [J]. Multimedia tools and applications , 2017 , 76(20): 
+20545 –20565 . DOI : 10.1007 /s11042 -016 -3991 -0
+[14] IMDAD U , ASIF M , AHMAD M , et al . Three dimensional point cloud com ⁃
+pression and decompression using polynomials of degree one [J]. Symmetry , 
+2019 , 11(2): 209. DOI : 10.3390 /sym 11020209
+[15] SUN X B , MA H , SUN Y X , et al . A novel point cloud compression algorithm 
+based on clustering [J]. IEEE robotics and automation letters , 2019 , 4(2): 
+2132 –2139 . DOI : 10.1109 /LRA .2019 .2900747
+[16] DE OLIVEIRA RENTE P , BRITES C , ASCENSO J , et al . Graph -based static 
+3D point clouds geometry coding [J]. IEEE transactions on multimedia , 
+2019 , 21(2): 284–299. DOI : 10.1109 /TMM .2018 .2859591
+[17] ISO. Geometry -based point cloud compression (G-PCC): ISO/IEC 23090 -9 
+[S]. 2021  
+[18] DRICOT A , ASCENSO J . Hybrid octree -plane point cloud geometry coding 
+[C]//The 27th European Signal Processing Conference (EUSIPCO ). IEEE , 
+2019 : 1–5
+[19] ZHANG X , GAO W , LIU S . Implicit geometry partition for point cloud com ⁃
+pression [C]//Proceedings of 2020  Data Compression Conference (DCC ). 
+IEEE , 2020 : 73–82. DOI : 10.1109 /DCC 47342 .2020 .00015
+[20] QUACH M , VALENZISE G , DUFAUX F . Learning convolutional transforms 
+for lossy point cloud geometry compression [C]//The 2019  IEEE Interna ⁃
+tional Conference on Image Processing (ICIP ). IEEE , 2019 : 4320 –4324 . DOI: 10.1109 /ICIP .2019 .8803413
+[21] HUANG T X , LIU Y . 3D point cloud geometry compression on deep learning 
+[C]//The 27th ACM International Conference on Multimedia . ACM , 2019 : 
+890–898. DOI : 10.1145 /3343031 .3351061
+[22] GUARDA A F R , RODRIGUES N M M , PEREIRA F . Point cloud coding : 
+Adopting a deep learning -based approach [C]//Picture Coding Symposium 
+(PCS). IEEE , 2020 : 1–5. DOI : 10.1109 /PCS 48520 .2019 .8954537
+[23] WANG J Q , ZHU H , MA Z , et al . Learned point cloud geometry compression 
+[EB/OL ]. [2023 -09-01]. https ://arxiv .org/abs/ 1909 .12037 .pdf
+[24] AINALA K , MEKURIA R N , KHATHARIYA B , et al . An improved enhance ⁃
+ment layer for octree based point cloud compression with plane projection ap ⁃
+proximation [C]//SPIE Optical Engineering+Applications . SPIE , 2016 : 223–
+231. DOI : 10.1117 /12.2237753
+[25] SCHWARZ S , HANNUKSELA M M , FAKOUR -SEVOM V , et al . 2D video 
+coding of volumetric video data [C]//Picture Coding Symposium (PCS). IEEE , 
+2018 : 61–65. DOI : 10.1109 /PCS .2018 .8456265
+[26] FAKOUR SEVOM V , SCHWARZ S , GABBOUJ M . Geometry -guided 3D 
+data interpolation for projection -based dynamic point cloud coding [C]//The 
+7th European Workshop on Visual Information Processing (EUVIP ). IEEE , 
+2019 : 1–6. DOI : 10.1109 /EUVIP .2018 .8611760
+[27] KATHARIYA B , LI L , LI Z , et al . Lossless dynamic point cloud geometry 
+compression with inter compensation and traveling salesman prediction [C]//
+Data Compression Conference . IEEE , 2018 : 414. DOI : 10.1109 /
+DCC .2018 .00067
+[28] ISO. Visual volumetric video -based coding (V3C) and video -based point 
+cloud compression : ISO/IEC 23090 -5 [S]. 2021
+[29] PARK J , LEE J , PARK S , et al . Projection -based occupancy map coding for 
+3D point cloud compression [J]. IEIE transactions on smart processing & 
+computing , 2020 , 9(4): 293–297. DOI : 10.5573 /ieiespc .2020 .9.4.293
+[30] COSTA A , DRICOT A , BRITES C , et al . Improved patch packing for the 
+MPEG V -PCC standard [C]//IEEE 21st International Workshop on Multime ⁃
+dia Signal Processing (MMSP ). IEEE , 2019 : 1–6. DOI : 10.1109 /
+MMSP .2019 .8901690
+[31] KAMMERL J , BLODOW N , RUSU R B , et al . Real -time compression of 
+point cloud streams [C]//Proceedings of 2012  IEEE International Conference 
+on Robotics and Automation . IEEE , 2012 : 778 –785. DOI : 10.1109 /
+ICRA .2012 .6224647
+[32] PCL. Point cloud library . [EB/OL ]. [2023 -09-01]. http ://pointclouds .org/
+[33] THANOU D , CHOU P A , FROSSARD P . Graph -based compression of dy ⁃
+namic 3D point cloud sequences [J]. IEEE transactions on image processing , 
+2016 , 25(4): 1765 –1778 . DOI : 10.1109 /TIP.2016 .2529506
+[34] LI L, LI Z , ZAKHARCHENKO V , et al . Advanced 3D motion prediction for 
+video based point cloud attributes compression [C]//Data Compression Con ⁃
+ference (DCC ). IEEE , 2019 : 498–507. DOI : 10.1109 /DCC .2019 .00058
+[35] ZHAO L L , MA K K , LIN X H , et al . Real -time LiDAR point cloud compres ⁃
+sion using Bi -directional prediction and range -adaptive floating -point coding 
+[J]. IEEE transactions on broadcasting , 2022 , 68(3): 620 –635. DOI : 
+10.1109 /TBC .2022 .3162406
+[36] LIN J P , LIU D , LI H Q , et al . M -LVC : Multiple frames prediction for 
+learned video compression [C]//IEEE/CVF Conference on Computer Vision 
+and Pattern Recognition . IEEE , 2020 : 3543 –3551 . DOI : 10.1109 /
+CVPR 42600 .2020 .00360
+[37] YANG R , MENTZER F , VAN GOOL L , et al . Learning for video compression 
+with hierarchical quality and recurrent enhancement [C]//IEEE/CVF Confer ⁃
+ence on Computer Vision and Pattern Recognition . IEEE , 2020 : 6627 –6636 . 
+DOI: 10.1109 /CVPR 42600 .2020 .00666
+[38] KAYA E C , TABUS I . Lossless compression of point cloud sequences using 
+sequence optimized CNN models [J]. IEEE access , 2022 , 10: 83678 –
+83691 . DOI : 10.1109 /ACCESS .2022 .3197295
+[39] DING S , MANNAN M A , POO A N . Oriented bounding box and octree based 
+global interference detection in 5-axis machining of free -form surfaces [J]. 
+Computer -aided design , 2004 , 36(13): 1281 -1294
+[40] ALEXIOU E , VIOLA I , BORGES T M , et al . A comprehensive study of the 
+rate -distortion performance in MPEG point cloud compression [J]. APSIPA 
+transactions on signal and information processing , 2019 , 8: e27. doi:10.1017 /
+ATSIP .2019 .20
+[41] PEIXOTO E . Intra -frame compression of point cloud geometry using dyadic 
+27

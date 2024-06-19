@@ -1,0 +1,138 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Special Topic   Point Cloud Processing Methods for 3D Point Cloud Detection Tasks
+(OcTr )[29] algorithm first performs self -attention on the top 
+level , constructs a dynamic octree on the hierarchical pyra ⁃
+mid, and recursively propagates to the lower layer constrained 
+by octants . This method can not only capture rich features 
+from coarse -grained to fine -grained , but also control the com ⁃
+putational complexity . Extensive experiments are conducted 
+on Waymo Open Dataset[30] and Karlsruhe Institute of Technol ⁃
+ogy and Toyota Technological Institute (KITTI ) Dataset[31], and 
+OcTr achieves new state -of-the-art results .
+The performance of different detection models in three cat ⁃
+egories (Car, Pedestrian , and Cyclist ) on the KITTI dataset[31] 
+is listed in Table 1. The voxel -based method can achieve ex ⁃
+cellent performance by improving the processing method after 
+extracting voxel features . Compared with VoxelNet , SECOND 
+is modified to a sparse embedded convolution method to ob ⁃
+tain a performance improvement . PointPillars proposes a way 
+to balance accuracy and computational efficiency . A more ap ⁃
+propriate voxel division method can achieve better results . 
+The improvement made by OcTr is to use the transformer and 
+the special octree data structure , which achieves better re ⁃
+sults. VoxelNeXt directly predicts objects based on sparse 
+voxel features , without the need for sparse -to-dense conver ⁃
+sion operations . In summary , voxelization is a method that can 
+process large -scale point cloud data quickly and efficiently . 
+The idea of voxelization is to process the unstructured point 
+cloud into structured data and use the characteristics of CNN 
+to process structured data to extract features from the point 
+cloud . But nothing is perfect . Detailed information may be lost 
+during the voxelization process , and voxelization is a computa ⁃
+tionally expensive step .
+4 Point -Based Point Cloud Processing Methods
+The point -based 3D point cloud object detection method is 
+a method to perform object detection on the raw point cloud 
+data. This approach preserves the unstructured form of the 
+point cloud , but achieves a more compact representation by 
+sampling the point cloud from its original size to smaller fixed -
+size N points . Sampling methods usually include random sam ⁃
+pling and FPS , as well as several innovative sampling point 
+methods[32].
+Random sampling is achieved by randomly drawing points 
+until N points are selected . But random sampling suffers from the scenario where points in denser regions of the point cloud 
+are sampled more frequently than points in sparser regions of 
+the point cloud . The FPS algorithm can mitigate this bias by 
+using an iterative process to select points based on the fur ⁃
+thest distance criterion . In each iteration , FPS first calculates 
+the minimum distance from the unsampled point to the point 
+set (the first point is randomly sampled and the second point 
+is the point furthest from the first point ) and then selects the 
+furthest unsampled point .The final result is a more represen ⁃
+tative point cloud , but this method also suffers from expensive 
+calculation costs .
+The effect of PointNet[11] in point cloud -based methods is 
+similar to that of VoxelNet in voxel -based methods . PointNet 
+is a neural network -based approach that directly processes 
+point cloud data for classification and segmentation . Operat ⁃
+ing directly on the raw point cloud eliminates unnecessary 
+transformations of the data representation .
+PointNet is a simple yet efficient point cloud feature extrac ⁃
+tor. It has three key modules : the symmetry function for unor ⁃
+dered input , local and global information aggregation , and 
+alignment network . Key to PointNet is that it can process un ⁃
+sorted point cloud data , when the disorder of point cloud is 
+challenging in point cloud processing .
+Based on Pointnet , Pointnet++[12] provides a hierarchical 
+point cloud processing method that can effectively learn the lo ⁃
+cal structure in the point cloud . Pointnet++ can handle more 
+complex tasks such as scene segmentation , shape part segmen ⁃
+tation , and 3D object detection .
+The key technology of Pointnet++ is the introduction of hier ⁃
+archical processing . Pointnet++ adopts a layered architecture . 
+The entire point cloud is first sampled and then subdivided 
+into smaller local areas and local features are learned on these 
+local areas (set abstraction ). Finally , these local features are 
+aggregated to obtain global features . A Pointnet++ network 
+consists of an encoder and a decoder . The encoder contains a 
+collection abstraction module and the decoder contains a fea ⁃
+ture propagation module .
+These two methods have promoted the application of point 
+cloud data in the field of 3D vision and achieved remarkable 
+research progress . There are also some extended meth ⁃
+ods[33–35]. Based on the PointNet series network , the feature 
+extraction is directly applied to the original point cloud data . 
+▼Table 1. Performance of VoxelNet , SECOND , PointPillars and OcTr on the KITTI dataset[31]
+Method
+VoxelNet[21]
+SECOND[22]
+PointPillars[24]
+OcTr[29]Modality
+LiDAR
+LiDAR
+LiDAR
+LiDARAPCar
+Easy
+81.97
+83.13
+79.05
+88.43Moderate
+65.46
+73.66
+74.99
+78.57Hard
+62.85
+66.20
+68.30
+77.16APPedestrian
+Easy
+57.86
+51.07
+52.08
+61.49Moderate
+53.42
+42.56
+43.53
+57.17Hard
+48.87
+37.29
+41.49
+52.35APCyclist
+Easy
+67.17
+70.51
+75.78
+85.29Moderate
+47.65
+53.85
+59.07
+70.44Hard
+45.11
+46.90
+52.92
+66.17
+AP: Average precision
+KITTI : Karlsruhe Institute of Technology and Toyota Technological Institute
+LiDAR : light detection and rangingOcTr : Octree -Based Transformer
+SECOND : sparsely embedded convolutional detection
+42

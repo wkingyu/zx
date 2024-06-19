@@ -1,0 +1,49 @@
+基于数字孪生网络的 6G智能网络运维 王威丽  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3基于数字孪生网络的
+6G智能网络运维
+6G Intelligent Network Operation and Maintenance Based on 
+Digital Twin Network
+王威丽 /WANG Weili ，唐伦/TANG Lun ，陈前斌 /CHEN Qianbin
+（ 重庆邮电大学 ，中国 重庆 400065  ）
+(Chongqing University of Posts and Telecommunications , Chongqing 
+400065 , China )DOI：10.12142 /ZTETJ .202303003
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230621 .1947.005.html
+网络出版日期 ：2023 -06-25
+收稿日期 ：2023 -04-25
+摘要 ：为解决现有网络运维系统存在的智能化程度低且灵活性不足 、故障定位难且恢复慢 、优化效率低且成本高的问题 ，提出基于数字孪生网
+络构建自动化的 6G智能网络运维系统 。研究数字孪生辅助下的智能故障管理 、网络性能优化和策略验证方案 ，明确关键支撑技术 ，实现对可能
+发生的性能恶化和系统故障的自定位和自修复 、闭环的性能优化和不影响真实网络运行的策略验证 ，满足 6G网络对高可靠和高效率运维系统的
+发展需求 。
+关键词 ：6G；网络运维 ；数字孪生 ；人工智能
+Abstrac t:The current network operation and maintenance system faces three challenges : the lack of intelligence and flexibility , difficulties in 
+fault location and fast recovery , and low optimization efficiency and high cost . To solve these problems , an automated 6G intelligent network 
+operation and maintenance system is designed based on the digital twin network . The intelligent fault management , network performance 
+optimization , and policy verification schemes are researched with the assistance of digital twin , and key supporting technologies are clarified . 
+The developed system can support the self-location and self-recovery of possible performance deterioration and system failures , the 
+closed-loop performance optimization process , and the policy verification without affecting the real network , satisfying the development 
+needs of 6G networks for highly reliable and efficient operation and maintenance systems .
+Keywords :6G; network operation and maintenance ; digital twin ; artificial intelligence
+引 用 格 式 ：王 威 丽 , 唐 伦 , 陈 前 斌 . 基 于 数 字 孪 生 网 络 的 6G智 能 网 络 运 维  [J]. 中 兴 通 讯 技 术 , 2023 , 29(3): 8-14. DOI :10.12142 /
+ZTETJ .202303003
+Citation ： WANG W L ,TANG L ,CHEN Q B . 6G intelligent network operation and maintenance based on digital twin network [J]. ZTE technol ⁃
+ogy journal , 2023 , 29(3): 8-14. DOI:10.12142 /ZTETJ .202303003
+1 6G时代运维新挑战
+以智能制造 、自动驾驶 、智慧城市 、虚拟 /增强现实等为
+代表的网络新业务的不断涌现 ，成为移动通信网络技
+术不断发展的主要驱动力 。新一代 6G移动通信网络旨在支
+撑和实现未来经济社会的万物智联 ，助力各行各业的数字化
+和智能化转型与升级[1]。然而 ，随着网络规模的持续扩大和
+业务类型的日益多样化 ，网络运行和维护的复杂度越来越
+高，建立高可靠和高效率的网络运维系统也将面临巨大挑战，具体如下 ：
+1）智能化程度低 、灵活性不足 。当前网络运维系统在
+感知 、分析 、决策和执行方面依然以人工操作为主 、系统自
+动完成为辅 。网络运维的自动化和智能化程度难以应对 6G
+网络在资源分层级 、多维度 、规格异构 、集中式和分布式混
+合的架构形态方面的挑战 。此外 ，6G网络将承载的业务类
+型和连接设备类型的多样化对网络运维系统的灵活性与可扩
+展性提出了更高的要求[2]。
+2）故障定位难 、恢复慢 。一方面 ，随着传统网络逐渐
+向软件化和可编程的方向演变 ，网络运维人员面临的网元管
+理规模扩大了几十倍 ；另一方面 ，由于网络新业务对实时性 基金项目 ：国家自然科学基金 （62071078 ）
+08

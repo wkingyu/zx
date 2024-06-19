@@ -1,0 +1,44 @@
+ZTE Communications Guidelines for Authors
+Remit of Journal
+ZTE Communications  publishes original theoretical papers, research findings, and surveys on a broad range of communications 
+topics, including communications and information system design, optical fiber and electro⁃optical engineering, microwave 
+technology, radio wave propagation, antenna engineering, electromagnetics, signal and image processing, and power engineering. 
+The journal is designed to be an integrated forum for university academics and industry researchers from around the world.
+Manuscript Preparation
+Manuscripts must be typed in English and submitted electronically in MS Word (or compatible) format. The word length is 
+approximately 3 000 to 8 000, and no more than 8 figures or tables should be included. Authors are requested to submit mathematical 
+material and graphics in an editable format.
+Abstract and Keywords
+Each manuscript must include an abstract of approximately 150 words written as a single paragraph. The abstract should not include 
+mathematics or references and should not be repeated verbatim in the introduction. The abstract should be a self⁃contained overview 
+of the aims, methods, experimental results, and significance of research outlined in the paper. Five carefully chosen keywords must 
+be provided with the abstract.
+References
+Manuscripts must be referenced at a level that conforms to international academic standards. All references must be numbered 
+sequentially intext and listed in corresponding order at the end of the paper. References that are not cited in⁃text should not be 
+included in the reference list. References must be complete and formatted according to ZTE Communications  Editorial Style. A 
+minimum of 10 references should be provided. Footnotes should be avoided or kept to a minimum.
+Copyright and Declaration
+Authors are responsible for obtaining permission to reproduce any material for which they do not hold copyright. Permission 
+to reproduce any part of this publication for commercial use must be obtained in advance from the editorial office of ZTE 
+Communications . Authors agree that a) the manuscript is a product of research conducted by themselves and the stated co⁃authors; 
+b) the manuscript has not been published elsewhere in its submitted form; c) the manuscript is not currently being considered for 
+publication elsewhere. If the paper is an adaptation of a speech or presentation, acknowledgement of this is required within the paper. 
+The number of co⁃authors should not exceed five.
+Content and Structure
+ZTE Communications  seeks to publish original content that may build on existing literature in any field of communications. Authors 
+should not dedicate a disproportionate amount of a paper to fundamental background, historical overviews, or chronologies that may 
+be sufficiently dealt with by references. Authors are also requested to avoid the overuse of bullet points when structuring papers. 
+The conclusion should include a commentary on the significance/future implications of the research as well as an overview of the 
+material presented.
+Peer Review and Editing
+All manuscripts will be subject to a two⁃stage anonymous peer review as well as copyediting, and formatting. Authors may be asked 
+to revise parts of a manuscript prior to publication.
+Biographical Information
+All authors are requested to provide a brief biography (approx. 100 words) that includes email address, educational background, 
+career experience, research interests, awards, and publications.
+Acknowledgements and Funding
+A manuscript based on funded research must clearly state the program name, funding body, and grant number. Individuals who 
+contributed to the manuscript should be acknowledged in a brief statement.
+Address for Submission
+http://mc03.manuscriptcentral.com/ztecom

@@ -1,0 +1,88 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Link Budget and Enhanced Communication Distance for Ambient Internet of Things    Special Topic
+ddown=λ
+4πPtGGtagβ(1-|Γ|2)
+Ptag,chip . (10)
+Similarly , the upper bound of the uplink distance is
+dup=λ
+4πPtG2Gtag2β2α | |Γ1-Γ22
+Pr4
+. (11)
+We set the reader sensitivity  Preader, sen≈-86 dBm, the reader 
+antenna gain G=5  dBi, the tag antenna gain Gtag=2 dBi, po⁃
+larization mismatch β=0.5, and coefficient α = 1[22].
+Suppose that the tag adopts the binary phase shift keying 
+(BPSK ) modulation mode . Due to the influence of factors such 
+as RF switch and transmission line impedance , the actual re ⁃
+flection coefficient is often less than 1. When the tag adopts 
+the BPSK modulation , the values of the measured reflection 
+coefficients are Γ1=-0.69+0.32 j and  Γ2=0.67-0.23 j, 
+respectively . Figs . 5 and 6 are respectively signal power re ⁃
+ceived by the tag chip and the reader when transmission 
+power of the reader Pt=10,  15  and 20 dBm, respectively .
+When the tag chip received power equals to the envelope 
+detection threshold power (Ptag, chip=Pchip, sen), the downlink up ⁃
+per bound communication distance ddown≈ 2.30  m. Similarly , 
+when Pr=Preader, sen, the uplink upper bound communication 
+distance dup≈16.76  m. Final upper bound communication 
+distance dM=min{ddown,  dup}=2.30  m. In the real -world 
+test, the restriction of the software program on the signaling 
+preamble is reduced , and the tag cannot receive signaling in ⁃
+formation when approaching the upper bound distance . At this 
+time there is no comparison voltage output from the viewing 
+comparator and envelope signal output from the envelope de ⁃
+tection . Accordingly , we conclude that the downlink distance 
+is mainly limited by the envelope detection threshold .
+Based on the previous measurements and analysis , we pro ⁃
+pose to implement an LNA module after the tag antenna recep ⁃
+tion. As shown in Fig . 7, the added LNA amplifies the 
+strength of the signal received by the tag while minimizing the 
+noise in the signal to ensure that the signal -to-noise ratio 
+(SNR) can be maintained at a high level when the signal is 
+transmitted and processed in the system . Since the LNA am ⁃
+plifies the voltage input to the envelope detection , the tag is 
+easier to detect the downlink signaling . The gain of LNA GLNA=21  dB. The tag chip sensitivity remains unchanged , 
+but the threshold power Pth,LNA at the arrival of the tag antenna 
+decreases to Pth-GLNA. Eventually , the sensitivity of the la ⁃
+bels is roughly improved by  GLNA.
+5 Performance Analysis
+The signal power Ptag,chip and Ptag,chip,LNA received by tag 
+chips versus the distance are plotted in Fig . 8, where the trans ⁃
+mission power of the reader is set as Pt=15 dBm . We use the 
+▲Figure 6. Signal power received by the reader▲Figure 5. Signal power received at the tag
+▲Figure 7. Functional diagram of the backscatter tag with enhanced downlinkPIE: pulse interval encodingDownlink communication distance , ddown/m0  5 10 15 20 25 30Power/dBm-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40
+-45
+-50Ptag,chip, Pt=10 dBm
+Ptag,chip, Pt=15 dBm
+Ptag,chip, Pt=20 dBm
+Sensitivity of tag chip
+Pr, Pt=10 dBm
+Pr, Pt=15 dBm
+Pr, Pt=20 dBm
+Sensitivity of reader
+Uplink communication distance , dup/m0  5 10 15 20 25 30Power/dBm-30
+-40
+-50
+-60
+-70
+-80
+-90
+-100
+-110
+Antenna impedance Za
+AntennaLow noise 
+power amplifierImpedance
+matchingEnvelope
+detectionComparison
+modulePIE
+decodingParsing
+signaling
+Logic processing unit
+21

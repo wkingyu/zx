@@ -1,0 +1,83 @@
+Ultra-Reliable 5G Network for 
+High-Level Autonomous Driving
+ith the proliferation of 
+intelligent vehicles on urban 
+roads and the emergence of
+automated applications such as unmanned 
+delivery and street sweeping, autonomous 
+driving is gradually transitioning from a mere 
+concept to a remarkable reality. As a crucial 
+pillar of economic development, the 
+transportation industry is actively seeking 
+transformation by seamlessly integrating 
+vehicle, road, network, and cloud intelligence 
+to empower smarter cities. Autonomous 
+driving is no longer merely the job of 
+individual vehicles. 
+High-level autonomous driving refers to a 
+mode where machines autonomously 
+undertake most driving tasks, truly liberating 
+drivers’ hands, eyes, and feet while bringing 
+unparalleled convenience into our lives. 
+However, this also imposes higher demands 
+on automation precision. 
+The advancement of vehicle intelligence 
+is currently impeded by the lack of synergy 
+with arti/f_icial intelligence in other domains. 
+High-level autonomous driving vehicles 
+require an extensive array of on-board 
+cameras, radars, and computing chips, which 
+can be quite costly. In terms of safety, the 
+limited /f_ield of view and perception distance 
+of on-board sensors may result in blind spots 
+and delayed awareness. In addition, 
+single-vehicle decision-making lacks eﬃcient 
+coordination between vehicles and road 
+systems, leading to inaccurate predictions in 
+complex scenarios. In consequence, 
+single-vehicle intelligence has remained 
+stagnant at L2 for an extended period with wsigni/f_icant challenges for advancement.
+With the advancement of 5G technology, 
+the industry envisions harnessing the 
+potential of this cutting-edge technology to 
+enhance both quality and eﬃciency in 
+autonomous driving solutions, propelling 
+continuous improvements in autonomous 
+driving through 5G+ vehicle-road-cloud 
+integration. 
+ZTE has introduced the industry’s /f_irst 
+ultra-reliable 5G network guarantee solution 
+for autonomous driving (Fig. 1), dedicated to 
+providing low-latency and trustworthy 
+service connections for autonomous 
+vehicles. The solution incorporates two 
+major highlights: ultra-reliable 5G 
+transmission and ultra-reliable computing 
+service.
+Ultra-Reliable 5G Transmission
+5G naturally boasts numerous advantages 
+over the conventional PC5 vehicle-road 
+transmission system. The latter is limited to a 
+mere 20 MHz bandwidth, posing challenges 
+in terms of future evolution and 
+commercialization capability. In addition to 
+5G’s inherent large bandwidth and low 
+latency, ZTE has also employed various 
+network guarantee techniques to further 
+ensure transmission reliability. 
+Firstly, the 5G dual-modem gateway 
+enables dual-link transmission and 
+selective reception, eﬀectively mitigating 
+potential delays caused by single-link 
+package loss that could compromise both 
+driving safety and eﬃciency in 
+ 
+ 
+RAN Solution 
+Manager, ZTEMa Xingshuo
+ 
+ 
+ 
+ 
+5G-Advanced Special Topic 
+30 

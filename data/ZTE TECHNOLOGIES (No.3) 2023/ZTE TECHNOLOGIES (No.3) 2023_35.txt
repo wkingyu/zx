@@ -1,0 +1,75 @@
+along the tube of waveguide 
+fastened to the ground, and the 
+WiFi signal leaks out through the 
+gaps of the tube. This method 
+avoids direct connection of 
+cables, however, due to the weak 
+leakage signal, RTGC must travel 
+along and close to the tube, 
+which limits its range of 
+movement. In addition, the WiFi 
+waveguide solution still has the 
+following problems. First, the 
+transmission distance of a 
+waveguide is normally less than 
+50 meters, and during travelling, 
+RTGC needs to switch between 
+diﬀerent waveguides, which may 
+cause interruption of signal 
+transmission. Second, when the 
+signals of several RTGCs are 
+transmitted in the same 
+waveguide, the service quality 
+may be degraded because of the 
+con/f_lict mechanism of WiFi 
+channels. Third, when a RTGC 
+needs to be transferred between 
+diﬀerent container areas and 
+yards, the tube of waveguide 
+cannot cross a road, and in this 
+case, remote driving cannot be 
+implemented.
+For its large uplink bandwidth, 
+low latency, high reliability, 
+network slice isolation, and precise 
+SLA guarantee, 5G has attracted 
+the attention of port owners and  rubber tire gantry crane 
+(RTGC) is an important 
+vertical transport tool 
+for container ports, 
+implementing the turnover of 
+containers in the yards. Currently, 
+the driving of RTGC has evolved 
+from on-site control in a narrow 
+cabin hanging under RTGC to 
+remote control in a spacious central 
+operating room, which greatly 
+improves the working conditions of 
+the drivers (Fig. 1). However, remote 
+driving brings a great challenge to 
+network deployment. The network 
+not only needs to meet the 
+requirements of high-bandwidth 
+and real-time transmission of 
+multiple HD videos, extremely low 
+latency and ultra-high reliability of 
+control commands, but also the 
+requirement for RTGC to move at a 
+rate of 15 km/h.
+In addition, unlike a rail 
+mounted gantry crane (RMGC) 
+travelling on a /f_ixed railway, RTGC 
+does not run in a full straight line, 
+and more importantly, RTGC needs 
+to be transferred between diﬀerent 
+container areas and yards, so the 
+wired connection based on /f_iber 
+can’t be adopted.
+At present, a typical solution in 
+the industry is to use the WiFi 
+network based on a waveguide, that 
+is, the WiFi signal is transmitted A
+Wireless ToB Integrated 
+Solution Director, ZTETang Hong5G-Based Remote Driving: Facilitating 
+Free Movement of RTGC in Ports
+33JUN 2023

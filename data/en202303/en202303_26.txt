@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3YU Junpeng , CHEN Yiyu Special Topic   A Practical Reinforcement Learning Framework for Automatic Radar Detection
+rain, and goals , which brings learning difficulties . Therefore , we 
+introduce two research directions that help to solve this problem : 
+offline reinforcement learning and meta -reinforcement learning .
+2.1.1 Offline Reinforcement Learning
+Offline reinforcement learning is a data -driven subset of the 
+broader reinforcement learning field . Its primary objective is to 
+optimize the same objective as reinforcement learning . However , 
+in this context , intelligent agents cannot use behavioral strate ‐
+gies to interact with the environment or gather additional data . 
+Instead , a learning algorithm provides a static transition dataset , 
+denoted as D=(s, a, r, a′), which is used to learn the most ef ‐
+fective strategies . This approach is more akin to the standard su ‐
+pervised learning problem , with D serving as the policy training 
+set. Essentially , offline reinforcement learning requires the 
+learning algorithm to fully understand the dynamic system that 
+underlies the Markov decision process , using a fixed dataset to 
+formulate a policy . When this policy is applied to interact with 
+the Markov decision process , it aims to yield the maximum cu ‐
+mulative return .
+Several existing model -free offline reinforcement learning 
+methods regularize the learned policy to align closely with the 
+behavior policy . This is achieved through techniques such as 
+distributional matching[16], support matching[17], importance sam ‐
+pling[18–19], and learning the lower bounds of true Q -values[20]. 
+On the other hand , model -based algorithms learn policies by le ‐
+veraging a dynamic model derived from the offline dataset . Ref. 
+[21] directly restricts the learned policy to the behavior policy , 
+similar to model -free algorithms . To penalize the policy for visit ‐
+ing states where the learned model may be incorrect , MOPO[22] 
+and MoREL[23] adjust the learned dynamics , which ensures that 
+the value estimates are conservative when the model uncertainty 
+exceeds a certain threshold . To eliminate the need for uncer ‐
+tainty quantification , COMBO[24] combines model -based policy 
+optimization[25] and conservative policy evaluation[20]. In this pa ‐
+per, we employ a distributional matching method , specifically 
+the straightforward and effective behavior cloning (BC) method , 
+as it simplifies the learning process of meta -reinforcement learn ‐
+ing methods .
+2.1.2 Meta -Reinforcement Learning
+Meta -reinforcement learning methods learn meta -policy on 
+multiple meta -training tasks , aiming to quickly adapt to previ ‐
+ously unseen meta -testing tasks , and thus improving the effec ‐
+tiveness and generalizability of reinforcement learning methods . 
+The process of meta -reinforcement learning mirrors that of meta -
+learning , which consists of two stages : the meta -training stage 
+and the meta -testing stage . During the meta -training stage , the 
+algorithm learns from the meta -training task and prepares the 
+model for the next stage . In the meta -testing phase , the trained 
+model is adaptively applied to the meta -testing task to achieve 
+testing results . Each task corresponds to a reinforcement learn ‐
+ing environment model , typically an MDP . The meta -training task is presented in the form of task distribution p(T). At the be ‐
+ginning of meta -training , a certain number of meta training tasks 
+{Ttrain} are sampled from the task distribution p(T), that is , 
+TTrain ~ p(T). The set of meta -training tasks may be fixed by one 
+sampling , or may be generated repeatedly by samplings in mul ‐
+tiple rounds of meta -training .
+Existing works in this field can be broadly categorized into 
+three types : the model -agnostic -meta -learning -based (MAML -
+based ), recurrent -based , and context -based . Some research fo ‐
+cuses on improving and extending the meta -learning framework 
+MAML[26]. For instance , FINN et al . proposed a simplified algo ‐
+rithm FO -MAML that only uses first -order derivatives in their 
+MAML work[26]; NICHOL et al . proposed a more versatile first -
+order derivative algorithm Reptile[27]; The ES -MAML algorithm 
+proposed by SONG et al . uses an evolutionary algorithm instead 
+of derivation in outer optimization[28]; ANTONIO et al . con ‐
+ducted extensive experiments and concluded on the training 
+problem of MAML[29].
+Some other research reduces the uncertainty of inferring the 
+state from observation by memorizing the history of tasks , thus 
+improving the performance of strategies on unknown tasks . For 
+example , the RL2 algorithm builds a policy model based on the 
+recurrent neural network with memory and trains between mul ‐
+tiple tasks[30]; MISHRA et al . combined time series convolution 
+and soft attention mechanisms to form a new depth architec ‐
+ture[31]; PARISOTTO uses the transformer model as a cross epi ‐
+sodic memory module[32].
+Recent popular research extracts the task context to guide 
+policy across various tasks . SÆMUNDSSON et al . used the 
+Gaussian process and variational inference to model the hidden 
+variables of tasks , combined with the model -based reinforce ‐
+ment learning algorithm to achieve a fast meta -training algo ‐
+rithm ML -GP[33]; ZINTGRAF et al .[34] and LAN et al .[35] com ‐
+bined the MAML algorithm with a task context encoder to im ‐
+prove performance ; HUMPLIK et al . utilized long short -term 
+memory (LSTM ) to construct a task feature inference module 
+and implemented algorithms similar to PEARL[36]; FAKOOR et 
+al. used gated recurrent units as the history encoder to train 
+their reinforcement learning algorithm meta -Q-learning (MQL ) 
+based on the multi -task objective[37]. The PD -VF algorithm pro ‐
+posed by RAILEANU et al . used the prediction environment cu ‐
+mulative reward to supervise the training task hidden variable 
+module[38]; ZINTGRAF et al . used a variational autoencoder to 
+train the task feature inference module and proposed the 
+VariBAD algorithm[39]. Some studies improve the generalization 
+ability of context -based methods through comparative learning . 
+FU et al . constructed the algorithm named contrastive learning 
+augmented context -based meta -RL (CCM ) based on MoCo[40] 
+and CURL[41]. WANG et al . proposed a method similar to CCM , 
+TCL, where positive and negative samples are divided according 
+to sampling trajectories rather than task types[42].
+In this paper , we utilize the context -based VariBAD algorithm[39] 
+to consider radar detection task characteristics and requirements .
+24

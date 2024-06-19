@@ -1,0 +1,97 @@
+基于服务覆盖的无蜂窝边缘智能网络部署方法 姜 静  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6域明显不足 。图3（c）可以实现与图 3（a）流量需求相一
+致的吞吐量 ，这证明基于服务覆盖的 AP部署方法能够满足
+热点模型区域所需的业务需求 。
+图4比较了随机 AP部署和基于服务覆盖的 AP-MEC 部
+署的平均时延分布图 。在随机部署方法下 ，各覆盖单元可实
+现的时延均值约为 2.5 ms。这是因为随机部署算法由于部署
+AP位置的随机性 ，导致某些区域无线网络服务能力不足 ，
+产生了业务拥塞 ，而另一些区域覆盖能力过剩 。这种不均衡
+网络资源分布更容易导致用户的时延超出业务允许的最小时
+延。而在基于服务覆盖部署 AP-MEC 方法下 ，各覆盖单元内
+可实现的处理时延均值约为 0.7 ms，低于各覆盖单元所需的
+时延均值 1.8 ms。这是因为在基于服务覆盖部署方法中 ，我
+们在业务需求高的覆盖区域部署了更多的 AP，缩短了用户
+的接入和传输时延 ，从而提高系统性能和用户体验 。
+图5为不同 AP-MEC 部署方法下 ，每个覆盖单元的通信
+成功率 ，即覆盖单元内满足最低通信需求和最低时延的概率。AP-MEC 随机部署方法的成功概率均值约为 0.754 3，曲
+线抖动明显 ，在数据传输过程中会导致数据丢失或重传增加
+通信的延迟和不稳定性 ；而基于服务覆盖的通信成功率的均
+值约为 0.945 2，曲线平稳 ，在高通信成功率区域常伴随着
+较低的丢包率 ，有助于提高实时通信应用的质量 ，证明了基
+于服务覆盖部署方法能够提供高效稳定的通信 。
+5 结束语
+为解决现有网络以系统整体性能优化为目标 ，出现的部
+分服务区域资源浪费和能量损失问题 ，本文首先引入服务覆
+盖这一新型网络性能度量 ，然后针对无蜂窝边缘智能网络提
+出了一种基于服务覆盖的 AP-MEC 联合部署方法 。通过构建
+基于元学习的多样化业务需求服务覆盖模型 ，我们将以每个
+覆盖单元的最佳服务覆盖为目标来实现系统性能的差异化优
+化，按需部署网络资源 ，实现精准的按需服务供给 。仿真结
+果表明 ，基于服务覆盖的 AP-MEC 联合部署方法 ，能够实现
+系统整体性能的显著提升 ，同时在不同覆盖单元中实现了精
+准的按需服务供给 ，实现高能效 、低时延 、低能耗的无蜂窝
+边缘智能网络系统 。
+在未来的研究过程中 ，我们将进一步以最佳服务覆盖为
+目标 ，提供多场景 、多维资源的精准服务 ，以满足多样化的
+通信需求 ，构建高质量 、智能化的无蜂窝边缘智能网络
+系统 。
+参考文献
+[1] LIU G Y , HUANG Y H , LI N , et al . Vision , requirements and network 
+architecture of 6G mobile network beyond 2030  [J]. China communications , 
+2020 , 17(9): 92-104. DOI: 10.23919 /jcc.2020 .09.008
+[2] SAAD W , BENNIS M , CHEN M Z . A vision of 6G wireless systems : 
+applications , trends , technologies , and open research problems [J]. IEEE 
+network , 2020 , 34(3): 134-142. DOI: 10.1109 /mnet .001.1900287
+[3] IMT- 2030 (6G)推进组 . 6G典型场景和关键能力  [R]. 2021
+[4] NGO H Q , ASHIKHMIN A , YANG H , et al . Cell-free massive MIMO versus 
+small cells [J]. IEEE transactions on wireless communications , 2017 , 16(3): 
+1834 -1850 . DOI: 10.1109 /twc.2017 .2655515
+[5] INTERDONATO G , BJÖRNSON E , QUOC NGO H , et al . Ubiquitous cell-
+free Massive MIMO communications [J]. EURASIP journal on wireless 
+communications and networking , 2019 , 2019 (1): 1-13. DOI : 10.1186 /
+s13638 -019-1507 -0
+[6] MUKHERJEE S , LEE J . Edge computing-enabled cell-free massive MIMO 
+systems [J]. IEEE transactions on wireless communications , 2020 , 19(4): 
+2884 -2899 . DOI: 10.1109 /twc.2020 .2968897
+[7] QIN L T , LU H C , WU F . When the user-centric network meets mobile 
+edge computing : challenges and optimization [J]. IEEE communications 
+magazine , 2023 , 61(1): 114-120. DOI: 10.1109 /mcom .006.2200283
+[8] NAYEBI E , RAO B D . Access point location design in cell-free massive 
+MIMO systems [C]//Proceedings of 2018  52nd Asilomar Conference on 
+Signals , Systems , and Computers . IEEE , 2018 : 985-989. DOI : 10.1109 /
+acssc .2018 .8645382
+[9] SHEN K , DE PESSEMIER T , MARTENS L , et al . Genetic algorithm 
+combined with ray tracer for optimizing cell-free mMIMO topology in a 
+confined environment [C]//Proceedings of 2021  15th European Conference 
+on Antennas and Propagation (EuCAP ). IEEE , 2021 : 1-5. DOI : 10.23919 /
+图4 随机部署移动边缘计算和基于服务覆盖部署移动边缘计算的可达
+最小时延分布
+图5 随机部署和服务覆盖的通信成功率各覆盖单元索引时延/ms
+0  10   20  30  40  50   60  70   80  90 100基于服务覆盖策略区域可实现最小时延
+随机部署策略下的可达到的最小时延
+每个区域需达到的平均最小时延
+基于服务覆盖实际可实现平均时延4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0
+各覆盖单元索引0  10   20  30  40  50   60  70   80  90 100成功率
+基于服务覆盖的通信成功比率
+基于随机部署的通信成功比率1
+0.95
+0.90
+0.85
+0.80
+0.75
+0.70
+0.65
+0.60
+0.55
+0.50
+52

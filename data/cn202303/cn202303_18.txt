@@ -1,0 +1,58 @@
+基于数字孪生网络的 6G智能网络运维 王威丽  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3emergent behavior in complex systems [M]//Transdisciplinary perspectives 
+on complex systems . Cham : Springer International Publishing , 2016 : 
+85-113
+[9] 陶飞, 刘蔚然 , 张萌, 等. 数字孪生五维模型及十大领域应用  [J]. 计算机集成制
+造系统 , 2019 , 25(1): 1-18. DOI: 10.13196 /j.cims .2019 .01.001
+[10] MULVEY D , FOH C H , ALI IMRAN M , et al . Cell fault management using 
+machine learning techniques [J]. IEEE access , 2019 , 7: 124514 -124539 . 
+DOI: 10.1109 /ACCESS .2019 .2938410
+[11] ZHENG Y F , KONG H M , WANG N , et al . Practice on fifth-generation core 
+(5GC) network fault self-recovery based on a digital twin [J]. Digital twin , 
+2022 , 2: 18. DOI: 10.12688 /digitaltwin .17692 .1
+[12] WANG D S , ZHANG Z G , ZHANG M , et al . The role of digital twin in optical 
+communication : fault management , hardware configuration , and 
+transmission simulation [J]. IEEE communications magazine , 2021 , 59(1): 
+133-139. DOI: 10.1109 /MCOM .001.2000727
+[13] WANG W L , TANG L , WANG C M , et al . Real-time analysis of multiple 
+root causes for anomalies assisted by digital twin in NFV environment [J]. 
+IEEE transactions on network and service management , 2022 , 19(2): 905-
+921. DOI: 10.1109 /TNSM .2022 .3151249
+[14] ZHAO J , XIONG X M , CHEN Y M . Design and application of a network 
+planning system based on digital twin network [J]. IEEE journal of radio 
+frequency identification , 2022 , 6: 900-904. DOI : 10.1109 /
+JRFID .2022 .3210750
+[15] WANG H Z , WU Y L , MIN G Y , et al . A graph neural network-based digital 
+twin for network slicing management [J]. IEEE transactions on industrial 
+informatics , 2022 , 18(2): 1367 -1376 . DOI: 10.1109 /TII.2020 .3047843
+[16] XU H W , BERRES A , YOGINATH S B , et al . Smart mobility in the cloud : 
+enabling real-time situational awareness and cyber-physical control 
+through a digital twin for traffic [J]. IEEE transactions on intelligent 
+transportation systems , 2023 , 24(3): 3145 -3156 . DOI : 10.1109 /
+TITS.2022 .3226746
+[17] WANG D , SU R R , ZHANG S H , et al . Trends and challenges of policy 
+verification for intent-based networking towards 6G [C]//Proceedings of 
+2022  IEEE/CIC International Conference on Communications in China 
+(ICCC Workshops ). IEEE , 2022 : 134-139. DOI : 10.1109 /
+ICCCWorkshops 55477 .2022 .9896717
+[18] ZHAO L , HAN G J , LI Z H , et al . Intelligent digital twin-based software-
+defined vehicular networks [J]. IEEE network , 2020 , 34(5): 178-184. DOI : 
+10.1109 /MNET .011.1900587作 者 简 介
+王威丽 ，重庆邮电大学在读博士研究生 ；主要研
+究方向为虚拟化网络 、网络切片 、智能故障管理 ；
+发表论文 10余篇。
+唐伦 ，重庆邮电大学教授 、博士生导师 ；主要研
+究方向为下一代移动通信网络 、移动边缘计算 、
+物联网络 、数字孪生 ；已发表论文 70余篇。
+                          陈前斌 ，重庆邮电大学副校长 、教授、博士生导
+师，教育部新一代信息网络与终端省部共建协同
+创新中心主任 ，教育部高等学校电子信息类专业
+教学指导委员会委员 ，重庆市本科高校教学信息
+化与教学方法创新指导委员会主任委员 ，中国通
+信学会会士 、常务理事 、组工委副主任委员 ，中
+国通信学会人工智能技术与应用委员会副主任委
+员，重庆市电子学会副理事长兼秘书长 ；获得国
+家科技进步二等奖 1项、重庆市技术发明一等奖 1项、重庆市科技
+进步一等奖 1项、国家级教学成果二等奖 2项。
+14

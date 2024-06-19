@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Research on Multi -Core Processor Analysis for WCET Estimation    Review
+2.2 Dynamic Analysis
+Dynamic analysis , in contrast to static analysis , involves 
+analyzing a program during its runtime to determine its 
+WCET . Dynamic analysis is particularly useful in real sce ⁃
+narios . It can be tailored to specific scenarios such as the use 
+of a particular processor pipeline model , cache size , and 
+branch prediction strategy to analyze the program of interest . 
+Essential data and multiple repetitions of execution are re ⁃
+quired to be recorded during dynamic timing analysis to in ⁃
+crease the sample space and reduce the likelihood of inciden ⁃
+tal events , resulting in more accurate and reliable results . For 
+example , recording the program 􀆳s execution time by observing 
+wall -clock time and performing multiple repetitions of the ac ⁃
+tion will increase the results 􀆳 credibility , as demonstrated by 
+mathematical analysis .
+Both static and dynamic analysis techniques have their own 
+merits and drawbacks , and conducting a systematic compari ⁃
+son can aid in comprehending their distinctions . Table 1 out⁃
+lines the primary facets of comparison and the corresponding 
+features of the two analysis methodologies[2].
+3 Related Research of WCET Analysis on 
+Multi -Core Platforms
+3.1 Static Timing Analysis on Multi -Core Platforms
+In the field of multi -core computing , researchers have pro ⁃
+posed various techniques to estimate WCET accurately . One 
+such approach is the static analysis of WCET by focusing on 
+shared resources . Shared cache and shared bus domains have 
+emerged as the primary research areas for static timing analy ⁃
+sis in multi -core systems . Among these , the shared cache do ⁃
+main has attracted significant attention from researchers who 
+have developed diverse approaches[5,8,18–21] and models to ad ⁃
+dress cache -related issues .
+Additionally , CHATTOPADHYAY et al . proposed a frame ⁃
+work for multi -core platform analysis[22], which underscores 
+the importance of considering shared resources in WCET esti ⁃
+mation . These advancements in multi -core research have en ⁃
+hanced our ability to estimate WCET accurately and create 
+more reliable real -time systems .
+3.1.1 Shared Cache Analysis
+As real -time embedded systems become increasingly com ⁃
+plex, multi -core shared cache architectures are becoming more prevalent in modern embedded devices . Cache conflicts 
+in these architectures stem primarily from memory access re ⁃
+quest interference of parallel tasks in the shared cache . If a 
+task running on one core fails , it can replace certain cache 
+lines in the shared cache , which may cause another parallel 
+task on another core to require the data in those same cache 
+lines . This leads to interference between the two tasks . There ⁃
+fore, in multi -core shared cache architectures , the execution 
+time of a task may be significantly affected by other concur ⁃
+rently running tasks , and hence WCET analysis must consider 
+the interference between parallel tasks that share the cache .
+YAN and ZHANG proposed an address mapping -based con ⁃
+flict analysis method to address this issue[5]. This approach ab ⁃
+stractly analyzes the hits and misses of tasks in both the L 1 
+cache and the L 2 shared cache , and examines whether the 
+task being analyzed in the L 2 shared cache is affected by tasks 
+on other cores . A conflict is identified if the task being ana ⁃
+lyzed maps to the same cache line as a task on another core . 
+Based on the conflict analysis results , the method adjusts the 
+hit rate of the task analyzed in the L 2 cache and finally obtains 
+the WCET of the task under multi -core conflict situations by 
+using implicit path enumeration techniques . Moreover , this 
+method proposes a shared cache analysis method based on ab ⁃
+stract interpretation , with a comprehensive consideration of 
+safety , which provides a way to increase the accuracy of 
+WCET analysis for cache in multi -core shared resources .
+LYU et al . proposed a method for time -series modeling and 
+analyzing cache conflicts based on model checking[6]. The au ⁃
+thors used the UPPAAL model checker , which is based on the 
+theory of timed automata , to generate automata for each task , 
+L1 cache behavior , and shared L 2 cache behavior . During the 
+execution of the task automata , a global clock is maintained to 
+update the L 2 cache automata . Conflicts are detected by ana ⁃
+lyzing the time spent accessing the L 2 cache task and the es ⁃
+tablished simulation time . This model checking -based method 
+provides an effective means of analyzing cache conflicts for 
+time -sensitive applications .
+CHEN et al . proposed a method for modeling and analyzing 
+cache conflicts based on execution graphs[21]. Using execution 
+graphs , they constructed the timing of tasks in both the non -
+interference state and maximum interference state (assuming 
+all access to the shared L 2 cache misses ) and identified the 
+earliest conflict timing , Earliest , in the non -interference state , 
+which represents the earliest fetch time of the access request 
+▼Table 1. Comparison of static and dynamic WCET analysis methods
+Comparative Content
+Safety of analysis results
+Analysis complexity
+Adaptability to new architectures
+Analytical accuracy
+User assistance that improves the quality of analysisStatic WCET Analysis
+Safe
+High
+Bad
+Mainly depending on the analysis technique
+Providing additional control flow informationDynamic WCET Analysis
+Unsafe
+Low
+Good
+Mainly depending on the test vector
+Providing better test vectors
+WCET : worst -case execution time
+89

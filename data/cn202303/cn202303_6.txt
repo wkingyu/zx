@@ -1,0 +1,48 @@
+基于数字孪生网络的 6G无线网络自治 刘光毅  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3基于数字孪生网络的
+6G无线网络自治
+6G Autonomous Mobile Network Enabled by Digital Twin Network
+刘光毅 /LIU Guangyi ，邓娟/DENG Juan ，郑青碧 /ZHENG Qingbi
+（ 中国移动通信集团有限公司研究院 ，中国 北京 100053  ）
+(The Research Institution of China Mobile Communications Group Co . , 
+Ltd, Beijing 100053 , China )DOI：10.12142 /ZTETJ .202303002
+网络出版地址 ：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230626 .1422.002.html
+网络出版日期 ：2023 -06-26
+收稿日期 ：2023 -04-25
+摘要 ：基于数字孪生网络的网络自治是解决因部署规模日益庞大和多网并存所导致的网络运维难的有效手段 。6G需要从网络架构设计之初就以
+内生的形式引入网络的数字孪生 ，保证高效的数据获取和对不同场景的建模 、验证能力 ，并结合 AI的应用实现高度的网络自治 。数字孪生网络
+有望实现针对各种潜在的新能力与新服务 ，高效地进行功能性能的虚拟化预验证 ，降低现网验证的风险和成本 。
+关键词 ：6G；网络自治 ；数字孪生 ；内生 AI
+Abstrac t:The digital twin network-enabled network autonomy is an effective means to solve the difficulties of network operation and mainte ⁃
+nance caused by the increasing deployment scale and the coexistence of multiple networks . The native design of the digital twin network fa ⁃
+cilitates the artificial intelligence (AI) enabled network autonomy by providing sufficient data collection and modeling/pre-verification of differ ⁃
+ent usage scenarios . The digital twin network is expected to realize the efficient pre-verification of virtualization of functional performance 
+for various potential new capabilities and new services , and reduce the risk and cost of current network verification .
+Keywords :6G; network autonomy ; digital twin ; endogenous AI
+引 用 格 式 ：刘 光 毅 , 邓 娟 , 郑 青 碧 . 基 于 数 字 孪 生 网 络 的 6G无 线 网 络 自 治  [J]. 中 兴 通 讯 技 术 , 2023 , 29(3): 2-7. DOI : 10.12142 /
+ZTETJ .202303002
+Citation ： LIU G Y , DENG J , ZHENG Q B . 6G Autonomous mobile network enabled by digital twin network [J]. ZTE technology journal , 2023 , 
+29(3): 2-7. DOI: 10.12142 /ZTETJ .202303002
+随着5G的大规模部署 ，运营商移动通信网络的总体规
+模越来越大 。以中国运营商为例 ，目前已累计开通了
+数百万个基站 ，包括 2G、3G、4G、5G，甚至 Wi-Fi 和其他
+物联网制式 ，且每个网络都存在多个频点 ，网络间的互操作
+参数复杂 。在传统的网络建设运营模式下 ，规划 、建设 、运
+维、优化的流程完全割裂 ，如图1所示 。5G网络自动化水平
+较低 ，网络生命周期各阶段割裂 ， “规建维优 ”人力成本高 ，
+运营支出 （OPEX ）高。这给网络的运营和优化带来了巨大
+的挑战 ，成为运营商日常开支中的重要组成部分 。因此运维
+高度复杂是 5G网络发展面临的主要挑战之一[1]。
+为此 ，业界开始实践网络的智能化 ，希望通过大数据和
+人工智能 （AI）的运用[2]，逐步将原有的人工操作自动化 。
+为此 ，国际电信联盟 （ITU）还定义了网络智能化的 5个等
+级[3]，如表1所示 。
+ ▲图1 5G网络初期的运维体系AAU：有源天线单元
+CU：集中式单元DU：分布式单元
+MEC ：移动边缘计算规划 建设
+运维 核心网管 无线网管
+MECCU DU AAU
+虚拟核心网优化 云化无线网
+……
+02

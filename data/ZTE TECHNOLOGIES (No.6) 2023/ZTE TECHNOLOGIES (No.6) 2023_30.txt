@@ -1,0 +1,83 @@
+fter the release of the 
+XGS-PON standard in 2016, 
+ITU-T embarked on research 
+into next-generation PON
+technology. In 2018, ITU-T determined 
+that 50G PON would be the technology 
+development direction after 10G PON. In 
+the second half of 2021, the /f_irst version 
+of the 50G PON standard was oﬃcially 
+released. 50G PON, with a bandwidth /f_ive 
+times higher than 10G PON, provides a 
+better service experience to meet future 
+requirements, covers more scenarios, and 
+supports a smooth migration from 10G 
+PON to 50G PON.
+50G PON Technology and Industry 
+Chain are Maturing
+According to ITU-T G.9804, 50G PON 
+provides a bandwidth /f_ive times higher 
+than 10G PON, and supports a downlink 
+single-wavelength rate of 50 Gbps and 
+/f_lexible uplink rate options of 12.5 Gbps, 
+25 Gbps, and 50 Gbps. 50G PON maintains 
+the P2MP topology, and provides a coverage 
+distance of up to 20 km with a splitting ratio 
+of up to 1: 256, catering to bandwidth access 
+from 10 Gbps to 50 Gbps. In the 50G PON 
+rate veri/f_ication test carried out by German 
+operator DNS:NET, 50G PON reached a 
+downlink rate of 45.62 Gbps and an uplink 
+rate of 21.87 Gbps.
+50G PON uses single-/f_iber bidirectional 
+transmission, employing broadcast 
+mode in the downstream and TDMA in 
+the upstream for point-to-multipoint 
+50G PON: Evolution Direction 
+Beyond 10G PON
+Fixed Network 
+Product Planning 
+Manager, ZTELiu FangbinA
+communication between OLTs and ONUs. 
+Key technologies encompasses wavelength 
+selection, line coding, line rate, FEC, 
+common TC, and PHY layer components. 
+ZTE is committed to improving 50G PON 
+standards and industry chain maturity 
+and has made signi/f_icant breakthroughs 
+in some key component technologies. 
+The company has submitted over 75 50G 
+PON standard proposals, with those on 
+technologies including the physical layer 
+parameters, low latency, and FEC already 
+adopted by standard organizations.
+With the rapid growth of video 
+services and the digital transformation of 
+enterprises/campuses, there are increasing 
+requirements for network determinacy 
+that covers deterministic bandwidth, 
+latency, and jitter control to support 
+multiple business scenarios. Deterministic 
+50G PON technology provides broadband 
+scalability and is compatible with multiple 
+access rates, enabling precise bandwidth  
+control. Furthermore, it ensures high 
+reliability by providing technical support 
+for high-reliability service applications, 
+including Ethernet uplink protection, 
+Type B/C and hand-in-hand protection 
+at the PON port level. By using the 
+end-to-end low-latency rigid hard pipe 
+technology, deterministic 50G PON can 
+implement high-level service isolation, 
+and construct rigid pipes with low latency 
+and low jitter. Deterministic 50G PON also 
+provides precise latency and jitter control 
+capabilities to meet the requirements 
+of industrial control scenarios that are 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+28 

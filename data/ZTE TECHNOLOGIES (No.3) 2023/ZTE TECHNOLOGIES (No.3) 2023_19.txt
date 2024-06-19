@@ -1,0 +1,75 @@
+traditional base stations, provides 
+enhanced assurance of deterministic 
+connection capabilities, making it possible 
+for 5G to penetrate into the operational 
+technology (OT) domain of the industrial 
+production line. It also provides capabilities 
+such as simple commissioning, /f_lexible 
+network architecture, and integrated virtual 
+PLC to ensure the value investment.
+5G Industrial Base Station Solution
+To meet the wireless and centralized 
+requirements of the PLC in industrial 
+production lines, the 5G industrial base 
+station provides a cloud-network 
+integrated base station solution. With a 
+computing board added to the traditional 
+base station, it provides functions such as 
+precise clock synchronization, enhanced 
+connection capabilities, deterministic delay 
+guarantee, and support for centralized and 
+cloud-based PLC. In addition to traditional 
+base station functions, 5G industrial base 
+stations oﬀer four key features:
+Intrinsic determinism: Provides punctual 
+and accurate data transmission services
+Intrinsic determinism means the ability 
+to provide punctual and accurate data 
+transmission services between industrial 
+base stations and 5G industrial CPE. 
+This is achieved by integrating various 
+technologies with the 5G air interface 
+enhancement technology, such as clock 
+synchronization for terminals and networks, 
+precise gate control for jitter elimination, ith the deepening 
+application of the “5G+ 
+Industrial Internet”, 5G 
+networks are playing an 
+increasingly important role in enhancing 
+the eﬃciency of traditional manufacturing 
+and implementing the digital transformation 
+of manufacturing. The 5G+ Industrial 
+Internet has become an important force to 
+promote the digital, intelligent, and green 
+transformation of the industry.
+In the current phase, 5G has moved from 
+being used as an industrial campus 
+network solution for auxiliary production to 
+becoming an industrial /f_ield network 
+solution for production line operations. 
+Industry customers are integrating 5G into 
+on-site production process control and 
+have suggested centralizing the production 
+line control rooms and moving them 
+oﬀ-site, as well as using wireless PLC 
+controllers to eliminate the need for cords. 
+While the upper computer is moved up to 
+a centralized place, the data will stay within 
+the shop/f_loor or factory. This requires the 
+5G network performance to be comparable 
+to that of the wired network, which places 
+new requirements on the 5G network, 
+including deterministic connection, reliable 
+guarantee, coordination between the 
+network and industry service, and 
+integration of the computing resources. 
+To meet these requirements, ZTE has 
+proposed the NodeEngine-based industrial 
+base station solution. This solution, based 
+on the basic network connections of the 
+Chief Planning Engineer 
+of RAN Product, ZTELi Yunhua5G Industrial Base Stations: 
+Empowering 5G to Reach Deeper 
+into Industrial Production
+W
+17JUN 2023

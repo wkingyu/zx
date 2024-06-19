@@ -1,0 +1,84 @@
+T-SRv6: SPN Computing Network 
+Solution for Slicing Transport 
+Network
+ 
+omputing networks, curcial for driving 
+high-quality digital economy 
+development,  are highly favored by 
+major telecom operators for their 
+promising prospects. Building capabilities centered 
+around computing power presents operators with 
+vital opportunities for transformation and upgrading, 
+as well as reconstructing industrial value ecosystems. 
+Slicing packet network (SPN), a key component of 
+computing networks, mainly provides /f_lexible access 
+to computing services for users. It also oﬀers 
+ubiquitous computing power scheduling for 
+cloud-edge and edge-edge collaborations, catering 
+to diverse computing connectivity needs across 
+vertical industries. Additionally, SPN requires 
+evolving capabilities in perception and routing 
+within computing networks, meeting the needs that 
+computing networks evolve to computing-network 
+integration.
+Currently, computing services in computing 
+networks are primarily deployed in 
+provincial/regional data centers. Accessing 
+computing resources from the metro SPN network 
+necessitates coordinated scheduling across multiple 
+networks, including the metro SPN network and 
+provincial/inter-provincial backbones (such as China 
+Mobile’s cloud private network), reach the data 
+center. Therefore, SPN needs to support SRv6 
+capabilities to achieve interoperability with cloud 
+private networks, providing users with end-to-end 
+service provisioning and O&M capabilities for 
+one-hop SRv6-to-cloud connectivity. As a transport 
+network, SPN needs to consider the following factors 
+in its evolution to support SRv6:Inheriting transport service features:  When 
+accessing computing services on the SPN network, 
+the computing connection must have transport 
+features, such as bidirectional same path, 
+bidirectional delay symmetry, carrier-class 
+protection switching, and hard slice isolation 
+capabilities.
+Encapsulation eﬃciency and forwarding 
+performance:  The SPN network should 
+minimize additional SRv6 encapsulation 
+overhead and associated forwarding 
+performance degradation.
+Complexity in upgrading the existing network: 
+The SPN network should smoothly evolve to 
+support SRv6 capabilities, avoiding intricate 
+reconstruction and minimizing impact on existing 
+services. 
+T-SRv6 Solution Overview
+ZTE innovatively proposes the transport-segment 
+routing IPv6 (T-SRv6) solution, tailored to the diverse 
+requirements of computing services and the current 
+state of the SPN network, for implementing the SRv6 
+technology.
+T-SRv6, integrating transport network features, 
+deploys nodes at the SPN network edge, enabling 
+complete T-SRv6 capability without upgrading 
+internal nodes. With minimal upgrades or additions 
+to edge nodes, the entire network achieves 
+end-to-end SRv6 one-hop cloud computing 
+connectivity from metropolitan to provincial 
+backbone.
+Fig. 1 shows the T-SRv6 solution architecture, 
+C
+ Transport Product 
+Planning Manager, 
+ZTEWen Jianzhong
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Slicing Packet Network Special Topic 
+22 

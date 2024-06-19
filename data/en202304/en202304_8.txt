@@ -1,0 +1,216 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Perceptual Quality Assessment for Point Clouds : A Survey    Special Topic
+poses challenges , as indiscriminate removal of points might 
+compromise fine details and key features , which could affect 
+downstream applications like object recognition or surface re ⁃
+construction .
+4) Compression . Point cloud compression is a vital area of 
+research that aims to reduce the storage and transmission re ⁃
+quirements of 3D point cloud data while preserving its essen ⁃
+tial geometric and semantic properties . One prominent ap ⁃
+proach to point cloud compression is the development of the 
+video -based point cloud compression (VPCC ) standard , which 
+leverages the coding efficiency of video compression tech ⁃
+niques adapted to the point cloud domain . VPCC efficiently 
+represents point clouds by exploiting temporal redundancies 
+and inter -frame dependencies , enabling high compression ra ⁃
+tios while maintaining visual quality and accuracy . Another 
+significant advancement in point cloud compression is the 
+geometry -based point cloud compression (GPCC ) standard . 
+GPCC focuses on the efficient compression of point cloud ge ⁃
+ometry , utilizing various techniques like octree -based coding , 
+predictive coding , and attribute coding . By considering the 
+geometric properties of point clouds , GPCC achieves superior 
+compression performance while facilitating fast and reliable 
+decompression for real -time applications . VPCC and GPCC 
+play a key role in optimizing the storage and delivery of mas ⁃
+sive point cloud databases , making them more accessible and 
+usable in a variety of applications such as virtual reality , aug⁃
+mented reality , and cloud -based services . However , at the 
+same time , point cloud compression inevitably leads to degra ⁃
+dation of point cloud quality .
+2.2 Common Subjective Experimental Setups
+Presenting point cloud content is essential to harness the 
+valuable information it contains . As a versatile data format , 
+point clouds can be visualized using various methods . Tradi ⁃
+tional 2D monitors allow for a flat , easily accessible represen ⁃
+tation of point clouds , enabling researchers and users to ex ⁃
+plore the data from different angles . On the other hand , 3D 
+monitors provide a more immersive experience , allowing a 
+deeper understanding of the spatial relationships among the 
+points . Furthermore , head -mounted devices (HMDs ), such as 
+virtual reality (VR) headsets , take the presentation of point 
+clouds to another level , offering an unparalleled sense of pres ⁃
+ence and interaction with the 3D data . The summary of exist ⁃
+ing point cloud subjective evaluation works is presented in 
+Table 1, with significant differences in interaction methods , 
+viewing displays , scoring methods , and more . There are three 
+prevalent scoring methodologies employed in the assessment 
+of perceptual quality : the Double -Stimulus Impairment Scale 
+(DSIS ), Absolute Category Rating (ACR ), and Pairwise Com ⁃
+parison (PWC ). In DSIS , evaluators are presented with a refer ⁃
+ence point cloud and a distorted point cloud , with the task of 
+rating the quality of the distorted point cloud . Conversely , in 
+ACR , evaluators are tasked with categorizing each distorted point cloud into predefined quality categories , such as “excel ⁃
+lent,” “good,” “fair,” or “poor.” In the case of PWC , evalua ⁃
+tors are presented with pairs of distorted point clouds and are 
+required to indicate which of the two exhibits superior quality . ▼Table 1. Summary of the experimental setups for subjective cloud 
+quality assessment
+Related Work
+Work of ALEXIOU et al .[14]
+Work of ALEXIOU and EBRAHIMI[13]
+Work of JAVAHERI et al .[12]
+Work of JAVAHERI et al .[27]
+Work of JAVAHERI et al .[15]
+Work of DA SILVA CRUZ et al .[16]
+Work of SU et al .[18]
+IRPC[19]
+WPC[5]
+SJTU -PCQA[6]
+VsenseVVDB 2[20]
+Work of CAO et al .[21]
+Work of ALEXIOU and EBRAHIMI[8]
+VsenseVVDB[17]
+Work of ZHANG et al .[37]
+Work of ALEXIOU et al .[25]
+Work of ALEXIOU et al .[22]
+LS-PCQA[4]
+Work of TORLIG et al .[10]
+M-PCCD[11]
+Work of ALEXIOU et al .[23]
+Work of ALEXIOU et al .[24]
+Work of VIOLA et al .[26]
+NBU -PCD 1.0[28]
+ICIP2020[31]
+RG -PCD[30]
+Work of ALEXIOU et al .[29]
+Work of NEHMÉ et al .[9]
+PointXR[35]
+SIAT -PCQD[36]
+Work of SUBRAMANYAM et al .[34]
+Work of JESÚS GUTIÉRREZ et al .[38]Display
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D monitor
+2D/3D monitor
+2D/3D monitor
+AR
+HMD
+HMD
+HMD
+HMD
+HMDInteraction
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+×
+√
+√
+√
+√
+√
+√
+√
+-
+-
+×
+×
+√
+×
+√
+√
+√
+√Methodology
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS
+ACR
+ACR
+ACR
+DSIS , ACR
+DSIS , PWC
+-
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS
+DSIS , ACR
+DSIS , ACR
+DSIS
+-
+DSIS
+DSIS
+DSIS
+DSIS , ACR
+DSIS
+DSIS
+ACR
+ACR
+ACR : Absolute Category Rating 
+AR: augmented reality 
+DSIS : Double -Stimulus Impairment Scale 
+HMD : Head -Mounted Display 
+ICIP2020 : A point cloud quality assess ⁃
+ment dataset proposed in IEEE Internation ⁃
+al Conference on Image Processing 2020  
+IRPC : IST (Instituto Superior Téchico ) 
+Render Point Cloud Quality Assessment 
+LS-PCQA : Large Scale Point Cloud Quali ⁃
+ty Assessment Dataset 
+M-PCCD : MPEG Point Cloud Compres ⁃
+sion Dataset 
+NBU -PCD: Ningbo University Point Cloud 
+Dataset PointXR : A Point cloud quality assessment 
+dataset developed by PointXR toolbox 
+PWC : Pairwise Comparison 
+RG -PCD: Reconstructed Geometry Point 
+Cloud Dataset 
+SIAT -PCQD : Shenzhen Institute of Ad ⁃
+vanced Technology Point Cloud Quality 
+Dataset 
+SJTU -PCQA : Shanghai Jiao Tong Univer ⁃
+sity Point Cloud Quality Assessment Data ⁃
+set Vsense
+VVDB : Vsense Volumetric Video Quality 
+Databases 
+WPC : Waterloo Point Cloud Dataset
+05

@@ -1,0 +1,93 @@
+analysis capability is expanded through 
+AI, increasing the device fault localization 
+accuracy rate by 5%.
+A large number of network changes 
+occur during network deployment, which 
+poses risks to stable network operation. To 
+address this, ZTE has built an end-to-end 
+operation security guarantee system 
+that covers solution change formulation, 
+implementation control, and result 
+backtracking to ensure network change 
+operation security.
+The operation encapsulation tool, 
+through its template library, designer, 
+and executor, implements modular 
+combination of operation scripts such 
+as upgrade, cutover, and expansion. 
+This reduces the diﬃculty and risk of 
+formulating the operation solution while 
+ensuring security. 
+The iNet tool is installed on the operator's 
+computer to automatically associate 
+the operation plan, forbid unplanned 
+operations, and automatically identify and 
+intercept high-risk instructions to prevent 
+misoperations. The smart EMS implements 
+hierarchical management of network 
+operations through the vault mode.
+For operations that involve a wide range 
+of areas and have high risks, managers need 
+to authorize each operation individually. 
+Real-time visualization through dashboards 
+and large screens during operations ensures 
+the transparency and controllability over the 
+process and its eﬀects.
+The combination of digitalization and 
+intelligence presents new opportunities 
+for improving the quality and eﬃciency of 
+network deployment. In the future, ZTE will 
+continue to adhere to the "ultimate service" 
+concept, actively explore and implement 
+new network deployment modes, stimulate 
+the vitality of digital and intelligent 
+transformation in the communications 
+industry, and work towards a win-win 
+digital and intelligent future.User experience assurance and 
+prevention are common challenges faced 
+by operators in complicated network 
+architectures. ZTE’s VMAX big data 
+platform addresses this with its real-time 
+intelligent insight and correlation analysis 
+capabilities. The platform uses KPI, KQI 
+and QoE to establish a comprehensive user 
+perception evaluation system, accurately 
+restoring service perception. Based on 
+the perception analysis and processing 
+capabilities of wireless, bearer, and core 
+networks, an end-to-end user perception 
+analysis and optimization system is built. 
+This system helps delimit and locate 
+end-to-end poor quality problems, analyze 
+user perception and network complaints, 
+predict perception problems, and handle 
+problems in a closed loop quickly. 
+In terms of data services, the VMAX 
+platform uses intelligent probe technology 
+to collect various type of data, such as 
+videos, games, live broadcast, QR scanning, 
+webpage browsing, and OTT. It is capable 
+of identifying encrypted services and oﬀers 
+an industry-leading identi/f_ication rate of 
+new services. VMAX can rapidly delimit 
+end-to-end data to analyze the poor quality 
+threshold and related wireless indicators.
+For voice services, VMAX supports VoNR, 
+EPSFB, and VoLTE service analysis to analyze 
+poor-quality cells and user delimitation. 
+VMAX also supports signaling trace and 
+comprehensive evaluation in each phase. 
+Moreover, it can associate calling and called 
+parties in all scenarios with an end-to-end 
+accuracy rate of over 95%.
+In terms of user complaint handling, 
+VMAX oﬀers closed-loop management by 
+integrating with complaint work orders, 
+and supporting end-to-end problem ticket 
+dispatching, optimization, and veri/f_ication. 
+This signi/f_icantly improves complaint 
+processing eﬃciency. Fault delimitation 
+and localization takes into consideration 
+single-domain performance and alarm 
+data, and the platform’s root cause 
+20Digital & Intelligent Network Services Special Topic

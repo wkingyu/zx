@@ -1,0 +1,74 @@
+noise and compression artifacts, as they fail 
+to ful/f_ill users’ viewing needs. The AI-enabled 
+image enhancement technology adopts 
+AI algorithms such as super-resolution, 
+frame interpolation, color enhancement, 
+and image denoising to repair and 
+enhance the quality of low-quality videos 
+and images. For example, it can improve 
+old standard-de/f_inition (SD) movies to 
+high-de/f_inition (HD) or even 4K quality.   
+AI-Enabled 2D-to-3D Video Conversion
+3D services are an innovative video 
+business model that emerged earlier. 
+However, due to the scarcity of 3D content 
+and high production costs, these service 
+have mostly remained concentrated in 
+professional scenarios like cinemas, failing 
+to reach a wider audience in their homes. 
+To address this challenge, the AI-enabled 
+2D-to-3D technology can be utilized to 
+automatically convert traditional 2D content 
+into 3D, oﬀering a potential solution to 
+enhance the availability of 3D content. 
+By utilizing a 2D-to-3D conversion engine 
+powered by AI, it is possible to generate 3D 
+videos from 2D content, thereby addressing 
+the scarcity of 3D video resources. 
+Furthermore, this technology supports 
+real-time conversion of live broadcast 
+signals into 3D video signals, facilitating the 
+delivery of 3D live streaming services. 
+AI-Enabled Virtual Viewpoint
+In FVV scenarios, the number of cameras requirements of VR content. However, the 
+use of /f_ield of view (FOV) can eﬀectively 
+balance this contradiction.
+The principle of FOV is to set a dedicated 
+encoding server at the system end and 
+encode UHD VR videos in a layered and 
+segmented manner. For example, in the 
+case of 8K VR videos, a 2K 360° video 
+is used as the base, supplemented by 
+multiple UHD video fragments encoded for 
+speci/f_ic regions. During terminal decoding 
+and presentation, the process begins by 
+presenting the base 2K video, and then, 
+based on the current FOV position, the 
+corresponding UHD segmented videos 
+are dynamically retrieved and rendered, 
+ensuring high-quality video presentation 
+within the /f_ield of view. This approach 
+can greatly save transmission bandwidth 
+expense while lowering the demands on 
+terminal decoding. As a result, it enables 4K 
+terminals to deliver an 8K VR video quality 
+experience, achieving bandwidth savings 
+of over 70% and reducing head movement 
+latency to less than 150 ms.   
+AI-Powered UHD Video 
+AI-Enabled Image Enhancement
+As display devices continue to improve in 
+size and performance, people’s expectations 
+for video quality are also increasing. However, 
+there is a signi/f_icant demand for the 
+restoration and enhancement of low-quality 
+videos and images that suﬀer from issues 
+such as outdated content, low resolution, 
+Fig. 1. Networking 
+for smart spectator 
+experience at the 
+World University Games.Streaming
+adjustment RTMPLive broa dcastSmart media processing system
+UHD CDN
+Terminal video playback
+30New Video Ecosystem Special Topic

@@ -1,0 +1,114 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Special Topic   Towards Near -Field Communications for 6G: Challenges and Opportunities
+3.1.2 Existing Works
+Similar to far -field beam training , near -field beam training 
+can be accomplished using both traditional and machine 
+learning -based methods , with beam sweeping and hierarchical 
+beam training[35].
+The most straightforward way for codebook -based near -field 
+beam training is beam sweeping ; however , this approach intro ⁃
+duces unacceptable pilot overhead due to the expansion of the 
+codebook dimension . To tackle this problem , researchers de ⁃
+signed a hierarchical beam training scheme based on a hierar ⁃
+chical near -field codebook , which reduces the pilot over ⁃
+head[36]. Furthermore , the authors of Ref . [24] designed a 
+polar -domain near -field codebook in which the angular do ⁃
+main was uniformly sampled while the distance was sampled 
+as inhomogeneous distance rings as shown in Fig . 4(b). By uti ⁃
+lizing the polar -domain near -field codebook , the authors in 
+Ref. [37] proposed a new two -phase beam training method . 
+Specifically , beam training is accomplished by angular do ⁃
+main sweeping based on a far -field codebook and distance 
+sweeping based on a polar -domain near -field codebook , re⁃
+spectively , which significantly reduces the training overheads . 
+Nevertheless , the necessary pilot overhead remains excessive , 
+and the impact of noise on the hierarchical beam training 
+scheme cannot be neglected . Deep learning constitutes a sub ⁃
+division of machine learning that relies on artificial neural net ⁃
+works to emulate and acquire intricate data representations 
+and features through multi -layer neural network architectures . 
+It gradually abstracts high -level features and representations 
+in the input data through multi -layer nonlinear transforma ⁃
+tions to enable learning and reasoning about complex tasks . 
+Recently , deep learning has been widely used in wireless com ⁃
+munication to reduce the cost of beam training[34, 38–41]. The au ⁃
+thors of Ref . [34] took the received signals corresponding to a 
+few beams as the input for deep neural networks (DNN ) to esti ⁃
+mate the beam that best matches the channel . Ref. [34] intro ⁃
+duced a DNN -based method with location information to re ⁃
+duce beam training overhead . Inspired by the above work , the 
+authors of Refs . [38–41] have extended 
+the deep learning method to near -field 
+beam training . The authors of Ref . [38] 
+used a part of the near -field beam as the 
+input of DNN for prediction . By contrast , 
+Ref. [40] utilized the information of far -
+field wide beam as the input of the deep 
+learning network to predict the optimal 
+beam to reduce the overhead . In the fol ⁃
+lowing part , we present more details of 
+the research work in Ref . [40].
+3.1.3 Near -Field Beam Training Based 
+on Deep Learning
+A well -trained deep learning approach 
+is used in Ref . [40] to uncover the angle and distance information carried by the far -field wide beam to 
+find the optimal near -field codeword . Specifically , the authors 
+constructed the neural network structure shown in Fig. 5 for 
+the angle and distance domains , respectively . The deep 
+learning -based near -field beam training problem can be formu ⁃
+lated as :
+n*=f1(yw), n*∈{1,2,⋯,N}, (18)
+s*=f2(yw), s*∈{1,2,⋯,S}, (19)
+where yw is received signals of the far -field wide beams . n*and 
+s* denote the optimal angle and ring indices in the polar do ⁃
+main , respectively .
+The input of the neural network is the real and imaginary 
+part of yw, which is transformed into a matrix form , respec ⁃
+tively . Then with carefully designed convolutional and fully 
+connected layers , the final output can be written as :
+P̂a=[p̂a
+1, p̂a
+2,⋯, p̂a
+N]T, P̂r=[p̂r
+1, p̂r
+2,⋯, p̂r
+S]T, (20)
+where p̂a
+n and p̂r
+s denote the estimated probability of the optimal 
+angle and ring indices , respectively . The authors determine 
+the index corresponding to the angle and distance under the 
+polar -domain codebook by finding the maximum estimated 
+probability in P̂a and P̂r to achieve the optimal beam . In addi ⁃
+tion, the authors offer an improved scheme , in which it per ⁃
+forms additional tests by obtaining K maximum possible angle 
+indices and L maximum possible distance indices in P̂a and 
+P̂r. It can be formulated as :
+{p̂a
+σ1, p̂a
+σ2,⋯, p̂a
+σN}={ } p̂a
+1, p̂a
+2,⋯, p̂a
+N,{p̂r
+γ1, p̂r
+γ2,⋯, p̂T
+γS}=
+{ } p̂r
+1, p̂T
+2,⋯, p̂r
+S,(21)
+▲Figure 5. Proposed neural network structure for beam trainingProcessing 
+moduleConvolution 
+moduleFully -connected
+module
+y
+SoftmaxP̂
+1
+P̂
+2
+P̂
+3
+P̂
+n…
+08

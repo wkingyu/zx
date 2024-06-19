@@ -1,0 +1,71 @@
+Timeslot 1 Timeslot 2 Timeslot 3 Timeslot N
+Online education Cloud VR Dedicated line HSI 1…HSI  K…HSI NFrame 2 Frame 1 Frame J Frame M Timeslot
+schedulingONU OLTTimeslot scheduling at OLT PON port
+Fig. 2. Fixed time slot 
+allocation mechanism.
+based on time-slot scheduling and can 
+achieve /f_ixed slots, /f_ixed bandwidth, 
+and /f_ixed latency (Fig. 2). This ensures 
+that the end-to-end latency for traﬃc 
+/f_lowing through the PON system 
+remains constant and deterministic. 
+On the software side, the system can 
+timestamp deterministic traﬃc at the 
+entry. At the exit, in addition to the 
+regular /f_irst in /f_irst out (FIFO) queues for 
+QoS scheduling, a separate scheduling 
+queue is in place for each deterministic 
+traﬃc /f_low. According to the timestamp 
+and /f_ixed latency of a deterministic 
+traﬃc /f_low recorded at the entry, 
+priority scheduling is performed to 
+ensure precise end-to-end latency 
+control for packets as they traverse the 
+PON system.
+Openness:  ZXA10 C600E uses an 
+open network architecture and 
+supports the standard NetConf/YANG 
+protocols, enabling it to be managed 
+by third-party element management 
+systems (EMSs) or software-de/f_ined 
+networking (SDN) controllers and 
+to be orchestrated by third-party 
+orchestrators. It enables telemetry with 
+performance statistics and analysis 
+produced in seconds. With its built-in 
+blade servers, ZXA10 C600E supports 
+ 
+third-party applications, thereby 
+creating an open and decoupled 
+network architecture.
+Energy eﬃciency:  ZXA10 C600E 
+employs four levels of energy-saving 
+measures—at the equipment, service 
+card, port, and chip levels—to construct 
+a sustainable FTTx network. These 
+measures involve supporting multiple 
+generations of PONs in the same device, 
+dynamic energy reduction for service 
+cards and fans, and shutdown or idling 
+of service cards and ports as needed. 
+Future port traﬃc can also be adjusted 
+based on network traﬃc predictions at 
+PON ports to lower energy usage. These 
+measures collectively reduce power 
+consumption and carbon emissions 
+of ZXA10 C600E, contributing to the 
+development of an eco-friendly FTTx 
+network.
+As a next-generation all-optical access 
+platform, ZXA10 C600E boasts enhanced 
+functionalities and superior performance 
+compared to ZXA10 C600. Positioned to 
+meet the future demands of optical access 
+network deployment and technological 
+evolution, ZXA10 C600E is poised to become 
+the primary optical access platform for the 
+50G PON era.
+ 
+ 
+ DEC 2023
+13 

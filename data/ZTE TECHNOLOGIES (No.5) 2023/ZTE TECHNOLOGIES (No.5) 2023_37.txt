@@ -1,0 +1,91 @@
+problems. It automatically calculates 
+network factors that aﬀect perception, 
+formulates solutions, and provides direct 
+recommendations for adjusting parameters 
+at the cell level. Through the connection with 
+wireless EMS, it issues commands to adjust 
+parameters, achieving a fully automatic 
+closed-loop of the entire process. This 
+application has demonstrated outstanding 
+performance in practical use and has been 
+featured in the 2022 TMF release of the 
+"Autonomous Network White Paper V4.0" 
+thanks to its successful implementation in an 
+Indonesian telecom operator. 
+uSmartNet Empowers Precise User 
+Satisfaction Prediction
+At present, the trend in network 
+operations is gradually changing from 
+passive response to proactive guarantee. 
+When user complaints arise because of 
+perception issues, it means that network 
+problems have escalated to a point 
+where their impact cannot be ignored, 
+often requiring last-minute solutions. To 
+proactively identify, locate, and handle user 
+perception problems, it is necessary to shift 
+the focus towards “preventive treatment” 
+measures. To this end, ZTE has built a 
+customer satisfaction scoring system (CSAT) 
+that combines multi-dimensional indicators 
+such as key quality indicators (KQI), coverage 
+quality, and customer complaints. This 
+system also incorporates AI capabilities to 
+predict future satisfaction trends in diﬀerent 
+regions, ensuring an average accuracy rate 
+of over 90% when forecasting the trends 
+of various indicators over the next week. 
+Maintenance personnel can then optimize 
+areas with low satisfaction in advance, 
+actively ensuring user experience. 
+After CSAT was deployed on the 
+uSmartNet platform of an operator in a 
+country, it automatically detected potential 
+drops in satisfaction within a speci/f_ic 
+region and issued early warnings. After troubleshooting, it is con/f_irmed that 
+the interference problem existed in this 
+region, with a discernible upward trend. 
+Maintenance personnel optimized the 
+performance, solved the interference 
+problem, resulting in signi/f_icant 
+improvements in various indicators for that 
+region. Video download rates increased 
+by 3%, regional data traﬃc grew by 7%, 
+and user satisfaction notably rose. This 
+proactive approach prevented a large 
+number of complaints arising from poor 
+user perception. This system has been 
+embedded in the routine optimization 
+process of operator network maintenance. 
+During the quarterly optimization task 
+planning, the maintenance team devises 
+optimization strategies and solutions based 
+on the satisfaction scores of the top N areas 
+identi/f_ied by the CSAT function as having 
+poor satisfaction, along with the areas 
+with low satisfaction predicted by AI. The 
+CSAT function is also used for closed-loop 
+veri/f_ication of optimization results. 
+Throughout the entire process of 
+network construction and operation, ZTE 
+prioritizes enhancing user perception. It 
+tailors network performance enhancement 
+solutions to match the unique characteristics 
+and requirements of operators. Over 
+the past decade, ZTE has driven the 
+development of high-quality networks. It 
+has now achieved a multitude of leading 
+network quality benchmarks in over 100 
+countries and regions, providing reliable 
+user perception guarantee for operators 
+worldwide. Drawing upon its rich experience 
+in global network operations as well as 
+its collaborative capabilities driven by 
+digitalization and intelligence, ZTE will 
+continue to help operators accelerate their 
+network automation and intelligence. This 
+eﬀort aims to reduce operational costs, 
+increase eﬃciency, expand revenue streams, 
+and empower digital transformation of the 
+industry. 
+35OCT 2023

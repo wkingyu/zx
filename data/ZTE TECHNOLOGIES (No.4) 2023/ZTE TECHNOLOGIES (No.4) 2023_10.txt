@@ -1,0 +1,94 @@
+power consumption. Indirect evaporative 
+cooling, extreme liquid cooling, and AI-driven 
+management reduce the PUE of our modern 
+data centers to 1.13. With TECS Cloud 
+Foundation (TCF), the distributed precision 
+cloud, computing resources are pulled from 
+cloud, edge, and terminal levels to enable 
+multi-service deployment and on-demand 
+scheduling.
+In terms of CNC and CPN, ZTE has 
+developed a one-stop ICT solution 
+integrating edge cloud. It features an 
+IaaS/PaaS cloud technology stack, and 
+supports heterogeneous computing as well 
+as the uni/f_ied planning, building, and O&M of 
+ICT infrastructure. As such, this solution has 
+provided practical guidance for the evolution 
+from edge computing to computing power 
+networks.
+Also, we actively explore computing and 
+network synergy to build a bridge between 
+the application layer and the network 
+layer, so that the network can sense service 
+demands and computing power resources, 
+implement computing power routing, and 
+realize on-demand scheduling/uni00A0across multiple 
+resource pools.
+In addition, ZTE is building/uni00A0an orchestration 
+center featuring uni/f_ied and open APIs. It 
+enables /f_lexible management in multi-vendor 
+and multi-cloud environments, and ensures 
+quality services that integrate “connectivity, 
+computing, and digital capabilities”. In this 
+way, we not only unlock new opportunities, 
+but also empower the digital transformation 
+of various industries in an agile and 
+cost-eﬀective manner.
+As industrial digitalization accelerates, we see 
+higher production and transaction eﬃciency.
+ZTE keeps working to improve production 
+eﬃciency for its partners.
+In the smart steelmaking plant of Ansteel, 
+our/uni00A0URLLC technology for remote control of 
+machinery/uni00A0 has been adopted on overhead 
+cranes, achieving “/f_ive 9s” availability, a 100% 
+increase in production eﬃciency, and a 20% 
+reduction in labor costs.computing power, and the convergence of 
+computing and network.
+To enhance network performance, ZTE 
+is dedicated to providing groundbreaking 
+products and solutions.
+The upgraded UniSite solution integrates 
+lightweight devices such as the UBR series, A+P 
+series, and broadband antennas, making it easy 
+to deploy multi-mode and multi-band sites.
+The 5G TSN solution provides deterministic 
+connectivity with “/f_ive 9s” availability, 
+guaranteeing a latency of less than 
+5 milliseconds and a jitter within microseconds 
+in industrial scenarios.
+Our SBFD system has increased the uplink 
+throughput to over 1.4 Gbps while reducing 
+the end-to-end latency to 4 milliseconds for a 
+single carrier.
+Integrated sensing and communication 
+(ISAC) base stations have boosted 
+low-altitude economy and made smart 
+transportation a reality.
+Our RedCap technology ful/f_ills the needs 
+of medium- and high-speed IoT scenarios at a 
+lower cost, greatly broadening the application 
+scope of 5G.
+The 400G OTN solution enables ultra-long-
+haul transmission, building the optical 
+infrastructure for China's East-to-West 
+Computing Resource Transfer Project.
+The FTTR solution provides a whole-
+home gigabit-plus broadband experience for 
+every household.
+On the way to level-4 autonomous 
+networks, we are using digital twins to create 
+mixed reality experiences and building 
+intent-based networks for human-machine 
+coordination, achieving end-to-end processing 
+within seconds and closed-loop O&M across 
+domains with self-X capabilities.
+As for computing power infrastructure, 
+ZTE provides a full range of server and 
+storage products, including general-purpose 
+servers, GPU servers/intelligent computing 
+clusters, liquid-cooled servers, and all-/f_lash 
+and hybrid /f_lash storage products. Cold plate 
+liquid cooling is applied to further reduce 
+08Executive Insights

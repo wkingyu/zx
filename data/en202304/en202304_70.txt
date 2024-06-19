@@ -1,0 +1,102 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research on Fall Detection System Based on Commercial Wi -Fi Devices    Research Papers
+ally falls toward the front of the direction of motion , there is a 
+certain similarity with the action of bending down to pick up , 
+while the sit -down -fall situation is easily confused with sitting 
+down and therefore easily to miss .
+6) Comparison of network sizes for different deep models . 
+We compare the scale of various deep networks , and the re ⁃
+sults of the comparison are shown in  Fig. 14. In the case of dif ⁃
+ferent features , the corresponding network models are smaller 
+in size because the DWT spectrum has fewer orders of fea ⁃
+tures compared with the original CSI magnitude information 
+and the STFT spectrum . From the results , the scale of the 
+model corresponding to using the DWT spectrum as features 
+is one order of magnitude less than the other two features . For 
+the different classification models , the CNN model has fewer 
+parameters than the LSTM model with the same size input , so 
+the network size is smaller . Overall , our system achieves bet ⁃
+ter performance by using a network model as small as possible .
+7) System latency analysis . To validate the efficiency of 
+our system , we deployed it on a laptop with an 8-core Intel 
+i7-6700  @2.60 GHz CPU and measured the system ’s run ⁃
+time. The system ’s runtime is mainly composed of feature 
+extraction and model classification . Experimental results 
+show that using 2 s of CSI information as input , the overall 
+average end -to-end runtime is 18.1 ms, with feature extrac ⁃
+tion taking 7.5 ms and model classification taking 10.6 ms. The results indicate that our system can achieve real -time 
+detection of fall actions .
+4 Conclusions
+In our work , a passive fall detection system based on Wi -Fi 
+is proposed . To better obtain information about the motion 
+state of the target , this work extracts the DWT spectrum from 
+the received raw signal to characterize the user ’s activity . To 
+achieve better classification results , this work designs a classi ⁃
+fier based on a deep learning model for fall detection . The ex ⁃
+perimental evaluation illustrates that our work achieves false 
+alarm and missed alarm rates of 4.8% and 1.9%, with better 
+performance than other existing works and systems .
+References
+[1] EROL B , AMIN M G , BOASHASH B , et al . Wideband radar based fall motion 
+detection for a generic elderly [C]//The 50th Asilomar Conference on Signals , 
+Systems and Computers . IEEE , 2017 : 1768 –1772 . DOI : 10.1109 /
+ACSSC .2016 .7869686
+[2] BIAN Z P , HOU J H , CHAU L P , et al . Fall detection based on body part track ⁃
+ing using a depth camera [J]. IEEE journal of biomedical and health informat ⁃
+ics, 2015 , 19(2): 430–439. DOI : 10.1109 /JBHI .2014 .2319372
+[3] STONE E E , SKUBIC M . Fall detection in homes of older adults using the mi ⁃
+crosoft kinect [J]. IEEE journal of biomedical and health informatics , 2015 , 19
+(1): 290–301. DOI : 10.1109 /JBHI .2014 .2312180
+[4] KAU L J , CHEN C S . A smart phone -based pocket fall accident detection , posi ⁃
+tioning , and rescue system [J]. IEEE journal of biomedical and health informat ⁃
+ics, 2015 , 19(1): 44–56. DOI : 10.1109 /JBHI .2014 .2328593
+[5] PIERLEONI P , BELLI A , PALMA L , et al . A high reliability wearable device 
+for elderly fall detection [J]. IEEE sensors journal , 2015 , 15(8): 4544 –4553 . 
+DOI: 10.1109 /JSEN .2015 .2423562
+[6] RAMEZANI R , XIAO Y B , NAEIM A . Sensing -Fi: Wi -Fi CSI and accelerom ⁃
+eter fusion system for fall detection [C]//Proceedings of 2018  IEEE EMBS Inter ⁃
+national Conference on Biomedical & Health Informatics (BHI). IEEE , 2018 : 
+402–405. DOI : 10.1109 /BHI .2018 .8333453
+[7] FOROUGHI H , ASKI B S , POURREZA H . Intelligent video surveillance for 
+monitoring fall detection of elderly in home environments [C]//The 11th Interna ⁃
+tional Conference on Computer and Information Technology . IEEE , 2009 : 219–
+224. DOI : 10.1109 /ICCITECHN .2008 .4803020
+[8] JUDERAJENDRAN P , DALALI S . A smart and passive floor -vibration based -
+fall detector for elderly [C]//The 2nd International Conference on Information & 
+Communication Technologies . IC -TTA, 2006 . DOI : 10.1109 /
+ICTTA .2006 .1684511
+[9] HAN Y T , LI H , ZHU G X , et al . Indoor target detection and localization 
+method based on WiFi [J]. ZTE technology journal . 2022 , 27(5): 46–52. DOI : 
+10.12142 /ZTETJ .202205009
+[10] LI F L , YANG W C , ZHANG X B . Design and application on collaborative net ⁃
+working scheme of 5G and WiFi 6 [J]. ZTE technology journal . 2022 , 27(4): 7–
+13. DOI : 10.12142 /ZTETJ .202204003
+[11] ABDELNASSER H , YOUSSEF M , HARRAS K A . WiGest : A ubiquitous 
+WiFi -based gesture recognition system [C]//IEEE Conference on Computer 
+Communications (INFOCOM ). IEEE , 2015 : 1472 –1480 . DOI : 10.1109 /
+INFOCOM .2015 .7218525
+[12] JIANG W J , MIAO C L , MA F L , et al . Towards environment independent de ⁃
+vice free human activity recognition [C]//The 24th Annual International Con ⁃
+ference on Mobile Computing and Networking . ACM , 2018 . DOI : 10.1145 /
+3241539 .3241548
+[13] KORANY B , KARANAM C R , CAI H , et al . XModal -ID: Using WiFi for 
+through -wall person identification from candidate video footage [C]//The 25th 
+▲Figure 13. Probability of missing alarms for different fall types
+Amp : amplitude
+CNN : convolutional neural networks
+DWT : discrete wavelet transformLSTM : long short -term memory
+STFT : short time Fourier transform
+▲Figure 14. Network size for models with different depthDifferent activitiesRate/%10
+8
+6
+4
+2
+0
+Trip Kneel -then -fall Sit-then -fall Slip
+Different workDWT+CNN DWT+LSTM STFT+CNN STFT+LSTM Amp+CNN Amp+LSTMNetwork size/MB1 000
+800
+600
+400
+200
+0
+67

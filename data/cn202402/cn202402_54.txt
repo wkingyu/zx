@@ -1,0 +1,49 @@
+生成式大模型承载网络架构与关键技术探索 唐 宏   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2生成式大模型承载网络架构与
+关键技术探索
+Network Architecture and Technologies for Large Generative Models
+唐宏/TANG Hong ，武娟/WU Juan ，徐晓青 /XU Xiaoqing ，
+张宁/ZHANG Ning
+（ 中国电信股份有限公司研究院 ，中国 广州 510630  ）
+(Research Institute of China Telecom Company Ltd . , Guangzhou 
+510630 , China )DOI：10.12142 /ZTETJ .202402008
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240408 .0924.004.html
+网络出版日期 ：2024 -04-09
+收稿日期 ：2024 -02-20
+摘要 ：生成式大模型训练需要超大规模低时延 、高带宽 、高可用的网络承载底座 。对生成式大模型下高性能网络基础设施的技术发展路线和实
+现方案进行了研究 ，认为商用部署时需针对不同训练阶段的工作负载和流量模式 ，开展定制化网络架构设计和传输协议优化 。流控/拥塞控制技
+术、负载均衡技术 、自动化运维技术和面向广域远程直接内存访问 （RDMA ）的确定性网络传输技术是未来的重点研究方向 。
+关键词 ：生成式大模型 ；RDMA ；网络拥塞控制 ；网络负载均衡
+Abstrac t:The training of large generative models has posed demands for ultra-large-scale , low latency , high bandwidth , and high-
+availability network infrastructure . The technological development roadmap and implementation schemes of high-performance network in ⁃
+frastructure for large models are investigated . It is believed that the customized network architecture design and transport protocol optimiza ⁃
+tion should be carried out based on workloads and traffic patterns at different training stages during commercial deployment . Flow control/
+congestion control technologies , load balancing technologies , automated operation and maintenance solutions , and deterministic network 
+transmission technologies for wide-area remote direct memory access (RDMA ) are key research directions for the future .
+Keywords :large generative model ; RDMA ; network congestion control ; network load balancing
+引用格式 ：唐宏 , 武娟 , 徐晓青 , 等. 生成式大模型承载网络架构与关键技术探索  [J]. 中兴通讯技术 , 2024 , 30(2): 50-55. DOI : 10.12142 /
+ZTETJ .202402008
+Citation ： TANG H , WU J , XU X Q , et al . Network architecture and technologies for generative models [J]. ZTE technology journal , 2024 , 30(2): 
+50-55. DOI: 10.12142 /ZTETJ .202402008
+1 生成式大模型对网络基础设施的挑战
+近年来 ，以ChatGPT 、Sora 为代表的通用生成式大模型
+的研究取得了显著进展 。生成式大模型的参数规模已
+实现了从千万级别到万亿级别的飞跃 ，并朝着十
+万亿级别前进[1]。由于数据量巨大 ，需要海量的
+图形处理器 （GPU）做并行计算 ，而大量的 GPU
+并行计算亟需强大的基础网络支撑 。与传统的数
+据中心网络架构相比 ，生成式大模型组网呈现以
+下新需求 ：
+1）超大规模组网[2]。在生成式大模型训练
+时，数据并行 、流水线并行和张量并行同时存
+在，如图 1所示 。数据并行和流水线并行所需的
+“参数面大网 ”需要跨服务器通信 ，规模可达十
+万甚至百万级别的卡数 ，具有超大规模 、高网络容量以及高接入带宽等特点 。而实现张量并行的 “参数面小
+网”则通常局限于单个服务器范围内 ，具有规模小 、容量超
+大以及高接入带宽等特点 。
+图1 3层模型上的并行计算GPU：图形处理器数据并行 ：不同 GPU 上运行
+同一批次不同子集流水线并行 ：不同 GPU 上
+运行模型不同层张量并行 ：分解单个运算的
+数学运算
+50

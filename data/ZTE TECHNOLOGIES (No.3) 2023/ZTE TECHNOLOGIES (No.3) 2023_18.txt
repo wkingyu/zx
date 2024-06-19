@@ -1,0 +1,87 @@
+at the production line/shop/f_loor levels. It 
+focuses on operational technology (OT) 
+domain applications in industrial production, 
+achieves ubiquitous connectivity of 
+production elements and deep integration 
+of OT and IT, and empowers digital and 
+intelligent transformation of industrial 
+manufacturing. ZTE, together with telecom 
+operators and industry partners, has carried 
+out extensive practice in the /f_ield of 
+industrial manufacturing.
+Full-Lifecycle Service 
+A production line integration and 
+service provider for certain equipment 
+manufacturing deploys ZTE’s 5G /f_ield 
+network solution on the production line of 
+its end customer. The 5G /f_ield network can 
+connect equipment on the production line, 
+collect equipment data in real time, and 
+provide full-lifecycle service including 
+production line assembly and debugging, 
+operation management, eﬃciency 
+management, energy consumption 
+management, predictive maintenance, 
+and health assessment based on ZTE’s 
+self-developed intelligent manufacturing 
+data service platform. In addition to 
+low-latency high-reliability end-to-end 
+deterministic capabilities, the 5G /f_ield 
+network also provides computing power 
+and deployment environments for data 
+acquisition and intelligent manufacturing 
+data service platform, thus achieving 
+all-in-one deployment of production, 
+network and applications, IT/OT integration, 
+and local real-time closed-loop of business 
+operations in production lines.
+Centralized Control
+A logistics automatic sorting line 
+provided by a logistics automation 
+equipment and system integrator to its 
+customer includes more than 20 PLCs 
+and several industrial control servers. The master PLC of the line body and the 
+slave PLC on the sorting trolley communicate 
+in real-time through WiFi and leaky-wave 
+cables, resulting in poor stability, high cost 
+and diﬃcult maintenance. When using the 
+5G /f_ield network, master PLCs of the line 
+body are cloudi/f_ied and deployed on the 
+industrial base station, while slave PLCs on 
+the sorting trolley are cloudi/f_ied and 
+deployed on the intelligent 5G industrial 
+gateway. Through 5G, the master and salve 
+PLCs can communicate in real time. 
+Therefore, centralized control of multiple 
+PLCs can be realized on the cloud and a 
+large number of PLCs and industrial control 
+servers are saved. This reduces costs and 
+improve reliability.
+Automatic Production
+ZTE Nanjing Binjiang Factory has built its 
+5G QCell production shop/f_loor based on the 
+5G /f_ield network. The 5G QCell production 
+shop/f_loor has achieved automated 
+production from raw materials to /f_inished 
+products. It reduces labor costs, increases 
+the product quali/f_ication rate, and improves 
+production eﬃciency. Its main application 
+scenarios include 5G-based GV, 5G-based 
+machine vision, 5G-based SMT, 5G-based 
+data acquisition, 5G-based cloud PLC, and 
+5G high-precision indoor positioning.
+ZTE’s 5G /f_ield network solution is 
+specially designed for 5G to enter the 
+core production process. It features 
+lightweight and simplicity, cloud-
+network integration, native determinism 
+capabilities, and customer self-service. As 
+a cloud-network base, it supports the 
+comprehensive connection of production 
+elements, production links, and business 
+processes. It is a preferred solution for 
+the construction of 5G fully-connected 
+factories in production lines/shop/f_loors, 
+enabling digital and intelligent upgrade 
+of industrial manufacturing.
+165G Fully-Connected Factory Special Topic

@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3SHEN Jiahao , JIANG Ke , TAN Xiaoyang Special Topic   Boundary Data Augmentation for Offline Reinforcement Learning
+This observation motivates some works[11–12] to formulate 
+the ORL problem as an uncertainty -penalizing policy optimi ‐
+zation problem , where some self -supervised methods are usu ‐
+ally adopted . These methods utilize the model prediction to 
+provide the supervised signal for OOD data . However , such a 
+prediction could be unreliable , highlighting the necessity of 
+carefully balancing the tradeoff between the so -called radical ‐
+ism and conservatism when dealing with OOD data .
+In this paper , we propose a novel method , named Boundary 
+Conservative Q Learning (Boundary -CQL; BCQL ), to improve 
+the robustness of the learned policy while keeping conserva ‐
+tive when dealing with the OOD data . Our key idea is to 
+weaken the agent ’s confidence in highly uncertain regions 
+while doing offline learning . To find those regions , we propose 
+simulating them with a modified Generative Adversarial Net 
+(GAN ) such that the generated data follow the same distribu ‐
+tion as the old experience but are very difficult to be dealt 
+with by themselves , with regard to some reference policies . In 
+practice , the reference policy could be an empirical behavior 
+policy or a pre -trained high -capacity policy , such as a CQL 
+policy . As the found uncertain region generated data is visu ‐
+ally located at the boundary of the distribution of the original 
+data, we call them boundary OOD data . Finally , we learn the 
+new policy via the Bellman operator while simultaneously 
+maximizing its entropy at the generated boundary OOD data , 
+hence decreasing the confidence in the estimation of the opti ‐
+mal actions . In this way , we effectively maintain a balance be ‐
+tween the minimization of Bellman error and policy conserva ‐
+tism. Extensive experiments on several publicly available of ‐
+fline RL benchmarks demonstrate the feasibility and effective ‐
+ness of the proposed method .
+It is worth noting that our method can also be thought of as 
+a self -supervised offline RL method but is unsupervised in na ‐
+ture, as we only use the reference policy to identify the most 
+difficult regions within the distribution defined by the training 
+experience , without showing the algorithm the exact actions to 
+be taken there . This is similar to those methods in machine 
+learning that improve their generalization capability by nega ‐
+tive sample mining[13–15] but has never been used in the case 
+of offline RL , to the best of our knowledge .
+In what follows , a brief review of related work is given in 
+Section 2, and a concise introduction to the background of of ‐
+fline RL is provided in Section 3. The description of the 
+boundary OOD data and BCQL method is presented in detail 
+in Section 4. Experimental results are presented in Section 5 
+to evaluate the effectiveness and properties of the proposed 
+method from multiple aspects . Finally , the paper concludes 
+with a summary of the findings and contributions .
+2 Related Work
+In this section , we briefly review some works most relevant 
+to our method in literature , which mainly involve offline RL 
+methods and OOD simulation methods .2.1 Offline Reinforcement Learning
+Offline reinforcement learning is one of the hottest research 
+directions in RL in recent years , where , as mentioned before , 
+the major challenge is how to handle the distribution shift 
+problem . This can be roughly divided into three categories : 
+the policy constraint , uncertainty -based , and regularization of 
+the value function . Regarding the policy constraint method , 
+the BCQ algorithm[16] addresses the exploration error caused 
+by the distribution shift through batch -constrained restriction . 
+The bootstrapping error accumulation reduction (BEAR ) algo ‐
+rithm[17] solves the problem of mismatch between the learning 
+strategy , optimal strategy , and sampling strategy through a 
+support set matching method and can achieve better results 
+even when the sampling strategy is poor . The behavior regu ‐
+larized actor critic (BRAC ) algorithm[18] tries to combine the 
+advantages of both BCQ and BEAR algorithms for better 
+learning efficiency . On the uncertainty -based approach , a 
+typical representative method is the random ensemble mix ‐
+ture (REM )[19] method , which uses multiple parameterized Q 
+functions to estimate Q values while enforcing Behrman con ‐
+sistency during learning .
+CQL[8] is one of the most representative methods of the third 
+category . It uses a regularization term to the traditional Q -
+value network so as to learn a relatively conservative Q func ‐
+tion. However , since CQL sets a strict restriction on OOD ac ‐
+tion evaluation , it could be overly conservative . There are 
+some works like IQL[9] and Mildly Conservative Q -learning 
+(MCQ )[20] trying to fix this issue , where instead of directly 
+learning actions out of data , known state action experience is 
+used to learn how action values vary and future outcomes are 
+averaged with random dynamics .
+2.2 OOD Solution Based on Generative Model
+OOD data in machine learning usually refer to the data that 
+are significantly different from the training data on which a 
+model is trained . These data are harmful to a machine learn ‐
+ing model as they could mislead the model to make incorrect 
+predictions . Hence , they have drawn the attention of many re ‐
+searchers in recent years[21]. Generative networks are useful 
+tools for high -dimensional sampling and have been widely 
+used to generate OOD data . The most popular generative mod ‐
+els include adversarial generation networks[22] and the autoen ‐
+coder/variational autoencoder[23].
+The work based on auto -encoder/variational auto -encoder 
+(PIDHORSKYI et al .)[24] used the variational auto -encoder to 
+calculate reconstruction errors to identify OOD . First , the 
+parametric manifold structure implied by the normal distribu ‐
+tion is linearized to calculate OOD probability . Next , the 
+method of probability decomposition is given , and then the lo ‐
+cal coordinates of the tangent space of the manifold are used 
+to calculate the reconstruction error . Competitive Reconstruc ‐
+tion Autoencoder (CoRA )[25] trained two autoencoders on the 
+in-distribution and abnormal data , respectively , and used the 
+30

@@ -1,0 +1,60 @@
+光接入网络遥测技术的分析与实践 刘 刚  等 技术广角
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3光接入网络遥测技术的分析与实践
+Analysis and Practice of Telemetry Technology in Optical Access Network
+刘刚/LIU Gang1，张德智 /ZHANG Dezhi1，
+陈爱民 /CHEN Aimin2
+（ 1.中国电信集团有限公司 ，中国 北京 100033 ；
+2.中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(1.China Telecom Co . , Ltd. , Beijing 100033 , China ;
+2.ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202303013
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230620 .1621.010.html
+网络出版日期 ：2023 -06-20
+收稿日期 ：2023 -04-12
+摘要 ：软件定义网络架构下的 Telemetry 遥测技术可以完成准确实时的网络测量任务 ，已成为网络感知的基础技术之一 。介绍了 Telemetry 技术
+的发展背景 ，分析了光接入网络遥测关键技术 ——数据订阅和数据发布 。中国电信的光接入网遥测实践表明 ，Telemetry 技术采集的数据精度
+高、准确性好 ，能够满足现网需求 。认为 Telemetry 技术将在未来自智网络 、数字孪生等领域获得广泛应用 。
+关键词 ：网络遥测 ；网元管理 ；软件定义网络 ；光接入网络
+Abstrac t:The telemetry technology under software defined network architecture can fulfill accurate real-time network measurement tasks , 
+and has become one of the fundamental technologies of network awareness . The development background of telemetry technology is intro ⁃
+duced , and the key telemetry technologies including data subscription and data publishing in optical access network are analyzed . The telem ⁃
+etry practice of China Telecom's optical access network has shown that telemetry technology collects data with high accuracy and can meet 
+the needs of the current network . It’s believed that the telemetry technology will be widely applied in future fields such as intelligent net ⁃
+works and digital twins .
+Keywords :network telemetry ; network element management ; software defined network ; optical access network
+引用格式 ：刘刚, 张德智 , 陈爱民 . 光接入网络遥测技术的分析与实践  [J]. 中兴通讯技术 , 2023 , 29(3): 73-78. DOI:10.12142 /ZTETJ .202303013
+Citation ： LIU G , ZHANG D Z , CHEN A M . Analysis and practice of telemetry technology in optical access network [J]. ZTE technology journal , 
+2023 , 29(3): 73-78. DOI:10.12142 /ZTETJ .202303013
+1 网络遥测的发展背景
+1.1 网络遥测的驱动力
+Telemetry 是一个传统技术术语 ，通常指一个自动通信过
+程，其中文字面意思是遥测 。该技术是一种远程数据采
+集技术 ，能够远程采集数据 ，并将数据传输到接收设备进行
+分析[1]。近年来 ，Telemetry 遥测技术因能够实时远程获得物
+理网络设备和虚拟网络设备的准确信息 ，在信息技术 （IT）
+和通信技术 （CT）行业中日益流行 。
+在Telemetry 遥测技术出现以前 ，常见的网络设备远程
+数据采集技术主要有 ：命令行界面 （CLI） 、简单网络管理协
+议（SNMP ）、 系 统 日 志 （SYSLOG ）、 网 络 配 置 协 议
+（NETCONF ） ，相应技术分析如表 1所示 。
+这些传统技术在用来获取网络设备运行状态信息时 ，存
+在诸多不足 ：
+1）不同数据采集技术能够获取的信息各有不同且不够
+完整 ，需要组合起来使用 ；2）在网络设备的各种状态信息中 ，除了告警和事件采
+用了实时性较好 、主动上报的 PUSH 推送模式以外 ，其他信
+息都只支持基于查询 &应答的 PULL 获取模式 。PULL 模式存
+在一些缺点 ：数据获取慢 、操作效率低 ；报文传输时延的不
+确定性导致采样数据的时间戳不精确 。
+3）网络设备各种状态信息的规范化程度不够高 ，很多
+都是设备厂家自定义的数据格式 ，不利于实现构建统一的数
+据分析平台 。
+随着当前网络规模不断扩大 、业务速率不断提高[2-5]，
+传统网络设备远程数据采集技术已经难以满足网络智能管控
+所需的 、不断提高的数据精度要求 。过于频繁的数据查询将
+大量消耗数据采集器和网络设备的运算资源和网络资源 ：网
+络设备提供的采样数据的准确性可能会劣化 ；数据处理延迟
+可能会加大 ，从而导致采样数据时间戳的准确性产生劣化 ；
+在极端情况下 ，部分网络设备可能会因处理性能的设计余量
+被过度透支而影响正常业务 。
+理想的 Telemetry 远程数据采集技术应当具备以下几个
+73

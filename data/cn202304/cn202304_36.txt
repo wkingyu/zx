@@ -1,0 +1,53 @@
+面向算力网络的云边端协同调度技术 周 旭  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4面向算力网络的
+云边端协同调度技术
+Cloud-Edge-End Collaborative Scheduling Technology for 
+Computing Power Network
+周旭/ZHOU Xu ，李琢/LI Zhuo
+（ 中国科学院计算机网络信息中心 ，中国 北京 100190  ）
+(Computer Network Information Center , Chinese Academy of Sciences , 
+Beijing 100190 , China )DOI：10.12142 /ZTETJ .202304007
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230717 .1804 .004.html
+网络出版日期 ：2023 -07-18
+收稿日期 ：2023 -05-23
+摘要 ：针对网络规模庞大 、资源分散和异构性等挑战 ，面向算力网络的云边端协同调度技术通过算力网络将云边端多级泛在算网资源整合在一
+起，从而形成一个庞大的 、跨越多个地域的资源池 。综合考虑网络实时状态 、用户需求等要素 ，该技术能够实现对算网资源的统一管理和动态
+调整，提升用户体验的同时降低企业运营成本和运维复杂度 。
+关键词 ：算力网络 ；云边端协同 ；协同调度技术
+Abstrac t:Faced with challenges such as a large scale of networks , dispersed and heterogeneous resources , the cloud-edge-end collabora ⁃
+tive scheduling technology for computing power networks integrates multi-level ubiquitous computing network resources from the cloud , 
+edge , and end into a large , cross-regional resource pool through the computing power network . By considering factors such as real-time 
+network status and user demands , the technology achieves unified management and dynamic adjustment of computing network resources , 
+improving user experience while reducing enterprise operation costs and maintenance complexity .
+Keywords :computing power network ; cloud-edge-end collaboration ; collaborative scheduling technology
+引用格式 ：周旭, 李琢 . 面向算力网络的云边端协同调度技术  [J]. 中兴通讯技术 , 2023 , 29(4): 32-37. DOI: 10.12142 /ZTETJ .202304007
+Citation ： ZHOU X , LI Z . Cloud-edge-end collaborative scheduling technology for computing power network [J]. ZTE technology journal , 
+2023 , 29(4): 32-37. DOI: 10.12142 /ZTETJ .202304007
+数字化时代带来海量数据的增长 。这种趋势推动了大量
+计算资源的需求增长 ，诸如数据中心 、边缘计算节点
+和各种终端设备等构成了一个庞大且复杂的分布式计算资源
+网络 。在这个网络中 ，有效地管理和调度各个节点的计算资
+源，以提供高效 、稳定的服务 ，是一大挑战 。传统的调度技
+术往往针对特定的场景和需求 ，无法满足多样化 、动态变化
+的计算需求 。此外 ，由于云端和边缘端的资源异构性 、地理
+分布的广泛性以及网络环境复杂性等 ，资源的管理和调度更
+加困难 。
+为了解决这一问题 ，云边端协同调度技术应运而生 。通
+过整合云 、边和端的资源 ，实现对资源的统一管理和动态调
+度，以最大化资源的利用率 ，保障用户的服务质量 。在算力网络的背景下 ，云边端协同调度技术的研究尤为必要[1]。算
+力网络将分布在各地的云端 、边缘端和终端设备的计算资源
+通过网络连接起来 ，形成一个分布式的 、动态的计算资源
+池。这个资源池可以实现对所有计算资源的统一管理和调
+度，从而提高资源的利用率 ，降低运营成本 ，提高服务质
+量[2]。在算力网络中使用云边端协同调度技术 ，可以充分利
+用网络的优势 ，有效满足复杂的网络环境和多样化的计算需
+求。因此 ，本文将重点阐述面向算力网络的云边端协同调度
+技术 ，探讨其在实际应用中的效果和关键技术[3-4]。
+1 分布式的云边端算力
+大数据和物联网等场景需要使用云计算和边缘计算技
+术，这样可以在全网广泛分布的设备上提供计算服务 ，将计
+算能力广泛分布到需要的地方 ，从而提高数据处理的效率 ，
+减少延迟 ，并提供更个性化 、地域化的服务 。基 金 项 目 ：国 家 重 点 研 发 计 划 （2018 YFB1800100 ） ；国 家 自 然 科 学 基 金
+（U1909204 ）
+32

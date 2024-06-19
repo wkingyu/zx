@@ -1,0 +1,72 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1WEI Guo , ZHAO Yajun , CHEN LiNear -Field Communication and Sensing Towards 6G   Special Topic
+Guest Editorial >>>
+Special Topic on Special Topic on 
+NearNear --Field Communication and Sensing Towards Field Communication and Sensing Towards 66GG
+6G wireless technologies involve dense device deploy ⁃
+ment , utilize large -scale antenna arrays , and operate in 
+the millimeter -wave and terahertz bands . This will shift 
+the challenges of communication and sensing from the 
+far field to the radiative near field , where traditional models 
+and algorithms may incur errors or even become obsolete due 
+to mismatch . Therefore , there is an urgent need to discuss lo ⁃
+calization and communication issues in the near -field region . 
+The near -field assumption allows us to capture more informa ⁃
+tion in electromagnetic signals , unlocking new possibilities for 
+improving communication quality and localization accuracy . It 
+can be anticipated that research on the near -field will play an 
+increasingly important role in 6G and future wireless networks .
+In this special issue on near -field communication and sens ⁃
+ing towards 6G, a series of articles are presented to summarize 
+the opportunities and challenges of communication sensing in 
+the near -field region and offer innovative solutions to some 
+key issues . A comprehensive review of near -field communica ⁃
+tions for 6G is provided , and other research articles encom ⁃
+pass a wide range of topics , including ambient Internet of 
+Things (ambient IoT ), channel estimation , degree of freedom 
+(DoF) analysis , beam training , and Bessel beams . The call for 
+papers for this special issue has attracted a series of high -
+quality submissions , indicating a high level of interest among 
+researchers in the field of near -field region . After two rounds 
+of rigorous review , the following six papers are presented in 
+this special issue organized as follows .The first paper titled “Towards Near -Field Communications 
+for 6G: Challenges and Opportunities ” conducts a comprehen ⁃
+sive survey on the challenges and opportunities in near -field 
+communication . The key technologies in 6G mobile networks 
+bring about a completely new near -field assumption . This re ⁃
+view article formulates a general model for near -field channels 
+and discusses the challenges in beam training , localization , 
+and transmission scheme design within the near -field region . 
+Finally , a series of promising research directions for near -field 
+communication are proposed and summarized .
+The second paper titled “Link Budget and Enhanced Com ⁃
+munication Distance for Ambient Internet of Things ” proposes 
+a low -noise amplifier (LNA ) module to increase the communi ⁃
+cation range of backscatter communication . Backscatter com ⁃
+munication is a key technology for ambient IoT and plays a 
+crucial role in connecting everything in B 5G and 6G systems . 
+By utilizing the LNA module before the envelope detection at 
+the tag to enhance the strength of the incident signal , the 
+downlink communication range is increased by nearly 20 m, 
+which holds the potential to address the challenges of high 
+losses and limited communication distance in backscatter 
+communication .
+The third paper titled “Impacts of Model Mismatch and Ar ⁃
+ray Scale on Channel Estimation for XL -HRIS -Aided Sys ⁃
+tems” investigates the lower bound of the estimated param ⁃
+eters for the extremely large -scale hybrid reconfigurable intel ⁃
+ligent surface (XL-HRIS ) and discusses the impact of its near -
+field effects on estimation accuracy . XL -HRIS is an improved 
+version of the reconfigurable intelligent surface (RIS), with the 
+potential to further enhance communication performance . 
+However , the increase in the size of RIS introduces near -field DOI: 10.12142 /ZTECOM .202401001
+Citation : G. Wei , Y. J. Zhao , and L . Chen , “Editorial : near⁃field communi ⁃
+cation and sensing towards 6G,” ZTE Communications , vol. 22, no. 1, pp. 
+1–2, Mar . 2024 . doi: 10.12142 /ZTECOM .202401001 .
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+WEI Guo
+ CHEN Li
+ ZHAO Yajun七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七Guest Editors
+01

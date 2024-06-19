@@ -1,0 +1,91 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Special Topic   Perceptual Optimization for Point -Based Point Cloud Rendering
+not enough to detect outliers . In addition , the local geometric 
+features easily fall into the local small sample situation . When 
+the points included in the local geometric features are all outli ⁃
+ers, the local judgment condition criteria will fall into local 
+condition satisfaction , resulting in outlier detection failure . 
+Therefore , it is limited to judging whether the detected points 
+are in an outlier state only by local geometric conditions , and 
+it is necessary to expand the geometric features and the capac ⁃
+ity of the point set in the judgment conditions . Therefore , the 
+global geometric features are added as a judgment condition 
+for outlier detection .
+Let the global geometric feature be R, which is calculated 
+in Eq . (6), where M is the number of bits in the global geomet ⁃
+ric point set .
+R=1
+M∑
+i=1M
+ri. (6)
+In order to reduce the complexity of the algorithm imple ⁃
+mentation , the actual rendering process can use the cumula ⁃
+tive means as a global geometric feature , which is calculated 
+in Eq . (7).
+R=1
+m∑
+i=1m
+ri, (7)
+where m is the ranking bit of the current detection point in the 
+rendering process .
+Therefore , based on Eq . (2), the criteria for determining out ⁃
+lier points for global geometric feature construction are :
+ri
+R=ri
+1
+m∑
+i=1m
+ri≤3
+. (8)
+When a detection point does not satisfy any of the determi ⁃
+nation conditions of the global condition and the local condi ⁃
+tion, the detection point is judged to be an outlier .
+2.3 Rendering Through Outlier Detection
+Before rendering the points in the point cloud sequence , the 
+outlier status is detected for each point . First , we input the 
+points in the point cloud sequence . Since the point cloud is dis ⁃
+ordered , we need to arrange the disordered points in the point 
+cloud sequence in an orderly manner to facilitate fast and effi ⁃
+cient retrieval . Therefore , the k -dimensional (KD)-tree[21] is con ⁃
+structed with the detection points as the core , and the points are 
+divided according to the tree structure to facilitate the subse ⁃
+quent nearest neighbor search . In constructing the KD -tree, we 
+follow the method in Ref . [20] to transform the distribution of 
+point sets in the point cloud sequence into a normal distribu ⁃
+tion. Thus , the prerequisite assumption of normal distribution of 
+data in Eq . (2) is satisfied . The global geometric feature R is cal ⁃
+culated according to Eq . (7). The points in the point cloud se ⁃quence are traversed  according to the order in the KD -tree, and 
+the rendering radius ri is calculated according to Eq . (1) after 
+searching the N nearest neighboring points of the current detec ⁃
+tion point . The local feature values E(r) and σr are calculated 
+according to Eqs . (3) and (4). The global and local conditions are 
+judged according to Eqs . (5) and (8) in turn , and if either of the 
+two judging conditions is not satisfied , the detected point is 
+judged to be in the outlier state . The rendering radius ri of the 
+point in the outlier state is set to the minimum rmin. When the de ⁃
+tected point satisfies both local and global detection conditions , 
+the rendering radius ri is not changed . Finally , the detected point 
+rendering radius ri is passed to the renderer for the rendering of 
+each point by the renderer . The specific flow of the rendering al ⁃
+gorithm through outlier point detection is shown in Fig. 2.
+Input point i in the point cloud 
+(i=1, 2, …, M)
+▲Figure 2. Flow chart of proposed rendering through the outlier detectionKD: k-dimensionalCalculate the global 
+density feature RBegin
+Build KD -tree i =0
+i=i+1
+Search the N nearest neighbor 
+points of point i
+Calculate rendering radius ri
+Calculate local features and 
+standard deviations E(r), σr
+|
+||||| |
+|||||ri-E(r)
+σr≤3ri
+R≤3i≤M
+The renderer receives the ren ⁃
+dering radius riri=rminYes
+YesYes
+NoNoEnd No
+50

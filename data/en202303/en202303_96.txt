@@ -1,0 +1,110 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Research Papers   Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems
+gorithm based on the positive semi -definite relaxation for the 
+PC architecture has been proposed in Ref . [11]. The HBF opti ‐
+mization algorithms based on element iteration and MO for the 
+PC architecture in the broadband system have also been pro ‐
+posed in Ref . [13].
+To achieve a good compromise between hardware costs and 
+system performance , other fixed hybrid architectures have 
+also attracted research attention recently . The authors in Ref . 
+[14] proposed a partially -fully connected architecture that 
+combines the FC and PC architectures and designed algo ‐
+rithms based on continuous interference cancellation and ma ‐
+trix factorization . The authors in Ref . [15] designed an alterna ‐
+tive minimization algorithm for this architecture . An over ‐
+lapped (OL) subarray architecture and a heuristic unified low -
+rank sparse recovery algorithm were proposed in Ref . [16]. 
+The authors in Ref . [17] proposed a generalized subarray -
+connected architecture , and developed a successive interfer ‐
+ence cancellation -based HBF algorithm along with an exhaus ‐
+tive search algorithm to maximize the system energy efficiency .
+Since the hardware costs and power consumption of 
+switches in mmWave massive MIMO systems are relatively 
+small[18–19], the dynamic hybrid architecture becomes a 
+promising approach to achieving a better balance between 
+hardware costs and system performance . The authors in Ref . 
+[20] proposed a greedy algorithm with low complexity to par ‐
+tition the antennas over RF chains . A low complexity algo ‐
+rithm to design the optimal partition using statistical chan ‐
+nel state information was proposed in Ref . [21]. The authors 
+in Ref . [22] considered the scenario of ultra -wideband 
+mmWave and terahertz frequency band and decomposed the 
+precoding problem into multiple subproblems under the FC 
+architecture .
+In this paper , we investigate the HBF algorithms with differ ‐
+ent hybrid architectures for broadband mmWave massive 
+MIMO systems , aiming at maximizing the spectral efficiency . 
+Based on the equivalence between the spectral efficiency 
+maximization (SEM ) problem and the weighted minimum 
+mean square error minimization (WMMSE ) problem , we de ‐
+sign the beamforming optimization algorithm to directly tackle 
+the original SEM optimization problem instead of the conven ‐
+tional indirect design approach of approximating the FDBF 
+matrix with the HBF matrix . We adopt the alternating minimi ‐
+zation method to decompose the joint transmitting and receive ‐
+ing HBF optimization problem into two sub -problems . It shows 
+that both the digital precoding and combining optimization 
+sub -problems have closed -form optimal solutions . To further 
+optimize the analog precoder and combiner , we apply the MO 
+method to deal with the constant modulus constraint . In con ‐
+trast to Ref . [11], where the MO method was applied to solve 
+the matrix approximation problem with the objective of mini ‐
+mizing the Frobenius norm between the FDBF matrix and the 
+HBF matrix of the FC architecture , in our work , the MO 
+method is applied to solve the HBF problem with the WMMSE objective and for arbitrary hybrid architectures by introducing 
+the Hadamard product of the analog precoder and a connec ‐
+tion matrix . Apart from the conventional FC and PC architec ‐
+tures , we consider the OL architecture and the PC architec ‐
+ture with dynamic subarrays (PC-dynamic architecture ). In 
+particular , we simulate three specific types of fixed OL archi ‐
+tectures with a uniform planar array (UPA ) and find that our 
+proposed HBF optimization algorithm could achieve a compro ‐
+mise between hardware costs and system performance com ‐
+pared with conventional fixed architectures . Besides , for the 
+PC-dynamic architecture , we derive a lower bound of the origi ‐
+nal WMMSE objective , based on which , and with some ap ‐
+proximations we formulate an eigenvalue maximization prob ‐
+lem. Then , we propose a greedy partition algorithm to optimize 
+the dynamic partition of subarrays . Simulation results show 
+that the PC -dynamic architecture with the proposed dynamic 
+partition algorithm can achieve significant performance im ‐
+provement over the fixed PC architecture .
+We denote matrices and vectors by boldface capitals and 
+lower -case letters respectively . (⋅)T and (⋅)H denote the 
+transpose and the complex conjugate transpose of a matrix or 
+vector , respectively . tr(⋅) and ⋅F represent the trace and 
+the Frobenius norm of a matrix , respectively . E[⋅] is the sta ‐
+tistical expectation , ⊙ is the Hadamard product of two matri ‐
+ces, IN denotes the N×N identity matrix , and CN(0, K) rep‐
+resents the circularly symmetric complex Gaussian distribu ‐
+tion with zero mean and covariance matrix K.
+2 System Model and Problem Formulation
+2.1 System Model
+In this paper , we consider the downlink of a broadband 
+mmWave MIMO -orthogonal frequency division multiplexing 
+(OFDM ) system with HBF , as shown in Fig . 1. The transmitter 
+first precodes Ns data streams , denoted by the vector 
+sk∈CNs×1, and at the k-th subcarrier uses a digital pre ‐
+coder  FBB, k∈CNt
+RF × Ns, for k=0,…, N-1 with N denoting the 
+number of subcarriers . Then , Nt
+RF output streams are trans ‐
+formed into the time domain by the N-point inverse fast Fou ‐
+rier transform . After adding cyclic prefixes (CPs), the signals 
+are further precoded by an analog precoder FRF∈CNt×Nt
+RF 
+composed of a number of phase shifters . It is worth noting that 
+in the HBF design for broadband systems , the digital beam ‐
+formers can be optimized for different subcarriers , in contrast , 
+the analog one is invariant for the whole frequency band and 
+thus FRF is not related to the subcarrier index . It is also worth 
+noting that FRF can represent different hybrid architectures . In 
+particular , we define a connection matrix 
+Up∈CNt×Nt
+RF,[Up]
+ij∈{0,1} to represent the connection strat ‐
+egy with any specific hybrid architecture , where [Up]
+i,j=1 in‐
+dicates that the j-th RF chain is connected to the i-th antenna . 
+94

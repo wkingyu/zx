@@ -1,0 +1,98 @@
+6G新型多址技术探讨 严春林  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1Internet of Things [C]//Proceedings of IEEE 83rd Vehicular 
+Technology Conference (VTC Spring ). IEEE , 2016 : 1-5. DOI : 
+10.1109 /VTCSpring .2016 .7504361
+[9] DAI X M , CHEN S Z , SUN S H , et al . Successive interference 
+cancelation amenable multiple access (SAMA ) for future wireless 
+communications [C]//2014  IEEE International Conference on 
+Communication Systems , IEEE , 2014 : 222-226
+[10] NIKOPOUR H , BALIGH H . Sparse code multiple access [C]// 
+2013  IEEE 24th Annual International Symposium on Personal , 
+Indoor , and Mobile Radio Communications (PIMRC ), 2013 , IEEE : 
+332-336
+[11] PING L , LIU L H , LEUNG W K . A simple approach to near-
+optimal multiuser detection : interleave-division multiple-access 
+[C]//Proceedings of IEEE Wireless Communications and 
+Networking , 2003 . IEEE , 2003 : 391-396. DOI : 10.1109 /
+WCNC .2003 .1200381
+[12] YAN C L , YUAN Y F . Spreading based multi-branch non-
+orthogonal multiple access transmission scheme for 5G [C]//
+Proceedings of IEEE 89th Vehicular Technology Conference 
+(VTC2019 -Spring ). IEEE , 2019 : 1-5. DOI : 10.1109 /
+VTCSpring .2019 .8746411
+[13] YUAN Z F , YAN C L , YUAN Y F , et al . Blind multiple user 
+detection for grant-free MUSA without reference signal [C]//
+Proceedings of IEEE 86th Vehicular Technology Conference 
+(VTC-Fall ). IEEE , 2017 : 1-5. DOI : 10.1109 /
+VTCFall .2017 .8288402
+[14] POLYANSKIY Y . A perspective on massive random-access [C]//
+Proceedings of IEEE International Symposium on Information 
+Theory (ISIT). IEEE , 2017 : 2523 -2527 . DOI : 10.1109 /
+ISIT.2017 .8006984
+[15] YUAN Y F , WANG S , WU Y P , et al . NOMA for next-generation 
+massive IoT : performance potential and technology directions 
+[J]. IEEE communications magazine , 2021 , 59(7): 115-121. DOI : 
+10.1109 /MCOM .001.2000997
+[16] DONOHO D L . Compressed sensing [J]. IEEE transactions on 
+information theory , 2006 , 52(4): 1289 -1306 . DOI : 10.1109 /
+TIT.2006 .871582
+[17] CANDES E , TAO T . Near-optimal signal recovery from random 
+projections : universal encoding strategies [EB/OL ]. (2004 -10-25)
+[2024 -01-10]. https ://arxiv .org/abs/math/ 0410542
+[18] DONOHO D L , MALEKI A , MONTANARI A . Message passing 
+algorithms for compressed sensing : II. analysis and validation 
+[C]//Proceedings of IEEE Information Theory Workshop on 
+Information Theory (ITW 2010 , Cairo ). IEEE , 2010 : 1-5. DOI : 
+10.1109 /ITWKSPS .2010 .5503228
+[19] MA J J , YUAN X J , PING L . Turbo compressed sensing with 
+partial DFT sensing matrix [J]. IEEE signal processing letters , 
+2015 , 22(2): 158-161. DOI: 10.1109 /LSP.2014 .2351822
+[20] LIU L , LIANG C L , MA J J , et al . Capacity optimality of AMP in 
+coded systems [J]. IEEE transactions on information theory , 
+2021 , 67(7): 4429 -4445 . DOI: 10.1109 /TIT.2021 .3083748
+[21] ORDENTLICH O , POLYANSKIY Y . Low complexity schemes for 
+the random access Gaussian channel [C]//Proceedings of IEEE 
+International Symposium on Information Theory (ISIT). IEEE , 
+2017 : 2528 -2532 . DOI: 10.1109 /ISIT.2017 .8006985
+[22] PRADHAN A K , AMALLADINNE V K , VEM A , et al . Sparse 
+IDMA : a joint graph-based coding scheme for unsourced 
+random access [J]. IEEE transactions on communications , 2022 , 
+70(11): 7124 -7133 . DOI: 10.1109 /TCOMM .2022 .3183590
+[23] HOWARD S D , CALDERBANK A R , SEARLE S J . A fast reconstruction algorithm for deterministic compressive sensing 
+using second order reed-muller codes [C]//Proceedings of 42nd 
+Annual Conference on Information Sciences and Systems . IEEE , 
+2008 : 11-15. DOI: 10.1109 /CISS .2008 .4558486
+[24] CALDERBANK R , THOMPSON A . CHIRRUP : a practical 
+algorithm for unsourced multiple access [J]. Information and 
+inference : a journal of the IMA , 2020 , 9(4): 875-897. DOI : 
+10.1093 /imaiai/iaz 029
+作 者 简 介
+                        严春林 ，中关村泛联移动通信技术创新应用研究
+院资深研究员 ；长期从事 Beyond 3G、4G、5G、
+6G研究工作 ，主要研究方向为 6G新型多址 、6G
+新波形 、非正交多址 、压缩感知 、MIMO 检测 、
+非线性预编码 ；2014 年独立提出基于 Gray 映射
+的多用户下行传输方案 ，该技术是 3GPP MUST
+项 目 的 关 键 技 术 ，2016 年 起 参 与 3GPP 5G 
+NOMA 项目 ，提出的传输方案达到业界先进水
+平；发表论文 30余篇，申请发明专利 20余项。
+                       袁 弋 非 ，中 国 移 动 研 究 院 首 席 专 家 、IEEE 
+Fellow 、海外高层次人才 、工信部无线与卫星通
+信委员会委员 、 《IEEE Communications Letters 》
+《China Communications 》编委 、 《汉斯 -无线通
+信》期刊主编 、3GPP 5G NOMA （非正交多址 ）
+Study Item 报告人 、IMT- 2030 （6G）新型多址
+接入任务组组长 ；长期从事 3G、4G、5G、6G的
+空口关键技术研究和标准化工作 ；获IEEE 通信协
+会亚太杰出论文奖 ，发表论文 60余篇，出版专著 12部，获美国授
+权专利 70余项。
+王森 ，中国移动研究院无线领域主任研究员 、6G
+新型无线传输团队负责人 ，IMT- 2030 推进组语
+义通信任务组副组长 ；主要研究方向为无线系统
+优化理论 、5G/6G空口关键技术及标准 ；发表论
+文30余篇，获发明专利 100余项。
+吕思颍 ，中国移动研究院研究员 ；研究方向为 6G
+超大规模 MIMO 、6G新型多址 j技术等 ；申请专
+利10余项。
+11

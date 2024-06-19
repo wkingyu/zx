@@ -1,0 +1,44 @@
+反无人机技术综述 ：通信技术与人工智能的融合 邱宝华 技术广角
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2[39] RAJESWARI K , ISHWARYA A , VAISHNAVI K K , et al . 
+Performance analysis of data fusion methods for radar and IRST 
+3D target tracking [C]//Proceedings of International Conference 
+on Wireless Communications , Signal Processing and Networking 
+(WiSPNET ). IEEE , 2017 : 2570 -2574 . DOI : 10.1109 /
+WiSPNET .2017 .8300227
+[40] ILYAS K , ULLAH I . A state estimation and fusion algorithm for 
+high-speed low-altitude targets [C]//Proceedings of 19th 
+International Multi-Topic Conference (INMIC ). IEEE , 2016 : 1-5. 
+DOI: 10.1109 /INMIC .2016 .7840127
+[41] LUO J Z , RONG C Z , JIA Y X , et al . Fusion of infrared and visible 
+images based on image enhancement and feature extraction [C]//
+Proceedings of 11th International Conference on Intelligent 
+Human-Machine Systems and Cybernetics (IHMSC ). IEEE , 
+2019 : 212-216. DOI: 10.1109 /IHMSC .2019 .00056
+[42] WANG A L , JIANG J N , ZHANG H Y . Multi-sensor image 
+decision level fusion detection algorithm based on D-S evidence 
+theory [C]//Proceedings of Fourth International Conference on 
+Instrumentation and Measurement , Computer , Communication 
+and Control . IEEE , 2014 : 620-623. DOI : 10.1109 /
+IMCCC .2014 .132
+[43] MIRZAEI G , JAMALI M M , ROSS J , et al . Data fusion of 
+acoustics , infrared , and marine radar for avian study [J]. IEEE 
+sensors journal , 2015 , 15(11): 6625 -6632 . DOI : 10.1109 /
+JSEN .2015 .2464232
+[44] 刘海燕 , 陈红林 , 史志富 , 等. 基于模糊贝叶斯网络的空中目标多传
+感 器 融 合 识 别 研 究  [J]. 电 光 与 控 制 , 2009 , 16(3): 37-41. DOI : 
+10.3969 /j.issn.1671 -637X.2009 .03.010
+[45] LECUN Y , BOTTOU L , BENGIO Y , et al . Gradient-based learning applied to document recognition [J]. Proceedings of the IEEE , 
+1998 , 86(11): 2278 -2324 . DOI: 10.1109 /5.726791
+[46] SZEGEDY C , LIU W , JIA Y Q , et al . Going deeper with 
+convolutions [EB/OL ]. [2024 -02-26]. http ://arxiv .org/abs/
+1409 .4842
+[47] 刘全 , 翟建伟 , 章宗长 , 等. 深度强化学习综述  [J].计算机学报 , 
+2018 , 41(1): 1-27. DOI: 10.11897 /SP.J.1016 .2018 .00001
+[48] 施巍松 , 孙辉, 曹杰, 等. 边缘计算 : 万物互联时代新型计算模型  [J]. 
+计 算 机 研 究 与 发 展 , 2017 , 54(5): 907-924. DOI : 10.7544 /
+issn1000 -1239 .2017 .2016094
+作 者 简 介
+邱宝华 ，中国移动通信集团广西有限公司总经理 ；
+主要研究方向为智能社会治理 。
+99

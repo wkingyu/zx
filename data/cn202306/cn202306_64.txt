@@ -1,0 +1,52 @@
+零信任关键技术与产业发展研究 张云畅  等 专家论坛
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6零信任关键技术与产业发展研究
+Key Technologies and Industrial Development of Zero Trust
+张云畅 /ZHANG Yunchang ，柴瑶琳 /CHAI Yaolin ，
+穆琙博 /MU Yubo
+（ 中国信息通信研究院 ，中国 北京 100083  ）
+(China Academy of information and Communications Technology , Beijing 
+100083 , China )DOI：10.12142 /ZTETJ .202306010
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231212 .1442 .004.html
+网络出版日期 ：2023 -12-13
+收稿日期 ：2023 -10-16
+摘要 ：零信任架构作为一种网络安全的新理念 、新架构 、新技术 ，基于“持续验证 ，永不信任 ”的核心思想 ，通过融合软件定义边界 、身份识
+别与访问管理 、微隔离三大技术 ，将重塑现有网络安全架构和网络安全设施 ，并深刻改变关键基础设施的部署与应用模式 ，带来网络安全领域
+的一场新变革 。从零信任演进与技术发展情况入手 ，分析零信任当前产业发展现状 ，通过对比全球零信任战略部署 、技术革新 、产业规划研提
+中国发展建议 。同时剖析中国零信任发展中的问题 ，研提中国在零信任顶层设计 、技术革新发展 、产业生态闭环的针对性建议 。
+关键词 ：零信任 ；零信任架构 ；网络安全战略
+Abstrac t:As a new concept , new architecture , and new technology of network security , zero trust architecture is based on the idea of "con ⁃
+tinuous verification , never trust" . By integrating software-defined borders , identity and access management , and micro-isolation technolo ⁃
+gies, zero trust architecture will reshape the existing network security architecture and network security facilities , and furthermore , pro⁃
+foundly change the deployment and application method of key infrastructure , leading to a new revolution in the field of network security . The 
+current status of the zero trust industry from the perspective of zero trust evolution and its technological development is analyzed , and the 
+suggestions on further development are provided by comparing global zero trust strategic deployment , technological innovation , and indus ⁃
+trial planning . At the same time , the problems in the development of zero trust in China are discussed . Finally , originating from the micro 
+level, targeted suggestions on the top-level design of zero trust , technological innovation and development , and closed-loop industrial ecol ⁃
+ogy are proposed .
+Keywords :zero trust ; zero trust architecture ; cyber security strategy
+引用格式 ：张云畅 , 柴瑶琳 , 穆琙博 . 零信任关键技术与产业发展研究  [J]. 中兴通讯技术 , 2023 , 29(6): 60-65. DOI: 10.12142 /ZTETJ .202306010
+Citation ： ZHANG Y C , CHAI Y L , MU Y B . Key technologies and industrial development of zero trust [J]. ZTE technology journal , 2023 , 29(6): 
+60-65. DOI: 10.12142 /ZTETJ .202306010
+网络安全是产业数字化升级中的关键保障 。近10年来层
+出不穷的网络安全问题不仅阻碍了各行业发展 ，更是
+减缓了产业革新的速度 ，迫使全球经济发展受到制约 。零信
+任作为破解当前困境的强有力手段 ，在其理念形成的初期便
+受到了业界的广泛关注 。各国高度重视零信任领域的战略布
+局和创新研究 ，抢抓国际新技术主导权 。中国也在不断推进
+零信任领域的技术创新应用 。如何借助零信任重塑网络安全
+架构 ，已成为中国网络安全领域的研究热点 。
+本文将围绕总体研究 、核心技术 、产业发展 3个方面 ，
+梳理零信任的发展态势 ，深入解析当前中国零信任产业发展
+存在的问题及其演进趋势 ，并提出发展建议 。1 零信任整体发展态势
+1.1 国际零信任战略部署加快
+零信任成为美国重塑政府整体网络安全架构的重要手
+段。2021 年5月12日，美国发布总统行政命令[1] “ （ 强制 ）
+要求联邦机构制定零信任安全架构的实施计划 ” 。2021 年9
+月7日，美国公布 《推动美国政府朝向零信任网络安全演进
+的基本准则 》[2]，明确指出各级政府部署零信任安全架构的
+时间表和发展目标 。2021 年11月，美国正式推出以零信任
+实施方案为核心的 Thunderdome[3]（雷霆穹顶 ）项目 ，这标
+志着全球首个零信任国家级战略部署计划正式启动 。2022
+年，美国白宫管理与预算办公室 （OMB ）发布备忘录 （编
+60

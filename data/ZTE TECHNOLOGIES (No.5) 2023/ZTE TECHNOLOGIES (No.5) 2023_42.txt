@@ -1,0 +1,92 @@
+telecom sector. ZTE actively cooperates with 
+telecom operators to jointly promote their 
+transformation to autonomous networks. 
+ZTE partners with three major operators in 
+Wuhan to implement precise 5G planning and 
+improve user experience through innovative NGI 
+applications. It makes grid-level or building-level 
+5G coverage evaluation based on NGI, performs 
+value evaluation based on complaint scenarios of 
+traﬃc terminals, and obtains multi-dimensional 
+building-level pro/f_iles. This approach focuses 
+on residential areas, identifying high-value 
+residential zones and providing guidance for the 
+application of scenario-based solutions. 
+ZTE’s alarm/uni00A0 automation/uni00A0 expert/equipment 
+fault protection (AAX/EFP) interfaces with 
+Hubei Mobile’s dual-platform production 
+system, facilitating rapid enhancement of 
+its automation capabilities. Leveraging the 
+AAX and EFP intelligent O&M solution, ZTE 
+implements seamless interconnection with 
+Hubei Mobile’s centralized fault management 
+system platform and automation platform for 
+alarm root cause diagnosis and identi/f_ication 
+of base station potential faults. After 
+interconnection, AAX achieves an accuracy of 
+over 90% in locating front-line O&M service 
+outage faults, resulting in a 30% improvement 
+in fault location eﬃciency. EFP reduces the 
+potential risk screening and handling process 
+work/f_low by 45%, leading to a 43% increase in 
+the average weekly handling of fault sites.
+ZTE’s poor NQI cell analysis and RAIS 
+interference analysis functions help Hubei 
+Mobile improve eﬃciency and quality 
+in multiple dimensions. The NQI tool is 
+successfully interconnected with Hubei 
+Mobile’s production system, and NQI analysis 
+tasks are established to ensure a 100% match 
+of performance tickets. Moreover, the system 
+algorithm is used to improve the eﬃciency of 
+both poor quality analysis and interference 
+analysis.
+Joint Innovation Maximizes Network Value
+Considering the speci/f_ic local network conditions and customer requirements in Wuhan, ZTE 
+tailored its approach and planned nearly 20 
+innovative projects for operators in early 2022. 
+Several key projects have been deployed in 
+the production environment and are being 
+continuously utilized. 
+In scenic spots such as Donghu Meiyuan and 
+Tan Hualin in Wuhan, ZTE assisted Hubei 
+Mobile in creating an ultimate experience. 
+Utilizing technologies such as 2.6G+4.9G 
+carrier aggregation, it oﬀers impressive 
+speeds of 2 Gbps for downlink and 300 Mbps 
+for uplink. 
+ZTE assisted Hubei Mobile in leveraging the 
+automatic AAPC weight optimization function 
+to automate network weight optimization 
+in scenarios involving overlap coverage 
+and out-of-service compensation. Through 
+statistical estimation of cell UE distribution 
+and neighbor cell interference by eNodeB, the 
+solution comprehensively considers network 
+coverage performance to achieve adaptive 
+adjustments. Additionally, it helps eNodeB 
+intelligently estimate optimal broadcast 
+weights, thus achieving optimal coverage.
+In certain university scenarios in Wuhan, ZTE 
+helped Hubei Telecom deploy the tidal AAPC 
+function on a large scale to address a variety 
+of coverage scenarios. This ensures adaptive 
+and /f_lexible adjustment of broadcast weights. 
+Through fast and intelligent network planning 
+and optimization, it minimizes network 
+deployment time and human resources, 
+resulting in optimal coverage and performance 
+gains across diﬀerent scenarios.  
+ZTE helped Hubei Telecom take the 
+lead to launch the innovative 5G AAU 
+automatic start/stop energy-saving solution, 
+minimizing the energy consumption of an 
+inactive AAU to less than 5W in a zero-traﬃc 
+status. This initiative has been put into 
+commercial use on a large scale in Wuhan, 
+providing full support to Hubei Telecom’s 
+eﬀorts to promote low-carbon operation 
+of its communication infrastructure. While 
+guaranteeing network performance and 
+user experience, it  maximizes the reduction 
+40Success Stories

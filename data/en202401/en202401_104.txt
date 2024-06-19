@@ -1,0 +1,77 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Research Papers   Filter Design of Wireless Base Station Power Supply
+tion point of the trace of the two solution sets is the solution to 
+the two equations .
+According to the calculation , combined with the program 
+written by Mathcad , the source impedance of the noise source 
+is solved , and the results are shown in Fig . 13.
+As shown in Fig . 13, the source impedance of the prototype 
+is capacitive in the middle and low frequency bands of the 
+conduction band and sensitive in the high frequency band . 
+Therefore , the high -frequency equivalent capacitance model 
+can be used to characterize the internal impedance character ⁃
+istics of the noise source .
+The corresponding source impedance expression is shown 
+as follows :
+Zs=Rs+1
+jωCs+jωLs . (20)
+The circuit parameters are obtained by mathematical fit ⁃
+ting: Rs=0.011 Ω, Cs=41.6 nF, and Ls=18.7 nH. The fitting re ⁃
+sults for the circuit parameters are shown in Fig . 14.
+According to Fig . 14, source impedance is approximately 
+capacitive in the range of 150 kHz to 5.7 MHz . In the range of 
+5.7 MHz to 30 MHz , the internal impedance of the CM noise 
+source is approximately inductive .
+In order to verify the accuracy of the insertion -loss method 
+to extract the internal impedance of the noise source , the Y ca⁃
+pacitors of 220 nF and 470 nF were connected to the proto ⁃type respectively , and the corresponding CM noise spectrum 
+was measured experimentally . The result is shown in Fig . 15.
+In Fig . 15, the red curve is the CM noise spectrum mea ⁃
+sured when the Y capacitor is connected , and the blue curve 
+is the CM noise spectrum calculated by the insertion -loss 
+method . This experiment verifies the accuracy of insertion -
+loss method in extracting the source impedance parameters of 
+the noise source .
+5 Impedance Mismatch Principle
+When impedance is matched , the signal can be transmitted 
+efficiently and completely . For filters , impedance mismatch 
+must be made . The transmission efficiency of the interference 
+signal is the lowest when impedance is mismatched . Taking 
+Fig. 16 for example , mismatch is achieved by adjusting the 
+values of Z1 and Z2 to adjust voltage distribution . The voltage 
+U2 assigned to Z2 is:
+U2=UZ2
+Z1+Z2 . (21)
+▲Figure 14. Fitting results for the circuit parameters▲Figure 13. Source impedance of common mode (CM) noise source
+▲Figure 15. Verification of insertion -loss methodCM: common mode1×1051×1061×1071×108Amplitude/ Ω
+f/Hz1×1051×1061×1071×108
+1×1051×1061×1071×108
+f/HzAmplitude/ Ω100
+10
+1
+0.1
+0.01
+0.001
+100
+10
+1
+0.1
+0.01
+0.001Fitting curve
+Source impedanceTesting 
+FittingCM noise current/dB μA50
+31.25
+12.5
+-6.25
+-25
+f/Hz
+(a) 220 nF
+1×1051×1061×1071×108
+f/Hz
+(b) 470 nFCM noise current/dB μA50
+31.25
+12.5
+-6.25
+-25Testing 
+Fitting
+100

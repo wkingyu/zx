@@ -1,0 +1,96 @@
+working and protection paths in 1:1 protection fail, the 
+SPN provides a rerouting protection solution. 
+Furthermore, if a connection between the management 
+and control system and a network device is interrupted, 
+the distributed control plane for network devices may 
+activate an escape route protection mechanism via 
+segment routing-best eﬀort/uni00A0 (SR-BE) tunnel using the 
+IGP protocol.
+ 
+Ubiquitous Coverage Capability
+The SPN is a uni/f_ied transport network that 
+carries 5G backhaul, government and enterprise 
+private lines, and enterprise-to-cloud services. With 
+more than 400,000 SPN devices already deployed, 
+its coverage area exceeds that of the optical 
+transport network (OTN) and the IP metropolitan 
+area network (MAN), but still smaller than that of the 
+packet transport network (PTN). Give the 
+importance of the last kilometer in rapid service 
+provisioning, operators need a network capable of 
+ubiquitous coverage. The deployment of indoor 
+distribution devices and small cells brings the SPN 
+network closer to the edge, enhancing its coverage 
+capability to some extent.
+Moreover, the deployment of SPN CPEs will greatly 
+contribute to achieving ubiquitous coverage. SPN 
+CPEs support FGU over a 10 GE interface, extending 
+Nx10 Mbps hard pipes to oﬃce desks of the 
+customer, facilitating end-to-end SPN slicing. With 
+reduced  capacity, they consume less power, enabling 
+access for ToB services. Their 1U height and smaller size 
+increase deployment /f_lexibility. Additionally, SPN CPEs 
+can network with MAN devices end-to-end through a 
+network-to-network interface (NNI), reducing 
+deployment diﬃculty. They also incorporate computing 
+power for real-time data collection and analysis, 
+enhancing data security by keeping data within the 
+campus.
+Self-Service Capability
+ZTE’s cloud native platform includes three engines 
+(intent, control and perception) and two 
+sub-platforms (big data and AI). The SPN 
+management and control system is built on this 
+platform, integrates network resources based on NE 
+capabilities, and provides multiple self-service 
+capabilities for customers.SLA visibility capability:  Real-time service 
+indicators of the network, such as traﬃc, latency, 
+jitter, and packet loss, can be exposed to third 
+parties. Government and enterprise customers 
+can develop web and app portal interfaces to 
+display SLA indicators in real time.
+Transparent provisioning capability:  The service 
+provisioning progress is visible so that customers 
+can track the the provisioning status in detail.
+Private network connection topology:  The SPN 
+management and control system provides a slice 
+view showing the connections between the 
+headquarters and branches of the industrial 
+customer, along with slice view-based 
+management and maintenance functions. 
+Online bandwidth adjustment: Based on 
+dynamic bandwidth requirements, enterprise 
+customers can submit bandwidth increase or 
+decrease orders online, which are then delivered 
+to the network through the service orchestration 
+and control system. Network devices support 
+lossless bandwidth adjustment.
+SPN Private Line Technology Trials
+The development of the SPN private line has gone 
+through many stages. In 2020, function-level 
+demonstrations were conducted, showcasing 
+large-granularity slicing, agile network provisioning, 
+and multiple network protection mechanisms. In 
+2021, trial commercial deployments started for 
+functions such as small-granularity private lines and 
+inband OAM with an aim to carry services for 
+government and enterprise customers like electric 
+power companies. In 2022, China Mobile launched a 
+major SPN private line initiative, conducting live trials 
+to validate the end-to-end transport of group 
+customer services through SPN slices and to promote 
+this technology in the market.  
+The main items tested in the initiative were:
+Service performance:  Evaluating end-to-end 
+service performance in various scenarios, and 
+comparing it with the current mode.
+Networking solution:  Comparing the advantages 
+and disadvantages of SPN networking solutions 
+for various scenarios, along with their 
+deployment, maintenance, management, and 
+ 
+ 
+ 
+ 
+Slicing Packet Network Special Topic 
+20 

@@ -1,0 +1,61 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Research Papers   Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems
+less communications , 2017 , 16(5): 2907–2920 . DOI : 10.1109 /
+TWC .2017 .2671869
+[21] JIN J N , XIAO C S , CHEN W , et al . Channel -statistics -based hybrid precoding 
+for millimeter -wave MIMO systems with dynamic subarrays [J]. IEEE transac ‐
+tions on communications , 2019 , 67(6): 3991–4003 . DOI : 10.1109 /
+TCOMM .2019 .2899628
+[22] YAN L F , HAN C , YUAN J H . A dynamic array -of-subarrays architecture and 
+hybrid precoding algorithms for terahertz wireless communications [J]. IEEE 
+journal on selected areas in communications , 2020 , 38(9): 2041–2056 . DOI : 
+10.1109 /JSAC .2020 .3000876
+[23] 3GPP. Study on channel model for frequencies from 0.5 to 100 GHz : TR 
+38.901 V16.2.0 [S]. 2020
+[24] LI H Y , LI M , LIU Q . Hybrid beamforming with dynamic subarrays and low -
+resolution PSs for mmWave MU -MISO systems [J]. IEEE transactions on com ‐
+munications , 2020 , 68(1): 602–614. DOI : 10.1109 /TCOMM .2019 .2950905
+[25] CHEN Y , CHEN D , JIANG T , et al . Channel -covariance and angle -of-
+departure aided hybrid precoding for wideband multiuser millimeter wave 
+MIMO systems [J]. IEEE transactions on communications , 2019 , 67(12): 
+8315–8328 . DOI : 10.1109 /TCOMM .2019 .2942307
+[26] CHEN Y , XIONG Y F , CHEN D , et al . Hybrid precoding for wideband milli ‐
+meter wave MIMO systems in the face of beam squint [J]. IEEE transactions on 
+wireless communications , 2021 , 20(3): 1847–1860 . DOI : 10.1109 /
+TWC .2020 .3036945
+Biographies
+TANG Yuanqi received her BS degree in communication science and engi ‐
+neering from Fudan University , China in 2022 , where she is currently pursuing 
+her MS degree . Her research interests include hybrid beamforming for massive 
+MIMO systems , millimeter wave signal processing and reconfigurable intelli ‐
+gent surface .
+ZHANG Huimin received her BS degree in communication science and engi ‐neering from Fudan University , China in 2021 , where she is currently pursuing 
+her MS degree . Her current research interests include hybrid beamforming for 
+massive MIMO systems and energy efficiency in intelligent reflecting surface -
+aided systems .
+ZHENG Zheng received his BS and PhD degrees in information science and 
+electronic engineering from Zhejiang University , China in 2013  and 2019 , re‐
+spectively . He is currently a senior algorithm engineer working on physical lay ‐
+er algorithms in ZTE Corporation . His research interests include wireless com ‐
+munications , array signal processing and artificial intelligence algorithms .
+LI Ping received her MS degree in communication and information engineering 
+from Xi’an Jiaotong University , China in 2004 . She is currently a senior algo ‐
+rithm system engineer at ZTE Corporation , responsible for national key proj ‐
+ects. Her research interests include digital signal processing , multiple antenna , 
+system performance optimization , reconfigurable intelligent surface , networking 
+technology , network planning , integrated sensing and communications (ISAC ), 
+and key technologies in 5G-A. She has applied for nearly 100 patents and pub ‐
+lished over 10 papers in various journals and conferences .
+ZHU Yu (zhuyu@fudan .edu.cn) received his BE degree (Hons .) in electronics 
+engineering and ME degree (Hons .) in communication and information engi ‐
+neering from the University of Science and Technology of China in 1999  and 
+2002 , respectively , and got his PhD degree in electrical and electronic engineer ‐
+ing from the Department of Electronic and Computer Engineering , The Hong 
+Kong University of Science and Technology , China in 2007 . Since 2008 , he has 
+been with Fudan University , China , where he is currently a professor with the 
+School of Information Science and Technology . His current research interests 
+include broadband wireless communication systems and networks and signal 
+processing for communications . He has served as an editor for the  IEEE Wire ⁃
+less Communications Letters , and as an editor of the Journal of Communications 
+and Information Networks .
+104

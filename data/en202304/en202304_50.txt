@@ -1,0 +1,66 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Perceptual Optimization for Point -Based Point Cloud Rendering    Special Topic
+Perceptual Optimization for Perceptual Optimization for 
+PointPoint --Based Point Cloud RenderingBased Point Cloud Rendering
+YIN Yujie , CHEN Zhang
+(School of Electronics and Information , Northwestern Polytechnical Uni ⁃
+versity , Xi’an 710129 , China )DOI: 10.12142 /ZTECOM .202304006
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231109 .1549 .001.html, 
+published online November 10, 2023
+Manuscript received : 2023 -10-05
+Abstract : Point -based rendering is a common method widely used in point cloud rendering . It realizes rendering by turning the points into 
+the base geometry . The critical step in point -based rendering is to set an appropriate rendering radius for the base geometry , usually calcu ⁃
+lated using the average Euclidean distance of the N nearest neighboring points to the rendered point . This method effectively reduces the 
+appearance of empty spaces between points in rendering . However , it also causes the problem that the rendering radius of outlier points far 
+away from the central region of the point cloud sequence could be large , which impacts the perceptual quality . To solve the above problem , 
+we propose an algorithm for point -based point cloud rendering through outlier detection to optimize the perceptual quality of rendering . 
+The algorithm determines whether the detected points are outliers using a combination of local and global geometric features . For the de ⁃
+tected outliers , the minimum radius is used for rendering . We examine the performance of the proposed method in terms of both objective 
+quality and perceptual quality . The experimental results show that the peak signal -to-noise ratio (PSNR ) of the point cloud sequences is im ⁃
+proved under all geometric quantization , and the PSNR improvement ratio is more evident in dense point clouds . Specifically , the PSNR of 
+the point cloud sequences is improved by 3.6% on average compared with the original algorithm . The proposed method significantly im ⁃
+proves the perceptual quality of the rendered point clouds and the results of ablation studies prove the feasibility and effectiveness of the 
+proposed method .
+Keywords : point cloud rendering ; outlier detection ; perceptual optimization ; point -based rendering ; perceptual quality
+Citation  (Format 1): YIN Y J , CHEN Z . Perceptual optimization for point -based point cloud rendering [J]. ZTE Communications , 2023 , 21(4): 
+47–53. DOI : 10.12142 /ZTECOM .202304006
+Citation  (Format 2): Y. J. Yin, Z. Chen , “Perceptual optimization for point -based point cloud rendering ,” ZTE Communications , vol. 21, no. 4, 
+pp. 47–53, Dec. 2023 . doi: 10.12142 /ZTECOM .202304006 .
+1 Introduction
+With the increasing demand for stereoscopic visual 
+effects and immersive experiences , 3D point 
+clouds are emerging as one of the primary three -
+dimensional data in various areas . Point clouds 
+are usually generated from sensor data , e.g., triangulation 
+and Time -of-Flight (ToF)[1]. A point cloud is a set of points in 
+a given coordinate system representing information about a 
+scene or an object , often complemented with per -point attri ⁃
+butes . This set of points may define the shape of real or 
+computer -generated objects or even complex scenes[2]. A 
+point cloud has both geometric and attribute features , where 
+the geometric features reflect the number of points in the 
+point cloud in relation to their position , while the attribute 
+features can contain additional information such as the color , 
+grey value , average vector and reflectivity of the points . 3D 
+point clouds[3−5] have found broad applications in manufactur ⁃
+ing, construction , environmental monitoring , navigation , ani⁃
+mation , rendering , etc.[6] However , various distortions may be introduced during the acquisition , compression[7], transmis ⁃
+sion, storage , and rendering processes of point clouds , lead ⁃
+ing to degraded perceptual quality[6]. Improving the Quality 
+of Experience (QoE)[8] of point clouds is very important for re ⁃
+lated applications .
+Point cloud rendering is the process of producing a visual 
+representation that can be consumed by users using an avail ⁃
+able display , e.g., conventional 2D, stereo , auto -stereoscopic , 
+head -mounted displays , etc.[9] The rendering process has a sig ⁃
+nificant impact on the quality perceived by the user[10]. Point 
+clouds have many properties that differ from traditional video 
+images . First , a point cloud is an unordered collection . Sec⁃
+ond, a point cloud is unstructured , and the relative positions 
+between individual neighboring points are not the same , which 
+means that even finding neighboring points requires traversing 
+all the points in the point cloud . Finally , point clouds are non -
+uniform . They are usually obtained by sampling a single ob ⁃
+ject, and the densities of points in different regions of the 
+same point cloud may vary significantly[11]. These characteris ⁃
+47

@@ -1,0 +1,132 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Incident and Problem Ticket Clustering and Classification Using Deep Learning    Research Papers
+We evaluate the probability of topic appearance for each in ⁃
+cident ticket and then cluster the topics using K-means . Fig. 4 
+shows the SSE curve and silhouette coefficient curve respec ⁃
+tively . The curves demonstrate more significant turning points 
+than the ones using the BoW model , indicating the LDA 
+model is more suitable for incident ticket clustering .
+With 14 topics , the SSE of LDA -allocated tokens is about 
+20, while the SSE of BoW is about 215, an order of higher 
+magnitude . Though it is unpragmatic to map the SSE score to 
+the exact accuracy , the lower the score the more accurate the 
+prediction . Similarly , the silhouette coefficient for LDA results 
+with 14 topics are about 0.37, compared with less than 0.10 
+using BoW models . As the score measures how apart of the 
+cluster ranging from −1 to 1, a value close to 1 indicates 
+clearly distinguished clusters .
+Table 3 shows the titles of tickets in one cluster . Storage 
+related problems consist of a majority of the tickets , espe ⁃
+cially during upgrade and backup stages . The next is net ⁃
+working issues .
+4.4 Incident Ticket Classification and Prediction
+Our ticket clustering experiments reveal that incident tick ⁃
+ets do have clustering characteristics . In order to take full ad ⁃
+vantage of prior knowledge , e.g., to assign coming tickets to 
+the same department which has resolved similar ones before , 
+we study the classification and prediction of incident tickets 
+in this section . We use a similar dataset with more fields , in⁃
+cluding ticket ID , ticket description , resolution , resolution 
+groups , categories , sub -categories , and components . After re ⁃
+moving null values , the categories and record numbers are 
+shown in Table 4.
+There are 115 sub -categories and 49 of them contain 1 000 
+records or more . The 49 sub -categories consist of 96% of the 
+total tickets , and 30 of them contain 3 000 records or more 
+consisting of 87% of the total records . When it comes to com ⁃
+ponents , there are 663 in total , among which there are 88 
+items with more than 1 000 records accounting for 79% of the 
+total amount , and 34 items with more than 3 000 records ac ⁃▼Table 3. Samples of title descriptions in one cluster
+ID
+BC20200229 -0052
+BC20200307 -0094
+BC20200309 -0105
+BC20200402 -0034
+BC20200404 -0051
+BC20200409 -0023
+BC20200411 -0045
+BC20200507 -0012
+BC20200511 -0058
+BC20200520 -0066
+BC20200603 -0025
+BC20200603 -0027
+BC20200618 -0066
+BC20200629 -0247
+BC20200630 -0257
+BC20200702 -0060
+BC20200705 -0002
+BC20200710 -0121
+BC20200710 -0123
+BC20200716 -0095
+BC20200722 -0207Title Description
+Backup of version 6.10.10.08 failed during upgrading
+Problems of 3.17.15.06P2 trusted resource pool
+Backup of 6.10.10.P8tecs6.0 environment failed
+Nova service failed due to version 3.17.15.06 license 
+problem during vHSS capacity increase
+Provider MariaDB failed to start after rebooting one 
+of the control node in group one
+Keystone service abnormal in the 5GC test node in 
+3.17.14 control environment
+Two of the disks failed when batch creating 32 35T 
+cloud disks reporting not sufficient space
+Mutual trust failed during Northeast 3.17.15.06P4 
+upgrading
+Part of the related information not updated after 
+changing configuration of 3.17.15.06P3 on Daisy
+One of the VMs failed during start reporting volume 
+not found after NFVINMA 1Z station upgrade
+Failure of V 03.17.15.06P4HP3 upgrading
+Multi -node upgrade failed due to 3.17.15.06P4 
+17.15.06P4HP3 mutual trust lost
+3.17.15.07_T2-daisy upgrade failed
+V3.17.14.P2Provider auto -backup service hang
+Network issues from two VMs on 3.17.15.06P4HP3
+Mirror file upload failed after V 03.17.15.07T2-Pro⁃
+vider upgrade
+Nova service down after 3.17.15.06P4HP3 upgrade
+3.17.15.08-OS distribution failed reporting mutual -
+trust issue
+40 VMs in shutoff status using 3.17.15.08 startup 
+script
+Not able to apply new license after 3.17.15.06P6-li⁃
+cense failed
+Tenant resource abnormal after tenants with the 
+same name createdClusterID
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+vHSS : virtual home subscriber server     VM : virtual machine
+▲Figure 4. K-means SSE and silhouette curves using latent Dirichlet al ⁃
+location (LDA ) modelSSE: sum of square errorNumber of clusters2    7 12 17  22 27 32 37 42 47SSE70
+60
+50
+40
+30
+20
+10
+2    7 12 17  22 27 32 37 42 47
+Number of clustersSilhouette coefficient0.35
+0.30
+0.25
+0.20
+0.15
+73

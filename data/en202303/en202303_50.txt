@@ -1,0 +1,161 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Research Papers   Massive Unsourced Random Access Under Carrier Frequency Offset
+Following the Bayesian theory , we derive the posterior prob ‐
+ability density of c and X given Y as
+p(c, X|
+|Y)∝∏n, mp()yn, m|zn, m∏ip()ci∏jp()xj,:|sj,:p()sj,:.(12)
+The variable dependencies are shown in a factor graph in 
+Fig. 1. Performing the minimum mean square error (MMSE ) or 
+maximum a posteriori (MAP ) estimation of Eq . (12) is imprac ‐
+tical since it comes down to marginalizing a joint distribution 
+with high dimensions . Therefore , we use an approximate mes ‐
+sage passing approach that is detailed in Section 3.2.
+3.2 Approximate Message Passing Algorithm for Signal 
+Reconstruction
+PBiGAMP[22] employs loopy belief propagation (BP) over 
+the factor graph to make approximate inferences of the mar ‐
+ginal . According to the sum -product rule and the central limit 
+theorem (CLT), messages passed between the edges of the fac ‐
+tor graph possess Gaussian approximations under the large 
+system limit assumption (i.e., 2B→∞). Message -passing com ‐
+ponent updates are given in Algorithm 1.
+Algorithm 1. MC -PBiGAMP for JADCE under CFO
+Input : Y, A, UN, Tmax, Tmc, τ
+Initialize : ∀n,m: ŝn,m(0)=0, ∀i, j, m: choose x̂j, m(1),  μx
+j, m(1), 
+ĉi(1),  μc
+i(1)
+for t=1,⋯,Tmax do
+  ∀n,m,i: ẑ()i,*
+n,m(t)=∑j=12Bz()i, j
+n,mx̂j,m(t)
+  ∀n,m, j: ẑ()*, j
+n,m(t)=∑i=1Nĉi(t)z()i, j
+n,m
+  ∀n,m: ẑ()*,*
+n,m(t)=∑i=1Nĉi(t)ẑ()i,*
+n,m()t=∑j=12Bẑ()*, j
+n,m(t)x̂j,m()t
+  μˉp
+n,m(t)=∑i=1Nμc
+i(t) ||ẑ()i,*
+n,m|()t2
++∑j=12Bμx
+j,m(t)|ẑ()*, j
+n,m|(t)|2
+  μp
+n,m(t)=μˉp
+n,m(t)+∑i=1Nμc
+i()t∑j=12Bμx
+j, m()t|z()i, j
+n, m|2
+  p̂n,m(t)=ẑ()*,*
+n,m(t)-ŝn,m(t-1)μˉp
+n,m(t)
+  μz
+n,m(t)=Var{zn,m|Y;p̂n,m(t), μp
+n,m(t), σw}
+  ẑn,m(t)=E{zn,m|Y;p̂n,m(t), μp
+n,m(t), σw}  μs
+n, m(t)=(1-μz
+n, m(t)/μp
+n, m(t))/μp
+n, m(t)
+  ŝn, m(t)=(ẑn, m(t)-p̂n, m(t))/μp
+n, m(t)
+  ∀j,m: μr
+j,m(t)=(∑n=1Nμs
+n,m(t)|ẑ()*, j
+n, m(t)|2)-1
+-        
+   μr
+j,m(t)x̂j,m(t)∑n=1Nμs
+n,m()t∑i=1Nμc
+i()t|z()i, j
+n,m|2
+  ∀i: μq
+i(t)=(∑n=1Nμs
+n,m(t)|ẑ()i,*
+n,m|(t)|2)-1
+-
+  μq
+i(t)ĉi(t)∑n=1N∑m=1Mμs
+n,m()t∑j=12Bμc
+i()t|z()i, j
+n,m|2
+  ∀j,m: μx
+j,m(t+1)=Var{xj,m|Y;r̂j,m(t), μr
+j,m(t), ρj,m(t), σx}
+  x̂j,m(t+1)=E{xj, m|Y;r̂j, m(t), μr
+j, m(t), ρj,m(t), σx}
+  ∀i: μc
+i(t+1)=Var{ci|Y;q̂i(t), μq
+i(t), λc, σc}
+  ĉi(t+1)=E{ci|Y;q̂i(t), μq
+i(t), λc,σc}
+if   Ẑ()*,*()t-Ẑ()*,*() t-12
+F≤τẐ()*,*()t2
+F, stop
+end for
+Output : ĉ=ĉ(t), X̂=X̂(t)
+The reader can refer to Ref . [22] for detailed derivations . 
+Briefly , the calculation of messages from all variable nodes 
+{ci}∀i and {xj,m}∀j.m to factor node p(yn,m|zn,m) takes on the form 
+of a complex Gaussian distribution CN(zn,m;p̂n,m, μp
+n,m). With 
+p(yn,m|zn,m)=exp(-  yn,m-zn,m2
+/σ2
+w)/πσ2 under AWGN , the 
+marginal posterior p(zn,m|Y) is inferred as
+p(zn,m|Y;p̂n,m, μp
+n,m, σw)=CN(zn,m;ẑn,m, μz
+n,m), (13)
+with
+ẑn,m=μp
+n,myn,m+σ2
+wp̂n,m
+μp
+n,m+σ2
+w  , (14)
+μz
+n,m=μp
+n,mσ2
+w
+μp
+n,m+σ2
+w, (15)
+where ŝn,m and μs
+n,m are the scaled residual and the residual 
+variance , respectively . Again , the message from factor node 
+p(yn,m|zn,m) to variable node ci is approximately Gaussian 
+(CN(ci;q̂i, μq
+i)). We reach the estimation of the posterior 
+mean and variance of p(ci|Y) as
+ĉi=E{ci|Y;q̂i, μq
+i,λc, σc}=λcq̂iσ2
+c
+μq
+i+σ2
+c , (16)
+μc
+i=Var{ci|Y;q̂i, μq
+i, λc, σc}=λcμq
+iσ2
+c
+μq
+i+σ2
+c+λc() 1-λc||ĉi2.
+(17)
+ ▲Figure 1. Factor graph for Bayesian inference（a） （b）icinxj，m
+m
+jp (yn,m｜zn,m) p (xj,m｜sj,m)
+p (xj,1｜sj,1)p(sj，1）
+sj，1
+p (sj,2｜sj,1)
+sj，2
+sj，M-1
+sj，Mp (xj,2｜sj,2)
+p (xj,M-1｜sj,M-1)
+p (sj,M｜sj,M-1)
+p (xj,M｜sj,M)
+48

@@ -1,0 +1,76 @@
+ensure precise network deployment, 
+accurate user coverage, and ultimately 
+safeguard investments. 
+Promoting Large-Scale FTTH 
+Development to Create Digital Future 
+in Indonesia
+At present, Link Net has built a FTTH 
+network with over 3 million home passed, 
+covering 27 cities across the country. The 
+construction of all-optical broadband 
+infrastructure has also provided Link Net with 
+a higher competitive edge in the market, 
+facilitating the growth of new services. By 
+employing leading and innovative high-end 
+products on a long term, Link Net has 
+achieved a high ARPU of over IDR340,000 
+and a /f_ixed broadband package bundling 
+rate of more than 95%. By the end of 2022, 
+its enterprise business revenue had grown 
+by 16.4% year-over-year. In the future, it aims 
+to become an infrastructure provider with 
+the goal of 8 million FTTH home passed 
+in the next /f_ive years, oﬀering all-optical 
+access network services to more enterprise 
+and home users. After the FTTH network 
+is delivered quickly on a large scale, Link 
+Net will oﬀer faster and more stable /f_ixed 
+broadband network connections for 
+Indonesian /f_ixed-line users, along with a 
+wider range of innovative digital services, 
+ensuring that every household can fully 
+enjoy the convenience and opportunities of 
+the digital era.
+ 
+ 
+lengths ranging from 50 meters to 1000 
+meters, allowing for /f_lexibe adaptation to the 
+existing network infrastructure. Moreover, 
+the pre-connectorized optical cables are 
+lightweight with fewer /f_iber cores, enabling 
+installation by just two on-site personnel. 
+This has led to a reduction of approximately 
+40% in the construction timeline of Link 
+Net’s FTTH network. 
+Visible and manageable optical network: 
+The Light up ODN functional module is 
+added to the ODN device, where each 
+Light ODN device has a unique QR code 
+or pre-connectorized cable barcode. With 
+the customized Light up app on a mobile 
+phone, the user can easily scan and record 
+the serial number and port information. At 
+the same time, using AI cameras to identify 
+ODN port usage and automatically upload 
+the data to the network management 
+platform. The platform, which integrates 
+a GIS system, displays the  ODN topology, 
+signi/f_icantly reducing the workload for the 
+Link Net O&M team. This achieves a a visual 
+and manageable ODN network, leading to 
+a reduction of approximately 30% in O&M 
+costs for Link Net, with an operational cost 
+reduction of $0.20 per ODN port per year. 
+Precise deployment for investment 
+protection:  The deployment ratio of 
+distributed sites, especially in base station 
+areas, rural suburbs, and phased HFV 
+transformation areas, can be increased. 
+Link Net selects the deployment of 
+small-capacity Light PON solutions to 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 39

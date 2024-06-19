@@ -1,0 +1,50 @@
+大语言模型时代的智能运维 裴 丹   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 25 结束语
+在LLM 时代 ，AIOps 是多 AIOps 智能体的人机协同系
+统。这一体系的核心在于运维人员 、岗位型智能体和工具型
+智能体之间的紧密合作和交流 。通过人机协同 ，运维人员可
+以利用 LLM 的强大能力 ，更高效地处理各种复杂的运维任
+务和问题 。与此同时 ，岗位智能体和工具智能体作为 LLM
+的延伸和应用 ，为运维人员提供了更多的支持和辅助 ，进一
+步提升了整个运维系统的智能化水平 。这种多 AIOps 智能体
+的人机协同系统不仅能够提高运维效率和质量 ，还能够适应
+运维领域日益复杂和多变的需求 ，为企业的稳定运行和持续
+发展提供了有力的技术支持 。因此 ，多AIOps 智能体的人机
+协同系统具有重要的理论和实践意义 ，值得进一步深入研究
+和应用 。
+参考文献
+[1] RADFORD A , NARASIMHAN K , SALIMANS T , et al . Improving 
+language understanding by generative pre-training [EB/OL ]. 
+[2024 -03-08]. https ://cdn .openai .com/research-covers/
+language-unsupervised/language_understanding_paper .pdf
+[2] 裴丹, 张圣林 , 裴昶华 . 基于机器学习的智能运维  [J]. 中国计算机学
+会通讯 , 2017 , 13(12): 68-72 
+[3] ZHOU H Y , YU Y Z , WANG C D , et al . A transformer-based 
+representation-learning model with unified processing of 
+multimodal input for clinical diagnostics [J]. Nature biomedical 
+engineering , 2023 , (7): 743-755. DOI : 10.1038 /s41551 -023-
+01045 -x
+[4] LangChain [EB/OL ].[2024 -03-08]. https ://www .langchain .com/
+[5] ChatMed : a Chinese medical large language model [EB/OL ]. 
+[2024 -02-04]. https ://github .com/michael-wzhu/ChatMed
+[6] LIU Y H , PEI C H , XU L L , et al . OpsEval : a comprehensive task-
+oriented AIOps benchmark for large language models [EB/OL ]. 
+[2024 -03-08]. https ://arxiv .org/abs/ 2310 .07637作 者 简 介
+裴丹 ，清华大学计算机系长聘副教授 、博士生导
+师，ACM/IEEE 高级会员 ；主要研究方向为基于
+机器学习的智能运维 ；发表论文 200余篇 ，授权
+专利 30余项。
+张圣林 ，南开大学软件学院副教授 、博士生导师 ；
+主要研究方向为基于机器学习的智能运维 ，包括
+异常检测 、故障定位 、根因分析等 ；主持国家自
+然科学基金项目 2项；发表论文 40余篇。
+孙永谦 ，南开大学软件学院副教授 ；主要研究方
+向为智能运维 ，包括异常检测 、异常定位 、告警
+聚合收敛 、故障定位分析等 ；发表论文 30余篇。
+裴昶华 ，中国科学院计算机网络信息中心副研究
+员；主 要 研 究 方 向 为 智 能 运 维 、AI for 
+Networking 、机器学习 ；承担国家重点研发计划
+子课题 、国家自然科学基金项目和中国科学院网
+信专项等项目 ；发表论文 20余篇。
+62

@@ -1,0 +1,113 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3DING Jianwen , LIU Yao , LIAO Hongjian , SUN Bin , WANG Wei Research Papers   Statistical Model of Path Loss for Railway 5G Marshalling Yard Scenario
+certain applicable values in the marshalling yard scenario .
+6 Challenges
+In the statistical model , the path loss will increase with the 
+growing of the distance between transceiver antennas as a 
+whole . There is no need to consider detailed environmental in ‐
+formation when the large -scale fading empirical model is ap ‐
+plied to the scenario . In specific environments , such as rail ‐
+way marshalling yards , the transmission of radio waves may 
+encounter fading and other conditions , resulting in changes in 
+the final received power to reach the user , making it difficult 
+to determine the specific value of the calculated path loss . 
+This is also a deficiency of large -scale fading empirical mod ‐
+els. In the future , it is hoped to re -validate predictions with 
+the help of deterministic modeling , machine learning and 
+other methods to achieve higher prediction accuracy .
+7 Conclusions
+In this paper , the calculation method of the propagation de ‐
+marcation point for marshalling yard scenarios is proposed 
+and verified to improve the accuracy of the subsequent empiri ‐
+cal model . Based on numerous measured data , a large -scale 
+path loss statistical empirical model for marshalling yard sce ‐
+narios is established , and the propagation boundary point is re ‐
+garded as the model segmentation point . The path loss in Area 
+A conforms to the two -path model , and that in Area B is close 
+to the logarithmic model . According to the measurement data 
+in different cells , the correction factor in the marshalling yard 
+scenario is fitted with the Hata model as the benchmark . Fi‐
+nally , the shortcomings and improvements that need to be 
+made to the statistical model are discussed .
+References
+[1] AI B , MOLISCH A F , RUPP M , et al . 5G key technologies for smart railways 
+[J]. Proceedings of the IEEE , 2020 , 108(6): 856–893. DOI : 10.1109 /
+JPROC .2020 .2988595
+[2] ZHONG Z D , GUAN K , CHEN W . Challenges and perspective of new genera ‐
+tion of railway mobile communications [J]. ZTE Technology Journal , 2021 ,  27
+(4): 44-50. DOI :10.12142 /ZTETJ .202104009
+[3] AI B , GUAN K , RUPP M , et al . Future railway services -oriented mobile commu ‐
+nications network [J]. IEEE communications magazine , 2015 , 53(10): 78–85. 
+DOI: 10.1109 /MCOM .2015 .7295467
+[4] ZHAO Y J , ZHANG J Y , AI B . Applications of reconfigurable intelligent sur ‐
+face in smart High speed train communications [J]. ZTE Technology Journal , 
+2021 ,  27(4): 36-43. DOI : 10.12142 /ZTETJ .202104008
+[5] YANG M , HE R S , AI B , et al . Measurement -based channel characterization for 
+5G wireless communications on campus scenario [J]. ZTE communications , 
+2017 , 15(1): 8–13. DOI : 10.3969 /j.issn.1673 -5188 .2017 .01.002
+[6] LU J H , ZHU G , AI B . Radio propagation measurements and modeling in rail ‐
+way viaduct area [C]//6th International Conference on Wireless Communica ‐
+tions Networking and Mobile Computing (WiCOM ). IEEE , 2010 : 1–5. DOI : 
+10.1109 /WICOM .2010 .5600926
+[7] WEI H , ZHONG Z D , GUAN K , et al . Path loss models in viaduct and plain sce ‐
+narios of the High -speed Railway [C]//5th International ICST Conference on 
+Communications and Networking in China . IEEE , 2010 : 1–5. DOI : 10.4108 /
+iwoncmm .2010 .3
+[8] HE R S , ZHONG Z D , AI B . Path loss measurements and analysis for high -
+speed railway viaduct scene [C]//6th International Wireless Communications and Mobile Computing Conference . New York : ACM , 2010 : 266–270. DOI : 
+10.1145 /1815396 .1815458
+[9] NEWHALL W G , SALDANHA K J , RAPPAPORT T S . Propagation time delay 
+spread measurements at 915 MHz in a large train yard [C]//IEEE Vehicular Tech ‐
+nology Conference . IEEE , 2002 : 864–868. DOI : 10.1109 /VETEC .1996 .501434
+[10] KNORZER S , BALDAUF M A , FUGEN T , et al . Channel modelling for an 
+OFDM train communications system including different antenna types [C]//
+64th Vehicular Technology Conference . IEEE , 2006 : 1–5. DOI : 10.1109/
+VTCF .2006 .55
+[11] KNORZER S , BALDAUF M A , FUGEN T , et al . Channel analysis for an 
+OFDM -MISO train communications system using different antennas [C]//66th 
+Vehicular Technology Conference . IEEE , 2007 : 809–813. DOI : 10.1109 /
+VETECF .2007 .178
+[12] BRISO -RODRÍGUEZ C , FRATILESCU P , XU Y Y . Path loss modeling for 
+train -to-train communications in subway tunnels at 900/2400  MHz [J]. IEEE 
+antennas and wireless propagation letters , 2019 , 18(6): 1164–1168 . DOI : 
+10.1109 /LAWP .2019 .2911406
+[13] TANG P . Channel characteristics for 5G systems in urban rail viaduct based 
+on ray -tracing [C]//4th International Seminar on Research of Information Tech ‐
+nology and Intelligent Systems (ISRITI ). IEEE , 2022 : 24–28. DOI : 10.1109 /
+ISRITI 54043 .2021 .9702771
+[14] MOLISCH A F . Wireless communications [M]. Hoboken , USA : John Wiley & 
+Sons, 2005
+[15] WEN Y H , MA Y S , ZHANG X Y , et al . Channel fading statistics in high -
+speed mobile environment [C]//IEEE -APS Topical Conference on Antennas 
+and Propagation in Wireless Communications (APWC ). IEEE , 2012 : 1209–
+1212 . DOI : 10.1109 /APWC .2012 .6324963
+Biographies
+DING Jianwen received his MS and PhD degrees from Beijing Jiaotong Uni ‐
+versity , China in 2005  and 2019 , respectively . He is currently a professor of Na ‐
+tional Research Center of Railway Safety Assessment , Beijing Jiaotong Univer ‐
+sity. He received the first prize of progress in science and technology of the Chi ‐
+nese Railway Society . His research interests are broadband mobile communica ‐
+tions , dedicated mobile communication system for railway , and safety communi ‐
+cation technology for train control system .
+LIU YAO (21120095 @bjtu .edu.cn) received her BE degree in communication 
+engineering from Lanzhou Jiaotong University , 2021 , China . She is currently 
+working toward a master ’s degree with the State Key Laboratory of Rail Traffic 
+Control and Safety , Beijing Jiaotong University , China . Her research interests 
+include wireless communications and 5G-R.
+LIAO Hongjian received his BE degree in communication engineering from 
+Beijing Jiaotong University , China in 2020 . He is currently working toward a 
+master’s degree with the State Key Laboratory of Rail Traffic Control and Safe ‐
+ty, Beijing Jiaotong University , China . His research interests include wireless 
+communications and 5G-R.
+SUN Bin received his BS degree in electronic engineering and MS degree in 
+electronic engineering from Beijing Jiaotong University , China in 2004  and 
+2007 , respectively . From 2007  to 2015 , he was a R&D manager with BeiJing 
+LiuJie Technology Co ., Ltd. He is currently an assistant researcher with Nation ‐
+al Research Center of Railway Safety Assessment , Beijing Jiaotong University . 
+His main research interest is the interconnection and interworking of core net ‐
+work for dedicated railway mobile communication system .
+WANG Wei is the LTE -R technical director and a railway wireless communica ‐
+tion system expert of ZTE Corporation , with rich experience of the GSM -R system 
+design . He has a deep understanding of GSM -R and LTE -R and has undertaken 
+several major railway -related projects on wireless communication systems .
+122

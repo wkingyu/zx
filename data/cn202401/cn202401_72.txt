@@ -1,0 +1,53 @@
+超大规模天线阵列下的多用户快速波束训练 司 源  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1超大规模天线阵列下的多用户
+快速波束训练
+Fast Beam Training for Multiuser on Extremely Large Aperture Array
+司源/SI Yuan1，2，禹宏康 /YU Hongkang1，2，
+陈艺戬 /CHEN Yijian1，2
+（ 1.中兴通讯股份有限公司 ，中国  深圳  518057 ；
+2.移动网络和移动多媒体国家重点实验室 ，中国  深圳  518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia Tech ⁃
+nology , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202401012
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .tn.20240223 .1752 .002.html
+网络出版日期 ：2024 -02-26
+收稿日期 ：2024 -01-06
+摘要 ：天线阵列孔径增加提升了波束赋形增益 ，但更窄的波束使得传统的波束训练方法开销成倍增加 ，制约了系统支持的用户数目 。研究了基
+于哈希函数的快速 、低复杂度新型波束训练方案 ，可以用较低的训练开销在支持更多用户的同时进行波束训练 ，在此基础上提出了随机及固定
+两种码本设计方法 ，并对波束对齐成功概率进行理论分析 。由于推导得到的波束对齐成功概率是一个复杂函数 ，无法用于指导码本设计 ，为此，
+研究提出一个简单的启发式指标用于评估码本生成参数对性能的影响 。仿真结果验证了理论分析的正确性 ，表明所提波束训练方案能够以低训
+练开销快速实现多用户波束对齐 ，同时具有高准确性 。
+关键词 ：波束训练 ；多用户 ；哈希函数 ；码本设计 ；性能分析
+Abstrac t:Large aperture arrays can increase beamforming gain , but lead to narrower beams and multiply the traditional beam training over ⁃
+head , which restricts the number of users served by the system . A fast and low-complexity beam training scheme based on Hash functions 
+is studied , which can support multi-user simultaneous beam training with low overhead . On this basis , two codebook design methods , ran⁃
+dom and fixed , are proposed . After that , the beam alignment success probability is derived . Since the derived beam alignment success prob ⁃
+ability is a complex function and cannot be used to guide codebook design , a simple method is proposed to evaluate the impact of codebook 
+generation parameters on performance . The simulation results verify the correctness of the theoretical analysis and show that the proposed 
+beam training scheme can quickly achieve multi-user beam alignment with low training overhead and high accuracy .
+Keywords :beam training ; multiuser ; Hash function ; codebook design ; performance analysis
+引用格式 ：司源 , 禹宏康 , 陈艺戬 . 超大规模天线阵列下的多用户快速波束训练  [J]. 中兴通讯技术 , 2024 , 30(1): 68-72. DOI : 10.12142 /
+ZTETJ .202401012
+Citation ： SI Y, YU H K , CHEN Y J . Fast beam training for multiuser on extremely large aperture array [J]. ZTE technology journal , 2024 , 30(1): 
+68-72. DOI: 10.12142 /ZTETJ .202401012
+采用更高的工作频段和更大的天线阵列是移动通信系统
+的发展趋势[1]。当前 5G系统中已经引入毫米波频段
+（FR2频段 ）[2-3]，并将大规模多输入多输出 （MIMO ）作为
+核心技术 （支持 32天线端口 ）[4]。未来的 6G系统将进一步
+扩展至太赫兹通信[5-9]，采用配置数千甚至上万个天线阵元
+的极大规模天线阵列 （ELAA ）为用户提供服务 。更多的天
+线数量和更大的阵列孔径能够实现更高的波束赋形增益 ，
+以对抗高频段严重的路径损耗 ，保证基站的覆盖距离并大
+幅提升用户的传输速率 。
+然而 ，波束增益提升也使得波束变窄 ，如何以较小的开销快速实现多用户的接入和波束对齐是一大挑战 。传统轮询
+式波束训练方案依次发送候选波束 ，用户可以共用测量导
+频，其训练开销与待训练的波束数量成正比 。天线阵列规模
+变大 ，波束数量急剧增加 ，从而使得轮询式的波束训练方案
+波束对齐速度变慢 。针对这一问题 ，分阶段波束训练方案被
+提出[10-13]，基站首先发送少量的宽波束 ，根据用户反馈缩小
+波束搜索范围 ，最终得到特定宽度的波束 。该方案中用户经
+常 不 能 共 用 测 量 导 频 ，不 同 用 户 需 要 利 用 时 分 多 址
+（TDMA ）的方式进行波束训练 ，因此这种方案仅在用户数
+较少的情况下能够节约开销 ，且需要用户多次反馈 ，增加了
+68

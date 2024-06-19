@@ -1,0 +1,94 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SHI Wenzhe , LIU Yanbin , ZHOU Qinfen Local Scenario Perception and Web AR Navigation    Special Topic
+Acknowledgement
+We would like to acknowledge HUANG Yakun and LIU Jia ⁃
+rui for their contribution to this paper .
+References
+[1] CAO M W , JIA W , LV Z H , et al . Fast and robust feature tracking for 3D recon ⁃
+struction [J]. Optics & laser technology , 2019 , 110: 120–128. DOI : 10.1016 /j.
+optlastec .2018 .05.036
+[2] LINDENBERGER P , SARLIN P E , LARSSON V , et al . Pixel -perfect structure -
+from -motion with featuremetric refinement [C]//Proc . 2021  IEEE/CVF Interna ⁃
+tional Conference on Computer Vision (ICCV ). IEEE , 2022 : 5967 –5977 . DOI : 
+10.1109 /ICCV 48922 .2021 .00593
+[3] YI K M , TRULLS E , LEPETIT V , et al . LIFT : learned Invariant Feature Trans ⁃
+form [C]//European Conference on Computer Vision . Springer , 2016 : 467–483. 
+DOI: 10.1007 /978 -3-319 -46466 -4_28
+[4] ZHANG X , YU F X , KARAMAN S , et al . Learning discriminative and transfor ⁃
+mation covariant local feature detectors [C]//Proc . 2017  IEEE Conference on 
+Computer Vision and Pattern Recognition (CVPR ). IEEE , 2017 : 4923 –4931 . 
+DOI: 10.1109 /CVPR .2017 .523
+[5] ZHANG L G , RUSINKIEWICZ S . Learning to detect features in texture images 
+[C]//Proc . 2018  IEEE/CVF Conference on Computer Vision and Pattern Recog ⁃
+nition . IEEE , 2018 : 6325 –6333 . DOI : 10.1109 /CVPR .2018 .00662
+[6] DETONE D , MALISIEWICZ T , RABINOVICH A . SuperPoint : self -supervised 
+interest point detection and description [C]//Proc . 2018  IEEE/CVF Conference 
+on Computer Vision and Pattern Recognition Workshops (CVPRW ). IEEE , 
+2018 : 337–33712 . DOI : 10.1109 /CVPRW .2018 .00060
+[7] LAGUNA A B , RIBA E , PONSA D , et al . Key .Net: keypoint detection by hand ⁃
+crafted and learned CNN filters [C]//Proc . 2019  IEEE/CVF International Confer ⁃
+ence on Computer Vision (ICCV ). IEEE , 2020 : 5835 –5843 . DOI : 10.1109 /ICCV .2019 .00593
+[8] ONO Y , TRULLS E , FUA P , et al . LF -net: learning local features from images 
+[C]//Proc . 32nd International Conference on Neural Information Processing Sys ⁃
+tems. NIPS , 2018 : 6273 –6247 . DOI :10.5555 /3327345 .3327521
+[9] SCHÖNBERGER J L , HARDMEIER H , SATTLER T , et al . Comparative evalu ⁃
+ation of hand -crafted and learned local features [C]//Proc . 2017  IEEE Confer ⁃
+ence on Computer Vision and Pattern Recognition (CVPR ). IEEE , 2017 : 6959 –
+6968 . DOI : 10.1109 /CVPR .2017 .736
+[10] WANG J , ZHOU F , WEN S L , et al . Deep metric learning with angular loss 
+[C]//Proc . 2017  IEEE International Conference on Computer Vision (ICCV ). 
+IEEE , 2017 : 2612 –2620 . DOI : 10.1109 /ICCV .2017 .283
+[11] ZAGORUYKO S , KOMODAKIS N . Learning to compare image patches via 
+convolutional neural networks [C]//Proc . 2015  IEEE Conference on Computer 
+Vision and Pattern Recognition (CVPR ). IEEE , 2015 : 4353 –4361 . DOI : 
+10.1109 /CVPR .2015 .7299064
+[12] LUO Z X , SHEN T W , ZHOU L , et al . ContextDesc : local descriptor augmenta ⁃
+tion with cross -modality context [C]//Proc . 2019  IEEE/CVF Conference on 
+Computer Vision and Pattern Recognition (CVPR ). IEEE , 2020 : 2522 –2531 . 
+DOI: 10.1109 /CVPR .2019 .00263
+[13] TIAN Y R , YU X , FAN B , et al . SOSNet : second order similarity regularization 
+for local descriptor learning [C]//Proc . 2019  IEEE/CVF Conference on Com ⁃
+puter Vision and Pattern Recognition (CVPR ). IEEE , 2020 : 11008 –11017 . 
+DOI: 10.1109 /CVPR .2019 .01127
+[14] SARLIN P E , DETONE D , MALISIEWICZ T , et al . SuperGlue : learning fea ⁃
+ture matching with graph neural networks [C]//Proc . 2020  IEEE/CVF Confer ⁃
+ence on Computer Vision and Pattern Recognition (CVPR ). IEEE , 2020 : 
+4937 –4946 . DOI : 10.1109 /CVPR 42600 .2020 .00499
+[15] SUN J M , SHEN Z H , WANG Y A , et al . LoFTR : detector -free local feature 
+matching with transformers [C]//Proc . 2021  IEEE/CVF Conference on Com ⁃
+puter Vision and Pattern Recognition (CVPR ). IEEE , 2021 : 8918 –8927 . 
+DOI: 10.1109 /CVPR 46437 .2021 .00881
+[16] SARLIN P E , CADENA C , SIEGWART R , et al . From coarse to fine : Robust 
+hierarchical localization at large scale [C]//Proc . 2019  IEEE/CVF Conference 
+on Computer Vision and Pattern Recognition (CVPR ). IEEE , 2020 : 12708 –
+12717 . DOI : 10.1109 /CVPR .2019 .01300
+Biographies
+SHI Wenzhe (shi.wenzhe@zte .com.cn) is a strategy planner and engineer for 
+XRExplore Platform product planning at ZTE Corporation . He is also a member 
+of the National Key Laboratory for Mobile Network and Mobile Multimedia Tech ⁃
+nology . His research interests include indoor visual AR navigation , SFM 3D re⁃
+construction , visual SLAM , real -time cloud rendering , VR, and spatial perception .
+LIU Yanbin is a strategy planner and product manager for XRExplore Platform 
+product planning at ZTE Corporation . He is also a member of the National Key 
+Laboratory for Mobile Network and Mobile Multimedia Technology . His research 
+interests include real -time remote rendering , visual SLAM , and computer vision .
+ZHOU Qinfen is the XR product leader director of new media industry and a se ⁃
+nior architect of ZTE Corporation . She has more than 20 years of experience in 
+the communication industry and media business . She has held the positions of 
+product manager of short message center , product manager of cloud desktop , prod ⁃
+uct line cost director , and XR product director at ZTE Corporation . She has a thor ⁃
+ough understanding of products and related standards including Short Message 
+Center , Cloud Desktop GPU Virtualization , XR, etc. As a member of the Shen ⁃
+zhen 8K UHD Video Industry Cooperation Alliance (SUCA ) and Virtual Display 
+Professional Committee of Jiangsu Communication Association , she leads a team 
+responsible for the research on the latest video technology and related standards .
+ORB : oriented FAST and rotated BRIEF
+PDR : pedestrian dead reckoning
+▲Figure 7. The proposed algorithm 
+is optimized without optical flow▲Figure 8. Experiment diagram of 
+Interpolation + Optical FlowORB : oriented FAST and rotated BRIEF
+PDR : pedestrian dead reckoningStart AddLK SaveLog
+PDR
+ORBPDR
+ORB
+59

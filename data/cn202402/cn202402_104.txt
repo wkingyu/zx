@@ -1,0 +1,53 @@
+基于动态通道绑定的更高速无源光网络 张伟良  等 技术广角
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2基于动态通道绑定的更高速
+无源光网络
+Higher Speed PON Based on Dynamic Channel Bonding
+张伟良 /ZHANG Weiliang1，2，王霄雨 /WANG Xiaoyu3，
+黄新刚 /HUANG Xingang1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055 ；
+3.中国电信集团有限公司 ，中国 北京 100020  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia Tech ⁃
+nology , Shenzhen 518055 , China ;
+3.China Telecom Corporation Ltd . , Beijing 100020 , China )DOI：10.12142 /ZTETJ .202402014
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240404 .2315.004.html
+网络出版日期 ：2024 -04-08
+收稿日期 ：2024 -02-18
+摘要 ：传统无源光网络单通道速率提升成本越来越高 。多通道无源光网络可通过动态通道绑定实现速率提升 ，进一步满足服务多样性需求 。分
+析了现有 IEEE 和ITU-T 无源光网络标准中的动态通道绑定需求和功能实现 ，以及数据传输过程中存在的带宽效率 、数据顺序恢复等问题 ，提出
+了一种更高速无源光网络动态通道绑定中数据序列化传输和顺序恢复方法 。该方法简化了动态通道绑定处理 ，避免了带宽效率下降问题 。
+关键词 ：更高速无源光网络 ；动态通道绑定 ；序列化传输 ；顺序恢复
+Abstrac t:The cost of single channel rate improvement in traditional passive optical networks (PON ) is increasing . Multi-channel PON could 
+achieve higher bandwidth capacity by dynamic channel bonding and could further meet service diversity . The requirement and function of dy ⁃
+namic channel bonding in current IEEE and ITU-T PON standards and the existing problems are analyzed . A transmission method including 
+serialization transmission and order recovery for dynamic channel bonding in higher speed PON is provided . This method simplifies dynamic 
+channel bonding processing and avoids the problem of bandwidth efficiency degradation .
+Keywords :higher speed PON ; dynamic channel bonding ; serialization transmission ; order recovery
+引用格式 ：张伟良 , 王霄雨 , 黄新刚 . 基于动态通道绑定的更高速无源光网络  [J]. 中兴通讯技术 , 2024 , 30(2): 100-106. DOI : 10.12142 /
+ZTETJ .202402014
+Citation ： ZHANG W L , WANG X Y , HUANG X G . Higher speed PON based on dynamic channel bonding [J]. ZTE technology journal , 2024 , 30
+(2): 100-106. DOI: 10.12142 /ZTETJ .202402014
+1 无源光网络动态通道绑定需求
+在10G无源光网络 （PON）之后 ，国际电信联盟电信标
+准化部门 （ITU-T ）和电气电子工程师学会 （IEEE ）
+分别启动多通道无源光网络和动态通道绑定无源光网络的标
+准化工作 ，以提升后 10G PON 无源光网络的带宽容量和峰
+值速率 。
+多通道无源光网络支持多个通道 。每个通道由一对上下
+行波长组成 ，支持一部分光网络单元 （ONU） 。各通道彼此
+独立 ，并且每个 ONU 最大仅支持一个通道的带宽容量 。动态通道绑定无源光网络 ，在多通道无源光网络的基础上 ，各
+ONU 可以支持一个或者多个通道 。不同 ONU 支持的通道及
+通道数可以不同且可以共存 。
+IEEE 802.3av标准[1]中的 Nx25G-EPON 支持 25 Gbit/s 和
+50 Gbit/s 两种速率 。50 Gbit/s 速率是通过绑定两个 25 Gbit/s
+速率的通道来实现的 。Nx25G-EPON 支持动态通道绑定 。单
+通道 ONU 和由 2个通道绑定的 ONU 可以在同一个光分配网
+络（ODN）中共存 。
+ITU-T G .989系列标准[2-3]中的时分波分复用无源光网络
+（TWDM-PON ）可支持 4~8个通道 ，并且每个通道的速率为
+10 Gbit/s 。在 后 续 增 补 中 ，ITU-T G .989.1 amd 1[4]增 加 了
+TWDM-PON 超过 10G带宽 ONU 的需求 ，在ITU-T G .989.3 基金项目 ：上海市科技计划项目 （20511102400 ） ；深圳市战略性发展项目
+（XMHT 20190101034 ）
+100

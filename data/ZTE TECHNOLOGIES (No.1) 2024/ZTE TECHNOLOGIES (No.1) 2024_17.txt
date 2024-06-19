@@ -1,0 +1,68 @@
+he extended reality (XR) industry 
+stands as one of the seven key 
+industries for the development of the 
+digital economy, given its potential 
+to lead us into the future meta-universe. With the 
+widespread commercial use of 5G, XR businesses 
+have reached a crucial point. According to 
+Statista’s forecast, XR market revenue is projected 
+to reach USD 250 billion by 2028, with the B2C 
+segment expected to reach USD 52 billion by 
+2027. Additionally, by 2026, the combined 
+shipment of head-mounted display devices in 
+both augmented reality (AR) and virtual reality 
+(VR) categories is forecasted to more than triple, 
+exceeding 35 million sets.
+So far, "Horizon of Khufu" has emerged as a 
+popular VR expedition, guiding viewers through 
+a captivating journey spanning 4,500 years of 
+global history and showcasing the true 
+commercial potential of the VR industry. 
+Launched in Shanghai for three months, this 
+project has already generated over 10 million 
+RMB in revenue, signaling the signi/f_icant impact 
+that VR expedition applications can have on 
+large-scale commercial use. 
+However, there are noteworthy challenges 
+associated with the current backpack solution. It 
+weighs over 5 kg and the fan outlet gets heated, 
+causing discomfort during prolonged use. This 
+discomfort poses a barrier to the participation of 
+the elderly and children. Additionally, the Wi-Fi 
+has weak wireless capability, limited coverage, and fails to meet the demands of large spaces. As 
+a result, the concurrent user capacity is hindered, 
+leading to ineﬃciencies in commercial 
+operations.  
+Addressing VR Expedition Challenges 
+with 5G mmWave X-Edge Solution
+Instead of using a backpack, the solution 
+involves cloud rendering and accessing a 
+millimeter-wave mobile network. This not only 
+eliminates the interference caused by multiple 
+Wi-Fi connections but also improves mobility, 
+allowing the elderly and children to be 
+free from the weight of a backpack. ZTE's 
+ultra-large-bandwidth millimeter wave device 
+can support the industry’s largest 1.6 GHz 
+bandwidth and a single-cell peak data rate of 
+28 Gbps, eﬀectively meeting the requirements 
+for large-capacity concurrent users in a VR 
+theater mode with a spacious environment. This 
+wireless network solution oﬀers a zero-to-one 
+approach, establishing a robust business model 
+for this service.
+In particular, the intelligent identi/f_ication 
+function on the base station side accurately 
+identi/f_ies XR services, ensuring a diﬀerentiated 
+service experience. Intelligent scheduling reduces 
+delay and jitter in XR services, while capacity 
+enhancement guarantees a smooth user 
+experience in large-capacity scenarios. 
+Additionally, ZTE has established the industry’s 
+Revolutionizing Immersive 
+Virtual Reality Expeditions with 
+mmWave Technology
+T
+RAN Product Planning 
+Manager, ZTELi Ting FEB 2024
+ 15

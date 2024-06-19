@@ -1,0 +1,90 @@
+面向 Critical MTC 的无连接传输 李志岗  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1进一步降低导频碰撞概率 。图8对比了 4个独立稀疏正交导
+频在进行一轮干扰消除和无干扰消除时的导频碰撞概率 。从
+图中可以看出 ，进行一轮干扰消除 ，同时接入的用户数超过
+32时，导频碰撞概率依然可以达到 10-5；而不进行干扰消除
+且导频碰撞概率为 10-5时，4个独立稀疏正交导频仅可以支
+持6个用户接入 。可见导频信号的干扰消除可以显著降低导
+频碰撞概率 ，增加同时接入的用户数 。
+图9对4个独立稀疏正交导频 ，基站进行一轮干扰消除 ，
+不同用户的 BLER 进行了仿真 。其中 ，基站配置 M=32天线 ，
+信道模型为瑞利衰落信道模型 。从图中可以看出 ，进行一轮
+干 扰 消 除 ，可 以 满 足 36个 用 户 同 时 接 入 ，且BLER 低
+于10-5。
+4 结束语
+Critical MTC 作为 6G的一个重要应用场景 ，对时延 、可靠性和连接数量有很高的要求 。本文中我们介绍了 Critical 
+MTC 的关键能力指标 、所涉及的关键技术以及存在的问题 ，
+提出了的面向 Critical MTC 的无连接传输方案 ，并进行了仿
+真。仿真结果表明 ，本文提出的方案可以支持海量 Critical 
+MTC 终端 ，同时满足低时延和高可靠的严格要求 ，在未来
+通信系统中具有潜在的应用前景 。
+致谢
+感谢中兴通讯股份有限公司马一华 、徐晓景工程师对本
+论文做出的贡献 ！
+参考文献
+[1] ITU. Framework and overall objectives of the future development 
+of IMT for 2030  and beyond [EB/OL ]. [2023 -06-22]. https ://www .
+itu.int/md/R 19-SG05-C-0131
+[2] 方敏, 段向阳 , 胡留军 . 6G技术挑战 、创新与展望  [J]. 中兴通讯技术 , 
+2020 , 26(3): 61-70. DOI: 10.12142 /ZTETJ .202003012
+[3] 谢峰 . 6G网络架构研究进展及建议  [J]. 中兴通讯技术 , 2023 , 29(5): 
+28-37. DOI: 10.12142 /ZTETJ .202305006
+[4] 韩书君 , 董晴 , 许晓东 . 面向 6G全场景的多频段协同覆盖扩展技术  
+[J]. 中 兴 通 讯 技 术 , 2022 , 28(4): 31-35. DOI : 10.12142 /
+ZTETJ .202204007
+[5] 李福昌 , 郭希蕊 . 6G绿色网络发展趋势和关键技术  [J]. 中兴通讯技
+术, 2023 , 29(6): 54-59. DOI:10.12142 /ZTETJ .202306009
+[6] 宫诗寻 , 陶小峰 . 5G大规模机器类通信中的传输技术  [J]. 中兴通讯
+技 术 , 2017 , 23(3): 20-23. DOI : 10.3969 /j.issn.1009 -
+6868 .2017 .03.005
+[7] 陆平 , 李建华 , 赵维铎 . 5G在垂直行业中的应用  [J]. 中兴通讯技术 , 
+2019 , 25(1): 67-74. DOI: 10.12142 /ZTETJ .201901011
+[8] 陆平, 欧阳新志 , 高雯雯 . 5G行业虚拟专网能力提升与实践  [J]. 中兴
+通讯技术 , 2022 , 28(2): 68-74. DOI: 10.12142 /ZTETJ .202202011
+[9] ABDELSADEK M Y , GADALLAH Y , AHMED M H . A critical MTC 
+resource allocation approach for LTE networks with finite 
+blocklength codes [J]. IEEE transactions on vehicular technology , 
+2020 , 69(5): 5598 -5609 . DOI: 10.1109 /TVT.2020 .2982391
+[10] POKHREL S R , DING J , PARK J , et al . Towards enabling critical 
+mMTC : a review of URLLC within mMTC [J]. IEEE access , 2020 , 
+8: 131796 -131813 . DOI: 10.1109 /ACCESS .2020 .3010271
+[11] MAHMOOD N H , BÖCKER S , MOERMAN I , et al . Machine type 
+communications : key drivers and enablers towards the 6G era 
+[J]. EURASIP journal on wireless communications and 
+networking , 2021 , 2021 (1): 134. DOI : 10.1186 /s13638 -021-
+02010 -5
+[12] MAHMOOD N H , BÖCKER S , MUNARI A , et al . White paper on 
+critical and massive machine type communication towards 6G 
+[EB/OL ]. [2020 -04-29]. http://arxiv .org/abs/ 2004 .14146 .pdf
+[13] 3GPP. Study on scenarios and requirements for next generation 
+access technologies (release 14): 3GPP TR 38.913 [S]. 2017
+[14] DING J , NEMATI M , POKHREL S R , et al . Enabling grant-free 
+URLLC : an overview of principle and enhancements by massive 
+MIMO [J]. IEEE Internet of Things journal , 2022 , 9(1): 384-400. 
+DOI: 10.1109 /JIOT .2021 .3107242
+[15] JACOBSEN T , ABREU R , BERARDINELLI G , et al . System level 
+analysis of uplink grant-free transmission for URLLC [C]//
+Proceedings of IEEE Globecom Workshops (GC Wkshps ). IEEE , 
+2017 : 1-6. DOI: 10.1109 /GLOCOMW .2017 .8269137
+图8 无干扰消除与进行一轮干扰消除的导频碰撞概率对比
+图9 M=32时，进行一轮干扰消除时不同用户的误块率 （BLER）信噪比 /dB0   4   8  12 16 20 24 28 32 36 40 44W=4，无干扰消除
+W=4，一轮干扰消除导频碰撞概率
+10-1
+10-2
+10-3
+10-4
+10-5
+10-6
+10-7100
+10-1
+10-2
+10-3
+10-4
+10-5
+10-6
+10-7误块率
+-9 - 6 - 3 0W=4，20用户
+W=4，32用户
+信噪比 /dB
+66

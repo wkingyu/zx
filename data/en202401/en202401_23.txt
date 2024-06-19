@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Link Budget and Enhanced Communication Distance for Ambient Internet of Things    Special Topic
+generates and broadcasts signaling that includes reflection in ⁃
+dication information to activate the tag . Note that the signal 
+strength is a critical parameter to evaluate the reliability of 
+data transmission . Therefore we use effective isotropic radi ⁃
+ated power (EIRP ), a value that measures the coverage range 
+and communication capability of a wireless system . The trans ⁃
+mitted EIRP of the reader can be expressed as :
+EIRPt=PtG , (4)
+where Pt represents the transmission power used by the 
+reader , which indicates the actual power output from the trans ⁃
+mitter to the antenna , and G is the gain of the reader antenna , 
+which is the efficiency of the antenna relative to an ideal iso ⁃
+tropic antenna . The higher the EIRP , the stronger the trans ⁃
+mission capability of the system , allowing it to propagate over 
+longer distances .
+In a multipath environment , the path loss between the 
+reader and the tag antennas can be written as[10]
+Lp(d)=(λ
+4πd)2|
+|||||1+∑
+n=1N
+Γnd
+dne-jk() dn-d|
+|||||2
+, (5)
+where d is the length of the direct path , and dn is the length of 
+the n-th path with a reflection coefficient of Γn. N is the total 
+number of reflections .
+The signal strength at the tag antenna location can be ob ⁃
+tained from the transmitted EIRP and path loss as follows :
+Ptag=EIRPtGtagβLp(ddown)=PtGGtagβLp(ddown), (6)
+where β is the polarization mismatch , also known as polariza ⁃
+tion isolation , which measures the degree of signal loss caused 
+by polarization mismatch in signal transmission from the 
+reader antenna to the tag antenna . Gtag is the gain of the tag an ⁃
+tenna , and ddown is the downlink communication distance .
+As shown in Fig . 2, the signal received from the tag antenna 
+will go through the impedance matching circuit . Since the re ⁃
+flection coefficient is usually not equal to 0, a small part of the 
+signal will be reflected by the tag antenna . The signal that is eventually captured and processed by the signal reception cir ⁃
+cuit of the tag is :
+Ptag,  chip=Ptag(1-|Γ|2), (7)
+where Γ is the reflection coefficient of impedance matching . 
+The power reflection coefficient |Γ|2 shows the fraction of the 
+maximum power available from the generator that is not deliv ⁃
+ered to the load[8]. A well -designed impedance matching is of 
+vital importance to the system performance . The impedance 
+matching circuit is normally designed to achieve Γ=0 to 
+maximize the signal reception .
+After that , the received signal is processed by the envelope 
+detection module for demodulation . It converts the received 
+RF signal into a low -frequency envelope signal with varying 
+amplitudes . The following comparison module calculates a 
+threshold based on the long -term average value of the varying 
+envelope , and determines the information carried on the enve ⁃
+lope by comparing the instantaneous envelope with the thresh ⁃
+old. Subsequently , the bi -level output is processed by the 
+logic processing unit . Consequently , the tag extracts control in ⁃
+formation such as the reflection rate and the modulation 
+scheme from the decoded sequence . With this information , the 
+tag specifies its working mode and prepares the signal trans ⁃
+mission that will be carried out later .
+3.2 Uplink Budget
+In uplink communications , the tag modulates and reflects 
+its information through impedance modulation . The reader pro ⁃
+cesses the received reflected signal . The tag modulates and re ⁃
+flects a modulated backscatter signal with differential EIRP 
+(∆EIRP ). The backscattered power of the tag can be calcu ⁃
+lated as ∆EIRP=S∆σ. The following equation exhibits a pro ⁃
+portional relationship with the received power Ptag[21]:
+∆EIRP
+Ptag=S∆σ
+SA=GtagK
+ , (8)
+where  K=α|Γ1-Γ2|2 represents the tag modulation loss 
+factor . S is the power density of an electromagnetic (EM) wave 
+BPSK : binary phase shift keying     PIE : pulse interval encoding
+▲Figure 2. Typical functional diagram inside a tagAntenna impedance Za
+AntennaImpedance 
+matchingEnvelope 
+detectionAmplitude
+comparisonPIE
+decodingSignaling
+extraction
+Load impedance Zc1
+Load impedance ZcnRF switchReflecting sensing 
+dataReflection mode 
+(BPSK . . . )
+Logic processing unit Impedance modulation
+19

@@ -1,0 +1,88 @@
+and reliability in their industry 
+application scenarios. Providing highly 
+cost-eﬀective network connections has 
+become one of the core capabilities of 
+ToB networks. 
+In the 5G network construction of 
+WISCO, industrial control private 
+networks are built in diﬀerent factories 
+according to their specific service 
+scenarios in the production domain. 
+The ZTE 5G computing power base for 
+industrial control provides an integrated 
+solution that includes terminals, edges, 
+clouds, networks, and services. It also 
+provides end-to-end service connection 
+monitoring. The typical capabilities of 
+each part of the 5G computing power 
+base for industrial control are as follows:
+SE9102 is an industrial control gateway, 
+which is an important component of 
+the “terminals” and “edges”. In the 
+project of WISCO, it is connected to 
+both PLC and HD IP cameras, and 
+oﬀers key network capabilities such as 
+highly reliable transmission of control 
+data and low-latency video backhaul. 
+Industrial-grade product design with a 
+protection level of IP66 can meet the 
+requirements of various harsh 
+environments. 
+The dual-band 5G network (2.1 GHz+
+3.5 GHz) ensures the security and 
+reliability of the network to the highest 
+degree through independent physical 
+devices. On-site engineers can simulate 
+more than 10 types of network faults to 
+ensure that single-point radio link faults 
+do not aﬀect services. Even if the 5G base 
+station backhaul link is interrupted, the 
+existing services on site can still be kept 
+for more than 24 hours. 
+The SE9102 and the NodeEngine base 
+station with a built-in computing engine 
+can collaborate to create an inter-
+frequency dual-transmit optimal receptio n 
+channel with a network latency of 
+20 ms @99.99%. In addition, service After two years of exploration and 
+practice, WISCO has developed a 
+"1+N+X" 5G construction and application 
+mode. 
+“1+N+X” Mode
+“1” Dedicated Core Network 
+Traditional ToC core networks 
+cannot meet the diverse requirements 
+of industry users. To address this, a 
+dedicated 5GC has been directly 
+deployed in the WISCO campus to 
+meet their requirements for physical 
+device and data security isolation. This 
+ensures that service data stays within 
+the campus while also providing users 
+with very low service latency and 
+dedicated service SLAs. 
+ 
+“N” 5G Shared Base Stations
+Currently, 63 5G base stations 
+(excluding private 5G network sites) 
+have been built in the WISCO campus, 
+with the 5G coverage rate reaching 
+over 95%. This is one of the largest 
+5G campus networks in China. These 
+5G base stations can meet the network 
+requirements of ToC users through 
+network sharing, and the service 
+requirements of ToB users through 
+network slicing. At present, the 
+outdoor 5G campus network can 
+carry non-production services such 
+as environment monitoring, device 
+status monitoring, and HD video 
+backhaul with the daily average 
+data traﬃc reaching 4 TB. 
+“X” Industrial Control Private 
+Networks
+Compared with ToC networks, ToB 
+networks have stricter requirements 
+for network capabilities such as delay 
+40Success Story

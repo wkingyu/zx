@@ -1,0 +1,103 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+chine (DCM ) intelligence frameworks was jointly proposed 
+by CESI and related enterprises in September 2020 . The 
+DCM group primarily elucidates the fundamental content of 
+machine vision coding , organizes the technical requirements 
+and application scenario of machine vision coding , outlines 
+the future development direction of machine vision coding , 
+and proposes potential technical routes for machine vision 
+coding .
+In this paper , we will mainly introduce and analyze the pro ⁃
+posed proposals during the latest VCM standard development . 
+We will also classify the existing proposals and provide de ⁃
+tailed introductions to representative proposals .
+3 Background of VCM Standard
+The VCM standard has been attracting extensive interest 
+since it was proposed , and more than 100 experts from about 
+30 research institutes around the world have devoted them ⁃
+selves to the MPEG VCM standard . In July 2019 , the VCM 
+working group was established . In July 2020 , the formulation 
+of requirements was completed and the first version of the 
+VCM standard evaluation framework was determined . The 
+first version of evidence collection and general test conditions 
+was released in January 2021 . In October 2021 , according to 
+the collected evidences , the VCM standard working group de ⁃
+cided to divide the current coding scheme for machine vision 
+into two technical routes , namely Track -1 and Track -2, where 
+Track -1 stands for feature coding and Track -2 represents com ⁃
+pression and then analysis (CTA). The Track -2 Call for Pro ⁃
+posals (CfP) and the Track -1 Call for Evidences (CfE) were re ⁃
+leased in April 2022  and July 2022 , respectively . The MPEG 
+140th meeting that just ended has already collected a series of 
+response proposals for Track -1 CfE and Track -2 CfP.
+To facilitate the development of a new standard , it is essen ⁃
+tial to clearly define the application scenario and establish a 
+specific evaluation process . Such an approach allows for the 
+comparison and evaluation of various solutions within the 
+same evaluation system , which guides the direction of stan ⁃
+dard development . These details are described as follows .
+3.1 Use Cases
+As communication transmission technology advances , par⁃
+ticularly with the widespread adoption of 5G, various industries 
+are undergoing digital and intelligent transformations . VCM has 
+corresponding usage scenarios in many places in daily life , in⁃
+cluding smart cities , intelligent transportation , intelligent sur ⁃
+veillance , smart IoT , smart IoV , automatic driving , information 
+security , smart factories , intelligent content , and so on , which 
+have huge market and development potential . The current pro ⁃
+posals on VCM have been set for several specific use cases , 
+which can be roughly divided into the following categories .
+3.1.1 Intelligent Transportation
+A typical application of machine vision tasks is intelligent transportation . As vehicle traffic increases , there is a growing 
+demand for intelligent transportation and vehicle intelligence 
+to address traffic congestion and reduce accidents . The cam ⁃
+eras and sensors deployed on cars can generate a large num ⁃
+ber of data , which can be used for intelligent transportation 
+tasks . In intelligent transportation systems , cars may need to 
+communicate with each other to perform different tasks . Sen⁃
+sors in urban infrastructure can transfer visual information to 
+different vehicles , and then the information is used to com ⁃
+plete machine vision tasks . The interconnection of vehicles is 
+a key aspect of intelligent transportation systems . The IoV is 
+expected to play a crucial role in future urban transportation 
+systems , as it has the potential to improve safety , productivity , 
+accessibility , and road efficiency . Vehicles equipped with 
+multiple cameras can capture their surroundings and use deep 
+neural networks (DNN ) to detect and recognize objects such as 
+cars, pedestrians , and street furniture , as well as events such 
+as traffic jams or accidents . In addition , the use of infrared 
+and non -visible light imaging technologies like radar can pro ⁃
+vide enhanced vision capabilities in low -light and adverse 
+weather conditions , such as fog or rain . Intelligent transporta ⁃
+tion has vast potential , while the significant requirement for 
+M2M communication and video compression among IoV is an 
+urgent challenge that needs to be addressed .
+3.1.2 Intelligent Surveillance
+Another common application scenario is the surveillance  
+system . The industry has undergone decades of development 
+and is now relatively mature with a large market size . Surveil ⁃
+lance technology has been widely used in smart cities , traffic 
+control , medical services , personal usage , etc. Currently , sur⁃
+veillance systems can use neural networks to deal with differ ⁃
+ent tasks , such as object detection and tracking . However , con⁃
+sidering the number of sensors and the resolution , frame rate , 
+and length of video to be transmitted , current surveillance sys ⁃
+tems usually occupy a large amount of transmission band ⁃
+width . Moreover , the increase in the number of front -end cam ⁃
+eras adds a huge computational load to the back -end servers 
+that perform machine vision tasks . Surveillance scenarios 
+have many applications in reality . For example , behavior de ⁃
+tection can detect potential hazards and object detection can 
+analyze the crowd . In addition to the intelligent tasks men ⁃
+tioned above , tasks such as fire detection and hazardous 
+chemical leak detection can be performed . Some of these 
+tasks can share the same upstream task module or pre -
+processing process , enabling the reuse of resources . In this 
+case, the descriptor is extracted on the front -end device and 
+sent to the back -end server along with the video/feature en ⁃
+coded by the VCM codec to accomplish the machine vision 
+tasks of the back -end.
+3.1.3 Intelligent Content
+With the popularity of short video Apps , people are used to 
+64

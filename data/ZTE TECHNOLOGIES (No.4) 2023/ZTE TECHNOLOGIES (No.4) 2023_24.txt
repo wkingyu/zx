@@ -1,0 +1,62 @@
+The application server (APP) is a system 
+portal that provides users with operation 
+interface and entrance. The auto con/f_iguration 
+server (ACS) is responsible for interacting 
+with STBs and accessing database resources. 
+The /f_ile server (FS) stores, upgrades and 
+downloads version /f_iles. The database 
+(DB) centrally stores all system data. 
+The northbound interface management 
+(NIM) module receives instructions from 
+external systems and delivers its processing 
+results back to them. The interface can be 
+customized. 
+The STB management platform brings 
+value primarily in the areas of equipment 
+management, operation, and maintenance. 
+Once authenticated by the platform, STBs can 
+be remotely con/f_igured, modi/f_ied and queried 
+for parameters, supporting both individual 
+and batch operations. Individual and batch 
+restarts as well as factory settings restoration 
+can be performed on STBs as required. The rawing upon years of 
+experience in device and 
+business management system 
+development and utilization, 
+ZTE has launched a high-performance and 
+open set-top box (STB) management platform 
+tailored for smart Android STBs. The platform 
+primarily utilizes the TR069 protocol family 
+to interact with STBs, enabling remote 
+parameter con/f_iguration, data collection and 
+fault diagnosis. Additionally, it incorporates 
+protocols like HTTP to support the upload and 
+download of STB version /f_iles and log /f_iles. It 
+also provides interfaces for integration with 
+customers or third-party systems to enable 
+corresponding service functionalities.
+The software architecture of the STB 
+management system consists of three layers: 
+the equipment management layer (including 
+FS and ACS), the business management layer 
+(APP), and the service management layer 
+(NIM), as shown in Fig. 1. Smart STB Management Platform
+Senior Engineer of ZTE 
+Wireline R&D PlanningOuyang YonghuiD
+Fig. 1. Software 
+architecture of the 
+STB management 
+system.DBBOSS
+HTTP (S)
+HTTP (S) TR069/XMPP
+ZTE TMS Agent.apk
+  Android OS
+STBService management layer
+Business management layer
+Equipment management layerNorthbound interface management (NIM)
+APP
+File server (FS)PC
+Web
+portal B/S
+Auto con/f_iguratrion server (ACS)
+22New Video Ecosystem Special Topic

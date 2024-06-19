@@ -1,0 +1,56 @@
+ommunication networks are 
+the foundation of the digital 
+transformation of society. With 
+the rapid development of 
+digital industrialization and industrial 
+digitalization, the construction of 
+communication networks is accelerating. 
+The challenge is to automate network 
+deployment while guaranteeing the 
+quality of communication networks and 
+user experience.
+During network deployment, the rapid 
+growth in network scale and complexity 
+of scenarios complicate network planning, 
+solution and data preparation, and network 
+operations. This requires more time and 
+manpower investment, and also increases 
+the risk to communication services. Manual 
+site visits for distributed NEs such as base 
+stations result in low working eﬃciency 
+and collaboration capabilities. Repeated 
+site visits are a long standing problem. 
+Furthermore, it is crucial to proactively 
+prevent, rapidly identify, and solve user 
+experience problems in complicated 
+networks.
+ZTE is committed to incorporating 
+digital, intelligent, and big data technologies into full-lifecycle network 
+delivery and O&M processes. We 
+continuously promote the scenario-based 
+analysis of network deployment activities 
+to improve eﬃciency and quality. Our 
+goal is to increase the automation level of 
+network deployment in terms of network 
+planning, network deployment, network 
+quality, and user experience assurance.
+Precise Network Planning
+Network planning is crucial for 
+successful network deployment. At present, 
+wireless network planning faces many 
+challenges, such as accommodating future 
+service growth, identifying investment 
+areas that maximize value, and selecting 
+the most appropriate planning solution for 
+new site types and scenarios.
+ZTE, with its extensive experience in 
+global network planning, adopts the concept 
+Vice President and 
+General Manager of 
+Technical Delivery of 
+Global Services at ZTEHong Gongcun
+New Practice of Digital 
+and Intelligent Network 
+Deployment
+C
+16Digital & Intelligent Network Services Special Topic

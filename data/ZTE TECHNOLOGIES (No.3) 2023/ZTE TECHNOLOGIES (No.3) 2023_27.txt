@@ -1,0 +1,93 @@
+Fig. 1. ULCL 
+oﬄoading 
+solution.
+AMFUDM PCF
+SMF
+Cam pus
+Public network
+ userCampus
+user 2C UPF
+PSA1
+Edge UPF
+UL-CL /PSA2InternetPublic
+network
+application
+Public network
+DNNPublic
+network
+DNN Core UPF2C 5GC control plane
+Prefectural city
+Campus
+applicationIntranet traﬃc
+Public  netwo rk traﬃc
+Campus
+user simultaneous access. The solution splits 
+traﬃc based on the rules such as PLMN, 
+S-NSSAI and destination IP addresses, and 
+meets the access requirements of both 
+4G/5G B2B and B2C services, achieving 
+the goal of keeping B2B traﬃc data 
+within the enterprise campus and 
+enabling B2C users to access both the 
+Internet and the local enterprise intranet 
+simultaneously (Fig. 2).
+Delay Reduction and Service Experience 
+Optimization
+Compared to using a public VPN to 
+access internal services such as industrial 
+applications and online training, adopting 
+the 5G dual-domain private network 
+solution based on NodeEngine can 
+greatly shorten the access path and 
+reduce the service access delay. In 
+addition, 5G realizes indoor and outdoor 
+continuous coverage with larger capacity, 
+stronger interference resistance, and 
+better mobility. This one-hop direct 
+access greatly improves service 
+experience over traditional public 
+VPN access.data network name (DNN) of a public 
+network without terminal awareness, 
+resulting in good user experience.
+Users in the traﬃc oﬄoad area 
+(campus or home area) can access 
+both the enterprise intranet and the 
+Internet simultaneously. 
+Users can continue to access the 
+Internet while roaming without the 
+need to route Internet traﬃc back to 
+their home location. 
+There are also some constraints in the 
+ULCL oﬄoading solution:
+Campus services do not support 
+access via 4G networks and roaming 
+scenarios. Due to the lack of support 
+for ULCL functionality in 4G scenarios 
+and incomplete support in roaming 
+scenarios in the 3GPP protocol, 
+campus users are unable to access the 
+enterprise intranet through ULCL while 
+in 4G coverage. 
+Terminals in the campus are planned 
+by the operator as B2C users. 
+Therefore, IP address con/f_licts may 
+occur when interconnecting with the 
+campus. To avoid con/f_licts, network 
+address translation (NAT) isolation is 
+required. 
+5G Dual-Domain Private Network 
+Solution Based on NodeEngine
+ZTE’s NodeEngine-based 5G dual-
+domain private network solution is a 
+simpli/f_ied private network solution for 
+campuses, hospitals and industrial parks. 
+The solution can rapidly provide industrial 
+private network services only by 
+deploying one computing board in the 
+existing BBU, which signi/f_icantly reduces 
+deployment costs and shortens 
+deployment cycles.
+By adding this computing board, the 
+NodeEngine-based 5G dual-domain 
+private network solution enables 4G/5G 
+25JUN 2023

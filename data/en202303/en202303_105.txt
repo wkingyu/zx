@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems    Research Papers
+tigated HBF with different hybrid architectures in this paper . 
+After transforming the original SEM problem to a more trac ‐
+table equivalent WMMSE problem , we propose the HBF -
+WMO algorithm with different fixed architectures . Simulation 
+results have shown that the OL architecture achieves a com ‐
+promise between the hardware costs and system performance 
+compared with the conventional fixed architectures . We have 
+also proposed a low -complexity subarray partition optimiza ‐
+tion algorithm based on the maximum eigenvalue approxima ‐
+tion with the PC -dynamic architecture and combined it with 
+the HBF -WMO algorithm . Simulation results show that the 
+PC-Dynamic architecture achieves some performance gain 
+over the fixed PC architecture .
+In this paper , certain problems in the practical implementa ‐
+tion of the proposed architecture and HBF -WMO algorithm 
+under massive MIMO -OFDM systems have not been investi ‐
+gated . On one hand , the dynamic architecture and the OL ar ‐
+chitecture would lead to more power consumption and inser ‐
+tion power loss with more required phase shifters , splitters , 
+combiners and switches than the conventional PC architec ‐
+ture, and thus the energy efficiency could be considered for 
+HBF optimization . On the other hand , some studies have made 
+efforts to alleviate the effect of beam squint while developing 
+hybrid precoding schemes for massive MIMO -OFDM systems , 
+such as carrying out a phase compensation operation at each 
+subcarrier[25] or projecting all frequencies to the central fre ‐
+quency[26]. In future work , we will make efforts to study the en ‐
+ergy efficiency performance of different HBF architectures 
+and extend our investigation to the scenario when the system 
+is subject to the beam squint effect .Reference
+[1] PI Z Y , KHAN F . An introduction to millimeter -wave mobile broadband sys ‐
+tems [J]. IEEE communications magazine , 2011 , 49(6): 101–107. DOI : 
+10.1109 /MCOM .2011 .5783993
+[2] ROH W , SEOL J Y , PARK J , et al . Millimeter -wave beamforming as an en ‐
+abling technology for 5G cellular communications : theoretical feasibility and 
+prototype results [J]. IEEE communications magazine , 2014 , 52(2): 106–113. 
+DOI: 10.1109 /MCOM .2014 .6736750
+[3] RANGAN S , RAPPAPORT T S , ERKIP E . Millimeter -wave cellular wireless 
+networks : potentials and challenges [J]. Proceedings of the IEEE , 2014 , 102(3): 
+366–385. DOI : 10.1109 /JPROC .2014 .2299397
+[4] PAULRAJ A J , GORE D A , NABAR R U , et al . An overview of MIMO commu ‐
+nications : a key to gigabit wireless [J]. Proceedings of the IEEE , 2004 , 92(2): 
+198–218. DOI : 10.1109 /JPROC .2003 .821915
+[5] AKDENIZ M R , LIU Y P , SAMIMI M K , et al . Millimeter wave channel model ‐
+ing and cellular capacity evaluation [J]. IEEE journal on selected areas in com ‐
+munications , 2014 , 32(6): 1164–1179 . DOI : 10.1109 /JSAC .2014 .2328154
+[6] ZHANG J , YU X H , LETAIEF K B . Hybrid beamforming for 5G and beyond 
+millimeter -wave systems : a holistic view [J]. IEEE open journal of the communi ‐
+cations society , 2019 , 1: 77–91. DOI : 10.1109 /OJCOMS .2019 .2959595
+[7] LARSSON E G , EDFORS O , TUFVESSON F , et al . Massive MIMO for next 
+generation wireless systems [J]. IEEE communications magazine , 2014 , 52(2): 
+186–195. DOI : 10.1109 /MCOM .2014 .6736761
+[8] MOLISCH A F , RATNAM V V , HAN S Q , et al . Hybrid beamforming for mas ‐
+sive MIMO : a survey [J]. IEEE communications magazine , 2017 , 55(9): 134–
+141. DOI : 10.1109 /MCOM .2017 .1600400
+[9] AYACH O E , RAJAGOPAL S , ABU -SURRA S , et al . Spatially sparse precod ‐
+ing in millimeter wave MIMO systems [J]. IEEE transactions on wireless com ‐
+munications , 2014 , 13(3): 1499– 1513 . DOI : 10.1109 /
+TWC .2014 .011714 .130846
+[10] SOHRABI F , YU W . Hybrid analog and digital beamforming for mmWave 
+OFDM large -scale antenna arrays [J]. IEEE journal on selected areas in com ‐
+munications , 2017 , 35(7): 1432–1443 . DOI : 10.1109 /JSAC .2017 .2698958
+[11] YU X H , SHEN J C , ZHANG J , et al . Alternating minimization algorithms for 
+hybrid precoding in millimeter wave MIMO systems [J]. IEEE journal of se ‐
+lected topics in signal processing , 2016 , 10(3): 485–500. DOI : 10.1109 /
+JSTSP .2016 .2523903
+[12] LIN T , CONG J Q , ZHU Y , et al . Hybrid beamforming for millimeter wave sys ‐
+tems using the MMSE criterion [J]. IEEE transactions on communications , 
+2019 , 67(5): 3693–3708 . DOI : 10.1109 /TCOMM .2019 .2893632
+[13] ZHAO X Y , LIN T , ZHU Y , et al . Partially -connected hybrid beamforming for 
+spectral efficiency maximization via a weighted MMSE equivalence [J]. IEEE 
+transactions on wireless communications , 2021 , 20(12): 8218–8232 . DOI : 
+10.1109 /TWC .2021 .3091524
+[14] ZHANG D D , WANG Y F , LI X H , et al . Hybridly connected structure for hy ‐
+brid beamforming in mmWave massive MIMO systems [J]. IEEE transactions 
+on communications , 2018 , 66(2): 662– 674. DOI : 10.1109 /
+TCOMM .2017 .2756882
+[15] GAUTAM P R , ZHANG L . Hybrid precoding for partial -full mixed connection 
+mmWave MIMO [C]//The IEEE Statistical Signal Processing Workshop (SSP). 
+IEEE , 2021 : 271–275. DOI : 10.1109 /SSP49050 .2021 .9513847
+[16] SONG N , YANG T , SUN H . Overlapped subarray based hybrid beamforming 
+for millimeter wave multiuser massive MIMO [J]. IEEE signal processing let ‐
+ters, 2017 , 24(5): 550–554. DOI : 10.1109 /LSP .2017 .2681689
+[17] CHEN Y , CHEN D , JIANG T , et al . Millimeter -wave massive MIMO systems 
+relying on generalized sub -array -connected hybrid precoding [J]. IEEE transac ‐
+tions on vehicular technology , 2019 , 68(9): 8940–8950 . DOI : 10.1109 /
+TVT.2019 .2930639
+[18] MÉNDEZ -RIAL R , RUSU C , GONZÁLEZ -PRELCIC N , et al . Hybrid MIMO 
+architectures for millimeter wave communications : phase shifters or switches ? 
+[J]. IEEE access , 2016 , 4: 247–267. DOI : 10.1109 /ACCESS .2015 .2514261
+[19] ALKHATEEB A , NAM Y H , ZHANG J Z , et al . Massive MIMO combining 
+with switches [J]. IEEE wireless communications letters , 2016 , 5(3): 232–
+235. DOI : 10.1109 /LWC .2016 .2522963
+[20] PARK S , ALKHATEEB A , HEATH R W . Dynamic subarrays for hybrid pre ‐
+coding in wideband mmWave MIMO systems [J]. IEEE transactions on wire ‐
+FC: fully -connected
+FD: fully digital
+PC: partially -connectedSNR: signal to noise ratio
+SVD: singular value decomposition
+▲Figure 8. Spectral efficiency vs SNR for the HBF -WMO algorithm with 
+different partitions of subarrays for a massive multiple -input multiple -out‑
+put -orthogonal frequency division multiplexing (MIMO -OFDM ) system 
+with N=64, Nt=512, Nr=8, Nt
+RF=4, Nr
+RF=2, Ns=2SNR/dB−20       −15         −10          −5            0             5            10          1525
+20
+15
+10
+5
+0Spectral efficiency/ (bit•s−1•Hz−1)FD-SVD
+FC
+PC type 1
+PC type 2
+PC type 3
+PC type 4
+PC dynamic
+103

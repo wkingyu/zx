@@ -1,0 +1,91 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Research Papers   Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos
+where v4 and v5 are the model coefficients that can be obtained 
+by regression . The values of v4 and v5 are listed in Table 4. It 
+can be seen that the values of v4 are very close to each other 
+while that of v5 are quite distinct for different video resolu ⁃
+tions . Hence , the average value of v4 is used as a fixed coeffi ⁃
+cient . The value of v5 is then regressed again .
+To reflect the impact of video resolution and screen resolu ⁃
+tion on perceived video quality , we employ the integrated as ⁃
+sessment parameter that we proposed in the previous work[46], 
+i.e., the number of effective video pixels per degree (ED -PPD) 
+displayed on the screen of HMD . The effective pixels do not 
+include the pixels interpolated by the up -sampling process . 
+This parameter is calculated as
+ED-PPD=ì
+í
+îïïïï
+ïïïïRH
+360,    RH≤RSH⋅360
+FOV
+RSH
+FOV, RH>RSH⋅360
+FOV  , (6)
+where RH and RSH are the horizontal resolution of 360 -degree 
+video and screen , respectively . When the horizontal pixels of 
+the video displayed on the screen are more than the horizontal 
+pixels on the screen , the ED -PPD will be saturated .
+Fig. 7 shows the relationship between the ED -PPD and v5. 
+It can be seen that the values of v5 and ED -PPD are in accor ⁃
+dance with the power function relationship , which can be ex ⁃
+pressed as
+v5=v6⋅ED-PPDv7, (7)where v6 and v7 are equal to 0.011 7 and 2.962, respectively .
+By substituting Eqs . (4), (5) and (7) into Eq . (2), the percep ⁃
+tual video quality of 360 -degree videos can be modeled .
+4.2 Visual Realism Assessment
+According to the results of Experiment 2, Fig. 8 shows the 
+relationship between perceptual video quality and visual real ⁃
+ism. It can be seen that there is a strong correlation between 
+the perceptual video quality and visual realism . For the influ ⁃
+ence of FOV , it can be observed that a higher FOV leads to a 
+higher visual realism . The Kruskal -Wallis H test showed that 
+there is a significant effect of FOV on visual realism , with p = 
+0.001 for monoscopic videos and p = 0.039 for stereoscopic 
+▼Table 4. Values of v4 and v5
+Video Resolution
+720P
+1080 P
+2K
+4Kv4
+0.497 4
+0.529 2
+0.537 1
+0.497 4v5
+0.525 7
+1.369 0
+4.584 0
+16.580 0
+ED -PPD: effective video pixels per degree
+▲Figure 7. Relationship between ED -PPD and v5
+▲Figure 8. Relationship between the perceptual video quality and vi ⁃
+sual realism : (a) 60 FOV (field of view ), (b) 90 FOV , and (c) 110 FOVv5
+ED⁃PPD0   2   4  6   8  10 1214
+12
+10
+8
+6
+4
+2
+0Perceptual video quality1 2 3 4 5Stereoscopic
+MonoscopicVisual realism5
+4
+3
+2
+1Visual realism5
+4
+3
+2
+1Stereoscopic
+Monoscopic
+1 2 3 4 5
+Perceptual video quality(a)
+(b)
+(c)1 2 3 4 5
+Perceptual video qualityVisual realism5
+4
+3
+2
+1Stereoscopic
+Monoscopic
+98

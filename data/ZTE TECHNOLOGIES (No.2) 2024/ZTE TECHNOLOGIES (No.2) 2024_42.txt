@@ -1,0 +1,85 @@
+ZTE and Liaoning Mobile Jointly Build 
+Intelligent Closed-Loop System for SPN 
+Service Quality Guarantee
+Intelligent Rule-Orchestrated Fault 
+Diagnosis 
+Traditional manual fault analysis relies heavily on 
+the experience of professional personnel, involving 
+extensive tasks such as alarm /f_iltering, correlation 
+analysis, tool preparation, and locating, which are 
+time-consuming. It is challenging to pass on O&M 
+experience and train new personnel. ZTE proposes 
+an intelligent fault diagnosis solution that centralizes 
+and modularizes distributed diagnosis tools such as 
+ping, IOAM, RCA, and con/f_iguration check. In 
+diﬀerent service scenarios, maintenance personnel 
+can independently orchestrate these modular 
+diagnosis rules, adding /f_ixed solutions to the library. 
+During fault location, the system automatically selects 
+and executes a diagnosis solution based on the fault 
+type. Currently, the system can locate faults in various 
+services, including connection/disconnection, 
+packet loss, and clock faults. This feature allows 
+mature diagnosis rules to be rapidly /f_ixed, making it 
+convenient for O&M personnel to call the rules at any 
+time. It addresses the bottleneck of low eﬃciency in 
+O&M knowledge transfer and the long accumulation 
+cycles for maintenance experience. Diagnostic time 
+is shortened from hours to minutes, greatly 
+improving fault location eﬃciency.
+Group Fault Analysis: Automatic 
+Fault Location
+A group fault refers to a quality abnormality 
+aﬀecting multiple services or network objects 
+simultaneously due to the same fault. These faults 
+mainly occur at the aggregation and core layers of 
+the network and are typically identi/f_ied through 
+customer complaints. When a group fault occurs, it 
+can result in a decline in the service quality of 
+Transport Product 
+Planning Manager, 
+ZTEOu Xuegang
+Transport Product 
+Planning Manager, 
+ZTEDong Kainann the 5G era, network architecture and service 
+models become increasingly complex. The 
+traditional O&M mode, relying on expert 
+experience, suﬀers from low fault location 
+eﬃciency and lengthy troubleshooting time, 
+acting as a bottleneck for network O&M. Passive 
+O&M, triggered by user complaints after service 
+quality degradation or fault occurrence, severely 
+aﬀects user experience. To improve service quality 
+in existing 5G SPN networks, boost user 
+satisfaction, and drive automation, digitization, 
+and intelligentization of network O&M, ZTE and 
+China Mobile Liaoning (Liaoning Mobile for short) 
+jointly proposed an intelligent closed-loop system 
+solution (Fig. 1). Veri/f_ication of this solution was 
+conducted on ZTE’s intelligent management and 
+control system ZENIC ONE (UME) in the existing 
+network.
+This solution extends alarm compression and 
+root cause analysis capabilities based on intelligent 
+rule-orchestrated fault diagnosis. It also deploys 
+group fault analysis and automatic service quality 
+maintenance (intent maintenance) functions, 
+enabling intelligent closed-loop management. This 
+includes real-time service status perception, 
+automatic delimitation and location during fault 
+analysis, and minute-level service recovery in 
+certain scenarios. With this solution, SPN fault 
+location accuracy can reach 95%, and overall O&M 
+eﬃciency can increase by over 35%, as service 
+quality problems are identi/f_ied more eﬃciently 
+and precise solutions are provided. By 
+transitioning from manual and passive O&M to 
+automatic and active O&M in certain scenarios, 
+network maintenance eﬃciency and service 
+security are enhanced, customer complaint rates 
+are reduced, and customer satisfaction is 
+improved.I 
+ 
+ 
+ 
+40 Success Stories 

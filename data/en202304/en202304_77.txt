@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Research Papers   Incident and Problem Ticket Clustering and Classification Using Deep Learning
+counting for 54% of the total amount .
+In order to achieve fine granularity of the classification , we 
+use the combination of sub -categories and components as the 
+label . There are 29 top labels with more than 3 000 records .
+We compare multiple classification algorithms including 
+TF-IDF, LDA and BERT . As expected , BERT achieved the 
+best precision and recall for the same dataset . Both TF -IDF 
+and LDA with the regression model yield a prediction accu ⁃
+racy of less than 80%. We build the incident classification 
+model based on BERT which is shown in Fig. 5.
+1) Architecture of our model
+• The input layer is a text layer with preprocessed incident 
+description text .
+• The preprocessing layer is a Chinese processing model de ⁃
+vised by Google (suited for the BERT model ). Every ticket text is transformed into 3 vectors : input_word_ids , input_mask and 
+input_type_ids with 128 dimensions respectively . In ⁃
+put_word_ids denotes the ID of the word . The lost elements of 
+input_word_ids vector are filled with 0. For the corresponding 
+numbers in an input_mask vector , they should be 1 while the 
+remaining elements are 0. Input_type_ids can clarify different 
+sentences . In this classification study , we set all of its ele ⁃
+ments to 0.
+• BERT_encoder is an advanced BERT model devised by 
+Google . BERT_encoder has 12 layers (bert_zh_L -12_H-
+768_A-12|) and the output of the BERT_encoder consists of 
+pooled_output (each text corresponds to a vector of 768 ele⁃
+ments ), sequence_output (each word in each text corresponds 
+to a vector of 768 elements ) and encoder_outputs (output of in ⁃
+ner units ). We only focus on pooled_output in this experiment .
+• The dropout layer aims at avoiding overfitting . The prob ⁃
+ability of dropout is set to 0.1.
+• The classifier layer is a fully connected layer that outputs 
+the probability of each ticket belonging to a certain classifica ⁃
+tion in the labels .
+2) Training and testing data preparation
+We use the following steps as data preprocessing to gener ⁃
+ate training and testing data :
+• Delete all the incident tickets containing null value cat ⁃
+egory information or empty ticket descriptions .
+• Modify the classification labels into lowercase and delete 
+the redundant blank space . This operation is devised from ob ⁃
+serving the original data , where some categories and items are 
+generally the same but only differ in lowercase and uppercase . 
+For example , iCenter and Icenter .
+• Delete tickets with ambiguous items and category labels like 
+ “other , others , to be classified , and other pending problems ”.
+• Merge the item and category labels in the form of component .
+category such as intelligent maintenance .itsp serve website .
+• After the merging operation , delete labels and their inci ⁃
+dent tickets data whose statistic number is less than the 
+threshold (we set 3 000 in this experiment ).
+• Remove HTML formatting and redundant space (including 
+line feed punctuation ) from the incident description texts . For 
+the English content , all the letters are also put in lowercase .
+• Shuffle the resulting incident data . 70% of the dataset is 
+utilized as the training set and the remaining 30% is used as 
+the test set .
+• Each classification label and its quantity of relevant inci ⁃
+dent tickets are given in Table 5 (29 classification labels with 
+more than 3 000 records respectively are reserved ).
+As a result , 103 094 incident tickets are identified as train ⁃
+ing data and 44 183 incident tickets are collected as test data .
+For training the model , we adopt the Sparse Categorical 
+Crossentropy as the loss function , Sparse Categorical Accu ⁃
+racy for accuracy measurement and optimize the model with 
+AdamW . The experiment sets the initial learning rate to 3e-5 
+and the epoch to 5. The original training data are partitioned BERT : bidirectional encoder representation from transformers
+▲Figure 5. BERT classification network architectureText: inputLayer
+Preprocessing : KerasLayer
+BERT_encoder : KerasLayer
+Dropout : dropout
+Classifier : dense
+BERT : bidirectional encoder representation from transformers▼Table 4. Categories and record numbers
+Category
+Infrastructure
+Operation product line
+OA product line
+EPMS intelligent service
+iCenter application
+PLM product line
+AIOps group
+Technical platform
+Others
+IT Wizard
+Operation NOC
+Network
+Communication
+Middleware
+SecurityNumber of Records
+177 040
+64 869
+55 570
+22 454
+19 849
+15 870
+14 121
+1 232
+171
+19
+17
+5
+2
+1
+1
+AIOps : artificial intelligence for IT operations
+EPMS : enterprise performance management system
+NOC : network operations center 
+OA: office automation
+PLM : product lifecycle management
+74

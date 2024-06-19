@@ -1,0 +1,62 @@
+sharing, 1+1 mutual backup, and 1+1 
+active/standby. The appropriate disaster 
+recovery mode is determined based 
+on the NE type. If a single NE fails, the 
+system utilizes the NE’s disaster recovery 
+mechanism to implement recovery 
+between NEs and ensure fast service 
+recovery. If all the disaster recovery NEs 
+of a certain type fail, the bypass function 
+of the adjacent NE interface is activated. 
+This allows for timely bypassing the faulty 
+NE, ensuring maximum continuity of user 
+services. For example, the AMF and SMF 
+support UDM bypass function, and each 
+NF supports NRF bypass function. 
+Network-Level Reliability
+In order to ensure the overall reliability 
+of the Cloud Core Network, it is important 
+to meet the eight-level disaster recovery 
+requirements during network planning and 
+construction. Additionally, the resource 
+pool should be built according to the 
+remote dual-DC solution. In the event of a 
+resource pool fault or an equipment room 
+fault, services can be quickly switched over 
+to a remote equipment room for quick 
+service takeover. With the deployment of the hot standby function of NEs such 
+as AMF/MME, SMF/GW-C, and UPF/GW-U, 
+the takeover eﬃciency of the Cloud Core 
+Network can be further improved, realizing 
+smooth takeover of terminals without the 
+need for reconnection. 
+Sometimes, during the normal operation 
+of the network, a fault may trigger a 
+signaling storm where a large number 
+of users access the network concurrently 
+within a short period of time, exceeding 
+the NE's ability to process signaling 
+messages in a timely manner. In addition, 
+when terminal access fails, it attempts to 
+access the network repeatedly, resulting in 
+network congestion. 
+To eﬀectively prevent signaling storms, 
+the core idea is to implement end-to-end 
+/f_low control based on source control. 
+The system accepts a proper number of 
+users based on the end-to-end capability 
+dynamically perceived by the source end. 
+This ensures that the back-end NE can 
+handle users within its capability range 
+and avoids overload. To achieve this, the 
+data domain AMF/MME and voice domain 
+PSBC are used as the ingress NEs, and 
+end-to-end /f_low control is jointly deployed 
+based on the capabilities of the back-end As the cornerstone of the mobile 
+communications network, a secure 
+and stable cloud core network 
+is essential for information 
+communication and transfer in a 
+digital society.
+/gid00024 /gid00055 /gid00052 /gid00061 /gid00001/gid00045 /gid00056 /gid00061 /gid00072 /gid00068
+13OCT 2023

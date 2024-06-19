@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian RIS -Assisted Cell Free MIMO : A Survey    Review
+assisted cascaded channels . Second , the APs transmit the de ⁃
+mand signal received to the CPU . Then , the CPU allocates 
+power and transmits a control signal to APs based on the sig ⁃
+nal transmitted by APs . Finally , APs transmit wireless energy 
+signals to the energy receiver via downlink .
+Recently , some works have considered the WET in RIS -
+assisted CF MIMO systems and analyzed its opportunities 
+and challenges . For example , the authors of Ref . [42] an⁃
+swered the question of how the WET technology could be in ⁃
+tegrated into RIS -assisted CF MIMO systems from the main 
+application scenarios , the four -stage transmission procedure , 
+the specific deployment and hardware design , and the opera ⁃
+tion modes . The weighted sum rate maximization problem for 
+RIS -assisted CF MIMO systems was studied in Ref . [43], un⁃
+der the total power constraints , the energy harvesting con ⁃
+straints and the unit -modulus constraints of the RISs . In Ref . 
+[44], the authors proposed to substitute APs with UAVs to 
+construct a CF MIMO -mount UAV assisted by RISs for RF 
+energy transfer , which combines the benefits of CF MIMO , 
+RISs and UAV . This framework where the distributed UAVs 
+act as APs and operate in a cell -free fashion can provide a 
+strong LoS signal and thus harvest more energy than other 
+benchmarks .
+5 Technical Challenges and Future Direc ⁃
+tions
+Although several aspects of the RIS -assisted CF MIMO 
+technique have been discussed in this paper , there are still 
+some remaining challenges and unidentified areas in this 
+field. In the following , we will point out some of the major 
+challenges and future directions for implementing this tech ⁃
+nology in future wireless networks to realize its full potential .
+5.1 Technical Challenges
+To achieve the promised performance gains brought by the 
+RIS -assisted CF MIMO technique , exact channel estimation 
+is indispensable , which is rather difficult due to the follow ⁃
+ing reasons . First , it is challenging to achieve perfect chan ⁃
+nel estimation for RISs , if not impossible . Due to their pas ⁃
+sive nature , RISs do not have any capability of signal pro ⁃
+cessing , which makes it an arduous task to obtain individual 
+channels of each hop of the links as in traditional relay sys ⁃
+tems . Second , RISs are usually composed of hundreds or 
+even thousands of reflecting elements . Consequently , the 
+channel coefficients that need to be estimated are tremen ⁃
+dous , leading to an unaffordable overhead .
+Due to hardware limitations of RIS elements , achieving op ⁃
+timal phase shift on all frequencies simultaneously in RIS -
+assisted MIMO systems is impractical , resulting in the so -
+called beam squint effect[45]. Specifically , the application of a 
+large system bandwidth and intelligent reflecting surface 
+causes a non -negligible propagation delay of electromagnetic 
+waves and thus leads to a frequency -dependent antenna ar ⁃ray response , i.e., beam pointing direction varies with fre ⁃
+quency . However , ignoring the beam squint effects can lead 
+to severe beam gain loss and seriously degrade system perfor ⁃
+mance , especially for RIS -assisted wideband mmWave sys ⁃
+tems . Therefore , the impact of beam squint needs to be taken 
+into consideration , and effective measures should be imple ⁃
+mented to mitigate its impact in RIS -assisted systems .
+Another critical technical challenge of the RIS -assisted 
+CF MIMO system is low -complexity signal processing . On 
+the one hand , to provide better QoS for future networks with 
+massive access devices , it is necessary to deploy more APs 
+and RISs with numerous antennas and reflecting elements . 
+On the other hand , the problem of jointly optimizing the ac ⁃
+tive precodings at APs and passive precodings at RISs is al ⁃
+ways non -convex due to the unit -modulus constraints of 
+RISs , which always comes with a vast number of time -
+consuming iterations , leading to high calculation complexity 
+and huge time latency . Meanwhile , due to the coupling be ⁃
+tween the optimization variables , the problem is hard to 
+solve[38]. While many existing researchers have focused on 
+and proposed various sub -optimal solutions to this problem , 
+considering practical system implementations such as chan ⁃
+nel estimation and hardware impairments may make it even 
+more sophisticated to solve[37]. Thus , there is an urgent need 
+for more low -complexity signal processing techniques .
+5.2 Future Directions
+Learning -based techniques have attracted increasing at ⁃
+tention from both academia and industry due to their ability 
+to process a vast number of data in emerging wireless appli ⁃
+cations[46]. However , only a few studies have investigated the 
+learning -enabled RIS -assisted CF MIMO networks . In fact , 
+learning can play an essential role in channel estimation and 
+power allocation for RIS -aided systems and CF MIMO sys ⁃
+tems . For example , some results have shown that the neural 
+network -based estimation method can outperform the tradi ⁃
+tional estimation methods even with a few pilots , and the 
+deep learning -based resource allocation can approximate the 
+globally optimal performance for max -min power control . As 
+such , more in -depth studies should be conducted in learning -
+enabled RIS systems and CF MIMO systems to fully exploit 
+the potential of these techniques .
+Near -field communication is an indispensable part of fu ⁃
+ture 6G networks , which will bring several challenges to wire ⁃
+less communications . The low cost and low power consump ⁃
+tion enable RIS to be equipped with a large number of reflec ⁃
+tive elements[47]. Meanwhile , increasing the number of anten ⁃
+nas in the BS is also an important trend for future communi ⁃
+cation systems . However , large -scale RIS panels and large 
+antenna arrays in the BS can lead to the near -field effect , es⁃
+pecially in RIS -assisted CF MIMO wireless communication 
+systems . Most traditional techniques designed for the far 
+field suffer severe performance losses in the near -field re ⁃
+83

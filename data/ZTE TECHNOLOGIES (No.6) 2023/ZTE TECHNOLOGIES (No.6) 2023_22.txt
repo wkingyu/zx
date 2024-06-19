@@ -1,0 +1,93 @@
+function, the platform collects and analyzes 
+relevant information to continuously tune the 
+channel, enabling users to enjoy an 
+increasingly better Wi-Fi experience.
+Content Source Optimization
+The ZENIC ONE 2.0 system analyzes content 
+sources, encompassing access users and 
+access traﬃc, and presents the /f_indings 
+through graphs. It provides a detailed list of 
+the service quality of each content source, 
+enabling operators to gain a comprehensive 
+understanding of the content source quality. A 
+content source with a low score is identi/f_ied as 
+a low QoE content source. The system 
+generates a list of low QoE content sources, 
+accentuating the low QoE indicators, to aid 
+operators in optimizing content sources.
+Utilizing AI for Enhanced Precision 
+Marketing
+The ZENIC ONE 2.0 system introduces a new 
+way of marketing — precision marketing. The 
+customer experience management subsystem 
+within the system collects and extracts data 
+from the built-in blade server, enabling the 
+generation of multi-dimensional 
+con/f_iguration /f_iles. Meanwhile, these 
+multi-dimensional user /f_iles can be integrated 
+with other service data to form user pro/f_iles. 
+This empowers operators to execute precision 
+marketing based on home terminals, 
+packages, and membership, preventing 
+customer churn.
+In fact, with the continuous optimization of 
+the AI algorithm, operators can make 
+comprehensive user analysis and recommend 
+customized packages. This not only saves 
+marketing costs but also signi/f_icantly 
+increases sales eﬃciency. For instance, home 
+Wi-Fi can be recommended for users with 
+poor network coverage, game acceleration 
+services for online gamers, livestream 
+acceleration services for Internet celebrities. In 
+recent years, the ZENIC ONE 2.0 has helped 
+China Unicom and China Mobile achieve remarkable results in precision marketing and 
+customer satisfaction improvement.  
+Traﬃc Analysis for More Eﬃcient 
+Planning
+The ZENIC ONE 2.0 system provides 
+expansion or service planning suggestions 
+through analysis and calculation based on 
+existing network resources and traﬃc. If the 
+uplink or downlink peak bandwidth usage of 
+the uplink port and PON port exceeds 70%, it 
+suggests expanding the capacity of the OLT or 
+PON port. It can identify the key areas for 
+business development by analyzing the 
+concurrent installation rate of ONTs and STBs, as 
+well as plan key user development areas by 
+analyzing the number of connected users. 
+The system can also analyze the average 
+video service traﬃc of users in diﬀerent areas to 
+support the expansion of self-operated STB 
+services, and plan the STB service development 
+according to the concurrent installation rates of 
+diﬀerent terminals in speci/f_ic areas.
+Summary
+The ZENIC ONE 2.0 E2E system not only 
+covers the entire FTTx network, providing 
+management and network analysis functions 
+for OLTs, visual topology for dumb ODN 
+resources, and remote tuning function for 
+home networks, but also focuses on user 
+experience and identi/f_ies low QoE users 
+through E2E service analysis to prevent 
+potential risks and actively improve user 
+experience. 
+The system provides full support for 
+operators during the whole process of 
+“maintenance, optimization, marketing, and 
+planning” . It a powerful tool for the operators’ 
+autonomous network development and can 
+eﬀectively promote their revenue growth. 
+Having been fully veri/f_ied and acknowledged by 
+China Mobile, the ZENIC ONE 2.0 will help more 
+operators worldwide to implement E2E 
+management of FTTx networks.
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+20 

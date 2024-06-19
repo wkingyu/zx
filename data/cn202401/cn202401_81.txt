@@ -1,0 +1,90 @@
+异构大规模分布式网络设计与性能评估 叶新泉  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1境。进而 ，根据是否具有功放可将 RIS分成被动 RIS和主动
+RIS。为了方便对比不同类型的 Type-II-RN 特征 ，我们将
+AF中继 、DF中继 、NCR 、被动 RIS和主动 RIS分别记作
+Type-II- 1-RN 、Type-II- 2-RN 、Type-II- 3-RN 、Type-II- 4-
+RN和Type-II- 5-RN 。不同的候选 Type-II-RN 特征对比见表
+2。进一步地 ，对比表 2中候选 Type-II-RN 的各项特征 ，我
+们可以发现如下关系 ：
+• 硬件成本 ：Type-II- 4-RN<Type-II- 5-RN<Type-II- 1-
+RN<Type-II- 3-RN<Type-II- 2-RN ；
+• 时延 ：Type-II- 4-RN=Type-II- 5-RN<Type-II- 1-RN=
+Type-II- 4-RN<Type-II- 2-RN ；
+• 性能 ：Type-II- 2-RN>Type-II- 5-RN>Type-II- 4-RN>
+Type-II- 3-RN>Type-II- 1-RN ；
+• 功耗 ：Type-II- 4-RN<Type-II- 5-RN<Type-II- 3-RN<
+Type-II- 1-RN<Type-II- 2-RN ；
+• 实现复杂度 ，Type-II- 4-RN=Type-II- 5-RN<Type-II-
+1-RN<Type-II- 3-RN<Type-II- 2-RN 。
+因此 ，综合考虑上述硬件成本 、时延 、性能 、功耗和实
+现复杂度等因素 ，我们将 Het-LDN 系统中的 Type-II-RN 优
+选 为 Type-II- 4-RN （被 动 RIS）或Type-II- 5-RN （主 动
+RIS） ，下文简称为 RIS。
+1.2 传输模型
+在Het-LDN 系统中 ，每个 UE可由一个或多个 AP或RIS
+为其服务 ，同一时刻一个 RIS只能服务一个 UE，而一个 AP
+可以同时服务一个或多个 RIS。图3给出一种多 AP-多RIS的
+协作传输模型 ，其中 ，M个AP和L个RIS分别通过 Ncd个直
+射路径和 Ncf个反射路径联合为 UEk服务 。UEk的接收信号模
+型和干扰信号模型分别如公式 （1）和公式 （2）所示 。其
+中，xk和xu分别是APm为UEk和APt为UEu服务时的发送信
+号，yk和z为UEk的全部接收信号和全部干扰加噪声信号 ，
+z由I1和I2两部分组成 ，I1为恒定外部干扰 （含底噪 ） ，I2为除UEk外其他用户产生的干扰 ，其数学模型如公式 （3）所
+示，HRU,i、ΦRU,i和pRU,i 分别是UEk的第 i条反射径上 RIS与
+UE之间的信道参数 、RIS的调相参数和 RIS的调幅参数 ，
+HAR,i 、WAR,i和pAR,i 分别是UEk的第 i条反射径上 AP与RIS之间
+的信道参数 、AP的预编码参数和 AP的功控参数 ，Hj、Wj和
+pj 分别是UEk的第 j条直射径上 AP与UE之间的信道参数 、
+AP的预编码参数和 AP的功控参数 ，HRU,a,k、ΦRU,a和pRU,a 分
+别是UEu的第 a条反射径上 RISaj与UEk之间的信道参数 、
+RISaj为UEu服 务 时 的 调 相 参 数 和 调 幅 参 数 ，HAR,a 、
+WAR,a和pAR,a 分别是UEu的第 a条反射径上服务的 APaj与RIS之
+间的信道参数 、APaj的预编码参数和功控参数 ，HAR,a ,k是UEu
+的第 a条反射径上的服务 APaj与UEk之间的信道参数 ，Hb,k、
+Wb,和pb分别是UEu的第 b条直射径上的服务 APbi与UEk之间
+的信道参数 、APbi为UEu服务的预编码参数和功控参数 ，
+Ncf,u和Ncd,u分别是UEu的反射路径数和直射路径数 ，K为
+AP：接入节点      RIS ：智能超表面      UE ：用户设备
+图3 Het-LDN 传输模型示意图
+▼表2 不同候选 Type-II-RN 特征对比
+特征
+功能
+延迟
+功耗
+成本Type-II- 1-RN
+（AF Relay ）
+只信号放大
+低
+中
+中Type-II- 2-RN
+（DF Relay ）
+可信号放大 、可移相 、可编
+解码
+高
+较高
+较高Type-II- 3-RN
+（NCR）
+可信号放大 、受限移相 、无
+编解码
+低
+中
+中Type-II- 4-RN
+（被动 RIS）
+无信号放大 、可移相 、无编
+解码
+无
+最低
+最低Type-II- 5-RN
+（主动 RIS）
+可信号放大 、可移相 、无编
+解码
+无
+低
+低
+AF：放大转发
+DF：解码转发NCR：网络控制中继器
+RIS：智能超表面RN：中继节点UEKAP与RIS间的传输链路
+RIS与UE间的传输链路
+AP与UE间的传输链路RIS1RIS2RISL………… AP1AP2APM
+77

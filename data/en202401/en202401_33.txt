@@ -1,0 +1,103 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems    Special Topic
+via Eq . (15).
+Lemma 1: When the scale of the c -subarray is large and 
+tends towards infinity , but the distance between the transmit ⁃
+ter and the XL -HRIS is finite , the CRLB of the pseudo -true 
+parameter estimate will tends towards 0, while the value of LB 
+mainly depends on the channel model mismatch and tends to ⁃
+wards a non -zero constant value , which can be expressed as
+LBNsub→∞(θ)=9d2( ) 1-2θ2+θ4
+2r2 . (32)
+Lemma 2: If the distance between the UE and the XL -
+HRIS i s infinite , the variation caused by the channel model 
+mismatch will tend towards 0, and the value of LB tends to ⁃
+wards the CRLB of the pseudo -true parameter estimate , i.e., 
+LBr→∞(θ)=CRLB(θpse).
+Lemma 3: With the increase of the transmit power , the LB 
+tends towards a constant value , which can be expressed as
+LBP(θ)=(1+3Nsub+4
+N2
+sub-1)29d2( ) 1-2θ2+θ4
+2r2. (33)
+Note that the CRLB of the estimated pseudo -true parameter 
+is inversely proportional to the SNR , while the variation 
+caused by the channel model mismatch is independent of the 
+SNR. Hence , with the transmit power increasing to infinity , 
+the CRLB of the estimated pseudo -true parameter will tend to ⁃
+wards 0, and the AoA parameter estimation accuracy is 
+mainly limited by the channel model mismatch .
+3.3 Impacts of Channel Model Mismatch and Array 
+Scale on SE
+To reduce computational complexity in the proposed XL -
+HRIS -aided system , the AoA parameter is estimated by the c -
+subarray , and then the distance parameter is detected through 
+the receive signal of the r -subarray . Finally , the complex gain 
+can be calculated through the least square (LS) method . By es ⁃
+timating the two separate channels between the UE/BS and 
+the XL -HRIS , the cascade channel from the UE to the BS can 
+be reconstructed accurately . The impacts of the c -subarray’s 
+scale on the SE are studied as follows .
+When the XL -HRIS is in the passive mode , the BS receives 
+the signal reflected by the XL -HRIS , which can be denoted as
+yBS=PwH
+recHBSΩhR+nBS, (34)
+where HBS∈CM×N denotes the channel between the XL -HRIS 
+and the BS ; nBS∈CM×1 is the additional Gaussian white noise 
+with 0 mean and σ2 variance ; Ω=diag(ejφ1,⋯, ejφN) is the 
+phase shift matrix of the XL -HRIS ; φn follows the random dis ⁃
+tribution within )[0, 2π, for n=1,⋯, N; wrec∈CM×1 denotes 
+the beamforming vector . If the perfect CSI has been ob ⁃tained[35–36], and the maximal ratio combining (MRC ) receiver 
+is adopted , i.e., wrec=HBSΩhR
+ HBSΩhR. Hence , the SE with the per ⁃
+fect CSI can be calculated as
+C=E{log2(1+SNRrec)}, (35)
+where the received SNR at the BS is defined as
+SNRrec=P HBSΩhR2
+σ2 . (36)
+Nevertheless , the perfect CSI cannot be obtained in ad ⁃
+vance in the real communication system , and the CSI should 
+be estimated through a channel estimation algorithm , which 
+can lead to errors in the estimated channel parameters and a 
+decrease in the SE . Considering a stable environment between 
+the XL -HRIS and the BS , we assume that the perfect CSI of 
+HBS has been obtained . Hence , only the impacts of the esti ⁃
+mated parameters ’ errors in the channel between the UE and 
+the XL -HRIS on the SE performance should be analyzed . To 
+calculate the maximum SE when the estimation error exists 
+(which will decrease the SE ) in the proposed system , the mini ⁃
+mum errors of the estimates are assumed as {Δθmin, Δrmin}=
+{LB(θ), CRLB(r)}, where CRLB(r) can be calculated as
+CRLB(r)=2P||g2
+σ2Eì
+í
+î∂wH
+R
+∂r∂wR
+∂rü
+ý
+þ. (37)
+The detailed expression of CRLB(r) can be seen in Ref . 
+[32]. Typically , a special scenario is considered , i.e., θ=1, 
+and the receive signal is rewritten as
+y=g͂[ejkcr1,…, ejkcrN]T
+, (38)
+where g͂=gre-jkcr. Then , we have rn=|r-χnd|, and the 
+CRLB(r) can be denoted as
+CRLB(r)=∑n∈Θ2P||g2
+σ21
+() r-χnd2()r2
+() r-χnd2+k2
+c
+,
+(39)
+where Θ denotes the vector constructed by the index of the el ⁃
+ements in the c -subarray and the r -subarray . Meanwhile , in 
+the special scenario θ=1, the estimation accuracy lower 
+bound of the realistic parameter LB(θ) is equal to that of the 
+pseudo -true parameter CRLB(θpse), which can be expressed as
+LB(θ)=CRLB(θpse)=6σ2
+k2
+cd2P||g2Nsub() N2
+sub-1. (40)
+29

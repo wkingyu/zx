@@ -1,0 +1,29 @@
+6G新型信息通信网络架构设计 段晓东  等 专家论坛
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5科学, 2023 , 39(1): 20-29. DOI: 10.11959 /j.issn.1000 -0801 .2023008
+[7] DUAN X D , WANG X Y , LU L , et al . 6G architecture design : from overall , 
+logical and networking perspective [J]. IEEE communications magazine , 
+2023 , 61(7): 158-164. DOI: 10.1109 /mcom .001.2200326
+[8] 中 国 移 动 . 算 力 网 络 技 术 白 皮 书  [EB/OL ]. [2023 -09-10]. https ://www .
+digitalelite .cn/h-nd- 1936 .html
+[9] WANG X Y , SUN T , DUAN X D , et al . Holistic service-based architecture for 
+space-air-ground integrated network for 5G-advanced and beyond [J]. 
+China communications , 2022 , 19(1): 14-28. DOI: 10.23919 /jcc.2022 .01.002
+[10] WANG S , SUN T , YANG H W , et al . 6G network : towards a distributed and 
+autonomous system [C]//Proceedings of 2020  2nd 6G Wireless Summit 
+(6G SUMMIT ). IEEE , 2020 : 1-5. DOI : 10.1109 /6gsummit 49458 .2020 .908
+3888
+作 者 简 介
+段晓东 ，中国移动研究院副院长 ，正高级工程师 ，
+IMT- 2030 （6G）推进组网络技术组组长 ；主要
+研究方向包括 5G/6G网络架构 、IP新技术 、IPv6、
+算力网络等 。孙滔 ，中国移动研究院首席专家 ，正高级工程师 ，
+中国科学技术协会第十届全国委员会委员 ；长期从
+事移动通信网架构 、IP新技术研究和标准化工作 。
+刘超 ，中国移动研究院主任研究员 ，高级工程师 ；
+长期从事 TD-LTE 、NB-IoT 、5G/6G核心网等领
+域的技术研究和标准化工作 。
+施南翔 ，中国移动研究院主任研究员 ，高级工程
+师；长期从事 5G/6G网络架构 、天地一体网络 、
+能力开放 、码号等领域的技术研究和标准化工作 。
+81

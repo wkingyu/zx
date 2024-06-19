@@ -1,0 +1,90 @@
+such as abnormal login, backdoors, local 
+privilege escalation, malicious scanning, 
+malicious processes, and brute-force attacks. It 
+also includes proactive defense against CSRF 
+attacks, deserialization attacks, /f_ile upload 
+attacks, SQL injection attacks, and other attack 
+behaviors.  
+Security O&M:  The host security O&M 
+subsystem monitors various security states 
+on CDN host devices, including abnormal 
+processes, operations, account activities, and 
+other exceptional conditions.
+Future Product Planning
+To improve the security and governance 
+capabilities of CDN, it is recommended to adopt 
+systematic defense and digital operations for 
+product planning. This involves building a layered 
+defense system through capability stacking and 
+using digital metrics to drive security operations, 
+thereby enhancing the practical eﬀectiveness of 
+CDN’s security protection. The future secure CDN 
+planning will focus on the following three aspects: 
+Building a unified security platform to 
+simplify management:  Integrating CDN 
+security products with a uni/f_ied design 
+concept, including platform integration, 
+functional integration, and management 
+integration. This can signi/f_icantly simplify 
+the complexity of CDN system construction, 
+operation and expansion.
+Implementing a layered defense system 
+for manageable security risks:  Optimizing 
+closed-loop defense strategies against security 
+threats, and planning based on prevention, 
+protection, detection and response. This 
+enables eﬀective defense against both known 
+and unknown security threats, signi/f_icantly 
+reducing security risks.  
+Providing security operation tools to 
+improve CDN security intelligence: Providing 
+methods and tools for security operations 
+to present CDN security eﬀects in real time. 
+This enables targeted analysis of current 
+weaknesses and facilitates the improvement 
+of CDN security management maturity and 
+intelligence level as needed. Its goal is to prevent fraudulent calls, block 
+fraudulent messages, restrict access to 
+fraudulent websites, and prevent fraudulent 
+money transfers. 
+Node disaster recovery:  By utilizing 
+various disaster recovery technologies 
+including Anycast scheduling, private 
+network redundancy for live streaming, 
+source redundancy for live streaming, and 
+active/standby platform, the solution ensures 
+uninterrupted service of CDN nodes even in 
+abnormal scenarios. 
+Data Security
+Sensitive data such as IP addresses, user names, 
+passwords, and email addresses are stored in 
+CDN. To prevent the disclosure of sensitive user 
+data, secure CDN provides a visual management 
+interface for data masking con/f_iguration. It 
+adopts AES256 reversible encryption algorithm 
+and SHA256+ SALT irreversible algorithm to 
+mask sensitive data, eﬀectively preventing data 
+disclosure within the CDN. 
+Host Security
+To ensure the security of the CDN host, a 
+comprehensive approach is implemented. 
+Initially, a thorough assessment of CDN hardware 
+and software assets is conducted to identify 
+potential vulnerabilities and ensure compliance. 
+Subsequently, proactive measures are taken 
+for attack defense and detection. Finally, a 
+traceability analysis is performed to establish an 
+integrated host security defense system. 
+Asset management:  This involves managing 
+server basic information, processes, accounts, 
+ports, network connections, and operating 
+system. 
+Risk detection:  This involves detecting 
+risks within the host, such as backdoors, 
+vulnerabilities, weak passwords, trojans, and 
+abnormal /f_iles. By identifying these abnormal 
+risks in the host, the system triggers alerts to 
+initiate further inspection.
+Intrusion detection and defense:  This 
+involves detecting and alerting on threats 
+34New Video Ecosystem Special Topic

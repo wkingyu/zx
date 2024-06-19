@@ -1,0 +1,95 @@
+only in-metro BBU, is the smallest in its 
+/f_ield. It perfectly /f_its metro carriages, 
+supporting up to 12×100 MHz Massive 
+MIMO cells while weighing only half as 
+much as a typical BBU. Despite its 
+compact size to accommodate limited 
+metro space, the slim BBU is powerful 
+enough to ensure stable and seamless 5G 
+coverage. Moreover, the 5G-Advanced 
+AAU supports a 1.6 GHz bandwidth and 
+can reach peak rates of up to 28 Gbps 
+when used with NR-DC, making it the 
+largest backhaul option.
+Lower investment and greener operation: 
+For Metro Line 4 alone, the number of 5G 
+network devices deployed has been reduced 
+from 640 to 192, saving approximately $2.1 
+million. The energy consumption of the 5G 
+network has decreased from 746 Kw to 
+169 Kw, representing a remarkable 78% 
+reduction. This results in an annual savings of 
+3.7 million kWh, enough to power a 
+community of 5,000 people for a year.
+Empowering Smart Metro 
+Operation
+This 5G-Advanced powered smart metro 
+solution based on 3GPP 5G standards oﬀers 
+high security, ultra-low latency (<5 ms), 
+high bandwidth, and excellent reliability. 
+Providing complete visibility and 
+situational awareness of the entire metro 
+line, it also integrates communication and 
+perception, identifying objects as small as 
+20×20×20 (cm /three.numerator). This enhances overall 
+security and reliability for completely 
+driverless driving.
+Inspecting trains, rails and tunnels 
+involves risks, such as gaps of up to 100 
+meters on both platform and non-platform 
+tracks, with water accumulation. All 
+inspections must be completed within a 
+three-hour window at midnight. Machine 
+vision and AI pattern recognition can cut 
+down human inspections by 80%, 
+enhancing employee safety, improving operating eﬃciency by 30%, and reducing 
+night working by 50%.
+Unprecedented Metro Experience 
+Enhancement
+The 5G-Advanced powered smart metro 
+solution oﬀers passengers an unparalleled 
+gigabit experience, ensuring an enjoyable 
+journey. Each metro has a network capacity 
+of up to 15 Gbps, suﬃcient for 1800 people 
+to watch HD video streams or play cloud 
+games simultaneously without any Internet 
+slowdown. The peak rate within the metro 
+has tripled, reaching 2.1 Gbps from 
+600 Mbps, meeting passengers’ daily social 
+and entertainment needs. 
+The mobile network infrastructure 
+enhances user experience for various 
+services. In Shanghai, the METRO app 
+(available on both IOS and Android) provides 
+real-time information on carriage arrival time 
+and crowding levels, enabling passengers to 
+plan optimal travel routes. After passengers 
+disembark, the sub-meter-accuracy 
+positioning guides passengers to the 
+optimal route via the METRO app when GPS 
+is unavailable, whether changing trains or 
+exiting the station. 
+After the commercial launch on Line 4, 
+deployment on Line 9 is underway, with 
+plans for expansion to additional metro 
+lines in Shanghai. The 5G-Advanced 
+powered smart metro solution is applicable 
+to at least 70 metro lines in medium- and 
+large-sized cities like Beijing, Tsingtao, and 
+Hangzhou in China, and aims to extend its 
+reach globally.
+Digitalization construction forms the 
+foundation of a smart metro, focusing on 
+safety, performance, comfort and reducing 
+operational costs to support long-term, 
+sustainable urban growth. ZTE is committed 
+to advancing  5G-Advanced innovation in this 
+digital economy era through collaboration 
+with more industrial partners to create a 
+brighter future. 
+B a c k h a u l in  tu n n e l
+In -m e tro  5 G  c o v e ra g e
+ 
+ 
+ 
+ 35 FEB 2024

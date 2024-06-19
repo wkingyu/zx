@@ -1,0 +1,49 @@
+launched diﬀerent types of GPU servers built on three 
+major CPUs including mainstream X86 architecture 
+CPUs, domestically-produced X86 architecture CPUs, 
+and ZTE-developed ZFX CPU platforms. 
+Supporting Two GPU Form Factors 
+The ZTE GPU server supports PCIe AIC GPUs as well 
+as SXM/OAM GPUs designed for high-speed 
+interconnection between cards, such as Nvidia SXM 
+GPU accelerator cards or OAM GPU accelerator cards 
+(Biren and Cambrian). 
+Oriented to Three Application Scenarios 
+ZTE series GPU servers oﬀer multiple 
+con/f_igurations to meet the requirements of 
+large-scale, medium-scale, and small-scale AI model 
+training and inference scenarios.
+For small model training and medium/small model 
+inference scenarios, a general rack server is used. A 
+single server can be con/f_igured with four 
+dual/single-width full-height GPUs or six/eight 
+single-width half-height GPUs, corresponding to the 
+ZTE R53xx/59xx series servers.
+In medium/small model training and large model 
+ 
+ 
+ 
+ inference scenarios, a dedicated PCIe AIC GPU server 
+is employed. A single server can be con/f_igured with 
+eight or 10 double-width, full-height and full-length 
+GPUs or 16 or 20 single-width, full-height and 
+full-length GPUs, corresponding to the ZTE R65xx 
+series GPU servers.
+For large model training scenarios, a dedicated 
+SXM/OAM GPU server is used. A single server can be 
+con/f_igured with eight SXM/OAM GPUs. To meet the 
+multi-node cluster computing requirements, the GPU, 
+parameter plane interconnection NIC and NVMe SSD 
+are con/f_igured in a 1:1:1 setup, corresponding to the 
+ZTE R69xx series GPU servers.
+Conclusion
+The GPU server market has become a high-growth 
+segment within the server market, with its compound 
+growth rate expected to remain high in the next few 
+years. ZTE series GPU servers oﬀer users high-quality 
+and eﬃcient computing power solutions, contributing 
+to the establishment of a solid intelligent computing 
+infrastructure that could further drive the growth of 
+the digital economy.
+Intelligent Computing Special Topic 
+20 

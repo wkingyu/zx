@@ -1,0 +1,113 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1REN Fang , LI Yidan , YE Bing , LIU Jianguo , CHEN Weizhang Real -Time 4-Mode MDM Transmission Using Commercial 400G OTN Transceivers and All -Fiber Mode Multiplexers    Research Papers
+transmission , the received signal is demultiplexed by the 4-
+mode MDEMUX first . Another four WSSes are then utilized to 
+demultiplex the received wavelength -multiplexed signals . Fi⁃
+nally , each demultiplexed signal is detected by the 400G OTN 
+receivers for real -time bit -error rate (BER ) calculation .
+3.2 Transmission Results and Discussion
+We input each LP mode one by one and measure the BER 
+at different input power . The results are shown in Fig . 6(a). 
+We can see that two non -degenerate modes (LP01 and LP02) 
+have low BERs while the BERs of two degenerate modes (LP11 
+and LP21) are relatively large . This is because the degenerate 
+modes have 4-fold degeneracy and suffer from large intra -LP-
+mode dispersion (ILMD ), which is also the main reason that 
+limits the transmission distance in this experiment[18]. This 
+part of the damage can be mitigated by optimizing the optical fiber processing methods , which will 
+achieve a longer transmission dis ⁃
+tance . Then the four LP modes are 
+launched simultaneously and the 
+curves of BER for all the four modes 
+versus input power are depicted in 
+Fig. 6(b). We can see that the BERs 
+of the degenerate modes are still 
+larger than those of the non -
+degenerate modes but the BERs are 
+all below the 27%-overhead soft -
+decision forward -error -correction (SD-
+FEC) limit (3.7×10-2) of the OTN 
+transceivers . Fig . 6(c) shows the 
+BERs of 3-λ×4-mode× 400G simulta ⁃
+neous transmission . The input power 
+of LP01, LP11, LP21, and LP02 modes to 
+the MDM link is 5.4 dBm , 9.3 dBm , 
+8.1 dBm , and 6.8 dBm for power bal ⁃
+ancing . We can find that the BERs of 
+the four LP modes at the three wavelengths across the C -band 
+are all under the SD -FEC limit . These results indicate that our 
+MDM transmission system has a wide operating bandwidth and 
+can realize a 4-mode real -time transmission of more than 40 
+wavelengths with 100 GHz channel spacing over the C -band . 
+By further optimizing the bandwidth of the MMUX/MDEMUX , 
+we can achieve the 4-mode real -time transmission with more 
+than 80 wavelengths using the same experimental setup .
+4 Conclusions
+In this paper , a low -modal -crosstalk 4-mode MMUX and 
+MDEMUX for weakly -coupled TRC -FMF is designed and fab ⁃
+ricated with side -polishing processing . The measurement re ⁃
+sults show that a pair of MMUX/MDEMUX and 25 km weakly -
+coupled TRC -FMF MDM link achieve low modal crosstalk of 
+▲Figure 5. Experimental setup of the 3-λ×4-mode× 400 Gb/s transmission
+▲Figure 6. Transmission results : (a) BER curves of four LP modes in only by one transmission , (b) BER curves of 4 LP modes in MDM transmission , 
+and (c) BERs of 3-λ×4-mode× 400G simultaneous transmissionDEMUX : demultiplexer 
+EDFA : Erbium -doped fiber amplifier 
+LP: linearly -polarized 
+MDM : mode division multiplexing MUX : multiplexer 
+TRC -FMF : triple -ring -core few -mode fiber
+WSS : wavelength -selective switches
+(a) (b) (c)
+BER : bit -error rate     LP : linearly -polarized      MDM : mode division multiplexing      SD -FEC: soft -decision forward -error -correctionMDM link
+25 km TRC -FMFLP01
+LP11
+LP21
+LP02LP01
+LP11
+LP21
+LP02EDFAWSSWSSWSSWSS
+Mode MUX
+Mode DEMUX
+400G Tx400G Tx400G Tx400G Tx400G Tx400G Tx f1
+f1
+f1
+f1
+f2
+f3400G Rx f1
+f2
+f3400G Rx
+400G Rx
+400G Rx
+400G Rx
+400G Rxf1
+f2
+f3400G Rx
+f1
+f2
+f3f1
+f2
+f3
+Input power/dBm-30 - 20 - 10    0     10 2  4 6 8 10
+Input power/dBm Wavelength/nm1 530            1 540            1 550            1 560 10-1
+10-2
+10-3
+10-4BER10-1
+10-2
+10-3BER
+LP01 only
+LP11 only
+LP21 only
+LP02 only27% SD -FEC limit
+27% SD -FEC limit 27% SD -FEC limit
+LP01 MDM
+LP11 MDM
+LP21 MDM
+LP02 MDMLP01 MDM
+LP11 MDM
+LP21 MDM
+LP02 MDM10-1
+10-2
+10-3BERWSS
+WSS
+WSS 400G TxRx
+Rx
+109

@@ -1,0 +1,130 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Recent Advances in Video Coding for Machines Standard and Technologies    Review
+of VCM standards , it is anticipated that the standard will con ⁃
+tinually improve its performance and enable the emergence of 
+new and innovative applications . The integration of knowledge 
+and efforts between neural network -based approaches and tra ⁃
+ditional codec methods holds promise for advancing the capa ⁃
+bilities of machine vision -oriented video coding .
+References
+[1] DUAN L Y , LOU Y H , BAI Y , et al . Compact descriptors for video analysis : the 
+emerging MPEG standard [J]. IEEE multimedia , 2019 , 26(2): 44–54. DOI : 
+10.1109 /MMUL .2018 .2873844
+[2] DUAN L Y , CHANDRASEKHAR V , CHEN J , et al . Overview of the MPEG -
+CDVS standard [J]. IEEE transactions on image processing , 2016 , 25(1): 179–
+194. DOI : 10.1109 /TIP.2015 .2500034
+[3] LE N , ZHANG H L , CRICRI F , et al . Image coding for machines : an end -to-end 
+learned approach [C]//IEEE International Conference on Acoustics , Speech and 
+Signal Processing (ICASSP ). IEEE , 2021 : 1590–1594 . DOI : 10.1109 /
+ICASSP 39728 .2021 .9414465
+[4] LE N , ZHANG H L , CRICRI F , et al . Learned image coding for machines : a 
+content -adaptive approach [C]//IEEE International Conference on Multimedia 
+and Expo (ICME ). IEEE , 2021 : 1–6. DOI : 10.1109 /ICME 51207 .2021 .9428224
+[5] TU H Y , LI L , ZHOU W G , et al . Semantic scalable image compression with 
+cross -layer priors [C]//The 29th ACM International Conference on Multimedia . 
+ACM , 2021 : 4044–4052 . DOI : 10.1145 /3474085 .3475533
+[6] CHOI H , BAJIĆ I V . Deep feature compression for collaborative object detec ⁃
+tion [C]//The 25th IEEE International Conference on Image Processing (ICIP). 
+IEEE , 2018 : 3743–3747 . DOI : 10.1109 /ICIP .2018 .8451100
+[7] CHOI H , BAJIĆ I V . Latent -space scalability for multi -task collaborative intelli ⁃
+gence [C]//IEEE International Conference on Image Processing (ICIP). IEEE , 
+2021 : 3562–3566 . DOI : 10.1109 /ICIP 42928 .2021 .9506712
+[8] DUAN L Y , LIU J Y , YANG W H , et al . Video coding for machines : a paradigm 
+of collaborative compression and intelligent analytics [J]. IEEE transactions on 
+image processing , 2020 , 29: 8680–8695 . DOI : 10.1109 /TIP.2020 .3016485
+[9] GAO W , LIU S , XU X Z , et al . Recent standard development activities on video 
+coding for machines [EB/OL ]. (2021 -05-26) [2023 -06-06]. https ://arxiv .org/abs/
+2105 .12653
+[10] BJONTEGAARD G . Calculation of average PSNR differences between RD -
+curves [J]. Computer science , 2001
+[11] REN S Q , HE K M , GIRSHICK R , et al . Faster R -CNN : towards real -time ob ⁃
+ject detection with region proposal networks [J]. IEEE transactions on pattern 
+analysis and machine intelligence , 2017 , 39(6): 1137–1149 . DOI : 10.1109 /
+TPAMI .2016 .2577031
+[12] LIN T Y , MAIRE M , BELONGIE S , et al . Microsoft COCO : common objects in 
+context [M]. Computer Vision . Cham : Springer International Publishing , 2014 : 
+740–755. DOI : 10.1007 /978 -3-319 -10602 -1_48
+[13] Open images dataset . Open images dataset v 6 [EB/OL ]. [2023 -06-06]. https ://
+storage .googleapis .com/openimages/web/download .html
+[14] TELEDYNE FLIR . Free FLIR thermal dataset for algorithm training [EB/OL ]. 
+[2023 -06-06]. https ://www .flir.com/oem/adas/adas -dataset -form
+[15] ROY A , GUINAUDEAU C , BREDIN H , et al . TVD : a reproducible and multi ⁃
+ply aligned TV series dataset [C]//The 9th International Conference on Lan ⁃
+guage Resources and Evaluation . ELRA , 2014 : 418–425
+[16] BAJIC I , CHOI H , HOSSEINI E , et al . Sfu -hw-objects -v1 [EB/OL ]. (2020 -06-
+24) [2023 -06-06]. https ://www .frdr -dfdr. ca/repo/dataset/ 59931535 -9ffd-4cc3-
+a3c2-4b06d06603 d1
+[17] WANG Z D , ZHENG L , LIU Y X , et al . Towards real -time multi -object track ⁃
+ing [M]. Computer Vision . Cham : Springer International Publishing , 2020 : 
+107–122. DOI : 10.1007 /978 -3-030 -58621 -8_7
+[18] LIN W Y , LIU H B , LIU S Z , et al . Human in events : a large -scale benchmark 
+for human -centric video analysis in complex events [EB/OL ]. (2020 -05-09) 
+[2023 -06-06]. https ://arxiv .org/abs/ 2005 .04490
+[19] FAN H , LI Y , XIONG B , et al . Pyslowfast [EB/OL ]. [2023 -07-06]. https ://github .com/facebookresearch/slowfast
+[20] WANG J D , SUN K , CHENG T H , et al . Deep high -resolution representation 
+learning for visual recognition [J]. IEEE transactions on pattern analysis and 
+machine intelligence , 2021 , 43(10): 3349–3364 . DOI : 10.1109 /
+TPAMI .2020 .2983686
+[21] ANDRILUKA M , PISHCHULIN L , GEHLER P , et al . 2D human pose estima ⁃
+tion: New benchmark and state of the art analysis [C]//IEEE Conference on 
+Computer Vision and Pattern Recognition . IEEE , 2014 : 3686–3693 . DOI : 
+10.1109 /CVPR .2014 .471
+[22] VTM . VVC Test Model [EB/OL ]. [2023 -06-06]. https ://vcgit .hhi.fraunhofer .de/
+jvet/ VVCSoftware VTM/ -/tags
+[23] TOMAR S . Converting video formats with FFmpeg [J]. Linux journal , 2006 , 
+146: 93–94
+[24] ISO/IEC MPEG . The test results of compressing P -layer feature maps on the 
+Mask R -CNN network : m59942  [S]. 2022
+[25] ISO/IEC MPEG . A feature map compression method by using generated fea ⁃
+ture frames for object segmentation : m57958  [S]. 2021
+[26] ISO/IEC MPEG . Investigation on deep feature compression framework for 
+multi -task: m58772  [S]. 2022
+[27] ISO/IEC MPEG . Compression of FPN multi -scale features for object detection 
+using VVC : m59562  [S]. 2022
+[28] ISO/IEC MPEG . Performance of the enhanced MSFC with bottom -up MSFF : 
+m60197  [S]. 2022
+[29] ISO/IEC MPEG . Response to CfE on video coding for machine from canon : 
+m60821  [S]. 2022
+[30] ISO/IEC MPEG . Experimental results of feature compression using Compres ⁃
+sAI: m56716  [S]. 2021
+[31] BÉGAINT J , RACAPÉ F , FELTMAN S , et al . CompressAI : a PyTorch library 
+and evaluation platform for end -to-end compression research [EB/OL ]. (2020 -
+11-05) [2023 -06-06]. http://arxiv .org/abs/ 2011 .03029
+[32] BALLÉ J , MINNEN D , SINGH S , et al . Variational image compression with a 
+scale hyperprior [EB/OL ]. (2018 -02-01) [2023 -06-06]. http ://arxiv .org/abs/
+1802 .01436
+[33] ZHANG G Y , LIU Z , XU X , et al . Learning -based feature compression for in ⁃
+stance segmentation : m60240  [S]. Geneva : ISO/IEC MPEG , 2022
+[34] CHENG Z X , SUN H M , TAKEUCHI M , et al . Learned image compression 
+with discretized Gaussian mixture likelihoods and attention modules [C]//Pro ⁃
+ceedings of IEEE/CVF Conference on Computer Vision and Pattern Recogni ⁃
+tion (CVPR ). IEEE , 2020 : 7936– 7945 . DOI : 10.1109 /
+CVPR 42600 .2020 .00796
+[35] ISO/IEC MPEG . An end -to-end video feature compressing method with feature 
+fusion modules : m60803  [S]. 2022
+[36] ISO/IEC MPEG . A DCT based feature compression algorithm : m58000  [S]. 
+2020
+[37] HOWARD A G , ZHU M , CHEN B , et al . Mobilenets : efficient convolutional 
+neural networks for mobile vision applications [EB/OL ]. (2017 -04-17) [2023 -
+06-06]. https ://arxiv .org/abs/ 1704 .04861
+[38] ISO/IEC MPEG . A DWT based feature compression algorithm : m58001  [S] 
+2020
+[39] ISO/IEC MPEG . DCT based feature compression : m60257  [S]. 2022
+[40] ISO/IEC MPEG . Advanced feature map compression based on optimal transfor ⁃
+mation with VVC and DeepCABAC : m58787  [S]. 2022
+[41] ISO/IEC MPEG . Response to CfE : a transformation -based feature map com ⁃
+pression method : m60788  [S]. 2022
+[42] ISO/IEC MPEG . Improvement of a feature map compression using predicted p -
+layer feature map for object detection : m59512  [S]. 2022
+[43] ISO/IEC MPEG . End -to-end learning -based image reconstruction framework 
+for hybrid machine and human vision : m58994  [S]. 2022
+[44] ISO/IEC MPEG . Response from Hanbat National University and ETRI to CfE 
+on video coding for machines : m60761  [S]. 2022
+[45] ISO/IEC MPEG . Response to VCM CfE : multi -scale feature compression with 
+QP-adaptive feature channel truncation : m60799  [S]. 2022
+[46] ISO/IEC MPEG . An end -to-end image feature compressing method with fea ⁃
+ture fusion module : m60802  [S]. 2022
+[47] ISO/IEC MPEG . Response to VCM call for evidence from Tencent and Wuhan 
+University –a learning -based feature compression framework : m60925  [S]. 
+2022
+75

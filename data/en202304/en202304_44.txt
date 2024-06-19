@@ -1,0 +1,95 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Point Cloud Processing Methods for 3D Point Cloud Detection Tasks    Special Topic
+VoxelNeXt shows that fully sparse voxel -based representa ⁃
+tions are very effective for LiDAR 3D detection and tracking . 
+VoxelNeXt proposed a fully sparse voxel -based network , 
+which uses ordinary sparse convolutional networks for direct 
+prediction . It uses only one extra down -sampling layer to opti ⁃
+mize the sparse backbone network , and this simple modifica ⁃
+tion enlarges the receptive field . This simple sparse linkage re ⁃
+quires no additional parameterization layers and has a little 
+additional computational cost .
+VoxelNeXt places sparse features directly on the BEV 
+plane and then combines features at the same location . It 
+takes no more than 1 ms, but the effect is better than 3D 
+sparse features . VoxelNeXt is entirely voxel -based and con ⁃
+tinuously clips irrelevant voxels along the down -sampling 
+layer , which further saves computational resources and does 
+not affect detection performance . Using the above -mentioned method to process voxels reduces calcula ⁃
+tion consumption without degrading per ⁃
+formance .
+The way of voxelization is not set in 
+stone . For example , the classic Voxel ⁃
+Net[21] and sparsely embedded convolu ⁃
+tional detection (SECOND )[22] divide the 
+point cloud into a voxel to form a regular 
+and dense voxel set , while SECOND uses 
+sparse embedded convolution to improve 
+efficiency .
+To make a trade -off between accuracy 
+and computation efficiency , PointPillars 
+converts point clouds into pillars . Specifi ⁃
+cally , PointPillars divides the x axis and y 
+axis of point cloud data into grids , and the 
+data in the same grid is considered as a 
+pillar (Fig. 5). This voxel division method 
+can be considered to divide only one voxel 
+on the z axis ; P non -empty columns are 
+generated after division ; each column con ⁃
+tains N point cloud data (more than N 
+points are sampled as N points , and less 
+than N points are filled with 0), and each 
+point extracts D -dimensional features . 
+There are nine features in PointPillar , 
+which are (x, y, z, r, xc, yc, xp, yp), where x, 
+y and z are the 3D coordinates of the 
+point , r is the reflection intensity , xc and yc 
+are the distances from the center of the 
+point cloud in the pillar , and xp and yp are 
+the offset from the geometric center of the 
+pillar .
+In addition to improving the way of vox ⁃
+elization , the use of special data struc ⁃
+tures can also enhance the detection per ⁃
+formance . The Octree -Based Transformer ▲Figure 3. Each sampled voxel (the number of point clouds t < T) is transformed into a feature 
+space point by point through a fully connected neural network and then the information is aggre ⁃
+gated from the point features to encode the surface shape contained in the voxel . The aggregated 
+features are obtained element by element through max pooling . The point -wise feature and lo ⁃
+cally aggregated feature connection are then aggregated to get a point -wise concatenated feature
+▲Figure 5. Pillar division scheme of PointPillars(a) Overall latency comparison (b) Head latency comparison
+FSD: fully sparse 3D object detector
+▲Figure 4. Latency on Argoverse 2 and various perception rangesPoint -wise 
+inputPoint -wise 
+feature
+Locally 
+aggregated 
+featureFully connected neural net
+Element -wise MaxPool
+Point -wise concatenation
+Point -wise 
+concatenated
+feature
+Distance/m50 100 150 200300
+250
+200
+150
+100
+50
+0Time/ms 82
+81
+61 6392113164
+96
+656699246
+CenterPoint FSD VoxelNeXt250
+200
+150
+100
+50
+050 100 150 200Time/ms
+26565478
+272868128218
+71
+28
+Distance/m65
+x-axisy-axis
+41

@@ -1,0 +1,54 @@
+异构大规模分布式网络设计与性能评估 叶新泉  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1异构大规模分布式网络设计与
+性能评估
+Heterogeneous Large-Scale Distributed Network Design and 
+Performance Evaluation
+叶新泉 /YE Xinquan1，2，卢光延 /LU Guangyan1，2，
+陈艺戬 /CHEN Yijian1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia Tech ⁃
+nology , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202401013
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20240306 .1159 .002.html
+网络出版日期 ：2024 -02-27
+收稿日期 ：2024 -01-15
+摘要 ：提出了一种面向 6G的异构大规模分布式网络 （Het-LDN ） 。该网络由大量异构的分布式无线节点构成 ，具有低成本 、低功耗 、高性能 、
+易部署和易扩展等特征 ，满足未来无线通信的各项需求 ，包括实现极致的蜂窝系统容量 ，保证超高可行性传输 ，支持海量用户同时接入和取得
+一致性的用户体验 。介绍了分层的分布式网络结构与多链路协同传输方案 ，并通过仿真实验展示了用户吞吐量的性能优势 。认为该网络可成为
+面向 6G的具备强竞争力的商业化解决方案 。
+关键词 ：异构大规模分布式网络 ；无线前传 ；节点选型 ；传输设计 ；性能评估
+Abstrac t:A 6G-oriented heterogeneous large-scale distributed network (Het-LDN ) is proposed . It consists of a large number of heteroge ⁃
+neous distributed wireless nodes with low-cost , low-power , high-performance , easy-to-deploy , and easy-to-scalable features , which 
+meets the various requirements of future wireless communications , including realizing extreme cellular system capacity , guaranteeing ultra-
+high feasibility transmission , supporting massive users' simultaneous access , and acquiring consistent user experience . Hierarchical distrib ⁃
+uted network structure and multi-link cooperative transmission scheme are presented . Simulation experiments demonstrate its perfor ⁃
+mance advantages in terms of user throughput . It is believed that this network can be a highly competitive commercial solution for 6G.
+Keywords :heterogeneous large-scale distributed network ; wireless fronthaul ; node selection ; transmission design ; performance evaluation
+引用格式 ：叶新泉 ，卢光延 ，陈艺戬 . 异构大规模分布式网络设计与性能评估  [J]. 中兴通讯技术 , 2024 , 30(1): 74-81. DOI : 10.12142 /
+ZTETJ .202401013
+Citation ： YE X Q , LU G Y , CHEN Y J . Heterogeneous large-scale distributed network design and performance evaluation [J]. ZTE technology 
+journal , 2024 , 30(1): 74-81. DOI: 10.12142 /ZTETJ .202401013
+未来的接入网络需要成倍地提升容量 ，增加服务用户数
+目，并满足针对不同用户的服务质量 （QoS） ，这对空
+域自由度提出了更高要求 。在多项无线通信技术中 ，最具有
+前景的候选技术为超大规模分布式多输入多输出 （MIMO ） 。
+该技术通过部署大量的分布式接入节点来构建大规模分布式
+网络 （LDN） ，从而实现大量用户的接入和传输 。近年来 ，
+该技术已引起业界的重点关注[1-7]。
+LDN 是大规模 MIMO 和分布式 MIMO 的有机结合 ，具备
+极高宏分集增益和干扰抑制等优点 ：1）LDN 通过大规模分
+布式节点的部署 ，缩短通信距离 ，提供更为均匀的无线信
+道增益 ，带来更为一致且高效的通信体验 ；2）LDN 通过多节点的联合信号处理与相干传输 ,可以有效地降低多用户
+（MU）干扰 ，提高系统传输速率 ；3）LDN 提供多条冗余的
+传输链路 ，满足可靠性与灵活性的传输需求 ，有助于实现
+以用户为中心的协作网络设计 。因此 ，该网络在机场 、火
+车站 、体育馆 、智慧工厂等场景有着广阔的应用前景[3]。为
+了 实 现 通 信 系 统 性 能 与 部 署 成 本 的 良 好 折 中 ，异 构 网
+（HetNet ）被提出[8]。该网络可由多种不同能力的基站 （宏
+基站 、微基站 、皮基站 、飞基站等 ）构成 ，通过优化的宏
+微混合组网策略 ，在满足特定的网络覆盖需求的前提下 ，
+降低网络的部署成本 。此外 ，HetNet 在中心基站整体的协
+调控制下采用先进的干扰管理方案 ，既能保证小区的整体
+74

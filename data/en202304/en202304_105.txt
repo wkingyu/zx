@@ -1,0 +1,136 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Research Papers   Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos
+To visualize the performance , Fig. 16 shows the scatter 
+plots of objective scores predicted by the proposed model 
+against the subjective MOSs . This figure clearly shows that 
+the proposed model exhibits good convergence and monotonic ⁃
+ity performance .
+5.2 Predicted Scores vs Individual Ratings
+To also check the accuracy of the proposed model , we 
+evaluated the performance of the model against the indi ⁃
+vidual ratings of subjects . Again , PCC , SROCC , and RMSE 
+were calculated . For Experiment 1, we found that the PCC , 
+SROCC , and RMSE ranged from 0.882 to 0.926, 0.878 to 
+0.922, and 0.443 to 0.227, respectively . For Experiment 2, 
+we found that the PCC , SROCC , and RMSE ranged between 
+0.886 to 0.924, 0.881 to 0.918, and 0.462 to 0.214. Among 
+the 30 subjects , the lowest , medium and highest prediction 
+results are shown in Table 8. It can be found that a relatively 
+good prediction performance is always guaranteed using the 
+proposed model .
+We also calculated the percentage that the predicted scores 
+match the subjective scores to better verify the accuracy of the 
+proposed model . A match is found if a predicted score (after 
+the rounding process ) is the same as the subjective score rated 
+by the participants . The results show that the proposed model 
+matches the subjective ratings with an accuracy of 83.7% and 
+82.4% for Experiments 1 and 2, respectively . It can be con ⁃
+cluded that the proposed model manifests itself as a reliable 
+spatial presence indicator that can be directly used in current 
+360 -degree video applications .
+6 Conclusions
+In this paper , we propose a spatial presence assessment 
+framework for measuring users ’ sense of spatial presence in 
+360 -degree video services . Well -designed subjective experi ⁃
+ments are conducted to obtain accurate subjective ratings of 
+spatial presence . An objective spatial presence prediction 
+model is further proposed . Experimental results show that the 
+proposed model can achieve good prediction accuracy in 
+terms of PCC , SROCC , and RMSE . The proposed scheme 
+serves as guidelines for the research community to better un ⁃
+derstand the spatial presence perception . It also provides valu ⁃
+able recommendations for the industry to further improve its 
+quality of service .References
+[1] DELOITTE . Digital democracy survey : a multi -generational view of consumer 
+technology , media and telecom trends , digital democracy survey 9th edition [R]. 
+2022
+[2] ZHU W H , ZHAI G T , TAO M X , et al . Quality of experience estimation of 
+ultra⁃high definition content [J]. ZTE technology journal , 2021 , 27(1): 37–43. 
+DOI: 10.12142 /ZTETJ .202101009
+[3] LI J L , ZHAO X , YANG Y . A review of interactive video quality assessment 
+methods [J]. ZTE technology journal , 2021 ,27(1):44–47.DOI:10.12142 /
+ZTETJ .202101010
+[4] LOMBARD M , JONES M T . Defining presence [M]//Immersed in media . Cham : 
+Springer International Publishing , 2015 : 13–34. DOI : 10.1007 /978 -3-319 -
+10190 -3_2
+[5] SCHUEMIE M J , VAN DER STRAATEN P , KRIJN M , et al . Research on pres ⁃
+ence in virtual reality : a survey [J]. CyberPsychology & behavior , 2001 , 4(2): 
+183–201. DOI : 10.1089 /109493101300117884
+[6] SEO Y , KIM M , JUNG Y , et al . Avatar face recognition and self -presence [J]. 
+Computers in human behavior , 2017 , 69: 120 –127. DOI : 10.1016 /j.
+chb.2016 .12.020
+[7] FELTON W M , JACKSON R E . Presence : a review [J]. International journal of 
+human -computer interaction , 2022 , 38(1): 1–18. DOI : 10.1080 /
+10447318 .2021 .1921368
+[8] LOMBARD M , DITTON T . At the heart of it all : the concept of presence [J]. 
+Journal of computer -mediated communication , 2006 , 3(2). DOI : 10.1111 /j.1083 -
+6101 .1997 .tb00072 .x
+[9] NORTH M M , NORTH S M . A comparative study of sense of presence of virtual 
+reality and immersive environments [J]. Australasian journal of information sys ⁃
+tems, 2016 , 20. DOI : 10.3127 /ajis.v20i0.1168
+[10] GONÇALVES G , MELO M , BARBOSA L , et al . Evaluation of the impact of 
+different levels of self -representation and body tracking on the sense of pres ⁃
+ence and embodiment in immersive VR [J]. Virtual reality , 2022 , 26(1): 1–
+14. DOI : 10.1007 /s10055 -021 -00530 -5
+[11] SKARBEZ R , BROOKS Jr F P , WHITTON M C . A survey of presence and re ⁃
+lated concepts [J]. ACM computing surveys (CSUR ), 2017 , 50(6): 1–39. DOI : 
+10.1145 /3134301
+[12] LAARNI J , RAVAJA N , SAARI T , et al . Ways to measure spatial presence : re⁃
+view and future directions [M]//Immersed in media . Cham : Springer Interna ⁃
+tional Publishing , 2015 : 139–185. DOI : 10.1007 /978 -3-319 -10190 -3_8
+[13] AL-JUNDI H A , TANBOUR E Y . A framework for fidelity evaluation of immer ⁃
+sive virtual reality systems [J].Virtual reality , 2022 , 26(3): 1103 –1122 . DOI : 
+10.1007 /s10055 -021 -00618 -y
+[14] EGAN D , BRENNAN S , BARRETT J , et al . An evaluation of heart rate and 
+electrodermal activity as an objective QoE evaluation method for immersive 
+virtual reality environments [C]//Proc . 2016  Eighth International Conference 
+on Quality of Multimedia Experience (QoMEX ). IEEE , 2016 : 1–6. DOI : 
+10.1109 /QoMEX .2016 .7498964
+[15] CHESSA M , MAIELLO G , BORSARI A , et al . The perceptual quality of the 
+oculus rift for immersive virtual reality [J]. Human -computer interaction , 2019 , 
+34(1): 51–82. DOI : 10.1080 /07370024 .2016 .1243478
+[16] TERKILDSEN T , MAKRANSKY G . Measuring presence in video games : 
+an investigation of the potential use of physiological measures as indicators 
+of presence [J]. International journal of human -computer studies , 2019 , 
+126: 64–80. DOI : 10.1016 /j.ijhcs .2019 .02.006
+[17] GRASSINI S , LAUMANN K . Questionnaire measures and physiological corre ⁃
+lates of presence : a systematic review [J]. Frontiers in psychology , 2020 , 11: 
+349. DOI : 10.3389 /fpsyg .2020 .00349
+[18] ZOU W J , YANG F Z , ZHANG W , et al . A framework for assessing spatial 
+presence of omnidirectional video on virtual reality device [J]. IEEE access , 
+2018 , 6: 44676 –44684 . DOI : 10.1109 /ACCESS .2018 .2864872
+[19] WITMER B G , SINGER M J . Measuring presence in virtual environments : a 
+presence questionnaire [J]. Presence : teleoperators and virtual environments , 
+1998 , 7(3): 225–240. DOI : 10.1162 /105474698565686
+[20] LESSITER J , FREEMAN J , KEOGH E , et al . A cross -media presence ques ⁃
+tionnaire : the ITC -sense of presence inventory [J]. Presence : teleoperators and 
+virtual environments , 2001 , 10(3): 282 – 297. DOI : 10.1162 /
+105474601300343612▼Table 8. Model performance
+Experiment
+1
+2Subject No . 1
+PCC
+0.882
+0.886SROCC
+0.878
+0.881RMSE
+0.443
+0.462Subject No . 2
+PCC
+0.926
+0.924SROCC
+0.922
+0.918RMSE
+0.227
+0.214Subject No . 3
+PCC
+0.908
+0.904SROCC
+0.902
+0.898RMSE
+0.282
+0.343
+PCC: Pearson Correlation Coefficient 
+RMSE : Root -Mean -Squared Error 
+SROCC : Spearman Rank Order Correlation Coefficient
+102

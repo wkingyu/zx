@@ -1,0 +1,92 @@
+multiple users, or even service interruption. Traditional 
+restoration methods, relying on manual analysis and 
+location, are time-consuming, ineﬃcient, and 
+signi/f_icantly aﬀect customer satisfaction. ZTE’s group 
+fault analysis tool integrates a closed-loop process 
+encompassing service quality perception, fault 
+commonality analysis, fault diagnosis, and fault 
+restoration to rapidly locate group faults. Once a key 
+service analysis task is initiated, the system monitors 
+the quality of the service object in real time. When 
+identifying abnormal service quality, the system 
+comprehensively analyzes whether the fault is caused 
+by a group fault based on current system alarm 
+information. If identi/f_ied as a group fault, the system 
+starts a fault commonality analysis task to help O&M 
+personnel quickly locate and resolve the fault. This 
+functionality enables real-time network monitoring 
+and group fault analysis within minutes, enhancing 
+eﬃciency by over 90% and implementing proactive 
+O&M in group fault scenarios.
+Maintaining Service Intent: 
+Supporting Committable SLA
+The most direct factor aﬀecting customer 
+experience is the continual maintenance of SLA to 
+meet user expectations, which is also a critical 
+competitive advantage for operators. The service 
+intent maintenance feature introduced by ZTE is 
+aimed at ful/f_illing this important task.
+ZENIC ONE (UME)’s service intent maintenance 
+feature comprises three layers of closed-loop 
+capabilities. The /f_irst layer is second-level service 
+self-healing, where network-layer devices automatically 
+trigger switching or rerouting of corresponding network 
+objects upon identifying a service interruption, ensuring 
+ 
+ 
+rapid resolution. The second layer, minute-level 
+service restoration, kicks in when the network layer 
+cannot implement second-level self-healing. The 
+management and control system identi/f_ies service 
+quality issues, locates and analyzes them, generates 
+restoration policies, and automatically executes 
+restoration commands within minutes. The third 
+layer focuses on medium and long-term service 
+optimization, predicting and analyzing service 
+quality and traﬃc to preemptively address potential 
+issues and optimize services. 
+At preset, the service intent maintenance function 
+at the /f_irst two layers has been successfully 
+implemented and veri/f_ied on existing networks. This 
+function facilitates self-perception and self-healing 
+of service quality, reducing restoration time from 
+hours to minutes compared to traditional manual 
+O&M. It maintains services “permanently online”, 
+simpli/f_ies O&M, and enhances customer experience 
+while meeting SLA requirements.
+Liaoning Mobile and ZTE have made signi/f_icant 
+investments in network O&M to tackle challenges 
+and overcome bottlenecks. The intelligent 
+closed-loop guarantee system for SPN service 
+quality, which integrates intelligent fault diagnosis, 
+group fault analysis, and service intent maintenance 
+functions, enhances O&M eﬃciency for Liaoning 
+Mobile, shifting from passive to active O&M. Looking 
+ahead, both parties will extend their cooperation to 
+reinforce fault root cause analysis, implement a “one 
+fault, one worksheet” approach, and simulate 
+restoration solutions, thereby further enhancing 
+O&M eﬃciency, expanding application scenarios, 
+and leveraging intelligent precise O&M to achieve 
+breakthroughs in network O&M.
+Service quality 
+monitoringFault handling Fault analysis and diagnosis
+Historical & real-time 
+alarmsData 
+modelingTraining Rule library updateNew model 
+generation
+ab
+dc  
+AI 
+training Fault reportLog
+Alarm
+Service recovery 
+solutionIdenti/f_ication Root cause analysis
+In/f_luence 
+analysisCon/f_iguration
+Performance
+Fig. 1. Intelligent 
+closed-loop system 
+for SPN service 
+quality guarantee.
+ 41 APR 2024

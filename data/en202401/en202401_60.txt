@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Special Topic   Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams
+shifting surface (PSS) antennas can also serve as beam convert ⁃
+ers. Such research can be found in Refs . [6] and [7], where a 
+PSS antenna with broadband and variable polarization charac ⁃
+teristics was designed and optimized through maximizing the 
+depth of field and maximizing the transmission distance and an 
+antenna with the ability to freely change the beam direction is 
+proposed , respectively . By combining two PSSs , a near -field ro ⁃
+tatable Bessel beam generator with a simple feeding network 
+was proposed in Ref . [20].
+In contrast to the methods mentioned above for continuous 
+control of the phase distribution , two -dimensional antenna ar ⁃
+rays are used for the Bessel beam generation through sub -
+sampled distributions , as studied in Ref . [13]. By modeling an ⁃
+tenna elements with spherical waves and optimizing the array re ⁃
+sponse on an observation synthesis plane using the least mean 
+square error approach to approximate the expected response of a 
+Bessel beam , the researchers obtained a phase distribution very 
+similar to Eq . (6). However , sub -sampled distributions resulted 
+in deviations in the amplitude distribution on the aperture and 
+the Bessel function . The impact of antenna element spacing and 
+distribution on the generated Bessel beam was also discussed in 
+the research , providing guidance for generating Bessel beams 
+through conventional large antenna arrays .
+The designs mentioned above require the feed point to be pre ⁃
+cisely located at the focus of the converter , posing challenges in 
+terms of device integration[19]. RLSA 
+antennas have been employed to ad ⁃
+dress this issue . In Ref . [14], a holo ⁃
+graphic technique was applied to syn ⁃
+thesize the field distribution on the an ⁃
+tenna aperture to generate the desired 
+pseudo -Bessel beam in the near -field 
+region . The RLSA consists of a radial 
+parallel plate waveguide in which a ra ⁃
+dial propagating mode is excited to 
+feed a slot distribution etched on the 
+upper metallic plate , achieving propa ⁃
+gation distances of several hundred 
+wavelengths with very high radiation 
+efficiency (95%) and focusing effi ⁃
+ciency (80%). In Ref . [15], the conclu ⁃
+sion showed that it was possible to gen ⁃
+erate Bessel beams by defining an azi ⁃
+muthally invariant inward traveling 
+wave distribution on the RLSA .
+Additionally , other studies explore 
+the generation of variations in Bessel 
+beams . In Ref . [21], a shared -
+aperture strategy was proposed to 
+generate dual asymmetric Bessel 
+beams , propagating in different direc ⁃
+tions using metasurfaces . In Ref . 
+[22], a metasurface was designed to achieve the superposition of two Bessel beams at different axi ⁃
+con angles , providing a more uniform energy distribution for 
+wireless power transfer applications . Some studies also sug ⁃
+gest that modulating the excitation function can reduce the in ⁃
+tensity oscillations of truncated Bessel beams , thereby achiev ⁃
+ing a more uniform energy distribution[23–24]. Fig. 4 shows dif ⁃
+ferent structures to generate Bessel beams .
+3.2 Based on Vector Wave Theory
+However , the scalar wave theory is only applicable for cases 
+where the aperture size is much larger than the operating wave ⁃
+length . For generating narrow beamwidths , the paraxial approxi ⁃
+mation is no longer suitable[25]. Some studies have begun to ex ⁃
+plore the use of vector wave theory to guide the generation of 
+Bessel beams . This approach necessitates the use of vector po ⁃
+tential to derive the distribution of the internal field within the 
+material and the conditions required for generating the desired 
+electric field distribution . The polarization modes of the field , i.
+e., transverse magnetic (TM), transverse electric (TE), and trans ⁃
+verse electromagnetic (TEM ), also need to be taken into consid ⁃
+eration . In Ref . [11], two metasurfaces with the simultaneous 
+control of wavefront phase and polarization capability were com ⁃
+bined to convert linearly and circularly polarized Gaussian 
+beams into vector Bessel beams , demonstrating low loss and 
+high efficiency (Fig. 5).
+▲Figure 4. Different structures to generate Bessel beams : (a) the surface -wave Bessel lens[8], (b) the top 
+view of the radial line slot array (RLSA ) antenna[15], (c) the steerable antenna[7], and (d) the antenna array[13]PSS: phase -shifting surfacePlanar Bessel lens
+Point source Bessel information zone
+I half maxwell fisheye lens II flat lensx
+z
+(a)ZmaxCoaxial 
+feed150 mm
+(b)
+(c) (d)z
+ySteerable non ⁃
+diffractive beamImax
+dRPSS # 1
+PSS # 2
+Feeding hornP(x, y)φpssAxis of rotation
+Steerable non ⁃
+diffractive beamObservation synthesis plane
+z0x
+zRRarray
+rijAntenna 
+array planeD
+IIIφ
+ry
+56

@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+formance gain . Similarly , for instance segmentation tasks , the 
+BD -rate gains are −83.35% and −96.01% respectively com ⁃
+pared with image anchor and feature anchor . This proposal 
+holds substantial academic value and exhibits promising re ⁃
+search prospects .
+5.3 Methods for Track -2
+The methods of VCM Track -2 compress and transmit image/
+video first , and then perform back -end machine vision tasks . 
+Compared with the methods of VCM Track -1, they complete 
+the reconstruction of the input signal , which can be viewed by 
+human eyes instead of only machine tasks . These methods 
+generally use the end -to-end compression framework . Since 
+the back -end machine vision task depends on reconstructing 
+image/video frames , the consistent approach of the Track -2 
+proposal with better performance is to change the loss function 
+of the end -to-end compression network , adding task loss 
+weighting to the loss function . The end -to-end compression 
+model is retrained when fixing the network parameters to ob ⁃
+tain better compression performance on specific tasks . This 
+type of method can be mainly divided into the following cat ⁃
+egories in terms of a specific implementation .
+5.3.1 Learning -Based Joint Optimization for Image Compres ⁃
+sion and Vision Tasks
+At present , the effective proposals in VCM Track -2 are all 
+based on the combination of learning -based image coding and 
+back -end machine vision tasks . Taking the object detection 
+task as an example , the entire model is composed of neural 
+networks , where the encoder and decoder use relatively ma ⁃
+ture end -to-end image compression models , such as 
+cheng 2020[34], bmshj 2018 -hyperprior[32], and mbt 2018 -
+mean[49]. And then the parameters of the back -end machine vi ⁃
+sion task model are fixed , introducing them as a loss function 
+to the training process . Most of the current methods[50–53] in 
+Track -2 adopt this idea . It is obvious that the core of such pro ⁃
+posals is actually how to train a more efficient image compres ⁃
+sion network under the condition of changing the loss function 
+so that it can perform better on specific back -end machine vi ⁃
+sion tasks .
+5.3.2 Video Coding For Machine Vision Based on Region of  
+Interest
+When a video is encoded , not all regions of the picture are 
+of an equal value , since some regions contain important infor ⁃
+mation that attracts the attention from humans or machines , 
+while others are ignored . Based on this situation , some re ⁃
+searchers have proposed a video coding method based on the 
+region of interest (RoI). Simply speaking , these methods allo ⁃
+cate more bit rate resources to the region with a high degree of 
+interest for refined coding , while appropriately reducing cod ⁃
+ing quality for the non -interesting area , which achieves overall 
+code rate savings . Currently , there are several representative 
+methods as follows .Ericsson proposed a preliminary idea implemented based 
+on VTM[54], and the compressed video can be decoded using 
+any compatible VVC decoder . This method performs object de ⁃
+tection on the input video sequence , using the detection box 
+as the RoI area , and adjusts the offset of the quantization pa ⁃
+rameter (QP) according to whether the coding tree units (CTU) 
+contain detection boxes . If the CTU contains a detection box , 
+it will be further distinguished depending on the size of the ob ⁃
+ject. In terms of compression efficiency , this method achieves 
+the same machine vision performance as the anchor at a lower 
+bit rate .
+KALVA et al .[55] used YOLOv 7[56] to detect the RoI area . 
+Since the detection boxes of different targets overlapped , they 
+were superimposed and spliced to obtain an irregular polygo ⁃
+nal RoI area , and then the irregular area was divided into rect ⁃
+angles of different sizes which would be scaled , rearranged , 
+and packed into a new frame . This method could separately 
+encode and decode the RoI area and the non -interested area , 
+thereby reducing the overall bit rate . In Ref . [57], a method 
+based on machine attention calculation was proposed , which 
+calculated the machine attention value of the input signal at 
+the encoding end , and divided the coding unit (CU) block in 
+one frame into high attention area (HAR ) and low attention 
+area (LAR ), taking different rate control strategies respec ⁃
+tively . At the decoding end , these two areas were decoded 
+separately and reassembled into a complete frame to recon ⁃
+struct the input signal . This method had a certain gain on the 
+image dataset , and the performance fluctuated obviously ac ⁃
+cording to the sequence and different bit rate points on the 
+video dataset . The above methods reduce the bit rate while 
+maintaining the accuracy of the machine vision task .
+5.3.3 Machine Vision -Oriented Video Coding Based on 
+Spatial -Temporal Up -and -Down Sampling
+A video signal can be viewed as several consecutive im ⁃
+ages. Different from a single picture , adjacent video frames 
+are similar in the time domain , and there is a large temporal 
+redundancy . However , many methods simply treat video as 
+multiple pictures without considering their temporal correla ⁃
+tion, and there is still room for further optimization .
+At present , some researchers compress video in the time do ⁃
+main , usually using the method of frame extraction and frame 
+complementation . A joint adaptive spatial -temporal (JAST ) 
+system was proposed in Ref . [58], which converted the input 
+signal into a form more suitable for encoding through machine 
+vision -oriented pre -analysis and pre -processing . The adaptive 
+temporal up -and -down sampling based on texture complexity 
+could be accomplished by frame extraction and interpolation 
+technology to reduce temporal redundancy , and spatial up -
+sampling could be realized by image resizing and super -
+resolution technology to reduce spatial redundancy . In addi ⁃
+tion, since VVC was used as the core codec , JAST naturally 
+inherited many capabilities of VVC , which were universal and 
+72

@@ -1,0 +1,132 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Special Topic   Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems
+denoted as
+CRLB(θpse)=6σ2
+k2
+cd2P||g2Nsub() N2
+sub-1. (21)
+Due to the non -negligible variation between the pseudo -true 
+parameter θpse and the true parameter θˉ, the parameter estima ⁃
+tion error lower bound of the true AoA θˉ can be denoted as
+Ep{(θ̂-θˉ)}≥LB(θˉ), (22)
+where LB(θˉ) is defined as an LB of the true AoA parameter θˉ, 
+which can be rewritten as
+LB(θˉ)=CRLB(θpse)+(θpse-θˉ)2
+, (23)
+where (θ̂-θˉ)2
+=(θ̂-θpse)2
++(θpse-θˉ)2
++2(θ̂-θpse)(θpse-θˉ) 
+and Ep{(θ̂-θpse)(θpse-θˉ)}=Ep{(θ̂-θpse)}(θpse-θˉ)=0 due 
+to the unbiased estimate . Hence , in order to calculate the LB 
+of the true AoA parameter precisely , the variation between the 
+pseudo -true parameter and the true AoA parameter ϑ=θpse-
+θˉ should be detected firstly .
+To obtain the accurate value of ϑ, we need to find a pseudo -
+true parameter θpse that can minimize the KL divergence between 
+the distributions under the realistic channel model and the sim ⁃
+plified channel model , as shown in Eq . (16). However , this step 
+has a high computational complexity due to the non -convex func ⁃
+tion expression . Fortunately , in order to minimize the KL diver ⁃
+gence between p(ysub,{θˉ, rˉ}) and p͂(ysub, θpse), the value of ϑ 
+can also be obtained through minimizing the KL divergence be ⁃
+tween the realistic steering vector wsub{θˉ, rˉ} and the simplified 
+steering vector asim(θˉ+ϑ)[34], which can be expressed as
+ϑ=argmin
+ϑ∈)[0,2π  asim() θˉ+ϑ-wsub()θˉ, rˉ2
+. (24)
+Let ϖ(ϑ)=  asim() θˉ+ϑ-wsub()θˉ, rˉ2
+, then
+ϖ(ϑ)=2Nsub-2∑
+n=1Nsub
+cos( ) kc( ) δnd() θ+ϑ+rn-r≈()a
+2Nsub-2∑
+n=1Nsub
+cos( )kcδnd( )ϑ+δnd() 1-θ2
+2r≈()b
+∑
+n=1Nsub
+k2
+cδ2
+nd2(ϑ+δnd() 1-θ2
+2r)2
+=
+k2
+cd2∑
+n=1Nsub
+δ2
+n( )ϑ2+δn2d2() 1-θ22
+4r2+ϑδnd() 1-θ2
+r=
+Q+k2
+cd2(∑
+n=1Nsub
+δ2
+nϑ2+d() 1-θ2
+r∑
+n=1Nsub
+δ3
+nϑ) ,(25)where (a) is derived by 1+x≈1+1
+2x-1
+8x2, i.e., rn≈
+r-δndθ+δ2
+nd2() 1-θ2
+2r, and (b) is derived by cosx≈1-
+1
+2x2, where x=kδnd(ϑ+δnd() 1-θ2
+2r). Meanwhile , the con ⁃
+stant Q can be denoted as Q=k2d4( ) 1-2θ2+θ4
+4r2 ∑
+n=1Nsub
+δ4
+n. Eq. 
+(25) can be rewritten as
+ϖ(ϑ)=Aϑ2+2Bϑ+Q'=A(ϑ+B
+A)2
++Q'-B2
+A,(26)
+where
+A=k2
+cd2∑
+n=1Nsub
+δ2
+n=Nsub() N2
+sub-1k2
+cd2
+12>0, (27)
+and
+B=k2
+cd3() 1-θ2
+2r∑
+n=1Nsub
+δ3
+n=
+-Nsub( ) N2
+sub+3Nsub+3k2
+cd3() 1-θ2
+16r . (28)
+Hence , in order to minimize ϖ(ϑ), the value of ϑ can be 
+taken as the symmetry axis of the quadratic convex function in 
+Eq. (26), i.e., ϑ=-BA, which can be calculated as
+ϑ=3( ) N2
+sub+3Nsub+3d() 1-θ2
+4() N2
+sub-1r . (29)
+Finally , the LB of the true AoA parameter θˉ can be calcu ⁃
+lated as
+LB(θˉ)=CRLB(θpse)+ϑ2. (30)
+By substituting Eqs . (21) and (29) into Eq . (30), Theorem 1 
+has been proved .
+The LB of the AoA parameter is composed of two parts . The 
+first part is the CRLB of the pseudo -true parameter estimate , 
+which is inversely proportional to the signal -to-noise ratio 
+(SNR) and N3
+sub. The SNR is defined as
+SNR=P||g2
+σ2. (31)
+The second part is the variance caused by the channel 
+model mismatch , which is inversely proportional to r2. We can 
+find that the AoA ’s LB mainly depends on the scale of the c -
+subarray , the SNR and the distance from the transmitter to the 
+center of the XL -HRIS . The following lemmas can be obtained 
+28

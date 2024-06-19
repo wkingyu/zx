@@ -1,0 +1,126 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3JI Yuhe , HAN Jing , ZHAO Yongxin , ZHANG Shenglin , GONG Zican Research Papers   Log Anomaly Detection Through GPT -2 for Large Scale Systems
+tics of their daily frequency of occurrence . Based on the obser ‐
+vation of the data and the communication with the operation 
+and maintenance staff , we have learned that the probability of 
+daily serious anomalies in a smoothly running system is ex ‐
+tremely low . An exception log with a high frequency is often 
+caused by minor errors such as network blocking and data 
+locking . The system can often recover from such errors 
+quickly , so such alarms are not necessary . Therefore , for ex ‐
+ception log templates that occur more frequently than a cer ‐
+tain threshold , the alert policy layer will filter them out as less 
+serious exception logs . The selection of this frequency thresh ‐
+old is strongly correlated with the type of machine logs and re ‐
+lies on the involvement of business experts .
+In this layer , error logs detected by GPT -2 will be analyzed , 
+and if their characteristics are more like noise , the exception 
+will not be reported . This step can greatly reduce the model 
+false positives caused by noise , improve the accuracy of the 
+log anomaly detection framework , and reduce the disturbance 
+to operation engineers .
+4 Experiment and Evaluation
+4.1 Experimental Setup
+1) Research questions . In this section , we evaluate the per ‐
+formance of our framework with the following research ques ‐
+tions (RQs):
+a) RQ 1: How effective is our framework in log -based 
+anomaly detection ?
+b) RQ2: How effective is the sentence vector generation and 
+alerting strategy layer in improving the effectiveness of the 
+model .
+2) Datasets . We evaluate our approach on two large -scale 
+systems called Ada and Bob . Ada is a framework for microser ‐
+vice deployment applications . Bob is a hardware network con ‐
+sisting of a large number of switch systems . The statistics of 
+the datasets are shown in Table 2.
+3) Baselines . We compare our framework with two base ‐
+lines , LogAnomaly[4] and NeuralLog[8]. LogAnomaly is a log 
+anomaly detection method based on a long short -term memory 
+(LSTM ) network . LogAnomaly first uses a Frequent Term Tree
+(FT-Tree) to analyze the semi -structured log text . Then , Tem ‐
+plate 2Vec is implemented to generate vectors for each log tem ‐
+plate . Finally , the vectors representing log semantics and fre ‐
+quency are input into the LSTM to enable the model to learn 
+the normal pattern of logs . NeuralLog is a novel log -based 
+anomaly detection framework . Different from the traditional 
+process , the algorithm does not require template parsing . Neu ‐ralLog generates semantic vectors for row logs . These repre ‐
+sentation vectors are then used to detect anomalies through a 
+transformer -based classification model .
+4) Evaluation metrics . We use Precision , Recall , and F 1-
+Score (F1S) as our evaluation metrics , which are defined as fol ‐
+lows. True Positive (TP) is the number of abnormal logs that 
+are correctly detected by the model ,  False Positive (FP) is the 
+number of normal logs that are wrongly identified as anoma ‐
+lies, and False Negative (FN) is the number of abnormal logs 
+that are not detected by the model .
+Precision= TP
+TP+FP . (4)
+Recall= TP
+TP+FN . (5)
+F1S= 2*Precision*Recall
+Precision+Recall  . (6)
+4.2 Experimental Results
+In this section , we will give response to the RQs mentioned 
+above .
+1) RQ 1: How effective is our framework in log -based 
+anomaly detection ?
+In this RQ , we evaluate whether our framework can work ef ‐
+fectively on logs generated in the production environment . We 
+compare our framework with two baselines : LogAnomaly[4] and 
+NeuralLog[8].
+Table 3 shows the results of our method as well as two base ‐
+lines on Ada and Bob . Both LogAnomaly and NeuralLog show 
+poor Precision and Recall performance on Ada . LogAnomaly 
+has very limited learning capability due to the limitation of 
+model size , which makes it difficult to obtain good results on 
+log datasets with a large number of templates and complex pro ‐
+cesses . Also , in the production environment logs , log tem ‐
+plates that are not present in the training data often appear in 
+the test set , making LogAnomly generate a large number of 
+false positives often[18]. NeuralLog tends to consider every log 
+unlikely to be anomalous on large unsupervised datasets due 
+to the problem of data dilution . Our framework analyzes and 
+learns the actual semantics of the logs , and designs an alert 
+policy layer that incorporates the actual business characteris ‐
+tics of the machine . These measures make our model more ca ‐
+pable of capturing the normal patterns of real logs in a produc ‐
+▼Table 2. Statistics of evaluation datasets
+Dataset
+Ada
+BobTraining Data
+6 626 865
+7 021 577Number of 
+Templates
+599
+84Test Dataset
+Normal
+7 911 944
+1 067 850Anomalous
+2 648
+904▼Table 3. Evaluation results of our method vs the other two methods
+Approach
+LogAnomaly
+NeuralLog
+Our methodAda
+Precision
+0.394
+0.297
+0.738Recall
+0.190
+0.354
+1.00F1S
+0.256
+0.323
+0.850Bob
+Precision
+0.353
+0.638
+0.857Recall
+0.332
+0.872
+1.00F1S
+0.342
+0.736
+0.923
+74

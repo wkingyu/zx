@@ -1,0 +1,146 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Incident and Problem Ticket Clustering and Classification Using Deep Learning    Research Papers
+Finally , we show some of the sample topics in the cluster .
+4 Experiments
+We use two datasets from an enterprise -scale cloud pro ⁃
+vider , comprising 468 infrastructure -level and 787 Platform as 
+a Service (PaaS )-level incident tickets , respectively . Since 
+both datasets have similar data formats , we use the same 
+analysis methods , which are mainly unsupervised machine 
+learning approaches such as K -means and LDA . Our goal is to 
+learn and make use of the inherent homogeneity of the compli ⁃
+cated ticket descriptions by analyzing them .
+For model training , we use the number , title or subject , and 
+description from the datasets , in which the title or subject is a 
+summary of the incident , and the description is a detailed text 
+describing the problem . Some of the description texts are in 
+the semi -structured form . For example , more than half the 
+infrastructure -level ticket descriptions consist of explicit attri ⁃
+butes like symptoms , progress , network topology , conclusions , 
+steps , and remarks . We focus on the symptom attribute rather 
+than using the entire text body since prediction needs to be 
+performed when the ticket only has a symptom description . 
+Some of the corpus such as file names , URL links , and system 
+logs are filtered as part of preprocessing .
+4.1 Data Preprocessing
+We extract the text of the symptom attribute from the ticket 
+description . If the description does not contain an explicit at ⁃
+tribute of “symptom ”, the whole text is used . For the symptom 
+text, we utilize regular expressions to filter unwanted data like 
+picture -attached file name , date , time , URL and also delete 
+the system logs as many as possible . We also perform spell 
+checking using a dictionary .
+Our next step is to convert the symptom texts into indi ⁃
+vidual word tokens . Since most of the incident descriptions 
+are a mixture of both Chinese and English , we use different to ⁃
+kenization tools for each language . “Jieba ” is used for Chi ⁃
+nese and “spaCy ” for English . We also remove stop words 
+from the output token and merge synonyms , e.g., “db” and da ⁃
+tabase are the same , so they are uniformly replaced by a data ⁃
+base. The lists of stop words are from Baidu[9] and github[10]. 
+We merge both and extend some ticket -specific stop words for 
+the experiments .
+Given that some titles are similar to the symptom in terms 
+of interfering texts and marks , they are preprocessed in the 
+same way . The process described above ultimately generates a 
+list of most frequently used tokens in both the title and symp ⁃
+tom token lists . We sample high frequency Chinese and Eng ⁃
+lish words from the results , which are shown in Table 1.
+4.2 Clustering Using BoW Models
+First, we study the clustering characteristics of the incident 
+tickets using the BoW model . For the tokens we extract during 
+preprocessing , we choose the top high frequency words for title and symptom respectively . We combine the tokens from 
+title and symptom based on a predefined weight so that each 
+ticket is transformed into a word frequency vector , and accord ⁃
+ingly , the dataset is represented by a word frequency matrix .
+We apply principal component analysis (PCA) to the nor ⁃
+malized word frequency matrix of the dataset , aiming to select 
+the number of appropriate components using cumulative ex ⁃
+plained variance results . For example , Fig. 2 shows the PCA 
+results of the symptom word frequency matrix , indicating that 
+if 100 components are selected , and more than 90% of the 
+variance can be explained .
+After the number of the principal components is selected , 
+we project the word frequency matrix to these components 
+and use K-means for clustering analysis . For a given range of 
+cluster numbers (i.e., values of K), we generate SSE and sil ⁃
+houette coefficient curves . As the best practice , the number 
+of clusters is determined at the inflection point of the down ⁃
+ward trend SSE curve or at the point when the upward trend 
+silhouette coefficient curve becomes a plateau . The results 
+are shown in Fig . 2. The SSE curve does not show an obvious 
+inflection point , and the absolute value of the silhouette coef ⁃
+ficient is too small even though the trend meets the demand 
+(silhouette coefficient is between −1 and 1. The closer it is to 
+1, the more reasonable the clustering is ). We conclude that it 
+may not be a viable approach to evaluating the best cluster 
+size by using PCA .
+We also perform experiments using other models such as 
+TF-IDF to generate a word frequency matrix , and the results 
+are similar to PCA , indicating the word frequency matrix may 
+not apply to incident tickets .
+4.3 Clustering Using Latent Dirichlet Allocation (LDA ) 
+Model
+In this section , we use LDA to extract dominant topics from ▼Table 1. Sample of high frequency words
+Keywords
+node
+defect
+version
+symptom
+upgrade
+alert
+conclusion
+description
+progress
+operation
+topology
+note
+cause
+site
+failureFrequency
+538
+479
+463
+329
+317
+309
+291
+282
+275
+258
+256
+253
+252
+235
+229Keywords
+tecs
+provider
+daisy
+nova
+dvs
+compute
+cinder
+neutron
+sdn
+error
+host
+nfv
+ip
+agent
+cephFrequency
+328
+198
+150
+149
+139
+123
+90
+90
+79
+76
+69
+69
+64
+64
+62
+71

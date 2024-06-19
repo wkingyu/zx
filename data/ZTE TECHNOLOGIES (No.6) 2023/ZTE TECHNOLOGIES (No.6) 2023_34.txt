@@ -1,0 +1,86 @@
+experience-oriented O&M service support. A 
+built-in blade board is inserted in PON OLT to 
+minimize equipment room space, resolve 
+power supply and consumption issues, and 
+enhance the edge computing capability on 
+OLT. The service traﬃc of broadband users is 
+forwarded to the built-in blade board 
+through the OLT. The built-in blade board 
+identi/f_ies the speci/f_ic service type of the user, 
+extracts key service quality indicators, and 
+calculates the segment delay to facilitate the 
+delimitation of low QoE issues. 
+After identifying services and /f_inishing the 
+initial processing of basic indicators, the 
+board uploads the processed data to the CEM 
+big data analysis platform. The CEM platform 
+makes comprehensive analysis and 
+calculations based on the raw data and 
+third-party system interconnection data. It 
+gives quantitative presentation of user 
+experience, performs low QoE identi/f_ication, 
+root cause delimitation, and generates AI 
+user pro/f_iles. This helps operators improve 
+user experience and implement precise 
+marketing strategies.
+CEM Enables Wider Broadband 
+Service Identi/f_ication
+In the CEM solution, PON OLT needs powerful computing capabilities to support 
+the collection, analysis, and processing of 
+service information. An OLT built-in blade 
+board acts as a tool for collecting broadband 
+service data. The new-generation OLT built-in 
+blade board uses ZTE’s self-developed CPU 
+and network processor, occupying only one 
+slot of PON OLT (Fig. 2). The system can 
+identify six major categories of broadband 
+services, including video, gaming, web 
+browsing, email, upload/download, and 
+instant messaging. For each service type, the 
+system selects the KQIs that aﬀect the service 
+for data collection and analysis as the basis of 
+user experience quanti/f_ication. ZTE’s CEM 
+system can identify more than 18,000 service 
+sources. A single built-in blade board can 
+collect, analyze, and process service traﬃc 
+from multiple OLTs, serving around 10,000 
+users. This built-in blade not only enhances 
+the value-added service processing 
+capabilities of OLTs, but also ensures low 
+energy consumption and no additional space 
+required in the equipment room, thereby 
+reducing operational expenses (OPEX).
+Clearer Insight into Low QoE Users
+Quantifying user experience has been 
+challenging due to its subjectivity and 
+abstraction. ZTE’s CEM solution addresses 
+Switch fabric
+PON  card
+Uplink  card 
+ 
+Fig. 1. Architecture of the 
+CEM solution.
+EMS
+Resource management systemMulti-system data
+BRAS-source: T7
+Backbone network
+Customer side: T2 Network side: T3
+End-to-end service RTT: T1In-home: T6 ONT-OLT: T4 OLT-BRAS: T5 Content source
+BRAS OLTONT STBCR
+CEM platform
+Built-in bladeService KQI (.xdr /f_ile)
+SCPQuantify user experience by CEI
+Analyze low QoE users
+Analyze poor quality content sources
+Root cause delimitation and location
+Multi-dimentional AI user pro/f_iles
+Built-in blade (A-SA card)CEM platform Big data AI
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+32 

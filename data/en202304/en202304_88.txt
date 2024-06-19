@@ -1,0 +1,71 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4XIONG Zhiang , ZHAO Ping , FAN Jiyuan , WU Zengqiang , GONG Hongwei Mixed Electric and Magnetic Coupling Design Based on Coupling Matrix Extraction   Research Papers
+Mixed Electric and Magnetic Coupling Mixed Electric and Magnetic Coupling 
+Design Based on Coupling Matrix ExtractionDesign Based on Coupling Matrix Extraction
+XIONG Zhiang1, ZHAO Ping1, FAN Jiyuan1, 
+WU Zengqiang2, GONG Hongwei2
+(1. Xidian University , Xi’an 710000 , China ；
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202304011
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231107 .1357 .002.html, 
+published online November 8, 2023
+Manuscript received : 2023 -04-28
+Abstract : This paper proposes a design and fine -tuning method for mixed electric and magnetic coupling filters . It derives the quantitative re ⁃
+lationship between the coupling coefficients (electric and magnetic coupling , i.e., EC and MC) and the linear coefficients of frequency -
+dependent coupling for the first time . Different from the parameter extraction technique using the bandpass circuit model , the proposed ap ⁃
+proach explicitly relatesEC and MC to the coupling matrix model . This paper provides a general theoretic framework for computer -aided design 
+and tuning of a mixed electric and magnetic coupling filter based on coupling matrices . An example of a 7th-order coaxial combline filter de ⁃
+sign is given in the paper , verifying the practical value of the approach .
+Keywords : coupling matrix ; frequency -dependent coupling ; mixed electric and magnetic coupling ; parameter extraction
+Citation  (Format 1): XIONG Z A , ZHAO P , FAN J Y , et al . Mixed electric and magnetic coupling design based on coupling matrix extraction 
+[J]. ZTE Communications , 2023 , 21(4): 85–90. DOI : 10.12142 /ZTECOM .202304011
+Citation (Format 2): Z. A. Xiong , P. Zhao , J. Y. Fan, et al ., “Mixed electric and magnetic coupling design based on coupling matrix extraction ,” 
+ZTE Communications , vol. 21, no. 4, pp. 85–90, Dec. 2023 . doi: 10.12142 /ZTECOM .202304011 .
+1 Introduction
+In the design of microwave filters , the realization of finite 
+transmission zeros (TZs) is critical to improving selectiv ⁃
+ity. Cross -coupling is the most popular method to create 
+TZs[1]. However , this multi -path mechanism often leads to 
+complexity in the design of filter layout , especially for high -
+order filters with many TZs . To solve this problem , frequency -
+dependent coupling (FDC) is introduced into the filter design . 
+In an FDC , the coupling coefficient will be zero at a specific 
+frequency , creating extra TZs in a given filter network .
+SZYDLOWSKI et al .[2–5] proposed an optimization -based 
+approach to the synthesis of coupling matrices with FDCs . 
+Years later , HE[6–7] and ZHAO[8] developed deterministic ma ⁃
+trix transformation approaches that can eliminate one cross -
+coupling from traditional N-tuples and introduce FDCs into 
+the network . Constant couplings can be realized as pure elec ⁃
+tric or magnetic coupling , whereas FDCs need to be imple ⁃
+mented as mixed electric and magnetic couplings . However , 
+the mixed electric and magnetic coupling is difficult to con ⁃
+trol, because there is no quantitative relationship between 
+FDCs and the mixed electric and magnetic couplings .
+In 2006 , MA[9] proposed constructing an electrical coupling and a magnetic coupling path between two resonators to gener ⁃
+ate a TZ . However , he did not give the relationship between 
+the TZ position and the electric and magnetic coupling coeffi ⁃
+cients . In 2008 , CHU[10–11] defined the mixed electric and 
+magnetic coupling coefficient and gave the extraction method 
+of the electric coupling coefficient (EC) and the magnetic cou ⁃
+pling coefficient (MC) from the electromagnetic (EM) simula ⁃
+tion of mixed electric and magnetic coupling structures . Fur⁃
+thermore , the relationship between the location of TZ and (EC, 
+MC) is found . However , the parameter extraction is carried out 
+in the bandpass domain . The approach does not explicitly re ⁃
+late Ec and Mc to the coupling matrix model , which is popular 
+in filter synthesis . Therefore , it is difficult to design or tune 
+the mixed coupling by coupling matrix extraction approaches .
+This paper derives the explicit relationship between EC (MC) 
+in the mixed electric and magnetic coupling and elements in 
+the coupling and capacitance matrices . With the coupling ma ⁃
+trix extracted by the model -based vector fitting (MVF ) tech ⁃
+nique[12], the filter designer can easily design and tune the 
+mixed coupling filter by comparing the extracted matrices 
+with target ones .
+The rest of the paper is organized as follows . Section 2 de⁃
+rives the relationship between the lowpass FDC model and the 
+bandpass mixed coupling coefficients (EC and MC). Section 3 
+presents a mixed electric and magnetic coupling physical 
+This work was supported by the National Natural Science Foundation of 
+China under Grant No . 62001339 .
+85

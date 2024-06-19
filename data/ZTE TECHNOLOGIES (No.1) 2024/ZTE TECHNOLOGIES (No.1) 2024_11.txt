@@ -1,0 +1,53 @@
+study the architecture support of ambient 
+power-enabled IoT devices. The speci/f_ic 
+objectives include validating the device’s 
+ID, managing identi/f_ication, subscription, 
+registration and connection of ambient IoT 
+devices, and supporting information 
+transfer for ambient IoT services.
+Energy eﬃciency and energy saving: This 
+study item aims to study architectural 
+impacts and functional extensions 
+required to facilitate eﬃcient energy use 
+and energy saving. The speci/f_ic objectives 
+include exposing information related to 
+network energy, and implementing 
+subscription and policy control to support 
+energy eﬃciency and energy saving as 
+service criteria.
+Core network enhanced support for 
+AI/ML: This study item aims to study 
+possible architectural and functional 
+extensions for cross-domain AI/ML 
+interworking and coordination (e.g., UE, 
+RAN, core, applications) to address the 
+overall AI/ML framework. It will investigate 
+how to support collaborative AI/ML 
+operations, involving 5GC/NWDAF and/or AF for vertical federated learning (VFL), and 
+how to support NWDAF-assisted policy 
+control to prevent signaling storms.
+IMT-2030 has de/f_ined six usage scenarios 
+for 6G, including three extensions from 
+traditional ones: hyper reliable and 
+low-latency communication, massive 
+communication, and immersive 
+communication, and three new ones: AI and 
+communication, integrated sensing and 
+communication, and ubiquitous 
+connectivity (Fig. 1).
+With some study items and work items in 
+Rel-18 and Rel-19, it is evident that some 
+pre-research on 6G has been initiated in 
+5G-Advanced. For instance, NTN aims to 
+provide ubiquitous connectivity, ambient 
+IoT supports massive communication, 
+AI/ML for NR-RAN explores AI and 
+communication, and XR enhancement 
+focuses on immersive communication. 
+Consequently, it can be asserted that 
+5G-Advanced is establishing a bridge to 6G, 
+facilitating the sustainable digitization and 
+intelligence of the entire world.Fig. 1. Usage scenarios 
+of IMT-2030.
+FEB 2024 
+ 09

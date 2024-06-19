@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Research on Multi -Core Processor Analysis for WCET Estimation    Review
+blocks . They determined the upper and lower bounds for the 
+timing of every memory access request , used the information to 
+compute the bus waiting time , and scrutinized the limits . This 
+method produces relatively accurate results , but its complexity 
+increases significantly with the increase of the task size .
+In conclusion , analyzing on -chip shared bus usage remains 
+a challenging problem for researchers . Scholars attempt to ana ⁃
+lyze conflicts by delving deep into the hardware usage logic of 
+the bus to develop an analytical mathematical model that in ⁃
+corporates bus constraints on WCET to reduce the pessimism 
+of the WCET analysis result . This approach aims to improve 
+the precision of the WCET analysis and provide a more accu ⁃
+rate understanding of on -chip shared bus performance .
+3.2 Dynamic Timing Analysis of Multi -Core Platforms
+In the field of multi -core research , commercial scenarios 
+generally utilize dynamic methods for WCET estimation . Due 
+to the complexity of static analysis methods , using WCET up ⁃
+per bounds with some degree of unsafety may be accepted to 
+reduce the computation complexity . In such cases , 
+measurement -based methods can be employed to estimate the 
+WCET by executing the program 􀆳s code on a real measured 
+processor and using a combination of hardware and software 
+methods . Dynamic WCET analysis methods need to address 
+issues such as testing tools , testing scope (local/global ), and 
+testing vectors .
+DEVERGE et al .[10] proposed a secure measurement -based 
+method that utilizes structural testing to generate input test 
+data and analyzes WCET based on the hardware structure at ⁃
+tributes of the platform where the code is executed . The au ⁃
+thors presented partial test results on PowerPC 7450  and pro ⁃
+posed an implementation method for dynamic testing . To ob ⁃
+tain a more secure WCET estimation , hardware conditions , 
+such as cache and branch prediction buffers , must be manu ⁃
+ally configured before testing to satisfy the safety criteria of 
+WCET . This manual configuration is necessary to ensure the 
+accuracy of the analysis and the safety of the system .
+RIEDER et al .[11] proposed a dynamic measurement -based 
+WCET analysis framework that uses the concept of local mea ⁃
+surement , which measures each code component separately . 
+The authors also introduced a mechanism that accesses at 
+least two pins on the hardware platform to measure the code 
+execution time .
+WENZEL et al .[12] proposed a method for generating test 
+vectors based on the model checking techniques that build 
+upon the dynamic measurement approach mentioned above . 
+The approach involves partitioning the code into control flow 
+graphs (CFGs ), generating test vectors through software -based 
+execution that is guided by the test vectors , and using hard ⁃
+ware to perform actual testing .
+While the results obtained through dynamic WCET meth ⁃
+ods may not be completely safe , for soft real -time systems , ob⁃
+taining safe WCET values for the code under analysis is not al ⁃ways necessary . Additionally , dynamic methods have rela ⁃
+tively low complexity , making them valuable in practical situa ⁃
+tions . Dynamic WCET analysis methods largely focus on inno ⁃
+vation and exploration in the areas of testing tools and test vec ⁃
+tor generation .
+3.3 Other Analysis Methods of Multi -Core Platforms
+In addition to conventional static and dynamic analysis 
+techniques , hybrid methods and probabilistic detection ap ⁃
+proaches are increasingly being used to calculate WCET in 
+multicore systems and research efforts are expanding beyond 
+traditional static and dynamic analysis techniques , leading to 
+the emergence of more innovative and effective techniques . 
+Hybrid -based timing analysis and probabilistic detection tim ⁃
+ing analysis are among typical methods used in this regard .
+3.3.1 Hybrid -Based Timing Analysis
+Hybrid -based timing analysis used in multi -core systems in ⁃
+volves combining static and dynamic analysis techniques by 
+relaxing certain indicators to achieve a more accurate WCET 
+estimation .
+The hybrid method integrates static and dynamic ap ⁃
+proaches to overcome the shortcomings of each method . For in ⁃
+stance , static analysis techniques can determine the control 
+flow graph , avoiding the issue of identifying the worst -case 
+path input values in dynamic analysis methods . In contrast , 
+dynamic methods can ensure that all sub -paths are measured , 
+achieving higher structural coverage with less time overhead 
+than complete path coverage . A typical implementation of hy ⁃
+brid analysis involves estimating the program 􀆳s WCET time by 
+observing the time of the shortest sub -path WCET in the code 
+and combining program structure information and other data 
+obtained through static analysis .
+However , hybrid methods still face challenges . On high -
+performance hardware , context sensitivity and execution his ⁃
+tory dependence can affect the accuracy of WCET estimation 
+when dynamic measurement -based methods are used to mea ⁃
+sure sub -paths . Therefore , the hybrid method that uses this 
+measurement method will inherit errors caused by these prob ⁃
+lems. While hybrid methods cannot guarantee the upper 
+bound of WCET , their estimated results are much more accu ⁃
+rate than fully dynamic measurement methods .
+3.3.2 Probabilistic Detection Timing Analysis
+In probabilistic detection timing analysis of multi -core sys ⁃
+tems, the probabilistic worst -case execution time (pWCET ) 
+distribution represents the minimum upper bound of the ex ⁃
+ecution time distribution of a program under valid operational 
+scenarios . The scenario of operation is defined as an infinite 
+repetition of input states and initial hardware state sequences , 
+which describes the feasible ways in which the program can 
+be repeatedly executed to a large extent .
+There are two methods of probabilistic detection timing 
+analysis .
+91

@@ -1,0 +1,95 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Research Papers   Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System
+Thus , the acquired CSI is inevitably outdated , leading to out ‐
+dated beamforming design and then performance degradation . 
+Considering the CSI used for DL transmission is not always 
+perfect in practice , several studies of robust beamforming 
+have been carried out[6–7]. Ref. [6] introduced an iterative al ‐
+gorithm to maximize the linear assignment weighted sum rate 
+with statistical CSI under channel fading conditions . In Ref . 
+[7], a robust coordinated beamforming method is proposed to 
+maintain the weighted sum -rate performance with inaccurate 
+CSI. The channel aging effect still weakens the robust benefit 
+dramatically[8], so more accurate CSI is needed from the view ‐
+point of CSI , which can be achieved by channel prediction 
+technology .
+Channel prediction technology is an effective way to combat 
+the detrimental effects of channel aging and keep the track of 
+the time -varying channel[9], which predicts the future channels 
+by exploiting the potential temporal correlation from those in 
+the past[10]. There are various prediction methods from autore ‐
+gressive (AR) model -based methods to deep learning[11]. The 
+AR model is commonly used , which treats the time -varying 
+channel as a wide -sense stationary stochastic process[9, 12], and 
+deep learning requires a mass of samples for training[13]. Be‐
+sides , by utilizing the time and spatial properties of channels , 
+the authors in Ref . [14] proposed an angle -domain channel 
+tracking scheme for high -speed railway communications , and 
+spatial -temporal sparse structures are further exhibited to pro ‐
+pose a novel estimation and prediction scheme for time -
+varying massive MIMO channels[15]. Furthermore , to solve the 
+problem of tracking the nonlinear channels , the kernel recur ‐
+sive least squares (KRLS )[16–17] algorithm is proposed , map ‐
+ping the channel sample space to the high -dimensional space , 
+and it shows great adaptiveness .
+Based on the predicted CSI , linear or nonlinear interpola ‐
+tion can be employed for predicting the DL channel between 
+the current channel and the predicted one[18]. Ref. [19] evalu ‐
+ated the benefit of channel prediction in adaptive beamform ‐
+ing systems and showed the tolerable Doppler spread increase 
+for a given outage performance by using prediction . However , 
+there still exist errors in the channel prediction , which be ‐
+comes more obvious as the mobility increases[20]. The exis ‐
+tence of errors between the acquired CSI and the real -time 
+CSI will result in the performance error cost since the de ‐
+signed beamforming does not match the real channel . How ‐
+ever, most of the existing works focus on the impact that the 
+channel prediction error brings[21], while no robust beamform ‐
+ing for improving the performance under channel prediction 
+errors is considered . Moreover , the channel prediction errors 
+are often constructed as complex Gaussian random variables 
+with independent and identically distributed (i.i.d.), zero mean 
+and unit variance entries , which does not consider the statisti ‐
+cal characteristics .
+Motivated by the above , we propose a robust beamforming 
+design under channel prediction errors based on channel pre ‐diction for the time -varying MIMO system in this paper . The 
+main contributions of this work are summarized as follows . 1) 
+A framework of TDD system for beamforming based on chan ‐
+nel prediction is introduced , with a novel prediction error 
+model that combines channel statistical information and a 
+Gaussian random matrix , including the joint correlation prop ‐
+erties of realistic massive MIMO channels . 2) To maximize the 
+sum -rate performance , we propose a robust beamforming de ‐
+sign based on channel prediction , utilizing the deterministic 
+equivalents method to explore further potential beamforming 
+gain brought by the static statistical information , breaking 
+through the performance limitation brought by the channel 
+prediction errors . 3) The beamforming gains compared with 
+traditional benchmarks under different mobile scenes are vali ‐
+dated by simulation , and we investigate the performance dur ‐
+ing the half -frame period to reflect the loss caused by the time -
+varying effect .
+The rest of this paper is organized as follows . Section 2 pres ‐
+ents the proposed framework of the system including the sys ‐
+tem model and the formulation of the discussed problem . Sec‐
+tion 3 introduces the proposed robust beamforming design . 
+Section 4 provides the simulation results and performance dis ‐
+cussion . Finally , we conclude this paper in Section 5.
+2 System Model and Problem Formulation
+In this paper , we focus on the TDD system , and the CSI used 
+for DL transmission is obtained depending on the channel reci ‐
+procity . As shown in Fig . 1, we consider a MU -MIMO system 
+where one base station (BS) equipped with Nt transmit anten ‐
+nas serves K pieces of mobile user equipment (UE), and each 
+is equipped with Nr receive antennas . Denote HS
+i, k∈CNr×Nt as 
+the CSI matrix spanning from the BS to the k-th piece of UE 
+▲Figure 1. Illustration of a time -division duplex (TDD ) mu lti-user 
+multiple -input multiple -output (MU -MIMO ) system where v denotes the 
+speed of mobile UEUE: user equipmentUE kvUE 1v
+……
+Downlink
+beamforming
+Sounding
+reference signal
+78

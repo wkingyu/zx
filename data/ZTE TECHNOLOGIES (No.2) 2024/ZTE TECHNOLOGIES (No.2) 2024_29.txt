@@ -1,0 +1,60 @@
+VPN Solution for Electric Power 
+Service Transport
+The emergence of 5G VPN slicing technology 
+allows services from diﬀerent power network zones 
+to be transported through multiple logical networks 
+overlaid on a single physical network.
+When planning network slicing to meet various 
+service requirements, dedicated and 
+resource-exclusive network slices are created for 
+production control zone services, utilizing resource 
+block (RB) reservation and 5G QoS identi/f_ier (5QI) 
+priority scheduling at the wireless side, metro 
+transport network (MTN) slicing at the transport side, 
+and a dedicated user plane function (UPF) for core 
+network isolation. Management information zone 
+services are logically separated from other B2B 
+services and public-network services through 5QI 
+priority scheduling, VPN isolation, and 
+industry-network UPF sharing. See Table 1 for the 
+implementation scheme.
+Considering the requirements of electric power 
+services for /f_ined-grained bandwidth and hard 
+isolation, we can deploy /f_ine granularity units (FGUs) 
+supporting a minimum of 10M bandwidth, based on 
+the 5G bandwidth slicing speci/f_ication of the MTN1.0 
+standard, to carry control/protection-class 
+high-security services (Fig. 1).
+Services in Security Subzones III and IV can share a 
+VPN and be carried by a group-customer hard slice in 
+the existing network, while services in Security Subzones I and II can be carried by a dedicated VPN 
+through FGU slices that can /f_lexibly allocate N×10M 
+bandwidth. In shared large-network hard slicing, slice 
+services are scheduled based on priority. Whether a 
+slice service uses a dedicated VPN or shares one with 
+others depends mainly on IP address con/f_licts and 
+the necessity for independent management, 
+operation and maintenance.
+According to listed service requirements and 
+transport slice characteristics, the VPN can be 
+designed as follows: For services in production 
+control zones (Security Subzones I and II), MTN hard 
+slices (including /f_ine-grained slices) are hard-isolated 
+from management information zones (Security 
+Subzones III and IV time slots). For services in Security 
+Subzones I and II, an L3 VPN using SR tunnel of the 
+MTN client channel or an L2 VPN using MPLS tunnel 
+of an MTN subclient can be created. Depending on 
+network conditions, they may also utilize a 
+soft-isolated VPN on the MTN hard-slice channel. 
+Services in management information zones (Security 
+Subzones III and IV) can be transported via 
+soft-isolated VPN on an MTN hard slice.
+Practices of 5G VPN with State 
+Grid Jiangsu
+In August 2022, China Mobile Nanjing Branch, in 
+collaboration with ZTE and State Grid Jiangsu, 
+successfully tested and validated power production 
+control services such as diﬀerential protection and 
+ APR 2024
+ 27

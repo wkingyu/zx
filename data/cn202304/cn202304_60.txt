@@ -1,0 +1,87 @@
+大规模语言模型的跨云联合训练关键技术 潘囿丞  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4学（深圳 ）施少怀教授对本文写作提供的帮助 ！
+参考文献
+[1] DEVLIN J , CHANG M W , LEE K , et al . BERT : pre-training of deep 
+bidirectional transformers for language understanding [EB/OL ]. [2023 -06-
+08]. https ://arxiv .org/abs/ 1810 .04805
+[2] BROWN T B , MANN B , RYDER N , et al . Language models are few-shot 
+learners [EB/OL ]. [2023 -06-08]. https ://arxiv .org/abs/ 2005 .14165
+[3] HUANG Y P , CHENG Y L , CHEN D H , et al . GPipe : efficient training of giant 
+neural networks using pipeline parallelism [EB/OL ]. [2023 -06-08]. https ://
+arxiv.org/abs/ 1811 .06965
+[4] HU E J , SHEN Y L , WALLIS P , et al . LoRA : low-rank adaptation of large 
+language models [EB/OL ]. [2023 -06-08]. https ://arxiv .org/abs/ 2106 .09685
+[5] XIANG Y , WU Z H , GONG W B , et al . Nebula-I : a general framework for 
+collaboratively training deep learning models on low-bandwidth cloud 
+clusters [EB/OL ]. [2023 -06-08]. https ://arxiv .org/abs/ 2205 .09470
+[6] CLARK K , LUONG M T , LE Q V , et al . ELECTRA : pre-training text encoders 
+as discriminators rather than generators [EB/OL ]. [2023 -06-08]. https ://
+arxiv.org/abs/ 2003 .10555
+[7] LAMPLE G , CONNEAU A . Cross-lingual language model pretraining [EB/
+OL]. [2023 -06-08]. https ://arxiv .org/abs/ 1901 .07291
+[8] HUANG H Y , LIANG Y B , DUAN N , et al . Unicoder : a universal language 
+encoder by pre-training with multiple cross-lingual tasks [EB/OL ]. [2023 -
+06-08]. https ://arxiv .org/abs/ 1909 .00964
+[9] CONNEAU A , KHANDELWAL K , GOYAL N , et al . Unsupervised cross-
+lingual representation learning at scale [EB/OL ]. [2023 -06-08]. https ://arxiv .
+org/abs/ 1911 .02116
+[10] CHI Z W , DONG L , WEI F R , et al . InfoXLM : an information-theoretic 
+framework for cross-lingual language model pre-training [EB/OL ]. [2023 -
+06-08]. https ://arxiv .org/abs/ 2007 .07834
+[11] OUYANG X , WANG S H , PANG C , et al . ERNIE-M : enhanced multilingual 
+representation by aligning cross-lingual semantics with monolingual 
+corpora [EB/OL ]. [2023 -06-08]. https ://arxiv .org/abs/ 2012 .15674
+[12] LUO F L , WANG W , LIU J H , et al . VECO : variable and flexible cross-
+lingual pre-training for language understanding and generation [EB/OL ]. 
+[2023 -06-08]. https ://arxiv .org/abs/ 2010 .16046
+[13] GUO J L , ZHANG Z R , XU L L , et al . Incorporating BERT into parallel 
+sequence decoding with adapters [C]//Proceedings of the 34th 
+International Conference on Neural Information Processing Systems . 
+ACM , 2020 : 10843 –10854 . DOI: 10.5555 /3495724 .3496634
+[14] VASWANI A , SHAZEER N , PARMAR N , et al . Attention is all You need [C]//
+Proceedings of the 31st International Conference on Neural Information 
+Processing Systems . ACM , 2017 : 6000 –6010 . DOI : 10.5555 /
+3295222 .3295349
+[15] PAPINENI K , ROUKOS S , WARD T , et al . BLEU : a method for automatic 
+evaluation of machine translation [C]//Proceedings of the 40th Annual 
+Meeting on Association for Computational Linguistics - ACL ' 02.  
+Association for Computational Linguistics , 2001 : 311-318. DOI : 10.3115 /
+1073083 .1073135
+[16] SHI S H , YANG Q , XIANG Y , et al . An efficient split fine-tuning framework 
+for edge and cloud collaborative learning [EB/OL ]. [2023 -06-08]. https ://
+arxiv.org/abs/ 2211 .16703
+[17] WANG A , SINGH A , MICHAEL J , et al . GLUE : a multi-task benchmark and 
+analysis platform for natural language understanding [C]//Proceedings of 
+the 2018  EMNLP Workshop BlackboxNLP : Analyzing and Interpreting 
+Neural Networks for NLP . Association for Computational Linguistics , 2018 : 
+353–355. DOI: 10.18653 /v1/w18-5446
+[18] RAJPURKAR P , ZHANG J , LOPYREV K , et al . SQuAD : 100, 000+ 
+questions for machine comprehension of text [C]//Proceedings of the 2016  
+Conference on Empirical Methods in Natural Language Processing .  Association for Computational Linguistics , 2016 : 2383 -2392 . DOI : 
+10.18653 /v1/d16-1264
+作 者 简 介
+潘囿丞 ，鹏城实验室网络智能部云计算所在站博
+士后；主要研究方向为自然语言处理 、文本生成 、
+机器翻译等 ；发表论文 8篇，获授权国家发明专
+利1项。
+侯永帅 ，鹏城实验室网络智能部云计算所工程师 ；
+主要从事智能问答 、机器翻译 、云际协同学习等
+方面的研究 ；发表论文 15篇，获授权国家发明专
+利2项。
+杨卿 ，鹏城实验室网络智能部云计算所工程师 ；
+主要从事自然语言处理 、协同计算等方面的研究 。
+余 跃 ，鹏 城 实 验 室 人 工 智 能 开 源 技 术 总 师 、
+AITISA 联盟智算中心和智算网络标准工作组联合
+组长、算力网络推进组组长 ；主要从事智能计算 、
+云计算 、开源软件等相关领域的研究工作 ；作为
+技术负责人负责 AITISA 联盟智能计算中心与算力
+网相关标准体系的制定与开源平台研发 ；发表论
+文50余篇。
+相洋 ，鹏城实验室网络智能部云计算所副所长 、
+深圳“孔雀计划 ”海外高层次人才 ；主要研究方
+向为自然语言处理 、人工智能 、大模型 、云计算
+等；主持两项国家级科研项目 ，参与多项重大科
+研攻关项目 ；获深圳市科技进步二等奖 1项；发
+表论文 80余篇。
+56

@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Special Topic   Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model
+by an electrical -law -driven model denoted by M(δ, β, γ), 
+such that ,
+ZTR=-3R[ZR]R[ZT]é
+ëê
+êêê1
+2sin βsin γ(1
+jk0δ+1
+(jk0δ)2+
+1
+(jk0δ)3)+cos βcos γ(1
+jk0δ+1
+(jk0δ)2+1
+(jk0δ)3)ù
+ûú
+úúú
+exp(-jk0δ)≜M(δ, β, γ), (6)
+where k0=2π/λ is the wavenumber in vacuum and j is the 
+imaginary unit ; β and γ are the tilting angles mentioned in 
+Fig. 1. Note that ZT and ZR are the self -impedance of the trans ⁃
+mitting and receiving antennas and can be easily evaluated by 
+a classical antenna impedance theory from CHU[20]. Theoreti ⁃
+cally , the impedance matrix of the Tx and Rx arrays can be de ⁃
+termined by calculating all the mutual -impedance between an ⁃
+tennas , forming a Tx self -impedance matrix ZT and Rx self -
+impedance matrix ZR. By altering the spacing into the mutual 
+coupling region (i.e. δ<λ/2), this model can be extended to 
+an HMIMO system where the Tx 􀆳s strong mutual coupling 
+should be considered .
+2.2 Spatial Correlation of Impedance Matrix
+We employ the rank definition to extract the DOF property 
+of the circuit model for HMIMO . The channel model follows 
+the work by AKROUT et al .[18] The explicit expression of the 
+channel matrix is given by
+H(f)=β0RinPZRTQ, (7)
+where β0 is a readout amplification coefficient , Rin is the inter ⁃
+nal resistance of the receiving antenna , and P and Q are two 
+auxiliary impedance matrices defined as
+P≜(ZR+RinIM×M)-1, (8)
+Q≜(ZT+RIN×N-ZTRPZRT)-1, (9)
+where IM×M and IN×N are identity matrices with M and N rows 
+respectively .
+Note that the circuit model decomposes the channel matrix 
+into a product of the self -impedance matrices (ZT and ZR) and 
+the trans -impedance matrix (ZTR). The rank of the channel ma ⁃
+trix is then determined by the minimum rank of P, ZRT, and Q. 
+Recall the basic assumptions of HMIMO system that the Rx 
+has weak coupling . Therefore , ZR is a diagonal matrix and of 
+full rank . To study the properties of ZT and ZTR, we make an ⁃
+other assumption that the differences in the current distribu ⁃
+tion caused by the feed position are negligible . The configura ⁃
+tion of the array indicates that the mutual impedance model 
+M(δ, β, γ) has two fixed components β and γ. If we set β=π and γ=0, the entries of ZT is
+ZT,mn∝-(1
+(jk0δmn)2+1
+(jk0δmn)3)exp(-jk0δmn),
+(10)
+where k0=2π/λ is the wavenumber in vacuum . The imped ⁃
+ance approches 0 asymptotically if the spacing is bigger than 
+λ/2, which is the condition of a traditional weak coupling array .
+We then derive a formula for estimating the rank of the im ⁃
+pedance matrix ZT for a ULA . Since the impedance matrix is 
+only a function of the distance between the i-th and j-th anten ⁃
+nas, the row vectors of ZT have cyclic symmetry . Therefore , 
+the rank of ZT is bounded by the auto -correlation of the row 
+vectors . The auto -correlation of the first row vector ZT0 is 
+given by
+ℜ[ZT0ZT0]∝
+∑m≠0∑n≠0( )1
+(jk0δ0m)2+1
+(jk0δ0m)3( )1
+(jk0δ0n)2+1
+(jk0δ0n)3
+exp(-jk0(δ0m+δ0n)) ,                                                                      (11)
+where δ0m denotes the distance between the first and m-th 
+antenna .
+The numerical evaluation (Fig. 2) shows that the mutual 
+coupling increases the spatial correlation between the exciting 
+antenna and its neighboring antenna . This is an exact answer 
+to the DOF degradation for fixed antenna numbers when the 
+mutual coupling is considered . This is in agreement with the 
+spatial correlation matrix reported by YUAN et al .[17]
+However , increasing the number of antennas within a fixed 
+aperture would provide additional DOF compared to the half -
+wavelength weak coupling array due to the rapid decrease of 
+the correlation for antennas with spacing bigger than λ/2. The 
+asymptotic DOF provided by the mutual coupling for ULA can 
+be estimated by subtracting the λ/2δ antennas from the total 
+▲Figure 2. Spatial correlation for uniform linear array (ULA ) with 
+spacing λ/2, λ/4 and λ/8. The correlation is normalized to their corre ⁃
+sponding maximum0 1 2 3 4 5 6 7
+Antenna coordinate/ λλ/2
+λ/4
+λ/81.0
+0.8
+0.6
+0.4
+0.2
+0.0Normalized correlation
+36

@@ -1,0 +1,88 @@
+slicing bandwidth. As depicted in Fig. 1, 10 Gbps hard slice 
+channels are allocated to metro video surveillance 
+services within a total bandwidth of 100GE, ensuring 
+complete isolation from other service channels. A 
+PW/tunnel-based VPN (a basic soft slicing mode) is used 
+to carry the video surveillance service from each station. 
+At each station, a switching module facilitates 
+convergence between the local PW/tunnel and those of 
+other stations. These converged services are carried over 
+the hard slice channel. Diﬀerent service models such as 
+virtual private wire service (VPWS) and virtual private LAN 
+service (VPLS) can be deployed, maximizing bandwidth 
+utilization of hard slice channels through statistical 
+multiplexing technologies such as VPN.
+Compared to the Ethernet over SDH (EOS) convergence 
+function of traditional MSTP , which typically oﬀers a 
+backplane bandwidth of about 2.5 Gbps, SPN equipment 
+can provide n×5G bandwidth to hard slicing services, with 
+the maximum bandwidth reaching the line bandwidth. In 
+addition, the convergence ratio of the virtual 
+concatenation group (VCG) on the backplane of EOS is 
+generally no greater than 48, posing constraints on 
+networking applications. However, the soft slicing of SPN 
+equipment, based on VPN technology, supports a 
+signi/f_icant number of PWs and tunnels, extending to the K 
+level, fully meeting the application scenarios involving  
+multiple service types and a large number of sites and 
+services.
+Super-Large Bandwidth
+A 100GE ring is deployed on the line side of the 
+network to provide metro subsystems with redundant, 
+recon/f_igurable, and /f_lexible channels for information 
+transmission and switching. Utilizing large-bandwidth 
+elastic packet pipes, metro security check information can 
+be collected in real time and processed centrally, 
+facilitating simultaneous checking of both human bodies 
+and objects. This approach improves the eﬃciency and 
+accuracy of inspection and backtracking processes. 
+Moreover, the SPN-based FlexE link bundling function 
+binds two physical channels of 100GE interface to create a 
+logical channel with large bandwidth. This enables 
+high-rate services to be transmitted through low-rate 
+physical ports and facilitates the smooth upgrade of 
+line-side bandwidth to 200GE. 
+Looking ahead, a uni/f_ied smart platform for metro development and operation will be built. The 
+transport system will carry services such as smart 
+O&M, smart travel, smart station, smart factory, smart 
+driving, smart scheduling, and smart operation. The 
+availability of 200GE ultra-large bandwidth on the line 
+side will provide suﬃcient channel capacity for the 
+development of this smart platform.
+Supporting E1 CBR
+In metros, the E1 service usually serves as an 
+important production service, such as the dispatching 
+telephone service, which has high requirements for 
+service security, reliability, and delay indicators. SPN can 
+carry E1 services at a constant bit rate (CBR). Client services 
+are encapsulated into 10 Mbps small-granularity hard 
+channels in the form of 66B blocks, without packet 
+processing. This solves the soft isolation problem of 
+the original PWE3 mode, ensuring not only service 
+bandwidth and bit error performance but also 
+providing delay performance similar to SDH. Through 
+end-to-end FGU channels, E1 CBR ensures the hard 
+isolation of E1 services on the entire path, meeting the 
+high security and reliability requirements of metro 
+production services.
+Complete Network Protection Modes
+The SPN device oﬀers network-level hierarchical 
+protection capabilities, supporting carrier-class fast 
+protection switching with service switchover time of 
+less than 50 ms. Additionally, it supports controller-based 
+rerouting to achieve permanent 1+1 protection  similar to 
+that of ASON.
+Furthermore, SPN equipment supports VPN FRR/IP 
+FRR protection on the customer service sublayer to 
+provide redundancy protection to PE nodes. It also 
+supports link aggregation group (LAG) protection to 
+enhance bandwidth and link reliability. On the 
+network transmission sublayer, SPN supports linear 
+protection, dual-homing protection, ring network 
+protection, and SR-BE protection in any topology. On 
+the slicing channel layer, it supports MTN path 1 +1 
+protection function, with service protection switching 
+time reduced to several milliseconds. The rerouting 
+and slicing channel protection capabilities of SPN 
+provide superior functions and performance 
+36 Success Stories 

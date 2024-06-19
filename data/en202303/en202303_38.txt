@@ -1,0 +1,82 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3SHEN Jiahao , JIANG Ke , TAN Xiaoyang Special Topic   Boundary Data Augmentation for Offline Reinforcement Learning
+2010 .04592
+[16] FUJIMOTO S , MEGER D , PRECUP D . Off -policy deep reinforcement learning 
+without exploration [EB/OL ]. (2018 -12-7) [2022 -10-2]. https ://arxiv .org/abs/
+1812 .02900
+[17] KUMAR A , FU J , TUCKER G , et al . Stabilizing off -policy Q -learning via boot ‐
+strapping error reduction [C]//33rd International Conference on Neural Infor ‐
+mation Processing Systems . Curran Associates Inc ., 2019 : 11784–11794 . 
+DOI: 10.48550 /arXiv .1906 .00949
+[18] WU Y F , TUCKER G , NACHUM O . Behavior regularized offline reinforce ‐
+ment learning [EB/OL ]. (2019 -11-26) [2022 -09-11]. https ://arxiv .org/abs/
+1911 .11361
+[19] AGARWAL R , SCHUURMANS D , NOROUZI M . An optimistic perspective 
+on offline reinforcement learning [EB/OL ]. (2019 -07-10)[2022 -10-11]. https ://
+arxiv .org/abs/ 1907 .04543
+[20] LYU J F , MA X T , LI X , et al . Mildly conservative Q -learning for offline rein ‐
+forcement learning [EB/OL ]. (2022 -07-09) [2023 -04-12]. https ://arxiv .org/abs/
+2206 .04745
+[21] YANG J K , ZHOU K Y , LI Y X , et al . Generalized out -of-distribution detec ‐
+tion: a survey [EB/OL ]. (2021 -10-21) [2022 -03-01]. https ://arxiv .org/abs/
+2110 .11334
+[22] GOODFELLOW I , POUGET -ABADIE J , MIRZA M , et al . Generative adver ‐
+sarial networks [J]. Communications of the ACM , 2020 , 63(11): 139–144. 
+DOI: 10.1145 /3422622
+[23] KINGMA D P and WELLING M . Auto -encoding variational bayes [EB/OL ]. 
+(2013 -12-20)[2023 -02-14]. https ://arxiv .org/abs/ 1312 .6114
+[24] PIDHORSKYI S , ALMOHSEN R , ADJEROH D A , et al . Generative probabi ‐
+listic novelty detection with adversarial autoencoders [EB/OL ]. (2018 -07-06)
+[2023 -04-10]. https ://arxiv .org/abs/ 1807 .02588
+[25] TIAN K , ZHOU S G , FAN J P , et al . Learning competitive and discriminative 
+reconstructions for anomaly detection [C]//33th AAAI Conference on Artificial 
+Intelligence . ACM , 2019 : 5167–5174 . DOI : 10.1609 /aaai .v33i01.33015167
+[26] DEECKE L , VANDERMEULEN R , RUFF L , et al . Image anomaly detection 
+with generative adversarial networks [C]//European Conference on Machine 
+Learning and Principles and Practice of Knowledge Discovery in Databases . 
+ECMLPKDD , 2018 . DOI : 10.1007 /978 -3-030 -10925 -7_1
+[27] ZHOU K , XIAO Y T , YANG J L , et al . Encoding structure -texture relation 
+with P -net for anomaly detection in retinal images [M]//Computer Vision –
+ECCV 2020 . Cham , Switzerland : Springer international publishing , 2020
+[28] WEI H , YE D , LIU Z , et al . Boosting offline reinforcement learning with re ‐
+sidual generative modeling [C]//Thirtieth International Joint Conference on Ar ‐
+tificial Intelligence . IJCAI , 2021 : 3574–3580 . DOI : 10.24963 /ijcai .2021 /492
+[29] WANG Z , HUNT J J , ZHOU M . Diffusion policies as an expressive policy 
+class for offline reinforcement learning [EB/OL ]. (2022 -08-12) [2023 -05-15]. 
+https ://arxiv .org/abs/ 2208 .06193
+[30] CHEN H , LU C , YING C , et al . Offline reinforcement learning via high -fidelity generative behavior modeling [EB/OL ]. (2022 -09-29) [2023 -05-10]. https ://
+arxiv .org/abs/ 2209 .14548
+[31] MNIH V , KAVUKCUOGLU K , SILVER D , et al . Playing atari with deep rein ‐
+forcement learning [EB/OL ]. (2013 -12-19) [2022 -09-03]. https ://arxiv .org/abs/
+1312 .5602
+[32] SZITA I , LÖRINCZ A . Learning tetris using the noisy cross -entropy method 
+[J]. Neural computation , 2006 , 18(12): 2936–2941 . DOI : 10.1162 /
+neco.2006 .18.12.2936
+[33] SOHN K , YAN X , LEE H , et al . Learning structured output representation us ‐
+ing deep conditional generative models [C]//28th International Conference on 
+Neural Information Processing Systems . NIPS , 2015 : 3483–3491
+[34] FU J , KUMAR A , NACHUM O , et al . D4RL: datasets for deep data -driven re ‐
+inforcement learning [EB/OL ]. (2020 -04-15)[2022 -08-15]. https ://arxiv .org/abs/
+2004 .07219
+[35] HAARNOJA T , ZHOU A , ABBEEL P , et al . Soft actor -critic : off -policy maxi ‐
+mum entropy deep reinforcement learning with a stochastic actor [C]//Interna ‐
+tional Conference on Machine Learning . Association for Computing Machin ‐
+ery, 2018 . DOI : 10.48550 /arXiv .1801 .01290
+[36] FUJIMOTO S , GU S S . A minimalist approach to offline reinforcement learn ‐
+ing [EB/OL ]. (2021 -06-12)[2022 -09-13]. https ://arxiv .org/abs/ 2106 .06860
+[37] TARASOV D , NIKULIN A , AKIMOV D , et al . CORL : research -oriented deep 
+offline reinforcement learning library [C]//3rd Offline Reinforcement Learning 
+Workshop : Offline RL as a “Launchpad ”. NeurIPS , 2022 . DOI : 10.48550 /
+arXiv .2210 .07105
+Biographies
+SHEN Jiahao is currently a postgraduate student in College of Computer Sci ‐
+ence and Technology , Nanjing University of Aeronautics and Astronautics , Chi‐
+na. His research interests include reinforcement learning and generative model .
+JIANG Ke  is currently a PhD student in the College of Computer Science and 
+Technology , Nanjing University of Aeronautics and Astronautics , China . His re ‐
+search interest is reinforcement learning .
+TAN Xiaoyang (x.tan@nuaa .edu.cn) is currently a faculty member of Depart ‐
+ment of Computer Science and Technology , Nanjing University of Aeronautics 
+and Astronautics , China . His current research interests include machine learn ‐
+ing and pattern recognition , computer vision , and reinforcement learning .
+36

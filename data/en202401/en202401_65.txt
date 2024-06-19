@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams    Special Topic
+[24] HERMAN R M , WIGGINS T A . Apodization of diffractionless beams [J]. 
+Applied optics , 1992 , 31(28): 5913–5915 . DOI : 10.1364 /AO.31.005913
+[25] ETTORRE M , GRBIC A . Generation of propagating Bessel beams using 
+leaky -wave modes [J]. IEEE transactions on antennas and propagation , 2012 , 
+60(8): 3605–3613 . DOI : 10.1109 /TAP .2012 .2201088
+[26] SALEM M A , KAMEL A H , NIVER E . Microwave Bessel beams generation 
+using guided modes [J]. IEEE transactions on antennas and propagation , 
+2011 , 59(6): 2241–2247 . DOI : 10.1109 /TAP .2011 .2143683
+[27] ETTORRE M , RUDOLPH S M , GRBIC A . Generation of propagating Bes ⁃
+sel beams using leaky -wave modes : experimental validation [J]. IEEE trans ⁃
+actions on antennas and propagation , 2012 , 60(6): 2645–2653 . DOI : 
+10.1109 /TAP .2012 .2194674
+[28] PAVONE S C , ETTORRE M , ALBANI M . Analysis and design of Bessel 
+beam launchers : longitudinal polarization [J]. IEEE transactions on antennas 
+and propagation , 2016 , 64(6): 2311–2318 . DOI: 10.1109 /TAP .2016 .2550049
+[29] PAVONE S C , ETTORRE M , CASALETTI M , et al . Analysis and design of 
+Bessel beam launchers : transverse polarization [J]. IEEE transactions on an ⁃
+tennas and propagation , 2021 , 69(8): 5175–5180 . DOI : 10.1109 /
+TAP.2021 .3060049
+[30] CHILLARA V K , DAVIS E S , PANTEA C , et al . Ultrasonic Bessel beam 
+generation from radial modes of piezoelectric discs [J]. Ultrasonics , 2019 , 
+96: 140–148. DOI : 10.1016 /j.ultras .2019 .02.002
+[31] VAQUERO Á F , PINO M R , ARREBOLA M , et al . Bessel beam generation 
+using dielectric planar lenses at millimeter frequencies [J]. IEEE access , 
+2020 , 8: 216185–216196 . DOI : 10.1109 /ACCESS .2020 .3040898
+[32] FENG P Y , QU S W . Generation of Bessel beams at millimeter -wave band 
+using 3-D printed axicon lenses [C]//Proc . International Symposium on An ⁃
+tennas and Propagation (ISAP ). IEEE , 2018 : 1–2
+[33] YANG C F , WU G B , CHEN B J , et al . Terahertz Bessel beam scanning en ⁃
+abled by dispersion -engineered metasurface [J]. IEEE transactions on micro ⁃
+wave theory and techniques , 2023 , 71(8): 3303–3311 . DOI : 10.1109 /
+TMTT .2023 .3234610
+[34] CHU X X , SUN Q , WANG J , et al . Generating a Bessel -Gaussian beam for 
+the application in optical engineering [J]. Scientific reports , 2015 , 5: 18665 . 
+DOI: 10.1038 /srep 18665
+[35] PAKOVIĆ S , ZHOU S Y , GONZÁLEZ -OVEJERO D , et al . Bessel -gauss 
+beam launchers for wireless power transfer [J]. IEEE open journal of anten ⁃
+nas and propagation , 2021 , 2: 654– 663. DOI : 10.1109 /
+OJAP .2021 .3078234
+[36] ALSOLAMY F , ALOMAR W A , GRBIC A . Cylindrical vector beams for 
+wireless power transfer [J]. IEEE transactions on antennas and propagation , 
+2021 , 69(3): 1716–1727 . DOI : 10.1109 /TAP .2020 .3026428
+[37] NEGRI E , FUSCALDO W , BURGHIGNOLI P , et al . Leaky -wave analysis 
+of TM -, TE -, and hybrid -polarized aperture -fed bessel -beam launchers for 
+wireless -power -transfer links [J]. IEEE transactions on ant ennas and propa ⁃
+gation , 2023 , 71(2): 1424–1436 . DOI : 10.1109 /TAP .2022 .3231086
+[38] LU J Y , GREENLEAF J F . Ultrasonic nondiffracting transducer for medical 
+imaging [J]. IEEE transactions on ultrasonics , ferroelectrics , and frequency 
+control , 1990 , 37(5): 438–447. DOI : 10.1109 /58.105250
+[39] LEE K S , ROLLAND J P . Bessel beam spectral -domain high -resolution opti ⁃
+cal coherence tomography with micro -optic axicon providing extended focus ⁃
+ing range [J]. Optics letters , 2008 , 33(15): 1696 . DOI : 10.1364 /
+OL.33.001696
+[40] PLANCHON T A , GAO L , MILKIE D E , et al . Rapid three -dimensional iso ⁃
+tropic imaging of living cells using Bessel beam plane illumination [J]. Na⁃
+ture methods , 2011 , 8(5): 417–423. DOI : 10.1038 /nmeth .1586
+[41] VUILLEMIN N , MAHOU P , DÉBARRE D , et al . Efficient second -harmonic 
+imaging of collagen in histological slides using Bessel beam excitation [J]. 
+Scientific reports , 2016 , 6(1): 29863 . DOI : 10.1038 /srep 29863
+[42] JIA H , YU X H , YANG Y L , et al . Axial resolution enhancement of light -
+sheet microscopy by double scanning of Bessel beam and its complementary 
+beam [J]. Journal of biophotonics , 2019 , 12(1): e201800094 . DOI : 10.1002 /jbio.201800094
+[43] WEI X L , LIU C M , NIU L T , et al . Generation of arbitrary order Bessel 
+beams via 3D printed axicons at the terahertz frequency range [J]. Applied 
+optics , 2015 , 54(36): 10641–10649 . DOI : 10.1364 /AO.54.010641
+[44] MUGNAI D , SPALLA P . Electromagnetic propagation of Bessel -like local ⁃
+ized waves in the presence of absorbing media [J]. Optics communications , 
+2009 , 282(24): 4668–4671 . DOI : 10.1016 /j.optcom .2009 .09.020
+[45] HASEGAWA K . Indoor self localization of a single microphone based on 
+asynchronous scanning of modulated Bessel beams [C]//Proc . 58th Annual 
+Conference of the Society of Instrument and Control Engineers of Japan 
+(SICE ). IEEE , 2019 : 142–147
+[46] GATTO A , TACCA M , MARTELLI P , et al . Free -space orbital angular mo ⁃
+mentum division multiplexing with Bessel beams [J]. Journal of optics , 
+2011 , 13(6): 064018 . DOI : 10.1088 /2040 -8978 /13/6/064018
+[47] CHENG M J , GUO L X , LI J T , et al . Channel capacity of the OAM -based 
+free -space optical communication links with Bessel -Gauss beams in turbu ⁃
+lent ocean [J]. IEEE photonics journal , 2016 , 8(1): 7901411 . DOI : 10.1109 /
+JPHOT .2016 .2518865
+[48] LU Z H , GUO Z F , FAN M S , et al . Tunable Bessel beam shaping for robust 
+atmospheric optical communication [J]. Journal of lightwave technology , 
+2022 , 40(15): 5097–5106 . DOI : 10.1109 /JLT.2022 .3172134
+[49] WANG T L , DJORDJEVIC I B . Physical -layer security of a binary data se ⁃
+quence transmitted with bessel -gaussian beams over an optical wiretap 
+channel [J]. IEEE photonics journal , 2018 , 10(6): 7908611 . DOI : 10.1109 /
+JPHOT .2018 .2878912
+[50] WANG T L , GARIANO J A , DJORDJEVIC I B . Employing Bessel -
+Gaussian beams to improve physical -layer security in free -space optical 
+communications [J]. IEEE photonics journal , 2018 , 10(5): 7907113 . DOI : 
+10.1109 /JPHOT .2018 .2867173
+[51] SINGH A , REDDY I V A K , BODET D , et al . Bessel beams for 6G—a per ⁃
+formance analysis [C]//Proc . 56th Asilomar Conference on Signals , Systems , 
+and Computers . IEEE , 2022 : 658– 664. DOI : 10.1109 /
+IEEECONF 56349 .2022 .10052090
+[52] SINGH A , PETROV V , JORNET J M . Utilization of Bessel beams in wide ⁃
+band sub terahertz communication systems to mitigate beamsplit effects in 
+the near -field [C]//Proc . 2023  IEEE International Conference on Acoustics , 
+Speech and Signal Processing (ICASSP ). IEEE , 2023 : 1–5. DOI : 10.1109 /
+ICASSP 49357 .2023 .10096275
+Biographies
+CAO Xinghan received his BS degree from the School of Electronics and Infor ⁃
+mation Technology , Sun Yat -sen University , China in 2022 . He is currently work ⁃
+ing toward an MS degree at University of Science and Technology of China . His re ⁃
+search interests include near -field sensing and near -field communications .
+YIN Huarui received his PhD degree from the School of Information Science and 
+Technology , University of Science and Technology of China in 2006 . He is current ⁃
+ly an associate professor with University of Science and Technology of China . His 
+current research interests include short -range wireless communications , through ⁃
+put of quasi symmetric multicast wireless networks , and multiple access of mass 
+connections for large scale antennas wireless network .
+YOU Changsheng (youcs@sustech .edu.cn) received his PhD degree in electrical 
+and electronic engineering from the University of Hong Kong , China in 2018 . He 
+is currently an assistant professor with Southern University of Science and Technol ⁃
+ogy, China . His current research interests include edge computing and edge intelli ⁃
+gence , intelligent reflecting surface communication , massive MIMO communica ⁃
+tion, and unmanned aerial vehicle communication technology .
+61

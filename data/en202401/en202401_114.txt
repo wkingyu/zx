@@ -1,0 +1,99 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1REN Fang , LI Yidan , YE Bing , LIU Jianguo , CHEN Weizhang Research Papers   Real -Time 4-Mode MDM Transmission Using Commercial 400G OTN Transceivers and All -Fiber Mode Multiplexers
+lower than −17.5 dB and insertion loss of lower than 11.56 dB 
+for all the four modes . Based on the TRC -FMF and all -fiber 
+MMUX/MDEMUX , a real -time 4-mode 3-λ 25 km MDM -
+WDM transmission is experimentally demonstrated using com ⁃
+mercial 400G OTN transceivers , which proves the smooth up ⁃
+grade of high -speed coherent transmission scenarios is pos ⁃
+sible by using weakly -coupled MDM techniques .
+Acknowledgement :
+The authors wish to thank Dr . CUI Jian of Peking Univer ⁃
+sity, China . Part of this work was published in ACP 2022 .
+References
+[1] RICHARDSON D J . Filling the light pipe [J]. Science , 2010 , 330(6002 ): 327–
+328. DOI : 10.1126 /science .1191708
+[2] RICHARDSON D J , FINI J M , NELSON L E . Space -division multiplexing in op ⁃
+tical fibres [J]. Nature photonics , 2013 , 7: 354–362. DOI : 10.1038 /npho ⁃
+ton.2013 .94
+[3] LI G F , BAI N , ZHAO N B , et al . Space -division multiplexing : the next frontier in 
+optical communication [J]. Advances in optics and photonics , 2014 , 6(4): 413–487
+[4] RYF R , RANDEL S , GNAUCK A H , et al . Mode -division multiplexing over 
+96 km of few -mode fiber using coherent 6 × 6 MIMO processing [J]. Journal of 
+lightwave technology , 2012 , 30(4): 521–531. DOI : 10.1109 /jlt.2011 .2174336
+[5] WANG Y Z , GAO T Y , LIU Y P , et al . Novel mirror -flipped mode permutation 
+technique for long -haul mode -division multiplexing transmissions [C]//Proc . Op⁃
+tical Fiber Communication Conference (OFC). Optica Publishing Group , 2022 . 
+DOI: 10.1364 /ofc.2022 .m4b.5
+[6] RADEMACHER G , LUIS R S , PUTTNAM B J , et al . 1.53 Peta -bit/s C -band 
+transmission in a 55-mode fiber [C]//European Conference on Optical Communi ⁃
+cation (ECOC ). IEEE , 2022
+[7] SHEN L , GE D W , SHEN S K , et al . 16-Tb/s real -time demonstration of 100 -km 
+MDM transmission using commercial 200G OTN system [C]//Proc . Optical Fi ⁃
+ber Communications Conference and Exhibition (OFC). OSA , 2021 . DOI : 
+10.1364 /OFC .2021 .W1I.2
+[8] GAO Y Y , GE D W , SHEN L , et al . Prototype of DSP -free IM/DD MDM trans ⁃
+ceiver for datacenter interconnection [J]. Journal of lightwave technology , 2022 , 
+40(5): 1283–1295 . DOI : 10.1109 /jlt.2021 .3123508
+[9] ZUO M Q , GE D W , GAO Y Y , et al . 3-mode real -time MDM transmission using 
+single -mode OTN transceivers over 300 km weakly -coupled FMF [C]//Proc . Op⁃
+tical Fiber Communications Conference (OFC). OSA , 2022 . DOI : 10.1364 /
+OFC.2022 .M4B.4
+[10] GE D W , GAO Y Y , YANG Y , et al . A 6-LP-mode ultralow -modal -crosstalk 
+double -ring -core FMF for weakly -coupled MDM transmission [J]. Optics com ⁃
+munications , 2019 , 451: 97–103. DOI : 10.1016 /j.optcom .2019 .06.015
+[11] GAO Y Y , CUI J , GE D W , et al . A degenerate -mode -selective coupler for 
+stable DSP -free MDM transmission [J]. Journal of lightwave technology , 2019 , 
+37(17): 4410–4420 . DOI : 10.1109 /jlt.2019 .2925116
+[12] SONG K Y , HWANG I K , YUN S H , et al . High performance fused -type mode -
+selective coupler using elliptical core two -mode fiber at 1550  nm [J]. IEEE 
+photonics technology letters , 2002 , 14(4): 501–503. DOI : 10.1109 /68.992591
+[13] CHANG S H , CHUNG H S , RYF R , et al . Mode - and wavelength -division mul ⁃
+tiplexed transmission using all -fiber mode multiplexer based on mode selec ⁃tive couplers [J]. Optics express , 2015 , 23(6): 7164–7172 . DOI : 10.1364 /
+OE.23.007164
+[14] IGARASHI K , PARK K J , TSURITANI T , et al . All -fiber -based selective 
+mode multiplexer and demultiplexer for weakly -coupled mode -division multi ⁃
+plexed systems [J]. Optics communications , 2018 , 408: 58–62. DOI : 10.1016 /
+j.optcom .2017 .08.049
+[15] CUI J , HUANG S L , GAO Y Y , et al . Real -time 4-mode MDM transmission U 
+sing triple -ring -core FMF and all -fiber mode multiplexers [C]//2022  Asia Com ⁃
+munications and Photonics Conference (ACP). IEEE , 2022 : 364–366. DOI : 
+10.1109 /ACP 55869 .2022 .10088884
+[16] CUI J , GAO Y Y , HUANG S L , et al . Low -modal -crosstalk orthogonal combine 
+reception for degenerate modes in IM/DD MDM transmission [J]. Optics ex ⁃
+press , 2023 , 31(5): 8586 . DOI : 10.1364 /oe.482879
+[17] CUI J , GAO Y Y , HUANG S L , et al . Five -LP-mode IM/DD MDM transmission 
+based on degenerate -mode -selective couplers with side -polishing processing 
+[J]. Journal of lightwave technology , 2023 , 41(10): 2991–2998 . DOI : 10.1109 /
+JLT.2023 .3240877
+[18] GE D W , ZUO M Q , ZHU J L , et al . Analysis and measurement of intra -LP-
+mode dispersion for weakly -coupled FMF [J]. Journal of lightwave technology , 
+2021 , 39(22): 7238–7245 . DOI : 10.1109 /jlt.2021 .3110821
+Biographies
+REN Fang (renfang@ustb .edu.cn) received her bachelor 􀆳s and master 􀆳s degrees 
+in electronic science and technology from Tianjin University , China in 2008  
+and 2010 , respectively . She received her PhD degree in information electronics 
+from Hokkaido University , Japan in 2014 . She is currently an associate profes ⁃
+sor with the School of Computer and Communication Engineering , University of 
+Science and Technology Beijing , China . Her research interests include optical 
+communication systems , optical devices , deep learning , and simulation with ar ⁃
+tificial intelligence .
+LI Yidan received her bachelor 􀆳s degree in communication engineering from 
+Hebei University of Geosciences , China in 2022  and is currently a graduate stu ⁃
+dent at University of Science and Technology Beijing , China . Her current re ⁃
+search interests include optical communications .
+YE Bing received his master 􀆳s degree in electronic engineering from Tsinghua 
+University , China . He currently works with the Department of WDM System De ⁃
+sign, ZTE Corporation . His research interests include optical networks and sys ⁃
+tems and next -generation WDM networks .
+LIU Jianguo received his master 􀆳s degree in communication and information 
+system from Huazhong University of Science and Technology , China . He cur ⁃
+rently works with the Department of WDM System Design , ZTE Corporation . 
+His research interests include intelligent optical networks and next -generation 
+WDM networks .
+CHEN Weizhang received his master 􀆳s degree in communication and informa ⁃
+tion system from Huazhong University of Science and Technology , China . He 
+currently works with the Department of WDM System Design , ZTE Corporation . 
+His research interests include next -generation WDM networks and high -speed 
+integrated photon and optical modules .
+110

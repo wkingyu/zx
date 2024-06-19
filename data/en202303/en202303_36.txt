@@ -1,0 +1,89 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3SHEN Jiahao , JIANG Ke , TAN Xiaoyang Special Topic   Boundary Data Augmentation for Offline Reinforcement Learning
+of the generator , experiments 
+are conducted in a halfcheetah 
+environment . Fig . 4 demon ‐
+strates that the generated data 
+closely approximates the origi ‐
+nal data , although the two are 
+not identical . This finding satis ‐
+fies the boundary requirements 
+of the experiment . Moreover , 
+the distribution of action possi ‐
+bility depicted in the figure indi ‐
+cates that the generated data ad ‐
+heres to the low confidence cri ‐
+teria of a pre -trained RL net ‐
+work . Thus , the generator is ca ‐
+pable of producing data with the 
+features described in Section 3.
+5.4 Parameter Sensitivity 
+Analysis
+We conduct several experi ‐
+ments to evaluate the sensitiv ‐
+ity of the following two param ‐
+eters in our algorithm : the pa ‐
+rameter βG in Eq . (4) and the 
+BCQL weight  λ in Eq . (6).
+5.4.1 Study of Parameter βG
+The parameter βG plays a 
+crucial role in training the gen ‐
+erator , as it affects its perfor ‐
+mance . We illustrate this by 
+considering the task of walker 2
+d-medium . We set the iteration 
+number K for the generator at a 
+fixed value of 5 000 to avoid 
+any confounding effects . As de ‐
+picted in Fig . 5 and Table 2, 
+the generator ’s performance is 
+sensitive to changes in βG. Spe‐
+cifically , increasing βG leads to 
+a decrease in the trained 
+policy’s confidence , while si ‐
+multaneously increasing the KL 
+divergence . The KL divergence 
+represents the distance be ‐
+tween the generated distribu ‐
+tion and the original distribu ‐
+tion. In order to strike a bal ‐
+ance between being close to the 
+original data and having low 
+confidence , we use the smallest 
+possible value for βG that still 
+5k stepsBCQL
+CQLHalfcheetah -medium -replay -v2Eval/normalized returnsHalfcheetah -medium -expert -v2
+BCQL
+CQL
+5k steps 5k steps 5k stepsEval/normalized returns
+Eval/normalized returns
+Eval/normalized returnsHalfcheetah -medium -replay -v2
+BCQL
+CQLBCQL
+CQLHalfcheetah -medium -v2
+5k stepsHopper -expert -v2Eval/normalized returnsHopper -medium -v2Eval/normalized returns
+5k steps 5k steps 5k stepsBCQL
+CQLBCQL
+CQLBCQL
+CQLBCQL
+CQLHopper -medium -expert -v2Eval/normalized returns
+Eval/normalized returnsHopper -medium -replay -v2
+5k stepsWalker 2d-expert -v2Eval/normalized returnsBCQL
+CQL
+5k stepsWalker 2d-medium -v2Eval/normalized returnsBCQL
+CQLBCQL
+CQLEval/normalized returnsWalker 2d-medium -expert -v2
+5k steps 5k stepsBCQL
+CQLEval/normalized returnsWalker 2d-medium -replay -v2
+▲Figure 2. Policy performance during training in different environmentsBCQL : Boundary Conservative Q Learning                   CQL:Conservative Q -Learning
+▲Figure 3. Visualization of data generated in different environmentsOriginal data -halfcheetah Generated data -halfcheetah Generated data -halfcheetah Generated data -halfcheetah
+Original data -hopper Generated data -hopper Generated data -hopper Generated data -hopper
+Original data -walker 2d Generated data -walker 2d Generated data -walker 2d Generated data -walker 2d
+(a) KL divergence = 0.61 (b) KL divergence = 0.41 (c) KL divergence = 0.53
+▲Figure 4. Distribution of generated states and real states in different environmentsKL: Kullback -LeiblerGenerated -states
+Real -statesGenerated -states
+Real -statesGenerated -states
+Real -statesHalfcheetah -medium -v2-state Halfcheetah -medium -expert -v2-state Halfcheetah -expert -v2-state(a)
+(b)
+(c)
+34

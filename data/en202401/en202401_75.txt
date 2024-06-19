@@ -1,0 +1,136 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Recent Advances in Video Coding for Machines Standard and Technologies    Review
+mance compared with image anchor gain . A feature compres ⁃
+sion framework based on the principal component analysis 
+(PCA) and DeepCABAC was proposed in Ref . [40]. First , per⁃
+form PCA transformation on the output of the P -layer features 
+by Faster R -CNN X 101 -FPN. Considering the number of P 2 
+layer feature data is large , down -sampling is used on the P 2 
+layer features and will be down -sampled and merged into the 
+P3 layer feature map according to the channel dimension . 
+Then divide P 4, P5 and P 3 layer feature maps combined with 
+the P 2 layer into three groups to perform PCA transformation 
+separately , use VVC to encode the main basis vector and 
+mean feature , and use DeepCABAC to perform entropy encod ⁃
+ing on the transformation coefficient . This method is tested on 
+the OpenImagesV 6 5K dataset , and its performance is better 
+than that of the P -layer feature compression anchor and worse 
+than that of the image compression anchor . The PCA technol ⁃
+ogy to process the P -layer features of the FPN output was used 
+in Ref . [41]. Larger sizes P 2 and P 3 are scaled and concat ⁃
+enated by down -sampling , while P 4 and P 5 are processed 
+separately . The PCA transformation is performed by introduc ⁃
+ing a predefined mean and bias . This PCA reveals redundan ⁃
+cies between channels rather than the spatial features of a 
+given image expressed in the feature domain . The data are 
+then quantized , rearranged and compressed with VTM .
+5.1.5 Other Feature Compression Methods
+The methods above have been intensively studied , while 
+there are still some exploration schemes beyond the main ⁃
+stream that are difficult to categorize . These methods will be 
+summarized in this section to give researchers some new inspi ⁃
+ration . In the MSFC method , the reduced -size feature map will 
+be up -sampled by convolution , and the low -level features will 
+be gradually restored from the high -level features . In terms of 
+size, this step can be regarded as super -resolution . There is a 
+certain redundancy between feature maps of different layers . 
+Therefore , one method is to directly perform super -resolution 
+on high -level features to obtain low -level features . It was 
+pointed out that the P -level features had different sensitivities 
+to back -end visual tasks , which was reflected in the fact that 
+the bottom -level features have less influence and the top -level 
+features have a greater impact[42]. Hence , this method only transmits some of the top -level features and zooms them to ob ⁃
+tain bottom -level features with a super -resolution technique . 
+The experimental results show that the effect of approximating 
+the image anchor can be achieved by only transmitting a part 
+of the features . VTM is used for feature compression .
+The method of feature compression is oriented to machine 
+vision tasks , and the reconstructed features can only be used 
+for machine vision tasks and cannot be used to reconstruct im ⁃
+ages. However , some proposals consider the feasibility of re ⁃
+constructing images based on feature compression . In Ref . 
+[43], the original image is encoded through feature extraction , 
+and the reconstructed features can be used for back -end ma ⁃
+chine vision tasks . At the same time , the reconstructed fea ⁃
+tures can also be used to reconstruct the original input 
+through the designed deep neural network . The experimental 
+results show that the optimal peak signal -to-noise ratio 
+(PNSR ) of the reconstructed image can reach 31.139 dB, 
+which can restore the input image well while realizing the ma ⁃
+chine vision task .
+5.2 Track -1 CfE Responses
+Since the method in VCM Track -1 started later than that in 
+Track -2 and progressed relatively slowly , the previous meet ⁃
+ings mainly collected relevant evidence for Track -1 to verify 
+its effectiveness . At present , in the 140th meeting of MPEG , 
+the reports of the objective results received in response to CfE 
+have been sorted out and summarized , and the performance of 
+proposals with better effects is shown in Table 2.
+At present , a total of 6 responses to feature compression evi ⁃
+dence proposals with complete and effective tests have been 
+received , 4 of which have better performance than video an ⁃
+chors , and all 6 proposals have better performance than image 
+anchors . According to the test results , the VCM standard 
+group believes that the current evidence proposals are suffi ⁃
+cient enough , requesting MPEG WG 2 to carry out the drafting 
+of the Call for Proposal . In recent meetings , several new pro ⁃
+posals were put forward , showcasing remarkable performance . 
+Among them , the most outstanding result was achieved[48], 
+which has a −92.21% BD -rate gain compared with the image 
+anchor for object detection tasks on the OpenImageV 6 data ⁃
+set. Compared with the feature anchor , there is a −94.70% per ⁃
+▼Table 2. Proposal summary results on TVD -overall
+Instance Segmentation
+Overall
+Ref. [44]
+Ref. [41]
+Ref. [45]
+Ref. [35]
+Ref. [29]
+Ref. [47]BD -rate over video
+−87.44%
+63.69%
+−80.18%
+218.93%
+−77.40%
+−64.94%BD -rate over feature
+−97.58%
+−74.43%
+−97.09%
+−33.01%
+−95.84%
+−92.17%Object Detection
+Overall
+Ref. [44]
+Ref. [41]
+Ref. [45]
+Ref. [46]
+Ref. [29]
+Ref. [47]BD -rate over video
+−79.21%
+−47.46%
+−93.04%
+−19.35%
+−78.11%
+−69.08%BD -rate over feature
+−95.56%
+−89.48%
+−98.60%
+−83.38%
+−95.84%
+−92.30%Object Detection
+Overall
+Ref. [44]
+Ref. [41]
+Ref. [45]
+Ref. [29]BD -rate over video
+−81.11%
+−54.51%
+−94.46%
+−70.39%BD -rate over feature
+−94.15%
+−85.06%
+−98.34%
+−91.14%
+BD: Bjontegaard Delta
+71

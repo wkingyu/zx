@@ -1,0 +1,118 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Special Topic   Lossy Point Cloud Attribute Compression with Subnode -Based Prediction
+process . Additionally , a more refined prediction reference rela ⁃
+tionship is introduced based on the geometric distribution 
+among neighbor nodes . Extensive simulation results demon ⁃
+strate that our proposed method can achieve consistent coding 
+gains on all types of point clouds , whether sparse LiDAR point 
+clouds , dense colored point clouds , or multi -attribute point 
+clouds , compared to the latest G -PCC test models .
+References
+[1] TULVAN C , MEKURIA R , LI Z . Use cases for point cloud compression (PCC), 
+output document N 16331  [R]. Geneva , Switzerland : ISO/IEC JTC 1/SC29/WG 
+11 MPEG , 2016
+[2] MEKURIA R , BLOM K , CESAR P . Design , implementation , and evaluation of a 
+point cloud codec for tele -immersive video [J]. IEEE transactions on circuits 
+and systems for video technology , 2017 , 27(4): 828–842. DOI : 10.1109 /
+TCSVT .2016 .2543039
+[3] MPEG 3D Graphics Coding Group . Call for proposals for point cloud coding v 2, 
+output document N 16763  [R]. 2017
+[4] MPEG 3D Graphics and Haptics Coding Group . V-PCC test model v 22, output 
+document N 00572  [R]. Antalya , Turkish : ISO/IEC JTC 1/SC 29/WG 11 MPEG , 
+2023
+[5] MPEG 3D Graphics and Haptics Coding Group . G-PCC test model v 22, output 
+document N 00571  [R]. Antalya , Turkish : ISO/IEC JTC 1/SC 29/WG 11 MPEG , 
+2023
+[6] SCHNABEL R , KLEIN R . Octree -based point -cloud compression [C]//Sympo ⁃
+sium on Point -Based Graphics . Eurographics Association , 2006 : 111–120. 
+DOI: 10.2312 /SPBG/SPBG 06/111 -120
+[7] PENG J L , KUO C C J . Progressive geometry encoder using octree -based space 
+partitioning [C]//2004  IEEE International Conference on Multimedia and Expo 
+(ICME ). IEEE , 2004 : 1–4. DOI : 10.1109 /ICME .2004 .1394110
+[8] NAKAGAMI O . Report on triangle soup decoding , input document m 52279  [R]. 
+Brussels , Belgium : ISO/IEC JTC 1/SC 29/WG 11 MPEG , 2020
+[9] FLYNN D , TOURAPIS A , MAMMOU K . Predictive geometry coding , input 
+document m 51012  [R]. Geneva , Switzerland : ISO/IEC JTC 1/SC 29/WG11 
+MPEG , 2019
+[10] MAMMOU K . PCC test model category 3 v0, output document N 17249  [R]. 
+Macau , China : ISO/IEC JTC 1/SC 29/WG 11 MPEG , 2017
+[11] CHOU P A , DE QUEIROZ R . L. Transform coder for point cloud attributes , in⁃
+put document m 38674  [R]. Geneva , Switzerland : ISO/IEC JTC 1/SC29/WG 11 
+MPEG , 2016
+[12] DE QUEIROZ R L , CHOU P A . Compression of 3D point clouds using a 
+region -adaptive hierarchical transform [J]. IEEE transactions on image process ⁃
+ing, 2016 , 25(8): 3947 –3956 . DOI : 10.1109 /TIP.2016 .2575005
+[13] FLYNN D , LASSERRE S . G-PCC CE 13.18 report on upsampled transform do ⁃
+main prediction in RAHT , input document m 49380  [R]. Gothenburg , Sweden : 
+ISO/IEC JTC 1/SC 29/WG 11 MPEG , 2019
+[14] WANG W , XU Y , ZHANG Ket al . Sub -node -based prediction in transform do ⁃
+main for RAHT , input document m 60203  [R]. Online : ISO/IEC JTC 1/SC 29/
+WG 11 MPEG , 2022
+[15] MAMMOU K . Point cloud compression core experiment 13.6 on attributes pre ⁃
+diction strategies , output document N 18007  [R]. Macau , China : ISO/IEC JTC 
+1/SC 29/WG 11 MPEG , 2018
+[16] MAMMOU K , TOURAPIS A , KIM J , et al . Proposal for improved lossy com ⁃
+pression in TMC 1, input document m 42640  [R]. San Diego , United states : ISO/
+IEC JTC 1/SC 29/WG 11 MPEG , 2018
+[17] WEI H L , SHAO Y T , WANG J , et al . Enhanced intra prediction scheme in 
+point cloud attribute compression [C]//2019  IEEE Visual Communications and 
+Image Processing (VCIP ). IEEE , 2019 : 1–4. DOI : 10.1109 /
+VCIP 47243 .2019 .8966001
+[18] YEA S . VOSOUGHI A , LIU S . Bilateral filtering for predictive transform in G -
+PCC, input document m 46365  [R]. Marrakech , Morocco : ISO/IEC JTC 1/SC 29/WG 11 MPEG , 2019
+[19] YIN Q , REN Q S , ZHAO L L , et al . Lossless point cloud attribute compression 
+with normal -based intra prediction [C]//2021  IEEE International Symposium 
+on Broadband Multimedia Systems and Broadcasting (BMSB ). IEEE , 2021 : 1–
+5. DOI : 10.1109 /BMSB 53066 .2021 .9547021
+[20] ZHANG X M , WAN W G , AN X D . Clustering and DCT based color point 
+cloud compression [J]. Journal of signal processing systems , 2017 , 86(1): 41–
+49. DOI : 10.1007 /s11265 -015 -1095 -0
+[21] COHEN R A , TIAN D , VETRO A . Point cloud attribute compression using 3-
+D intra prediction and shape -adaptive transforms [C]//2016  Data Compression 
+Conference (DCC ). IEEE , 2016 : 141–150. DOI : 10.1109 /DCC .2016 .67
+[22] WANG L J , WANG L Y , LUO Y T , et al . Point -Cloud compression using data 
+independent method —a 3D discrete cosine transform approach [C]//2017  
+IEEE International Conference on Information and Automation (ICIA ). IEEE , 
+2017 : 1–6. DOI : 10.1109 /icinfa .2017 .8078873
+[23] ZHANG C , FLORÊNCIO D , LOOP C . Point cloud attribute compression with 
+graph transform [C]//2014  IEEE International Conference on Image Processing 
+(ICIP). IEEE , 2014 : 2066 –2070 . DOI : 10.1109 /ICIP .2014 .7025414
+[24] SHAO Y T , ZHANG Z B , LI Z , et al . Attribute compression of 3D point clouds 
+using Laplacian sparsity optimized graph transform [C]//2017  IEEE Visual 
+Communications and Image Processing (VCIP ). IEEE , 2017 : 1–4. DOI : 
+10.1109 /VCIP .2017 .8305131
+[25] XU Y Q , HU W , WANG S S , et al . Cluster -based point cloud coding with nor ⁃
+mal weighted graph Fourier transform [C]//2018  IEEE International Confer ⁃
+ence on Acoustics , Speech and Signal Processing (ICASSP ). IEEE , 2018 : 
+1753 –1757 . DOI : 10.1109 /ICASSP .2018 .8462684
+[26] XU Y Q , HU W , WANG S S , et al . Predictive generalized graph Fourier trans ⁃
+form for attribute compression of dynamic point clouds [J]. IEEE transactions 
+on circuits and systems for video technology , 2021 , 31(5): 1968 –1982 . DOI : 
+10.1109 /TCSVT .2020 .3015901
+[27] HOODA R , PAN W D . Early termination of dyadic region -adaptive hierarchi ⁃
+cal transform for efficient attribute compression of 3D point clouds [J]. IEEE 
+signal processing letters , 2022 , 29: 214 –218. DOI : 10.1109 /
+LSP.2021 .3133204
+[28] MPEG 3D Graphics and Haptics Coding Group . TMC 13 software repository 
+[EB/OL ]. (2023 -06-02) [2023 -11-20]. http ://mpegx .int-evry.fr/software/MPEG/
+PCC/TM/mpeg -pcc -tmc13/-/tags/release -v22.0-rc1
+[29] MPEG 3D Graphics and Haptics Coding Group . GeS -TM software repository 
+[EB/OL ]. (2023 -06-05) [2023 -11-20]. http ://mpegx .int-evry.fr/software/MPEG/
+PCC/TM/mpeg -pcc -ges -tm/ -/tree/ges -tm-v2.0-rc2
+[30] MPEG 3D Graphics and Haptics Coding Group . Common test conditions for G -
+PCC, output document N 00578  [R]. Antalya , Turkish : ISO/IEC JTC 1/SC29/
+WG 11 MPEG , 2023
+[31] MPEG 3D Graphics and Haptics Coding Group . MPEG content repository [EB/
+OL]. (2023 -03-17)[2023 -11-20]. http://mpegfs .int-evry.fr/mpegcontent
+Biographies
+YIN Qian received her MS degree in signal and information processing from 
+University of Electronic Science and Technology of China in 2021 . She is cur ⁃
+rently pursuing a PhD degree in computer science at Peking University , China . 
+She is actively participating in the research work of the Audio Video Coding 
+Standard (AVS) Workgroup of China and Moving Picture Experts Group 
+(MPEG ). Her research interests include video and point cloud compression .
+ZHANG Xinfeng received his BS degree in computer science from Hebei Uni ⁃
+versity of Technology , China in 2007  and PhD degree in computer science from 
+the Institute of Computing Technology , Chinese Academy of Sciences in 2014 . 
+From 2014  to 2017 , he was a research fellow with the Rapid -Rich Object Search 
+36

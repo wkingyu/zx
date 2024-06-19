@@ -1,0 +1,48 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing Research Papers   A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage
+output AC and the FC voltage . The DC bus voltage is 375 V 
+and the load is 120 Ω. In this case , the output voltage is stan ⁃
+dard five levels , each level of which is Vdc/4, and the flying ca ⁃
+pacitor voltage is stable at Vdc/4. The output current has low 
+harmonic content .
+As shown in Fig . 8, the rectifier capability is verified . The in ⁃put voltage is 220 Vac , the peak input current is 10 A, the out ⁃
+put voltage is 400 Vdc, and the FC voltage is 100 V. Fig. 8(a) 
+shows that the voltage ripple across the FC is 12 V and the cur ⁃
+rent ripple is about 1 A. As shown in Fig . 8(b), after adopting 
+the FC voltage balance control , the FC voltage can basically 
+maintain balanced near the reference value . The voltage ripple 
+is 6 V and the current ripple is about 0.4 A. It can be seen that 
+the level stability is improved , and THD is reduced from 6.72% 
+to 4.27%, which verifies the effectiveness of the flying capacitor 
+control strategy .
+Fig. 9 shows the waveform of dual control loops rectifier 
+condition , including input current io, terminal voltage Vn, out⁃
+put voltage Vdc, and input voltage Vac. The input is 220 VAC 
+and the load is 150 Ω. It can be seen that the combination of 
+two bridge arms produces seven voltage levels . The second -
+▲Figure 5. Waveform of alternating current (AC) input condition
+▲Figure 6. Experimental prototype
+▲Figure 7. Key waveforms of inversion
+▲Figure 8. Voltage and current waveforms of full load : (a) with open -
+loop control and (b) with flying -capacitor (FC) voltage control strategy(a)
+(b)
+▲Figure 9. Experimental waveforms of rectification under dual control 
+loopsInput voltage/V
+Input current/A400
+-400
+20
+-20
+t/ms10 20 30 40 50
+400
+-400
+250
+-250
+10 20 30 40 50 t/msBridge -arm voltage/V
+Common -mode voltage/V
+Un (100 V/div )Uo (100 V/div )
+Uckf (100 V/div )io (1 A/div )io (10 A/div )Uckf (20 V/div )Un (100 V/div )io (10 A/div )Un (100 V/div )
+Uckf (20 V/div )
+io (10 A/div ) Un (100 V/div )
+Udc (100 V/div )
+Uo (100 V/div )
+82

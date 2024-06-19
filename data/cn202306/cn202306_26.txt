@@ -1,0 +1,73 @@
+面向节能减排的跨制式融合感知通信系统 周均翼  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6低能耗 10.08%，能效提高了 15.36%。总的来说 ，本文所提
+出的接入点休眠与跨制式系统的总体能耗相较于传统的单制
+式系统有明显下降 。
+4 结束语
+随着全网能耗的日益增长 ，大量部署的现有跨制式节点
+却没有得到充分利用 ，这势必会带来资源的浪费 。针对这一
+矛盾 ，本文首先提出了面向节能减排的跨制式融合感知通信
+系统 。然后 ，借助软件定义无线电 USRP 平台以及开源操作
+系统 OpenWrt ，实现了对蜂窝网络以及 Wi-Fi 网络的软件灵
+活调度 ，同时借助毫米波雷达模块以及无线指纹拓扑 ，实现
+被动感知和主动感知方式的共存 。最后 ，利用时序数据库和
+并发通信接口 ，实现资源的集中管控 。通过系统实测数据 ，
+我们发现所提的休眠策略与跨制式调度策略分别能够带来约
+14%和10%的总能耗降低 。所提跨制式系统能够对各类节能
+算法进行快速的脚本化原型测试 ，有望对未来面向节能减排
+的跨制式网络设计提供可靠验证和有效指导 。
+参考文献
+[1] 张亚飞 . 信息与通信技术在碳达峰 、碳中和战略中的应用  [J]. 电子世界 , 2021
+(22): 146-147
+[2] GreenIT .fr Frédéric Bordage . The environmental footpoint of the digital 
+world [EB/OL ]. [2023 -10-12]. https ://thecalm .ca/wp-content/uploads/ 2020 /
+02/The-Environmental-Footprint-of-the-Digital-World-Study .pdf
+[3] 上海市通信管理局 . 上海通信行业发展概况 （2021 年）[EB/OL ]. (2022 -02-17)
+[2023 -10-12]. https ://shca .miit.gov.cn/zwgk/xyfz/xytj/art/ 2023 /art_
+828e4150 f785419 b9e78b970ae45e2dc.html
+[4] MCDERMOTT K , VAGHEFI R M , BUEHRER R M . Cooperative UTDOA 
+positioning in LTE cellular systems [C]//Proceedings of 2015  IEEE 
+Globecom Workshops (GC Wkshps ). IEEE , 2015 : 1-6. DOI : 10.1109 /
+glocomw .2015 .7414171
+[5] XHAFA A , DEL PERAL-ROSADO J A , LÓPEZ-SALCEDO J A , et al . 
+Evaluation of 5G positioning performance based on UTDoA , AoA and base-
+station selective exclusion [J]. Sensors , 2021 , 22(1): 101. DOI : 10.3390 /
+s22010101
+[6] EMERSON . LabVIEW communications system design suite release notes 
+[EB/OL ]. (2023 -06-14) [2023 -10-12]. https ://www .ni.com/zh-cn/support/
+documentation/release-notes/product .labview-communications-system-
+design-suite .html
+[7] Wi-Fi Alliance . Wi-Fi EasyMesh [EB/OL ]. (2023 -06-14) [2023 -10-12]. 
+https ://www .wi-fi .org/zh-hans/discover-wi-fi/wi-fi-easymesh
+[8] 3GPP. Evolved universal terrestrial radio access (E-UTRA ) and evolved 
+universal terrestrial radio access network (E-UTRAN ) V13.4.0: TS 36.300 [S]. 2016
+[9] ROSA C , PEDERSEN K , WANG H , et al . Dual connectivity for LTE small cell 
+evolution : functionality and performance aspects [J]. IEEE communications 
+magazine , 2016 , 54(6): 137-143. DOI: 10.1109 /mcom .2016 .7498101
+[10] XU Z K , YANG C Y , LI G Y , et al . Energy-efficient configuration of spatial 
+and frequency resources in MIMO-OFDMA systems [J]. IEEE 
+transactions on communications , 2013 , 61(2): 564-575. DOI : 10.1109 /
+tcomm .2012 .100512 .110760
+[11] ESPRESSIF . ESP 8266 EX技 术 规 格 书  [EB/OL ]. (2023 -06-14) [2023 -10-
+12]. https ://www .espressif .com.cn/sites/default/files/documentation/ 0a-
+esp8266 ex_datasheet_cn .pdf
+[12] YU J , ZHANG S Q , SUN J Y , et al . High-performance transmission 
+mechanism design of multi-stream carrier aggregation for 5G non-
+standalone network [EB/OL ]. (2021 -04-05) [2023 -10-12]. http ://www .
+cic-chinacommunications .cn/EN/ 10.23919 /JCC .fa.2021 -0405 .202308
+[13] SUN Y Z , XIE Q G , PAN G J , et al . A novel GCN based indoor localization 
+system with multiple access points [C]//Proceedings of 2021  International 
+Wireless Communications and Mobile Computing (IWCMC ). IEEE , 2021 : 
+9-14. DOI: 10.1109 /iwcmc 51323 .2021 .9498616
+作 者 简 介
+周均翼 ，上海大学通信与信息工程学院在读硕士
+研究生 ；主要研究方向为多模态融合感知定位等 。
+周琳 ，上海大学通信与信息工程学院在读本科生 ；
+主要研究方向为宽带移动通信技术 。
+张舜卿 ，上海大学通信与信息工程学院教授 ；主
+要研究方向包括节能 5G/5G+通信网络 、混合计
+算平台以及联合射频和基带设计 ；入选“青年千
+人计划 ” ，并于 2017 年获得 IEEE 通信学会通信进
+展论文奖 ；发表论文 60余篇 ，获得授权专利 50
+余项。
+22

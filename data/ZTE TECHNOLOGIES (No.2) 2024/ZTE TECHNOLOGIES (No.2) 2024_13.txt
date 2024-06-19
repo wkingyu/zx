@@ -1,0 +1,65 @@
+Development of SPN Technology
+RLLC, eMBB and mMTC are key 5G 
+application scenarios, with slicing and 
+edge computing emerging as native 
+technological features. In response to 
+these new features, China Mobile introduces the 
+concept of “lossless + eﬃcient and /f_lexible” transport, 
+and partners with the domestic industry to build a 
+new-generation transport network architecture known 
+as slicing packet network (SPN).
+SPN integrates TDM and packet networks, supports 
+L0 to L3 capabilities, and oﬀers advantages such as large 
+bandwidth, low latency, network slicing, /f_lexible 
+connection, high-precision synchronization, and uni/f_ied 
+management and control. It minimizes network 
+investments by reusing the Ethernet industry chain and 
+achieves ultra-large bandwidth, addressing the issue of 
+end-to-end eﬃcient and lossless hard isolation 
+transmission tailored to large 5 Gbps granularities. The SPN device using MTN channel cross-connection excels 
+in performance with a single-node forwarding latency 
+as low as 2.784 µs and ±5 ns time synchronization 
+precision. Its slice isolation capability demonstrates 
+minimal jitter (0.277 µs) before and after network 
+congestion, which almost has no eﬀect on the service. 
+China Mobile has successfully deployed 400,000 SPN 
+devices for 5G network backhaul since 2019, showcasing 
+reliable and eﬃcient operation.
+In the thriving landscape of 5G vertical industries, 
+government and enterprise services, and computing 
+networks, SPN has transitioned into the SPN 2.0 era. This 
+evolution brings increased slice granularity, enhanced 
+service perception, /f_lexible connection, ubiquitous 
+access, intelligent O&M, and energy-saving 
+technologies. A key aspect of SPN 2.0 is the introduction 
+of SPN /f_ine granularity unit (FGU). This innovation 
+primarily addresses the demands for isolation, security, 
+and reliability in /f_ine-grained service transport in typical 
+scenarios like government private lines, /f_inancial private 
+ 
+ 
+ 
+ 
+USPN 2.0 Private Line: Creating 
+Digital Intelligence Future
+Technical Manager and Chief 
+Researcher, China Mobile 
+Research InstituteHan Liuyan
+Chief Expert of CMCC and Director of 
+Department of Fundamental Network 
+Technology, China Mobile Research InstituteLi Han
+In the evolving information industry, the surging demand for private lines, ranging from high-speed to 
+low-speed TDM lines, necessitates a versatile solution. The industry’s digital transformation mandates networks 
+to deliver ultra-high-quality services, reduce costs, and enhance eﬃciency. SPN private lines, with ﬂexible slicing 
+options, cater to diverse service forms, meeting not only bandwidth and quality requirements but also addressing 
+the comprehensive needs of industries. SPN ensures eﬃcient bandwidth utilization, providing deterministic 
+performance for TDM lines and large packet bandwidth. Moreover, enhanced management and control plane 
+capabilities, coupled with intelligence, enable fast provisioning and visual performance, better meeting customer 
+demands.
+ 
+ 
+ 
+ 
+ 
+APR 2024 
+ 11

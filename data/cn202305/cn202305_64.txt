@@ -1,0 +1,90 @@
+基于机器学习的智能路由解释方法 孟子立  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5上做出选择链路 6→7这一个决策十分关键 。与之相反 ，在
+节点 7上选择链路 7→10、在节点 10上选择链路 10→9，可
+能因为这些结果的选择都比较显然 ，或者它们对性能影响不
+大，因此就不是那么关键 。例如 ，在节点 7上如果不选择 7
+→10而选择 7→1，那么便和目的节点南辕北辙了 ，选择 7→
+1的路径性能会显著劣于 7→10，因此做出这一判断并非
+难事 。
+我们选取了表 1中路径更短 、负载更低这两个原因中掩
+码值最高的两条路由路径分别做进一步的解释 。
+对于 #1，如图 2（a）所示 ，如果流量想从节点 6（源）
+到节点 9（目的 ） ，路由算法选取的路径就有很多 ，常见的
+有3条（如图 2（a）中蓝色的 3条） 。这3条路径长度差不
+多，均不超过 4跳；而其他路径则都要在 5跳以上才能到达
+节点 9。在3条候选路径 （蓝色 ）中，最短路径 （实线路径 ）
+的第 1跳是 6→7，而其他路径 （虚线路径 ）的第 1跳是
+6→4。因此 ，我们发现 ，第1跳的选择对于从 6到9的路径
+来说是是重要的 ，因此选择 6→7。一旦路由算法能够正确
+地将第 1跳的路由决策选择为 6→7而不是 6→4，那么后面
+的路由决策就变得很简单了 。因此 ，第1跳的决策在路由路
+径中至关重要 。
+对于 #2，如图 2（b）所示 ，如果流量想要从节点 7
+（源）到节点 12（目的 ） ，长度相等的最短路径有 2条（图2
+（b）中蓝色的两条 ） ，网络管理员需要理解为什么 RouteNet
+选择了 7→10→9→2。我们的解释方法显示 ，在节点 10上
+时，选择 10→9这个链路而非 10→11非常重要 。有了这个线
+索，我们在进一步分析两条路径的负载情况后发现 ，11→12
+链路的负载大约是 9→12的2倍（如图 2（b）所示 ） 。如果
+要避开 11→12的链路 ，到了节点 11再避开就太晚了 ，因为
+次优的路径将不得不选择 7→10→11→8→9→12，远远长于
+7→10→9→2。因此 ，在节点 10上选择链路 10→9这一决策
+对性能影响非常大 。我们的解释算法能够准确揭示出来这两
+个决定 ，显示了解释方法的有效性 。
+5 结束语
+随着基于机器学习的智能路由技术的广泛应用 ，对这些
+机器学习技术进行解释的需求也会应运而生 。这可以让更多
+的智能路由技术得到应用 ，推动智能路由的部署 。随着机器
+学习技术的发展以及可解释性的提高 ，性能更强的智能路由
+方法将会出现 ，路由算法的提升前景将会非常乐观 。未来 ，智能路由技术及其解释技术将会成为网络路由的主流技术
+之一 。
+参考文献
+[1] BARABAS M , BOANEA G , DOBROTA V . Multipath routing management 
+using neural networks-based traffic prediction [EB/OL ]. [2023 -08-12]. http://
+personales .upv.es/thinkmind/EMERGING/EMERGING_ 2011 /emerging_ 2011 _
+6_30_40129 .html
+[2] VALADARSKY A , SCHAPIRA M , SHAHAF D , et al . Learning to route [C]//
+Proceedings of the 16th ACM Workshop on Hot Topics in Networks . ACM , 
+2017 : 185-191. DOI: 10.1145 /3152434 .3152441
+[3] RUSEK K , SUAREZ V J , MESTRES A , et al . Unveiling the potential of Graph 
+Neural Networks for network modeling and optimization in SDN [C]//In 
+proceedings of the ACM symposium on SDN research , ACM ,2019 : 
+140-151
+[4] BOYAN J A , LITTMAN M L . Packet routing in dynamically changing 
+networks : a reinforcement learning approach [C]//Proceedings of the 6th 
+International Conference on Neural Information Processing Systems . ACM , 
+1993 : 671-678. DOI: 10.5555 /2987189 .2987274
+[5] XU Z Y , TANG J , MENG J S , et al . Experience-driven networking : a deep 
+reinforcement learning based approach [C]//Proceedings of IEEE INFOCOM 
+2018  - IEEE Conference on Computer Communications . IEEE , 2018 : 1871 -
+1879 . DOI: 10.1109 /INFOCOM .2018 .8485853
+[6] LIU W X , CAN J , CHEN Q C , et al . DRL-R : deep reinforcement learning 
+approach for intelligent routing in software-defined data-center networks 
+[EB/OL ]. [2023 -08-10]. https ://www .sciencedirect .com/science/article/abs/
+pii/S1084804520303313
+[7] JUA A , SINGH K K , VIMALA D K , et al . Reinforcement learning based 
+weighted multipath routing for datacenter networks [EB/OL ]. [2023 -08-
+10]. https ://www .sciencedirect .com/science/article/pii/S 2214785321003412
+[8] NAYAK P , SWETHA G K , GUPTA S , et al . Routing in wireless sensor 
+networks using machine learning techniques : challenges and opportunities 
+[J]. Measurement , 2021 , 178: 108974 . DOI : 10.1016 /j.
+measurement .2021 .108974
+[9] TANG F X , MAO B M , FADLULLAH Z M , et al . On removing routing 
+protocol from future wireless networks : a real-time deep learning approach 
+for intelligent traffic control [J]. IEEE wireless communications , 2018 , 25(1): 
+154-160. DOI: 10.1109 /MWC .2017 .1700244
+作 者 简 介
+孟子立 ，清华大学在读博士研究生 ；主要研究领
+域为实时多媒体传输与基于人工智能的网络系统 ；
+曾获微软学者奖学金 、字节跳动奖学金等 ；发表
+论文 30余篇。
+徐明伟 ，清华大学教授 、网络科学与网络空间研
+究院执行院长 、国家杰出青年基金获得者 、国家
+自然科学基金委创新群体负责人 、国家 “万人 ”
+计划领军人才 、国家重点研发计划 “宽带通信与
+新型网络 ”和“多模态网络与通信 ”重点专项专
+家、中国通信学会常务理事 、中国计算机学会互
+联网专委会副主任委员 ；主要研究领域为互联网
+体系结构 、大规模路由和网络空间安全 。
+60

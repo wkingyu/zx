@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos    Research Papers
+360 -degree video can be assessed based on the corresponding 
+technical parameters extracted from the VR system .
+5 Performance Evaluation
+The performance of the proposed model was evaluated on a 
+test set consisting of another four YUV 420 360 -degree video 
+sequences that had a video resolution of 3 840×1 920 and a 
+video framerate of 30 fps. Screenshots of the video content are 
+shown in Fig . 15. Four lossless audio files (PCM , 48 kHz ) con⁃
+taining two channels were utilized as the background sound of 
+these 360 -degree videos . The 360 -degree videos were firstly 
+down -sampled to 2K resolution and encoded with a BPP of 
+0.02, 0.06, 0.14, and 0.19 using the x .265 encoder . The audio 
+files were encoded with 16 kbit/s , 64 kbit/s , 128 kbit/s , and 
+256 kbit/s using the AAC codec . We conducted two experi ⁃
+ments to verify the performance of the proposed model by 
+changing the video bitrate , audio bitrate , and MTP latency . In 
+the first experiment , audiovisual files were displayed without 
+MTP latency . The display FOV was set to be 90 degrees and 
+110 degrees , respectively . The details of the setting are shown 
+in Table 5. In the second experiment , audiovisual files with 
+4K resolution were displayed with three MTP latencies , i.e., 
+40 ms, 120 ms, and 260 ms, respectively . The display FOV 
+was set to be 110 degrees . The details of the setting are shown 
+in Table 6. A total number of 30 subjects participated in these two experiments . After each display , the subjects provided 
+their ratings on the spatial presence on a five -point scale .
+Since there is no model evaluating the spatial presence that 
+can be used as a comparison , we only show the performance of 
+the proposed model . The performance is evaluated in two 
+ways : 1) comparing predicted scores of the spatial presence 
+with the subjective MOS , and 2) comparing the predicted 
+scores with the subjective scores rated by individuals .
+5.1 Predicted Scores vs MOS
+Three commonly used performance criteria are employed to 
+measure the performance of the proposed model : Pearson Cor ⁃
+relation Coefficient (PCC), Root -Mean -Squared Error (RMSE ), 
+and Spearman Rank Order Correlation Coefficient (SROCC ).
+The model performance is given in Table 7. It can be found 
+that reliable prediction performance is obtained when using 
+the proposed spatial presence evaluation model .
+▼Table 5. Setup for the video 
+Video (BPP)
+0.02
+0.06
+0.14
+0.19Audio/ (kbit/s )
+16, 64, 128, 256
+16, 64, 128, 256
+16, 64, 128, 256
+16, 64, 128, 256
+BPP: bits per pixel
+▲Figure 15. Content of test sequences : (a) Driving , (b) Shark , (c) Gla ⁃
+cier, and (d) Paramotor
+▼Table 6. Setup for the audio
+Video (BPP)
+0.06
+0.14
+0.19Audio/ (kbit/s )
+16, 64, 256
+16, 64, 256
+16, 64, 256
+BPP: bits per pixel
+▲Figure 16. Scatter plots of the subjective spatial presence versus pre ⁃
+dicted objective scores : (a) result of Experiment 1 and (b) result of Ex ⁃
+periment 2MOS : Mean Opinion Score▼Table 7. Experimental results
+Experiment
+1
+2PCC
+0.910
+0.908SROCC
+0.894
+0.900RMSE
+0.277
+0.335
+PCC: Pearson Correlation Coefficient 
+RMSE : Root -Mean -Squared Error 
+SROCC : Spearman Rank Order Correlation Coefficient
+Estimated scores1 2 3 4 5MOS5
+4
+2
+2
+1
+(a)
+Estimated scores1 2 3 4 5
+(b)MOS5
+4
+2
+2
+1(a) (b)
+(c) (d)
+101

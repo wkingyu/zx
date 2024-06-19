@@ -1,0 +1,108 @@
+Fig. 1. ZTE Nebula 
+intelligent 
+computing 
+solution.
+train, evaluate, implement, and update AI models, 
+ZTE provides a component-based AI platform—AI 
+studio (AIS). Integrated into the intelligent AIO 
+computing system or AI application, the AIS covers 
+work/f_lows such as data collection, data annotation, 
+model training, model /f_ine-tuning, knowledge 
+base management, compilation optimization, and 
+inference deployment. Supporting PyTorch and 
+other mainstream AI frameworks, it delivers 
+end-to-end intelligent computing center solutions, 
+model capabilities and operational engines for AI 
+applications.
+AI Models and Applications: From 
+Universal to Dedicated  
+ZTE has articulated its strategy for empowering 
+enterprises’ digital transformation with 
+large-scale models as "1+N+X", transitioning from 
+"universal" to "dedicated".
+“1” Base AI Model Series
+Using its engineering capabilities, ZTE 
+independently develops the Nebula base AI 
+models series, including NLP and multi-mode 
+models. Leveraging vast training data and using 
+unsupervised or self-supervised learning methods, 
+ZTE demonstrates exceptional understanding and 
+expression capabilities in diﬀerent tasks and 
+domains.from leading GPU manufacturers worldwide. 
+Additionally, through extensive collaboration with 
+domestic head-end GPU manufacturers, ZTE has 
+undertaken signi/f_icant self-development eﬀorts, 
+providing diverse end-to-end intelligent computing 
+solutions. These include high-performance AI servers 
+utilizing chips from the leading GPU manufacturers, 
+box-type and frame-type RoCE switches, and 
+distributed storage servers supporting 
+high-performance, multi-dimensional storage (such as 
+/f_iles, objects, blocks, and big data). 
+In addition, AI model training with tens of billions 
+of parameters is time-consuming due to large 
+training data. To ensure stability and reliability, and 
+avoid interruptions caused by hardware faults, ZTE’s 
+TECS resource management platform oﬀers a 
+secure visual management tool for automatic 
+monitoring. It also provides breakpoint training 
+renewal service, minimizing interruption time and 
+greatly reducing losses.
+AI Platform: Openness and Decoupling
+ZTE AI platform, centered on openness and 
+decoupling, oﬀers complete AI products. It provides 
+a uni/f_ied programming environment and tool 
+chain, minimizing model development and 
+migration costs while facilitating ecosystem 
+construction.
+To help developers and users better develop, 
+ 
+ZTE AIS: A uni/f_ied end-to-end platform with the entire MLOps lifecycle work/f_low    
+AI computing Lossless network Convergent storageDiverse computing power enabling & managementIntegrated training & inference
+Uni/f_ied resource scheduling ZCCL: Combining communication enabling & management  TECS: Uni/f_ied resource management
+SXM/OAM GPUPCIe plug-in model
+ Box-type switch 
+5900 M/X seriesChassis switch 
+9900X series
+DPU 1.0  Intelligent NIC
+ZTE  DPUData collection 
+markingAlgorithm design 
+implementation Model training 
+and compilingInference deployment 
+iterationAI model and 
+applications 
+InfrastructurePlatformNetwork application Customer service
+New 5G calling– 
+Personal /f_itness 
+trainer
+Health 
+analysis Alarm causality 
+mining 
+New 5G messaging–
+smart dialog 
+Smart customer service/
+dialogue robotCity lifelinePark behavior 
+analysis Text translation/article 
+generation Network O&M Industry application IT Application
+L0: Base AI model series L1: Domain AI models L2: Scenario-based applications  
+IDC
+ EDU
+ CDU
+Secondary-side 
+pipes & networks
+Primary-side 
+pipes & networks 
+Outdoor cooling 
+sources
+“1”+ +“N” “X”
+Distributed disk 
+array KS20000High-end 
+full-/f_lash KF8200Medium/high-end 
+full-/f_lash KU5200 
+Inference platform Model market Training platform  ... Marking platform
+ 
+ 
+ 
+ 
+ Intelligent Computing Special Topic
+16 

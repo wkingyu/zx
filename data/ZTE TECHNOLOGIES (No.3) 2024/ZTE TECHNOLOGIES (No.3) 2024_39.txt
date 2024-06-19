@@ -1,0 +1,105 @@
+100 million parameters to 340 million, 7 billion and 
+13 billion parameters. This process encompassed 
+four parameter scales and included six diﬀerent 
+models from both domestic and international 
+sources, including self-developed ones. We 
+evaluated a total of more than 20 combinations.  
+In terms of corpus and /f_ine-tuning, we obtained a 
+/f_irst-hand, high-quality corpus compliant with 
+regulations, tried various /f_ine-tuning solutions, and 
+/f_inally devised the most eﬀective approach: "special 
+prompt words+sample /f_ine-tuning", greatly 
+improving recognition accuracy and recall rate. 
+To address the challenges of high GPU quantity 
+and high costs, we designed a multi-layer 
+architecture with cache acceleration at the front 
+and utilized a combination of small models and 
+large models. Additionally, we implemented 
+inference acceleration to achieve optimal 
+performance.
+After evaluating the eﬀects and cost indicators 
+of the models, we selected the most optimal 
+solution and passed legal compliance review.
+Perfect Combination of Communications 
+and AI 
+Through continuous innovation, ZTE has 
+successfully released the industry's /f_irst anti-fraud 
+big model system called “Smart Safeguard” (Fig. 1). 
+With its out-of-the-box functionality, the system 
+automatically identi/f_ies illegal SMS messages 
+without policy con/f_iguration. This greatly reduces 
+the complexity and workload of on-site policy 
+O&M, while enhancing the accuracy of illegal SMS 
+message identi/f_ication and recall rate. It enables 
+integrated management of identifying, 
+preventing, and controlling junk and fraudulent 
+SMS messages.
+Currently, the system has implemented the 
+industry’s /f_irst LLM-based SMS anti-fraud 
+management pilot in pilot oﬃces of operators A 
+and B in China and quickly transitioned into 
+commercial use.
+Operator A’s achievements:  Since the system 
+was deployed in the provincial company, there 
+has been a signi/f_icant increase in the 
+interception rate of fraudulent messages. The 
+ 
+ 
+ 
+ 
+ 
+ 
+transformer neural network architecture, ChatGPT, 
+a large language model (LLM), has made major 
+breakthroughs across multiple deep learning 
+/f_ields, including large-scale natural language 
+processing, sequence data analysis, and target 
+detection. Trained on extensive corpora, LLMs can 
+acquire generalized knowledge and a deep 
+understanding of languages and dialogues. 
+Moreover, targeted training allows LLMs to solve 
+problems in speci/f_ic /f_ields and rapidly adapt to 
+new tasks and scenarios.
+Accurately identifying fraudulent SMS messages 
+requires a deep understanding of natural 
+languages. Furthermore, it is necessary to classify 
+sensitive information and identify the real 
+intentions conveyed in the content. Lastly, given 
+the evolving nature of fraudulent SMS messages, it 
+is necessary to learn from samples and 
+dynamically upgrade knowledge and models. 
+These are the technologies where 
+transformer-based LLMs excel. It is worthwhile to 
+develop new SMS anti-fraud technologies and 
+products utilizing AI models through prototype 
+testing and exploration.
+Rapid Technical Breakthrough Helps 
+Tackle Diﬃculties
+In the early stage of the project, we faced 
+several challenges in selecting LLMs: 
+Uncertainty in model selection : It is challenging 
+to determine the most appropriate model while 
+ensuring legal compliance. 
+Uncertainty in corpus and training solutions: 
+The quality, quantity, format, and prompts of 
+the corpus were unknown. We started from 
+scratch with training and inference solutions.
+High GPU and server costs: Inference performance 
+was low in the medium term, and the number and 
+costs of GPUs required for handling large service 
+traﬃc were too high. 
+To achieve rapid technical breakthrough, we 
+dared to try diﬀerent approaches, make mistakes 
+and adjust solutions promptly. 
+In terms of model selection, during the initial 
+exploration phase, we tried models with less than 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 37 JUN 2024

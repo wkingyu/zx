@@ -1,0 +1,42 @@
+of "value-centric network construction and 
+intelligent planning" to meet the diversi/f_ied 
+requirements of the global communications 
+industry. ZTE integrates AI technology into its 
+network planning tool to enable intelligent 
+identi/f_ication of traﬃc suppression cells, 
+intelligent forecasting of business volume 
+growth with a 90% accuracy rate, and 
+intelligent pre-evaluation of planning eﬀects.
+ZTE continuously enhances the planning 
+capability of its tool for speci/f_ic scenarios. 
+For example, it can generate building 
+pro/f_iles intelligently and accurately 
+identify the buildings that lack 5G indoor 
+distribution. The multi-site-type planning 
+function facilitates the reasonable layout 
+and eﬃcient coordination of macro base 
+stations, micro base stations, and indoor 
+distribution base stations. Moreover, ZTE 
+introduces user perception data-driven 
+planning in addition to coverage and 
+capacity-driven planning. This approach allows for the accurate setting of cell-level 
+capacity expansion thresholds, achieving a 
+win-win situation between investment and 
+user experience.
+Digital and Intelligent Deployment 
+of Sites
+Site construction, reconstruction, 
+testing, optimization, and acceptance are 
+core activities in network deployment. 
+ZTE utilizes intelligent tools and digital 
+platforms, along with fast and /f_lexible 
+programming and orchestration capabilities, 
+to enable digital and intelligent site delivery. 
+During the site construction phase, 
+automation in operations, multi-team 
+management, and multi-position 
+coordination are highly demanded to 
+ensure engineering quality and progress. 
+This requires the use of intelligent tools 
+to simplify operations and improve 
+17OCT 2023

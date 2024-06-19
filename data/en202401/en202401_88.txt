@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian Review   RIS -Assisted Cell Free MIMO : A Survey
+gion, such as channel estimation and beamforming[48]. Thus , 
+it is practically important to efficiently adapt these tradi ⁃
+tional techniques to the near -field domain in IRS -aided CF 
+MIMO systems and explore the possibilities of improving ca ⁃
+pacity by exploiting the near -field spherical wavefront .
+Another emerging feature of 6G networks is the integration 
+of sensing and communications , which enables the exploita ⁃
+tion of dense sensing objects , computing resources and com ⁃
+plicated communication resources to construct a perceptive 
+network[49]. In CF MIMO systems , distributed array antennas 
+can be used to significantly increase the effective array aper ⁃
+ture, thus improving the sensing accuracy . Moreover , the po ⁃
+sition , speed and other information obtained from integrated 
+sensing and communication can be utilized to optimize trans ⁃
+mission performance and simplify computation complexity in 
+CF MIMO systems . Therefore , the integrated design of com ⁃
+munication and sensing based on CF MIMO systems is a po ⁃
+tential technology for the exponentially growing demands 
+and application requirements of 6G.
+Most existing research has focused on CF MIMO sys ⁃
+tems with low -mobility users moving at a velocity of less 
+than 10 km/h. However , in practical implementations with a 
+large number of distributed users , there exist some users 
+with high movement rates , although few , but vital . This is be ⁃
+cause in high mobility scenarios , the combination effect of 
+Doppler frequency offset , timing offset and phase noise may 
+trigger the inter -carrier interference and therefore deteriorate 
+the system performance . Therefore , it is crucial to consider 
+transmit precoding and power allocation algorithms under 
+high vehicular speeds .
+Besides , hardware constraints and imperfections are also 
+an interesting topic that needs to be investigated . In the ini ⁃
+tial research on RIS -assisted CF MIMO wireless communica ⁃
+tion systems , most works have mainly assumed the ideal RIS 
+reflection model for the ease of communication optimization 
+design and performance analysis . However , in practice , RISs 
+always suffer from hardware imperfections/impairments such 
+as limited precision of reflection and phase -dependent ampli ⁃
+tude that could seriously decrease the system performance . 
+Hence , it is necessary to build a hardware -constrained sys ⁃
+tem model that can accurately capture the hardware imper ⁃
+fections of RISs to cater to practical use .
+The association between APs , users and RISs is also a dif ⁃
+ficult task that remains to be solved . Prior research has been 
+conducted in a scenario where all APs jointly transmit their 
+signals to all users through all RISs . This is however both 
+power - and performance -inefficient since only the users near 
+APs and RISs can benefit from the predesigned transmit pre ⁃
+coding . A more practical and efficient way is to dynamically 
+allocate a group of RISs and APs that have the best channel 
+conditions to serve each individual user , and this kind of 
+matching schemes has been verified to have better perfor ⁃
+mance compared with the all -AP scheme . This AP -RIS -UE matching approach is still in its fancy and needs to be inves ⁃
+tigated especially when considering passive RISs .
+Finally , the space -air-ground -sea integrated networks 
+(SAGSIN ) is a network architecture for 6G, which has been 
+widely envisioned as a promising solution to complete , multi -
+angle and high -speed communication coverage worldwide[50]. 
+SAGSIN is divided into four segments : the space network , air 
+network , ground network , and sea network . It is a comprehen ⁃
+sive integration of systems , technologies and applications , 
+rather than just connecting different communication net ⁃
+works . Therefore , the RIS -assisted CF MIMO network is well 
+suited for SAGSIN because of its significant network cover ⁃
+age capabilities and extraordinarily high data transfer 
+speeds . However , given the heterogeneity of multi -layer net ⁃
+works among SAGSIN , it is significant to thoroughly investi ⁃
+gate how to integrate the RIS -assisted CF MIMO network 
+with other networks to satisfy user QoS and achieve comple ⁃
+mentary benefits among various networks .
+6 Conclusions
+In this paper , we provide a comprehensive survey of RIS -
+assisted CF MIMO system by reviewing the recent achieve ⁃
+ments in this area . In particular , we point out the key perfor ⁃
+mance metrics , such as spectral efficiency and energy effi ⁃
+ciency , and introduce the corresponding communication opti ⁃
+mization techniques to achieve these metrics . Moreover , we 
+discuss the potential applications of RIS -assisted CF MIMO 
+in novel scenarios in B 5G systems such as PLS , UAV and 
+WET . Finally , the open problems and potential directions 
+are studied to promote in -depth investigations and develop ⁃
+ments of RIS -assisted CF MIMO in future wireless networks .
+References
+[1] Samsung . The vision of 6G: bring the next hyper -connected experience to 
+every corner of life [EB/OL ]. [2023 -03-22]. https ://cdn .codeground .org/nsr/
+downloads/researchareas/ 20201201 _6G_Vision_web .pdf
+[2] WONG V W S , SCHOBER R , NG D W K , et al . Key technologies for 5G 
+wireless systems [M]. Cambridge , UK: Cambridge University Press , 2017
+[3] ANDREWS J G , BUZZI S , CHOI W , et al . What will 5G be ? [J]. IEEE 
+journal of selected areas in communications , 2014 , 32(6): 1065–1082 . 
+DOI: 10.1109 /JSAC .2014 .2328098
+[4] LOZANO A , HEATH R W , ANDREWS J G . Fundamental limits of coop ⁃
+eration [J]. IEEE transactions on information theory , 2013 , 59(9): 5213–
+5226 . DOI : 10.1109 /TIT.2013 .2253153
+[5] NGO H Q , ASHIKHMIN A , YANG H , et al . Cell -free massive MIMO ver ⁃
+sus small cells [J]. IEEE transactions on wireless communications , 2017 , 
+16(3): 1834–1850 . DOI : 10.1109 /TWC .2017 .2655515
+[6] NAYEBI E , ASHIKHMIN A , MARZETTA T L , et al . Precoding and power 
+optimization in cell -free massive MIMO systems [J]. IEEE transactions on 
+wireless communications , 2017 , 16(7): 4445–4459 . DOI : 10.1109 /
+TWC .2017 .2698449
+[7] NAYEBI E , ASHIKHMIN A , MARZETTA T L , et al . Cell -free massive 
+MIMO systems [C]//Proc . 49th Asilomar Conference on Signals , Systems 
+84

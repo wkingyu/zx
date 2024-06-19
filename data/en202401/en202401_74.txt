@@ -1,0 +1,96 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+compression framework , CompressAI[31], using bmshij 2018 -hy⁃
+perprior[32] to retrain the model , and the loss function was the 
+bit-rate and mean squared error (MSE ) loss. The test set of the 
+experiment was the COCO dataset , and the compression per ⁃
+formance was slightly worse than that of the image Anchor . 
+ZHANG et al .[33] used cheng 2020[34], an end -to-end SOTA 
+model for image compression , to compress P -layer feature 
+maps , as shown in Fig . 5. The model was trained on the Open ⁃
+ImagesV 6 dataset and tested on the OpenImagesV 6 5K data ⁃
+set, using Mask R -CNN -X101 -feature pyramid networks 
+(FPN) as the back -end task model . In this method , the P 2–
+P5 layer features were first normalized to 0–1, and the real 
+data range was additionally transmitted as auxiliary informa ⁃
+tion. Considering that the P 2 layer features had the least im ⁃
+pact on task accuracy while containing the largest number of 
+data, it was down -sampled to 1/2 of the original size . The end -
+to-end compression model used SOTA cheng 2020  integrated 
+with the CompressAI framework . In order to adapt to the input 
+feature map , the input dimension received by the model was 
+changed from 3 to 256, and the down -sampling in the com ⁃
+pression network was removed . The experimental results 
+showed that compared with the image anchor , the proposed 
+scheme had a performance gain of 69.08% under the BD -rate -
+mAP@ 0.5 index . A feature compression architecture was pro ⁃
+posed based on the cheng 2020  model[35], adding a feature fu ⁃
+sion module to accommodate multi -layer inputs from FPN . 
+The encoder was trained in an end -to-end method , and the 
+losses were MSE and BPP . When processing a video , the key 
+frame feature encoder operated similarly to the image feature 
+encoder , while for non -key frames , a motion encoder , an inter -
+prediction module , and an encoder were used .
+5.1.4 Redesigned Feature Compression Framework
+The methods above are based on existing mature frame ⁃
+works such as VVC , the end -to-end image compression model , 
+and the MSFC model . The schemes introduced below do not 
+follow the existing ones while redesigning a set of feature 
+compression -oriented coding schemes . Their frameworks all contain resampling , transformation , quantization and entropy 
+coding processes . The stage -two output feature[36] of Mo ⁃
+bileNet[37] was encoded , which had the same size as the origi ⁃
+nal input image . The scheme flow is shown as follows . First , 
+add an offset to the feature value of the output feature of stage 
+two, so that the center of the value is 0, and then convert all 
+the features into a two -dimensional matrix with a size of N 
+rows and 16 columns . For each 4×4 small block , perform dis ⁃
+crete cosine transformation (DCT), then quantize the transfor ⁃
+mation coefficient , transmit the maximum value of the transfor ⁃
+mation coefficient as auxiliary information , and encode and 
+compress the quantized value and auxiliary information using 
+an entropy encoder , thus completing the entire feature com ⁃
+pression process . The DCT transformation[38] was changed to 
+the complex wavelet transformation (DWT ), and other settings 
+were similar . The schemes given in the two proposals were 
+relatively preliminary , and the test results were not clear . The 
+method in Ref . [39] was refined based on Ref . [36], and at the 
+same time adopted the back -end task model Faster R -CNN -
+X101 -FPN specified in the VCM standard to compress the fea ⁃
+tures of the backbone layer . This method uses a larger trans ⁃
+form kernel size (8×8) and divides the transform coefficients 
+into direct current (DC) components and alternate current 
+(AC) components . An 8×8 block has 64 transform coefficients , 
+including 1 DC coefficient and 63 AC coefficients . Different 
+quantization methods are used for DC and AC coefficients . 
+For the binary arithmetic coding part , the design scheme is 
+consistent with the traditional coding algorithm , which is also 
+based on the block sequence . Considering that the context 
+model of the entropy coder , context adaptive binary arithmetic 
+coding (CABAC ), used in traditional coding standards such as 
+H.264 is very complicated , this proposal simplifies the design 
+of the context model and determines the context model based 
+only on the symbol position . Compared with other solutions , it 
+can realize a single -model variable bit rate , but as of the time 
+of proposal , it has not yet realized a single -model wide -range 
+adjustable bit rate , and the achieved effect has 23.78% perfor ⁃
+▲Figure 5. Flowchart of end -to-end feature compression for P -layer feature maps , using an end -to-end image compression model instead of single -
+scale feature compression (SSFC ) in multi -scale feature compression (MSFC )FPN: feature pyramid networkFPN
+ImageP5
+P4
+P3
+P2Normalization DownsamplingNormalizationNormalizationNormalization
+Data range Data rangegsgaxdy
+x̂dŷ QCmQ ha hsẑ z
+x̂dPŷ
+UpsamplingInverse
+normalizationInverse
+normalizationInverse
+normalizationInverse
+normalizationP5
+P4
+P3
+P2Machine 
+vison task
+Task 
+performance
+70

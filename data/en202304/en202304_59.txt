@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SHI Wenzhe , LIU Yanbin , ZHOU Qinfen Special Topic   Local Scenario Perception and Web AR Navigation
+ing problem , that is , learning a representation that makes 
+matched features in the measurement space as close as pos ⁃
+sible and unmatched features as far as possible[9]. Learning -
+based descriptors largely avoid the need for human experience 
+and prior knowledge . An existing feature description method 
+based on learning is classified into two types : measurement 
+learning[10–11] and descriptor learning[12–13]. A difference lies 
+in the output content of a descriptor .
+Metric learning methodology is used for metric discrimina ⁃
+tion for similarity measurement , while descriptor learning gener ⁃
+ates descriptor representations from the original image or image 
+block . In these methods , SuperGlue[14] is a network that can per ⁃
+form feature matching and filter out extrinsic points at the same 
+time, where feature matching is implemented by solving a differ ⁃
+ential optimization transfer problem , a loss function is con ⁃
+structed by using a graph neural network , and a flexible content 
+aggregation mechanism is proposed based on an attention 
+mechanism . Therefore , SuperGlue can simultaneously sense a 
+potential three -dimensional scene and perform feature match ⁃
+ing. LoFTR[15] uses transformer modules with a self -attentive 
+layer and a cross -attentive layer to process dense local features 
+extracted from the convolutional network by first extracting 
+dense matches at low feature resolution (1/8 of the image dimen ⁃
+sion) and then selecting the matches with high confidence from 
+those matches using a relevant method to refine them to a high -
+resolution sub -pixel level . In this way , the large acceptance 
+field of the model enables the converted signature to reflect the 
+context and location information , and the matching is imple ⁃
+mented through multiple layers of self -attention and cross -
+attention . Many methods integrate feature detection , feature de ⁃
+scription , and feature matching into the matching pipeline in an 
+end -to-end manner , which helps improve matching performance .
+Visual orientation is a problem of estimating a 6-DoF camera 
+pose from which a given image is taken relative to a reference 
+scene representation . The classical approach to visual position ⁃
+ing is structure -based , meaning that they rely on the 3D recon ⁃
+struction of the environment (that is , point clouds ) and use local 
+feature matching to establish a mapping relationship between 
+the query image and 3D map . Image retrieval can be used to re ⁃
+duce the search space by only considering the most similar ref ⁃
+erence images rather than all possibilities . Another approach is 
+to interpolate or estimate the relative posture between the que ⁃
+ried and retrieved reference images directly from the reference 
+images , which is independent of the 3D reconstruction results . 
+In the scene point regression method , a correspondence be ⁃
+tween a two -dimensional pixel position and a three -dimensional 
+point may be directly determined by using a deep neural net ⁃
+work (DNN ), and the position of a camera is calculated simi ⁃
+larly to a structure -based method . Modern scene regression 
+benefits from 3D reconstruction during training but does not de ⁃
+pend on it . Finally , the absolute posture regression method uses 
+DNN end -to-end posture estimation . These approaches differ in 
+generalization capabilities and location accuracy .In addition , some methods rely on 3D reconstruction , while 
+others only require reference images with position marks . The 
+advantage of using a 3D reconstruction is that the position gen ⁃
+erated is very accurate , and the disadvantage is that these 3D 
+reconstructions are sometimes difficult to obtain or even more 
+difficult to maintain . For example , if the environment changes , 
+the position needs to be updated . For classical structure -based 
+work , reference may be made to a general visual positioning 
+framework proposed by SARLIN et al .[16] The framework can 
+predict both local features and global descriptors by using a 
+hierarchical positioning method , so as to implement accurate 
+6-DoF positioning . Using a coarse -to-fine localization pattern , 
+the method first performs a global search to obtain location as ⁃
+sumptions and then matches local features in these candidate 
+locations . This layered approach saves uptime for real -time op ⁃
+erations . This method presents a hierarchical feature network 
+(HF -Net), which jointly estimates local and global features , 
+shares computation to the maximum extent , and uses a multi -
+task still compression model .
+3 Web AR Navigation System Based on Lo ⁃
+cal Scenario Perception
+This paper presents an indoor Web AR navigation system 
+architecture based on the local point cloud map . By delivering 
+the space local point cloud map to the web front end for posi ⁃
+tioning , the real -time positioning can be implemented only by 
+using the computing power of the web front end , which has the 
+characteristics of short time consumption and accurate posi ⁃
+tioning . In addition , this paper proposes an optimization solu ⁃
+tion to the local point cloud map , including specific measures 
+such as descriptor deduplication and outlier elimination , 
+which improves the quality of the point cloud . Finally , interpo ⁃
+lation and smoothing effects are introduced to local map local ⁃
+ization to enhance an anchoring effect and improve smooth ⁃
+ness and appearance of user experience . In a small -scale in ⁃
+door scenario , a localization frequency on an iPhone 13 may 
+reach 30 fps, and localization precision is within 50 cm. In 
+this paper , a function of implementing real -time positioning by 
+using only Web front -end computing power is proposed for the 
+first time . It outperforms existing mainstream visual -based po ⁃
+sitioning for AR navigation , GPS -based positioning , and multi -
+sensor fusion positioning . The proposed method can signifi ⁃
+cantly save computing resources without the help of any addi ⁃
+tional sensors or cloud computing devices . It takes a very 
+short time to meet the real -time requirements and provide us ⁃
+ers with smooth positioning , improving user experience .
+Fig. 2 shows the proposed Web AR indoor navigation system 
+based on local point cloud map positioning . This system con ⁃
+sists of three modules : offline map creation , server , and web .
+The offline map creation module is mainly responsible for 
+the reconstruction of a point cloud map . Three -dimensional re ⁃
+construction is implemented by photographing an environmen ⁃
+tal image that needs to be reconstructed and then scale -based 
+56

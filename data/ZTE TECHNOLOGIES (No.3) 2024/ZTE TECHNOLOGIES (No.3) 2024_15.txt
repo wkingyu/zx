@@ -1,0 +1,91 @@
+provide inspiring information for other agents. If a 
+certain number of task agents can be reached, one of 
+the two necessary conditions for the emergence of 
+group intelligence can be met. Second, with the 
+abstract summarization capability of AI models, an 
+agent within a team can combine multiple highly 
+correlated information fragments from diﬀerent 
+agents, ful/f_illing another necessary condition of 
+group intelligence. Once these two necessary 
+conditions are met, the phenomenon of group 
+intelligence may start to emerge.
+To sum up, through academic tracing, product 
+experimentation, and technical decomposition of 
+diﬀerent types of agents, we have derived an insight: 
+in the upcoming year, we expect a rapid increase in 
+the number of ordinary agents, and the 
+phenomenon of group intelligence may emerge 
+before that of powerful agents. 
+Building on this insight, we need to further 
+consider the following aspects:
+Develop framework technologies with low 
+learning costs and low technological thresholds 
+to quickly generate agents; establish 
+multi-agent collaboration and intelligent 
+control centers to manage the emergence of 
+group intelligence.
+Track the key capabilities driving agent evolution, 
+including environment modeling, memory, 
+learning and design, and thoroughly explores the 
+potential of memory.
+Develop agent products related to enterprise data 
+analysis and SOP work/f_lows to bring bene/f_its to 
+enterprises. Development trend analysis: Based on the above 
+analysis, task agents involve only one less mature 
+technology. Job agents involve /f_ive immature 
+technologies, including one diﬃcult technology, 
+environment modeling. Key technologies involved 
+in self-evolving agents are all diﬃcult. Therefore, 
+task agents may experience the fastest 
+development speed and oﬀer the highest value.
+Analysis of current products: Major products 
+both domestically and internationally focus on the 
+task agent type. 
+Insights About Agent Trends
+Based on the above analysis, we can draw the 
+following conclusions:
+At the current stage, the product focuses on 
+simple task agents, which utilizes mature 
+technologies and can be easily replicated and 
+promoted. This aligns with our product 
+experiments, and we anticipate a rapid increase in 
+the number of such agents.
+Under the conditions described above, the 
+technologies that widen the gap between agents 
+are memory and dialog.
+Developing a powerful individual agent is diﬃcult 
+because it involves enhanced learning and 
+environment modeling technologies. This is 
+consistent with the input cost and outcomes 
+observed in our experiments with environment 
+modeling. 
+Leveraging AI models, a simple task agent can 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In the upcoming year, we expect a rapid increase in the 
+number of ordinary agents, and the phenomenon of 
+group intelligence may emerge before that of powerful 
+agents.
+ 
+ 
+ 
+JUN 2024 
+ 13

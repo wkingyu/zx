@@ -1,0 +1,114 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+ent technologies , including machine vision tasks , datasets , 
+evaluation metrics , evaluation pipeline , and anchor generation .
+4.1 Machine Vision Tasks
+There are many possible machine vision tasks in practice , 
+and the following five typical machine vision tasks are pro ⁃
+posed during the VCM standardization process for real -world 
+needs : 1) object detection , 2) instance segmentation , 3) object 
+tracking , 4) action recognition and 5) pose estimation . The ob ⁃
+ject of action recognition and pose estimation is humans , and 
+human joint detection is required before performing the ma ⁃
+chine vision task .
+The relevant information about machine vision tasks is 
+shown in Table 1. To facilitate the comparison of the perfor ⁃
+mance of different methods , a unified evaluation framework is 
+proposed for different tasks , including network architecture 
+and data sets . Since the difficulty of supporting multi -task op ⁃
+timization and the related data sets are not easy to obtain , 
+most of the methods are aimed at object detection , instance 
+segmentation , and object tracking . Therefore , the MPEG 
+group narrows the task scope from five categories to three .
+4.2 Datasets
+There are a variety of public datasets for object detection 
+and instance segmentation . However , due to issues like copy ⁃
+right licensing , most datasets are only allowed for non -
+commercial use . Among the remaining datasets , considering 
+the use of license terms and other restrictions , the following 
+five datasets for VCM are used .
+1) OpenImageV 6: OpenImageV 6 has more than 20 000 im⁃
+ages with annotation boxes and labels for object detection and 
+instance segmentation . VCM selects 5 000 pictures to form a 
+new dataset OpenImageV 6-5K.
+2) FLIR : FLIR provides annotated thermal imaging datasets 
+and corresponding unannotated RGB images . The data are ac ⁃
+quired by RGB cameras and thermal imaging cameras in ⁃
+stalled on the car . The objects in the dataset are mostly pedes ⁃trians and various vehicles , which is suitable for machine vi ⁃
+sion tasks in driving scenarios . Related experiments show that 
+infrared images have better detection performance than RGB 
+images in low light .
+3) HiEve : The HiEve dataset is mainly aimed at human be ⁃
+havior , including a large number of gestures (>1 million ), com ⁃
+plex event action labels (>56 000), and long -term continuous 
+trajectories (average trajectory length> 480). This dataset is 
+mainly used for object tracking , action recognition and pose 
+estimation .
+4) TVD : The TVD dataset contains 86 video sequences 
+covering different contents . Each sequence has a resolution 
+of 3 840×2 160 and has 65 frames . For the object detection 
+task, TVD provides 166 images of 1 920×1 080 in RGB 24 
+format , and the bounding box is calibrated . For the instance 
+segmentation task , segmentation mask annotations are also 
+provided for these 166 images . For the target tracking task , 3 
+videos and the corresponding labels are provided .
+5) SFU -HW -Object -v1: The SFU -HW -Object -v1 dataset 
+provides object detection annotations for 18 types of objects in 
+video sequences used in the development of the High Effi ⁃
+ciency Video Coding (HEVC ) standard .
+4.3 Evaluation Metrics
+For different machine vision tasks , different evaluation met ⁃
+rics are used to measure the performance of various technical 
+solutions .
+The cost of storing and transmitting the bit stream is an im ⁃
+portant factor . For image datasets , bits per pixel (BPP) shall 
+be used , which refers to the effective number of bits occupied 
+by each pixel (ignoring the channel ), and the calculation is
+BPP=total bits
+total pixels, (1)
+where total pixels refer to the total number of pixels of overall 
+images at their original resolution and total bits refer to the 
+number of bits occupied by the compressed code stream . For 
+video sequences , the bitrate shall be measured in kilo bits per 
+second (kbit/s ), which is defined as :
+bitrate=total bits × fps
+1 000 × frames, (2)
+where fps denotes the number of frames per second and 
+frames denote the number of encoded frames .
+Mean average precision (mAP ) is used to measure the per ⁃
+formance of the object detection and instance segmentation 
+tasks . When an object is categorized , there are four cases of 
+the prediction results , including true positive TP(TIoU), false 
+positive FP(TIoU), false negative FN(TIoU), and true negative 
+TN(TIoU), which are defined with an Intersection over Union 
+(IoU) threshold TIoU for that category . Among them , true/false ▼Table 1. Information about machine vision tasks
+Tasks
+Object detection
+Instance segmentation
+Object tracking
+Action recognition*
+Pose estimation*Network Architecture
+Faster R -CNN with ResNeXt -101 
+backbone[11]
+Faster R -CNN with ResNeXt -101 
+backbone
+JDE -1088 x608[17]
+SlowFast[19]
+HRNet[20]Training Dataset
+COCO train 2017[12]
+OpenImageV 6[13]
+FLIR[14]
+TVD[15]
+SFU -HW -Object -v1[16]
+OpenImageV 6
+TVD
+HiEve[18]
+TVD
+HiEve
+COCO train 2017
+MPII Human Pose[21]
+HiEve
+*Considering the difficulty of implementation , such as the limited dataset and usage sce ⁃
+narios , these tasks are not considered mandatory .
+R-CNN : region with convolutional neural networks
+66

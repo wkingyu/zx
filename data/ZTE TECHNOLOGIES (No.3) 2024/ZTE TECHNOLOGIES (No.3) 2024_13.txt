@@ -1,0 +1,50 @@
+and network observation assistant.
+The assurance assistant, utilized in major 
+activity support scenarios, has a high degree of 
+automation. It replicates real work/f_lows to a virtual 
+space, where key support experts, assistants, and 
+troubleshooting experts work together to 
+automatically complete work/f_lows. They 
+communicate with people through 
+summarization, reporting and risk assessment. 
+This is a complex type of job agent, developed 
+with the aim of achieving L5 fully autonomous 
+network.
+The other three agents are technically task agents:
+Intelligent Q&A: This agent is to build a ToB-oriented 
+knowledge base application based on the 
+RAG+agent technology.
+Fault assistant: Facilitated by the fault knowledge 
+bases and APIs, this agent assists O&M personnel 
+in quickly troubleshooting faults.
+Network observation assistant:  Utilizing both 
+large and small models, multiple agents perform 
+network analysis across various dimensions. They 
+then send their /f_indings to the general network 
+insight agent, which summarizes them and outputs network observation results. 
+Agent Development Trends and 
+Technology Breakdown   
+At present, the mainstream types of agents in the 
+academic community are consistent with the 
+experimental results of ZTE. They are as follows:
+Logic agent: This kind of agent generates 
+languages and multi-modal outputs based on its 
+understanding of input languages and 
+multi-modal data.
+Task agent: Designed for speci/f_ic tasks, this agent 
+breaks down plans and performs corresponding 
+operations. It lacks long-term memory during the 
+process.
+Job agent: Oriented to abstract work responsibilities 
+and overarching objectives, this agent perceives the 
+environment, remembers process status, and 
+generates sub-objectives to advance the work.  
+From the perspective of development trends, 
+self-evolving agents are also important, as they can 
+self-learn.
+ 
+ 
+ 
+ 
+JUN 2024 
+ 11

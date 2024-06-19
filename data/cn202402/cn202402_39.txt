@@ -1,0 +1,130 @@
+通信网络与大模型的融合与协同 任天骐  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2bidirectional transformers for language understanding [EB/OL ]. 
+[2024 -03-04]. https ://aclanthology .org/N 19-1423 /
+[3] RADFORD A , WU J , CHILD R , et al . Language models are 
+unsupervised multitask learners [EB/OL ]. [2024 -03-04]. https ://
+cdn.openai .com/better-language-models/language_models_are_
+unsupervised_multitask_learners .pdf
+[4] KAPLAN J , McCANDLISH S , HENIGHAN . Scaling laws for neural 
+language models [EB/OL ]. (2020 -01-23) [2024 -03-04]. https ://
+arxiv.org/abs/ 2001 .08361
+[5] WEI J , TAY Y , BOMMASANI R , et al . Emergent abilities of large 
+language models [EB/OL ]. (2022 -01-15) [2024 -03-04]. https ://
+arxiv.org/abs/ 2206 .07682
+[6] HOFFMANN J , BORGEAUD S , MENSCH A , et al . Training 
+compute-optimal large language models [EB/OL ]. (2022 -03-29)
+[2024 -03-04]. https ://arxiv .org/abs/ 2203 .15556
+[7] BROWN T B , MANN B , RYDER N , et al . Language models are 
+few-shot learners [C]//Proceedings of the 34th International 
+Conference on Neural Information Processing Systems . ACM , 
+2020 : 1877 -1901 . DOI: 10.5555 /3495724 .3495883
+[8] ACHIAM J , ADLER S , AGARWAL S , et al . GPT- 4 technical report 
+[EB/OL ]. (2023 -03-15) [2024 -03-04]. https ://arxiv .org/abs/
+2303 .08774
+[9] DONG R , HAN C , PENG Y , et al . DreamLLM : synergistic 
+multimodal comprehension and creation [EB/OL ]. (2023 -09-20)
+[2024 -03-04]. https ://arxiv .org/abs/ 2309 .11499
+[10] LIN Z Q , YU S , KUANG Z Y , et al . Multimodality helps 
+unimodality : cross-modal few-shot learning with multimodal 
+models [C]//Proceedings of IEEE/CVF Conference on Computer 
+Vision and Pattern Recognition (CVPR ). IEEE , 2023 : 19325 -
+19337 . DOI: 10.1109 /cvpr 52729 .2023 .01852
+[11] LI J, LI D , XIONG C , et al . Blip : bootstrapping language-image 
+pre-training for unified vision-language understanding and 
+generation [C]//Proceedings of the 39th International Conference 
+on Machine Learning . JMLR , 2022 : 12888 -12900 . DOI : 
+10.48550 /arXiv .2201 .12086
+[12] LI J, LI D , SAVARESE S , et al . Blip- 2: bootstrapping language-
+image pre-training with frozen image encoders and large 
+language models [C]//Proceedings of the 40th International 
+Conference on Machine Learning . JMLR , 2023 : 19730 -19742 . 
+DOI: 10.5555 /3618408 .3619222
+[13] WANG H W , XIE J , HU C Y , et al . Drivemlm : aligning multi-
+modal large language models with behavioral planning states for 
+autonomous driving [EB/OL ]. (2023 -12-14)[2024 -03-04]. https :
+//arxiv .org/abs/ 2312 .09245
+[14] CUI C , MA Y , CAO X , et al . A survey on multimodal large 
+language models for autonomous driving [C]//Proceedings of the 
+IEEE/CVF Winter Conference on Applications of Computer 
+Vision (WACV ). IEEE , 2024 : 958-979. DOI : 10.48550 /
+arXiv .2311 .12320
+[15] IMT- 2030 (6G)推 进 组 . 6G总 体 愿 景 和 潜 在 关 键 技 术  [EB/OL ]. 
+(2022 -02-18)[2024 -03-02]. https ://www .eet-china .com/news/
+202106090412 .html
+[16] IMT- 2030 (6G)推进组 . 6G总体网络架构愿景和关键技术展望  [EB/
+OL]. (2021 -09-16) [2024 -03-02]. https ://cloud .tencent .com/
+developer/news/ 857663
+[17] ALMMAR J . The illustrated transformer [EB/OL ]. (2018 -06-27) 
+[2024 -03-04]. https ://jalammar .github .io/illustrated-transformer/
+[18] TOUVRON H , LAVRIL T , IZACARD G , et al . Llama : open and 
+efficient foundation language models [EB/OL ]. (2023 -02-27) 
+[2024 -03-04]. https ://arxiv .org/abs/ 2302 .13971
+[19] TOUVRON H , MARTIN L , STONE K , et al . Llama 2: open 
+foundation and fine-tuned chat models [EB/OL ]. (2023 -06-18) 
+[2024 -03-04]. https ://arxiv .org/abs/ 2307 .09288
+[20] CHOWDHERY A , NARANG S , DEVLIN J , et al . Palm : Scaling language modeling with pathways [J]. Journal of machine 
+learning research , 2023 , 24(240): 1-113
+[21] LIU Y , OTT M , GOYAL N , et al . Roberta : a robustly optimized 
+bert pretraining approach [EB/OL ]. (2019 -7-26) [2024 -03-02]. 
+https ://arXiv preprint arXiv :1907 .11692 , 2019
+[22] LAN Z , CHEN M , GOODMAN S , et al . Albert : a lite bert for self-
+supervised learning of language representations [EB/OL ]. (2020 -
+02-09) [2024 -03-02]. https ://arXiv preprint arXiv :1909 .11942 , 
+2019
+[23] RAFFEL C , SHAZEER N , ROBERTS A , et al . Exploring the limits 
+of transfer learning with a unified text-to-text transformer [J]. 
+The journal of machine learning research , 2020 , 21(140): 1-67. 
+DOI: 10.48550 /arXiv .1910 .10683
+[24] LEWIS M , LIU Y , GOYAL N , et al . Bart : denoising sequence-to-
+sequence pre-training for natural language generation , 
+translation , and comprehension [EB/OL ]. (2019 -10-29) [2024 -
+03-02]. https ://arXiv preprint arXiv :1910 .13461 , 2019 .
+[25] OUYANG L , WU J , JIANG X , et al . Training language models to 
+follow instructions with human feedback [C]//Advances in neural 
+information processing systems 35 (NeurIPS 2022 ). Curran 
+Associates , 2022 : 27730 -27744 . DOI : 10.48550 /
+arXiv .2203 .02155
+[26] CHRISTIANO P F , LEIKE J , BROWN T B , et al . Deep 
+reinforcement learning from human preferences [C]//
+Proceedings of the 31st International Conference on Neural 
+Information Processing Systems . ACM , 2017 : 4302 –4310 . DOI : 
+10.5555 /3294996 .3295184
+[27] WANG Y , ZHONG W , LI L, et al . Aligning large language models 
+with human : a survey [EB/OL ]. (2023 -07-24) [2024 -03-04]. 
+https ://arxiv .org/abs/ 2307 .12966
+[28] BARIAH L , ZOU H , ZHAO Q , et al . Understanding telecom 
+language through large language models [EB/OL ]. [2024 -03-
+04]. https ://arxiv .org/pdf/ 2306 .07933 v1.pdf
+[29] MIAO Y K , BAI Y , CHEN L , et al . An empirical study of NetOps 
+capability of pre-trained large language models [EB/OL ]. (2023 -
+09-11)[2024 -03-05]. https ://arxiv .org/abs/ 2309 .05557
+[30] MANI S K , ZHOU Y J , HSIEH K , et al . Enhancing network 
+management using code generated by large language models 
+[C]//Proceedings of the 22nd ACM Workshop on Hot Topics in 
+Networks . ACM , 2023 : 196-204. DOI : 10.1145 /
+3626111 .3628183
+[31] BARIAH L , ZHAO Q Y , ZOU H , et al . Large generative AI models 
+for telecom : the next big thing ? [J]. IEEE communications 
+magazine , 2024 : 1-7. DOI: 10.1109 /mcom .001.2300364
+[32] MAATOUK A , PIOVESAN N , AYED F , et al . Large language 
+models for telecom : Forthcoming impact on the industry [EB/
+OL]. (2023 -08-11) [2024 -03-05]. https ://arxiv .org/abs/
+2308 .06013
+[33] ZOU H , ZHAO Q , BARIAH L , et al . Wireless multi-agent 
+generative AI : from connected intelligence to collective 
+intelligence [EB/OL ]. (2023 -07-06) [2024 -03-05]. https ://arxiv .
+org/abs/ 2307 .02757
+[34] TONG W , PENG C , YANG T , et al . Ten issues of NetGPT [EB/
+OL]. [2024 -03-05]. https ://arxiv .org/pdf/ 2311 .13106 .pdf
+[35] WANG Y C , XUE J T , WEI C W , et al . An overview on generative 
+AI at scale with edge-cloud computing [J]. IEEE open journal of 
+the communications society , 2023 , (4): 2952 -2971 . DOI : 
+10.1109 /ojcoms .2023 .3320646
+[36] CHEN Y , LI R , ZHAO Z , et al . NetGPT : a native-AI network 
+architecture beyond provisioning personalized generative 
+services [EB/OL ]. [2024 -03-05]. https ://ieeexplore .ieee.org/
+document/ 10466747
+[37] SU J , LU Y , PAN S , et al . LoRA : low-rank adaptation of large 
+language models [EB/OL ]. (2021 -04-20) [2024 -03-02]. https ://
+35

@@ -1,0 +1,79 @@
+of both GPON and 10G PON. An Any-PON 
+line card supports hybrid insertion of /f_ive 
+optical module types: GPON, XG-PON, 
+XG(S)-PON, XG-PON Combo, and XG(S)-PON 
+Combo (Fig. 1).
+There are two /f_lexible options for 
+deploying a 10G PON network using 
+Any-PON.
+If there is a need for 10G PON 
+deployment in the early stage of 
+network construction, the direct 
+connection of 10G PON optical 
+modules to 10G PON ONUs is an option. 
+Alternatively, 10G PON Combo optical 
+modules can be used to connect 
+both existing GPON ONUs and newly 
+deployed 10G PON ONUs. Combo PON 
+optical modules support the coexistence 
+of GPON and 10G PON ONUs within the 
+same ODN.
+In the early stage of network construction, 
+when there is no immediate need for 
+10G PON services or in cases of budget 
+constraints, an initial deployment of 
+GPON can be considered to save on 
+initial investments. When the opportunity 
+arises, the upgrade to 10G PON can be 
+made by replacing optical modules and 
+implementing the right to use (RTU) 
+method.
+Any-PON oﬀers the advantage of 
+building 10G PON-ready networks with 
+smooth evolution capability. Existing OLT 
+chassis and line cards remain unchanged, 
+and the deployed ODN is not aﬀected. 
+Any-PON can be /f_lexibly upgraded to 10G PON to align with service development, 
+cost reduction, and capital investment.
+ZTE Leads the Way in 10G PON 
+Deployment
+As a member of ITU-T and FSAN, as well 
+as a technical leader in the optical access 
+/f_ield, ZTE has been /f_irmly committed to 
+advancing the maturity and widespread 
+application of the 10G PON industry chain. 
+Over the past /f_ive years, ZTE’s global 
+10G PON shipments have experienced a 
+remarkable 95% compound annual growth 
+rate (CAGR). Speci/f_ically, in 2022, 10G PON 
+shipments increased by 130% compared 
+with 2021. ZTE has consistently held a Top 
+2 position in global 10G PON market share 
+and secured the Top 1 spot in China for 
+2022. Additionally, ZTE has established 
+partnerships with over 150 operators in the 
+10G PON sector.
+The exceptional performance in 
+these markets is a result of sustained 
+technological investment and strong 
+customer collaboration. ZTE's commitment 
+to consolidating its core capabilities and 
+driving continuous technical innovation 
+is evident. This includes groundbreaking 
+industry initiatives, such as introducing the 
+Combo PON concept , leading the industry's 
+/f_irst commercial deployment supporting 
+10G PON, and oﬀering the /f_irst 16-port 
+XG(S)-PON/Combo PON/Any-PON line cards.  
+ZTE consistently delivers high-quality 
+product solutions and services to its global 
+customers.
+Any-PON card
+GPON+10G PONGPON ONU
+10G PON ONU10G PON ONU
+GPON ONU
+XG-PON Combo GPON XG(S)-PON
+ XG-PON XG(S)-PON Combo
+ Any-PONFig. 1. Network architecture of 
+the Any-PON solution.DEC 2023 
+ 09

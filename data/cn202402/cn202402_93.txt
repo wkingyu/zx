@@ -1,0 +1,48 @@
+反无人机技术综述 ：通信技术与人工智能的融合 邱宝华 技术广角
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2反无人机技术综述 ：
+通信技术与人工智能的融合
+Overview of Anti-Drone Technology : Integration of Communication 
+Technology and Artificial Intelligence
+邱宝华 /QIU Baohua
+（ 中国移动通信集团广西有限公司 ，中国 南宁 530028  ）
+(China Mobile Group Guangxi Company ,Nanning 530028 , China )DOI：10.12142 /ZTETJ .202402013
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240418 .1204.002.html
+网络出版日期 ：2024 -04-19
+收稿日期 ：2024 -02-18
+摘要 ：对当前反无人机技术的最新进展进行了全面的梳理 ，内容涵盖了从主动反制策略到被动检测技术的广泛领域 。首先，审视了主动干预技
+术，如电磁干扰 、激光系统和无线电频率干扰 ，以及被动监测技术 ，包括雷达 、光学和热成像等 。随后，深入探讨了现代通信技术在反无人机
+系统中的应用 ，重点关注了高速数据传输 、信号覆盖 、高精度定位 、动态频率切换 、宽频带和多输入多输出 （MIMO ）技术等方面的支持作用 。
+此外，还详细分析了人工智能技术在提高反无人机效能方面的研究成果和应用算法 ，指出了目前的成就以及未来发展的潜在方向 。最后，展望
+了反无人机技术的未来发展趋势 ，包括自主学习 、对抗博弈和多智能体协同等方面 ，并对这些新兴趋势可能带来的挑战及其解决方案进行了前
+瞻性讨论 。本研究可为反无人机技术的未来发展提供一个全面的理论框架参考 。
+关键词 ：反无人机技术 ；智能无人系统 ；通信技术 ；人工智能 ；自主学习 ；对抗博弈 ；多智能体协同
+Abstrac t:The latest advancements in anti-drone technology are analyzed , encompassing a wide range of areas from active countermeasures 
+to passive detection methods . The active intervention technologies are discussed including electromagnetic interference , laser systems , and 
+radio frequency jamming , as well as passive surveillance methods like radar , optical , and thermal imaging . Subsequently , the application of 
+modern communication technologies in supporting anti-drone systems is deeply explored , especially high-speed data transmission , signal 
+coverage , high-precision positioning , dynamic frequency switching , broadband , and multiple-input multiple-output (MIMO ) technologies . 
+Moreover , the research outcomes and applied algorithms of artificial intelligence in enhancing the efficiency of anti-drone technologies are 
+meticulously analyzed , and their current achievements and potential directions for future development are highlighted . Finally , the future 
+trends in anti-drone technology is forecasted , including autonomous learning , adversarial gaming , and multi-agent collaboration , and dis ⁃
+cusses the challenges these emerging trends may face along with their solutions . This study can provide a holistic framework for the future 
+development of anti-drone technology .
+Keywords :anti-drone technology ; intelligent unmanned system ; communication technology ; artificial intelligence ; autonomous learning ; ad⁃
+versarial gaming ; multi-agent collaboration
+引用格式 ：邱宝华 . 反无人机技术综述 : 通信技术与人工智能的融合  [J]. 中兴通讯技术 , 2024 , 30(2): 89-99. DOI: 10.12142 /ZTETJ .202402013
+Citation ： QIU B H . Overview of anti-drone technology : integration of communication technology and artificial intelligence [J]. ZTE technology 
+journal , 2024 , 30(2): 89-99. DOI: 10.12142 /ZTETJ .202402013
+近年来 ，智能无人系统[1-2]的发展日新月异 。在俄乌冲
+突这一现代战争中 ，双方都大规模使用了无人机执行
+多样化任务 ，包括侦查 、打击和情报搜集等 。无人机在战
+场上发挥重要作用 ，甚至改变了传统的战略和战术 。因此 ，
+反无人机技术的研究和发展变得尤为重要[3-5]。无人机技术
+的进步得益于通信技术和人工智能的迅猛发展 ，而反无
+人机技术的演进同样依赖于这些关键技术的前进 。反无人机技术已经从基础的物理干扰手段 ，发展到了更为
+高级的电子和网络反制策略 。主动反制技术 ，包括电磁
+干扰 、激光打击和无线电频率干扰等 ，能够直接干扰无
+人机的操作 。与此同时 ，被动检测技术 ，如雷达系统 、光
+学摄像头和热成像技术 ，能够在不干预无人机飞行的前
+提下 ，监测和识别空中的无人机活动 。图1展示了一套
+当前广泛采用的反无人机系统架构 。
+89

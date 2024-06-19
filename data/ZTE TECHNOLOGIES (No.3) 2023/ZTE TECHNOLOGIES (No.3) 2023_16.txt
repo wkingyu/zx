@@ -1,0 +1,75 @@
+n the past decade, China has made 
+signi/f_icant progress in intelligent 
+manufacturing, but most enterprises 
+are still in the early stage of 
+transformation towards intelligence. At the end 
+of 2021, the equipment networking rate of 
+industrial manufacturing enterprises in China 
+was only 28.78%, the automatic data collection 
+rate for production was 40.1%, and the full-
+process quality traceability was only 16.97%. A 
+large number of production elements such as 
+personnel, machinery, materials, methods, 
+environment, and measurement have not 
+yet been interconnected. To achieve the 
+networking of a large number of dumb 
+devices on the production site, signi/f_icant 
+changes are required for the existing 
+industrial Ethernet and /f_ield buses based on 
+wired technology. These changes involve 
+adding ports and devices, rewiring, and 
+recon/f_iguration, which entail a large and 
+complex workload, a long cycle, high costs, 
+and a signi/f_icant impact on production.
+However, by seamlessly integrating 5G /f_ield 
+networks with existing industrial networks, 
+intelligent upgrading and transformation of 
+industrial enterprises can become smoother, 
+faster, lower-cost, and more eﬃcient in 
+operation.
+What’s 5G Field Network
+5G Field network refers to a 5G network 
+deployed in production sites such as production 
+lines and shop/f_loors, connecting production 
+elements of people, machines, materials, methods, environment and measurement to 
+achieve local real-time closed-loop processing 
+of applications in core production domain 
+such as data acquisition, industrial control and 
+production management. This network is also 
+integrated with operational, information and 
+communication technologies (OICT). As the 
+application of 5G in the industrial enterprises 
+has gradually expanded from peripheral 
+production assistance to core production 
+control, the 5G /f_ield network will accelerate 
+the pace of 5G deep into the core production 
+control and make industrial manufacturing 
+/f_lexible, digital and intelligent.
+Solution
+Taking into account the industry characteristics 
+such as local real-time closed-loop processing 
+of OT business /f_low in production lines or 
+shop/f_loors, short production cycle, automatic 
+connection of process /f_low, and frequent 
+adjustment of /f_lexible manufacturing lines, ZTE 
+has developed a 5G /f_ield network solution that 
+integrates terminals, network, cloud, applications 
+and maintenance (Fig. 1). This solution provides 
+a one-stop, low-latency, low-jitter, and high-
+availability deterministic wireless network for 
+the core production business, meeting the 
+needs of /f_lexible, digital/uni00A0 and intelligent upgrade 
+of industrial manufacturing.
+The 5G /f_ield network oﬀers the following 
+bene/f_its:
+Cloud-network integration and local 
+closed-loop of business operations:  Industrial 
+dedicated i5GC, 5G industrial base station, 
+Wireless ToB Integrated 
+Solution Director, ZTEHe Jiqing
+5GC ToB Planning 
+Director, ZTEWei Li5G Field Network Solution Enabling 
+Digital and Intelligent Upgrade of 
+Industrial Manufacturing
+I
+145G Fully-Connected Factory Special Topic

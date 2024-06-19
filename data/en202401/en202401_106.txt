@@ -1,0 +1,91 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Research Papers   Filter Design of Wireless Base Station Power Supply
+We extract the items containing “s” in Eq .(25) and define 
+them as follows : 
+ILcm1=20log|
+|||||2RcmLcmC1C3⋅s3
+RcmCs⋅s+1|
+|||||
+ , (26)
+ILcm2=20log|
+|||||LcmC3⋅s2
+RcmCs⋅s+1|
+|||||
+ , (27)
+ILcm3=20log|
+|||||Rcm(2C1+C3)⋅s+1
+RcmCs⋅s+1|
+|||||
+ . (28)
+Eqs. (26)–(28) represent the IL of the filter in the high , 
+medium and low frequency bands , respectively . According 
+to Eq . (27), the IL of the first -order π-type filter in the con ⁃
+duction band is mainly determined by Eq . (26) with a slope 
+of 40 dB/dec .
+After the IL of the first -order π-type filter is determined , 
+the IL required to pass the EMI test is obtained by comparing 
+the original noise spectrum with the EMI standard limits , as 
+shown in Eq . (29):
+IL=RAW NOISE-LIMIT+MARGIN. (29)
+Fig. 20(a) shows the original CM noise spectrum measured 
+by the current method , and the unit used in the EN 55032  stan ⁃
+dard is dB μV. The current is thus converted into a voltage 
+quantity , and the conversion relationship is as follows :
+20log|Ucm|=20log|Icm⋅Rcm|≈20log|Icm|+28 dB .(30)The CM noise voltage spectrum after con ⁃
+version is obtained according to Eq . (30), as 
+shown in Fig . 20(b).
+According to EN 55032  CLASS B , the 
+bare noise of the prototype is subtracted 
+from the EMI standard limit , and the differ ⁃
+ence spectrum between the noise and the 
+limit is obtained as shown in Fig . 21, and 
+the difference is the minimum IL required .
+In Fig . 21, fT_cm indicates the frequency of 
+ILcm1 and the tangent point of the required 
+IL, and ILT_cm corresponding to the tangent 
+point indicates the minimum CM IL required 
+by the prototype . According to Fig . 21, the 
+minimum CM IL required by the prototype 
+can be determined to be about 21.798 dB, 
+while the IL of the actual filter design needs 
+to be greater than this value to ensure the fil ⁃
+ter margin of the actual filter . To ensure that 
+the filter has sufficient filtering effect , the fil ⁃
+ter insertion loss ILcm is 40 dB. Based on the 
+slope , the turning frequency of the curve fc_cm 
+is obtained as follows :
+fc_cm=10-ILcm
+40⋅fT_cm≈23.4 kHz . (31)
+▲Figure 18. Common mode (CM) noise equivalent model of a first -order π-type filter
+▲Figure 19. Equivalent model of common mode (CM) noise before and after connecting to the filter
+CM: common mode     QP : quasi-peak value
+▲Figure 20. Measured CM noise spectrum
+(a) Voltage noise source (b) Current noise sourceEqualizationLcm
+Ucm
+RcmIsCs2C22C1Lcm
+Ucm
+Rcm2C12C2
+CsUs
+Ucm1
+RcmCs IsInserting filter
+Ucm2
+Rcm2C12C2 Cs IsLcmFilterC3
+(a) Without filter (b) With filter
+1×1051×1061×1071×108
+f/Hz
+(a) CM noise measured by currentCurrent/dB μA100
+80
+60
+40
+20
+0Voltage/dB μV100
+80
+60
+40
+20
+0
+1×1051×1061×1071×108
+f/Hz
+(b) CM noise after conversionCM noise
+EN55032  CLASS B (QP)
+102

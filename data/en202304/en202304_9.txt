@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+ALEXIOU et al . compared the DSIS and ACR methods in Ref . 
+[8]. They found the phenomenon that the DSIS and ACR meth ⁃
+ods are statistically equivalent , but there are slight differences 
+in the assessment results for different types of distortion . They 
+also found that subjects prefer the DSIS evaluation method . 
+Meanwhile , NEHMÉ et al .[9] extended this study to VR envi ⁃
+ronments , finding that DSIS is more accurate than ACR , espe ⁃
+cially in terms of color distortion . Their conclusions are highly 
+consistent with the observation in Table 1 that DSIS is more 
+commonly used than ACR and PWC methods . In addition , by 
+observing Table 1, we find that many current subjective evalu ⁃
+ations[4–6, 8, 10–28] are conducted through a 2D monitor , but with 
+the continuous development of display technology and AR/VR 
+technology , emerging display technologies are gradually being 
+applied to subjective experiments . ALEXIOU et al .[29] used 
+augmented reality HMDs for the first time in point cloud qual ⁃
+ity assessment work . Additionally , 3D monitors were used in 
+the work of ALEXIOU et al .[30–31] and ICIP 2020  for point 
+cloud subjective evaluation . Although existing studies[32–33] 
+have pointed out that 3D display technology is more likely to 
+cause adverse side effects (including dizziness , nausea , disori ⁃
+entation , etc.), we cannot deny that the immersive experience 
+and rich visual information provided by 3D display technology 
+are incomparable to a 2D monitor . Another way to enhance the 
+audience ’s experience is to introduce interaction . This inter ⁃
+action can freely adjust the viewing angle with a mouse on a 
+2D monitor[4, 11], or it can freely move around and observe 
+point clouds in an AR/VR environment through HMD de ⁃
+vices[34–36]. LIU et al .[5] believe that introducing interaction 
+and passive observation of point clouds by the audience are 
+equally effective in subjective tests , but the latter method has 
+a slight advantage in terms of repeatability . In conclusion , the 
+optimal subjective testing setup for point clouds is still an un ⁃
+resolved issue , and in most cases , the appropriate experimen ⁃
+tal setup is chosen based on the actual situation . Therefore , 
+further exploration in this area is needed .
+2.3 Related Subjective Databases
+The successive establishment of various databases has 
+played a pivotal role in advancing the field of point cloud qual ⁃
+ity assessment . As early as the last century , Stanford Univer ⁃
+sity established a 3D scanning database[39], which is still used 
+in current PCQA research[8, 29–30]. However , the deficiencies of 
+this database have emerged with the gradual deepening of re ⁃
+lated PCQA research . Firstly , the point cloud content covered 
+in Stanford ’s 3D scanning library is not diverse enough . As a 
+result , the Motion Picture Experts Group (MPEG ) and the 
+Joint Photographic Experts Group (JPEG ) proposed the MPEG 
+point cloud database[40] and the JPEG Pleno database[41] re⁃
+spectively , using cultural relics , daily necessities , and human 
+figures as the subjects of point cloud quality research . The 
+point clouds covered in these databases have been continued 
+in many later databases[6, 8, 11, 17, 19–20, 28–31, 35–36, 42]. In the data ⁃bases established afterward , the content and objects repre ⁃
+sented by point clouds became more and more abundant , 
+which provides convenience for the development of related re ⁃
+search on PCQA .
+In recent years , DA SILVA CRUZ et al .[16] and AK et al .[43] 
+have chosen not only the common point cloud representations 
+of humans and animals and inanimate objects during the pro ⁃
+cess of conducting subjective experiments but also included 
+architecture and landscapes . The former introduced eight 
+original point clouds in the experiment to explore the subjec ⁃
+tive evaluation methods of point clouds , while the latter estab ⁃
+lished the BASICS database[43] around 75 original point clouds 
+and conducted research on objective evaluation methods . Fur⁃
+thermore , because most of the point clouds in the database[39] 
+are colorless , after ALEXIOU et al .[8, 13–14, 30] and JAVAHERI 
+et al.[12] established the initial workflow of subjective colorless 
+point cloud evaluation , colored point clouds attracted a wide 
+range of research interest due to their richer visual informa ⁃
+tion, becoming mainstream in PCQA . Since then , various col ⁃
+ored point cloud databases have been pro ⁃
+posed[4–6, 11, 17, 20, 28, 31, 35, 36, 42–45] and in -depth research on sub ⁃
+jective evaluation has been conducted . ZERMAN et al .[17, 20] 
+established a series of V -SENSE Volumetric Video Quality 
+Databases (vsenseVVDB ) , and through Unity rendering of vol ⁃
+ume video of point clouds , they conducted subjective assess ⁃
+ments of colored point clouds , finding that texture distortion is 
+more likely to affect point cloud quality than geometric distor ⁃
+tion. They also compared the quality of mesh and point cloud , 
+two common types of 3D data representation , during limited 
+bitrate transmission . The results showed that the mesh had 
+higher quality in high bitrate transmission , and point clouds 
+had the opposite conclusion . ALEXIOU et al .[35] also used 
+Unity to develop the PointXR toolbox , but assessed the quality 
+of colored point cloud content through virtual reality technol ⁃
+ogy, enhancing the interactivity of the evaluation process . By 
+analyzing participant interaction patterns , the authors found 
+that, under six degrees -of-freedom (6DoF) observation , partici ⁃
+pants preferred close -up frontal observation . Real -world appli ⁃
+cations often require databases to more realistically simulate 
+the possible distortion effects of point clouds in the communi ⁃
+cation process of collection , storage , compression , transmis ⁃
+sion, rendering , and display , but the database[39] can no longer 
+meet these requirements .
+In the process of establishing later databases , SU et al .[18] 
+applied downsampling , Gaussian noise , and three advanced 
+point cloud compression algorithms to create distorted point 
+clouds . They clarified the types of point cloud distortions from 
+both geometric and texture perspectives . Geometric distortions 
+include hollows , geometric noise , holes , shape distortions , col⁃
+lapses , gaps , and blurring , while texture distortions include 
+texture noise , blocks , blurring , and bleeding . After the MPEG 
+committee standardized the advanced point cloud encoder , the 
+two advanced point cloud codecs , GPCC and VPCC , received 
+06

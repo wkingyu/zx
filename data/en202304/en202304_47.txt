@@ -1,0 +1,134 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Special Topic   Point Cloud Processing Methods for 3D Point Cloud Detection Tasks
+demonstrating the benefits of combining these two complemen ⁃
+tary methods .
+Besides STD and PV -RCNN , the methods proposed in Refs . 
+[40] and [41] also combine the point -based and voxel -based 
+manners .
+Some methods use other networks such as graph neural net ⁃
+works (GNNs ). They convert the point cloud into a regular grid 
+or voxel and use CNN (point cloud representation in the grid ) 
+or deep learning technology to process the point cloud (point 
+cloud in the point set ) after obtaining the point set through 
+sampling and other operations (Fig. 7). In addition , Point -
+GNN[42] constructs the point cloud into a graph . It has three 
+main components : graph construction from point cloud , graph 
+neural network for object detection , and bounding box merg ⁃
+ing and scoring . Specifically , the points in the point cloud are 
+used as N vertices , with a point as the center and r as the ra ⁃
+dius. Neighboring points in the range are concatenated to con ⁃
+struct a graph G = (P, E), for example :
+E={(pi, pj)|
+|||||||xi-xj2
+<r}.
+In order to reduce complexity , Point -GNN uses voxel opera ⁃
+tions to down -sample point clouds in the actual process and 
+the voxels are only used for reducing the point cloud density . Once constructed , the point cloud is processed using a multi -
+iteration GNN[43].
+Point -GNN has achieved excellent performance on the 
+KITTI test data set . The average precision of the car , pedes ⁃
+trian and cyclist at the easy level reached 88.33, 51.92 and 
+78.60, respectively , at the modality levels 79.47, 43.77 and 
+63.48, respectively , and at the hard level 72.29, 40.14 and 
+57.08, respectively . The detection performance of the car and 
+cyclist surpasses both the radar -only methods such as STD[38] 
+and PointRCNN[33] and the radar and image fusion methods 
+such as AVOD -FPN[44] and UberATG -MMF[45].
+The point -based methods still have several modules that 
+need to be improved . One module is sampling , which can re ⁃
+duce the consumption of computing resources by selecting a 
+subset of points from the original point cloud . However , sam ⁃
+pling may cause some information loss , which affects the 
+quality of the features that can be extracted in subsequent 
+operations . Therefore , the choice of the sampling algorithm 
+is crucial for the point -based method . For example , Point ⁃
+Net++ uses feature propagation to suppress the information 
+loss caused by sampling , and 3DSSD improves different sam ⁃
+pling methods to retain more useful information and improve 
+efficiency .
+Another module that can be improved is voxelization , which 
+is a special method to introduce voxels into point cloud pro ⁃
+cessing . Voxels are small cubes that di ⁃
+vide the three -dimensional space and con ⁃
+tain a certain number of points . The ad ⁃
+vantage of voxelization is to convert point 
+clouds into ordered data and also reduce 
+computational complexity . However , vox⁃
+elization may introduce quantization er ⁃
+rors and lose some fine -grained details . 
+Therefore , some methods combine the in ⁃
+formation obtained from both voxels and 
+points to improve performance . For ex ⁃
+ample , PV -RCNN uses voxel -based RPN 
+and point -based RoI feature extractors 
+(RoIFEs ) to achieve state -of-the-art re ⁃
+sults on 3D object detection .
+The third module that can be improved ▼Table 3. Performance testing on the KITTI test set . Mean average precision is taken as the evaluation metric . The table shows better performance of 
+PV -RCNN and STD
+Method
+SECOND[22]
+Fast Point R -CNN[35]
+STD[38]
+PV-RCNN[39]APCar⁃3D Detection
+Easy
+83.34
+85.29
+87.95
+90.25Moderate
+72.55
+77.40
+79.71
+81.43Hard
+65.82
+70.24
+75.09
+76.82APC ar⁃BEV Detection
+Easy
+89.39
+90.87
+94.74
+94.98Moderate
+83.77
+87.84
+89.19
+90.65Hard
+78.59
+80.52
+86.42
+86.14APCyclist⁃ 3D Detection
+Easy
+71.33
+-
+78.69
+78.60Moderate
+52.08
+-
+61.59
+63.71Hard
+45.83
+-
+55.30
+57.65APCyclist⁃BEV Detection
+Easy
+76.50
+-
+81.36
+82.49Moderate
+56.05
+-
+67.23
+68.89Hard
+49.45
+-
+59.35
+62.41
+AP: average precision 
+BEV : bird ’s eye view 
+PV-RCNN : point -voxel feature set abstraction for 3D object detection R-CNN : Region -CNN 
+SECOND : Sparsely Embedded Convolutional Detection 
+STD: Sparse -to-Dense 3D Object Detector for Point Cloud
+▲Figure 7. Representation of point -cloud grids , sets and graph and their corresponding process ⁃
+ing methodsCNN : convolutional neural network      GNN : graph neural networkGrids
+CNN
+PointNet GNNGraphSets
+44

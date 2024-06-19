@@ -1,0 +1,71 @@
+ith the advent of ChatGPT, arti/f_icial 
+intelligence (AI) has rapidly become a 
+key force for social progress. The 
+extensive application of AI technologies has 
+brought great changes to our lives and work, 
+relying heavily on robust computing infrastructure. 
+AI training tasks and inference applications demand 
+high-performance, large-scale parallelism, and 
+low-latency interconnections, necessitating diverse 
+requirements for computing, storage, and network 
+interconnections. In addition, the demand for AI 
+power aggregation also triggers innovation in the 
+infrastructure management platform (Fig. 1).
+AI Chips
+In addition to the high-performance matrix 
+operations required for AI model training and 
+inference, larger parameter values in AI models 
+necessitate greater memory capacity. Additionally, 
+extensive data exchange among multiple AI chips 
+demands high bandwidth and low latency in 
+interconnection buses. Therefore, AI chips must 
+meet three major requirements: computing power, 
+memory, and interconnection buses. 
+In terms of computing power, AI uses machine 
+learning technology based on multi-layer neural networks, requiring extensive matrix operations 
+such as multiplication, convolution, and activation 
+functions. Traditional CPUs have lengthy data /f_lows, 
+allocating more space to control and cache units, 
+with computing units occupying only 25% of the 
+space. Generally, there are just a few dozen 
+arithmetic/uni00A0 logic units (ALUs), with eﬃciency not 
+being high in processing these parallelized and 
+vectorized operations. Graphics/uni00A0 processing units 
+(GPUs), however, allocate 90% of the space to 
+computing units, enabling parallel processing of 
+dense data with thousands of ALUs. Since 2017, 
+mainstream AI chip manufacturers have released AI 
+GPUs dedicated to matrix computing acceleration, 
+enhancing computing performance for large-model 
+training. In addition to hardware, GPU manufacturers 
+usually provide the corresponding development 
+platforms like NVIDIA CUDA, allowing developers to 
+directly program  and optimize GPUs to fully utilize 
+their computing capabilities.
+In terms of memory, transformer model 
+parameters increase by an average factor of 240 
+every two years, while AI memory capacity only 
+doubles every two years, failing to keep pace with 
+model growth. To address this, a feasible solution is 
+the use of super nodes with uni/f_ied memory 
+addressing. For example, by customizing an AI server 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+w
+ 
+ 
+ 
+ 
+ 
+ 
+Development 
+Trends of AI 
+Computing Power
+Zhu Kun
+Chief Engineer of ZTE Cloud Computing Planning
+ 05JUN 2024 

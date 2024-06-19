@@ -1,0 +1,38 @@
+ZTE C OMMUNICATIONS
+March  2024  Vol.22 No.1 (Issue 86)
+Submission of a manuscript implies that the submitted work has not been published before (except as part of a thesis or lecture note or report or in the form of an 
+abstract ); that it is not under consideration for publication elsewhere ; that its publication has been approved by all co ⁃authors as well as by the authorities  at the 
+institute where the work has been carried out ; that , if and when the manuscript is accepted for publication , the authors hand over the transferable copyrights of the 
+accepted manuscript to ZTE Communications; and that the manuscript or parts thereof will not be published elsewhere in any language without the consent of the 
+copyright holder . Copyrights include , without spatial or timely limitation , the mechanical , electronic and visual reproduction and distribution ; electronic storage and 
+retrieval ; and all other forms of electronic publication or any other types of publication including all subsidiary rights .
+Responsibility for content rests on authors of signed articles and not on the editorial board of ZTE Communications or its sponsors .
+All rights reserved .
+StatementThis magazine is a free publication for you . If you do not want to receive it in the future , you can send th e “TD unsubscribe ” mail to 
+magazine@zte .com.cn. We will not send you this magazine again after receiving your email . Thank you for your support .Serial par ameters : CN 34-1294 /TN*2003 *q*16*110*en*P*￥20.00*2200*12*2024 -03Near⁃Field Communication and Sensing Towards 6G 
+ 01Near -Field Communication and Sensing Towards 6G⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ WEI Guo , ZHAO Yajun , CHEN Li
+03Towards Near -Field Communications for 6G: Challenges and Opportunities ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua
+16Link Budget and Enhanced Communication Distance for Ambient Internet of Things ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei
+24Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ LU Zhizheng , HAN Yu , JIN Shi
+34Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant 
+Channel Model ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian
+41Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Chal ⁃
+lenges and Future Directions ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen
+53Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ CAO Xinghan , YIN Huarui , YOU Changsheng
+62Recent Advances in Video Coding for Machines Standard and Technologies ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li
+77RIS -Assisted Cell -Free MIMO : A Survey ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian
+87Research on Multi -Core Processor Analysis for WCET Estimation ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
+⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei
+95Filter Design of Wireless Base Station Power Supply ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ LI Wei , GUO Wei , WANG Zhida
+106 Real -Time 4-Mode MDM Transmission Using Commercial 400G OTN Transceivers and All -
+Fiber Mode Multiplexers ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅ REN Fang , LI Yidan , YE Bing , LIU Jianguo , CHEN WeizhangCONTENTS
+Special Topic  ▶
+Review ▶
+Research Paper s ▶

@@ -1,0 +1,89 @@
+premium SPN private line, and the customized SPN 
+private network, as shown in Fig. 1.
+The main features of the basic SPN private line 
+include shared slices, ubiquitous access, and rapid 
+provisioning. Services are carried on industry-speci/f_ic 
+private line slices, which are hard-isolated from the 
+larger public network slices dedicated to ToC services. 
+Soft isolation between private line services is 
+implemented through a VPN network. Standard 
+functions include multiple protection mechanisms 
+and SLA visibility, while optional functions include 
+provisioning progress visibility and topology 
+visualization.
+The premium SPN private line features /f_ine 
+granularity and high isolation. Services are carried 
+through /f_ine-granularity interfaces or channels, and 
+isolation between services is achieved through 
+/f_ine-granularity hard slices. This meets the 
+requirements for service isolation, deterministic 
+latency, and security. Additionally,  functions such as 
+rerouting and network manageability, controllability, 
+and visibility can be provided. 
+The customized SPN private network oﬀers 
+integrated network services tailored to speci/f_ic 
+industries such as medical, education, and power. 
+Diﬀerent service levels can be provided within a 
+private network slice as required, with the slice being  
+externally hard-isolated from other slices.
+The SPN private line provides customers with an 
+exclusive slice network, including soft slices, hard slices, 
+and end-to-end channels. It ful/f_ills high-bandwidth, 
+high-burst service transport requirements while also 
+addressing low-latency, low-jitter service demands. 
+Additionally, it oﬀers multiple layers of protection 
+through mechanisms like rerouting and escape routing, 
+along with various network self-service options.
+rivate lines are an important service 
+provided by telecommunications 
+operators. However, traditional private 
+lines face several challenges. These 
+lines often come with a long provisioning period, 
+failing to meet the enterprise’s agile provisioning 
+and e-commerce requirements, lack transparency in 
+network service quality, and are often outdated, 
+leading to slow fault handling. Furthermore, the 
+presence of various network standards results in 
+high overall network construction and maintenance 
+costs. Performance factors such as bandwidth and 
+latency are in urgent need of improvement. The 
+gradual phasing out of SDH equipment necessitates 
+the replenishment of hard slicing network 
+capabilities. New services such as 5G ToB private lines 
+and enterprise-to-cloud have brought about new 
+demands, including network security and 
+programmability features.
+In June 2022, China Mobile unveiled the slicing 
+packet network (SPN) private line solution to address 
+the aforementioned issues. This oﬀering provides a 
+cost-eﬀective solution for industry sectors, featuring 
+high isolation, /f_lexible bandwidth, deterministic 
+latency, network visibility, and intelligent operation & 
+maintenance. Additionally, it supports multi-purpose 
+use, reducing costs and improving eﬃciency, thus 
+meeting the diﬀerentiated, higher requirements 
+posed by digital transformation for private line 
+services.
+Overview of SPN Private Line 
+Solution
+China Mobile’s SPN private line solution comprises 
+three products: the basic SPN private line, the 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+SPN Private Line Technology and 
+Its Applications
+P
+Transport Product 
+Planning Manager, 
+ZTEZhou Huadong
+ 
+ 
+ Slicing Packet Network Special Topic 
+18 

@@ -1,0 +1,93 @@
+ensure ubiquitous access, /f_lexible networking, 
+visual and intelligent control, and SLA guarantee. 
+SPN 2.0 primarily serves industrial external 
+networks in industrial Internet applications. It can 
+also be applied to speci/f_ic industrial intranet 
+scenarios, like coal, ports, and industrial campuses, 
+as required. The small access SPN 2.0 device 
+functions as the egress gateway for industrial 
+intranets, facilitating eﬀective connections to 
+industrial external networks. This includes 
+integrated transport with multi-service security 
+isolation, end-to-end network slice interworking 
+and scheduling, and service capability exposure 
+for diﬀerent industry slices.
+SPN 2.0 features soft, hard, and hierarchical 
+network slicing using N5 Gbps and M10 Mbps MTN 
+channels. It provides deterministic transport 
+similar to SDH VC-4/VC-12 TDM hard isolation and 
+soft isolation with N5 Gbps MTN interfaces. This 
+enables high-security isolation, highly reliable 
+uni/f_ied transport, and diﬀerentiated SLA 
+guarantees for various industrial Internet services 
+such as production control, information 
+management and Internet access (Fig. 1). It ensures 
+comprehensive competitiveness in current 
+transport network technology with independent 
+and controllable key technologies and a promising 
+long-term development prospect.SPN 2.0 Applications in 5G+ Smart Grids and 
+Private Power Networks
+The 5G-based virtual private network in the power 
+industry oﬀers ultra-low latency, massive 
+connections, and ultra-high bandwidth. It enables 
+end-to-end hard and soft slicing, ensuring various 
+levels of security isolation for services across 
+diﬀerent power grid areas. This facilitates 
+applications like 5G+MEC+slice for remote control, 
+diﬀerential protection, DTU, distributed energy, and 
+intelligent preventive maintenance, addressing 
+communication challenges at the smart grid’s 
+endpoints.
+5G power distribution network services, 
+categorized into control and collection, vary in 
+security levels. This includes diﬀerential protection 
+with low delay/jitter and high reliability, power 
+distribution automation requiring high 
+synchronization precision, and large-bandwidth 
+video conferencing. SPN power industry wireless 
+slices use PRB reservation. Transport SPN is deployed 
+through 5 Gbps coarse-grained or 10 Mbps 
+/f_ine-grained MTN slices, and UPF takes the form of 
+ToB UPF. The main electric power station and ToB UPF 
+employ VPN enterprise customer slices and 100 Mbps 
+VPN private lines, ensuring assured bandwidth 
+delivery (Table 2). 
+China Southern Power Grid has planned to deploy 
+Fig. 1. Applications of 
+SPN 2.0 hierarchical 
+network slicing in 
+industrial scenarios.Production Control 
+FlexE/MTN interface group
+Level-1 slice 1 
+NE-Z
+10 Mbps CBR E1/Fey service
+N×10 Mbps Ethernet/IP packet service 
+Information management 
+and Internet access
+FlexE/MTN interface group
+Level-1 slice 2
+Industrial intranet
+Egress gateway
+NE-ZNE-A
+NE-ALevel-1 slice
+Level-2 sliceN×5 Gbps TDM hard isolation 
+FlexE/MTN interface/MTN channel slice
+N×10 Mbps TDM hard isolation 
+MTN sub-channel slice
+Flexible-bandwidth packet tunnel isolation 
+L2/L3 VPN soft slice 
+Industrial intranet
+Egress gateway 
+Service 1
+Service 2
+Service 31
+Service 32
+Service 41Service 1
+Service 2
+Service 31
+Service 32
+Service 41L2VPN packet service
+L2VPN packet service
+L2VPN packet service
+APR 2024 
+ 09

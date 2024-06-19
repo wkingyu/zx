@@ -1,0 +1,65 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System   Research Papers
+Robust Beamforming Under Channel Robust Beamforming Under Channel 
+Prediction Errors for Prediction Errors for 
+TimeTime --Varying MIMO SystemVarying MIMO System
+ZHU Yuting1, LI Zeng2,3, ZHANG Hongtao1
+(1. Key Lab of Universal Wireless Communications , Ministry of Educa ⁃
+tion of China , Beijing University of Posts and Telecommunications , Bei⁃
+jing 100876 , China ;
+ 2. ZTE Corporation , Shenzhen 518057 , China ;
+ 3. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China )DOI: 10.12142 /ZTECOM .202303011
+https ://link .cnki.net/urlid/ 34.1294 .TN.20230830 .1912 .007, published online 
+August 31, 2023
+Manuscript received : 2022 -12-23
+Abstract : The accuracy of acquired channel state information (CSI) for beamforming design is essential for achievable performance in 
+multiple -input multiple -output (MIMO ) systems . However , in a high -speed moving scene with time -division duplex (TDD ) mode , the acquired 
+CSI depending on the channel reciprocity is inevitably outdated , leading to outdated beamforming design and then performance degradation . 
+In this paper , a robust beamforming design under channel prediction errors is proposed for a time -varying MIMO system to combat the degra ‐
+dation further , based on the channel prediction technique . Specifically , the statistical characteristics of historical channel prediction errors 
+are exploited and modeled . Moreover , to deal with random error terms , deterministic equivalents are adopted to further explore potential beam ‐
+forming gain through the statistical information and ultimately derive the robust design aiming at maximizing weighted sum -rate performance . 
+Simulation results show that the proposed beamforming design can maintain outperformance during the downlink transmission time even 
+when channels vary fast , compared with the traditional beamforming design .
+Keywords : time -varying channels ; time -division duplex ; robust beamforming ; channel prediction errors ; weighted sum -rate maximization
+Citation  (Format 1): ZHU Y T , LI Z , ZHANG H T . Robust beamforming under channel prediction errors for time -varying MIMO system [J]. 
+ZTE Communications , 2023 , 21(3): 77–85. DOI : 10.12142 /ZTECOM .202303011
+Citation  (Format 2): Y. T. Zhu, Z. Li, and H . T. Zhang , “Robust beamforming under channel prediction errors for time -varying MIMO system ,” 
+ZTE Communications , vol. 21, no. 3, pp. 77–85, Sept . 2023 . doi: 10.12142 /ZTECOM .202303011 .
+1 Introduction
+The rapid growth of intelligent devices and applications 
+generates large demands for high data rate transmis ‐
+sion. Massive multiple -input multiple -output (MIMO ) 
+technique , as a key technology in the fifth generation 
+of wireless networks , provides huge potential capacity gain by 
+employing multiple antennas and exploiting the extra degree 
+of freedom without extending the extra bandwidth[1]. The 
+achievable performance heavily relies on the exploitation of 
+spatial multiplexing gain , as well as enough channel knowl ‐
+edge of the base station[2]. The former is tightly related to 
+multi -user MIMO (MU -MIMO ) communications and appropri ‐
+ate beamforming design to enhance the intended signal and 
+suppress unintended interference . As to the latter , in a time -
+division duplex (TDD ) mode , the strategy used to obtain chan ‐nel state information (CSI) is reciprocity , where the transmitter 
+uses uplink (UL) channel information to speculate the down ‐
+link (DL) channel state in the next transmission interval[3]. 
+However , this strategy cannot face the channel aging problem , 
+especially in a high -mobility environment where the channel 
+characteristic is varying fast during the transmission period , 
+which leads to a serious impact on the performance of beam ‐
+forming in the MIMO system .
+Traditional beamforming algorithms , such as classic zero -
+forcing (ZF) and weighted minimum mean -squared -error 
+(WMMSE ), actually work well only when accurate and instan ‐
+taneous CSI is obtained . Note that the WMMSE precoder[4–5] 
+is designed according to the sum -rate maximization criterion 
+so it performs better than ZF . In the time -varying TDD system , 
+the channel estimation for multiple users is based on their 
+sounding reference signals (SRS), which means we can only 
+obtain the accurate CSI of the current SRS transmission time 
+slot while cannot measure the channel state of the intermedi ‐
+ate DL time slots in the case of a high -speed moving scene . 
+This work was supported by the ZTE Industry⁃University⁃Institute Cooper ⁃
+ation Funds under Grant No . 2021 ZTE01⁃03.
+77

@@ -1,0 +1,89 @@
+new technology on services.
+Introduction of AI Capabilities
+ChatGPT has gained great popularity 
+as an AI application, reaching 100 million 
+monthly active users in only two 
+months after its launch. This success 
+shows the potential of AI technology 
+to drive traﬃc. Currently, many Chinese 
+companies are stepping up eﬀorts to 
+launch similar AI systems. We should 
+seize this opportunity to introduce 
+AI to IPT V services and optimize 
+application scenarios for home users. Here 
+are some areas where AI can be integrated 
+into IPTV services.
+Smart elderly care:  AI can play a 
+crucial role in addressing the needs of 
+senior citizens who live alone or having 
+diﬃculty in getting medical care. By 
+guiding them in identifying their health 
+priorities, enabling online interaction 
+with doctors via TV sets, and reminding 
+them to take medicine, AI makes it 
+much easier for senior citizens to access 
+medical care, greatly increasing the 
+service value for them.
+Digital humans:  Digital humans have 
+become increasingly popular. When 
+combined with conversational models 
+like ChatGPT, they can become smarter 
+and more human-like, enabling new 
+services like elder care, child companion 
+and emotional guidance. They can 
+also be utilized as virtual idols, virtual 
+spokespersons of a company or a brand, 
+or customer service robots, interacting 
+with customers in a more immersive way 
+and expanding business models. 
+A I - p o w e r e d e d u c a t i o n a n d 
+entertainment:  Generative AI technology 
+experienced explosive growth in 2022. 
+For education and entertainment, 
+applications such as AI avatars, AI 
+painting and AI video products, can 
+greatly enhance user interaction and revitalize traditional value-added 
+services.
+Upgrade Hardware of Terminal 
+Devices
+The growth of services reply heavily 
+on hardware development. In order 
+to support the future IPTV service 
+development, upgrading the hardware 
+of terminal devices should be the top 
+priority. The next-generation terminal 
+hardware needs improvement in the 
+following aspects: 
+Gigabit network access:  Enabling 
+Gigabit wired access and Wi-Fi 6 
+wireless access can guarantee high 
+bandwidth and low latency for video 
+services like XR.
+Video processing capabilities:  
+Enhancing video processing capabilities 
+is essential to support multi-channel 
+4K decoding, binocular 4K VR display, 
+UHD multi-view mode, or even 8K 
+decoding and display, allowing users to 
+experience more and better new video 
+services.
+AI processing capability:  Integrating an 
+AI processor, such as a neural processing/uni00A0
+unit/uni00A0 (NPU), is becoming increasingly 
+important for IPTV terminals. To 
+eﬀectively support AI-powered services, 
+the NPU should deliver a processing 
+performance of at least 3 trillion 
+operations per second (TOPS).
+The development of mobile phones has 
+shown that advancements in hardware 
+processing capabilities can facilitate the 
+proliferation of new services. Similarly, for 
+IPTV to overcome current challenges, it 
+needs to accelerate hardware con/f_iguration 
+upgrades to optimize its processing 
+capabilities. This will enable IPTV services 
+to attract more attention and investment 
+within the industry, thus entering a new 
+development stage.
+13AUG 2023

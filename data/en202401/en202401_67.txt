@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Recent Advances in Video Coding for Machines Standard and Technologies    Review
+higher compression efficiency while maintaining good perfor ⁃
+mance on machine vision tasks , considering the characteris ⁃
+tics of the machine system . As a result , there is an urgent 
+need to develop new standards for video compression in ma ⁃
+chine vision tasks .
+Machine vision tasks are different from human vision 
+tasks , which have different purposes and evaluation metrics . 
+For traditional human vision tasks , the goal is to rebuild in ⁃
+put images or videos to their original subjective quality , with 
+evaluation metrics used to measure the degree of pixel do ⁃
+main distortion . In the field of machine vision tasks , the 
+VCM standard identifies and summarizes common machine 
+tasks . It specifically outlines five representative tasks , 
+namely object detection , instance segmentation , object track ⁃
+ing, human pose estimation and action recognition . These 
+tasks are crucial in machine vision applications and play a 
+significant role in advancing the capabilities of video coding 
+for machines . In order to compare the effects of different 
+methods , new evaluation metrics are introduced to measure 
+the performance of machine vision tasks instead of pixel do ⁃
+main distortion for human viewing . The pursuit of high -
+efficiency compression in machine vision , while simultane ⁃
+ously mitigating redundancy , has garnered significant atten ⁃
+tion from scholars . However , the challenge lies in reducing 
+the bitrate while preserving the accuracy of machine vision 
+tasks . Therefore , the international standard organization 
+named Moving Picture Experts Group (MPEG ) established 
+the VCM group , focusing on achieving efficient compression 
+for machine vision . The work of the VCM group can be sum ⁃
+marized as follows : 1) introducing use cases and related re ⁃
+quirements for machine vision and hybrid human -machine vi ⁃
+sion compression tasks ; 2) collecting data sets with evalua ⁃
+tion metrics and ground truth ; 3) collecting technical evi ⁃
+dence of feature compression and human -machine hybrid 
+compression ; 4) developing an evaluation framework to com ⁃
+pare different technology options ; 5) developing the stan ⁃
+dards for VCM .
+The VCM standard has gained significant attention from 
+scholars and experts in both academia and industry , result ⁃
+ing in notable progress . In this paper , we will give a compre ⁃
+hensive summary of the usage scenarios , representative tech ⁃
+nical proposals of VCM , and the latest developments of VCM 
+standards .
+This paper is organized as follows . We first provide an in ⁃
+troduction of the VCM standard , including but not limited to 
+use cases , requirements , and processing pipelines . And then 
+we introduce two different technical routes in the standard re ⁃
+spectively , and divide related technical proposals into sev ⁃
+eral categories for introduction . In addition , the experimental 
+performance and standardization process corresponding to 
+these two routes are also introduced . Finally , we conclude 
+with a discussion .2 Related Works
+This section provides a brief overview of the development of 
+VCM standards . To improve the performance and efficiency of 
+VCM , some early research has been devoted to extracting key 
+information that can characterize machine vision tasks from 
+images , that is , visual features . These visual features are 
+stored in a highly compact representation , which can effec ⁃
+tively address various visual analysis tasks with significantly 
+smaller data volume compared with compressed video . For 
+this method of using compact representation to assist machine 
+vision tasks , MPEG standardized it as compact descriptors for 
+visual search (CDVS )[1] and for video analysis (CDVA )[2] in 
+2015  and 2019 , respectively . In CDVS , the methods based on 
+interest point detection and local feature description are used 
+to calculate the compact expression of image features . The nor ⁃
+malization process has made significant progress in reducing 
+the number of image feature data and computational complex ⁃
+ity. On the basis of CDVS , CDVA utilizes deep learning tech ⁃
+nology to shorten the descriptor length while simultaneously 
+enhancing its ability to describe videos .
+Recently , with the development of deep neural networks , 
+learning -based methods have been widely used in image and 
+feature compression . LE et al .[3] proposed an image codec 
+through end -to-end training and balanced trade -offs among 
+the image distortion , analysis accuracy and bitrate . LE et al .[4] 
+further proposed an inference -time content -adaptive strategy 
+to optimize the latent representation of the end -to-end image 
+codec . This method improves the compression efficiency of 
+machine -consumption videos . TU et al .[5] used an end -to-end 
+method to compress image signals and semantic features of dif ⁃
+ferent granularity , and a cross -layer context model was pro ⁃
+posed to reduce the information redundancy among them . 
+CHOI et al .[6] studied the deep feature compression perfor ⁃
+mance between the mobile device and the cloud , and pro ⁃
+posed a method that improved the accuracy of tasks under 
+lossy feature compression . They also investigated latent -space 
+scalability for multi -task collaborative intelligence in Ref . [7].
+In terms of VCM standards , for example , DUAN et al .[8] in⁃
+troduced and analyzed VCM in combination with the new 
+fields generated in the emerging MPEG standardization work , 
+giving the definition , formulation , and paradigm of VCM . This 
+literature focuses more on the theoretical framework of video 
+coding and provides a paradigm of collaborative video and fea ⁃
+ture compression , which has been submitted to the VCM 
+group as a piece of evidence . GAO et al .[9] summarized the 
+work of the MPEG VCM group , and elaborated on the specific 
+content and requirements of VCM standards . Additionally , 
+with the rapid development of standards , many new methods 
+have been proposed during the standardization process .
+In addition , China’s video coding standard organizations in ⁃
+cluding the Audio Video coding Standard (AVS) and China 
+Electronics Standardization Institute (CESI ) have launched re ⁃
+search on vision coding for machines . The data coding for ma ⁃
+63

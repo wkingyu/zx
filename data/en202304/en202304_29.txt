@@ -1,0 +1,186 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Special Topic   Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression
+the -art algorithms , so as to meet the requirements of point 
+cloud geometry lossless compression in multimedia applica ⁃
+tion scenarios such as dynamic portraits .
+4.4 Ablation Study
+We perform ablation studies on predictive encoding over 8i 
+voxelized full -body point cloud data sequences to demonstrate 
+the effectiveness of the partition . It can be seen from Table 5 
+that the improvement shows a stable gain of −70% on multi -
+frame point cloud compression and −60% on single -frame 
+point cloud compression against the non -partition predictive 
+coding .
+Next , we perform an ablation experiment on arithmetic 
+coding to demonstrate the effectiveness of the context dic ⁃
+tionary . As shown in Table 6, a robust improvement of 
+−33% on multi -frame point cloud compression and that of 
+−41% on single -frame point cloud compression against the 
+arithmetic coding without context dictionary are observed in our method .
+4.5 Time Consumption
+We test the time consumption to evaluate the algorithm 
+complexity and compare the proposed methods with others . 
+The algorithm complexity is analyzed by encoders and decod ⁃
+ers independently , listed in Table 7. As we can see , G-PCC, 
+interEM and PCL -PCC can achieve an encoding time of less 
+than 10 s and a decoding time of less than 5 s for portrait 
+dense point cloud data . They also perform well in large -scale 
+sparse point cloud data compared with others . Our proposed 
+algorithms take around 60 s and 15 s to encode and decode 
+portrait sequences , even more on facade and architecture 
+point cloud data . There is a trade -off between bitrates and 
+compression speed . Compared with S 3D and S 4D, which take 
+hundreds of seconds to encode , our time -consuming method 
+can show superiority .
+In summary , the time consumption of our proposed methods 
+is medium among all the compared algorithms but still neces ⁃
+sary to be further improved .
+5 Conclusions
+In this paper , we propose a spatio -temporal context -
+guided method for lossless point cloud geometry compres ⁃
+sion. We consider sliced point cloud of unit thickness as the 
+input unit and adopt the geometry predictive coding mode 
+based on the travelling salesman algorithm , which applies to 
+both intra -frame and inter -frame . Moreover , we make full 
+use of the global context information and adaptive arithme ⁃
+tic encoder based on context fast update to achieve lossless 
+compression and decompression results of point clouds . Ex⁃
+perimental results demonstrate the effectiveness of our meth ⁃
+ods and their superiority over previous studies . For future 
+work , we plan to further study the overall complexity of the 
+algorithm , by reducing algorithm complexity to achieve a 
+high -speed compression rate and low bit rate compression 
+results . A low bit rate and real -time/low -delay supported 
+method is highly desired in various types of scenes .▼Table 5. Ablation study on predictive encoding
+Point Cloud Data
+Longdress_vox 10
+Loot_vox 10
+Redandblack_vox 10
+Soldier_vox 10Partition
+Multiple ↓
+0.896 585
+0.861 815
+0.970 43
+0.704 24Single ↓
+0.945 35
+0.909 825
+1.014 15
+0.958 515Non -Partition
+Multipl ↓
+1.501 45
+1.477 48
+1.620 92
+1.521 01Single ↓
+1.514 88
+1.493 59
+1.548 96
+1.563 37Gains/%
+Multiple ↓
+−67.46
+−71.44
+−67.03
+−115.98Single ↓
+−60.25
+−64.16
+−52.73
+−63.10
+▼Table 7. Time consumption comparison with state -of-the -art algorithms in encoding and decoding
+Encoding Time/s
+Point cloud data
+Microsoft voxelized upper bodies
+8i voxelized full bodies
+MPEG facade and architecture
+Decoding Time/s
+Point cloud data
+Microsoft voxelized upper bodies
+8i voxelized full bodies
+MPEG facade and architectureMultiple
+52.1
+56.7
+-
+Multiple
+13.7
+16.3
+-Single
+64.2
+66.9
+111.2
+Single
+14.4
+17.1
+22.4S4D
+806.03
+904.67
+-
+S4D
+117.4
+194.25
+-S3D
+489.72
+640.85
+-
+S3D
+74.03
+113.95
+-G-PCC
+3.813
+7.105
+15.37
+G-PCC
+1.031
+1.376
+2.703InterEM
+-
+4.708
+-
+InterEM
+-
+4.10
+-PCL -PCC
+2.235
+3.549
+22.4
+PCL -PCC
+0.809
+0.922
+7.74
+G-PCC: geometry -based point cloud compression
+MPEG : Moving Picture Experts GroupPCC: point cloud compression
+PCL: Point Cloud LibraryS3D: Silhouette 3D
+S4D: Silhouette 4D▼Table 6. Ablation study on arithmetic coding
+Point Cloud Data
+Longdress_vox 10
+Loot_vox 10
+Redandblack_
+vox10
+Soldier_vox 10With Context 
+Dictionary
+Multiple ↓
+0.896 585
+0.861 815
+0.970 43
+0.704 24Single ↓
+0.945 35
+0.909 825
+1.014 15
+0.958 515Without Context 
+Dictionary
+Multiple ↓
+1.279 66
+1.272 72
+1.294 69
+1.112 31Single ↓
+1.489 1
+1.364 27
+1.435 11
+1.374 98Gains/%
+Multiple ↓
+−42.73
+−47.68
+−33.41
+−57.94Single ↓
+−57.52
+−49.95
+−41.51
+−43.45
+26

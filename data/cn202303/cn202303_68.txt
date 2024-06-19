@@ -1,0 +1,57 @@
+5G XR 关键技术挑战和方案研究 王新台  等 企业视界
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 35G XR关键技术挑战和方案研究
+Key Technical Challenges and Solutions for 5G XR
+王新台 /WANG Xintai ，袁知贵 /YUAN Zhigui
+（ 中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202303012
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230620 .1151.002.html
+网络出版日期 ：2023 -06-20
+收稿日期 ：2023 -04-15
+摘要 ：扩展现实 （XR）业务引入 5G仍面临业务识别和保障 、网络接口开放 、头显终端不成熟等诸多挑战 。研究了 XR业务的特征和分类 ，并提
+出智能优先比特率 （Smart PBR ）方案和无线接入网 （RAN）分组时延预算 （PDB）协同调度方案 。Smart PBR 方案可为 XR业务提供带宽确定
+性保障 。RAN PDB 协同调度方案可使小区中满足 PDB 要求的报文比例显著增加 ，大大提高用户体验质量 。本研究对推动 XR业务在 5G网络中
+部署有一定的指导意义 。
+关键词 ：业务模型 ；小区容量 ；业务特征 ；业务识别与保障 ；智能优先比特率 ；分组时延预算协同调度
+Abstrac t:Extended reality (XR) services in the 5G network still face many challenges such as service identification and guarantee , network in ⁃
+terface openness , and immature head display terminals . The characters and classification of XR services are discussed , and the Smart PBR 
+and radio access network (RAN) packet delay budget (PDB) collaborative scheduling schemes are proposed . The Smart PBR scheme can pro ⁃
+vide bandwidth deterministic guarantee for XR services . The RAN PDB collaborative scheduling scheme can significantly increase the propor ⁃
+tion of packets that meet PDB requirements in the cell , greatly improving the quality of experience . This study has certain guiding signifi ⁃
+cance for promoting the deployment of XR services in 5G networks .
+Keywords :service model ; cell capacity ; service character ; service identification and guarantee ; intelligent prioritised bit rate ; packet delay bud ⁃
+get collaborative scheduling
+引用格式 ：王新台 , 袁知贵 . 5G XR 关键技术挑战和方案研究  [J]. 中兴通讯技术 , 2023 , 29(3): 64-72. DOI: 10.12142 /ZTETJ .202303012
+Citation ： WANG X T , YUAN Z G . Key technical challenges and solutions for 5G XR [J]. ZTE technology journal , 2023 , 29(3): 64-72. DOI : 
+10.12142 /ZTETJ .202303012
+扩展现实 （XR）作为元宇宙的重要技术支撑 ，越来越受
+到业界关注[1-4]。各大视频和游戏平台已经出现一些虚
+拟现实 （VR）类应用 ，比如 VR全景视频 、VR云游戏等 。
+随着头显的轻便化发展 ，增强现实 （AR） 、混合现实 （MR）
+类应用也越来越多 。目前这些头显主要通过有线或者 Wi-Fi
+连接到服务器 ，而这限制了用户使用业务的范围 。随着 5G
+网络覆盖的逐渐完善 ，5G大带宽 、低时延 、高速率的连接
+特性可满足 XR业务的需求[5-7]。然而 ，XR业务承载仍然面
+临不少挑战 。本文中 ，针对 XR业务在 5G网络中的部署 ，我
+们提出了一些解决方案和建议 。
+1 XR业务特征分析
+XR是VR、AR、MR的总称 ，本质上是基于虚拟空间的
+3D视频 。相对于 2D视频 ，XR增加了沉浸感和存在感 ，即
+被虚拟环境环绕的感觉以及身处虚拟空间的感觉 。为了实现
+这些感觉 ，XR业务提供了姿势流 、触觉流 、视频流等 。其中，姿势流为身体姿势动作产生的数据流 ，触觉流为穿戴设
+备触摸产生的数据流 ，视频流为 3D空间视频投射到 2D空间
+产生的视频流 （视频流通常包括声音流 ） 。这些数据流使用
+不同的传输协议 ，包括实时传输协议 （RTP） 、安全实时传
+输协议 （SRTP ）等。为了降低传输数据量 ，图像需要压缩
+编码 。相应的编码协议有 H.264、H.265、H.266等，图像编
+码方案有图片组 （GOP）编码和 Slice-based 编码 。
+在传输上基于不同的帧 /片码流和声音码流的打包传输
+方式 ，XR的业务模型可以分为两种 ：下行业务模型和上行
+业务模型 。
+1）下行业务模型
+a）单流模式
+I帧/片、P帧/片、B帧、声音等码流混在一起传输 ，形
+成一个流 。互联网协议 （IP）五元组为源地址 、源端口号 、
+目的地址 、目的端口号和协议类型 ，通常被用来进行报文过
+滤，但无法分辨流数据 。由于流数据的差别体现在 IP净荷
+64

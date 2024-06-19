@@ -1,0 +1,117 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Special Topic   Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams
+rently , the research is primarily focused on their interference re ⁃
+sistance in FSO communication . In other high -frequency ranges , 
+such as terahertz and millimeter waves , as well as under near -
+field conditions , the excellent directionality and self -healing 
+characteristics of Bessel beams have the potential to achieve 
+high -speed and stable transmission links with the ability to pen ⁃
+etrate obstacles , making them a promising alternative technology 
+for beamforming or beam focusing . However , research in these 
+aspects is still relatively lacking . Finally , designing Bessel beam 
+generation devices that meet practical application requirements 
+is an inevitable challenge in their applied research .
+5 Conclusions
+This paper provides a comprehensive review of the Bessel 
+beam concept and the research related to it . Starting from the 
+scalar wave theory , we introduce the properties and fundamental 
+theory of Bessel beams . The current focus of research on Bessel 
+beams is their generation , with some exploration of their applica ⁃
+tions. The generation methods are categorized into two types : 
+based on the scalar wave theory and based on the vector wave 
+theory . We also review the current implementations of Bessel 
+beam generation and explore their applications from the per ⁃
+spectives of wireless power transfer , sensing , and communica ⁃
+tion. In conclusion , Bessel beams require a more precise de ⁃
+scription and study of their properties through near -field theo ⁃
+ries, akin to the challenges faced in traditional communication 
+and sensing in the near -field region . Simultaneously , the appli ⁃
+cation of Bessel beams imposes higher requirements on the pre ⁃
+cise phase modulation capability and integration of emitting de ⁃
+vices , introducing new challenges and opportunities for beam ⁃
+forming and antenna design . In the future , the enormous appli ⁃
+cation potential of Bessel beams is expected to be further ex ⁃
+plored in higher communication frequency bands and shorter -
+distance scenarios .
+References
+[1] AKYILDIZ I F , HAN C , NIE S . Combating the distance problem in the milli ⁃
+meter wave and terahertz frequency bands [J]. IEEE communications maga ⁃
+zine, 2018 , 56(6): 102–108. DOI : 10.1109 /MCOM .2018 .1700928
+[2] MIRAZ M H , ALI M , EXCELL P S , et al . A review on Internet of Things 
+(IoT), Internet of Everything (IoE) and Internet of Nano Things (IoNT ) [C]//
+Proc. Internet Technologies and Applications (ITA). IEEE , 2015 : 219–224. 
+DOI: 10.1109 /ITechA .2015 .7317398
+[3] ZHANG H Y , SHLEZINGER N , GUIDI F , et al . Beam focusing for near -field 
+multiuser MIMO communications [J]. IEEE transactions on wireless commu ⁃
+nications , 2022 , 21(9): 7476–7490 . DOI : 10.1109 /TWC .2022 .3158894
+[4] FRIEDLANDER B . Localization of signals in the near -field of an antenna ar ⁃
+ray [J]. IEEE transactions on signal processing , 2019 , 67(15): 3885–3893 . 
+DOI: 10.1109 /TSP.2019 .2923164
+[5] DURNIN J . Exact solutions for nondiffracting beams I the scalar theory [J]. 
+Journal of the optical society of America A , 1987 , 4(4): 651–654. DOI : 
+10.1364 /josaa .4.000651
+[6] ZHONG Y C , CHENG Y J . Ka -band wideband large depth -of-field beam gen ⁃
+eration through a phase shifting surface antenna [J]. IEEE transactions on an ⁃tennas and propagation , 2016 , 64(12): 5038–5045 . DOI : 10.1109 /
+TAP.2016 .2618849
+[7] ZHONG Y C , CHENG Y J . Generating and steering quasi -nondiffractive 
+beam by near -field planar risley prisms [J]. IEEE transactions on antennas 
+and propagation , 2020 , 68(12): 7767– 7776 . DOI : 10.1109 /
+TAP.2020 .2998872
+[8] LI Y B , CAI B G , WAN X , et al . Diffraction -free surface waves by metasur ⁃
+faces [J]. Optics letters , 2014 , 39(20): 5888–5891 . DOI : 10.1364 /
+OL.39.005888
+[9] ZENG T , DENG L , LI S F . Generation of non -diffractive beam by using meta ⁃
+surface for wireless power transfer (WPT ) applications [C]//Proc . IEEE Asia -
+Pacific Microwave Conference (APMC ). IEEE , 2019 : 4–6. DOI : 10.1109 /
+APMC 46564 .2019 .9038329
+[10] XUE H , WU X N , CUI X W , et al . Wireless power transfer based on Bessel 
+beam [C]//Proc . IEEE International Workshop on Electromagnetics : Appli ⁃
+cations and Student Innovation Competition (iWEM ). IEEE , 2021 : 1–3. 
+DOI: 10.1109 /iWEM 53379 .2021 .9790507
+[11] PFEIFFER C , GRBIC A . Controlling vector Bessel beams with metasurfaces 
+[J]. Physical review applied , 2014 , 2(4): 044012 . DOI : 10.1103 /PhysRevAp ⁃
+plied .2.044012
+[12] QI M Q , TANG W X , CUI T J . A broadband Bessel beam launcher using 
+metamaterial lens [J]. Scientific reports , 2015 , 5: 11732 . DOI : 10.1038 /
+srep11732
+[13] LEMAITRE -AUGER P , ABIELMONA S , CALOZ C . Generation of Bessel 
+beams by two -dimensional antenna arrays using sub -sampled distributions 
+[J]. IEEE transactions on antennas and propagation , 2013 , 61(4): 1838–
+1849 . DOI : 10.1109 /TAP .2012 .2232263
+[14] MAZZINGHI A , BALMA M , DEVONA D , et al . Large depth of field 
+pseudo -bessel beam generation with a RLSA antenna [J]. IEEE transactions 
+on antennas and propagation , 2014 , 62(8): 3911–3919 . DOI : 10.1109 /
+TAP.2014 .2324557
+[15] ETTORRE M , PAVONE S C , CASALETTI M , et al . Experimental valida ⁃
+tion of Bessel beam generation using an inward Hankel aperture distribution 
+[J]. IEEE transactions on antennas and propagation , 2015 , 63(6): 2539–
+2544 . DOI : 10.1109 /TAP .2015 .2419261
+[16] LU P , VOYER D , BRÉARD A , et al . Design of TE -polarized Bessel an ⁃
+tenna in microwave range using leaky -wave modes [J]. IEEE transactions on 
+antennas and propagation , 2018 , 66(1): 32–41. DOI : 10.1109 /
+TAP.2017 .2768584
+[17] FAHRBACH F O , ROHRBACH A . Propagation stability of self -
+reconstructing Bessel beams enables contrast -enhanced imaging in thick 
+media [J]. Nature communications , 2012 , 3: 632. DOI : 10.1038 /
+ncomms 1646
+[18] ANDRIOTTY M S . Nondiffracting Waves in 2D and 3D [D]. Williamsburg : 
+College of William and Mary , 2017
+[19] LU P , WAGIH M , GOUSSETIS G , et al . A comprehensive survey on trans ⁃
+mitting antenna systems with synthesized beams for microwave wireless 
+power transmission [J]. IEEE journal of microwaves , 2023 , 3(4): 1081–
+1101 . DOI : 10.1109 /JMW .2023 .3285825
+[20] ZHONG Y C , CHENG Y J . Wideband quasi -nondiffraction beam with accu ⁃
+rately controllable propagating angle and depth -of-field [J]. IEEE transac ⁃
+tions on antennas and propagation , 2017 , 65(10): 5035–5042 . DOI : 
+10.1109 /TAP .2017 .2736536
+[21] TANG H , DING S , ZHU Z J . Generation of dual asymmetric non -diffracting 
+beams based on transmission metasurface in microwave -frequency region [C]//
+Proc. International Conference on Microwave and Millimeter Wave Technology 
+(ICMMT ). IEEE , 2022 : 1–3. DOI: 10.1109 /ICMMT 55580 .2022 .10022831
+[22] XUE H , WU X N , CUI X W , et al . Multitarget wireless power transfer sys ⁃
+tem using metasurface for quasi -bessel beams with large half power beam 
+length [J]. IEEE transactions on microwave theory and techniques , 2022 , 70
+(10): 4449–4462 . DOI : 10.1109 /TMTT .2022 .3197619
+[23] COX A J , D􀆳ANNA J . Constant -axial -intensity nondiffracting beam [J]. Op⁃
+tics letters , 1992 , 17(4): 232–234. DOI : 10.1364 /ol.17.000232
+60

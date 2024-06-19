@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Special Topic   Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface
+[9] JIN J , MIAO Y , DALY I , et al . Correlation -based channel selection and regu ‐
+larized feature optimization for MI -based BCI [J]. Neural networks , 2019 , 118: 
+262–270. DOI : 10.1016 /j.neunet .2019 .07.008
+[10] FU R R , TIAN Y S , BAO T T , et al . Improvement motor imagery EEG classifi ‐
+cation based on regularized linear discriminant analysis [J]. Journal of medical 
+systems , 2019 , 43(6): 169. DOI : 10.1007 /s10916 -019 -1270 -0
+[11] LIU Y X , ZHOU W D , YUAN Q , et al . Automatic seizure detection using wave ‐
+let transform and SVM in long -term intracranial EEG [J]. IEEE transactions on 
+neural systems and rehabilitation engineering , 2012 , 20(6): 749–755. DOI : 
+10.1109 /TNSRE .2012 .2206054
+[12] SAMUEL O W , GENG Y J , LI X X , et al . Towards efficient decoding of mul ‐
+tiple classes of motor imagery limb movements based on EEG spectral and 
+time domain descriptors [J]. Journal of medical systems , 2017 , 41(12): 194. 
+DOI: 10.1007 /s10916 -017 -0843 -z
+[13] LIN C T , CHUANG C H , HUNG Y C , et al . A driving performance forecasting 
+system based on brain dynamic state analysis using 4-D convolutional neural 
+networks [J]. IEEE transactions on cybernetics , 2021 , 51(10): 4959–4967 . 
+DOI: 10.1109 /TCYB .2020 .3010805
+[14] AMIN S U , ALSULAIMAN M , MUHAMMAD G , et al . Deep Learning for EEG 
+motor imagery classification based on multi -layer CNNs feature fusion [J]. Fu‐
+ture generation computer systems , 2019 , 101: 542–554. DOI : 10.1016 /j.fu‐
+ture.2019 .06.027
+[15] TAYLOR D M , TILLERY S I H , SCHWARTZ A B . Direct cortical control of 
+3D neuroprosthetic devices [J]. Science , 2002 , 296(5574 ): 1829–1832 . DOI : 
+10.1126 /science .1070291
+[16] GAGE G J , LUDWIG K A , OTTO K J , et al . Naïve coadaptive cortical control 
+[J]. Journal of neural engineering , 2005 , 2(2): 52–63. DOI : 10.1088 /1741 -
+2560 /2/2/006
+[17] VELLISTE M , PEREL S , SPALDING M C , et al . Cortical control of a pros ‐
+thetic arm for self -feeding [J]. Nature , 2008 , 453(7198 ): 1098–1101 . DOI : 
+10.1038 /nature 06996
+[18] SUTTON R S , BARTO A G . Reinforcement learning : an introduction [M]. 
+Cambridge , USA : MIT press , 2018
+[19] DIGIOVANNA J , MAHMOUDI B , FORTES J , et al . Coadaptive brain : ma‐
+chine interface via reinforcement learning [J]. IEEE transactions on biomedi ‐
+cal engineering , 2009 , 56(1): 54–64. DOI : 10.1109 /TBME .2008 .926699
+[20] ITURRATE I , MONTESANO L , MINGUEZ J . Robot reinforcement learning 
+using EEG -based reward signals [C]//IEEE International Conference on Ro ‐
+botics and Automation . IEEE , 2010 : 4822–4829 . DOI : 10.1109 /
+ROBOT .2010 .5509734
+[21] MATSUZAKI S , SHIINA Y , WADA Y . Adaptive classification for brain -
+machine interface with reinforcement learning [C]//18th International Confer ‐
+ence on Neural Information Processing . ICONIP , 2011 : 360–369. DOI: 
+10.1007 /978 -3-642 -24955 -6_44
+[22] MAHMOUDI B , SANCHEZ J C . A symbiotic brain -machine interface through 
+value -based decision making [J]. PLoS one , 2011 , 6(3): e14760 . DOI : 10.1371 /
+journal .pone .0014760
+[23] SANCHEZ J C , TARIGOPPULA A , CHOI J S , et al . Control of a center -out 
+reaching task using a reinforcement learning brain -machine interface [C]//5th 
+International IEEE/EMBS Conference on Neural Engineering . IEEE , 2011 : 
+525–528. DOI : 10.1109 /NER .2011 .5910601
+[24] POHLMEYER E A , MAHMOUDI B , GENG S J , et al . Using reinforcement 
+learning to provide stable brain -machine interface control despite neural input 
+reorganization [J]. PLoS one , 2014 , 9(1): e87253 . DOI : 10.1371 /journal .
+pone .0087253
+[25] MARSH B T , TARIGOPPULA V S A , CHEN C , et al . Toward an autonomous 
+brain machine interface : integrating sensorimotor reward modulation and rein ‐forcement learning [J]. Journal of neuroscience , 2015 , 35(19): 7374–7387 . 
+DOI: 10.1523 /jneurosci .1802 -14.2015
+[26] BAE J , CHHATBAR P , FRANCIS J T , et al . Reinforcement learning via ker ‐
+nel temporal difference [C]//Annual International Conference of IEEE Engi ‐
+neering in Medicine and Biology Society . IEEE , 2011 : 5662–5665 . DOI : 
+10.1109 /IEMBS .2011 .6091370
+[27] THAPA B R , TANGARIFE D R , BAE J . Kernel temporal differences for EEG -
+based reinforcement learning brain machine interfaces [C]//44th Annual Inter ‐
+national Conference of IEEE Engineering in Medicine & Biology Society 
+(EMBC ). IEEE , 2022 : 3327–3333 . DOI : 10.1109 /EMBC 48229 .2022 .9871862
+[28] VAN HASSELT H , GUEZ A , SILVER D . Deep reinforcement learning with 
+double Q -learning [C]//AAAI Conference on Artificial Intelligence . ACM , 
+2016 : 2094–2100 . DOI : 10.5555 /3016100 .3016191
+[29] MNIH V , KAVUKCUOGLU K , SILVER D , et al . Playing atari with deep rein ‐
+forcement learning [C]//NIPS Deep Learning Workshop . NIPS , 2013 . DOI : 
+10.48550 /arXiv .1312 .5602
+[30] KAYA M , BINLI M K , OZBAY E , et al . A large electroencephalographic mo ‐
+tor imagery dataset for electroencephalographic brain computer interfaces [J]. 
+Scientific data , 2018 , 5(1): 1–16. DOI : 10.1038 /sdata .2018 .211
+[31] TANGERMANN M , MÜLLER K R , AERTSEN A , et al . Review of the BCI 
+competition IV [J]. Frontiers in neuroscience , 2012 , 6: 55. DOI : 10.3389 /
+fnins .2012 .00055
+[32] QI F , WANG W , XIE X , et al . Single -trial eeg classification via orthogonal 
+wavelet decomposition -based feature extraction [J]. Frontiers in Neuroscience , 
+2021 , 15: 715855 . DOI : 10.3389 /fnins .2021 .715855
+[33] MUSALLAM Y K , ALFASSAM N I , MUHAMMAD G , et al . 
+Electroencephalography -based motor imagery classification using temporal 
+convolutional network fusion [J]. Biomedical signal processing and control , 
+2021 , 69: 102826 . DOI : 10.1016 /j.bspc.2021 .102826
+[34] KEERTHI KRISHNAN K , SOMAN K P . CNN based classification of motor 
+imaginary using variational mode decomposed EEG -spectrum image [J]. Bio‐
+medical engineering letters , 2021 , 11(3): 235–247. DOI : 10.1007 /s13534 -
+021 -00190 -z
+Biographies
+REN Min received her BS degree from the School of Mathematics and Informa ‐
+tion, China West Normal University in 2021 . She is currently working toward an 
+MS degree at Southwest Jiaotong University , China . Her research interests in ‐
+clude reinforcement learning and its application and data mining .
+XU Renyu (ryxu@swjtu .edu.cn) received her PhD degree in mathematics and 
+information science from Paris Saclay University , France in 2017 . She is cur ‐
+rently a lecturer in the school of mathematics , Southwest Jiaotong University , 
+China . Her current research interests include reasoning with graph theory and 
+machine learning .
+ZHU Ting received her BS degree from the School of Mathematics and Soft ‐
+ware Science , Sichuan Normal University , China in 2021 . She is now working 
+toward an MS degree at Southwest Jiaotong University , China . Her research in ‐
+terests include reinforcement learning and deep reinforcement learning .
+10

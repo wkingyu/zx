@@ -1,0 +1,70 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos    Research Papers
+videos . A one -way analysis of variance (ANOVA ) test indi ⁃
+cates that there is no significant effect of the type of vision on 
+visual realism . Based on the results above , the video quality 
+and FOV appear to have a more significant impact on visual 
+realism than the type of vision . Thus , the relationship of per ⁃
+ceptual video quality , FOV , and visual realism can be calcu ⁃
+lated by
+VRE(PVQ, FOV)=max(min(v8PVQ+v9FoV+v10, 5), 1),
+(8)
+where v8, v9 and v10 are equal to 0.595, 0.02 and −0.735, re⁃
+spectively .
+4.3 Perceptual Audio Quality and Acoustic Realism As ⁃
+sessment
+We first model the perceptual audio quality using the ex ⁃
+perimental results of Experiment 3. Fig. 9 shows the logarith ⁃
+mic relationship between the audio bitrate and the perceptual 
+audio quality . This relationship can be represented as
+PAQ(ABr)=1+v11-v11
+1+()ABr
+v12v13
+, (9)
+where v11, v12 and v13 are equal to 4.103, 42.36 and 1.251, re⁃
+spectively .
+As for AR , Fig. 10 shows the relationship between the per ⁃
+ceptual audio quality and acoustic realism . It can be found 
+that there is a significant linear relationship between the audio 
+quality and acoustic realism for stereo audio (R2 = 0.881, F = 
+213.251, and p = 0.000 < 0.05) and for spatial audio (R2 = 
+0.955, F = 73.791, and p = 0.000 < 0.05). The relationship in 
+Fig.10 can be expressed asAR(PAQ)=v14PAQ+v15, (10)
+where v14 and v15 are equal to 0.733 and 0.634 for the stereo 
+audio , and equal to 0.682 and 1.167 for the spatial audio .
+4.4 Proprioceptive Matching Assessment
+Fig. 11 shows the relationship between the two types of de ⁃
+lay and proprioceptive matching . It can be seen that the pro ⁃
+prioceptive matching decreases with the increase of both the 
+MTP latency and AL . Here , the degradations of proprioceptive 
+matching caused by the MTP latency and AL are calculated by
+DMOS(MTP)=5-MOS(MTP), (11)
+DMOS(AL)=5-MOS(AL). (12)
+Fig. 12 shows the relationship between the two types of de ⁃
+lay and the degradation of proprioceptive matching . This rela ⁃
+▲Figure 9. Relationships between the audio bit rate and perceptual au ⁃
+dio quality
+▲Figure 10. Relationship between the perceptual audio quality 
+and acoustic realism rated on Head -Mounted Display (HMD )
+MTP : motion -to-photon
+▲Figure 11. Relationship between the two types of delay and the pro ⁃
+prioceptive matchingBit rate/ (kbit/s )0    50 100 150 200 250 300 350 4005
+4
+3
+2
+1Perceptual audio qualityPerceptual audio quality1 2 3 4 55
+4
+3
+2
+1Acoustic realism
+Spatial audio
+Stereo audio
+MTP latency
+Audio latencyProprioceptive matching5
+4
+3
+2
+1
+0          300        600        900       1 200      1 500   1 800     2 100
+Latency/ms
+99

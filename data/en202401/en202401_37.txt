@@ -1,0 +1,67 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems    Special Topic
+[27] SELVAN K T , JANASWAMY R . Fraunhofer and Fresnel distances : uni⁃
+fied derivation for aperture antennas [J]. IEEE antennas and propagation 
+magazine , 2017 , 59(4): 12–15. DOI : 10.1109 /MAP .2017 .2706648
+[28] SHI X , WANG J , SUN Z , et al . Spatial -chirp codebook -based hierarchi ⁃
+cal beam training for extremely large -scale massive MIMO [EB/OL ]. 
+(2022 -10-07) [2023 -08-15]. https ://arxiv .org/abs/ 2210 .03345
+[29] SOUTHWELL W H . Validity of the Fresnel approximation in the near 
+field [J]. Journal of the optical society of America , 1981 , 71(1): 7. DOI : 
+10.1364 /josa.71.000007
+[30] CUI M Y , DAI L L . Channel estimation for extremely large -scale MIMO : 
+far-field or near -field? [J]. IEEE transactions on communications , 2022 , 
+70(4): 2663–2677 . DOI : 10.1109 /TCOMM .2022 .3146400
+[31] YANG J , ZENG Y , JIN S , et al . Communication and localization with ex ⁃
+tremely large lens antenna array [J]. IEEE transactions on wireless com ⁃
+munications , 2021 , 20(5): 3031– 3048 . DOI : 10.1109 /
+TWC .2020 .3046766
+[32] LU Z Z , HAN Y , JIN S , et al . Near -field channel reconstruction and user 
+localization for ELAA systems [C]//Proc . International Symposium on 
+Wireless Communication Systems (ISWCS ). IEEE , 2022 : 1–6. DOI : 
+10.1109 /ISWCS 56560 .2022 .9940362
+[33] MAMANDIPOOR B , RAMASAMY D , MADHOW U . Newtonized orthogo ⁃
+nal matching pursuit : frequency estimation over the continuum [J]. IEEE 
+transactions on signal processing , 2016 , 64(19): 5066–5081 . DOI : 
+10.1109 /TSP .2016 .2580523
+[34] OZTURK C , KESKIN M F , WYMEERSCH H , et al . RIS -aided near -field 
+localization under phase -dependent amplitude variations [J]. IEEE trans ⁃
+actions on wireless communications , 2023 , 22(8): 5550–5566 . DOI : 
+10.1109 /TWC .2023 .3235306
+[35] FENG K M , LI X , HAN Y , et al . Joint beamforming optimization for re ⁃
+configurable intelligent surface -enabled MISO -OFDM systems [J]. China 
+communications , 2021 , 18(3): 63–79. DOI : 10.23919 /JCC .2021 .03.006
+[36] LU Z , HAN Y , JIN S , et al . Near -filed localization and channel estima ⁃
+tion for ELAA systems [J]. IEEE transactions on wireless communica ⁃
+tions , 2023 , Early Access . DOI : 10.1109 /TWC .2023 .3336328Biographies
+LU Zhizheng received his BS degree in communications engineering from 
+Nanjing University of Science and Technology , China in 2021 . Currently , he is 
+pursuing his PhD degree in information and communications engineering from 
+Southeast University , China . His research interests include extremely large -
+scale multiple -input multiple -output , near -field channel estimation , and hybrid 
+reconfigurable intelligence surface .
+HAN Yu (hanyu@seu .edu.cn) received her BS degree in communications engi ⁃
+neering from Hangzhou Dianzi University , China in 2012 , and MS and PhD de ⁃
+grees in information and communications engineering from Southeast Universi ⁃
+ty, China in 2015  and 2020 , respectively . She was a postdoctoral fellow with 
+Singapore University of Technology and Design , Singapore till 2022 . Currently , 
+she is an associate professor with Southeast University . Her research interests 
+include extra large -scale MIMO and reconfigurable intelligent surface .
+JIN Shi (jinshi@seu .edu.cn) received his BS degree in communications engi ⁃
+neering from Guilin University of Electronic Technology , China in 1996 , MS de ⁃
+gree from Nanjing University of Posts and Telecommunications , China in 2003 , 
+and PhD degree in information and communications engineering from Southeast 
+University , China in 2007 . From June 2007  to October 2009 , he was a research 
+fellow with the Adastral Park Research Campus , University College London , 
+UK. He is currently with the National Mobile Communications Research Labo ⁃
+ratory , Southeast University . His research interests include wireless communi ⁃
+cations , random matrix theory , and information theory . He is serving as an area 
+editor for the Transactions on Communications  and IET Electronics Letters . He 
+was an associate editor for the IEEE Transactions on Wireless Communications , 
+IEEE Communications Letters , and IET Communications . Dr. JIN and his co -au⁃
+thors have been awarded the 2011  IEEE Communications Society Stephen O . 
+Rice Prize Paper Award in the field of communication theory , the IEEE Vehicu ⁃
+lar Technology Society 2023  Jack Neubauer Memorial Award , a 2022  Best Pa ⁃
+per Award and a 2010  Young Author Best Paper Award by the IEEE Signal Pro ⁃
+cessing Society . He is an IEEE fellow .
+33

@@ -1,0 +1,65 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions    Special Topic
+NearNear --Field Beam Training for Field Beam Training for 
+Holographic MIMO CommunicationsHolographic MIMO Communications ::  
+Typical MethodsTypical Methods ,, Challenges and Future Directions Challenges and Future Directions
+SHEN Jiayu1, YANG Jun2, ZHU Chen3, DENG Zhiji4, 
+HUANG Chongwen1
+(1. Zhejiang University , Hangzhou 310058 , China；
+ 2. ZTE Corporation , Shenzhen 518055 , China；
+ 3. Polytechnic Institute , Zhejiang University , Hangzhou 310015 , China；
+ 4. Zhejiang Dahua Technology Co ., Ltd., Hangzhou 310053 , China )DOI: 10.12142 /ZTECOM .202401006
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20240314 .1348 .002.html, 
+published online March 14, 2024
+Manuscript received : 2023 -12-19
+Abstract : Holographic multiple -input multiple -output (HMIMO ) has become an emerging technology for achieving ultra -high frequency spec ⁃
+tral efficiency and spatial resolution in future wireless systems . The increasing antenna aperture leads to a more significant characterization of 
+the spherical wavefront in near -field communications in HMIMO scenarios . Beam training as a key technique for wireless communication is 
+worth exploring in this near -field scenario . Compared with the widely researched far -field beam training , the increased dimensionality of the 
+search space for near -field beam training poses a challenge to the complexity and accuracy of the proposed algorithm . In this paper , we intro ⁃
+duce several typical near -field beam training methods : exhaustive beam training , hierarchical beam training , and multi -beam training that in ⁃
+cludes equal interval multi -beam training and hash multi -beam training . The performances of these methods are compared through simulation 
+analysis , and their effectiveness is verified on the hardware testbed as well . Additionally , we provide application scenarios , research chal ⁃
+lenges , and potential future research directions for near -field beam training .
+Keywords : holographic multiple -input multiple -output (HMIMO ); beam training ; near -field; equal interval multi -beam (EIMB ) training ; hash 
+multi -beam (HMB ) training
+Citation  (Format 1): SHEN J Y , YANG J , ZHU C , et al . Near -field beam training for holographic MIMO communications : typical methods , 
+challenges and future directions [J]. ZTE Communications , 2024 , 22(1): 41–52. DOI : 10.12142 /ZTECOM .202401006
+Citation  (Format 2): J. Y. Shen , J. Yang , C. Zhu, et al ., “Near -field beam training for holographic MIMO communications : typical methods , chal ⁃
+lenges and future directions ,” ZTE Communications , vol. 22, no. 1, pp. 41–52, Mar. 2024 . doi: 10.12142 /ZTECOM .202401006 .
+1 Introduction
+Holographic multiple -input multiple -output (HMIMO ), 
+known as the advanced MIMO technology[1–2], and 
+large intelligent surfaces[3] are utilized by the next gen ⁃
+eration of wireless networks to meet stringent require ⁃
+ments for data rates , connectivity , and reliability . The spatially 
+continuous aperture in HMIMO schemes enhances both spatial 
+resolution and beamforming gains by utilizing compact radiat ⁃
+ing elements[4]. In the HMIMO setting , high -frequency commu ⁃
+nication is an important feature and application . High -
+frequency signals , like the millimeter -wave (mmWave ), are sus ⁃
+ceptible to obstruction and attenuation by obstacles during 
+transmission , and the beams are narrow and directional . So, the 
+beamforming technique is extremely important , by which the 
+signal can be transmitted in the form of a directional beam[5–6]. 
+By leveraging this technology , it is possible to provide position ⁃
+ing services in cellular networks over ultra -wide bandwidths 
+with unprecedented accuracy , making it a promising service for 6G networks[7–8]. Meanwhile , for communication issues , beam ⁃
+forming brings higher spatial resolution and beam directivity , 
+making the energy concentrated in a certain direction to realize 
+high signal -to-noise ratio (SNR) transmission , but it requires 
+precise knowledge of the angle of arrival (AoA) and angle of de ⁃
+parture (AoD) of the propagation channel . Typically , AoA and 
+AoD are obtained during the beam training process before the 
+data transmission . Beam training overhead is a major burden 
+that reduces spectral efficiency . The beam management proce ⁃
+dure of the 802.11ad millimeter -wave standard consists of alter ⁃
+nating base stations sweeping the entire angular space , and its 
+beam training overhead is proportional to the spatial resolution , 
+the number of base stations , and the degree of dynamics of the 
+propagation environment[9]. As a result , the beam training over ⁃
+head increases with narrower beamwidths brought about by 
+large -scale antenna arrays and more users . Therefore , beam 
+training methods that combine low complexity and high accu ⁃
+racy are needed .
+41

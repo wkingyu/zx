@@ -1,0 +1,35 @@
+ZTE’s Tangxue: 5G+AI for 
+Integrated Communication 
+and Computing
+Source: RCRWireless.com
+The rapid advancement of artiﬁcial intelligence(AI) is revolutionizing various industries, ushering in a new era of 
+innovation. Pioneering AI models such as ChatGPT and Sora by OpenAI, and Gemini by Google are at the forefront of this 
+transformation, providing users with an expanded realm for creativity and imagination and opening up unprecedented 
+possibilities. AI models are fundamentally reshaping social structures and daily routines by improving the ability to 
+generate new ideas, solve complex problems, and automate routine tasks. Tang Xue, Vice President of ZTE, recently 
+shared valuable insights and experiences with experts from diverse ﬁelds at the GSMA panel on Convergence of 5G & AI 
+at the Edge during MWC2024 in Barcelona, Spain.Tang Xue, Vice Preside nt of ZTE
+“The integration of 5G and AI oﬀers both opportunities 
+and challenges for 5G network development and 
+monetization. It unlocks innovative applications like 
+deterministic connections, edge rendering, and V2X 
+applications.”
+Tang Xue emphasized/uni00A0 that the integration of 
+5G and AI is inevitable, ushering more 
+possibilities for new business models and 
+applications. As the/uni00A0 edge node/uni00A0 closest to users, 
+performing AI processing at 5G network can 
+eﬀectively reduce data transmission delay, 
+improve data processing eﬃciency, and reduce 
+the cost of AI applications. While 5G networks 
+provide large bandwidth, high speed, and low latency, making it ideal for supporting the 
+connection and computing requirements for 
+distributed AI computing. The integration of 5G 
+and AI not only can achieve /f_lexible collaboration 
+of cloud and network, but also provide stronger 
+intelligent capabilities, allowing 5G to adaptively 
+optimize and adjust according to data 
+characteristics and scenario requirements, 
+improving network performance and eﬃciency.
+/uni00A0
+ 34Press Clipping 

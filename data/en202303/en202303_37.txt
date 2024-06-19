@@ -1,0 +1,161 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3SHEN Jiahao , JIANG Ke , TAN Xiaoyang Boundary Data Augmentation for Offline Reinforcement Learning    Special Topic
+satisfies the low confidence requirement .
+5.4.2 Study of Parameter λ
+The parameter λ in Eq . (6) affects the behavior of the net ‐
+work when using generated data . Specifically , a higher value 
+of λ results in a more conservative behavior , while a lower 
+value leads to greater flexibility . To investigate the impact of 
+λ on the performance of the network , we conduct experiments 
+while keeping the other parameters constant , and the results 
+are presented in Table 3, which indicates that a large value of 
+λ can be detrimental to performance when the environment is 
+diverse , and therefore , a milder value of λ may be more appro ‐priate . Based on the results , a value of λ=1.0 should be suit ‐
+able in most situations .
+6 Conclusions
+The proposed method BCQL improves the robustness of of ‐
+fline reinforcement learning algorithms while maintaining con ‐
+sistency with the original data distribution , based on a novel 
+OOD simulation technique using a GAN . Extensive experi ‐
+ments are performed on several publicly available offline RL 
+benchmarks , showing that the proposed BCQL method 
+achieves state -of-the-art performance while maintaining high 
+robustness and conservation . Our work highlights the benefits 
+of improving the robustness of offline reinforcement learning 
+algorithms , which is an important research direction given the 
+increasing interest in offline RL applications .
+References
+[1] CHEN D , CHEN K A , LI Z J , et al . PowerNet : multi -agent deep reinforcement 
+learning for scalable powergrid control [J]. IEEE transactions on power systems , 
+2022 , 37(2): 1007–1017 . DOI : 10.1109 /TPWRS .2021 .3100898
+[2] CHEN X C , YAO L N , MCAULEY J , et al . A survey of deep reinforcement 
+learning in recommender systems : a systematic review and future directions 
+[EB/OL ]. (2021 -09-08)[2023 -04-12]. https ://arxiv .org/abs/ 2109 .03540
+[3] OLIFF H , LIU Y , KUMAR M , et al . Reinforcement learning for facilitating 
+human -robot -interaction in manufacturing [J]. Journal of manufacturing sys ‐
+tems, 2020 , 56: 326–340. DOI : 10.1016 /j.jmsy.2020 .06.018
+[4] YU C , LIU J M , NEMATI S , et al . Reinforcement learning in healthcare : a sur ‐
+vey [J]. ACM computing surveys , 2023 , 55(1): 1–36. DOI : 10.1145 /3477600
+[5] GRIGORESCU S , TRASNEA B , COCIAS T , et al . A survey of deep learning 
+techniques for autonomous driving [J]. Journal of field robotics , 2020 , 37(3): 
+362–386. DOI : 10.1002 /rob.21918
+[6] FUJIMOTO S , MEGER D , PRECUP D . Off -policy deep reinforcement learning 
+without exploration [C]//International Conference on Machine Learning . PMLR , 
+2019 : 2052–2062 . DOI : 10.48550 /arXiv .1812 .02900
+[7] LEVINE S , KUMAR A , TUCKER G , et al . Offline reinforcement learning : tuto‐
+rial, review and perspectives on open problems [EB/OL ]. (2020 -05-04)[2023 -04-
+12]. https ://arxiv .org/abs/ 2005 .01643
+[8] KUMAR A , ZHOU A , TUCKER G , et al . Conservative Q -learning for offline re ‐
+inforcement learning [EB/OL ]. (2020 -06-08)[2022 -11-08]. https ://arxiv .org/abs/
+2006 .04779
+[9] COUPRIE C , FARABET C , NAJMAN L , et al . Indoor semantic segmentation 
+using depth information [EB/OL ]. (2013 -01-16) [2023 -04-02]. https ://arxiv .org/
+abs/1301 .3572
+[10] MCCRACKEN M W . Robust out -of-sample inference [J]. Journal of economet ‐
+rics, 2000 , 99(2): 195–223. DOI : 10.1016 /S0304 -4076 (00)00022 -1
+[11] YU T H , THOMAS G , YU L T , et al . MOPO : model -based offline policy opti ‐
+mization [EB/OL ]. (2020 -05-27)[2022 -10-08]. https ://arxiv .org/abs/ 2005 .13239
+[12] GUO K Y , SHAO Y F , GENG Y H . Model -based offline reinforcement learn ‐
+ing with pessimism -modulated dynamics belief [EB/OL ]. (2022 -10-13) [2023 -
+04-02]. https ://arxiv .org/abs/ 2210 .06692
+[13] WU C Y , MANMATHA R , SMOLA A J , et al . Sampling matters in deep em ‐
+bedding learning [C]//IEEE International Conference on Computer Vision 
+(ICCV ). IEEE , 2017 : 2859–2867 . DOI : 10.1109 /ICCV .2017 .309
+[14] SHRIVASTAVA A , GUPTA A , GIRSHICK R . Training region -based object 
+detectors with online hard example mining [C]//IEEE Conference on Com ‐
+puter Vision and Pattern Recognition (CVPR ). IEEE , 2016 : 761–769. DOI : 
+10.1109 /CVPR .2016 .89
+[15] ROBINSON J , CHUANG C Y , SRA S , et al . Contrastive learning with hard 
+negative samples [EB/OL ]. (2020 -10-09) [2023 -03-23]. https ://arxiv .org/abs/▼Table 3. Performance of BCQL with different λ, on the normalized 
+return metric (the highest means are bolded )
+Task Name
+Halfcheetah -medium -v2
+Hopper -medium -v2
+Walker 2d-medium -v2
+Halfcheetah -medium -replay -v2
+Hopper -medium -replay -v2
+Walker 2d-medium -replay -v2
+Halfcheetah -medium -expert -v2
+Hopper -medium -expert -v2
+Walker 2d-medium -expert -v2
+Halfcheetah -expert -v2
+Hopper -expert -v2
+Walker 2d-expert -v2λ=0 (CQL)
+47.1±0.2
+64.9±4.1
+80.4±3.5
+45.2±0.6
+87.7±14.4
+79.3±4.9
+96±0.8
+93.9±14.3
+109.7±0.5
+96.3±1.3
+106.5±14.3
+108.5±0.5λ=0.5
+46.8±1.3
+64.8±7.6
+84.6±2.5
+45.0±1.0
+90.2±10.5
+82.5±7.3
+95.2±0.4
+94.0±8.7
+110.2±1.0
+98.4±3.2
+109.7±7.9
+108.7±0.3λ=1
+47.1±0.7
+64.3±4.2
+81.8±2.1
+44.9±0.5
+93.9±11.8
+80.7±5.5
+97.5±3.2
+95.9±13.3
+110.1±0.5
+97.4±2.3
+111.7±8.3
+109.7±1.0λ=1.5
+46.1±2.2
+66.1±7.2
+79.3±4.5
+46.1±1.5
+83.5±14.4
+77.7±8.9
+96.9±1.1
+94.8±11.3
+109.3±0.3
+98.2±1.3
+111.2±10.2
+109.5±0.5
+BCQL : Boundary Conservative Q Learning       CQL : Conservative Q -Learning▼Table 2. KL divergence between generated states and origin states un ‑
+der different βG in a walker 2d-medium environment
+βG
+0.2
+0.4
+0.5KL Divergence
+0.08
+0.21
+0.34βG
+1.0
+1.5
+2.0KL Divergence
+0.41
+0.57
+0.76
+KL: Kullback -Leibler
+▲Figure 5. Confidence of actions on generated data under different  βG 
+in a walker 2d-medium environmentConfidence of actions/%0  20 40 60 80 100βG= 1.0
+βG= 0.5
+βG= 2.0
+RealDensity0.040
+0.035
+0.030
+0.025
+0.020
+0.015
+0.010
+0.005
+0.000
+35

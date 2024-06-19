@@ -1,0 +1,104 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+should be utilized . In the reactive near field where the EM 
+fields are reactive , signals are not propagated as EM waves 
+but stored or released as energy . Since the distance of the re ⁃
+active near field is very small , the near field in the following 
+discussion mainly refers to the radiating near field .
+Additionally , as depicted in Fig . 1, we categorize the far 
+and near fields into three models[17]. 1) Uniform planar wave 
+(UPW ): in the far field , signal propagation typically conforms 
+to this model where the phase difference in signal transmis ⁃
+sion is linear and the transmitted power is uniform for differ ⁃
+ent antenna elements . 2) Uniform spherical wave (USW ): in 
+the near field , when the distance between the transmitter and 
+receiver is less than the Rayleigh distance but greater than the 
+uniform power distance[17, 22], the phase difference between the 
+signals propagated by different antennas is nonlinear while 
+the transmitted power is uniform . 3) Non -uniform spherical 
+wave (NUSW ): in the near field , when the distance between 
+the transmitter and the receiver is less than the uniform power 
+distance , the phase difference between the signals propagated 
+by different antennas is nonlinear and the transmitted power is 
+not uniform .
+2.2 Generic Channel Modeling
+In this section , we first derive a general channel model con ⁃
+sidering MIMO systems . After that , we analyze a simple sce ⁃
+nario of a multiple -input single -output (MISO ) system with a 
+uniform linear array (ULA ) array at the base station to gain 
+more insights .
+2.2.1 MIMO Channel Model
+As shown in Fig. 2, we first analyze the channel model of the 
+MIMO system . Let us consider a MIMO system that includes a 
+transmitter with Nt antennas and user equipment (UE) with Nr 
+antennas . We first set the center of the BS antenna as the origin , i.e., s0=[0,0,0]T. Then , the locations of the m-th element of BS 
+and the n-th antenna of UE can be expressed by sm=
+[sm
+x, sm
+y, sm
+z]T, ∀m=-(Nt-1)2,⋯,(Nt-1)2 and un=
+[un
+x, un
+y, un
+z]T, ∀n=-(Nr-1)2,⋯,(Nr-1)2, respectively . 
+In addition , the distance between the m-th antenna of UE and 
+the n-th element of BS is given by rm,n= un-sm. Then , the 
+line -of-sight (LoS) channel coefficient can be expressed as :
+[HLoS]m,n=αm,ne-j2π
+λrm,n,(1)
+where αm, n represents the amplitude for the channel link be ⁃
+tween the m-th antenna of BS and the n-th element of UE .
+1) Far -field channel
+Firstly , we can define the propagation direction vector from 
+the transmitter to UE as follows :
+v(θ,ϕ)=[cosθsinϕ,sinθsinϕ,cosϕ]T. (2)
+Based on the plane -wave assumption[23] for the far -field 
+channel , the propagation distance can be approximated by 
+rm,n≈r0-vT(θ, ϕ)sm-vT(θ, ϕ)(un-u0), where r0=
+ u0-s0 denotes the distance between the central elements 
+of the receiving and the transmitting antenna arrays . More ⁃
+over, we assume αm,n≈α, where α denotes the amplitude for 
+the channel link between the central antenna elements of the 
+transmitter and the UE . Then , the LoS far -field channel coeffi ⁃
+cient can be rewritten as :
+[Hfar
+LoS]m,n=αm,ne-j2π
+λrm,n≈αe-j2π
+λr0ej2π
+λvT(θ,ϕ)smej2π
+λvT(θ,ϕ)()un-u0.
+(3)
+From the channel coefficients in Eq . (3), we can decouple 
+the MIMO channel into the product of two array response vec ⁃
+tors. Therefore , the far -field LoS MIMO channel can be ex ⁃
+pressed as :
+Hfar
+LoS=αaUE
+far(θ,φ)(aTR
+far(θ,φ))T, (4)
+where
+aUE
+far(θ,φ)=é
+ëêêêêej2π
+λvT(θ,ϕ)( )u-(Nr-1)2-u0,⋯,j2π
+λvT(θ,ϕ)( )u(Nr-1)2-u0ù
+ûúúúúT
+,
+(5)
+aTR
+far(θ,φ)=é
+ëêêêêej2π
+λvT(θ,ϕ)s-(Nt-1)2,⋯,ej2π
+λvT(θ,ϕ)s
+(Nt-1)2ù
+ûúúúúT
+.
+(6)
+Furthermore , the form of the far -field non -line -of-sight 
+(NLoS ) channel is similar to the far -field LoS channel . There ⁃
+fore, the overall far -field MIMO channel model with multi -
+path components is given by :
+ ▲Figure 2. Near -field channel modelNLoS : non -line -of-sightScattererUser
+NLoS pathLoS pathNLoS pathScattererBase station
+LoS: line -of-sight
+05

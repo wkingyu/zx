@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin Research Papers   A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate
+64QAM and the attenuator is adjusted to make the best perfor ‐
+mance . Then the performance at the LO frequency of 204 GHz 
+and 216 GHz are tested respectively .
+The THz attenuation is removed so that the transmitter 
+and the receiver are directly connected back -to-back . The 
+PDRO at the receiver side is replaced as the signal source is 
+input to achieve the effect of transmitting and receiving LO 
+frequency offset by changing the signal source input . The 
+range of frequency offset measurement is 0–1 MHz with a 
+step of 0.1 MHz . The variation of SNR with the amount of fre ‐
+quency offset is shown in Fig . 13. The baseband signal in the 
+receiving section is a single sideband . The LO frequency bias 
+corresponds to the overall offset of the baseband spectrum and 
+there is no signal crossover . Therefore , as long as the fre ‐
+quency bias is less than the threshold , the SNR is basically 
+unchanged . When the frequency offset exceeds the threshold 
+value , the SNR deteriorates sharply and the BER is 1.
+After measurement , the frequency bias threshold of this 
+communication system is 2.5 MHz . The photograph of the com ‐
+munication experiment is shown in Fig . 14. The corresponding 
+constellation diagram is shown in Fig . 15, where the demodu ‐
+lation SNR of the uplink channel is 22.91 dB when the LO fre ‐
+quency is 204 GHz and the demodulation SNR of the down ‐
+link channel is 23.19 dB when it is 216 GHz . The BER is less 
+than 10−8. The final transmission distance of this communica ‐
+tion system is 15 m, which can reach 20 m by calculation be ‐cause of spare capacity in the link . The comparison of the pre ‐
+viously published THz wireless links with ours is shown in 
+Table 1.
+5 Conclusions
+In this paper , the front -end key components including a 
+220 GHz sub -harmonic mixer and a 220 GHz duplexer are de ‐
+signed for the application requirements of the THz frequency -
+division multiplexing communication system . The sub -
+harmonic mixer is designed based on the domestic Schottky di ‐
+ode, which has a fixed fundamental frequency of 204 GHz and 
+216 GHz . The frequency conversion loss is less than 10.5 dB 
+at 20 GHz . The 220 GHz duplexer is designed based on the 
+principle of the cavity filter . The range of the duplexer pass ‐
+band is 197–203 GHz and 207–213 GHz , and the return 
+loss in the common port is less than 15 dB, which can effec ‐
+tively divide the channel of the communication system and 
+suppress the mirror frequency . Based on the above circuit de ‐
+(a) (b) (c)
+▲Figure 12. Constellation diagrams with different signal -to-noise ratio 
+SNR : (a) 17.79 dB, (b) 19.85 dB, and (c) 22.62 dB
+▲Figure 13. Variation of SNR with different frequency biasIF: intermediate frequency     SNR : signal -to-noise ratio
+▲Figure 14. (a) Uplink transmit and downlink receive ; (b) downlink 
+transmit and uplink receive(a) (b)
+(a) (b)
+▲Figure 15. Constellation diagram : (a) 204 GHz uplink ; (b) 216 GHz 
+downlink
+▼Table 1. Experimental prototype performance comparison of tera ‑
+hertz (THz ) wireless communication systems
+Reference
+Ref. [2]
+Ref. [3]
+Ref. [5]
+Our proposed 
+workFrequency/
+GHz
+120
+290
+220–225
+220
+204/216Transmission 
+Rate/ (Gbit/s )
+10
+120
+110
+10.4
+10.4/10.4Modulation 
+Format
+ASK
+16QAM
+QPSK
+16QAM
+16QAMTransmission 
+Distance/m
+1
+9.8
+1
+15
+15Real -Time
+Transmission
+No
+No
+No
+Yes Frequency bias/MHz-0.2 0.0 0.2 0.4 0.6 0.8 1.0 1.2SNR/dB26
+24
+22
+20
+18
+16
+14Zero IF
+Superheterodyne-1 0 1 -1 0 1 -1 0 11
+0
+-11
+0
+-11
+0
+-1
+1
+0
+-1
+-1 0 1 -1 0 11
+0
+-1
+ASK: amplitude shift keying
+QAM : quadrature amplitude modulationQPSK : Quadrature Phase Shift Keying
+68

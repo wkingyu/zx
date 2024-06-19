@@ -1,0 +1,87 @@
+Fig. 1. Data architecture 
+of cross-domain 
+collaboration solution 
+for autonomous networks.analysis and processing of big data, it 
+intelligently analyzes and precisely locates 
+problems, ranging from individual call 
+detail records to the entire network. 
+Moreover, VMAX extends its capabilities and 
+interconnects intelligent tools from diﬀerent 
+domains through the OpenAPI interface. 
+Leveraging intelligent core algorithms, 
+this approach addresses the challenge 
+of diverse protocols and characteristics 
+in individual domains, which previously 
+hindered collaborative eﬀorts. By taking a 
+multi-layered approach that encompasses 
+native network elements, single-domain 
+automation, and cross-domain collaboration, 
+it enables automatic closed-loop of 
+full-domain network automation and 
+problem handling (Fig. 1). 
+In the complaint handling scenario, the 
+typical approach heavily relies on manual 
+intervention with tools from individual 
+domains as auxiliary support. However, this 
+can result in lengthy complaint processing 
+cycles and substantial expenditure of 
+manpower resources. To address these 
+challenges, ZTE leverages its VMAX big data 
+platform that employs cutting-edge data 
+mining algorithms to achieve end-to-end 
+automatic complaint demarcation, covering 
+terminals, transmission, wireless, core networks, and SPs. The platform also 
+correlates wireless measurement reports 
+(MR), performance data, and alarm data. 
+Through fault tree analysis across various 
+complaint user scenarios, user-level root 
+causes can be drilled, and problems can 
+be located and handled quickly. In some 
+scenarios, automatic closed-loop of 
+complaint handling can be achieved. For 
+example, in the TNR coverage problem 
+analysis, the platform utilizes ZTE’s 
+wireless intelligence function—automatic 
+antenna pattern control (AAPC) through 
+an OpenAPI interface. By employing the 
+AAPC weight optimization solution, it 
+automatically distinguishes the scenarios 
+with coverage problems and establishes 
+a relative coordinate system based on the 
+direction of arrival (DOA) data, enabling 
+automatic weight optimization without 
+relying on engineering parameters. This 
+ensures personalized weight deployment 
+and automatic optimization with a 
+“one-station, one-scenario, one-weight” 
+approach, leading to true “zero-touch” 
+fully automated optimization. According 
+to the evaluation criteria of TMF 
+Autonomous Network Whitepaper 4.0, this 
+scenario almost achieves L4 automation 
+capability. Additionally, it interconnects 
+Single-domain
+intelligence
+tool
+OSS
+intelligence
+platform
+Data collectionAAPC
+(Wireless)
+AIMIND
+Wireless data Bearer data Probe dataCCA fast
+demarcation
+CCH precise
+location
+Automatic
+closed loopCustomer
+complaint
+handling 
+platform
+Core network
+dataFMS PMSAAX
+(Wireless)BigDNA
+(Bearer)Magiceye
+(Core network)
+VMAX
+22Digital & Intelligent Network Services Special Topic

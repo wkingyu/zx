@@ -1,0 +1,103 @@
+基于视距概率模型的 6G室内无线通信系统性能分析 毛曦晨  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6明，视距概率伴随与基站间的距离的增加而降低 ，但由于障
+碍物存在 ，视距概率存在起伏 。当用户与基站距离超过 30 m
+时，几乎不存在视距信号 ，且信号质量较差 。一味提升基站
+密度与信号功率可以提升覆盖概率 ，但效果并不显著 ，反而
+会降低系统能效 。优化基站部署以及建筑室内布局同样是提
+升系统性能的可行方法 。
+参考文献
+[1] 中国联通 . 中国联通 5G数字化室分技术白皮书  [R]. 2019
+[2] ITU. Framework and overall objectives of the future development of IMT for 
+2030  and beyond : ITU-R 1-8 [S]. 2023
+[3] WANG C X , YOU X H , GAO X Q , et al . On the road to 6G: visions , 
+requirements , key technologies , and testbeds [J]. IEEE communications 
+surveys & tutorials , 2023 , 25(2): 905-974. DOI : 10.1109 /
+COMST .2023 .3249835
+[4] YOU X H , WANG C X , HUANG J , et al . Towards 6G wireless 
+communication networks : vision , enabling technologies , and new paradigm 
+shifts [J]. Science China information sciences , 2021 , 64(1): 110301 . DOI : 
+10.1007 /s11432 -020-2955 -6[5] YIN L , HAAS H . Coverage analysis of multiuser visible light communication 
+networks [J]. IEEE transactions on wireless communications , 2018 , 17(3): 
+1630 -1643 . DOI: 10.1109 /TWC .2017 .2782694
+[6] ABOAGYE S , IBRAHIM A , NGATCHED T M N , et al . Design of energy 
+efficient hybrid VLC/RF/PLC communication system for indoor networks [J]. 
+IEEE wireless communications letters , 2020 , 9(2): 143-147. DOI : 10.1109 /
+LWC .2019 .2946144
+[7] LOU Z Y , BELMEKKI B E Y , ALOUINI M S . Coverage analysis of hybrid RF/
+THz networks with best relay selection [J]. IEEE communications letters , 
+2023 , 27(6): 1634 -1638 . DOI: 10.1109 /LCOMM .2023 .3267900
+[8] 3GPP. Study on channel model for frequencies from 0.5 to 100 GHz : 3GPP 
+TR 38.901 [S]. 2018
+[9] WU Y Z , KOKKONIEMI J , HAN C , et al . Interference and coverage analysis 
+for terahertz networks with indoor blockage effects and line-of-sight 
+access point association [J]. IEEE transactions on wireless communications , 
+2021 , 20(3): 1472 -1486 . DOI: 10.1109 /TWC .2020 .3033825
+[10] LI Z Y , HU H N , ZHANG J L , et al . Coverage analysis of multiple 
+transmissive RIS-aided outdoor-to-indoor mmWave networks [J]. IEEE 
+transactions on broadcasting , 2022 , 68(4): 935-942. DOI : 10.1109 /
+TBC.2022 .3196169
+[11] NEMATI M , MAHAM B , POKHREL S R , et al . Modeling RIS empowered 
+outdoor-to-indoor communication in mmWave cellular networks [J]. IEEE 
+transactions on communications , 2021 , 69(11): 7837 -7850 . DOI : 10.1109 /
+TCOMM .2021 .3104878
+[12] LI J, BAO X , ZHANG W C , et al . QoE probability coverage model of indoor 
+visible light communication network [J]. IEEE access , 2020 , 8: 45390 -
+45399 . DOI: 10.1109 /ACCESS .2020 .2977936
+[13] YANG W F , ZHANG J L , GLAZUNOV A A , et al . Line-of-sight probability 
+for channel modeling in 3-D indoor environments [J]. IEEE antennas and 
+wireless propagation letters , 2020 , 19(7): 1182 -1186 . DOI : 10.1109 /
+LAWP .2020 .2994392
+[14] ZHENG H , ZHANG J L , LI H , et al . Exact line-of-sight probability for 
+channel modeling in typical indoor environments [J]. IEEE antennas and 
+wireless propagation letters , 2018 , 17(7): 1359 -1362 . DOI : 10.1109 /
+LAWP .2018 .2846748
+[15] AL-HOURANI A , KANDEEPAN S , LARDNER S . Optimal LAP altitude for 
+maximum coverage [J]. IEEE wireless communications letters , 2014 , 3(6): 
+569-572. DOI: 10.1109 /LWC .2014 .2342736
+[16] YANG S J , ZHANG J L , ZHANG J . Energy efficiency optimization in 
+millimeter-wave air-to-ground links under UAV wobbling [C]//
+Proceedings of 2022  IEEE 33rd Annual International Symposium on 
+Personal , Indoor and Mobile Radio Communications (PIMRC ). IEEE , 2022 : 
+572-576. DOI: 10.1109 /PIMRC 54779 .2022 .9977967
+[17] ITU. Propagation data and prediction methods required for the design of 
+terrestrial broadband radio access systems operating in a frequency range 
+from 3 GHz to 60 GHz : P.1410 -6 [S]. 2023
+[18] WANG C X , LV Z , GAO X Q , et al . Pervasive wireless channel modeling 
+theory and applications to 6G GBSMs for all frequency bands and all 
+scenarios [J]. IEEE transactions on vehicular technology , 2022 , 71(9): 
+9159 -9173 . DOI: 10.1109 /TVT.2022 .3179695
+[19] FU Y , WANG C X , MAO X C , et al . Spectrum-energy-economy efficiency 
+analysis of B 5G wireless communication systems with separated indoor/
+outdoor scenarios [J]. IEEE transactions on wireless communications , 
+2023 , early access . DOI: 10.1109 /TWC .2023 .3273261
+作 者 简 介
+毛曦晨 ，东南大学在读博士研究生 ；主要研究方
+向为 6G无线通信系统性能优化 、室内通信系统设
+计与优化 。
+图7 不同基站数量下的覆盖概率
+图8 不同基站数量下的能量效率1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+0覆盖概率
+用户与基站间距离 /m0    20  40   60   80 1001基站
+2基站
+3基站
+1基站
+2基站
+3基站
+用户与基站间距离 /m0            10            20           30            40           50           601 200
+1 000
+800
+600
+400
+200
+0能量效率 /（bit·J-1）
+44

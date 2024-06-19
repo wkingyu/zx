@@ -1,0 +1,106 @@
+scenarios (5G+ UHD video, 5G+ remote control, 
+5G+ cloud-based AGV, 5G+ machine vision, 5G+ 
+drone, 5G+ cloud robot, 5G+ AR, and 5G+ VR) and 
+smart grids.
+To meet diﬀerentiated service requirements 
+across diﬀerent industries, the transport network 
+needs to possess the following features:
+Hard isolation slicing:  In the industrial sector, 
+diverse scenarios including production control, 
+collection/detection, and information monitoring, 
+require end-to-end hard isolation slicing for 
+eﬀective management of mixed and complex 
+traﬃc /f_lows.
+Carrier-class reliability:  Production services in the 
+industrial Internet and smart grids require 
+99.999% or higher network reliability. This 
+necessitates end-to-end high-reliability network 
+protection and recovery mechanisms, and 
+carrier-class O&M. 
+Deterministic transport: For deterministic needs 
+in scenarios like industrial control and monitoring, 
+research is crucial for constructing end-to-end 
+deterministic networks and innovating 
+deterministic transport technology across 
+wide-area heterogeneous networks.
+Flexible access and scheduling: In the industrial 
+sector, service terminals and types vary widely, 
+featuring diverse network interfaces, protocols, 
+and communication demands. A key aspect of a 
+transport network is to ensure extensive access, 
+collaborative operation, and /f_lexible, eﬃcient scheduling and forwarding of heterogeneous 
+terminals.
+Versatile service perception: In-depth service 
+perception and the application of new ICT 
+technologies strongly support the digital 
+transformation and high-quality development of 
+industrial users. Achieving deep integration with 
+these technologies presents a major challenge for 
+communication networks. 
+Intelligent control and O&M: Intelligent, 
+convenient and open network O&M greatly 
+improves the operational eﬃciency and 
+autonomy of various industrial Internet services. It 
+reduces response time for new service 
+deployment, enabling agile innovation in the 
+industry.
+Standardization and Technical 
+Features of SPN 2.0
+SPN 2.0 surpasses SPN 1.0 in multiservice transport, 
+cloud-network convergence, network coverage, 
+intelligent control and O&M, and low-carbon energy 
+eﬃciency. With new frame structures and 
+cross-connect technologies supporting N×10 Mbps  
+/f_ine granularity units (FGU), it expands 10GE small 
+access SPN devices for private line access and 
+industrial campus application. Moreover, it 
+enhances the integrated transport of 5G+ vertical 
+industries, enterprise private lines, and 
+cloud-network/computing-network convergence 
+ 
+ 
+ 
+ 
+ 
+ 
+Table 1. Transport 
+capabilities and 
+index requirements 
+for communication 
+networks across 
+various industry 
+scenarios.Machine 
+visionVR 
+(partially 
+immersed)Diﬀerential 
+protectionPMU5G+MEC+slicing 
+remote control
+Latency5G+ industrial Internet 5G+ smart grids
+Jitter
+Reliability
+Committed 
+bandwidth
+Synchronization 
+time-frequency1~2 ms 5~10 ms 30~50 ms 2~5 ms <30 ms≤3 ms 
+(control)10~100 ms <10 ms <30 ms 2~5 ms 20 ms
+—
+—— — 100 us — — — — —Two-way 
+latency 
+diﬀerence
+200 us—
+99.99% 99.999% 99.9% 99.999% 99.9%99.99% 
+(control)99.9999% 99.999% 99.999% 99.999% 99.9999%
+Uplink:
+>50M≤2M ≤2MDownlink: 
+≤2M12~40 Mbps4 Mbps/
+channel>10 Mbps>50 Mbps 
+(uplink)>10 0 Mbps ≤2M10 Mbps~ 
+1 Gbps
+1 us-level 
+timing— — — — — — —10 us-level 
+timing—Remote 
+controlAGVUltra HD
+videoDroneCloud 
+robotAR
+APR 2024 
+ 07

@@ -1,0 +1,71 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Massive Unsourced Random Access Under Carrier Frequency Offset   Research Papers
+Massive Unsourced Random Access Massive Unsourced Random Access 
+Under Carrier Frequency OffsetUnder Carrier Frequency Offset
+XIE Xinyu1, WU Yongpeng1, YUAN Zhifeng2,3, MA Yihua2,3
+(1. Shanghai Jiao Tong University , Shanghai 200240 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China；
+ 3. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China )DOI: 10.12142 /ZTECOM .202303007
+https ://link .cnki.net/urlid/ 34.1294 .TN.20230830 .1507 .003, published online 
+August 30, 2023
+Manuscript received : 2022 -05-22
+Abstract : Unsourced random access (URA ) is a new perspective of massive access which aims at supporting numerous machine -type users . 
+With the appearance of carrier frequency offset (CFO), joint activity detection and channel estimation , which is vital for multiple -input and 
+multiple -output URA , is a challenging task . To handle the phase corruption of channel measurements under CFO , a novel compressed sensing 
+algorithm is proposed , leveraging the parametric bilinear generalized approximate message passing framework with a Markov chain support 
+model that captures the block sparsity structure of the considered angular domain channel . An uncoupled transmission scheme is proposed to 
+reduce system complexity , where slot -emitted messages are reorganized relying on clustering unique user channels . Simulation results reveal 
+that the proposed transmission design for URA under CFO outperforms other potential methods .
+Keywords : activity detection ; channel estimation ; frequency offset ; massive machine -type communication ; massive MIMO
+Citation  (Format 1): XIE X Y , WU Y P , YUAN Z F , et al . Massive unsourced random access under carrier frequency offset [J]. ZTE Communi ‐
+cations , 2023 , 21(3): 45–53. DOI : 10.12142 /ZTECOM .202303007
+Citation  (Format 2): X. Y. Xie, Y. P. Wu, Z. F. Yuan , et al ., “Massive unsourced random access under carrier frequency offset ,” ZTE Commu ⁃
+nications , vol. 21, no. 3, pp. 45–53, Sept . 2023 . doi: 10.12142 /ZTECOM .202303007 .
+1 Introduction
+Massive machine -type communication (mMTC )[1], 
+also known as massive access[2], is one of the three 
+typical application scenarios in the 5G mobile com ‐
+munication system . MMTC aims at establishing re ‐
+liable communications for a massive number of cheap devices 
+with sporadic data stream patterns and short packet length , 
+which is quite different from conventional human -type commu ‐
+nications (HTC ). Hence , the design of efficient massive con ‐
+nectivity schemes requires investigating novel theories and 
+paradigms .
+To reduce signaling overhead and latency , existing mMTC 
+schemes generally follow a grant -free random access (RA) pro‐
+tocol[3] where users directly transmit data to the base station 
+(BS) without any approval . One type of grant -free RA 
+scheme[4–6] allocates unique pilots as identities to users ; they 
+are sent first as preambles for activity detection (AD) and 
+channel estimation (CE). Data transmission happens in the 
+next stage leveraging efficient RA techniques like sparse code 
+multiple access (SCMA )[7] with individual user codebooks . A 
+novel paradigm of unsourced random access (URA ) was first addressed in Ref . [8]. Different from pilot -based RA schemes , 
+URA users are forced to use the same codebook for data trans ‐
+mission . Since the transmitted codewords contain no user iden ‐
+tities , the BS only acquires a list of transmitted messages with ‐
+out linking them to specific active users . A finite block -length 
+(FBL) achievability bound was derived in Ref . [8], and it is 
+found that there exists an important gap between conventional 
+RA schemes like ALOHA and the benchmark .
+It is evident that an intuitive URA scheme is closely related 
+to a compressed sensing (CS) recovery problem , involving AD 
+to the set of codewords each linked to a potential message se ‐
+quence . However , directly applying CS techniques is impracti ‐
+cal because the codebook size grows exponentially to the mes ‐
+sage length . To approach the FBL bound with manageable 
+complexity , the coded compressed sensing (CCS) framework[9] 
+is investigated which couples an outer tree code and an inner 
+CS code . More specifically , each datum is partitioned into sev ‐
+eral sub -blocks ; they are coupled by appending parity check 
+bits generated from linear block coding , thereby forming frag ‐
+ments to be sent over multiple slots using a common code ‐
+book . The BS detects codeword activity via a CS recovery 
+method , and then reconstructs the original messages by a tree -
+based forward error correction strategy .
+Utilizing a large number of antennas at the BS , the massive 
+This work was supported by the ZTE Industry⁃University⁃Institute Cooper ⁃
+ation Funds under Grant No . HC⁃CN⁃ 20201116001 .
+45

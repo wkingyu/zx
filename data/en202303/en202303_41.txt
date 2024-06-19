@@ -1,0 +1,131 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Zhihao , ZHANG Yueping Differential Quasi -Yagi Antenna and Array    Research Papers
+them . Thereby , the surface wave of the TE0 mode is guided to 
+radiate in the end -fire direction . On the other hand , due to the 
+existence of the ground plane or the reflector , the surface wave 
+of the TE0 mode cannot be propagated in the grounded sub ‐
+strate region and will be reflected , which further strengthens 
+the radiation in the end -fire direction .
+It should be pointed out that the surface wave of the TM0 
+mode is quite weakly excited , which can propagate along the 
+axial directions of the driver in both the grounded and un ‐
+grounded substrate regions . It causes cross -polarized radia ‐
+tion and deteriorates antenna gain and front -to-back ratio . 
+Therefore , in designing a quasi -Yagi antenna , the major con ‐
+cern is how to excite the surface waves of the TE0 mode to the 
+greatest extent and the surface waves of the TM0 mode to the 
+lowest extent .
+Fig. 4 shows the simulated and measured | Sdd11| of the dif ‐
+ferential quasi -Yagi antenna as a function of frequency from 
+7 GHz to 15 GHz . It is evident 
+from the figure that although there 
+are differences between the simu ‐
+lated and measured values , the an ‐
+tenna achieves acceptable match ‐
+ing from 7.5 GHz to 14.8 GHz or a 
+fractional bandwidth of 66% for a 
+voltage standing wave ratio ≤ 2 at 
+11.15 GHz . Fig. 5 shows the simu ‐
+lated and measured radiation pat ‐
+terns at 8.2 GHz , 10.6 GHz , and 
+12.3 GHz . As expected , the an ‐
+tenna radiates an end -fire beam . 
+Fig. 6 shows the simulated and 
+measured gain values . The mea ‐
+sured gain values fluctuate be ‐
+tween 3.7 dBi and 5.4 dBi from 
+8 GHz  to 12.3 GHz . The simu ‐
+lated radiation efficiency is 94% 
+at 10 GHz . The simulated radia ‐
+tion efficiency at frequencies be ‐
+low 8 GHz and above 13.5 GHz drops quickly , which explains 
+why the gain drops .
+Table 1 lists the bandwidth , gain , efficiency , cross -
+polarization (X-pol), and front -to-back ratio (FBR ) for the 
+single -ended and differential quasi -Yagi antennas at 10 GHz . 
+It should be mentioned that these quasi -Yagi antennas have 
+the same size and are fabricated with the same material . Note 
+from the table that the differential quasi -Yagi antenna outper ‐
+forms the single -ended counterparts .
+3 Differential Quasi -Yagi Array
+The application of the differential quasi -Yagi antenna as an 
+array element is explored in this section . We limit our effort to 
+E-plane linear arrays because we target their potential use in 
+portable and mobile devices[11–12].
+▲Figure 4. Simulated and measured | Sdd11| of the differential quasi -
+Yagi antenna
+▲Figure 5. Simulated and measured E - and H -plane radiation patterns of differential quasi -Yagi antennas 
+at (a) 8.2 GHz , (b) 10.6 GHz , and (c) 12.3 GHz
+▲Figure 6. Simulated and measured gain values of the differential 
+quasi -Yagi antenna(a) (b) (c)0
+-10
+-20
+-30
+-40
+-30
+-20
+-10
+0
+0
+-10
+-20
+-30
+-40
+-30
+-20
+-10
+00
+-10
+-20
+-30
+-40
+-30
+-20
+-10
+0
+0
+-10
+-20
+-30
+-40
+-30
+-20
+-10
+00
+-10
+-20
+-30
+-40
+-30
+-20
+-10
+0
+0
+-10
+-20
+-30
+-40
+-30
+-20
+-10
+0Frequency/GHzSimulated
+Measured0
+-5
+-10
+-15
+-20
+-25
+-30
+-35
+7   8   9  10 11 12 13 14 15
+Frequency/GHzSimulated
+Measured
+7   8   9  10 11 12 13 14 157
+6
+5
+4
+3
+2
+1
+0Gain/dBi ｜Sddl 1｜/dB
+39

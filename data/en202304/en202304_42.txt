@@ -1,0 +1,79 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Point Cloud Processing Methods for 3D Point Cloud Detection Tasks    Special Topic
+3D point cloud object detection algorithm . It can be roughly 
+divided into the following two categories : the voxel -based 
+point cloud processing method and point -based point cloud 
+processing method .
+The voxel processing method converts point cloud data into 
+voxel representations , which are then processed using 3D con ⁃
+volutional neural networks (CNN ). The point -based method is 
+directly applied to the raw point cloud data , without convert ⁃
+ing it into grids . The point -based method can preserve the 
+original characteristics and information of the point cloud and 
+have lower computational cost and memory consumption .
+However , the point -based method also faces some difficul ⁃
+ties, such as dealing with the irregular structure and varying 
+density of the point cloud and designing suitable algorithms or 
+models for the points . Two major types of methods exist for 
+processing the points : clustering -based methods[9–10] and deep 
+learning -based methods[11–12]. Based on the clustering 
+method , the appropriate clustering algorithm is selected and 
+the clustering parameters are determined by the characteris ⁃
+tics of the data . After denoising and merging adjacent cluster ⁃
+ing operations , the processing results are obtained . The 
+method based on deep learning needs to prepare labeled data , 
+select and train an appropriate deep learning model , and use 
+the trained model to process the point cloud .
+Our contribution can be summarized as follows :
+1) We summarize voxel -based point cloud processing meth ⁃
+ods and find that the voxel -based methods can improve the 
+processing performance of point clouds by optimizing the 
+voxel partitioning scheme , improving the network structure 
+for voxelized point clouds and the data structure for point 
+clouds .
+2) We summarize point -based point cloud processing meth ⁃
+ods and find that the point -based methods can improve the 
+processing performance of point clouds by improving the sam ⁃
+pling strategy of point clouds , combining the advantages of 
+voxel -based methods , and optimizing the representation of 
+points .
+2 Basic Concepts and Metrics
+1) Voxelization
+Point cloud voxelization in Fig . 1 refers to the process of 
+converting point cloud data into a voxel representation . Voxel ⁃
+ization is to divide the point cloud into a spatially uniform 
+voxel grid and generate many -to-one mapping between 3D 
+points and their corresponding voxels .
+The voxelized point cloud data will be stored in memory in 
+an orderly manner , which is beneficial to reduce random 
+memory access and increase the efficiency of data calculation . 
+Moreover , voxelization enables the ordered storage and down -
+sampling of data , which allows such methods to handle much 
+larger point cloud data . The voxelized data can also leverage 
+spatial convolution effectively , which facilitates the extraction 
+of local features at multiple scales and levels .2) BEV
+The bird ’s eye view (BEV ) based algorithm is an advanced 
+computer vision technique used in the field of autonomous 
+driving . Using a combination of sensors and cameras , the algo ⁃
+rithm creates a high -resolution overhead view of the vehicle ’s 
+surroundings . The BEV perspective is shown in Fig . 2.
+One of the advantages of BEV is that it provides a compre ⁃
+hensive view of the environment , providing a complete picture 
+of the environment , unlike other computer vision techniques 
+that only focus on specific objects in the environment . The per ⁃
+spective can provide more information for subsequent plan ⁃
+ning decisions . Another advantage is accuracy . A high -
+resolution top view can provide more accurate information . 
+One disadvantage of the BEV -based algorithm is that BEV re ⁃
+quires high computing power , which is challenging in real -
+time systems .
+BEV is currently a very popular point cloud processing per ⁃
+spective . The methods related to BEV are proposed in Refs . 
+[13–17]. Ref. [18] demonstrates the robustness capability of 
+▲Figure 1. Schematic representation of point cloud voxelization . Due 
+to the sparsity and uneven distribution of point clouds , the number of 
+point clouds in each voxel is unevenly distributed . There are even many 
+voxels without point clouds . The voxel feature encoding (VFE ) layer bal ⁃
+ances this through sampling
+▲Figure 2. Bird ’s eye view  based representation
+39

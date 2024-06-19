@@ -1,0 +1,73 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing Research Papers   A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage
+A Hybrid FiveA Hybrid Five --Level SingleLevel Single --Phase Phase 
+Rectifier with Low CommonRectifier with Low Common --Mode VoltageMode Voltage
+TIAN Ruihan1, WU Xuezhi1, XU Wenzheng1, 
+ZUO Zhiling2, CHEN Changqing2
+(1. Beijing Jiaotong University , Beijing 100044 , China ；
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202304010
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231114 .1558 .002.html, 
+published online November 16, 2023
+Manuscript received : 2023 -03-19
+Abstract : Rectifiers with high efficiency and high power density are crucial to the stable and efficient power supply of 5G communication 
+base stations , which deserves in -depth investigation . In general , there are two key problems to be addressed : supporting both alternating cur ⁃
+rent (AC) and direct current (DC) input , and minimizing the common -mode voltage as well as leakage current for safety reasons . In this paper , 
+a hybrid five -level single -phase rectifier is proposed . A five -level topology is adopted in the upper arm , and a half -bridge diode topology is ad ⁃
+opted in the lower arm . A dual closed -loop control strategy and a flying capacitor voltage regulation method are designed accordingly so that 
+the compatibility of both AC and DC input is realized with low common voltage and small passive devices . Simulation and experimental re ⁃
+sults demonstrate the effectiveness and performance of the proposed rectifier .
+Keywords : multilevel rectifier ; 5L-ANPC ; low common -mode voltage ; AC -DC hybrid input
+Citation  (Format 1): TIAN R H , WU X Z , XU W Z , et al . A hybrid five -level single -phase rectifier with low common -mode voltage [J]. ZTE 
+Communications , 2023 , 21(4): 78–84. DOI : 10.12142 /ZTECOM .202304010
+Citation (Format 2): R. H. Tian , X. Z. Wu, W. Z. Xu, et al ., “A hybrid five -level single -phase rectifier with low common -mode voltage ,” ZTE 
+Communications , vol. 21, no. 4, pp. 78–84, Dec. 2023 . doi: 10.12142 /ZTECOM .202304010 .
+1 Introduction
+With the development of 5G networks , reliable 
+power supply is the key to ensuring the safe and 
+stable operation of communication systems . 
+Higher power efficiency , lower power noise , and 
+higher stability and reliability are required . Therefore , the ap ⁃
+plication of power factor correction (PFC) rectifiers in commu ⁃
+nication power supply has attracted wide attention[1–3], mainly 
+to meet the power quality requirements of 5G communication 
+base stations as well as the need for alternating current (AC) 
+and direct current (DC) input switching[4].
+At present , many researchers study multilevel convert ⁃
+ers[5–6], which can control the output terminals of different DC 
+power supplies connected in series through a specific circuit 
+topology . With the change of different switching states of the 
+circuit , the multi -step wave can be equivalent to a sine wave . 
+Compared with the traditional two -level converter , multilevel 
+converters have the following advantages : 1) The voltage stress 
+of semiconductor switching devices is reduced to achieve a 
+higher level of voltage and power output ; 2) it has high output 
+power quality , smaller d v/dt, low total harmonic distortion 
+(THD ) and electromagnetic interference ; 3) it can operate at 
+both the fundamental wave and high frequency switching fre ⁃
+quency , reducing the switching loss of power switches and im ⁃
+proving system efficiency . Thanks to the above advantages , multilevel rectifiers are widely used in power supply sys ⁃
+tems , power factor correction , battery energy storage systems 
+and other applications[7–8]. However , the multilevel con ⁃
+verter still has some shortcomings , one of which is that the 
+number of switching devices increases exponentially with the 
+increase of the level numbers , and each switch requires a 
+gate driving circuit , which complicates the control strategy of 
+the system and increases the cost[9]. In order to pursue better 
+performance , researchers continue to innovate and improve 
+the multilevel topology .
+Among various multilevel converters , the five -level active 
+neutral -point -clamped (5L-ANPC ) topology is a topology with 
+high practicability and good economy . Compared with the cas ⁃
+caded H -bridge (CHB ) converter , only one DC source is 
+needed . Compared with the neutral -point -clamped (NPC) con⁃
+verter , the number of clamping devices is reduced . Neverthe ⁃
+less, the number of redundant switches is increased by intro ⁃
+ducing the flying capacitor . The DC link is divided into two 
+parts , which reduces the difficulty of voltage equalization of 
+the DC capacitor and realizes the capacitor voltage balance 
+through a certain control algorithm . Compared with the flying -
+capacitor (FC) converter , 5L-ANPC greatly reduces the 
+amount of capacitance used and has great advantages[10]. In or ⁃
+der to suppress the common -mode voltage better , the combina ⁃
+tion of upper and lower bridge arms is adopted to further in ⁃
+78

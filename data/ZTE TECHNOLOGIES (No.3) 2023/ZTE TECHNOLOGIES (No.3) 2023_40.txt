@@ -1,0 +1,91 @@
+Business in Complex Open-Pit 
+Mine Scenarios
+The FDD+TDD dual-band network uses 
+diﬀerent features of FDD and TDD to 
+complement each other in coverage to 
+meet the changing mine environment. 
+When the unmanned mining truck is 
+moving, it can be connected to an 
+appropriate frequency through the 
+inter-frequency interoperability policy 
+to achieve dynamic load balancing. 
+The dual-frequency networking also 
+improves network availability, preventing 
+single-frequency network faults from 
+aﬀecting production business.
+For core production business such as 
+unmanned mining trucks and remote 
+electric shovel, frame replication and 
+elimination for reliability (FRER) is used 
+to transmit control instructions. The 
+sender replicates multiple copies of a 
+data frame that needs to be transmitted, 
+generates a sequence number, and then 
+transmits the data frame on a disjoint 
+redundancy network path. At the 
+destination, the copies are checked 
+according to the sequence number 
+of the data frame, and the duplicate 
+ones are discarded. In this way, 
+seamless redundancy transmission is 
+implemented, and low-latency 
+high-reliability guarantee is provided. 
+When the mining truck needs to be 
+taken over remotely due to a fault in 
+self-driving, the video backhaul delay 
+and picture quality can aﬀect the 
+driving experience. ZTE’s industry-
+leading ultra-low latency video 
+transmission technology reduces the 
+end-to-end delay from about 300 ms 
+to less than 80 ms. Its video technologies 
+such as error correction and packet 
+loss prevention can ensure smooth 
+high-de/f_inition pictures and improve 
+remote driving experience. 
+To meet the uplink large capacity requirements of unmanned mining 
+trucks and remote electric shovels in 
+open-pit mines, SuperMIMO is used in 
+SuperCell networking to enhance the 
+uplink capacity. Four distributed 8T8R 
+RRUs are deployed to form a 32T32R 
+multi-antenna system. In the MIMO 
+system, multiple nodes send and receive 
+signals in a uni/f_ied manner. On the 
+premise of ensuring continuous self-
+driving of unmanned mining trucks, 
+the uplink capacity can be increased 
+to ensure smooth backhaul of multi-
+channel videos. 
+The intelligence digital operational 
+service (IDOS) for open-pit mine 
+scenarios manages 5G terminals, NRs, 
+UPFs, core network, and production 
+businesses, and presents end to end the 
+status and performance indicators of 
+each node of service /f_low links. By 
+setting guarantee requirements, quality 
+monitoring, and problem identi/f_ication, 
+demarcation and location, a closed-loop 
+SLA guarantee is built to make the 5G 
+private network better serve production 
+operations of the open-pit mine. 
+5G Private Network Continues to 
+Empower Intelligent Transformation 
+of Open-Pit Mines
+ZTE has assisted China’s operators 
+in deploying 5G private network 
+solutions in several open-pit mines in 
+Xinjiang, Inner Mongolia, Shaanxi, and 
+Anhui, which have passed commercial 
+acceptance. In some projects, the 
+mining trucks allow security personnel 
+to get oﬀ the trucks, truly achieving 
+unmanned operations—self-driving. 
+With the growth of open-pit mining 
+businesses such as unmanned mining 
+trucks and remote electric shovels, 
+5G private network will continue to 
+enhance the intelligence of open-pit 
+mines. 
+385G Fully-Connected Factory Special Topic

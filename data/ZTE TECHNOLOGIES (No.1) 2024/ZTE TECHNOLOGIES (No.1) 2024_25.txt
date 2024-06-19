@@ -1,0 +1,93 @@
+capabilities has limited UL coverage compared to 
+existing eMBB terminals, ZTE supports multiple 
+uplink coverage enhancement functions such as 
+Joint Channel Estimation to improve the uplink 
+coverage capability of RedCap terminals and ensure 
+that the edge rate of 5G RedCap meets the service 
+demand. For power saving, considering the service 
+characteristics of some 5G RedCap application 
+scenarios, such as multiple small-packet data 
+transmissions from wearable devices, ZTE supports 
+the small packet transmission (SDT) feature, which 
+reduces signaling overhead and extends the battery 
+standby time of terminals. 
+RedCap + X enables 5G RedCap to provide extreme 
+performance guarantee for targeted applications, 
+ensuring the ful/f_illment of service requirements. ZTE 
+supports the customization of application-oriented 
+RedCap network capabilities to meet the diverse 
+needs of diﬀerent vertical industries. For instance, 
+RedCap + Slicing is provided to ensure isolation 
+between control services and management services, 
+which is mandatory for the power grid scenario. 
+RedCap + High Precision Time Synchronization can 
+also be supported for the control services in the 
+power grid. RedCap + NodeEngine provides base 
+station-based edge computing power for the 
+campus, applicable in AI-based video surveillance 
+scenarios. RedCap + uRLLC enables the 
+implementation of remote control in smart factory 
+while RedCap + VoNR faciliates high-de/f_inition video 
+calls for wearables.
+ZTE Achievements in 5G RedCap 
+Veri/f_ication and Application
+Since the freeze of 3GPP Release 17 in 2022, which 
+speci/f_ies 5G RedCap, ZTE has actively participated in 
+promoting the commercial use of 5G RedCap with 
+industry partners, encompassing completing research 
+and veri/f_ication of 5G RedCap technology, accelerating 
+the maturity of the industry chain, and deploying 
+multiple industry pilots. 
+In collaboration with four Chinese operators, ZTE has 
+completed 5G RedCap veri/f_ication at all the 5G 
+frequency bands and using multiple bandwidths. 
+Diverse networking scenarios, including RAN Sharing 
+and DSS, have been veri/f_ied. From lab technical veri/f_ication to performance tests in commercial 5G 
+networks, the feasibility of RedCap in existing 
+commercial 5G networks has been proved through 
+full-scenario veri/f_ication, laying the foundation for its 
+commercial deployment. In Thailand, ZTE, in 
+collaboration with AIS, accomplished the /f_irst 
+collaborative validation of 5G RedCap at 2.6 GHz in 
+Southeast Asia. The test outcomes consistently 
+achieved theoretical peak values for single-user 
+throughput. In addition, RedCap + NodeEngine was 
+veri/f_ied, showcasing the capability to provide users 
+with an end-to-end low latency of about 10 ms. 
+As for real industry scenarios, ZTE, with the 
+industrial partner Brunp Recycling Co., Ltd. Cycle, has 
+completed RedCap veri/f_ication in a smart 
+manufacturing factory, proving that RedCap 
+terminals, with reduced cost and reduced power 
+consumption, can meet the application criteria of 
+typical services in the manufacturing scenario. ZTE 
+has also completed RedCap pilots in the power grid 
+and security industries, including the veri/f_ication of 
+power distribution automation services in the smart 
+grid and high-de/f_inition video surveillance in the 
+campus security scenario, demonstrating RedCap’s 
+applicability in various vertical industries. 
+To accelerate the maturity of 5G RedCap 
+ecosystem, ZTE has completed interconnection 
+veri/f_ication between the 5G network and the 5G 
+RedCap terminal side. Partners included mainstream 
+chipset vendors like Qualcomm, MTK, UniSOC and 
+mainstream module vendors such as QUECTEL and 
+China Mobile IoT. The veri/f_ication tests were 
+conducted using commercial 5G networks and 
+pre-commercial chipsets and modules. This has 
+proved the compatibility between existing 5G 
+networks and RedCap terminals, advancing the 
+maturity of the RedCap industry chain. 
+As a highly cost-eﬀective IoT solution, 5G RedCap 
+provides a superior choice for  mass-scale IoT growth 
+and holds the potential to become the basic 
+technology for digital transformation. ZTE is 
+committed to promoting the commercial deployment 
+and application of RedCap. Moving forward, ZTE will 
+continue to collaborate with industry partners to drive 
+5G RedCap innovation, explore additional 
+applications, and oﬀer more convenient and eﬃcient 
+communication experiences.
+ FEB 2024
+ 23

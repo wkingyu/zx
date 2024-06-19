@@ -1,0 +1,81 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Filter Design of Wireless Base Station Power Supply    Research Papers
+For C1 and C2, we take 100 nF. According to Eq . (32), the 
+inductance of the CM filter Lcm is about 300.7 μH. The actual 
+CM inductance is set to 400 μH to ensure sufficient filtering 
+effect .
+Lcm=2πRcmCsfc_cm+1
+16π3RcmC1C3fc_cm3.
+(32)
+7 Experiment
+Based on the calculation and analysis , the first -order π-type 
+filter of the prototype is designed , as shown in Fig . 22.
+The IL of the new filter is measured using a network analyzer , 
+KEYSIGHT model E 5072 A. The CM and DM IL of the filter are 
+measured separately and the IL spectrum is shown in Fig . 23.
+The EMI filter is designed to meet the design requirements 
+for low and medium frequency bands .
+The experimental environment in the filter effect verifica ⁃
+tion experiment is different from the one in the previous pa ⁃
+per, so the bare noise of the prototype needs to be measured 
+again in the new environment . The receiver model used in the 
+new experimental environment is R&S ESCI 3, the LISN is 
+Schwarzbeck NNLK 8129 , and the current probe is FCC F -
+35A. The noise spectrum of the wireless base station power 
+supply prototype connected to the original filter is first mea ⁃sured as shown in Fig . 24.
+The noise spectrum of the prototype without the original fil ⁃
+ter is shown in Fig . 25. After the designed filter is connected , 
+the noise spectrum of the wireless base station power supply 
+prototype is shown in Fig . 26.
+According to the spectrum , which can be seen in the CM 
+noise spectrum and DM noise spectrum , 150 kHz–10 MHz 
+noise has been basically reduced to the bottom of the EMI stan ⁃
+dard line . There is a small spike at 10 MHz , but it does not ex ⁃
+ceed the limits of EN 55032  Class B , and the conductive EMI 
+filter noise suppression effect has been verified . The designed 
+filter, without degrading the noise suppression effect , reduces 
+the board area by 60% compared with the original filter , signifi ⁃
+cantly reducing the size of the filter and production costs .
+8 Conclusions
+A practical CM EMI filter design procedure for a wireless 
+base station power supply is presented . The filtering effect of 
+the original filter is determined by comparing the noise spec ⁃
+trum before and after accessing the original filter , and the unsat ⁃
+isfactory filtering effect of the original filter is pointed out by 
+combining the IL of the original filter with the theoretical calcu ⁃
+lation . The effect of the ground impedance in the original filter 
+on the IL is verified by theoretical analysis and simulation .
+For the design of the EMI filter , the IL method is used to ex ⁃
+tract the source impedance of the noise source for a wireless 
+base station power supply prototype , and the effectiveness of 
+the source impedance extraction is verified by experiments . 
+The circuit parameters of the EMI filter are designed with a 
+▲Figure 21. Required common mode (CM) minimum IL spectrogramIL: insertion loss
+CM: common mode     SMA : SubMiniature version A connector
+▲Figure 22. First -order π-type filter
+▲Figure 23. Measured IL of first -order π-type filterCM: common mode          DM : differential mode           IL : insertion lossRequired IL
+ILcm1IL/dB60
+40
+20
+0
+-20
+-40ILT_cm
+fc_cmfT_cm
+f/Hz
+f/HzIL/dB IL/dB
+1×1051×1061×1071×108
+1×1051×1061×1071×1081×1051×1061×1071×1081×1041×103100
+80
+60
+40
+20
+0
+(a) CM IL
+(b) DM IL150
+100
+50
+0
+4.7 μF X4.7 μF X 100 nF Y 100 nF Y
+SMA SMA CM CHOKEf/Hz
+SMA
+103

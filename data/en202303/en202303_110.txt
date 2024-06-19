@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Research Papers   Simulation and Modeling of Common Mode EMI Noise in Planar Transformers
+Qp1s1=Cp1s1(vp1m-vs1m), (6)
+where Cp1s1 is the total structural capacitance between P1 and 
+S1, vp1m is the midpoint voltage of P1, and vs1m is the midpoint 
+voltage of S1.
+In the same way , the charge QP2S1 stored between the sec ‐
+ond turn P2 of the primary winding and the secondary wind ‐
+ing S1 is:
+Qp2s1=Cp2s1(vp2m-vs1m), (7)
+where Cp2s1 is the total structural capacitance between P2 and 
+S1, and vp2m is the midpoint voltage of P2.
+The charge QP3S1 stored between the third turn P3 of the 
+primary winding and the secondary winding S1 is:
+Qp3s1=Cp3s1(vp3m-vs1m), (8)
+where Cp3s1 is the total structural capacitance between P3 and 
+S1, and vp3m is the midpoint voltage of P3.
+Then the charge Qall stored between the primary and sec ‐
+ondary windings of the entire planar transformer can be ex ‐
+pressed as :
+Qall=Qp
+1s
+1+Qp
+2s
+2+Qp
+3s
+3,(9)
+From the perspective of the entire planar transformer , the 
+planar transform er in Fig . 4 has four endpoints : A, B, C, and 
+D, where A and C are ends with the same name . According to 
+the relationship between the voltage ratio of the primary and 
+secondary sides of the transformer and the turn ratio , it can 
+be known that the voltage drop Δvp per turn of the primary winding of the transformer is the same as the voltage drop 
+Δvs per turn of the secondary winding . If the voltage drop per 
+turn is Δv, then we have :
+Δv=vp
+Np=vs
+NS,
+(10)
+where vp is the port voltage of the entire primary winding of 
+the planar transformer , vs is the port voltage of the entire sec ‐
+ondary winding of the planar transformer , Np is the number of 
+turns of the primary winding of the planar transformer , and 
+Ns is the number of turns of the secondary winding of the pla ‐
+nar transformer . According to the stacked structure of the 
+planar transformer , Np takes 3 and Ns takes 1.
+Considering the voltage distribution of the planar trans ‐
+former winding in Fig . 4, it is only necessary to select the 
+voltage of a certain point on the primary winding of the trans ‐
+former as the voltage reference point , and the potential of 
+any other point can be expressed by the voltage reference 
+point and the voltage drop Δv per turn ; the same is true for 
+the secondary winding .
+The point inside the transformer winding is used as the 
+voltage reference point . When modeling , the model of the 
+transformer needs to be split , which complicates the model ‐
+ing. Therefore , in order to simplify the modeling , the four ter ‐
+minals A, B, C, and D of the transformer are used as alterna ‐
+tive voltage reference points . By selecting point B of the pri ‐
+mary winding and point  D of the secondary winding as the po ‐
+tential reference points , the midpoint potentials vp
+1m, vp
+2m, vp
+3m 
+and vS
+1m of each turn winding in the planar transformer can 
+be expressed as :
+vp
+1m=vB+2.5Δv,(11)
+vp
+2m=vB+1.5Δv,(12)
+vp
+3m=vB+0.5Δv,(13)
+(a) Laminated structure (b) Layer spacing
+▲Figure 3. Schematic diagram of the laminated structure of a planar 
+transformerP1
+P2
+P3
+S1d1
+d2
+d3
+d2
+d3
+d2
+d3
+d2
+d3
+d2
+d3
+d2
+d1
+▼Table 1. Planar transformer laminated structure parameters
+d1/mil
+4.5d2/mil
+4.3d3/mil
+5S/mm2
+214.5
+▲Figure 4. Flat transformer winding voltage distributionx xB DB DA C
+NpNsvvAvB
+A CvDvCv
+108

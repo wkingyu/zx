@@ -1,0 +1,109 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems    Special Topic
+ysub=Pgwsub(θ, r)+zsub, (10)
+where the realistic likelihood function under the realistic 
+channel model can be expressed as
+p(ysub|{θ, r})=1
+() 2πσ2Nsube-1
+σ2  ysub-gequwsub()θ, r2
+, (11)
+where gequ=Pg is thought as constant . However , in the pro ⁃
+posed channel estimation algorithm , the channel between the 
+UE and the c -subarray is simplified as Eq . (8) for estimating 
+the AoA parameter from the receive signal of the c -subarray , 
+which can be expressed as
+ysub≈Pgasim(θ)+zsub, (12)
+where the simplified likelihood function under the planar 
+channel model can be expressed as
+p͂(ysub|θ)=1
+() 2πσ2Nsube-1
+σ2  ysub-gequasim()θ2
+. (13)
+When the distance between the UE and XL -HRIS is far or 
+the array scale of the c -subarray is small , the variation among 
+the realistic and simplified channel models can be ignored , 
+and the Cramer -Rao lower bound (CRLB ) of the estimated 
+AoA parameter can be directly derived based on Eq . (13). 
+Nevertheless , with the increase of the scale of the c -subarray 
+in the proposed XL -HRIS -aided systems , the phase variations 
+among the whole array become large . Then , the estimation of θ 
+based on the simplified model in Eq . (13) will face accuracy 
+degradation due to the non -negligible variation between the 
+simplified model and the realistic model . Hence , the LB of the 
+estimated AoA parameter , which considers the channel model 
+mismatch , should be studied to get a more accurate estimation 
+error lower bound .
+3.2 LB of Estimated AoA Parameter
+To obtain the LB of the estimated AoA parameter , the chan ⁃
+nel model mismatch must be considered . Firstly , we recall the 
+estimation lower bound derivation based on the pseudo -true 
+parameter ηpse when the model mismatch happens[34]. The 
+pseudo -true parameter can minimize the Kullback -Leibler 
+(KL) divergence between the true probability density function 
+with the true parameter ηˉ and the mismatched probability den ⁃
+sity function with the pseudo -true parameter ηpse. Then , the 
+Preliminary 1 can be obtained :
+Preliminary 1: When model mismatch happens , a pseudo -
+true parameter ηpse can be estimated firstly , and the LB of the 
+estimated parameter ηˉ can be expressed as
+LB(ηˉ)=CRLB(ηpse)+(ηˉ-ηpse)H(ηˉ-ηpse), (14)where CRLB(ηpse) denotes the CRLB of the estimated pseudo -
+true parameter ηpse under the mismatched model .
+Based on Preliminary 1, the LB of the estimated AoA pa ⁃
+rameter under the channel model mismatch can be given by 
+Theorem 1.
+Theorem 1: When estimating the AoA parameter from the 
+realistic receive signal based on the planar wave model , the 
+LB of the estimated AoA parameter can be expressed as
+LB(θ)=6σ2
+k2
+cd2P||g2Nsub() N2
+sub-1+
+(1+3Nsub+4
+N2
+sub-1)29d2( ) 1-2θ2+θ4
+16r2. (15)
+Proof : Let {θˉ, rˉ} denote the true channel parameters , and 
+the pseudo -true parameter is defined as
+θpse=argmin
+θ∈)[0, 2πD(p(ysub|{θˉ, rˉ})||p͂(ysub|θ)), (16)
+where D(p(ysub|{θˉ, rˉ})||p͂(ysub|θ)) denotes the KL divergence 
+between the distributions p(ysub|{θˉ, rˉ}) and p͂(ysub|θ). Since θ̂ 
+is an unbiased estimate of θpse, i.e., E{θ̂}=θpse, the CRLB of 
+the unbiased estimate can be denoted as
+Ep{(θ̂-θpse)2}≥CRLB(θpse), (17)
+where Ep{⋅} denotes taking the expectation operation , and 
+CRLB(θpse) is CRLB of the pseudo -true parameter θpse, which 
+can be calculated as
+CRLB(θpse)=FIM-1()θpse. (18)
+The Fisher Information Matrix (FIM) FIM(θpse) can be cal ⁃
+culated as
+FIM(θpse)=2
+σ2Eì
+í
+î∂yH
+sub
+∂θpse∂ysub
+∂θpseü
+ý
+þ. (19)
+Substituting Eq . (12) into Eq . (19), the FIM matrix can be 
+rewritten as
+FIM(θpse)=2P||g2
+σ2Eì
+í
+î∂aH
+∂θpse∂a
+∂θpseü
+ý
+þ=
+2k2
+cd2P||g2
+σ2∑
+n=1Nsub
+δ2
+n=k2
+cd2P||g2Nsub() N2
+sub-1
+6σ2.(20)
+Hence , the CRLB of the pseudo -true parameter θpse can be 
+27

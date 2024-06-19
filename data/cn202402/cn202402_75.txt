@@ -1,0 +1,47 @@
+大模型知识管理系统 周 扬   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2conference on artificial intelligence , 2022 , 36(10): 10965 -10973 . 
+DOI: 10.1609 /aaai.v36i10.21344
+[9] LIU W , FU X Y , ZHANG Y , et al . Lexicon enhanced Chinese 
+sequence labeling using BERT adapter [C]//Proceedings of the 
+59th Annual Meeting of the Association for Computational 
+Linguistics and the 11th International Joint Conference on Natural 
+Language Processing (Volume 1: Long Papers ). Association for 
+Computational Linguistics , 2021 : 5847 -5858 . DOI : 10.18653 /v1/
+2021 .acl-long .454
+[10] GAO L Y , MA X G , LIN J , et al . Precise zero-shot dense retrieval 
+without relevance labels [C]//Proceedings of the 61st Annual 
+Meeting of the Association for Computational Linguistics 
+(Volume 1: Long Papers ). Association for Computational 
+Linguistics , 2023 : 1762 -1777 . DOI : 10.18653 /v1/2023 .acl-
+long.99
+[11] MA X B , GONG Y Y , HE P C , et al . Query rewriting in retrieval-
+augmented large language models [C]//Proceedings of the 2023  
+Conference on Empirical Methods in Natural Language 
+Processing . Association for Computational Linguistics , 2023 . 
+DOI: 10.18653 /v1/2023 .emnlp-main .322
+[12] GAO D W , WANG H B , LI Y L , et al . Text-to-SQL empowered 
+by large language models : a benchmark evaluation [EB/OL ]. 
+[2024 -02-25]. http://arxiv .org/abs/ 2308 .15363
+[13] JIANG H Q , WU Q H , LUO X F , et al . LongLLMLingua : 
+accelerating and enhancing LLMs in long context scenarios via 
+prompt compression [EB/OL ]. [2024 -02-25]. http ://arxiv .org/abs/
+2310 .06839
+[14] XIAO S T , LIU Z , ZHANG P T , et al . C-pack : packaged resources 
+to advance general Chinese embedding [EB/OL ]. [2024 -02-25]. 
+http://arxiv .org/abs/ 2309 .07597
+[15] ES S , JAMES J , ESPINOSA-ANKE L , et al . RAGAS : automated 
+evaluation of retrieval augmented generation [EB/OL ]. [2024 -
+02-25]. http://arxiv .org/abs/ 2309 .15217作 者 简 介
+周扬 ，东南大学和南京邮电大学特聘副教授 ；研
+究领域包括人工智能 、大数据 、物联网等 ；参与
+国家级重点项目 8项，在人工智能 、大数据 、物
+联网等领域具有近 20年的大型产品研发与管理经
+验；申请发明专利 20余项。
+蔡霈涵 ，南京邮电大学在读硕士研究生 ；主要研
+究方向为人工智能 。
+董振江 ，南京邮电大学教授 、博士生导师 ，国
+务院政府特殊津贴专家 ，中国人工智能学会常
+务理事 ；主要研究方向为人工智能 、数据安全
+与区块链 。
+71

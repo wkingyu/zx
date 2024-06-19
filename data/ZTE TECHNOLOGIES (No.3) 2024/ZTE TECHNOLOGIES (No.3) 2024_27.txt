@@ -1,0 +1,87 @@
+Fig. 1. Deployment 
+architecture of the 
+operator’s intelligent 
+computing center.
+ 
+“scenario-based” versions, providing a basis for 
+operation at the terminal side.
+Technology Paths
+The two leading AI chip technology paths are 
+represented by the general parallel-computing 
+architecture, exempli/f_ied by GPU, and the dedicated 
+custom architecture tailored for accelerating AI tasks.
+GPU is originally designed for graphic rendering, 
+which involves extensive repetitive computing tasks. 
+To meet the large-scale and parallel feature of AI 
+operations, GPU chips deploy thousands of image 
+computing cores capable of processing multiple 
+tasks simultaneously. 
+Unlike GPUs, AI-dedicated chips are processors 
+designed speci/f_ically for AI operations, utilizing 
+AI-dedicated cores inside. They sacri/f_ice video rendering 
+and high-performance computing capabilities for 
+advantages in power consumption and size. However, 
+due to their dedicated and customized design, they 
+have longer development periods and lack the 
+universality and programmability of GPUs, resulting in 
+many AI-dedicated chips being less powerful. 
+Looking into Future 
+The reality of trillion-parameter models is here, 
+and even larger models may emerge soon. As the 
+scale of models grows, both GPU and AI-dedicated 
+chips face bottlenecks in performance and power consumption, resulting in the expansion of cloud 
+data centers and the need for liquid cooling to 
+manage heat dissipation. Additionally, devices at the 
+terminal side like AI mobile phones and AI PCs are 
+impacted by power consumption issues, aﬀecting 
+user experience. To solve these problems, the 
+next-generation AI chip design focuses on the 
+following directions: 
+In computing architecture, the introduction of 
+in-memory computing aims to reduce power 
+consumption. Currently, mainstream GPUs and 
+dedicated AI chips use the Von Neumann 
+architecture, which separates computing from 
+storage. However, 60% to 90% of chip energy is 
+consumed during data migration. The in-memory 
+computing architecture fully integrates memory 
+and computing, avoiding data migration and 
+greatly reducing power consumption.
+On the chip implementation layer, Chiplet and 3D 
+stacking technologies are used to improve chip 
+yield and performance. Chiplet divides a chip into 
+multiple dies with speci/f_ic functions (such as 
+computing and storage), selecting the most 
+suitable semiconductor process for each die to 
+optimize yield. The dies are interconnected through 
+a high-speed bus, and /f_inally integrated and 
+encapsulated into a single chip. 3D stacking expands 
+chips from two-dimensional to three-dimensional, 
+increasing the number of dies vertically, and 
+improving chip performance while maintaining the 
+original encapsulation size. 
+Intelligent computing core node 
+(Building separately) Network cloud/
+mobile cloud/IT cloud 
+Training+inference 
+Real-time inference Edge inference node AI chip 
+AI chip AI chip AI chip  AI chip 
+General services Group
+(Nation )
+Center
+(Region/province )
+Edge
+(City/district/site )Intelligent computing and 
+operation management system Training/interference 
+integration Multi-cloud 
+orchestration  Deployment architecture 
+Orchestration & scheduling 
+Training request/data collection 
+Model delivery 
+ 
+Real-time inference Real-time inference Edge inference node Edge inference node
+ Intelligent 
+Computing O&MOperation 
+management 
+Edge cloud Edge cloud Edge cloud JUN 2024
+ 25

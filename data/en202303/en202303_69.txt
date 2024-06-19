@@ -1,0 +1,55 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate    Research Papers
+mit link , the baseband signal is first upconverted by the C -band 
+frequency conversion module , filtered out of the upper sideband 
+and then fed into the THz mixer to be upconverted to the THz 
+band , and then filtered out of the mirror frequency by the THz 
+duplexer . In the receive link , the RF signal enters the THz 
+mixer after the duplexer and is down -converted to the interme ‐
+diate frequency (IF) signal . It is then down -converted to the 
+baseband signal by the C -band frequency conversion module 
+and demodulated after amplification and filtering . The transmit 
+and receive links are connected with a THz adjustable attenua ‐
+tor for simulating the propagation loss of THz signals in free 
+space . The relationship between different baseband power and 
+the SNR is demonstrated in Fig . 11(a), which shows that there 
+is no significant change in the demodulation SNR with the base ‐
+band power above −15 dBm and when the baseband power is 
+below −20 dBm , the SNR deteriorates further . Fig. 11(b) shows 
+the relationship between the demodulation SNR and BER .
+The constellation diagrams corresponding to different SNRs 
+are demonstrated in Fig . 12, which shows that the communica ‐
+tion results are basically the same when the LO frequency is 
+204 GHz and 216 GHz . Keeping the above test platform un ‐
+changed , the baseband modulation mode is changed to 
+▲Figure 9. Single -channel experimental block diagram
+▲Figure 10. Single -channel experimental scene diagram
+▲Figure 11. Single -channel test data : (a) relationship between transmit 
+power and SNR and (b) relationship between SNR and BER(a)
+(b)
+BER : bit error ratio     SNR : signal -to-noise ratioBaseband power/dBm-22 -20 -18 -16 -14 -12 -10  -8   - 6SNR24
+22
+20
+18
+17 18 19 20 21 22 23 24
+SNR/dBmBER1E-6
+1E-7
+1E-8
+1E-9PLLf0=1.6 GHz
+BW= 2.6 GHz10 Gbit/s demodulator platform 10 Gbit/s modulator platform PC
+f0=1.6 GHz
+BW= 2.6 GHz PDRO
+Transmit IF 
+module
+×12Receive IF 
+module
+PLL×12PDRO
+220 GHz
+mixer220 GHz
+diplexer220 GHz
+adjustable 
+attenuator220 GHz
+diplexer220 GHz
+mixerPC
+BW: bandwidth     IF : intermediate frequency     PDRO : phase -locked dielectric resonator oscillator     PLL : phase locked loop    
+67

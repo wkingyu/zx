@@ -1,0 +1,140 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing Research Papers   A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage
+age levels under the equilibrium condition , namely 0.5 Vdc, 
+0.25 Vdc, 0, −0.25 Vdc and −0.5 Vdc. When the output level is 
+−E, 0 and E, there are two redundant switching states respec ⁃
+tively , and when the output level is −E and E, the correspond ⁃
+ing two switching states , namely (V2, V3) and (V6, V7), have op ⁃
+posite effects on the charging and discharging of the FC volt ⁃
+age. The voltage equalizing control of FC can be realized by 
+adjusting the two switching states properly .
+For a single -phase rectifier , common -mode voltage is de ⁃
+fined as Vcm=(Va+Vb)/2, where Va, and Vb are the voltages of 
+bridge arms A and B, and the common -mode current has a di ⁃
+rect relationship with the amplitude of common -mode voltage 
+and the step slope d Vcm/dt. Therefore , effectively reducing the 
+amplitude and jump slope of common -mode voltage can effec ⁃
+tively reduce the common -mode current .
+The proposed five -level topology has a total of eight 
+switching devices , which need to provide eight + 15 V/−5 V 
+on/off signals to ensure the safety and accuracy of the driv ⁃
+ing signals . The vertical switches S1–S4 are operated at the 
+power frequency and can be isolated from the main circuit 
+by an isolation transformer . The switches S5–S8 are oper ⁃
+ated at the high frequency , where the upper and lower pairs 
+are conducted complementarily . To simplify the drive cir ⁃
+cuit and reduce the cost and complexity of hardware imple ⁃
+mentation , the bootstrap drive circuit can be adopted to 
+split the power supply into two groups to reduce the number 
+of independent isolated power supplies .
+2.2 DC Input Case
+The proposed converter also supports DC input voltage . For 
+the DC input case , the operation of this converter is down ⁃
+graded to a three -level boost circuit . In order to preserve the 
+five -level scheme under AC input and avoid the problem of 
+large common mode inductance required by the two -level 
+scheme for DC , the three -level control strategy for DC is ad ⁃
+opted after research .
+In the proposed three -level control strategy , VCkf shall be 
+equal to (1/2)Vdc, namely 200 V. Voltage levels 0, 0.5 Vdc, 
+and Vdc are used to synthesize voltage . When duty cycle d<
+0.5, 0 and 0.5 Vdc are used to synthesize voltage ; when 0.5<
+d<1, 0.5 Vdc and Vdc are used to synthesize voltage . There 
+are four switching states as shown in Fig . 2, among which 
+0.5 Vdc corresponds to two switching states . The FC is used 
+to realize time -sharing in parallel with the upper and lower 
+capacitors , so as to achieve voltage balancing between ca ⁃
+pacitors C1 and C2. The on -off time of the two switching 
+states is the same and the carrier phase -shift modulation 
+strategy , phase -shift pulse width modulation (PS-PWM ), is 
+adopted . For the DC input case , the three -level switching 
+states are shown in Table 2.
+2.3 Control Strategy
+Regarding the design of a single -phase five -level rectifier with excellent performance , it is necessary to meet the follow ⁃
+ing aspects : achieving unit power factor operation and ensur ⁃
+ing that the output voltage of the DC side is stable within an 
+allowable error range . Therefore , a double closed -loop control 
+method is proposed for the 5L ANPC rectifier studied . The AC 
+input control block diagram of the circuit topology is shown in 
+Fig. 3.
+1) Dual control loops : The dual closed -loop control strategy 
+of the voltage outer loop and current inner loop is adopted . 
+The outer loop voltage control mainly tracks the DC side volt ⁃
+age magnitude to realize voltage stability , so as to reduce the 
+DC side voltage fluctuation as much as possible . By taking the 
+difference between the DC side voltage sampled in real time 
+and the reference voltage , the difference is processed and fed 
+back to the system by the voltage regulator to control the DC 
+voltage of the bus side . The current control target of the inner 
+loop is the current magnitude of the filter inductor on the AC 
+side. Compared with the given signal of the inner current loop 
+obtained after the setting of the outer voltage loop , the power 
+factor can be adjusted to keep the current sinusoidal . The sig ⁃
+nal processed by the current controller is used as the modu ⁃
+lated signal of the main circuit switching device , which is com ⁃
+pared with the triangular carrier to generate a PWM wave .
+The switching function of the switches S1 and S3 is defined 
+as Sf13, the switching function of switches S5 and S7 is respec ⁃▼Table 2. 3-L boost switching table in a direct current (DC) case
+V1
+V2
+V3
+V4S1
+0
+0
+1
+1S2
+1
+1
+0
+0S3
+0
+0
+1
+1S4
+1
+1
+0
+0S5
+0
+1
+1
+1S6
+1
+1
+1
+0S7
+0
+1
+0
+1S8
+1
+0
+1
+0
+▲Figure 3. Feedforward control block diagramS1
+S2
+S3
+S4S7
+S8S6S5
+C2C1
+CfcVdc
+L
+sin θusVdc*/4
+V*
+ref
+VdcK
+I*
+smi*
+sPI PRi*
+sis
+High -frequencyPower frequency
+0
+Modula ⁃
+tion wave 
+calculationcalculationΔm
+Δm
++-+
+-S7S5
+Vfc
+PI: proportional -integral    PR : proportion resonant
+80

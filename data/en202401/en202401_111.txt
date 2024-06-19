@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1REN Fang , LI Yidan , YE Bing , LIU Jianguo , CHEN Weizhang Real -Time 4-Mode MDM Transmission Using Commercial 400G OTN Transceivers and All -Fiber Mode Multiplexers    Research Papers
+ers over 300 km weakly -coupled MRC -FMF has been experi ⁃
+mentally demonstrated[9].
+In addition to weakly -coupled FMF , the low -modal -
+crosstalk MMUX/MDEMUX with low insertion loss (IL) and 
+low -modal crosstalk is also a key component in the MDM 
+transmission link[11]. Among various types of MMUXs and 
+MDEMUXs , the one consisting of cascaded mode -selective 
+couplers (MSCs ) is promising for weakly -coupled MDM sys ⁃
+tems for its high conversion purity , high flexibility , and low 
+coupling crosstalk with transmission FMFs[12–15]. MSCs with 
+side -polishing processing have high modal selectivity and low 
+IL because their waveguide structure is not significantly dam ⁃
+aged during the fabrication process . Real -time transmissions 
+utilizing the side -polishing MMUX/MDEMUX and small form -
+factor pluggable plus (SFP+ ) optical modules have been ex ⁃
+perimentally demonstrated[16–17].
+In this paper , we adopt the side -polishing processing to de ⁃
+sign and fabricate MSCs for a weakly -coupled triple -ring -core 
+(TRC) FMF . A pair of all -fiber low -modal -crosstalk 4-mode 
+MMUX/MDEMUX are completed by cascading side -polished 
+MSCs . The measurement results show that a pair of MMUX/
+MDEMUX and 25 km weakly -coupled TRC -FMF MDM link 
+achieve low modal crosstalk of lower than −17.5 dB and inser ⁃
+tion loss of lower than 11.56 dB for all the four modes . Based 
+on the TRC -FMF and all -fiber MMUX/MDEMUX , a real -time 
+4-mode 3-λ 25 km wavelength division multiplexing (WDM )-
+MDM transmission is experimentally demonstrated using com ⁃
+mercial 400G optical transport network (OTN ) transceivers .
+2 TRC -FMF and MMUX/DEMUX
+2.1 Weakly -Coupled TRC -FMF
+Fig. 1 shows the designed (blue line ) and fabricated (orange 
+line) index profile of the weakly -coupled TRC -FMF and neff of 
+the supported four LP modes . This FMF is designed with a 
+normalized frequency V of 4.8, and the refractive index differ ⁃ence between the core and cladding (Δn) is 0.6%. Three rings 
+of index perturbations are applied into the fiber core to sepa ⁃
+rate neff of different LP modes to suppress the distributed 
+modal crosstalk among different LP modes in fiber transmis ⁃
+sion. To reduce the bending sensitivity of high -order LP 
+modes , a depressed -index fluorine -doped trench is applied in 
+the cladding . The designed weakly -coupled TRC -FMF is fabri ⁃
+cated using the plasma chemical vapor deposition (PCVD ) 
+technique , which is widely used in commercial SMF fabrica ⁃
+tion. Table 1 lists the measured characteristics of the four LP 
+modes at 1 550 nm. A min| Δneff| up to 1.89 × 10−3 between dif ⁃
+ferent LP modes is achieved , which can effectively suppress 
+the modal crosstalk among them . The propagation loss (PL) of 
+each LP mode is all lower than 0.227 dB/km thanks to the 
+depressed -index trench .
+2.2 Weakly -Coupled Side -Polishing MMUX/MDEMUX
+MMUX and MDEMUX in this work are completed by cas ⁃
+cading all -fiber side -polishing MSCs . The FMF of each MSC 
+is the same as the transmission fiber , which can reduce the 
+extra IL and modal crosstalk induced by mode field mis ⁃
+matching at the connection point between the MMUX/
+MDEMUX and FMF . For phase -matching with high -index 
+LP01 and LP11 modes of the TRC -FMF , a customized step -
+index SMF with a core/cladding radius of 2.48/62.5 μm and 
+Δn of 1.23% at 1 550 nm is adopted . The designed (blue line ) 
+and measured (orange line ) index profiles are shown in Fig . 2, 
+▼Table 1. Characteristics of the fabricated weakly -coupled TRC -FMF
+Characteristics
+neff
+Δneff (×10-3)
+PL/(dB/km )
+DC/(ps·nm−1·km−1)Four LP Modes
+LP01
+1.452 215
+1.94
+0.215
+20LP11
+1.450 277
+2.99
+0.221
+18LP21
+1.447 285
+1.89
+0.227
+23.4LP02
+1.445 394
+-
+0.223
+24
+DC: dispersion coefficient 
+LP: linearly -polarized PL: propagation loss 
+TRC -FMF : triple -ring -core few -mode fiber
+▲Figure 1. Refractive index profile of the designed triple -ring -core few -
+mode fiber (TRC -FMF ) and neff of the supported four LP modesLP: linearly -polarized
+▲Figure 2. Refractive index profile of the designed single -mode fiber 
+(SMF ) and neff of the LP01 modeLP: linearly -polarizedRadius/ μm0  5 10 15 20Refractive index1.456
+1.451
+1.446
+1.441
+1.436Designed
+Fabricated LP01
+LP11
+LP21
+LP021.89×10-3Designed
+Fabricated
+LP01
+Radius/ μm0 1 2 3 4 5Refractive index1.464
+1.459
+1.454
+1.449
+1.444
+107

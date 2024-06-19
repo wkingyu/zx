@@ -1,0 +1,69 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression    Special Topic
+For run lengths less than or equal to n, there may be 2n of 
+tree nodes representing the occupancy states of voxels . There ⁃
+fore, the probability of any occupied voxel is represented by 
+the independent joint probability of traversing all states start ⁃
+ing at the root and ending at any childless node of the tree .
+Based on Eq . (4), to perform arithmetic encoding on the oc ⁃
+cupancy of the voxel sequence , we need the cumulative upper 
+and lower probabilities of the sequence , as shown in Eq . (5).
+ì
+í
+îïï
+ïïïïLow()l=∑r=1l-1P(r)=∑r=1l-1p()1|cr∙∏i=1rp(0|ci)
+High()l=∑r=1lP(r)=∑r=1lp()1|cr∙∏i=1rp(0|ci) .(5)
+Employing this approach , we can utilize the adaptive prop ⁃
+erties of arithmetic coding to adjust the probability estimation 
+value of each symbol based on the optimized probability esti ⁃
+mation model and the frequency of each symbol in the current 
+symbol sequence . This allows us to calculate the upper and 
+lower bounds of the cumulative probability of occupied voxels 
+and complete the encoding process .
+4 Experiment
+4.1 Implementation Details
+1) Dataset . To verify the performance of our proposed 
+method , extensive experiments were conducted over 16 point 
+cloud datasets that can be downloaded from Ref . [40], as 
+shown in Fig . 3, in which Figs . 3(a)–3(l) are portraits with 
+dense points , and Figs . 3(m)–3(p) are architecture with 
+sparse points . Figs . 3(a)–3(h) are voxelized upper bodies 
+point cloud data sequences of two spatial resolutions obtained 
+from Microsoft . Figs . 3(i)–3(l) are chosen from 8i voxelized 
+full bodies point cloud data sequences . Remaining large -scale 
+sparse point clouds in Figs . 3(k)–3(p) are static facade and 
+architecture datasets .
+2) Evaluation metrics . The performance of the proposed 
+method is evaluated in terms of bit per point (BPP). The BPP 
+refers to the sum of bits occupied by the coordinate informa ⁃
+tion attached to the point . The lower the value , the better the 
+performance .
+BPP=Sizedig
+k , (6)
+where Sizedig represents the number of bits occupied by the co ⁃
+ordinate information of point cloud data , and k refers to the 
+number of points in the original point cloud .
+3) Benchmarks . We mainly compare our method with other 
+baseline algorithms , including : PCL -PCC: octree -based com ⁃
+pression in PCL ; G-PCC (MPEG intra -coders test model ) and 
+interEM (MPEG inter -coders test model ) target single -frame 
+and multi -frame point cloud compression respectively ; The Sil ⁃
+houette 3D (S3D)[41] and Silhouette 4D (S4D)[42] target single -
+frame and multi -frame point cloud compression , respectively . For PCL , we use the octree point cloud compression approach 
+in PCL -v1.8.1 for geometry compression only . We set octree 
+resolution parameters from point precision and voxel resolu ⁃
+tion. For G -PCC (TM13-v11.0), we choose a loss less geometry
+—lossless attributes condition in an octree -predictive mode , 
+leaving parameters as default . For interEM (tmc3v3.0), we 
+use the experimental results under lossless geometry and 
+▲Figure 3. Point cloud sequences used in experiments : (a) An ⁃
+drew_vox 09, (b) Andrew_vox 10, (c) David_vox 09, (d) David_vox 10, (e) 
+Ricardo_vox 09, (f) Ricardo_vox 10, (g) Sarah_vox 09, (h) Sarah_vox 10, (i) 
+Longdress_vox 10, (j) Loot_vox 10, (k) Redandblack_vox 10, (l) Sol ⁃
+dier_vox 10, (m) Facade_ 00009 _vox 12, (n) Facade_ 00015 _vox 14, (o) 
+Arco_Valentino_Dense_vox 12, and (p) Palazzo_Carignano_Dense_vox 14(a) (b)
+(e) (f)  (g)   (h) (c) (d)
+(i) (j)  (k)   (l) 
+(m) (n)
+(o) (p)
+23

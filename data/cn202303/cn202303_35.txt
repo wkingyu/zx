@@ -1,0 +1,48 @@
+无线网络孪生中的统计信道建模方法 ：现状与前沿 张树韬  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3communications magazine , 2019 , 57(3): 22-27. DOI : 10.1109 /
+MCOM .2019 .1800635
+[21] HUANG J , WANG C X , BAI L , et al . A big data enabled channel model for 
+5G wireless communication systems [J]. IEEE transactions on big data , 
+2020 , 6(2): 211-222. DOI: 10.1109 /TBDATA .2018 .2884489
+[22] HUANG C , HE R S , AI B , et al . Artificial intelligence enabled radio 
+propagation for communications —part II : scenario identification and 
+channel modeling [J]. IEEE transactions on antennas and propagation , 
+2022 , 70(6): 3955 -3969 . DOI: 10.1109 /TAP .2022 .3149665
+[23] 张树韬 , 宁新智 , 郑熙 , 等. 无线信道评估方法及系统 : CN116155412 A [P]. 
+2023
+[24] NING X Z , ZHANG S T , ZHENG X , et al . Multi-grid-based localized 
+statistical channel modeling : a radio map approach [C]//Proceedings of 
+2022  International Symposium on Wireless Communication Systems 
+(ISWCS ). IEEE , 2022 : 1-6. DOI: 10.1109 /ISWCS 56560 .2022 .9940390
+[25] ZHANG S T , NING X Z , ZHENG X , et al . A physics-based and data-driven 
+approach for localized statistical channel modeling [EB/OL ]. [2023 -04-10]. 
+https ://www .researchgate .net/publication/ 368350585
+[26] LIU Y R , HU Y Q , QIAN H , et al . ZOOpt : toolbox for derivative-free 
+optimization [EB/OL ]. [2023 -04-10]. https ://arxiv .org/abs/ 1801 .00329
+作 者 简 介
+张树韬 ，香港中文大学 （深圳）与深圳市大数据
+研究院联合培养在读博士生 ；主要研究领域包括
+无线信道建模 、稀疏信号处理以及数字孪生网络 ；
+曾获得 IEEE ISWCS 会议最佳论文奖 。薛烨 ，深圳市大数据研究院研究科学家 、副研究
+员；主要研究领域包括非凸优化 、机器学习 、通
+信网络等 ；参与多个国家重点研发计划项目 ；发
+表论文 10余篇。
+史清江 ，同济大学软件工程学院教授 、博士生导
+师，深圳市大数据研究院信息系统大数据实验室
+主任；主持多项国家重点研发计划项目和国家自
+然科学基金重点项目 ；主要研究领域包括算法设
+计与分析 、信号处理和无线网络等 ；连续 3年入
+选爱思唯尔高被引学者榜单 ，2022 年获得 IEEE 信
+号处理学会最佳论文奖 ；发表论文 80余篇，申请
+国家专利 40余项。
+                        张纵辉 ，香港中文大学 （深圳）理工学院副教授 、
+博士生导师 ，IEEE Fellow ，广东省大数据计算基
+础理论与方法重点实验室副主任 ，IEEE 信号处理
+学会感知与通信一体化技术工作委员会创始主席 ，
+《IEEE Transactions on Signal Processing 》编委；
+主要研究领域包括通信系统与机器学习中的关键
+信号处理与优化方法 ；2015 年获得 IEEE 通信学会
+亚太区杰出青年学者奖 ，2018 与2021 年两度获
+得IEEE 信号处理学会最佳论文奖 。
+31

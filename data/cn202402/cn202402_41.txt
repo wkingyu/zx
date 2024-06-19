@@ -1,0 +1,60 @@
+基于存算一体集成芯片的大语言模型专用硬件架构 何斯琪  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2基于存算一体集成芯片的
+大语言模型专用硬件架构
+Large Language Model Specific Hardware Architecture Based on 
+Integrated Compute-in-Memory Chips
+何斯琪 /HE Siqi，穆琛/MU Chen ，陈迟晓 /CHEN Chixiao
+（ 复旦大学 ，中国 上海 200433  ）
+(Fudan University , Shanghai 200433 , China )DOI：10.12142 /ZTETJ .202402006
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .tn.20240407 .1932 .006.html
+网络出版日期 ：2024 -04-09
+收稿日期 ：2024 -02-25
+摘要 ：目前以 ChatGPT 为代表的人工智能 （AI）大模型在参数规模和系统算力需求上呈现指数级的增长趋势 。深入研究了大型模型专用硬件架
+构，详细分析了大模型在部署过程中面临的带宽问题 ，以及这些问题对当前数据中心的重大影响 。提出采用存算一体集成芯片架构的解决方案 ，
+旨在缓解数据传输压力 ，同时提高大模型推理的能量效率 。此外，还深入研究了在存算一体架构下轻量化 -存内压缩协同设计的可能性 ，以实现
+稀疏网络在存算一体硬件上的稠密映射 ，从而显著提高存储密度和计算能效 。
+关键词 ：大语言模型 ；存算一体 ；集成芯粒 ；存内压缩
+Abstrac t:Artificial intelligent (AI) models represented by ChatGPT are showing an exponential growth trend in parameter size and system com ⁃
+puting power requirements . The dedicated hardware architecture for large models is studied , and a detailed analysis of the bandwidth bottle ⁃
+neck issues faced by large models during deployment is provided , as well as the significant impact of this challenge on current data centers . To 
+address this issue , a solution of using integrated compute-in-memory chiplets has been proposed , aiming to alleviate data transmission pres ⁃
+sure and improve the energy efficiency of large-scale model inference . In addition , the possibility of lightweight in-memory compression col ⁃
+laborative design under the in-memory computing architecture is studied , in order to achieve dense mapping of sparse networks on the inte ⁃
+grated in-memory computing architecture hardware , thereby significantly improving storage density and computational energy efficiency .
+Keywords :large language model ; compute-in-memory ; chiplet ; in-memory compression
+引用格式 ：何斯琪 , 穆琛, 陈迟晓 . 基于存算一体集成芯片的大语言模型专用硬件架构  [J]. 中兴通讯技术 , 2024 , 30(2): 37-42. DOI : 10.12142 /
+ZTETJ .202402006
+Citation ： HE S Q , MU C , CHEN C X . Large language model specific hardware architecture based on integrated compute-in-memory chips 
+[J]. ZTE technology journal , 2024 , 30(2): 37-42. DOI: 10.12142 /ZTETJ .202402006
+近年来 ，基于注意力机制的大语言模型 （LLM）[1]取得
+了显著成功 。与此同时 ，模型尺寸在迅速增长 ，如图
+1所示 ，每两年模型尺寸增长 240倍，而相应的算力需求则
+增长近 750倍。与此同时 ，硬件每两年 3.1倍的发展速度[2]已
+逼近物理极限 ，进入了技术发展的瓶颈期 。传统的超大规模
+和超大面积的单芯片系统级芯片 （SoC）方案面临着利用率
+低、良率低 、验证复杂度高 、设计成本激增等一系列问题 ，
+同时集成电路制造已经达到了光刻掩膜版的最大面积上限 。
+因此 ，大型模型的推理变得异常复杂且成本高昂 ，这成为当前研究和实际应用中需要解决的关键问题 。
+为了突破存储单元和计算单元之间的数据搬移的瓶颈 ，
+提高计算芯片能效 ，存算一体的专用芯片架构逐渐成为了神
+基金项目 ：国家自然科学基金项目 （62322404 ） ；复旦大学 -中兴通讯强计算架
+构研究联合实验室 “存算一体架构研究项目 ”
+ 图1 大模型参数量和算力需求[3]2017  2018  2019  2020  2021 年参数量 （十亿）
+推理算力 （每秒十亿次操作 ）10 000
+1 000
+100
+10
+1
+0.1
+0.011 000 000
+100 000
+10 000
+1 000
+100
+10T-NLGGPT- 3GPT- 2
+BERTSwitch
+TransformerGPT- 1Operation
+Parameter
+Megatron
+37

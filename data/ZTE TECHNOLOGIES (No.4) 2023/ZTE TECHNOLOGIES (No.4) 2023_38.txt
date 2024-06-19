@@ -1,0 +1,79 @@
+The Success of Project Delivery and 
+Migration 
+Türk Telekom has high requirements for 
+project delivery and customization. As a 
+world-leading provider of video solutions, 
+ZTE provided an advanced video solution — 
+Premium Video Platform (PVP) 2.0 — tailored 
+to Türk Telekom’s speci/f_ic needs. With this 
+solution, Türk Telekom’s project achieved the 
+fastest delivery among platform 
+replacement projects of similar scale in the 
+global IPTV sector. 
+During the solution design phase, ZTE 
+designed a system capable of supporting 
+2 million IPTV subscribers and 5 million OTT 
+subscribers, based on Turkey’s subscriber 
+growth potential. This solution provided 
+access to over 10 types of terminals, including 
+mobile phones, PCs, and smart TVs. 
+ZTE successfully conducted the research 
+on platform deployment, developed a 
+migration solution, cut over data from the 
+original platform, and migrated the STBs 
+and OTT clients to the new platform. By 
+June 2022, all 1.75 million subscribers on 
+Türk Telekom’s TV platform were able to 
+enjoy the new services, which included an 
+elegant UI interaction, personalized content 
+service, and smooth synchronization across 
+diﬀerent terminals.
+Throughout the project delivery process, 
+ZTE collaborated closely with Türk Telekom, 
+establishing four teams focusing on diﬀerent 
+aspects of the project including client, CDN, 
+service platform, and big data. The project 
+had a delivery staﬀ of over 100, with more 
+than 20 located in Turkey. Each sub-module 
+team had its own project manager, 
+engineering group, R&D group, and testing 
+group, creating a stable team structure. 
+To accelerate project progress, ZTE 
+implemented a full project delivery 
+procedure, involving collecting customer 
+needs, initiating reviews, solution review, 
+testing, task assignment review, staging 
+platform testing, and ultimately delivering workshop speci/f_ically for the operator, and 
+formed a team comprising experts from various 
+/f_ields to cater to the requirements in the tender. 
+Compared to the old platform, ZTE’s solution 
+has introduced new features in /f_ive aspects: a 
+private cloud container solution architecture; 
+over 1,000 customized functions and 
+interconnection with over 10 third parties; 
+customized migration solution to release 
+operator BOSS development workload; 
+brand-new operation solution with a sales 
+promotion system and targeted advertising 
+solution to improve the operator’s revenue; and 
+B2B wholesale functions to explore new 
+business models for the operator. 
+Despite the impact of the pandemic, in May 
+2020, ZTE’s TV project team successfully 
+performed a proof of concept (POC) with 
+approximately 1,000 items. The team set a 
+testing center in Nanjing and held a video 
+conference with Türk Telekom’s team. Experts 
+in Turkey, Spain and Serbia participated online 
+in the testing and provided explanations. 
+Through seven days of joint eﬀorts, ZTE 
+successfully completed the testing and 
+convincingly demonstrated its client design, 
+platform service management, and operation 
+and maintenance (O&M) capabilities to the 
+customer. The eﬃcient testing arrangement 
+also showcased ZTE’s project management 
+capability. Türk Telekom highly recognized 
+ZTE’s solution, and in the autumn of 2020, ZTE 
+was selected for the video project. 
+36Success Stories

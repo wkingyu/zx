@@ -1,0 +1,137 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Special Topic   Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions
+multibeam covering/not covering the best direction is approxi ⁃
+mated by (ignoring receiver noise and any inter -beam interfer ⁃
+ence) Pk(1,b*
+k) and 0, the binary decision threshold for the re ⁃
+ceived power is set as
+P()th
+k≜(Pk(1,b*
+k)+0)/2=Pk(1,b*
+k)/2. (12)
+It is used to determine whether the optimal beam direction 
+is included by B(r,bk(r)). Thus , for each r∈{2,3,…,log2M+
+1}, combined with the binary decision of Î
+k(r-1), the new 
+candidate direction for the r-round is determined as follows
+Î
+k(r)=
+ì
+í
+îïï
+ïï    Î
+k(r-1)∩B(r,bk(r)),  if Pk(r, b)≥P()th
+k,
+    Î
+k(r-1)∖B(r,bk(r)),  if Pk(r, b)<P()th
+k,  ∀k∈K
+.(13)
+3.3.2 Hashing Multi -Beam Training
+To address the challenges of high complexity and low iden ⁃
+tification accuracy in the aforementioned beam training tech ⁃
+niques , particularly in many -to-many near -field communica ⁃
+tion scenarios , an efficient hashing multi -beam (HMB ) train ⁃
+ing scheme is proposed .
+Firstly , we discuss how to generate HMB . HMB training le ⁃
+verages the structure of the sparse Fourier transform and se ⁃
+lect codewords from the single -beam codebook C to form 
+multi -beams . Define the universe of keys with a total order as  
+U=0,1,…,NC-1, where NC is the total number of codewords 
+in the codebook . The hash function is denoted as h: U→T, 
+where T=0,1,…,B-1 represents the set of interpreted hash 
+values . The parameter B signifies the number of available 
+hash values . In this framework , the universe of keys remains 
+fixed , and the HMB method randomly selects hash functions 
+from a family H=h1,h2,…,h|H| of hash functions . Here , |H| 
+represents the number of distinct functions present in the fam ⁃
+ily H. Fig. 4 illustrates the process of two times hashing , 
+where the codewords representing 16 different directions are 
+uniformly hashed into 4 multi -beams . Each multi -beam covers 
+a total of NC/B=4 different directions .
+Moreover , the proposed method involves joint design of the 
+response of all antennas to generate the multi -beam codebook 
+C͂ for training , which offers enhanced performance compared 
+with the simple antenna partitioning approach .
+The training process in this method consists of two phases : 
+the scanning phase and the voting phase . During the scanning 
+phase , a total of L rounds of hashing mapping are performed to 
+accurately train the beams . In each round , the BS randomly se ⁃
+lects a distinct hash function from the family  H. Simultane ⁃
+ously , the BS transmits training symbols using its designed 
+multi -beam codeword . This approach significantly reduces the 
+complexity compared with traditional methods that require al ⁃
+ternate scanning of all BSs . By using the hash functions and transmitting training symbols with the designed codewords , 
+the scanning phase achieves accurate beam training while 
+minimizing the number of time slots required . Specifically , B 
+hash functions are randomly selected from the family H over L 
+rounds , resulting in a total of Q=BL time slots needed for the 
+scanning phase . During these time slots , the BS transmits 
+training symbols with the corresponding multi -beam code ⁃
+words , resulting in Q received signal power measurements .
+Following the scanning phase , the voting phase is carried 
+out to align the signals from different BSs . Since the signals 
+from multiple BSs are superimposed , a demultiplexing algo ⁃
+rithm and the voting mechanism are then employed to sepa ⁃
+rate the signals from each BS .
+Specifically , by sorting the power measurements in descend ⁃
+ing order , the soft decision assigns the L time slots with the 
+((k-1)L+1)-th to kL-th largest values in the received signal 
+power to the k-th strongest BS mk. Thus , the time slot qmk=
+arg max(k-1)L+1:kL descend(P) is considered to contain the 
+aligned beam direction between the BS mk and the user . This 
+step distinguishes the received signal power of different BSs . 
+Afterward , based on the demultiplexed time slot qmk, the next 
+step is to vote on the directions in the multi -beams used in the 
+qmk-th time slot . The direction that receives the highest number 
+of votes is considered the correctly aligned direction for BS mk.
+Fig. 5 illustrates an example of the voting process in a sce ⁃
+nario involving two BSs . The received signal power values are 
+known and arranged in descending order . The time slots with 
+the first L highest received signal power is highlighted in orange , 
+▲Figure 4. Process of two times hashing1st hash 2nd hash
+(a) (d)
+(b) (e)
+(c) (f)Bucket # 1 Bucket # 2
+Bucket # 3 Bucket # 4Bucket # 1 Bucket # 2
+Bucket # 3 Bucket # 4
+BS BS
+Direction = # 1 → #16 Direction = # 1 → #16
+1  2  3  4  5  6  7  8  9  10  11 12 13  14 15 16 1  2  3  4  5  6  7  8  9  10  11 12 13  14 15 16
+1
+6
+9
+132
+8
+12
+163
+5
+10
+154
+7
+11
+144
+8
+10
+132
+5
+9
+141
+6
+11
+163
+7
+12
+15z
+y
+xz
+y
+xz
+xyz
+xyz
+xy
+xyz z
+xyz
+xyz
+xy
+xyz
+46

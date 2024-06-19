@@ -1,0 +1,80 @@
+he AI /f_ield is undergoing a new round of 
+rapid development, and the demand for 
+generative AI computing power has 
+skyrocketed. This trend is poised to 
+become a new growth point and accelerator in the AI 
+computing market.
+In 2023, China’s GPU server market continued its 
+rapid growth. According to IDC, the accelerated 
+server market in China reached US$9.4 billion in 
+2023, an increase of 104% over the previous year, 
+with shipments totaling 326k/uni00A0 units. 
+GPU-accelerated servers accounted for 92% of this 
+market, reaching US$8.7 billion. IDC forecasts that 
+by 2028, China’s accelerated server market will 
+reach US$12.4 billion. 
+ 
+Requirements of AI Applications 
+for GPU Servers
+Compared with general servers, GPU servers oﬀer 
+several distinctive features: 
+High-performance CPUs:  A large number of 
+computing resources are required for AI training 
+and inference, necessitating high-performance 
+CPUs to meet the processing requirements of large 
+datasets.
+GPU accelerator cards: Compared with CPUs, 
+GPUs excel in parallel computing , enabling them 
+to accelerate the training and inference for deep 
+learning models. A PCIe/uni00A0 GPU can meet the 
+requirements of most small and medium model 
+training and inference applications. A single server 
+usually supports four to eight GPU cards for 
+parallel processing, enhancing computational 
+performance and eﬃciency.
+Large-capacity memory: Suﬃcient capacity 
+memory accelerates data /f_low and algorithm 
+processing speed.
+High-bandwidth network interface: A 
+high-speed network bandwidth (100GE or above) 
+is required to transmit a large amount of data 
+during the training process. 
+The rise of AI models brings force higher 
+requirements for GPU servers. In particular, a 
+large-scale model requires a huge amount of 
+computing power to train, exceeding the 
+capabilities of a single GPU. In this case, a 
+single-server multi-card setup or multi-server 
+clusters are needed to implement parallel training 
+techniques, including tensor/uni00A0parallelism (TP), data/uni00A0
+parallelism (DP) and pipeline/uni00A0parallelism (PP). The 
+specialized requirements of large models for GPU 
+servers include:
+High-performance GPUs with large memory: A 
+large model requires massive parallel computing 
+capability, and a large number of parameters and 
+gradient information need to be stored. Therefore, 
+high-performance GPUs with large memory are 
+required for training and inference.
+High-speed interconnection of GPUs within the 
+server: The single-server multi-card setup utilizing 
+the TP technique has exceptionally high 
+requirements for the communication bandwidth 
+between multiple GPUs within the server. An 
+SXM/OAM GPU accelerator card supporting 
+high-speed interconnection channels is required 
+to facilitate high-speed interconnection among 
+eight GPUs within a server, accelerating data 
+transmission and model synchronization. 
+High-performance interconnection network 
+between servers:  In multi-server clusters, the 
+ZTE’s GPU Server Solution: 
+Driving Digital Economy
+T
+Chief Engineer of ZTE 
+Server and Storage 
+ProductsZhou Zanxin
+ 
+ 
+Intelligent Computing Special Topic 
+18 

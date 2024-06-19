@@ -1,0 +1,230 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression    Special Topic
+Table 3. As we can see , after optimizations in prediction 
+mode and arithmetic encoder , the proposed algorithm shows 
+superiority on all test sequences . Specifically , compared with 
+interEM and G -PCC, the proposed algorithm shows signifi ⁃
+cant gains ranging from −51.94% to −17.13% and −46.62% 
+to −5.7%, respectively . Compared with S 4D, the proposed al ⁃
+gorithm shows robust improvement ranging from −12.18% to 
+−0.33%. As for PCL -PCC, our proposed algorithm has nearly 
+halved over all test sequences .
+Furthermore , we summarize the compression results and 
+gains of the proposed method on the portraits dense point 
+cloud data sequences , listed in Table 4. On average , it deliv ⁃
+ers gains between −11.5% and −2.59% compared with the spatial context -guided point cloud geometry compression al ⁃
+gorithm proposed previously . Moreover , it shows superior av ⁃
+erage gains of −19% compared with G -PCC, and has 
+achieved an average coding gain of −24.55% compared with 
+interEM . Additionally , compared with S 3D and S 4D, it gains 
+more than −6.11% and −3.64% on average respectively .
+The overall experimental analysis shows that the spatio -
+temporal context -guided point cloud compression method 
+can make full use of both the spatial and temporal correla ⁃
+tion of adjacent layers within intra -frames and inter -frames . 
+We also improve the global context selection and probability 
+model of the arithmetic encoder to obtain a lower bit rate . 
+The proposed method surpasses the performance of state -of-
+▼Table 3. Bit per point comparisons of our spatio -temporal context -guided compression algorithm and the baseline methods
+Point Cloud Sequences
+Andrew_vox 09
+Andrew_vox 10
+David_vox 09
+David_vox 10
+Ricardo_vox 09
+Ricardo_vox 10
+Sarah_vox 09
+Sarah_vox 10
+Longdress_vox 10
+Loot_vox 10
+Redandblack_vox 10
+Soldier_vox 10BPP/bit
+Multiple ↓
+1.072 25
+0.972 24
+1.046 565
+1.020 547
+0.982 66
+0.954 235
+1.028 745
+1.008 465
+0.896 585
+0.861 815
+0.970 43
+0.704 24G-PCC↓
+1.135 068
+1.104 986
+1.114 673
+1.090 388
+1.081 282
+1.068 567
+1.107 865
+1.065 947
+1.025 244
+0.945 36
+1.082 107
+1.032 572InterEM ↓
+-
+-
+-
+-
+-
+-
+-
+-
+1.056 275
+1.009 412
+1.140 317
+1.070 037PCL -PCC↓
+2.074 226
+1.952 745
+2.105 917
+1.974 752
+2.046 144
+1.944 874
+2.101 666
+1.978 308
+2.347 862
+2.314 874
+2.400 688
+2.423 025S4D↓
+1.08
+-
+1.05
+-
+1.02
+-
+1.04
+-
+0.95
+0.89
+1.01
+0.79Gains
+G-PCC/%
+−5.86
+−13.65
+−6.51
+−6.84
+−10.04
+−11.98
+−7.69
+−5.70
+−14.35
+−9.69
+−11.51
+−46.62InterEM/%
+-
+-
+-
+-
+-
+-
+-
+-
+−17.81
+−17.13
+−17.51
+−51.94PCL -PCC/%
+−93.45
+−100.85
+−101.22
+−93.50
+−108.23
+−103.81
+−104.29
+−96.17
+−161.87
+−168.60
+−147.38
+−244.06S4D/%
+−0.72
+-
+−0.33
+-
+−3.80
+-
+−1.09
+-
+−5.96
+−3.27
+−4.08
+−12.18
+G-PCC: geometry -based point cloud compression
+PCC: point cloud compressionPCL: Point Cloud Library
+S4D: Silhouette 4D▼Table 2. BPP comparison with state -of-the -art algorithms on single -frame point cloud data
+Point Cloud Data
+Microsoft voxelized upper bodies
+8i voxelized full bodies
+MPEG Facade and architectureAverage BPP/bit
+Single ↓
+1.036 923
+0.956 96
+1.158 62G-PCC↓
+1.096 097
+1.021 321
+1.198 392PCL -PCC↓
+2.022 329
+2.371 612
+2.336 034S3D↓
+1.072 5
+0.962 5
+-Average Gains
+G-PCC
+−5.71%
+−6.73%
+−3.43%PCL -PCC
+−95.03%
+−147.83%
+−101.62%S3D
+−3.43%
+−0.58%
+-
+BPP: bit per point
+G-PCC: geometry -based point cloud compressionMPEG : Moving Picture Experts Group
+PCC: point cloud compressionPCL: Point Cloud Library
+S3D: Silhouette 3D
+▼Table 4. Bit per point comparison with state -of-the -art algorithms on multi -frame point cloud data
+Average BPP/bit
+Point cloud data
+Microsoft voxelized upper bodies
+8i voxelized full bodies
+Average Gains
+Point cloud data
+Microsoft voxelized upper bodies
+8i voxelized full bodiesMultiple ↓
+1.010 713
+0.858 268Single ↓
+1.036 923
+0.956 96
+Single
+−2.59%
+−11.50%G-PCC↓
+1.096 097
+1.021 321
+G-PCC
+−8.45%
+−19.00%InterEM ↓
+-
+1.069 01
+interEM
+-
+−24.55%PCL -PCC↓
+2.022 329
+2.371 612
+PCL -PCC
+−100.09%
+−176.33%S4D↓
+1.047 5
+0.91
+S4D
+−3.64%
+−6.03%S3D↓
+1.072 5
+0.962 5
+S3D
+−6.11%
+−12.14%
+G-PCC: geometry -based point cloud compression
+PCC: point cloud compressionPCL: Point Cloud Library
+S3D: Silhouette 3DS4D: Silhouette 4D
+25

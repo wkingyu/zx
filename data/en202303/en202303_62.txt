@@ -1,0 +1,116 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Research Papers   Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks
+connected neural network including two dense hidden layers . 
+Suppose the number of neurons of the two layers is NL1 andNL2. 
+The dimension of the input feature vector is 4s+1 and the di ‐
+mension of the output feature vector is 2s. Therefore , the com ‐
+puting complexity is O(s2×NL1×NL2). We need to store the 
+weights and bias of the middle layer and the values of thresh ‐
+olds, which results in a space complexity of O(NL1+NL2+s). 
+By using additional space and computing resources , our AC -
+DCRS can intelligently adjust the threshold and achieve a bet ‐
+ter performance .
+4 Performance Evaluation
+4.1 Simulation Setting
+We use a typical satellite system mobility model and basic 
+assumptions , the parameters for the satellite communication 
+network and the AC algorithm are shown in Tables 1 and 2 re‐
+spectively .
+4.2 Numerical Results
+First, we examine the relationship between overall access 
+failure probability O(t), which is approximately equal to the 
+negative long -term accumulated reward , with the varying total 
+call arrival rate λ. As shown in Fig . 4, since our optimization 
+objective is to minimize O(t), the greater O(t), the worse over ‐
+all system performance . We can see that the proposed AC -DCRS algorithm can learn better admission control strategies 
+and achieve better overall system performance , compared with 
+FCR, HPFCR , and DCR in most traffic scenarios . However , 
+there is no obvious advantage in the scenarios of very low and 
+high traffic loads . This is because AC -DCRS needs some trial -
+and -error interactions with the environment . Reducing the 
+thresholds of low -priority services causes some call failures in 
+low -traffic scenarios , and multiple next -highest priority ser ‐
+vices get admission to quickly filling up the channel , which af ‐
+fects the overall access failure probability in high -traffic load 
+scenarios .
+Next, we explore the relationship between the channel utili ‐
+zation and the average call success rate with the varying total 
+call arrival rate λ. From Figs . 5 and 6, we can find that the 
+channel utilization increases with the traffic load , and the av ‐
+erage call success rate decreases with the traffic load . We can ▼Table 1. Simulation parameters
+Parameter
+Number of services s
+Number of beam cell channels
+Average call duration parameter u
+Call arrival rate ratio p1: p2: p3
+Decision period TΔ
+Maximum number of calls N
+Balance factor α0, α1
+Balance factor β1, β2, β3
+FCR normalized fixed threshold setting
+HPFCR normalized fixed threshold setting
+DCR normalized initial threshold setting
+Number of periods played
+Total call arrival rate λValue
+3
+100
+1/30 s
+0.2:0.3:0.5
+5 s
+50
+0.4, 0.6
+0.2, 0.3, 0.5
+[0.73, 0.75, 0.82, 0.85, 0.86, 1]
+[0.73, 0.75, 0.73, 0.85, 0.73, 1]
+[0.73, 0.75, 0.82, 0.85, 0.86, 1]
+20 000TΔ
+2–25 calls/s
+DCR : dynamic channel reservation 
+FCR: fixed channel reservation 
+HPFCR : handover priority fixed channel reservation
+▼Table 2. AC algorithm parameters
+Parameter
+Discount factor γ
+Learning rate of policy αactor
+Learning rate of value function αcritic
+Action selection variance σValue
+0.99
+0.002
+0.005
+0.05
+AC: Actor -Critic
+▲Figure 4. O(t) with varying λAC -DCRS : DCR strategy based on Actor -Critic algorithm
+DCR : dynamic channel reservation
+FCR: fixed channel reservation
+HPFCR : handover priority fixed channel reservation strategy
+▲Figure 5. Channel utilization with varying λAC -DCRS : DCR strategy based on Actor -Critic algorithm
+DCR : dynamic channel reservation
+FCR: fixed channel reservation
+HPFCR : handover priority fixed channel reservation strategyAC -DCRS
+FCR
+HPFCR
+DCR
+0   5 10 15 20 25
+λO(t)35
+30
+25
+20
+15
+10
+5
+0
+AC -DCRS
+FCR
+HPFCR
+DCR
+0   5  10 15 20 25
+λChannel utilization1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+60

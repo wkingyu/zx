@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Special Topic   Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions
+terval increases with distance . This is expected since the ef ⁃
+fect of distance on the beamforming design decreases with dis ⁃
+tance and eventually disappears in the far -field region . The ad ⁃
+vantage of constructing the codebook in this way is that the co ⁃
+herence between different code words in the codebook is 
+small , which improves the efficiency of the exhaustive search .
+Obviously , the narrower the sampling interval during code ⁃
+book construction , the greater the codebook ’s spatial resolu ⁃
+tion, and the outcomes are more precise following exhaustive 
+beam training . However , this training process results in in ⁃
+creased delay and overhead[22]. It should be pointed out that 
+the exhaustive search method can always find the optimal solu ⁃
+tion by constructing a reasonable codebook , therefore making 
+it a suitable benchmark for comparing with other schemes .
+3.2 Hierarchical Beam Training
+The hierarchical codebook scheme has been proposed to 
+solve the beam training problem in the far field[13–14]. The hier ⁃
+archical codebook is inspired by the fact that the overhead of 
+beam training mainly depends on the size of the codebook , but 
+the size of the codebook and the accuracy of the training are a 
+tradeoff . Therefore , the hierarchical codebook considers the 
+design of different levels of sub -codebooks , each of which has 
+different sampling intervals and numbers of sampling points . 
+During the training process , the codebook is searched sequen ⁃
+tially layer by layer to simultaneously reduce the codebook 
+space and ensure the training accuracy . Of course , the design 
+of hierarchical codebooks should have corresponding prin ⁃
+ciples[23]. Firstly , the codebook needs to cover the entire sam ⁃
+pling space , which is to ensure the accuracy of the results . At 
+the same time , in order to reduce the steps in training , the 
+lower codebook is a subset of the upper codebook , so that 
+when searching layer by layer , only the corresponding subset 
+needs to be searched in turn . Following are two hierarchical 
+beam training schemes for near -field beam training .
+As shown in Fig . 2(a), similar to the layered codebook in 
+the far -field beam search , a similar effect can be achieved in 
+the near -field by setting smaller and smaller sampling inter ⁃
+vals in the layer -by-layer codebook . The difference is that the 
+layered codebook for the far -field is 
+one -dimensional , while the layered 
+codebook for the near -field is two - 
+or three -dimensional . Based on the 
+hierarchical near -field codebook de ⁃
+scribed above , the basic idea of the 
+hierarchical near -field beam train ⁃
+ing scheme is to search from the 1st 
+level sub -codebook to the K-th 
+level sub -codebook[18]. In addition 
+to this , there is another hierarchical 
+beam training scheme based on the 
+polar domain representation[19]. In 
+order to adapt to the characteristics of near -field communication , the hierarchical codebook is de ⁃
+signed as in Fig . 2(b). The codebook W= {W1,W2,…,Wnlv} 
+consists of nlv levels of codebooks . The upper -layer codebook 
+Wu={W1,W2,…,Wnlv-1} is designed to reduce the beam 
+searching steps . While the lower -layer codebook Wl={Wnlv} 
+aims to provide high beamforming gain for receivers in the 
+Fresnel region . To reduce the beam searching steps , the 
+upper -layer codebook W u is designed . In the upper -layer co ⁃
+debook , the i-th codeword of the l-th layer codebook Wl[i] is 
+assigned to a subset of codewords Wi
+l+1 in the next layer : 
+Wi
+l+1=Wl+1[i1],Wl+1[i2],…,Wl+1[ik]. Beam relocation 
+and beam rotation methods are used for the design of the up ⁃
+per codebook . In the polar domain , beam rotation and beam re ⁃
+location can be used to introduce a rotation angle and reloca ⁃
+tion of a specific distance from an existing codeword , respec ⁃
+tively . As a result , a hierarchical codebook can be obtained 
+for each layer . The lower -layer codebook W l is designed to 
+match the strongest multipath components (MPCs ) in the chan ⁃
+nel and provide high beamforming gains as many as possible . 
+After the construction of a codebook , a top -down level by level 
+codebook search remains .
+The advantage of hierarchical beam training is the reduced 
+training overhead , but there are some disadvantages . The use 
+of wide beams early in the hierarchical beam training leads to 
+a decrease in beamforming gain , thus the correct wide beam 
+may not be recognized at a low SNR and ultimately the opti ⁃
+mal beam direction may not be detected . Secondly , layered 
+beam training suffers from serious inherent error propagation 
+problems[24]. Moreover , the hierarchical training results in ad ⁃
+ditional delay due to the need to compare and discriminate the 
+recognition results at each level to determine the training sub -
+codebook for the next stage .
+3.3 Multi -Beam Training
+In order to reduce the time of conventional single -beam 
+training , multi -beam training methods for HMIMO communi ⁃
+cation are introduced [20].
+▲Figure 2. Hierarchical codebook in the near -field communication(a) Hierarchical near -field codebook search process diagram (b) Polar -domain hierarchical codebookK-th levelHierarchical near -field 
+codebook2nd level
+…1st levelNear -field
+codebook 1
+10rmin
+W1[0]
+W1[1]r
+wu
+W2[1]
+W2[0]W2[2]
+W2[3]
+Wnlv[0]wllv
+…
+…
+…θ
+44

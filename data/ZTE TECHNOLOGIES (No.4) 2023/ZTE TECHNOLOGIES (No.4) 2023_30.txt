@@ -1,0 +1,76 @@
+cloud, and AI to provide enhanced user 
+experience. Examples include AI-enabled 
+image quality enhancement, AI-enabled 
+2D-to-3D video conversion, and AI virtual 
+viewpoints. 
+ 
+8K UHD Video
+8K video refers to ultra-high-de/f_inition 
+video with an image resolution of 
+7680×4320 pixels, characterized by high 
+resolution, high frame rate, high color 
+depth, wide color gamut, and high-dynamic 
+range.
+High resolution:  The dense arrangement 
+of 7680×4320 pixels enhances the level of 
+detail and sharpness in the visuals. 
+High frame rate: The true 8K video 
+usually requires a frame rate of 120 fps 
+at least. This ultra high frame rate 
+improves the smoothness and /f_luidity of 
+the images, especially for fast-moving 
+images.
+High color depth and wide color gamut: 
+These features enable smoother color 
+gradients, and richer and more lifelike 
+colors.
+High dynamic range:  This feature 
+enhances the contrast of the image, 
+adding depth and a sense of 3D to the 
+visuals, resulting in a more immersive 
+and layered viewing experience.
+8K UHD video has been widely used in 
+live sports broadcasting, arts shows, and 
+cultural and tourism live streaming. Users ideo is undergoing a 
+transformation driven by 
+technology in the 21st century. 
+With the rapid progress of 5G, 
+Wi-Fi 6, and FTTH networks, capable of 
+delivering gigabit speeds, along with 
+advancements in video production, 
+distribution, and the integration of AI, 
+edge cloud and CDN, video is evolving 
+towards ultra-high de/f_inition (UHD), 
+multi-dimensional, immersive, and highly 
+interactive experiences.
+New UHD scenario is a collective term 
+for various types of UHD scenarios. It 
+encompasses a wide range of immersive 
+service forms such as 4K (and above) UHD 
+video, VR video, multi-viewpoint video 
+(MVV), free-viewpoint video (FVV), /f_lexible 
+scaling, and 2D-to-3D video conversion. 
+The new UHD scenarios can be categorized 
+into three types based on their features.
+The /f_irst type is the video featuring 
+image quality enhancement, such as 4K 
+and 8K UHD videos. Leveraging existing 
+video services as a foundation, these videos 
+undergo advancements in resolution, 
+dynamic range, color gamut, frame rate and 
+sampling. 
+The second type is the UHD video 
+featuring dimensional enhancement and 
+interaction, such as VR video, MVV based 
+on frame synchronization, and 360-degree 
+FVV. These videos enable multidimensional 
+experiences and oﬀer strong interactivity. 
+The third type is the AI-enhanced UHD 
+video, which uses technologies like 5G, Beyond Visuals: A New Experience 
+of UHD Video
+Chief Engineer of Big Video 
+Product Planning, ZTEXu Huoshun
+Director of Multimedia 
+Innovative Product 
+Planning, ZTEMao LianguiV
+28New Video Ecosystem Special Topic

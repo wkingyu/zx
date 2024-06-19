@@ -1,0 +1,130 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System    Research Papers
+obtained through SRS in the i-th half -
+frame and HDt
+i, k∈CNr×Nt as the CSI ma ‐
+trix for DL transmission in the t-th DL 
+time slot of the i-th half -frame period . 
+As illustrated in Fig . 2, the whole pro ‐
+cedure of channel acquisition can be 
+divided into three steps , which are 
+channel estimation , channel prediction 
+and interpolation . Based on the chan ‐
+nel prediction algorithm and interpola ‐
+tion for the DL channel between the 
+currently estimated channel and the 
+predicted one , HDt
+i, k used for DL beam ‐
+forming depends on the predicted DL 
+channel matrix ĤDt
+i, k, and the channel 
+prediction error is considered further .
+2.1 Channel Prediction
+In the TDD system , firstly , by ex ‐
+ploiting the reciprocity between UL 
+and DL , we can obtain the uplink 
+channel information by channel esti ‐
+mation such as minimum mean square 
+error (MMSE ) and least square (LS), 
+and use them to calculate parameters 
+including beamforming for DL trans ‐
+mission . The channel estimation is to 
+diminish the effect of noise and ex ‐
+tract the channel model from received 
+data. In this paper , we assume the 
+channel estimation is perfect and we 
+can obtain the estimated CSI for UE 
+HS
+i,1, HS
+i,2,⋯, HS
+i,K through the process ‐
+ing of SRS .
+Then , based on a certain number of past CSI samples , we 
+can predict the future state of channels for UE 
+ĤS
+i+1,1, ĤS
+i+1,2,⋯, ĤS
+i+1,K by exploiting the correlation charac ‐
+teristics of the channels . In this paper , to track nonlinear chan ‐
+nels and predict the time -varying channel , we adopt a sparse 
+sliding -window KRLS algorithm , where the sample set is up ‐
+dated dynamically based on the correlation analysis among 
+samples . And it is to be mentioned that the proposed beam ‐
+forming scheme in the following is not limited to a certain pre ‐
+diction method .
+During the special time slot for SRS , with the currently esti ‐
+mated channel and predicted one ĤS
+i+1, k, the next step is to in ‐
+terpolate the DL channel between them and here we take the 
+linear interpolation method . Define τ and Nslot as the number 
+of DL time slots and that of the total slots in one half -frame , re‐
+spectively . Assuming that besides the DL time slots there is 
+one SRS slot and two UL slots , with the detail of the time slot 
+structure shown in Fig . 3, the deployed linear interpolation is 
+expressed asĤDt
+i+1,k=HS
+i,k+(t+2)⋅ĤS
+i+1,k-HS
+i,k
+Nslot,   1≤t≤τ . (1)
+2.2 Channel Prediction Error Model
+Considering that the predicted channels obtained by chan ‐
+nel prediction techniques still exist errors inevitably , com ‐
+pared with the real channels , we take channel prediction er ‐
+rors into consideration and introduce an error model . With HS
+i,k 
+denoting the perfect estimated CSI for the k-th piece of UE in 
+the i-th SRS period , the former channel prediction errors col ‐
+lected can be described as
+ΔHS
+i,k=HS
+i,k-ĤS
+i,k , (2)
+and a sliding -window size w is set for collection , as shown 
+in Fig . 3. By exploiting the statistical characteristics of 
+the historical channel prediction error sample set 
+[ΔHS
+i-w,k, ΔHS
+i-w+1,k,⋯, ΔHS
+i-1,k], we use the jointly corre ‐
+▲Figure 2. System model for proposed beamforming schemeSRS: sounding reference signal      UE : user equipment
+▲Figure 3. Channel prediction error model and time slot structureChannel prediction error model
+SRSkUE kUE 1SRS1
+NtNrBeamforming
+…
+…
+…… …Channel prediction
+InterpolationChannel estimationHS
+i,1
+HS
+i,2
+︙
+HS
+i,kĤD1
+i+1,1…ĤDτ
+i+1,1
+ĤD1
+i+1,2…ĤDτ
+i+1,2
+  ︙ ⋱
+ĤD1
+i+1,k…ĤDτ
+i+1,k
+Error model Er, Ω, EtOne frame , T=10 ms
+One half -frame , T=5 ms
+One slot , T=0.5 msEstimation and prediction
+… D1      D 2              D τ    S     U    U    D1    D2ĤS
+i+1,1
+ĤS
+i+1,2
+︙
+ĤS
+i+1,k+H͂+H͂
+H͂
+i,k=Er(Ω☉Hi.i.d.)EH
+tΔĤS
+i-w,kΔĤS
+i-w+1,kΔĤS
+i-1,kΔĤS
+i,k
+79

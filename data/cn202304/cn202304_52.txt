@@ -1,0 +1,51 @@
+通用在网计算系统架构及协议设计 姚柯翰  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4针对在网计算系统碎片化问题进行架构设计 ，提出了 S、C、
+I的3层通用在网计算系统架构 。异构在网计算节点通过统
+一的北向接口向在网计算控制器上报计算能力 ，为不同应用
+场景提供共享的网络基础设施 。同时架构简化了在网计算应
+用开发 ，应用只需要向任务调度器提出需求 ，再由任务调度
+器综合决策 ，有效避免了应用开发者对底层物理网络复杂逻
+辑的理解 ，降低了应用开发门槛 。本文以 SRv6数据面协议
+为例 ，设计了通用在网计算的实现机制 ，同时针对在网计算
+的通用性和扩展性的提升提出了一些需要关注的问题 。
+参考文献
+[1] TENNENHOUSE D L , SMITH J M , SINCOSKIE W D , et al . A survey of 
+active network research [J]. IEEE communications magazine , 1997 , 35(1): 
+80-86. DOI: 10.1109 /35.568214
+[2] BOSSHART P , DALY D , GIBB G , et al . P4: programming protocol-
+independent packet processors [J]. ACM SIGCOMM computer 
+communication review , 2014 , 44(3): 87-95. DOI: 10.1145 /2656877 .2656890
+[3] LAO C L , LE Y F , MAHAJAN K , et al . ATP : in-network aggregation for 
+multi-tenant learning [C]//18th USENIX Symposium on Networked Systems 
+Design and Implementation (NSDI 21). NSDI , 2021 : 741-761
+[4] SEEMAKHUPT K , LIU S H , SENEVIRATHNE Y , et al . PMNet : in-network 
+data persistence [C]//Proceedings of 2021  ACM/IEEE 48th Annual 
+International Symposium on Computer Architecture (ISCA ). IEEE , 2021 : 
+804-817. DOI: 10.1109 /ISCA 52012 .2021 .00068
+[5] JIN X , LI X Z , ZHANG H Y , et al . Netchain : scale-free sub-RTT coordination 
+[C]//Proceedings of the 15th USENIX Conference on Networked Systems 
+Design and Implementation . ACM , 2018 : 35-49. DOI : 10.5555 /
+3307441 .3307445
+[6] CHOLE S , FINGERHUT A , MA S , et al . dRMT : disaggregated programmable 
+switching [C]//Proceedings of the Conference of the ACM Special Interest 
+Group on Data Communication . ACM , 2017 : 1-14. DOI : 10.1145 /
+3098822 .3098823
+[7] ZHAO B , WU W , XU W . NetRPC : enabling In-network computation in 
+remote procedure calls [EB/OL ]. [2023 -05-20]. https ://arxiv .org/abs/2212 .08362
+[8] ZHENG C , XIONG Z , BUI T T , et al . IIsy: practical in-network classification 
+[EB/OL ]. [2023 -05-27]. https ://arxiv .org/abs/ 2205 .08243
+[9] FILSFILS C , CAMARILLO P , LEDDY J , et al . Segment routing over IPv 6 
+(SRv6) network programming : RFC 8986  [S]. 2021
+作 者 简 介
+姚柯翰 ，中国移动通信有限公司研究院研究员 ；
+研究方向包括未来网络架构 、在网计算 、可编程
+网络等 。
+陆璐 ，中国移动通信有限公司研究院基础网络技
+术研究所副所长 、中国通信标准化协会 TC5核心
+网组组长 ；长期从事移动核心网策略 、演进、标
+准和技术研究工作 ，主要涉及未来网络架构 、智
+能管道 、边缘计算 、算力网络等领域 。
+徐世萍 ，中国移动通信有限公司研究院研究员 ；研
+究方向包括未来 IP网络、算力网络 、在网计算等 。
+48

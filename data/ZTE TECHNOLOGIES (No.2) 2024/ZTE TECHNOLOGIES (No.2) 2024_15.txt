@@ -1,0 +1,89 @@
+SDN-based centralized management and control 
+system enable data entry to the orchestration system 
+and upper-layer customer systems. Fig. 1 illustrates 
+the network architecture of an SPN private line.
+China Mobile has launched three SPN private line 
+products based on SPN features: basic SPN private 
+line, advanced SPN private line, and customized 
+industry SPN private network. The basic version 
+focuses on slice sharing, ubiquitous access, and fast 
+provisioning. Industry users can share MTN slices, with 
+isolation through VPN for users within the same MTN 
+slice. The advanced version provides /f_ine-grained 
+MTN slices for single-user dedication with ultra-high 
+determinacy. Customized industry SPN private 
+networks meet speci/f_ic customer requirements, 
+allowing the selection of hard or soft slices, and are 
+physically isolated from other user slices.
+For enhanced adaptation to edge access in SPN 
+private lines, smaller SPN devices are developed in 
+addition to metro SPN devices. These smaller devices 
+feature reduced con/f_igurations and costs, with 
+enhanced integrated access capabilities tailored for 
+edge coverage. They oﬀer small switching capacity, 
+compact size, AC power supply, and low power 
+consumption to meet the requirements in edge 
+scenarios. Interconnected through NNIs, small SPN 
+devices and metro SPN devices provide end-to-end 
+Ethernet /f_ine-grained hard slices and slice-based 
+hitless bandwidth adjustment for high-value user 
+demands. Small SPN devices must provide standard 
+southbound interfaces and uni/f_ied management and 
+control capabilities to facilitate orchestration and 
+control.Private line technologies have enhanced 
+forwarding layer capabilities and are advancing 
+end-to-end intelligent services. Key improvements 
+include enhancing the intelligent management 
+system, automating interfaces for customer service 
+integration, and timely display of private line 
+commissioning, operation status, and fault locating 
+on customer interfaces. Collaboration among 
+intelligent systems at network equipment, 
+management and control, and platform levels is 
+essential. Collecting comprehensive historical and 
+current data enables eﬃcient control, analysis, 
+prediction of risks, and enhanced user experience. As 
+intelligent management and control capabilities 
+advance, the eﬃciency of network OAM and private 
+line services will see continuous enhancement in the 
+future.
+Conclusion
+As a 5G mobile backhaul network innovation, SPN 
+eﬃciently caters to 5G commercialization needs. Amid 
+the digital transformation of industries, private lines 
+seek integrated network transport, deterministic 
+latency, ubiquitous access, fast provisioning, and 
+end-to-end intelligent services. SPN 2.0, centered 
+around /f_ine-granularity hard slicing, addresses these 
+market demands. China Mobile oﬀers a range of SPN 
+private line products including basic SPN private line, 
+advanced SPN private line, and customized industry 
+SPN private network, to support the transport of 
+diverse private line services and create China’s digital 
+intelligence future.
+Fig. 1. Network 
+architecture of 
+an SPN private line. 
+ 
+ Ordinary user
+China Mobile cloud
+Third-party cloudIP backbone 
+networkThird-party cloud
+Default slicesSelf serviceCloud & network 
+resource sharing
+SPN transport 
+network
+ToB private lines share MTN hard slices
+ToB private lines share MTN hard slices
+Inband OAM SLA detectionIndustry user
+VIP userNetwork 
+controllerIntegrated asset 
+managementCloud management 
+platform 1
+Cloud management 
+platform 2Multi-cloud 
+management 
+platform
+Cloud management 
+platform nCollaboration/orchestration layerService operation portalAPR 2024 
+ 13

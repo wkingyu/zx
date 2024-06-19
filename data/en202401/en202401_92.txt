@@ -1,0 +1,82 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Review   Research on Multi -Core Processor Analysis for WCET Estimation
+classification of soft real -time systems and hard real -time sys ⁃
+tems. Soft real -time systems do not always have safety require ⁃
+ments , but hard real -time systems require that the program ’s 
+WCET should never be underestimated . Additionally , this 
+serves as the fundamental metric for assessing the dependabil ⁃
+ity criteria of WCET analysis outcomes[1].
+According to LYU ’s survey[2], the execution time of a task 
+usually follows some distribution , which is influenced by vari ⁃
+ous factors such as processor status , data input , and program 
+logic . Under the coverage of all possible execution paths , 
+there exist theoretical maximum and minimum values , repre ⁃
+senting the best -case execution time (BCET ) and WCET of the 
+program , respectively .
+As embedded real -time operating systems become more 
+powerful , their underlying hardware structures are also becom ⁃
+ing increasingly complex . Nowadays , the industry frequently 
+runs real -time tasks on chips with multi -core processor archi ⁃
+tecture . Therefore , studying the WCET of a task in the context 
+of multi -core systems has significant practical importance . 
+Correspondingly , this paper aims to explore WCET analysis 
+techniques in the field of multi -core systems and provide an 
+overview of their key frameworks and modeling methods .
+The rest of this paper is organized as follows . Section 2 of⁃
+fers an overview of timing analysis techniques for WCET . Sec⁃
+tion 3 summarizes the existing analysis framework , analysis 
+content , and key areas in the field of multi -core platforms . Sec⁃
+tion 4 lists the primary analysis tools for multi -core timing 
+analysis of WCET . Section 5 summarizes the paper , highlights 
+the challenges of static and dynamic timing analysis in the 
+context of multi -core systems , and discusses possible develop ⁃
+ment trends and the future of WCET analysis methods .
+2 Overview of Timing Analysis Techniques
+With the development of computer systems and the increas ⁃
+ing complexity of processor architectures , more efficient tech ⁃
+niques have been developed based on traditional static and dy ⁃namic methods for WCET analysis , such as analyzing WCET 
+problems from a probabilistic perspective .
+2.1 Static Analysis
+Static analysis involves analyzing the pre -information indi ⁃
+cated by the program and hardware prior to its execution on 
+the hardware platform . As shown in Fig . 1, static analysis usu ⁃
+ally consists of the following three steps .
+1) Processor behavior analysis[3–14]: The main purpose of 
+this step is to analyze the execution time of instructions and lo ⁃
+cal programs on a specific processor . The behavior of a proces ⁃
+sor can be influenced by a few factors , including cache behav ⁃
+ior, instruction pipelining , branch prediction , and instruction 
+level parallelism . Each of these factors can affect the execu ⁃
+tion time of a program and must be taken into account when 
+analyzing the WCET .
+2) Program flow analysis[15–17]: Program flow directly affects 
+the WCET of a program . It includes control flow graphs 
+(CFGs ), data flow analysis , and abstract interpretation . CFGs 
+are graphical representations of a program 􀆳s control flow , show ⁃
+ing the order in which program statements are executed . Data 
+flow analysis tracks the flow of data through a program and 
+provides information about the changes in data during pro ⁃
+gram execution by performing a static analysis of the program 
+to infer the relationships between variable definitions and 
+their uses . Abstract interpretation involves analyzing a pro ⁃
+gram 􀆳s abstract semantics , rather than its concrete behavior . 
+By abstracting the concrete execution details , abstract inter ⁃
+pretation provides a simplified yet sound approximation of the 
+program 􀆳s behavior .
+3) WCET calculation : This step involves calculating the pro ⁃
+gram 􀆳s execution time and obtaining the program 􀆳s execution 
+time on tthe longest execution path . The selection of the calcula ⁃
+tion methodology employed has a direct impact on both program 
+flow analysis and processor behavior analysis , underscoring its 
+fundamental significance among the three primary techniques[1].
+▲Figure 1. Overview of timing analysis architectureWCET : worst -case execution timeProgram flow analysis
+WCET calculationProcessor behavior analysis
+Cache Bus
+Branch Pipeline
+Static analysisProgram information prepro ⁃
+cessingTest vector generation
+Global measurement Local measurement
+Dynamic analysis
+Hybrid -based analysis
+Probabilistic detection analysis
+88

@@ -1,0 +1,87 @@
+面向 6G无线环境可预测的感知重构 、语义表征及应用 张建华  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 52018  10th International Conference on Modelling , Identification and 
+Control (ICMIC ). IEEE , 2018 : 1-9. DOI: 10.1109 /ICMIC .2018 .8530003
+[21] KOPACZKA M , SCHOCK J , NESTLER J , et al . A combined modular 
+system for face detection , head pose estimation , face tracking and 
+emotion recognition in thermal infrared images [C]//Proceedings of 2018  
+IEEE International Conference on Imaging Systems and Techniques (IST). 
+IEEE , 2018 : 1-6. DOI: 10.1109 /IST.2018 .8577124
+[22] CHARLES R Q , HAO S , MO K C , et al . PointNet : deep learning on point 
+sets for 3D classification and segmentation [C]//Proceedings of 2017  IEEE 
+Conference on Computer Vision and Pattern Recognition (CVPR ). IEEE , 
+2017 : 77-85. DOI: 10.1109 /CVPR .2017 .16
+[23] XIANG Z H . A simultaneous object detection and tracking framework 
+based on point cloud [C]//Proceedings of 2022  14th International 
+Conference on Computer Research and Development (ICCRD ). IEEE , 
+2022 : 225-229. DOI: 10.1109 /ICCRD 54409 .2022 .9730356
+[24] GAO X Y , XING G B , ROY S , et al . RAMP-CNN : a novel neural network for 
+enhanced automotive radar object recognition [J]. IEEE sensors journal , 
+2021 , 21(4): 5119 -5132 . DOI: 10.1109 /JSEN .2020 .3036047
+[25] MEYER M , KUSCHK G , TOMFORDE S . Graph convolutional networks for 
+3D object detection on radar data [C]//Proceedings of 2021  IEEE/CVF 
+International Conference on Computer Vision Workshops (ICCVW ). IEEE , 
+2021 : 3053 -3062 . DOI: 10.1109 /ICCVW 54120 .2021 .00340
+[26] DING L , ELLIETHY A , SHARMA G . 3D georegistration of wide area motion 
+imagery by combining SFM and chamfer alignment of vehicle detections 
+to vector roadmaps [C]//Proceedings of 2017  IEEE International 
+Conference on Image Processing (ICIP). IEEE , 2018 : 1487 -1491 . DOI : 
+10.1109 /ICIP .2017 .8296529
+[27] BERRA E F , PEPPA M V . Advances and challenges of uav sfm mvs 
+photogrammetry and remote sensing : short review [C]//Proceedings of 
+2020  IEEE Latin American GRSS & ISPRS Remote Sensing Conference 
+(LAGIRS ). IEEE , 2020 : 533-538. DOI : 10.1109 /
+LAGIRS 48042 .2020 .9285975
+[28] LUO Q , LI Y , QI Y . Distributed refinement of large-scale 3D mesh for 
+accurate multi-view reconstruction [C]//Proceedings of 2018  International 
+Conference on Virtual Reality and Visualization (ICVRV ). IEEE , 2019 : 58-
+61. DOI: 10.1109 /ICVRV .2018 .00018
+[29] WANG H Q , HUANG L , YU K , et al . Deep-learning-based multiview 
+RGBD sensor system for 3-D face point cloud registration [J]. IEEE 
+sensors letters , 2023 , 7(5): 1-4. DOI: 10.1109 /LSENS .2023 .3267948
+[30] WANG Z Y , ISLER V , LEE D D . Surface Hof : surface reconstruction from A 
+single image using higher order function networks [C]//Proceedings of 
+2020  IEEE International Conference on Image Processing (ICIP). IEEE , 
+2020 : 2666 -2670 . DOI: 10.1109 /ICIP 40778 .2020 .9190842
+[31] ALKHATEEB A , CHARAN G , OSMAN T , et al . DeepSense 6G: a large-
+scale real-world multi-modal sensing and communication dataset [J]. 
+IEEE communications magazine , 2023 , (99): 1-7. DOI : 10.1109 /
+MCOM .006.2200730
+[32] ZHANG J H . The interdisciplinary research of big data and wireless 
+channel : a cluster-nuclei based channel model [J]. China communications , 
+2016 , 13(Supplement 2): 14-26. DOI: 10.1109 /CC.2016 .7833457
+[33] YU L , ZHANG Y X , ZHANG J H , et al . Implementation framework and 
+validation of cluster-nuclei based channel model using environmental 
+mapping for 6G communication systems [J]. China communications , 2022 , 
+19(4): 1-13. DOI: 10.23919 /JCC .2022 .04.001
+[34] SUN Y T , ZHANG J H , ZHANG Y X , et al . Environment features-based 
+model for path loss prediction [J]. IEEE wireless communications letters , 
+2022 , 11(9): 2010 -2014 . DOI: 10.1109 /LWC .2022 .3192516
+[35] SUN Y T , ZHANG J H , ZHANG Y X , et al . Environment information-based 
+channel prediction method assisted by graph neural network [J]. China 
+communications , 2022 , 19(11): 1-15. DOI: 10.23919 /JCC .2022 .11.001
+[36] SUN Y T , ZHANG J H , YU L , et al . How to define the propagation 
+environment semantics and its application in scatterer-based beam prediction [J]. IEEE wireless communications letters , 2023 , 12(4): 649-
+653. DOI: 10.1109 /LWC .2023 .3237827
+[37] MIAO Y H , ZHANG Y X , ZHANG J H , et al . Demo abstract : predictive radio 
+environment for digital twin communication platform via enhanced sensing 
+[C]//Proceedings of IEEE INFOCOM 2023 -IEEE Conference on Computer 
+Communications Workshops (INFOCOM WKSHPS ). IEEE , 2023 : 1-2. 
+DOI: 10.1109 /INFOCOMWKSHPS 57453 .2023 .10225977
+[38] SUN Y T , ZHANG J H , WANG J L , et al . PC-SC : a predictive channel-
+based semantic communication system for sensing scenarios [J]. 
+Electronics , 2023 , 12(14): 3129 . DOI:10.3390 /electronics 12143129
+作 者 简 介
+张建华 ，北京邮电大学教授 、理学院副院长 、博
+士生导师 ，北邮-中国移动联合创新中心主任 ；研
+究方向为 6G移动通信技术 、人工智能 、数据挖
+掘，主要包括智能信道建模 、大规模 MIMO 和太
+赫兹信道建模 、信道仿真仪和 OTA 测试；发表论
+文300余篇，授权专利 50余项。
+田艺璇 ，北京邮电大学在读硕士研究生 ；主要研
+究方向为信道预测和环境感知 。
+孙语瞳 ，北京邮电大学在读博士研究生 ；主要研
+究方向为信道预测 、环境感知 、计算机视觉 。
+于力 ，北京邮电大学博士后 ；主要研究方向为智
+能信道建模 、信道预测和机器学习 。
+44

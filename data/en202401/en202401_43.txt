@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model    Special Topic
+However , the singular values of the super -dense arrays in the 
+far-field are smaller than the benchmark , indicating that the 
+channel 􀆳s DOF for both ULA and UPA may be degraded due 
+to strong mutual coupling .
+3.3 Potential DOF
+To further investigate the vanishing singular values trun ⁃
+cated by the limited antenna numbers in the receiving array , 
+we select the scenarios where Tx has λ/4 spacing . We then in ⁃
+crease the number of antennas in the corresponding Rx to 
+match that of the Tx . The results for the singular values with 
+increased receiving arrays are shown in Fig . 6.
+The singular values in the dense ULA and UPA with the 
+same antenna number have significant differences in their 
+decaying modes compared to the fixed receiving array with 
+only 16 antennas . The singular values of the ULA decrease 
+rapidly at about half of the index , while those of UPA de ⁃
+crease more slowly . Both ULA and UPA have more signifi ⁃
+cant singular values than the benchmark condition and are 
+decreasing much slower than communicating with 16 Rx an ⁃
+tennas . This feature indicates that the mutual coupling 
+could support more DOF as the number of receiving anten ⁃
+nas increases .
+We define the number of the singular values of a mutual 
+coupling channel that is bigger than the biggest singular value 
+of a λ/2 dipole array with the same aperture as the potential 
+DOF . This can be represented by the equation ηp=num(σδ>
+max(σλ2)), where num indicates a numerate operation , σδ 
+and σλ2 are singular values of an array with a fixed aperture , 
+and δ stands for the antenna spacing . It is worth noting that if 
+δ=λ/2, the potential DOF is 0. From Figs . 5(a) and 6, we can 
+see that the increasing antennas contribute more DOF for the channel .
+Fig. 7 demonstrates how the decreasing spacing affects the 
+potential DOF . As the antenna spacing decreases , the poten ⁃
+tial DOF increases significantly . Moreover , the UPAs harvest 
+more potential DOF than ULAs both in the near -field and the 
+far-field. However , the difference in a specific antenna con ⁃
+figuration between the near -field and the far -field is negli ⁃
+gible . It is worth noting that the spatial correlation between 
+the antennas restricts the DOF to reach the antenna number , 
+as mentioned in Section 3.
+4 Conclusions
+In this paper , we introduce the DOF analysis method for 
+HMIMO systems based on a mutual -coupling -compliant chan ⁃
+nel model . We demonstrate that the localized spatial correla ⁃
+tion of the impedance matrix contributes to the additional 
+channel DOF . We further verify the spatial correlation with 
+the mutual -coupling -compliant model and highlight the poten ⁃
+tial DOF for a dense array with a fixed aperture in the pres ⁃
+ence of abundant receiving antennas . The numerical simula ⁃
+tions indicate that the potential DOF of a dense array with 
+fixed aperture increases with the number of the antennas de ⁃
+spite of the mutual coupling . Therefore , dense arrays are prac ⁃
+ticable for harvesting more channel DOF and improving the 
+communication channel quality (e.g. capacity ) within a fixed 
+antenna aperture .
+Acknowledgement
+The authors would like to thank Dr . DUAN Xiangyang , Dr. 
+ZONG Baiqing and Dr . YU Hongkang from ZTE Corporation 
+for their kind support .
+▲Figure 6. Singular values for ULA (49 dipoles ) and UPA (7×7 di⁃
+poles ) with the same antenna number at both Tx and Rx , denoted as 
+ETR in the legends . See Table 1 for the detailed configurations denoted 
+by the legendsFF: far -field 
+NF: near -field ULA : uniform linear array 
+UPA : uniform planar array
+▲Figure 7. Potential DOF for antenna spacing δ=λ/12, δ=λ/10, δ=
+λ/6, and δ=λ/4DOF : degree of freedom 
+FF: far -field NF: near -field 
+ULA : uniform linear array UPA : uniform planar arraySingular value distributionlog10 σ
+Singular value index0  10 20 30 40 50ULA_FF
+UPA_FF
+ULA_FF_ETR
+UPA_FF_ETR
+ULA_NF_ETR
+UPA_NF_ETR0
+-2
+-4
+-6
+-8
+-10
+-12Potential DOF for dense arraysDOF number250
+200
+150
+100
+50
+0
+Antenna spacing/ λ0.075 0.100 0.125 0.150 0.175 0.200 0.225 0.250ULA_FF
+UPA_FF
+ULA_NF
+UPA_NF
+39

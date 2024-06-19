@@ -1,0 +1,94 @@
+of end-to-end user perception. In terms 
+of voice services, functions like intelligent 
+pre-scheduling, intelligent resource 
+allocation, and adaptive handover 
+optimization eﬀectively improve MOS 
+and latency indicators. For data services, 
+functions such as intelligent pre-scheduling 
+for web browsing, intelligent AMC, 
+adaptive CFI optimization, intelligent 
+downlink scheduling, user location-based 
+load balancing, and service-based 
+inter-frequency handover all  contribute to a 
+notable improvement in perception-related 
+elements like data rates and latency. 
+Good network quality is the basis for 
+guaranteeing user experience. Based 
+on the concept of self-discovery and 
+self-optimization, ZTE continually advances 
+the autonomous capability of network 
+maintenance to enhance network quality. 
+In a latency perception optimization project 
+for an operator, ZTE performance experts 
+leveraged uSmartNet’s big data perception 
+analysis capability to comprehensively 
+analyze the reasons behind variations in 
+user-perceived latency and performed 
+multi-dimensional analysis on the latency 
+indicators for key services like games and 
+videos that customers are concerned about. 
+This approach enabled ZTE to quickly 
+demarcate and locate problems, thereby 
+enhancing network quality in the areas of 
+weaknesses. From the perspectives of time 
+domain, area domain, service, and NE, ZTE 
+formulated a cross-domain end-to-end 
+optimization strategy covering wireless, 
+microwave, IPRAN, core network, IPCORE, 
+international ISP links, and CDNs, and 
+devised detailed latency enhancement 
+plans for each product category. Through 
+measures such as poor-quality service 
+identi/f_ication and recti/f_ication, traﬃc 
+balance, international link optimization, CDN 
+cross-traﬃc optimization, transmission link 
+optimization, and air interface scheduling 
+optimization, the user’s experience about 
+latency was greatly improved. This propelled the operator to the top position among 
+many operators in China. 
+Excellent network service quality can 
+enhance user satisfaction and create brand 
+value. The insights into market competition 
+provided by third-party authoritative 
+communication network testing and analysis 
+organizations play an important role in 
+the competitiveness of service quality that 
+operators focus on. Organizations such as 
+Tutela, Ookla, and Opensignal collaborate 
+with widely-used market apps and secure 
+necessary permissions. When a user opens 
+an app authorized by a crowdsourcing 
+enterprise, the app will track the base 
+station connected to the mobile phone, 
+measure the signal strength, and send this 
+data anonymously back to the dedicated 
+server deployed globally. The crowdsourcing 
+platform can then use this data to analyze 
+the network quality of diﬀerent operators 
+in the same area and generate a report on 
+network perception quality analysis. 
+Though crowdsourcing data contains a 
+large amount of third-party network data, 
+it is limited to user terminal data and lacks 
+network device data. As a result, it cannot 
+be directly used to demarcate and locate 
+perception problems. Operator only knows 
+the results, but they cannot identify root 
+causes or provide tailored solutions. In 
+response, ZTE comprehensively explores the 
+impact of users, terminals, NEs, and servers 
+on crowdsourcing test results from multiple 
+dimensions of big data. This approach 
+identi/f_ies weaknesses and provides robust 
+support for operators to enhance network 
+evaluation. 
+In the uSmartNet solution, the “Digital-
+Intelligent Brain” explores the hidden 
+relationships between crowdsourcing 
+measurements and network performance, 
+uncovering critical network performance and 
+parameters. It deduces optimal parameter 
+con/f_iguration models by using algorithms 
+like random forest and decision tree to 
+demarcate and locate related network 
+34Digital & Intelligent Network Services Special Topic

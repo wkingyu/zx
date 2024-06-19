@@ -1,0 +1,160 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System    Research Papers
+E{ } logdet(Ek)-1 ≥E{ } logdet(E(d)
+k)-1 -
+E{ } tr(E(d)
+k)-1()Ek-E(d)
+k ≥
+E{ } logdet(E(d)
+k)-1 +tr()I-E{ } tr(E(d)
+k)-1MSEk ， (12)
+where E()d
+k represents Ek with a fixed set of beamforming ma ‐
+trix {V(d)
+k} at the d-th iteration , k=1,⋯, K. By ignoring the 
+first two constant terms of the right side of Inequality (12), the 
+last part can be expressed as a function of Vk. For brevity , de‐
+fine functions ηpri
+k[f]=E{HkfHkH}, ῆpri
+k[f]=E{HkHfHk}, 
+ηk[f]=E{H͂
+kfH͂
+kH}, and ῆk[f]=E{H͂
+kHfH͂
+k}. Denote the 
+whole right side of Inequality (12) as g(Vk|{V(d)
+k}), which is 
+described in detail as
+g(Vk|{V(d)
+k})=c(d)
+k+tr((A(d)
+k)HVk)+tr(A(d)
+kVH
+k)-
+tr(B(d)
+kVkVH
+k)-tr(C(d)
+k∑
+m≠kVmVmH) , (13)
+where
+c(d)
+k=E{logdet(E(d)
+k)-1 }+tr(I)-E{tr((E(d)
+k)-1)}-
+σ2E{tr((E(d)
+k)-1(U(d)
+k)HU(d)
+k)} , (14)
+A(d)
+k=ĤH
+k(Q(d)
+k)-1Ĥ
+kV(d)
+k+ῆk[(Q(d)
+k)-1]V(d)
+k , (15)
+B(d)
+k=ĤH
+k(Q(d)
+k)-1Ĥ
+k+ῆké
+ë(Q(d)
+k)-1ù
+û-E{HkH(Q(d)
+k+
+HkV(d)
+k(V(d)
+k)HHkH)-1Hk} , (16)
+C(d)
+k=E{HH
+k((Q(d)
+k)-1-E{(Q(d)
+k+
+HkV(d)
+k(V(d)
+k)HHH
+k)-1})Hk} . (17)
+Denote f({V(d)
+k}) as the left side of Inequality (12) and 
+g(Vk|{V(d)
+k}) can be regarded as the lower -bounding function 
+which minorizes the objective function f({V(d)
+k}), since it is a 
+convex function of Vk that satisfies g(Vk|{V(d)
+k})≤f({Vk}) 
+and g(V(d)
+k|{V(d)
+k})=f({V(d)
+k}). It can be iteratively optimized 
+and converge to a stationary point , which has been proved in 
+Ref. [22].
+The update of Vk for all users can be decoupled across 
+transmitters . Then , we update beamforming matrices as 
+V() d+1
+k =argmax
+Vkg()Vk|{}V()d
+k, and the optimal solution to the equation is obtained by the Lagrange multipliers method with 
+Lagrange multiplier μ. According to the first -order optimal 
+conditions , the iterative equation of the beamformer can be ob ‐
+tained as
+V(d+1)
+k =(D(d)
+k+μI)-1(αkA(d)
+k) , (18)
+where
+D(d)
+k=αkB(d)
+k+∑
+m≠kαmC(d)
+m , (19)
+and μ can be obtained by using the bisection method .
+For the last part of B(d)
+k and C(d)
+m, which have not been trans ‐
+formed into the deterministic matrix , there are complicated 
+calculations of the random variables , leading to difficulty in 
+obtaining closed -form expressions . Drawing on the essence of 
+Ref. [23], we will utilize deterministic equivalents to obtain 
+the approximate closed -form expression of MIMO capacity , 
+and the derivation process is presented as follow .
+Note that Rk=E{logdet(I+HkVkVkHHkHQ-1
+k) } can be re ‐
+written as Eìíîlogdet(I+Q-1
+2
+kHkVkVkHHkHQ-1
+2
+k) üýþ. Take 
+Q-1
+2
+kHkVk as a whole part Hk and denote the term 
+Q-1
+2
+kHkVkVkHHkHQ-1
+2
+k as a Hermitian matrix ZNr,k. Let FZNr,k(λ) 
+denote the expected cumulative distribution of the eigenvalues 
+λ1,⋯, λNr of ZNr, k, and the Shannon transform VZNr,k is de ‐
+scribed as VZNr,k(x)=∫0∞
+log(1+1
+xλ)  dFZNr,k(λ). Then Rk can 
+be simplified as ∑Eλi[ ] log(1+λi) and translated into 
+Nr∫0∞
+log(1+λ)  dFZNr,k(λ), finally equivalent to NrVZNr,k(1). 
+The Stieltjes transform for FZNr,k(λ) is
+SZNr,k(y)=∫1
+y-λdFZNr,k(λ)=1
+NrE{tr[(yINr-ZNr,k)-1]}.
+(20)
+Then the relation between the Stieltjes transform SZNr,k(y) 
+and the Shannon transform VZNr,k can be established as
+VZNr,k(x)=∫x∞
+( )1
+y+SZNr,k()-ydy.
+(21)
+Thus , we can obtain the closed -form expression of the ergo ‐
+dic user rate Rk by establishing the closed -form expression of 
+the Stieltjes transform and Shannon transform . The approxi ‐
+mate closed -form Stieltjes transform expressions can be calcu ‐
+lated by applying the free probability theory[24], denoted as 
+Eqs. (22) and (23) with Notations (24)–(27).
+81

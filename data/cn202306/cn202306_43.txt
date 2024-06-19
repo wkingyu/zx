@@ -1,0 +1,52 @@
+基于视距概率模型的 6G室内无线通信系统性能分析 毛曦晨  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6基于视距概率模型的 6G室内
+无线通信系统性能分析
+LoS Probability Model Based Performance Analysis for 6G 
+Indoor Wireless Communication Systems
+毛曦晨 /MAO Xichen1，2，王承祥 /WANG Chengxiang1，2，
+杨松江 /YANG Songjiang2，黄杰/HUANG Jie1，2，
+黄晨/HUANG Chen1，2
+（ 1.东南大学  移动通信全国重点实验室 ，中国 南京 210096 ；
+2.网络通信与安全紫金山实验室 ，中国 南京 211111 ）
+（1.National Mobile Communications Research Laboratory ， Southeast 
+University ，Nanjing  210096 ，China ；
+2.Purple Mountain Laboratory ，Nanjing  211111 ，China  ）DOI：10.12142 /ZTETJ .202306007
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231212 .1655 .010.html
+网络出版日期 ：2023 -12-13
+收稿日期 ：2023 -10-15
+摘要 ：工业物联网 、大型商超 、体育场馆等室内通信场景的重要性在 6G无线通信系统中日益显著 。研究室内视距 （LoS）信号概率模型有利于
+提升室内通信系统性能分析准确性 。针对室内环境 ，考虑家具 、设备等室内阻挡物的任意位置以及任意高度 ，构建了视距信号概率模型 。该模
+型可以准确刻画不同阻挡物场景下的视距概率 。基于视距信号概率模型 ，推导了信噪比分布 ，并研究了室内覆盖性能和能量效率 。相关研究成
+果有助于指导室内无线通信系统部署 ，降低成本 。
+关键词 ：室内无线通信 ；视距概率 ；覆盖概率 ；能量效率 ；绿色通信
+Abstrac t:The importance of indoor communication scenarios , such as industrial Internet of things , superstores , and stadiums , is becoming in ⁃
+creasingly significant in the sixth generation (6G) wireless communication systems . The investigation into indoor line-of-sight (LoS) signal 
+probability is conducive to improving the accuracy of indoor communication performance analysis . In this paper , a LoS probability model is 
+constructed for indoor environments , considering any position and any height of blockages . This model can accurately characterize the LoS 
+probability in different scenarios . Based on the model , this paper derives the signal-to-noise ratio (SNR) distribution and investigates the 
+coverage performance and energy efficiency . The research results are instrumental in instructing the deployment of indoor wireless systems 
+and reducing costs .
+Keywords :indoor wireless communication ; LoS probability ; coverage probability ; energy efficiency ; green communication
+引用格式 ：毛曦晨 , 王承祥 , 杨松江 , 等. 基于视距概率模型的 6G室内无线通信系统性能分析  [J]. 中兴通讯技术 , 2023 , 29(6): 39-45. DOI : 
+10.12142 /ZTETJ .202306007
+Citation ： MAO X C , WANG C X , YANG S J , et al . LoS probability model based performance analysis for 6G indoor wireless communication 
+systems [J]. ZTE technology journal , 2023 , 29(6): 39-45. DOI: 10.12142 /ZTETJ .202306007
+随着城市居民密度的不断增加 ，室内通信场景逐渐成为
+移动通信的重要场景 ，工业物联网 、大型商超等场景
+下的通信覆盖需求日益提升 。中国联通在 2019 年发布白皮
+书《中国联通 5G数字化室分技术白皮书 》[1]，预测室内流量
+将达到总体流量的 80%以上 。随着室内用户数量激增 、传输数据速率要求提升 ，室内通信场景在未来通信系统的重要
+地位日益突出 。全球学者均已开展针对 6G的研究 。国际电
+信联盟 （ITU）在2023 年6月发布了 6G愿景建议书[2]，强调
+室内通信在未来 6G应用场景的重要地位 ，其中海量通信 、
+超高可靠低时延通信等均涉及室内用户 。此外 ，文献 [3]和
+[4]同样阐述了室内通信系统在 6G系统中的重要地位 ，并提
+出光无线技术 、超大规模天线阵列以及智能反射面等使能技
+术，以提升室内通信性能 。
+室内通信场景的重要性逐渐凸显 ，对此全球学者广泛开基金项目 ：国家重点研发计划项目 （2021 YFB2900300 ） ；国家自然科学基金项
+目（61960206006 、62271147 ） ；中央高校基本科研业务费 （2242022 K60006 、
+2242023 K5003 ） ；江苏省重点研发计划项目 （BE2022067 、BE2022067 -1） ；江
+苏省双创博士项目 （JSSCBS 20210082 ） ；欧盟 H2020  RISE TESTBED 2项目
+（872172 ） ；东南大学启动研究基金项目 （RF1028623029 ）
+39

@@ -1,0 +1,68 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Lossy Point Cloud Attribute Compression with Subnode -Based Prediction    Special Topic
+Lossy Point Cloud Attribute Compression Lossy Point Cloud Attribute Compression 
+with Subnodewith Subnode --Based PredictionBased Prediction
+YIN Qian1, ZHANG Xinfeng2, HUANG Hongyue1, 
+WANG Shanshe1, MA Siwei1
+(1. School of Computer Science , Peking University , Beijing 100871 , China ；
+ 2. School of Computer Science and Technology , University of the Chi ⁃
+nese Academy of Sciences , Beijing 100049 , China )DOI: 10.12142 /ZTECOM .202304004
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20231122 .1025 .002.html, 
+published online November 23, 2023
+Manuscript received : 2023 -10-07
+Abstract : Recent years have witnessed that 3D point cloud compression (PCC) has become a research hotspot both in academia and industry . 
+Especially in industry , the Moving Picture Expert Group (MPEG ) has actively initiated the development of PCC standards . One of the adopted 
+frameworks called geometry -based PCC (G-PCC) follows the architecture of coding geometry first and then coding attributes , where the region 
+adaptive hierarchical transform (RAHT ) method is introduced for the lossy attribute compression . The upsampled transform domain predic ⁃
+tion in RAHT does not sufficiently explore the attribute correlations between neighbor nodes and thus fails to further reduce the attribute re ⁃
+dundancy between neighbor nodes . In this paper , we propose a subnode -based prediction method , where the spatial position relationship be ⁃
+tween neighbor nodes is fully considered and prediction precision is further promoted . We utilize some already -encoded neighbor nodes to fa ⁃
+cilitate the upsampled transform domain prediction in RAHT by means of a weighted average strategy . Experimental results have illustrated 
+that our proposed attribute compression method shows better rate -distortion (R-D) performance than the latest MPEG G -PCC (both on refer ⁃
+ence software TMC 13-v22.0 and GeS -TM -v2.0).
+Keywords : point cloud compression ; MPEG G -PCC; RAHT ; subnode -based prediction
+Citation  (Format 1): YIN Q , ZHANG X F , HUANG H Y , et al . Lossy point cloud attribute compression with subnode -based prediction [J]. ZTE 
+Communications , 2023 , 21(4): 29–37. DOI : 10.12142 /ZTECOM .202304004
+Citation  (Format 2): Q. Yin, X. F. Zhang , H. Y. Huang , et al ., “Lossy point cloud attribute compression with subnode -based prediction ,” ZTE 
+Communications , vol. 21, no. 4, pp. 29–37, Dec. 2023 . doi: 10.12142 /ZTECOM .202304004 .
+1 Introduction
+Rapid progress in 3D graphic technologies and capture 
+devices has enabled high -precision digital representa ⁃
+tions of 3D objects or scenes . Point clouds , as one of 
+the mainstream 3D data formats , can effectively indi ⁃
+cate points in real -world scenes through 3D geometric coordi ⁃
+nates and corresponding attributes (e.g., color , normal and re ⁃
+flectance ). Considering its flexible representation properties , 
+point clouds have been widely applied to various fields , such 
+as autonomous driving , free -viewpoint broadcasting , and heri ⁃
+tage reconstruction[1]. However , in addition to a huge amount 
+of data , point clouds are non -uniformly sampled in space , 
+which undoubtedly makes it unfeasible to put point clouds 
+into applications with limited bandwidth and storage space[2]. 
+Therefore , it is necessary to investigate efficient point cloud 
+compression (PCC) schemes .
+With an increasing demand for point cloud applications , the Moving Picture Expert Group (MPEG ) standardization commit ⁃
+tee started to conduct PCC -dedicated standards and issued a 
+Call for Proposals (CfP) in 2017[3]. After intensive develop ⁃
+ments involving academic and industrial meetings , two inde ⁃
+pendent point cloud compression frameworks have been ad ⁃
+opted to cover a wider range of immersive applications and 
+data types . One called video -based PCC (V-PCC)[4] adopts 
+projection -based strategies combined with video codecs , 
+which aims for handling dense point clouds . Another called 
+geometry -based PCC (G-PCC)[5] is more specifically designed 
+for relatively sparse point clouds by using the octree -based ar ⁃
+chitecture . The octree representation first proposed for PCC in 
+Ref. [6] can build a progressive 3D structure for point clouds . 
+Specifically , by recursively dividing point clouds from the root 
+node to leaf nodes , the connectivity information between 
+points can be exploited among the unorganized point clouds . 
+Moreover , the topological neighbor information makes it easier 
+to implement techniques similar to prediction or transforma ⁃
+tion in video coding . In the current G -PCC scheme , geometry 
+and attributes are coded sequentially and multiple coding 
+tools can be selected to suit different application scenarios . 
+This work was supported in part by China Postdoctoral Science Founda ⁃
+tion under Grant No . 2022 M720234  and in part by the National Natural Sci ⁃
+ence Foundation under Grant Nos . 62071449  and U 21B2012 .
+29

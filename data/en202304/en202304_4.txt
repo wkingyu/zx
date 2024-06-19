@@ -1,0 +1,75 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SUN Huifang , LI Ge , CHEN Siheng , LI Li, GAO Wei 3D Point Cloud Processing and Applications   Special Topic
+Special Topic on Special Topic on 
+33D Point Cloud Processing and ApplicationsD Point Cloud Processing and Applications
+3D point cloud processing has redefined the way we per ⁃
+ceive and interact with digital spatial data . By translat ⁃
+ing physical entities into a collection of 3D points , it of ⁃
+fers an accurate digital model of our surroundings . This 
+emerging field of 3D point -based representation has piqued in ⁃
+terest significantly over recent years , owing to its capacity to 
+depict detailed spatial environments , thereby bridging the gap 
+between virtual and real dimensions . Numerous applications , 
+including virtual reality , augmented reality , and advanced 
+mapping , have greatly benefited from this technology , allowing 
+for immersive experiences and accurate spatial analysis . How ⁃
+ever, the journey from raw spatial data to refined point cloud 
+representations is fraught with challenges , including storage 
+and computational demands , noise handling and the quest for 
+efficient compression techniques .
+In this special issue on 3D point cloud processing and ap ⁃
+plications , we present a curated series of articles that dive 
+deep into these challenges , suggesting innovative strategies 
+and methodologies tailored to address them . The selected con ⁃
+tributions touch upon a diverse spectrum of topics within the 
+realm of point cloud processing . They discuss novel compres ⁃
+sion algorithms , delve into quality assessment metrics , eluci ⁃
+date advanced rendering techniques , and highlight the nu ⁃
+ances of feature extraction , among other pivotal areas . The call 
+for papers for this special issue attracted excellent submis ⁃sions , indicating the growing significance of this field . Follow ⁃
+ing rigorous reviews , we are proud to present six standout pa ⁃
+pers that not only showcase cutting -edge research but also set 
+the direction for future endeavors in this domain .
+The first paper titled “Perceptual Quality Assessment for 
+Point Clouds : A Survey ” delivers a comprehensive overview of 
+how the visual quality of point clouds is gauged . Traditional 
+quality assessment methods fall short when applied to point 
+cloud data . This survey presents the significance of point 
+cloud quality assessment , discussing common distortions , ex⁃
+perimental setups , and subjective databases . It contrasts 
+model -based and projection -based objective methods , and the 
+performance of these methods across various databases is ana ⁃
+lyzed . Experimental insights underline the utility and efficacy 
+of the presented methods .
+The second paper titled “Spatio -Temporal Context -Guided 
+Algorithm for Lossless Point Cloud Geometry Compression ” 
+addresses the challenges faced during the compression of 
+point cloud data . Traditional compression techniques struggle 
+with the irregular distribution of point cloud data in space and 
+time. This paper introduces an innovative context -guided algo ⁃
+rithm that slices point clouds and employs the travelling sales ⁃
+man algorithm to predict compression . Testing results empha ⁃
+size its robustness , presenting a feasible avenue for efficient 
+3D point cloud compression (PCC).
+The third paper titled “Lossy Point Cloud Attribute Com ⁃
+pression with Subnode -Based Prediction ” shines light on the 
+advances in 3D point cloud compression . With the Moving 
+Picture Expert Group (MPEG ) working towards a standard for 
+PCC, the paper highlights the challenges in current attribute 
+compression techniques . It introduces a subnode -based pre ⁃
+diction method , leveraging spatial relationships for improved 七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七Guest Editors
+DOI:10.12142 /ZTECOM .202304001
+Citation （Format 1）: SUN H F , LI G , CHEN S H , et al . Special topic on 3D 
+point cloud processing and applications [J]. ZTE Communications , 2023 , 
+21(4): 1–2. DOI : 10.12142 /ZTECOM .202304001
+Citation （Format 2）: H. F. Sun , G. Li, S. H. Chen , et al ., “Special topic on 
+3D point cloud processing and applications ,” ZTE Communications , vol. 
+21, no. 4, pp. 1–2, Dec . 2023 . doi: 10.12142 /ZTECOM .202304001 .Guest Editorial >>>
+SUN Huifang
+ LI Ge
+ CHEN Siheng
+ LI Li
+ GAO Wei
+01

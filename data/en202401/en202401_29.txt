@@ -1,0 +1,89 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems    Special Topic
+cially , in order to decrease the hardware cost , only a few ac ⁃
+tive elements are employed in the XL -HRIS , which will also 
+bring challenges to full dimensional channel estimation . Many 
+studies have been conducted on near -field channel estima ⁃
+tion[30–32]. Ref. [30] considered a near -field channel scenario , 
+where the channel was modeled by a spherical wave model . In 
+Ref. [31], a large lens antenna array -aided system was consid ⁃
+ered, which can estimate the position parameters and locate 
+UE precisely . Ref. [32] considered a spherical wave channel 
+model and proposed an iteration -based algorithm based on the 
+Newtonized orthogonal matching pursuit (NOMP ) algorithm[33], 
+which can detect the channel parameters and reconstruct the 
+near -field channel accurately . Nevertheless , most studies on 
+channel estimation in RIS -aided systems still estimate the 
+channel parameters based on the planar wave channel model 
+and ignore the differences between the realistic spherical 
+wave channel model and the assumed planar wave channel 
+model . This can lead to the estimation error lower bound (LB) 
+analysis being lower than the true results . There are few stud ⁃
+ies on the impacts of the array scale and the variation between 
+the assumed channel model and realistic channel model on 
+channel estimation accuracy .
+In this paper , to study the impacts of the large array scale 
+on channel estimation accuracy and communication perfor ⁃
+mance , an estimation error LB of channel parameters is de ⁃
+rived , which considers the accuracy degradation caused by the 
+channel model mismatch between the realistic spherical chan ⁃
+nel wave model and the assumed planar wave channel model . 
+A true LB result is obtained and the impacts of system param ⁃
+eters on LB , such as the distance , the number of elements and 
+transmitted power , are analyzed . Moreover , the impacts of the 
+large array scale and channel model mismatch on the SE per ⁃
+formance are evaluated , and the simulation results are given . 
+To reduce the computational complexity and pilot overhead in 
+the XL -RIS -aided system , a unique XL -HRIS architecture 
+that uses active and passive elements simultaneously is intro ⁃
+duced in this paper . A decoupled channel estimation algo ⁃
+rithm , which estimates the angle and distance parameters 
+separately , is also considered .
+The rest of the paper is organized as follows . In Section 2, the 
+system model , signal model , and near -field channel estimation 
+algorithm under the proposed XL -HRIS architecture are intro ⁃
+duced . In Section 3, an LB that considers the channel model 
+mismatch is defined and derived , and the impacts of the large 
+array scale on LB and SE are then studied . Section 4 shows the 
+simulation results regarding the impacts of the array scale on 
+parameter estimation accuracy and communication perfor ⁃
+mance . Finally , the conclusions are presented in Section 5.
+2 Proposed XL -HRIS -Aided System
+2.1 System Model
+An XL -HRIS -aided time division duplexing (TDD ) system is proposed in this paper , as shown in Fig. 1. In this system , 
+the BS is equipped with an M-element uniform linear array 
+(ULA ), while the UE only has one single antenna . The carrier 
+frequency is denoted as fc, and the wave length is λc=cfc, 
+where c denotes the speed of light . The spacing between adja ⁃
+cent antennas is the half of the wave length . However , the 
+channel between the UE and the BS is blocked by obstacles , 
+which can cause a serious damage on the communication per ⁃
+formance . Therefore , an XL -HRIS is introduced to provide an 
+additional link to enhance the communication quality .
+This paper proposes a unique XL -HRIS architecture , as 
+shown in Fig . 2, to decrease the computational complexity and 
+pilot overhead in the decoupled separate channel estimation 
+scheme , and to improve system communication performance . 
+The architecture is employed with an N-elements ULA and 
+the spacing between adjacent elements is d=λc 2. Nact≪N 
+active elements exist in the XL -RIS, which can be divided 
+into two parts . One part is an Nsub-element subarray ULA 
+(sULA ) at the center of the whole array , which is called the 
+core subarray (c-subarray ). The other part is composed of Nran 
+active elements , which are randomly distributed in the ULA , 
+forming a random subarray (r-subarray ). We have Nact=Nsub+
+▲Figure 1. Proposed XL -HRIS -aided system modelRIS: reconfigurable intelligence surface
+UE: user equipment
+XL-HRIS : extremely large -scale hybrid reconfigurable intelligence surface
+▲Figure 2. Proposed XL -HRIS architecture with active c -subarray and 
+active r -subarray . Other elements are passiveXL-HRIS : extremely large -scale hybrid reconfigurable intelligence surfaceXL-HRIS
+…
+BSRIS -BS
+Obstacles
+UEUE -RIS
+XL-HRIS architecture
+r-subarrayc-subarray
+Passive 
+elementActive 
+element
+25

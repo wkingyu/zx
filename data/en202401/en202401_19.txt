@@ -1,0 +1,78 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+[C]//IEEE International Conference on Acoustics , Speech and Signal Pro ⁃
+cessing (ICASSP ). IEEE , 2021 : 4455–4459 . DOI : 10.1109 /
+ICASSP 39728 .2021 .9413515
+[52] WU T , PAN C H , PAN Y J , et al . Fingerprint -based mmWave positioning 
+system aided by reconfigurable intelligent surface [J]. IEEE wireless com ⁃
+munications letters , 2023 , 12(8): 1379–1383 . DOI : 10.1109 /
+LWC .2023 .3275204
+[53] CHEN J C , HUDSON R E , YAO K . Maximum -likelihood source local ⁃
+ization and unknown sensor location estimation for wideband signals in 
+the near -field [J]. IEEE transactions on signal processing , 2002 , 50(8): 
+1843–1854 . DOI : 10.1109 /TSP .2002 .800420
+[54] ABU -SHABAN Z , KEYKHOSRAVI K , KESKIN M F , et al . Near -field lo ⁃
+calization with a reconfigurable intelligent surface acting as lens [C]//
+IEEE International Conference on Communications . IEEE , 2021 : 1–6. 
+DOI: 10.1109 /ICC42927 .2021 .9500663
+[55] RAHAL M , DENIS B , KEYKHOSRAVI K , et al . RIS -enabled localiza ⁃
+tion continuity under near -field conditions [C]//The 22nd International 
+Workshop on Signal Processing Advances in Wireless Communications 
+(SPAWC ). IEEE , 2021 : 436– 440. DOI : 10.1109 /
+SPAWC 51858 .2021 .9593200
+[56] PAN Y J , PAN C H , JIN S , et al . RIS -aided near -field localization and 
+channel estimation for the terahertz system [J]. IEEE journal of selected 
+topics in signal processing , 2023 , 17(4): 878–892. DOI : 10.1109 /
+JSTSP .2023 .3285431
+[57] PAYAMI S , TUFVESSON F . Channel measurements and analysis for 
+very large array systems at 2.6 GHz [C]//The 6th European Conference on 
+Antennas and Propagation (EUCAP ). IEEE , 2012 : 433–437. DOI : 
+10.1109 /EuCAP .2012 .6206345
+[58] AMIRI A , ANGJELICHINOSKI M , DE CARVALHO E , et al . Extremely 
+large aperture massive MIMO : low complexity receiver architectures [C]//
+IEEE Globecom Workshops (GC Wkshps ). IEEE , 2018 : 1–6. DOI : 
+10.1109 /GLOCOMW .2018 .8644126
+[59] MARINELLO J C , ABRÃO T , AMIRI A , et al . Antenna selection for im ⁃
+proving energy efficiency in XL -MIMO systems [J]. IEEE transactions on 
+vehicular technology , 2020 , 69(11): 13305–13318 . DOI : 10.1109 /
+TVT.2020 .3022708
+[60] ZHI K D , PAN C H , REN H , et al . Performance analysis and low -
+complexity design for XL -MIMO with near -field spatial non -stationarities 
+[EB/OL ]. (2023 -03-21) [2023 -12-12]. http://arxiv .org/abs/ 2304 .00172Biographies
+LIU Mengyu received his BE degree from the School of Electronic and Infor ⁃
+mation Engineering , Beijing Jiaotong University , China in 2023 . He is currently 
+pursuing his ME degree with the School of Information Science and Engineer ⁃
+ing, Southeast University ,  China . His research interests include massive MI ⁃
+MO, reconfigurable intelligent surfaces (RIS), and near -field communications .
+ZHANG Yang received his BE degree from the Harbin Institute of Technolo ⁃
+gy, China in 2023 . He is currently pursuing his ME degree with the School of 
+Information Science and Engineering , Southeast University , China . His re ⁃
+search interests include reconfigurable intelligent surfaces (RIS), array signal 
+processing , near -field communications , and localization .
+JIN Yasheng received his BE degree from the Bell Honors School , Nanjing 
+University of Posts and Telecommunications , China in 2023 . He is currently 
+pursuing his ME degree with the School of Information Science and Engineer ⁃
+ing, Southeast University , China . His research interests include massive MIMO , 
+reconfigurable intelligent surfaces (RIS), machine learning and near -field com ⁃
+munications .
+ZHI Kangda received his BE degree from the School of Communication and In ⁃
+formation Engineering , Shanghai University , China in 2017 , ME degree from 
+School of Information Science and Technology , University of Science and Tech ⁃
+nology of China in 2020 , and PhD degree from the School of Electronic Engineer ⁃
+ing and Computer Science , Queen Mary University of London , UK in 2023 . His 
+research interests include reconfigurable intelligent surface (RIS), massive MI ⁃
+MO, and near -field communications . He received the Exemplary Reviewer Certif ⁃
+icate of the IEEE Wireless Communications Letters in 2021  and 2022 .
+PAN Cunhua (cpan@seu .edu.cn) received his BS and PhD degrees from the 
+School of Information Science and Engineering , Southeast University , China in 
+2010  and 2015 , respectively . From 2015  to 2016 , he was a research associate at 
+the University of Kent , UK. He held a post -doctoral researcher position at the 
+Queen Mary University of London , UK from 2016  to 2019 , where he was a lec ⁃
+turer from 2019  to 2021 . Since 2021 , he has been a full professor with South ⁃
+east University . His research interests include reconfigurable intelligent surfac ⁃
+es (RIS), intelligent reflection surface (IRS), ultra -reliable low latency communi ⁃
+cation (URLLC ), machine learning , UAV , the Internet of Things , and mobile 
+edge computing . He has published over 120 IEEE journal articles . He received 
+the IEEE ComSoc Leonard G . Abraham Prize and IEEE ComSoc Asia -Pacific 
+Outstanding Young Researcher Award both in 2022 .
+15

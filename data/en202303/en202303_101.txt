@@ -1,0 +1,174 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems    Research Papers
+minimize
+{}SrNt
+RF
+r=11
+N∑N
+k=1 tr ( ) ( )T-1
+k+ξkGH
+kFRF()FH
+RFFRF-1FH
+RFGk-1
+subject to|
+||||| |
+|||||[]FRFij=ìíî1,i∈Sj
+0, else;
+⋃Nt
+RF
+r=1 Sr=Sant,||Sr>0, Si∩Sj=∅, i≠j. (20)
+It can be shown that the analog precoder with the conven ‐
+tional fixed PC architecture satisfies FH
+RFFRF=Nt
+Nt
+RFINt
+RF, since 
+the number of antennas connected to each RF chain is as ‐
+sumed to be the same . The equality does not hold in general 
+with the PC -dynamic architecture since the number of anten ‐
+nas connected to each RF chain is not the same . However , as 
+all the RF chains are treated equally and the number of RF 
+chains is assumed to be much less than the number of anten ‐
+nas, it is very likely that the number of antennas connected to 
+different RF chains tends to be close to each other , i.e., 
+FH
+RFFRF≈Nt
+Nt
+RFINt
+RF. According to the simulation results , the 
+number of antennas in each subarray varies little with the opti ‐
+mized partition . Thus , by using this approximation , the objec ‐
+tive function in Eq . (20) can be written as :
+J(FRF)=1
+N∑N
+k=1 tr ((ξk
+NtGH
+kFRFFH
+RFGk)-1
+).
+(21) 
+Inspired by Ref . [12], where the authors derived a lower 
+bound of the original MMSE problem and proposed the EVD 
+algorithm with the FC architecture , we derive the lower bound 
+of J(FRF) as:
+ ∑k=1Nt()M-1
+k=∑k=1N ∑s=1Ns λ-1
+s()Mk≥
+∑k=1N N2
+s( ) ∑s=1Ns λs()Mk-1
+≥N2N2
+s( ) ∑k=1N tr ()Mk-1
+,（22）
+where Mk≜T-1
+k+ξk
+NtGH
+kFRFFH
+RFGk, and λs(⋅) dedicates the ei ‐
+genvalues of a matrix . The equality holds only if the values of 
+tr (Mk) at all subcarriers are the same . By taking the lower 
+bound as the objective function and omitting the constants , 
+the problem becomes :
+maximize
+{}SrNt
+RF
+r=1tr ( )1
+N∑N
+k=1ξkGH
+kFRFFH
+RFGk
+subject to|
+||||| |
+|||||[]FRFij=ìíî1,i∈Sj
+0, else;
+⋃Nt
+RF
+r=1 Sr=Sant,||Sr>0,Si∩Sj=∅,i≠j.(23)We can write Gk as a combination of Nt
+RF block matrixes :
+GH
+k=é
+ëêêêêGH
+k,S1  GH
+k,S2  ⋯ GH
+k,SNt
+RF ù
+ûúúúú,(24)
+where GH
+k,Sr=GH
+k(:,Sr) , so the objective function in Eq . (23) 
+can be written as :
+tr ( )1
+N∑k=1N ξkGH
+kFRFFH
+RFGk=
+1
+N∑k=1N ξk()GH
+kFRF2
+F=
+1
+N∑k=1N ξk( )é
+ëêêêê ù
+ûúúúú GH
+k,S1fRF,S1…GH
+k,SNt
+RFfRF,SNt
+RF2
+F=
+ ∑r=1Nt
+RF ( )fH
+RF,SrRSrfRF,Sr,(25)
+where RSr=1
+N∑
+k=1N
+ξkGH
+k,SrGk,Sr,fRF,Sr∈CNt × 1,[|fRF,Sr|]
+i=ìíî1,i∈Sj
+0,i∉Sj. 
+Without consideration of the constant modulus constraint , the 
+maximum value of Eq . (25) is given by ∑r=1Nt
+RF λ1(RSr), where 
+λ1(⋅) is the maximum eigenvalue of a matrix . Therefore , we 
+can solve Eq . (23) by maximizing the sum of the maximum ei ‐
+genvalues of RSr corresponding to each subarray . The optimiza ‐
+tion problem of the subarray partition can be formulated as :
+maximize
+{}SrNt
+RF
+r=1                       ∑Nt
+RF
+r=1 λ1()RSr
+subject to⋃Nt
+RF
+r=1 Sr=Sant,||Sr>0,Si∩Sj=∅,i≠j.(26)
+The optimal solution of Eq . (26) is a complex combinatorial 
+optimization problem and calculating the eigenvalues leads to 
+relatively high computational cost . Therefore , two operations 
+are adopted here to further simplify the optimization problem . 
+Firstly , according to Ref . [20], the maximum eigenvalue can 
+be approximated with the l1 norm of a matrix as follows :
+λ̂
+1(RSr)≜1
+||Sr∑i,j∈Sr|
+||
+|[]Ri,j,
+(27)
+where R=1
+N∑
+k=1N
+ξkGH
+k,SrGk,Sr is the average channel covari ‐
+ance matrix of all subcarriers . Then , the problem in Eq . (26) 
+becomes1:
+maximize
+{}SrNt
+RF
+r=1                   1
+||Sr∑i,j∈Sr|
+||
+|[]Ri,j
+subject to⋃Nt
+RF
+r=1 Sr=Sant,||Sr>0,Si∩Sj=∅,i≠j.(28)
+Secondly , a greedy algorithm is proposed here to solve the 
+1 It is worth noting that compared with the original optimization objective function in Eq . (20), the omission of the constant modulus constraint and the use of several approximations above 
+will bring in some performance loss , which is of interest for further investigation in future work .
+99

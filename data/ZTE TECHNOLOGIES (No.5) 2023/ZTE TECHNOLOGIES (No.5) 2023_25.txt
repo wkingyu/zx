@@ -1,0 +1,72 @@
+the BN intelligence tool BigDNA and the 
+CN intelligent tool Magiceye, enabling 
+automatic demarcation and location 
+of bearer and core network problems. 
+Furthermore, the interconnection with 
+wireless intelligence tool AAX facilitates 
+precise locating of wireless-side alarm 
+problems and software self-healing, 
+ultimately achieving end-to-end automatic 
+handling of complaint problems.
+In the hidden risk identi/f_ication scenario, 
+the industry is still in the early stage of 
+exploration, with most network elements 
+being handled only after faults occur, 
+resulting in /f_luctuations in network quality 
+that aﬀect user experience. To address this 
+issue, ZTE utilizes its OSS intelligent tool 
+AIMIND, which accesses CM/PM/FM data 
+from wireless, bearer, and core networks, 
+and employs AI algorithms and self-learning 
+capabilities to forecast potential site outages. 
+According to the forecast results, operators 
+can take proactive measures to mitigate 
+the risk of site outages, ensuring the stable 
+operation of communication networks. 
+Moreover, AIMIND provides targeted 
+fault predictions in various individual 
+domains, including wireless-side optical 
+module, RRU/AAU environmental issues, 
+voltage-related problems, as well as bearer 
+hardware and traﬃc-related faults. Its fault 
+prediction capability stands at the forefront 
+of the industry.
+ZTE’s full-domain autonomous network 
+construction solution uSmartNet has 
+been implemented in multiple projects. 
+Particularly, in the customer complaint 
+handling scenario, it has achieved true 
+end-to-end automatic network optimization. 
+In some scenarios, the solution accomplishes 
+automatic closed-loop of problem handling 
+without the need for manual intervention. 
+This remarkable approach signi/f_icantly 
+reduces complaint handling time and 
+minimizes the need for expert involvement, 
+thereby facilitating operators’ digital 
+transformation. Moreover, in the hidden risk identi/f_ication scenario, the solution 
+automatically identi/f_ies hidden risks and 
+gives suggestions. This capability helps 
+operators improve fault handling eﬃciency 
+by over 30% and eﬀectively reduces the 
+probability of fault occurrence. As a result, 
+it enhances network stability and enables 
+industry-leading intelligent network O&M, 
+empowering operators to stay ahead in the 
+market. In addition to achieving automation 
+capabilities in the above-mentioned 
+scenarios, ZTE has also deployed end-to-end 
+solutions for FNR coverage and wireless 
+interference issues, expanding the scope of 
+operators’ autonomous networks.
+Full-domain automation is a vital path 
+to the development of communication 
+intelligence. Through intelligent technologies, 
+it enables cross-domain collaborative 
+intelligent network O&M, encompassing 
+wireless networks, bearer networks, and 
+core networks. This advancement leads 
+to improved operational eﬃciency and 
+enhances network reliability, security, and 
+user experience.
+23OCT 2023

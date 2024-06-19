@@ -1,0 +1,89 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Perceptual Optimization for Point -Based Point Cloud Rendering    Special Topic
+4 Conclusions
+In this paper , we focus on optimizing the perceptual quality 
+of point cloud rendering through outlier detection . We evalu ⁃
+ate the performance of the proposed method in terms of per ⁃
+ceptual quality and the PSNR improvement ratio . In addition , 
+we evaluate time complexity analysis and perform ablation 
+studies . Future work may include applying other methods to 
+outlier detection in rendering to improve the perceptual qual ⁃
+ity after point cloud rendering .
+References
+[1] SEUFERT M , KARGL J , SCHAUER J , et al . Different points of view : impact of 
+3D point cloud reduction on QoE of rendered images [C]//The 12th International 
+Conference on Quality of Multimedia Experience . IEEE , 2020 : 1–6. DOI : 
+10.1109 /QoMEX 48832 .2020 .9123143
+[2] DUMIC E , BATTISTI F , CARLI M , et al . Point cloud visualization methods : a 
+study on subjective preferences [C]//The 28th European Signal Processing Con ⁃
+ference . IEEE , 2020 : 595–599
+[3] ZHAO X , ZHANG B W , WU J J , et al . Relationship -based point cloud comple ⁃
+tion [J]. IEEE transactions on visualization and computer graphics , 2022 , 28
+(12): 4940 –4950 . DOI : 10.1109 /TVCG .2021 .3109392
+[4] CHEN H H , WEI M Q , SUN Y X , et al . Multi -patch collaborative point cloud 
+denoising via low -rank recovery with graph constraint [J]. IEEE transactions on 
+visualization and computer graphics , 2020 , 26(11): 3255 –3270 . DOI : 10.1109 /
+TVCG .2019 .2920817
+[5] LI H Q , LI L , LI Z . A review of point cloud compression [J]. ZTE technology 
+journal , 2021 , 27(1): 5–9. DOI : 10.12142 /ZTETJ .202101003
+[6] LIU Q , SU H L , DUANMU Z F , et al . Perceptual quality assessment of colored 
+3D point clouds [J]. IEEE transactions on visualization and computer graphics , 
+2023 , 29(8): 3642 –3655 . DOI : 10.1109 /TVCG .2022 .3167151
+[7] LIU Q , YUAN H , HOU J H , et al . Model -based joint bit allocation between ge ⁃
+ometry and color for video -based 3D point cloud compression [J]. IEEE transac ⁃
+tions on multimedia , 2021 , 23: 3278 –3291 . DOI : 10.1109 /TMM .2020 .3023294
+[8] VAN DER HOOFT J , VEGA M T , TIMMERER C , et al . Objective and subjec ⁃
+tive QoE evaluation for adaptive point cloud streaming [C]//The 12th Interna ⁃
+tional Conference on Quality of Multimedia Experience . IEEE , 2020 : 1–6. 
+DOI: 10.1109 /QoMEX 48832 .2020 .9123081
+[9] PHARR M , JAKOB W , HUMPHREYS G . Physically based rendering : from 
+theory to implementation [M]. Massachusetts , USA : MIT Press , 2023
+[10] JAVAHERI A , BRITES C , PEREIRA F , et al . Point cloud rendering after cod ⁃
+ing: impacts on subjective and objective quality [J]. IEEE transactions on mul ⁃
+timedia , 2021 , 23: 4049 –4064 . DOI : 10.1109 /TMM .2020 .3037481
+[11] XU I L , YANG Q , YANG D , et al . Challenges and key technologies of point 
+cloud quality evaluation [J]. Journal of Communication University of China : 
+natural science edition , 2021 , 28(5): 11
+[12] KAZHDAN M , BOLITHO M , HOPPE H . Poisson surface reconstruction [C]//The Fourth Eurographics Symposium on Geometry Processing . ACM , 2006
+[13] FENG Y P , ZHONG H X , PANG Y J . Non -mesh rendering based on points 
+[C]//International Conference on Machine Learning and Cybernetics . IEEE , 
+2005 : 5442 –5446 . DOI : 10.1109 /ICMLC .2005 .1527906
+[14] XUE A R . Research on spatial outlier excavation technology [D]. Zhenjiang : Ji⁃
+angsu Univeristy , 2009
+[15] MANDHARE H C , IDATE S R . A comparative study of cluster based outlier 
+detection , distance based outlier detection and density based outlier detection 
+techniques [C]//International Conference on Intelligent Computing and Control 
+Systems (ICICCS ). IEEE , 2018 : 931 – 935. DOI : 10.1109 /
+ICCONS .2017 .8250601
+[16] LIN R H , HU H , WEN Z K , et al . Research on denoising and segmentation al ⁃
+gorithm application of pigs ’ point cloud based on DBSCAN and PointNet [C]//
+IEEE International Workshop on Metrology for Agriculture and Forestry (Me⁃
+troAgriFor ). IEEE , 2021 : 42 – 47. DOI : 10.1109 /MetroAgri ⁃
+For52389 .2021 .9628501
+[17] XU S Y , LIU H Y , DUAN L T , et al . An improved LOF outlier detection algo ⁃
+rithm [C]//IEEE International Conference on Artificial Intelligence and Com ⁃
+puter Applications . IEEE , 2021 : 113 – 117. DOI : 10.1109 /
+ICAICA 52286 .2021 .9498181
+[18] MOSALLAM B E , AHMED S H . Exploring effective outlier detection in IoT : a 
+systematic survey of techniques and applications [C]//Intelligent Methods , Sys⁃
+tems, and Applications (IMSA ). IEEE , 2023 : 375 –380. DOI : 10.1109 /
+IMSA 58542 .2023 .10255071
+[19] XUE A R , YAO L , JU, T, et al . A review of outlier mining methods [J]. Com ⁃
+puter science , 2008 , 35(11): 13–18
+[20] ZHAO P . Outlier detection and model reconstruction of 3D point cloud data 
+[D]. Dalian : Dalian University of Technology , 2015
+[21] LIU R , WAN W G , ZHOU Y Y , et al . Normal estimation algorithm for point 
+cloud using KD -Tree [C]//IET International Conference on Smart and Sustain ⁃
+able City . IET, 2013 . DOI : 10.1049 /cp.2013 .1978
+Biographies
+YIN Yujie (yinyujie@mail .nwpu .edu.cn) received his BS degree in electronic 
+information engineering from Hohai University , China in 2023 , and he is cur ⁃
+rently pursuing his MS degree in information and communication engineering 
+from Northwestern Polytechnical University , China . His main research interests 
+are point clouds and video coding .
+CHEN Zhang received his BS degree in electrical and information engineering 
+and MS degree in signal and information processing from Northwestern Poly ⁃
+technical University , China . Currently , he is working on his PhD degree at 
+Northwestern Polytechnical University , and his main research interests are 
+point cloud compression and point cloud quality assessment .
+53

@@ -1,0 +1,72 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+Towards NearTowards Near --Field Communications for Field Communications for 66GG::  
+Challenges and OpportunitiesChallenges and Opportunities
+LIU Mengyu1, ZHANG Yang1, JIN Yasheng1, 
+ZHI Kangda2, PAN Cunhua1
+(1. Southeast University , Nanjing 210096 , China；
+ 2. Queen Mary University of London , London E 1 4NS, UK)DOI: 10.12142 /ZTECOM .202401002
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20240229 .1113 .002.html, 
+published online March 1, 2024
+Manuscript received : 2023 -11-30
+Abstract : Extremely large -scale multiple -input multiple -output (XL-MIMO ) and terahertz (THz) communications are pivotal candidate tech ⁃
+nologies for supporting the development of 6G mobile networks . However , these techniques invalidate the common assumptions of far -field 
+plane waves and introduce many new properties . To accurately understand the performance of these new techniques , spherical wave modeling 
+of near -field communications needs to be applied for future research . Hence , the investigation of near -field communication holds significant 
+importance for the advancement of 6G, which brings many new and open research challenges in contrast to conventional far -field communica ⁃
+tion. In this paper , we first formulate a general model of the near -field channel and discuss the influence of spatial nonstationary properties on 
+the near -field channel modeling . Subsequently , we discuss the challenges encountered in the near field in terms of beam training , localiza ⁃
+tion, and transmission scheme design , respectively . Finally , we point out some promising research directions for near -field communications .
+Keywords : near -field communications ; extremely large -scale antenna arrays ; spatial non -stationarity ; beam training ; localization
+Citation  (Format 1): LIU M Y , ZHANG Y , JIN Y S , et al . Towards near -field communications for 6G: challenges and opportunities [J]. ZTE 
+Communications , 2024 , 22(1): 3–15. DOI : 10.12142 /ZTECOM .202401002
+Citation  (Format 2): M. Y. Liu, Y. Zhang , Y. S. Jin, et al ., “Towards near -field communications for 6G: challenges and opportunities ,” ZTE 
+Communications , vol. 22, no. 1, pp. 3–15, Mar. 2024 . doi: 10.12142 /ZTECOM .202401002 .
+1 Introduction
+The advent of the 5G wireless network marks the incep ⁃
+tion of an era characterized by high speed , low la ⁃
+tency , and robust connectivity[1–4]. Millimeter waves 
+(mmWave ) and various key technologies like massive 
+multiple -input multiple -output (MIMO ) have contributed sig ⁃
+nificantly to the success of 5G, particularly in areas such as 
+smart cities and the Internet of Things (IoT)[5–7]. Although 5G 
+has achieved remarkable results , it still faces limitations in ad ⁃
+dressing diverse and complex business scenarios , including 
+virtual reality , driverless vehicles and metaverse[8]. These 
+emerging scenarios impose greater demands on the network 
+capacity , prompting researchers to explore 6G wireless net ⁃
+works , which will further surpass the limits of the current tech ⁃
+nologies to meet much more complex communication needs[9].
+In contrast to 5G, 6G has the potential to deliver higher 
+communication rates , ultra -reliable and low latency communi ⁃cations (URLLC ), and ubiquitous coverage[10–11]. In order to 
+achieve these goals for 6G, some technologies considered 
+promising for 6G have attracted significant attention , such as 
+extremely large -scale MIMO (XL-MIMO ) and Terahertz (THz) 
+communications[12]. Specifically , XL -MIMO can realize ultra -
+high network throughput and support a large number of users 
+by further increasing the number of antennas on massive 
+MIMO . Meanwhile , emerging technologies like reconfigurable 
+intelligent surface (RIS) and artificial intelligence (AI) tech ⁃
+niques empower XL -MIMO to attain increased spectral effi ⁃
+ciency , enhanced positioning accuracy , and broader network 
+coverage across a more diverse frequency range . Also , THz 
+communications , with its capacity to exploit richer spectrum 
+resources for enhanced data transmission rates , is a key candi ⁃
+date spectrum technology with significant potential .
+However , the new technologies in 6G, e.g., THz communica ⁃
+tions and XL -MIMO , also lead to operating frequency band es ⁃
+calation and antenna array aperture expansion . As a result , 
+Rayleigh distance , the crucial parameter , that distinguishes 
+between the near -field and far -field boundaries of electromag ⁃
+netic (EM) wave propagation changes significantly[12]. For ex ⁃
+ample , Ref. [13] gave the Rayleigh distances corresponding to 
+different array apertures , where the near -field range corre ⁃
+sponding to an array of 0.5 m aperture was already as high as 
+This work was supported in part by National Key Research and Develop ⁃
+ment Young Scientist Project 2023 YFB2905100 , the National Natural Sci ⁃
+ence Foundation of China under Grant Nos . 62201137  and 62331023 , the 
+Fundamental Research Funds for the Central Universities under Grant 
+No. 2242022 k60001 , and the Research Fund of National Mobile Communi ⁃
+cations Research Laboratory , Southeast University , China under Grant 
+No. 2023 A03.
+03

@@ -1,0 +1,86 @@
+operators, equipment vendors, and 
+content service providers to create an 
+industry ecosystem.
+As a powerful tool for operators to expand 
+the enterprise market, FTTR-B has huge 
+potential. Statistics show that, by the end of 
+2022, there were over 52 million enterprises 
+in China, with the FTTR-B market exceeding 
+2.5 billion yuan. In the Chinese market, 
+tenders for over 160,000 sets of FTTR-B 
+devices were completed in the /f_irst half of 
+2023, and this /f_igure is projected to surpass 
+2 million by 2026. In international markets, 
+SMEs including hotels, shopping malls, 
+and campuses are experiencing a growing 
+demand for broadband upgrades, and they 
+increasingly need FTTR-B to transform their 
+networks.
+By deploying the FTTR-B solution, 
+operators can expand their cloud 
+customer base among SMEs, increase 
+service revenue, and enhance customer 
+stickiness. FTTR-B all-optical networking 
+is poised to help operators tap the 
+blue-ocean market of SMEs as a new 
+avenue for growth.
+and wireless is imperceptible to users. 
+Wireless roaming handover is superfast 
+without being perceived by users. 
+These features ensure smooth and 
+uninterrupted services and enhance user 
+experiences.
+Ultra Simple O&M
+The FTTR-B solution provides one-stop 
+network O&M that covers planning, 
+installation, acceptance, maintenance, 
+and optimization, providing enterprise 
+customers with con/f_idence in the reliability 
+of their networks.
+SMEs usually have a limited budget 
+for network O&M and lack a network 
+management platform or dedicated O&M 
+personnel. The FTTR-B solution uses a 
+combination of the SCP and a mobile O&M 
+app to simplify network O&M by making it 
+lightweight and visual.
+The O&M app simpli/f_ies installation and 
+maintenance, implements fast service 
+provisioning, and standardizes network 
+installation and acceptance. It oﬀers 
+one-click performance optimization and 
+remote fault localization to reduce OPEX 
+by 30%.
+The solution utilizes AI and big data 
+technology to provide diﬀerent 
+bandwidths for VIP and regular users, 
+accelerate enterprise applications, and 
+intercept entertainment applications, 
+thus ensuring an eﬃcient enterprise 
+network.
+The solution has uni/f_ied user 
+authentication policies to identify users 
+and match them with services. It provides 
+portal authentication, allowing both 
+wired and wireless IPs to be identi/f_ied as 
+natural person users, with authentication 
+policies stored in the cloud. When a user 
+moves to another location, there is no 
+need for re-authentication. This makes 
+it easy for operators to provide targeted 
+advertisements and personalized 
+oﬀerings, fostering connections among 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 27

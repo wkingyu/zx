@@ -1,0 +1,95 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Filter Design of Wireless Base Station Power Supply    Research Papers
+Zload=1
+1
+Rcm+1
+ZCy , (14)
+where RCM stands for the parallel RLISN. The amplitude of  iCM is 
+expressed as follows :
+|Icm|=|
+||||| Us
+Zload+Zs|
+|||||
+ , (15)
+where the relationship between | Icm| and the source impedance 
+Zs is established . The CM noise spectrum measured by con ⁃
+necting the three groups can be obtained by corresponding 
+three groups : |Icm1|, |Icm2|, and | Icm3|, which can be combined by :
+|
+|||||Icm1
+Icm2|
+|||||=|
+|||||Zs+Zload2
+Zs+Zload1|
+|||||=
+|
+||
+|||Zs_re+j⋅Zs_im+Zload2_re+j⋅Zload2_im
+Zs_re+j⋅Zs_im+Zload1_re+j⋅Zload1_im|
+||
+|||
+ , (16)
+|
+|||||Icm1
+Icm2|
+|||||=|
+|||||Zs+Zload3
+Zs+Zload1|
+|||||=
+|
+||
+|||Zs_re+j⋅Zs_im+Zload3_re+j⋅Zload3_im
+Zs_re+j⋅Zs_im+Zload1_re+j⋅Zload1_im|
+||
+|||
+. (17)
+Zload_re and Zload_im  represent the real and imaginary parts of 
+the equivalent impedance , respectively . Zs_re and Zs_im repre ⁃
+sent the real and imaginary parts of the source impedance re ⁃
+spectively . According to Eqs . (12)–(17), the source imped ⁃
+ance constraint equation of the noise source can be further ob ⁃
+tained by :
+Zs_im=- Zload1_im⋅Icm12-Zload2_im⋅Icm22
+Icm12-Icm22±
+(Zload1_im⋅Icm12-Zload2_im⋅Icm22
+Icm12-Icm22)2+Icm22(Zs_re+Zload2_re)2
+Icm12-Icm22-
+  Icm12(Zs_re+Zload1_re)2
+Icm12-Icm22-Zload1_im2⋅Icm12-Zload2_im2⋅Icm22
+Icm12-Icm22,(18)
+Zs_im=- Zload1_im⋅Icm12-Zload3_im⋅Icm32
+Icm12-Icm32±
+(Zload1_im⋅Icm12-Zload3_im⋅Icm32
+Icm12-Icm32)2+Icm32(Zs_re+Zload3_re)2
+Icm12-Icm32-
+ Icm12(Zs_re+Zload1_re)2
+Icm12-Icm32-Zload1_im2⋅Icm12-Zload3_im2⋅Icm32
+Icm12-Icm32.(19)
+Since there are plus or minus signs in Eqs . (18) and (19), 
+both Eqs . (18) and (19) can represent two constraints (with 
+four constraints in total ) to form two quadratic equations . The 
+trajectories of the solution sets are circles , and the intersec ⁃
+▲Figure 11. Common mode (CM) spectrum of CM noise
+▲Figure 12. CM noise measurement and equivalent model of CM noiseCM: common modef/Hz1×1051×1061×1071×108
+(a) 22 nFCurrent/dB μA40
+20
+0
+-20
+1×1051×1061×1071×108
+f/Hz
+(b) 47 nFCurrent/dB μA40
+20
+0
+-20
+1×1051×1061×1071×108Current/dB μA40
+20
+0
+-20
+(c) 100 nFf/Hz
+VsZX iCMiL
+iN
+RLSINRLSIN CyCy
+icmZXZload
+ZloadVs(a) CM noise measurement
+(b) Equivalent model of CM noise
+99

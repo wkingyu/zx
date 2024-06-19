@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3DING Jianwen , LIU Yao , LIAO Hongjian , SUN Bin , WANG Wei Research Papers   Statistical Model of Path Loss for Railway 5G Marshalling Yard Scenario
+for the 915 MHz railway yard environment . For the scenarios 
+of high -speed railway noise barriers and forests , the channel 
+characteristics including delay spread and Doppler spread 
+were analyzed based on ray tracing in Ref . [10]. On the basis 
+of Ref . [10], the authors utilized multiple antennas for model ‐
+ing and supplemented the discussion of received power in Ref . 
+[11]. Curved and straight tunnels were measured at 900 MHz  
+and 2 100 MHz , and the path loss modeling under train -to-
+train (T2T) communication was fitted[12]; Based on ray tracing 
+simulation technology , the channel parameters such as path 
+loss, delay spread , and Doppler spread under the 5G system 
+in the urban rail viaduct scenario were analyzed[13].
+The main contributions made in this paper are summarized 
+as follows .
+Considering the influence of the main lobe and side lobe of 
+the directional antenna pattern of a base station , two methods 
+of dividing the propagation area are proposed : one is based on 
+the side lobe and main lobe coverage area division , and the 
+other is based on the center of the main lobe of the antenna 
+pattern . And the above two methods were compared with the 
+Fresnel band gap division method .
+Based on the field strength data measured in the actual mar ‐
+shalling yard scene , the above -mentioned conjecture of the di ‐
+vision of the propagation area is verified , and a large -scale fad ‐
+ing empirical model is established . The radio wave propagation 
+area is divided into Area A and Area B for segmental modeling .
+It is concluded that the path loss model of Area A is similar 
+to the two -path model , and that of Area B is consistent with 
+the traditional empirical model of large -scale fading .
+Combined with the Hata model , the relationship between 
+the correction factor and the antenna height of the base station 
+in the marshalling station scenario is fitted . Then we propose a 
+correction factor for Area B and establish an empirical model 
+about this area .
+2 Data Preprocessing
+2.1 Antenna Gain Check
+The effects of the main lobe and side lobes of the antenna 
+pattern should be taken into account to build an accurate path 
+loss model . By verifying the antenna gain of the original data 
+samples , the application scope of the model can be expanded 
+effectively . Firstly , we verify the original measurement data to 
+obtain the received power of the reference signal at the test 
+point . The path loss of the test point is given by
+PL(d)=Pt-Pr(d)+G(d, θ1)-Lloss, (1)
+where Pt defines the reference signal transmitting power , 
+Pr(d) is the test point reference signal received power , Lloss 
+denotes the feeder and its connection loss in the test system , 
+and G(d, θ1) expresses the vertical gain sum of the transmit ‐
+ting and receiving antennas of the base station .
+The horizontal beam of the transmitting antenna we adopted is wide , and the receiving antenna is a horizontal omnidirec ‐
+tional antenna . The antennas are linear coverage in the sce ‐
+nario of a marshalling yard . It can be approximately consid ‐
+ered that the gain of the transmitting and receiving antennas is 
+invariable on the horizontal plane . Therefore , only the vertical 
+antenna pattern is considered and the horizontal is irrespec ‐
+tive in this paper .
+Result PL(d) obtained after antenna gain verification is the 
+sum of path loss and shadow fading . Relative to the transmitting 
+antenna , the receiving antenna moves slowly and the shadow fad ‐
+ing has less effect on the overall results . Therefore , a large -scale 
+path loss model is built based on the results obtained through an ‐
+tenna gain verification in the following work of this paper .
+2.2 Radio W ave Propagation Area Division
+The base station antennas generally used in the construc ‐
+tion of rail transit wireless communication systems are high -
+gain directional antennas . Directional antennas are character ‐
+ized by a small coverage angle , strong directivity , and a large 
+signal gap between the main lobe and the side lobe . Fig. 1 is a 
+2D schematic diagram of a directional antenna system , where 
+θ1 denotes the downtilt angle of the base station antenna , tak‐
+ing into account both mechanical downtilt and electrical down ‐
+tilt, and θ2 denotes the 3 dB lobe width of the base station an ‐
+tenna in the vertical direction .
+In Fig . 1，Point O represents the location of the base station 
+tower , Point A represents the position of the vertical side lobe 
+edge of antenna , and Point B represents the center position of 
+the vertical main lobe of antenna . In other words , the direction 
+of the base station antenna pointing to Point B is the main ra ‐
+diation direction of the antenna , which indicates the direction 
+with the largest gain in the antenna pattern . Generally , the 
+gain of the directional antenna pattern is large and uniform in 
+the main lobe , while the gain in the side lobes is small and 
+fluctuates greatly . The main lobe and side lobes will have a 
+great impact on the received power . The antenna pattern of the 
+transceiver antenna should be considered as a whole to ensure 
+accurate results .
+▲Figure 1. 2D schematic diagram of directional antenna systemPoint Oθ1
+θ2
+Point APoint B
+118

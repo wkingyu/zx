@@ -1,0 +1,40 @@
+various industries, the adoption of 
+passive optical network (PON) in place 
+of traditional Ethernet has become an 
+industry consensus. FTTx deployment 
+is extending from home settings to 
+corporate campuses, empowering a 
+multitude of industries.
+Low-cost evolution:  In the post-pandemic 
+era, there is a growing emphasis 
+among operators on cost control. This 
+necessitates network equipment to 
+possess extended deployment and 
+adaptability capabilities, including 
+backward compatibility and forward 
+scalability, to prolong the in-service 
+lifespan of the devices.
+Finalized 50G PON standard:  With 
+Recommendation G.9804.3 released in 
+2021 and G.9804.3 Amendment 1 issued 
+in 2023, the 50G PON standard has been /f_inalized. 50G PON is expected to  see a 
+commercial deployment in 2025.
+With a profound understanding of 
+the development trends in FBB, ZTE 
+launched the new-generation Tbps-level 
+all-optical access platform, ZXA10 C600E, 
+at the Network X 2023 trade show. On 
+one hand, this platform is compatible 
+with the service cards of the  massively 
+deployed ZXA10 C600 (Fig. 1), allowing 
+for /f_lexible card intermixing and smooth 
+evolution during network upgrades and 
+service deployments. On the other hand, its 
+bandwidth capacity meets the requirements 
+for large-scale deployment of 50G PON. 
+The platform enables deterministic 
+networking and provides open capabilities 
+to gain enhanced adaptability. Moreover, 
+it adopts energy-eﬃcient technologies 
+DEC 2023 
+ 11

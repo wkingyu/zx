@@ -1,0 +1,100 @@
+models, leading to the full transformation of arti/f_icial 
+intelligence into arti/f_icial general intelligence (AGI). 
+Aadditionally, there is a growing demand for AI 
+models with comprehensive, stable, and eﬃcient 
+data storage and cleaning, as well as training and 
+inference skills, along with cluster resources. This 
+poses new challenges to the construction of AI 
+platforms.
+The emergence of AI modules brings about a 
+uni/f_ied model structure and a training-inference 
+paradigm. First, the transformer structure remains 
+the preferred choice for the basic components of the 
+backbone model. Second, concerning training and 
+inference methods, using the AI module as an 
+example, the training methods (including 
+pre-training, instruction /f_ine-tuning, and 
+reinforcement learning /f_ine-tuning) and inference 
+methods (such as random sampling decoding) 
+initially proposed by OpenAI continue to be 
+mainstream solutions for AI model training and 
+inference. 
+However, the uni/f_ication of this structure and 
+application paradigm does not close the gap 
+between the industry’s average level and the leading 
+AI companies. Instead, it shifts the focus of AI 
+competition from algorithm R&D innovation to the 
+competition in scale and eﬃciency of engineering AI 
+model training and inference. This makes it a primary 
+requirement for AI platform construction to integrate 
+key technologies for training and inferring AI models.
+Key Engineering Technologies for AI Model 
+Training and Inference
+The key technologies in the AI model training and 
+inference process include distributed training, AI 
+model inference acceleration, AI model evaluation, 
+and AI model data engineering.
+Distributed training: The distributed training 
+technology can extend training to multiple AI 
+hardware products, breaking the limits of single 
+hardware memory and computing power. The 
+intelligent computing AI platform integrates 3D 
+hybrid parallel technology and has independently 
+developed automatic parallel tools. These tools 
+support AI model training technologies such as 
+data parallelism (DP), tensor parallelism (TP), pipeline parallelism (PP), and activation re-computation, 
+automatically adjusting parallel hyperparameters 
+based on clusters and model characteristics.
+AI model inference and acceleration:  The AI 
+model inference acceleration technology is a 
+comprehensive technique for reducing memory 
+consumption and computational delay during the 
+inference process. The intelligent computing AI 
+platform improves inference eﬃciency through 
+various means, such as service scheduling, memory 
+optimization, and quantization compression. In 
+ZTE’s industry-leading "Zhiyu” SMS anti-fraud 
+governance system based on AI models, the 
+inference solution provided by the intelligent 
+computing AI platform reduces inference delay by 
+30% compared to the industry’s general solution.
+AI model evaluation:  The AI model evaluation 
+method diﬀers greatly from traditional 
+approaches. Therefore, the AI platform provides a 
+comprehensive objective evaluation dataset to 
+evaluate the performance of AI models from 
+multiple dimensions. Additionally, the platform 
+integrates a model-based evaluation mechanism 
+to evaluate the semantic accuracy and logical 
+consistency of the generated contents.
+AI model data engineering: High-quality training 
+data can mitigate AI model hallucination and 
+shorten the training cycle. The intelligent 
+computing AI platform provides intelligent data 
+engineering pipelines such as model-in-the-loop 
+data marking, SFT data generation and expansion, 
+data cleaning and deduplication, quality 
+evaluation, and privacy protection. 
+With the support of key engineering technologies for 
+AI models, ZTE’s intelligent computing AI platform has 
+achieved preliminary success in collaboration with ZTE 
+and Chinese telecom operators. At the company level, 
+the AI platform supports the training of AI models across 
+multiple domains including telecommunications, 
+coding, computer vision (CV), and multi-modal areas. For 
+telecom operators, the AI platform has established 
+training and inference clusters in 31 provinces of an 
+operator group, oﬀering nine core functions such as 
+model training, management, and inference services. It 
+has become an important tool cloud for operators’ AI 
+development. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ JUN 2024
+ 27

@@ -1,0 +1,81 @@
+Recognized by ITU-T, SPN has achieved a 
+large-scale deployment of over 340,000 nodes on 
+China Mobile’s 5G transport network, marking 
+substantial industrial progress.
+SPN 2.0, with innovative TDM and packet 
+statistics multiplexing, oﬀers deterministic low 
+latency, multi-granularity cross-connection, 
+hierarchical slicing, and /f_lexible intelligent 
+perception. It is widely applied in typical industrial 
+scenarios such as smart grid, smart transportation, 
+smart mine, smart port, smart healthcare and 
+smart manufacturing, and is emerging as a 
+benchmark for the new-generation integrated 
+service transport network. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 2. A new 
+SPN-based power 
+communication 
+network.Table 2. Implementation 
+of 5G+ smart grid 
+network slicing.
+ 
+ 
+ 
+ 
+a new SPN-based power communication network 
+since 2021 for transporting voice/video LAN, 
+integrated data network, and 2M private line 
+services. The solution supports large-bandwidth 
+networking, hard slicing isolation, intelligent O&M, 
+and 10 Mbps FGU, as illustrated in Fig. 2.
+Application Prospects
+SPN, a new-generation transport network 
+technology jointly developed by Chinese 
+operators, research institutions, and network 
+device vendors, is a leading model in China for 
+transport network standard innovation. Slice Name Quantity Slice Type Description
+Wireless 
+sub-slice2Slice 1: PRB reservation
+Slice 2: Default sliceSlice 1: Select one site for RB reservation;
+RB recommendation: 1%
+Transport 
+sub-slice2Slice 1: MTN channel slice
+Slice 2: Default slice (packet VPN)Slice 1: Use MTN channel hard slice; 
+5 Gbps coarse-grained slice in the early 
+stage, and N×10 Mbps /f_ine-grained slice 
+after introducing SPN 2.0 
+Core network 
+sub-slice2Slice 1: Share the ToB UPF of 
+regional branches of China Mobile
+Slice 2: Default sliceSlice 1: Use the existing ToB UPF of regional 
+branches of China Mobile
+5G CPE 2 Ordinary terminal access
+NCE-IPVLAN 1 VLAN 1
+VLAN 2 VLAN 2NCE-IP
+VLAN1&VLAN2
+100GE
+100GE
+100GE
+50GE100GE
+50GE100GEService 
+platform server
+Out-band DCN network
+Core New oﬃce Old oﬃce
+Backbone
+Aggregation
+Access Expert Views
+10 

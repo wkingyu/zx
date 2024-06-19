@@ -1,0 +1,109 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Research Papers   Massive Unsourced Random Access Under Carrier Frequency Offset
+tire message sequence by combining slot -wise codewords ac ‐
+cording to the similarity of their corresponding channels . In 
+the rest of the section , we discuss the slot -balanced K-means 
+algorithm designed for message stitching .
+4.1 Slot -Balanced K-Means for Clustering -Based Mes ‑
+sage Stitching
+We consider an ideal case where no users transmit identical 
+data in the same transmission slot . Therefore , Ka codewords 
+are exactly judged to be active in every slot . The purpose of 
+the decoder is to classify active codewords into Ka groups 
+based on the similarity of their corresponding channel vectors . 
+During the clustering process , two obvious constraints must be 
+satisfied : 1) Channels from the same slot cannot be assigned to 
+the same group ; 2) each group must be composed of S chan ‐
+nels at the end of the clustering .
+Slot -balanced K-means algorithm[14] is tailored for the appli ‐
+cation scenario , performing assignment steps on a per -slot ba ‐
+sis and obtaining groups with identical numbers of compo ‐
+nents . To meet Constraint 2 in K-means , the assignment step 
+is performed slot by slot , i.e., all Ka active channels recog ‐
+nized in the same slot are simultaneously allocated to Ka 
+groups . Then , the assignment problem with Constraint 1 is 
+equivalent to the minimum bipartite matching problem , which 
+can be well solved by the Hungarian algorithm[23]. We define 
+gs
+k∈CM the k-th active channel vector at the s-th slot , 
+ck′∈CM the k′-th group center , and C=[c1′,⋯, cKa]. The in ‐
+put D∈CKa×Ka of the Hungarian algorithm is calculated as 
+each element dk,k′= gk-ck′2. The output of the algorithm 
+is a binary matrix Γ∈{0, 1}Ka×Ka with the (k, k′)-th element 
+γk,k′=1 suggesting that the k-th channel belongs to the k′-th 
+group . There is exactly one nonzero element within each row 
+and each column of Γ. Then , with the assignment result , each 
+group center is updated as the mean of its constituent channel 
+vectors . The algorithm iteration stops when the maximum num ‐
+ber of iterations is reached or there are no further changes in 
+center locations . The algorithm complexity is dominated by 
+the Hungarian algorithm ()O(K3
+a) and yields the order of 
+O(SK3
+a).
+4.2 Codeword Collision Resolution
+Codeword collision happens when more than one user 
+chooses to send the same codeword at the same time . The cor ‐
+responding channel to the reused codeword is the sum of all 
+competitive user channels . The key idea to resolve codeword 
+collision is to identify contaminated channels : they usually 
+have a longer sum distance from all group center points . With 
+a carefully designed data split profile , the probability that 
+more than two users choose to send the same codeword tends 
+to be zero . Therefore , if Ks<Ka channels are determined ac ‐
+tive, we recognize Ka-Ks channels having the largest aggre ‐
+gated distance to all center points as contaminated channels , and the corresponding distance row vectors are duplicately 
+added to the original distance matrix to complete a square ma ‐
+trix as algorithm input . However , after data partitioning , the 
+center points of groups involving contaminated channels can ‐
+not be updated directly . Luckily , the original center points 
+containing representative user channel statistics can be used 
+to eliminate interfering channels . Specifically , a unique angu ‐
+lar domain channel support pattern is extracted from the corre ‐
+sponding center by selecting entries {cm, m∈M} that con ‐
+centrate most (e.g., 95%) of the energy , i.e., the elements in 
+M are chosen as ∑M|cm|2>0.95c2
+2. Then , only elements 
+within the set {gk,m, m∈M} are taken for center location up ‐
+date. The complete algorithmic iteration steps are summarized 
+in Algorithm 2.
+Algorithm 2. Slot -balanced K-means for message stitching
+Input : {gs
+k: k∈[|Xs|], s∈[S]}, Tc
+Initialize : C(0, S)=[c1(0, S),⋯, cKa(0, S)]
+for t=1,⋯, Tc do
+  Set C(t, 0)=C(t-1, S)
+  for s=1,⋯, S do
+  Compute D with elements dk,k′= gs
+k-ck′
+  if Ks<Ka then
+         Add Ka-Ks rows with the largest sum of elements 
+  end if
+  Execute Hungarian algorithm with input D and output Γ
+  if Ks<Ka then
+         ∀k′: ck′(t, s)=1
+séë(s-1)ck′(t, s-1)+∑k=1Kaγk,k′gs
+kùû
+   else
+∀k′: ck′(t, s)=1
+séë(s-1)ck′(t, s-1)+
+∑k=1Kaγk,k′diag(v1,⋯, vM)gs
+kùû, where vm∈{0. 1} is nonzero 
+when m∈M(t, s-1)
+     end if
+  end for
+  if C(t, S)=C(t-1, S), stop
+end for
+Output : Partitioning of the data set
+5 Simulation Results
+In simulations , we consider a URA system with Ka=50 ac‐
+tive users randomly and uniformly located in a cell with the ra ‐
+dius of 1 km. User channels are generated based on Eq . (1), 
+where L=4. Each active user sends a 100 bit message which is 
+divided into S=10 fragments of length J=10. Accordingly , 
+the common codebook A͂ for data transmission is an i .i.d. 
+Gaussian matrix of size 100×210. The CFO parameter ω is 
+chosen uniformly from the range (-0.0133, 0.0133)[16].
+We first examine the proposed MC -PBiGAMP for JADCE 
+under CFO . As the stopping criteria for the iterative algorithm , 
+50

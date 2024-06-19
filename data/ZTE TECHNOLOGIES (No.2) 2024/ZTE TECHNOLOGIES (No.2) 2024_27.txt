@@ -1,0 +1,89 @@
+computing power, and intelligence” , China Mobile 
+has actively researched computing network 
+technologies. In the SPN network domain, China 
+Mobile Research Institute formulated the Technical 
+Speci/f_ication for SPN Computing Network 
+Perception Equipment in the /f_irst half of 2022. In 
+August 2022, in collaboration with ZTE, China 
+Mobile trialed the T-SRv6 solution on its existing 
+SPN network in Guangdong. This marks the /f_irst 
+SPN SRv6 trial with existing network services in 
+China, verifying the agile SRv6 deployment 
+capability on the SPN network and its ability to 
+open /f_lexible slice channels through 
+programmable technology. 
+To further verify end-to-end interoperability 
+between the SPN T-SRv6 solution and the cloud 
+private network, China Mobile and ZTE jointly 
+conducted cross-domain SRv6 interoperability tests 
+integrating SPN with the cloud private network in 
+Zhejiang Provence. Utilizing an orchestrator, they 
+orchestrated cross-network services between SPN 
+and the cloud private network, con/f_irming the 
+end-to-end SRv6 one-hop cloud service 
+provisioning capability of SPN T-SRv6 and the cloud 
+private network.
+The successful T-SRv6 trial on China Mobile’s 
+existing SPN network veri/f_ies the feasibility and 
+advancement of the SPN T-SRv6 solution, making a 
+signi/f_icant step towards its commercial use.
+ 
+ 
+ 
+cloud private network, or upgrades existing 
+termination devices in the SPN core layer. At the same 
+time, SPN CPE supporting T-SRv6 capability is 
+deployed on the client side of the cloud service. 
+Other network devices remain unchanged. This 
+enables end-to-end SRv6 one-hop connectivity to 
+the cloud, facilitating rapid provisioning of 
+computing connection services (Fig. 3).
+ 
+Continuous Evolution to Meet Full Lifecycle Needs 
+of Computing Networks
+In the future, computing networks will evolve to 
+computing-network integration, requiring devices 
+connected to computing resources (such as edge 
+cloud) in the computing network to possess 
+computing perception and reporting capabilities. 
+These devices must also support computing routes 
+and implement route search and forwarding based 
+on the computing power. The choice of forwarding 
+method for nodes within the network does not aﬀect 
+the functionality and applications of the computing 
+network. By upgrading SPN network edge nodes, the 
+T-SRv6 solution can meet the future requirements of 
+computing-network integration for computing 
+scheduling.
+SRv6 Trial on Existing SPN Network
+To achieve the vision of “ubiquitous network, 
+Fig. 3. Agile T-SRv6 
+deployment 
+solution.
+ 
+gNB
+Campus 
+edge cloud
+rivate 
+network
+Cloud userUPE1
+UPE2
+UPE3
+UPE4CPE
+SPN devices supporting T-SRv6SPNNPE1
+NPE2SPE
+SPECity edge
+ cloud
+GW1
+Cloud pNetwork PE1 Cloud PE1
+Network PE2Cloud PE2Province/region 
+cloud
+Existing SPN devices
+ 
+ 
+ 
+ 
+ 
+ 
+ APR 2024
+ 25

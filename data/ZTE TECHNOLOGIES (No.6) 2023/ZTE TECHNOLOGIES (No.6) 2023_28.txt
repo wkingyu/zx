@@ -1,0 +1,76 @@
+optical network (XGS-PON) technology in the 
+uplink, which enables it to deliver bandwidth 
+ranging from 1 Gbps to 10 Gbps to an SME. 
+In the downlink, the ONT employs GPON 
+technology to allow for gigabit-plus access 
+experiences. The ONT is also equipped with 
+a 2.5 Gigabit Ethernet (GE) port to ensure 
+both wired and wireless speeds of over 2000 
+Mbps, meeting the requirements of various 
+application scenarios such as wired network 
+expansion and intranet server deployment of 
+the enterprise.
+The ceiling-mounted all-optical Wi-Fi 6 AP 
+deliver seamless gigabit Wi-Fi coverage 
+without any dead zones in SMEs.
+The FTTR-B main ONT integrates access 
+controller (AC) functionality to perform 
+centralized control and management of 
+all wireless APs in the network, including 
+con/f_iguration delivery, parameter 
+modi/f_ication, intelligent radio frequency 
+management, and access security control. 
+Integrating the AC functionality into the 
+ONT optimizes resources, enhances data 
+forwarding eﬃciency, and uni/f_ies AP 
+policies and AP management at the ONT to 
+implement /f_lexible network expansion.
+The FTTR-B network has a uni/f_ied 
+authentication point for both wired and 
+wireless access. Switchover between wired 10G PON and 50G PON without re-cabling, 
+protecting the investments of SMEs.
+The FTTR-B solution utilizes power 
+over /f_iber (PoF) technology to address the 
+challenge of powering networks within SMEs. 
+PoF provides power over a photoelectric 
+composite cable. While the traditional 
+copper cable used in power over Ethernet 
+(PoE) technology can deliver power only 
+over a distance of less than 100 meters, the 
+photoelectric composite cable can supply 
+15W of power within an 800-meter range. 
+The photoelectric composite cable is easier 
+to deploy and costs less than that of the 
+Category 6 copper cable, making it the best 
+option for an enterprise network. In scenarios 
+requiring power supply over a long distance, 
+the photoelectric composite cable can be 
+used to facilitate the rapid deployment of the 
+FTTR-B network.
+Ultimate User Experience
+The FTTR-B network oﬀers 2 Gbps 
+bandwidth through both wired and wireless 
+connections, delivers low latency, and 
+enables /f_lexible capacity expansion and 
+uni/f_ied authentication.
+The FTTR-B main ONT uses 
+10-Gigabit-capable symmetric passive 
+ 
+ 
+ 
+ 
+Fig. 2. FTTR-B solution 
+for SMEs.OLT MSE/BRAS FTTR-B main ONT
+Ceiling-mounted AP
+Desktop room ONT Intranet
+SCPIntelligent 
+management platformAppSeamless Wi-Fi coverage
+Internet
+Splitter
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+26 

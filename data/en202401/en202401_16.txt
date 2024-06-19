@@ -1,0 +1,100 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Special Topic   Towards Near -Field Communications for 6G: Challenges and Opportunities
+ξk,mx,my≈A
+4πuk,z( ) ( ) mxΔx-uk,x2
++u2
+k,z
+{ } ( ) mxΔx-uk,x2
++( ) myΔy-uk,y2
++u2
+k,z5
+2,
+(27)
+χk,mx,my≈2π
+λpmx,my-uk.(28)
+The authors derived an explicit expression for single -user 
+SNR based on the maximum ratio combining (MRC ) detector . 
+As shown in Fig. 10(a), the SNR gradually increases to satura ⁃
+tion with the increase of antenna numbers . Furthermore , the 
+near -field channel model considering polarization mismatch 
+satisfies the introduced theoretical upper bound .
+Next, based on the proposed near -field channel model , the 
+authors proposed a VR -based low -complexity transmission 
+scheme by exploiting the spatial non -stationarity of XL -
+MIMO . The dimensionality of the channel matrix in the trans ⁃
+mission design can be greatly reduced by utilizing this 
+method , thus reducing the computational complexity accord ⁃
+ingly . Furthermore , the authors proposed a graph -theory based 
+user grouping algorithm to categorize users with high VRs 
+overlap ratios into one group . The authors then utilized the 
+partial zero -forcing (PZF) detection algorithm to eliminate the 
+mutual interference within each user group , which could fur ⁃
+ther reduce the computational complexity .
+As shown in Fig . 10(b), as the number of antenna ele ⁃
+ments increases , the computational complexity of the whole 
+array (WA)-based design rises considerably . For the VR -
+based zero -forcing (ZF) algorithm and the graph -theory 
+based PZF algorithm , low computational complexity can be 
+achieved .
+4 Future Directions
+In this section , several promising directions of near -field 
+communications are discussed according to the contributions 
+and deficiencies of the aforementioned appealing works .
+4.1 AI -Aided Near -Field Beam Training
+The AI -based near -field beam training method proposed in 
+Ref. [40] effectively reduces the pilot overhead , revealing the 
+nonlinear signal processing capacity of AI . Therefore , the AI -
+based method is perceived as a promising solution to the com ⁃
+plex challenges in near -field communications . Specifically , it 
+is reasonable to employ AI to deal with the massive param ⁃
+eters in near -field problems , such as beamforming and chan ⁃
+nel estimation .
+In addition , most research mainly focuses on reducing the 
+pilot overhead in the design of near -field beam training , while 
+the effectiveness in complex environments is not fully ex ⁃
+plored . Hence , it is crucial to study the trade -off between low 
+pilot overhead and high accuracy and propose an effective near -field beam training method that can be applied in compli ⁃
+cated propagation environment with multiple mobile users and 
+scatters .
+4.2 XL -RIS -Aided Near -Field Localization
+As derived in Ref . [56], the proposed algorithm with XL -
+RIS can achieve higher positioning resolution with proper de ⁃
+sign to utilize the richer AoA information . It is also possible 
+for a single -RIS -aided system to provide a 3D localization 
+function by exploiting the near -field channel model . There ⁃
+fore, near -field XL -RIS -aided localization can be considered 
+as a promising innovation , and it is valuable to carry out more 
+studies in terms of theoretical error distribution analysis as 
+well as practical positioning algorithms .
+Although Ref . [56] has achieved great performance in XL -
+RIS -aided joint channel estimation and localization in a near -
+▲Figure 10. Effects of the number of antennas on system performance 
+and computational complexityPZF: partial zero -forcing
+SNR: signal -noise ratioVR: visibility region
+WA: whole arrayZF: zero -forcing(a) SNR versus the number of antennas M
+(b) Computational complexity versus the number of antennas MNumber of antennas M100 102 104 106 108SNR/dB110
+100
+90
+80
+70
+60
+50
+40
+30
+20Proposed
+Continuous aperture
+Without polarization
+Far -field
+Limit ηp/2σ2
+Limit ηp/3σ2
+(a) SNR versus the number of antennas M
+Number of antennas M1 000     1 500    2 000    2 500    3 000    3 500    4 000     4 500    5 000    5 500    6 00030
+25
+20
+15
+10
+5
+0ZF, WA
+ZF, VR
+PZFComputional complexity/Gflops
+12

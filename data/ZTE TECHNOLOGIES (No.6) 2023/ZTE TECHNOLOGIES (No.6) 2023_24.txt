@@ -1,0 +1,58 @@
+Fig. 1. SCP makes home 
+Wi-Fi network quality 
+visible and manageable.
+ 
+ 
+ 
+devices: SCP oﬀers open SBIs that are 
+friendly to devices from third-party 
+vendors, and also allows management 
+of third-party devices through plugins. 
+This enables devices from multiple 
+vendors to be managed on a single 
+platform, enhancing user experience 
+and reducing operators’ CAPEX and 
+OPEX.
+Leveraging Precision Marketing 
+Reports and Service Identi/f_ication 
+and Acceleration Features for 
+Pro/f_it and Revenue Growth
+For the marketing department of the 
+operator, SCP provides precision marketing 
+reports as well as service identi/f_ication and 
+acceleration features, which can be 
+packaged separately to generate pro/f_it and 
+increase revenue.
+The precision marketing reports help 
+marketing personnel discover high-value 
+users that can be targeted for broadband 
+package upgrades and mesh AP sales. SCP 
+can conduct deep analysis, produce various reports, and give suggestions that 
+help marketing personnel recommend 
+bandwidth upgrade packages, mesh AP 
+purchases, gaming acceleration bundles, 
+and more.
+The service identi/f_ication and 
+acceleration features can be sold as 
+separate packages to achieve pro/f_it and 
+increase revenue. SCP provides /f_lexible 
+and /f_ine-grained parental controls to 
+intelligently identify and analyze 
+age-inappropriate websites and apps 
+accessed by children to ensure healthy 
+Internet use for kids. Additionally, SCP 
+can employ deep packet inspection (DPI) 
+plugins and QoS policies to accelerate 
+services, thereby boosting the sales of 
+livestreaming, video, and gaming 
+acceleration packages.
+Enhancing Eﬃciency: ZLife User App 
+for Self-Installation and ZLife 
+Provisioning App for Intelligent 
+Acceptance
+For the provisioning department of the 
+MQTT/TR-157 BDC/WebSocket/TR-369
+Smartphone Smart speakerIPC
+PC Smart home Laptop Smart TVFTTR room ONT Mesh APZLife app for O&M engineers/end users Home gateway/ FTTR main ONT OperatorSCP: First integrated platform
+Turbocharging FTTx Network Special Topic 
+22 

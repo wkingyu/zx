@@ -1,0 +1,51 @@
+智能算力核心基础系统软件的现状与展望 郑纬民  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2智能算力核心基础系统软件的
+现状与展望
+Status and Prospect of Intelligent Computing Core Basic System Software
+郑纬民 /ZHENG Weimin ，翟季冬 /ZHAI Jidong ，
+翟明书 /ZHAI Mingshu
+（ 清华大学 ，中国 北京 100084  ）
+(Tsinghua University , Beijing 100084 , China )DOI：10.12142 /ZTETJ .202402002
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240408 .1037.005.html
+网络出版日期 ：2024 -04-09
+收稿日期 ：2024 -02-18
+摘要 ：智能算力对中国人工智能技术的进步具有重要意义 。发展智能算力平台 ，做好核心基础系统软件尤其重要 。梳理了智能算力平台中的 10
+个核心基础系统软件 ，对这些软件的全球现状进行了详细介绍 ，并探讨了当前中国算力平台上系统软件栈建设的机遇和挑战 。
+关键词 ：人工智能 ；智能算力 ；大模型 ；系统软件
+Abstrac t:Intelligent computing power is of great significance to the progress of artificial intelligence technology in China . It is crucial to de ⁃
+velop intelligent computing power platforms and optimize foundational system software . Ten foundational systems software within intelli ⁃
+gent computing power platforms are analyzed , and a detailed overview of their global status is provided , as well as the opportunities and 
+challenges in the construction of system software stacks on Chinese computing power platforms .
+Keywords :artificial intelligence ; intelligent computing power ; large model ; system software
+引用格式 ：郑纬民 , 翟季冬 , 翟明书 . 智能算力核心基础系统软件的现状与展望  [J]. 中兴通讯技术 , 2024 , 30(2): 2-8. DOI : 10.12142 /
+ZTETJ .202402002
+Citation ： ZHENG W M , ZHAI J D , ZHAI M S . Status and prospect of intelligent computing core basic system software [J]. ZTE technology 
+journal , 2024 , 30(2): 2-8. DOI: 10.12142 /ZTETJ .202402002
+随着人工智能 （AI）技术的飞速发展 ，深度学习大模型
+在文本 、图像 、视频等数据的理解和生成任务方面展
+现出强大的能力 。这些智能模型的诞生 ，离不开算力的发
+展。得益于芯片技术的发展 ，大模型能力通过不断扩大的规
+模训练实现了大幅提升 。
+由于大模型规模急剧扩大 ，智能算力已成为大模型发展
+的稀缺资源和关键因素 。智能算力规模的提升需要在软硬件
+技术上取得突破 ，其中增强核心系统软件尤为重要 。
+针对智能算力 ，我们总结出 10个核心系统软件 ，如图 1
+所示 。它们在提升智能算力使用效率 、降低大模型编程开发
+难度等方面起到了重要作用 。根据功能 ，这些软件可分为四
+大类 ：
+1）编程开发软件 ，包括编程语言和编程框架 。它们是
+开发者和计算系统的交互接口 ，需要兼顾用户易用性和计算
+高效性 。
+2）并行加速软件 ，包括并行计算系统和通信库 。它们使得大模型计算可以充分发挥多机多卡的分布式计算能力 。
+3）计算加速软件 ，包括算子库和 AI编译器 。它们使得
+大模型的计算负载能在加速卡等硬件上高效执行 。
+4）基础支撑软件 ，包括调度 、容错 、内存分配和存储
+系统 。它们为大模型的易用性 、高效性和鲁棒性做出了重要
+贡献 。
+图1 智能算力的 10个核心基础软件并行系统
+编程框架
+AI编译器
+编程语言
+调度器 内存管理 容错系统 存储系统算子库通信库
+02

@@ -1,0 +1,136 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Perceptual Quality Assessment for Point Clouds : A Survey    Special Topic
+[70] HE Z Y , JIANG G Y , YU M , et al . TGP -PCQA : texture and geometry projec ⁃
+tion based quality assessment for colored point clouds [J]. Journal of visual 
+communication and image representation , 2022 , 83: 103449 . DOI : 10.1016 /j.
+jvcir.2022 .103449
+[71] TU R W , JIANG G Y , YU M , et al . Pseudo -reference point cloud quality mea ⁃
+surement based on joint 2-D and 3-D distortion description [J]. IEEE transac ⁃
+tions on instrumentation and measurement , 2023 , 72: No.5019314 . DOI : 
+10.1109 /TIM .2023 .3290291
+[72] VIOLA I , CESAR P . A reduced reference metric for visual quality evaluation 
+of point cloud contents [J]. IEEE signal processing letters , 2020 , 27: 1660 –
+1664 . DOI : 10.1109 /LSP .2020 .3024065
+[73] LIU Y P , YANG Q , XU Y L . Reduced reference quality assessment for point 
+cloud compression [C]//2022  IEEE International Conference on Visual Com ⁃
+munications and Image Processing (VCIP ). IEEE , 2023 : 1–5. DOI : 10.1109 /
+VCIP 56404 .2022 .10008813
+[74] ZHOU W , YUE G H , ZHANG R Z , et al . Reduced -reference quality assess ⁃
+ment of point clouds via content -oriented saliency projection [J]. IEEE signal 
+processing letters , 2023 , 30: 354–358. DOI : 10.1109 /LSP .2023 .3264105
+[75] SU H L , LIU Q , LIU Y X , et al . Bitstream -based perceptual quality assess ⁃
+ment of compressed 3D point clouds [J]. IEEE transactions on image process ⁃
+ing, 2023 , 32: 1815 –1828 . DOI : 10.1109 /TIP.2023 .3253252
+[76] ZHOU W , YANG Q , JIANG Q P , et al . Blind quality assessment of 3D dense 
+point clouds with structure guided resampling [EB/OL ]. (2022 -08-31)[2022 -
+09-05]. https ://arxiv .org/abs/ 2208 .14603
+[77] LIU Q , LIU Y Y , SU H L , et al . Progressive knowledge transfer based on 
+human visual perception mechanism for perceptual quality assessment of 
+point clouds [EB/OL ]. (2022 -11-30) [2022 -12-04]. https ://arxiv .org/abs/
+2211 .16646
+[78] TU R W , JIANG G Y , YU M , et al . V-PCC projection based blind point cloud 
+quality assessment for compression distortion [J]. IEEE transactions on 
+emerging topics in computational intelligence , 2023 , 7(2): 462–473. DOI : 
+10.1109 /TETCI .2022 .3201619
+[79] SHAN Z Y , YANG Q , YE R , et al . GPA -net: no -reference point cloud quality 
+assessment with multi -task graph convolutional network [J]. IEEE transac ⁃
+tions on visualization and computer graphics , 2802 , 99: 1–13. DOI : 
+10.1109 /TVCG .2023 .3282802
+[80] ZHANG Z C , SUN W , WU H N , et al . GMS -3DQA : projection -based grid 
+mini -patch sampling for 3D model quality assessment [EB/OL ]. (2023 -06-09)
+[2023 -07-03]. https ://arxiv .org/abs/ 2306 .05658
+[81] LIU Y , YANG Q , ZHANG Y , et al . Once -training -all-fine: no -reference 
+point cloud quality assessment via domain -relevance degradation de ⁃
+scription [EB/OL ]. (2023 -07-04) [2023 -07-12]. https ://arxiv .org/abs/
+2307 .01567
+[82] YANG Q , LIU Y P , CHEN S H , et al . No -reference point cloud quality as ⁃
+sessment via domain adaptation [C]//2022  IEEE/CVF Conference on Com ⁃
+puter Vision and Pattern Recognition (CVPR ). IEEE , 2022 : 21147 –21156 . 
+DOI: 10.1109 /CVPR 52688 .2022 .02050
+[83] FAN Y , ZHANG Z C , SUN W , et al . A No -reference quality assessment 
+metric for point cloud based on captured video sequences [C]//24th Inter ⁃
+national Workshop on Multimedia Signal Processing (MMSP ). IEEE , 2022 : 
+1–5. DOI : 10.1109 /MMSP 55362 .2022 .9949359
+[84] ZHANG Z C , SUN W , ZHU Y C , et al . Treating point cloud as moving cam ⁃
+era videos : a no -reference quality assessment metric [EB/OL ]. (2022 -09-11)
+[2022 -10-12]. https ://arxiv .org/abs/ 2208 .14085
+[85] ZHANG Z C , SUN W , MIN X K , et al . MM -PCQA : multi -modal learning for 
+no-reference point cloud quality assessment [EB/OL ]. (2022 -09-01)[2022 -09-
+27]. https ://arxiv .org/abs/ 2209 .00244
+[86] LAVOUÉ G , GELASCAE D , DUPONTF , et al . Perceptually driven 3D dis ⁃
+tance metrics with application to watermarking [C]//Proc . SPIE 6312 , Appli ⁃
+cations of Digital Image Processing XXIX , SPIE . 2006 , 6312 : 150–161. 
+DOI: 10.1117 /12.686964
+[87] LAVOUÉ G . A multiscale metric for 3D mesh visual quality assessment [J]. 
+Computer graphics forum , 2011 , 30(5): 1427 –1437 . DOI : 10.1111 /j.1467 -
+8659 .2011 .02017 .x
+[88] WANG Z , BOVIK A C , SHEIKH H R , et al . Image quality assessment : from 
+error visibility to structural similarity [J]. IEEE transactions on image pro ⁃
+cessing , 2004 , 13(4): 600–612. DOI : 10.1109 /TIP.2003 .819861[89] WANG Z , BOVIK A C . Mean squared error : Love it or leave it ? A new look 
+at Signal Fidelity Measures [J]. IEEE signal processing magazine , 2009 , 26
+(1): 98–117. DOI : 10.1109 /MSP .2008 .930649
+[90] SUN W , MIN X K , TU D Y , et al . Blind quality assessment for in -the -wild 
+images via hierarchical feature fusion and iterative mixed database training 
+[J]. IEEE journal of selected topics in signal processing , 2023 , PP(99): 1–
+15. DOI : 10.1109 /JSTSP .2023 .3270621
+[91] MITTAL A , MOORTHY A K , BOVIK A C . No -reference image quality as ⁃
+sessment in the spatial domain [J]. IEEE transactions on image processing , 
+2012 , 21(12): 4695 –4708 . DOI : 10.1109 /TIP.2012 .2214050
+[92] NARVEKAR N D , KARAM L J . A no -reference perceptual image sharpness 
+metric based on a cumulative probability of blur detection [C]//2009  Interna ⁃
+tional Workshop on Quality of Multimedia Experience . IEEE , 2009 : 87–91. 
+DOI: 10.1109 /QOMEX .2009 .5246972
+[93] ZHANG L , ZHANG L , BOVIK A C . A feature -enriched completely blind im ⁃
+age quality evaluator [J]. IEEE transactions on image processing , 2015 , 24(8): 
+2579 –2591 . DOI : 10.1109 /TIP.2015 .2426416
+[94] GU K , ZHAI G T , YANG X K , et al . Using free energy principle for blind im ⁃
+age quality assessment [J]. IEEE transactions on multimedia , 2015 , 17(1): 50–
+63. DOI: 10.1109 /TMM .2014 .2373812
+[95] GU K , ZHAI G T , YANG X K , et al . No -reference image quality assessment 
+metric by combining free energy theory and structural degradation model [C]//
+2013  IEEE International Conference on Multimedia and Expo (ICME ). IEEE , 
+2013 : 1–6. DOI : 10.1109 /ICME .2013 .6607462
+[96] MITTAL A , SOUNDARARAJAN R , BOVIK A C . Making a “completely 
+blind ” image quality analyzer [J]. IEEE signal processing letters , 2013 , 20(3): 
+209–212. DOI : 10.1109 /LSP .2012 .2227726
+[97] ZHANG W X , MA K D , YAN J , et al . Blind image quality assessment using a 
+deep bilinear convolutional neural network [J]. IEEE transactions on circuits 
+and systems for video technology , 2020 , 30(1): 36–47. DOI : 10.1109 /
+TCSVT .2018 .2886771
+[98] HARA K , KATAOKA H , SATOH Y . Can spatiotemporal 3D CNNs retrace the 
+history of 2D CNNs and ImageNet ? [C]//2018  IEEE/CVF Conference on Com ⁃
+puter Vision and Pattern Recognition . IEEE , 2018 : 6546 –6555 . DOI : 
+10.1109 /CVPR .2018 .0068
+[99] VQEG . Final report from the video quality experts group on the validation of 
+objective models of video quality assessment : PHASE II [R]. 2003
+[100] WANG Z , SIMONCELLI E P , BOVIK A C . Multiscale structural similarity 
+for image quality assessment [C]//Thrity -Seventh Asilomar Conference on Sig ⁃
+nals, Systems & Computers . IEEE , 2004 : 1398 –1402 . DOI : 10.1109 /
+ACSSC .2003 .1292216
+[101] SHEIKH H R , BOVIK A C . Image information and visual quality [J]. IEEE 
+transactions on image processing , 2006 , 15(2): 430–444. DOI : 10.1109 /
+TIP.2005 .859378
+[102] MITTAL A , SAAD M A , BOVIK A C . A completely blind video integrity 
+oracle [J]. IEEE transactions on image processing . IEEE , 2016 , 25(1): 289–
+300. DOI : 10.1109 /TIP.2015 .2502725
+[103] SAAD M A , BOVIK A C , CHARRIER C . Blind prediction of natural video 
+quality [J]. IEEE transactions on image processing , 2014 , 23(3): 1352 –
+1365 . DOI : 10.1109 /TIP.2014 .2299154
+[104] KORHONEN J . Two -level approach for no -reference consumer video quality 
+assessment [J]. IEEE transactions on image processing , 2019 , 28(12): 5923 –
+5938 . DOI : 10.1109 /TIP.2019 .2923051
+[105] TU Z Z , WANG Y L , BIRKBECK N , et al . UGC -VQA : benchmarking blind 
+video quality assessment for user generated content [J]. IEEE transactions on 
+image processing . IEEE , 2021 , 30: 4449 –4464 . DOI : 10.1109 /
+TIP.2021 .3072221
+[106] LI D Q , JIANG T T , JIANG M . Quality assessment of in -the-wild videos [C]//
+27th ACM International Conference on Multimedia . New York : ACM , 2019 : 
+2351 –2359 . DOI : 10.1145 /3343031 .3351028
+[107] TU Z Z , YU X X , WANG Y L , et al . RAPIQUE : rapid and accurate video 
+quality prediction of user generated content [J]. IEEE open journal of signal 
+processing , 2021 , 2: 425–440. DOI : 10.1109 /OJSP .2021 .3090333
+[108] SUN W , WANG T , MIN X K , et al . Deep learning based full -reference and 
+no-reference quality assessment models for compressed UGC videos [C]//
+2021  IEEE International Conference on Multimedia & Expo Workshops 
+(ICMEW ). IEEE , 2021 : 1–6. DOI : 10.1109 /ICMEW 53276 .2021 .9455999
+15

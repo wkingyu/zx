@@ -1,0 +1,108 @@
+most signi/f_icant challenges to solve. Despite 
+being put forward early on, there are no good 
+real-world solutions in physical production. In 
+addition, their association with AI models is weak, 
+and advancements in AI models have little impact 
+on these technologies.
+Technical potential analysis: Self-adaptive 
+organization, exploration, intelligent prompt 
+words, memory, and dialogue have potential for 
+further development, which may be crucial for 
+creating the gap between agent levels in the 
+short term.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mainstream agent products are categorized 
+according to their technical level, as shown in 
+Table 1.
+We conduct further paper scanning and research 
+on the technologies mentioned in Table 1, and /f_ind 
+the following:
+Technology maturity analysis: Despite many 
+papers on the technologies marked with 
+underlines in the table, there is a lack of mature 
+solution in industrial environments.  
+Technical problems analysis:  Environment 
+modeling and self-learning technologies pose the 
+Table 1. Mainstream 
+agent technology 
+breakdown.
+Logic Agent Task Agent Job Agent Self-Evolving Agent
+Environmental 
+Perception1. Text
+2. Role pro/f_ile1. Text
+2. Role pro/f_ile1. Text
+2. Mature role pro/f_ile
+3. Multi-mode1. Text
+2. Mature role pro/f_ile 
+3. Multi-mode
+4. Self-execution process perception
+Environmental
+UnderstandingContextLong short-term 
+memory 1. Long short-term 
+memory
+2. Environment 
+modeling 1. Long short-term memory
+2. Environment modeling 
+3. Valid abstract memory 
+Problems 
+ThinkingThinking chain 
+technologyThinking chain 
+technologyIntelligent 
+prompt wordsIntelligent prompt words
+Solution 
+ModelNone1. Service
+2. Small model
+3. SQL1. Service
+2. Small model
+3. SQL 
+4. Prompt driving other 
+expert agents1. Service
+2. Small model
+3. SQL
+4. Prompt driving other experts 
+5. Code generation and automatic 
+exploration 
+Feedback 
+LearningSearch + RAG Search + RAG1. Search + RAG
+2. Imitation learning1. Search + RAG
+2. Imitation learning
+3. Reinforcement learning
+Multi-Agent 
+CoordinationNone Add1. Add
+2. Negotiation 
+3. Inspiration 1. Add 
+2. Negotiation 
+3. Inspiration 
+4. Inspiration on valid exploration 
+Product 
+Classi/f_ication 
+at Home and 
+AbroadRAG repository, 
+voice1. Automation
+2. General assistant
+3. Development
+4. Software and 
+hardware combination 1. Digit staﬀ
+2. Work/f_lowPriority given to 
+experimentation and studyMulti-Agent 
+Coordination 
+ModelNoneHuman controlling 
+agentAgent controlling  
+agentAdaptive organization Expert Views
+12 

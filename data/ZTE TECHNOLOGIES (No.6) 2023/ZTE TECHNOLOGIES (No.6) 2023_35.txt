@@ -1,0 +1,92 @@
+this issue by creating an intelligent user 
+perception evaluation model that leverages a 
+neural network algorithm based on 
+transformer structure. It comprehensively 
+considers data such as access network link 
+status, home networking status, and service 
+experience indicators. Additionally, it takes 
+into account the temporal aspect of human 
+experience memory by employing long 
+short-term memory (LSTM) neural network 
+training. This results in the generation of 
+customer experience indicators (CEI) for 
+quantifying user experience, providing a 
+comprehensive re/f_lection of user experience 
+change trends, and actively identifying low 
+QoE users. The system enables real-time 
+monitoring of CEIs by areas, devices, ports, 
+and users, and supports 7×24-hour KQI 
+metrics and user access traceability, helping 
+operators gain clear insights into user 
+experience.
+Faster Location of Low QoE Root 
+Cause
+ZTE’s CEM solution uses OLT built-in blade 
+boards to move the service protocol analysis 
+tool closer to the user side. It calculates the 
+segment service delay in the FTTx network to 
+provide a low QoE delimitation capability. By 
+analyzing the delays and packet losses in the 
+segments of the “home network – ONU – 
+OLT – BRAS – content source” path, it can 
+more accurately identify issues between the network segments and facilitate fault 
+delimitation. The CEM system can 
+interconnect with third-party systems, such 
+as EMS, resource management system, and 
+remote management system. It can precisely 
+locate low QoE users and analyze the root 
+causes based on system data, covering over 
+20 low QoE scenarios. According to China 
+Mobile’s existing network deployment 
+experience, the adoption of ZTE’s CEM 
+solution enables China Mobile to shorten the 
+time needed to locate the root causes of low 
+QoE from over four hours per user to just 10 
+minutes, thus substantially improving its 
+eﬃciency in identifying the root causes of 
+low QoE.
+As the growth rate of broadband user 
+base slows down, operators need to explore 
+new network operational methods. In the 
+future, broadband operational strategies will 
+gradually change from scale-based and 
+bandwidth-focused operations to 
+experience-centric management, which has 
+become a widely accepted trend. Prioritizing 
+user experience, delivering scenario-based 
+SLA guarantees to a vast user base, creating 
+deterministic broadband experiences, and 
+securing additional premiums will be the 
+objectives of operators. ZTE is willing to 
+partner with operators worldwide in 
+building high-quality experience-driven 
+FTTx networks, assisting in their 
+transformation.
+Switch fabric
+PON  card
+Uplink  cardAdvanced architecture General speci/f_ications
+Physical parameters Extended interfaces
+Built-in bladeDimensions: 393.1 mm × 214 mm × 23.9 mm
+Weight: 2.06 kg2 × SSD slot
+1 × AI card
+Mirror the traﬃc
+Identify the service
+Calculate the indexNo additional room 
+space required
+No service interruptionsIn-house 
+chip SSD  In-house 
+CPU MEM
+Fig. 2. OLT built-in blade.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 33

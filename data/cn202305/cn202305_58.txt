@@ -1,0 +1,132 @@
+面向下一代移动通信的前传网络关键技术 赵俊皓  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5前传光网络的发展 ，讨论了未来前传光网络的接入方式和
+未来前传光网络相干 PON 的应用需求 ，并以 RoF技术为基
+础，调研了数字前传技术 、模拟前传技术和数模结合前传
+技术 3个方向的前传前沿技术 。最后 ，我们给出了前传网
+络的未来发展方向 。移动前传光网络将是下一代移动通信
+网络实现高速率 、低时延通信的关键一环 。稳定 、高效 、
+无缝接入的前传光网络将为下一代移动通信的成功落地奠
+定重要基础 。
+参考文献
+[1] NTT DOCOMO . 5G evolution and 6G [EB/OL ]. [2023 -07-23]. https ://
+www .docomo .ne.jp/english/binary/pdf/corporate/technology/whitepaper_
+6g/DOCOMO_ 6G_White_PaperEN_ 20200124 .pdf
+[2] RANAWEERA C , WONG E , NIRMALATHAS A , et al . 5G C-RAN with 
+optical fronthaul : an analysis from a deployment perspective [J]. Journal of 
+lightwave technology , 2018 , 36(11): 2059 -2068 . DOI : 10.1109 /
+JLT.2017 .2782822
+[3] WELCH D , NAPOLI A , BÄCK J , et al . Point-to-multipoint optical 
+networks using coherent digital subcarriers [J]. Journal of lightwave 
+technology , 2021 , 39(16): 5232 -5247 . DOI : 10.1109 /JLT.2021 .3097163
+[4] ZHANG J W , JIA Z S . Coherent passive optical networks for 100 G/λ-and-
+beyond fiber access : recent progress and outlook [J]. IEEE network , 2022 , 
+36(2): 116-123. DOI : 10.1109 /MNET .005.2100604
+[5] LAGÉN S , GIUPPONI L , HANSSON A , et al . Modulation compression in 
+next generation RAN : air interface and fronthaul trade-offs [J]. IEEE 
+communications magazine , 2021 , 59(1): 89-95. DOI : 10.1109 /
+MCOM .001.2000453
+[6] XU M , LU F , WANG J , et al . Key technologies for next-generation digital 
+RoF mobile fronthaul with statistical data compression and multiband 
+modulation [J]. Journal of lightwave technology , 2017 , 35(17): 3671 -3679 . 
+DOI: 10.1109 /JLT.2017 .2715003
+[7] LIU S M , ALFADHLI Y M , SHEN S Y , et al . A novel ANN equalizer to 
+mitigate nonlinear interference in analog-RoF mobile fronthaul [J]. IEEE 
+photonics technology letters , 2018 , 30(19): 1675 -1678 . DOI : 10.1109 /
+LPT.2018 .2865529
+[8] LIU X . Hybrid digital-analog radio-over-fiber （DA-RoF ） modulation and 
+demodulation achieving a SNR gain over analog RoF of > 10 dB at halved 
+spectral efficiency [EB/OL ]. [2023 -07-23]. https ://opg .optica .org/abstract .
+cfm?URI=OFC- 2021 -Tu5D.4
+[9] HASABELNABY M A , SELMY H A I , DESSOUKY M I . Joint optimal 
+transceiver placement and resource allocation schemes for redirected 
+cooperative hybrid FSO/mmW 5G fronthaul networks [J]. Journal of 
+optical communications and networking , 2018 , 10(12): 975-990
+[10] ZHANG L , CHEN Z F , ZHANG H Q , et al . Hybrid fiber –THz fronthaul 
+supporting up to 16384 -QAM-OFDM with the delta-sigma modulation 
+[J]. Optics letters , 2022 , 47(17): 4307 . DOI : 10.1364 /ol.466080
+[11] RANAWEERA C , KUA J , DIAS I , et al . 4G to 6G: disruptions and drivers 
+for optical access [J]. Journal of optical communications and networking , 
+2022 , 14(2): A143-A153. DOI : 10.1364 /JOCN .440798
+[12] SALIOU F , CHANCLOU P , NETO L A , et al . Optical access network 
+interfaces for 5G and beyond [J]. Journal of optical communications and 
+networking , 2021 , 13(8): D32-D42
+[13] LARRABEITI D , CONTRERAS L M , OTERO G , et al . Toward end-to-end 
+latency management of 5G network slicing and fronthaul traffic (Invited 
+paper ) [J]. Optical fiber technology , 2023 , 76: 103220 . DOI : 10.1016 /j.
+yofte .2022 .103220
+[14] JIANG M L , CEZANNE J , SAMPATH A , et al . Wireless fronthaul for 5G 
+and future radio access networks : challenges and enabling technologies 
+[J]. IEEE wireless communications , 2022 , 29(2): 108-114. DOI : 10.1109 /MWC .003.2100482
+[15] DAS S , RUFFINI M . PON virtualisation with EAST-WEST 
+communications for low-latency converged multi-access edge 
+computing (MEC ) [EB/OL ]. [2023 -7-30]. https ://arxiv .org/abs/
+2004 .06138 .pdf
+[16] SALIOU F , NETO L A , SIMON G , et al . 5G & optics in 2020  - where are 
+we now ? what did we learn ? [EB/OL ]. [2023 -07-20]. https ://ieeexplore .
+ieee.org/document/ 9333337
+[17] XIE C J , CHENG J C . Coherent optics for data center networks [C]//
+Proceedings of 2020  IEEE Photonics Society Summer Topicals Meeting 
+Series (SUM ). IEEE , 2020 : 1-2. DOI : 10.1109 /SUM 48678 .2020 .9161052
+[18] KUMAR S , PAPEN G , SCHMIDTKE K , et al . Intra-data center 
+interconnects , networking , and architectures [C]//Optical Fiber 
+Telecommunications VII . Elsevier , 2020 : 627-672
+[19] Infinera . Innovation details : XR optics [EB/OL ]. [2023 -07-23]. https ://
+www .infinera .com/innovation/xr-optics
+[20] FARUK M S , LI X , NESSET D , et al . Coherent passive optical networks : 
+why, when , and how [J]. IEEE communications magazine , 2021 , 59(12): 
+112-117. DOI : 10.1109 /MCOM .010.2100503
+[21] ZHANG J W , JIA Z S . Coherent passive optical networks for 100 G/λ-and-
+beyond fiber access : recent progress and outlook [J]. IEEE network , 2022 , 
+36(2): 116-123. DOI: 10.1109 /MNET .005.210060 4
+[22] CAMPOS L A , JIA Z S , ZHANG H P , et al . Coherent optics for access 
+from P 2P to P 2MP [J]. Journal of optical communications and 
+networking , 2023 , 15(3): A114-A123
+[23] ZHU Y X , YI L L , YANG B , et al . Comparative study of cost-effective 
+coherent and direct detection schemes for 100  Gb/s/ λ PON [J]. Journal 
+of optical communications and networking , 2020 , 12(9): D36. DOI : 
+10.1364 /jocn .390911
+[24] KOMA R , FUJIWARA M , KANI J I , et al . Burst-mode digital signal 
+processing that pre-calculates FIR filter coefficients for digital coherent 
+PON upstream [J]. Journal of optical communications and networking , 
+2018 , 10(5): 461-470
+[25] LI G Q , XING S Z , JIA J L , et al . Local oscillator power adjustment-based 
+adaptive amplification for coherent TDM-PON with wide dynamic range 
+[J]. Journal of lightwave technology , 2023 , 41(4): 1240 -1249 . DOI : 
+10.1109 /JLT.2022 .3216763
+[26] ZHANG J W , JIA Z S , XU M , et al . Efficient preamble design and digital 
+signal processing in upstream burst-mode detection of 100G TDM 
+coherent-PON [J]. Journal of optical communications and networking , 
+2021 , 13(2): A135-A143
+[27] SHEN W W , XING S Z , LI G Q , et al . Demonstration of beyond 100G 
+three-dimensional flexible coherent PON in downstream with time , 
+frequency and power resource allocation capability [C]//Proceedings of 
+Optical Fiber Communication Conference (OFC) 2023 . Optica Publishing 
+Group , 2023 : 1-3. DOI : 10.1364 /ofc.2023 .w1i.5
+[28] XING S Z , LI G Q , SUN A L , et al . Demonstration of PS-QAM based 
+flexible coherent PON in burst-mode with 300G peak rate and ultra-
+wide dynamic range [J]. Journal of lightwave technology , 2023 , 41(4): 
+1230 -1239 . DOI : 10.1109 /JLT.2022 .3208575
+[29] LI G , YAN A , XING S , et al . Pilot-aided continuous digital signal 
+processing for multi-format flexible coherent TDM-PON in downstream 
+[C]//2023  Optical Fiber Communications Conference and Exhibition 
+(OFC). IEEE , 2023 : 1-3
+[30] ZHANG J , JIA Z , ZHANG H , et al . Rate-flexible single-wavelength 
+TFDM 100G coherent PON based on digital subcarrier multiplexing 
+technology [EB/OL ]. [2023 -07-23]. https ://opg .optica .org/abstract .cfm?
+URI=OFC- 2020 -W1E.5
+[31] XU M , JIA Z S , ZHANG H P , et al . Intelligent burst receiving control in 
+100G coherent PON with 4 × 25G TFDM upstream transmission [C]//
+Proceedings of 2022  Optical Fiber Communications Conference and 
+Exhibition (OFC). IEEE , 2022 : 1-3
+[32] WANG H D , ZHOU J , XING Z P , et al . Fast-convergence digital signal 
+processing for coherent PON using digital SCM [J]. Journal of lightwave 
+technology , 2023 , 41(14): 4635 -4643 . DOI : 10.1109 /JLT.2023 .3243828
+[33] LUO S Y , LI Z X , FAN C , et al . Digital mobile fronthaul based on delta-
+sigma modulation employing a simple self-coherent receiver [J]. Optics 
+express , 2022 , 30(17): 30684 . DOI : 10.1364 /oe.459976
+[34] ZOU Y , ZHONG L S , ZHANG S M , et al . A hierarchical modulation 
+enabled SNR allocable delta-sigma digital mobile fronthaul system [J]. 
+IEEE photonics journal , 2021 , 14(1): 1-6. DOI : 10.1109 /
+JPHOT .2021 .3135148
+54

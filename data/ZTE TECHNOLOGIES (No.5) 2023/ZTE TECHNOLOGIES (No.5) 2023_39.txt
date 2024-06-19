@@ -1,0 +1,84 @@
+Fig.1. VMAX-S + 
+BigDNA work/f_low.
+Delimitation Root causeVMAX-S
+Transmission issue
+CCHTransport network optimization
+Transport team
+Transmission issue delimitation
+Customer complaint
+Con/f_igurable
+threshold
+BigDNATransport networkRelated KPI
+Packet loss
+Jitter
+Latency
+KPI×
+×
+××
+×
+√× NPE to ACC link issue
+ACC to NodeB link issue
+XGW to NPE link issue√
+√Test1 Test2 Test3 Delimitation
+Twamp test task type
+XGW NPE
+Test 1Test 3SPE ACC NobeB
+Test 2
+on investment. However, traditional network 
+planning is ineﬃcient and inaccurate. To address 
+this, ZTE has launched the precision planning 
+solution, which utilizes the VMAX-R wireless 
+network precision planning  platform to identify 
+high-value areas from multiple dimensions, such 
+as coverage and capacity, and multiple space 
+granularities. 
+In addition, the platform incorporates 
+intelligent identi/f_ication of weak-coverage areas 
+and the latest functions, including the analysis of 
+5G inter-frequency weak-coverage in comparison 
+with competitors. This allows more eﬃcient 
+identi/f_ication of weak-coverage areas and more 
+accurate placement of new sites. The VMAX-R 
+precision planning platform has been deployed 
+in 25 provinces in the northeast and east districts 
+of AIS coverage. It eﬀectively reduces the 
+diﬃculty of network planning for the customer 
+and quickly and precisely identi/f_ies value areas 
+for expansion.
+Intelligent Optimization of Antenna 
+Weight for Automatic Adjustment of 
+Antenna Coverage
+With the large-scale deployment of 
+5G, ensuring network quality has become 
+increasingly important in order to maintain 
+service operation and enhance user experience. 
+ZTE’s adaptive antenna pattern control (AAPC) tool automatically calculates the optimal weight 
+of AAU’s subbeams based on measurement 
+reports collected from commercial users and 
+ZTE's self-developed AI algorithm. This ensures 
+that the network coverage aligns with the user 
+model to the maximum extent. 
+The AAPC tool not only automatically adjusts 
+the antenna weight, but also self-adapts the 
+antenna coverage model over diﬀerent time 
+periods based on the changing user model to 
+meet user requirements. All of these optimization 
+operations are performed at the back end, 
+which signi/f_icantly reduces network O&M costs. 
+It enables a fully automated process of data 
+collection, analysis, and self-optimization.   
+Currently, ZTE has deployed periodical 
+AAPC tasks in 25 provinces in AIS coverage 
+in Thailand, optimizing more than 3,000 
+sites. The optimization results have shown an 
+average increase of 4 dB in RSRP and 2 dB in 
+SINR, eﬀectively improving user experience 
+and reducing optimization costs during the 
+engineering phase.
+VMAX-S+BigDNA Accurately Locates 
+Cross-Domain Bearer Problems
+When it comes to handling user complaints, 
+on-site teams typically have extensive 
+experience in handling wireless single-domain 
+problems. However, they may /f_ind it diﬃcult to 
+37OCT 2023

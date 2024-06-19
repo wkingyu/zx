@@ -1,0 +1,93 @@
+which means that the same signal is 
+sent to NodeEngine through two 
+diﬀerent frequencies on the edge 
+gateway, and the FRER software 
+selects the optimal receiving signal. 
+This greatly reduces the risk of 
+dependence on the signal quality 
+from a single frequency. At the same 
+time, the FRER function based on 
+diﬀerent frequencies also avoids the 
+problem of simultaneous cell 
+handover on diﬀerent frequencies  in 
+the overlapped coverage area, and 
+solves the pain points of RTGC 
+remote driving when crossing a road 
+between diﬀerent container areas in 
+the yard. In addition, the local traﬃc 
+oﬄoad function of NodeEngine can 
+quickly oﬄoad RTGC remote driving 
+traﬃc from the base station side to 
+the local campus, avoiding the traﬃc 
+passing through the core network 
+UPF, thereby reducing the network 
+latency to less than 10 ms. The local 
+traﬃc oﬄoad function of NodeEngine 
+and the traﬃc oﬄoad function of the 
+core network UPF can inter-backup 
+to increase the robustness of the 
+network.
+ZTE’s 5G-based remote driving 
+solution is being trialed and veri/f_ied 
+in some ports in China. This 
+technology can be used not only for 
+remote driving of RTGC, but also for 
+remote driving of RMGC, quayside 
+container crane (QC) and intelligent 
+guided vehicle (IGV) in the ports. In 
+addition, as a universal remote 
+control technology, the 5G-based 
+remote driving solution can also be 
+widely used for remote control of 
+electric traveling crane in steel and 
+metallurgy, as well as remote driving 
+of unmanned mining trunk in mines. 
+This solution has a wide application 
+prospect.
+Generally, the bidirectional 
+transmission delay of control 
+commands is required to be less 
+than 20 ms, and the reliability is 
+required to be above 99.99%. This 
+is a challenge for conventional 5G 
+coverage. Especially when a RTGC 
+travels at the edge of a cell or 
+frequently switches between 
+multiple cells, the signal quality 
+may be degraded, which may 
+increase the transmission time and 
+retransmission times of control 
+commands signi/f_icantly, and the 
+quality of service may be aﬀected 
+in a severe case. The SuperCell 
+technology provided by ZTE can 
+eliminate inter-cell interference, 
+expand cell coverage, reduce cell 
+handover times, and greatly meet 
+the low latency and high reliability 
+requirements of control commands 
+by combining multiple adjacent 
+cells into a logical cell.
+Moreover, ZTE’s unique NodeEngine, 
+self-developed function software, 
+and industrial grade edge gateway 
+can enhance the 5G capability for 
+RTGC remote driving. For example, 
+the I frame collision cancellation 
+technology is used for video 
+optimization. By optimizing video 
+encoding and decoding algorithms 
+on the edge gateway, the periodic 
+I-frame design can be cancelled. 
+Alternatively, an AI application can 
+be deployed on NodeEngine to 
+identify the cameras with I-frame 
+collisions and provide suggestions 
+on adjusting the I-frame period, so 
+as to greatly reduce the instantaneous 
+impact of video on network 
+bandwidth. For control commands, 
+the FRER technology is used to 
+realize the function of dual-
+transmission and optimal-receiving, 
+35JUN 2023

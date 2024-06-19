@@ -1,0 +1,235 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4XIONG Zhiang , ZHAO Ping , FAN Jiyuan , WU Zengqiang , GONG Hongwei Mixed Electric and Magnetic Coupling Design Based on Coupling Matrix Extraction    Research Papers
+the right . From Table 4, it can be found that when EC in⁃
+creases , the TZ is shifted to the left . From Tables 3 and 4, we 
+can also see that when the TZ is located in the lower stopband , 
+EC is stronger than MC. If the TZ is in the upper stopband , 
+then MC is stronger than EC.
+To conclude , the tuning of the mixed electric and magnetic 
+coupling structure in Fig . 3(a) follows two rules :
+Rule 1: We simultaneously increase or decrease EC and MC 
+to tune Cij.
+Rule 2: If the TZ is in the lower stopband , we can increase 
+EC and decrease MC to increase Mij. If the TZ is in the upper 
+stopband , we can increase MC and decrease EC simultaneously 
+to increase Mij.
+To verify the above theory , take a 7th-order filter with the 
+coupling topology shown in Fig . 4(a) as an example . The cen ⁃
+ter frequency and bandwidth of the filter are 3.5 GHz and 
+200 MHz , respectively . The in -band return loss level is re ⁃
+quired to be 18 dB. Two TZs at 3.7 GHz and 3.3 GHz are 
+generated sequentially by two mainline FDCs . The synthe ⁃
+sized coupling matrix and capacitance matrix are shown in 
+Figs. 5 and 6, respectively .
+The perspective view of the filter model is shown in Fig . 4(b). 
+With the help of the MVF method to extract the coupling matrix 
+from simulation data , we can identify how to adjust the dimen ⁃
+sions and finally obtain satisfactory filter responses . The simula ⁃
+tion results with ideal lossless materials are shown in  Fig. 7, 
+where solid lines are simulation data , and dashed lines are the ideal synthesis responses .
+4 Conclusions
+In this paper , the relationship between the coupling matrix 
+(capacitance matrix ) and EC (MC) is obtained through circuit 
+analysis . A filter example is designed to verify the proposed 
+theory . Although only the inline filter is discussed in detail , 
+the strategy introduced in this paper can be easily generalized 
+to mixed electric and magnetic coupling filters in different 
+coupling topologies . Compared with the existing theory of 
+mixed electric and magnetic coupling filters , this work has the 
+following distinctive features .
+▼Table 4. Changing the height of the ridge or the plate when TZ is in 
+the upper stopband
+hridge/mm
+6.30
+6.30
+6.30
+6.30
+6.30hplate/mm
+1.60
+2.10
+2.60
+3.10
+3.60Mij
+−0.958 2
+−0.376 8
+0.212 7
+0.822 3
+1.440 2Cij
+0.236 2
+0.265 4
+0.293 0
+0.318 9
+0.343 3TZ/rad
+4.06
+1.42
+−0.73
+−2.58
+−4.20
+TZ: transmission zero
+▲Figure 7. Response of the 7th-order , where dashed lines are ideal syn ⁃
+thesis responses and solid lines are simulation resultsFrequency/GHz3.0 3.5 4.0S-parameters/dBS11 simulation
+S12 simulation
+S11 synthesis
+S12 synthesis0
+-10
+-20
+-30
+-40
+-50
+-60
+-70
+-80
+-90
+-100(a)
+(b)
+▲Figure 4. 7th-order filter with mixed electric and magnetic coupling : 
+(a) target topology and (b) electromagnetic model of the 7th-order filter 
+with mixed electric and magnetic coupling0
+0.952 2
+0
+0
+0
+0
+0
+0
+00.952 2
+0.000 4
+0.793 8
+0
+0
+0
+0
+0
+00
+0.793 8
+0.000 5
+0.555 8
+0
+0
+0
+0
+00
+0
+0.555 8
+0.342 2
+0.580 9
+0
+0
+0
+00
+0
+0
+0.580 9
+0.023 1
+0.571 4
+0
+0
+00
+0
+0
+0
+0.571 4
+0.321 4
+0.559 5
+0
+00
+0
+0
+0
+0
+0.559 5
+0.000 5
+0.793 8
+00
+0
+0
+0
+0
+0
+0.793 8
+0.000 4
+0.952 20
+0
+0
+0
+0
+0
+0
+0.952 2
+0
+▲Figure 5. Coupling matrix
+▲Figure 6. Capacitance matrix0
+0
+0
+0
+0
+0
+0
+0
+00
+1
+0
+0
+0
+0
+0
+0
+00
+0
+1
+0
+0
+0
+0
+0
+00
+0
+0
+1
+−0.298 5
+0
+0
+0
+00
+0
+0
+−0.298 5
+1
+0.277 3
+0
+0
+00
+0
+0
+0
+0.277 3
+1
+0
+0
+00
+0
+0
+0
+0
+0
+1
+0
+00
+0
+0
+0
+0
+0
+0
+1
+00
+0
+0
+0
+0
+0
+0
+0
+0
+S 1 2 3  4   5   6 7  L
+89

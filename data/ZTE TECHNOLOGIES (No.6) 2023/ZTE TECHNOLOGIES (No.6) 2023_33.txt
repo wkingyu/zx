@@ -1,0 +1,80 @@
+FTTx Network Development and User 
+Experience
+TTx networks, based on the passive 
+optical network (PON) technology, 
+have been developing for more 
+than 20 years. The global
+FTTx penetration rate had exceeded 65% by 
+the end of 2022. FTTx broadband has become 
+an essential part for modern households, 
+providing technical infrastructure for various 
+applications such as high-speed Internet 
+(HSI), video streaming, online education, and 
+online oﬃce.
+As network technology evolves over time, 
+the O&M of FTTx networks has gradually 
+changed from the previous rough mode, 
+focusing on key performance indicators 
+(KPIs), to a re/f_inement and 
+experience-oriented approaches. User 
+experience has becoming increasingly 
+important. More than 64% of users consider 
+user experience the most important factor 
+when choosing a service provider, and 48% of 
+users are willing to change providers for a 
+better experience according to research. In 
+addition, the COVID-19 has spurred a 
+heightened demand for broadband user 
+experience improvements, raising the bar for 
+users’ expectations of their broadband 
+network providers.
+FTTx provides users with /f_ixed broadband 
+services such as IPTV, video streaming, and 
+Internet. The bandwidth and speed of FTTx 
+networks used to be the major concerns of users. However, with the upgrading of PON 
+technologies and continuous bandwidth 
+acceleration, the network speed is no longer 
+a bottleneck that limits user experience. 
+Users have gradually become less sensitive to 
+bandwidth increases. Instead, the focus has 
+shifted towards service-speci/f_ic quality 
+indicators, known as key quality indicators 
+(KQIs), which include factors like delay, jitter, 
+response success rate, response time, 
+connection stability, and video smoothness. 
+To monitor, quantify, analyze, and manage 
+the user experience, customer experience 
+management (CEM) systems have emerged. 
+CEM Solution Helps to Improve User 
+Experience
+To align with operators’ shift from network 
+performance-based O&M to user 
+experience-based O&M, and to meet their 
+needs for transitioning to big data 
+operations, ZTE has launched the CEM 
+solution for FTTx networks (Fig. 1). Positioned 
+at the service quality and user experience 
+layer, the CEM system can perceive the 
+service experience of home broadband users, 
+and provide accurate data support for 
+analyzing low quality of experience (QoE) 
+issues, delimiting and locating root cause, 
+actively optimizing low QoE, and enhancing 
+user satisfaction.
+The CEM solution enables collaboration of 
+the built-in blade in OLT with the big data 
+analysis system to provide user 
+CEM: A Powerful Tool for Analyzing 
+Low QoE in FTTx Networks
+F
+FM Product Planning 
+Manager, ZTEWei Xiu
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 31

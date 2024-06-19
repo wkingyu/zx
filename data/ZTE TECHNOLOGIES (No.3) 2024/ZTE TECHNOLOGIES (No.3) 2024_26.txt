@@ -1,0 +1,82 @@
+intensi/f_ied the demand for computing power during 
+training, surpassing the pace of Moore’s Law for chip 
+processing. As a result, the training time of AI models 
+have consistently extended. For instance, OpenAI’s 
+GPT-3 model with 175 billion parameters required 
+approximately 1,024 A100 GPUs for a single run in 
+2022, while the GPT-4 model with 1.8 trillion 
+parameters demanded about 25,000 A100 GPUs for a 
+single run in 2023. Comparatively, the training time for 
+GPT-4 nearly doubled that of GPT-3.
+The requirements of inference chips vary based on 
+service scenarios. For instance, in online Q&A 
+scenarios, the computing power of AI chips needs to 
+match reading speeds (250 words per minute, 
+maximum 1,000 words). In 5GC scenarios, voice 
+codec and image processing capabilities are 
+necessary additions to AI computing power.  
+Deployment Location   
+AI chips are deployed primarily on the cloud and 
+terminal sides. The cloud side refers to a cloud data 
+center, while the terminal side refers to devices like 
+mobile phones or PCs that can be accessed or used 
+locally by individuals.
+Taking the operator’s intelligent computing center 
+as example, cloud data centers consist of group 
+nodes, central nodes, and edge nodes (Fig. 1). Group 
+nodes manage intelligent operations, central nodes 
+handle training and non-real-time inference, while 
+edge nodes and edge clouds are combined for 
+real-time inference.
+The terminal-side AI, with security, independence, 
+low latency, and high reliability, eﬃciently handles 
+diverse AI inference tasks. At present, multiple AI 
+models have launched “miniaturization-based” and 
+n 1956, at the Summer Seminar of Dartmouth 
+College in the United States, scientists like 
+McCarty and Minsky /f_irst proposed the concept 
+of AI. Over the past 60 years, AI has undergone 
+extensive development and exploration. By 2015, AI 
+surpassed human visual recognition precision and 
+entered large-scale commercial use in video 
+applications. In 2022, ChatGPT emerged as a 
+groundbreaking product, propelling the adoption of 
+AI models in industrial applications. 
+As a crucial cornerstone of AI development, AI 
+chips have undergone two major phases. Before 
+2012, AI research and applications primarily relied on 
+CPUs. In 2012, Alex Krizhevsky from the University of 
+Toronto pioneered the use of GPUs in AI, achieving a 
+groundbreaking victory in the ImageNet competition 
+using only four NVIDIA Geforce GTX 580s. This event 
+astonished academia and opened the door to 
+diversity in AI chips. 
+Key Requirements 
+AI chips can be divided into training and inference 
+chips. Training involves providing a large amount of 
+labeled or unlabeled data to adjust mode parameters 
+through optimization algorithms, so that the model 
+can learn related modes and laws from the data. 
+Inference refers to applying a trained model to 
+real-world scenarios for prediction, classi/f_ication, or 
+decision-making. 
+The key requirement of training chips is to enhance 
+AI computing power and reduce model training 
+duration. With the rise of AI models, their numbers and 
+scales have exponentially increased within a few 
+months. The emergence of 10-billion-level AI models 
+and the birth of trillion-parameter AI models have 
+ 
+Opening Doors to Diversity in 
+AI Chips
+I
+Chief Engineer of ZTE 
+Computing and Core 
+Network HardwareGao Zhenzhong
+ 
+ 
+ 
+ 
+ 
+ Intelligent Computing Special Topic 
+24 

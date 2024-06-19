@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Point Cloud Processing Methods for 3D Point Cloud Detection Tasks    Special Topic
+is the basic network model , which is used to process the point 
+cloud data and extract features . Different network models have 
+different advantages and disadvantages for point cloud pro ⁃
+cessing . For example , GNN can capture the structure and rela ⁃
+tionship of point cloud data by using nodes and edges . It can 
+handle irregular and unordered data better than convolutional 
+neural networks .
+5 Conclusions
+In this paper , we summarize the processing of point clouds 
+in object detection . Point cloud processing is the first step in 
+most models and it can greatly affect the performance of subse ⁃
+quent detection operations . Point cloud processing can be di ⁃
+vided into two categories : voxel -based and point -based pro ⁃
+cessing , both of which have their own advantages and disad ⁃
+vantages .
+Voxel -based processing is a method that divides the three -
+dimensional space into small cubes called voxels and assigns 
+points to voxels according to their coordinates . The advantage 
+of voxel -based processing is that it can convert point clouds 
+into ordered data and reduce computational complexity . How ⁃
+ever, voxel -based processing may introduce quantization er ⁃
+rors and lose some fine -grained details . Many works have im ⁃
+proved voxel -based methods by changing the way voxels are 
+divided , changing the network for processing voxels , changing 
+the data structure for processing data , etc. These approaches 
+can reduce time complexity and organize voxel -level features 
+well, further improving performance .
+Point -based processing is a method that directly operates 
+on raw points without any transformation or quantization . The 
+advantage of point -based processing is that it can preserve the 
+original structure and information of point clouds . However , 
+point -based processing may face challenges such as irregular ⁃
+ity and sparsity of point clouds . Many works have improved 
+point -based methods by improving the way of point cloud sam ⁃
+pling , introducing some voxel -based features or directly ob ⁃
+taining the graph structure from the structure of the original 
+point cloud data . These approaches can enhance the feature 
+extraction and representation of points , which can also signifi ⁃
+cantly improve the performance of subsequent detection .
+References
+[1] REN S Q , HE K M , GIRSHICK R , et al . Faster R -CNN : towards real -time ob ⁃
+ject detection with region proposal networks [J]. IEEE transactions on pattern 
+analysis and machine intelligence , 2017 , 39(6): 1137 –1149 . DOI : 10.1109 /
+tpami .2016 .2577031
+[2] REDMON J , DIVVALA S , GIRSHICK R , et al . You only look once : unified , 
+real -time object detection [EB/OL ]. (2016 -05-09)[2023 -08-20]. https ://arxiv .org/
+abs/1506 .02640
+[3] LAW H , DENG J . CornerNet : detecting objects as paired keypoints [J]. Interna ⁃
+tional journal of computer vision , 2020 , 128(3): 642–656. DOI : 10.1007 /
+s11263 -019 -01204 -1[4] SHI S S , WANG X G , LI H S . PointRCNN : 3D object proposal generation and 
+detection from point cloud [EB/OL ]. (2019 -05-16) [2023 -08-21]. https ://arxiv .
+org/abs/ 1812 .04244
+[5] CHEN Y K , LIU J H , ZHANG X Y , et al . VoxelNeXt : fully sparse VoxelNet for 
+3D object detection and tracking [EB/OL ]. (203 -03-20) [2023 -08-21]. https ://
+arxiv .org/abs/ 2303 .11301
+[6] YANG Z T , SUN Y N , LIU S , et al . STD : sparse -to-dense 3D object detector 
+for point cloud [EB/OL ]. (2019 -07-22) [2023 -08-21]. https ://arxiv .org/abs/
+1907 .10471
+[7] PHILION J , FIDLER S . Lift, splat , shoot : encoding images from arbitrary cam ⁃
+era rigs by implicitly unprojecting to 3D [C]//European Conference on Computer 
+Vision . Springer , 2020 : 194–210.10.1007 /978 -3-030 -58568 -6_12
+[8] YIN T W , ZHOU X Y , KRÄHENBÜHL P . Center -based 3D object detection 
+and tracking [C]//2021  IEEE/CVF Conference on Computer Vision and Pattern 
+Recognition (CVPR ). IEEE , 2021 : 11779 –11788 . DOI : 10.1109 /
+CVPR 46437 .2021 .01161
+[9] KLASING K , WOLLHERR D , BUSS M . A clustering method for efficient seg ⁃
+mentation of 3D laser data [C]//2008  IEEE International Conference on Robot ⁃
+ics and Automation . IEEE , 2008 : 4043 –4048 . DOI : 10.1109 /
+ROBOT .2008 .4543832
+[10] KLASING K , WOLLHERR D , BUSS M . Realtime segmentation of range data 
+using continuous nearest neighbors [C]//2009  IEEE International Conference 
+on Robotics and Automation . IEEE , 2009 : 2431 –2436 . DOI : 10.1109 /
+ROBOT .2009 .5152498
+[11] CHARLES R Q , HAO S , MO K C , et al . PointNet : deep learning on point sets 
+for 3D classification and segmentation [C]//2017  IEEE Conference on Com ⁃
+puter Vision and Pattern Recognition (CVPR ). IEEE , 2017 : 77–85. DOI : 
+10.1109 /CVPR .2017 .16
+[12] QI C R , YI L , SU H , et al . PointNet++ : deep hierarchical feature learning on 
+point sets in a metric space [EB/OL ]. (2017 -06-07)[2020 -08-21]. https ://arxiv .
+org/abs/ 1706 .02413
+[13] HUANG J J , HUANG G , ZHU Z , et al . BEVDet : high -performance multi -
+camera 3D object detection in bird -eye -view [EB/OL ]. (2022 -06-16)[2023 -08-
+21]. https ://arxiv .org/abs/ 2112 .11790
+[14] LI Z Q , WANG W H , LI H Y , et al . Bevformer : learning bird 􀆳s-eye -view repre ⁃
+sentation from multi -camera images via spatiotemporal transformers [EB/OL ]. 
+(2022 -07-13)[2023 -08-21]. https ://arxiv .org/abs/ 2203 .17270
+[15] LI Y H , GE Z , YU G Y , et al . BEVDepth : acquisition of reliable depth for 
+multi -view 3D object detection [EB/OL ]. (2022 -11-30) [2023 -08-21]. https ://
+arxiv .org/abs/ 2206 .10092
+[16] LIU Z J , TANG H T , AMINI A , et al . BEVFusion : Multi -task multi -sensor fu ⁃
+sion with unified bird's -eye view representation [EB/OL ]. (2022 -06-16)[2023 -
+08-21]. https ://arxiv .org/abs/ 2205 .13542
+[17] WANG R H , QIN J , LI K Y , et al . BEV -LaneDet : a simple and effective 3D 
+lane detection baseline [EB/OL ]. (203 -03-11) [2023 -08-21]. https ://arxiv .org/
+abs/2210 .06006
+[18] DONG Y P , KANG C X , ZHANG J L . Benchmarking robustness of 3D object 
+detection to common corruptions in autonomous driving [EB/OL ]. (2023 -03-20)
+[2023 -08-21]. https ://arxiv .org/abs/ 2303 .11040
+[19] QI C R , LITANY O , HE K M , et al . Deep hough voting for 3D object detection 
+in point clouds [EB/OL ]. (2019 -08-22) [2023 -08-21]. https ://arxiv .org/abs/
+1904 .09664
+[20] HE Y S , SUN W , HUANG H B , et al . PVN 3D: deep point -wisea 3D keypoints 
+voting network for 6DoF pose estimation [EB/OL ]. (2020 -03-24)[2023 -08-21]. 
+https ://arxiv .org/abs/ 1911 .04231
+[21] ZHOU Y , TUZEL O . VoxelNet : end -to-end learning for point cloud based 3D 
+object detection [C]//2018  IEEE/CVF Conference on Computer Vision and Pat ⁃
+tern Recognition . IEEE , 2018 : 4490 –4499 . DOI : 10.1109 /CVPR .2018 .00472
+[22] YAN Y , MAO Y X , LI B . SECOND : sparsely embedded convolutional detec ⁃
+tion [J]. Sensors , 2018 , 18(10): 3337 . DOI : 10.3390 /s18103337
+[23] SIMON M , AMENDE K , KRAUS A , et al . Complexer -YOLO : real -time 3D ob ⁃
+ject detection and tracking on semantic point clouds [EB/OL ]. (2019 -04-16)
+[2023 -08-21]. https ://arxiv .org/abs/ 1904 .07537
+[24] LANG A H , VORA S , CAESAR H , et al . PointPillars : fast encoders for object 
+detection from point clouds [EB/OL ]. (2020 -03-24)[2023 -08-21]. https ://arxiv .
+org/abs/ 1812 .05784
+[25] REN S Q , HE K M , GIRSHICK R , et al . Faster R -CNN : towards real -time ob ⁃
+45

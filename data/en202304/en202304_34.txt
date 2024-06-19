@@ -1,0 +1,108 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Lossy Point Cloud Attribute Compression with Subnode -Based Prediction    Special Topic
+tribute to reducing the attribute spatial redundancy in a trans ⁃
+form domain . For instance , to utilize the 2D discrete cosine 
+transform (DCT), ZHANG et al . project the point clouds onto 
+two -dimensional grids for color compression[20]. This 3D-to-2D-
+based method inevitably fails to fully consider three -
+dimensional spatial correlations . Hence , 3D-DCT -based meth ⁃
+ods are developed continuously , such as Refs . [21] and [22].
+Apart from DCT , more complex transforms are introduced to 
+attribute coding for PCC . The graph Fourier transform (GFT) is 
+first applied to PCC in Ref . [23], which is an extension of the 
+Karhunen -Loève transform (KLT). The graphs are constructed 
+based on octree -decomposed point clouds , where the graph La ⁃
+placian matrix can be deduced by connecting the points within 
+small neighborhoods . Then attributes are transformed , quan ⁃
+tized , and entropically encoded . Since the coding efficiency of 
+the graph -based methods outperforms the DCT -based method , 
+extensive follow -up works have been carried out on the attri ⁃
+bute graph transform coding . Specifically , an optimized graph 
+transform method[24] is proposed to improve the Laplacian spar ⁃
+sity combined with k -dimensional tree partition and an RDO -
+based quantization process . Then , XU et al .[25] introduce the 
+normal of point clouds , in addition to geometric distance , to 
+measure the connectivity between neighbor points . Moreover , 
+they propose a predictive generalized graph transform 
+scheme[26] to eliminate the temporary redundancy . Although 
+the graph -based transform approaches exhibit superior coding 
+performance , complicated matrix decomposition leads to real -
+time difficulties in PCC .
+Taking the complexity into consideration , RAHT is pro ⁃
+posed in Ref . [12] and finally adopted in G -PCC as the funda ⁃
+mental framework . Our work is closely related to the RAHT 
+and corresponding techniques , which will be concisely de ⁃
+scribed in Section 2.2.
+2.2 RAHT in MPEG G -PCC
+RAHT is a Haar -inspired method with a hierarchical struc ⁃
+ture, which can be regarded as an extension of 1D HWT . The 
+core of HWT is to represent functions and signals by using a 
+series of wavelets or basis functions . Specifically , suppose a 
+signal S has N elements . The HWT decomposes the original 
+signal S into low -pass and high -pass components , which can 
+be calculated as follows :
+é
+ëêêêêù
+ûúúúúDC
+AC=1
+2é
+ëêêêê ù
+ûúúúú11
+-11é
+ëêêêêù
+ûúúúúS2n
+S2n+1 , (1)
+where S2n and S2n+1 denote two adjacent elements of signal s. 
+The direct current (DC) and alternating current (AC) coefficients 
+represent the low -frequency and high -frequency parts of the sig ⁃
+nal respectively . Generally speaking , the energy of the signal af ⁃
+ter the HWT is mainly concentrated on a few coefficients , espe ⁃
+cially the DC coefficients , and then appropriate quantization and 
+entropy coding can achieve the purpose of compression .In order to apply HWT for 3D point cloud attribute com ⁃
+pression , 1D HWT is applied sequentially along the x, y, and z 
+directions . Specifically , the RAHT is conducted on a hierar ⁃
+chical octree based on the geometry information of point 
+clouds , which starts from the leaf nodes (i.e., highest resolu ⁃
+tion level ) and proceeds backward until the octree ’s root node 
+(i.e., lowest resolution level ). In each level , the RAHT is ap ⁃
+plied to each unit node containing 2×2×2 subnodes . As shown 
+in Fig . 1, the unit node is transformed along three directions to 
+generate both DC and AC coefficients , where the DC coeffi ⁃
+cients along each direction will continue to be transformed 
+while the AC coefficients will be output to be quantized and 
+encoded . Note that the number of coefficients is the same as 
+the number of occupied subnodes in a unit node , including 
+one DC coefficient and several AC coefficients . Then , the DC 
+coefficient obtained from the node at Level l will be used as 
+the attribute of the node at Level l-1 for further transformation . 
+After processing all unit nodes (N occupied nodes ) at Level l, 
+N generated DC coefficients (denoted as LLL ) continue to be 
+transformed until the root node .
+It should be noted that , in the current G -PCC, the dyadic 
+RAHT decomposition[27] is adopted to adapt to more compli ⁃
+cated textures . The whole process of the dyadic RAHT is ex ⁃
+actly the same as the normal RAHT mentioned above , except 
+that the AC coefficients obtained in each direction will be fur ⁃
+ther transformed like the DC coefficients . Another point to be 
+emphasized is that , unlike HWT in Eq . (1), the wavelet trans ⁃
+form kernel for RAHT is modified according to
+RAHT(w1, w2)=1
+w1+w2é
+ëê
+êêê
+êê ù
+ûú
+úúú
+úú w1 w2
+-w2 w1 , (2)
+▲Figure 1. Transform procedure of a unit node along three directions . 
+The DC coefficient is denoted as L and H represents the AC coefficient . 
+LL and LH represent the DC coefficient and AC coefficient of DC coeffi ⁃
+cient respectively , and so onAC: alternating current     DC : direct currentAlong the first direction
+AC: alternating current     DC : direct currentNode in Level l
+Along the second direction
+Along the third directionDC coefficients L
+DC coefficients LL
+DC coefficients LLL
+Transform for Level -lQuantize and encodeAC coefficients LLHAC coefficients LHAC coefficients H
+31

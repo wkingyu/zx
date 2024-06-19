@@ -1,0 +1,56 @@
+SASE 关键技术与产业发展研究 柴瑶琳  等 专家论坛
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2SASE关键技术与产业发展研究
+Key Technology and Industry Development of Secure Access Service Edge
+柴瑶琳 /CHAI Yaolin ，韩维娜 /HAN Weina ，
+张云畅 /ZHANG Yunchang ，穆琙博 /MU Yubo ，韩淑君 /HAN Shujun
+（ 中国信息通信研究院 ， 中国 北京 100191  ）
+(China Academy of Information and Communication Technology , Beijing 
+100191 , China )DOI：10.12142 /ZTETJ .202402011
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240423 .1324.002.html
+网络出版日期 ：2024 -04-23
+收稿日期 ：2024 -03-02
+摘要 ：安全访问服务边缘 （SASE ）有机融合云 、网、算和安全 ，支持随时随处的一站式安全访问 ，是产业数字化转型的革新性网络安全技术 。
+SASE 关键技术包括软件定义广域网 （SD-WAN ） 、零信任网络访问 （ZTNA ） 、云原生网络及网络安全即服务等技术 ，是网络融合安全架构演进
+的必然趋势 。目前中国 SASE 产业还处于初期探索阶段 ，需抓住发展机遇 ，加强技术产品研发创新和标准体系构建 ，促进 SASE 产业高质量发展 。
+关键词 ：SASE ； SD-WAN ；ZTNA ； 云原生网络 ；网络安全即服务
+Abstrac t:Secure access service edge (SASE ) is a revolutionary network security technology for digital transformation of industry by organi ⁃
+cally integrating cloud , network , computing , and security to support one-step security access anywhere and anytime . The key technologies 
+of SASE include software defined wide area network (SD-WAN ), zero trust network access (ZTNA ), cloud native network , and network secu ⁃
+rity as a service , which are the inevitable trend of network convergence security architecture evolution . At present , China's SASE industry is 
+still in the early stage of exploration , so it is necessary to seize the development opportunity , strengthen the innovation of technology prod ⁃
+uct development and standard system construction , and promote the high-quality development of SASE industry .
+Keywords :SASE ; SD-WAN ; ZTNA ; cloud native network ; network security as a service
+引 用 格 式 ：柴 瑶 琳 , 韩 维 娜 , 张 云 畅 , 等. SASE 关 键 技 术 与 产 业 发 展 研 究  [J]. 中 兴 通 讯 技 术 , 2024 , 30(2): 72-75. DOI : 10.12142 /
+ZTETJ .202402011
+Citation ： CHAI Y L , HAN W N , ZHANG Y C , et al . Key technology and industry development of secure access service edge [J]. ZTE technol ⁃
+ogy journal , 2024 , 30(2): 72-75. DOI: 10.12142 /ZTETJ .202402011
+伴随产业数字化转型进程的加快 ，云网融合应用场景不
+断深化 ，网络安全对产业高质量发展的保障作用也不
+断凸显 。各国高度重视网络安全领域的战略布局和创新研
+究，抢抓国际新技术主导权 。近年来 ，中国也在不断推进网
+络安全融合领域的新技术创新应用 。安全访问服务边缘
+（SASE ）融合网络和安全创新技术 （软件定义广域网 、零信
+任、云原生网络等 ） ，以及全面构建云 -网-算-安全一体化
+服务 ，已成为全球网络安全领域关注的研究焦点 。
+本文将聚焦 SASE 热点技术 ，围绕当前发展现状 ，重点
+分析关键技术体系 ，探讨领域应用挑战并提出未来发展
+建议 。
+1 SASE发展现状
+1.1 国际 SASE战略部署加快
+SASE 成为各国重塑政府整体网络安全架构的首要选择 。2021 年12月，加拿大政府在 《网络与安全战略 》文件中明确
+提出把 SASE 作为远程办公场景下替代虚拟专用网络 （VPN）
+的重点技术[1]。2022 年6月，美国联邦调查局 （FBI）发布的
+“网络企业重新设计计划 ” （NERI ）最新信息请求显示[2]，FBI
+对规划架构提出了大量具体的安全要求 ，如零信任 、SASE 、
+强隔离 、可见性等 。
+1.2 全球 SASE技术标准体系不断完善
+SASE 技术发展趋近成熟 ，国际化组织标准建设进程不
+断 加 快 。根 据 Gartner 2021 年 发 布 的 《Hype Cycle for 
+Emerging Technologies 》[3]报告统计 ，SASE 位于全球网络创
+新技术领域最受关注的前 30。目前 SASE 已跨过早期阶段 ，
+进入中期阶段 ，将在未来 2～5年重构网络服务业务模式 ，
+推动产业变革性发展 。紧跟技术发展 ，全球 SASE 标准制定
+步伐不断加快 。2022 年，全球城域以太网论坛 （MEF）联
+合微软 、Verizon Business 等全面推动包括 MEF W 117 SASE
+72

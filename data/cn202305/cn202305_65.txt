@@ -1,0 +1,55 @@
+网络智能传输研究进展 廖乙鑫  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5网络智能传输研究进展
+Network Intelligent Transmission Technology : A Survey
+廖乙鑫 /LIAO Yixin1，王子逸 /WANG Ziyi1，崔勇/CUI Yong2
+（ 1.北京邮电大学 ，中国 北京 100876 ；
+2.清华大学  中国 北京 100084  ）
+(1.Beijing University of Posts and Telecommunications , Beijing 100876 , 
+China ;
+2.Tsinghua University , Beijing 100084 , China )DOI：10.12142 /ZTETJ .202305010
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231016 .0846.002.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-10
+摘要 ：新兴超低时延场景的出现以及 6G技术与人工智能技术的发展 ，促使网络智能传输成为研究热点 。分析了传输层和应用层的时延组成及影
+响因素 ，对机器学习技术与传输层 、应用层流媒体传输相结合的智能传输协议的发展和优缺点进行了综述 。从传统网络传输协议的发展 、人工
+智能技术的发展 、网络传输和人工智能结合 3个方面展望了网络智能传输面临的机遇与挑战 。认为分布式机器学习训练场景的传输性能 、训练
+数据的质量 、模型的泛化能力 、模型大规模部署的开销是未来网络智能传输技术的重点研究方向 。
+关键词 ：网络传输 ；机器学习 ；时延分析 ；拥塞控制 ；视频传输
+Abstrac t:With the emergence of emerging ultra-low latency scenarios and the development of 6G technology and artificial intelligence tech ⁃
+nology , intelligent network transmission has become a research hotspot . The delay components and influencing factors of the transport 
+layer and application layer are discussed . Then , the development , advantages , and disadvantages of intelligent transmission protocols that 
+combine machine learning technology with transport layer and application layer streaming media transmission are reviewed . The opportuni ⁃
+ties and challenges faced by intelligent network transmission are prospected from three aspects : the development of traditional network 
+transmission protocols , the development of artificial intelligence technology , and the combination of network transmission and artificial intelli ⁃
+gence . It is believed that the transmission performance of distributed machine learning training , the quality of training data , the generalization 
+ability of the model , and the cost of large-scale deployment of the model is the key research direction of future network intelligent transmis ⁃
+sion technology .
+Keywords :network transmission ; machine learning ; analysis of delay ; congestion control ; video transmission
+引用格式 ：廖乙鑫 , 王子逸 , 崔勇 . 网络智能传输研究进展  [J]. 中兴通讯技术 , 2023 , 29(5): 61-67. DOI: 10.12142 /ZTETJ .202305010
+Citation ： LIAO Y X , WANG Z Y , CUI Y . Network intelligent transmission technology ：a survey [J]. ZTE technology journal , 2023 , 29(5): 61-
+67. DOI: 10.12142 /ZTETJ .202305010
+随着6G技术与人工智能技术的迅速发展 ，我们正面临
+着众多机遇和挑战 。6G技术提供了低时延的物理传输
+通道[1]，为扩展现实 （XR） 、远程医疗 、元宇宙 、车联网等
+新兴应用场景[2-4]开拓了广阔的发展空间 。然而 ，新兴应用
+场景的发展还需要上层传输层 、应用层的架构完善来支撑 。
+新兴应用与传统应用在时延要求[5]、承载网络结构等方面存
+在明显差异 ，这对传统网络传输协议提出新的挑战 。传统的
+传输层协议和应用层协议设计通常基于静态的规则和网络假
+设，难以适应现代网络中的复杂变化和多样化应用需求 。借
+助人工智能技术[6]，传输协议可以通过学习来适应实时网络环境 ，调整拥塞控制和传输优化策略 。比如 ，机器学习[7]算
+法能够从大量的复杂网络数据中学习并提取有用的模式和特
+征，动态生成网络传输协议规则 。机器学习技术还具备适应
+的能力 ，能根据网络环境的变化调整模型参数和优化算法 。
+将人工智能技术应用于传输协议的设计 ，可以更好地应对网
+络中的动态变化和多样化应用需求 ，提供更高效 、可靠和稳
+定的网络传输 。网络智能传输技术应运而生 。
+在网络传输中 ，时延是一个非常重要的指标 ，对新兴应
+用场景而言尤为关键 。为了更准确地为网络智能传输技术设
+定学习的优化目标[8]，提供高质量的传输体验 ，我们有必要
+分析传输层协议和应用层协议的时延形成机制和影响因
+素[9]。对于传输层而言 ，主要的底层协议为传输控制协议
+（TCP）和用户数据报协议 （UDP） 。TCP 提供面向连接的传基 金 项 目 ：自 然 科 学 基 金 重 点 项 目 （62132009 ） ；创 新 研 究 群 体 项 目
+（62221003 ）
+61

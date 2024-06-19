@@ -1,0 +1,111 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3DING Jianwen , LIU Yao , LIAO Hongjian , SUN Bin , WANG Wei Research Papers   Statistical Model of Path Loss for Railway 5G Marshalling Yard Scenario
+scenario , the change of path loss in Area A obeys the two -path 
+model . The received power of the two -path model is as :
+Pr=Pt(λ
+4π)2|
+||
+|||||Gl
+dd+ξGre-jkλ(dr-dd)
+dr|
+||
+|||||2
+, (6)
+where dd is the length of the direct path of the transmitter and re ‐
+ceiver , dr is the total length of the reflection path of the transmit ‐
+ter and receiver , kλ is the wave number , and ζ is the reflection 
+coefficient of the ground . In general , ζ=−1，Gl=GaGb, and Gl 
+is the total gain of the transmitting and receiving antennas on the 
+direct path from the transmitter to the receiver ; Gr=GcGd, and 
+Gr is the total gain of the transmitting and receiving antennas 
+on the reflective path from the transmitter to the receiver .
+The fitting results of the two -path model are shown in Fig . 4.
+4 Path Loss Statistical Modeling for Area B
+In this section , an empirical model of large -scale fading of 
+radio waves is established based on a large number of test samples obtained in the marshalling station Area B . Among 
+them , the carrier frequency of the base station is fixed at 
+2.6 GHz , and the height of the receiver antenna is fixed at 
+1 m. We build a statistical model of Area B utilizing the 
+path loss PL, the distance d of the transceiver antenna , and 
+the height of the base station antenna ht in the test data .
+The path loss formula of the Hata model is as follows :
+PLHata=69.55+26.16lg fc-13.82lg ht-α(hr)+
+(44.9-6.55lg ht)lgd, (7)
+α(hr)=ì
+í
+îï
+ïïï
+ïï
+ï
+ïïï
+ïï(1.1lg fc-0.7)hr-(1.56lg fc-0.8),      medium and small cities
+8.29lg2(1.54hr)-1.1,           large city,   fc≤200 MHz
+3.2lg2(11.75hr)-4.97,         large city,   fc≥400 MHz
+0,                                           hr=1.5 m ,
+(8)
+where fc is the frequency (the unit is MHz ), ht and hr define 
+the effective heights of the transmitter antenna and the re ‐
+ceiver antenna (the unit is m ), and α(hr) varies with the city 
+size (medium and small cities ; large cities ) and frequency (≤
+300 MHz or > 300 MHz ).
+In different scenarios , the Hata model changes the path loss 
+model by adding a correction factor , and the expression after 
+adding the correction factor is shown in Eq . (9).
+PLHata=Δ1+74.52+26.16lg fc-13.82lg ht-
+3.2(lg(11.75hr))2+(Δ2+44.9-6.55lg ht)lgd. (9)
+One part of the correction factors Δ1 and Δ2 in the Hata 
+model is linear with the logarithm of the height of the transmit ‐
+ting antenna , and the rest are the constants in Table 1. The 
+correction factors are given by :
+ì
+í
+îΔ1=p1log10(ht)+q1
+Δ2=p2log10(ht)+q2, (10)
+where p1, p2, q1 and q2 are the undetermined coefficients .
+The correction factors Δ1 and Δ2 are fitted to the height of 
+the base station antenna based on the calculation results . Tak‐
+ing the results of multiple tests as statistical data , we perform 
+a least -square (LS) fitting model based on the path loss test 
+data of nine cells . The fitting results are shown in Table 2.
+▼Table 1. Correction factors of Hata model in different scenarios
+Scenario
+Urban area
+Suburbs
+Rural
+Viaduct
+Cutting
+StationCorrection Factor  Δ1
+−20.47
+5.74lght-30.42
+6.43lght-30.44
+−21.42
+−18.78
+34.29lght-70.75Correction Factor  Δ2
+−1.82
+−6.72
+−6.71
+−9.62
+51.34lght-78.99
+−8.86
+▲Figure 3. Prediction error statistics of marshalling yard Area ACDF: cumulative distribution function
+▲Figure 4. Fitting two -path model for path loss in marshalling station 
+Area APrediction error-20               - 10                  0                   10                  20                 30Two -path model
+Logarithmic fading modelCDF1.0
+0.8
+0.6
+0.4
+0.2
+0
+Distance/m0   100 200 300 400 500 600 700 800 900Path loss/dB130
+120
+110
+100
+90
+80
+70
+60
+50
+40Test point path loss
+Free space propagation model
+Two -path model
+120

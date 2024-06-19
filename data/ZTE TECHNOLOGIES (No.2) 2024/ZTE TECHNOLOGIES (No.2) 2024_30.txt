@@ -1,0 +1,77 @@
+With hard slices deployed at a minimum granularity 
+of 10 Mbps, bandwidth requirements for power 
+services can be met, allowing the 5G VPN to achieve 
+9 ms end-to-end average latency, zero packet loss, 
+over 99.999% reliability, and synchronous timing 
+accuracy error of less than 500 ns (meeting the 1 µs 
+requirement of power services). The SPN FGU 
+establishes a secure and eﬃcient communication 
+management channel with deterministic latency 
+and jitter for power services, laying a solid 
+foundation for SPN network to transport power 
+services and achieve widespread commercial use in 
+the power industry.
+Fig. 1. Recommendation 
+for using SPN slices to 
+carry electric power 
+services.Table 1. 5G VPN slicing 
+scheme.
+ 
+power distribution automation. This environment 
+encompassed a 5G wireless network, core network, 
+and transport network in Jiangbei New District, 
+Nanjing City, China. 
+In this test, the core network used a dedicated UPF 
+to carry power services, while the SPN transport 
+network employed ZTE’s ZXCTN6700 core 
+aggregation device and ZXCTN6180H access layer 
+device. Results show that SPN /f_ine-grained slices  
+isolate power control and protection services 
+securely. Unlike shared slices for group customers, 
+/f_ine-grained slices remain unaﬀected by congested 
+/f_lows and have hard isolation capabilities of SDH. Scheme
+Service Type
+Wireless Transport Core networkSlice and data network 
+name (DNN)
+Production 
+control zone 
+services
+Management 
+information 
+zone servicesRB reservation + 5QI 
+priority scheduling
+5QI priority 
+schedulingFlexE or MTN slice 
+isolation + VPN 
+isolation
+VPN isolationProvincial or 
+prefectural 
+dedicated UPF
+UPF shared by 
+provincial or 
+prefectural industry 
+networksAllocate dedicated S-NSSAI 
+for Security Subzones I and 
+II, and dedicated DNNs as 
+needed for their services
+Allocate dedicated S-NSSAI 
+for Security Subzones III and 
+IV, and dedicated DNNs as 
+needed for their services
+MTN client 1
+L3 VPN/SR
+Large network 
+VPNElectric power 
+VPN Fine-grained slice – MTN subclient 1
+MTN client 2
+MTN client 3Fine-grained slice – subclient 2Exclusive slice for 
+group customers
+Shared slice for 
+group customers
+Large network sliceOther 
+industriesSecurity Subzone I service 1
+Security Subzone I service 2
+Security Subzone III services
+Security Subzone IV services
+Mobile user servicesSlicing Packet Network Special Topic 
+28 

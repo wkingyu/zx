@@ -1,0 +1,53 @@
+面向节能减排的跨制式融合感知通信系统 周均翼  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6面向节能减排的
+跨制式融合感知通信系统
+Energy Conservation and Emission Reduction Oriented Perception and 
+Communication Fused Wi-Fi and Cellular Integrated Communication System
+周均翼 /ZHOU Junyi ，周琳/ZHOU Lin ，
+张舜卿 /ZHANG Shunqing
+（ 上海大学 ，中国 上海 200444  ）
+(Shanghai University , Shanghai 200444 , China )DOI：10.12142 /ZTETJ .202306004
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231214 .1420 .002.html
+网络出版日期 ：2023 -12-14
+收稿日期 ：2023 -10-15
+摘要 ：提出了一套面向节能减排的跨制式融合感知通信系统 ，该系统包括通信融合 、感知融合以及边缘协同管控平台 3部分。经过相关实验的
+验证，该系统能够对各类节能算法进行快速的脚本化原型测试 ，有望对未来面向节能减排的跨制式网络设计提供可靠验证与指导 。
+关键词 ：绿色网络 ；跨制式网络 ；原型验证平台 ；协同管控
+Abstrac t:A perception and communication fused Wi-Fi and cellular integrated communication system is proposed , including fused communi ⁃
+cation , fused perception , and edge collaborative control platform . With the proposed fusion perception communication system , rapid script-
+based prototyping tests can be conducted on various energy-saving algorithms , providing reliable validation and effective guidance for fu ⁃
+ture energy-conserving cross-disciplinary network designs .
+Keywords :green network ; Wi-Fi and cellular integrated communication system ; prototype verification platform ; collaborative management 
+and control
+引用格式 ：周均翼 , 周琳 , 张舜卿 . 面向节能减排的跨制式融合感知通信系统  [J]. 中兴通讯技术 , 2023 , 29(6): 16-22. DOI : 10.12142 /
+ZTETJ .202306004
+Citation ： ZHOU J Y , ZHOU L , ZHANG S Q . Energy conservation and emission reduction oriented perception and communication fused Wi-Fi 
+and cellular integrated communication system [J]. ZTE technology journal , 2023 , 29(6): 16-22. DOI: 10.12142 /ZTETJ .202306004
+最近10年，中国的碳排放总量年均增长 2.3%，超过世
+界平均水平[1]。截至 2019 年，信息与通信技术产业已
+经构成了全球 5%的碳足迹 。而到 2020 年，该产业  75%的碳
+排放均涉及无线通信行业 ，全网碳排放量在持续增长[2]。以
+上海的实际布网情况为例 ，固网以及 4G/5G的实际接入数大
+概是网络实际接入数的 2倍。多制式的独立组网调度将导致
+巨大的资源浪费和重复覆盖 ，从而使全网碳排放比理想情况
+增加 20%左右[3]。为了实现 “双碳 ”目标 ，可以将固网和移
+动网络进行统一管控 ，实现跨制式资源的灵活调度与机会式
+休眠 ，从根本上解决资源浪费问题 。然而 ，目前跨制式网络的协同管控存在无法通过对协议栈的简单适配来达到跨制式资源
+的统一管控 、无法实现对用户业务的全场景感知等问题 。现有
+感知技术如上行到达时间差定位法 （UTDOA ）[4]、到达角度定
+位法 （AOA）[5]等都极度依赖接入点的主动参与 ，在站点休眠
+时无法进行 。由于感知信息由相应的接入节点掌握 ，因此无法
+进行跨制式的感知信息共享 。现有的 5G蜂窝网络 、4G蜂窝网
+络以及 Wi-Fi 网络的灵活调度存在以下挑战 ：
+1）资源管理 ：不同网络之间的资源分配和管理是一个
+复杂的问题 。蜂窝网络和 Wi-Fi 网络具有不同的特性 ，例
+如：传输速率 、覆盖范围和信号干扰等 。调度算法需要考虑
+这些因素 ，并在多个网络之间有效地分配资源 ，以确保网络
+性能和用户体验 。
+2）时延和吞吐量 ：4G、5G和Wi-Fi 网络的时延和吞吐
+量要求不同 。5G网络通常具有较低的时延和较高的吞吐量 ，基 金 项 目 ：国 家 重 点 研 发 计 划 （2022 YFB2902304 、2022 YFB2902005 、
+2022 YFB2902022 ） ；国家自然科学基金项目 （62071284 、61904101 ） ；广东省
+重点领域研发计划 （2020 B0101130012 ） ；上海市科学技术委员会创新计划
+（21ZR1422400 ）
+16

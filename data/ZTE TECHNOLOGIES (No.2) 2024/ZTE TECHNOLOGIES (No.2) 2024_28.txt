@@ -1,0 +1,77 @@
+ASPN: Empowering 5G Virtual 
+Private Networks for Electric 
+Power Industry
+s climate change intensi/f_ies, more 
+countries and regions are adopting 
+plans to peak carbon emissions and 
+achieve carbon neutrality. Concrete 
+actions to reduce greenhouse gas emissions and 
+promote a low-carbon economy are being taken. 
+At the 2020 United Nations General Assembly, the 
+Chinese government put forward its “30-60” target , 
+aiming to peak carbon emissions by 2030 and 
+achieve carbon neutrality by 2060. To reach this 
+target, China will focus on building a clean, 
+low-carbon, secure, and eﬃcient energy system. 
+This includes controlling fossil energy 
+consumption, improving energy eﬃciency, 
+implementing renewable energy substitution, and 
+undertaking structural reforms in the electric 
+power sector. The goal is to construct a new power 
+system centered around new energy sources. The 
+introduction of 5G virtual private networks (VPNs) 
+in the electric power industry will facilitate the 
+creation of an energy Internet, supporting power 
+grid companies and energy enterprises in 
+transitioning to the new power system and 
+advancing dual carbon goals.
+Requirements and Background of 5G 
+VPN for Electric Power Industry
+5G services for the electric power industry fall 
+into two main categories: control and collection. 
+Based on power security requirements, they can be 
+further categorized into four zones: production 
+control zones (Security Subzones I and II), and management information zones (Security 
+Subzones III and IV). Each zone carries distinct 
+services with varying security needs. For example, 
+Security Subzone I demands low communication 
+latency (less than 12 ms end-to-end) and high 
+reliability for diﬀerential protection services. 
+Although /f_iber communication is heavily relied 
+upon, the power distribution network span a vast 
+area with numerous scattered communication 
+terminal points. High synchronization accuracy is 
+crucial for power distribution automation service 
+in Security Subzone I and high-bandwidth video 
+conferencing in Security Subzone II. Automatic 
+relay protection equipment monitors distribution 
+network lines and devices to quickly locate and 
+isolate faults. For electric power video surveillance, 
+especially HD monitoring, ultra-large bandwidth is 
+needed. For example, deploying multiple 4K 
+cameras at places like substations and 
+high-voltage towers allows comprehensive 
+multi-angle inspection.
+According to security requirements of power 
+services, physical isolation separates power grid 
+services from other B2B/B2C services. Production 
+control zones are physically separated from 
+management information zones, with logical 
+isolation within each zone. Traditional power 
+networks rely on the overlaying of multiple transport 
+schemes including synchronous digital hierarchy 
+(SDH), optical transport network (OTN), and power 
+line carriers. This results in high deployment costs, 
+inability to guarantee service requirements, and lack 
+of centralized control.
+Digital Planning 
+Manager, Nanjing 
+Branch of State Grid 
+JiangsuWang Wendi
+Network Planning 
+Manager, Network 
+Dept., China Mobile 
+Nanjing BranchHao Changjian
+Director of Transport 
+Product Planning, ZTEZhou WenduanSlicing Packet Network Special Topic 
+26 

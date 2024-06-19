@@ -1,0 +1,75 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Zhihao , ZHANG Yueping Research Papers   Differential Quasi -Yagi Antenna and Array
+nas [J]. IEEE transactions on antennas and propagation , 2007 , 55(10): 2701–
+2708 . DOI : 10.1109 /TAP .2007 .905832
+[4] WHITE C R , REBEIZ G M . A differential dual -polarized cavity -backed mi ‐
+crostrip patch antenna with independent frequency tuning [J]. IEEE transac ‐
+tions on antennas and propagation , 2010 , 58(11): 3490–3498 . DOI : 10.1109 /
+TAP.2010 .2071364
+[5] QIAN Y , DEAL W R , KANEDA N , et al . Microstrip -fed quasi -yagi antenna 
+with broadband characteristics [J]. Electronics letters , 1998 , 34(23): 2194 . DOI : 
+10.1049 /el: 19981583
+[6] SOR J , QIAN Y X , ITOH T . Coplanar waveguide fed quasi -Yagi antenna [J]. 
+Electronics letters , 2000 , 36(1): 1. DOI : 10.1049 /el: 20000132
+[7] DEAL W R , KANEDA N , SOR J , et al . A new quasi -yagi antenna for planar ac ‐
+tive antenna arrays [J]. IEEE transactions on microwave theory and techniques , 
+2000 , 48(6): 910–918. DOI : 10.1109 /22.846717
+[8] LEONG K M K H , ITOH T . Printed quasi -yagi antennas [M]//Printed Antennas 
+for Wireless Communications . Chichester , UK: John Wiley & Sons , Ltd, 2007 : 
+69–102. DOI : 10.1002 /9780470512241 .ch3
+[9] SUN M , ZHANG Y P , CHUA K M , et al . Integration of yagi antenna in LTCC 
+package for differential 60-GHz radio [J]. IEEE transactions on antennas and 
+propagation , 2008 , 56(8): 2780–2783 . DOI : 10.1109 /tap.2008 .927577
+[10] ALEXOPOULOS N G , KATEHI P B , RUTLEDGE D B . Substrate optimization 
+for integrated circuit antennas [J]. IEEE transactions on microwave theory and 
+techniques , 1983 , 31(7): 550–557. DOI : 10.1109 /TMTT .1983 .1131544
+[11] GU X X , LIU D X , BAKS C , et al . A multilayer organic package with four inte ‐
+grated 60GHz antennas enabling broadside and end -fire radiation for portable 
+communication devices [C]//65th Electronic Components and Technology Con ‐
+ference (ECTC ). IEEE , 2015 : 1005– 1009 . DOI : 10.1109 /
+ECTC .2015 .7159718
+[12] KIM H T , PARK B S , SONG S S , et al . A 28-GHz CMOS direct conversion 
+transceiver with packaged 2 × 4 antenna array for 5G cellular system [J]. IEEE 
+journal of solid -state circuits , 2018 , 53(5): 1245–1259 . DOI : 10.1109 /
+JSSC .2018 .2817606
+[13] DIALLO A , LUXEY C , LE THUC P , et al . Study and reduction of the mutual 
+coupling between two mobile phone PIFAs operating in the DCS 1800  and 
+UMTS bands [J]. IEEE transactions on antennas and propagation , 2006 , 54
+(11): 3063–3074 . DOI : 10.1109 /TAP .2006 .883981
+[14] BAIT -SUWAILAM M M , SIDDIQUI O F , RAMAHI O M . Mutual coupling re ‐
+duction between microstrip patch antennas using slotted -complementary split -
+ring resonators [J]. IEEE antennas and wireless propagation letters , 2010 , 9: 
+876–878. DOI : 10.1109 /LAWP .2010 .2074175[15] SÁENZ E , EDERRA I , GONZALO R , et al . Coupling reduction between di ‐
+pole antenna elements by using a planar meta -surface [J]. IEEE transactions 
+on antennas and propagation , 2009 , 57(2): 383–394. DOI : 10.1109 /
+TAP.2008 .2011249
+Biographies
+ZHU Zhihao received his BS degree from Hangzhou Dianzi University , China 
+in 2016 . He is currently pursuing an MS degree in electronic science and tech ‐
+nology with Shanghai Jiao Tong University , China . His research interests in ‐
+clude antenna theory and design , especially in shorted patch antennas , broad ‐
+band printed antennas , antenna decoupling , and antenna -in-package (AiP).
+ZHANG Yueping (eypzhang@ntu .edu.sg) is a full professor with the School of 
+Electrical and Electronic Engineering , Nanyang Technological University , Sin‐
+gapore . He is a Distinguished Lecturer of the IEEE Antennas and Propagation 
+Society (IEEE AP -S) and Fellow of the IEEE . He was a member of the IEEE 
+AP-S Field Award Committee (2015–2017 ) and an associate editor of IEEE 
+Transactions on Antennas and Propagation  (2010–2016 ). Prof . ZHANG has 
+published numerous papers , including two invited papers and one regular paper 
+in the Proceedings of the IEEE  and one invited paper in IEEE Transactions on 
+Antennas and Propagation . He is a Chinese radio scientist who has published a 
+historical article in English learned journals such as the IEEE Antennas and 
+Propagation Magazine . He received the 2012  IEEE AP -S Sergei A . Schelkunoff 
+Prize Paper Award . Prof . ZHANG has been invited to deliver plenary speeches 
+at the flagship conferences organized by IEEE , CIE , EurAAP , and IEICE . He 
+received the Best Paper Award from the 2nd IEEE/IET International Sympo ‐
+sium on Communication Systems , Networks and Digital Signal Processing , the 
+Best Paper Prize from the 3rd IEEE International Workshop on Antenna Tech ‐
+nology , and the Best Paper Award from the 10th IEEE Global Symposium on 
+Millimeter -Waves . He holds seven US patents . He has made pioneering and sig ‐
+nificant contributions to the development of AiP technology . He received the 
+2020  IEEE AP -S John Kraus Antenna Award . His current interests are in the 
+development of antenna -on-chip (AoC) technology for very large -scale antenna 
+integration and characterization of chip -scale propagation channels at terahertz 
+for wireless chip area networks (WCAN ).
+44

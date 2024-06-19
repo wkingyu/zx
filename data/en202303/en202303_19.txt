@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management    Special Topic
+of pairwise instances . In the formula , τ denotes the tempera ‐
+ture parameter , N denotes the size of the training batch and Ws 
+are learnable parameters . Objective ln will be taken as an aux ‐
+iliary task to be jointly optimized with the RL objective . Here 
+we select multi -agent proximal policy optimization (MAPPO )[8] 
+as the base algorithm to describe the RL objective . Specifi ‐
+cally , following the settings in PPO ’s clipped surrogate objec ‐
+tive[23], we let rt(θ) be the probability ratio calculated by the 
+agent’s policy and Â
+t be an estimator of the advantage func ‐
+tion at timestep t calculated by the global state value . ε is a 
+hyperparameter that implicitly restricts Kullback -Leibler (KL) 
+divergence[23]. The RL objective lr  is defined as :
+lr=min(rt(θ)Â
+t , clip(rt(θ), 1-ε , 1+ε)Â
+t) . (13)
+4 Experiments
+In this section , we first introduce the experiment setup . 
+Then we demonstrate and analyze experiment results about 
+overall performance and ablation study . All the experiments 
+have been conducted based on the GridLearn open -source 
+platform[5] with the IEEE 33-bus system[24].
+4.1 Experiment Setup
+4.1.1 Data Description
+We conduct experiments on four real -world scenarios with 
+different climate zones respectively . Each scenario includes 
+192 buildings distributed on buses , and the corresponding 
+data for the whole year in the specific climate zone[12](climate 
+zone 2A: hot -humid ; climate zone 3A: warm -humid ; climate 
+zone 4A: mixed -humid ; climate zone 5A: cold -humid ).
+For each scenario , we select four months from four different 
+seasons for training , as different seasons have quite different 
+temperatures , humidity , solar radiation , and users ’ energy de ‐
+mands , which probably leads to different control strategies . 
+The four training months are mixed and used to train algo ‐
+rithms until convergence . The rest eight months are used for 
+testing . Each month containing 2 880 timesteps is regarded as 
+an episode . The training phase lasts sixteen episodes and each 
+experiment is conducted using 5 random seeds . After the train ‐
+ing phase , we evaluate the learned strategy on the test dataset .
+4.1.2 Comparison Algorithms
+The methods that we evaluated include rule -based control 
+(RBC ), independent advantage actor -critic (IA2C), indepen ‐
+dent proximal policy optimization (IPPO ), multi -agent advan ‐
+tage actor -critic (MAA 2C), and MAPPO . Specifically , RBC de ‐
+vised by the used environment[5, 12] makes decisions mainly 
+based on the time of day . For example , at 6 a.m., the battery 
+charges and the charge value is 0.138 3. Most of the devices 
+will choose to discharge in the daytime and early evening , and 
+charge at night . The IA 2C and IPPO are actor -critic algo ‐rithms that directly apply single -agent reinforcement learning 
+algorithms A 2C[25] and PPO[23] to MARL . All agents are com ‐
+pletely independent . The critic network approximates the ex ‐
+pected return only depending on agent -specific observation . 
+MAA 2C and MAPPO[8], as an extension of A 2C and PPO , are 
+actor -critic algorithms but are in the CTDE paradigm . As ex ‐
+tensions of independent algorithms , their critic learns a joint 
+state value function where this centralized critic conditions on 
+all agents ’ observations rather than the individual observa ‐
+tion. And their actor can only use local observation to generate 
+actions same as IA 2C and IPPO . In contrast to MAA 2C, 
+MAPPO’s main advantage is its combination of on -policy opti ‐
+mization with its surrogate objective function .
+4.1.3 Evaluation Metrics
+Following the evaluation settings in GridLearn[5], we use 
+four metrics to evaluate the performance of algorithms . For 
+better demonstration , we name these four metrics as follows .
+1) The number of soft voltage violations (NSVV). It calcu ‐
+lates the number of all buses ’ voltage that is not under control 
+within the soft safe range . Note that the soft safe range of volt ‐
+age is between 0.96 p.u. and 1.04 p.u.
+2) Soft reduction rate (SRR). It calculates the proportion of 
+the algorithm to reduce the number of voltages compared with 
+the rule -based control strategy with the soft safe range . Specifi ‐
+cally , for the learned algorithm C, SRR is defined as :
+SRRC=NSVVRBC-NSVVC
+NSVVRBC , (13)
+where NSVVRBC and NSVVC represent the number of soft volt ‐
+age violations using the rule -based control and the learned al ‐
+gorithm C.
+3) The number of hard voltage violations (NHVV). It calcu ‐
+lates the number of all buses ’ voltage that is not under control 
+within the hard safe range . Note that the hard safe range of 
+voltage is between 0.97 p.u. and 1.03 p.u.
+4) Hard reduction rate (HRR). It calculates the proportion 
+of the algorithm to reduce the number of voltages compared 
+with the rule -based strategy with the hard safe range . Similar 
+to SRR, for the learned algorithm C, HRR is defined as :
+HRRC=NHVVRBC-NHVVC
+NHVVRBC , (14)
+where NHVVRBC and NHVVC represent the number of hard 
+voltage violations using rule -based control and the learned al ‐
+gorithm C.
+Note that NSVV and NHVV evaluate how the algorithm can 
+do to prevent the voltage of all buses from getting out of the 
+safe range , and the lower number represents the better . SRR 
+and HRR describe how much performance the algorithm can 
+enhance compared with the rule -based control method and the 
+higher represents the better . There are two safe voltage ranges : 
+17

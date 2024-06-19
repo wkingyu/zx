@@ -1,0 +1,76 @@
+factories, and shop/f_loors.
+Bluetooth and UWB have small 
+positioning distance and need 
+many hardware devices, resulting 
+in high cost and complex 
+maintenance. The construction in 
+critical scenarios must be strictly 
+approved, and it is diﬃcult for 
+on-site construction personnel to 
+wire and obtain electricity, 
+resulting in a long project 
+construction period.
+Traditional Bluetooth, UWB and 
+satellite positioning systems only 
+focus on positioning capabilities, 
+and cannot take into account 
+the large-bandwidth wireless 
+networks required for digital 
+transformation of enterprises.
+Facing the positioning 
+requirements of critical scenarios, 
+ZTE and upstream and downstream 
+location service partners have 
+insight into industry needs and 
+scene characteristics, integrate a 
+variety of positioning technologies, 
+and build a 5G hybrid positioning 
+solution based on 5G private 
+networks.
+As shown in Fig. 1, the 5G hybrid 
+positioning solution is divided into 
+four layers: terminal layer, network 
+layer, platform layer, and service 
+layer.
+Regarding the terminal layer, 
+where the measured object is nterprise safety and 
+production are closely 
+related and inseparable, 
+and safe production is 
+the basis of enterprise development. 
+Especially in the hazardous 
+industries, there are many 
+dangerous operating environments, 
+such as furnaces and stockyards in 
+steel plants, and /f_lammable and 
+explosive chemical installation 
+areas. Accidents occur frequently, 
+which cannot guarantee the safety 
+of personnel, let alone safety in 
+production.
+To implement safe production 
+and ensure the safety of personnel, 
+it is necessary to make the 
+location of personnel visible, 
+hazardous areas manageable, and 
+emergency response controllable. 
+Many enterprises take safe 
+production as their /f_irst priority, 
+and begin to build a personnel 
+positioning management system. 
+Traditional positioning is mainly 
+based on satellites, Bluetooth, 
+UWB and other positioning 
+technologies. Based on these 
+positioning technologies, 
+enterprises face the following 
+problems in their choices:
+Satellite deteriorates its 
+positioning accuracy due 
+to obstruction, such as in the 
+middle of multiple buildings 
+or indoor areas of oﬃces, 5G Hybrid Positioning Solutions: 
+Moving Towards Hazardous Scenarios
+ToB Architect of ZTE RAN 
+Product PlanningWang HongxinE
+27JUN 2023

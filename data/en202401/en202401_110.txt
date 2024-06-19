@@ -1,0 +1,69 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1REN Fang , LI Yidan , YE Bing , LIU Jianguo , CHEN Weizhang Research Papers   Real -Time 4-Mode MDM Transmission Using Commercial 400G OTN Transceivers and All -Fiber Mode Multiplexers
+RealReal --Time Time 44--Mode MDM Transmission Mode MDM Transmission 
+Using Commercial Using Commercial 400400G OTN Transceivers G OTN Transceivers 
+and Alland All --Fiber Mode MultiplexersFiber Mode Multiplexers
+REN Fang1, LI Yidan1, YE Bing2, LIU Jianguo2, 
+CHEN Weizhang2
+(1. School of Computer and Communication Engineering , University of 
+Science and Technology Beijing , Beijing 100083 , China ;
+(2.Department of WDM System Design , ZTE Corporation , Beijing 
+100029 , China )DOI: 10.12142 /ZTECOM .202401012
+http://kns .cnki.net/kcms/detail/ 34.1294 .TN.20240226 .1342 .004.html, 
+published online February 26, 2024
+Manuscript received : 2023 -06-15
+Abstract : Weakly -coupled mode division multiplexing (MDM ) technique is considered a promising candidate to enhance the capacity of an 
+optical transmission system , in which mode multiplexers/demultiplexers (MMUX/MDEMUX ) with low insertion loss and modal crosstalk are 
+the key components . In this paper , a low -modal -crosstalk 4-mode MMUX/MDEMUX for the weakly -coupled triple -ring -core few -mode fiber 
+(TRC -FMF ) is designed and fabricated with side -polishing processing . The measurement results show that a pair of MMUX/MDEMUX and 
+25 km weakly -coupled TRC -FMF MDM link achieve low modal crosstalk of lower than −17.5 dB and insertion loss of lower than 11.56 dB for 
+all the four modes . Based on the TRC -FMF and all -fiber MMUX/MDEMUX , an experiment for 25 km real -time 4-mode 3-λ wavelength divi ⁃
+sion multiplexing (WDM )-MDM transmission is conducted using commercial 400G optical transport network (OTN ) transceivers . The experi ⁃
+mental results prove weakly -coupled MDM techniques facilitate a smooth upgrade of the optical transmission system .
+Keywords : optical fiber couplers ; mode (de)multiplexers ; mode division multiplexing transmission
+Citation  (Format 1): REN F , LI Y D , YE B , et al . Real -time 4-mode MDM transmission using commercial 400G OTN transceivers and all -fiber 
+mode multiplexers [J]. ZTE Communications , 2024 , 22(1): 106–110. DOI : 10.12142 /ZTECOM .202401012
+Citation  (Format 2): F. Ren , Y. D. Li, B. Ye, et al ., “Real -time 4-mode MDM transmission using commercial 400G OTN transceivers and all -
+fiber mode multiplexers ,” ZTE Communications , vol. 22, no. 1, pp. 106–110, Mar. 2024 . doi: 10.12142 /ZTECOM .202401012 .
+1 Introduction
+The explosive increase of network users and various 
+communication services such as the Internet of Things 
+(IoT) and cloud computing has constantly requested 
+the capacity enhancement of optical transmission sys ⁃
+tems and networks . However , recent studies have shown that 
+the capacity usage of single -mode fiber (SMF) is tending to its 
+nonlinear Shannon limit by combining various advanced trans ⁃
+mission techniques[1]. Mode division multiplexing (MDM ) tech ⁃
+nique utilizing linearly -polarized (LP) modes in few -mode fi ⁃
+bers (FMFs ) has attracted great attention as a promising ap ⁃
+proach to enhancing the capacity of optical fiber communica ⁃
+tion systems[2–3], but the inevitable modal crosstalk induced by 
+the mode multiplexer/demultiplexer (MMUX/MDEMUX ) and 
+optical fiber transmission is hard to be suppressed . Two techni ⁃
+cal routes have been widely investigated to solve this problem . 
+In a strongly -coupled MDM strategy without modal crosstalk suppression[4–6], coherent detection and massive N×N (N>2) 
+multiple -input multiple -output (MIMO ) digital signal process ⁃
+ing (DSP) have to be utilized to equalize each MDM channel 
+at the receiver for achieving long -distance high -speed MDM 
+transmission . However , the computational complexity and 
+cost for MIMO -DSP can increase dramatically with longer 
+FMF links and more LP modes , which is not compatible with 
+commercial coherent optical modules utilizing polarization di ⁃
+vision multiplexing (PDM ) and only 2×2 MIMO -DSP[7]. An⁃
+other promising MDM strategy is weakly -coupled transmis ⁃
+sion approaches that suppress the modal crosstalk from 
+MMUX/MDEMUX and FMFs as much as possible and are 
+compatible with conventional intensity modulation/direct de ⁃
+tection (IM/DD ) transceivers and commercial high -speed co ⁃
+herent optical modules[8–9]. In this route , multiple -ring -core 
+(MRC ) weakly -coupled FMFs are designed to effectively sup ⁃
+press the distributed modal crosstalk (DMC ) among different 
+LP modes by enlarging effective index difference (Δneff) be⁃
+tween different LP modes[10]. Moreover , a 3-circular -mode 
+real -time MDM transmission utilizing 200G quadrature phase 
+shift keying (QPSK ) optical transport network (OTN ) transceiv ⁃
+This work was supported in part by the ZTE Industry-University-Institute 
+Cooperation Funds .(1. University of Electronic Science and Technol ⁃
+ogy of China , Chengdu 611731 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China )
+106

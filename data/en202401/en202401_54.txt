@@ -1,0 +1,85 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Special Topic   Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions
+the training time is proportional to the codebook size , result ⁃
+ing in a very high training overhead . HMB training is at the 
+logarithmic level with a training time of Q=BL=
+O(BlogNxNz), which can significantly reduce the training 
+overhead compared with exhaustive beam training . Based on 
+the simulation results , we can initially judge the superiority of 
+the hash beam training algorithm in terms of training overhead 
+and accuracy .
+We conduct practical testing of the near -field beam training 
+algorithm in a scenario involving RIS -assisted mmWave com ⁃
+munication . Fig. 9 shows the test scenario , where the hard ⁃
+ware equipment for the transmitter and receiver consists of a 
+software radio USRP X 410, a mmWave RF front -end, and a 
+RIS, respectively . By applying the aforementioned algorithm , 
+we are able to estimate the angle and distance from the RIS to 
+the User , assuming that we have prior knowledge of the angle 
+and distance from the BS to the RIS . Note that the codewords 
+designed here are phase -encoded codewords for RIS , which is 
+reasonable because large -scale RIS is also an application sce ⁃
+nario for near -field communication under HMIMO . We veri ⁃
+fied the effectiveness of the above near -field beam training 
+method through real hardware tests . In the LabVIEW front 
+panel of Fig . 10, the simple implementation of hash beam 
+scanning is shown , which includes the RIS codebook for each 
+time slot tested , the corresponding beam direction maps of the 
+codebook , the polling results corresponding to different hash 
+functions , and the merged polling results . Due to the limita ⁃
+tions of the hardware equipment , it is currently not possible to 
+verify the time complexity of comparing  the existing methods .
+5 Research Challenges 
+and Opportunities
+The most crucial difference be ⁃
+tween near -field beam training and 
+far-field beam training lies in the 
+change of search dimension and 
+search space , which is also the chal ⁃
+lenge of near -field beam training . 
+The increase in the search dimen ⁃
+sion and in the search space makes 
+higher demands on the time com ⁃
+plexity and convergence of the 
+beam training algorithm . Due to the 
+inherent unity of the problem , we 
+can generalize possible future re ⁃
+search directions in far -field beam 
+training to near -field beam training . 
+Also, possible research directions 
+can be planned based on the char ⁃
+acteristics of near -field communica ⁃
+tion itself . In addition to the inde ⁃
+pendent near -field and far -field beam training , there are also complex scenarios that require 
+hybrid beam training when the user distance is unknown . The 
+following are some potential future research directions and op ⁃
+portunities .
+1) Machine learning based beam training : By using ma ⁃
+chine learning methods[35–36], learning the data and interact ⁃
+ing with the environment continuously , a corresponding beam 
+training method can be obtained . For example , it is possible[37] 
+to use a database containing past beam measurements at a spe ⁃
+cific location to determine the direction of non -line -of-sight 
+(NLoS ) link beam formation . A deep learning network[38] is 
+used to predict beam formation vectors using features that 
+carry information about the surrounding environment . A multi -
+armed bandit framework[39] is proposed which can train mul ⁃
+tiple beam pairs in each attempt . In the multi -armed bandit 
+▲Figure 9. RIS -assisted mmWave communication testbedRIS: reconfigurable intelligent surface
+RIS: reconfigurable intelligent surface
+▲Figure 10. Schematic diagram of the software interfaceBS32×32 RIS
+User
+RIS assisted communication scenarios 
+hash multi -beam training Scan flag
+Scan
+RIS -beam pattern
+RIS_pattern
+Merge voting results1-Bit RIS codebook
+RIS codebook
+Voting results for different 
+hash functionsElevation angle/degreeAzimuth angle/degreeBeam training
+parameters
+Vote number
+Vote numberHash Vote arrayInput
+Hash scan parameter
+50

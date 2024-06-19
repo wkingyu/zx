@@ -1,0 +1,102 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Research Papers   Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput
+the below principles when constructing a protograph can en ‐
+sure the basic performance of the code .
+Keeping the variable node degree ≥ 3 can ensure linear 
+minimum distance growth with the blocklength in the process 
+of constructing HHRC. The linear minimum distance growth 
+property ensures that the performance of the code does not de ‐
+grade as the block length increases . Adding some variable 
+nodes with the degree −2 or even degree −1 in the code is ben ‐
+eficial to the iterative decoding threshold . A small number of 
+such nodes will not destroy the linear minimum distance 
+growth property , but they need to be added prudently . Adding 
+punctured variable nodes in the HHRC can improve the thresh ‐
+old of the code[13]. During the protograph construction , almost 
+every check node in HIRC should be connected to the punc ‐
+tured variable node .
+2.2 Protograph Construction Constraint
+We present the constraints that need to be followed when 
+constructing a protograph . “1” in Fig . 3 represents a non -zero 
+submatrix , and “0” represents a zero submatrix . The specific 
+constraints can be described as follows . Each protograph row 
+is obtained by shifting the above row cyclically . The first row 
+is shifted by one column to generate the second row , the sec ‐
+ond row is shifted by one column to generate the third row , 
+and so on . The number of shifts can be flexibly adjusted as 
+needed . Fig. 3 shows the protograph structure with a size of 4×
+16. The positions of “1” elements in rows are obtained by 
+shifting the above row by one column . Such a construction 
+structure can simplify the design of the reading and writing 
+networks in traditional architecture , which reduces the con ‐
+sumption of hardware resources .
+In practical applications , this constraint will not be as regu ‐
+lar as shown in the figure above . In our decoder design , the 
+constraint is added only in the first K columns of the proto ‐
+graph . The left columns are directly solidified into a double di ‐
+agonal matrix to adapt to the invertibility of the matrix and en ‐
+coding requirements . The corresponding reading and writing 
+networks are consistent with the traditional structure .
+Our construction method can directly construct the proto ‐
+graph of the required size randomly : determining the proto ‐
+graph of the first row first , and then shifting to obtain the pro ‐
+tograph of other rows . The check part of the protograph is 
+fixed as a double diagonal structure and does not participate 
+in shifting .
+The specific steps are as follows :1) Generate the first row of the protograph randomly ;
+2) Generate additional rows of the protograph by shifting 
+the first row ;
+3) Randomly reduce or increase the number of “1” ele‐
+ments in the protograph to improve the threshold .
+2.3 Codes Construction Method
+In addition to searching for protograph and optimizing the it ‐
+erative decoding threshold , a code construction algorithm is 
+designed , which outperforms the conventional PEG algorithm . 
+The codes constructed by using PEG algorithms contain a 
+small number of 6 cycles , so we suggest a new algorithm for 
+code construction to guarantee the absence of 6 cycles in the 
+construction .
+Starting from the code we randomly construct , our algo ‐
+rithm searches for all 6 cycles and 4 cycles in the code and 
+modifies the submatrix ’s lifting number , which connects the 
+maximum number of cycles , so that the number of cycles 
+passing through this submatrix is reduced . This process is re ‐
+peated until the number of cycles cannot be reduced through 
+all submatrices .
+Set the parity check matrix of the constructed LDPC code 
+as H. P is the corresponding protograph , hi,j is each element of 
+H, pi,j is each element of P, and n is the iteration number . Set 
+g4i,j,n, g6i,j.n as the number of 4 cycles and 6 cycles associated 
+with hi,j. The element with the largest number of associated 4 
+cycles is g4max_i,max_j. The element with the largest number of 
+associated 6 cycles is g6max_i,max_j. Set the lifting size as Z.
+The specific algorithm is shown below :
+Algorithm 1: Cycle elimination construction algorithm
+Input : the protograph P, the size of protograph M,N
+Output : the parity check matrix H
+for (i = 0 to M) do
+  for (j = 0 to N) do
+  if pi,j≠0 then
+    hi,j= random (0, Z). // Initializations
+    else
+    hi,j=−1.
+    end if
+  end for
+ end for
+ n = 0.
+while  (n< Maximum number of iterations )
+for (i = 0 to M) do
+ for (j =0 to N) do
+  if pi,j≠0 then
+    g4i,j,n=cycle4_calculate(H,i,j).
+    g6i,j,n=cycle6_calculate(H,i,j). // Cycle
+    calculation
+    else
+ g4i,j,n=0.
+     g6i,j,n=0.
+ 
+11 10 011 1011 11 101111
+11 10 011 1011 11 10111 1
+11 10 011 1011 11 1011 11
+11 10 011 1011 1 101 111 ▲Figure 3. Construction constraint structure
+88

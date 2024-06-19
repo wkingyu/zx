@@ -1,0 +1,63 @@
+6G绿色网络发展趋势和关键技术 李福昌  等 专家论坛
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6度等 ，增强 6G网络对绿色能源的感知与调节能力 ，提升 6G
+设备清洁能源的就地消纳能力 ，减少 6G设备高碳排能源输
+入占比 ，直接降低 6G设备运营阶段碳排放 。
+4.2 6G网络与分布式微电网协同技术
+6G网络时代 ，会出现大量分布式形态的算力资源 。为
+持续推进节能降碳 ，我们需要构建相适应的高度分布式形态
+的绿色能源网络 ，因此需要将 6G网络与绿色能源物联网连
+接，形成通信 -电力系统能量平衡优化机制 ，提供通信与电
+力调度需求耦合的通信网 -电力网互补支撑 ，在边缘侧实现
+源-网-荷-储灵活互动以及海量分布式资源的协同运行 ，形
+成电力网络与通信网络的灵活性共享机制 ，实现跨网的资源
+优化配置 ，达到大幅降低 6G通信系统碳排放效果 ，从而提
+升6G网络与电力系统的能效与碳效 。
+5 结束语
+2030 年前实现碳达峰 、2060 年前实现碳中和的双碳目
+标与中国 6G技术与网络发展时间正好契合 。本文中 ，我们
+提出了在网络架构 、关键技术 、协议简化 、绿色设备 、绿能
+融合等方面的技术演进方向 ，打造绿色低碳的 6G绿色网络 。
+未来 ，我们希望 6G网络碳排放强度 （单位信息流量碳排放 ）
+相比 2020 年下降 90%以上 ，为2030 年实现通信领域碳达峰
+夯实基础 。
+参考文献
+[1] IMT- 2030（6G）推进组 . 6G总体愿望与潜在关键技术白皮书  [R]. 2021
+[2] 中国移动研究院 . 2030 +网络架构展望 （2020 年） [R]. 2020
+[3] 尤肖虎 , 王东明 , 王江舟 . 分布式 MIMO 与无蜂窝移动通信  [M]. 北京: 科学出版
+社, 2019
+[4] WANG D M , ZHANG C , DU Y Q , et al . Implementation of a cloud-based 
+cell-free distributed massive MIMO system [J]. IEEE communications 
+magazine , 2020 , 58(8): 61-67. DOI: 10.1109 /mcom .001.2000106
+[5] 智能超表面技术联盟 （RISTA ）. 智能超表面技术白皮书  [R]. 2023
+[6] ZHANG L , CHEN MING ZHENG , TANG W K , et al . A wireless communication scheme based on space- and frequency-division multiplexing using digital 
+metasurfaces [J]. Natur e electronics , 2021 , 4(3): 218-227. DOI : 10.1038 /
+s41928 -021-00554 -4
+[7] IMT- 2030（6G）推进组 . 智能超表面技术研究报告  [R]. 2021
+[8] 杨航, 郑史烈 , 张红旗 , 等. 太赫兹轨道角动量通信关键技术与挑战  [J]. 移动通
+信, 2023 , 47(5): 20-25. DOI: 10.3969 /j.issn.1006 -1010 .20230322 -0002
+[9] 张超, 王元赫 . 论涡旋电磁波轨道角动量传输新维度  [J]. 通信学报 , 2022 , 43(6):
+211-222. DOI: 10.11959 /j.issn.1000 −436x.2022087
+[10] WANG Y H , ZHANG C . Enhanced Shannon capacity with orbital angular 
+momentum dimension [C]//Proceedings of 2022  IEEE International 
+Conference on Communications Workshops (ICC Workshops ). IEEE , 2022 : 
+1-6. DOI: 10.1109 /iccworkshops 53468 .2022 .9814548
+[11] BORYLO P , TORNATORE M , JAGLARZ P , et al . Latency and energy-
+aware provisioning of network slices in cloud networks [J]. Computer 
+communications , 2020 , 157: 1-19. DOI: 10.1016 /j.comcom .2020 .03.050
+[12] GSMA Intelligence . Going green : benchmarking the energy efficiency of 
+mobile [EB/OL ]. [2023 -10-13]. https ://data .gsmaintelligence .com/api-
+web/v 2/research-file-download ? id=60621137 &file= 300621 -Going-
+Green-efficiency-mobile .pdf
+[13] 陈艺 . 宽带高回退 Doherty-Outphasing 功放的研究  [D]. 杭州: 杭州电子科技
+大学, 2020
+[14] 孙善球 , 林学进 , 王昊, 等. “双碳战略 ”给移动通信天线产业带来的机遇和挑
+战 [J]. 移 动 通 信 , 2022 , 46(3): 99-102. DOI : 10.3969 /j.issn.1006 -
+1010 .2022 .03.017
+作 者 简 介
+李福昌 ，中国联通研究院教授级高级工程师 ；主
+要从事移动通信及固网移动融合等标准制定 、测
+试验证 、课题研究等工作 ；发表论文 100余篇。
+郭希蕊 ，中国联通研究院高级工程师 ；主要从事
+无线通信研究相关的工作 ；发表论文 10余篇。
+59

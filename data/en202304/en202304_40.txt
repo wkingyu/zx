@@ -1,0 +1,39 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Lossy Point Cloud Attribute Compression with Subnode -Based Prediction    Special Topic
+Lab, Nanyang Technological University , Singapore . From October 2017  to Octo ⁃
+ber 2018 , he was a postdoctoral fellow with the School of Electrical Engineering 
+System , University of Southern California , Los Angeles , USA . From December 
+2018  to August 2019 , he was a research fellow with the Department of Computer 
+Science , City University of Hong Kong , China . He is currently an assistant profes ⁃
+sor with the School of Computer Science and Technology , University of Chinese 
+Academy of Sciences . He has authored more than 150 refereed journal/confer ⁃
+ence papers . His research interests include video compression and processing , 
+image/video quality assessment , and 3D point cloud processing .
+HUANG Hongyue received his BE degree in communication engineering from 
+Beijing University of Posts and Telecommunications , China in 2015 , MS degree 
+in computer science from the Technical University of Berlin (TUB), Germany in 
+2018 , and PhD degree in computer science from the Free University of Brussels 
+(VUB ), Belgium in 2021 . He is currently a postdoctoral researcher with the Na ⁃
+tional Engineering Research Center of Visual Technology , Peking University , 
+China . His research interests include inventing and optimizing deep -learning -
+based compression methods for 2D images/videos and 3D visual content such 
+as immersive videos , point clouds , and light field images .WANG Shanshe received his BS degree from the Department of Mathematics , 
+Heilongjiang University , China in 2004 , MS degree in computer software and theo ⁃
+ry from Northeast Petroleum University , China in 2010 , and PhD degree in com ⁃
+puter science from the Harbin Institute of Technology , China . He held a postdoc ⁃
+toral position with Peking University , China from 2016  to 2018 . He is currently an 
+associate researcher with the School of Electronics Engineering and Computer Sci ⁃
+ence, Institute of Digital Media , Peking University . His current research interests 
+include video compression and image and video quality assessment .
+MA Siwei (swma@stu .pku.edu.cn) received his BS degree from Shandong Nor ⁃
+mal University , China in 1999 , and PhD degree in computer science from the 
+Institute of Computing Technology , Chinese Academy of Sciences in 2005 . He 
+held a postdoctoral position with the University of Southern California , Los An ⁃
+geles , USA from 2005  to 2007 . He is currently a professor with the School of 
+Electronics Engineering and Computer Science , Institute of Digital Media , Pe⁃
+king University , China . He has authored over 300 technical articles in refereed 
+journals and proceedings in image and video coding , video processing , video 
+streaming , and transmission . He served/serves as an associate editor for the 
+IEEE Transactions on Circuits and Systems for Video Technology  and Journal of 
+Visual Communication and Image Representation .
+37

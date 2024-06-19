@@ -1,0 +1,65 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+fer greater path loss . As a result , most of the power of the sig ⁃
+nal received by the user comes from those array elements 
+with lower path loss . This phenomenon leads to the appear ⁃
+ance of VRs . 2) Blockage : The large antenna size increases 
+the possibility of obstacles between the user and some anten ⁃
+nas. This obstruction prevents the user from receiving sig ⁃
+nals from some sub -arrays which are blocked by obstacles , 
+bringing the emergence of VRs .
+Then , we can obtain the near -field channel considering the 
+VRs[27–28]:
+hnear=αe-j2π
+λranear(r)⊙f(Φ)+∑
+l=1L
+βlanear(rl)⊙f(Φl),(16)
+where Φ and Φl represent the index of the array that is visible 
+to the user and the l-th scatterer , respectively , and f(Φ) de⁃
+notes the vector of VRs , which is given by :
+[f(Φ)]n={1, n∈Φ,
+0, n∉Φ. (17)
+Moreover , when the prior information about the actual envi ⁃
+ronment is unknown , the user’s VR information can be mod ⁃
+eled as a Markov process or birth and death process[29–30].
+3 Challenges and Research Progress in Near -
+Field Communications
+In this section , we will present some challenging directions 
+in near -field communication , including beam training , local ⁃
+ization and transmission scheme design . For each challenge , 
+we then provide a detailed literature review and the latest re ⁃
+search progress .3.1 Beam Training for Near -Field Communications
+3.1.1 Challenges
+Codebook -based beam training intends to identify the opti ⁃
+mal combination of transmitting and receiving beams for subse ⁃
+quent data transmission . Most of the existing research on beam 
+training has been conducted under the assumption of far 
+field[31–34]. However , for next -generation communication sys ⁃
+tems, the use of XL -MIMO techniques invalidates existing far -
+field assumptions , making it inevitable to consider the near -
+field model[14]. The change from far -field to near -field presents 
+opportunities and challenges to beam training .
+In the far -field domain , the codebook design only considers 
+the angle domain information as shown in Fig. 4(a), where the 
+angles are uniformly sampled . However , the Rayleigh distance 
+that distinguishes the near field from the far field expands 
+with the growth of the antenna array , necessitating the consid ⁃
+eration of near -field effects[20]. Unlike the far field , the dis ⁃
+tance information is added in the near -field domain codebook 
+design , making the codebook dimension dramatically 
+higher[17]. Therefore , it becomes crucial to investigate 
+codebook -based beam training methods under the near -field 
+domain to reduce overhead .
+▲Figure 3. Illustration of spatial non -stationary propertyLoS: line -of-sight     NLoS : non -line -of-sight
+▲Figure 4. Codebook for the far field and near field(a) Far -field codebook
+(b) Near -field polar -domain codebookScattererNLoS pathLoS pathVisibility 
+region
+The n-th sampled 
+angle
+The n−1-th 
+sampled angle
+The n-th sampled 
+point on the s-th 
+ringThe s-th sampled 
+ring
+07

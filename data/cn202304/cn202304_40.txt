@@ -1,0 +1,77 @@
+面向算力网络的云边端协同调度技术 周 旭  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4其中 ，1/η是所有流的总吞吐率的倒数 ，ωi是流 i的权重 ，表
+示该流对端到端流量保障的重要程度 ，τi是流 i的流完成时
+间，λ是用来平衡完成时间和吞吐率之间的关系的系数 。该
+优化问题的含义是 ：将流的平均完成时间最小化 ，同时通过
+对所有流的完成时间进行加权平均 ，实现网络的总体吞吐率
+最大化 。对流进行加权的目的是为了保障重要流的服务质
+量，满足端到端流量保障的需求 ，同时适当牺牲不重要的
+流，以提高整体吞吐率 。另外 ，还可以通过调整 λ的值来控
+制吞吐率和流完成时间之间的权衡关系 。
+5.2 分布式强化学习算法
+为求解上述协同流量调度优化问题 ，本小节在软策略演
+员-评论员 （SAC）算法的基础上 ，设计基于 SAC 的分布式
+强化学习 （DSAC ）算法 ，具体如下 ：
+算法 1：基于 SAC 的分布式强化学习算法
+1. for iteration=1,2,⋯,N do
+2. for each worker i do
+3. Sample a batch of traffic flows fj from D
+4. for  each flow fj
+5. Compute the actions aj,k using policy π(⋅|fj;θi)
+6. Compute the scheduling policies gk using the policy library G
+7. Compute the flow rate allocation by the scheduling policies
+8. Compute the delay and reward of each flow
+9. end for
+10. Add the (fj,aj,k,rj,k,dj) tuples to D
+11. Compute target values
+12. Update Q-function by minimizing the Bellman error
+13. Update policy by maximizing the expected Q-value
+14. Compute the action a using the current policy
+15. Execute the action a and observe the next state s′ and reward r
+16. Store the transition (s,a,r,s′,d) in the worker replay buffer D
+17. Send the updated policy parameters θi and Q-function pa ‐
+rameters ϕi to the parameter server
+18. end for
+19. Compute the new state representation s for each flow in the network
+20. Update the network flow table with the new action a for each flow
+21. end for
+具体来讲 ，DSAC 算法是 SAC 算法在分布式系统中的拓
+展。该算法可以将策略优化和 Q值函数优化分配到多个智能
+体上来提高算法的效率 。通过将强化学习算法中的演员 -评论员架构与软策略优化相结合 ，实现高效的流量调度 。在每
+个时刻 ，演员通过观察当前网络状态和历史流量数据来选择
+一个最优的流量调度决策 。评论员则根据演员的决策和真实
+流量数据来评估演员的决策 ，并将其反馈给演员进行策略优
+化。算法可以在分布式环境中运行着多个演员 -评论员框架
+同时协作以进行流量调度 ，通过软策略优化来避免对策略进
+行硬约束 ，从而使得云边端流量调度决策更加灵活 。
+5.3 性能仿真验证
+为了评估所提协同流量调度方案的有效性 ，我们将所提
+的基于分布式深度强化学习的协同流量调度方案与以下几种
+典型的流量调度方案进行性能比较 。
+1）AuTo ：一种使用深度强化学习解决流量调度问题的
+方法 。该方法根据网络中的流量负载自动地调整资源的使
+用，以实现更好的网络流量管理 ，并在保证服务质量的同时
+提高系统的效率[11]。
+2）PIAS ：一种信息不可知的流量调度算法 。该算法能
+够动态地调度数据中心网络中的流量 ，以确保高效的网络运
+行。该算法基于实用性和信息不可知性的设计原则 ，通过计
+算流的权重和调度流来实现最佳性能和高网络利用率[12]。
+3）Hedera ：一种数据中心网络流调度方法 。该方法使
+用了一种基于高负载优先的动态调度策略 ，即优先处理那些
+负载更高的网络流量 ，以避免网络拥塞和延迟 ，实现更高的
+网络吞吐量和更低的延迟[13]。
+为了验证所提云边端协同调度方案的有效性 ，我们分析
+了不同流量调度方案在多流并发下的流量调度效果 。在端到
+端时延方面 ，如图 3所示 ，随着并发流的增加 ，Hedera 和
+PIAS 的端到端时延快速增加 。基于深度强化学习的 AuTo 和
+图3 多流并发下的端到端时延并发流数量20  40   60    80 100 120 140 160 180 200Hedera
+AuToPIAS
+DSAC端到端时延 /ms12
+10
+8
+6
+4
+2
+0
+36

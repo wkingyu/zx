@@ -1,0 +1,84 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Research Papers   Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos
+500 ms, respectively . We adopted the 5-point spatial pres ⁃
+ence scale proposed in Ref . [43] where a point from 5 to 1 in⁃
+dicates the degree of being there from “very strong ” to “not 
+at all ”. The question designed in the experiment was “To 
+what extent did you feel like you were really inside the virtual 
+environment ?”.
+After the subjective tests , the reliability of the subjective re ⁃
+sults in each experiment was checked using the Pearson Lin ⁃
+ear Correlation Coefficient (PLCC ) adopted by ITU -T Recom ⁃
+mendation P .913[38]. According to the suggested threshold of 
+0.75[38], only the results from two subjects were discarded .
+4 Spatial Presence Assessment Model
+In the previous section , we construct several test scenarios 
+under different impact factor settings and launched subjective 
+experiments to obtain users ’ rating scores . These scores are 
+the ground truth of spatial presence under different impact fac ⁃
+tor settings . In this section , the characteristic of users ’ percep ⁃
+tion in each module is analyzed based on the preliminary ob ⁃
+servation of the experiment results . The weight of each impact 
+factor is determined using the linear regression method .
+4.1 Perceptual Video Quality Assessment Module
+As studied in Refs . [44] and [45], the impact of frame rate 
+and quantization is separable . We follow this conclusion and 
+hypothesize that the perceptual video quality can be predicted 
+as follows :
+PVQ(BPP, f)=SQF(BPP)⋅TCF(f), (2)
+where f represents the frame rate and BPP is the bits per 
+pixel . SQF and TCF are the spatial quality factor and temporal 
+correction factor , respectively . The first term SQF (BPP) mea ⁃
+sures the quality of encoded frames without considering the 
+impact of frame rate . The second term models how the Mean 
+Opinion Score (MOS ) varies with the change of frame rate .
+4.1.1 Temporal Correction Factor
+Fig. 3 shows the relationship between the frame rate and 
+the perceptual video quality . We can see that the perceptual 
+video quality increases along with the rise of frame rate . Fig. 4 
+presents the experimental results of the two videos encoded 
+with four different QPs . It can be found that no matter what 
+the QP level is , MOS reduces consistently as the frame rate de ⁃
+creases . In order to examine whether the decreasing trend of 
+MOS against the frame rate is independent of the QP , the 
+MOS scores were normalized and shown in Fig . 5, where the 
+normalized MOS (NMOS ) is the ratio of the MOS with the 
+MOS at 30 fps. More specifically , the NMOS is calculated as
+NMOS(QP, f)=MOS() QP,  f
+MOS() QP, 30 . (3)As can be seen in Fig . 5, these NMOS scores corresponding 
+to different QPs almost overlap with each other , indicating 
+▲Figure 3. Relationship between the frame rate and perceptual video 
+quality
+▲Figure 4. Experimental results of (a) ReadySetGo and (b) YachRide 
+encoded with four different QPsQP: quantization parameterFrame rate/fps0  20  40  60 80 1005
+4
+3
+2
+1Perceptual video qualityBeauty
+Bosphorus
+HoneyBee
+Jockey
+ReadySetGo
+YachRidePerceptual video quality5
+4
+3
+2
+1
+0  20  40  60 80 100QP=22
+QP=32
+QP=36
+QP=39
+0    20   40   60    80 100Frame rate/fps
+Frame rate/fps5
+4
+3
+2
+1Perceptual video qualityQP=22
+QP=32
+QP=36
+QP=39(a)
+(b)QP=22
+QP=32
+QP=36
+QP=39
+96

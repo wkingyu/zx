@@ -1,0 +1,120 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Special Topic   Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems
+increasing number of antennas and the higher frequency band 
+for 6G wireless communication system , the variations among 
+the realistic spherical wave channel model and the simplified 
+planar wave channel model cannot be ignored . This paper 
+studies the accuracy degradation of estimated parameters 
+caused by the channel model mismatch and provides a closed -
+form solution of the LB . The LB with system parameters is 
+also studied , which verifies that the LB will tend towards a 
+non -zero constant even though the number of active elements 
+at the c -subarray or the SNR is infinite . Moreover , the impacts 
+of the array scale of the XL -HRIS on the SE is evaluated , 
+which proves that the extremely large array can indeed en ⁃
+hance the SE and further improves the system communication 
+performance .
+References
+[1] MATTHAIOU M , YURDUSEVEN O , NGO H Q , et al . The road to 6G: ten 
+physical layer challenges for communications engineers [J]. IEEE commu ⁃
+nications magazine , 2021 , 59(1): 64– 69. DOI : 10.1109 /
+MCOM .001.2000208
+[2] YANG H H , CAO X Y , YANG F , et al . A programmable metasurface with 
+dynamic polarization , scattering and focusing control [J]. Scientific reports , 
+2016 , 6: 35692 . DOI : 10.1038 /srep 35692
+[3] ZHANG S W , ZHANG R . Capacity characterization for intelligent reflect ⁃
+ing surface aided MIMO communication [J]. IEEE journal on selected ar ⁃
+eas in communications , 2020 , 38(8): 1823–1838 . DOI : 10.1109 /
+JSAC .2020 .3000814
+[4] DI RENZO M , ZAPPONE A , DEBBAH M , et al . Smart radio environments 
+empowered by reconfigurable intelligent surfaces : how it works , state of re ⁃
+search , and the road ahead [J]. IEEE journal on selected areas in communi ⁃
+cations , 2020 , 38(11): 2450–2525 . DOI : 10.1109 /JSAC .2020 .3007211
+[5] HUANG C , ZAPPONE A , ALEXANDROPOULOS G C , et al . Reconfigu ⁃
+rable intelligent surfaces for energy efficiency in wireless communication 
+[EB/OL ]. (2018 -10-06) [2019 -01-10]. https ://arxiv .org/abs/ 1810 .06934
+[6] WU Q Q , ZHANG R . Intelligent reflecting surface enhanced wireless net ⁃
+work via joint active and passive beamforming [J]. IEEE transactions on 
+wireless communications , 2019 , 18(11): 5394–5409 . DOI : 10.1109 /
+TWC .2019 .2936025
+[7] HAN Y , TANG W K , JIN S , et al . Large intelligent surface -assisted wire ⁃
+less communication exploiting statistical CSI [J]. IEEE transactions on ve ⁃
+hicular technology , 2019 , 68(8): 8238–8242 . DOI : 10.1109 /
+TVT.2019 .2923997
+[8] TANG W K , CHEN M Z , CHEN X Y , et al . Wireless communications with 
+reconfigurable intelligent surface : path loss modeling and experimental 
+measurement [J]. IEEE transactions on wireless communications , 2021 , 20
+(1): 421–439. DOI : 10.1109 /TWC .2020 .3024887
+[9] CHEN W C , WEN C -K, LI X , et al . Channel customization for limited 
+feedback in RIS -assisted FDD systems [J]. IEEE transactions on wireless 
+communications , 2023 , 22(7): 4505– 4519 . DOI : 10.1109 /
+TWC .2022 .3226442
+[10] MU X D , LIU Y W , GUO L , et al . Simultaneously transmitting and re ⁃
+flecting (STAR ) RIS aided wireless communications [J]. IEEE transac ⁃
+tions on wireless communications , 2022 , 21(5): 3083–3098 . DOI : 
+10.1109 /TWC .2021 .3118225
+[11] WEI L , HUANG C W , ALEXANDROPOULOS G C , et al . Channel esti ⁃
+mation for RIS -empowered multi -user MISO wireless communications [J]. IEEE transactions on communications , 2021 , 69(6): 4144–4157 . DOI : 
+10.1109 /TCOMM .2021 .3063236
+[12] LIU C , LIU X M , NG D W K , et al . Deep residual learning for channel 
+estimation in intelligent reflecting surface -assisted multi -user communi ⁃
+cations [J]. IEEE transactions on wireless communications , 2022 , 21(2): 
+898–912. DOI : 10.1109 /TWC .2021 .3100148
+[13] WEI L , HUANG C W , GUO Q H , et al . Joint channel estimation and sig ⁃
+nal recovery for RIS -empowered multiuser communications [J]. IEEE 
+transactions on communications , 2022 , 70(7): 4640–4655 . DOI : 
+10.1109 /TCOMM .2022 .3179771
+[14] JIN Y , ZHANG J Y , ZHANG X D , et al . Channel estimation for semi -
+passive reconfigurable intelligent surfaces with enhanced deep residual 
+networks [J]. IEEE transactions on vehicular technology , 2021 , 70(10): 
+11083–11088 . DOI : 10.1109 /TVT .2021 .3109937
+[15] HU J F , YIN H F , BJÖRNSON E . MmWave MIMO communication with 
+semi -passive RIS : a low -complexity channel estimation scheme [C]//
+Proc. IEEE Global Communications Conference (GLOBECOM ). IEEE , 
+2021 : 1–6. DOI : 10.1109 /GLOBECOM 46510 .2021 .9685434
+[16] LI M Y , ZHANG S , GE Y , et al . Joint channel estimation and data detec ⁃
+tion for hybrid RIS aided millimeter wave OTFS systems [J]. IEEE trans ⁃
+actions on communications , 2022 , 70(10): 6832–6848 . DOI : 10.1109 /
+TCOMM .2022 .3199019
+[17] ALEXANDROPOULOS G C , VLACHOS E . A hardware architecture for 
+reconfigurable intelligent surfaces with minimal active elements for ex ⁃
+plicit channel estimation [C]//Proc . 2020  IEEE International Conference 
+on Acoustics , Speech and Signal Processing (ICASSP ). IEEE , 2020 : 
+9175–9179. DOI : 10.1109 /ICASSP 40776 .2020 .9053976
+[18] ZHANG H Y , SHLEZINGER N , ALAMZADEH I , et al . Channel estima ⁃
+tion with simultaneous reflecting and sensing reconfigurable intelligent 
+metasurfaces [C]//Proc . IEEE 22nd International Workshop on Signal 
+Processing Advances in Wireless Communications (SPAWC ). IEEE , 
+2021 : 536–540. DOI : 10.1109 /SPAWC 51858 .2021 .9593172
+[19] SCHROEDER R , HE J G , BRANTE G , et al . Two -stage channel estima ⁃
+tion for hybrid RIS assisted MIMO systems [J]. IEEE transactions on com ⁃
+munications , 2022 , 70(7): 4793– 4806 . DOI : 10.1109 /
+TCOMM .2022 .3176654
+[20] TAHA A , ALRABEIAH M , ALKHATEEB A . Enabling large intelligent 
+surfaces with compressive sensing and deep learning [J]. IEEE access , 
+2021 , 9: 44304–44321 . DOI : 10.1109 /ACCESS .2021 .3064073
+[21] YANG S J , LYU W T , WANG D L , et al . Separate channel estimation 
+with hybrid RIS -aided multi -user communications [J]. IEEE transactions 
+on vehicular technology , 2023 , 72(1): 1318–1324 . DOI : 10.1109 /
+TVT.2022 .3205370
+[22] HEATH R W , GONZÁLEZ -PRELCIC N , RANGAN S , et al . An overview 
+of signal processing techniques for millimeter wave MIMO systems [J]. 
+IEEE journal of selected topics in signal processing , 2016 , 10(3): 436–
+453. DOI : 10.1109 /JSTSP .2016 .2523924
+[23] FANG J , LI X J , LI H B , et al . Low -rank covariance -assisted downlink 
+training and channel estimation for FDD massive MIMO systems [J]. 
+IEEE transactions on wireless communications , 2017 , 16(3): 1935–
+1947 . DOI : 10.1109 /TWC .2017 .2657513
+[24] HAN Y , HSU T H , WEN C K , et al . Efficient downlink channel recon ⁃
+struction for FDD transmission systems [C]//Proc . 27th Wireless and Opti ⁃
+cal Communication Conference (WOCC ). IEEE , 2018 : 1–5. DOI : 
+10.1109 /WOCC .2018 .8372727
+[25] HAN Y , HSU T H , WEN C K , et al . Efficient downlink channel recon ⁃
+struction for FDD multi -antenna systems [J]. IEEE transactions on wire ⁃
+less communications , 2019 , 18(6): 3161–3176 . DOI : 10.1109 /
+TWC .2019 .2911497
+[26] HAN Y , LIU Q , WEN C -K, et al . Tracking FDD massive MIMO downlink 
+channels by exploiting delay and angular reciprocity [J]. IEEE journal of 
+selected topics in signal processing , 2019 , 13(5): 1062–1076 . DOI : 
+10.1109 /JSTSP .2019 .2935320
+32

@@ -1,0 +1,50 @@
+共享码本随机接入有限块长信息理论极限分析 高俊园  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1共享码本随机接入
+有限块长信息理论极限分析
+Fundamental Limits of Massive Random Access with 
+A Common Codebook and Finite Blocklength
+高俊园 /GAO Junyuan ，吴泳澎 /WU Yongpeng ，
+张文军 /ZHANG Wenjun
+（ 上海交通大学 ，中国 上海 200240  ）
+(Shanghai Jiao Tong University , Shanghai 200240 , China )DOI：10.12142 /ZTETJ .202401008
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .tn.20240226 .1131 .006.html
+网络出版日期 ：2024 -02-26
+收稿日期 ：2024 -01-08
+摘要 ：超大规模机器通信 （umMTC ）是6G移动通信网络的典型应用场景 。针对 umMTC 场景中的共享码本随机接入问题展开信息理论研究 ，
+在给定基站天线数 、码长、用户载荷和发送功率的情况下 ，推导了平均每用户误差概率的非渐近可达界和逆定理 。仿真结果证实了可达界和逆
+定理的紧致性 ，并且证明了当用户数低于某一门限时存在多用户干扰消除效应 。基站配置多天线能够显著降低平均每用户误差概率 ，这对支持
+大量用户可靠接入具有重要意义 。此外，与独立码本随机接入相比 ，共享码本随机接入在能效性方面更具优势 。
+关键词 ：共享码本 ；大规模随机接入 ；有限块长 ；可达界和逆定理
+Abstrac t:Ultra-massive Machine Type Communication (umMTC ) is expected to be a key use case in the 6th Generation wireless networks . 
+The information-theoretical analysis for unsourced random access in umMTC scenarios is conducted . Thenon-asymptotic achievability and 
+converse bounds are established on the per-user probability of error for given number of receive antennas , blocklength , payload size , and 
+transmitting power . Simulation results verify the tightness of our bounds and demonstrate that when the number of users is below a thresh ⁃
+old, the multi-user interference can be almost perfectly canceled . The per-user probability of error decreases as the number of receive an ⁃
+tennas increases , highlighting the crucial role of MIMO in supporting reliable access for a large number of users . Moreover , it is shown that 
+in contrast to random access with individual codebooks , random access with a common codebook achieves higher energy efficiency .
+Keywords :common codebook ; massive random access ; finite blocklength ; achievability and converse bounds
+引用格式 ：高俊园 , 吴泳澎 , 张文军 . 共享码本随机接入有限块长信息理论极限分析  [J]. 中兴通讯技术 , 2024 , 30(1): 41-45. DOI : 10.12142 /
+ZTETJ .202401008
+Citation ： GAO J Y , WU Y P , ZHANG W J . Fundamental limits of massive random access with a common codebook and finite blocklength [J]. 
+ZTE technology journal , 2024 , 30(1): 41-45. DOI: 10.12142 /ZTETJ .202401008
+随着物联网 （IoT）的迅猛发展 ，移动数据流量和物联网
+设备连接数量呈现出快速增长的趋势 。IMT- 2030  (6G) 
+推进组在 《6G典型场景和关键能力 》白皮书中 ，将超大规
+模机器通信 （umMTC ）列为 6G的五大典型场景之一 。与传
+统的多用户接入模型相比 ，面向 umMTC 的大规模随机接入
+场景具有下述 4个典型特点 ：
+1）海量的用户与设备接入 。网络中有海量的潜在设备是大规模随机接入场景最显著的特点 。6G关键性能指标为
+实现每平方千米 1 000万设备的连接数密度 。
+2）设备零星活跃进行数据传输 。在IoT应用场景中 ，
+数据的传输通常不具有连续性 ，同一时刻只有零星的设备被
+激活进行数据传输 。
+3）设备传输的数据量较小 。在umMTC 场景中 ，终端通
+常为警报器 、传感器等设备 。当这些设备活跃时 ，传输的多
+为传感信息以及控制信息等小数据包 。
+4）设备具有低功耗需求 。在umMTC 场景中 ，终端设备
+一般具有小型化和低成本的特点 。例如 ，在环境监测等应用
+场景中 ，传感器往往部署于山区 、深水等复杂环境中 ，因基金项目 ：国家重点研发计划 （2018 YFB1801102 ） ；国家自然科学基金项目
+（62122052 、62071289 ） ；中央高校基本科研业务费专项资金项目 ；高等学校学
+科创新引智计划 （BP0719010 ） ；上海市自然科学基金项目 （22DZ2229005 ）
+41

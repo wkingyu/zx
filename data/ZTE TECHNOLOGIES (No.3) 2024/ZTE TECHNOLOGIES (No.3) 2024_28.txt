@@ -1,0 +1,86 @@
+n the context of explosive data growth, 
+continuous improvement in algorithm 
+performance, and the ongoing iteration of 
+computing products, we are in a phase where 
+AI is leading all-round industrial transformation. In 
+this process, the AI platform plays a critical role. 
+Through intensive management of data, computing, 
+algorithms, and services, the AI platform converts 
+workshop-style, discrete algorithm research into 
+standardized, automated production processes, 
+avoiding redundant eﬀorts and allowing users to 
+focus on high-value challenges in intelligent services. 
+AI Platform: Key Infrastructure for 
+Enterprise Intelligent Transformation 
+As a key bridge connecting computing and 
+algorithms, the AI platform not only systematizes and 
+formalizes the common requirements in the 
+algorithm development process, but also oﬀers users 
+customized capabilities and services. In addition, the 
+platform should have features such as sharing and 
+multiplexing, eﬃcient training and inference, fast 
+delivery, and continuous iteration. To address these 
+needs, ZTE has developed a platform for 
+heterogeneous computing management and AI 
+model training and inference—the intelligent 
+computing AI platform. This platform consists of the 
+infrastructure layer, engine layer, service layer, and 
+capability layer. 
+Infrastructure layer: Thousands of GPUs and CPUs 
+provide computing power, supporting both 
+international mainstream graphics cards and 
+domestic graphics cards.
+ 
+IZTE Intelligent Computing AI 
+Platform: Facilitating AI Model 
+Training and Inference
+Engine layer: The engine layer includes machine 
+learning (ML) engine, hyperparameter tuning 
+engine, training engine, compilation engine, and 
+inference engine. This layer integrates multiple 
+high-performance training and inference engine 
+frameworks, such as Tensor/f_low, Pytorch, One/f_low, 
+and Deepspeed.
+Service layer: The service layer consists of dataset 
+management, data labeling, model training, 
+hyperparameter tuning, as well as model 
+evaluation, compiling, and inference, covering 
+end-to-end services of the AI model.
+Capability layer: The capability layer provides 
+various built-in algorithm and inference packages 
+to solve practical problems, available for direct 
+deployment and calling. 
+From basic computing and scheduling 
+technologies to deep learning frameworks and 
+engines, as well as perception and cognition 
+capabilities such as NLP , CV, audio processing, and AI 
+model, the AI platform serves as a key infrastructure 
+for enterprise intelligent transformation. It not only 
+integrates computing hardware and software tools, 
+but also provides R&D interfaces for AI algorithms. 
+Through this comprehensive integration, the AI 
+platform greatly improves resource utilization 
+eﬃciency and accelerates AI implementation. 
+Entering the Era of AI Models
+Currently, in the AI implementation scenario, many 
+small models that solve intermediate tasks or speci/f_ic 
+/f_ield tasks are being replaced by more universal AI 
+ 
+ 
+ 
+ 
+ 
+AI Platform R&D 
+Manager, ZTEZhou Xiangsheng
+AI Algorithm 
+Engineer, ZTESun Wenqing
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Intelligent Computing Special Topic 
+26 

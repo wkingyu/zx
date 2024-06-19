@@ -1,0 +1,89 @@
+无蜂窝大规模 MIMO 中的大规模随机接入 胡彦丰  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1在未来无线通信中 ，MTC 将占据通信流量的七成以上 。
+与无蜂窝技术的结合将会成为 mMTC 的主流研究方向 。对于
+大规模随机接入方案的探究仍需要持续关注 。
+参考文献
+[1] DAI L L , WANG B C , YUAN Y F , et al . Non-orthogonal multiple 
+access for 5G: solutions , challenges , opportunities , and future 
+research trends [J]. IEEE communications magazine , 2015 , 53(9): 
+74-81. DOI : 10.1109 /MCOM .2015 .7263349 http://dx.doi.org/
+10.1109 /MCOM .2015 .7263349
+[2] TAO Y Z , LIU L , LIU S , et al . A survey : several technologies of 
+non-orthogonal transmission for 5G [J]. China communications , 
+2015 , 12(10): 1-15. DOI : 10.1109 /CC.2015 .7315054 http://dx.doi.
+org/10.1109 /CC.2015 .7315054
+[3] WANG Y M , REN B , SUN S H , et al . Analysis of non-orthogonal 
+multiple access for 5G [J]. China communications , 2016 , 13(2): 
+52-66. DOI : 10.1109 /CC.2016 .7405722 http://dx.doi.org/10.1109 /
+CC.2016 .7405722
+[4] DAHLMAN E , PARKVALL S , SKOLD J , et al . 3G evolution : HSPA 
+and LTE for mobile broadband [M]. New York : Academic Press , 
+2008
+[5] CHEN H , ABBAS R , CHENG P , et al . Ultra-reliable low latency 
+cellular networks : use cases , challenges and approaches [J]. IEEE 
+communications magazine , 2018 , 56(12): 119-125. DOI : 10.1109 /
+MCOM . 2018 .1701178 http://dx. doi. org/10.1109 /
+MCOM .2018 .1701178
+[6] NGO H Q , ASHIKHMIN A , YANG H , et al . Cell-free massive 
+MIMO versus small cells [J]. IEEE transactions on wireless 
+communications , 2017 , 16(3): 1834 -1850 . DOI : 10.1109 /
+TWC .2017 .2655515 http://dx.doi.org/10.1109 /TWC .2017 .2655515
+[7] BJÖRNSON E , SANGUINETTI L . Making cell-free massive 
+MIMO competitive with MMSE processing and centralized 
+implementation [J]. IEEE transactions on wireless 
+communications , 2020 , 19(1): 77-90. DOI : 10.1109 /TWC .2019 .29
+41478 http://dx.doi.org/10.1109 /TWC .2019 .2941478
+[8] BJÖRNSON E , SANGUINETTI L . Scalable cell-free massive 
+MIMO systems [J]. IEEE transactions on communications , 2020 , 
+68(7): 4247 -4261 . DOI : 10.1109 /TCOMM .2020 .2987311 http://dx.
+doi.org/10.1109 /TCOMM .2020 .2987311
+[9] KE M L , GAO Z , WU Y P , et al . Massive access in cell-free 
+massive MIMO-based Internet of Things : cloud computing and 
+edge computing paradigms [J]. IEEE journal on selected areas in 
+communications , 2021 , 39(3): 756-772. DOI : 10.1109 /
+JSAC .2020 .3018807 http://dx.doi.org/10.1109 /JSAC .2020 .3018807
+[10] KE M L , GAO Z , WU Y P , et al . Compressive sensing-based 
+adaptive active user detection and channel estimation : massive 
+access meets massive MIMO [J]. IEEE transactions on signal 
+processing , 2020 , 68: 764-779. DOI : 10.1109 /TSP.2020 .296717
+5http://dx.doi.org/10.1109 /TSP.2020 .2967175
+[11] GAO Z , DAI L L , WANG Z C , et al . Spatially common sparsity 
+based adaptive channel estimation and feedback for FDD 
+massive MIMO [J]. IEEE transactions on signal processing , 
+2015 , 63(23): 6169 -6183 . DOI : 10.1109 /TSP.2015 .2463260 http:
+//dx.doi.org/10.1109 /TSP.2015 .2463260
+[12] NAM J , ADHIKARY A , AHN J Y , et al . Joint spatial division and multiplexing : opportunistic beamforming , user grouping and 
+simplified downlink scheduling [J]. IEEE journal of selected 
+topics in signal processing , 2014 , 8(5): 876-890. DOI : 10.1109 /
+JSTSP . 2014 .2313808 http://dx. doi. org/10.1109 /
+JSTSP .2014 .2313808
+[13] WANG D M , YOU X H , HUANG Y M , et al . Full-spectrum cell-
+free RAN for 6G systems : system design and experimental 
+results [J]. Science China information sciences , 2023 , 66(3): 
+130305 . DOI : 10.1007 /s11432 -022-3664 -xhttp ://dx.doi.org/
+10.1007 /s11432 -022-3664 -x
+[14] BJORNSON E , JALDEN N , BENGTSSON M , et al . Optimality 
+properties , distributed strategies , and measurement-based 
+evaluation of coordinated multicell OFDMA transmission [J]. 
+IEEE transactions on signal processing , 2011 , 59(12): 6086 -
+6101 . DOI : 10.1109 /TSP.2011 .2165706 http://dx.doi.org/10.1109 /
+TSP.2011 .2165706
+作 者 简 介
+胡彦丰 ，东南大学在读博士研究生 ；主要研究领
+域为大规模天线系统的随机接入方案 ；先后参与
+基金项目 3项；已发表论文 3篇，申请专利 1项。
+王东明 ，东南大学教授 ；主要研究领域为未来移
+动通信系统和无线传输技术研究 ；先后主持和参
+与基金项目 10余项，获得科研成果奖 2项；已发
+表论文 100余篇。
+梁楚龙 ，中兴通讯股份有限公司高级系统工程师 ；
+主要研究领域为信道编码理论及其在通信系统中
+的应用 ；已发表论文 20余篇。
+尤肖虎 ，中国科学院院士 、东南大学移动通信国
+家重点实验室主任 ；目前主要研究方向为无线与
+移动通信系统 、现代数字信号处理等 ；作为课题
+负责人 ，曾承担 10余项国家 “863” 、科技攻关 、
+国家自然科学基金等项目 ，在IEEE Transactions
+系列期刊上发表论文 60余篇，出版专著 2本。
+32

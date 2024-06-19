@@ -1,0 +1,89 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput    Research Papers
+LDPC in the waterfall region , it has an improvement in the er ‐
+ror floor region . The size of the parity check matrix we used 
+during the test is 5×29, and the lifting size is 352.
+The performance of the matrix with a shorter information 
+blocklength of k=2 112 bits is shown in Fig . 7. The lifting size 
+is 88. The code we constructed also has the advantage in the 
+error floor region .
+4.3 Hardware Implementation Results
+For LDPC codes with a lifting size of 352, we design the 
+corresponding decoder prototype to evaluate and compare the 
+hardware resources accurately before and after adding the pro ‐
+tograph construction constraints . The decoder consists of buf ‐
+fers, a controller , several decoder cores , etc. We use a quanti ‐zation length of 6 bits for the LLR information and 4 bits for 
+the internal messages .
+The implementation results , as well as the corresponding 
+comparisons , are reported in this section . The formula for cal ‐
+culating throughput is as follows :
+Throughput=R×Ncores×n
+Niter×M×fclk , (2)
+where R is the code rate , Ncores is the number of decoder cores , 
+n is the length of the codeword , M is the number of basic ma ‐
+trix rows used for decoding , and Niter is the average number of 
+iterations . To achieve the desired throughput with the code , 
+the information blocklength of which is 8 448 bits, 3 cores are 
+required .
+In order to evaluate the effectiveness of our optimization 
+methods , the synthesis results of decoders with and without ap ‐
+plying the optimizations proposed in Sections 2 and 3 are 
+listed . We use the architecture from Ref . [15] as the baseline . 
+Table 1 summarizes the hardware resources of the decoder 
+core on t he Xilinx Virtex UltraScale XCVU 440 field program ‐
+mable gate array (FPGA ). The decoder core occupies about 
+34.0% of the lookup tables and 1.2% of the flip -flops avail ‐
+able on the device . Compared with the architecture used in 
+Ref. [15], the proposed decoder reduces the resources of the 
+lookup table by about 15%.
+5 Conclusions
+This paper proposes an RL -LDPC code aiming at next -
+generation mobile communication , with a corresponding 
+hardware architecture with a throughout up to 100 Gbit/s . In 
+this code , the designed structure of the protograph is differ ‐
+ent from the conventional 5G NR LDPC basic matrix , and an 
+improved code construction algorithm is investigated for bet ‐
+ter performance . The decoder implemented in our work can 
+achieve a throughput higher than 100 Gbit/s , and compared 
+with the traditional architecture , the resources of the lookup 
+table are reduced by about 15% on Xilinx Virtex UltraScale 
+XCVU 440 FPGA .
+References
+[1] VENUGOPAL T , RADHIKA S . A survey on channel coding in wireless net ‐
+works [C]//Proceedings of 2020  International Conference on Communication 
+and Signal Processing (ICCSP ). IEEE , 2020 : 784–789. DOI : 10.1109 /
+ICCSP 48568 .2020 .9182213
+[2] GALLAGER R . Low -density parity -check codes [J]. IRE transactions on infor ‐
+▼Table 1. Implementation results
+Resources
+LUTs
+FFs
+BramsImplementation in Ref . [15]
+1 015 935
+62 460
+66Proposed
+861 574
+62 460
+66
+Brams : block -RAMs     FFs : flip -flops     LUTs : lookup tables
+▲Figure 7. Performance comparison under rate of 8/9FER: frame erasure rate
+LDPC : low density parity check codeNR: new radio(a) Information blocklength is 8 848 bits
+(b) Information blocklength is 2 112 bits(Es/N0)/dB5.4 5.6 5.8 6.0 6.2 6.4 6.6FER100
+10-1
+10-2
+10-3
+10-4
+10-5
+10-6
+10-7FER100
+10-1
+10-2
+10-3
+10-4
+10-5
+5.2 5.6 6.0 6.4 6.8 7.2R=8/9, k=8 448, 5G NR LDPC
+R=8/9, k=8 448, modified LDPC
+R=8/9, k=2 112, 5G NR LDPC
+R=8/9, k=2 112, modified LDPC
+(Es/N0)/dB
+91

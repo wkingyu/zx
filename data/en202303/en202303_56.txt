@@ -1,0 +1,63 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Research Papers   Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks
+LearningLearning --Based Admission Control for Based Admission Control for 
+LowLow --EarthEarth --Orbit Satellite Communication Orbit Satellite Communication 
+NetworksNetworks
+CHENG Lei , QIN Shuang , FENG Gang
+(University of Electronic Science and Technology of China , Chengdu 
+611731 , China )DOI: 10.12142 /ZTECOM .202303008
+https ://link .cnki.net/urlid/ 34.1294 .TN.20230830 .1858 .005, published online 
+August 31, 2023
+Manuscript received : 2022 -07-22
+Abstract : Satellite communications has been regarded as an indispensable technology for future mobile networks to provide extremely high 
+data rates , ultra -reliability , and ubiquitous coverage . However , the high dynamics caused by the fast movement of low -earth -orbit (LEO) satel ‐
+lites bring huge challenges in designing and optimizing satellite communication systems . Especially , admission control , deciding which users 
+with diversified service requirements are allowed to access the network with limited resources , is of paramount importance to improve network 
+resource utilization and meet the service quality requirements of users . In this paper , we propose a dynamic channel reservation strategy 
+based on the Actor -Critic algorithm (AC -DCRS ) to perform intelligent admission control in satellite networks . By carefully designing the long -
+term reward function and dynamically adjusting the reserved channel threshold , AC -DCRS reaches a long -run optimal access policy for both 
+new calls and handover calls with different service priorities . Numerical results show that our proposed AC -DCRS outperforms traditional 
+channel reservation strategies in terms of overall access failure probability , the average call success rate , and channel utilization under vari ‐
+ous dynamic traffic conditions .
+Keywords : satellite communications ; admission control ; dynamic channel reservation ; actor -critic
+Citation  (Format 1): CHENG L , QIN S , FENG G . Learning -based admission control for low -earth -orbit satellite communication networks [J]. 
+ZTE Communications , 2023 , 21(3): 54–62. DOI : 10.12142 /ZTECOM .202303008
+Citation  (Format 2): L. Cheng , S. Qin, and G . Feng , “Learning -based admission control for low -earth -orbit satellite communication networks ,” 
+ZTE Communications , vol. 21, no. 3, pp. 54–62, Sept . 2023 . doi: 10.12142 /ZTECOM .202303008 .
+1 Introduction
+With the increasing number of users and service 
+types in terrestrial wireless communication net ‐
+works , it is impractical to provide wireless commu ‐
+nication services anytime and anywhere alone[1]. 
+The satellite communication network has the prominent advan ‐
+tages of long -distance communications , ubiquitous coverage , 
+large capacity and high reliability , and can be a complement to 
+terrestrial networks . It is not restricted by complex geographic 
+conditions and harsh environments and can provide broadband 
+multimedia services to user terminals (UT) in any area , even 
+where terrestrial network resources are insufficient[2].
+Due to the advantages of shorter propagation delay and 
+lower operational expenditure , low -earth -orbit (LEO) satellite 
+communication systems have been commonly used to provide 
+user terminals with full coverage and real -time wireless com ‐munication services[3]. Usually , LEO communication systems 
+can exploit multi -beam technology to irradiate lots of blocks of 
+cellular networks in their coverage area , which are called 
+beam cells . When a UT establishes a communication connec ‐
+tion with an LEO satellite , one challenge faced is the frequent 
+handover from one beam cell to another , due to the fast move ‐
+ment of LEO satellites . If there are insufficient channel re ‐
+sources in the targeted beam cell , the connection would be in ‐
+terrupted . Frequent handover failure and new call blocking 
+would severely degrade the network performance and/or qual ‐
+ity of service (QoS) of users . Moreover , with the rapid develop ‐
+ment of multimedia applications , diversified service require ‐
+ments pose a great challenge to the network[4–6]. On the other 
+hand , the satellite channel resources are limited , which usu ‐
+ally cannot satisfy the requirements of all services . Consider ‐
+ing the diversified service requirements with multi -priority ser ‐
+vices , admission control is particularly critical , as it decides 
+which services are allowed to be admitted .
+A typical solution for admission control of multi -priority ser ‐
+This work was supported by the ZTE Industry⁃University⁃Institute Cooper ⁃
+ation Funds .
+54

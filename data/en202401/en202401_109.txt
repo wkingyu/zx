@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Filter Design of Wireless Base Station Power Supply    Research Papers
+Reference
+[1] ZHANG D B , CHEN D Y , SABLE D . A new method to characterize EMI fil ⁃
+ters [C]//The thirteenth Annual Applied Power Electronics Conference and 
+Exposition . IEEE , 2002 : 929–933. DOI : 10.1109 /APEC .1998 .654009
+[2] CHEN H L , QIAN Z M , ZENG Z H , et al . Modeling of parasitic inductive 
+couplings in a PI -shaped common mode EMI filter [J]. IEEE transactions on 
+electromagnetic compatibility , 2008 , 50(1): 71–79. DOI : 10.1109 /
+TEMC .2007 .913214
+[3] SHIH F Y , CHEN D Y , WU Y P , et al . A procedure for designing EMI fil ⁃
+ters for AC line applications [J]. IEEE transactions on power electronics , 
+1996 , 11(1): 170–181. DOI : 10.1109 /63.484430
+[4] KOTNY J L , DUQUESNE T , IDIR N . Design of EMI filters for DC -DC con ⁃
+verter [C]//Proceedings of IEEE Vehicle Power and Propulsion Conference . 
+IEEE , 2010 : 1–6. DOI : 10.1109 /VPPC .2010 .5729047
+[5] HSIEH H I . A procedure including mix -mode noise for designing EMI filters 
+for off -line applications [C]//Proceedings of IEEE Vehicle Power and Propul ⁃
+sion Conference . IEEE , 2008 : 1–6. DOI : 10.1109 /VPPC .2008 .4677781
+[6] KOTNY J L , MARGUERON X , IDIR N . High frequency modeling method 
+of EMI filters [C]//Proceedings of IEEE Energy Conversion Congress and Ex ⁃
+position . IEEE , 2009 : 1671–1678 . DOI : 10.1109 /ECCE .2009 .5316241
+[7] WANG S , LEE F C , ODENDAAL W G , et al . Improvement of EMI filter per ⁃
+formance with parasitic coupling cancellation [J]. IEEE transactions on 
+power electronics , 2005 , 20(5): 1221–1228 . DOI : 10.1109 /
+TPEL .2005 .854069[8] SCHNEIDER L M . Noise source equivalent circuit model for off -line con ⁃
+verters and its use in input filter design [C]//Proceedings of IEEE Interna ⁃
+tional Symposium on Electromagnetic Compatibility . IEEE , 1983 : 1–9. 
+DOI: 10.1109 /ISEMC .1983 .7567390
+[9] WANG S , LEE F C , ODENDAAL W G . Characterization and parasitic ex ⁃
+traction of EMI filters using scattering parameters [J]. IEEE transactions on 
+power electronics , 2005 , 20(2): 502– 510. DOI : 10.1109 /
+TPEL .2004 .842949
+Biographies
+LI Wei (li.wei27@zte .com.cn) received his MS degree in mechatronic engineer ⁃
+ing from Southeast University , China in 2017 . Currently he is working as an 
+EMC engineer in ZTE Corporation . His research interests include switching 
+power supply of EMC and lightning protection .
+GUO Wei received his master ’s degree from Xidian University , China . He cur ⁃
+rently serves as the director of electromagnetic compatibility for wireless prod ⁃
+ucts with ZTE Corporation .
+WANG  Zhida graduated with a master ’s degree from South China University 
+of Technology . He currently serves as the head of the Wireless Product Reliabil ⁃
+ity Department , ZTE Corporation .
+▲Figure 26. Noise spectrum of the prototype access filter(a) L noise (b) N noiseFrequency/Hz150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M80
+70
+60
+50
+40
+30
+20
+10
+0
+-10Level in dB μQP
+AV
+EN 55032  class B voltage on mains AVEN 55032  class B voltage on mains QPQP
+AV
+EN 55032  class B voltage on mains AVEN 55032  class B voltage on mains QPLevel in dB μ
+Frequency/Hz150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M80
+70
+60
+50
+40
+30
+20
+10
+0
+-10
+QP
+AVQP
+AV
+EN 55032  class B current on RF probe AVEN 55032  class B current on RF probe QP
+EN 55032  class B current on RF probe AVEN 55032  class B current on RF probe QP
+(a) CM noise (d) DM noiseLevel in dB μ
+Level in dB μ60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+-5
+-1060
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+-5
+-10
+AV: average value     CM : common mode     DM : differential mode     QP : quasi -peak valueFrequency/Hz150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M
+Frequency/Hz150k 300k 500k800k1M 2M 3M4M5M6M8M10M 20M30M
+105

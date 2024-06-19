@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research on Fall Detection System Based on Commercial Wi -Fi Devices    Research Papers
+phase difference of different receiving antennas and uses the 
+amplitude and phase difference information of CSI to demon ⁃
+strate human activities . FallViewer designs a series of CSI de ⁃
+noising schemes to obtain more refined CSI information for 
+characterizing human activities . These works all utilize tradi ⁃
+tional machine learning approaches such as support vector ma ⁃
+chines (SVM ) to classify activity and perform fall detection . 
+The second category is to process the received signal in the 
+time and frequency domain to obtain higher -order features , 
+such as the short time Fourier transform (STFT ) spectrum , and 
+this type of work includes FallDeFi[21], TL -Fall[22], CNNFall[23], 
+etc. Both FallDeFi and CNNFall utilize denoising of CSI and 
+perform STFT to extract Doppler frequency shift information 
+to characterize user activities . FallDeFi extracts statistical fea ⁃
+tures from the Doppler frequency shift and selects the features 
+that are closely related to human activities , using SVM for 
+classification . On the other hand , CNNFall uses a convolu ⁃
+tional neural network model to classify Doppler information 
+and perform fall detection . The original features of CSI are in ⁃
+fluenced by the environment , which makes it difficult to repre ⁃
+sent human activities ; the STFT spectrum has a fixed window 
+size, which cannot balance the temporal and spatial resolu ⁃
+tion. Most existing works[17–22] in feature classification have 
+used traditional machine learning schemes for classification , 
+such as SVM and random forests . A small number of works 
+have implemented a classification based on deep learning 
+models[23]. In these traditional machine learning solutions , sta⁃
+tistical features are extracted without clear physical meanings . 
+In order to better meet the practical needs , we are devoted to 
+designing a fall detection system based on commercial Wi -Fi 
+devices , which increases the system performance and mini ⁃
+mizes the computational complexity of the system . In the fea ⁃
+ture extraction stage , we extract the discrete wavelet transform 
+(DWT ) spectrum from the received raw signal as a feature to 
+characterize the person ’s activities . Theoretically , using dif ⁃
+ferent window sizes to extract human activity information in 
+different frequency bands of the DWT 
+spectrum can maintain high frequency 
+resolution in the low -frequency band 
+and high time resolution in the high -
+frequency band , which is more flexible 
+than using a fixed window size . In addi ⁃
+tion, DWT spectrums can reduce the in ⁃
+terference of the surrounding environ ⁃
+ment on the channel state information 
+and mitigate the impact of environmen ⁃
+tal changes . In the feature classification 
+stage , we design a deep learning model 
+based on convolutional neural networks 
+to build a classifier to identify the fall 
+action . Compared with traditional ma ⁃
+chine learning models , deep models can 
+better extract high -order spatio -temporal information about human activities and obtain more universal 
+representations of human activities . Meanwhile , we evaluate 
+the system based on the data collected on commercial Wi -Fi 
+devices . The evaluation results show that the performance is 
+better than existing fall detection work and other combined 
+schemes , and the complexity of the model is less than other 
+deep classification models . In summary , the main contribu ⁃
+tions of this paper are as follows .
+1) We propose a new fall detection solution based on com ⁃
+mercial Wi -Fi devices , which achieves better performance 
+with less computation costs compared with existing solutions .
+2) We select the discrete transform wavelet spectrum as the 
+feature for activity classification , which has better environmen ⁃
+tal robustness compared with the original feature .
+3) We design a deep learning model based on convolutional 
+neural networks , which can extract higher -order features and 
+better characterize human activities compared with traditional 
+machine learning models .
+4) We have conducted extensive experiments , including 
+both fall and non -fall. The experimental results show that our 
+work outperforms existing fall detection work and other com ⁃
+bined schemes , and achieves a false alarm rate of 4.8% and a 
+missed alarming rate of 1.9%.
+The rest of this work is organized as follows . Section 2 pres ⁃
+ents the design of the system , Section 3 evaluates the imple ⁃
+mented system , and Section 4 summarizes this work .
+2 System Design
+2.1 System Overview
+The overall framework design of the system is shown in 
+Fig. 1. In the data collection module , we use commercial Wi -
+Fi devices to collect CSI of different activities of people . The 
+feature extraction module preprocesses the received raw CSI 
+information and then extracts the DWT spectrum as the fea ⁃
+tures for activity classification . The feature classification 
+▲Figure 1. System framework diagramCSI: channel state information     DWT : discrete wavelet transform     PCA : principle component analysisInterpolation Signal denoising
+Signal 
+smoothing
+PCADWT 
+calculation
+Feature extractionFeature extraction
+DWT
+Feature classification
+Spatial feature 
+analysisFall detectorData collectionNormalFall CSI signal
+Fall
+Normal
+61

@@ -1,0 +1,77 @@
+pres sures and contributed to the future market 
+expansion of AMX. 
+Constantly Creating Value for Customers 
+In November 2018, after nearly two years of 
+joint eﬀorts, AMX selected ZTE to provide STB 
+services for its /f_ive subsidiaries within six months. 
+AMX’s decision has /f_irmly established its presence 
+in the traditional TV market, while also driving the 
+expansion of its new video services. This strategic 
+move has resulted in increased ARPU and an 
+enhanced user experience, making it highly 
+signi/f_icant. 
+In 2020, AMX eﬀectively implemented ZTE’s 
+end-to-end video solution, bolstering its presence 
+in the high-end market. AMX also adopted ZTE’s 
+AOSP-based STB (B866V2) to better meet its 
+market demands. This STB not only supports 
+HEVC/1.2654K video decoding, live TV, VOD and 
+advertising, but also integrates rich content from 
+Google applications and the Google ecosystem. 
+It oﬀers users an immersive 4K video experience, 
+attracting the attention of a large number of 
+high-end users. 
+In 2022, as the Android TV (ATV) market 
+gradually matured and became a development 
+trend for STBs, AMX sought to maintain its 
+competitiveness in the market by venturing into 
+the ATV business. However, AMX also aimed to 
+save manpower and capital costs while retaining 
+the existing AOSP STBs, with a desire to enhance 
+the user experience. To address these needs, 
+ZTE introduced Google’s brand-new variant 
+build approval (VBA) solution. As the world’s 
+/f_irst operator to deploy ATV with a uni/f_ied 
+hardware platform for multiple subsidiaries, 
+AMX succeeded in upgrading existing STBs 
+from AOSP to ATV. This upgrade greatly reduced 
+hardware replacement costs, shortened 
+the certi/f_ication period, and accelerated 
+time-to-market. In addition, mainstream 
+content providers such as Net/f_lix, YouTube and 
+Amazon Prime Video were also incorporated 
+to greatly enrich the ecosystem and enhance 
+customer stickiness. During the early stage 
+of the AOSP project, ZTE worked closely with Amco, a platform vendor, the Globalhitss 
+technical team, and UEI, a remote control 
+vendor, laying a solid foundation for the rapid 
+development of the ATV project.
+Through its reliable products and services, ZTE 
+has established eﬃcient technical partnerships 
+with third-party vendors and maintained in-depth 
+and eﬀective communication with AMX. With the 
+help of ZTE, AMX has become the world’s /f_irst 
+operator to successfully deploy the VBA solution. 
+The achievements AMX has made include:
+Migrating existing STBs from AOSP to 
+Android TV
+Saving hardware replacement costs
+Addressing diﬃcult issues of management, 
+certi/f_ication and deployment in ten countries
+Deploying commercial ATV rapidly in its ten 
+subsidiaries for soaring subscriber growth
+Enriching mainstream OTT video content to 
+enhance user experience and increase ARPU.
+The Argentine branch of AMX has become a 
+new end oﬃce with millions of STB subscribers, 
+setting a good benchmark for other branches. 
+Moving forward, AMX will continue to work 
+with ZTE to expand its footprint in the high-end 
+market and contribute to the development of Pay 
+TV services in the Mexican and Brazilian branches. 
+Additionally, AMX will consistently prioritize 
+customer value and introduce ZTE’s cutting-edge 
+4K STB solutions to expand its video business, 
+create new revenue streams, and strengthen its 
+market position. 
+39AUG 2023

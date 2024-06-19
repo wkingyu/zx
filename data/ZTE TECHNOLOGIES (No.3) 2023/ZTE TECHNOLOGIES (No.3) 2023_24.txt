@@ -1,0 +1,83 @@
+Fig. 1. SE+NE 
+FRER networking 
+architecture.
+Model1
+Model2FRERFRER
+NodeEngine
+SE9102Frame replication
+Control flowFrame deduplication
+Local application5G NR
+5G NRIP camera
+PLC
+Instrument54321
+543215
+5
+3
+2141
+loss
+lossFRER Provides High-Reliability 
+Service Guarantee for Determinism 
+of 5G Field Network
+T
+ToB Architect of ZTE RAN 
+Product PlanningLu Zhien
+5G Private Network 
+Planning Director of 
+ZTE CCN ProductsWang Zhenghe industrial /f_ield scenarios, such as 
+metal processing, complex 
+equipment assembly, and logistics 
+bring a great challenge to timely 
+and reliable acquisition of industrial equipment 
+data like control and experience. Stable and 
+reliable operation of /f_ield networks is very 
+important for manufacturing enterprises to 
+ensure stable production and improve the 
+eﬃciency. Therefore, 5G networks should be 
+capable of running continuously with high 
+reliability for a long time after entering the OT 
+domain of vertical industries. Most intelligent 
+manufacturing facilities require the /f_ield network 
+to operate steadily 24 hours a day and have a 
+certain QoS guarantee, because any interruption 
+will seriously aﬀect normal operation of the 
+enterprise. 
+To ensure end-to-end service determinism of 
+5G /f_ield network, a heterogeneous network can 
+be deployed with redundant data transmission 
+to achieve end-to-end high service reliability. 
+Currently, there are two ways to enhance the 
+reliability of data transmission: packet data 
+convergence protocol (PDCP), and frame 
+replication and elimination for reliability (FRER). 
+PDCP is used for redundant transmission of 
+industrial data on diﬀerent radio carriers. It 
+supports carrier aggregation and dual-connection mode to reduce packet loss 
+on the air interface caused by radio 
+interference and ensure data integrity and 
+timeliness.
+FRER supports two modes: single-terminal 
+dual-PDU sessions and dual-terminal FRER. 
+Data is sent in redundancy mode through two 
+independent user-plane bearer channels. The 
+sender replicates data, and the receiver 
+de-duplicates and reassembles data. This 
+reduces service damage caused by packet loss 
+in the transmission and core network and 
+improves the reliability of end-to-end data 
+transmission. Based on the reliability of 
+existing terminals, ZTE uses its self-developed 
+SmartEdge (SE) and NodeEngine (NE) to 
+propose the SE+NE FRER solution. Through 
+two independent radio links, FRER achieves 
+optimal data receiving and forwarding at the 
+convergence side. This not only avoids 
+retransmission and even packet loss caused by 
+occasional interference from the radio link on 
+the air interface, but also avoids service 
+interruption caused by sudden abnormality of 
+a single UE. This solution can improve 
+end-to-end service reliability. 
+FRER is applicable to control business in 
+steel, port and mine with complex radio 
+environments and high network reliability 
+225G Fully-Connected Factory Special Topic

@@ -1,0 +1,73 @@
+a maximum of 576 GE/10GE optical ports 
+and 72 100GE optical ports. 
+It employs a hardware architecture that 
+separates main control from switching. The 
+Mesh structure is adopted for connections 
+between multiple switching planes and 
+line cards, ensuring high performance and 
+scalability for the system. 
+It also supports the VSC stacking 
+technology, so that multiple switches can be 
+stacked for high redundancy and scalability. 
+Building an Ultra-Stable Network 
+Core
+ZXR10 C89E features highly reliable 
+architecture, high-reliability control, 
+high-reliability system, comprehensive 
+security protocols, and all-round reliability 
+functions, helping to build an ultra-stable 
+network core.
+Highly reliable architecture:  ZXR10 C89E 
+provides redundancy and hot-swappable 
+support for critical system components 
+such as control boards, switching boards, 
+fan modules, and power modules. ZXR10 
+ZXR10 C89E series switch
+Number of service slots
+Switching board
+Main control board
+Service board
+Input power supply4
+Two switching boards for 
+dynamic redundancy backupFour switching boards for 
+dynamic redundancy backupFour switching boards for 
+dynamic redundancy backup
+Separation of main control and switching, 1:1 hot standby
+48/24 × GE electrical interface, 48/24 × GE optical interface, 48/24 × 10GE optical interface, 
+6 × 100GE optical interface
+DC, AC, and high-voltage DC;   
+2+2 redundancyDC, AC, and high-voltage DC; 
+3+3 redundancyDC, AC, and high-voltage DC;   
+3+3 redundancy8 12ZXR10/uni00A0C89E-4 ZXR10/uni00A0C89E-8 ZXR10/uni00A0C89E-12Table 1. Comparison of the ZXR10 C89E series switch. 
+C89E-4 C89E-8 C89E-12
+which are evenly forwarded on each switching 
+plane to assure load balancing throughout the 
+entire system. 
+All-Programmable Chips to Ensure 
+Rapid Launch of New Services
+ZXR10 C89E utilizes in-house NP chips to 
+deliver powerful programmability. When 
+protocol evolution and technology updates 
+require changes in forwarding processes, 
+customers can update software to support 
+these changes without hardware replacement. 
+This allows services to be launched quickly 
+and /f_lexibly, ultimately protecting customer 
+investments.
+Ultra-Large System Capacity with 
+High-Density Ports to Oﬀer High 
+Scalability
+ZXR10 C89E supports up to 48 wirespeed 
+10GE interfaces or six 100GE interfaces per 
+slot, making it suitable for campus and data 
+center, enabling continuous upgrades and 
+capacity expansion. The entire system oﬀers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 35

@@ -1,0 +1,50 @@
+基于动态通道绑定的更高速无源光网络 张伟良  等 技术广角
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2[5] ITU. 40-Gigabit-capable passive optical networks (NG-PON 2): 
+transmission convergence layer specification amendment 2: ITU-
+T G.989.3 amd 2 [S]. 2018
+[6] ITU. Higher speed passive optical networks : common 
+transmission convergence layer specification : ITU-T G .9804 .2 [S]. 
+2021
+[7] 张伟良 , 黄新刚 , 马壮 .基于专用激活波长的低时延 50G-PON 原理与
+实 现 [J].中 兴 通 讯 技 术 ,2022 ,27(4):58-62.DOI:10.12142 /
+ZTETJ .202204012
+[8] LUO Y . Channel bonding analysis [EB/OL ]. [2024 -02-25]. ftps ://
+fsanftp@store .fsan.org/FSAN/FSAN ARCHIVE/FSAN GROUPS/
+NGPON/Meeting-Contributions/ 2019 /2019 -01 Plano/NG-
+PON 2_Enhancements/HW_Bonding throughput .pdf
+[9] ZHANG W L , YUAN L Q . Effective channel bonding framing based 
+on bandwidth map in G .hsp.ComTC [EB/OL ]. [2024 -02-25]. https ://
+www .itu.int/ifa/t/ 2017 /sg15/exchange/wp 1/q2/20-10-20_Phonecall/
+201020 _D32_ZTE_Effective channel bonding framing based on 
+bandwidth map in G .hsp.ComTC .docx
+[10] FRANK E . G.HSP: downstream extra features [EB/OL ]. [2024 -
+02-25]. https ://www .itu.int/ifa/t/ 2017 /sg15/exchange/wp 1/q2/
+20-06-09_Phonecall/ 200609 _D19_FW_DownstreamTopics .docx
+[11] ZHANG W L , YUAN L Q . Order recovery for channel bonding in 
+G.hsp.comTC [EB/OL ]. [2024 -02-25]. https ://www .itu.int/ifa/t/
+2017 /sg15/exchange/wp 1/q2/20-07-06_Multicall/ 200706 _D55_
+ZTE_order recovery for channel bonding in G .hsp.comTC_v 1.0.
+docx
+[12] ZHANG W L , YUAN L Q . Text proposal of PSBd synchronization 
+for channel bonding in G .hsp.comTC [EB/OL ]. [2024 -02-25]. 
+https ://www .itu.int/ifa/t/ 2017 /sg15/exchange/wp 1/q2/20-10-
+20_Phonecall/ 201020 _D31_ZTE_Text proposal of PSBd 
+synchronization for channel bonding in G .hsp.comTC .docx作 者 简 介
+张伟良 ，中兴通讯股份有限公司固网团队技术预
+研资深专家 、低时延 PON 技术负责人 ；长期从事
+光接入 、家庭网络产品的技术预研 、产品规划和
+标准化工作 ；主持并参与多项国家 “863”项目、
+省部级重点项目 ；获得中国专利优秀奖 、深圳市
+专利奖 、中国标准创新贡献奖 ；发表论文 10余
+篇，获得授权专利 100余项。
+王霄雨 ，中国电信集团高级项目经理 ；主要研究
+方向为接入网络关键技术 ，包括无源光网络 、业
+务体验感知等 。
+黄新刚 ，中兴通讯股份有限公司固网团队技术预
+研资深专家 ；长期从事光接入技术研究和标准化
+工作；主持并参与多项国家 “863”项目、省部级
+重点项目 ；获得国家科学技术进步奖二等奖一项 、
+电子学会科学技术进步奖一等奖一项 、深圳市科
+技进步奖二等奖一项 ；获得发明专利 10余项。
+106

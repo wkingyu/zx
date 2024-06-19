@@ -1,0 +1,87 @@
+Light ODN: Building a Visual, 
+Manageable, and Easy-to-Maintain 
+ODN
+Fixed Network Product 
+Planning Director, ZTEYang Yangs the deployment of /f_iber to the 
+X (FTTx) network deployments 
+continue to expand, the 
+importance of the optical
+distribution network (ODN) as the 
+“nerve endings of the optical network" 
+connecting millions of households is 
+becoming increasingly evident. Each 
+year, a massive amount of optical 
+/f_iber is deployed across the globe, 
+resulting in signi/f_icant amounts of dumb 
+resources. Consequently, eﬃcient network 
+construction and management of dark 
+/f_iber resources have become critical 
+for operators in building a competitive 
+optical network.
+Operators need a centralized, 
+standardized, and full-lifecycle system 
+to perform /f_ine-grained management of 
+the dumb resources and dark pipes of 
+the optical network. This system should 
+serve as a real-time, accurate, and reliable 
+intelligent management platform for 
+network resources, and provide a scienti/f_ic 
+and rational basis for network planning. 
+The key requirements for the visual 
+management of optical network resources 
+are as follows:
+Accurate data:  Data regarding 
+optical network nodes, including site 
+information, equipment information, 
+network connections, equipment 
+identi/f_iers, and port occupation, should 
+be accurately collected, transmitted, Aand recorded.
+Accurate routes:  Information about 
+network routes, including routing 
+topology information, information 
+about same-pipe or same-cable routes, 
+and route change information, should 
+be accurately collected, transmitted, 
+and recorded.
+Accurate predictions:  Network resource 
+usage and network performance 
+trends should be accurately analyzed. 
+Strategies for network topology 
+optimization and network capacity 
+expansion should be accurately 
+predicted.
+Light ODN Oﬀers Visual 
+Management of ODNs
+ZTE's Light ODN solution can help 
+customers quickly create visual, manageable, 
+and easy-to-maintain ODN networks for 
+various application scenarios. It reduces 
+the complexity of ODN operation and 
+maintenance while also improving resource 
+utilization eﬃciency to decrease redundant 
+investments.
+Light ODN comprises the FEB series 
+pre-connectorized devices, prefabricated/uni00A0
+cables, and an intelligent management 
+platform. A mobile app is used to scan 
+the QR codes on the pre-connectorized 
+devices and the barcodes of the optical 
+cables to collect their information. The 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+USER 8 AA2145007001
+USER 4 AA2145003001 Turbocharging FTTx Network Special Topic 
+ 14

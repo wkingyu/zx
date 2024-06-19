@@ -1,0 +1,85 @@
+算力网络四面三级算力度量技术体系 杜宗鹏  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 44.2 算力度量信息的通告
+CAN 是算力网络中的关键技术之一 。图3为CAN 算力通
+告流程 ：首先 ，对于泛在的算力节点 ，需要统一度量值的描
+述方式 ；其次 ，通过某种方法 ，将这些节点的算力能力通告
+到网络中 ；最后 ，算力网络的决策点可以参考收到的算力信
+息来进行算力服务调度 。上一节主要关注的是第一步 ，即描
+述算力能力和服务状态的方法 。一个标准化的算力能力的描
+述方法能够在很大程度上提升算力网络不同节点之间的协同
+能力 。本节中 ，我们主要关注第二步 ，这其中也会涉及相关
+的标准化工作 。
+通常 ，算力节点和 CAN 并不在同一个网络域中 ，因此
+算力信息的通告经常会考虑使用边界网关协议 （BGP） 。
+BGP 可以用于网络中边缘路由器 （PE）节点之间的路由信
+息交流 ，是计算机网络实现广泛互联的基础协议之一 。针对
+特定的算力服务 ，可以考虑扩展 BGP 协议 ，如在通告该服
+务的路由信息时 ，BGP 消息中携带节点的忙闲信息 ，以及节
+点的业务执行能力 TLV。
+在路由协议的相关扩展中 ，网络中的多个算力节点会共
+享同一个 Anycast （任播 ）地址 ，并同时发布自身相关算力
+信息 。一方面 ，多点部署的 Anycast 地址本身就不支持按照
+前缀汇聚 ；另一方面 ，不同的算力节点的算力情况不同 ，在
+BGP 路由优选时 ，需要对 BGP 协议进行扩展以支持对同一个
+Anycast 地址存在不同的 Nexthop （下一跳 ）以及算力信息的
+情况 。
+5 结束语
+算力度量是算力网络技术的重要基础之一 。统一的度量
+标准 、描述方式 ，有助于算力网络的各个网元之间进行高效
+协作 。目前 ，算力网络业务以及针对相关业务的度量还处于
+发展的初期阶段 。未来 ，随着算力网络业务的普及 ，统一的
+算力度量机制将促进算网融合共生 ，避免 “算力孤岛 ” ，实
+现全网算力的高效协同 ，从而使整个算力网络能够像一台虚
+拟的计算机一样统一调度 、统一管理 ，支撑千行百业的数智
+化转型 。参考文献
+[1] 中国移动 . 算力网络白皮书  [R]. 2021
+[2] CCSA . 算力网络  总体技术要求 :CCSA TC 3 WG3 [S]. 2021
+[3] 姚惠娟 , 陆璐, 段晓东 . 算力感知网络架构与关键技术  [J]. 中兴通讯技术 , 2021 , 
+27(3): 7-11. DOI: 10.12142 /ZTETJ .202103003
+[4] 雷 波 , 赵 倩 颖 , 赵 慧 玲 . 边 缘 计 算 与 算 力 网 络 综 述  [J]. 中 兴 通 讯 技 术 , 
+2021 ,27(3):
+[5] 唐 雄 燕 , 张 帅 , 曹 畅 . 夯 实 云 网 融 合  迈 向 算 网 一 体  [J]. 中 兴 通 讯 技 术 , 
+2021 ,27(3):
+[6] CCSA . 面向算网融合的算力度量与算力建模研究  [R]. 2021
+[7] ZHANG W G , MA X L , ZHANG J Z . Research on kubernetes' resource 
+scheduling scheme [C]//Proceedings of the 8th International Conference on 
+Communication and Network Security . ACM , 2018 : 144-148. DOI: 10.1145 /
+3290480 .3290507
+[8] LEE S , SON S , HAN J , et al . Refining micro services placement over 
+multiple kubernetes-orchestrated clusters employing resource monitoring 
+[C]//Proceedings of 2020  IEEE 40th International Conference on Distributed 
+Computing Systems (ICDCS ). IEEE , 2021 : 1328 -1332 . DOI : 10.1109 /
+ICDCS 47774 .2020 .00173
+[9] DU Z P , LI Z Q , DUAN X D , et al . Service information informing in 
+computing aware networking [C]//Proceedings of 2022  International 
+Conference on Service Science (ICSS ). IEEE , 2022 : 125-130. DOI : 10.1109 /
+ICSS 55994 .2022 .00027
+[10] SONG D , CHEN X S , RUI L L , et al . Resource allocation algorithm based 
+on modeling of ubiquitous network node capability [J]. Journal of physics : 
+conference series , 2022 , 2224 (1): 012089 . DOI : 10.1088 /1742 -6596 /2224 /
+1/012089
+[11] 中国电子技术标准化研究院 . 计算中心有效算力评测体系白皮书  [R]. 2022
+[12] DU Z P , FU Y X , LI C , et al . Computing information description in 
+computing-aware traffic steering : draft-du-cats-computing-modeling-
+description- 00 [S]. 2023
+作 者 简 介
+杜宗鹏 ，中国移动通信有限公司研究院基础网络
+技术研究所研究员 ；研究方向为算力网络 、未来
+IP网络、确定性网络等 ；发表论文 10余篇。
+李志强 ，中国移动通信有限公司研究院基础网络
+技术研究所研究员 ；长期从事未来 IP网络演进 、
+标准和技术研究工作 ，主要涉及下一代 IP网络 、
+算力网络 、云网融合 、SDN/NFV 、5G核心网等 。
+陆璐 ，中国移动通信有限公司研究院基础网络技
+术研究所副所长 、中国通信标准化协会 TC5核心
+网组组长 ；长期从事移动核心网策略 、演进、标
+准和技术研究工作 ，主要涉及未来网络架构 、智
+能管道 、边缘计算 、算力网络等领域 。
+图3 算力感知网络中算力通告的流程算力度量
+统一格式感知
+内容自定义
+方式自定义通告
+多因子评估
+自演进 、自优化决策
+13

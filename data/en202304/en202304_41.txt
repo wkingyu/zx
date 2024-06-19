@@ -1,0 +1,70 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Special Topic   Point Cloud Processing Methods for 3D Point Cloud Detection Tasks
+Point Cloud Processing Methods for Point Cloud Processing Methods for 
+33D Point Cloud Detection TasksD Point Cloud Detection Tasks
+WANG Chongchong1, LI Yao2, WANG Beibei3, 
+CAO Hong3, ZHANG Yanyong2
+(1. Anhui University , Hefei 230601 , China ；
+ 2. University of Science and Technology of China , Hefei 230026 , 
+China ；
+ 3. Institute of Artificial Intelligence , Hefei Comprehensive National Sci ⁃
+ence Center , Hefei 230026 , China )DOI: 10.12142 /ZTECOM .202304005
+http://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231123 .0900 .002.html, 
+published online November 23, 2023
+Manuscript received : 2023 -10-07
+Abstract : Light detection and ranging (LiDAR ) sensors play a vital role in acquiring 3D point cloud data and extracting valuable information 
+about objects for tasks such as autonomous driving , robotics , and virtual reality (VR). However , the sparse and disordered nature of the 3D 
+point cloud poses significant challenges to feature extraction . Overcoming limitations is critical for 3D point cloud processing . 3D point cloud 
+object detection is a very challenging and crucial task , in which point cloud processing and feature extraction methods play a crucial role and 
+have a significant impact on subsequent object detection performance . In this overview of outstanding work in object detection from the 3D 
+point cloud , we specifically focus on summarizing methods employed in 3D point cloud processing . We introduce the way point clouds are pro ⁃
+cessed in classical 3D object detection algorithms , and their improvements to solve the problems existing in point cloud processing . Different 
+voxelization methods and point cloud sampling strategies will influence the extracted features , thereby impacting the final detection perfor ⁃
+mance .
+Keywords : point cloud processing ; 3D object detection ; point cloud voxelization ; bird 􀆳s eye view ; deep learning
+Citation  (Format 1): WANG C C , LI Y , WANG B B , et al . Point cloud processing methods for 3D point cloud detection tasks [J]. ZTE Commu ⁃
+nications , 2023 , 21(4): 38–46. DOI : 10.12142 /ZTECOM .202304005
+Citation  (Format 2): C. C. Wang , Y. Li, B. B. Wang , et al ., “Point cloud processing methods for 3D point cloud detection tasks ,” ZTE Commu ⁃
+nications , vol. 21, no. 4, pp. 38–46, Dec. 2023 . doi: 10.12142 /ZTECOM .202304005 .
+1 Introduction
+3D object detection is critical for applications such as au ⁃
+tonomous driving , robotic system navigation , and auto ⁃
+mation systems . The goal of 3D object detection is to lo ⁃
+cate and identify objects in 3D scenes . Specifically , its 
+purpose is to estimate oriented 3D bounding boxes and seman ⁃
+tic categories of objects from point cloud data and provide im ⁃
+portant information for subsequent analysis and processing . 
+3D point cloud object detection is a challenging task . Here are 
+some major difficulties :
+1) Occlusion : In complex scenes , target objects may be oc ⁃
+cluded by other objects , which affects the performance of de ⁃
+tection algorithms .
+2) Sparsity : Due to the working principle of light detection 
+and ranging (LiDAR ), point cloud data are usually sparse , 
+which means that there are fewer effective points on the target 
+object .
+3) Point cloud noise : Noise points may be generated during 
+the LiDAR scanning process , which will interfere with the per ⁃
+formance of the detection algorithm .
+4) Real -time requirements : 3D point cloud object detection usually needs to be completed in real time .
+The object detection algorithm is a computer vision technol ⁃
+ogy that can identify and locate specific objects in images or 
+point clouds and is divided into 2D object detection[1–3] and 
+3D object detection[4–8]. These algorithms typically use deep 
+learning techniques . Object detection includes tasks such as 
+classification , localization , detection , and segmentation . Clas ⁃
+sification refers to obtaining what type of object is included in 
+the image or point cloud data . Localization refers to the posi ⁃
+tion of the given object . Detection refers to locating the posi ⁃
+tion of an object and judging the category of the object . Seg⁃
+mentation refers to determining which object or scene each 
+point or each pixel belongs to . Object detection algorithms are 
+widely used in many fields , such as face recognition , auto ⁃
+matic driving , and industrial inspection . For example , in face 
+recognition , object detection algorithms can be used to auto ⁃
+matically detect and track human faces and recognize the de ⁃
+tected faces . Unmanned driving applications rely on object de ⁃
+tection algorithms to give the poses of other traffic participants 
+to deal with complex road conditions .
+The point cloud processing method is a primary part of the 
+38

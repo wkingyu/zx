@@ -1,0 +1,50 @@
+Advisory Committee
+Director: Liu Jian
+Deputy Directors: Sun Fangping, Yu Yifang, 
+Zhang Wanchun, Zhu Yongxing
+Advisors: Bai Gang, Fang Hui, Hu Junjie, 
+Hua Xinhai, Li Weizheng, Liu Jinlong, Lu Ping, 
+Wang Qiang, Wang Quan
+Editorial Board
+Director:  Lin Xiaodong
+Deputy Director: Huang Xinming
+Members:  Deng Zhifeng, Huang Xinming, Jiang Yonghu, 
+Ke Wen, Liu Shuang, Lin Xiaodong, Ma Xiaosong, Shi Jun, 
+Sun Biao, Wei Xiaoqiang, Yang Zhaojiang, Zhu Jianjun
+Sponsor: ZTE Corporation
+Edited By Shenzhen Editorial Oﬃce
+General Editor:  Lin Xiaodong
+Deputy General Editor:  Huang Xinming
+Editor-in-Chief:  Liu Yang
+Executive Editor-in-Chief: Yue Lihua
+Circulation Manager: Wang Pingping
+Editorial Oﬃce
+Address: NO. 55, Hi-tech Road South, Shenzhen, P .R. China 
+Postcode: 518075
+Website: wwwen.zte.com.cn/en/about/publications
+Email: yue.lihua@zte.com.cn
+Statement: This magazine is a free publication for you.
+If you do not want to receive it in the future, you can send
+the “TD unsubscribe” mail to magazine@zte.com.cn.
+We will not send you this magazine again after
+receiving your email. Thank you for your support.ZTE TECHNOLOGIES
+VOL. 25 NO. 6 ISSUE 209 DEC 2023
+CONTENTS
+Expert View
+ZXA10 C600E: Industry’s First New-Generation 
+Tbps-Level All-Optical Access Platform10
+By Wang Xinsheng
+FTTR-B Opens New Horizons for Small and Micro Enterprises 24
+By Zhao JingSpecial Topic: Turbocharging FTTx 
+Network
+14
+By Yang YangLight ODN: Building a Visual, Manageable, and 
+Easy-to-Maintain ODN
+18
+By Zhu ZhenghuaZENIC ONE 2.0: Building an E2E FTTx O&M System
+21
+By Zhang LinSmart Cloud Platform: Wi-Fi in Hands, Experience in Mind
+06
+By Sun JinGolden Opportunity for Extensive 10G PON 
+Deployment04
+Reporter: Ren HeDaisytek: Empowering Your BusinessesVIP Voice

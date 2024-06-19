@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression    Special Topic
+Generally speaking , the research on single -frame point 
+cloud geometric compression is relatively mature , but there 
+are two challenges that remain yet . Spatial correlation has 
+not been utilized effectively , and most methods do not code 
+the correlation of point cloud data thoroughly and efficiently . 
+Besides , the calculation of the probability model for entropy 
+coding appears long and arduous due to the massive number 
+of contexts .
+2.2 Multi -Frame Point Cloud Compression
+Multi -frame point clouds are commonly used in scenarios 
+such as real -time 3D immersive telepresence , interactive VR , 
+3D free viewpoint broadcasting and automatic driving . Unlike 
+single -frame point cloud compression , multi -frame point cloud 
+compression prioritizes the use of time correlation , as well as 
+motion estimation and compensation . The existing methods for 
+multi -frame point cloud compression can be divided into two 
+categories : 2D projection and 3D decorrelation .
+The field of image and video compression is extensive and 
+has been well -explored over the past few decades . Various al ⁃
+gorithms convert point clouds into images and then compress 
+them straightforwardly by FFmpeg and H .265 encoders , etc. 
+AINALA et al[24] introduce a planar projection approximate en ⁃
+coding mode that encodes both geometry and color attributes 
+through raster scanning on the plane . However , this method 
+causes changes in the target shape during the mapping pro ⁃
+cess, making accurate inter -prediction difficult . Therefore , 
+SCHWARZ et al .[25] and SEVOM et al .[26] suggest rotated pla ⁃
+nar projection , cube projection , and patch -based projection 
+methods to convert point clouds into 2D videos , respectively . 
+By placing similar projections in adjacent frames at the same 
+location in adjacent images , the video compressor can fully re ⁃
+move temporal correlation . In Ref . [27], inter -geometry predic ⁃
+tion is conducted via TSP , which computes the one -to-one cor ⁃
+respondence of adjacent intra -blocks by searching for the 
+block with the closest average value . MPEG released the 
+video -based point cloud compression (V-PCC) technology for 
+dynamic point clouds in 2019[28]. This framework divides the 
+input point cloud into small blocks with similar normal vectors 
+and continuous space , then converts them to the planar sur ⁃
+face through cubes to record the occupancy image and auxil ⁃
+iary information . All resulting images are compressed by ma ⁃
+ture video codecs , and all bitstreams are assembled into a 
+single output file . Other attempts have been made to improve 
+the effectiveness of these methods . COSTA et al .[29] exploit sev ⁃
+eral new patch packaging strategies from the perspective of op ⁃
+timization for the packaging algorithm , data packaging links , 
+related sorting , and positioning indicators . Furthermore , 
+PARK et al .[30] design a data -adaptive packing method that 
+adaptively groups adjacent frames into the same group accord ⁃
+ing to the structural similarity without affecting the perfor ⁃
+mance of the V -PCC stream .
+Due to the inevitable information loss caused by point cloud projection , scholars have developed effective techniques to 
+compress the point cloud sequence of consecutive frames us ⁃
+ing motion compensation technology based on 3D space . 
+KAMMERL et al .[31] propose an octree -based geometric encod ⁃
+ing method , which achieves high compression efficiency by 
+performing the exclusive OR (XOR ) differences between adja ⁃
+cent frames . This method has been not only adopted in the 
+popular Point Cloud Library (PCL)[32] but also widely used for 
+further algorithm research . Other interframe approaches con ⁃
+vert the 3D motion estimation problem into a feature matching 
+problem[33] or use reconstructed geometric information[34] to 
+predict motion vectors and identify the corresponding relation ⁃
+ship between adjacent frames accurately . Recent explosive 
+studies[35–36] have shown that the learned video compression 
+offers better rate -distortion performance over traditional ones , 
+bringing significant reference significance to point cloud com ⁃
+pression . ZHAO et al .[37] introduce a bi -directional inter -frame 
+prediction network to perform inter -frame prediction and bring 
+effective utilization of relevant information in spatial and tem ⁃
+poral dimensions . KAYA et al .[38] design a new paradigm for 
+encoding geometric features of dense point cloud sequences , 
+optimizing the CNN for estimating the encoding distribution to 
+realize lossless compression of dense point clouds .
+Despite progress in the compression coding technology of 
+multi -frame point cloud models , two problems persist . The 
+existing multi -frame point cloud compression approaches 
+mainly rely on video coding and motion compensation , which 
+inevitably involves information loss or distortion caused by 
+mapping and block edge discontinuity . In addition , predic ⁃
+tive coding exhibits low applicability due to the inconsis ⁃
+tency of inter -frame point cloud geometry . The apparent off ⁃
+set of points between frames and the unavoidable noise in ⁃
+creases the difficulty of effectively using predictive coding in 
+inter -frame compression .
+3 Proposed Spatio -Temporal Context -Guided 
+Lossless Geometry Point Cloud Compres ⁃
+sion Method
+3.1 Overview
+The overall pipeline of our spatio -temporal context -guided 
+algorithm is shown in Fig . 1. First , we preprocess the input 
+point cloud by applying voxelization and scale transformation . 
+Then , the point cloud is divided into unit thickness sliced lay ⁃
+ers along the main axis . Next , we design a prediction mode 
+that makes full use of the temporal and spatial correlation in ⁃
+formation within both intra -frame and inter -frame . We calcu ⁃
+late the shortest path of points of reference layers (R-layers ) 
+via travelling salesman algorithms , and the results of the R -
+layers are then used to predict spatio -temporally and encode 
+the rest of the point clouds , namely predicted layers (P-
+layers ). Finally , the improved entropy coding algorithms are 
+adopted to obtain the compressed binary file .
+19

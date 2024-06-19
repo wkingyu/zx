@@ -1,0 +1,93 @@
+异构大规模分布式网络设计与性能评估 叶新泉  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1继续增加 RIS数目 ，对Het-LDN 的整体性能提升作用将不
+明显 。
+此外 ，UE数目和预编码方案也会影响 Het-LDN 的性能 。
+本部分中不同的仿真用例除了 UE数目的参数不同 ，其他的
+参数均相同 。其中 ，RIS数目为 32，其余的参数见表 3。图8
+为不同 UE数目和不同预编码方案下 Het-LDN 的每用户吞吐
+量的 CDF 曲线 。可以发现 ，当采用 SVD 预编码方案且 UE数
+目从 10降低到 8时，中值用户的吞吐量提升 28%；而当 UE
+数目从 8降低到 4时，中值用户的吞吐量则能提升 85%。产
+生上述现象的原因是 ：随着可调度 UE数目的减小 ，多用户
+传输造成的用户间干扰降低 ，Het-LDN 系统的性能随之提
+升。当采用最大比传输 （MRT）[20]预编码方案时 ，可调度
+UE的数目与 Het-LDN 系统的性能之间也呈现出类似的规律 。
+此外 ，在UE数目分别是 10、8和4的情况下 ，比较 SVD 和
+MRT 两种预编码对 Het-LDN 性能的影响时 ，SVD 预编码相
+对于 MRT 预编码 ，其中值用户的吞吐量分别提升 17%、22%
+和15%。这是由于 MRT 预编码仅考虑增强有用接收信号的
+功率 ，并没有考虑处理 MU干扰 ，而SVD 预编码则考虑了有
+用信号和干扰信号之间的平衡 ，因此 ，SVD 预编码的性能优
+于MRT 预编码 。
+3 结束语
+随着信息技术的不断发展 ，各种智能设备的能力越来越
+强，各类网络节点的部署越来越密 ，服务质量的要求越来越
+高。因此面向未来的网络部署将面临着成本 、能效 、性能 、
+复杂度和可扩展性等诸多挑战 ，由多类不同功能的网络节点
+组成的 Het-LDN 可以有效应对上述的问题 。两类不同功能的网络节点有不同的候选方案 ，需要综合考虑硬件成本 、实
+现复杂度 、功耗和可扩展性等多种不同因素确定最终节点的
+选型 。本文中 ，我们通过详细分析确定 Type-I-AP 和Type-
+II-RN 分别优选 Option 7.2x AP 和RIS。此外 ，还通过系统级
+仿真实验进一步验证 Het-LDN 的性能 。实验结果表明 ：
+Het-LDN 相对传统的 LDN 有着显著的性能优势 ；Het-LDN
+中RIS数目对系统性能的影响存在限制 ，当RIS数目增加到
+一定程度时 ，继续增加 RIS数目对系统性能提升没有贡献 ；
+Het-LDN 中使用 SVD 预编码性能优于 MRT 预编码 。
+致谢
+感谢中兴通讯股份有限公司禹宏康 、王云璐和张淑娟等
+对本研究的帮助 ！
+参考文献
+[1] Ericsson . Radio stripes : re-thinking mobile networks (2019 ) [EB/
+OL]. [2024 -01-12]. https ://www .ericsson .com/en/blog/ 2019 /2/
+radio-stripes
+[2] NGO H Q , ASHIKHMIN A , YANG H , et al . Cell-Free Massive 
+MIMO : uniformly great service for everyone [C]//Proceedings of 
+IEEE 16th International Workshop on Signal Processing Advances 
+in Wireless Communications (SPAWC ). IEEE , 2015 : 201-205. 
+DOI: 10.1109 /spawc .2015 .7227028
+[3] INTERDONATO G , BJORSON E , NGO H Q , et al . Ubiquitous cell-
+free massive MIMO communications [EB/OL ]. (2018 -04-10)
+[2024 -01-12]. https ://arxiv .org/abs/ 1804 .03421
+[4] BASHAR M , CUMANAN K , BURR A G , et al . Cell-free massive 
+MIMO with limited backhaul [C]//Proceedings of IEEE 
+International Conference on Communications (ICC). IEEE , 2018 . 
+DOI: 10.1109 /icc.2018 .8422865
+[5] BJORNSON E , SANGUINETTI L . Scalable cell-free massive 
+MIMO systems [J]. IEEE transactions on communications , 2020 , 
+68(7): 4247 -4261 . DOI: 10.1109 /tcomm .2020 .2987311
+[6] WEI C , XU K , XIA X C , et al . User-centric access point selection 
+in cell-free massive MIMO systems : a game-theoretic approach 
+[J]. IEEE communications letters , 2022 , 26(9): 2225 -2229 . DOI : 
+10.1109 /lcomm .2022 .3186350
+[7] LARSSON E G , VIEIRA J . Phase calibration of distributed antenna 
+arrays [J]. IEEE communications letters , 2023 , 27(6): 1619 -1623 . 
+DOI: 10.1109 /lcomm .2023 .3266836
+[8] KHANDEKAR A , BHUSHAN N , TINGFANG J , et al . LTE-
+advanced : Heterogeneous networks [C]//2010  European Wireless 
+Conference (EW). IEEE : 978-982. DOI : 10.1109 /
+EW.2010 .5483516
+[9] HU R Q , QIAN Y . An energy efficient and spectrum efficient 
+wireless heterogeneous network framework for 5G systems [J]. 
+IEEE communications magazine , 2014 , 52(5): 94-101. DOI : 
+10.1109 /mcom .2014 .6815898
+[10] 3GPP TR 38.801. Study on new radio access technology : Radio 
+access architecture and interfaces (Release 14): 3GPP TR 
+38.801 [S]. 2017
+[11] O-RAN Alliance . Control , user and synchronization plane 
+Specification : O-RANWG 4.CUS.0-v10.00 [S]. 2022
+图8 不同 UE数目和不同预编码方案下 Het-LDN 的每用户吞吐量的累
+计分布函数 （CDF）曲线UE：用户设备      MRT ：最大比传输      SVD ：奇异值分解每用户吞吐量 /（Gbit/s ）0 0.5 1 1.5 2 2.5 3 3.5 4 4.5累计分布函数1
+0.8
+0.6
+0.4
+0.2
+00.15x 0.17x
+0.22x0.28x0.85x
+4UE-MRT
+4UE-SVD
+8UE-MRT
+8UE-SVD
+10UE-MRT
+10UE-SVD
+80

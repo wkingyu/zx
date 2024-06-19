@@ -1,0 +1,86 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Link Budget and Enhanced Communication Distance for Ambient Internet of Things    Special Topic
+and microwave passive RFID transponders [J]. IEEE transactions on micro ⁃
+wave theory and techniques , 2005 , 53(9): 2978–2990 . DOI : 10.1109 /
+TMTT .2005 .854229
+[10] LAZARO A , GIRBAU D , SALINAS D . Radio link budgets for UHF 
+RFID on multipath environments [J]. IEEE transactions on antennas and 
+propagation , 2009 , 57(4): 1241– 1251 . DOI : 10.1109 /
+TAP.2009 .2015818
+[11] GRIFFIN J D , DURGIN G D . Complete link budgets for backscatter -
+radio and RFID systems [J]. IEEE antennas and propagation magazine , 
+2009 , 51(2): 11–25. DOI : 10.1109 /MAP .2009 .5162013
+[12] WEI P , CHE W Y , BI Z Y , et al . High -efficiency differential RF front -
+end for a Gen 2 RFID tag [J]. IEEE transactions on circuits and systems 
+II: Express briefs , 2011 , 58(4): 189–194. DOI : 10.1109 /
+TCSII .2011 .2124530
+[13] MOODY J , BASSIRIAN P , ROY A , et al . Interference robust detector -
+first near -zero power wake -up receiver [J]. IEEE journal of solid -state cir ⁃
+cuits , 2019 , 54(8): 2149–2162 . DOI : 10.1109 /JSSC .2019 .2912710
+[14] TIAN Y , YU N , LI J , et al . A high sensitivity and high dynamic range 
+ASK demodulator for passive UHF RFID with over -voltage protection 
+[C]//International conference on electronics technology . IEEE , 2023 : 
+1012–1016 . DOI : 10.1109 /ICET 58434 .2023 .10211808
+[15] MOODY J , BASSIRIAN P , ROY A , et al . A −76 dBm 7.4 nW wakeup ra ⁃
+dio with automatic offset compensation [C]//IEEE International Solid -
+State Circuits Conference . IEEE , 2018 : 452–454. DOI : 10.1109 /
+ISSCC .2018 .8310379
+[16] ALAJI I , AOUIMEUR W , GHANEM H , et al . Design of zero bias power 
+detectors towards power consumption optimization in 5G devices [J]. Mi⁃
+croelectronics journal , 2021 , 111: 105035 . DOI : 10.1016 /j.
+mejo .2021 .105035
+[17] KIMIONIS J , BLETSAS A , SAHALOS J N . Increased range bistatic scat ⁃
+ter radio [J]. IEEE transactions on communications , 2014 , 62(3): 1091–
+1104 . DOI : 10.1109 /TCOMM .2014 .020314 .130559
+[18] DOBKIN D M . The RF in RFID [M]. Amsterdam , Netherlands : Elsevier , 
+2008 . DOI : 10.1016 /B978 -0-7506 -8209 -1.X5001 -3
+[19] GREEN R B . The general theory of antenna scattering [D]. Columbus , 
+USA: The Ohio State University , 1963
+[20] NIKITIN P V , RAO K V S . Antennas and propagation in UHF RFID sys ⁃
+tems [C]//IEEE International Conference on RFID . IEEE , 2008 : 277–
+288. DOI : 10.1109 /RFID .2008 .4519368
+[21] NIKITIN P V , RAO K V S . Theory and measurement of backscattering 
+from RFID tags [J]. IEEE antennas and propagation magazine , 2006 , 48
+(6): 212–218. DOI : 10.1109 /MAP .2006 .323323
+[22] NIKITIN P V , RAO K V S , MARTINEZ R D . Differential RCS of RFID 
+tag [J]. Electronics letters , 2007 , 43(8): 431. DOI : 10.1049 /el: 20070253Biographies
+YANG Yibing received her BS degree from Anhui University , China in 2022 . 
+She is currently working toward her PhD degree with the School of Computer 
+Science and Technology , Beijing Jiaotong University , China . Her research inter ⁃
+ests include mobile and Internet networks
+LIU Ming (mingliu@bjtu .edu.cn) received his BE and ME degrees in electrical 
+engineering from Xi ’an Jiaotong University , China in 2004  and 2007 , respec ⁃
+tively , and PhD degree in electrical engineering from the National Institute of 
+Applied Sciences , France in 2011 . He was with the Institute of Electronics and 
+Telecommunications of Rennes , France , as a postdoctoral researcher from 2011  
+to 2015 . He is currently with Beijing Jiaotong University , China , as an associate 
+professor . His main research interests include beyond 5G/6G, PHY security , 
+and AI for wireless communications .
+XU Rongtao received his BS degree in radio technology from Xi ’an Jiaotong 
+University , China in 1997 , MS degree in communication and information sys ⁃
+tem from the Beijing University of Posts and Telecommunications , China in 
+2000 , and PhD degree in electronic and information engineering from The Hong 
+Kong Polytechnic University , China in 2007 . From 2000  to 2003 , he was a sys ⁃
+tem engineer at Siemens Ltd ., China . In 2007 , he joined Beijing Jiaotong Uni ⁃
+versity , China , where he is currently an associate professor with the State Key 
+Laboratory of Rail Traffic Control and Safety . His research interests include 
+wideband mobile communications , railway communications , and wireless sen ⁃
+sor networks .
+WANG Gongpu received his BE degree in communication engineering from 
+Anhui University , China in 2001 , MS degree from the Beijing University of 
+Posts and Telecommunications , China in 2004 , and the PhD degree from Uni ⁃
+versity of Alberta , Canada in 2011 . From 2004  to 2007 , he was an assistant pro ⁃
+fessor at the School of Network Education , Beijing University of Posts and Tele ⁃
+communications . He is currently a full professor with the School of Computer 
+and Information Technology , Beijing Jiaotong University , China . His research 
+interests include wireless communication theory , signal processing technolo ⁃
+gies, and the Internet of Things .
+GONG Wei received his BE degree in computer science from Huazhong Uni ⁃
+versity of Science and Technology , China , and ME degree in software engineer ⁃
+ing and PhD degree in computer science from Tsinghua University , China . He 
+is a professor with the School of Computer Science and Technology , University 
+of Science and Technology of China . He had also conducted research with Si ⁃
+mon Fraser University , Canada , and the University of Ottawa , Canada . His cur ⁃
+rent research interests include wireless networks , Internet of Things , and dis ⁃
+tributed computing .
+23

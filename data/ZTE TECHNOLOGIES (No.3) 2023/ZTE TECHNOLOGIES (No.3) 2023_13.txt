@@ -1,0 +1,45 @@
+operation domain will bring greater value 
+for operators and increase user stickiness. 
+Whether the 5G campus network could 
+ful/f_ill the /f_ield applications? Actually, /f_ield 
+applications have three unique demands. 
+First, they have extreme requirements for 
+determinism. The existing performance 
+capabilities of the campus network depend 
+on the public network, making it diﬃcult to 
+apply various strict assurance measures. 
+Second, /f_ield applications need closed-loop 
+data. That means the generation, receiving 
+and processing of data must be closed-loop 
+on the /f_ield to ensure continuity and 
+security. However, the campus network 
+relies on remote public clouds or is closed-loop at the campus level, making it 
+challenging to match local close-loop 
+requirements. Furthermore, some /f_ield 
+networks, especially production-line 
+network, need to be pre-integrated by 
+integrators in advance. The campus network 
+serves multiple services and even public 
+subscribers, so it can’t match the 
+pre-integration and migration requirements 
+of production lines. Therefore, serving /f_ield 
+applications directly using the campus 
+network is diﬃcult. To better serve the 
+manufacturing process, we recommend 
+overlaying /f_ield networks on the basis of a 
+5G campus network, i.e., a“1+N hierarchical 
+5G private network” (Fig. 1) . 
+Fig. 1. 1+N hierarchical 
+5G private network.
+1
+N •B2B dedicated
+Serves OT applications••B2B/B2C sharing
+Mainly serves IT applications5G campus
+network1+N hierarchical 
+5G private network
+5G field
+networks•
+5G campus network5G field network
+5G field network
+5G field network
+11JUN 2023

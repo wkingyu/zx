@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks    Research Papers
+vices in satellite systems is to allocate channel resources of 
+beam cells by a priority -based channel reservation strategy , 
+which has been intensively investigated in satellite communi ‐
+cation systems[4–10]. The basic idea is to reserve a certain num ‐
+ber of channels for handover calls and new calls with different 
+service priorities , to guarantee the priority of handover calls 
+and delay -sensitive services to ensure the continuity of calls 
+for moving UTs .
+Existing channel reservation strategies are mainly classified 
+into two categories , fixed channel reservation (FCR) and dy ‐
+namic channel reservation (DCR ). A guaranteed handover 
+FCR strategy was proposed in Ref . [7], which reserves a por ‐
+tion of channel resources dedicated to handover calls . Some 
+improvements have been made later , such as the channel 
+status -based reservation strategy (CSRS )[8] and time -based 
+channel reservation algorithm (TCRA )[9], which set the number 
+of reserved channels based on the information including the 
+status of the cell and/or the remaining time . However , fixed re ‐
+served channels cannot adapt to the dynamic environment and 
+multi -service requests , causing a high blocking rate for new 
+calls. In Refs . [10–15], the authors proposed adaptive DCR 
+strategies based on different prior information to dynamically 
+change the number of channels reserved . The authors of Ref . 
+[10] proposed to adjust the number of reserved channels , ac‐
+cording to the current number of ongoing calls (voice or video 
+traffic ) and the localization of users . In Ref . [11], a grey model 
+was used to decide whether the calls need to handover and 
+then dynamically adjust the channel reservation number 
+based on the counter . The authors of Ref . [12] leveraged the 
+number of mobile stations in neighbor locations and the aver ‐
+age handover call arrival rate to reserve channels . Ref. [13] 
+considered the varying characteristics of the wireless channel 
+to allocate resources , aiming at maximizing spectral effi ‐
+ciency . The authors of Ref . [15] proposed an adaptive 
+probability -based reservation strategy (APRS ) based on mo ‐
+bile users ’ location information and the handover probability , 
+to improve the utilization of reserved channels in reservation 
+time. Due to the imbalance between the new call blocking rate 
+and handover call failure rate , the system performance is not 
+satisfactory . Some researchers have used heuristic algorithms 
+to adjust the thresholds , and the authors of Ref . [4] proposed a 
+probability -based channel reservation strategy for improving 
+the quality of service . The authors of Ref . [5] proposed a 
+threshold -based DCR scheme to set optimal thresholds for 
+different -priority services by the genetic algorithm .
+However , all aforementioned schemes cannot respond 
+quickly to dynamic changes and uneven distribution of service 
+requirements , since they only consider finding the optimum in 
+the current state , while a long -term optimization is needed to 
+improve the system performance . With this regard , some re ‐
+searchers resort to exploiting machine learning algorithms for 
+designing intelligent channel reservation schemes to achieve 
+long -term performance improvement for complex satellite net ‐works . The authors of Ref . [15] proposed a dynamic channel 
+allocation algorithm based on deep reinforcement learning 
+(DRL ), which uses convolutional neural networks to extract 
+useful features to make accurate admission decisions . It can 
+effectively reduce the blocking rate and improve system 
+throughput . But this work focused on processing the connec ‐
+tion relationship of the UT in the beam and considered only a 
+single service type . The authors of Ref . [6] proposed a multi -
+service DCR strategy based on the deep Q network to improve 
+the overall service quality of the system , by examining the im ‐
+pact of current channel reservation results on the future envi ‐
+ronment . They mainly considered how to reserve channels for 
+new calls , while ignoring the impact of handover calls . Unfor ‐
+tunately , all the aforementioned works lack consideration of 
+multi -priority services and frequent handovers in highly dy ‐
+namic LEO satellite networks . Therefore , it is imperative to de ‐
+velop an intelligent admission control scheme to maximize 
+long -term system performance by performing appropriate 
+channel resource allocation for LEO satellite networks .
+In this paper , we propose an intelligent DCR strategy based 
+on the Actor -Critic algorithm (AC -DCRS ), which dynamically 
+adjusts the reserved channel thresholds for multi -service 
+calls. While traditional solutions only obtain the optimal solu ‐
+tion of the current state in a memoryless system , our proposed 
+AC -DCRS based on reinforcement learning can consistently 
+approach the long -term optimal solution by considering the 
+Markov property of the channel reservation problem . Specifi ‐
+cally , the Actor -Critic algorithm is leveraged to deal with con ‐
+tinuous state space and high -dimensional action space . 
+Through interactions with the network environment , AC -
+DRCS can well balance the admission of handover calls and 
+new calls of multiple priorities by setting corresponding 
+thresholds under the current traffic state .
+The rest of the paper is structured as follows . Section 2 pres ‐
+ents the system model and problem formulation . Section 3 
+elaborates on the proposed AC -based DCR strategy . We evalu ‐
+ate the performance of the proposed strategy in Section 4 and 
+finally conclude the paper in Section 5.
+2 System Model and Problem Formulation
+We consider a typical LEO communication network shown 
+in Fig . 1. The coverage area of a single moving LEO satellite 
+consists of multiple adjacent beam cells . A UT in the beam 
+cell establishes a connection to the LEO satellite directly or 
+through the base station in the beam cell . Handover call re ‐
+quests will arrive during the movement of the UT and satel ‐
+lites. At the same time , new call requests may also arrive re ‐
+quiring channel resources from the connected beam cell .
+2.1 LEO Mobility Model
+Without loss of generality , we consider a one -dimensional 
+square continuous beam cell model , which can be readily ex ‐
+tended to high -dimensional models . Since the moving speed of 
+55

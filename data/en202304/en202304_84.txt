@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage    Research Papers
+tively  Sf5 and Sf7, and then the output voltage can be written as :
+Vo=[2⋅(Sf13-1)+Sf5+Sf7]×E . (1)
+2E is selected as the voltage base value , and then the stan ⁃
+dardized output voltage range is [−1, 1]. To make the switches 
+S1 and S3 work at the fundamental frequency , Sf13 can be writ ⁃
+ten as :
+Sf13=ì
+í
+î1, 1≤vo≤0
+0, 1≤vo≤0 , (2)
+where vo is the reference value of the single -phase input volt ⁃
+age. Phase -shift pulse width modulation (PSPWM ) is adopted 
+in this paper with superior ability of FC voltage control . Ac⁃
+cording to the principle of PSPWM modulation , the modula ⁃
+tion voltage uref of the switches  S5–S8 can be written as :
+uref=ì
+í
+îvo, 0≤vo≤1
+vo+1, -1≤vo≤0 . (3)
+Under the SPWM modulation , the reference sinusoidal volt ⁃
+age of the single -phase output of the converter is :
+uo=m⋅Vm⋅sinθ , (4)
+where Vm is the AC voltage amplitude when the modulation ra ⁃
+tio is maximum , Vm=2E=Vdc/2, and Vdc is the DC side volt ⁃
+age; m represents the modulation ratio , where m=um/Vm, 
+0≤m≤1, and um is the actual output voltage amplitude ; θ rep⁃
+resents the voltage phase angle , where θ=2πft, and f is the 
+voltage frequency .
+2) FC voltage regulation : One of the major control difficul ⁃
+ties of 5L ANPC is to balance the FC voltage to achieve the 
+desired output voltage . As can be seen from Fig . 4, the bal ⁃
+ance of the voltage at both ends of Cf determines whether five 
+levels can be generated normally . Therefore , ensuring the sta ⁃
+bility of the flying capacitor voltage is crucial to normal opera ⁃tion. If the voltage fluctuation is too large , the output voltage 
+quality cannot be guaranteed , resulting in serious waveform 
+distortion and other problems . On the other hand , the voltage 
+fluctuation of the flying capacitor will directly affect the volt ⁃
+age stress of the switching devices . Under normal working con ⁃
+ditions , the voltage borne by each switch is about  Vdc/4, and 
+the voltage fluctuation will directly lead to high voltage stress 
+of the switches . Therefore , considering the above two consider ⁃
+ations , the control goal must be achieved within the range of 
+voltage stress constraints and output harmonic distortion con ⁃
+straints of switching devices .
+There is a 180° phase shift between carriers Cr1 and Cr2, cor⁃
+responding to Sx1 and Sx2, respectively . As can be seen from 
+the above section , the FC voltage can be adjusted by changing 
+the working time of the redundant switching state (V2, V3) or 
+(V6, V7) within one carrier cycle , which can be easily realized 
+by modifying the modulated waves of Sx1 and Sx2. For example , 
+when the Sx1 modulated wave residence time increases ∆mx 
+and the Sx2 modulated wave residence time decreases ∆mx, 
+there is a total of 2∆mxix current over one current -carrying 
+cycle to charge the FC . Define the average terminal voltage of 
+a carrier cycle as va and calculate it to satisfy the volt -second 
+balance . At this time , the average current through FC can be 
+written as :
+iˉ
+f=2Δt
+Ts×io. (5)
+The time width is very small and can be adjusted with a 
+proportional -integral (PI) controller or a hysteresis compara ⁃
+tor, or a constant value can be selected . With this method , the 
+FC voltage can be easily stabilized near its reference value .
+3 Simulation and Experimental Results
+A 5L ANPC rectifier simulation model is established un ⁃
+der the MATLAB/Simulink simulation tool , and the simula ⁃
+tion analysis is carried out according to the required techni ⁃
+cal indicators .
+In an AC input condition , it can be seen from Fig . 5 that the 
+bridge arm voltage has seven levels , and the common -mode 
+voltage is small . At this time , the sinusoidal degree of the in ⁃
+put current is good and basically consistent with the voltage 
+phase . The power factor is 1, which can realize the unit power 
+operation .
+In order to verify the effectiveness of the topology and con ⁃
+trol strategy in this paper , a 1 kW experimental prototype is 
+built as shown in Fig . 6. The input port is located on the right 
+side of this figure while the output port on the left side . The 
+two vertical circuit boards are control and drive circuits re ⁃
+spectively .
+Firstly , the feasibility of the modulation strategy adopted in 
+the reverse inverter experiment is verified . Fig. 7 shows the 
+waveform of the bridge arm levels , the output AC voltage , the 
+ ▲Figure 4. Modulation diagram under different modulated wave mx rangeCr1Cr2
+mx
+Sx1
+Sx2
+Vn
+V6 V5 V7 V5 V6 V8 V7 V8 V6V2 V1 V3 V1 V2 V4 V3 V4 V2
+81

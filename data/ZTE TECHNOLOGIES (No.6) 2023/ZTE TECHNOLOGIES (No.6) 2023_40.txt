@@ -1,0 +1,97 @@
+network areas that cover tens of thousands of 
+users have to be divided into several discrete 
+sub-regions for phased FTTH network 
+upgrades. On the other hand, with the 
+increasing prevalence of FTTH construction, 
+scenarios involving distributed deployments 
+in rural, suburban, and island areas are on 
+the rise. Continuing to employ traditional 
+ODN centralized deployment approaches will 
+inevitably reduce the utilization of OLT ports 
+and the ODN network, which hinders the 
+protection of investments.
+Light PON Solution for Fast End-to-End 
+FTTH Deployment
+To address these challenges, Link Net made an 
+extensive technical analysis and a business case 
+study, and worked with ZTE to explore tailored 
+solutions that cater to Link Net’s needs—the 
+Light PON solution. This innovative modular 
+network construction solution composes 
+lightweight OLT, Light ODN, and cloud network 
+management Zenic One. It can address the range 
+of challenges that Link Net encounters when 
+using traditional solutions, enabling Link Net 
+to expedite FTTH deployment at a lower cost. 
+Zero equipment room construction:  Using 
+the small-capacity OLT product C610, there is 
+no need to build an equipment room. It can 
+be installed on existing steel poles, eﬀectively 
+reducing the diﬃculty and cost associated with 
+obtaining right-of-way permissions. 
+Zero-con/f_iguration commissioning: 
+Customized OLT zero-con/f_iguration 
+commissioning technology enables 
+personnel to commission the equipment 
+without the need to visit the site. Based on 
+calculations, for every 500 OLT installations, 
+Link Net can save 120 person-days of work, 
+resulting in a 99% increase in installation 
+eﬃciency. 
+Zero on-site fusion splicing:  By introducing 
+pre-connectorized optical cables with 
+connectors pre-installed in the factory, 
+there is no need for on-site fusion splicing 
+by the construction personnel. These 
+pre-connectorized optical cables support 
+ 
+PON technology for the construction of its /f_ixed 
+broadband network. 
+Throughout this process, Link Net has 
+consistently selected ZTE as its partner to build 
+FTTH networks and explore PON applications. 
+After in-depth analysis of the /f_ixed-line 
+market in Indonesia, Link Net took the lead in 
+commercializing the Any PON solution in 2021, 
+which enables its network to support GPON 
+access while satisfying the uplink/downlink 
+symmetric 10G PON bandwidth needs of 
+government and enterprise users, as well as the 
+smooth evolution to 10G PON for home users 
+in the future. As the scale of FTTH construction 
+continues to expand, Link Net not only considers 
+optimal solutions for active equipment but also 
+places increasing emphasis on cost savings within 
+the ODN segment. Traditional FTTH construction 
+modes come with the following challenges:
+High costs of building a new equipment 
+room: Traditional PON construction involves 
+building a new equipment access room 
+for optical line terminal (OLT), which has a 
+large footprint, leading to high costs for site 
+construction and right-of-way permits. 
+Long debugging time:  Each OLT requires 
+technical engineers to perform on-site 
+service con/f_iguration, with a debugging and 
+commissioning time of more than one day. 
+Much /f_iber fusion splicing:  Traditional ADSS 
+optical cables require core-by-core /f_iber fusion 
+using a dedicated fusion splicer. Link Net 
+needs skilled fusion splicing technicians to 
+perform these operations. Moreover, due to 
+the large number of /f_iber cores in ADSS cables, 
+their installation is both time-consuming and 
+labor-intensive. 
+Diﬃcult optical network O&M:  In the FTTH 
+network O&M phase, Link Net /f_inds that as 
+ODN devices are replaced and some FTTH 
+users disconnect, a growing number of 
+ODN ports fail to be identi/f_ied in terms of 
+their availability. Additionally, managing 
+the ODN port connections results in 
+substantial O&M costs.
+Diﬃculties in planning for discrete regions: 
+On the one hand, due to construction permits 
+and user intentions, some existing HFC 
+Success Story 
+38 

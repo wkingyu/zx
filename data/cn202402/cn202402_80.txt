@@ -1,0 +1,54 @@
+大模型关键技术与应用 韩炳涛  等 企业视界
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2大模型关键技术与应用
+Key Technologies and Applications of Large Models
+韩炳涛 /HAN Bingtao1，2，刘涛/LIU Tao1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+  2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+ 2.The State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202402012
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240418 .1324.004.html
+网络出版日期 ：2024 -04-19
+收稿日期 ：2024 -02-18
+摘要 ：介绍了自 ChatGPT 发布以来 ，大模型关键技术和应用的主要进展 。在大模型设计方面 ，模型规模不断增加 ，但已有放缓趋势 ，更长的上
+下文以及多模态已经成为主流 ，计算效率明显提升 ；在模型训练方面 ，从单纯追求数据数量逐渐转变为关注数据的多样性和质量 ，特别是如何
+使用合成数据训练大模型成为主流探索方向 ，这是迈向通用人工智能 （AGI）的关键 ；在模型推理方面 ，模型量化和推理引擎优化极大降低了模
+型使用成本 ，诸如投机采样等新兴算法逐渐成熟 。在应用层 ，Agent 技术获得了重大进展 ，在克服大模型固有缺陷方面发挥了不可替代的作用 。
+越来越多的企业开始规划 、研发以及使用大模型 ，企业级大模型应用架构日益成熟完善 ，并以场景 、技术、算法三要素为抓手加速大模型商业
+价值闭环 。
+关键词 ：大模型 ；模型训练 ；推理加速 ；大模型安全 ；智能体
+Abstrac t:The major advances in key technologies and applications of large models since the release of ChatGPT are presented . In terms of 
+large model design , the model scale is increasing , but it has slowed down . Longer context and multi-mode have become the mainstream , 
+and the computational efficiency has been significantly improved . In terms of model training , the focus has shifted from simply seeking a 
+larger quantity of data to a more focused approach on the diversity and quality of data , especially how to train large models using synthetic 
+data. This is an essential direction towards achieving artificial general intelligence (AGI). In terms of model inference , model quantification 
+and inference engine optimization greatly reduce the cost of model use , and emerging algorithms such as speculative sampling gradually ma ⁃
+ture. At the application level , Agent technology has made significant progress , playing a critical role in addressing the inherent limitations of 
+large models . More and more enterprises are beginning to plan , develop , and utilize large models , and the enterprise-level large model appli ⁃
+cation architecture is becoming increasingly mature , focusing on scenarios , technologies , and algorithms to accelerate the closing loop of 
+large model commercial value .
+Keywords :large model ; model training ; inference accelerating ; large model safety ; Agent
+引用格式 ：韩炳涛 , 刘涛 . 大模型关键技术与应用  [J]. 中兴通讯技术 , 2024 , 30(2): 76-88. DOI: 10.12142 /ZTETJ .202402012
+Citation ： HAN B T , LIU T . Key technologies and applications of large models [J]. ZTE technology journal , 2024 , 30(2): 76-88. DOI : 10.12142 /
+ZTETJ .202402012
+2022年底 ，OpenAI 发布了跨时代的 ChatGPT 应用 。这是第
+一个具有流畅的多轮对话体验 、渊博的通识知识 ，并能
+够深刻理解人类意图的生成式人工智能 （AI）应用 。它的成
+功使大模型成为 AI的主旋律 ，在极短的时间内改变了 AI产
+业的格局 。
+尽管距离 ChatGPT 的发布仅过去一年多 ，但大模型技术
+已 经 取 得 了 巨 大 的 进 展 。随 着 GPT- 4、Gemini 、Sora、
+Claude 3、Kimi 等一系列大模型的陆续发布 ，大模型能力已
+迅速提升 ，甚至更为强大的通用人工智能 （AGI）已初见端
+倪。本文中 ，我们试图对 ChatGPT 发布以来大模型的关键技
+术做出综述 ，厘清大模型技术全貌及发展态势 ，以便读者做出更好的判断和预测 。
+1 模型设计
+目前 ，主流大模型的结构都是在 Transformer 基础上不断
+改进 ，以实现更强大的语言理解和生成能力 、更长的上下文
+推理能力 、更多模态的数据处理能力 ，以及更高的算力利用
+效率 。
+1.1 主流大模型的架构演化
+2017 年，Google 提出 Transformer[1]，创造性地将注意力
+机制作为核心算子来构建语言模型 ，解决了长短期记忆网络
+76

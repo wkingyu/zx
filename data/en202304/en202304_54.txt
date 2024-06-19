@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Perceptual Optimization for Point -Based Point Cloud Rendering    Special Topic
+3 Experimental Results
+3.1 Point Cloud Sequence Selection
+We use ten static point clouds to examine the performance 
+of the proposed method in terms of objective and perceptual 
+quality . Fig. 3 shows a thumbnail of the point cloud se ⁃
+quences . Table 1 shows the detailed information of each point 
+cloud sequence .
+3.2 Subjective and Objective Results
+The effect of the rendering through outlier detection is first 
+evaluated by conducting a subjective comparison before and 
+after outlier optimization . Take Head ’s character point cloud 
+sequence and Phil ’s object point cloud sequence as ex ⁃
+amples . Figs . 4 and 5 show the subjective comparison effects 
+of the above two point cloud sequences using the original 
+point -rendering[10] and the proposed method . It can be found 
+that the rendering radius of outlier points far from the main se ⁃
+quence area is significantly reduced after outlier detection 
+and rendering , and the perceptual quality of the point cloud 
+sequence is improved .
+We also compress the original point cloud sequence and 
+calculate the PSNR using the original point rendering[10] and 
+the proposed method . The improvement of PSNR using the 
+proposed method is utilized to react to the effectiveness of ren ⁃
+dering based on outlier detection .
+In terms of point cloud compression , since outlier point de ⁃
+tection does not target the attribute features of the point cloud 
+sequence , the original color attributes are not compressed , and 
+the original point cloud sequence attributes are kept lossless . 
+Regarding geometric compression , we choose three geometric 
+quantization parameters with large discretization , namely {1/10, 
+1/2, 15/18}, to verify the effectiveness of the proposed algorithm 
+under different degrees of geometric compression in geometry 
+point cloud compression (G-PCC).
+To compute PSNR , we project each point cloud sequence to 
+the three planes of the point cloud enclosing the box to form 
+three views of the point cloud view . We render the original un ⁃
+compressed sequence of the point cloud sequence through Pc ⁃
+cAppRendererV 6.0 with the rendering radius set to 1.0 to ob ⁃
+tain the reference view of the point cloud sequence . The quan ⁃
+tized distortion images of each point cloud sequence before 
+and after optimization are obtained in turn , and the mean 
+squared error (MSE ) and PSNR are calculated from the refer ⁃
+ence image and distortion image as shown in the following 
+equations .
+(a) Andrew (b) David (c) Phil (d) Ricardo
+(e) Sarah (f) Head (g) House without roof (h) Egyptian mask
+(i) Facade (j) Frog
+▲Figure 3. Point cloud sequence thumbnail
+▼Table 1. Point cloud sequence details
+Tested Point Clouds
+Andrew
+David
+Phil
+Ricardo
+Sarah
+Head
+House without roof
+Egyptian mask
+Facade
+FrogClass (1: people
+2: object )
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2Points
+1 276 312
+1 492 780
+1 089 091
+2 592 758
+3 493 085
+13 903 516
+4 848 745
+272 684
+4 061 755
+3 614 251Geometry
+Precision/bit
+10
+10
+10
+10
+10
+12
+12
+12
+11
+12Peak Val ⁃
+ue/bit
+1 023
+1 023
+1 023
+1 023
+1 023
+4 095
+4 095
+4 095
+2 047
+4 095
+(a) Original (b) Before (c) After
+▲Figure 4. Point cloud Head before and after optimization comparison 
+diagram
+(a) Original (b) Before (c) After
+▲Figure 5. Point cloud Phil before and after optimization comparison 
+diagram
+51

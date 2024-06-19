@@ -1,0 +1,128 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Special Topic   Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management
+inverter -based volt -VAR control [J]. IEEE transactions on smart grid , 2021 , 12
+(4): 2980–2990 . DOI : 10.1109 /TSG .2021 .3060027
+[2] WANG J H , XU W K , GU Y J , et al . Multi -agent reinforcement learning for ac ‐
+tive voltage control on power distribution networks [EB/OL ]. (2021 -10-27) 
+[2023 -06-10]. https ://arxiv .org/abs/ 2110 .14300
+[3] WANG D X , MENG K , GAO X D , et al . Coordinated dispatch of virtual energy 
+storage systems in LV grids for voltage regulation [J]. IEEE transactions on in ‐
+dustrial informatics , 2018 , 14(6): 2452–2462 . DOI : 10.1109 /TII.2017 .2769452
+[4] YI J, WANG P , TAYLOR P C , et al . Distribution network voltage control using 
+energy storage and demand side response [C]//The 3rd IEEE PES Innovative 
+Smart Grid Technologies Europe (ISGT Europe ). IEEE , 2013 : 1–8. DOI : 
+10.1109 /ISGTEurope .2012 .6465666
+[5] PIGOTT A , CROZIER C , BAKER K , et al . GridLearn : multiagent reinforcement 
+learning for grid -aware building energy management [J]. Electric power systems 
+research , 2022 , 213: 108521 . DOI : 10.1016 /j.epsr.2022 .108521
+[6] LOWE R , WU Y , TAMAR A , et al . Multi -agent actor -critic for mixed 
+cooperative -competitive environments [C]//The 31st International Conference 
+on Neural Information Processing Systems . ACM , 2017 : 6382–6393 . DOI : 
+10.5555 /3295222 .3295385
+[7] RASHID T , DE WITT C S , FARQUHAR G , et al . QMIX : monotonic value func ‐
+tion factorisation for deep multi -agent reinforcement learning [C]//35th Interna ‐
+tional Conference on Machine Learning . ICML , 2018 : 6846–6859 . DOI : 
+10.48550 /arXiv .1803 .11485
+[8] YU C , VELU A , VINITSKY E , et al . The surprising effectiveness of PPO in co ‐
+operative multi -agent games [J]. Advances in neural information processing sys ‐
+tems, 2022 , 35: 24611–24624 . DOI : 10.48550 /arXiv .2103 .01955
+[9] MA Y , HAO X , HAO J , et al . A hierarchical reinforcement learning based opti ‐
+mization framework for large -scale dynamic pickup and delivery problems [J]. 
+Advances in neural information processing systems , 2021 , 34: 23609–23620
+[10] ZHANG H C , FENG S Y , LIU C , et al . CityFlow : a multi -agent reinforcement 
+learning environment for large scale city traffic scenario [C]//The World Wide 
+Web Conference . ACM , 2019 : 3620–3624 . DOI : 10.1145 /3308558 .3314139
+[11] CHEN X , QU G N , TANG Y J , et al . Reinforcement learning for selective key 
+applications in power systems : recent advances and future challenges [J]. 
+IEEE transactions on smart grid , 2022 , 13(4): 2935–2958 . DOI : 10.1109 /
+TSG.2022 .3154718
+[12] VAZQUEZ -CANTELI J R , DEY S , HENZE G , et al . Citylearn : standardizing 
+research in multi -agent reinforcement learning for demand response and urban 
+energy management [EB/OL ]. (2020 -12-18) [2023 -06-10]. https ://arXiv .org/
+abs/2012 .10504
+[13] PAPOUDAKIS G , CHRISTIANOS F , RAHMAN A , et al . Dealing with non -
+stationarity in multi -agent deep reinforcement learning [EB/OL ]. (2019 -6-11) 
+[2023 -06-10]. https ://arXiv .org/abs/ 1906 .04737
+[14] BAKER K . Learning warm -start points for Ac optimal power flow [C]//The 
+29th International Workshop on Machine Learning for Signal Processing 
+(MLSP ). IEEE , 2019 : 1–6. DOI : 10.1109 /MLSP .2019 .8918690
+[15] OLIEHOEK F A , AMATO C . Finite -horizon dec -POMDPs [M]. A concise in ‐
+troduction to decentralized POMDPS . Cham : Springer , 2016 : 33–40. DOI : 
+10.1007 /978 -3-319 -28929 -8_3
+[16] FOERSTER J , FARQUHAR G , AFOURAS T , et al . Counterfactual multi -
+agent policy gradients [C]//The AAAI Conference on Artificial Intelligence . 
+ACM , 2018 : 2974–2982 . DOI : 10.1609 /aaai .v32i1.11794
+[17] CHEN T Y , BU S R , LIU X , et al . Peer -to-peer energy trading and energy con ‐
+version in interconnected multi -energy microgrids using multi -agent deep rein ‐
+forcement learning [J]. IEEE transactions on smart grid , 2022 , 13(1): 715–
+727. DOI : 10.1109 /TSG .2021 .3124465
+[18] GLATT R , DA SILVA F L , SOPER B , et al . Collaborative energy demand re ‐
+sponse with decentralized actor and centralized critic [C]//The 8th ACM Inter ‐
+national Conference on Systems for Energy -Efficient Buildings , Cities , and 
+Transportation . ACM , 2021 : 333–337. DOI : 10.1145 /3486611 .3488732
+[19] VELIČKOVIĆ P , CUCURULL G , CASANOVA A , et al . Graph attention net ‐
+works [EB/OL ]. (2017 -10-30) [2023 -06-10]. https ://arxiv .org/abs/ 1710 .10903
+[20] XU K , LI C , TIAN Y , et al . Representation learning on graphs with jumping 
+knowledge networks [C]//International conference on machine learning . 
+PMLR , 2018 : 5453–5462 . DOI : 10.48550 /arXiv .1806 .03536
+[21] YOU Y N , CHEN T L , SUI Y D , et al . Graph contrastive learning with augmen ‐
+tations [C]//The 34th International Conference on Neural Information Process ‐ing Systems . ACM , 2020 : 5812–5823 . DOI : 10.5555 /3495724 .3496212
+[22] SRINIVAS A , LASKIN M , ABBEEL P . CURL : contrastive unsupervised repre ‐
+sentations for reinforcement learning [EB/OL ]. (2020 -04-08) [2023 -06-10]. 
+https ://arxiv .org/abs/ 2004 .04136
+[23] SCHULMAN J , WOLSKI F , DHARIWAL P , et al . Proximal policy optimiza ‐
+tion algorithms [EB/OL ]. (2017 -08-28) [2023 -06-10]. https ://arXiv .org/abs/
+1707 .06347
+[24] BARAN M E , WU F F . Network reconfiguration in distribution systems for 
+loss reduction and load balancing [J]. IEEE power engineering review , 1989 , 9
+(4): 101–102. DOI : 10.1109 /MPER .1989 .4310642
+[25] MNIH V , BADIA A P , MIRZA M , et al . Asynchronous methods for deep rein ‐
+forcement learning [C]//The 33rd International Conference on International 
+Conference on Machine Learning . ACM , 2016 : 1928–1937 . DOI : 10.48550 /
+arXiv .1602 .01783
+[26] CAO D , HU W H , ZHAO J B , et al . A multi -agent deep reinforcement learning 
+based voltage regulation using coordinated PV inverters [J]. IEEE transactions 
+on power systems , 2020 , 35(5): 4120– 4123 . DOI : 10.1109 /
+TPWRS .2020 .3000652
+[27] ZHANG Y , WANG X N , WANG J H , et al . Deep reinforcement learning based 
+volt -VAR optimization in smart distribution systems [J]. IEEE transactions on 
+smart grid , 2021 , 12(1): 361–371. DOI : 10.1109 /TSG .2020 .3010130
+[28] SUKHBAATAR S , SZLAM A , FERGUS R . Learning multiagent communica ‐
+tion with backpropagation [C]//The 30th International Conference on Neural 
+Information Processing Systems . ACM , 2016 : 2252–2260 . DOI : 10.5555 /
+3157096 .3157348
+[29] FOERSTER J N , ASSAEL Y M , DE FREITAS N , et al . Learning to communi ‐
+cate with Deep multi -agent reinforcement learning [C]//The 30th International 
+Conference on Neural Information Processing Systems . ACM , 2016 : 2145–
+2153 . DOI : 10.5555 /3157096 .3157336
+[30] JIANG J C , LU Z Q . Learning attentional communication for multi -agent coop ‐
+eration [C]//The 32nd International Conference on Neural Information Process ‐
+ing Systems . ACM , 2018 : 7265–7275 . DOI : 10.5555 /3327757 .3327828
+[31] GILMER J , SCHOENHOLZ S S , RILEY P F , et al . Neural message passing for 
+Quantum chemistry [C]//The 34th International Conference on Machine Learn ‐
+ing. ACM , 2017 : 1263–1272 . DOI : 10.5555 /3305381 .3305512
+[32] LEE J , LEE I , KANG J . Self -attention graph pooling [C]//International confer ‐
+ence on machine learning . PMLR , 2019 : 3734 -3743 . DOI : 10.48550 /
+arXiv .1904 .08082
+[33] IQBAL S , SHA F . Actor -attention -critic for multi -agent reinforcement learning 
+[C]//International Conference on Machine Learning . PMLR , 2019 : 2961–
+2970 . DOI : 10.48550 /arXiv .1810 .02912
+[34] JIANG J C , DUN C , HUANG T J , et al . Graph convolutional reinforcement 
+learning [EB/OL ]. (2018 -10-22) [2023 -06-10]. https ://arxiv .org/abs/
+1810 .09202
+[35] RYU H , SHIN H , PARK J . Multi -agent actor -critic with hierarchical graph at ‐
+tention network [C]//The AAAI Conference on Artificial Intelligence . AAAI , 
+2020 : 7236–7243 . DOI : 10.1609 /aaai .v34i05.6214
+[36] YOON D , HONG S , LEE B J , et al . Winning the L 2RPN challenge : power grid 
+management via semi -markov afterstate actor -critic [EB/OL ]. (2021 -01-13) 
+[2023 -06-10]. https ://openreview .net/pdf ?id=LmUJqB 1Cz8
+[37] HOSSAIN R R , HUANG Q H , HUANG R K . Graph convolutional network -
+based topology embedded deep reinforcement learning for voltage stability con ‐
+trol [J]. IEEE transactions on power systems , 2021 , 36(5): 4848–4851 . DOI : 
+10.1109 /TPWRS .2021 .3084469
+Biographies
+FENG Bingyi received his BE degree in computer science from Anhui Universi ‐
+ty, China in 2021 . He is working towards his MS degree at University of Science 
+and Technology of China . His research interest focuses on deep reinforcement 
+learning , multi -agent reinforcement learning , and machine learning systems .
+20

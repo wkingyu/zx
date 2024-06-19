@@ -1,0 +1,60 @@
+bandwidth and greater transmit power of 
+base stations. With continuous eﬀorts in this 
+/f_ield, ZTE has achieved a power ampli/f_ier 
+eﬃciency 8% higher than the industry average. 
+Also, we use /f_lexible, optical backplanes for 
+32-dimensional optical cross-connects (OXCs) 
+to simplify equipment architecture while 
+greatly enhancing network capacity and 
+performance. To extend the range and reduce 
+the penetration loss of millimeter wave, ZTE 
+has used recon/f_igurable intelligent surface 
+(RIS), to signi/f_icantly improve coverage, user 
+experience, and deployment eﬃciency.
+Regarding algorithm and architecture, ZTE's 
+5G PowerPilot solution enables the energy 
+saving of wireless networks by 35%, and this 
+will reduce the power consumption of a single 
+site to as low as 5 watts in sleep mode. Based 
+on the algorithm for dynamic collaboration 
+between base stations and RIS, our Dynamic 
+RIS solution increases the millimeter wave 
+coverage by 30% and the average downlink 
+rate by six times. What's more, our distributed 
+database solution, GoldenDB, can raise the 
+performance and capacity of databases 
+tenfold, and save 70% of investments via the 
+decoupling of hardware and software.
+For infrastructure and capability 
+enhancement, the key lies in the network, engine of a car, chipsets are one of the most 
+essential underlying technologies, which 
+directly aﬀect the performance, integration, 
+and power usage eﬀectiveness (PUE) of 
+a product. In other major /f_ields such as 
+computing facilities, 5G, data center switches, 
+and terminals, there are higher expectations 
+and requirements. Hence, we have made 
+innovations and breakthroughs by taking 
+various measures. For instance, advanced 
+processes are adopted, and innovations 
+are made in domain-speci/f_ic architecture 
+(DSA), packaging, and systemic design, to 
+prolong the Moore's Law. Also, we introduce 
+heterogeneous computing to match diﬀerent 
+scenarios, and therefore enhance performance 
+and eﬃciency. Moreover, we achieve hardware 
+acceleration based on DPUs and smart NICs, 
+to constantly promote the co-optimization of 
+software and hardware.
+Innovations in components and materials, 
+such as new power ampli/f_iers, /f_ilters, antenna 
+elements, and heat dissipation design, can 
+also create huge value. Take power ampli/f_iers 
+as an example. Based on ETSI’s standard for 
+measuring power consumption, with a 1% 
+increase in power ampli/f_ier eﬃciency, the 
+overall energy eﬃciency of equipment will 
+rise by 1–2%, which will make possible larger 
+Xu Ziyang, Executive Director and CEO at ZTE
+Xu Ziyang, Executive Director and CEO at ZTE
+07AUG 2023

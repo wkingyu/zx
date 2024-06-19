@@ -1,0 +1,95 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research on Fall Detection System Based on Commercial Wi -Fi Devices    Research Papers
+the value of n represents the correlation between the CSI 
+smoothing result and the CSI sampling at the past time . In the 
+experiment , we take n=20. The smoothed CSI image is shown 
+in Fig . 2(c).
+4) The purpose of principal component analysis (PCA) is to 
+extract the main features in the subcarrier to achieve more ac ⁃
+curate activity recognition . In this work , each receiving an ⁃
+tenna can obtain data from 30 subcarriers . We apply PCA to 
+each subcarrier of CSI and select the second principal compo ⁃
+nent of the signal for subsequent feature extraction , because 
+the first principal component in the signal usually contains a 
+lot of noise while containing the information about human ac ⁃
+tivities . Fig. 3(a) shows the original amplitude of each CSI sub ⁃
+carrier , and Fig . 3(b) shows the second principal component of 
+the corresponding CSI signal .
+5) The purpose of DWT calculation is to obtain a discrete 
+wavelet transform spectrum for fall detection . In the process of 
+falling , people first have an acceleration process , and the ac ⁃
+celeration is downward . The speed reaches the maximum 
+when it collides with the ground quickly , and then the ground 
+gives people an upward force . The acceleration is upward , and 
+the speed quickly drops to 0. Compared with STFT[26], DWT 
+can achieve a good trade -off between time resolution and fre ⁃
+quency domain resolution . In the higher frequency range , ac⁃
+tions usually change quickly , which can achieve higher time 
+resolution ; in the lower frequency range , the action usually 
+changes slowly and can achieve higher frequency domain reso ⁃
+lution . In order to accurately detect the change in the user ’s 
+motion speed , in this work , we use the time -frequency domain 
+component of the signal to detect falls[27]. DWT can calculate 
+the corresponding energy size of components in different fre ⁃
+quency ranges[28–29].
+In this work , we use the demy wavelet base to obtain the fifth -
+order DWT spectrum . In the experiments , we find that the demy 
+wavelet basis with five levels of frequency order is more suit ⁃
+able for fall detection . Typically , fall actions bring higher signal 
+frequencies , with the highest values usually at level 4 or level 
+5, while non -fall actions usually have fre ⁃
+quency orders below level 3. At the same 
+time, using a moderate number of levels 
+also reduces the computational burden of 
+subsequent calculations . Fig. 4 shows 
+the DWT spectrum of fall and walk ac ⁃
+tivities . The place with higher brightness 
+represents higher signal energy . It can be 
+seen that the energy of signals in fall ac ⁃
+tivities gradually increases from level 5 
+to level 2, and then gradually decreases . 
+The energy of the signal in the walking 
+motion is always at a lower wavelet level . 
+It can be seen that the wavelet energy 
+distribution of signals varies with differ ⁃
+ent activity types .2.3 Feature Classification
+The DWT spectrum can reflect the time -frequency domain 
+characteristics of the signal , and this part uses convolutional 
+neural networks (CNN ) to classify the extracted DWT spec ⁃
+trum as shown in Fig . 5. In theory , the horizontal axis of the 
+DWT spectrum we extract represents the time information of 
+the user ’s activity , while the vertical axis represents the fre ⁃
+quency information of the user ’s activity . CNN uses convolu ⁃
+tional kernels of different sizes to extract edge information 
+from the DWT spectrum . The horizontal component of the 
+convolutional kernel can extract the temporal difference in ⁃
+▲Figure 3. (a) Amplitude image of each subcarrier of the original chan ⁃
+nel state information (CSI) and (b) second principal component ampli ⁃
+tude image
+▲Figure 5. Feature classification modelFC: fully collected▲Figure 4. (a) Discrete wavelet transform (DWT ) spectrum of fall ac ⁃
+tivities and (b) DWT spectrum of walking motion1
+2
+3
+4
+5TimeAmplitude
+(a)TimeAmplitude
+(b)
+Time
+(a)Time
+(b)Wavelet levels1
+2
+3
+4
+5Wavelet levels
+1@5×2 0001@5×1 880 6@5×940 16@5×200
+6@1×2
+Max pooling6@1×121
+2D conv16@1×5
+2D conv
+6@1×2
+Max pooling16@5×1008 000×1
+1 024×1
+128×1
+n_class_ 1
+Softmax FC FC Flattern
+63

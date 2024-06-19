@@ -1,0 +1,66 @@
+Fig. 1. Development 
+of the transport 
+technology route.
+facilitating fast service deployment, stable 
+operation, easy troubleshooting, and intelligent 
+O&M. Therefore, using the integrated 
+management and control architecture to inherit 
+and continually evolve the management and 
+control capabilities of existing SDH/MSTP is 
+reasonable.
+Technology Analysis
+During the 5G network design phase, the white 
+paper “5G Transport Network Architecture and 
+Technology Solution” released by the IMT-2020 5G 
+transport promotion group in 2018, evaluates three 
+5G transport technologies (SPN, IPRAN 2.0, and 
+M-OTN) and analyzes three transport solutions. These 
+solutions re/f_lect the ongoing convergence and 
+advancement of transport and packet technologies, 
+diﬀering in the layer and depth of transport and 
+ 
+ 
+ 
+quality needs of the railway private network.
+Secure isolation and reliable transport: The 5G-R 
+system needs to support railway production 
+services such as dispatch communication and train 
+control. Moreover, it involves operational support 
+services such as video monitoring, line inspection, 
+and other railway applications, all requiring secure 
+and reliable transport equivalent to or even higher 
+than traditional SDH/MSTP . TDM hard isolation is 
+provided between production operations, 
+operational support services, and other 
+applications. 
+Large-scale private network management and 
+control: The nationwide large-scale 5G-R private 
+network has higher requirements for network 
+planning, construction, maintenance, and 
+optimization. All network services are manageable 
+and controllable, with enhanced management 
+and control capabilities of the transport NM 
+Technology 
+direction
+FlexE
+OTN fgOTNG.MTN FGU/fgMTNIP
+MPLSSRv6
+SR-TPT-SRv6
+IPRAN Ethernet
+M-OTN
+Transport capabilityEnhanced 
+transport network
+Enhanced 
+transport network
+Enhanced 
+transport networkEnhanced 
+transport networkMPLS SR
+SPN 1.0/2.0
+From the perspective of overall 5G-R construction objectives, 
+SPN 2.0 technical standards and products align well with its 
+transport construction requirements, oﬀering advantages in 
+technical capabilities. Currently, China State Railway Group is 
+conducting a range of 5G-R veri/f_ication tests, with ZTE SPN 
+actively cooperating. 
+Slicing Packet Network Special Topic
+30

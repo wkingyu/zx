@@ -1,0 +1,121 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Point Cloud Processing Methods for 3D Point Cloud Detection Tasks    Special Topic
+This type of method is generally divided into two steps . The 
+first step is often to propose a rough candidate frame and the 
+second step is to adjust and refine the position of the candi ⁃
+date frame .
+Down -sampling operations are generally required for point 
+cloud processing . Down -sampling can not only reduce the 
+amount of data , but also remove some noise to improve the 
+quality of point cloud data to a certain extent .
+Commonly used point cloud down -sampling methods in ⁃
+clude random sampling , uniform sampling , furthest point sam ⁃
+pling , etc. Different sampling methods have different advan ⁃
+tages . Random sampling has the lowest time complexity , but 
+retains relatively few point cloud features . Uniform sampling 
+can preserve the overall distribution of point clouds , but the 
+disadvantage is that it retains fewer point cloud features and 
+cannot retain more detailed information . The advantage of fur ⁃
+thest point sampling is that it can retain edge information . It is 
+suitable for large -scale data processing and can quickly com ⁃
+plete down -sampling , but it has high time complexity .
+1) Improvement of the sampling method . The authors in 
+Ref. [36] propose a lightweight and effective point -based 3D 
+single stage object detector , named 3DSSD and believe that 
+the feature propagation (FP) layer and refining process in the 
+PointNet series methods[33, 37–38] will consume more than half 
+of the time , but simply removing these modules and leaving 
+only the set abstract (SA) layer to directly perform a single -
+stage proposal can result in a decrease in accuracy . They also 
+believe that the down -sampling operation of the SA layer is 
+based on the distance -based furthest point sampling method 
+(D-FPS), which tends to retain background points . Therefore , 
+they propose a new sampling method named F -FPS to filter 
+background points and retain foreground points .
+They use both spatial distance and semantic feature dis ⁃
+tance as the criterion in FPS . It is formulated as C(A, B)=
+ λLd(A, B)+Lf (A, B), where Ld(A, B) is D -FPS, Lf (A, B) is 
+F-FPS, and λ is the balance factor . As shown in Table 2, F-
+FPS has the highest recall at λ = 1.0, where λ is the weight of 
+D-FPS and F -FPS. Both the spatial distance and semantic fea ⁃
+ture distance are the criterion in FPS . In the experiment , 
+3DSSD adopts the method of fusion sampling . The points ob ⁃
+tained by the two sampling methods each occupy half . The points are obtained after multi -layer SA as shown in Fig . 6. 
+Then the candidate generation layer and two prediction heads 
+predict the category and bounding box of the objects . 3DSSD 
+greatly improves the speed of 3D object detection , and the 
+speed exceeds 25 fps.
+2) Combination of point -based and voxel -based methods . 
+There are some special methods that combine point -based and 
+voxel -based methods[38–39]. Since the two methods have differ ⁃
+ent advantages , their combination can bring more advantages .
+The 3D object detector (STD)[38] has three main contribu ⁃
+tions . First , a spherical anchor is used to propose a point -
+based proposal generation example , which can achieve a high 
+recall rate . Second , the point -based and voxel -based parts use 
+the PointsPool link to predict efficiency and effectiveness , 
+combining the advantages of VoxelNet[21] and PointNet[11]. 
+Last, the alignment between classification scores and localiza ⁃
+tion is achieved through a new 3D IoU prediction branch .
+Point -voxel feature set abstraction for 3D object detection 
+(PV-RCNN )[39] is a high -performance 3D object detection 
+framework . It integrates the method of point -cloud voxeliza ⁃
+tion and convolution and the method of PointNet -based set ab ⁃
+straction to obtain better point cloud features . PV -RCNN di ⁃
+rectly uses the original point cloud , processes the point cloud 
+through 3D sparse convolution after voxelization and performs 
+classification and box prediction through RPN on the BEV 
+plane . At the same time , the FPS is used for key point sam ⁃
+pling , and the key point features and the features of non -
+empty voxels around the key points are collected through the 
+VSA module . These features are used to make up for the infor ⁃
+mation loss during voxelization . Object category and bounding 
+box predictions are refined through a two -part combination .
+Both PV -RCNN and STD have achieved good results on the 
+KITTI dataset (Table 3), and their performance outperforms ei ⁃
+ther the voxel -based or point -cloud -based method used alone , ▼Table 2. Points recall among different sampling strategies on the nuS ⁃
+cenes dataset . “4 096”, “1 024” and “512” represent the number of repre ⁃
+sentative points in the subset . The first row of results uses only D -FPS.
+Method
+D-FPS
+F-FPS, λ = 0.0
+F-FPS, λ = 0.5
+F-FPS, λ = 1.0
+F-FPS, λ = 2.0Recall4 096
+99.7%
+99.7%
+99.7%
+99.7%
+99.7%Recall1 024
+65.9%
+83.5%
+84.9%
+89.2%
+86.3%Recall512
+51.8%
+68.4%
+74.9%
+76.1%
+73.7%
+D-FPS: furthest point sampling based on 3D Euclidean distance 
+F-FPS: furthest point sampling based on feature distance
+▲Figure 6. D-FPS is first used to down -sample the point cloud once . 
+The point cloud is sampled , grouped , MLP and maximum pooled 
+through the 1:1 combination of D -FPS and F -FPS sampling methods . 
+The point cloud can be sampled multiple times in the same wayD-FPS: furthest point sampling based on 3D Euclidean distance 
+F-FPS: furthest point sampling based on feature distance 
+MLP : multi -layer perceptron 
+SA: set abstractSAN×4
+D-FPS
+N1×C1
+D-FPS F-FPS
+Group
+MLP
+MaxPool
+Fusion
+samplingMultiple SAsFusion samplingD-FPS
+F-FPSN2
+2×C2
+N2
+2×C2
+43

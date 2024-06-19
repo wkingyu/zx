@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams    Special Topic
+wave and millimeter -wave frequency bands .
+4.2 Sensing
+Thanks to their extended axial length and invariant lateral 
+resolution , along with their excellent focusing performance , Bes⁃
+sel beams have a wide range of applications in various fields , in⁃
+cluding medical imaging , terahertz imaging , and ground -
+penetrating radars (GPRs ). In 1990 , a study compared the main 
+lobe characteristics of Bessel beams with those of Gaussian 
+beams[38]. The lateral resolution of Bessel beams was provided in 
+closed form . The study designed a broadband non -diffracting 
+Bessel beamtransducer , which can enhance imaging frame 
+rates, resulting in clearer and sharper medical ultrasound im ⁃
+ages due to its long focal depth (>200 mm ). The potential of 
+these non -diffracting beams in the field of medical imaging is 
+tremendous . In Refs . [39] and [40], higher resolution and more 
+information were achieved by utilizing Bessel beams instead of 
+Gaussian beams in endoscopic imaging and cellular imaging 
+scenarios , respectively . In Ref . [41], focused Bessel beams were 
+employed in biomedical analysis , effectively achieving 
+pathology -based measurements . To mitigate the impact of Bes ⁃
+sel beam side lobes on imaging , a method called complementary 
+beam subtraction (CBS) was proposed in Ref . [42], where a 
+complementary beam is constructed for the Bessel beam . By 
+scanning both the Bessel beam and its complementary beam 
+and subtracting the two images , high axial resolution images can 
+be restored . The imaging performance was experimentally vali ⁃
+dated using a spatial light modulator .
+Moreover , Bessel beams can be used to overcome the trade -
+off between lateral resolution and depth of focus in traditional 
+terahertz imaging , showing excellent potential for terahertz pen ⁃
+etration imaging . A study conducted in Ref . [43] explored the 
+possibility of manufacturing Bessel beam generation compo ⁃
+nents for terahertz imaging applications through 3D printing 
+technology . Additionally , regarding the penetration capability of 
+Bessel beams , their propagation properties after passing through 
+absorbing layers were studied in Ref . [44], which provides pre ⁃
+liminary exploration for their potential applications in GPRs[29]. 
+In the near -field range , the acoustic version of Bessel beams 
+was used to achieve microphone localization through beam scan ⁃
+ning[45]. However , to the best of our knowledge , research on lo ⁃
+calization using Bessel beams is currently quite limited .
+4.3 Communication
+Current research on Bessel beams in the field of communica ⁃
+tion mainly focuses on optics and terahertz domains . Free -space 
+optical (FSO) communication , as a powerful complement to ex ⁃
+isting wireless communication technologies , contributes to 
+achieving ultra -high -speed wireless communication in many im ⁃
+portant applications . In FSO systems , Bessel beams are used for 
+interference resistance because of their self -healing characteris ⁃
+tics. In 2011 , leveraging the non -diffractive and self -healing 
+properties of Bessel beams , GATTO et al . achieved and experi ⁃mentally tested an apparatus for an orbital angular momentum 
+(OAM )-multiplexed FSO communication system[46]. In 2016 , re⁃
+searchers established a model for the transmission of Bessel -
+Gauss (BG) beams with OAM modes , deriving analytical expres ⁃
+sions for the channel information capacity of free -space optical 
+communication system s[47]. This demonstrated that BG beams 
+could effectively mitigate the impact of turbulence on OAM 
+mode transmission . In Ref . [48], a practical anti -turbulence free -
+space optical communication scheme was proposed for visible 
+light communication , based on an easily tunable zero -order Bes ⁃
+sel beam . Compared with traditional Gaussian beams , this 
+scheme enhances link stability and provides a power compensa ⁃
+tion of 2 dB to 3 dB, addressing the turbulence challenges en ⁃
+countered in visible light communication . Bessel beams have 
+also been found to enhance physical layer security in FSO sys ⁃
+tems. The potential of using Bessel -Gauss beams to increase se ⁃
+cure capacity and improve channel stability is explored in Refs . 
+[49] and [50].
+Terahertz communication is considered one of the most prom ⁃
+ising breakthrough technologies for the next generation of wire ⁃
+less standards . However , it suffers from extremely high propaga ⁃
+tion losses , which limits communication distances to the near -
+field range . Bessel beams offer a solution for near -field commu ⁃
+nication by resisting obstacles and providing a stable communi ⁃
+cation link . In Ref . [51], researchers investigated near -field phe ⁃
+nomena in THz communication , explored link budget require ⁃
+ments , and proposed a promising solution using Bessel beams 
+for near -field THz communication . Under experimental condi ⁃
+tions for single -carrier near -field sub -THz communications , they 
+utilized Bessel beams and a 16-QAM modulation scheme , 
+achieving 40 Gbit/s with a bandwidth of 20 GHz . This study was 
+further extended in Ref . [52], confirming that Bessel beams , in 
+comparison to focused beams , can maintain a higher and more 
+stable signal -to-noise ratio over a larger communication range .
+4.4 Research Challenges
+The research on the application of Bessel beams is still in the 
+exploration stage , primarily due to challenges in their genera ⁃
+tion and limitations in propagation distance . Relatively , the ap ⁃
+plication prospects of Bessel beams in wireless power transfer 
+have been explored more extensively . However , for WPT appli ⁃
+cations , Bessel beams face an inevitable trade -off: increasing the 
+transmission distance requires enlarging the generation aperture , 
+which can lead to more sidelobe energy leakage . To enhance 
+their transmission distance for practical applications , methods to 
+reduce sidelobes must be considered . For instance , the use of 
+broad -spectrum Bessel beams (known as X -waves ) can enhance 
+transmission efficiency . For the application of Bessel beams in 
+sensing , current research is primarily focused on the field of 
+medical imaging , with relatively fewer studies in other domains . 
+Meanwhile , the application of Bessel beams in communication , 
+to counter interference , improve communication stability and en ⁃
+hance security , is still in the early stage of exploration . Cur ⁃
+59

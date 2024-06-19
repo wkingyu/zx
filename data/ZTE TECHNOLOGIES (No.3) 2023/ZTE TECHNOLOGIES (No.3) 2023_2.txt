@@ -1,0 +1,66 @@
+ZTE TECHNOLOGIES
+Advisory Committee
+Director: Liu Jian
+Deputy Directors: Sun Fangping, Yu Yifang, 
+Zhang Wanchun, Zhu Yongxing
+Advisors: Bai Gang, Fang Hui, Hu Junjie, 
+Hua Xinhai, Li Weizheng, Liu Jinlong, Lu Ping, 
+Wang Qiang, Wang Quan
+Editorial Board
+Director: Lin Xiaodong
+Deputy Director: Huang Xinming
+Members: Ding Xiang, Huang Xinming, Jiang Yonghu, 
+Ke Wen, Liu Shuang, Lin Xiaodong, Ma Xiaosong, Shi Jun, 
+Sun Biao, Wei Xiaoqiang, Yang Zhaojiang, Zhu Jianjun
+Sponsor: ZTE Corporation
+Edited By Shenzhen Editorial Oﬃce
+General Editor: Lin Xiaodong
+Deputy General Editor: Huang Xinming
+Editor-in-Chief: Liu Yang
+Executive Editor-in-Chief: Yue Lihua
+Circulation Manager: Wang Pingping
+Editorial Oﬃce
+Address: NO. 55, Hi-tech Road South, Shenzhen, P .R.China 
+Postcode: 518075
+Tel: +86-755-26775211
+Fax: +86-755-26775217
+Website: wwwen.zte.com.cn/en/about/publications
+Email: yue.lihua@zte.com.cn
+Statement: This magazine is a free publication for you.
+If you do not want to receive it in the future, you can send
+the “TD unsubscribe” mail to magazine@zte.com.cn.
+We will not send you this magazine again after
+receiving your email. Thank you for your support.VOL. 25 NO. 3 ISSUE 206 JUN 2023
+CONTENTS
+Expert View02
+Reporter: Faris WenEMR: To Be a Source of Pride for Indonesia
+10
+By Ni Yanzi, Shu Yu1+N Solution Extending 5G from Campus Network to 
+Field NetworkSpecial Topic: 5G Fully-Connected Factory
+20
+By Li ChunfengMini5GC Helps Core Production in OT Domain Through 
+Scenario-Based Application of 5G Private Networks17
+By Li Yunhua5G Industrial Base Stations: Empowering 5G to Reach 
+Deeper into Industrial Production06
+By Wang Jingfei5G+ Industrial Internet: Creating a New Era of 
+Fully-Connected Factories
+22
+By Lu Zhien, Wang ZhengFRER Provides High-Reliability Service Guarantee for 
+Determinism of 5G Field Network14
+By He Jiqing, Wei Li5G Field Network Solution Enabling Digital and 
+Intelligent Upgrade of Industrial ManufacturingVIP Voice
+To enable connectivity and trust everywhere
+Expert View
+5G+ Industrial Internet: 
+Creating a New Era of 
+Fully-Connected Factories
+Special Topic
+5G Fully-Connected Factory
+5G Fully-Connected FactoryVOL. 25 NO. 3 ISSUE 2 06 JUN 2023
+EMR: To Be a Source of 
+Pride for Indonesia
+EMR: To Be a Source of 
+Pride for IndonesiaVIP Voice
+Cover Figure Hendra Gunawan, CTO of EMR
+Cover Figure Hendra Gunawan, CTO of EMR
+Scan for mobile reading

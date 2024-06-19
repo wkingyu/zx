@@ -1,0 +1,83 @@
+ZENIC ONE 2.0: Building an E2E 
+FTTx O&M System
+Chief Engineer for Fixed 
+Network Product 
+Planning, ZTEZhu Zhenghuand-to-end (E2E) management and 
+O&M of FTTx networks is the key to 
+ensuring the smooth operation of 
+the entire network system. 
+This includes the whole processes from 
+planning, construction and maintenance to 
+optimization, enabling operators to 
+implement precision marketing. Only a 
+uni/f_ied platform can improve O&M eﬃciency, 
+optimize information systems, improve 
+network quality, and further improve the 
+service experience.
+The O&M process involves many aspects, 
+with fault processing being the most 
+important. Statistics shows that home 
+network faults account for 59%, access 
+network faults account for 28%, and content 
+source faults account for 13% of the total. 
+During FTTx O&M, isolated systems face many 
+challenges. Firstly, the faults are widely 
+distributed across diﬀerent segments, and 
+only the E2E system can accurately locate the 
+faults. Secondly, there are many types of 
+faults, resulting in time-consuming 
+processing. Implementing E2E comprehensive  
+analysis, eﬃcient compression, and 
+correlation analysis can improve the 
+eﬃciency. Finally, the alarm information is 
+often scattered. Only a uni/f_ied platform 
+supporting information sharing can realize 
+E2E system optimization, improve network 
+quality and enhance the service experience.
+To meet market demands, ZTE has 
+developed the ZENIC ONE 2.0, an E2E 
+management system based on a uni/f_ied PaaS 
+platform. This system integrates multiple Esystems, including the CO-end management, 
+control and analysis system ZENIC ONE, the 
+CPE management cloud platform SCP , and the 
+home broadband service perception analysis 
+system CEM, to enable cross-domain 
+interoperability. The function modules on the 
+ZENIC ONE 2.0 can be combined or separated 
+to implement on-demand /f_lexible 
+deployment. 
+The ZENIC ONE 2.0 E2E system (Fig. 1) not 
+only manages OLTs, ODNs and home 
+networks to implement E2E management at 
+the network layer but also pays attention to 
+user service experience and provides user 
+experience management. 
+During the O&M process, the ZENIC ONE 
+system provides corresponding functions in 
+all four stages of maintenance, optimization, 
+marketing and planning, aiding operators in 
+achieving autonomous network. Below, the 
+functions in the areas of maintenance, 
+optimization, marketing, and planning are 
+described in detail.
+E2E Display for Enhanced 
+Maintenance
+E2E network topology display to enable 
+manageable networks:  The ZENIC ONE 
+system supports E2E network topology 
+display of the access network, enabling 
+visual management of the entire network. 
+This includes visualization of user service, 
+highlighting service quality and low QoE 
+occurrence. It also includes visualization of 
+the home network with clear display of 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+18 

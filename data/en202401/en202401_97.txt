@@ -1,0 +1,120 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Research on Multi -Core Processor Analysis for WCET Estimation    Review
+line analysis[27]. In addition , Chronos provides SimpleScalar 
+instruction -defined formats , which allows it to be ported to dif ⁃
+ferent instruction sets and similar simple processor architec ⁃
+tures . This tool is feature -rich and comprehensive and has sig ⁃
+nificant scalability .
+Bound -T is a static analysis tool that was originally commer ⁃
+cial software but later became an open -source tool . It is de ⁃
+signed to analyze processors with relatively simple architec ⁃
+tures . While this tool also handles microarchitecture analysis 
+directly , it does not consider pipeline superscalar and other 
+complex features . Instead , Bound -T calculates the time for ba ⁃
+sic blocks through the program control flow graph[28].
+Heptane[29] is an open -source WCET analysis tool devel ⁃
+oped by the IRISA team . It uses a static analysis method to es ⁃
+timate the WCET and implements Implicit Path Enumeration 
+Technique (IPET ). The tool includes cache analysis tech ⁃
+niques for many cache architectures , such as multiple replace ⁃
+ment policies , cache hierarchy , and shared caches among mul ⁃
+tiple cores . In addition , Heptane supports various instruction 
+sets, including MIPS , ARM , MSP 430, and RISC -V and is peri ⁃
+odically maintained and updated . The tool has a stable proto ⁃
+type development and can support various instruction sets .
+SWEET[30] is an open -source tool for static WCET analysis 
+that is known for its program flow analysis implementation . It is 
+designed to analyze the WCET time bounds for two different 
+processors using three distinct techniques : a fast path -based 
+method , a global IPET method , and a hybrid clustering method .
+These tools can be parallelized to run on multi -core plat ⁃
+forms , but doing so may introduce some errors . After analyzing 
+and comparing the WCET analysis tools mentioned above in 
+both commercial and academic contexts , we can conclude that 
+static analysis and hybrid dynamic analysis methods are com ⁃
+monly employed in commercial scenarios . On the other hand , 
+academic researchers always attempt to propose various mod ⁃
+els and methods based on static analysis to improve accuracy and safety .
+In the long run , the WCET research is ongoing , and as pro ⁃
+cessor architectures become increasingly complex , new chal ⁃
+lenges are posed to the development of effective analysis tools . 
+However , the ultimate objectives remain the same : to guaran ⁃
+tee the safety of WCET upper -bound analysis and explore 
+methods for enhancing its accuracy .
+5 Conclusions
+This paper reviews the calculation of WCET for programs 
+running on multi -core processors . It highlights that the calcu ⁃
+lation of WCET is a critical aspect of timing analysis in hard 
+real -time systems and can be accomplished by various meth ⁃
+ods, such as static and dynamic timing analysis along with 
+specialized modeling of the hardware system . A comprehen ⁃
+sive analysis of existing techniques for WCET estimation is 
+also provided , including both static and dynamic analysis meth ⁃
+ods for multi -core processors . Furthermore , it introduces tradi ⁃
+tional techniques for WCET estimation using both static and 
+dynamic analysis , which extends the analysis to encompass 
+multi -core processors beyond the scope of single -core proces ⁃
+sors. Finally , it discusses the major challenges arising from dif ⁃
+ferent program execution scenarios on multi -core platforms .
+In the future , the accuracy of WCET estimation will play an 
+increasingly critical role in multi -core systems . Therefore , con⁃
+tinued research is necessary for guaranteeing the dependable 
+and timely operation of hard real -time systems . For safety rea ⁃
+sons, static analysis is still the mainstream method in the field 
+of the hard real -time. From the perspective of hardware char ⁃
+acteristics and software protocols , analyzing various conflicts 
+of shared resources between cores to improve accuracy will re ⁃
+main the mainstream research direction of static analysis . 
+However , in the field of the soft real -time, methods such as dy ⁃
+namic methods and hybrid testing have gradually become the 
+mainstream direction of the industry .▼Table 4. Comparison of open -source multi -core WCET analysis tools
+Tool
+Chronos
+Bound -T
+Heptane
+SWEETInstitution
+National University of Sin ⁃
+gapore
+Tidorum
+IRISA
+Mälardalen Real -Time 
+Research CentreMethod
+Static analysis
+Static analysis
+Static analysis
+Static analysisTarget Processors
+SimpleScalar
+SPARC/ERC 32, etc.
+-
+NECV 850E
+ARM 9Core Area
+Cache
+I-cache ,
+D-cache ,
+Unified cache ,
+Direct/SA ,
+LRU
+-
+D-cache ,
+I-cache ,
+-Pipeline
+Multi -issue superscalar ,
+in-order ,
+out-order ,
+dynamic branch 
+prediction
+-
+Branch prediction
+-Periphery
+IPET
+Flow analysis
+ARM : Advanced RISC Machine 
+D-cache : data cache 
+I-Cache : instruction cache 
+IPET : Implicit Path Enumeration Technique IRISA : The Institute for Research in IT and Random Systems 
+LRU : least recently used 
+PCI: Peripheral Component Interconnect 
+PLRU : pseudo -LRU SA: set associative cache 
+SWEET : Swedish Execution Time Tool 
+WCET : worst -case execution time
+93

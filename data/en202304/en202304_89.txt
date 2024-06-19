@@ -1,0 +1,86 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4XIONG Zhiang , ZHAO Ping , FAN Jiyuan , WU Zengqiang , GONG Hongwei Research Papers   Mixed Electric and Magnetic Coupling Design Based on Coupling Matrix Extraction
+model . The theory proposed in Section 2 is applied to design 
+the mixed coupling structure . We then demonstrate a 7th-
+order in -line mixed coupling filter design with the aid of cou ⁃
+pling matrix extraction . Section 4 concludes this paper .
+2 Relationship Between FDC and Mixed 
+Electric and Magnetic Coupling
+A constant coupling in the coupling matrix is modeled by 
+an ideal J -inverter , the π-equivalent circuit of which consists 
+of three frequency -invariant susceptances (FISs). The charac ⁃
+teristic admittance of a frequency -dependent inverter varies 
+with frequency . Fig. 1 shows the π-equivalent circuit model of 
+the frequency -dependent inverter . The circuit model includes 
+three capacitors parallel -connected with FISs .
+Note that the FDC is an element in lowpass circuit models . 
+The bandpass frequency is mapped to the lowpass frequency 
+domain by :Ω=ω0
+ω2-ω1(ω
+ω0-ω0
+ω), (1)
+where Ω is the normalized lowpass frequency , ω0 is the cen ⁃
+ter frequency of the bandpass filter , ω2 is the upper band 
+edge frequency , ω1 is the lower band edge , and ω is the band ⁃
+pass frequency .
+Substituting Eq . (1) into the admittance formula of FIS and 
+capacitor connected in parallel yields
+Y=jB+jω0
+ω2-ω1(ω
+ω0-ω0
+ω)CLP=
+jB+jωCBP+1
+jωLBP  ,(2)
+where CLP  is the capacitance in the lowpass circuit model , CBP  
+is the capacitance , and LBP  is the inductance in the bandpass 
+circuit model . According to Eq . (2), the parameters in the low ⁃
+pass and bandpass circuits are related by :
+CBP=CLP
+2πBW, LBP=2πBW
+ω2
+0CLP ,
+(3)
+where BW is the bandwidth and 2πBW= ω2- ω1. After trans ⁃
+formation , the coupling between two resonators is not a pure 
+electric or magnetic coupling form but mixed coupling . 
+Therefore , an FDC should be realized as a mixed electric and 
+magnetic coupling . However , Eq. (3) cannot reveal the quali ⁃
+tative relationship between FDC and mixed electric and mag ⁃
+netic coupling .
+As shown in Fig . 1(b), there are unity capacitors on both 
+sides of the frequency -dependent inverter . The capacitors 
+model parallel resonant circuits with a resonant frequency of 
+zero rad/s . The value of the frequency -dependent inverter is 
+sCm + jbm. If the left node index is i and the right node index is 
+j, the coupling matrix element Mij is bm, and the capacitance 
+matrix element Cij is Cm. After lowpass -to-bandpass circuit 
+transformation in Eq . (3), the resultant bandpass circuit model 
+is shown in Fig . 1(c), where
+C1'=1+Cm
+2πBW,      Cm'=-Cm
+2πBW, (4a)
+L1'=2πBW
+ω2
+0() 1+Cm,       Lm'=-2πBW
+ω2
+0Cm, (4b)
+bm'=-bm , (4c)
+ωm≈ω0-bmπBW
+Cm.(4d)
+▲Figure 1. π⁃equivalent circuit model : (a) frequency -dependent in ⁃
+verter , where the admittances of capacitance and frequency -invariant 
+susceptances are sC(−sC) and jJ(−jJ) respectively ; (b) frequency -
+dependent inverter coupled lowpass network consisting of two resona ⁃
+tors, where the two resonators are unit capacitors and resonant fre ⁃
+quency is zero rad/s ; (c) bandpass circuit model of mixed electric and 
+magnetic coupling(a)−sC−jJ
+sC+jJ sC+jJ
+−bm
+−Cm
+Cm
+Cmbm1F 1F
+Cm'(b)
+(c)bm'
+Lm'
+L1'bmC1'bm
+86

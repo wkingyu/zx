@@ -1,0 +1,89 @@
+生成式大模型承载网络架构与关键技术探索 唐 宏   等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2用计算资源 ；需要实现自动化和精细化的运维保障 ，保障网
+络持续高效运行 。同时 ，这些技术的系统创新如何实现现网
+设备和生态结合 、如何在工程领域商用落地部署将是一个长
+期而艰巨的任务 ，需要产业链各方共同探索解决 。
+参考文献
+[1] 华为 . 星河 AI网络白皮书  [R]. 2024
+[2] 中国移动研究院 . 面向 AI大模型的智算中心网络演进白皮书  [R]. 
+2023
+[3] AL-FARES M , LOUKISSAS A , VAHDAT A . A scalable , commodity 
+data center network architecture [J]. ACM SIGCOMM computer 
+communication review , 2008 , 38(4): 63-74. DOI : 10.1145 /
+1402946 .1402967
+[4] WANG W , GHOBADI M , SHAKERI K , et al . Optimized network 
+architectures for large language model training with billions of 
+parameters [EB/OL ]. [2024 -02-25]. https ://arxiv .org/pdf/
+2307 .12169 v2.pdf
+[5] 蒋炜, 钱声攀 , 邱奔 . 数据中心网络拓扑结构设计策略研究  [J]. 中国
+电信业 , 2021 , (S1): 73-78
+[6] 赵俊峰 , 李芳, 叶晓峰 , 等. 面向广域 RDMA 的确定性网络需求与技
+术 [J]. 电信科学 , 2023 , 39(11): 39-51. DOI : 10.11959 /j.issn.1000 -
+0801 .2023248
+[7] SHALEV L , AYOUB H , BSHARA N , et al . A cloud-optimized 
+transport protocol for elastic and scalable HPC [J]. IEEE micro , 
+2020 , 40(6): 67-73. DOI: 10.1109 /mm.2020 .3016891
+[8] Overview and Motivation for the forthcoming utra ethernet 
+consortium specification [EB/OL ]. (2023 -09-17) [2024 -02-24]. 
+https ://ultraethernet .org/wp-content/uploads/sites/ 20/2023 /10/
+23.07.12-UEC- 1.0-Overview-FINAL-WITH-LOGO .pdf
+[9] Google opens Falcon , a reliable low-latency hardware transport , 
+to the ecosystem [EB/OL ]. [2024 -02-25]. https ://cloud .google .
+com/blog/topics/systems/introducing-falcon-a-reliable-low-
+latency-hardware-transport
+[10] IEEE DCB . 802.1Qbb - priority-based flow control [EB/OL ]. 
+[2024 -02-25]. http://www .ieee802.org/1/pages/ 802.1bb.html
+[11] ZHU Y B , ERAN H , FIRESTONE D , et al . Congestion control for 
+large-scale RDMA deployments [J]. ACM SIGCOMM computer 
+communication review , 2015 , 45(4): 523-536. DOI : 10.1145 /
+2829988 .2787484
+[12] MITTAL R , LAM V T , DUKKIPATI N , et al . TIMELY [J]. ACM 
+SIGCOMM computer communication review , 2015 , 45(4): 537-
+550. DOI: 10.1145 /2829988 .2787510
+[13] KUMAR G , DUKKIPATI N , JANG K , et al . Swift : delay is simple 
+and effective for congestion control in the datacenter [C]//
+Proceedings of the Annual conference of the ACM Special 
+Interest Group on Data Communication on the applications , 
+technologies , architectures , and protocols for computer 
+communication . ACM , 2020 : 514-528. DOI : 10.1145 /
+3387514 .3406591
+[14] LI Y L , MIAO R , LIU H H , et al . HPCC : high precision congestion 
+control [C]//Proceedings of the ACM Special Interest Group on 
+Data Communication . ACM , 2019 : 44-58. DOI : 10.1145 /
+3341302 .3342085
+[15] QURESHI M A , CHENG Y , YIN Q W , et al . PLB : congestion 
+signals are simple and effective for network load balancing [C]//
+Proceedings of the ACM SIGCOMM 2022  Conference . ACM , 
+2022 : 207–218. DOI: 10.1145 /3544216 .3544226
+[16] Meta networking@scale 2023  [EB/OL ]. (2023 -09-07)[2024 -02-26]. https ://atscaleconference .com/events/networking-scale-
+2023 /
+[17] 华为 . HPC 无损以太和 AI Fabric 网络技术白皮书  [R]. 2023
+[18] NVIDIA Spectrum-X network platform architecture [EB/OL ]. 
+[2024 -02-26]. https ://nvdam .widen .net/s/h 6klwtqv 5z/nvidia-
+spectrum-x-whitepaper- 2959968
+[19] SONG C H , KHOOI X Z , JOSHI R , et al . Network load balancing 
+with In-network reordering support for RDMA [C]//Proceedings 
+of the ACM SIGCOMM 2023  Conference . ACM , 2023 : 816–
+831. DOI: 10.1145 /3603269 .3604849
+[20] Cisco . Cisco silicon one [EB/OL ]. [2024 -02-26]. https ://blogs .
+cisco .com/sp/building-ai-ml-networks-with-cisco-silicon-one
+[21] JIANG Z H , LIN H B , ZHONG Y M , et al . MegaScale : scaling 
+large language model training to more than 10, 000 GPUs [EB/
+OL]. (2024 -02-23) [2024 -02-25]. https ://arxiv .org/abs/
+2402 .15627
+作 者 简 介
+唐宏 ，中国电信股份有限公司研究院 IP领域首席
+专家，正高级工程师 ，中国电信科技委常委 ；长
+期从事 IP网络及其新技术的研发工作 ；发表论文
+30余篇，获发明专利 100余项。
+武娟 ，中国电信股份有限公司研究院正高级工程
+师；主要从事 IP网络 、人工智能相关研究工作 ；
+已发表多篇论文 。
+徐晓青 ，中国电信股份有限公司研究院工程师 ；
+主要从事网络设计 、网络优化和人工智能相关工
+作；已发表多篇论文 。
+张宁 ，中国电信股份有限公司研究院算法工程师 ；
+研究方向包括联邦学习 、激励机制 、负载均衡等 ；
+已发表 TMC 论文 2篇。
+55

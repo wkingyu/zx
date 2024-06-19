@@ -1,0 +1,107 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Link Budget and Enhanced Communication Distance for Ambient Internet of Things    Special Topic
+trast, in BackCom systems , the information is delivered 
+through RF signal reflection . Therefore , the backscatter sig ⁃
+nals undergo a round -trip path loss , which requires a larger 
+link budget . For example , the signal coverage of the ultra -high 
+frequency (UHF ) radio frequency identification (RFID ) sys⁃
+tem, namely Electronic Product Code Global Class 1 Genera ⁃
+tion 2 (EPC C 1G2)[7], is at the level of roughly 10 m in practi ⁃
+cal deployment , in comparison with coverage up to several 
+hundred meters for typical cellular communication systems at 
+the same frequency band with similar radiation power level . 
+The communication range of BackCom could be further re ⁃
+duced if higher communication rates are required .
+The short coverage inevitably limits the application of Back ⁃
+Com. Therefore , it is necessary to identify the major factors 
+that restrict the communication range of BackCom systems 
+and find corresponding effective solutions to boost its trans ⁃
+mission capability . The major factors that constrain the com ⁃
+munication distance may come from uplink or downlink . Ac⁃
+cordingly , it is necessary to perform the link budget to calcu ⁃
+late and compare the upper bound downlink and uplink com ⁃
+munication distance .
+Existing works have studied the link budget of BackCom 
+mostly through theoretical analysis . Friis free -space formula 
+was used to determine the theoretical upper bound communi ⁃
+cation distance in Refs . [8–9]. The authors in Ref . [10] incor ⁃
+porated more practical factors such as multipath propagation 
+to derive more practical path losses of passive UHF tags . Four 
+types of propagation models of BackCom were discussed in 
+Ref. [11] and some insights into the link quality of BackCom 
+transmission were provided .
+Using the link budget , we can determine the power received 
+at the tag and the reader . When the received power decreases 
+to the sensitivity of the tag and the reader , we can calculate 
+the upper bounds for the downlink and uplink communication 
+distance . Next , comparing the two bounds , we can find the 
+bottleneck of the BackCom , uplink or downlink . And the re ⁃
+sult is that BackCom is mainly limited by the downlink . There ⁃
+fore, we need to improve the downlink sensitivity . That is , en⁃
+hancing the tag sensitivity can increase the communication 
+range of BackCom systems .
+Generally speaking , the overall sensitivity of the tag is de ⁃
+termined by the envelope detection circuit and the compara ⁃
+tor. The sensitivity of the envelope detection circuit is related 
+to the forward voltage drop of the diode . In order to improve 
+the sensitivity , the authors in Ref . [12] suggested that the en ⁃
+velope detection circuit used diode -connected low positive 
+channel Metal Oxide Semiconductor (PMOS ) transistors for 
+low -voltage operation and less energy loss . Ref . [13] intro ⁃
+duced a detector -first wake -up receiver (WuRx ) that used 
+boundary condition -based envelope detector optimization , im⁃
+proving sensitivity and performance while conserving power . 
+The envelope detector described in Ref . [14] employed the 
+threshold compensation technology to effectively mitigate the impact of the transistor ’s threshold voltage on demodulation 
+sensitivity . A voltage doubler rectifier was proposed to im ⁃
+prove the passive envelope detection of the tag , thereby en ⁃
+hancing the tag sensitivity[15–16]. Unfortunately , when a 
+multiple -stage voltage doubler rectifier is used , it is a chal ⁃
+lenge to design and implement the RF circuit . Besides , using 
+a multiple -stage voltage doubler rectifier will cause annoying 
+parasitic parameters that may lead to a relatively slower rectifi ⁃
+cation rate .
+Actually , the factors that can affect the tag sensitivity may 
+be the forward voltage drop of the diode , the sensitivity of the 
+comparator , and the algorithm limit imposed by the adopted 
+decoding scheme . In summary , the bottleneck that restricts 
+the communication range remains unclear and the results 
+have not been validated over practical hardware implementa ⁃
+tions , which motivates our present work .
+In this paper , we first derive the link budget of the BackCom 
+transmission by taking into account practical factors including 
+the impedance modulation mode , impedance matching , and po ⁃
+larization mismatch . Using the more comprehensive and accu ⁃
+rate link budget model , the uplink and downlink communica ⁃
+tion ranges can be calculated with the nominal value of reader 
+sensitivity and the measured tag sensitivity . It is found through 
+the analysis that the key factor that sets the upper bound of our 
+practical BackCom system is the capability of the envelope de ⁃
+tection circuit of the downlink tags . To address this issue , we 
+propose to incorporate a low -noise amplifier (LNA ) module to 
+enhance the signal strength before envelope detection , which 
+consequently improves tag sensitivity and increases the commu ⁃
+nication distance of the downlink .
+The remainder of this paper is organized as follows . Section 
+2 introduces two communication systems based on backscat ⁃
+ter, then describes the downlink signal receiving and the up ⁃
+link reflection signal process of the tag , and derives the reflec ⁃
+tion coefficient and radar cross section . In Section 3, firstly , 
+the tag reflection coefficient and other parameters are mea ⁃
+sured to calculate the sensitivity . Secondly , through the re ⁃
+ceived power and sensitivity , the upper bound distance be ⁃
+tween the upper and lower lines of the system is analyzed , and 
+the upper bound of the system is obtained as the starting volt ⁃
+age of the diode of the label envelope detection module . Fi⁃
+nally , a low -noise power amplifier module is implemented in 
+the receiving circuit of the tag . In Section 4, the performance 
+improvement of the communication system is verified through 
+theoretical and practical measurements . Section 5 concludes 
+the paper .
+2 Backscatter Communication Model
+Backscatter communication systems can be classified into 
+two categories : monostatic backscatter communication sys ⁃
+tems (MBCS ) and bistatic backscatter communication systems 
+(BBCS )[17], as shown in Figs . 1(a) and 1(b), respectively .
+The MBCS in Fig . 1(a) illustrates that the RF carrier signal 
+17

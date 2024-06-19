@@ -1,0 +1,86 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Research Papers   Filter Design of Wireless Base Station Power Supply
+The original filter is shown in Fig . 2. The noise spectrum of 
+the prototype with the original EMI filter is shown in Fig . 3.
+Comparing the CM noise spectrum in Fig . 1 with that in Fig . 
+3, we find that the CM insertion loss with the original filter is 
+about 20 dB–40 dB in the low and medium frequency bands .
+Fig. 4 shows the schematic of the CM equivalent circuit of 
+the second -order π-type EMI filter . In Fig . 4(b), Zs is con ⁃
+nected in parallel with the Y capacitor in the second -order π
+-type filter , and Zs is much smaller than the Y capacitor in the 
+second -order π-type filter in the low and middle frequency 
+bands , so the effect of Zs can be ignored in this analysis .
+The insertion loss of the second -order π-type filter can be 
+obtained as :
+ILcm=20log|8Lcm1Lcm2Cy1Cy2Cy3Rcm⋅s5+4Lcm1Lcm2Cy2Cy3s4+
+[4Lcm1RcmCy1(Cy2+Cy3)+4Lcm2RcmCy3 ] (Cy1+Cy2)s3+
+2(Lcm1Cy2+Lcm2Cy3+Lcm1)Cy3s2+2Rcm(Cy1+Cy3+Cy3)s+1.(1)
+According to Eq . (1), the insertion loss of the original filter 
+is about 200 dB–300 dB in the low and medium frequency 
+bands . The actual insertion loss of the filter does not reach the 
+theoretical value .
+3 Filter Ground Impedance
+The original EMI filter has a large ground 
+loop, which results in a large ground imped ⁃
+ance. The effect of ground impedance on 
+CM insertion loss will be verified by simula ⁃
+tion. The simulation schematic is shown in 
+Fig. 5. The CM insertion loss considering 
+ground impedance is shown in Fig . 6(a), 
+and Fig . 6(b) shows the insertion loss of the 
+ideal filter .
+Fig. 6(a) illustrates that the resonance of 
+the insertion loss of the filter is advanced 
+and the insertion loss is reduced after the 
+addition of the ground impedance . Due to 
+the large Y capacitor used in the original fil ⁃
+ter, even a small ground impedance will re ⁃
+sult in the resonance frequency decrease of 
+the insertion loss . Therefore , in order to re ⁃
+duce EMI noise , the EMI filter electrical pa ⁃
+rameters need to be designed .
+4 Noise Source Impedance Ex ⁃
+traction
+It is necessary to extract the source im ⁃
+pedance of the prototype noise source be ⁃
+fore designing the filter . The equivalent 
+model of CM noise transmission path with ⁃
+out a filter is shown in Fig . 7.
+The equivalent CM noise current Icm is:
+▲Figure 2. Prototype filter
+▲Figure 3. Raw noise with EMI filterCM: common mode     DM : differential mode     EMI : electromagnetic interferenc
+▲Figure 4. Common mode (CM) equivalent circuit of the second -order 
+π-type electromagnetic interference (EMI ) filter
+Input PE PE1 000 pF 0.1 μF 2.2 μF 100 kΩ 1 000 pF
+0.1 μF3.3 μF 0.05 Ω 1 μF 1 μF 0.05 Ω0.47 μF2.2 μF100 kΩ 0.1 μF
+1 000 pF*
+**
+*
+(a) L noise (b) N noise
+(c) CM noise (d) DM noisef/Hzf/HzVoltage/dB μV
+Voltage/dB μVCurrent/dB μA1×1051×1061×1071×10860
+40
+20
+060
+40
+20
+0
+60
+40
+20
+0
+-20
+1×1051×1061×1071×108
+Current/dB μA1×1051×1061×1071×108
+f/Hz
+1×1051×1061×1071×108
+f/Hz60
+40
+20
+0
+-20(b) With filter(a) Without filterCsIs
+RcmUcm1
+Lcm1Lcm2
+RcmUcm22Cy12Cy22Cy3Is
+96

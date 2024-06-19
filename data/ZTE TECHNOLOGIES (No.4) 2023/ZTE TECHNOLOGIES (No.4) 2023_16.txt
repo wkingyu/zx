@@ -1,0 +1,41 @@
+Thriving Video Business Creates 
+New Opportunities
+Director of Partnerships, 
+ZTE DHome ProductsXu Yanminn recent years, the rapid growth 
+of global broadband services has 
+fueled an increasing demand for 
+video services. While focusing on 
+expanding their user base, operators are 
+also seeking to continually create more 
+value from video services. On the one 
+hand, consumer behavior is becoming 
+increasingly personalized and /f_ine-grained, 
+resulting in a growing demand for TV 
+advertising and gaming services. On the 
+other hand, the growing number of set-top 
+box (STB) models and vendors poses 
+challenges for operators in managing 
+the launch of new services. The network
+management (NM) functions of STBs have also become crucial requirements for many 
+operators. This article will discuss the 
+new opportunities in the development of 
+the video business by introducing video 
+advertising, gaming and the terminal 
+management system (TMS). 
+Video Advertising
+According to eMarketer, global spending 
+on digital advertising surpassed $600 
+billion for the /f_irst time in 2022. This /f_igure 
+is expected to grow and exceed $800 
+billion by 2025. TV operators can bene/f_it 
+from TV advertising matched precisely 
+with user preferences. In everyday video  I
+ Fig. 1. Targeted 
+advertisements.General
+pro/f_ileOriginal ads
+Targeted ads for pro/f_ile #1
+Targeted ads for pro/f_ile #2Viewer
+pro/f_ile #1
+Viewer
+pro/f_ile #2
+14New Video Ecosystem Special Topic

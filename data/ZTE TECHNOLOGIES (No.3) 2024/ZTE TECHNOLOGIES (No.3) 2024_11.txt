@@ -1,0 +1,45 @@
+Current Technologies and Principles 
+of Agents
+rom its initial structure-based de/f_inition to 
+its current multi-modal model, the concept 
+of an agent has gone through the phases of 
+tools, social agents, work/f_lows, multi-agent 
+cooperation, and multiple modalities. Currently, an 
+agent is de/f_ined as a virtual role based on the AI 
+model with the ability to learn, remember, perceive the environment, recall past experiences, plan 
+target tasks and execute them to in/f_luence the 
+environment. 
+Each part of the agent, as shown in Fig. 1, is described 
+as follows: 
+Thinking and skills:  The agent receives task 
+objectives from users, plans tasks using the 
+LLM, and maps sub-tasks to the corresponding 
+skills. Skills include indirect instruction 
+communication for other agents’ production 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FInsights into AI Agent 
+Technology in 2024
+Chief Architect of ZTE 
+AIM/Wireless UME AI 
+Model ProductsDu Yongsheng
+General Planning Engineer 
+of ZTE AIM/Wireless UME 
+AI Model ProductsGao Yanqin
+Less than three months after the release of ChatGPT 3.5 in early 2023, the paper on large  language  model 
+(LLM)-powered autonomous agents was published, igniting immediate interest in AI agent technology. GPTs 
+or customized versions of ChatGPT were launched at the OpenAI Developer Conference in November 2023. At 
+present, agents have become a mainstream product of AI models.
+Compared to general-purpose AI model products, agents, whether role-playing or task-speciﬁc, are technically 
+easier to control. They oﬀer more accurate outputs and are easier for users to understand and adjust. We will 
+conduct an agent review to guide our follow-up research and work direction. JUN 2024 
+ 09

@@ -1,0 +1,58 @@
+集成电路产业技术发展趋势探讨 刘新阳  等 企业视界
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6集成电路产业技术发展趋势探讨
+Development Trends of Integrated Circuit Industry Technology
+刘新阳 /LIU Xinyang ，晁沛荫 /CHAO  Peiyin，
+李婷宇 /LI Tingyu
+（ 深圳市中兴微电子技术有限公司 ，中国 深圳 518055 ）
+(Sanechips Technology Co . , Ltd, Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202306011
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231213 .1626.002.html
+网络出版日期 ：2023 -12-14
+收稿日期 ：2023 -10-12
+摘要 ：集成电路产业已成为全球科技竞争的焦点之一 。产业链地图上的主要成员均在尝试强链补链 ，加强自身竞争优势 ，降低供应链风险 。数
+十年来的集成电路全球化发展趋势发生逆转 ，进一步增大了需求和供应的不确定性 。中国建设自立自强的集成电路产业更加迫切 ，需要走可持
+续发展路线 ，支撑各行业的产业数字化 ，提升全球竞争力 。从技术发展趋势来看 ，中国要坚持双循环 ，在先进工艺 、先进封装 、架构创新等方
+面进行多路径创新 ，坚持多样化发展 ，摆脱路径依赖 。
+关键词 ：宏观环境 ；产业链 ；先进工艺 ；先进封装 ；领域定制架构 ；异构设计
+Abstrac t:The integrated circuit industry has become one of the focuses of global competition in science and technology . Major members in 
+the industry chain map are trying to strengthen their competitive advantages and reduce supply chain risks . Decades of integrated circuit glo ⁃
+balization have reversed , further increasing the uncertainty of demand and supply . It is more urgent for China to build a self-reliant inte ⁃
+grated circuit industry , which will take the path of sustainable development , to support the digitalization and improve the global competive ⁃
+ness of domestic industries . From the perspective of technology trends , China should adhere to dual-circulation and make multi-path inno ⁃
+vations in advanced processing , advanced packaging , and architecture innovation . We should persist in diversified development to get rid of 
+path dependency .
+Keywords :macro-environment ; industry chain ; advanced processing ; advanced packaging ; domain-specific architecture ; heterogeneous design
+引用格式 ：刘新阳 , 晁沛荫 , 李婷宇 . 集成电路产业技术发展趋势探讨  [J]. 中兴通讯技术 , 2023 , 29(6): 66-70. DOI: 10.12142 /ZTETJ .202306011
+Citation ： LIU X Y , CHAO P Y , LI T Y . Development trends of integrated circuit industry technology [J]. ZTE technology journal , 2023 , 29(6): 
+66-70. DOI: 10.12142 /ZTETJ .202306011
+1 宏观环境变化带来集成电路产业新形势
+1.1 国际集成电路产业形势
+集成电路是一个全球化的产业 ，参与全球化分工的各个
+国家 、地区依托自身的优势 ，历经数十年市场竞争 ，
+形成了当前的产业格局 。美、欧、日、韩、中国是集成电路
+产业链的主要参与方 。其中 ，美、欧、日在集成电路上游领
+域较强 。美国整体优势最大 ，例如美国在电子设计自动化
+（EDA） 、IP、装备等领域均有明显优势 ，欧洲在 IP、装备领
+域较强 ，而日本在材料 、装备方面占优 。2018 年以来 ，中
+美科技竞争愈演愈烈 ，人工智能[1-5]、5G[6-9]等未来数字化 、
+智能化产业升级的关键技术成为竞争焦点 。作为算 、存、
+传、管、智数字化基础设施的底层关键技术 ，集成电路更是
+受到前所未有的关注 。围绕集成电路产业的竞争逐渐从企业
+层面扩展到产业链甚至国家 /地区层面 。集成电路全球产业
+链的发展越来越具有不确定性 。2021 年2月，拜登政府执政之初就 “美国供应链安全 ”
+签署了 14017 号行政命令 。同年 6月，白宫发布了一份 《供
+应链百日评估 》报告 ，指出美国供应链存在的一系列漏洞 ，
+并要求 “建立有弹性的供应链 ，振兴美国制造业 ，促进广泛
+的增长 ” 。在这一报告的指导下 ，美国随后密集出台相关法
+令法规 ，一方面通过政策 、金融 、市场等多种手段加强其在
+前沿技术上的研发和市场优势 ，推动芯片生产制造端重新回
+归美国国内 ，建设本土半导体制造产业链 ；另一方面在其政
+治盟友的基础上构建产业链盟友圈 ，在降低自生供应链风险
+的同时遏制战略对手获得半导体相关技术和装备 。其中 ，影
+响力较大的法令法规包括 ：
+• 2022 年8月9日，美国通过 《2022 年芯片与科学法
+案》 ，向新兴技术提供超过 2 000亿美元的投资 ，其中对美国
+本土芯片产业提供超过 500亿美元补贴 ，涵盖半导体制造激
+励、商业研发和劳动力发展 、教育基金 、国防基金 、创新基
+金等 ，同时要求任何接受补贴的公司 10年内禁止在 “特定
+66

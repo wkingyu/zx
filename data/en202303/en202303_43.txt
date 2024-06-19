@@ -1,0 +1,90 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Zhihao , ZHANG Yueping Differential Quasi -Yagi Antenna and Array    Research Papers
+10 GHz . It is evident from the figure that the surface wave of 
+the TE0 mode has been strongly excited and trapped in the un ‐
+grounded substrate region . It is important to note that the 
+grounded substrate region cuts off the surface wave of the TE0 
+mode and forces it to be reflected to the ungrounded substrate 
+region . The reflected surface wave of the TE0 mode is an im ‐
+portant source of mutual coupling . Then , we add two directors 
+in the model , and the simulated electric field distribution on 
+the top surface of the substrate at 10 GHz is shown in Fig . 8
+(b). It is seen that there is a strong desirable coupling between 
+the excited driver and its director due to the surface wave of 
+the TE0 mode for end -fire radiation . There seems no effect by 
+the directors on the coupling between the two drivers . Next , we 
+add CPS lines in the model and move the lumped port to the 
+CPS input and the matched load to the other CPS input . Fig. 8
+(c) shows the simulated electric field distribution on the top 
+surface of the substrate at 10 GHz . Note that the CPS lines en ‐
+hance the coupling between the two drivers . Finally , we add in 
+the model baluns to realize the single -ended quasi -Yagi array 
+and TCML to realize a differential quasi -Yagi array , respec ‐
+tively . Figs . 8(d) and 8(e) show the simulated electric field dis ‐
+tributions on the top surfaces of the substrates at 10 GHz for 
+the cases of the single -ended and differential quasi -Yagi ar ‐
+rays, respectively . Note that the coupling is stronger for the 
+differential than for the single -ended quasi -Yagi array .
+Fig. 9 shows the simulated | Sdd11| and | Sdd21| as a function of 
+frequency for the cases in Figs . 8(a) and 8(b) with a spacing 
+of 15 mm between the two elements . As expected , the cou ‐
+pling level over the acceptable matching band from 9 GHz to 
+11.5 GHz  is almost the same between the two cases with and 
+without the directors . Fig. 10 shows the simulated | Sdd11| and 
+|Sdd21| as a function of frequency for the case in Fig . 8(c) with a 
+spacing of 15 mm between the two elements . Note that the 
+CPS extends the matching band to 15 GHz and reduces the 
+coupling level over a wider bandwidth .
+Fig. 11 shows the simulated | S11| and | S21| as a function of frequency for the single -ended quasi -Yagi array of Fig . 8(d) 
+with a spacing of 15 mm between the two elements . Fig. 12 
+shows the simulated | Sdd11| and | Sdd21| as a function of fre ‐
+▲Figure 9. Simulated | Sdd11| and | Sdd21| as a function of frequency for the 
+cases in Figs . 8(a) and 8(b)
+▲Figure 10. Simulated | Sdd11| and | Sdd21| as a function of frequency for 
+the case in Fig . 8(c)
+▲Figure 11. Simulated | S11| and |S21| as a function of frequency for the 
+single -ended quasi -Yagi array with the spacing of 15 mm between the 
+two elements
+▲Figure 12. Simulated | Sdd11| and | Sdd21| as a function of frequency for 
+the single -ended quasi -Yagi array with a spacing of 15 mm between the 
+two elementsFrequency/GHz7   8   9  10 11 12 13 14 15S-pararneters/dB0
+-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40|Sdd11| of driver
+|Sdd11| of driver with director
+|Sdd21| of driver
+|Sdd21| of driver with director
+Frequency/GHz7   8   9  10 11 12 13 14 15S-pararneters/dB0
+-5
+-10
+-15
+-20
+-25
+-30
+-35|Sdd11|
+|Sdd21|Frequency/GHz7   8   9  10 11 12 13 14 15|S11|
+|S21|S-pararneters/dB0
+-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40
+-45Frequency/GHz7   8   9  10 11 12 13 14S-pararneters/dB0
+-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40|Sdd11|
+|Sdd21|
+41

@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Special Topic   Lossy Point Cloud Attribute Compression with Subnode -Based Prediction
+For the geometry information , in addition to octree coding[7], 
+the triangle soup (Trisoup ) coding[8] is used to approximate the 
+surface of point clouds as a complement to the octree decom ⁃
+position while predictive tree coding[9] is applied to low -delay 
+use cases . In terms of attributes , there are mainly two 
+branches concerning different advantages . The level of details 
+(LODs )-based prediction scheme[10] aims to near -lossless or 
+lossless compression and also deliver spatial scalability to G -
+PCC. By contrast , the region adaptive hierarchical transform 
+(RAHT ) scheme[11] is more suitable for lossy compression with 
+much lower complexity . Note that the attribute coding frame ⁃
+work RAHT is our main focus in this paper .
+As the mainstream attribute compression scheme , the 
+RAHT was first proposed in Ref . [12] to provide a hierarchical 
+transform structure . In general , the RAHT is an adaptive vari ⁃
+ant of the Haar wavelet transform (HWT ), which can evolve 
+into a 3D version of the Haar transform when all nodes are oc ⁃
+cupied . To furthermore improve the coding efficiency of the 
+RAHT , an upsampled transform domain prediction[13] was pro ⁃
+posed and has been adopted in the current G -PCC. Specifi ⁃
+cally , decoded attributes of the nodes at lower levels (i.e., 
+lower resolution ) are used to predict attributes of the nodes at 
+higher levels . Then , the prediction residuals can be further 
+quantized and entropically encoded . During the transform do ⁃
+main prediction stage , in addition to the nodes at lower levels , 
+the nodes at current encoding levels can also be applied to 
+prediction by means of weighted average[14]. However , the in ⁃
+formation of surrounding neighbor nodes has not been fully uti ⁃
+lized in certain search ranges , which means that further ex ⁃
+ploring the correlations between neighbor nodes can lead to 
+better attribute compression performance .
+In this paper , we propose a subnode -based prediction 
+scheme for point cloud attribute compression , which aims at 
+optimizing the upsampled transform domain prediction in 
+RAHT . Specifically , we first analyze the spatial distribution 
+among neighbor nodes and further explore their reference rela ⁃
+tionship . Based on this analysis , the prediction accuracy is fur ⁃
+ther improved by exploiting some already -encoded nodes that 
+are not used in the current prediction . Then , a weighted aver ⁃
+age strategy is introduced for the final attribute prediction of 
+the node to be encoded . Extensive simulations are conducted 
+and compared with the G -PCC as the anchor . Experimental re ⁃
+sults have confirmed that our proposed method outperforms 
+both Test Model Category 13 (TMC 13) and Geometry -Based 
+Solid Content Test Model (GeS -TM) platforms in terms of all 
+point cloud datasets provided by MPEG .
+The remainder of this paper is organized as follows . Section 
+2 succinctly reviews the related works on attribute coding in 
+PCC and describes the current RAHT scheme of G -PCC in 
+particular . Our proposed subnode -based prediction approach 
+is then presented in Section 3. Section 4 provides experimen ⁃
+tal results and analysis and Section 5 concludes this paper .2 Related Work
+In this section , we first review the attribute coding schemes 
+for PCC . They can be mainly divided into three categories , 
+which are projection -based methods , prediction -based meth ⁃
+ods and transform -based methods . All of them have been intro ⁃
+duced to the MPEG PCC standards . To be more specific , the 
+V-PCC utilizes projection -based methods while the other two 
+strategies have been adopted by the G -PCC. Since our work 
+mainly focuses on the geometry -based PCC , the research re ⁃
+lated to video -based PCC is outside the scope of this paper . 
+Moreover , the current RAHT scheme and upsampled trans ⁃
+form domain prediction of G -PCC are also specifically de ⁃
+scribed as our background .
+2.1 Point Cloud Attribute Coding Technologies
+Among the existing attribute coding approaches , the 
+prediction -based technology is one of the popular schemes to 
+exploit spatial attribute correlations between points . For ex ⁃
+ample , the attribute prediction framework in G -PCC[10] intro ⁃
+duces a linear interpolation process by using the k -nearest 
+neighbors (KNN ) search algorithm . This prediction method is 
+based on a LODs structure , which splits the whole point cloud 
+into several subsets (i.e., refinement levels ) according to the 
+distance criterion . Based on the LODs , the point clouds are 
+then reordered and encoded , where attributes of points are al ⁃
+ways predicted by their KNN in the previous LODs . Further ⁃
+more , an additional flag is provided in Ref . [15] to allow pre ⁃
+dictions by using points at the same level . On top of the pre ⁃
+diction framework , a lifting scheme[16] is proposed to promote 
+attribute lossy coding . To be more specific , compared with the 
+original prediction method , an update operator combined with 
+an adaptive quantization strategy is added to improve the pre ⁃
+diction accuracy . Attributes of points in lower LODs are al ⁃
+ways assigned much higher influence weights because they 
+are used as reference points with higher frequency and prob ⁃
+ability for predicting points in higher LODs .
+Based on the above two prediction schemes , substantial 
+works are investigated to further improve the attribute com ⁃
+pression efficiency . WEI et al . propose an enhanced intra -
+prediction scheme[17] by considering the overall geometric dis ⁃
+tribution of the neighbors set . They introduce the centroid -
+based criterion to measure the distribution uniformity of 
+points in a predictive reference set . Since this scheme predic ⁃
+tively encodes the point clouds point by point , the prediction 
+errors will accumulate and propagate , especially for points in 
+higher LODs . Hence , a bilateral filter is proposed in Ref . [18] 
+to update the reconstruction values of decoded points , which 
+reduces error propagation when encoding subsequent points . 
+In addition , YIN et al . attempt to optimize the predictive 
+neighbor set by using the normal of point clouds[19], aiming at 
+improving prediction precision for Light Detection and Rang ⁃
+ing (LiDAR ) point clouds .
+Besides prediction -based methods , other approaches con ⁃
+30

@@ -1,0 +1,76 @@
+大语言模型算法演进综述 朱炫鹏  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2and affordable post-training quantization for large-scale 
+transformers [EB/OL ]. (2022 -06-04)[2024 -03-10]. https ://arxiv .
+org/abs/ 2206 .01861
+[44] XIAO G X , LIN J , SEZNEC M , et al . SmoothQuant : accurate and 
+efficient post-training quantization for large language models 
+[EB/OL ]. (2022 -11-18) [2023 -03-10]. https ://arxiv .org/abs/
+2211 .10438
+[45] GUO C , TANG J , HU W M , et al . OliVe : accelerating large 
+language models via hardware-friendly outlier-victim pair 
+quantization [EB/OL ]. (2022 -11-18) [2024 -03-15]. https ://arxiv .
+org/abs/ 2304 .07493
+[46] YUAN Z H , NIU L , LIU J W , et al . RPTQ : reorder-based post-
+training quantization for large language models [EB/OL ]. (2023 -
+04-03)[2024 -03-15]. https ://arxiv .org/abs/ 2304 .01089
+[47] LIU J , GONG RH , WEI X Y , et al . QLLM : accurate and efficient 
+low-bitwidth quantization for large language models [EB/OL ]. 
+(2023 -12-12)[2024 -03-12]. https ://arxiv .org/abs/ 2310 .08041
+[48] WEI X Y , ZHANG Y C , LI Y H , et al . Outlier suppression+ : 
+accurate quantization of large language models by equivalent 
+and optimal shifting and scaling [EB/OL ]. (2023 -04-18) [2024 -
+03-12]. https ://arxiv .org/abs/ 2304 .09145
+[49] GU A , DAO T , ERMON S , et al . Hippo : recurrent memory with 
+optimal polynomial projections [EB/OL ]. (2020 -08-17) [2024 -
+03-10]. https ://arxiv .org/abs/ 2008 .07669
+[50] SHAZEER M N , MIRHOSEINO A , ZAZIARZ M , et al . 
+Outrageously large neural networks : the sparsely-gated 
+mixture-of-experts layer [EB/OL ]. (2017 -01-23)[2024 -03-10]. 
+https ://arxiv .org/abs/ 1701 .06538
+[51] LEPIKHIN D , LEE H J , XU Y Z , et al . GShard : scaling giant 
+models with conditional computation and automatic sharding 
+[EB/OL ]. (2020 -01-30) [2024 -03-10]. https ://arxiv .org/abs/
+2006 .16668
+[52] FEDUS W , ZOPH B , NOAM M . Switch Transformers : scaling to 
+trillion parameter models with simple and eﬃcient sparsity [EB/
+OL]. (2021 -01-11) [2024 -03-10]. https ://arxiv .org/abs/
+2101 .03961
+[53] KATHAROPOULOS A , VYAS A , PAPPAS N , et al . Transformers 
+are RNNs : fast autoregressive transformers with linear attention 
+[EB/OL ]. (2020 -06-29) [2024 -03-11]. https ://arxiv .org/abs/
+2006 .16236
+[54] GU A , GOEL K , RE C . Efficiently modeling long sequences with 
+structured state spaces [EB/OL ]. (2021 -10-31) [2024 -03-12]. 
+https ://arxiv .org/abs/ 2111 .00396
+[55] DAO T , FU Y D , SAAB K K , et al . Hungry hungry hippos : towards 
+language modeling with state space models [EB/OL ]. (2022 -12-
+28)[2024 -03-12]. https ://arxiv .org/abs/ 2212 .14052
+[56] POLI M , MASSAROLI S , NGUYEN E , et al . Hyena hierarchy : 
+towards larger convolutional language models [EB/OL ]. (2023 -
+02-21)[2024 -03-12]. https ://arxiv .org/abs/ 2302 .10866
+[57] SUN Y T , DONG L , HUANG S H , et al . Retentive network : a 
+successor to transformer for large language models [EB/OL ]. (2023 -07-17)[2024 -03-12]. https ://arxiv .org/abs/ 2307 .08621
+[58] PENG B , ALCAIDE E , ANTHONY Q , et al . RWKV : reinventing 
+RNNs for the transformer era [EB/OL ]. [2024 -03-12]. https ://
+aclanthology .org/2023 .findings-emnlp .936/
+[59] GU A , DAO T . Mamba : linear-time sequence modeling with 
+selective state spaces [EB/OL ]. (2023 -12-01) [2024 -03-12]. 
+https ://arxiv .org/abs/ 2312 .00752
+作 者 简 介
+朱炫鹏 ，中兴通讯股份有限公司无线资深专家 ；
+主要研究方向为深度学习算法 、计算机视觉 、大
+语言模型 。
+姚海东 ，中兴通讯股份有限公司无线资深专家 ；
+主要从事深度学习 、大模型网络架构及编译转换
+技术研究和设计 。
+刘隽 ，中兴通讯股份有限公司无线资深专家 ；主
+要研究方向包括深度学习算法 、AI编译器 、AI加
+速器架构设计和模拟仿真等 。
+熊先奎 ，中兴通讯股份有限公司无线首席架构师 、
+“智算”技术委员会前瞻组组长 ；长期从事计算系
+统和体系结构 、先进计算范式以及异构计算加速
+器研究工作 ；曾主导过中兴通讯 ATCA 先进电信
+计算平台 、服务器存储平台 、智能网卡和 AI加速
+器等系统架构设计 。
+20

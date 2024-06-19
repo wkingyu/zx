@@ -1,0 +1,61 @@
+RIS can seamlessly move along with users. 
+In addition to the Asian Games Village, the 
+Binjiang Gymnasium has also implemented 
+dynamic RIS deployment, facilitating 8K UHD 
+live broadcasting services. Moreover, along the 
+10 km footpath by the Qiantang River, real-time 
+testing and display of sports data become 
+achievable through beam tracking based on 
+dynamic RIS technology, thereby contributing 
+to the advancement of sports development.
+Promoting Intelligence Growth 
+Across Diverse Scenarios
+Industry’s First 5G Smallcell in Ship and 5G-A 
+Backhaul System for Qiantang River Cruises
+As one of the prominent water tourism 
+routes in Hangzhou, the Qiantang River serves 
+as a signi/f_icant destination for online anchors. 
+However, signal re/f_lection on the river and 
+substantial attenuation caused by ships make 
+traditional networks inadequate to meet the 
+demands of multiple anchors. In collaboration 
+with ZTE, China Telecom has successfully 
+deployed cutting-edge 1.6 GHz ultra-large 
+5G-A equipment on the Qiantang River. This 
+deployment enables a single terminal downlink 
+peak exceeding 11 Gbps, facilitating numerous 
+anchors in conducting high-de/f_inition live 
+broadcasts. Additionally, an innovative 5G 
+smallcell and 5G-A backhaul system have been 
+implemented on cruise ships, signi/f_icantly enhancing user experience by more than 
+tenfold.
+5G-A Nomadic Base Station Facilitates 
+New Business of China Media Group
+China Telecom and China Media Group 
+(CMG) have collaborated to implement a 
+new lightweight business for new media 
+based on 5G-A. Leveraging ZTE’s 5G-A private 
+network and nomadic base stations, they can 
+achieve stable transmission of uplink 2G+ 
+ultra-large capacity and 4k live broadcasts 
+with a shallow compression ratio of 1:8. 
+By incorporating real-time chroma keying 
+in live broadcasting, low-latency virtual 
+interaction within the same frame can be 
+experienced. This technology has been 
+successfully applied to numerous CMG 
+new media programs.
+RedCap and ISAC Enable Low-Cost 
+Ground and Air Inspections
+China Telecom and ZTE have 
+implemented the reduced capability 
+(RedCap) technology in Hangzhou Smart 
+E Valley. Leveraging the advantages of 
+RedCap’s high capacity and low latency, 
+real-time ground image acquisition and 
+transmission can be achieved, enabling 
+cost-eﬀective campus inspections. 
+Intelligent solutions are also being 
+applied in the low-altitude domain. China 
+Downlink rate/gid00040/gid00065/gid00079/gid00082
+37 FEB 2024

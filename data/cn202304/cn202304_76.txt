@@ -1,0 +1,55 @@
+基于 5G连接的集中式 PLC新型工业组网架构 邓 伟  等 技术广角
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4基于 5G连接的
+集中式 PLC新型工业组网架构
+5G-Based Centralized PLC New Industrial Networking Architecture
+邓伟/DENG Wei ，于天意 /YU Tianyi ，侯庆东 /HOU Qingdong
+（ 中国移动通信有限公司研究院 ，中国 北京 100053  ）
+(Research Institute of China Mobile , Beijing 100053 , China )DOI：10.12142 /ZTETJ .202304013
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230720 .1158 .002.html
+网络出版日期 ：2023 -07-20
+收稿日期 ：2023 -03-25
+摘要 ：提出基于 5G连接的集中式可编程逻辑控制器 （PLC）组网架构 。通过将生产环节中的物理实体 PLC虚拟化 ，并将虚拟化 PLC集中部署在
+靠近工业现场的边缘算力载体上 ，结合 5G系统确定性增强 ，实现 PLC全向无线化 。围绕“基于软性确定性连接的全局集中式协同控制 ”思路，
+分析集中式 PLC组网架构中涉及的确定性 、差异化 、降成本和安全性等挑战 ，并重点给出关键使能技术体系 。
+关键词 ：集中式 ；可编程逻辑控制器 ；5G连接；降本增效
+Abstrac t:A centralized programmable logic controller (PLC) networking architecture based on the 5G connection is proposed . By virtualizing 
+the physical entity PLC in the production link , and centrally deploying the virtualization PLC on the edge computing power carrier near the in ⁃
+dustrial field , the PLC omnidirectional wireless is realized . Focusing on the idea of "global centralized collaborative control based on soft de ⁃
+terministic connection" , the challenges of determinism , differentiation , cost reduction , security involved in the centralized PLC networking ar ⁃
+chitecture are analyzed , and the key enabling technology system is focused on .
+Keywords :centralized ; PLC ; 5G connection ; cost reduction and benefit increasing
+引用格式 ：邓伟 , 于天意 , 侯庆东 . 基于 5G连接的集中式 PLC新型工业组网架构  [J]. 中兴通讯技术 , 2023 , 29(4): 72-77. DOI : 10.12142 /
+ZTETJ .202304013
+Citation ： DENG W , YU T Y , HOU Q D . 5G-based centralized PLC new industrial networking architecture [J]. ZTE technology journal , 2023 , 29
+(4): 72-77. DOI: 10.12142 /ZTETJ .202304013
+传统的工业网络一般分为企业层 、车间层 、控制层和设
+备层[1]。其中 ，企业层与车间层属于信息技术 （IT）
+网络 ，对网络性能要求不高 ，一般采用标准以太网协议 。控
+制层与设备层位于生产现场 ，属于运营技术 （OT）网络 ，
+对网络性能要求苛刻 ，一般采用定制工业以太网 /现场总线
+协议 。
+为提高生产效率 ，工业生产大部分采用流水线作业方
+式，工业控制 （后文简称为 “工控 ” ） 设备位于工业现场 ，
+与机器人 、生产装备等组成具备某一生产能力的工位 。各工
+位之间通过传送带 、物料架等连接 ，并通过统一精准的协同
+控制完成生产流程的闭环 。高精度 、高可靠的自动化生产对
+控制环节的确定性要求很高 ，工业现场普遍采用基于刚性确
+定性规划协同的离散分布式控制系统 ，来保障生产的连续性
+和安全性 。工控通信网络整体产业链条长 、产业难度大 ，目
+前高端工控设备及工业协议严重依赖进口 ，制约了中国智能制造产业的高质量发展 。
+近年来 ，随着 5G、云计算等新一代信息技术的发展 ，
+无线通信 、大规模计算能力不断提升 ，使用成本不断降低 。
+随着 5G与工业融合的逐步深入 ，业界正在探索 5G与OT的
+深度融合 ，使能工业现场无线化 ，真正实现柔性生产 。基于
+此，本文提出了 “基于软性确定性连接的全局集中式协同控
+制”思路 ，以替代传统 “基于刚性确定性规划协同的离散分
+布式控制 ”思路 ，实现降本增效 。一方面 ，具备确定性增强
+能力的 5G系统内生云化 /集中化可编程逻辑控制器 （PLC） ，
+可承载工业网络 IT域、OT域的所有需求 ，实现 “一网到
+底” ；另一方面 ，PLC 在云化 /集中化后 ，通过大范围协同 、
+组态逻辑的优化 、网络与业务的协同 ，降低了控制器与输
+入/输出模块 （C2IO）间通信对连接确定性的要求 。同时 ，
+控制功能实现云化 /集中化后 ，可复用当前通用的算力资源 ，
+提升工控的灵活性 ，降低部署成本 。
+72

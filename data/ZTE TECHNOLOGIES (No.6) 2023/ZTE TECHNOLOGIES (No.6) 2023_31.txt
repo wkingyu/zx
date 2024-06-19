@@ -1,0 +1,96 @@
+cells. In September 2023, China Telecom 
+Guangdong and ZTE jointly launched 
+China's /f_irst/uni00A0 10G-to-the-enterprise 
+application with 50G PON technology at 
+the Nanshan Science and Technology Park 
+in Shenzhen. 
+For home networks, 50G PON+FTTR 
+can provide ultra-high bandwidth, 
+accommodating various services such 
+as smart home, online education, online 
+games, VR, and online live streaming. The 
+high bandwidth, low latency, and low 
+jitter features of 50G PON also support 
+mobile backhaul and indoor coverage 
+requirements.
+ZTE will continue to work with operators 
+to verify the technical feasibility and 
+equipment maturity of 50G PON in 
+diﬀerent application scenarios while 
+exploring more application scenarios. 
+Smooth 50G PON Upgrade Protects 
+Investment
+In terms of network evolution, ZTE 
+recommends the Combo PON concept for 
+a smooth migration from existing PON 
+to 50G PON. This concept enables GPON, 
+XG(S)-PON, and 50G PON to coexist on a 
+single platform and line card, tripling the 
+equipment life cycle and saving network 
+construction investments.
+With the addition of a third uplink 
+wavelength band (1284–1288 nm) to the 
+50G PON standard at the beginning of 
+2023, 50G PON does not need to reuse the 
+existing GPON and XGS-PON wavelengths, 
+laying the foundation for the coexistence 
+of 50G PON, 10G PON, and GPON ONUs on 
+the same network. 
+ZTE took the industry lead by releasing 
+the 50G PON & 10G PON & GPON 
+three-mode Combo PON solution (Fig. 1)
+at MWC 2023, and ZTE is also the /f_irst 
+vendor to apply the Combo concept to 
+the upgrade from 10G PON to 50G PON. 
+This solution, featuring an independent 
+sensitive to latency and jitter. 
+To meet the requirements of 
+deterministic campus networks, ZTE has 
+introduced industry’s /f_irst precise 50G PON 
+technology at MWC 2022.
+Currently, the 50G PON standards 
+are almost complete and in the /f_inal 
+preparation stage for commercial use. 
+The focus of 50G PON has been shifted 
+from standard formulation to commercial 
+deployment. ZTE has carried out 50G PON 
+demonstrations, tests, and pilots with more 
+than 30 operators, continuously promoting 
+cooperation and maturity of the industry 
+chain in this /f_ield. 
+50G PON Covers Diverse Application 
+Scenarios
+As the next-generation optical /f_iber 
+access technology, 50G PON is expected to 
+be commercially available by 2025, starting 
+with ToB scenarios and expanding to ToH 
+scenarios.
+50G PON oﬀers uplink and downlink 
+symmetric 50 Gbps bandwidth, meeting 
+the high-bandwidth service requirements 
+of enterprises and enabling symmetric 
+10G LAN applications. On the one hand, 
+50G PON+FTTR-B can meet the application 
+requirements of small and medium-sized 
+enterprises (SMEs), such as hotels, street 
+stores, and cafes, ensuring a good user 
+experience. On the other hand, 50G PON 
+can implement 10G all-optical access for 
+campuses and enterprises, meeting the 
+deterministic requirements for latency and 
+jitter in scenarios such as development 
+zones, industrial parks, and factories. 
+In September 2022, China Mobile and 
+ZTE successfully completed the 50G PON 
+backhaul /f_ield trial with 5G small cells in its 
+existing network, con/f_irming that the 50G 
+PON equipment, integrated with the latest 
+optoelectronic devices, can precisely 
+carry and guarantee high bandwidth 
+and low latency services of 5G small 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 29

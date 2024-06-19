@@ -1,0 +1,96 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3YU Junpeng , CHEN Yiyu A Practical Reinforcement Learning Framework for Automatic Radar Detection    Special Topic
+2.2 Radar Control with Reinforcement Learning
+Reinforcement learning methods enable automatic learning of 
+complex behaviors , and several studies have focused on intro ‐
+ducing deep reinforcement learning into radar control . AZIZ et 
+al. provided a survey of literature proposing the application of re ‐
+inforcement learning to radar to overcome jamming[2]. WANG et 
+al. suggested a cognitive frequency design method for a 
+compressed -sensing -based frequency agile radar using reinforce ‐
+ment learning[43]. PATTANAYAK et al . introduced an inverse re ‐
+inforcement learning approach to meta -cognitive radars in an ad ‐
+versarial setting[44]. ZHAI et al . proposed a reinforcement 
+learning -based approach for multi -input multi -output (MIMO ) 
+cognitive radar[45]. OTT et al . proposed an uncertainty -based 
+meta -reinforcement learning approach with out -of-distribution 
+environment detection[46]. In the context of multi -agent systems , 
+SNOW et al . proposed a multi -objective inverse reinforcement 
+learning approach for tracking targets with a cognitive radar net ‐
+work[47]. MENG et al . examined the issue of target assignment 
+when a phased -array radar network detects hypersonic -glide ve ‐
+hicles in near space and proposed a method for target assign ‐
+ment based on deep reinforcement learning[48].
+The aforementioned studies illustrate that deep reinforcement 
+learning has extensive potential applications in various aspects 
+of radar systems . However , these related works are conducted in 
+simple simulated scenarios , and thus it remains challenging to 
+implement reinforcement learning methods in real -world situa ‐
+tions. In this paper , we concentrate on the framework for exten ‐
+sive single radar parameter control , and we introduce realistic 
+sample -limited settings and corresponding reinforcement learn ‐
+ing methods to tackle this problem .
+3 Reinforcement Learning Framework for 
+Automatic Radar Detection
+3.1 Environment Modeling
+Environment modeling is the foundation of reinforcement 
+learning . Existing modules of traditional radar control are : a) 
+analog signal → plot processing ; b) plot → track processing ; c) 
+track → radar parameter control module . The intelligent radar 
+control system mainly requires intelligent automatic control of 
+the radar while observing the processed radar data (e.g., plots , 
+tracks , etc.), and its framework is shown in Fig . 2. In order to en ‐
+hance the universality and generalization performance of our re ‐
+inforcement learning algorithm , our agent focuses on processing 
+the input data composed of original analog signals , processed 
+plots, and mixed tracks as states , and outputs controllable radar parameters .
+The radar point and track processing algorithms typically op ‐
+erate in cycles . After each radar scan is completed and before 
+the next one begins , our agent makes its decisions . In this con ‐
+text, the input state s=(s1,s2,s3) includes :
+a）A 3-dimensional raw echo analog signal , denoted as  
+s1∈[H, W, V]. Here , H, W, and V represent the distance , devia ‐
+tion angle , and amplitude of the signal , respectively . This analog 
+signal is the radar ’s echo signal in each direction . The data for 
+each cycle is a position peak matrix .
+b）Dots denoted as  s2={(x1,y1,v1),(x2,y2,v2),…,(xn,yn,vn)}. 
+These are a series of points identified as target points in the ana ‐
+log signal . Each point has features , such as position and signal -
+to-noise ratio , extracted by algorithms . The number of points in 
+the plot data for each cycle is uncertain . Each point has one row 
+of features . Although there are much more clutter points in dots 
+compared with tracks , it may cover more potential targets .
+c）Tracks denoted as s3={(x′1,y′1,v′1,l′1),(x′2,y′2,v′2,l′2),…,(x′n′,y′n′,v′n′,l′n′)}. 
+A track is a series of points in a historical track where the 
+target point is recognized as a real target . Each point has fea ‐
+tures , such as position and velocity , extracted by algorithms . 
+Similar to the format of dots , there are multiple dots in each 
+cycle of dot data , each with a single line of features . How ‐
+ever, each target is additionally marked with a unique batch 
+number . The trajectory is the main basis for decision -
+making , but it often lacks some difficult -to-detect target in ‐
+formation and performs with a certain lag .
+The system ’s output is the radar ’s parameter control informa ‐
+tion, which includes frequency point , speed , pitch angle , and tim ‐
+ing transmission . Note that these are generally discrete variables .
+3.2 Learning Framework
+As Fig . 3 illustrates , the framework ’s primary process is di ‐
+vided into two stages :
+The first stage involves data collection and offline pre -
+training . Although offline reinforcement learning algorithms do 
+not impose strict requirements on offline training data , existing 
+research indicates that the diversity of offline training data sig ‐
+nificantly impacts the learning outcome[49]. Hence , we aim to 
+conduct offline reinforcement learning pre -training for the deci ‐
+sion model , denoted as πθ (where θ represents model param ‐
+eters), based on as many diverse and abundant offline training 
+data as possible . This stage initiates with model parameters θ0 
+and results in pre -training parameters θ′.
+The second stage involves running the pre -trained decision 
+▲Figure 3. Process of learning framework ▲Figure 2. Environment interaction frameworkRadarAnalyzed 
+information AgentExternal processing State， reward
+Control actionOffline data
+πθ0Offline pre -training Online trainingπθi
+πθ′
+Stage 1 Stage 2
+25

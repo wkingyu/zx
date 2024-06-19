@@ -1,0 +1,54 @@
+6G网络架构研究进展及建议 谢 峰 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 56G网络架构研究进展及建议
+6G Network Architecture : A Survey
+谢峰/XIE Feng1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia , Shen ⁃
+zhen 518055 , China )DOI：10.12142 /ZTETJ .202305006
+网络出版地址 ：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231020 .1241 .002.html
+网络出版日期 ：2023 -10-20
+收稿日期 ：2023 -08-12
+摘要 ：6G网络架构的研究包括组网生态 、面向高性能和能效的软硬件联合设计通信架构 、云原生 /算力网络和服务架构 、新能力 （可信安全内生
+和智能内生 ）架构 4个维度 。这4个维度与 ITU-R IMT- 2030 （6G）框架文件中的场景和指导原则密切相关 。对中国 、欧盟、美国三方的主要
+研究进展分别做了介绍和对比分析 ，并给出了一些关于中国 6G网络架构研究的建议 。
+关键词 ：6G网络架构 ；生态；性能和能效 ；云原生 ；算力网络 ；服务架构 ；可信安全内生 ；智能内生
+Abstrac t:The research on 6G network architecture can be classified into four perspectives : the networking ecology , high-performance and 
+energey-efficient software-hardware co-design communication architecture , cloud-native/computing network and service architecture , 
+and new capability architecture (trust&security-native , AI-native ). These four perspectives are closely related to the use cases and overarch ⁃
+ing principles of the ITU-R IMT- 2030  (6G) framework . A compact but comprehensive survey on the progress of research on 6G network ar ⁃
+chitecture by China , Europe Union , and USA is introduced , along with some comparison and analysis . Finally , some advice for the research 
+on China ’s 6G network architecture is provided .
+Keywords :6G network architecture ; ecology ; performance and energy-efficiency ; cloud-native ; computing network ; service architecture ; 
+trust&security-native ; AI-native
+引用格式 ：谢峰 . 6G网络架构研究进展及建议  [J]. 中兴通讯技术 , 2023 , 29(5): 28-37. DOI: 10.12142 /ZTETJ .202305006
+Citation ： XIE F . 6G network architecture ：a survey [J]. ZTE technology journal , 2023 , 29(5): 28-37. DOI: 10.12142 /ZTETJ .202305006
+1 6G需求和愿景
+国际电信联盟无线电通信部门 （ITU-R ）在2023 年6月
+正式发布 6G框架文件[1]。该文件涉及 6G场景和关键
+能力 ，基本上涵盖了全球各主要国家和主要厂家的观点 。
+如图 1所示 ，6G场景包括 5G三大场景的扩展 ：从增强移
+动宽带 （eMBB ）扩展到沉浸式通信 ，从超可靠低时延通
+信（URLLC ）扩展到极可靠低时延通信 （HRLLC ） ，从海
+量机器类通信 （mMTC ）扩展到海量通信 。此外 ，6G场景
+还包括通感融合 、通智融合 ，以及面向尚未被覆盖或很少
+覆盖地区的泛在连接 。同时 ，国际电信联盟 （ITU）还给
+出了四大指导性原则 ：可持续性 、连接未连 （泛在连接场
+景与此呼应 ） 、安全 /隐私 /韧性 、泛在智能 （通智融合场景与此呼应 ）。
+三大扩展场景涉及对先进性能指标 （例如速率 、时延 、
+可靠性 、连接密度等 ）及其灵活组合的要求 。这对空口 、
+设备软硬件以及网络架构提出了要求 ：用户面软硬件联合
+设计 、可编排可编程网络 、控制与转发分离 （控制面 /用户
+面分离 ）是其支撑技术 。新的三大场景中 ，通感融合不仅
+为运营商网络 、行业网络和终端提供了新的目标识别 、检
+测和成像能力 ，也为政府 、垂直行业和用户赋能 ，其中通
+感融合架构是其支撑 。通智融合以及泛在智能原则包括网
+络自智和网络的智赋 ，满足网络的大规模定制 、智能供给
+的需求 ，其中智能内生架构 、数据内生架构 、算力内生 /云
+原生架构及数字孪生网络是其支撑 。泛在连接 /连接未连不
+仅涉及覆盖能力 ，还涉及组网生态和商业模式 。可持续性
+除了涉及网络和设备能量效率外 ，还涉及网络架构和空口
+制式的演进以及网络的商业模式 。安全 /隐私 /韧性涉及网 基金项目 ：国家重点研发计划项目 （2020 YFB1806700 ）
+28

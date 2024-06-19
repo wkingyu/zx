@@ -1,0 +1,112 @@
+面向 6G无线环境可预测的感知重构 、语义表征及应用 张建华  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5无线环境 “数字孪生 ”的初步形态 。但是目前该平台仍受到
+采集设备精度和电磁计算效率等因素的限制 。未来 ，在更先
+进的传感器和强大计算能力的支持下 ，该平台可以完成 6G
+网络多种场景下无线环境的重构与预测 。
+4 未来挑战与展望
+1）提高环境感知的精度
+目前感知技术受到传感器设备精度 、采集数据质量 、算
+法复杂度和实时性等多方面的限制 ，这导致最终重构出的环
+境也存在一定误差 。同时感知算法的高复杂性 ，对计算设备
+的内存和算力提出了较大的挑战 。提升环境感知技术的精度
+需要从传感器技术 、数据质量 、算法改进 、实时性优化等多
+个方面入手 。提高感知设备和算法在各种应用场景下的准确
+性和稳定性 ，获取丰富的信息 ，有助于实现较高的无线环境
+感知精度 。
+2）提升无线环境语义可解释性 、泛化性
+现有信道预测研究大多使用深度学习技术进行信道下游
+任务的预测 ，然而深度学习模型由大量的神经元和权重组
+成，导致其决策过程难以直观理解 ，通常在语义可解释性方
+面存在挑战 。同时机器学习模型在测试数据或实际应用中表
+现较差 ，相关的应用场景及数据较为固定 。提高语义可解释
+性和泛化性是不断探索和优化的方向 ，这使得机器学习模型
+更可靠 、更具实用性 ，从而提高无线环境语义表征的场景适
+应性 。
+3）普适化无线环境的可预测框架
+不同的通信场景和下游任务需要不同类型的感知设备来
+进行信息采集 。文献 [38]对基于完整环境图像及基于语义目
+标图像的波束预测方法进行了对比 。结果表明 ，基于语义目
+标的方法能有效去除环境冗余信息 ，增强预测模型的鲁棒
+性。现有的基于环境信息进行信道预测的工作大多为任务导
+向，面向不同的下游信道预测任务进行信道预测 ，缺乏一个
+通用性的统一架构 。因此 ，如何设计一个大而统的无线环境
+可预测框架也是一个亟待解决的难题 。
+5 结束语
+到目前为止 ，虽然自动驾驶领域的环境感知重构技术已
+经基本成熟 ，但是无线环境可预测仍处于研究的初级阶段 。
+本文面向 6G网络中信道复杂动态变化的难题 ，总结了现有
+的感知重构 、语义表征与信道可预测的研究进展 。然而 ，现
+有研究存在感知技术精度较低 、无线环境语义可解释性和泛
+化性较差 、环境可预测受到任务限制等问题 。如何提高无线
+环境感知精度 ，提升无线环境语义的可解释性 ，建立一个面向6G信道的通用性系统模型 ，是今后研究的关键所在 。
+参考文献
+[1] ZHANG P , XU W J , GAO H , et al . Toward wisdom-evolutionary and 
+primitive-concise 6G: a new paradigm of semantic communication 
+networks [J]. Engineering , 2022 , 8: 60-73. DOI: 10.1016 /j.eng.2021 .11.003
+[2] ZHANG J H , WANG J L , ZHANG Y X , et al . Integrated sensing and 
+communication channel : measurements , characteristics , and modeling [J]. 
+IEEE communications magazine , 2023 , (99): 1-7. DOI : 10.1109 /
+MCOM .020.2300165
+[3] LIU G Y , LI N , DENG J , et al . The SOLIDS 6G mobile network architecture : 
+driving forces , features , and functional topology [J]. Engineering , 2022 , 8: 
+42-59. DOI: 10.1016 /j.eng.2021 .07.013
+[4] ZHANG J H , LIN J X , TANG P , et al . Channel measurement , modeling , and 
+simulation for 6G: a survey and tutorial [EB/OL ]. (2023 -05-26) [2023 -08-
+08]. https ://arxiv .org/abs/ 2305 .16616 .pdf
+[5] 张建华 , 唐盼 , 姜涛 , 等. 5G信道建模研究的进展与展望  [J]. 中国科学基金 , 
+2020 , 34(2): 163-178. DOI: 10.13443 /j.cjors .2017091505
+[6] NIE G F , ZHANG J H , ZHANG Y X , et al . A predictive 6G network with 
+environment sensing enhancement : from radio wave propagation 
+perspective [J]. China communications , 2022 , 19(6): 105-122. DOI : 
+10.23919 /JCC .2022 .06.009
+[7] LI W , ZHANG J H , MA X C , et al . The way to apply machine learning to IoT 
+driven wireless network from channel perspective [J]. China 
+communications , 2019 , 16(1): 148-164. DOI: 10.12676 /j.cc.2019 .01.014
+[8] ZHANG J H , TANG P , YU L , et al . Channel measurements and models for 
+6G: current status and future outlook [J]. Frontiers of information 
+technology & electronic engineering , 2020 , 21(1): 39-61. DOI : 10.1631 /
+FITEE .1900450
+[9] 刘留 , 张建华 , 樊圆圆 , 等. 机器学习在信道建模中的应用综述  [J]. 通信学报 , 
+2021 , 42(2): 134-153. DOI: 10.11959 /j.issn.1000 -436x.2021001
+[10] ZHANG Z , ZHANG J H , ZHANG Y X , et al . AI-based time- , frequency- , 
+and space-domain channel extrapolation for 6G: opportunities and 
+challenges [J]. IEEE vehicular technology magazine , 2023 , 18(1): 29-39. 
+DOI: 10.1109 /MVT .2023 .3234169
+[11] ZHANG Z , ZHANG J H , ZHANG Y X , et al . Deep reinforcement learning 
+based dynamic beam selection in dual-band communication systems [J]. 
+IEEE transactions on wireless communications , 2023 , (99): 1. DOI : 
+10.1109 /TWC .2023 .3300830
+[12] 刘光毅 , 邓娟, 郑青碧 . 基于数字孪生网络的 6G无线网络自治  [J]. 中兴通讯技
+术, 2023 , 29(3): 2-7. DOI: 10.12142 /ZTETJ .202303002
+[13] 段向阳 , 康红辉 , 吕星哉 , 等. 面向 6G的无线接入网络数字孪生技术  [J]. 中兴
+通讯技术 , 2023 , 29(3): 32-37. DOI：10.12142 /ZTETJ .202303007
+[14] REDMON J , DIVVALA S , GIRSHICK R , et al . You only look once : unified , 
+real-time object detection [C]//Proceedings of 2016  IEEE Conference on 
+Computer Vision and Pattern Recognition (CVPR ). IEEE , 2016 : 779-788. 
+DOI: 10.1109 /CVPR .2016 .91
+[15] WOJKE N , BEWLEY A , PAULUS D . Simple online and realtime tracking 
+with a deep association metric [C]//Proceedings of 2017  IEEE International 
+Conference on Image Processing (ICIP). IEEE , 2018 : 3645 -3649 . DOI : 
+10.1109 /ICIP .2017 .8296962
+[16] CHEN L C , PAPANDREOU G , KOKKINOS I , et al . DeepLab : semantic 
+image segmentation with deep convolutional nets , atrous convolution , and 
+fully connected CRFs [J]. IEEE transactions on pattern analysis and 
+machine intelligence , 2018 , 40(4): 834-848. DOI : 10.1109 /
+TPAMI .2017 .2699184
+[17] CHEN Y L , LIU S , SHEN X Y , et al . DSGN : deep stereo geometry network 
+for 3D object detection [C]//Proceedings of 2020  IEEE/CVF Conference on 
+Computer Vision and Pattern Recognition (CVPR ). IEEE , 2020 : 12533 -
+12542 . DOI: 10.1109 /CVPR 42600 .2020 .01255
+[18] LAGA H , JOSPIN L V , BOUSSAID F , et al . A survey on deep learning 
+techniques for stereo-based depth estimation [J]. IEEE transactions on 
+pattern analysis and machine intelligence , 2022 , 44(4): 1738 -1764 . DOI : 
+10.1109 /TPAMI .2020 .3032602
+[19] MUKHERJEE S , COUDERT O , BEARD C . UNIMODAL : UAV-aided 
+infrared imaging based object detection and localization for search and 
+disaster recovery [C]//Proceedings of 2022  IEEE International Symposium 
+on Technologies for Homeland Security (HST). IEEE , 2023 : 1-6. DOI : 
+10.1109 /HST 56032 .2022 .10025436
+[20] XU Z G , WANG J , WANG L Y . Infrared image semantic segmentation 
+based on improved DeepLab and residual network [C]//Proceedings of 
+43

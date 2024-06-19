@@ -1,0 +1,55 @@
+6G绿色网络发展趋势和关键技术 李福昌  等 专家论坛
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 66G绿色网络发展趋势和关键技术
+Development Trends and Key Technologies of 
+6G Green Networks
+李福昌 /LI Fuchang ，郭希蕊 /GUO Xirui
+（ 中国联合网络通信集团有限公司研究院 ，中国 北京 100048  ）
+(Research Institute of China United Network Communications Co . , Ltd, 
+Beijing 100048 , China )DOI：10.12142 /ZTETJ .202306009
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231211 .1113 .002.html
+网络出版日期 ：2023 -12-11
+收稿日期 ：2023 -10-16
+摘要 ：6G网络将驱动无线网络进入万物智联 ，但也面临能耗巨大的挑战 。提出了构建泛在智简 、绿能降碳的 6G绿色网络的愿景 ，并分析了 6G
+绿色网络的关键技术问题 ，包括网络架构和协议智简技术 、先进天线技术 、智能资源管理技术和动态关断技术等 。介绍了实现 6G绿色低碳设备
+的一系列技术 ，包括高效芯片技术 、高效信号处理技术 、高效功放技术以及新型材料技术 ，并针对 6G网络与绿色能源融合技术以及分布式微电
+网协同技术进行了分析 。
+关键词 ：绿色网络 ；绿色设备 ；绿色站点 ；绿色能源
+Abstrac t:The 6G network will drive wireless networks into the era of intelligent connection of all things , but it also faces the challenge of 
+huge energy consumption . The vision of building a 6G green network that is ubiquitous , intelligent , simple , green , and carbon-reducing is 
+proposed , and the key technical issues of the 6G green network are analyzed , including network architecture and protocol intelligent simplifi ⁃
+cation technology , advanced antenna technology , intelligent resource management technology , and dynamic shutdown technology . A series 
+of technologies for realizing 6G green and low-carbon devices are introduced , including efficient chip technology , efficient signal processing 
+technology , efficient power amplifier technology , and new material technology . Finally , the integration technology of the 6G network and 
+green energy and the collaborative technology of distributed microgrid are analyzed .
+Keywords :green network ; green equipment ; green site ; green energy
+引用格式 ：李福昌 , 郭希蕊 . 6G绿色网络发展趋势和关键技术  [J]. 中兴通讯技术 , 2023 , 29(6): 54-59. DOI: 10.12142 /ZTETJ .202306009
+Citation : LI F C , GUO X R . Development trends and key technologies of 6G green networks [J]. ZTE technology journal , 2023 , 29(6): 54-59. 
+DOI: 10.12142 /ZTETJ .202306009
+随着移动通信近 10年的快速发展 ， “4G改变生活 ，5G改
+变社会 ”带动了数字经济的高速发展 ，5G更是作为新
+型数字基础实施的重要技术在网络强国 、数字中国 、智慧社
+会中发挥了重大作用 。基于移动通信发展红利 ，人民对于
+6G技术愿景充满了更高的期待 。6G通信网络面向用户 ，将
+更加智能化 、数字化 ，为工业互联网和物联网提供可靠的网
+络通信 。
+在移动通信技术发展历程中 ，虽然网络设备能效不断提
+升，但随着网络频率升高 、带宽增大 、规模增长 ，网络能耗
+呈现持续增长的趋势 ，未来 6G网络面临严重的能耗挑战 。
+如何在网络服务能力持续提升的基础上实现碳达峰 、碳中和
+是6G网络发展中的关键问题 。本文从绿色网络技术 、绿色
+低碳设备 、绿色站点技术 、绿色能源技术等角度提出了构建
+泛在智简 、绿能降碳的 6G绿色网络[1]。1 6G绿色网络技术
+6G网络覆盖涵盖空天地海等全球全域场景 ，网络架构
+如图 1所示 。6G网络需要在 “泛在连接 ”的基础上通过架构
+智简 、协议智简 、组网智简构建绿色低碳的网络体系[2]。
+1.1 架构智简技术
+为了实现万物智联 、绿色低碳的发展目标 ，6G网络架
+构将发生颠覆式重构 。无线网将打破传统的有边界的 、烟囱
+式的架构 ，支持融合泛在 、绿色节能的新型网络架构 。
+6G绿色网络架构将支持空天地一体化组网 ，通过卫星
+网络 、空基网络 、低空及地面网络 3层组网 ，形成以地面网
+络为基础 、以非地面网络为拓展的立体全域覆盖绿色节能网
+络。地面网络与非地面网络互联互通 、深度融合 ，采用统一
+的协议栈 ，支持海量用户无感知 、极简的泛在接入 。基于内
+54

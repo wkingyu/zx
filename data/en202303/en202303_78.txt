@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3JI Yuhe , HAN Jing , ZHAO Yongxin , ZHANG Shenglin , GONG Zican Research Papers   Log Anomaly Detection Through GPT -2 for Large Scale Systems
+to input semantic analysis data into GPT -2 and designed an 
+alarm strategy layer . Through these ways , we improved the 
+complex log sequence learning ability of the model and re ‐
+duced the noise effect on the model prediction . Experimental 
+results on two industrial datasets have shown that the false 
+alarm rate of the model is significantly reduced , and our frame ‐
+work shows good performance in the actual operation scenario .
+In the future , we will continue to improve the performance 
+of the model on multiple datasets and reduce the dependence 
+of the alarm strategy layer on expert experience .
+References
+[1] ZHANG S L , LIU Y , PEI D , et al . Rapid and robust impact assessment of soft ‐
+ware changes in large Internet -based services [C]//The 11th ACM Conference 
+on Emerging Networking Experiments and Technologies . ACM , 2015 : 1–13. 
+DOI: 10.1145 /2716281 .2836087
+[2] ZHU J M , HE S L , LIU J Y , et al . Tools and benchmarks for automated log pars ‐
+ing [C]//IEEE/ACM 41st International Conference on Software Engineering : 
+Software Engineering in Practice (ICSE -SEIP ). IEEE , 2019 : 121–130. DOI : 
+10.1109 /ICSE -SEIP .2019 .00021
+[3] DU M , LI F F , ZHENG G N , et al . DeepLog : anomaly detection and diagnosis 
+from system logs through deep learning [C]//ACM SIGSAC Conference on Com ‐
+puter and Communications Security . ACM , 2017 : 1285–1298 . DOI : 10.1145 /
+3133956 .3134015
+[4] MENG W B , LIU Y , ZHU Y C , et al . LogAnomaly : unsupervised detection of se ‐
+quential and quantitative anomalies in unstructured logs [C]//The 28th Interna ‐
+tional Joint Conference on Artificial Intelligence . ACM , 2019 , 19(7): 4739–
+4745
+[5] ZHANG X , XU Y , LIN Q W , et al . Robust log -based anomaly detection on un ‐
+stable log data [C]//The 27th ACM Joint Meeting on European Software Engi ‐
+neering Conference and Symposium on the Foundations of Software Engineer ‐
+ing. ACM , 2019 : 807–817. DOI : 10.1145 /3338906 .3338931
+[6] EKELHART A , EKAPUTRA F J , KIESLING E . The SLOGERT framework for 
+automated log knowledge graph construction [C]//European Semantic Web Con ‐
+ference . ESWC , 2021 : 631–646. DOI : 10.1007 /978 -3-030 -77385 -4_38
+[7] GUO H X , YUAN S H , WU X T . LogBERT : log anomaly detection via BERT 
+[C]//Proceedings of 2021  International Joint Conference on Neural Networks 
+(IJCNN ). IEEE , 2021 : 1–8. DOI : 10.1109 /IJCNN 52387 .2021 .9534113
+[8] LE V H , ZHANG H Y . Log -based anomaly detection without log parsing [C]//
+The 36th IEEE/ACM International Conference on Automated Software Engi ‐
+neering . ACM , 2021 : 492–504. DOI : 10.1109 /ASE 51524 .2021 .9678773
+[9] HE S L , HE P J , CHEN Z B , et al . A survey on automated log analysis for reli ‐
+ability engineering [J]. ACM computing surveys , 54(6): 1–37. DOI : 10.1145 /
+3460345
+[10] RADFORD A , WU J , CHILD R , et al . Language models are unsupervised mul ‐
+titask learners [EB/OL ]. [2023 -03-10]. https ://www .semanticscholar .org/paper/
+Language -Models -are-Unsupervised -Multitask -Learners -Radford -Wu/
+9405 cc0d6169988371 b2755 e573cc28650 d14dfe
+[11] HE P J , ZHU J M , ZHENG Z B , et al . Drain : an online log parsing approach 
+with fixed depth tree [C]//IEEE International Conference on Web Services 
+(ICWS ). IEEE , 2017 : 33–40. DOI : 10.1109 /ICWS .2017 .13
+[12] REIMERS N , GUREVYCH I . Sentence -BERT : sentence embeddings using 
+Siamese BERT -networks [C]//Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural 
+Language Processing . Association for Computational Linguistics , 2019 : 3982–
+3992 . DOI : 10.18653 /v1/d19-1410
+[13] HASHEMI S , MÄNTYLÄ M . OneLog : towards end -to-end training in software 
+log anomaly detection [EB/OL ]. [2022 -12-12]. https ://arxiv .org/abs/ 2104 .07324
+[14] CHEN R , ZHANG S L , LI D W , et al . LogTransfer : cross -system log anomaly 
+detection for software systems with transfer learning [C]//IEEE 31st Interna ‐
+tional Symposium on Software Reliability Engineering . IEEE , 2020 : 37–47. 
+DOI: 10.1109 /ISSRE 5003 .2020 .00013
+[15] HUANG S H , LIU Y , FUNG C , et al . HitAnomaly : Hierarchical transformers 
+for anomaly detection in system log [J]. IEEE transactions on network and ser ‐
+vice management , 2020 , 17(4): 2064– 2076 . DOI : 10.1109 /
+TNSM .2020 .3034647
+[16] YANG H T , ZHAO X , SUN D G , et al . Sprelog : log -based anomaly detection 
+with self -matching networks and pre -trained models [C]//International Confer ‐
+ence on Service -Oriented Computing . 2021 : 736–743
+[17] VASWANI A , SHAZEER N , PARMAR N , et al . Attention is all you need [C]//
+Proceedings of the 31st International Conference on Neural Information Pro ‐
+cessing Systems . ACM , 2017 : 6000–6010 . DOI : 10.5555 /3295222 .3295349
+[18] LE V H , ZHANG H Y . Log -based anomaly detection with deep learning : how 
+far are we ? [C]//IEEE/ACM 44th International Conference on Software Engi ‐
+neering (ICSE ). IEEE , 2022 : 1356–1367
+Biographies
+JI Yuhe received his bachelor ’s degree in software engineering from the Col ‐
+lege of Software , Nankai University , China in 2022 . He is now pursuing his mas ‐
+ter’s degree at the School of Software , Nankai University . His research interests 
+include anomaly detection and natural language processing .
+HAN Jing (han.jing28@zte .com.cn) received her master ’s degree from Nanjing 
+University of Aeronautics and Astronautics , China . She has been with ZTE Cor ‐
+poration since 2000 . She had been engaged in 3G/4G key technologies , from 
+2000  to 2016 , and has become a technical director responsible for intelligent 
+operation of cloud platforms and wireless networks since 2016 . Her research in ‐
+terests include machine learning , data mining , and signal processing .
+ZHAO Yongxin received her bachelor ’s degree in software engineering from 
+Nankai University , China in 2021 . She is currently pursuing her master ’s de‐
+gree at the School of Software , Nankai University . Her research interests in ‐
+clude anomaly detection and failure diagnosis .
+ZHANG Shenglin received his BS degree in network engineering from the 
+School of Computer Science and Technology , Xidian University , China in 2012  
+and PhD degree in computer science from Tsinghua University , China in 2017 . 
+He is currently an associate professor with the College of Software , Nankai Uni ‐
+versity , China . His current research interests include failure detection , diagno ‐
+sis and prediction for service management . He is an IEEE Member .
+GONG Zican received his master ’s degree in professional computing and arti ‐
+ficial intelligence from the Australian National University in 2019 . He has been 
+a machine learning engineer in ZTE Corporation since 2020 . His research inter ‐
+ests include machine learning , professional computing and system architecture .
+76

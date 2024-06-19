@@ -1,0 +1,90 @@
+lines, and large enterprise private lines.
+The SPN FGU technology re/f_ines the granularity of 
+hard slices from 5 Gbps to 10 Mbps. Its features and 
+capabilities include:
+Fine-grained bandwidth to meet the bandwidth 
+needs of diverse services:  Bandwidth granularity is 
+10 Mbps, enabling /f_lexible N×10 Mbps bandwidth 
+allocation. Fine-grained channels exclusively use 
+deterministic timeslots to provide strict TDM 
+features. The timeslots of the egress and ingress 
+ports on any node of a channel are allocated 
+and /f_ixed in advance at the management and 
+control layer.
+Low latency and low jitter: Through TDM 
+timeslot cross-connection, /f_ine-grained 
+services ensure deterministic low latency by 
+avoiding the perception of packet messages. 
+These services exclusively utilize timeslot 
+resources in TDM channels, resulting in jitter far 
+less than 1 µs.
+Independent and complete OAM capabilities 
+provided by each /f_ine-grained channel:  OAM 
+blocks are inserted into each /f_ine-grained channel 
+to provide connectivity detection, and fault and 
+performance monitoring. This ensures protection 
+switching within 50 ms.
+Hitless online channel bandwidth adjustment: 
+The bandwidth of /f_ine-grained hard pipes can be 
+increased or reduced during normal service 
+transport. This facilitates /f_lexible bandwidth and 
+timeslot allocation.
+With the evolution to SPN 2.0, continuous 
+enhancements have been made to meet the needs 
+of /f_ine-grained slicing for diverse services and 
+provide /f_lexibility and intelligence.
+Emerging Requirements for 
+Private Lines
+As industries undergo in-depth digital 
+transformation, private lines show new demands and 
+development trends.
+The /f_irst demand is for integrated network 
+transport accessing diverse services via private lines 
+and networks. For instance, in the energy industry, 
+typical services like power distribution automation, data network dispatching, power consumption collection, 
+data communication network, video services, primary 
+network relay protection channel, and Wi-Fi6 inspection 
+robots have varied requirements in terms of latency, 
+reliability, rate, and connection density. Therefore, it is 
+necessary to utilize network resources to achieve uni/f_ied 
+transport of diﬀerentiated services on the same network.
+The second demand is for deterministic networks, 
+especially for control and transaction services in areas such 
+as /f_inancial services, where low and deterministic latency, 
+high reliability, and security are crucial. Despite not 
+requiring high service bandwidth, /f_inancial services 
+demand stringent network security.
+The third demand is for ubiquitous access and fast 
+provisioning capabilities. As industry networks evolve 
+towards cloud and /f_lat architectures, the surge in edge 
+nodes and cross-area/cross-city service connections 
+intensi/f_ies the complexity in network connections. Edge 
+access may integrate wireless and wired access, so it is 
+necessary to meet ubiquitous access and rapid 
+provisioning needs of these numerous edge nodes.
+The fourth demand is for end-to-end services rather than 
+pipe services, emphasizing comprehensive customer services, 
+like visual indicators and fast troubleshooting. Visual indicators 
+rely on precise monitoring of network SLAs and can be 
+displayed on customer-oriented application interfaces.
+These new demands propel advancement and 
+innovation in private line technology. 
+Features and Advantages of SPN Private 
+Lines
+The technical features and advantages of SPN eﬀectively 
+meet the private line market’s development demands. SPN 
+can oﬀers access to TDM hard slices while supporting 
+high-bandwidth access of packet soft slices. This allows a 
+single SPN network to oﬀer integrated access for various 
+customer services. Additionally, for highly demanding 
+control services, SPN 10 Mbps /f_ine-grained hard slices can be 
+directly used to provide independent TDM channels, 
+isolating physical timeslots from other services. China 
+Mobile's SPN networks have extensive coverage in China, 
+boasting over 400,000 SPN devices and the capability of 
+ubiquitous access. The intelligent O&M capability of SPN has 
+seen continuous improvement, with inband OAM 
+supporting service-/f_low-level accurate performance 
+monitoring. The standard northbound interfaces of the 
+ Expert Views
+12 

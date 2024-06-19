@@ -1,0 +1,281 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+be further categorized into two main groups : model -based 
+methods[4, 23, 26–28, 42, 47–64] and projection -based meth ⁃
+ods[6, 10–11, 18, 25, 36, 65–67].
+3.1 Model -Based Methods
+In the early stage of research on objective point cloud qual ⁃
+ity assessment , most of the research started from the perspec ⁃
+tive of the 3D model of the point cloud . Fig. 3 illustrates the 
+general framework of the model -based methods . Specifically , 
+methods such as p 2point[68], p2plane[47, 49] p2mesh[69] and 
+plane 2plane[23] give quality scores by calculating the distance 
+between discrete points as a similarity metric . Differently , 
+p2point[68] uses the Euclidean distance between points as a 
+similarity measure , p2plane[47, 49] calculates the projection er ⁃
+ror of related points along the discovery direction , while 
+plane 2plane[23] evaluates the quality of point clouds through 
+the angle similarity of the tangent plane . Later , JAVAHERIE 
+et al . introduced more distance measures into objective 
+PCQA , including Peak -Signal -to-Noise Ratio (PSNR )[27], Gen ⁃
+eralized Hausdorff Distance[51] and Mahalanobis Distance[54], 
+to effectively measure the correspondence between points and 
+distributions . MEYNET et al .[50] extended the Mesh Structural 
+Distortion Measure (MSDM )[86–87] metric method in Mesh to 
+the point cloud field , and designed PC -MSDM based on local 
+curvature statistics . However , these works still stay in the mea ⁃
+surement of geometric features of point clouds and ignore the ▼Table 3. Summary of objective cloud quality assessment methods
+Method
+p2point[68]
+p2plane[47, 49]
+p2mesh[69]
+Plane to plane[23]
+PointSSIM[52]
+GraphSIM[55]
+MS -GraphSIM[63]
+PCQM[53]
+PC-MSDM[50]
+Proposed by VIOLA et al .[26]
+VQA -CPC[28]
+CPC -GSCT[42]
+Proposed by JAVAHERI et al .[27]
+Proposed by JAVAHERI et al .[51]
+Proposed by DINIZ et al .[56]
+Proposed by DINIZ et al .[57]
+Proposed by DINIZ et al .[58]
+Proposed by DINIZ et al .[59]
+Proposed by DINIZ et al .[60]
+EPES[62]
+PSNRyuv[10]
+Proposed by WU et al .[36]
+Proposed by HE et al .[65]
+PB-PCQA[6]
+TGP -PCQA[70]
+Proposed by TU et al .[71]
+PCMRR[72]
+R-PCQA[73]
+RR -CAP[74]
+3D-NSS[64]
+StreamPCQ[75]
+Proposed by ZHOU et al .[76]
+ResSCNN[4]
+PKT -PCQA[77]
+Proposed by TU et al .[78]
+GPA -Net[79]
+PQA -Net[67]
+GMS -3DQA[80]
+D3-PCQA[81]
+PM -BVQA[66]
+IT-PCQA[82]
+3D-CNN -PCQA[83]
+VQA -PC[84]
+BQE -CVP[61]
+MM -PCQA[85]Reference 
+Type
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+FR
+RR
+RR
+RR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NR
+NRFeature 
+Extraction
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Model & projection
+Model -based
+Model -based
+Projection -based
+Model -based
+Model -based
+Model -based
+Model -based
+Model -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Projection -based
+Model & projection
+Model & projectionHandcrafted/
+Deep Learning
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Handcrafted
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Deep learning
+Handcrafted
+Deep learning
+CAP: content -oriented saliency projection
+3D-CNN -PCQA : 3 Dimension Convolution ⁃
+al Neural Network Point Cloud Quality As ⁃
+sessment 
+3D-NSS: 3 Dimension Natural Scene Sta ⁃
+tistics BQE -CVP : Blind quality evaluator for 
+colored point cloud based on visual per ⁃
+ception  
+CPC -GSCT : A quality assessment metric 
+for colored point cloud based on geometric 
+segmentation and color transformation D3-PCQA : Point cloud quality assessment 
+via domain -relevance degradation description 
+EPES : Point cloud quality modeling using 
+elastic potential energy similarity 
+FR: full -reference assessment 
+GMS -3DQA : Projection -based grid mini -path 
+sampling for 3D model quality assessment  
+GPA: Graph Convolutional Point Cloud As ⁃
+sessment 
+GraphSIM : Graph Similarity 
+IT-PCQA : Image Transferred Point Cloud 
+Quality Assessment 
+MM -PCQA : Multi -Modal Point Cloud Qual ⁃
+ity Assessment  
+MS -GraphSIM : Multi -Scale Graph Similarity 
+NR: no-reference assessment 
+p2mesh : Point to Mesh 
+p2plane : Point to Plane 
+p2point : Point to Point 
+PB-PCQA : Projection -Based Point Cloud 
+Quality Assessment 
+PCMRR : A reduced reference metric for 
+visual quality evaluation of point cloud 
+content 
+PC-MSDM : Point Cloud -Mesh Structural Distortion Measure
+PCQM : Point Cloud Quality Metric 
+PKT-PCQA : Progressive knowledge trans ⁃
+fer based on human visual perception mech ⁃
+anism for point cloud quality assessment 
+PM -BVQA : Point cloud projection and 
+multi -scale feature fusion network based 
+blind visual quality assessment 
+PointSSIM : Point Cloud Structure Similari ⁃
+ty Index Measure 
+PQA : Point Cloud Quality 
+PSNRyuv : Peak Signal -to-Noise Ratio in 
+Yuv 
+ResSCNN : Residual Sparse Convolutional 
+Neural Network 
+R-PCQA : Reduced Reference Point Cloud 
+Quality Assessment 
+RR: reduced -reference assessment 
+PCQ: an overall bitstream -based point 
+cloud quality assessment 
+VQA -CPC: Visual quality assessment met ⁃
+ric of color point clouds 
+VQA -PC: Dealing with point cloud quality 
+assessment tasks via using video quality 
+assessment
+▲Figure 3. General framework of model -based point cloud quality as ⁃
+sessment (PCQA ) methods . Dashed lines indicate different amounts of 
+reference information in full -reference (FR), reduced -reference (RR), 
+and no -reference (NR) methodsDistorted
+point cloud
+Reference
+point cloudPrepro ⁃
+cessingFeature
+extractionFeature
+fusionPooling Quality
+08

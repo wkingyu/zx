@@ -1,0 +1,64 @@
+UDM/HSS. This creates a solid barrier to 
+prevent signaling storm. 
+Trustworthy Technologies Ensure 
+Product Security
+Although the Cloud Core Network is 
+located in a trusted domain, it still faces 
+certain information security threats. 
+To address these threats, ZTE uses 
+industry-leading trustworthy security 
+technical standards and integrates 
+trustworthy security into its products. This 
+construction mode provides a stronger 
+shield for the security of the Cloud Core 
+Network, ensuring the trustworthy security 
+of products. 
+Data Compliance
+ZTE attaches great importance to the 
+security of its core network products. 
+Data security is integrated into the 
+product development lifecycle to ensure 
+the provision of secure products and 
+solutions. ZTE strictly adheres to the 
+laws and regulations of each country and 
+industry. In 2020, the company successfully passed GSMA's Network Equipment 
+Security Assurance Scheme (NESAS) 
+audit for its development and product 
+lifecycle processes. Additionally, ZTE has 
+implemented more than 100 security 
+activities based on the Building Security/uni00A0in/uni00A0
+Maturity Model/uni00A0(BSIMM). In 2021, ZTE’s 5GC 
+passed the BSIMM 11 security assessment 
+and obtained the 27701 privacy protection 
+certi/f_ication from the British Standard 
+Institution (BSI). 
+Intrinsic Security
+ZTE’s Cloud Core Network products are 
+designed to strengthen intrinsic security 
+and provide active autonomous network 
+asset security. These products leverage 
+security capabilities across diﬀerent layers, 
+including infrastructure, virtualization, 
+service, application, and management, to 
+implement network security autonomy, 
+automatic and intelligent analysis of 
+network policies, and /f_lexible orchestration. 
+The goal is to establish an automated, 
+self-defending, and self-adaptive integrated 
+security protection system. 
+Quick Response Mechanism
+ZTE has established and improved its 
+organizational structure based on three 
+lines of defense to promote product 
+security governance. The product security 
+incident response team (PSIRT) eﬀectively 
+responds to security incidents, and 
+security laboratories are set up to ensure 
+the security, transparency, and trust of 
+products and services. 
+Manageable Network Maintenance 
+Ensures Reliable Network Operation 
+The complexity of the Cloud Core Network 
+makes network maintenance challenging. 
+To address this, ZTE provides eﬃcient 
+14Expert Views

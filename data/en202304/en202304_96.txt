@@ -1,0 +1,94 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos    Research Papers
+gate each type of human perception and facilitate the estab ⁃
+lishment of the assessment model .
+3.1 Proposed Assessment Framework
+As shown in Fig . 1, the proposed framework consists of 
+three layers , namely the factor layer , the perception layer , and 
+the presence layer from left to right . The factor layer includes 
+several sensory cues of relevant parameters such as video , au⁃
+dio, VR device , and latency . These parameters can be conve ⁃
+niently extracted from the current VR systems . In the percep ⁃
+tion layer , users ’ perception is characterized into multiple di ⁃
+mensions including visual[34] , auditory[34], and interactive per ⁃
+ception[21–22, 35]. Detailed definitions of the components of per ⁃
+ception and presence layers are discussed as follows .
+1) Perceptual video quality
+Perceptual video quality refers to the overall perceived 
+quality of videos displayed on the HMD . In our previous work , 
+three technological parameters of the video , i.e., video bitrate , 
+video resolution and video frame rate , are extracted to assess 
+the video quality . Two parameters corresponding to the HMD (screen resolution and refresh rate ) are added in the assess ⁃
+ment of perceptual video quality .
+2) Perceptual audio quality
+Perceptual audio quality refers to the overall perceived 
+quality of audios offered by the VR system . The audio bitrate 
+and audio sampling rate are extracted to assess the perceptual 
+audio quality .
+3) Visual realism
+Visual realism (VRE ) refers to how close the system ’s visual 
+output is to real -world visual stimuli . This perception not only 
+depends on the video quality , but also depends on how wide the 
+FOV provided by HMD is and whether a stereoscopic vision is 
+offered . These two additional factors have been verified to be 
+important for the overall capability of an immersive system[36].
+4) Acoustic realism
+Acoustic realism (ARE ) represents how close the system ’s 
+aural output is to real -world aural stimuli . Perceptual audio 
+quality is the basic experience of the audio . Moreover , spatial 
+audio provides the capability to track sound directions and up ⁃
+date the head movement in real time . Hence , the spatial audio 
+and perceptual audio quality are combined 
+to assess the overall acoustic realism .
+5) Proprioceptive matching
+Proprioceptive matching refers to the 
+matching degree between the head move ⁃
+ment and the picture/sound refresh of the 
+HMD . As for a VR system , the tracking 
+level is much more important in regard to 
+the spatial presence formation[36]. Similarly , 
+the mismatch can also occur in the spatial 
+audio . These two mismatches , called motion -
+to-photon (MTP ) latency and audio latency 
+(AL)[37], are utilized to assess the capability 
+of proprioceptive matching .
+6) Spatial presence
+Spatial presence refers to a user ’s subjec ⁃
+tive psychological response to a VR sys ⁃
+tem[35]. It is correlated with VRE , ARE , and 
+proprioceptive matching , which represents 
+the main aspects of the experience provided 
+by 360 -degree video services .
+3.2 Subjective Experiments for Obtain ⁃
+ing Spatial Presence
+To explore the spatial presence , six sub ⁃
+jective quality scoring experiments were 
+conducted , corresponding to the five percep ⁃
+tion modules in the perception layer and 
+one towards the spatial presence .
+3.2.1 Overview of Experimental Design
+A total number of 30 non -expert subjects 
+participated in this experiment , including ▲Figure 1. Proposed assessment framework for assessing spatial presenceFactor layer Perception layer Spatial presence layer
+Video bitrate
+Video frame rate
+Video resolution
+Screen resolution
+Screen refresh rate
+Field of view
+Stereoscopic vision
+Audio bitrate
+Audio sampling rate
+Spatial audio
+Motion -to-photon la ⁃
+tency
+Motion -to-sound 
+latencyPerceptual video 
+quality
+Visual realism
+Perceptual audio 
+quality
+Acoustic realism
+Proprioceptive 
+matchingSpatial 
+presence
+93

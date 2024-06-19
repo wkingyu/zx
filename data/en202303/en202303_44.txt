@@ -1,0 +1,96 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Zhihao , ZHANG Yueping Research Papers   Differential Quasi -Yagi Antenna and Array
+quency for the differential quasi -Yagi array in Fig . 8(e) with a 
+spacing of 15 mm between the two elements . Note that the 
+matching band is from 7.9 GHz to 12.2 GHz and from 8.0 GHz 
+to 14.0 GHz , respectively , for the single -ended and differen ‐
+tial quasi -Yagi arrays . The maximum coupling level is almost 
+the same for the two cases over the respective impedance 
+bandwidths .
+3.3 Decoupling Structures and Effects
+It is seen from Fig . 12 that the simulated mutual coupling 
+level for the center -to-center spacing of 15 mm, which is equal 
+to the half wavelength at 10 GHz , is –18 dB. For a multiple - 
+input and multiple -output (MIMO ) array , the mutual coupling 
+level of –25 dB is desirable . Hence , there is a need to further 
+reduce the mutual coupling . A few decoupling structures such 
+as the neutralization line[13], split -ring resonator[14], slit, and air 
+holes have been attempted . The idea to add a meta -surface as 
+a superstrate to reduce the mutual coupling has not been ad ‐
+opted to keep the low profile of the differential quasi -Yagi ar ‐
+ray[15]. The simulated decoupling effects of the above struc ‐
+tures are summarized as follows . For the case of the neutraliza ‐
+tion line , the coupling level is greatly reduced to −25 dB but 
+the radiation patterns are distorted , and the gain is reduced by 
+2 dB at 10 GHz . For the case of the split -ring resonator , it fails to 
+reduce the coupling level but increase the gain by 0.2–0.7 dB 
+over the impedance bandwidth . For the cases of slit and air 
+holes , they are very effective to reduce the mutual coupling to 
+−25 dB and meanwhile do not affect the impedance bandwidth 
+and radiation patterns . Hence , the E -plane linear arrays with 
+the slit and air holes are fabricated and measured .
+3.4 Results and Discussion
+Fig. 13 shows the photos of the two -element differential 
+quasi -Yagi arrays without any decoupling structure , with the 
+slit, and with the air holes . The two differential quasi -Yagi an ‐
+tenna elements are separated by 15 mm and fed with the Sub ‐
+miniature version A (SMA )-connected coaxial cables . The slit 
+is a 2 mm wide cut in between the two elements and after the 
+truncated ground plane . The air holes that have the same di ‐
+ameter of 0.5 mm are punched in between the two elements 
+and after the truncated ground plane with an optimized pat ‐
+tern. It should be mentioned that the details of the SMAs and 
+coaxial cables are unknown . The irregular solder joints and 
+curved coaxial cables are hard to be modelled exactly . Hence , only measured results are discussed .
+Fig. 14 shows the measured | Sdd11| and | Sdd21| as a function 
+of frequency for the two -element differential quasi -Yagi arrays 
+without any decoupling structure , with the slit , and with the 
+▲Figure 13. Photos of the two -element differential quasi -Yagi arrays : 
+(a) solid , (b) slit, and (c) air holes
+▲Figure 14. Measured | Sdd11| and | Sdd21| as a function of frequency for the 
+differential quasi -Yagi antennas : (a) solid , (b) slit, and (c) air holes(b) (a) (c)(a)
+(b)
+(c)Frequency/GHzS-pararneters/dB
+7   8   9  10 11 12 13 14 15-5
+-10
+-15
+-20
+-25
+-30
+-35|Sdd11|
+|Sdd21|
+|Sdd11|
+|Sdd21|
+7   8   9  10 11 12 13 14 15S-pararneters/dB
+Frequency/GHz-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40
+-45
+-50
+7   8   9  10 11 12 13 14 15
+Frequency/GHzS-pararneters/dB-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40
+-45
+-50|Sdd11|
+|Sdd21|-5
+-10
+-15
+-20
+-25
+-30
+-35
+-40
+-45
+-50
+42

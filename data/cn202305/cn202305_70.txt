@@ -1,0 +1,134 @@
+网络智能传输研究进展 廖乙鑫  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5进一步提高[36]。
+5 结束语
+人工智能技术已经应用于广域网端到端低时延网络传输
+中，并在传输层 、应用层取得了一定的成果 。本文分析网络
+传输时延的组成 ，并介绍了传输层中拥塞控制 、应用层流媒
+体传输与机器学习技术相结合的研究 。近年来 ，网络传输技
+术、机器学习模型技术的进一步发展 ，为网络智能传输带来
+更多的可能 。我们认为 ，网络传输模型的泛化能力 、大规模
+部署的开销 、多目标学习之间的权衡 、数据质量 ，是网络智
+能传输技术的新的研究主题与挑战 。
+参考文献
+[1] LETAIEF K B , CHEN W , SHI Y M , et al . The roadmap to 6G: AI empowered 
+wireless networks [J]. IEEE communications magazine , 2019 , 57(8): 84-90. 
+DOI: 10.1109 /MCOM .2019 .1900271
+[2] BRAUD T , LEE L H , ALHILAL A , et al . DiOS —an extended reality operating 
+system for the metaverse [J]. IEEE multimedia , 2023 , 30(2): 70-80. DOI : 
+10.1109 /mmul .2022 .3211351
+[3] ZELAYA R I , SUSSMAN W , GUMMESON J , et al . LAVA : fine-grained 3D 
+indoor wireless coverage for small IoT devices [C]//Proceedings of the 2021  
+ACM SIGCOMM 2021  Conference . ACM , 2021 : 123-136. DOI : 10.1145 /
+3452296 .3472890
+[4] NI Y Z , ZHENG Z L , LIN X S , et al . CellFusion : multipath vehicle-to-cloud 
+video streaming with network coding in the wild [C]//Proceedings of the 
+ACM SIGCOMM 2023  Conference . ACM , 2023 : 668-683. DOI : 10.1145 /
+3603269 .3604832
+[5] ELBAMBY M S , PERFECTO C , BENNIS M , et al . Toward low-latency and 
+ultra-reliable virtual reality [J]. IEEE network , 2018 , 32(2): 78-84. DOI : 
+10.1109 /MNET .2018 .1700268
+[6] WANG M W , CUI Y , WANG X , et al . Machine learning for networking : 
+workflow , advances and opportunities [J]. IEEE network , 2018 , 32(2): 92-
+99. DOI: 10.1109 /MNET .2017 .1700200
+[7] JORDAN M I , MITCHELL T M . Machine learning : trends , perspectives , and 
+prospects [J]. Science , 2015 , 349(6245 ): 255-260. DOI : 10.1126 /science .
+aaa8415
+[8] VIOLA I , AMIRPOUR H , VEGA M T . IXR ' 22: 1st workshop on interactive 
+eXtended reality [C]//Proceedings of the 30th ACM International Conference 
+on Multimedia . ACM , 2022 : 7412 -7413 . DOI: 10.1145 /3503161 .3554781
+[9] ZUO X T , WANG M W , XIAO T X , et al . Low-latency networking : 
+architecture , techniques , and opportunities [J]. IEEE Internet computing , 
+2018 , 22(5): 56-63. DOI: 10.1109 /MIC .2018 .053681363
+[10] AHMAD J , WARREN A . FPGA based deterministic latency image 
+acquisition and processing system for automated driving systems [C]//
+Proceedings of 2018  IEEE International Symposium on Circuits and 
+Systems (ISCAS ). IEEE , 2018 : 1-5. DOI: 10.1109 /ISCAS .2018 .8351472
+[11] SUN L Y , ZONG T Y , WANG S Q , et al . Towards optimal low-latency live 
+video streaming [J]. IEEE/ACM transactions on networking , 2021 , 29(5): 
+2327 -2338 . DOI: 10.1109 /TNET .2021 .3087625
+[12] PEDERSEN H A , DEY S . Enhancing mobile video capacity and quality 
+using rate adaptation , RAN caching and processing [J]. IEEE/ACM 
+transactions on networking , 2016 , 24(2): 996-1010 . DOI : 10.1109 /
+TNET .2015 .2410298
+[13] XU Y D , ELAYOUBI S E , ALTMAN E , et al . Impact of flow-level dynamics 
+on QoE of video streaming in wireless networks [C]//2013  Proceedings 
+IEEE INFOCOM . IEEE , 2013 : 2715 -2723 . DOI : 10.1109 /
+INFCOM .2013 .6567080
+[14] LANGLEY A , RIDDOCH A , WILK A , et al . The QUIC transport protocol : 
+design and Internet-scale deployment [C]//Proceedings of the Conference 
+of the ACM Special Interest Group on Data Communication . ACM , 2017 : 
+183–196. DOI: 10.1145 /3098822 .3098842
+[15] IETF. QUIC : a UDP-based multiplexed and secure transport : RFC 9000  [S]. 2021
+[16] CUI Y , LI T X , LIU C , et al . Innovating transport with QUIC : design 
+approaches and research challenges [J]. IEEE Internet computing , 2017 , 21
+(2): 72-76. DOI: 10.1109 /MIC .2017 .44
+[17] SHI H , CUI Y , QIAN F , et al . DTP : deadline-aware transport protocol [C]//
+Proceedings of the 3rd Asia-Pacific Workshop on Networking . ACM , 
+2019 : 1–7. DOI: 10.1145 /3343180 .3343191
+[18] IETF. Media over QUIC [EB/OL ]. (2022 -09-12) [2023 -09-15]. https ://
+datatracker .ietf.org/doc/charter-ietf-moq/
+[19] IETF. MoQ relay for support of deadline-aware media transport [EB/OL ]. 
+(2023 -09-11) [2023 -09-15]. https ://datatracker .ietf.org/doc/draft-ma-
+moq-relay-for-deadline/
+[20] BOVY , C J, MERTODIMEDJO H T , HOOGHIEMSTRA G , et al . Analysis of 
+end-to-end delay measurements in Internet [EB/OL ]. [2023 -09-15]. 
+https ://www .researchgate .net/publication/ 233863840 _Analysis_of_end-
+to-end_delay_measurements_in_Internet
+[21] MISHRA A , SHIN M , ARBAUGH W . An empirical analysis of the IEEE 
+802.11 MAC layer handoff process [J]. ACM SIGCOMM computer 
+communication review , 2003 , 33(2): 93-102. DOI: 10.1145 /956981 .956990
+[22] PHEMIUS K , MATHIEU B . Openflow : why latency does matter [C]//2013  
+IFIP/IEEE International Symposium on Integrated Network Management 
+(IM 2013 ), IEEE , 2013 : 680-683
+[23] CARDWELL N , CHENG Y C , GUNN C S , et al . BBR : Congestion-based 
+congestion control : measuring bottleneck bandwidth and round-trip 
+propagation time [EB/OL ]. [2023 -09-15]. https ://doi.org/10.1145 /
+3012426 .3022184
+[24] WOLFMAN A , VOELKER G , THEKKATH C A . Latency analysis of TCP on an 
+ATM network [EB/OL ]. [2023 -09-15]. https ://cseweb .ucsd .edu/~voelker/
+pubs/tcp-usenix 94.pdf
+[25] NOOR-A-RAHIM M , LIU Z L , LEE H , et al . 6G for vehicle-to-everything 
+(V2X) communications : enabling technologies , challenges , and 
+opportunities [J]. Proceedings of the IEEE , 2022 , 110(6): 712-734. DOI : 
+10.1109 /jproc .2022 .3173031
+[26] SWAMINATHAN V , WEI S . Low latency live video streaming using HTTP 
+chunked encoding [C]//Proceedings of 2011  IEEE 13th International 
+Workshop on Multimedia Signal Processing . IEEE , 2011 : 1-6. DOI : 
+10.1109 /MMSP .2011 .6093825
+[27] WINSTEIN K , BALAKRISHNAN H . TCP ex machina : computer-generated 
+congestion control [C]//Proceedings of the ACM SIGCOMM 2013  
+conference on SIGCOMM . ACM , 2013 : 123-134. DOI : 10.1145 /
+2486001 .2486020
+[28] SIVARAMAN A , WINSTEIN K , THAKER P , et al . An experimental study of 
+the learnability of congestion control [J]. ACM SIGCOMM computer 
+communication review , 2014 , 44(4): 479-490
+[29] JAY N , NOGA R , BRIGHTEN G , et al . A deep reinforcement learning 
+perspective on internet congestion control [EB/OL ]. (2019 -05-21)[2023 -
+09-15]. https ://arxiv .org/pdf/ 1810 .03259 .pdf
+[30] HUANG T C , ZHOU C , JIA L C , et al . Learned Internet congestion control 
+for short video uploading [C]//Proceedings of the 30th ACM International 
+Conference on Multimedia . ACM , 2022 : 3064 –3075 . DOI : 10.1145 /
+3503161 .3548436
+[31] DONG M , MENG T , ZARCHY D , et al . PCC vivace : online-learning 
+congestion control [C]//15th USENIX Symposium on Networked Systems 
+Design and Implementation (NSDI 18). ACM , 2018 : 343-356
+[32] ZHANG L , CUI Y , PAN J C , et al . Deadline-aware transmission control for 
+real-time video streaming [C]//Proceedings of 2021  IEEE 29th 
+International Conference on Network Protocols (ICNP ). IEEE , 2021 : 1-6. 
+DOI: 10.1109 /ICNP 52444 .2021 .9651971
+[33] NIE X H , ZHAO Y J , LI Z H , et al . Dynamic TCP initial windows and 
+congestion control schemes through reinforcement learning [J]. IEEE 
+journal on selected areas in communications , 2019 , 37(6): 1231 -1247 . 
+DOI: 10.1109 /JSAC .2019 .2904350
+[34] ABBASLOO S , YEN C Y , CHAO H J . Classic meets modern : a pragmatic 
+learning-based congestion control for the Internet [C]//Proceedings of the 
+Annual conference of the ACM Special Interest Group on Data 
+Communication on the applications , technologies , architectures , and 
+protocols for computer communication . ACM , 2020 : 632–647. DOI : 
+10.1145 /3387514 .3405892
+[35] ZHANG L , ZHU K W , PAN J C , et al . Reinforcement learning based 
+congestion control in a real environment [C]//Proceedings of 2020  29th 
+International Conference on Computer Communications and Networks 
+(ICCCN ). IEEE , 2020 : 1-9. DOI: 10.1109 /ICCCN 49398 .2020 .9209750
+66

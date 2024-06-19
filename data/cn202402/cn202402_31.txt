@@ -1,0 +1,124 @@
+大模型训练技术综述 田海东  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2data from large language models [EB/OL ]. (2020 -12-14)[2024 -
+02-25]. https ://arxiv .org/abs/ 2012 .07805
+[16] JANG J , YOON D , YANG S , et al . Knowledge unlearning for 
+mitigating privacy risks in language models [EB/OL ]. (2022 -10-
+04)[2024 -02-25]. https ://arxiv .org/abs/ 2210 .01504
+[17] CHEN W J , HE S B , XU Y W , et al . iCache : an importance-
+sampling-informed cache for accelerating I/O-bound DNN 
+model training [C]// /Proceedings of 2023  IEEE International 
+Symposium on High-Performance Computer Architecture 
+(HPCA ). IEEE , 2023 . DOI: 10.1109 /HPCA 56546 .2023 .10070964
+[18] CHILIMBI T , SUZUE Y , APACIBLE J , et al . Project Adam : 
+building an efficient and scalable deep learning training system 
+[C]//Proceedings of the 11th USENIX conference on Operating 
+Systems Design and Implementation . ACM , 2014 : 571-582. 
+DOI: 10.5555 /2685048 .2685094
+[19] HASHEMI S H , JYOTHI S A , CAMPBELL R H . icTac : accelerating 
+distributed deep learning with communication scheduling [EB/
+OL]. (2018 -05-08) [2024 -02-25]. https ://arxiv .org/abs/
+1803 .03288
+[20] NVIDIA .  2020 . Fast AI data preprocessing with NVIDIA DALI 
+[EB/OL ]. [2024 -02-25]. https ://devblogs .nvidia .com/fast-ai-
+data-preprocessing-with-nvidia-dali/
+[21] CHEN T Q , XU B , ZHANG C Y , et al . Training deep nets with 
+sublinear memory cost [EB/OL ]. [2024 -02-25]. http ://arxiv .org/
+abs/1604 .06174
+[22] MOHAN J , PHANISHAYEE A , RANIWALA A , et al . Analyzing and 
+mitigating data stalls in DNN training [J]. Proceedings of the 
+VLDB endowment , 2021 , 14(5): 771-784. DOI : 10.14778 /
+3446095 .3446100
+[23] KAPLAN J , MCCANDLISH S , HENIGHAN T , et al . Scaling laws 
+for neural language models [EB/OL ]. [2024 -02-25]. http ://arxiv .
+org/abs/ 2001 .08361
+[24] HOFFMANN J , BORGEAUD S , MENSCH A , at al . Training 
+compute-optimal large language models [EB/OL ]. (2022 -05-29)
+[2024 -02-25]. https ://arxiv .org/abs/ 2203 .15556
+[25] XU Q , LI C , GONG C , et al . An eﬀicient 2D method for training 
+super-large deep learning models [EB/OL ]. (2021 -04-12)[2024 -
+02-25]. https ://arxiv .org/abs/ 2104 .05343
+[26] ZHANG B , TITOV I , SENNRICH R . Improving deep transformer 
+with depth-scaled initialization and merged attention [C]//
+Proceedings of the 2019  Conference on Empirical Methods in 
+Natural Language Processing and the 9th International Joint 
+Conference on Natural Language Processing (EMNLP-IJCNLP ). 
+Association for Computational Linguistics . DOI : 10.18653 /v1/
+d19-1083
+[27] HUANG X S , PÉREZ F , BA J , et al . Improving transformer 
+optimization through better initialization [C]//Proceedings of the 
+37th International Conference on Machine Learning . ACM , 2020 : 
+4475 -4483 . DOI: 10.5555 /3524938 .3525354
+[28] BA J L , KIROS J R , HINTON G E . Layer normalization [EB/OL ]. 
+(2016 -07-21)[2024 -02-25]. https ://arxiv .org/abs/ 1607 .06450
+[29] XIONG R , YANG Y , HE D , et al . On layer normalization in the 
+transformer architecture [EB/OL ]. (2020 -02-12) [2024 -02-25]. 
+https ://arxiv .org/abs/ 2002 .04745
+[30] ZHANG B , SENNRICH R . Root mean square layernormalization 
+[EB/OL ]. (2019 -10-16) [2024 -02-25]. https ://arxiv .org/abs/
+1910 .07467
+[31] HENDRYCKS D , GIMPEL K . Gaussian error linear units (GELUs ) 
+[EB/OL ]. [2024 -02-25]. http://arxiv .org/abs/ 1606 .08415
+[32] SHAZEER N . GLU variants improve transformer [EB/OL ]. (2020 -
+02-12)[2024 -02-25]. http://arxiv .org/abs/ 2002 .05202[33] DAUPHIN Y N , FAN A , AULI M , et al . Language modeling with 
+gated convolutional networks [EB/OL ]. (2016 -12-23)[2024 -02-
+25]. https ://arxiv .org/abs/ 1612 .08083
+[34] NENKOVA A , PASSONNEAU R , MCKEOWN K . The pyramid 
+method : incorporating human content selection variation in 
+summarization evaluation [J]. ACM transactions on speech and 
+language processing , 4(2): 4-es. DOI: 10.1145 /1233912 .1233913
+[35] ZAN D G , CHEN B , ZHANG F J , et al . Large language models 
+meet NL 2Code : a survey [EB/OL ].[2024 -02-25]. http ://arxiv .org/
+abs/2212 .09420
+[36] YU J F , WANG X Z , TU S Q , et al . KoLA : carefully benchmarking 
+world knowledge of large language models [EB/OL ]. [2024 -02-
+25]. http://arxiv .org/abs/ 2306 .09296
+[37] DHOLE K D , GANGAL V , GEHRMANN S , et al . NL-augmenter : 
+a framework for task-sensitive natural language augmentation 
+[EB/OL ]. (2021 -12-06) [2024 -02-25]. http ://arxiv .org/abs/
+2112 .02721
+[38] BORDIA S , BOWMAN S R . Identifying and reducing gender bias 
+in word-level language models [EB/OL ]. (2019 -04-05) [2024 -
+02-25]. http://arxiv .org/abs/ 1904 .03035
+[39] LEES A , TRAN V Q , TAY Y , et al . A new generation of 
+perspective API : efficient multilingual character-level 
+transformers [C]//Proceedings of the 28th ACM SIGKDD 
+Conference on Knowledge Discovery and Data Mining . ACM , 
+2022 : 3197 –3207 . DOI: 10.1145 /3534678 .3539147
+[40] HASHIMOTO T , ZHANG H , LIANG P . Unifying human and 
+statistical evaluation for natural language generation [C]//
+Proceedings of the 2019  Conference of the North . Association 
+for Computational Linguistics , 2019 . DOI: 10.18653 /v1/n19-1169
+[41] SHOEYBI M , PATWARY M , PURI R , et al . Megatron-LM : 
+training multi-billion parameter language models using GPU 
+model parallelism [EB/OL ]. (2019 -09-17) [2024 -02-25]. http ://
+arxiv.org/abs/ 1909 .08053
+[42] LI S G ,LIU H X , BIAN Z D . Colossal-AI : a unified deep learning 
+system for large-scale parallel training [EB/OL ]. (2021 -10-28)
+[2024 -02-25]. https ://arxiv .org/abs/ 2110 .14883
+[43] HUANG Y , CHENG Y , BAPNA A , et al . Gpipe : eﬀicient training of 
+giant neu-ral networks using pipeline parallelism [EB/OL ]. 
+(2019 -09-17)[2024 -02-25]. https ://arxiv .org/abs/ 1811 .06965
+[44] HARLAP A , NARAYANAN D , PHANISHAYEE A , et al . 
+Pipedream : fast and eﬀicient pipeline parallel DNN training [EB/
+OL]. (2018 -06-08) [2024 -02-25]. https ://arxiv .org/abs/
+1811 .06965
+[45] NARAYANAN D , PHANISHAYEE A , SHI K , et al . Memory-
+efficient pipeline-parallel DNN training [EB/OL ]. (2019 -09-17)
+[2024 -02-25]. https ://arxiv .org/abs/ 2006 .09503
+[46] LI S G , XUE F Z , BARANWAL C , et al . Sequence parallelism : 
+long sequence training from system perspective [EB/OL ]. (2021 -
+05-26)[2024 -02-25]. http://arxiv .org/abs/ 2105 .13120
+[47] RASLEY J , RAJBHANDARI S , RUWASE O , et al . DeepSpeed : 
+system optimizations enable training deep learning models with 
+over 100 billion parameters [C]//Proceedings of the 26th ACM 
+SIGKDD International Conference on Knowledge Discovery & 
+Data Mining . ACM , 2020 . DOI: 10.1145 /3394486 .3406703
+[48] LEPIKHIN D , LEE H , XU Y Z , et al . GShard : scaling giant models 
+with conditional computation and automatic sharding [EB/OL ]. 
+(2020 -07-30)[2024 -02-25]. http://arxiv .org/abs/ 2006 .16668
+[49] WILLIAM F , ZOPH B , SHAZEER M . Switch transformers : scaling 
+to trillion parameter models with simple and efficient sparsity 
+[EB/OL ]. (2021 -01-11) [2024 -02-25]. https ://arxiv .org/abs/
+2101 .03961
+27

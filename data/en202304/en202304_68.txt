@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research on Fall Detection System Based on Commercial Wi -Fi Devices    Research Papers
+samples , the number of dummy samples accounts for about 
+490 groups , and the rest are falls of real users . The sample 
+types of falls include tripping , slipping , losing balance , kneel ⁃
+ing, sitting -falling , and walking -falling , and the sample types 
+of non -falls include activities such as walking , jogging , sitting/
+standing up , bending down to pick up , and squatting .
+3) Detection metrics . Our work uses two intuitive fall detec ⁃
+tion metrics : the false alarm rate (FAR ) and the missed alarm 
+rate (MAR ). FAR is the ratio between the number of incor ⁃
+rectly identified normal activity samples and that of all normal 
+samples , showing how often users are disturbed when no fall 
+activity occurs . MAR is the ratio between the number of incor ⁃
+rectly identified fall samples and that of all fall samples , show ⁃
+ing the sensitivity and detection capability of the system for 
+fall activity .
+3.2 System Performance
+1) Performance comparison of existing work . We compare 
+the present work with the currently available work on fall de ⁃
+tection using Wi -Fi based devices . We divide the pre -
+collected dataset into a training set and a test set and extract 
+the corresponding features for evaluation , using a ten -fold 
+cross -validation approac h. Fig. 7 shows 
+the performance of the system evalua ⁃
+tion. The MAR and FAR of our system 
+are 4.8% and 1.9%, respectively , which 
+are better than the existing work . Since 
+the experimentally collected non -fall 
+data are all data of users performing ac ⁃
+tivities , and according to the survey re ⁃
+sults of the National Bureau of Statis ⁃
+tics, the average time spent by Chinese 
+residents at home is about 7.5 h per day , 
+and the FAR of the system will be fur ⁃
+ther reduced in the home scenario , 
+which is expected to be around 0.6%.
+A comparison of existing work 
+shows that using deep models for fall 
+detection performs significantly better 
+than using traditional machine learn ⁃
+ing. For example , using a deep learn ⁃
+ing model outperforms a traditional 
+machine learning SVM model when 
+the same DWT spectrum is used as the 
+extracted feature . Specifically , the 
+MAR and FAR decrease by 10.6% 
+and 8.3%, respectively . In theory , the 
+deep learning model can acquire more 
+hidden features in the wireless signal ; 
+while the traditional machine learning 
+model mostly extracts statistical fea ⁃
+tures for activity identification , which 
+is relatively less physically significant .2) Performance comparison of different deep model 
+schemes . In addition to the already working detection 
+schemes , we combine different detection schemes by our ⁃
+selves based on the CSI amplitude/phase , DWT spectrum and 
+STFT spectrum , combined with models such as the long short -
+term memory (LSTM ) network in deep learning . The results of 
+our systematic evaluation of different schemes are shown in  
+Fig. 8. It can be seen that with the deep learning models , the 
+performance of the DWT spectrum and STFT spectrum -based 
+schemes is better than that of the original feature -based 
+schemes such as CSI magnitude . For example , when the CNN 
+model is used for feature classification , the DWT spectrum is 
+better than the CSI amplitude . Specifically , MAR and FAR de ⁃
+crease by 3.2% and 0.7% respectively .
+3) Analysis of CSI sampling frequency . In the above experi ⁃
+ments , the CSI sampling frequency is 1 000 Hz. Considering 
+that the Wi -Fi packet transmission may be disturbed in actual 
+use, the sampling frequency may be degraded . Therefore , we 
+evaluate the impact of the CSI sampling frequency on the sys ⁃
+tem performance . We use 1 000 Hz to capture CSI , downs ⁃
+ample the CSI data stream to 750 Hz, 500 Hz, 330 Hz, 250 Hz 
+Amp : amplitude
+CNN : convolutional neural networks
+DWT : discrete wavelet transformFAR : false alarm rate
+MAR : missed alarm rate
+Pha: phaseSTFT : short time Fourier transform
+SVM : support vector machines
+▲Figure 7. Comparison of existing work
+Amp : amplitude
+CNN : convolutional neural networks
+DWT : discrete wavelet transformFAR : false alarm rate
+LSTM : long short -term memory
+MAR : missed alarm rateSTFT : short time Fourier transform
+▲Figure 8. Comparison of depth modeling solutions
+MAR
+FAR
+Different wordRate/%
+DWT+CNN Amp+SVM Amp /Pha+SVM DWT+SVM STFT+SVM STFT+CNN40
+30
+20
+10
+0Rate/%20
+15
+10
+5
+0
+DWT+CNN DWT+LSTM DWT+
+CNN/LSTMSTFT+
+LSTMSTFT+
+CNN/LSTMAmp+CNN Amp+L STM Amp +
+CNN/LSTMMAR
+FAR
+65

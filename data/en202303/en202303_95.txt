@@ -1,0 +1,69 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems   Research Papers
+Hybrid Architecture and Beamforming Hybrid Architecture and Beamforming 
+Optimization for Millimeter Wave SystemsOptimization for Millimeter Wave Systems
+TANG Yuanqi1, ZHANG Huimin1, ZHENG Zheng2, 
+LI Ping2, ZHU Yu1
+(1. Department of Communication Science and Engineering , Fudan Uni ⁃
+versity , Shanghai 200433 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202303013
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20230726 .1546 .002.html, 
+published online July 27, 2023
+Manuscript received : 2023 -02-21
+Abstract : Hybrid beamforming (HBF ) has become an attractive and important technology in massive multiple -input multiple -output (MIMO ) 
+millimeter -wave (mmWave ) systems . There are different hybrid architectures in HBF depending on different connection strategies of the 
+phase shifter network between antennas and radio frequency chains . This paper investigates HBF optimization with different hybrid architec ‐
+tures in broadband point -to-point mmWave MIMO systems . The joint hybrid architecture and beamforming optimization problem is divided 
+into two sub -problems . First , we transform the spectral efficiency maximization problem into an equivalent weighted mean squared error mini ‐
+mization problem , and propose an algorithm based on the manifold optimization method for the hybrid beamformer with a fixed hybrid archi ‐
+tecture . The overlapped subarray architecture which balances well between hardware costs and system performance is investigated . We fur ‐
+ther propose an algorithm to dynamically partition antenna subarrays and combine it with the HBF optimization algorithm . Simulation results 
+are presented to demonstrate the performance improvement of our proposed algorithms .
+Keywords : hybrid beamforming ; hybrid architecture ; weighted mean square error ; manifold optimization ; dynamic subarrays
+Citation  (Format 1): TANG Y Q , ZHANG H M , ZHENG Z , et al . Hybrid architecture and beamforming optimization for millimeter wave sys ‐
+tems [J]. ZTE Communications , 2023 , 21(3): 93–104. DOI : 10.12142 /ZTECOM .202303013
+Citation (Format 2): Y. Q. Tang , H. M. Zhang , Z. Zheng , et al ., “Hybrid architecture and beamforming optimization for millimeter wave sys ‐
+tems,” ZTE Communications , vol. 21, no. 3, pp. 93–104, Sept . 2023 . doi: 10.12142 /ZTECOM .202303013 .
+1 Introduction
+Millimeter -wave (mmWave ) communication has 
+emerged as a key technology for fifth -generation 
+(5G) wireless networks to cope with the dilemma 
+between scarce sub -6 GHz spectrum resources 
+and people ’s rapidly growing demand for higher data trans ‐
+mission[1–4]. MmWave ’s short wavelength makes it conve ‐
+nient to arrange large -scale antenna arrays at the transceiver 
+end to compensate for the high propagation loss , and thus 
+massive multiple -input and multiple -output (MIMO ) be‐
+comes attractive in mmWave systems . However , conven ‐
+tional fully digital beamforming (FDBF ) requires a separate 
+radio frequency (RF) chain for each antenna and will result 
+in huge hardware costs and power consumption in massive 
+MIMO systems[5]. Therefore , hybrid beamforming (HBF ) that 
+requires very few RF chains has become a research hotspot 
+recently[6–8].HBF has different hybrid architectures depending on differ ‐
+ent connection strategies between antennas and RF chains . 
+The fully -connected (FC) architecture and the partially -
+connected (PC) architecture are two conventional hybrid archi ‐
+tectures . Most previous works considered the FC architecture . 
+In Ref . [9], the authors applied the orthogonal matching pur ‐
+suit algorithm to design the column vectors of the analog pre ‐
+coding matrix based on codebooks . The authors in Ref . [10] 
+proposed an HBF algorithm based on the coordinate update it ‐
+eration method in the narrowband point -to-point MIMO sys ‐
+tem. The authors in Ref . [11] proposed an alternating minimi ‐
+zation algorithm based on manifold optimization (MO) by mini ‐
+mizing the Frobenius norm between the HBF matrix and the 
+FDBF matrix . The authors in Ref . [12] took the mean square 
+error minimization as the optimization goal and the designed 
+HBF algorithms based on MO and generalized eigenvalue de ‐
+composition (EVD ).
+On the other hand , the PC architecture , where each antenna 
+is only connected to only one RF chain instead of all RF 
+chains , can reduce the power consumption and hardware costs 
+compared with the FC architecture at the cost of certain sys ‐
+tem performance loss . A low -complexity HBF optimization al ‐
+This work was supported by ZTE Industry -University -Institute Coopera ⁃
+tion Funds , the Natural Science Foundation of Shanghai under Grant No . 
+23ZR1407300 , and the National Natural Science Foundation of China un ⁃
+der Grant No . 61771147 .
+93

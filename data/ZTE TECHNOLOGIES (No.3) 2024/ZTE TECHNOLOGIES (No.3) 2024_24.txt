@@ -1,0 +1,77 @@
+Fig. 1. ZTE’s innovative 
+solution for RoCEv2 
+end-network 
+collaboration.
+CNPs are used to adjust the rate and there is no 
+feedback from other networks.
+No optimization based on traﬃc characteristics: 
+The diverse characteristics of long and short 
+/f_lows as well as scheduling interval cycles are 
+not considered.
+No consideration for multi-path balanced 
+scheduling:  More traﬃc is unevenly distributed, 
+and multi-path bandwidth resources of the AI 
+network are not fully utilized. 
+ZTE’s Innovative Solution for RoCEv2 
+End-Network Collaboration  
+Traditional DCQCN networks are diﬃcult to 
+avoid congestion, packet loss, and delay issues in 
+high-throughput, fully-loaded networks due to 
+imprecise congestion /f_lag data and separate 
+end-side and network-side /f_low control 
+mechanisms. To improve transmission 
+performance in high-performance networks, ZTE 
+proposes an innovative solution for RoCEv2 
+end-network collaboration. This solution 
+implements accurate and fast congestion control 
+and traﬃc scheduling algorithms through 
+end-network collaboration, boosting RoCE network throughput to more than 90% (Fig. 1). It 
+pioneers end-network collaboration and 
+innovation in congestion control and accurate /f_low 
+control.
+New Congestion Control for End-Network 
+Collaboration
+The network devices promptly and accurately 
+deliver link congestion information to the end side 
+through fast CNP and in-band telemetry 
+technologies to implement new congestion 
+control. 
+Fast CNP: In a traditional DCQCN network, when 
+a network device is congested, related link data 
+packets are marked with an ECN /f_lag. Upon 
+receiving the ECN /f_lag, the destination NIC 
+sends a CNP packet to the source NIC, which 
+then adjusts the rate. This process takes a long 
+time, leading to delayed rate adjustments. 
+Therefore, the fast CNP solution is introduced. 
+When detecting congestion, the intermediate 
+switch immediately sends CNP packets 
+containing detailed congestion information to 
+the source NIC. The source NIC can use this 
+information to adjust traﬃc accurately and 
+quickly, thus rapidly alleviating network 
+60%±90%+
+Throughput 
+Traditional RoCE network
+New RoCE networkEnd-network collaboration
+Lossless switch network (Fabric)
+GPU server 
+(End)GPU server 
+(End)  DPU
+Management 
+RoCE controller
+ 
+RoCE switch 
+High-speed interconnection
+ High-speed interconnection
+Rapid CNP
+In-band telemetry In-band telemetryECMP path noti/f_ication ECMP path noti/f_ication
+New congestion control Multi-path accurate /f_low control 
+Load balance Load balanceMulti-path accurate /f_low control
+DPU
+ 
+ 
+ 
+ 
+Intelligent Computing Special Topic 
+22 

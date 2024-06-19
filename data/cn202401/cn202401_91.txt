@@ -1,0 +1,105 @@
+下一代多址接入技术的挑战与关键进展 陈 为  等 专家论坛
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1然而 ，系统过载比过高时 ，基于压缩感知的多用户检测
+算法由于感知矩阵列相关性增加而出现性能下降 。因此 ，为
+MUSA 开发实际可行的 、可扩展的多用户检测方案是一个具
+有挑战性的开放问题[33]。
+3.5.3 PDMA
+基于发射机和接收机联合设计的 PDMA 是一种极具潜力
+的NOMA 技术[34]。PDMA 编码图样定义了用户数据到物理资
+源的映射关系 ，是该接入方式的核心内容 。PDMA 将系统图
+样表示为 0/1矩阵形式 ，每行对应系统的可用资源单元 ，每
+列对应系统的活跃用户 。矩阵元素为 “1”时表示对应用户
+数据映射到相应资源 。不同用户对系统可用资源的不同占用
+方式形成用户特有的编码图样 。在发送端 ，多个用户的待传
+输符号通过各自的编码图样被映射到同一物理资源 （时域 、
+频域和空间域等资源 ）上进行叠加传输 ，接收端采用非线性
+检测算法进行信号解码 。PDMA 系统允许不同用户的编码图
+样存在部分重叠 ，但仍然可以通过未碰撞的分量实现用户区
+分。因此 ，在不增加物理资源的前提下 ，通过将用户对物理
+资源的占用方式作为资源共享的新维度 ，PDMA 系统可减少
+因用户碰撞导致的接入失败 。
+矩阵每一列中 “1”的个数可视作用户信号的分集阶数 。
+更大的分集阶数可以实现更可靠的数据传输 ，但也会使接收
+端信号处理复杂度增加 。在计算资源有限时 ，可使用稀疏的
+PDMA 图样 ，即每位用户的信号只占用少部分的可用资源 ，
+从 而 在 保 证 系 统 可 靠 性 的 同 时 降 低 接 收 算 法 复 杂 度[34]。
+PDMA 的另一优势在于接收机可通过数字信号处理器实现并
+行干扰消除 。相比于易受到误差传播影响的 SIC算法 ，采用
+并行干扰消除算法 （如MPA）能够进一步提高稀疏模式编
+码的 PDMA 解码正确率[35]。
+4 结束语
+面向 6G万物智联的新兴业务和更高需求 ，下一代多址
+技术是实现海量用户随机接入和高谱效 /能效数据传输的关
+键。压缩感知 、半免授权接入及无源接入等新型接入方法和
+NOMA 为大规模随机接入和数据传输提供了新的研究思路 。
+人工智能等新技术有望与下一代多址技术深度融合 ，提升随
+机接入与数据传输的效率 ，降低传输时延 ，简化接收机设
+计，在未来 6G各类应用场景中发挥重要作用 。
+参考文献
+[1] WANG C X , YOU X H , GAO X Q , et al . On the road to 6G: visions , 
+requirements , key technologies , and testbeds [J]. IEEE communications surveys & tutorials , 2023 , 25(2): 905-974. DOI : 
+10.1109 /COMST .2023 .3249835
+[2] BAI Y N , CHEN W , AI B , et al . Prior information aided deep 
+learning method for grant-free NOMA in mMTC [J]. IEEE journal 
+on selected areas in communications , 2022 , 40(1): 112-126. DOI : 
+10.1109 /JSAC .2021 .3126071
+[3] CHAUHAN A , GHOSH S , JAISWAL A . RIS partition-assisted non-
+orthogonal multiple access (NOMA ) and quadrature-NOMA with 
+imperfect SIC [J]. IEEE transactions on wireless communications , 
+2023 , 22(7): 4371 -4386 . DOI: 10.1109 /TWC .2022 .3224645
+[4] CHEN W , LIU Y W , JAFARKHANI H , et al . Signal processing and 
+learning for next generation multiple access in 6G [EB/OL ]. (2023 -
+09-01)[2024 -01-22]. http://export .arxiv.org/abs/ 2309 .00559 v2
+[5] WANG Q P , LIU L , ZHANG S W , et al . Exploiting temporal side 
+information in massive IoT connectivity [J]. IEEE transactions on 
+wireless communications , 2023 , 22(2): 1432 -1447 . DOI : 10.1109 /
+twc.2022 .3204768
+[6] DJELOUAT H , LEINONEN M , RIBEIRO L , et al . Joint user 
+identification and channel estimation via exploiting spatial channel 
+covariance in mMTC [J]. IEEE wireless communications letters , 
+2021 , 10(4): 887-891. DOI: 10.1109 /lwc.2021 .3049167
+[7] DING Z G , SCHOBER R , POOR H V . A new QoS-guarantee 
+strategy for NOMA assisted semi-grant-free transmission [J]. 
+IEEE transactions on communications , 2021 , 69(11): 7489 -7503 . 
+DOI: 10.1109 /tcomm .2021 .3100598
+[8] AHMADI M J , DUMAN T M . Random spreading for unsourced 
+MAC with power diversity [J]. IEEE communications letters , 
+2021 , 25(12): 3995 -3999 . DOI: 10.1109 /lcomm .2021 .3119424
+[9] KE M L , GAO Z , ZHOU M Y , et al . Next-generation URLLC with 
+massive devices : a unified semi-blind detection framework for 
+sourced and unsourced random access [J]. IEEE journal on 
+selected areas in communications , 2023 , 41(7): 2223 -2244 . DOI : 
+10.1109 /JSAC .2023 .3280981
+[10] AMALLADINNE V K , CHAMBERLAND J F , NARAYANAN K R . A 
+coded compressed sensing scheme for unsourced multiple 
+access [J]. IEEE transactions on information theory , 2020 , 66
+(10): 6509 -6533 . DOI: 10.1109 /tit.2020 .3012948
+[11] LI Y, CHEN Z L , WANG Y Q , et al . Heterogeneous transformer : a 
+scale adaptable neural network architecture for device activity 
+detection [J]. IEEE transactions on wireless communications , 
+2023 , 22(5): 3432 -3446 . DOI: 10.1109 /TWC .2022 .3218579
+[12] HUO H , XU J , SU G , et al . Intelligent MIMO detection using 
+meta learning [J]. IEEE Wireless Communications Letters , 2022 , 
+11(10): 2205 -2209 . DOI: 10.1109 /LWC .2022 .3197158
+[13] RUI L , YANG S , CHEN S , et al . Smart network maintenance in 
+an edge cloud computing environment : an adaptive model 
+compression algorithm based on model pruning and model 
+clustering [J]. IEEE transactions on network and service 
+management , 2022 , 19(4): 4165 -417. DOI : 10.1109 /
+TNSM .2022 .3202796
+[14] LIU A , LIU X , YU H , et al . Training robust deep neural networks 
+via adversarial noise propagation [J]. IEEE transactions on image 
+processing , 2021 , 30: 5769 -5781
+[15] CHEN W , XIAO H , SUN L , et al . Joint activity detection and 
+channel estimation in massive MIMO systems with angular 
+domain enhancement [J]. IEEE transactions on wireless 
+communications , 2022 , 21(5): 2999 -3011 . DOI : 10.1109 /
+TWC .2021 .3117358
+[16] CHEN Z , SOHRABI F , LIU Y F , et al . Phase transition analysis for 
+covariance-based massive random access with massive MIMO 
+[J]. IEEE transactions on information theory , 2021 , 68(3): 1696 -
+1715
+[17] CHEN Z L , SOHRABI F , YU W . Sparse activity detection in multi-
+cell massive MIMO exploiting channel large-scale fading [J]. 
+87

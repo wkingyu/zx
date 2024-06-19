@@ -1,0 +1,86 @@
+maintenance tools to reduce reliance on 
+human intervention. By standardizing 
+processes and tools, ZTE manages the quality 
+of solutions and network changes, making 
+network maintenance more transparent and 
+controllable.  
+Visualized O&M
+The Cloud Core Network utilizes the 
+core network intelligent analysis (CNIA) 
+system, equipped with health analysis and 
+KPI dashboard features, to analyze various 
+data including alarms, performance, logs, 
+preventive maintenance, and dialing 
+tests. By incorporating AI capabilities, the 
+system generates device health report and 
+visualizes the network operation status, 
+helping to identify potential problems 
+in advance and improve maintenance 
+eﬃciency. 
+ZTE’s NetScope and NetInsight can 
+be /f_lexibly deployed to display the 
+vertical transport network topology for 
+cross-layer monitoring and fault diagnosis. 
+NetScope is an end-to-end delimiting and 
+locating solution for IP network faults in 
+a virtualized core network. NetInsight is a 
+virtual-layer network O&M tool.
+ZTE’s EMS+ and the MagicEye tools 
+facilitate horizontal service-domain problem 
+delimiting and locating. EMS+ is a data 
+service analysis tool while MagicEye is a 
+voice service analysis tool. These tools 
+bridge the gap between voice and data 
+services, allowing for quick resolution of 
+voice problems.
+High-Quality Solution
+ZTE guarantees the overall quality of 
+its cloud core network solution through 
+integrated veri/f_ication. The solution is 
+jointly developed by the product service 
+preparation team, integration team, 
+and R&D team. It is then veri/f_ied in real environments to ensure high quality. 
+The integration team participates in the 
+implementation of the solution to ensure 
+network stability throughout its lifecycle 
+and the availability and reliability of the 
+integrated network solution. 
+ZTE’s Network R&D Institute provides 
+full-process management and control 
+for the initial operation of the solution 
+including compilation, testing, review, and 
+operation support. The goal is to ensure 
+the safe implementation of the solution 
+without any negative impact on the 
+existing network. 
+To avoid manual operation errors, 
+tools are used to automate operations on 
+complex solutions. For high-risk solutions, 
+the solution test team conducts additional 
+testing and veri/f_ication, providing an 
+extra layer of assurance for the solution’s 
+operation. /uni00A0
+ 
+Automatic Operation
+ZTE has established a dedicated team for 
+network change solution automation, using 
+the automatic operation tool integrated 
+in CNIA to encapsulate various operation 
+scenarios and replace manual operations 
+with machines. This approach minimizes 
+risks associated with uncontrollable 
+operation factors caused by diﬀerent 
+operators and ensures network operation 
+security through automation. 
+ZTE always prioritizes security, and 
+implements an end-to-end collaborative 
+work/f_low, both horizontally and vertically, to 
+create a secure Cloud Core Network for users 
+and enterprises. Moving forward, ZTE will 
+continue to advance the cloud core network 
+to be highly reliable, trustworthy, and 
+controllable. This will enable the provision 
+of seamless communications services 
+anytime and anywhere, contributing to the 
+development of a digital society. 
+15OCT 2023

@@ -1,0 +1,47 @@
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1大规模离散 MU-MIMO ：低复杂度 、信息理论最优检测与多用户编码 陈学辉  等 热点专题
+大规模离散 MU-MIMO ：
+低复杂度 、信息理论最优检测与
+多用户编码
+Massive Discrete MU-MIMO : Low-Complexity 
+Information-Theoretically Optimal Detection and Multi-User Coding
+陈学辉 /CHEN Xuehui1，池育浩 /CHI Yuhao1，刘雷/LIU Lei2
+（ 1.西安电子科技大学 ，中国 西安 710071 ；
+2.浙江大学 ，中国 杭州 310058  ）
+(1.Xidian University , Xi'an 710071 , China ;
+2.Zhejiang University , Hangzhou 310058 , China )DOI：10.12142 /ZTETJ .202401009
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20240228 .0939 .004.html
+网络出版日期 ：2024 -02-28
+收稿日期 ：2024 -01-10
+摘要 ：研究了一种实际的大规模离散多用户多输入多输出 （MU-MIMO ）系统，涵盖了大规模天线与用户 、实用的信道编译码 、任意输入分
+布、仅接收机已知信道状态信息 、一般右酉不变信道矩阵 、模数转化器等实际通信约束 。针对理想和低分辨率模数转换器下的大规模离散 MU-
+MIMO 系统，分别提出了低复杂度 、信息理论最优接收机和多用户码设计准则 ，并给出实际多用户低密度奇偶校验码 （LDPC ）设计。数值实验
+证实所设计的多用户 LDPC 比现有的单用户 LDPC 获得了 2～5 dB性能增益 ，同时还解决在信道恶劣和低分辨率模数转换器下单用户码无法准确
+恢复信息的难题 ，揭示了现有贝叶斯最优接收机与单用户码直接结合不再是最优方案 。
+关键词 ：大规模离散 MU-MIMO ；低复杂度 ；信息理论最优 ；迭代接收机 ；多用户码
+Abstrac t:A practical massive discrete multi-user multiple-input multiple-output (MU-MIMO ) system is studied , which includes massive an ⁃
+tennas and users , practical channel coding and decoding , arbitrary input distributions , available channel state information at the receiver , gen⁃
+eral right-unitarily-invariant channel matrices , and the analog-to-digital converter . For massive discrete MU-MIMO systems with ideal and 
+low-resolution analog-to-digital converters , the low-complexity and information-theoretically optimal receiver and multi-user code design 
+principles are proposed , respectively , on which practical multi-user low-density parity-check codes (LDPC ) are designed . Numerical results 
+show that the designed multi-user LDPC can achieve a performance gain of up to 2~5 dB over the existing single-user LDPC . They also ad ⁃
+dress the issue that single-user codes cannot successfully recover information under poor channel and low-resolution analog-to-digital 
+converters , and reveal that the direct combinations of existing Bayes-optimal receivers with single-user codes are no longer optimal .
+Keywords :massive discrete MU-MIMO ; low complexity ; information-theoretically optimal ; iterative receiver ; multi-user code
+引用格式 ：陈学辉 ，池育浩 ，刘雷 . 大规模离散 MU-MIMO ：低复杂度 、信息理论最优检测与多用户编码  [J]. 中兴通讯技术 , 2024 , 30(1): 46-
+54. DOI: 10.12142 /ZTETJ .202401009
+Citation ： CHEN X H , CHI Y H , LIU L . Massive discrete MU-MIMO : low-complexity information-theoretically optimal detection and multi-
+user coding [J]. ZTE technology journal , 2024 , 30(1): 46-54. DOI: 10.12142 /ZTETJ .202401009
+随着无线通信技术和物联网行业的快速发展 ，一系列新
+兴通信服务不断涌现 ，包括异构车联网系统 、多媒体
+通讯以及移动无人机网络等 。预计在未来 6G无线通信场景中，每平方公里的无线终端连接数量可能高达千万级别[1-2]。
+面对如此大规模连接和高吞吐量的要求 ，多址接入技术是一
+项关键的解决方案 。然而 ，传统的正交多址接入 （OMA ）
+技术在有限的频谱资源上仅能支持少量用户 。相比之下 ，非
+正交多址接入 （NOMA ）允许大量用户共享频谱传输 ，从而
+提升接入设备数量 、频谱利用率和降低通信时延 。为了进一
+步提升空间资源利用率 ，NOMA 技术与多用户多输入多输出基金项目 ：国家自然科学基金重大项目 （62394292 ） ；国家自然科学基金重点项
+目（62131016 ） ；国际自然科学基金青年项目 （62201424 、62301485 ） ；中兴产
+学研项目 （IA20231213009 ） ；国家重点研发计划 （2021 YFA1000500 ） ；陕西省
+重点研发计划 （2023 -YBGY- 218）
+46

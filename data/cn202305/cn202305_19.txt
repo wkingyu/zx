@@ -1,0 +1,60 @@
+面向 6G的星地融合网络架构 徐 晖  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5参考文献
+[1] ITU-R . Framework and overall objectives of the future development of IMT 
+for 2030  and beyond [R]. 2023
+[2] CHEN S Z , LIANG Y C , SUN S H , et al . Vision , requirements , and 
+technology trend of 6G: how to tackle the challenges of system coverage , 
+capacity , user data-rate and movement speed [J]. IEEE wireless 
+communications , 2020 , 27(2): 218-228. DOI: 10.1109 /MWC .001.1900333
+[3] IMT- 2030（6G）推进组 . 6G总体愿景与潜在关键技术白皮书  [R]. 2021
+[4] 彭健, 孙美玉 , 滕学强 . 6G愿景及应用场景展望  [J]. 中国工业和信息化 , 2020
+(9):18-25. DOI: 10.3969 /j.issn.1674 -9138 .2020 .09.003
+[5] CHEN S Z , CHEN L , HU B , et al . User-centric access network (UCAN ) for 
+6G: motivation , concept , challenges and key technologies [EB/OL ]. [2023 -
+08-10]. https ://ieeexplore .ieee.org/abstract/document/ 10148944
+[6] 陈山枝 . 关于低轨卫星通信的分析及我国的发展建议  [J]. 电信科学 , 2020 , 36
+(6): 1-13. DOI: 10.11959 /j.issn.1000 -0801 .2020181
+[7] CHEN S Z , SUN S H , KANG S L , et al . System integration of terrestrial 
+mobile communication and satellite communication--the trends , 
+challenges and key technologies in B 5G and 6G [J]. China communications , 
+2020 , 17(12): 156-171. DOI: 10.23919 /JCC .2020 .12.011
+[8] 孙韶辉 , 戴翠琴 , 徐晖, 等. 面向 6G的星地融合一体化组网研究  [J]. 重庆邮电大
+学学报 : 自然科学版 , 2021 , 33(6): 891-901
+[9] 徐晖, 孙韶辉 . 面向 6G的天地一体化信息网络架构研究  [J]. 天地一体化信息网
+络, 2021 , 2(4)1-9. DOI: 10.11959 /j.issn.2096 -8930 .2021037
+[10] 徐晖, 缪德山 , 康绍莉 , 等. 面向天地融合的卫星网络架构和传输关键技术  [J]. 
+天地一体化信息网络 , 2020 , 1(2):1-10
+[11] 陈东, 仲小清 , 邓恒,等. 宽带卫星通信网络技术发展态势与发展建议  [J]. 前瞻
+科技, 2022 , 1(1): 86-93
+[12] 康绍莉 , 缪德山 , 索士强 , 等.面向 6G的空天地一体化系统设计和关键技术  
+[J]. 信息通信技术与政策 , 2022 (9): 18-26
+[13] CHEN S Z , SUN S H , XU G X , et al . Beam-space multiplexing : practice , 
+theory , and trends , from 4G TD-LTE , 5G, to 6G and beyond [J].IEEE 
+wireless communications , 2020 ，27(2): 162-172. DOI : 10.1109 /
+mwc .001.1900307
+[14] CHEN S Z , SUN S H , MIAO D S , et al . The trends , challenges and key 
+technologies of beam-space multiplexing in the integrated terrestrial-
+satellite communication for B 5G and 6G [J]. IEEE wireless 
+communications , 2022 , 99: 1-10. DOI: 10.1109 /MWC .004.2200085作 者 简 介
+徐晖 ，大唐移动通信设备有限公司创新中心技术
+总监；主要研究方向为移动通信网络 、移动通信
+安全 、星地融合网络等 ；先后主持和参与国家
+“863”计划项目 、国家重大专项和国家重点研发
+计划近 10项；已发表论文 10余篇。
+                        陈山枝 ，中国信息通信科技集团有限公司副总经
+理、总工程师 、科技委主任 ，无线移动通信全国
+重点实验室主任 ，教授级高工 ，国家杰出青年科
+学基金获得者 ；长期从事移动通信关键技术研
+发、国际标准研制和产业化工作 ，主要研究方向
+为车联网 、星地融合移动通信 、B5G/6G；曾主
+持国家 “863”计划项目 、国家重大专项和国家
+重点研发计划等 10余项；发表论文 90余篇，出
+版学术专著 6部，授权发明专利 80余项。
+艾明 ，大唐移动通信设备有限公司创新中心标准
+项目经理 ，曾担任 3GPP TSG CT 副主席 ；主要研
+究方向为移动通信网络 、网络人工智能 、星地融
+合网络等领域 ；先后负责多个 3GPP 国际标准制
+定项目 ，主持国家重大专项和国家重点研发计划
+各1项。
+15

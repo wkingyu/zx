@@ -1,0 +1,94 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model    Special Topic
+and is clearly band -limited .
+Recent DOF analysis can be conducted with a wavenumber 
+domain HMIMO model for the spatial bandwidth defini ⁃
+tion[6, 14]. The DOF of the wavenumber model is defined by the 
+number of discrete plane wave modes , which gives a desirable 
+approximation in the wavenumber domain . Since the HMIMO 
+channel in the wavenumber domain is band -limited , the DOF 
+of the HMIMO channel is defined for a uniform linear array 
+(ULA ) and uniform planar array (UPA ) respectively :
+η1=2
+λl, for ULA with length l,(3)
+η2=π
+λ2l0l1, for UPA with size l0×l1,(4)
+where η1 and η2 stand for the DOF of the one -dimensional and 
+two -dimensional HMIMO transmitting arrays , and λ is the 
+wavelength .
+Recent DOF analysis of HMIMO can also follow the rank 
+definition . For example , the dyadic Green function HMIMO 
+model studies the physical nature of the radiation and makes 
+use of the dyadic Green function to determine the vector solu ⁃
+tion of the spatial electrical field . Due to the vector nature of 
+the electrical field , researchers claim that HMIMO could sup ⁃
+port three independent orthogonal polarizations[15], thereby in ⁃
+creasing the size of the channel matrix and the DOF .
+Moreover , researchers have also studied the influence of 
+mutual coupling on the HMIMO channel DOF . The close an ⁃
+tenna spacing and the continuous current surface are very 
+popular among the current configuration of HMIMO antennas . 
+Such configuration would inevitably cause the single port 
+transmitting signal to form a current distribution on the trans ⁃
+mitting surface because of electromagnetic laws , which is the 
+physical illustration of mutual coupling . To study the influ ⁃
+ence of the mutual coupling on the rank of the channel matrix , 
+an effective DOF was proposed to evaluate the channel perfor ⁃
+mance in Ref . [16], which is
+ηe=()∑i σi2
+∑iσ2
+i,
+(5)
+where σi is the i-th singular value of the channel matrix . The 
+mutual coupling can also be included into the DOF analysis 
+by modifying the spatial correlation matrix[17]. This model suc ⁃
+cessfully reveals the effective DOF of HMIMO under mutual 
+coupling from the transmitting side .
+While there are many studies on HMIMO , it is still impor ⁃
+tant to establish a mutual coupling compliant channel model 
+and examine the impact of mutual coupling on the HMIMO 
+channel . In this paper , we focus on the DOF analysis for 
+HMIMO with strong mutual coupling for both transmitting and receiving sides , and reveal the potential DOF of HMIMO for 
+communicating with sufficient receiving antennas . In Section 2, 
+we introduce the mutual -coupling -compliant channel model of 
+a communication system with strong mutual coupling in its 
+transmitting array . In Section 3, we introduce the DOF analy ⁃
+sis method based on popular HMIMO models and highlight 
+several novel DOF features observed by the mutual -coupling -
+compliant model . Finally , we summarize and discuss the DOF 
+analysis under mutual coupling and its potential application 
+in the last section .
+2 DoF Analysis Based on a Mutual -Coupling -
+Compliant Channel Model
+2.1 Circuit Model for HMIMO
+The channel model is one of the most fundamental prob ⁃
+lems in studying HMIMO communication . In an HMIMO sys ⁃
+tem, a tightly -coupled transmitting array (Tx) and a weakly -
+coupled receiving array (Rx) communicate at a central fre ⁃
+quency f0. We assume that the Tx and Rx are parallel to each 
+other , and the distance between them is much greater than the 
+wavelength .
+We utilize a mutual -coupling -compliant channel model pro ⁃
+posed by AKROUT et al .[18] to analyze the DOF features in the 
+HMIMO system . The basic concept of the circuit model is to 
+simplify the complicated electromagnetic problem to a simple 
+current -voltage equation , which is Ohm 􀆳s law[19]. The circuit 
+model introduces an impedance to describe the radiation effi ⁃
+ciency and the path loss simultaneously . And the impedance 
+is calculated by the vector potential method with a simplified 
+boundary conditions of the antenna 􀆳s current . For common 
+MIMO systems , the antennas are spaced far enough so that the 
+mutual coupling is negligible , resulting in a diagonal imped ⁃
+ance matrix . However , for HMIMO systems , the close spacing 
+of the antennas introduces the strong mutual coupling inside 
+the array and introduces off -diagonal entries in the impedance 
+matrix . For instance , we consider two half -wavelength dipoles 
+radiating at wavelength λ=cf0, where c is the speed of light , 
+and the antenna spacing is denoted by δ. The configuration of 
+the two dipoles is shown in Fig . 1.
+The impedance of two antennas defined as ZTR is given 
+▲Figure 1. Configuration of two dipoles . The two dipoles are separated 
+by δ at their center , and the tilt angles with respect to the connecting 
+line of their centers are γ and β (denoted as the blue area in the figure )β
+δγ λ/2
+35

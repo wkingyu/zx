@@ -1,0 +1,90 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Special Topic   Link Budget and Enhanced Communication Distance for Ambient Internet of Things
+same configuration as those in Fig . 5.
+When Ptag, chip, LNA =Pchip, sen, we can obtain that the upper 
+bound of downlink communication distance can be 25.75 m, 
+i.e., ddown,LNA≈25.75  m. After implementing the LNA , the 
+downlink upper bound communication range is improved by 
+23.45 m.
+The test environment is depicted in Fig . 9, where a USRP 
+is in conjunction with a PC as an integrated system . The 
+USRP is typically used as the radio front -end hardware , re⁃
+sponsible for receiving and transmitting radio signals . The 
+PC is used for processing and analyzing these received sig ⁃
+nals. The transmission and reception of radio frequency sig ⁃
+nals are realized by connecting the antenna with a circulator . 
+The operating frequency is 925 MHz , and the transmission 
+power Pt=15 dBm . We measure the upper bound distance as 
+the maximum distance at which the tag can correctly recog ⁃
+nize the signaling . Our final measurement results indicate 
+that, after implementing the LNA module , the communication 
+range is increased by approximately 20 m.In MBCS , the tag can identify smaller signals after imple ⁃
+menting the LNA module . According to our analysis , the 
+downlink sensitivity is the bottleneck that sets the upper 
+bounds of the overall communication range . The improvement 
+in the downlink communication distance consequently leads 
+to an improved uplink distance , lower reader power consump ⁃
+tion and enhanced communication performance . It is worth 
+noting that these benefits can also be achieved in some BBCS 
+configurations . Improving tag sensitivity will result in an ex ⁃
+tended maximum effective communication distance between 
+the RF carrier source and the tag .
+6 Conclusions
+In this paper , we analyze the uplink and downlink budgets 
+and measure the chip sensitivity of the tag for ambient IoT . 
+According to the relationship between sensitivity and the re ⁃
+ceived power , we derive the upper bounds of both uplink and 
+downlink distances . It is found that the backscatter communi ⁃
+cations are mainly limited by the downlink distance , instead 
+of the uplink distance . It is also found that the tag sensitivity 
+results from its hardware constraints , especially the activation 
+voltage of the envelope detection diode . Accordingly , we pro ⁃
+pose to incorporate an LNA in the tag to amplify the incident 
+signals before the envelope detection , and the corresponding 
+experimental results show that the downlink communication 
+range could be extended over 20 m.
+References
+[1] STOCKMAN H . Communication by means of reflected power [J]. Proceed ⁃
+ings of the IRE , 1948 , 36(10): 1196–1204 . DOI : 10.1109 /
+JRPROC .1948 .226245
+[2] ROY S , JANDHYALA V , SMITH J R , et al . RFID : from supply chains to 
+sensor nets [J]. Proceedings of the IEEE , 2010 , 98(9): 1583–1592 . DOI : 
+10.1109 /jproc .2010 .2053690
+[3] 3GPP. Study on Ambient IoT (Internet of Things ) in RAN : TR 38.848 [S]. 
+2023
+[4] LIU X L , ANSARI N . Toward green IoT : energy solutions and key chal ⁃
+lenges [J]. IEEE communications magazine , 2019 , 57(3): 104–110. DOI : 
+10.1109 /MCOM .2019 .1800175
+[5] TORO U S , WU K S , LEUNG V C M . Backscatter wireless communica ⁃
+tions and sensing in green Internet of Things [J]. IEEE transactions on 
+green communications and networking , 2022 , 6(1): 37–55. DOI : 10.1109 /
+TGCN .2021 .3095792
+[6] SONG C Y , DING Y , EID A , et al . Advances in wirelessly powered back ⁃
+scatter communications : from antenna/RF circuitry design to printed flex ⁃
+ible electronics [J]. Proceedings of the IEEE , 2022 , 110(1): 171–192. 
+DOI: 10.1109 /JPROC .2021 .3125285  
+[7] EPCglobal . EPC radio-frequency identity protocols Class- 1 Generation- 2 
+UHF RFID protocol for communications at 860 MHz- 960 MHz : GB3100 -
+3102  [S]. 2015
+[8] NIKITIN P V , RAO K V S , LAM S F , et al . Power reflection coefficient 
+analysis for complex impedances in RFID tag design [J]. IEEE transac ⁃
+tions on microwave theory and techniques , 2005 , 53(9): 2721–2725 . DOI : 
+10.1109 /TMTT .2005 .854191
+[9] DE VITA G , IANNACCONE G . Design criteria for the RF section of UHF 
+▲Figure 9. Downlink upper bound communication distance measure ⁃
+ment experiment▲Figure 8. Signal power received at the tagPtag, chip
+Ptag, chip , LNA
+Sensitivity of tag chip
+0  5 10 15 20 25 30
+Downlink communication distance , ddown/mPower/dBm10
+0
+-10
+-20
+-30
+-40
+-50
+PC
+CirculatorAntenna
+Backscatter tagUniversal software 
+radio peripheralLNA : low -noise amplifier
+22

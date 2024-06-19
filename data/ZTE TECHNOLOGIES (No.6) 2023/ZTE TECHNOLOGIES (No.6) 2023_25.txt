@@ -1,0 +1,50 @@
+operator, SCP provides a user version of the 
+ZLife app for end users and a provisioning 
+version of the app for engineers. The user 
+app supports functions like home network 
+topology visualization, Wi-Fi con/f_iguration, 
+parental controls, network optimization, and 
+network speed testing to help users manage 
+their home networks. The ZLife provisioning 
+app supports overall topology visualization, 
+segment-by-segment speed testing, 
+intelligent acceptance, and one-click 
+diagnosis to help provisioning engineers 
+conduct intelligent installations.
+Engineers can connect the ZLife provisioning 
+app to the work order system to implement 
+intelligent acceptance tests, thus improving 
+installation eﬃciency and reducing OPEX.
+End users can use the ZLife user app to install 
+mesh APs by themselves, which greatly 
+enhances the user experience because the 
+procedure is simple and eliminates the need 
+to wait for engineer visits.Conclusion
+The ZTE SCP is a uni/f_ied, high-performance, and 
+open intelligent management cloud platform that 
+empowers operators to remotely and visually 
+manage home Wi-Fi networks, enhancing O&M 
+and installation eﬃciency while ensuring a 
+perceptible and dependable user experience. It 
+also boasts industry-leading capabilities in Wi-Fi 
+network analysis and diagnosis and provides rich 
+reporting functionalities to help operators carry 
+out precision marketing and increase revenue and 
+ARPU.
+ZTE has over two decades of experience in and 
+a deep understanding of the home networking 
+/f_ield. Leveraging its extensive expertise in CPE 
+products, ZTE has developed SCP to help operators 
+manage home networks more eﬀectively. Going 
+forward, ZTE will continue to introduce innovative 
+features to SCP to help operators enhance the 
+competitiveness of their network services and 
+expand their markets.
+ 
+ 
+ 
+ 
+ 
+ 
+ DEC 2023
+ 23

@@ -1,0 +1,113 @@
+of video data and control instructions. For 
+example, video data identi/f_ies I frames (key 
+frames of the picture) and uses smooth 
+scheduling to avoid "I frame" collisions; control 
+instructions use ML to predict the data packet 
+sending for an accurate scheduling, which not 
+only ensure the reliability of the control 
+instructions, but also reduce the occupation of 
+system resources.
+/uni00A0
+5G-A BBU also supports the deployment of 3rd 
+party applications, such as 5G-based V2X 
+application. ZTE exhibited a 5G-based V2X case in 
+cooperation with Tianyi Transportation this year. 
+On an open road of 162 square kilometers, 5G 
+connection and AI-based edge computing are 
+used to achieve precise collaboration of roads, 
+vehicles and clouds. The autonomous driving 
+network reduces congestion rate by 20%, 
+decreases carbon emissions by 12%, and cuts 
+down accident rate by 8%.
+/uni00A0
+In summary, the integration of 5G and AI 
+presents signi/f_icant opportunities and challenges 
+for the development and monetization of 5G 
+networks. It enables innovative applications and 
+business scenarios, fully unleashing the value of 
+5G networks, such as deterministic connection 
+guarantees, edge rendering, and V2X 
+applications. These new applications and services 
+can signi/f_icantly increase the revenue of 
+operators and service providers, serving B2C, B2B, 
+and new economy development.
+/uni00A0
+2024 is the /f_irst year of 5G-Advanced (5G-A) 
+commercialization. Driven by new technologies, 
+new services and new scenarios, the boundaries 
+of communication networks continue to expand. 
+5G-A is not only the key of 5G development in the 
+next 10 years, but also the key to shape future 
+digital society. “Facing 5G-A, ZTE 5G-A BBU and 
+RAN Composer are ready to unlock 5G value with 
+high eﬃciency” , Tang added. For B2C scenario, 
+connecting the virtual and real world for a digital 
+life; For B2B scenario, facilitating 5G in core 
+production and low-altitude economy for a 
+digital society.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“5G and AI integration,/uni00A0 5G-A/uni00A0 new capability 
+growth and new scenario exploration need/uni00A0a lot of 
+computing power. Therefore, an/uni00A0 integration/uni00A0 of 
+communication and computing infrastructure/uni00A0 is 
+required” , Tang said./uni00A0 ZTE 5G-A BBU is just this 
+novel infrastructure, which is hardware ready for 
+communication and computing integration,/uni00A0
+further explores computing power of RAN system, 
+implements computing power orchestration 
+adapting to full scenario requirements, including 
+site computing power enhancement, inter-site 
+computing power sharing and computing power 
+integrated in computing force network,/uni00A0 /f_lexibly 
+empowers B2C new services, B2B application 
+in-depth development and low-altitude new 
+economy. For V2X case, a built-in intelligent 
+computing board can be added in 5G-A BBU for a 
+heterogeneous computing power support and 
+enabling more diﬀerentiated intelligent 
+applications, such as 3rd/uni00A0 party platform 
+deployment.
+/uni00A0
+In addition, ZTE has been engaged in AI 
+application innovation for a long time. RAN 
+Composer is the industry's /f_irst native-AI based 
+RAN intelligence solution. On top of 5G-A BBU, the 
+integration of 5G and AI at edge nodes brings 
+traditional network resource management 
+revolution, achieves user-centered experience 
+with precise resources allocation based on 
+network serving capability, service requirements 
+and UE capability, enabling supreme user 
+experience, higher energy eﬃciency and O&M 
+eﬃciency.
+/uni00A0
+With 5G-A BBU, RAN Composer helps vertical 
+industries achieve deterministic experience 
+guarantees, adjusting resource allocation and 
+scheduling strategies in real time through precise 
+analysis of /f_lows and packets. In WISCO (Wuhan 
+Iron and Steel Corporation) case, remote control of 
+crane is a typical application with 
+large-bandwidth video to be transmitted in the 
+uplink and highly reliable control instructions 
+need to be transmitted in the downlink. A 
+diﬀerentiated scheduling strategy will be 
+performed based on AI learning and recognition 
+35 JUN 2024

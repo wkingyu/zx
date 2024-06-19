@@ -1,0 +1,82 @@
+Network per site slice
+ 
+ 
+ZTE Transport Network 
+Government & Enterprise 
+Market Planning ManagerLiao Guoqing
+Communication 
+Technology Director, 
+Changsha Suicheng Rail 
+Transit Co., LtdYin Danling
+Communication 
+Technology Organizer, 
+Changsha Suicheng Rail 
+Transit Co., LtdDing JingSPN Empowers Changsha Rail Transit 
+to Build a Premium Intelligent Metro
+n June 2022, Changsha Metro Line 6 
+commenced initial operation, featuring ZTE's 
+SPN equipment for its dedicated transport 
+system adopts, marking the debut of the 
+/f_irst private SPN transport network for rail transit 
+in China.
+The metro’s communication network is essential 
+for guaranteeing the smooth  operation of the metro 
+system. It encompasses complex communication 
+services, including traditional services such as train 
+control, scheduling communication, video imaging, 
+detection and monitoring, as well as emerging 
+services such as massive sensor data transmission 
+and unmanned driving. These services vary in 
+bandwidth and latency requirements, with 
+train-related services demanding higher levels of 
+security and reliability.
+The conventional MSTP network, with a 
+maximum bandwidth of 10 Gbps on the line side, 
+cannot meet the rapidly growing bandwidth 
+demand of metros and the convergence 
+requirements of various service types. To address 
+the speci/f_ic technical requirements of Changsha 
+Metro Line 6 for transport network deployment, 
+ZTE has introduced an end-to-end SPN transport 
+solution. Unlike traditional transport solutions, the 
+SPN solution integrates TDM and packet switching, 
+supports super-large bandwidth, and incorporates 
+hard slicing and soft slicing to provide 
+communication guarantees for both dedicated 
+communications and the intelligent operation of 
+metros.Hierarchical Large and Small 
+Granularity Hard Slicing Technology
+The introduction of /f_ine granularity unit (FGU) 
+technology in Changsha Metro Line 6 marked its 
+commercial debut in the existing rail transit networks. 
+By utilizing its hard isolation and low latency features 
+similar to SDH, production services with a 
+bandwidth of approximately 100 Mbps—such as 
+wireless  communication systems  and communication 
+power monitoring—are carried over independent FGU 
+channels to ensure physical isolation under the hard 
+pipeline and meet the low latency transmission 
+requirements of these services. For services with a 
+bandwidth of 1000 Mbps or above—such as the video 
+surveillance system, passenger information system, 
+oﬃce automation system, and automatic ticketing 
+system, FlexE large-granularity slices with a bandwidth 
+of n×5G are employed. This enables eﬃcient and 
+rational allocation of bandwidth resources. In the metro 
+service deployment, each line-side 100GE is divided into 
+six large-granularity n×5G bandwidth channels, with 
+one large-granularity channel further divided into four 
+small-granularity channels to accommodate the 
+requirements of diﬀerent service channels. 
+Nested Slicing Based on Hard Slicing 
+and Soft Slicing
+The integration of hard slicing and soft slicing 
+ensures the isolation of diﬀerent types of metro 
+services while improving the utilization of hard 
+ 
+IIndustrial video slice
+Integrated monitoring slice
+Industrial control slice
+5G transmission slice
+35 
+APR 2024

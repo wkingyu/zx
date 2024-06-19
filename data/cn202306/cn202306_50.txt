@@ -1,0 +1,50 @@
+基于服务覆盖的无蜂窝边缘智能网络部署方法 姜 静  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6基于服务覆盖的
+无蜂窝边缘智能网络部署方法
+Service Coverage-Oriented Design on Mobile Edge Computing 
+Aided Cell-Free Massive MIMO Networks
+姜静/JIANG Jing1，乔东伟 /QIAO Dongwei1，
+Worakrin  SUTTHIPHAN2
+（ 1.西安邮电大学陕西省信息通信网络与安全重点实验室 ，中国  西安  
+710121 ；
+2.泰国国家电信有限公司 ，泰国 曼谷 10700  ）
+(1.Shaanxi Key Laboratory of Information Communication Network and Se ⁃
+curity , Xi'an University of Posts and Telecommunication , Xi'an 710121 , 
+China ;
+2.National Telecommunication Public Company , Bangkok 10700 , Thailand )DOI：10.12142 /ZTETJ .202306008
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231211 .1119 .006.html
+网络出版日期 ：2023 -12-12
+收稿日期 ：2023 -10-10
+摘要 ：为实现未来网络绿色低碳发展 ，以精准的按需服务提高网络运营和部署效率 ，将服务覆盖作为网络覆盖能力的新度量 。深入挖掘无蜂窝
+网络部署灵活的优势 ，可以使每个覆盖单元达到最佳服务覆盖 ，从而实现系统性能的差异化优化 。结合无蜂窝边缘智能网络的通信链路质量对
+移动边缘计算 （MEC ）服务器计算和下载的时延 、卸载概率的影响 ，采用连续凸逼近算法 ，引入松弛变量和辅助变量将接入点 （AP）和MEC
+联合部署混合整数非线性规划问题转化为连续的凸优化问题进行求解 。仿真结果证明 ，基于服务覆盖的网络部署方法提升了现有网络能量效率 ，
+并显著减少用户的计算时延和系统的能耗 。
+关键词 ：无蜂窝大规模多输入多输出 （MIMO ） ；服务覆盖 ；移动边缘计算
+Abstrac t:To achieve the green and low-carbon development of the future network , a new metric of network coverage performance is rede ⁃
+fined , e.g. service coverage , to improve the efficiency of network operation by providing accurate on-demand services . Digging deeply into 
+the advantages of flexible cell-less network deployment can optimize the system performance differentiation for each coverage unit , thus 
+enabling overall optimization of system performance . The impact of the communication link quality is considered with the offloading delay 
+and probability of the mobile edge computing (MEC ) server . The continuous convex approximation algorithm to solve access point (AP) and 
+MEC joint deployment is proposed , in which the slack variables and auxiliary variables are introduced to transform the mixed integer nonlin ⁃
+ear programming problem into a continuous convex optimization problem . Simulation results show that the service coverage-based network 
+deployment method could improve the energy efficiency of the existing network , and significantly reduce the computing delay of users and 
+the energy consumption of the system .
+Keywords :cell free massive multiple-input multiple-output (MIMO ); service coverage ; mobile edge computing
+引用格式 ：姜静, 乔东伟 , Worakrin SUTTHIPHAN . 基于服务覆盖的无蜂窝边缘智能网络部署方法  [J]. 中兴通讯技术 , 2023 , 29(6): 46-53. DOI : 
+10.12142 /ZTETJ .202306008
+Citation ： JIANG J , QIAO D W , SUTTHIPHAN W . Service coverage-oriented design on mobile edge computing aided cell-free massive 
+MIMO networks [J]. ZTE technology journal , 2023 , 29(6): 46-53. DOI: 10.12142 /ZTETJ .202306008
+随着5G网络的规模化部署及新一代信息通信技术的高
+速发展 ，信息通信行业面临着日益增长的能耗和碳排
+放压力 。预计到 2025 年，通信行业将消耗全球 20%的电力 。为了实施国家的 “双碳 ”战略 ，工业和信息化部等 7个部门
+联合发布了 《信息通信行业绿色低碳发展行动计划 （2022 —
+2025 年）》 ， 强调未来网络应实现绿色 、低碳和高质量发
+展。运营商希望充分利用各种场景下的业务特征 ，实现无线
+服务的按需精准投放 ，减少网络建设和运营成本 ，提高资源
+利 用 效 率 和 成 本 效 益[1-2]。为 了 实 现 该 目 标 ，IMT- 2030
+（6G）推进组发布了 《6G典型场景和关键能力 》白皮书 ，提基金项目 ：国家自然科学基金 （62371392 、61901370 、61971027 ） ；陕西省国
+际科技合作重点项目 （2023 -GHZD- 37） ；陕西省重点产业链项目 （2023 -
+ZDLGY- 49）
+46

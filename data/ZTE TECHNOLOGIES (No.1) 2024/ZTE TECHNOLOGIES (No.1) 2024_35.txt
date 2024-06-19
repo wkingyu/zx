@@ -1,0 +1,68 @@
+Senior Expert of China 
+Telecom Shanghai BranchLu Heng
+RAN Product Planning 
+Manager, ZTEMao Sihui
+RAN Product Planning 
+Director, ZTEFan Yingying5G-Advanced Powered Smart 
+Metro: Empowering Passenger 
+Services and Metro O&M
+n a city, ensuring residents a high-quality 
+living experience and a convenient, 
+healthy living environment is crucial. 
+The development of urban
+transportation plays a key role. Metro 
+commuting oﬀers an eﬃcient and low-carbon 
+choice amid escalating traﬃc congestion. The 
+metro lines in Shanghai are approximately 
+936.17 km, with an average daily capacity of 
+about 13 million passengers, ranking /f_irst in 
+the world. The average commuting time on 
+Shanghai metro is over 40 minutes, and 
+passengers need stable and reliable Internet 
+connections for social and entertainment. 
+However, 5G network coverage on metro is 
+less than 20%, and the actual network 
+demand of passengers has been suppressed. 
+In such a densely populated situation, 
+translating passenger traﬃc into value 
+creation is not only a critical challenge, but 
+also a valuable opportunity to enhance the 
+urban economy. 
+ZTE and China Telecom unveil a 
+groundbreaking 5G-Advanced powered 
+smart metro solution for Shanghai Metro Line 
+4. Since April 2023, the 34-kilometer Line 4 has been commercially deployed with this 
+solution, handling 0.98 million daily 
+passengers. ZTE introduces an industry-/f_irst 
+5G indoor solution with BBU + pRRU two-level 
+architecture inside metro carriages. Additionally, 
+5G-Advanced AAUs are deployed in tunnels, 
+achieving “high-speed backhaul” with up to 
+15 Gbps downlink and 2 Gbps uplink. This 
+ensures extremely large bandwidth and high 
+transmission capacity, providing passengers 
+with a seamless and reliable 5G network for 
+an enjoyable journey. 
+For metro operation, ensuring tunnel 
+security is crucial. Previously, manual checks 
+took three hours daily to eliminate potential 
+risks and hazards in tunnel. Millimeter-wave 
+technology’s high backhaul capacity enables 
+real-time transmission of operating 
+information from platforms and carriages to 
+the metro control system. Pattern recognition 
+and object detection can replace over 80% of 
+daily manual checks for platforms, 
+pantographs (electricity transfer from 
+catenary to locomotive), and railways. This 
+solution brings signi/f_icant bene/f_its to users, 
+mobile operators, and metro operations. 
+ 
+ 
+ 
+I
+ 
+ 
+ 
+ 
+ 33FEB 2024

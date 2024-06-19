@@ -1,0 +1,50 @@
+CMG Achieves UHD Shallow 
+Compression Coding and Real-Time 
+Production with 5G-A CampSite 
+ltra-low latency and ultra-large 
+bandwidth are crucial for the 
+new media industry’s real-time 
+production of ultra-high de/f_inition 
+(UHD) shallow compression video services. 
+Wired transmission is conventionally used 
+but proves inconvenient due to cost, network 
+construction, and event response challenges. 
+At the Hangzhou International Expo Center, 
+China Telecom and ZTE introduced a 5G-A 
+CampSite, establishing a wireless UHD shallow 
+compression coding and real-time production 
+system for China Media Group (CMG). This 
+system can provide virtual co-hosting video 
+service applications with ultra-low latency and 
+ultra-large bandwidth based on JPEG-XS shallow 
+compression. The service demonstration at the 
+expo center received high praise from China 
+Telecom and CMG leaders, showcasing ZTE’s 
+robust technical capabilities and agile market 
+responsiveness.
+The 5G-A CampSite uses millimeter-wave frequencies with large bandwidth and low 
+latency characteristics for the air interface 
+technology to upload and download video 
+data. It utilizes ZTE’s innovative NodeEngine, 
+the industry’s /f_irst base station with/uni00A0 built-in 
+computing engine, to identify and distribute 
+video data. The data is then oﬄoaded 
+separately to CMG and China Telecom’s local 
+data networks, ensuring seamless connectivity 
+between their exhibition booths. A local 
+video server merges and composites real-time 
+videos, transmitting them back to on-site 
+screens through the CampSite’s air interface. 
+This achieves the continuity and display of the 
+entire broadcast, allowing hosts from diﬀerent 
+booths to appear on the same screen and 
+interact. Additionally, real-time video merging 
+avoids the use of traditional green background 
+solutions, enhancing versatility in various 
+environments for practical live broadcasting. 
+The NodeEngine, as the built-in computing 
+engine, adopts a direct oﬄoading solution 
+ U
+RAN Product Planning 
+Director, ZTERen Jie
+ 39 FEB 2024

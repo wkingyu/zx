@@ -1,0 +1,58 @@
+5G-Advanced. It supports autonomous 
+network (improving O&M eﬃciency), 
+promotes green development (intelligent 
+energy savings), and facilitates business 
+intelligence operations (stimulating B2C 
+traﬃc and ensuring B2B determinism). ZTE 
+realizes intrinsic intelligence in wireless 
+networks within a single domain through 
+an end-to-end intelligent architecture 
+encompassing the physical network 
+layer, intelligent service layer, and 
+scenario application layer. This provides 
+operators and partners with support for 
+cross-domain closed-loop, collaboration, 
+and orchestration. By combining 
+intent-driven, foundation models, digital 
+twins, and other advanced technologies, 
+ZTE achieves intelligent management 
+and empowerment throughout the entire 
+lifecycle and all-scenario services of wireless 
+networks. 
+ZTE continues to advance its commitment 
+to intelligence by pioneering the DeepEdge 
+solution. This innovative solution, utilizing 
+intrinsic intelligence in base stations, enables 
+precise identi/f_ication and diﬀerentiated 
+assurance for over 16,000 service types. This 
+dual enhancement signi/f_icantly improves user perception and cell traﬃc. ZTE has also 
+successfully implemented the industry’s /f_irst 
+high-speed rail precise planning innovation 
+solution based on digital twins in Tianjin, 
+supporting more accurate visual network 
+planning through higher-precision twinning 
+modeling, and facilitating engineering 
+optimization in the planning stage. At the 
+2023 World Internet Conference Wuzhen 
+Summit, ZTE employed an AI foundation 
+model assurance assistant for on-site 
+assurance, achieving a 5-fold eﬃciency 
+improvement compared to traditional 
+methods.
+As a key stage in the evolution from 5G to 
+6G, 5G-Advanced will build upon current 5G 
+achievements. Focused on six major scenarios 
+including seamless 10 Gbps+, massive IoT, 
+deterministic capability, integrated sensing 
+and communication, ubiquitous connectivity 
+and universal intelligence, 5G-Advanced will 
+continually enhance capabilities, explore 
+new business opportunities, and expand its 
+scope. These six scenarios will also seamlessly 
+transition to the subsequent 6G network, 
+laying a solid foundation and conducting 
+innovative experiments for the evolution 
+to 6G.
+ 
+5G-Advanced Special Topic 
+14 

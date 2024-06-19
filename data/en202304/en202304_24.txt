@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression    Special Topic
+the next group , and each point cloud in the following group 
+uses the same shortest path . In this paper , we set the first 
+layer of each group as the R -layer , and the others as P -layers . 
+We also carry out experiments on a large number of test se ⁃
+quences and recommend setting this specified parameter as 3 
+units to obtain the best compression .
+Afterwards , we conduct the shortest path calculation on the 
+R-layers and record the residuals of P -layers . According to the 
+distribution regulation of the point cloud of each slice layer , 
+we optimally arrange the irregular point clouds for each slice 
+layer based on the TSP algorithm . This allows us to efficiently 
+compute the shortest path to the point cloud of the R -layers , 
+and then record the residuals of the corresponding prediction 
+layers . Algorithm 1 shows the pseudo -code of the prediction 
+procedure .
+Algorithm 1. Spatial context -guided predictive encoding
+1: Input : point cloud sliced -layers
+2: Output : the shortest path min∑
+i,j=1n-1
+dist(pci, pcj), the shortest 
+path record tables of R -layers , and predictive residuals
+3: Definition : dist(pci, pcj)=norm(pci, pcj)
+4: Initialization : randomly selected point pc1
+5: while   add a new point pci do :
+6:          path(P, init)=min {path(P-i, i)+dist[i][init]},∀t∈P
+7: end while
+8:  return min∑
+i, j=1n-1
+dist(pci, pcj) and shortest path record ta ⁃
+bles of R -layers
+9:  for  P-layers under -process do :
+10:    R -frame distPCi=min∑
+i, j=1n-1
+dist(pci, pcj)
+11:    calculate residualsi=diff(PCi(P,:))
+12:  end for
+13:   return residualsi
+Firstly , we define the distance calculation rule between 
+points in the local area and initialize the path state with a ran ⁃
+domly selected point pc1. In each iteration , whenever a new 
+point pci is added , the permutation is dynamically updated 
+through the state transition equation path(P-i, i) until all 
+added points are recorded in P in the order of the shortest 
+path. This process is modified gradually based on the minimal 
+distance criterion . After all iterations are completed in the to ⁃
+tal shortest path , we calculate the min∑i, j=1n-1dist(pci, pcj) in 
+each of the R -layers , and return the shortest path record table 
+of point clouds in each of the R -layers . For further compres ⁃
+sion, we calculate the deviation of the P -layers from the short ⁃
+est path of the R -layer within the same group and record them 
+as predictive residuals . Finally , the shortest path of the R -
+layer and the residuals of each group are output and passed to 
+the entropy encoder to compress prediction residuals further .3.4 Spatio -Temporal Context -Guided Predictive Encoding
+The spatial context -guided prediction mode encodes 
+single -frame point clouds individually . However , applying 
+spatial encoding to each single -frame point cloud separately 
+can miss out on opportunities exposed by the temporal corre ⁃
+lations across multi -frame point cloud . Considering that 
+multi -frame point cloud shares large chunks of overlaps , we 
+focus on using temporal redundancy to further enhance the 
+compression efficiency . Hence , based on the proposed spa ⁃
+tial context -guided prediction mode , we can compress multi -
+frame point cloud by identifying a correspondence between 
+adjacent layers across frames .
+1) Inter -frame partition
+To enhance the effectiveness of inter -frame prediction 
+mode , it is crucial to ensure adequate similarity between adja ⁃
+cent layers of frames . As a result , we need to partition the 
+groups between adjacent frames and determine the R -layers 
+and P -layers across frames . By estimating the shortest path of 
+the P -layers based on the shortest path of the R -layers , we re ⁃
+cord the prediction residuals and further compress them 
+through the entropy encoder . Algorithm 2 shows the pseudo -
+code of the inter -frame partition .
+Algorithm 2. Inter -frame partition
+1: Input : point cloud sliced -layers S1,S2,⋯,Sn, and principal 
+axis lengths hi of Si inter -frame point cloud sliced layers 
+SS1,SS2,⋯,SSn, and principal axis lengths hhi of SSi
+2: Output : correspondence and partition of the adjacent lay ⁃
+ers’ relationship
+3: Initialization : set S1 and SS1 as corresponding layers
+4: for  new Si and SSi do :
+5：       coarse partition : set Si and SSi as corresponding layers
+6：       if |hi-hhi|≤3 :
+7：       fine partition : set Si and SSi as corresponding layers
+8：       else if
+9：       compare |hi-hhi|, |hi-hhi-1|, and  |hi-hhi+1|, and 
+pick the minimum
+10：      set the slice layer corresponding to the minimum and 
+SSi as corresponding layers
+11：      else
+12：      set as a single layer
+13: end for
+Based on sliced -layers orientation alignment , we realize 
+coarse partition and fine partition successively . For coarse par ⁃
+tition , we sort the sliced layers of each frame based on the co ⁃
+ordinates corresponding to the division axes , from small to 
+large . As a result , each slice layer of each frame has a unique 
+layer number , allowing us to coarsely partition the slice layers 
+with the same number between adjacent frames . Afterward , we 
+compute the difference between the principal axis lengths of 
+the minimum bounding boxes of adjacent layers with the same 
+number . If this value is less than or equal to a specified length 
+21

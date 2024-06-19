@@ -1,0 +1,66 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression    Special Topic
+SpatioSpatio --Temporal ContextTemporal Context --Guided Guided 
+Algorithm for Lossless Point Cloud Algorithm for Lossless Point Cloud 
+Geometry CompressionGeometry Compression
+ZHANG Huiran1, 2, DONG Zhen3, WANG Mingsheng1, 2
+(1. Guangzhou Urban Planning and Design Survey Research Institute , 
+Guangzhou 510060 , China ；
+ 2. Guangdong Enterprise Key Laboratory for Urban Sensing , Monitor ⁃
+ing and Early Warning , Guangzhou 510060 , China ；
+ 3. State Key Laboratory of Information Engineering in Surveying Map ⁃
+ping and Remote Sensing , Wuhan University , Wuhan 430079 , China )DOI: 10.12142 /ZTECOM .202304003
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20231108 .1004 .002.html, 
+published online November 8, 2023
+Manuscript received : 2023 -09-11
+Abstract : Point cloud compression is critical to deploy 3D representation of the physical world such as 3D immersive telepresence , autonomous 
+driving , and cultural heritage preservation . However , point cloud data are distributed irregularly and discontinuously in spatial and temporal do ⁃
+mains , where redundant unoccupied voxels and weak correlations in 3D space make achieving efficient compression a challenging problem . In 
+this paper , we propose a spatio -temporal context -guided algorithm for lossless point cloud geometry compression . The proposed scheme starts 
+with dividing the point cloud into sliced layers of unit thickness along the longest axis . Then , it introduces a prediction method where both intra -
+frame and inter -frame point clouds are available , by determining correspondences between adjacent layers and estimating the shortest path using 
+the travelling salesman algorithm . Finally , the few prediction residual is efficiently compressed with optimal context -guided and adaptive fast -
+mode arithmetic coding techniques . Experiments prove that the proposed method can effectively achieve low bit rate lossless compression of 
+point cloud geometric information , and is suitable for 3D point cloud compression applicable to various types of scenes .
+Keywords : point cloud geometry compression ; single -frame point clouds ; multi -frame point clouds ; predictive coding ; arithmetic coding
+Citation  (Format 1): ZHANG H R , DONG Z , WANG M S . Spatio -temporal context -guided algorithm for lossless point cloud geometry compres ⁃
+sion [J]. ZTE Communications , 2023 , 21(4): 17–28. DOI : 10.12142 /ZTECOM .202304003
+Citation  (Format 2): H. R. Zhang , Z. Dong , and M . S. Wang , “Spatio -temporal context -guided algorithm for lossless point cloud geometry com ⁃
+pression ,” ZTE Communications , vol. 21, no. 4, pp. 17–28, Dec. 2023 . doi: 10.12142 /ZTECOM .202304003 .
+1 Introduction
+With the improvement of multi -platform and multi -
+resolution acquisition equipment performance , 
+light detection and ranging (LiDAR ) technology 
+can efficiently simulate 3D objects or scenes with 
+massive point sets . Compared with traditional multimedia 
+data, point cloud data contain more physical measurement in ⁃
+formation which represents objects from free viewpoints , even 
+scenes with complex topological structures . This results in  
+strong interactive and immersive effects that provide users 
+with a vivid and realistic visualization experience . Addition ⁃
+ally, point cloud data have stronger anti -noise ability and par ⁃
+allel processing capability , which seems to have gained attrac ⁃
+tion from the industry and academia , notably for application 
+domains such as cultural heritage preservation , 3D immersive 
+telepresence and automatic driving[1–2].
+However , point cloud data usually contain millions to bil ⁃
+lions of points in spatial domains , bringing burdens and chal ⁃lenges to the storage space capacity and network transmis ⁃
+sion bandwidth . For instance , a common dynamic point 
+cloud utilized for entertainment usually comprises roughly 
+one million points per frame , which , at 30 frames per second , 
+amounts to a total bandwidth of 3.6 Gbit/s if left uncom ⁃
+pressed[3]. Therefore , the research on high efficiency geom ⁃
+etry compression algorithms for point clouds has important 
+theoretical and practical value .
+Prior work tackled this problem by directly building grids 
+or on -demand down -sampling , due to limitations in computer 
+computing power and point cloud collection efficiency , which 
+resulted in low spatio -temporal compression performance and 
+loss of geometric attribute feature information . Recent studies 
+were mainly based on computer graphics and digital signal 
+processing techniques to implement block operations on point 
+cloud data[4–5] or combined video coding technology[6–7] for 
+optimization . In 2017 , the Moving Picture Experts Group 
+(MPEG ) solicited proposals for point cloud compression and 
+conducted subsequent discussions on how to compress this 
+17

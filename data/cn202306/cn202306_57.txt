@@ -1,0 +1,63 @@
+基于服务覆盖的无蜂窝边缘智能网络部署方法 姜 静  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6eucap 51087 .2021 .9410934
+[10] JIANG J , WANG J C , CHU H Y , et al . Whale swarm reinforcement learning 
+based dynamic cooperation clustering method for cell-free massive 
+MIMO systems [J]. IEEE transactions on vehicular technology , 2023 , 72
+(3): 4114 -4118 . DOI: 10.1109 /tvt.2022 .3222756
+[11] SONG H C , GOLDSTEIN T , YOU X H , et al . Joint channel estimation and 
+data detection in cell-free massive MU-MIMO systems [J]. IEEE 
+transactions on wireless communications , 2022 , 21(6): 4068 -4084 . DOI : 
+10.1109 /twc.2021 .3126646
+[12] TUAN H D , NASIR A A , NGO H Q , et al . Scalable user rate and energy-
+efficiency optimization in cell-free massive MIMO [J]. IEEE transactions 
+on communications , 2022 , 70(9): 6050 -6065 . DOI : 10.1109 /
+tcomm .2022 .3194046
+[13] SHENG M , ZHOU D , BAI W G , et al . 6G service coverage with mega 
+satellite constellations [J]. China communications , 2022 , 19(1): 64-76. 
+DOI: 10.23919 /jcc.2022 .01.006
+[14] JIANG J , YAN F Y , YE Y H , et al . Traffic demand-oriented cell-free 
+massive MIMO network [J]. IEEE wireless communications letters , 2023 , 
+12(11): 1861 -1865 . DOI: 10.1109 /lwc.2023 .3296527
+[15] KO S W , HAN K F , HUANG K B . Wireless networks for mobile edge 
+computing : spatial modeling and latency analysis [J]. IEEE transactions on 
+wireless communications , 2018 , 17(8): 5225 -5240 . DOI : 10.1109 /
+twc.2018 .2840120
+[16] HUI M , CHEN J , ZHOU Y C , et al . Server deployment and load balancing in 
+stochastic mobile edge computing networks [J]. IEEE communications 
+letters , 2022 , 26(5): 1194 -1198 . DOI: 10.1109 /lcomm .2022 .3151467
+[17] MARTIN-PEREZ J , COMINARDI L , BERNARDOS C J , et al . Modeling 
+mobile edge computing deployments for low latency multimedia services 
+[J]. IEEE transactions on broadcasting , 2019 , 65(2): 464-474. DOI : 
+10.1109 /tbc.2019 .2901406
+[18] PARK C , LEE J . Mobile edge computing-enabled heterogeneous 
+networks [J]. IEEE transactions on wireless communications , 2021 , 20(2): 
+1038 -1051 . DOI: 10.1109 /twc.2020 .3030178
+[19] SCUTARI G , FACCHINEI F , LAMPARIELLO L . Parallel and distributed 
+methods for constrained nonconvex optimization —part I : theory [J]. IEEE 
+transactions on signal processing , 2017 , 65(8): 1929 -1944 . DOI : 10.1109 /
+tsp.2016 .2637317
+[20] TANG A , SUN J X , GONG K . Mobile propagation loss with a low base 
+station antenna for NLOS street microcells in urban area [C]//Proceedings 
+of IEEE VTS 53rd Vehicular Technology Conference , Spring 2001 . 
+Proceedings (Cat. No.01CH37202 ). IEEE , 2001 .: 333-336. DOI : 10.1109 /
+vetecs .2001 .944859
+[21] MIRAHSAN M , SCHOENEN R , YANIKOMEROGLU H . HetHetNets : 
+heterogeneous traffic distribution in heterogeneous wireless cellular networks [J]. IEEE journal on selected areas in communications , 2015 , 33
+(10): 2252 -2265 . DOI: 10.1109 /jsac.2015 .2435391
+作 者 简 介
+                         姜静 ，西安邮电大学科研处处长 、教授 ， “新一
+代宽带无线移动通信网 ”国家科技重大专项评审
+组专家 ，工业和信息化部 IMT- 2020 推进工作组
+专家，中国通信学会物联网委员会智慧生态组委
+员，陕西创新驱动共同体先进通信技术专委会秘
+书长；主要研究领域为 Massive MIMO 、人工智
+能无线通信技术等 ；先后主持国家自然科学基
+金、国家重大专项等基金项目 10余项；已发表论
+文100余篇，授权专利 67项。
+乔东伟 ，西安邮电大学在读硕士研究生 ；主要研
+究领域为 Massive MIMO 。
+Worakrin SUTHIPHAN ，泰国国家电信移动网络规
+划经理 ；主要研究方向为无线网络规划 、网络资
+源配置优化等 。
+53

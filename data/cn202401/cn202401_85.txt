@@ -1,0 +1,44 @@
+异构大规模分布式网络设计与性能评估 叶新泉  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1[12] MIKIO I , HIDEAKII T , SATOSHI N . Relay technology in LTE-
+Advanced [J]. NTT DOCOMO techanical journal , 2011 , 12(2):
+29-36
+[13] 3GPP. Study on integrated access and backhaul (Release 16): 
+3GPP TR 38.874 [S]. 2018
+[14] 3GPP. Study on NR network-controlled repeaters (Release 18): 
+3GPP [S]. 2022
+[15] ZHANG Z J , DAI L L . Reconfigurable intelligent surfaces for 6G: 
+nine fundamental issues and one critical problem [J]. Tsinghua 
+science and technology , 2023 , 28(5): 929-939. DOI : 10.26599 /
+tst.2023 .9010001
+[16] 3GPP. Study on channel model for frequencies from 0.5 to 100 
+GHz (Release 17): 3GPP TR 38.901 [S]. 2022
+[17] ZHANG D , PAN P , YOU R N , et al . SVD-based low-complexity 
+hybrid precoding for millimeter-wave MIMO systems [J]. IEEE 
+communications letters , 2018 , 22(10): 2176 -2179 . DOI: 10.1109 /
+lcomm .2018 .2865731
+[18] SRINIVASAN R . IEEE 802.16m evaluation methodology 
+document : IEEE 802.16m-08/004r2 [R]. 2008
+[19] GU Q , WU D , SU X , et al . System-level Simulation of RIS 
+assisted Wireless Communications System [C]//Proceedings of 
+GLOBECOM 2022  - 2022  IEEE Global Communications 
+Conference . IEEE , 2022 : 1540 -1545 . DOI : 10.1109 /
+globecom 48099 .2022 .10000700
+[20] HAO L , ZHAO H , HU F L , et al . Energy efficient power 
+allocation algorithm for downlink massive MIMO with MRT 
+precoding [C]//Proceedings of IEEE 78th Vehicular Technology 
+Conference (VTC Fall ). IEEE , 2013 : 1-5. DOI : 10.1109 /
+vtcfall .2013 .6692185作 者 简 介
+叶新泉 ，中兴通信股份有限公司技术预研工程师 ；
+主要从事无线通信系统的物理层预研工作 ，主要
+研究方向为分布式多天线技术 、可重构智能表面
+等；申请专利 10余项。
+卢光延 ，中兴通信股份有限公司技术预研工程师 ；
+主要从事无线通信系统的物理层预研工作 ，主要
+研究方向包括可重构智能表面 、分布式多天线技
+术等；发表论文 7篇。
+陈艺戬 ，中兴通讯股份有限公司技术预研资深专
+家、青年领军人才 、深圳市地方级领军人才 ；主
+要研究领域为 6G技术预研 ；发表论文 10篇，获
+授权专利 50项。
+81

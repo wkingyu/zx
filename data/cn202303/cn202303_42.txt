@@ -1,0 +1,52 @@
+数字孪生赋能下的 6G网络资源管控机制 程子豪  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3数字孪生赋能下的
+6G网络资源管控机制
+Scheme of Resource Management in Digital Twin-Aided 6G Networks
+程子豪 /CHENG Zihao ，刘向南 /LIU Xiangnan ，
+高宏伟 /GAO Hongwei ，管婉青 /GUAN Wanqing ，
+张海君 /ZHANG Haijun
+（ 北京科技大学 ，中国 北京 100083  ）
+(University of Science and Technology Beijing , Beijing 100083 , China )DOI：10.12142 /ZTETJ .202303008
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.tn.20230620 .1434.008.html
+网络出版日期 ：2023 -06-25
+收稿日期 ：2023 -04-20
+摘要 ：如何提高资源利用率 ，高效分配和管理稀缺的无线通信资源 ，是发展未来移动网络通信技术的关键 。数字孪生技术因其具有可以连接物
+理实体与数字模型的特性广泛应用于各个领域 。建立数字孪生网络可以实现物理世界与信息世界交互与融合 ，利用虚拟模型在物理实体的整个
+生命周期中进行仿真模拟 、辅助优化决策 ，有助于控制和优化物理实体 。对移动通信场景下的数字孪生网络建模方法进行阐释 ，讨论了面向数
+字孪生的传统无线资源 、新型无线资源管理和人工智能赋能下数字孪生技术在无线资源管理方面的应用 。
+关键词 ：数字孪生 ；6G网络；无线资源管理 ；人工智能 ；区块链技术
+Abstrac t:How to improve resource utilization and efficiently allocate and manage scarce radio resources is the key to developing future mo ⁃
+bile network communication technology . Digital twin technology is widely applied in various fields due to its ability to connect physical enti ⁃
+ties with digital models . By establishing a digital twin network , the physical world and the information world can interact and integrate , and 
+virtual models can be used to simulate and optimize decisions for physical entities . The modeling method of digital twin networks in mobile 
+communication scenarios is introduced . The traditional wireless resources and new wireless resource management under the digital twin 
+technology are discussed . Meanwhile , with the aid of artificial intelligence , the digital twin in radio resource management is elaborated .
+Keywords :digital twin ; 6G network ; radio resource management ; artificial intelligence ; blockchain technology
+引用格式 ： 程子豪 , 刘向南 , 高宏伟 , 等. 数字孪生赋能下的 6G网络资源管控机制  [J]. 中兴通讯技术 , 2023 , 29(3): 39-45. DOI : 10.12142 /
+ZTETJ .202303008
+Citation ： CHENG Z H , LIU X N , GAO H W , et al . Scheme of resource management in digital twin-aided 6G networks [J]. ZTE technology jour ⁃
+nal, 2023 , 29(3): 38-45. DOI:10.12142 /ZTETJ .202303008
+当前，随着 6G通信技术的不断更新迭代以及新业务的
+不断涌现 ，人们对于通信的需求持续增加 。新需求具
+有计算密集和高时延敏感的特性 ，因此需要 6G网络提供低
+时延 、高可靠 、易管理的服务保障 ，这给 6G网络资源管理
+带来了挑战 。同时随着硬件设施 、网络架构的进一步升级 ，
+网络资源不再局限于速率 、时隙 、频谱等传统资源 ，还包括
+新兴的计算 、缓存资源 ，这进一步加大了新一代无线通信资
+源管控的难度 。此外 ，由网络中大量难以预测的用户行为造
+成的无线网络状态实时变化 ，也对网络资源管理提出了挑
+战。由于缺乏有效的虚拟验证平台 ，实时变化的网络优化策略不得不直接作用于现有的网络 ，而这给网络带来了较大的
+风险[1]。这些均使得人们迫切地想要应用学科建模 、虚拟仿
+真技术将现有网络数字化 ，推动数字孪生技术与新一代移动
+通信技术的融合 。
+数字孪生是一种集成多物理 、多尺度 、多学科属性 ，具
+有实时同步 、忠实映射 、高保真度特性 ，能够实现物理世界
+与信息世界交互与融合的技术手段[2]。应用数字孪生技术可
+以实现物理实体整个生命周期的虚拟数字化 。这说明在时间
+维度上 ，物理实体要与其数字孪生模型保持状态同步 。具体
+而言 ，通过物理实体与虚拟模型双向实时的数据交互 ，物理
+实体将实时参数发送给数字孪生模型 。数字孪生模型基于接
+收到的实时数据更新状态 ，并通过建模和仿真分析对物理实
+体下一时刻的状态做出预测分析 ，并将结果反馈给物理实 基金项目 ：国家自然科学基金联合基金重点项目 （U22B2003 ）
+38

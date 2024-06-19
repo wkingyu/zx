@@ -1,0 +1,82 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos    Research Papers
+that the decrease of MOS with the frame rate is independent of 
+the QP . This observation follows the conclusions drawn in 
+Refs. [44] and [45] and confirms our hypothesis . The trend in 
+Fig. 5 can be fitted using the function as
+TCF(Fr)=v1⋅exp(v2⋅f)+v3 , (4)
+where v1, v2, and v3 are −1.672, −0.095 31 and 1.112, respec ⁃
+tively , which were obtained by regression .
+4.1.2 Spatial Quality Factor
+In this subsection , we investigate and modeled the spatial 
+quality , which is mainly influenced by the bitrate , video reso ⁃
+lution , and screen resolution . Fig. 6 shows the relationship be ⁃
+tween the BPP and the perceptual video quality of four 360 -
+degree videos . It can be seen that the perceptual video quality 
+increases with the rise of BPP . However , as for videos at differ ⁃
+ent resolutions , the increasing trends of the perceptual video 
+quality are different . This trend can be represented as
+SQF(BPP)=v4⋅ln(v5⋅BPP⋅1 000+1) , (5)
+▲Figure 5. Relationship between the frame rate and normalized Mean 
+Opinion Score (NMOS ): (a) ReadySetGo and (b) YachRideQP: quantization parameter
+▲Figure 6. Relationship between BPP and perceptual video quality : (a) 
+Basketball , (b) Harbor , (c) KiteFlite , and (d) GaslampBPP: bits per pixel0  20  40  60 80 100
+Frame rate/fpsPerceptual video qualityQP=22
+QP=32
+QP=36
+QP=39
+(a)
+QP=22
+QP=32
+QP=36
+QP=39Perceptual video quality
+0  20  40  60 80 100
+Frame rate/fps1.5
+1.0
+0.5
+0
+(b)BPP0    0.05  0.10  0.15  0.20 0.255
+4
+3
+2
+1Perceptual video quality
+(a)4K
+2K
+1080 P
+720P
+5
+4
+3
+2
+1Perceptual video quality
+0    0.05  0.10  0.15  0.20 0.254K
+2K
+1080 P
+720P
+BPP
+(b)
+0    0.05  0.10  0.15  0.20 0.25
+BPP
+(c)5
+4
+3
+2
+1Perceptual video quality4K
+2K
+1080 P
+720P
+5
+4
+3
+2
+1Perceptual video quality
+0    0.05  0.10  0.15  0.20 0.25
+BPP
+(d)4K
+2K
+1080 P
+720P1.5
+1.0
+0.5
+0
+97

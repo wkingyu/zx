@@ -1,0 +1,72 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams    Special Topic
+NearNear --Field Wireless Power TransferField Wireless Power Transfer ,,  
+Sensing and Communication with Sensing and Communication with 
+Bessel BeamsBessel Beams
+CAO Xinghan1, YIN Huarui1, YOU Changsheng2
+(1. University of Science and Technology of China , Hefei 230026 , 
+China；
+ 2. Southern University of Science and Technology , Shenzhen 518055 , 
+China )DOI: 10.12142 /ZTECOM .202401007
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20240308 .1551 .004，published 
+online March 11, 2024
+Manuscript received : 2024 -01-19
+Abstract : The Bessel beam , characterized by its unique non -diffracting properties , holds promising applications . In this paper , we provide a 
+detailed introduction and investigation into the theory and research of the Bessel beam , with a special focus on its generation and applications 
+in the near -field region . We provide an introduction to the concepts , properties , and foundational theories of the Bessel beam . Additionally , 
+the current study on generating Bessel beams and their applications is categorized and discussed , and potential research challenges are pro ⁃
+posed in this paper . This review serves as a solid foundation for researchers to understand the concept of the Bessel beam and explore its po ⁃
+tential applications .
+Keywords : Bessel beams ; near -field; non -diffractive beams ; beam synthesis technology
+Citation  (Format 1): CAO X H , YIN H R , YOU C S . Near -field wireless power transfer , sensing and communication with Bessel beams [J]. ZTE 
+Communications , 2024 , 22(1): 53–61. DOI : 10.12142 /ZTECOM .202401007
+Citation  (Format 2): X. H. Cao, H. R. Yin, and C . S. You , “Near -field wireless power transfer , sensing and communication with Bessel beams ,” 
+ZTE Communications , vol. 22, no. 1, pp. 53–61, Mar. 2024 . doi: 10.12142 /ZTECOM .202401007 .
+1 Introduction
+The next generation of mobile communication technology 
+is advancing towards higher frequency bands[1]. Mean ⁃
+while , new concepts such as the Internet of Everything 
+(IoE) and dense networking are considered as the future 
+direction of mobile communications[2]. These trends collectively 
+imply that devices will communicate over shorter wavelengths 
+in closer proximity , shifting the challenges of communication 
+and sensing from the far -field region to the near -field region[3]. 
+One of the significant differences between the far -field region 
+and near -field region is that both angle and distance simultane ⁃
+ously affect signal transmission between transmitting and re ⁃
+ceiving devices . As a result , more factors need to be precisely 
+considered when modeling signals[4]. This presents new opportu ⁃
+nities and challenges for the design of beamforming .
+The Bessel beam , as a type of beam confined to the near -field 
+region , was first introduced by DURNIN et al . in 1987[5]. Start ⁃
+ing from the Helmholtz equation in free space , a non -singular 
+solution , namely , the Bessel beam , was proposed for describing 
+a non -diffracting scalar field , in which “non -diffracting ” means 
+that the intensity pattern of the beam in a transverse plane re ⁃
+mains unchanged along the propagation direction and the term 
+“Bessel” is derived from the matching of the expression of the 
+beam with Bessel functions . The Bessel beam exhibits unique and intriguing non -diffracting and self -healing properties , en⁃
+abling it to maintain a stable intensity and lateral shape along 
+the propagation direction . Additionally , the Bessel beam exhib ⁃
+its a series of excellent properties , including a small main lobe 
+size, great directionality , high intensity , and long depth of focus , 
+making it a competitive candidate for various applications . How ⁃
+ever, an ideal Bessel beam carries infinite energy and requires 
+an infinite generation aperture , which is physically unattain ⁃
+able. In practical applications , Bessel beams with finite energy 
+can only be generated on truncated apertures , which we refer to 
+as “pseudo -Bessel beams ”. The propagation distance of such 
+beams is limited by the aperture size and axicon angle . Conse ⁃
+quently , the generation of pseudo -Bessel beams is restricted to 
+the near -field region . In this paper , the term “the Bessel beam ” 
+mainly refers to “the pseudo -Bessel beam ”, and we no longer 
+distinguish between these two concepts .
+Due to the constraints imposed by their near -field characteris ⁃
+tic, practically generated Bessel beams are often confined to 
+very short distances . This has confined the study of Bessel 
+beams primarily to experimental generation for a long time . 
+There have been numerous attempts to generate Bessel beams 
+in the fields of optics , acoustics , and microwaves . These studies 
+explore methods for generating Bessel beams with different de ⁃
+vices and materials , such as phase -shift surface antennas[6–7], 
+53

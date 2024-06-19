@@ -1,0 +1,91 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian RIS -Assisted Cell Free MIMO : A Survey    Review
+repeated in the next coherent timescale until the end of data 
+transmission . Once the RIS -UE association is fixed , the joint 
+optimization problem is decoupled into two sub -problems 
+through Lagrangian dual reformulation and multidimensional 
+complex quadratic transform . The two decoupled sub -
+problems , i.e., the active transmit precoding at the APs and 
+the passive reflection precoding at the RISs , are converted to 
+two quadratically constrained quadratic program problems 
+again , which can be solved by existing optimization tools . By 
+iteratively optimizing the two sub -problems alternatively until 
+converge , a sub -optimal solution to the weighted spectral effi ⁃
+ciency of the system is obtained .
+The authors in Ref . [39] also considered the burden on the 
+fronthaul network , and proposed a decentralized cooperative 
+joint active and passive precoding framework for RIS -assisted 
+CF MIMO systems based on the alternating direction method 
+of multipliers to maximize the weighted downlink spectral effi ⁃
+ciency . Since only a few variables are incrementally updated 
+and transmitted to the next AP , the backhaul overhead can be 
+significantly reduced compared to the case with the whole CSI 
+exchange among APs .
+4 Applications of RIS -Assisted Cell -Free 
+MIMO
+This section presents various novel applications of the RIS -
+assisted CF MIMO technique , e.g., physical layer security 
+(PLS), unmanned aerial vehicle (UAV ) networks , and wireless 
+energy transmission (WET ), as depicted in Fig . 4. In fact , inte⁃
+grating RIS and CF MIMO with these emerging technologies 
+can offer opportunities for beyond 5G networks . In particular , 
+we provide an overview of state -of-the-art contributions on in ⁃
+tegrating each technology with RIS -assisted CF MIMO to pin ⁃point the main techniques that can be adopted for developing 
+future wireless network services and novel applications in the 
+following section .
+4.1 Physical Layer Security
+With the development of wireless communication and the 
+internet of everything (IoE), handheld devices such as mobile 
+phones have carried more and more important/private informa ⁃
+tion such as identity information , credit card passwords , 
+ehealth data , and chat history . However , these devices are 
+more vulnerable to security threats or attacks due to their lim ⁃
+ited memory capacity , battery life , computational power , and 
+network bandwidth . Hence , physical layer security has be ⁃
+come one of the top concerns of future wireless communica ⁃
+tion systems , especially for CF MIMO systems .
+RIS -assisted secure issues have gained great attention re ⁃
+cently and a large number of works have shown that by deploy ⁃
+ing RISs in the vicinity of the user and the eavesdropper , the 
+physical layer security of the CF MIMO systems can be im ⁃
+proved . Specifically , in Ref . [38], the maximum weight sum se ⁃
+crecy rate problem is considered by jointly optimizing the ac ⁃
+tive cooperating precodings at multiple APs and the passive 
+cooperating precodings at multiple RISs . The non -convex 
+problem is decomposed into two separate sub -problems , and 
+each sub -problem is solved by semi -definite relaxation and 
+successive convex approximation techniques . With the aim of 
+reducing channel estimation and feedback overhead , the au ⁃
+thors further proposed a two -timescale transmission , where 
+only partial CSI of the corresponding RISs that are selected by 
+the assigning scheme is needed in each small coherence time , 
+and the whole CSI is needed only at the beginning of the large 
+coherence time .
+Similarly , the work in Ref . [40] also studied the role of RISs 
+in CF MIMO secure issues in the presence of active eaves ⁃
+droppers . Channel estimation errors caused by pilot contami ⁃
+nation , spoofing attacks and reuse are considered . To manage 
+the inter -user interference , ZF precoding is applied to the 
+CPU. Then by iteratively optimizing the RIS phase shifts and 
+the downlink power allocation , the information leakage to ac ⁃
+tive eavesdroppers is minimized while the legitimate user ’s 
+performance is guaranteed .
+4.2 Unmanned Aerial Vehicle
+Due to their immense potential in logistics transportation , 
+agricultural cultivation , delivery of medical supplies and tele ⁃
+communications , UAVs have been recommended as a key en ⁃
+abling technology in both commercial and civilian fields . Spe⁃
+cifically , a UAV acts as a flying AP that can dynamically 
+change its location to enhance the network coverage and thus 
+improve the network capacity . Since there are fewer obstacles 
+in the airspace , it is easier to establish an air LoS link by de ⁃
+ploying UAVs rather than a ground LoS link by deploying APs .
+In traditional CF MIMO systems , a UAV usually serves as 
+ ▲Figure 4. Applications of RIS -assisted CF MIMOCF: cell -free 
+MIMO : multiple -input multiple -output 
+PLS: physical layer security RIS: reconfigurable intelligent surface 
+UAV : unmanned aerial vehicle 
+WET : wireless energy transmissionRIS -assisted
+CF MIMOUAVPLS
+WET
+81

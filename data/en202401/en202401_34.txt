@@ -1,0 +1,89 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Special Topic   Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems
+Hence , in the scenario θ=1, the estimation error lower 
+bound will tend towards 0 when the transmitted signal power 
+or the number of active elements at the c -subarray is infinite , 
+and different from Eq . (15), the LB is independent of the dis ⁃
+tance parameter .
+Then , the received SNR at the BS , which considers the esti ⁃
+mation errors , can be rewritten as
+SNRrec=P  ŵH
+recHBSΩhR2
+σ2 , (41)
+where the receiver can be denoted as
+ŵrec=ĝHBSΩwR( ) θ+Δθmin, r+Δrmin
+||ĝ  HBSΩwR( ) θ+Δθmin, r+Δrmin, (42)
+in which the complex gain ĝ can be calculated through the LS 
+method as
+ĝ=[ ]ŵH
+sub, ŵH
+ran[ ]yH
+sub, yH
+ranH
+P  [ ]ŵH
+sub, ŵH
+ran2
+, (43)
+where ŵsub=wsub(θ+Δθmin, r+Δrmin) and ŵran=wran(θ+
+Δθmin, r+Δrmin), respectively . Hence , the existence of chan ⁃
+nel model mismatch will increase the AoA parameter estima ⁃
+tion error and thus damage the SE of the communication sys ⁃
+tem, even in the scenario where the number of active elements 
+at the c -subarray is infinite . Note that when the distance be ⁃
+tween the transmitter and the XL -HRIS is short , a lower 
+CRLB of the estimated AoA parameter can be obtained , and 
+the SE will further decrease .
+4 Simulation Results
+In this section , we evaluate the impacts of the channel 
+model mismatch on the AoA parameter estimation error lower 
+bound , as well as the impacts of the scale array on both the pa ⁃
+rameter estimation accuracy and communication performance 
+of the proposed XL -HRIS -aided system . The parameters of the 
+proposed system are set as follows : the carrier frequency is fc=
+30 GHz ; the XL -HRIS has N=1 024 elements ; the c -
+subarray has Nsub=64 active elements while the r -subarray 
+has Nran=64 active elements ; the SNR is set as 10 dB, and 
+the angle and distance are randomly generated within 
+θ∈)[0, 2π and r∈(10, 50) meters , respectively .
+The LB of the AoA parameter is evaluated first as shown in 
+Figs. 3, 4 and 5, where the distance between the transmitter 
+and the center of the ULA is set as 3 m, and the azimuth angle 
+is set as π4. In Fig . 3, the LB of the AoA parameter and the 
+CRLB of the pseudo -true AoA parameter with the SNR are 
+highlighted . It is observed that the channel model mismatch 
+leads to an increase in the parameter estimation LB , which fur ⁃ther decreases the estimation accuracy of channel estimation . 
+With the increase of SNR , the CRLB of the pseudo -true pa ⁃
+rameter tends towards 0, but the LB approaches a non -zero 
+constant , which demonstrates that the estimation error caused 
+by the channel model mismatch will not disappear even the 
+transmitted power is infinite . Hence , for the parameter estima ⁃
+tion algorithm based on the planar wave channel model , fur⁃
+ther increased power will not bring significant performance im ⁃
+provement if the transmitted power exceeds a threshold ,.
+In Fig . 4, the LB and CRLB are plotted against the distance 
+between the transmitter and the XL -HRIS . With the increase 
+▲Figure 3. LB of the AoA parameterAoA: angle of arrival 
+CRLB : Cramer -Rao lower bound LB: lower bound 
+SNR: signal -to-noise ratio
+▲Figure 4. LB versus the distanceAoA: angle of arrival 
+CRLB : Cramer -Rao lower bound LB: lower boundSNR/dBCRLB of the pseudo -true AoA
+LB of the true AoAVariance lower bound/rad2
+10 12 14 16 18 20 22 24 26 28 3010-6
+10-7
+10-8
+10-9
+CRLB of the pseudo -true AoA
+LB of the true AoAVariance lower bound/rad2×10-7
+2.52
+2.50
+2.48
+2.46
+2.44
+2.42
+2.40
+2.38
+2.36
+2.34
+2.32
+Distance/m10        20        30        40         50        60        70        80         90       100
+30

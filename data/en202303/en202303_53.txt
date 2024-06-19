@@ -1,0 +1,121 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Massive Unsourced Random Access Under Carrier Frequency Offset    Research Papers
+we set Tmax= 100, Tmc= 20, and the precision tolerance τ=
+10-4. Since we focus on whether active codewords are properly 
+determined , the misdetection rate is used as the AD perfor ‐
+mance metric , i.e.,
+Pm=||A∖X
+||A  , (29)
+where A is the set of indexes of active codewords . The algo ‐
+rithm in the aspect of CE is assessed by the normalized mean 
+square error (NMSE ) of the recovered active channels , i.e., 
+NMSE= Xˉ-Xa2
+FXˉ2
+F, where Xˉ is the original channel 
+matrix arranged according to the indexes in Eq . (28), and Xa is 
+the estimated active channel matrix . The NMSE performance 
+of MC -PBiGAMP in each iteration is exhibited in Fig . 2. We 
+observe that the proposed algorithm converges around 65–74 
+iteration rounds under different signal -to-noise ratios (SNRs ).
+For comparison , we appeal to the method in Ref . [16]. To 
+deal with the influence of CFO , the discrete CFO parameters 
+[ω1,⋯ ωR] with R=9 are uniformly sampled from the pos ‐
+sible range . JADCE is then performed using the MMV -GAMP 
+algorithm[14] with the measurement matrix constructed by ex ‐
+panding the original one with these sampled frequency offsets . 
+We also investigate the PBiGAMP algorithm[22] with no sup ‐
+port structure for JADCE . The JADCE performance of the 
+aforementioned methods versus the SNR 
+or the number of measurements Ns is de ‐
+picted in Fig . 3. The proposed MC -
+PBiGAMP algorithm outperforms the 
+original PBiGAMP algorithm as we take 
+into account the correlation between ad ‐
+jacent angular domain channel elements 
+by the MC support model . Although MC -
+PBiGAMP with respect to the AD perfor ‐
+mance is about the same as MMV -
+GAMP in Ref . [16], the advantage lies in 
+that it only needs to handle a CFO esti ‐
+mation problem of scale 2J×Ns×M 
+compared with the latter of scale D×
+2J×Ns×M. It is indicated in Fig . 3(c) 
+that the misdetection rates of both algo ‐
+rithms decrease significantly when Ns>
+Ka. This coincides with the scaling law 
+of AMP that requires measurements to 
+reliably identify a subset of Ka active 
+codewords among a set of size 2J scales 
+as Ns=O(Kalog2J
+Ka), i.e., Ns is almost 
+linearly with Ka.
+The error rate of URA transmission is 
+defined as the average per user probabil ‐
+ity of error (PUPE )[8], i.e.,PUPE=Eì
+í
+îïï
+ïï| |L∖{ } m()k, k∈Ka
+||Lü
+ý
+þïïïï
+ïï , (30)
+where m(k) is the message of the k-th active user in the set 
+Ka, and L is the recovered message list . Fig. 4 presents the er ‐
+ror rates of uncoupled compressed sensing (UCS) schemes le ‐
+NMSE : normalized mean square error     SNR : signal -to-noise ratio
+▲Figure 2. NMSEs versus the iteration number under different SNRs 
+with M=32, Ns=100, and Ka=50
+▲Figure 3. Joint AD and CE (JADCE ) performance of various algorithms with M=32, Ka=50 MC -PBiGAMP : Markov -chain -aided parametric bilinear generalized approximate message passing 
+MMV -GAMP : multiple measurement vector -generalized approximate message passing 
+NMSE : normalized mean square error 
+SNR: signal -to-noise ratio(a) Misdetection rate versus SNR with Ns=100 (b) NMSEs versus SNR with Ns=100
+(c) Misdetection rate versus Ns with SNR= 5 dB (d) NMSEs versus Ns with SNR= 5 dBIteration0 10 20 30 40 50 60 70 80NMSE/dB0
+−2
+−4
+−6
+−8
+−10
+−12SNR= 0 dB
+SNR= 2 dB
+SNR= 4 dB
+SNR/dB0 1 2 3 4 5Pm0.07
+0.06
+0.05
+0.04
+0.03
+0.02
+0.01Ref. [16] with MMV -GAMP
+MC -PBiGAMP
+Ref. [16] with MMV -GAMP
+MC -PBiGAMP
+Ns40       50       60       70        80       90      100     110     120Pm10−1
+10−2
+40       50       60        70        80       90       100      110     1200 1 2 3 4 50
+−2
+−4
+−6
+−8
+−10
+−12
+−2
+−4
+−6
+−8
+−10
+−12
+−14
+0
+−2
+−4
+−6
+−8
+−10
+−12
+−14Ref. [16] with MMV -GAMP
+PBiGAMP[22]
+MC -PBiGAMP
+Ref.[16] with MMV -GAMP
+PBiGAMP[22]
+MC -PBiGAMP
+NsSNR/dBNMSE/dB NMSE/dB
+51

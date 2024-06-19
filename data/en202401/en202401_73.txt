@@ -1,0 +1,97 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Recent Advances in Video Coding for Machines Standard and Technologies    Review
+video , this type of method appears less in the proposals .
+5.1.2 Multi -Scale Feature Compression Framework
+In the feature extraction module , a multi -scale feature 
+compression (MSFC ) method is proposed , obtaining several 
+feature maps of different sizes from the input signal . The 
+number of channels of these feature maps is the same , and 
+the size is halved from the low -level features to the high -
+level features one by one (for example , the length and width 
+of the P 2 layer are 1/4 of the input , the length and width of 
+the P 5 layer are 1/32 of the input , and the number of chan ⁃
+nels of the feature map of the P -layer is 256). Due to the 
+huge number of channels , the data volume of low -level fea ⁃
+ture maps is much higher than that of the original image , so 
+it is necessary to perform size reduction on large -scale fea ⁃
+ture maps . In addition , adjusting all feature maps to the same 
+size can also make the feature map compression process 
+more convenient . Therefore , some approaches to multi -scale 
+feature compression have been proposed by scholars .
+An MSFC method was proposed to compress the P -layer fea ⁃
+ture map in Ref . [26], as shown in Fig . 4, which specifically in ⁃
+cluded three modules : a multi -scale feature fusion (MSFF ) 
+module , single -scale feature compression (SSFC ) and multi -
+scale feature reconstruction (MSFR ). In this method , the 
+MSFF module scaled and fused the P 2–P5 feature maps to 
+obtain a new single -scale feature map . The SSFC module in ⁃
+cluded an encoder and a decoder to compress , transfer and re ⁃
+construct the single -scale feature map . In the MSFR module , 
+the fused single -scale feature map would be restored by super -
+resolution , convolution and other operations to obtain the re ⁃
+construction of the input P 2–P5 feature maps .
+Based on the framework of MSFC , an MSFF module was op ⁃
+timized in Ref . [27], reducing the number of channels of the 
+original feature map from 256 to 144 to further compress the 
+P-layer features . Compared with the original MSFC method , 
+this method achieved a huge bit rate gain while maintaining 
+the accuracy of the back -end machine vision task . Further im ⁃
+provements[28] were made based on the proposal in Ref . [27]. On the one hand , they supplemented the experimental results 
+of further reducing the number of channels after P -layer com ⁃
+pression to 64. On the other hand , they proposed a bottom -up 
+structural optimization MSFF module . The experimental re ⁃
+sults showed that the compression efficiency of P -layer fea ⁃
+tures could be further improved based on Ref . [27], which 
+used the optimized MSFF module by further integrating the 
+low -level semantic features and high -level semantic features , 
+achieving a more compact expression of multi -scale features . 
+This method reduced the fused feature dimension to 64, which 
+finally achieved a performance gain of 84.98% compared with 
+the image Anchor . The model was also trained on the COCO 
+dataset and tested on the OpenImagesV 6 5K dataset , and the 
+back -end task model is Faster R -CNN . A dual -scale MSFC 
+was proposed in Ref . [29]. Specifically , P2 and P 3 were di ⁃
+vided into one group , and P 4 and P 5 were grouped into one for 
+compressed transmission respectively . Dual -scale MSFC pro ⁃
+vided higher fidelity for tasks that required higher spatial pre ⁃
+cision . Specifically , for high -quality operating points , dual -
+scale MSFC was used ; while for other rate points , regular 
+MSFC was used .
+The above are several mainstream multi -scale feature com ⁃
+pression methods . It is not difficult to find out that the core 
+idea is to compress large -size feature maps into smaller fea ⁃
+ture maps and concatenate them together , compressing and 
+transmitting smaller -size feature maps to achieve bit -rate sav ⁃
+ing. These methods are more intuitive and easier to implement .
+5.1.3 End -to-End Feature Compression Methods
+With the continuous development of deep learning , end -to-
+end image compression algorithms are becoming more and 
+more mature . In addition to VTM software for encoding and de ⁃
+coding , some methods use learning -based end -to-end compres ⁃
+sion models for the compressed transmission of feature maps . 
+Feature maps were compressed with a learning -based end -to-
+end compression model[30]. In the process of end -to-end fea ⁃
+ture compression , the output features of the backbone layer of 
+the target detection network were quantized and sent to the 
+▲Figure 4. Flowchart of multi -scale feature compression (MSFC ), where MSFF scales and fuses different feature maps into one , SSFC realizes the 
+compressed transmission of feature maps , and MSFR is used to reconstruct feature maps of different sizesBN:  batch normalization
+MSFF : multi -scale feature fusion MSFR : multi -scale feature reconstruction
+SSFC : single -scale feature compressionSE: Squeeze -and -ExcitationMobile CloudAlign
+&
+concatMSFF
+P5
+P4
+P3
+P2FSSFCMSFR 
+P6'
+P5'
+P4'
+P3'
+P2'F'ConvSEblock
+Conv
+BN
+Tanh
+Conv
+BN
+PReluEncoder Decoder
+69

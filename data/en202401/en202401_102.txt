@@ -1,0 +1,123 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Research Papers   Filter Design of Wireless Base Station Power Supply
+It can be obtained from Eqs . (4) and (6):
+IL1-IL3=20log|
+||
+||
+|||||
+||Zs+Rcm⋅Zinsert3
+Rcm+Zinsert3
+Zs+Rcm⋅Zinsert1
+Rcm+Zinsert1|
+||
+||
+|||||
+||
+ . (8)
+In Eqs . (7) and (8), IL1, IL2 and IL3 are measured , and the 
+value of inserting impedance Zinsert is known . Zs is the source 
+impedance of the noise source that needs to be extracted , 
+which is divided into real parts and imaginary parts :
+Zs=a+j⋅b . (9)
+A system of two quadratic equations is obtained :
+ì
+í
+îï
+ïï
+ïïïïï
+ïï
+ï
+ïï
+ïïïïï
+ïï|
+||
+||
+|||||
+|| |
+||
+||
+|||||
+||a+j⋅b+Rcm⋅Zinsert2
+Rcm+Zinsert2
+a+j⋅b+Rcm⋅Zinsert1
+Rcm+Zinsert=10IL1-IL2
+20
+|
+||
+||
+|||||
+|| |
+||
+||
+|||||
+||a+j⋅b+Rcm⋅Zinsert3
+Rcm+Zinsert3
+a+j⋅b+Rcm⋅Zinsert1
+Rcm+Zinsert1=10IL1-IL3
+20
+. (10)
+For the convenience of the experiment , three sets of Y ca⁃
+pacitors : 22 nF, 47 nF and 100 nF, were selected as the insert ⁃
+ing impedance . Before the insertion -loss method experiment , 
+the impedance characteristic curves of the three groups of Y 
+capacitors were measured , and the measured impedance 
+curves were shown in Fig . 9.
+The high -frequency model of the capacitor is connected in 
+series through the capacitor , parasitic inductance , and para ⁃
+sitic resistance . These three values can be calculated through 
+numerical fitting .
+When two Y capacitors are inserted between the device un ⁃
+der test (DUT ) and LISN , there are two parallel Cy in the CM 
+loop, and their equivalent impedance Zc=1/(j2ωCy). The 
+equivalent circuit is shown in Fig . 10.
+CM noise current Icm in Fig . 10 can be obtained :
+Icm=Ucm
+Rcm=Rcm⋅Zc
+Rcm+Zc
+Zs+Rcm⋅Zc
+Rcm+Zc⋅Us
+Rcm
+ . (11)
+Three sets of Y capacitors were connected to the prototype , 
+and the CM noise spectrum was measured to obtain the inser ⁃
+tion loss , as shown in Fig . 11.
+The conducted CM noise current spectrum obtained by mea ⁃
+surement needs to be converted into amplitudes , and the con ⁃
+version relationship is as follows :ICM_LISN=20log(iL+iN), (12)
+where ICM_LISN  represents the amplitude of the current through 
+LISN , and iL and iN represent the actual noise current through 
+L-line and N-line flowing through resistance RLISN respec ⁃
+tively . The CM noise current flowing through the source im ⁃
+pedance Zs of the noise source is defined as iCM, as shown in 
+Fig. 12(a).
+|icm|=|
+||
+|||||
+(iL+iN)⋅(1+25
+ZCy)|
+||
+|||||
+ . (13)
+By connecting Eq . (12) with Eq . (13), the actual CM noise 
+current Icm is obtained . In each group of noise measurements , 
+RLISN and Cy are known values , which are defined as Zload. The 
+Zload in Fig . 12(b) is:
+▲Figure 9. Measured amplitude -frequency characteristic
+▲Figure 10. Equivalent circuit with Cyf/Hz1×1051×1061×1071×10822 nF
+47 nF
+100 nFAmplitude/ Ω100
+10
+1
+0.1Phase/ (°)22 nF
+47 nF
+100 nF0
+-20
+-40
+-60
+-80
+-100
+f/Hz1×1051×1061×1071×108
+UcmRcmIcm
+Us
+Zs2Cy
+98

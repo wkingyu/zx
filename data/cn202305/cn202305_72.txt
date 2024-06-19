@@ -1,0 +1,50 @@
+NetGPT ：超越个性化生成服务的内生智能网络架构 陈宇轩  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5NetGPT：超越个性化生成服务的
+内生智能网络架构
+NetGPT : An AI-Native Network Architecture for Provisioning 
+Beyond Personalized Generative Services
+陈宇轩 /CHEN Yuxuan ，李荣鹏 /LI Rongpeng ，
+张宏纲 /ZHANG Honggang
+（ 浙江大学 ，中国 杭州 310007  ）
+(Zhejiang University , Hangzhou 310007 , China )DOI：10.12142 /ZTETJ .202305011
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231016 .1554 .016.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-02
+摘要 ：提出了基于边缘和云端部署相匹配大型语言模型 （LLM）的内生智能网络架构 NetGPT 方案。边缘 LLM 可以有效地利用基于位置的信息
+进行个性化的补充 ，从而与云端 LLM 进行有效交互 。通过在边缘和云端部署开源 LLM，验证了 NetGPT 的可行性 。认为面向 NetGPT 的内生智
+能网络架构的工作重点是通信和计算资源的深度集成以及 AI逻辑工作流的灵活设计 。认为 NetGPT 是一种可提供个性化的生成式服务的 、有前
+途的内生智能网络架构 。
+关键词 ：LLM；内生智能网络架构 ；云边协同 ；个性化生成服务
+Abstrac t:The NetGPT framework , which is founded upon the alignment of large language models (LLMs ) tailored for both edge and cloud de ⁃
+ployments , is introduced . Edge-oriented LLMs harness location-based data to effectively personalize content augmentation , facilitating 
+seamless interactions with their cloud-based counterparts . The viability of the NetGPT paradigm is empirically substantiated through the de ⁃
+ployment of open-source LLMs at both the edge and cloud strata . It is believed that within the realm of endogenous intelligent network ar ⁃
+chitectures designed to support NetGPT , the central emphasis rests on the profound integration of communication and computational re ⁃
+sources , coupled with the adaptability in the design of AI logic workflows .
+Keywords :LLM; AI-native network architecture ; edge-cloud collaboration ; personalized generative services
+引用格式 ：陈宇轩 , 李荣鹏 , 张宏纲 . NetGPT ：超越个性化生成服务内生智能网络架构  [J]. 中兴通讯技术 , 2023 , 29(5): 68-75. DOI : 10.12142 /
+ZTETJ .202305011
+Citation ： CHEN Y X , LI R P , ZHANG H G . NetGPT : an AI-native network architecture for provisioning beyond personalized generative ser ⁃
+vices [J]. ZTE technology journal , 2023 , 29(5): 68-75. DOI: 10.12142 /ZTETJ .202305011
+随着深度学习从 AlphaGo 到ChatGPT 应用的转变 ，人工
+智能 （AI）的作用将在 6G网络中不断体现 。一方面 ，
+边缘计算能力的提升将会使网络资源得到有效安排 ，服务质
+量（QoS）得到改善 ，以AI为核心的高效服务供给研究也受
+到普遍重视 。另一方面 ，一个 AI智能模型的应用往往局限
+于某些场景或任务 。例如 ，大型语言模型 （LLMs ）[1]在各种
+自然语言处理 （NLP）和计算机视觉任务中表现出色 ，而在
+实际场景中 ，要使预训练 LLM 遵循人类意图生成个性化输出，则需要对 LLM 进行微调[2]。仅在集中式云端部署 LLM 以
+寻求模型的个性化微调将为云端带来多个完整模型参数副
+本，因此是一种低效的做法 。
+为了改善 LLM 的个性化问题 ，找到合适的云边协同方
+法至关重要[3]。与仅在云端部署 LLM 的方法相比 ，用云边协
+同的方式来部署大模型有多重优点 。这种方法能赋予边缘服
+务器较大的自由度 ，从而可以部署多种微调的 LLM ，适应环
+境差异以实现服务个性化 、定制化 。同时 ，这种云边协同可
+以将数据丰富的生成式设备连接到更多邻近服务器上 ，从而
+减少向更多远程云服务器上传数据的延迟 ，并节省通信开
+销。把 生 成 式 LLM 融 入 边 缘 网 络 有 望 促 进 通 信 和 计 算
+（C&C）资源的高效使用 。基金项目 ：国家自然科学基金项目 （62071425 ） ；浙江省 “领雁 ”计划项目
+（2022 C01093 ） ；浙江省杰出青年基金项目 （LR23F010005 ）
+68

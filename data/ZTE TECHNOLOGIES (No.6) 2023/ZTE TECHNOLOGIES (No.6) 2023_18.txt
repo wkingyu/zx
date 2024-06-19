@@ -1,0 +1,95 @@
+Basic view of the ODN, which shows 
+information such as device types, device 
+serial numbers (SNs), device names, and 
+split ratios.
+Routing topology of the deployed 
+devices, which is produced using 
+AI-based  analysis.
+Status information, including device 
+alarms and /f_iber break alarms, of the 
+optical links of optical network units 
+(ONUs). The information is displayed in 
+both images and text.
+Light ODN is able to diagnose ODN 
+links (Fig. 2). When an ONU goes oﬄine, the 
+NMS initiates diagnosis of the ONU's link 
+and records the range of the /f_iber break 
+in the topology view. This makes it easy to 
+discover and troubleshoot the fault.
+Light ODN Implements Real-Time 
+Fault Location and Visualizes Fiber 
+Health Status for Eﬃcient O&M
+Light ODN achieves remote, real-time, 
+and automatic monitoring of the quality 
+of /f_ibers across the entire optical network, 
+covering optical access networks, optical 
+mobile backhaul networks, optical 
+metropolitan area networks, optical 
+backbone networks, and optical data 
+centers. The monitoring encompasses 
+detecting changes in the transmission 
+characteristics of /f_ibers and predicting 
+the trends of the changes. After a fault is 
+discovered, the NMS promptly issues an 
+alarm and quickly and accurately locates 
+the fault to facilitate troubleshooting 
+and reduce the workload of maintenance 
+personnel. This function oﬀers reliable 
+assurances for the maintenance of the 
+optical network. Key features of Light ODN 
+in /f_iber monitoring include:
+Centralized /f_iber monitoring system:  
+The /f_iber monitoring system can monitor 
+a greater quantity and a wider variety of 
+/f_iber resources. Monitored device resources are shared to improve the utilization of the 
+monitoring system.
+Diverse detection methods:  To meet 
+diﬀerent scenarios and requirements, the 
+monitoring system supports detection by 
+diﬀerent combinations of parameters like 
+pulse width, dynamic range, resolution, 
+and time.
+Real-time fault monitoring:  Depending 
+on the user's requirements, the 
+monitoring system supports periodic or 
+real-time fault monitoring using a polling 
+mechanism. When a fault is detected in 
+the optical network, the system promptly 
+issues a fault alarm to speed up the O&M 
+response.
+Intelligent identi/f_ication of /f_iber 
+events:  Powerful algorithms are used 
+to identify /f_iber events intelligently. The 
+identi/f_ication results are then compared 
+against the /f_iber health database to 
+accurately diagnose /f_iber events.
+Visualized fault location:  Fault points 
+detected by the monitoring system 
+are displayed in real time on a GIS 
+map, making it easy to quickly /f_ind the 
+actual fault locations and troubleshoot 
+the faults.
+Extensive system interfaces:  The 
+monitoring system supports functions 
+such as northbound interfaces, 
+southbound interfaces, and reports and 
+statistics. It can seamlessly interconnect 
+with the operation support system (OSS) 
+to provide operators with more-intuitive 
+monitoring results to facilitate O&M.
+Light ODN Guarantees Sustainable 
+Development of ODN Networks
+The Light ODN solution is designed 
+in light of the development trends and 
+key requirements of optical network 
+construction. It aims to enable the eﬃcient 
+and fast building of secure, reliable, and 
+fully visible optical networks. Leveraging 
+innovative AI technology, Light ODN 
+ 
+ 
+ 
+ 
+ 
+ Turbocharging FTTx Network Special Topic
+16 

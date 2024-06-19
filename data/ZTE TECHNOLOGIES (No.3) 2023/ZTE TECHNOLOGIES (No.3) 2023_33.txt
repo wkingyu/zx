@@ -1,0 +1,76 @@
+governance. As shown in Fig. 1, the solution is 
+based on the cloud network technology and 
+provides a complete set of tools and 
+speci/f_ications that facilitate the digital 
+transformation of enterprises. It also provides 
+a systematic approach to the system 
+architecture and evolution direction, serving 
+as a reference for enterprises looking to 
+embark on this journey. To be speci/f_ic, the 
+solution consists of four modules as follows: 
+Enabler:  covers full stack technology; 
+InOne:  integrates services; 
+Studio:  a development platform; 
+Market:  supports digital asset operation. 
+The Enabler integrates the technical 
+capabilities of ZTE and its partners, including 
+big data, AI algorithm models, XR engine, 
+blockchain, and other industry leading 
+technologies. It is designed to be open to 
+enterprise application developers through 
+standardized and easy-to-use interfaces, 
+reducing the technical barriers and R&D costs 
+of digital transformation, ultimately helping all 
+industries achieve digital transformation.
+The InOne is a digital bus that enables the 
+convergence and opening of diﬀerent types 
+of digital assets such as data, capabilities 
+and messages. It helps customers break 
+through the information silos within the 
+enterprise, realize the intercommunication between IT and OT, and between new and 
+old application systems. It also realizes the 
+convergence of IoT data and the entry of all 
+kinds of application data into the data lake.
+The Studio is a tool platform and R&D 
+environment that improves development 
+eﬃciency. It not only provides professional 
+developers with a one-stop DevOps toolchain 
+to improve development and O&M eﬃciency 
+from the perspective of management, but also 
+provides a variety of low-code development 
+tools to upgrade ordinary business personnel 
+to developers. This allows those who know 
+more about requirements to rapidly develop 
+enterprise applications by themselves and 
+accelerate business innovations.
+The Market provides enterprises with a 
+uni/f_ied portal for one-stop browsing, 
+application, approval and activation of 
+digital assets. It can achieve the largest 
+range of controlled transactions with 
+convenience and digital asset reuse within 
+the company and among associated/uni00A0
+enterprises, improving the eﬃciency of 
+resources utilization for enterprises.
+Benefits 
+Enterprise digital transformation 
+empowered by Digital Nebula can be 
+characterized by four aspects: more, faster, 
+Fig. 1. ZTE’s Digital 
+Nebula solution.
+Distributed
+precision cloudDeterminstic
+precision networkCloud grows on demand
+Network follows the cloudCloud-network infrastructureEmp ower the industry
+5G chipNode Engine Cloud-ne twork
+integrated cabinet5G indus trial
+gatewayLow-delay
+gatewayAGV 5G indus trial
+modul e5G TAUEdge intelligent 
+computing
+gateway5G outdoor
+CPEInOne Market EnablerDigital top -level design consulting
+TMNew media Electroni c Che mical Rail transit Mine Port Medical care Education 
+CPE Video synthesis
+gatewayStudio
+31JUN 2023

@@ -1,0 +1,167 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Research Papers   Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems
+each subcarrier . Finally , the processed signal at the k-th sub ‐
+carrier can be expressed as :
+yk=WH
+BB,kWH
+RFHkFRFFBB,ksk+WH
+BB,kWH
+RFnk,   
+for  k=0,…, N-1, (3)
+where nk~CN(0, σk2INr) denotes the additive white Gaussian 
+noise at the k-th subcarrier .
+2.2 Channel Model
+We consider the clustered delay line (CDL) model devel ‐
+oped by 3GPP, which takes the mmWave propagation charac ‐
+teristics into account , and can better characterize spatial corre ‐
+lations for 3D channels . Besides the normalized delay and the 
+power , the azimuth angle of departure (AOD ), the azimuth 
+angle of arrival (AOA ), the zenith angle of departure (ZOD ), 
+and the zenith angle of arrival (ZOA ) are also defined in the 
+CDL model . Three types of the CDL model , i.e., CDL -A, CDL -
+B and CDL -C, are constructed to represent different channel 
+profiles for the non -line of sight (NLOS ) scenarios , while two 
+types , i.e., CDL -D and CDL -E, are constructed for the line -of-
+sight scenarios[23]. The NLOS channel coefficient of the n-th 
+cluster with M rays between the transmit and receive antennas 
+(u and s respectively ) at time instant t and delay τ is given by :
+HNLOS
+u,s,n()t=Pn
+M∑
+m=1Mé
+ëê
+êêê
+êê ù
+ûú
+úúú
+úú Frx,u,θ( ) θn,m,ZOA,ϕn,m,AOA
+Frx,u,ϕ( ) θn,m,ZOA,ϕn,m,AOAT
+×
+é
+ëê
+êêêêêù
+ûú
+úúúúú exp() jΦθθ
+n,m K-1
+n,mexp() jΦθϕ
+n,m
+K-1
+n,mexp() jΦϕθ
+n,m exp() jΦϕϕ
+n,mé
+ëê
+êêê
+êê ù
+ûú
+úúú
+úú Ftx,u,θ( ) θn,m,ZOD,ϕn,m,AOD
+Ftx,u,ϕ( ) θn,m,ZOD,ϕn,m,AOD×
+exp( )j2πλ-1
+0() rT
+rx,n,mḋ
+rx,sexp( )j2πλ-1
+0( ) rT
+tx,n,m⋅ḋ
+tx,sexp() j2πvn,mt,
+where the definitions of parameters are given in Table 1.
+2.3 Problem Formulation
+We jointly optimize the hybrid architecture and the hybrid 
+beamformers to maximize the spectral efficiency over N sub‐
+carriers subject to the constant modulus constraint of the ana ‐
+log beamformers and the power constraint of the transmitter . 
+The problem can be formulated as follows :maximize
+FBB,k,FFC
+RF,WFC
+RF,WBB,k,Up,Uc1
+N∑k=1NRk
+subject to Fk2
+F≤1,∀k;
+ |
+||||| |
+|||||[]FFC
+RFij=1,|
+||||| |
+|||||[]WFC
+RFij=1,∀i,j;
+ []Upij,[]Ucij∈0,1,∀i,j;
+Up1=Np1,()Up2=Np2,(4)
+where Rk=log |
+|||||INs+σ2
+k(WkHWk)-1WkHHkFkFH
+kHH
+kWk|
+||||| is the 
+achievable spectral efficiency at each subcarrier , and Fk=
+(FFC
+RF⊙Up)FBB,k,Wk=(WFC
+RF⊙Uc)WBB,k. Np1 and Np2 are the 
+predetermined numbers of phase shifters used at the transmit ‐
+ter and the receiver , respectively .
+It has been proved in Ref . [13] that the SEM problem can 
+be transformed into an equivalent WMMSE problem , which is 
+more tractable . The modified mean square error (MSE ) is de ‐
+fined as :
+E≜Eé
+ë(β-1y-s)(β-1y-s)Hù
+û,(5)
+where β is a scaling factor to be jointly optimized with the hy ‐
+brid beamformers . The WMMSE problem in the broadband 
+scenario can be formulated as :
+minimize
+FU,k,FFC
+RF,WFC
+RF,WBB,k,Up,Uc,βk,Tk1
+N∑k=1N ()TkEk-log ||Tk
+subject to ()Fk2
+F≤1,∀k;
+ |
+||||| |
+|||||[]FFC
+RFij=1,|
+||||| |
+|||||[]WFC
+RFij=1,∀i,j;
+ []Upij,[]Ucij∈{0,1},∀i,j;
+()Up1=Np1,()Uc2=Np2,(6)
+where Tk and Ek= INs-β-1
+kFH
+kHH
+kWk-β-1
+kWH
+kHkFk+
+β-2
+kσ2
+kWH
+kWk+β-2
+kWH
+kHkFkFH
+kHH
+kWk  are respectively the 
+weight matrix and the MSE matrix for the k-th subcarrier , and 
+FU,k=β-1
+kFBB,k. Since the joint optimization of the hybrid beam ‐
+forming and architecture is hard to solve , we decompose the prob ‐
+lem into two subproblems : the HBF optimization problem with a 
+fixed architecture and the architecture optimization problem .
+3 HBF Optimization with Fixed Architecture
+In this section , we apply the alternating minimization 
+method and the MO method to optimize the hybrid beamform ‐
+ers with a fixed hybrid architecture . The WMMSE problem is 
+formulated as :▼Table 1. Definitions of some parameters in the clustered delay line 
+(CDL ) channel model
+Parameter
+Pn
+Frx,u, Ftx,s
+Φn,m
+Kn,m
+λ0
+rrx,n,m,rtx,n,m
+vn,mDefinition
+Power of the n-th cluster
+Radiation patterns of the receiving and the transmitting antennas
+Random initial phases of different polarization combinations
+Cross polarization power ratio for the m-th ray in the n-th cluster
+Carrier wavelength
+Spherical unit vectors of the receiving and the transmitting antennas
+Velocity vector
+96

@@ -1,0 +1,96 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3DING Jianwen , LIU Yao , LIAO Hongjian , SUN Bin , WANG Wei Statistical Model of Path Loss for Railway 5G Marshalling Yard Scenario    Research Papers
+The antenna pattern in the near -field area of the base sta ‐
+tion has low receiving intensity and large fluctuation , which is 
+different from the variation trend of the received power and 
+distance of the reference signal outside the near -field area . 
+From the antenna pattern of the base station antenna , it can be 
+seen that the side lobe gain of the base station antenna fluctu ‐
+ates by 10–20 dB. The received power of the reference signal 
+will be affected by both the gain of the transmit antenna and 
+that of the receive antenna . It is indicated that the path loss 
+model in this part of the region no longer follows the logarith ‐
+mic fading model[14].
+The path loss model divides the antenna coverage area into 
+two parts based on the side lobe and main lobe coverage ar ‐
+eas, which are referred to here as Area A and Area B . Segmen ‐
+tation is performed with Fresnel zone gaps in Ref . [15]. There 
+are three ways to divide the propagation area :
+1) The antenna coverage area is divided based on the side 
+lobe and main lobe coverage areas , which is the distance of 
+the line segment OA in Fig . 1. The distance of OA is given by :
+d1=Δh
+tan()θ1+θ2
+2. (2)
+2) The propagation area can be divided based on the center 
+position of the main lobe of the antenna pattern , which is the 
+distance of the line segment OB in Fig . 1. The distance to OB 
+is given by :
+d1=Δh
+tan(θ1). (3)
+3) The propagation area can also be divided according to 
+the Fresnel zone gap , and the distance is given by :
+d1=4hthr
+λ. (4)
+3 Path Loss Statistical Modeling for Area A
+The marshalling yard scenario tested is somewhat similar to 
+the cutting scenario in rail transportation . The railway yard is lo ‐
+cated in the middle , with slopes and mountains covered with 
+trees on one side and several workshops on the other side . Ac‐
+cording to the analysis , the received signal may be affected by 
+direct waves , reflected waves , and scattered waves . The test area 
+includes three base stations and nine cells . In the measurement , 
+the transmitter uses a 5G AAU base station with an antenna gain 
+of 24.5 dBi, the receiver uses a PCTEL horizontal omnidirec ‐
+tional antenna , and SPARK software is used for data storage and 
+visual analysis . We select one of the cells for specific analysis .
+An example of a single measurement result of the path loss 
+after the antenna gain verification process of 150 cells in the 
+marshalling station scenario is shown in Fig . 2. It can be seen from the figure that the path loss in the near -field area of the 
+base station fluctuates greatly , which is different from the 
+variation trend with a distance of the far -field area . When the 
+conditions of 150 cells is substituted , it is calculated that 
+OA = 154.64 m, OB = 214.66 m, and the Fresnel zone gap = 
+1212 .17 m. From the actual test results in Fig . 2, it can be 
+concluded that the boundary points in Definition (2) can better 
+represent the boundary points of Area A and Area B , and the 
+conclusions of other cells are similar . To sum up , Point B is di ‐
+vided as the breakpoint of the propagation area , and the mod ‐
+els built in subsequent segmentation are based on this .
+Due to the presence of a large number of metal products in 
+the marshalling yard scenario , the influence of the reflection 
+path in the near -field area is difficult to ignore . By contrasting 
+the accuracy of the two -path model and the logarithmic fading 
+model in Area A , we make statistics based on the path loss 
+prediction error e(i) of the sample points in each cell . The cal ‐
+culation formula of e(i) is given by :
+e(i)=PLmeasure(i)-PLpredict(i), (5)
+where i denotes the cell sample point number , PLmeasure(i) is 
+the i-th measured data sample , and PLpredict(i) defines the i-th 
+predicted data sample .
+Under the same conditions , probability statistics are per ‐
+formed based on e(i) of the path loss results predicted by the 
+logarithmic fading model and the two -path model in the test 
+cell of Area A . The corresponding cumulative distribution 
+function (CDF) results are shown in Fig . 3. The average pre ‐
+diction error of the two -path model is 2.80 dB, and the stan ‐
+dard deviation is 7.24 dB. The average prediction error of the 
+logarithmic fading model is 4.75 dB, and the standard devia ‐
+tion is 8.26 dB. At the same time , it can be seen from Fig . 3 
+that in Area A , compared with the logarithmic fading model , 
+the average prediction error of the two -path model is smaller 
+and the change is more stable , which is more consistent with 
+the actual measured data . Therefore , according to the calcula ‐
+tion results , it can be concluded that in the marshalling station 
+▲Figure 2. Path loss of 150 cells of the marshalling stationTest point path loss
+Free space propagation model
+Distance/m0   100 200 300 400 500 600 700 800 900Path loss/dB120
+110
+100
+90
+80
+70
+60
+50
+40
+119

@@ -1,0 +1,58 @@
+6G新型信息通信网络架构设计 段晓东  等 专家论坛
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 56G新型信息通信网络架构设计
+Architecture Design of 6G New Information Communication Network
+段晓东 /DUAN Xiaodong ，孙滔/SUN Tao ，刘超/LIU Chao ，
+施南翔 /SHI Nanxiang
+（ 中国移动研究院 ，中国 北京 100053  ）
+(China Mobile Research Institute , Beijing 100053 , China )DOI：10.12142 /ZTETJ .202305012
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231016 .0927 .006.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-12
+摘要 ：网络架构是每一代通信网络的核心 。5G网络架构的变革为 5G服务千行百业奠定了基础 。6G网络架构设计需结合 5G的经验 ，支持新场
+景、新指标 、新要素 ，以简化 、高效、灵活为目标进行优化 。给出了 6G网络架构设计的 6个原则和 5个维度 ，并以此为基础进一步提出 “三体
+四层五面 ”的6G总体架构 ，以及端到端的全服务化系统架构和灵活按需的分布式自治组网架构 。最后讨论了 6G与5G网络架构的关系 ，并给出
+未来研究方向及相关产业发展的建议 。
+关键词 ：6G；网络架构 ；服务化架构 ；分布式自治
+Abstrac t:Network architecture serves as the foundation of communication networks of each generation . The evolution of 5G network archi ⁃
+tecture is the foundation of thousands of 5G services . The design of 6G network architecture needs to combine the experience of 5G, sup⁃
+port the new scenarios , new indicators and new elements , and optimize for the goal of building a more simplified , efficient and flexible net ⁃
+work . The six design principles and five dimensions of 6G network architecture are presented . On this basis , a "3 bodies , 4 layers , 5 planes 
+(3-4-5)" 6G overall architecture , an end-to-end holistic service-based system architecture , as well as a flexible and on-demand distributed 
+autonomous networking architecture are presented . The relationship between 6G and 5G network architecture is further explored , and the 
+suggestions for future research directions and the development of related industries are proposed .
+Keywords :6G; network architecture ; service based architecture ; distributed autonomous network
+引用格式 ：段晓东 , 孙滔, 刘超, 等. 6G新型信息通信网络架构设计  [J]. 中兴通讯技术 , 2023 , 29(5): 76-81. DOI: 10.12142 /ZTETJ .202305012
+Citation ： DUAN X D , SUN T , LIU C , et al . Architecture design of 6G new information communication network [J]. ZTE technology journal , 
+2023 , 29(5): 76-81. DOI: 10.12142 /ZTETJ .202305012
+系统架构是通信网络的骨骼和中枢 ，是移动通信代际发
+展的核心标志之一 。架构的变革既能带动整体网络的
+系统性创新 ，又能牵引全产业链及业务服务的升级换代 。网
+络架构设计的前瞻性 、可行性 、可靠性 、效益性 、兼容性 ，
+都会直接影响移动通信网络的发展路径和应用成效 ，必须提
+前考虑 。
+1 6G网络架构设计的背景
+6G网络架构设计 ，既要考虑新场景新需求的驱动 ，又
+要考虑技术发展和网络演进态势 。本文从以下 5个方面阐述
+6G网络架构发展的关键驱动力 。
+1）5G新架构优化需求
+以服务化架构 （SBA）为代表的 5G架构已经全面走向
+商用 。4年商用的考验 ，验证了 5G网络架构设计的合理性和
+先进性 。
+5G网络架构是革新的一代 ，实现了基础设施的虚拟化 、云化和网络功能的服务化 。新一代移动通信的发展不仅带动
+了移动通信产业 ，还增强了运营商网络能力 。5G虚拟化 、
+云化 、服务化 ，改变了运营商传统的运维 、运营和管理模
+式，同时带动了网络的整体转型 。5G商用部署的过程也呈
+现出若干问题 ，这些问题都需要在 6G网络架构设计中进行
+优化 。
+（1）服务化等设计理念实现有待深化 。一方面 ，原子化
+服务需优化 ，受到兼容 2G～4G网络互操作的影响 ，部分服
+务尚存耦合性 ，导致新特性 、新服务的引入会影响已有服
+务；另一方面 ，服务化机制尚未普及到端到端所有网元 ，致
+使部分网元仍被传统接口绑定 ，不利于敏捷网络目标的
+实现 。
+（2）5G服务能力与业务深度融合后 ，展现出更高的需
+求。例如 ，随着定位业务的发展 ，逐步出现行业边缘场景
+中，园区设备定位及跟踪数据不出园等要求 。现有定位方案
+依赖于集中部署的核心网网元及定位平台 ，面向随着业务发
+76

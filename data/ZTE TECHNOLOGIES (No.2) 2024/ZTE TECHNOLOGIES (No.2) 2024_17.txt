@@ -1,0 +1,53 @@
+national SPN backbone networks, ZTE is committed 
+to enhancing the end-to-end /f_ine-granularity private 
+line technologies for cross-domain SPN networks to 
+achieve full private line coverage throughout the 
+entire network. The FGU-based SPN 2.0 private line 
+transport solution is shown in Fig. 1. 
+Private Networks Empowering 
+Industrial Digitalization
+With the development of new infrastructure like 
+5G, industrial private networks have evolved from 
+single-service private networks to integrated service 
+private networks and virtual private networks. At 
+present, the demands for private networks driving 
+industrial digital transformation mainly include 
+highly reliable and secure communication in the 
+production /f_ield, broadband connection for 
+production aid, interconnection of cloud-based 
+applications, and manageable & controllable 
+networks. 
+Traditional SDH/OTN technologies provide highly 
+reliable and secure communication but lack 
+suﬃcient packet transport capability. Ethernet/IP 
+technologies excel in L2/L3 cloud-based 
+interconnection but lack the capability of hard isolation crucial for highly reliable communication. 
+SPN, which deeply integrates packet and TDM, 
+addresses the key demands of new industrial private 
+networks by incorporating hard isolation and high 
+reliability into the packet architecture.
+SPN oﬀers diverse slicing capabilities. FGU-based 
+hard isolation slicing meets the low latency and low 
+jitter requirements of production services, and delivers 
+carrier-class OAM and protection. MTN-based hard 
+isolation slicing provides high packet bandwidths to 
+meet the requirements of production aid services. 
+Packet-based soft isolation slicing supports complete L3 
+connection capabilities and  high-precision inband 
+OAM to meet the interconnection requirements of 
+cloud-based applications. Furthermore, SPN includes 
+the transmission network management function, 
+supports integrated SDN management and control, and 
+features the intelligent management and control 
+capability to ensure a controllable and manageable 
+network.
+Currently, SPN products have been commercially 
+deployed in private networks within subway, mine, 
+and expressway industries. China Southern Power 
+Grid and State Grid are using SPN to carry integrated 
+power services, while China’s National Railway 
+Administration is considering SPN as the major 
+ 
+SPN 2.0SPN 2.0
+ APR 2024
+15 

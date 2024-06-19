@@ -1,0 +1,79 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4XIONG Zhiang , ZHAO Ping , FAN Jiyuan , WU Zengqiang , GONG Hongwei Mixed Electric and Magnetic Coupling Design Based on Coupling Matrix Extraction    Research Papers
+In the above derivation , we use the narrowband condition of 
+ω0 >> BW . This condition also applies to the derivation of 
+Eqs. (7), (9) and (10). ωm is the resonant frequency . When the 
+frequency is  ωm, the parallel Cm', Lm' and bm' form an open cir ⁃
+cuit, and the signal transmission is blocked to generate a TZ .
+For a mixed electric and magnetic coupling , the calculation 
+formula of Ec and Mc can be expressed as follows[10]:
+EC=ωev2-ωod2
+ωev2+ωod2-2ωm2, (5a)
+MC=ωm2( ) ωev2-ωod2
+2ωev2ωod2-ωm2( ) ωev2+ωod22
+, (5b)
+where ωev is the even mode resonant frequency , and ωod is the 
+odd mode resonant frequency of a coupled resonator pair .
+We can calculate EC and MC in the mixed electric and 
+magnetic coupling based on ωm, ωev, and ωod. To obtain EC 
+and MC of the mixed electric and magnetic coupling in terms 
+of FDC coefficients , we can analyze the even - and odd -mode 
+resonant frequencies of the coupled -resonator circuit model 
+in Fig . 1(c).
+We analyze the odd mode first . The odd -mode sub -circuit is 
+shown in Fig . 2(a). After combining parallel -connected capaci ⁃
+tors, inductors , and FISs , the odd -mode sub -circuit is trans ⁃
+formed into the form shown in Fig . 2(b). We have :Codd=C1'-2Cm'=1-Cm
+2πBW    , (6a)
+Lodd=2C1'Cm'
+C1'+2Cm'=2πBW
+ω2
+0-ω2
+0Cm    
+, (6b)
+bodd=-bm. (6c)
+Therefore , the resonant frequency of the odd mode is
+ωod=b2
+odd+4Codd
+Lodd-bodd
+2Codd≈
+ω0+bmπBW
+1-Cm.(7)
+Similarly , to analyze the even mode , as shown in Fig . 2(c), we 
+have
+Ceven=1+Cm
+2πBW , (8a)
+Leven=2πBW
+ω2
+0() 1+Cm, (8b)
+beven=bm. (8c)
+Therefore , the resonant frequency of the even mode sub -
+circuit is
+ωeven=b2
+even+4Ceven
+Leven-beven
+2Ceven≈
+ω0-bmπBW
+1+Cm.(9)
+Substituting Eqs . (7) and (9) into Eq . (5) yields
+EC=ωev2-ωod2
+ωev2+ωod2-2ωm2≈-Cm, (10a)
+MC=ωm2( ) ωev2-ωod2
+2ωev2ωod2-ωm2( ) ωev2+ωod22≈-Cm
+ . (10b)
+The results in Eq . (10) show that EC and MC in mixed elec ⁃
+tric and magnetic coupling filters are almost equal , and both 
+values are approximately equal to −Cm. This analysis result re ⁃
+veals that the majority of electric and magnetic coupling 
+should be canceled with each other to realize an FDC . The 
+(a) Odd -mode sub -circuit
+(b) After simplification (c) Even -mode sub -circuit
+▲Figure 2. Mode circuit of a bandpass circuit model of mixed electric 
+and magnetic couplingC1'2Cm'
+bm
+2bm'Lm'/2
+   L1
+Codd
+boddLoddbeven
+CevenLeven
+87

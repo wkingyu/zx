@@ -1,0 +1,72 @@
+which has a great impact on 
+positioning measurement. At the 
+same time, there are many hollow 
+areas, so vertical dimension should 
+be taken into account in 
+positioning. For various complex 
+environments, positioning 
+algorithms such as UTDOA, AOA 
+and ECID are adopted based on 5G 
+networks and the environmental 
+characteristics. Considering both 
+cost and accuracy, traditional 
+positioning technologies such as 
+UWB, Bluetooth and satellite can 
+be integrated for speci/f_ic areas. A 
+variety of positioning technologies 
+and algorithms work together to 
+adapt to various scenarios, which 
+provides a location foundation for  
+the construction of enterprise 
+personnel positioning management 
+system.
+The platform layer includes 
+location-based service (LBS) and 
+map service. LBS provides location 
+calculation based on measurement 
+data at the network layer, and also located, the portability is of 
+primacy. ZTE provides a variety 
+of 5G positioning terminals such 
+as mobile phones and safety 
+helmets with communication 
+capabilities. It also provides card 
+terminals adopting Bluetooth 
+and UWB. With the launch of 5G 
+RedCap positioning chips, more 
+5G lightweight, low-power and 
+low-cost terminals will come out, 
+and 5G positioning will adapt to 
+more scenarios.
+The network layer, which 
+completes positioning 
+measurement and provides the 
+basis for location services, can be 
+based on a variety of positioning 
+algorithms of 5G cellular, and can 
+also extend traditional positioning 
+algorithms to adapt to various 
+scenarios. For example, in chemical 
+plant areas, steel factories and 
+other steel-structure places, there 
+are many large metal equipment 
+and brackets; in this environment, 
+the signal obstruction is serious, 
+Service layer
+Platform layer
+LBS Map service
+Network layer
+Terminal layerPersonnel 
+managementVehicle 
+managementAsset
+managementElectronic
+attendanceElectronic
+fence
+The 5G basic network expands overlay positioning technologies on demand
+5G mobile phone 5G safety helmet Work card
+Basic location Trajectory analysis
+ Map making vSLAM map High-precision coordinates
+Fig. 1. Schematic 
+diagram of 5G 
+hybrid positioning 
+solution.
+285G Fully-Connected Factory Special Topic

@@ -1,0 +1,46 @@
+基于多点信道海图的低能耗网络覆盖结构优化 叶远青  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6参考文献
+[1] YOU X H , WANG C X , HUANG J , et al . Towards 6G wireless 
+communication networks : vision , enabling technologies , and new paradigm 
+shifts [J]. Science China information sciences , 2021 , 64(1): 110301 . DOI : 
+10.1007 /s11432 -020-2955 -6
+[2] CHEN Y , ZHANG S Q , XU S G , et al . Fundamental trade-offs on green 
+wireless networks [J]. IEEE communications magazine , 2011 , 49(6): 30-37. 
+DOI: 10.1109 /MCOM .2011 .5783982
+[3] 张夏雨 , 李建东 , 刘俊宇 , 等. 资源小区 : 面向下一代超密集网络的无线覆盖结
+构 [J]. 物 联 网 学 报 , 2023 , 7(1):1-17. DOI : 10.11959 /j.issn.2096 -
+3750 .2023 .00336
+[4] COLORNI A , DORIGO M , MAFFIOLI F , et al . Heuristics from nature for 
+hard combinatorial optimization problems [J]. International transactions in 
+operational research , 1996 , 3(1): 1-21. DOI : 10.1111 /j.1475 -3995 .1996 .
+tb00032 .x
+[5] GARCIA N , WYMEERSCH H , LARSSON E G , et al . Direct localization for 
+massive MIMO [J]. IEEE transactions on signal processing , 2017 , 65(10): 
+2475 -2487 . DOI: 10.1109 /TSP.2017 .2666779
+[6] DAHLMAN E , PARKVALL S , SKÖLD J . Background of lte [M]//4G: LTE/LTE-
+Advanced for Mobile Broadband . Amsterdam : Elsevier , 2014 : 1-15.. DOI : 
+10.1016 /b978-0-12-419985 -9.00001 -5
+[7] KARL P . On lines and planes of closest fit to systems of points in space [J]. 
+The london , Edinburgh , and Dublin philosophical magazine and journal of 
+science , 1901 , 2(11): 559-572. DOI: 10.1080 /14786440109462720
+[8] SAMMON J W . A nonlinear mapping for data structure analysis [J]. IEEE 
+transactions on computers , 1969 , C-18(5): 401-409. DOI : 10.1109 /T-
+C.1969 .222678
+[9] SCHMIDT R . Multiple emitter location and signal parameter estimation [J]. 
+IEEE transactions on antennas and propagation , 1986 , 34(3): 276-280. DOI : 
+10.1109 /TAP .1986 .1143830
+[10] HAN S Q , YANG C Y , MOLISCH A F . Traffic-aware base station doze in 
+cooperative multicell systems [C]//Proceedings of 2013  IEEE China 
+Summit and International Conference on Signal and Information 
+Processing . IEEE , 2013 : 394-398. DOI: 10.1109 /ChinaSIP .2013 .6625368作 者 简 介
+叶远青 ，中国科学技术大学在读硕士研究生 ；主
+要研究领域为无线通信网络和资源管理 。
+张四海 ，中国科学技术大学副教授 ；主要研究领
+域为无线大数据 、机器学习和 IC工艺优化等 ；先
+后主持和参加项目 10余项，已发表论文 80余篇。
+朱近康 ，中国科学技术大学教授 ；主要研究领域
+为无线移动通信与网络 、通信信号处理及未来无
+线技术研究 ；先后主持和参加项目 20余项，出版
+4本专著 ，已发表论文 150余篇。
+10

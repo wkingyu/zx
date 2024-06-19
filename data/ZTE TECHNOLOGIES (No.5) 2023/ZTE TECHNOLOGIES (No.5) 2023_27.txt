@@ -1,0 +1,94 @@
+industries and users are all essential 
+aspects of this role. It is through these 
+eﬀorts that the industry, technology and 
+customer leadership roles can be eﬀectively 
+demonstrated. ZTE has established 
+high-performance craftsmanship networks 
+in over 100 countries and regions, assisting 
+operators in enhancing network quality, 
+user perception, and their network value. 
+In China, ZTE collaborates with operators 
+in prominent cities across the country, 
+including Beijing, Guangzhou, Dalian, and 
+Chengdu. They work together to create 
+“Leading City” with a focus on product 
+leadership, innovation leadership, brand 
+leadership, and autonomous network 
+leadership. This initiative not only builds 
+5G superb networks but also provides 
+users with ultimate network experience. 
+Moreover, it empowers operators to 
+develop leading 5G applications, thereby 
+facilitating the digital transformation of the 
+economy and society.
+In Thailand, as AIS’s network equipment 
+and solution provider in the northeast 
+region, ZTE adheres to the brand 
+philosophy of “Ultimate Service” and 
+is committed to providing top-quality 
+services and solutions to ensure AIS’s 
+leading position in network quality and 
+technology in this region. ZTE’s wireless 
+AI solution uSmartNet-RNIA is dedicated 
+to oﬀering a variety of automation 
+and intelligent tools that cover the 
+entire process of network planning, 
+construction, maintenance, optimization, 
+and operation. This helps customers 
+improve O&M eﬃciency while reducing 
+costs. After introducing its VMAX-R 
+precision planning tool into AIS, ZTE has 
+greatly improved the eﬃciency of AIS 
+network planning, facilitating precision 
+network construction. AIS’s existing 
+network comprises seven diﬀerent 
+network standards, including GSM, 
+UMTS, FDD LTE, TDD LTE, NB-IoT, FDD NR, 
+and TDD NR. The network architecture is extremely complex, which presents 
+challenges for optimization. Considering the 
+characteristics of network architecture, ZTE 
+has worked with AIS to deploy an intelligent 
+network optimization platform. This platform 
+utilizes functions such as AAX alarm root 
+cause analysis, EFP device health check and 
+prediction, AAPC automatic antenna weight 
+control, NQI automatic interference analysis, 
+and TopN poor quality analysis to signi/f_icantly 
+boost O&M eﬃciency in corresponding 
+scenarios. Recently, ZTE has partnered with 
+AIS and Qualcomm to successfully complete 
+a 5G mmWave standalone (SA) test at the AZ 
+Innovation Center in Bangkok. This approach 
+dramatically simpli/f_ies the network structure, 
+eliminating the need to deploy anchors in 
+EN-DC or NR-DC, resulting in substantial 
+Capex savings.
+In Beijing, China Mobile Beijing Branch 
+(Beijing Mobile) and ZTE signed a strategic 
+cooperation agreement for intelligent 
+computing innovation in 2023, con/f_irming 
+that both parties would engage in deep 
+collaboration in the /f_ields of computing 
+networks and cutting-edge 5G innovation in 
+the future. Beijing, renowned for its unique 
+charm and vibrant technological innovation, is 
+emerging as a beacon for 5G city development 
+and a model for China’s digital economy. So 
+far, Beijing Mobile has built more than 44,000 
+base stations, accounting for over half of the 
+total number of 5G base stations in Beijing. 
+This achievement marks it as the largest and 
+fastest metro 5G network in the world. Within 
+the urban areas, encompassed by the Fifth 
+Ring Road, the comprehensive coverage rate 
+has soared to 99.6%, with over 15 million 
+5G users. Utilizing a range of innovative 
+technologies, the network provides a peak rate 
+of 3 Gbps in key areas of Beijing, delivering an 
+excellent user experience. 
+In Guangzhou, China Mobile, in collaboration 
+with ZTE and several partners, launched the 
+“5G Leading City” initiative in 2021, aiming 
+to enhance user experience through new 
+5G infrastructure and facilitate the digital 
+25OCT 2023

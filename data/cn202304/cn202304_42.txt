@@ -1,0 +1,54 @@
+一种面向服务的算网路由架构方案 黄光平  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4一种面向服务的算网路由
+架构方案
+An Architecture Solution of Service-Oriented Routing for 
+Computing and Networking
+黄光平 /HUANG Guangping1，2，谭斌/TAN Bin1，2，
+吉晓威 /JI Xiaowei1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia , Shen ⁃
+zhen 518055 , China )DOI：10.12142 /ZTETJ .202304008
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .tn.20230724 .1536 .006.html
+网络出版日期 ：2023 -07-25
+收稿日期 ：2023 -05-25
+摘要 ：网络感知算力并据此执行算网融合路由 ，是算网融合在网络基础设施侧的一种重要技术方案 。相对于传统基于主机地址的网络路由机制 ，
+算网路由最主要的增量是在网络侧引入分布式多算力实例的优选 ，因此位置和归属无关的服务标识将成为新的寻址和路由标的 。阐述了一种端
+到端的算网路由解决方案及其对路由协议的影响 ，并基于典型场景和测试用例 ，分析了面向服务标识的算网路由架构方案在功能和性能维度的
+收益。
+关键词 ：算网融合 ；算力路由 ；服务标识
+Abstrac t:Routing based upon convergent computing and networking where the network is enabled to be aware of the computing , as far as 
+the network infrastructure of convergence of computing and networking is concerned , is a cornerstone technique solution . Contrary to the 
+conventional host address-based routing scheme , the above-mentioned routing brings a process of computing selection among multiple 
+and distributed sites and nodes . Therefore , service identification which is both location and homing independent should be employed in 
+terms of addressing and routing . The comprehensive solutions as well as their impacts on the existing routing protocols are discussed , and 
+the gains in both function and performance of the new architecture solution are demonstrated with contexts of typical scenarios and testing 
+analysis .
+Keywords :convergence of computing and networking ; routing of computing ; service identification
+引用格式 ：黄光平 , 谭斌, 吉晓威 . 一种面向服务的算网路由架构方案  [J]. 中兴通讯技术 , 2023 , 29(4): 38-42. DOI: 10.12142 /ZTETJ .202304008
+Citation ： HUANG G P , TAN B , JI X W . An architecture solution of service-oriented routing for computing and networking [J]. ZTE technology 
+journal , 2023 , 29(4): 38-42. DOI:10.12142 /ZTETJ .202304008
+在网络路由和调度体系中引入算力是算网融合架构中的
+重要增量 ，网络因此扩展了对算力的感知能力 。同
+时，路由和调度流程实现了算力和网络两个维度资源状态的
+融合考量 ，即行业通常所说的算力路由[1]。算力路由是算网
+融合的主要技术锚点[2-3]。算力路由从端到端协议和流程方
+面，打破了网络和算力这两个传统上相互隔离的技术和资源
+体系壁垒 ，实现了 “网中有算 ，以网强算 ” 。算力路由的本
+质是 ：面向同类算力服务的分布式等价多实例 ，基于算力和
+网络的资源状态以及业务需求 ，执行网络和算力联合优选寻
+址，即“一对多 ”的算网寻址路由 。其中的 “多”表示网络
+和算力均存在多路径 、多实例的权衡优选 。而面向用户的算力服务是位置无关的 ，甚至可能是归属无关的 。用户对算力
+服务的请求仅表达意图 ，无须关心服务的提供方和部署位
+置。这是算力路由跟传统基于主机位置的 IP路由最本质的
+区别 ，也是算力路由协议体系存在的主要变量之一[4]。
+算力路由引入位置无关的服务标识 ，将其作为路由和寻
+址的全新对象 ，在使能全新的算力感知和路由功能的同时 ，
+也为现有网络路由寻址协议带来新的扩展需求和挑战 。因
+此，新架构功能在引入的同时 ，需要保持与现网架构兼容 。
+服务标识的引入在客观上打通了业务和网络之间的高效感知
+接口 。网络通过服务标识可以精细化识别业务 ，并提供相应
+的细颗粒度网络连接服务 。
+38

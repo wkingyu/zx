@@ -1,0 +1,105 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+point cloud quality . However , WU et al .[36] believe that this 
+method causes inevitable occlusion and misalignment in the 
+point cloud during the projection process . In addition , they be ⁃
+lieve that projections from different angles have different im ⁃
+pacts on visual perception . Therefore , they proposed a view -
+based projection weighted model and a block -based projection 
+model . ZHOU et al .[74] applied the projection method to 
+reduced -reference point cloud quality evaluation . They simpli ⁃
+fied the reference point cloud and distorted point cloud 
+through downsampling to obtain content -oriented saliency pro ⁃
+jection (RR -CAP), so that users do not need to obtain a large 
+number of reference point clouds from the transmission end 
+when evaluating point cloud quality . In contrast to model -
+based objective quality evaluation , many no -reference quality 
+evaluation methods based on projection extract features of the 
+projection through deep learning . This is partly because the 
+projection method converts three -dimensional point clouds 
+into two -dimensional data for processing , reducing the compu ⁃
+tational complexity and making deep learning feasible in 
+point cloud quality evaluation . On the other hand , due to the 
+excellent performance of deep learning in many computer vi ⁃
+sion tasks , scholars unanimously acknowledge the outstand ⁃
+ing feature extraction capability of deep networks . The spe ⁃
+cific implementation methods include evaluating point 
+clouds by projecting point clouds into images and using exist ⁃
+ing image quality evaluation methods[83–84, 90–97], and pro ⁃
+cessing point clouds rendered into videos from different 
+angles by setting the orbit of virtual cameras . The former ex ⁃
+tracts temporal features from rendered point cloud videos us ⁃
+ing a modified ResNet 3D[98], while the latter believes that 
+temporal features are insufficient to describe the quality of 
+point clouds , so it selects key frames from point cloud videos 
+for spatial feature extraction using 2D-CNN and finally evalu ⁃
+ates point clouds combining temporal and spatial features . In 
+addition , hot topics in the field of deep learning such as mul ⁃
+timodal learning[66], multitask learning[67, 79], dual -stream con ⁃
+volutional networks[78], graph convolutional networks[79], do⁃
+main adaptation[82], and domain generalization[81] have also 
+been applied in no -reference point cloud quality evaluation . 
+By observing Table 3, we can find that Refs . [61] and [85] 
+combine the two mainstream methods of model -based and 
+projection -based to evaluate the quality of point clouds . Af⁃
+ter analysis , we can conclude that although projection -based 
+methods have significant advantages in efficiency and com ⁃
+putational quantity , they inherently observe three -
+dimensional point clouds through two -dimensional virtual 
+cameras , inevitably leading to the problem of incomplete in ⁃
+formation observation . Therefore , to alleviate the limitations 
+of two -dimensional media , it is feasible and worth exploring 
+to introduce model -based methods . However , at the same 
+time, how to effectively weigh the computational overhead 
+and evaluate the performance of the method is also a topic 
+that needs to be addressed and explored in depth .4 Evaluation of PCQA Models
+4.1 Evaluation Protocol
+The current point cloud quality evaluation methods gener ⁃
+ally follow the recommendations given by the Video Quality 
+Expert Group (VQEG )[99] in the field of image quality assess ⁃
+ment (IQA). The evaluation is conducted from three aspects : 
+prediction accuracy , monotonicity , and consistency . Typically , 
+a five -parameter monotonic logistic function is used to calcu ⁃
+late the quality score :
+p=β1(0.5-1
+1+eβ2() o-β3)+β4o+β5,
+(1)
+where o and p represent the predicted scores and mapped 
+scores , respectively . After nonlinear mapping , the perfor ⁃
+mance of the PCQA model can be measured using the follow ⁃
+ing four commonly used criteria : Spearman Rank -order Corre ⁃
+lation Coefficient (SRCC ), Pearson Linear Correlation Coeffi ⁃
+cient (PLCC ), Kendall Rank -order Correlation Coefficient 
+(KRCC ), and Root Mean Square Error (RMSE ). Eq. 2 provides 
+the calculation process of SRCC :
+SRCC=1-6∑
+n=1N
+d2
+i
+N() N2-1 , (2)
+where di represents the difference in rankings between the ob ⁃
+jective score and predicted score of the i-th point cloud , and N 
+represents the total number of point clouds . SRCC is used to 
+measure the monotonicity of visual quality prediction , with its 
+value ranging from 0 to 1. The closer SRCC is to 1, the better 
+the performance of the model is considered to be . Eq. 3 pro⁃
+vides the calculation process of PLCC :
+PLCC=∑
+i=1N
+() pi-pˉ() si-sˉ
+∑
+i=1N
+() pi-pˉ2() si-sˉ2
+ , (3)
+where si and pi indicate the objective score and predicted 
+score of the i-th point cloud , and sˉ and pˉ stand for the average 
+values for si and pi. PLCC is used to measure the linearity and 
+consistency of visual quality prediction results , with its value 
+ranging from 0 to 1. The closer PLCC is to 1, the better the 
+performance of the model is considered to be . Eq. 4 provides 
+the calculation process of KRCC :
+KRCC=Nc-Nd
+0.5(N-1)N , (4)
+where Nc and Nd represent the number of consistent pairs and 
+discordant pairs . KRCC utilizes the concept of “paired ” data 
+10

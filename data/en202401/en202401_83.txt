@@ -1,0 +1,99 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian RIS -Assisted Cell Free MIMO : A Survey    Review
+and future directions are pointed out in Section 5 before the 
+concluding remarks in Section 6.
+2 Key Technologies for Cell -Free MIMO 
+Systems
+In this section , we introduce the main technologies of CF 
+MIMO for 5G and beyond in terms of two communication pro ⁃
+tocols , i.e., time division duplexing (TDD ) and frequency divi ⁃
+sion duplexing (FDD ). More specifically , we emphasize the im ⁃
+portance of channel estimation , transmit precoding and power 
+control , synchronization , and phase calibration in CF MIMO 
+systems . These techniques differ from those used in traditional 
+massive MIMO systems when considering the distributed an ⁃
+tenna configurations and practical fronthaul constraints . These 
+differences play an important role in the system implementa ⁃
+tion and parameter design .
+2.1 Channel Estimation
+Channel estimation plays a vital role in transmit beamform ⁃
+ing and signal detection , as it helps suppress inter -user inter ⁃
+ference and improve the network capacity . Based on different 
+communication protocols , such as TDD and FDD , various 
+channel estimation techniques have been applied to CF 
+MIMO systems .
+Under TDD protocols , existing works mainly focus on the 
+pilot -based channel estimation technique . Specifically , users 
+send orthogonal pilot sequences of length τp to all the APs as 
+shown in Fig . 3, and the APs then estimate the corresponding 
+user channel according to different criteria after receiving the 
+training signals[20]. Typical criteria include the least square 
+(LS) method , the minimum mean square error (MMSE ) 
+method , the maximum likelihood (ML) method , and so on .
+For FDD systems with channel non -reciprocity , the channel 
+estimation problem needs more attention because the feed ⁃
+back overhead of channel state information (CSI) scales lin ⁃
+early with the number of RISs and APs . To solve this issue , 
+the angle -reciprocity principle of the multipath components is 
+utilized , which assumes that if the gap between uplink and 
+downlink frequencies is less than several GHz , the uplink 
+angle -of-arrival and downlink angle -of-departure are similar 
+and the large -scale fading components remain un ⁃
+changed[21–23].
+CF MIMO is essentially a single -cell massive MIMO sys ⁃tem, with antennas distributed over a wide geographic area[24]. 
+As a result , the joint channel from the AP to the user is 
+strongly correlated in space , with some APs being closer to the 
+user than others . Therefore , spatial correlation between differ ⁃
+ent APs can be used for channel estimation in CF MIMO , re⁃
+ducing pilot and improving estimation efficiency when com ⁃
+pared with traditional MIMO channel estimation .
+2.2 Transmit Precoding and Power Control
+In the transmission phase , the APs utilize the estimated 
+channel coefficients in the channel estimation phase to per ⁃
+form data precoding and power control . In CF MIMO systems , 
+distributed APs are connected to a CPU via the dedicated fron ⁃
+thaul link for payload data and power control coefficients ex ⁃
+change . For this reason , a low -complexity distributed precod ⁃
+ing technique is suggested . The most commonly used precod ⁃
+ing schemes are maximum -ratio transmit precoding[5] and con ⁃
+jugate precoding[13]. In both the schemes , the APs perform 
+transmit precoding locally in a distributed manner , reducing 
+the burden of CPU . However , since these distributed signal 
+processing techniques only exploit their local CSI , they per ⁃
+form badly for anti -interference . To reduce the inter -user inter ⁃
+ference and further improve the system performance , some 
+centralized precoding techniques , e.g., zero -forcing (ZF) pre⁃
+coding and MMSE precoding , are advocated at the cost of an 
+increased fronthaul burden[6, 21]. This is because the prerequi ⁃
+site to implementing centralized precoding is the availability 
+of all related channels at the CPU . In general , the optimal 
+transmit precoding scheme should strike a balance between 
+the fronthaul traffic and the network .
+Different from the above precoding techniques in TDD sys ⁃
+tems, angle -based precoding schemes are more commonly 
+used in FDD protocols . Specifically , these angle -based precod ⁃
+ing techniques use the estimated multi -path components such 
+as the large -scale fading factors and Angel -of-Arrival (AoA), 
+along with the angle reciprocity principle , to determine the 
+transmit vectors according to different precoding options , e.g., 
+the angle -based MMSE precoding , the angle -based conjugate 
+precoding , and the angle -based ZF precoding[21, 25].
+Advanced power control is pivotal for enhancing the net ⁃
+work capacity or QoS and simple equal power allocation may 
+result in poor system performance . A simple but efficient way 
+to perform power control is to allocate power to different users 
+at each AP proportional to the corresponding channel gain , 
+which has been used by many papers that aim at improving 
+achievable data rates[13, 26]. On the other hand , to provide uni ⁃
+formly good service for different users , the max -min power 
+control technique is suggested[27–28]. By maximizing the mini ⁃
+mum spectral efficiency of all users under the constraints of 
+per -AP transmit power , all users have almost equal spectral ef ⁃
+ficiency with max -min power control . In FDD systems , the 
+above power control techniques , namely equal power , water -
+filling power , and max -min power allocation techniques , can 
+▲Figure 3. Pilot and data transmission under time division duplexing 
+(TDD ) communication protocolUL training DL transmission UL transmission
+τp τd τu
+DL: downlink      UL : uplink
+79

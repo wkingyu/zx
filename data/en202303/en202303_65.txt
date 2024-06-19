@@ -1,0 +1,72 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate   Research Papers
+A A 220220 GHz Frequency GHz Frequency --Division Multiplexing Division Multiplexing 
+Wireless Link with High Data RateWireless Link with High Data Rate
+ZHANG Bo1, WANG Yihui1, FENG Yinian1, 
+YANG Yonghui2,3, PENG Lin2,3
+(1. University of Electronic Science and Technology of China , Chengdu 
+610054 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China；
+ 3. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China )DOI: 10.12142 /ZTECOM .202303009
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20230810 .1128 .002.html, 
+published online August 10, 2023
+Manuscript received : 2023 -03-15
+Abstract : With the development of wireless communication , the 6G mobile communication technology has received wide attention . As one of 
+the key technologies of 6G, terahertz （THz） communication technology has the characteristics of ultra -high bandwidth , high security and low 
+environmental noise . In this paper , a THz duplexer with a half -wavelength coupling structure and a sub -harmonic mixer operating at 216 GHz 
+and 204 GHz are designed and measured . Based on these key devices , a 220 GHz frequency -division multiplexing communication system is 
+proposed , with a real -time data rate of 10.4 Gbit/s for one channel and a transmission distance of 15 m. The measured constellation diagram of 
+two receivers is clearly visible , the signal -to-noise ratio (SNR) is higher than 22 dB, and the bit error ratio (BER ) is less than 10−8. Further ‐
+more , the high definition (HD) 4K video can also be transmitted in real time without stutter .
+Keywords : frequency -division multiplexing ; sub -harmonic mixer ; terahertz communication ; terahertz duplexer
+Citation  (Format 1):  ZHANG B , WANG Y H , FENG Y N , et al . A 220 GHz frequency -division multiplexing wireless link with high data rate 
+[J]. ZTE Communications , 2023 , 21(3): 63–69. DOI : 10.12142 /ZTECOM .202303009
+Citation  (Format 2): B. Zhang , Y. H. Wang , Y. N. Feng , et al ., “A 220 GHz frequency -division multiplexing wireless link with high data rate ,” 
+ZTE Communications , vol. 21, no. 3, pp. 63–69, Sept . 2023 . doi: 10.12142 /ZTECOM .202303009 .
+1 Introduction
+With the development of wireless communication 
+technology , the global mobile data traffic is grow ‐
+ing exponentially , and the demand for high -speed 
+and low -latency data transmission is gradually 
+growing[1]. However , the currently used millimeter wave band 
+cannot achieve these visions , so researchers turn their atten ‐
+tion to the terahertz (THz) band . THz waves range from 0.1 to 
+100 THz , and the THz wireless communication has strong di ‐
+rectionality , excellent security , and wide bandwidth , which 
+has a communication rate of more than 100 Gbit/s .
+The NTT Laboratories in Japan first started research on THz 
+wireless communication in 2004 , the carrier frequency of which 
+is 120 GHz under amplitude shift keying (ASK) modulation for 
+a data rate of 10 Gbit/s[2]. In recent years , this team has devel ‐
+oped 300 GHz power amplifiers , low -noise amplifiers , and base -
+wave mixers based on 80 nm InP -HEMT technology in Ref . [3], 
+and the proposed THz wireless link has achieved a wireless data rate of up to 120 Gbit/s based on 16 quadrature amplitude 
+modulation (QAM ) modulation over a transmission distance of 
+9.8 m. In Ref . [4], the communication system is developed by 
+Karlsruhe Institute of Technology with a carrier frequency of 
+237.5 GHz under 16QAM modulation . The proposed system 
+achieved 100 Gbit/s over a distance of 20 m. With the sup ‐
+port of the DOTSEVEN project , the team of the Institute for 
+High Frequency and Communication Technology has devel ‐
+oped a 240 GHz full integrated transceiver chip based on a 
+130 nm SiGe Bi -COMS technology to achieve 10 Gbit/s over 
+a transmission distance of 15 cm and a BER of less than 
+10−9[5]. Recently , this team has also achieved Quadrature Phase 
+Shift Keying (QPSK ) modulated signal transmission at a trans ‐
+mission distance of 1 m and a transmission rate of 110 Gbit/s 
+with a measured error vector magnitude (EVM ) of 31.9% based 
+on the 130 nm SiGe heterojunction bipolar transistor (HBT ) 
+technology in the 220–225 GHz band[6]. The 220 GHz commu ‐
+nication system[7] built by University of Electronic Science and 
+Technology of China is based on the THz solid -state receiving 
+front -end, which can realize 3.52 Gbit/s wireless communica ‐
+tion over a distance of 200 m using QPSK modulation . In Ref . 
+[8], the Chinese Academy of Engi neering Physics developed a 
+140 GHz wireless link for offshore communication , which has 
+This work is supported by the National Natural Science Foundation of 
+China under Grant Nos . 62022022  and 62101107 , the National Key R&D 
+Program of China under Grant No . 2018 YFB1801502 , China Postdoctoral 
+Science Foundation under Grant No . 2021 TQ0057 , and ZTE Industry-Uni ⁃
+versity-Institute Cooperation Funds .
+63

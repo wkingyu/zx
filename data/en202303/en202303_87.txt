@@ -1,0 +1,51 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System    Research Papers
+[17] LIU W F , PARK I , PRINCIPE J C . An information theoretic approach of de ‐
+signing sparse kernel adaptive filters [J]. IEEE transactions on neural net ‐
+works , 2009 , 20(12): 1950–1961 . DOI : 10.1109 /TNN .2009 .2033676
+[18] MIN C , CHANG N , CHA J , et al . MIMO -OFDM downlink channel prediction 
+for IEEE 802.16e systems using Kalman filter [C]//IEEE Wireless Communica ‐
+tions and Networking Conference . IEEE , 2007 : 942–946. DOI : 10.1109 /
+WCNC .2007 .179
+[19] RAMYA T R , BHASHYAM S . On using channel prediction in adaptive 
+beamforming systems [C]//2nd International Conference on Communication 
+Systems Software and Middleware . IEEE , 2007 : 1–6. DOI : 10.1109/
+COMSWA .2007 .382451
+[20] MARTOS -NAYA E , PARIS J F , FERNANDEZ -PLAZAOLA U , et al . Exact 
+BER analysis for M -QAM modulation with transmit beamforming under chan ‐
+nel prediction errors [J]. IEEE transactions on wireless communications , 2008 , 
+7(10): 3674–3678 . DOI : 10.1109 /T-WC.2008 .070192
+[21] PARIS J F , MARTOS -NAYA E , FERNANDEZ -PLAZAOLA U , et al . Analysis 
+of adaptive MIMO transmit beamforming under channel prediction errors 
+based on incomplete lipschitz –hankel integrals [J]. IEEE transactions on ve ‐
+hicular technology , 2009 , 58(6): 2815– 2824 . DOI : 10.1109 /
+TVT.2008 .2011990
+[22] SUN Y , BABU P , PALOMAR D P . Majorization -minimization algorithms in 
+signal processing , communications , and machine learning [J]. IEEE transac ‐
+tions on signal processing , 2017 , 65(3): 794–816. DOI : 10.1109 /
+TSP.2016 .2601299
+[23] LU A N , GAO X Q , XIAO C S . Free deterministic equivalents for the analysis 
+of MIMO multiple access channel [J]. IEEE transactions on information theory , 
+2016 , 62(8): 4604–4629 . DOI : 10.1109 /TIT.2016 .2573309
+[24] TULINO A M , VERDÚ S . Random matrix theory and wireless communications 
+[M]. Norwell , USA : Now Publishers Inc , 2004 . DOI : 10.1561 /9781933019505[25] 3GPP. Study on channel model for frequencies from 0.5 to 100 GHz : TR 
+38.901 [S]. 2019
+Biographies
+ZHU Yuting received her bachelor ’s degree in communication engineering 
+from Beijing University of Posts and Telecommunications (BUPT ), China in 
+2022 . She is currently working toward a master ’s degree in communication and 
+information engineering at the School of Artificial Intelligence , BUPT . Her re ‐
+search interests include the emerging technologies of 5G wireless communica ‐
+tion networks .
+LI Zeng (li.zeng@zte .com.cn) received his master ’s degree in information and 
+communication engineering from Harbin Institute of Technology , China in 
+2016 . He is currently working at the Algorithm Department , Wireless Product 
+R&D Institute , Wireless Product Operation Division , ZTE Corporation . His re ‐
+search interests include 5G wireless communications and signal processing .
+ZHANG Hongtao received his PhD degree in communication and information 
+systems from Beijing University of Posts and Telecommunications (BUPT ), Chi‐
+na in 2008 . He is currently a full professor with BUPT . He has authored or co -
+authored more than 100 articles on international journals and conferences , and 
+has filed more than 50 patents . He is also the author of ten technical books . His 
+research interests include 5G wireless communications and signal processing .
+85

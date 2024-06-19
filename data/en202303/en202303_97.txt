@@ -1,0 +1,91 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems    Research Papers
+The analog beamformer with any arbitrary fixed hybrid archi ‐
+tecture can be represented by :
+FRF=FFC
+RF⊙Up, (1)
+WRF=WFC
+RF⊙Uc, (2)
+where FFC
+RF and WFC
+RF represent the analog precoder and com ‐
+biner with the FC architecture , respectively .
+We consider four hybrid architectures for analog beam ‐
+forming as depicted in Fig . 2. In the FC architecture shown in 
+Fig. 2(a), each RF chain is connected to all antenna elements 
+so that a total of NtNt
+RF phase shifters are required . In the PC 
+architecture shown in Fig . 2(b), each RF chain is connected 
+to an antenna subarray while each antenna is connected to 
+only one RF chain , so that a total number of Nt phase shifters 
+are required . In the OL architecture shown in Fig . 2(c), the 
+antenna subarrays connected to each RF chain can overlap , where the overlapped antennas are connected to multiple RF 
+chains at the same time . The number of phase shifters re ‐
+quired lies between [Nt, NtNt
+RF]. In the PC -dynamic architec ‐
+ture based on a switch network in Fig . 2(d), the partition of 
+the antenna subarrays can be dynamically adjusted by turn ‐
+ing on or off the switches according to the system state , and a 
+total number of Nt phase shifters and NtNt
+RF switches are re ‐
+quired .
+The transmitted signal at the k-th subcarrier via Nt anten ‐
+nas is represented by xk=FRFFBB, ksk, where FBB, k and FRF 
+satisfy the power constraint  FRFFBB, k2
+F≤1. After passing 
+through the channel matrix at the k-th subcarrier Hk∈CNr × Nt, 
+the signals reach the receiver which is equipped with Nr anten ‐
+nas. The received signals are first processed by an analog com ‐
+biner WRF∈CNr × Nt
+RF, which is also shared by all subcarriers . 
+Then , after removing CPs and performing the fast Fourier 
+transform , a digital combiner WBB, k∈CNt
+RF × Ns is deployed at ▲Figure 1. Downlink single -user mmWave multiple -input multiple -output orthogonal frequency division multiplexing (MIMO -OFDM ) system with 
+hybrid beamforming (HBF )CP: cyclic prefix     IFFT : inverse fast Fourier transform     RF : radio frequency
+▲Figure 2. Diagram of four hybrid architecturesRF: radio frequencyDigital
+precoders
+｛｝FBB,kN
+k=1Digital
+combiners
+｛｝WBB,kN
+k=1S1
+SNNS……NS…………Nt
+RF……Nr
+RFNt……Nr……y1NS……
+yNNS……IFFT & 
+Add CPRF 
+chain
+IFFT & 
+Add CPRF 
+chainAnalog
+precoder
+FRFRF 
+chain
+RF 
+chainRem CP & 
+FFTRem CP & 
+FFTAnalog
+combiner
+WRF
+FRF FRF FRF FRF
+RF
+RF
+RF
+RFRF
+RF
+RF
+RFRF
+RF
+RF
+RFRF
+RF
+RF
+RFNt
+RF Nt
+RF
+Nt
+RFNt
+RFNtNt
+NtNt
+(a) (b) (c) (d)
+95

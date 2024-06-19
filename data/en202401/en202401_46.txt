@@ -1,0 +1,102 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Special Topic   Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions
+It is worth pointing out that in HMIMO scenarios , the an ⁃
+tenna aperture is generally very large , and thus the Rayleigh 
+distance Z=2D2/λ, which separates the near and far fields 
+of electromagnetic radiation , is no longer negligible[10]. For 
+example , if we consider that the array aperture of the base 
+station (BS) is 0.1 m and the carrier frequency is 28 GHz , we 
+can get that the Rayleigh distance is only 1.8 m according to 
+the formula ; if we consider that the array aperture of the BS 
+is 0.7 m, the Rayleigh distance will be 91.5 m. Therefore , us⁃
+ers are more likely to occur in the near -field region of the BS 
+antenna array , where far -field beam training suffers a signifi ⁃
+cant loss of accuracy because of the more significant proper ⁃
+ties of spherical waves in the near -field region . To solve 
+these difficulties , we need to focus on near -field beam train ⁃
+ing and find efficient beam training methods .
+Currently , there are many beam training algorithms for the 
+far field[11–14]. However , due to the spherical wave characteris ⁃
+tics of near -field communication , the existing far -field beam 
+training algorithms cannot be directly applied to the near 
+field. Specifically , traditional far -field beamforming directs 
+the beam of a planar wavefront to a specific angle[15–16], 
+whereas in the near -field region , the beam of a spherical wave ⁃
+front can achieve beam focusing , concentrating the beam en ⁃
+ergy in terms of the angle and range , thus providing a new de ⁃
+gree of freedom (DoF), i.e., the distance dimension , for control ⁃
+ling the spatial energy distribution . This brings challenges to 
+the research of beam training algorithms for the near field .
+We will introduce the typical algorithms for near -field beam 
+training in HMIMO scenarios and compare their performance 
+through simulation analysis . Moreover , we will discuss the ap ⁃
+plication scenarios , main difficulties and possible future re ⁃
+search directions of near -field beam training . The rest of the 
+paper is organized as follows . In Section 2, this paper intro ⁃
+duces the system model of the interest scenario and the code ⁃
+book forms of beam training . Sev ⁃
+eral typical methods and applica ⁃
+tion scenarios of near -field beam 
+training are introduced in Section 
+3. In Section 4, simulation results 
+and configuration of the testbed are 
+given . Finally , we analyze the re ⁃
+search challenges and possible fu ⁃
+ture research directions for near -
+field beam training in Section 5.
+2 System Model
+As shown in Fig . 1, we consider 
+a downlink HMIMO communication 
+scenario where K BSs and U users 
+are distributed in the 3D space . 
+The BS is deployed in the xz-plane , 
+which employs a hybrid precoding 
+architecture that equips V radio -frequency (RF) chains and an Nx×Nz antenna uniform planar 
+array (UPA ), where V≪ NxNz. Note that if Nz=1, it is the 
+case of uniform linear array (ULA ). Each user device is 
+equipped with a single antenna . The central wavelength , hori ⁃
+zontal/vertical antenna spacing , and operating frequency are 
+λc, dx/dz and fc, respectively . The coordinate of the (m, n)-th 
+antenna element of the k-th BS is (xk,n, yk, zk,m), where xk,n=
+rkcosθksinϕk+ndx, yk=rksinθksinϕk, and zk,m=rkcosϕk+
+mdz, n=1-Nx+1
+2, …, Nx-Nx+1
+2, m=1-Nz+1
+2, …, 
+Nz-Nz+1
+2. rk, θk and ϕk denote the distance , azimuth angle , 
+and the elevation angle of the link from the original O of the k-
+th BS . For beam training , K BSs transmit training symbols in 
+several directions while the users listen to the channel in all 
+directions using a quasi -omnidirectional beam . For each user , 
+the alignment of the BS side requires only its received multi -
+BS superimposed signal power . Thus , we can perform down ⁃
+link beam training for different users simultaneously without 
+interference .
+Let hk∈CNxNz×1 denote the channel from the k-th BS to the 
+user, the received signal y at the user can be expressed by
+y=∑
+k=1K
+hH
+kFRFkfBBkx+nk, (1)
+where fBBk∈CV×1 and FRFk∈CNxNz×V denote the digital pre ⁃
+coder and analog beamformer at the k-th BS side , x denotes 
+the transmit symbol with power P0, and nk∼CN(0,σ2) de⁃
+notes Gaussian additive white noise .
+In the HMIMO communication scenario , it is assumed that 
+all users are in the near -field region , which is different from 
+the normal MIMO scenario . Based on the spherical wave as ⁃
+sumption , the near -field channel can be represented as
+▲Figure 1. Downlink Holographic multiple -input multiple -output (HMIMO ) communication scenarioBS
+……z
+xy
+Oθkϕkrk
+Evanescent
+wavesSpherical
+wavesPlanar
+waves
+Far -field Radiative near -field Reactive near -field
+Fresnel 
+distanceRayleigh 
+distance
+42

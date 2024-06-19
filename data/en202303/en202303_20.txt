@@ -1,0 +1,206 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Special Topic   Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management
+the soft one and the hard one . The hard range is a more chal ‐
+lenging one to evaluate algorithms ’ performance . Exceeding 
+the safe range frequently will cause lots of problems such as 
+equipment damage and regional power outages .
+4.2 Overall Performance
+Table 1 reports the median NSVV , SRR , NHVV , and HRR 
+of all algorithms . HMAA 2C and HMAPPO refer to MAA 2C 
+and MAPPO applied with MAHGA . As shown in the table , our 
+MAHGA framework improves MAA 2C and MAPPO and is su ‐
+perior to all other baseline algorithms on four different sce ‐
+narios concerning four metrics . Owing to the CTDE paradigm 
+and the better learned representations correlative to the grid -
+aware energy management task , HMAPPO and HMAA 2C 
+achieve the best performance among all other algorithms . 
+These two algorithms reduce the number of voltage violations 
+significantly and increase the reduction rate considering both 
+the soft safe range and the hard safe range .
+CTDE algorithms , like MAPPO and MAA 2C, all perform 
+better compared with independent learning algorithms like 
+PPO and A 2C. This proves that centralized critic integrating 
+all agents ’ observations to have a global perspective can as ‐
+sist agents to implicitly learn better cooperation . Furthermore , 
+HMAPPO and HMAA 2C consistently perform better than 
+MAPPO and MAA 2C, which validates that MAHGA can make 
+further improvements and motivate the agent to learn a better 
+policy in multiple ways . More analysis of MAHGA will be dis ‐
+cussed in an ablation study . As RBC is a well -crafted strategy , 
+independent learning algorithms only show slightly better per ‐
+formance , especially in climate zone 4A.
+4.3 Ablation Study
+In this section , we conduct an ablation study on MAHGA to 
+further verify the significance of each component . As MAPPO 
+performs better in most scenarios than MAA 2C, we choose 
+MAPPO as a representative algorithm to conduct ablation ex ‐
+periments . And the experimental result that MAPPO outper ‐forms PPO according to Table 1 shows that cooperation is im ‐
+plicitly learned and plays an important role in decision making . 
+The following variants of HMAPPO are evaluated on all sce ‐
+narios : 1) HMAPPOS removes the hierarchical graph atten ‐
+tion architecture but uses a single graph attention network 
+with the corresponding readout layer so as to only extract the 
+agent -level representations from the graph attention network ; 
+2) HMAPPOC removes the auxiliary task of graph contras ‐
+tive learning . As can be seen in Fig . 5, removing any compo ‐
+nent will cause performance degradation . If we do not con ‐
+sider extracting representations from the bus -level topology , 
+the performance will be significantly degraded . If the bus 
+level and agent level are neither considered , where the algo ‐
+rithm is the original MAPPO , the algorithm will suffer from a 
+large state space where all agents ’ observations are concat ‐
+enated and are unaware of the two topologies , which finally 
+leads to low performance . Moreover , introducing attention 
+mechanisms into graphs can implicitly let agents learn how 
+to make decisions with the surrounding agents of different 
+types . These demonstrate that the application of a hierarchi ‐
+cal graph attention framework in grid -aware energy manage ‐
+ment tasks is significantly effective . Besides , we can observe 
+that removing auxiliary tasks of graph contrastive learning 
+will also lead to performance degradation , which indicates 
+that graph contrastive learning can assist the framework to 
+learn representations better .
+5 Related Work
+1) Multi -agent reinforcement learning in power systems . Re‐
+cently , efforts have been made to apply reinforcement learning 
+to power systems for voltage regulation and energy manage ‐
+ment due to the progress of machine learning . Ref. [2, 26–
+27] introduce reinforcement learning in the active voltage con ‐
+trol tasks . These works have considered managing a small 
+number of agents and optimizing only reactive power compo ‐
+nents . In Refs . [2, 26], the load is inflexible and only the PV 
+▼Table 1. Overall performance on four scenarios , where HMAA 2C and HMAPPO refers to MAA 2C and MAPPO applied with multi -agent hierarchi ‑
+cal graph attention (MAHGA ) (↓ denotes the lower the better , and ↑ denotes the higher the better )
+RBC
+A2C
+PPO
+MAA 2C
+MAPPO
+HMAA 2C
+HMAPPOClimate Zone 2A
+NSVV ↓
+86 181
+79 905
+79 601
+73 264
+73 919
+64 516
+63 320SRR↑
+0.0%
+7.3%
+7.6%
+15.0%
+14.2%
+25.1%
+26.5%NHVV ↓
+158 736
+154 662
+153 849
+139 654
+139 210
+125 497
+123 116HRR ↑
+0.0%
+2.6%
+3.1%
+12.0%
+12.3%
+20.9%
+22.4%Climate Zone 3A
+NSVV ↓
+110 902
+101 102
+100 954
+89 423
+88 236
+78 158
+77 724SRR↑
+0.0%
+8.8%
+9.0%
+19.4%
+20.4%
+29.5%
+29.9%NHVV ↓
+193 751
+185 201
+184 365
+162 249
+160 345
+146 392
+145 946HRR ↑
+0.0%
+4.4%
+4.8%
+16.3%
+17.2%
+24.4%
+24.7%Climate Zone 4A
+NSVV ↓
+83 648
+81 648
+81 224
+74 569
+74 126
+63 105
+62 865SRR↑
+0.0%
+2.4%
+2.9%
+10.9%
+11.4%
+24.6%
+24.8%NHVV ↓
+162 076
+158 902
+155 645
+144 274
+144 316
+122 568
+121 829HRR ↑
+0.0%
+2.0%
+4.0%
+11.0%
+11.0%
+24.4%
+24.8%Climate Zone 5A
+NSVV ↓
+106 823
+93 365
+92 920
+79 369
+78 314
+60 766
+59 887SRR↑
+0.0%
+12.6%
+13.0%
+25.7%
+26.7%
+43.1%
+43.9%NHVV ↓
+195 277
+174 671
+173 997
+154 786
+150 322
+127 494
+125 386HRR ↑
+0.0%
+10.6%
+10.9%
+20.7%
+23.0%
+34.7%
+35.8%
+A2C: advantage actor critic
+HMAA 2C: multi -agent advantage actor critic applied with MAHGA
+HMAPPO : multi -agent proximal policy optimization applied with MAHGA
+HRR : hard reduction rateMAA 2C: multi -agent advantage actor critic
+MAPPO : multi -agent proximal policy optimization
+NHVV : number of hard voltage violations
+NSVV : number of soft voltage violationsPPO: proximal policy optimization
+RBC : rule -based control
+SRR: soft reduction rate
+18

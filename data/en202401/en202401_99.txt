@@ -1,0 +1,73 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Filter Design of Wireless Base Station Power Supply   Research Papers
+Filter Design of Wireless Base Station Filter Design of Wireless Base Station 
+Power SupplyPower Supply
+LI Wei , GUO Wei , WANG Zhida
+(ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202401011
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.202410307 .1721 .004.html, 
+published online March 9, 2024
+Manuscript received : 2023 -04-18
+Abstract : The design of electromagnetic interference (EMI) filters needs to fulfill the EMI standards . Designing a filter is a time -consuming 
+process for new engineers as well as for those experienced engineers . This paper measures and compares the noise spectrum of the wireless 
+base station power prototype with and without the original filter . The ideal insertion loss (IL) of the original filter is obtained by combining cal ⁃
+culation and simulation . It is pointed out that the effect of the original filter is not good . Based on the improved insertion -loss method , the 
+source impedance model of the prototype is established by combining measurement and theory . A procedure for designing EMI filters for 
+switch power supply will be presented . The filter design procedure makes it possible to design filters quickly and easily . Finally , the proposed 
+filter design method is proved to be effective by the EMI measurement of the wireless base station power supply prototype .
+Keywords : electromagnetic compatibility ; common mode noise ; EMI filter
+Citation  (Format 1): LI W , GUO W , WANG Z D . Filter design of wireless base station power supply [J]. ZTE Communications , 2024 , 22(1): 95–
+105. DOI : 10.12142 /ZTECOM .202401011
+Citation  (Format 2): W. Li, W. Guo , and Z . D. Wang , “Filter design of wireless base station power supply ,” ZTE Communications , vol. 22, no. 
+1, pp. 95–105, Mar. 2024 . doi: 10.12142 /ZTECOM .202401011 .
+1 Introduction
+With the development of power electronic equip ⁃
+ment , electromagnetic interference (EMI) has be ⁃
+come more and more serious . According to the dif ⁃
+ferent coupling paths , EMI can be divided into 
+conduction EMI and radiation EMI . The main solution to re ⁃
+ducing these conducted emissions is based on the use of EMI 
+filters[1–2]. The EMI filters are made from coupled inductors 
+combined with capacitors . The choice of fil ⁃
+ter topology depends on networks and im ⁃
+pedances . Generally , common mode (CM) 
+and differential mode (DM) filters are used 
+for power converters . The conventional filter 
+design flow is proposed by SHIH et al .[3]
+EMI filters are widely used with the ad ⁃
+vantages of simple structure and low cost[4]. 
+We first measure and compare the noise 
+spectrum of the wireless base station power 
+supply prototype with and without the origi ⁃
+nal filter[5]. The results show that the ground 
+impedance is the key factor affecting the in ⁃
+sertion loss (IL) of the EMI filter . After that , 
+based on the improved insertion -loss 
+method[6], the electrical model of the source 
+impedance of the prototype is established 
+by combining measurement and theory , and the accuracy of the insertion -loss method to extract the source 
+impedance is verified by experiments[7–9]. Finally , the filter is 
+designed for the prototype , and the correctness of the EMI fil ⁃
+ter design is verified by simulation and measurement .
+2 Prototype Raw EMI Noise
+The EMI spectrum of the prototype without filters is ob ⁃
+tained by the measurement shown in Fig . 1.
+▲Figure 1. Noise spectrum without EMI filterCM: common mode     DM : differential mode     EMI : electromagnetic interferenc(a) L noise (b) N noise
+(c) CM noise (d) DM noisef/Hz f/Hzf/Hz f/HzVoltage/dB μV
+Voltage/dB μVCurrent/dB μA1×1051×1061×1071×10860
+40
+20
+060
+40
+20
+01×1051×1061×1071×108
+60
+40
+20
+0
+1×1051×1061×1071×108
+Current/dB μA60
+40
+20
+0
+1×1051×1061×1071×108
+95

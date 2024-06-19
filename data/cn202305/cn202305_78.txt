@@ -1,0 +1,74 @@
+NetGPT ：超越个性化生成服务的内生智能网络架构 陈宇轩  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5用时难度增加的问题 。意图驱动网络需要在取代人工配置网
+络和对网络问题做出反应之前 ，充分理解客户的实时需
+求[15]。如何准确地理解客户的意图 ，并将其转化为可行的网
+络配置 ，是最根本的问题之一 。边缘 LLM 能够满足这种意
+图识别过程[15]，并精确理解口头陈述 。通过采用类似于上文
+提到的微调方法 ，边缘 LLM 可以理解和提取任意自然语言
+输入中的关键词 。值得注意的是 ，这样的微调可以很容易地
+完成 。在实验中 ，我们仅使用了 4 000个输入关键字对即可
+实现优秀的效果 。图6展示了 GPT- 2-base 识别客户意图的
+相应能力 。从图 6可以看出 ，当一个用户想要建立从 Access 
+1到Cloud 2的10 Gbit/s 连接并提供流量保护时 ，GPT- 2-base
+模型能够很方便地提取出所需的关键词 ，且不受语句差异的
+影响 。因此 ，GPT- 2-base 模型避免了繁琐的模板设计和客
+户学习过程 。相对于传统 NLP 工具 ，LLM 显示了更加强大的
+意图驱动网络实现功能 。
+4 结束语
+本文中 ，基于 LLM ，我们提出了一种内生智能网络架构
+NetGPT ，从而提供超越个性化生成内容的网络服务 。通过
+有效的云边协同 ，我们在边缘和云端部署一些具有代表性的
+开源 LLM （如GPT- 2-base 模型和 LLaMA 模型 ） 。在采用基
+于LoRA 的参数高效微调技术后 ，我们再对开源 LLM 的一致性进行评估 。实验证明 ，NetGPT 用于基于位置的个性化服
+务是可行的 。除此之外 ，我们还强调了 NetGPT 所需的一些
+实质性架构更改 （例如 ，深度 C&C 集成和逻辑 AI工作流 ） 。
+在此基础上 ，我们提出一个可能的边缘 LLM 许可网络管理
+与编排统一人工智能解决方案 。
+尽管 NetGPT 是一种很有前景的架构 ，但在本文中我们
+并未讨论其面临的研究挑战 。要成功地部署 NetGPT ，必须
+解决如下几个问题 ：
+• 如何在设备终端上实现推理和微调 ，以符合受限成本
+中计算能力的实质性约束 ？
+• 如何模仿新必应􀃒实现 LLM 在线学习来满足边缘无线
+环境动态性要求 ？
+• 由于数值推理的灵敏度有限 ，可能存在幻觉效应 ，如
+何进一步提高 LLM 的严谨性 ，从最新的 LLM 中可以得到哪
+些启示 ？同时如何将 LLM 评估指标与逻辑 AI工作流相结合
+导出适当的工作流 ？
+• 除了更高层的网络优化 ，如何开发基于 LLM 的物理和
+无线电链路层 ，体现 LLM 的优势 ？如何使用 LLM 实现低延
+迟、超可靠通信 ？如何对无线通信系统进行优化 ，以实现
+LLM 在将来的网络上的有效部署与操作 ？
+我们期待着未来有更多的研究工作能在这个领域展开 ，
+从而为 LLM 和网络架构的结合以及内生智能网络的构建带
+􀃒新必应是指 GPT 授权的搜索引擎 ，可通过 https ://www .Bing.com/New 访问 。
+图6 用于意图推理的边缘大型语言模型微调的
+GPT- 2-base
+接入网
+云端5 Gbit/s
+2 Gbit/s
+10 Gbit/s1
+2
+2
+13带宽
+云端接口
+接入接口
+交通保护10 Gbit/s
+Cloud two
+Access one
+Yes5 Gbit/s
+Cloud one
+Access three
+No2 Gbit/s
+Cloud two
+Access two
+YesPlease set a connection between Cloud point Cloud point 
+twotwo and Access point oneAccess point one ， with 1010 Gbit/s  Gbit/s 
+bandwidth and Traffic protectionbandwidth and Traffic protection ..My connection point is Access threeAccess three  and I 
+need the connection to Cloud oneCloud one ， bandband ‐‐
+width width is 55 Gbit/s Gbit/s ，， traffic protection isn't  traffic protection isn't 
+neededneeded ..Access twoAccess two  to cloud twocloud two ，，
+22 Gbit/s Gbit/s .. Traffic protection 
+is mandatorymandatory ..
+74

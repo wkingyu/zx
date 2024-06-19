@@ -1,0 +1,87 @@
+Fig. 1. Deployment 
+architecture of SPN 
+Ethernet ring 
+network.
+ 
+ 
+ 
+ 
+ 
+ 
+maintenance brought about by the traditional siloed 
+construction of mining communication networks, 
+ZTE has proposed a solution: building a backbone 
+transport network in mining areas to carry 
+production services both above and under the mine. 
+This involves constructing a physical ring network 
+using metro transport network (MTN) hard slicing 
+isolation technology, which provides multiple logical 
+ring networks. These networks ensure service quality 
+for various intelligent mining subsystems, oﬀering 
+low latency, low jitter, high reliability, high security, 
+and good scalability in transmitting data across 
+complex coal mine environments through ring 
+networking (Fig. 1).
+ A pair of slicing packet network (SPN) 
+convergence devices are used for core 
+convergence, with SPN access devices above the 
+mine and SPN CPEs under the mine. A 100G ring 
+network or a 50G ring network is used above and 
+under the mine respectively to form a transmission 
+self-healing protection ring, intersecting at active 
+and standby centers with a bandwidth of at least 
+100 Gbps. The active and standby convergence 
+nodes meet or exceed 2.0 level-3 information 
+security standards, oﬀering uni/f_ied service 
+interfaces for connection with data centers or 
+oﬃce networks. Leveraging SPN’s low-delay 
+feature, ring delay in the mining area is less 
+than 1 ms, with multiple protection technologies 
+like node protection, link protection, and 
+active/standby redundancy, ensuring a highly 
+reliable and intelligent mine backbone transmission system. 
+To meet data transmission and service 
+requirements for each service subsystem, the 100G 
+SPN Ethernet ring network is divided into /f_ive slices: 
+network per site, industrial video, integrated 
+monitoring, industrial control, and 5G transmission 
+(Fig. 2). These slice subsystems employ virtual routing 
+forwarding (VRF) to isolate services, ensuring 
+hardware isolation for diﬀerent service types and 
+software isolation for identical service types. This 
+approach guarantees reliable service transmission 
+while facilitating classi/f_ied service management and 
+access for diﬀerent service terminals. L2VPN over 
+MPLS-TP tunnels or L3VPN over SR-TP tunnels can be 
+selected based on service requirements and features 
+to carry services. SPN convergence devices at both 
+ends operate in hot or cold standby mode, with one 
+end connected to a server for node protection. 
+Within each slice, multiple PWs from the SPN access 
+device at one end to the SPN convergence device at 
+the same end can share the same tunnel, with tunnel 
+protection con/f_igured. Network-side HQoS 
+con/f_iguration is adjustable as required. 
+Refer to Table 1 for bandwidth con/f_iguration and 
+slice allocation details for service systems. The 
+industrial video slice is allocated 30 Gbps bandwidth, 
+the 5G transmission slice has 20 Gbps, and the 
+remaining three slices each have 10 Gbps. 
+Additionally, 20 Gbps bandwidth is reserved, 
+allowing for /f_lexible allocation and adjustment of 
+slice bandwidth as needed. 
+This solution leverages 5G transport technology, 
+100G backbone ring network
+Under the mineMining area
+Coal 4Coal 6
+Main coal
+TransferSPN access deviceSPN convergence device
+100G ring network
+100G ring networkAbove the mine
+Coal 5
+GasCoal skipCentral 
+transformationMain hoistMulti-purpose 
+buildingMain fanAnnex 
+buildingAuxiliary 
+hoistAPR 2024
+33 

@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Special Topic   Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression
+unit, the layers will be partitioned into the same group . Other ⁃
+wise, we compare the difference in the length of the main di ⁃
+rection axis of the minimum bounding box in the correspond ⁃
+ing layer of the adjacent frame with the specified layer before 
+and after the number in the adjacent frame . The layer with the 
+smallest difference is then partitioned into the same group . 
+This ensures a fine partition between adjacent layers , and so 
+as to realize the fine partition of the adjacent relationship .
+2) Spatio -temporal context -guided prediction mode
+Based on the partition , we apply and expand the prediction 
+mode mentioned in Section 3.3. We incorporate inter -frame 
+context in the process , meaning that the first layer of each 
+group , which serves as the R -layer , may not necessarily yield 
+the best prediction result . To fully explore the potential corre ⁃
+lation between adjacent layers , we need to expose the optimal 
+prediction mode .
+Firstly , we calculate the prediction residuals for each 
+sliced -layer in the current group when used as the R -layer . By 
+comparing the prediction residuals in all cases , we select the 
+R-layer with the smallest absolute residual value as the best 
+prediction mode . For R -layer shortest path calculation , we use 
+the travelling salesman algorithm to compute the shortest path 
+of the R -layers under the best prediction mode . Moreover , we 
+calculate the prediction residuals for each group under their 
+respective best prediction modes . We also record the occu ⁃
+pancy length and R -layer information of each group for further 
+compression in subsequent processing .
+In the follow -up operation , we use arithmetic coding based 
+on the best context selection for the above information to com ⁃
+plete the entire process of the multi -frame point cloud geom ⁃
+etry compression algorithm .
+3.5 Arithmetic Coding Based on Context Dictionary
+The massive amount of context in point cloud significantly 
+burdens the overall compression scheme in terms of arithme ⁃
+tic coding computational complexity . We improve the arithme ⁃
+tic coding from the following two modules . 1) We set up a con ⁃
+text dictionary , and select and update the global optimal value 
+according to the entropy estimate , and then 2) we adopt adap ⁃
+tive encoders to efficiently calculate the upper and lower 
+bounds of probabilities .
+1) Context dictionary constructionWe construct a context dictionary that represents a triple 
+queue , consisting of coordinates of the point cloud at each 
+sliced -layer and the integer representation of its correspond ⁃
+ing non -empty context . Thus , we associate the voxels con ⁃
+tained in the point cloud with the minimum bounding box of 
+each layer with its non -empty context . To illustrate the con ⁃
+struction of the triple queue array of the context dictionary 
+clearly , we give an intuitive explanation in Fig . 2.
+For the shaded two squares in Fig . 2, only the context map 
+positions pc1 and pc2 are considered . The context contribution 
+along the x-axis and the y-axis is recorded to the two queues 
+Q X- and Q Y- respectively . Thus the context dictionary con ⁃
+sists of Q X- and Q Y-. Queue elements with the same coordi ⁃
+nates are integrated into a triplet , the context integer represen ⁃
+tation of which is computed as the sum of the context contribu ⁃
+tions of the merged triplet .
+Therefore , the context of each voxel can be computed as the 
+sum of the independent contributions of occupied voxels in its 
+context dictionary . This structure helps determine whether a 
+voxel should be added to the context dictionary without te ⁃
+dious matrix lookups , resulting in a significant reduction in 
+computational complexity and runtime .
+2) Probability calculation
+To calculate entropy probability , both the length of the se ⁃
+quence and the context of its constituent voxels must be taken 
+into account . In this module , we design an adaptive encoder 
+that first estimates the upper and lower cumulative probability 
+bounds for each group from the context dictionary , and then 
+encodes it subsequently .
+First of all , we construct a binary tree based on the Markov 
+chain model . By traversing the occupancy of voxels , we assign 
+values of 1 and 0 to occupied and empty voxels , respectively , 
+and calculate the probability based on the tree structure . Start ⁃
+ing from the root node , when a voxel is occupied , we record 
+the left child node as 1. Otherwise , we mark the right child 
+node as 0 and proceed to the next step of judgment and divi ⁃
+sion. The calculation formula for the run probability of occu ⁃
+pied voxels can be found in Eq . (4).
+P(l)=p(1|ci)∙∏i-1l-1p(0|ci) , (4)
+where l is the length of the run ending at the occupied voxel .
+▲Figure 2. Construction of the context dictionaryVoxel occupancy Context contribution Queue structure
+Coordinate x-offset y-offset Contribution
+(x1, y1)
+(x2, y2)
+(x1, y1)+1
++1
+−−
+−
++123
+23
+21Q X-=é
+ëê
+êêêù
+ûú
+úúú (x1+1, y1, 23)
+(x2+1, y2, 23)=é
+ëê
+êêêù
+ûú
+úúú (x1+1, y1, 23)
+(x1, y1+1, 23)
+Q Y-=[ ] (x1+1, y1, 23)
+Q =é
+ëê
+êêêù
+ûú
+úúú (x1+1, y1, 23)
+((x1, y1+1, 23+21)pc1
+pc2
+22

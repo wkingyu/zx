@@ -1,0 +1,90 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate    Research Papers
+pairs , and a matching network . In this paper , we design a 
+220 GHz sub -harmonic mixer using Schottky diodes , and the 
+circuit substrate is based on a 50 μm quartz substrate .
+The mixer and the internal circuit are shown in Fig . 3. The 
+cavity is made of brass , which is gold -plated on the surface . 
+During the test , the output power of the LO link is controlled 
+within 3–8 mW , and the input RF signal power is uniformly 
+adjusted to −10 dBm .
+The measured result shows that when the LO and RF signal 
+input 204 GHz and 195–220 GHz , respectively , the fre ‐
+quency conversion loss is less than 10 dB, which is 8.8 dB at 
+minimum , as shown in Fig . 4(a). After changing the LO fre ‐quency to 216 GHz , the frequency conversion loss is less than 
+10.3 dB, which is 8.9 dB at minimum , as shown in Fig . 4(b).
+3.2 220 GHz Duplexer Study
+In this paper , the designed duplexer adopts the reactance -
+coupled bandpass filter structure , as shown in Fig . 5. The 
+mode of each resonant cavity is TE101 and the resonant cavity 
+length is approximated as a half wavelength . The parameters 
+affecting the filter performance are mainly the length of each 
+resonant cavity li and the width of each coupling window wi. 
+Changing li has a significant effect on the center frequency , 
+and the length of the resonant cavity near the center l2 has a 
+higher effect on the center frequency than l1. Adjusting wi has 
+a certain effect on the in -band characteristics and bandwidth .
+Two different band filters with center frequencies of 203 GHz 
+and 214 GHz are designed . It can be seen from Fig . 6 that the 
+simulation results show the bandwidths are 6 GHz and the in -
+band insertion loss (IL) is lower than 0.1 dB.
+▲Figure 3. 220 GHz sub -harmonic mixer(b) Internal circuit (a) Overall appearance
+(a)
+(b)
+IF: intermediate frequency     RF : radio frequency
+▲Figure 4. Frequency conversion loss test results of mixers with differ ‑
+ent LO frequencies : (a) 204 GHz and (b) 216 GHz
+▲Figure 5. Filter structure diagram
+▲Figure 6. Filter simulation results(a) 203 GHz filter 
+(b) 213 GHz filterRF frequency/GHz190 195 200 205 210 215 220 225 230IF frequency
+Conversion lossIF frequency/GHz30
+25
+20
+15
+10
+5
+013
+12
+11
+10
+9
+8
+Conversion loss/dB
+IF frequency
+Conversion lossIF frequency/GHz30
+25
+20
+15
+10
+5
+0
+190 195 200 205 210 215 220 225 230
+RF frequency/GHz13
+12
+11
+10
+9
+8
+Conversion loss/dBw1w2w3t
+l2 l1S-parameter/dB
+Frequency/GHz200 205 210 215 220 225 230S11
+S2110
+0
+-10
+-20
+-30
+-40
+-50
+-60
+-70S-parameter/dB10
+0
+-10
+-20
+-30
+-40
+-50
+-60
+-70
+Frequency/GHz190 195 200 205 210 215 220S11
+S21
+65

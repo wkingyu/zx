@@ -1,0 +1,88 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems    Research Papers
+each subcarrier and the FDBF with zero -forcing (ZF), are ad ‐
+opted , and their performance curves are labeled as “FD-SVD” 
+and “FD-ZF”, respectively .
+It can be seen from this figure that the proposed HBF -WMO 
+algorithm with the FC architecture performs well with far fewer 
+RF chains than antenna elements , and its performance gain 
+over the PC architecture is about 4 dB in CDL -A. The reason is 
+that there are much fewer entries that can be optimized in the 
+HBF matrix of the PC architecture than the FC architecture , 
+since the PC architecture employs far fewer phase shifters . Re‐
+sults also show that the OL architecture achieves the compro ‐
+mise between the system performance and hardware costs , 
+when compared with the FC and PC architectures . In particu ‐
+lar, it achieves higher spectral efficiency than the PC architec ‐
+ture at the cost of higher power consumption and implementa ‐
+tion complexity introduced by more phase shifters . For ex ‐
+ample , with 192 more phased shifters employed , the first type 
+of OL architecture has a performance gain of about 1 dB over 
+the PC architecture . According to Ref . [24], based on the state -
+of-the-art technique , the power consumed by each phase shifter 
+is about 10 mW . With the size of overlapped antennas among 
+different subarrays growing , the performance improvement of 
+the OL architecture over the PC architecture gets bigger . For ex ‐
+ample , with the third type of OL architecture , the performance 
+gain is about 3 dB over the PC one .
+To verify the generality of the proposed HBF -WMO algo ‐
+rithm , we provide in Figs . 5 and 6 the spectral efficiency per ‐
+formance with different numbers of transmit antennas and RF 
+chains under fixed hybrid architectures . The label “OL 1/2” 
+▲Figure 3. Diagram of three types of the overlapped subarray -
+connected architecture at the transmitter with Nt=512, Nt
+RF=4 
+▲Figure 4. Spectral efficiency vs SNR for the hybrid beamforming (HBF -
+WMO ) algorithm with different fixed hybrid architectures for a massive 
+multiple -input multiple -output -orthogonal frequency division multiplexing 
+(MIMO -OFDM ) system with N=64, Nt=512, Nr=8, Nt
+RF=4, Nr
+RF=2, Ns=2FC: fully -connected
+FD: fully -digital
+OL: overlapped
+PC: partially -connectedSNR: signal to noise ratio
+SVD: singular value decomposition
+ZF: zero forcing
+▲Figure 5. Spectral efficiency vs number of transmit antennas for the 
+HBF -WMO algorithm with different fixed hybrid architectures for a 
+massive multiple -input multiple -output -orthogonal frequency division mul ‑
+tiplexing (MIMO -OFDM ) system with SNR =0 dB, N=64, Nr=8, Nt
+RF=
+Nr
+RF=2, Ns=2FC: fully -connected
+FD: fully -digital
+OL: overlapped
+PC: partially -connectedSNR: signal to noise ratio
+SVD: singular value decomposition
+ZF: zero forcingOverlapped type 1
+Overlapped type 2
+Overlapped type 3
+SNR/dB−20       −15        −10         −5           0            5           10          1525
+20
+15
+10
+5
+0FD-SVD
+FD-ZF
+FC
+OL type 3
+OL type 2
+OL type 1
+PCSpectral efficiency/ (bit•s−1•Hz−1)FD-SVD
+FD-ZF
+FC
+OL type 3
+OL type 2
+OL type 1
+PCFD-SVD
+FD-ZF
+FC
+PC
+OL 1/2
+Nt32               96                160              224             288              352         400Spectral efficiency/ (bit•s−1•Hz−1)15
+12
+9
+6
+3
+0
+101

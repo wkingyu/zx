@@ -1,0 +1,96 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Towards Near -Field Communications for 6G: Challenges and Opportunities    Special Topic
+istics , distance information needs to be considered in the near -
+field channel modeling . Furthermore , with the emergence of 
+large -scale antenna arrays , the dimension of the channel be ⁃
+comes large and the computational complexity for transmis ⁃
+sion scheme design also greatly increases , which becomes a 
+key design challenge in near -field scenarios . Moreover , the 
+unique spatial non -stationary characteristics in the near field 
+make the performance characteristics and algorithm design 
+different from those in the far field with conventional station ⁃
+ary channels . This necessitates the exploration of more accu ⁃
+rate near -field channel models and raises a new challenge : 
+how to design new transmission schemes based on the charac ⁃
+teristics of the near -field channel .
+3.3.2 Existing Works
+The near -field channel introduces several new channel 
+characteristics : the spherical wave property of the propagating 
+signal and the spatial non -stationary property . Recently , some 
+researchers have confirmed the existence of spatial non -
+stationary properties in near -field channels[26, 57], i.e., the user’
+s transmitted signal may only be received by a small part of 
+the array . Based on this characteristic , the authors of Ref . [26] 
+proposed a channel model based on VRs . To reduce the com ⁃
+putational complexity and by exploiting the nature of VRs , the 
+authors of Ref . [58] proposed a graph -based linear receiving 
+algorithm inspired by random access . Moreover , an antenna 
+selection algorithm was proposed in Ref . [59] to improve the 
+total energy efficiency of the system . However , the above work 
+assumes that the VR information is known and the arrays 
+other than the VR receive signal amplitude with values of 
+zero, which is impractical . To fill these gaps , the authors of 
+Ref. [60] first derived a near -field channel model considering 
+antenna polarization based on the EM field theory . Then , a de ⁃
+tection algorithm for VRs was proposed , which can obtain VR 
+information of different users . Finally , the authors proposed a 
+linear detection algorithm based on VRs , exploiting VRs infor ⁃
+mation for different users to reduce the computational com ⁃
+plexity . In the following part , we present details of the re ⁃
+search work in Ref . [60].3.3.3 Transmission Scheme Design for Near -Field with Spatial 
+Non -Stationaries
+The authors of Ref . [60] considered an uplink transmission 
+system with multiple single -antenna users and an XL -MIMO 
+base station , as shown in Fig. 9.
+The channel between the (mx, my)-th antenna element of 
+the base station and user k can be expressed as
+hk,mx,my=ξk,mx,mye-jχk,mx,my,(26)
+where ξk,mx,myand χk,mx,my denote the channel coefficient and 
+phase , respectively .
+Then , the authors derive a near -field channel model that 
+takes polarization mismatch into account by using the inhomo ⁃
+geneous Helmholtz wave equation and Green ’s function . We 
+first define the Δx and Δy as the antenna spacing along the x-
+axis and y-axis, respectively . After that , by assuming the loca ⁃
+tion of user k and the (mx,my)-th antenna element as uk=
+[uk,x,uk,y,uk,z]T and pmx,my=[mΔx, mΔy, 0]T, respectively , the 
+channel coefficient and phase are given by :
+▲Figure 8. Element number versus RMSE of estimated parametersFF: far -field     RIS : reconfigurable intelligent surface     RMSE : root mean square error     UE : user equipment
+▲Figure 9. System model in Ref . [60]XL-MIMO : extremely large -scale multiple -input multiple -outputNumber of RIS elementsRMSE of locations100
+10-1
+10-2
+10-3
+1 500   2 000     2 500    3 000    3 500     4 000Prop sum -RMSE
+Prop RMSE of near UE
+Prop RMSE of far UE
+FF sum -RMSE
+FF RMSE of near UE
+FF RMSE of far UE100
+10-1
+10-2
+10-3
+10-4RMSE of wProp sum -RMSE
+Prop RMSE of near UE
+Prop RMSE of far UE
+FF sum -RMSE
+FF RMSE of near UE
+FF RMSE of far UE
+Number of RIS elements1 500   2 000     2 500    3 000    3 500     4 000
+Number of RIS elements1 500   2 000     2 500    3 000    3 500     4 000Prop sum -RMSE
+Prop RMSE of near UE
+Prop RMSE of far UE
+FF sum -RMSE
+FF RMSE of near UE
+FF RMSE of far UE100
+10-1
+10-2
+10-3RMSE of φ
+XL-MIMOy
+zxUser 1
+User kLx
+AyΔx
+uk=[uk,x, uk,y, uk,z]T…
+γk,O ψe
+kψe
+k(a) (b) (c)
+11

@@ -1,0 +1,121 @@
+大模型关键技术与应用 韩炳涛  等 企业视界
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 25 结束语
+随着 ChatGPT 热度的逐渐褪去 ，对大模型的投资也逐渐
+趋于理性 。大模型如何产生真正的商业价值成为全行业都在
+思考 、探索的问题 。一方面 ，随着大模型规模的不断增加 ，
+模型能力在提升的同时 ，算力成本也在不断飙升 ，这给大模
+型长期可持续发展带来了不确定性 ，因此以实现更低成本算
+力和更高效率算法为目标的核心技术亟待突破 ；另一方面 ，
+以Agent 为代表的应用层技术在解决大模型固有问题并大幅
+拓展应用边界的潜力还未被完全发掘 ，业界对 Agent 的关注
+度持续上升 。大模型机遇与挑战并存 ，加速发展的趋势在中
+长期不会改变 。
+参考文献
+[1] VASWANI A , SHAZEER N , PARMAR N , et al . Attention is all you 
+need [C]//Proceedings of the 31st International Conference on 
+Neural Information Processing Systems . ACM , 2017 : 6000 -6010 . 
+DOI: 10.5555 /3295222 .3295349
+[2] HOCHREITER S , SCHMIDHUBER J . Long short-term memory 
+[J]. Neural computation , 1997 , 9(8): 1735 -1780 . DOI : 10.1162 /
+neco .1997 .9.8.1735
+[3] RADFORD A , NARASIMHAN K . Improving language 
+understanding by generative pre-training [EB/OL ]. [2024 -03-10]. 
+https ://cdn .openai .com/research-covers/language-unsupervised/
+language_understanding_paper .pdf
+[4] DEVLIN J , CHANG M W , LEE K , et al . BERT : pre-training of deep 
+bidirectional transformers for language understanding [EB/OL ]. 
+(2018 -10-11)[2024 -03-10]. https ://arxiv .org/abs/ 1810 .04805
+[5] BROWN T B , MANN B , RYDER N , et al . Language models are 
+few-shot learners [EB/OL ]. (2020 -05-28) [2024 -03-10]. https ://
+arxiv.org/abs/ 2005 .14165
+[6] TOUVRON H , LAVRIL T , IZACARD G , et al . Llama : open and 
+efficient foundation language models [EB/OL ]. [2024 -03-05]. 
+https ://arxiv .org/abs/ 2302 .13971
+[7] GU A , DAO T . Mamba : linear-time sequence modeling with 
+selective state spaces [EB/OL ]. [2024 -03-01]. https ://arxiv .org/
+abs/2312 .00752
+[8] TOUVRON H , MARTIN L , STONE K , et all . Llama 2: open 
+foundation and fine-tuned chat models [EB/OL ]. (2023 -07-18)
+[2024 -03-10]. https ://arxiv .org/abs/ 2307 .09288
+[9] DAO T . FlashAttention- 2: faster attention with better parallelism 
+and work partitioning [EB/OL ]. (2023 -07-17)[2024 -03-10]. https :
+//arxiv .org/abs/ 2307 .08691
+[10] BAI J , BAI S , CHU Y F , et al . Qwen technical report [EB/OL ]. 
+(2023 -09-28)[2024 -03-11]. https ://arxiv .org/abs/ 2309 .16609
+[11] XIONG W H , LIU J Y , MOLYBOG I , et al . Effective long-context 
+scaling of foundation models [EB/OL ]. (2023 -09-27)[2024 -03-
+12]. https ://arxiv .org/abs/ 2309 .16039
+[12] JIANG A Q , SABLAYROLLES A , MENSCH A , et al . Mistral 7B 
+[EB/OL ].[2024 -03-12]. https ://arxiv .org/abs/ 2310 .06825
+[13] RADFORD A , KIM W J , HALLACY C , et al . Learning transferable 
+visual models from natural language supervisior [EB/OL ]. (2021 -
+02-26)[2014 -03-05]. https ://arxiv .org/abs/ 2103 .00020
+[14] LI J, LI D , SAVARESE S , et al . Blip- 2: Bootstrap-ping language-
+image pre-training with frozen image encoders and large 
+language models [EB/OL ]. (2023 -01-30) [2024 -03-12]. https ://
+arxiv.org/abs/ 2301 .12597[15] LIU H , LI C Y , WU Q Y , et al . Visual instruction tuning [EB/OL ]. 
+[2024 -03-10]. https ://arxiv .org/abs/ 2304 .08485
+[16] DONG X Y , ZHANG P , ZANG Y H , et al . InternLM-XComposer 2: 
+mastering free-form text-image composition and 
+comprehension in vision-language large model [EB/OL ]. (2024 -
+01-29)[2024 -03-10]. https ://arxiv .org/abs/ 2401 .16420
+[17] Huggingface models [EB/OL ].[2024 -03-10]. https ://huggingface .
+co/01-ai/Yi-VL- 34B
+[18] ROMBACH R , BLATTMANN A , LORENZ D , et al . High-
+resolution image synthesis with latent diffusion models [EB/OL ]. 
+(2021 -12-20)[2022 -04-13]. https ://arxiv .org/abs/ 2112 .10752
+[19] PEEBLES W , XIE S N . Scalable diffusion models with 
+transformers [C]//Proceedings of IEEE/CVF International 
+Conference on Computer Vision (ICCV ). IEEE , 2023 : 4195 -4205 . 
+DOI: 10.1109 /iccv51070 .2023 .00387
+[20] OpenAI . Video generation models as world simulators [EB/OL ]. 
+[2024 -03-13]. https ://openai .com/research/video-generation-
+models-as-world-simulators
+[21] SHOEYBI M , PATWARY M , PURI R , et al . Megatron-LM : 
+training multi-billion parameter language models using model 
+parallelism [EB/OL ]. [2024 -03-10]. https ://arxiv .org/abs/
+1909 .08053
+[22] RAJBHANDARI S , RASLEY J , RUWASE O , et al . ZeRO : memory 
+optimizations toward training trillion parameter models [C]//
+Proceedings of SC 20: International Conference for High 
+Performance Computing , Networking , Storage and Analysis . 
+IEEE , 2020 : 1-16. DOI: 10.1109 /sc41405 .2020 .00024
+[23] CHEN T , XU B , ZHANG C Y , et al . Training deep nets with 
+sublinear memory cost [EB/OL ].[2024 -03-10]. https ://arxiv .org/
+abs/1604 .06174
+[24] HU E J , SHEN Y Y , WALLIS P , et al . Lora : Low-rank adaptation 
+of large language models [EB/OL ]. (2021 -06-17)[2024 -03-10]. 
+https ://arxiv .org/abs/ 2106 .09685
+[25] TOUVRON H , MARTING L , STONE K , et al . Llama 2: open 
+foundation and fine-tuned chat models [EB/OL ]. (2023 -07-18)
+[2024 -03-05]. https ://arxiv .org/abs/ 2307 .09288
+[26] RAFAILOV R , SHARMA A , MITCHELL E , et al . Direct preference 
+optimization : your language model is secretly a reward model 
+[EB/OL ]. [2024 -03-10]. https ://arxiv .org/abs/ 2305 .18290
+[27] XU C , SUN Q , ZHENG K , et al . Wizardlm : empowering large 
+language models to follow complex instructions [EB/OL ]. (2023 -
+04-24)[2024 -03-10]. https ://arxiv .org/abs/ 2304 .12244
+[28] LUO Z , XU C , ZHAO P , et al . WizardCoder : empowering code 
+large language models with evol-instruct [EB/OL ]. [2024 -03-
+10]. https ://arxiv .org/abs/ 2306 .08568
+[29] WEI Y X , WANG Z , LIU J , et al . Magicoder : source code is all 
+you need [EB/OL ]. (2023 -12-04)[2024 -03-10]. https ://arxiv .org/
+abs/2312 .02120
+[30] TUFANO M , DRAIN D , SVYATKOVSKIY A , et al . Unit test case 
+generation with transformers and focal context [EB/OL ]. (2020 -
+09-11)[2024 -03-10]. https ://arxiv .org/abs/ 2009 .05617
+[31] STEENHOEK B , TUFANO M , SUNDARESAN N , et al . 
+Reinforcement learning from automatic feedback for high-
+quality unit test generation [EB/OL ]. (2023 -10-03) [2024 -03-
+09]. https ://arxiv .org/abs/ 2310 .02368
+[32] SHA Z Y , HE X L , BERRANG P , et al . Fine-tuning is all you need 
+to mitigate backdoor attacks [EB/OL ]. (2022 -12-18) [2024 -03-
+10]. https ://arxiv .org/abs/ 2212 .09067
+[33] LIU K , DOLAN-GAVITT B , GARG S . Fine-pruning : defending 
+against backdooring attacks on deep neural networks [EB/OL ]. 
+(2018 -05-30)[2024 -03-10]. https ://arxiv .org/abs/ 1805 .12185
+[34] CHEN B , CARVALHO W , BARACALDO N , et al . Detecting 
+backdoor attacks on deep neural networks by activation 
+clustering [EB/OL ].(2018 -05-30)[2024 -04-10]. https ://arxiv .org/
+87

@@ -1,0 +1,142 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Special Topic   Towards Near -Field Communications for 6G: Challenges and Opportunities
+Hfar=αaUE
+far(θ,φ)(aTR
+far(θ,φ))T+
+∑
+l=1L
+βlaUE
+far(θl,φl)(aTR
+far(θl,φl))T.(7)
+2) Near -field channel
+As shown in Fig . 2, the NLoS channels in the near field ex ⁃
+ist between the transmitter and the UE due to the presence of 
+scatterers . Clearly , the NLoS channel can be divided into the 
+combination of two MISO channels , i.e., the channel from the 
+UE to the scatterer and the channel from the scatterer to the 
+transmitter . Therefore , the NLoS channel can be decoupled as 
+the product of two array response vectors :
+Hnear
+NLoS=∑
+l=1L
+βlaUE
+near(rl)(aTR
+near(rl))T,(8)
+where βl and rl denote the channel coefficients for the l-th 
+NLoS path and the location of the l-th scatterer , respectively . 
+And the near -field array response vector aUE
+near(rl) and aTR
+near(rl) 
+can be given by :
+aUE
+near(rl)=é
+ëêêêêe-j2π
+λ
+ 
+u-(Nr-1)2-rl,⋯,e-j2π
+λ
+ 
+u(Nr-1)2-rlù
+ûúúúúT
+,
+(9)
+aTR
+near(rl)=é
+ëêêêêe-j2π
+λ
+ 
+s-(Nt-1)2-rl,⋯,e-j2π
+λ
+ 
+s-(Nt-1)2-rlù
+ûúúúúT
+.
+(10)
+However , the LoS channel in the near field cannot be de ⁃
+coupled as the product of two array response vectors . Specifi ⁃
+cally , the LoS channel coefficient can be expressed as :
+[Hnear
+LoS]m,n=αm,ne-j2π
+λrm,n=αm,ne-j2π
+λ un-sm.(11)
+Therefore , the overall near -field channel with multi -path 
+components can be modeled as
+Hnear=Hnear
+LoS+∑
+l=1L
+βlaUE
+near(rl)(aTR
+near(rl))T.(12)
+2.2.2 MISO Channel Model Based on ULA Base Station
+To more intuitively understand the properties of the near -
+field channel , we next simplify it to the uniform linear array 
+(ULA ) model .
+We assume that the base station is equipped with Nt-ULA 
+antennas and the user is equipped with a single antenna . In 
+the case of ULA , we can ignore the z-axis and assume the loca ⁃
+tions of the m-th antenna element of BS and UE as u=
+[r0cosθ, r0sinθ]T and sm=[md, 0]T, ∀m=
+-(Nt-1)2,⋯,(Nt-1)2, respectively , where d denotes 
+spacing between two adjacent antenna elements . Therefore , the distance between the m-th antenna element of the transmit ⁃
+ter and UE can be expressed as :
+rm=u-sm=r02-2r0mdcosθ+m2d2
+                            ≈(a)
+r0-mdcosθ+m2d2sin2θ
+2r0  . (13)
+where (a) denotes the Taylor expansion approximation , which 
+is also called the Fresnel approximation[24]. Then , the near -
+field array response vector for the ULA channel is given by
+anear
+ULA(θ)=é
+ëê
+êêê
+êê
+ej2π
+λ( )-(Nt-1)/2)dcosθ-(-(Nt-1)/2)2d2sin2θ
+2r,⋯,
+ej2π
+λ((Nt-1)/2)dcosθ-((Nt-1)/2)2d2sin2θ
+2r)ù
+ûú
+úúú
+úúT
+. (14)
+For the far -field scenario , the distance rm can be approxi ⁃
+mated as rm=r0-mdcosθ. Based on this , the far -field array 
+response vector for the ULA channel can be expressed by :
+afar
+ULA(θ)=é
+ëêêêêe-j2π
+λ(-(Nt-1)/2)dcosθ),⋯, e-j2π
+λ(Nt-1)/2)dcosθù
+ûúúúúT
+.(15)
+Clearly , it can be observed from Eq . (14) that the phase of 
+the near -field array response vector is not a linear function of 
+m. However , for the far -field array response vector in Eq . (15), 
+the phase is a linear function of m.
+From the above derivation , it is evident that the far -field 
+plane wave assumption will result in an obvious error in the 
+practical near -field scenario . Moreover , the array response 
+vectors in the near -field channel are more complex , posing 
+challenges to conventional transmission scheme design and 
+channel estimation .
+2.3 Near -Field Channel with Spatial Non -Stationarity 
+Property
+In the near -field scenario , since the size of the transmitter ’s 
+antenna array is significantly increased , spatial non -stationary 
+properties[25–26] start to appear . Consequently , we introduce the 
+concept of spatial non -stationarities and VRs based on the mod ⁃
+eling of the near -field channel .
+As illustrated in Fig. 3, spatial non -stationarities mean 
+that due to the large array aperture , different parts of the an ⁃
+tenna array could have different views of the propagation en ⁃
+vironment . This property restricts the user to receiving only 
+a portion of the signal transmitted by the antenna array , 
+which is referred to as VR of the user . The VRs are formed 
+primarily due to two reasons as follows[12]. 1) Unequal path 
+loss: Based on the near -field channel , the increase in an ⁃
+tenna array size makes it impossible to ignore the difference 
+in path loss from different array elements to the user . Some 
+of the array elements that are farther away from the user suf ⁃
+06

@@ -1,0 +1,51 @@
+6G智能内生网络架构及关键技术分析 李文璟  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 56G智能内生网络架构及
+关键技术分析
+Architecture and Key Technologies of 6G Intelligent 
+Endogenous Network
+李文璟 /LI Wenjing ，喻鹏/YU Peng ，张平/ZHANG Ping
+（ 北京邮电大学网络与交换技术全国重点实验室 ，中国 北京 100876  ）
+(State Key Laboratory of Networking and Switching Technology , Beijing 
+University of Posts and Telecommunications , Beijing 100876 , China )DOI：10.12142 /ZTETJ .202305002
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231017 .0948.002.html
+网络出版日期 ：2023 -10-18
+收稿日期 ：2023 -08-05
+摘要 ：智能内生已成为 6G网络的重要特征之一 ，也是当前业界关注的重点 。首先解析了 6G智能内生网络 （IEN）的概念和特征 ，并对分层分面
+设计理念和典型架构进行了分析 。之后，总结和展望了 6G IEN 架构的标准化进展 。结合这些研究和进展 ，总结 6G IEN 面临的挑战 ，从知识表
+征与构建 、意图驱动 、分布式人工智能 （AI）和AI可解释性 4个角度分析了 6G IEN 的关键技术 ，为6G IEN 架构的进一步演进提供了参考依据 。
+关键词 ：6G；IEN；AI；网络架构
+Abstrac t:The intelligent endogenous network has become one of the important characteristics of the 6G network , and is also the focus of 
+the current industry . The concept and characteristics of 6G intelligent endogenous network (IEN) are analyzed , as well as the layered design 
+concepts and typical architectures of 6G IEN . Then the standardization progress of 6G IEN architecture is summarized . Based on research 
+and standardization progress , the challenges faced by 6G IEN are summarized , and the key technologies are analyzed from the perspectives 
+of knowledge characterization and construction , intention-driven , distributed artificial intelligence （AI）, and AI interpretability , which pro ⁃
+vides a reference for the further evolution of 6G intelligent endogenous network architecture .
+Keywords :6G; IEN; AI; network architecture
+引用格式 ：李文璟 , 喻鹏, 张平 . 6G智能内生网络架构及关键技术分析  [J]. 中兴通讯技术 , 2023 , 29(5): 2-8. DOI: 10.12142 /ZTETJ .202305002
+Citation ： LI W J , YU P , ZHANG P . Architecture and key technologies of 6G intelligent endogenous network [J]. ZTE technology journal , 2023 , 
+29(5): 2-8. DOI: 10.12142 /ZTETJ .202305002
+未来，人类将进入智能化时代 。6G将提供智能化时代的
+网络连接服务 ，实现人机物间的智能互联和智慧协
+同。与人工智能 （AI）技术深度融合 ，构建智能内生网络
+（IEN）已成为 6G网络的重要特征 。
+目前 5G网络的很多方面已经应用了 AI技术 。但是 5G
+网络在架构设计之初 ，并未考虑 AI技术 ，因此其智能化应
+用是在传统网络架构上进行优化和改造的 ，总体属于 “外挂
+式智能 ” 。外挂式智能是指采用 AI技术在某个或某些方面提
+高网络运行的智能化水平 ，而不是从架构层面根本性地引入
+智能化 。这种外挂式智能只是对传统架构和技术的局部增
+强，但在全面提升网络的智能化及自治水平方面就显得力不从心 。因此 6G网络需要在架构设计之初就全面考虑与智能
+化的深度融合 ，构建架构级智能内生 ，使智能成为网络的
+“基因 ” ，从而实现以 AI为基础的新型智能通信网络 。
+本文首先提出了 6G智能内生网络的概念和特征 ，然后
+对6G智能内生网络架构在产业界 、学术界的研究和标准化
+现状 、6G智能内生网络的关键技术进行了分析 ，为未来 6G
+智能化网络架构的演进提供了一定的参考依据 。
+1 智能内生网络概念及特征
+目前 ，学术界和产业界对智能内生概念并没有统一的定
+义。相对于外挂式智能 ，6G智能内生网络是与智能要素深
+度融合的网络 ，通过对智能要素的分布式编排 、部署和协同
+调度 ，按需实现对内对外的智能服务 。6G智能内生网络通
+过在端到端系统引入智能能力 ，助力网络实现无人工干预的 基金项目 ：国家自然科学基金联合基金重点项目 （U22B2031 ）
+02

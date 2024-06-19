@@ -1,0 +1,62 @@
+NetGPT ：超越个性化生成服务的内生智能网络架构 陈宇轩  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5来更多的创新和突破 。
+参考文献
+[1] OpenAI . GPT- 4 technical report [EB/OL ]. [2023 -08-10]. http://arxiv .org/abs/
+2303 .08774
+[2] ZHANG J Y , VAHIDIAN S , KUO M , et al . Towards building the federated 
+GPT: federated instruction tuning [EB/OL ]. (2023 -05-09) [2023 -08-10]. 
+http://arxiv .org/abs/ 2305 .05644
+[3] XU M , DU H , DUST N , et al . Unleashing the power of edge-cloud 
+generative AI in mobile networks : a survey of AIGC services [EB/OL ].(2023 -
+03-28)[2023 -08-10]. http://arxiv .org/abs/ 2303 . 16129
+[4] WU W , LI M S , QU K G , et al . Split learning over wireless networks : parallel 
+design and resource management [J]. IEEE journal on selected areas in 
+communications , 2023 , 41(4): 1051 -1066 . DOI : 10.1109 /
+JSAC .2023 .3242704
+[5] KANDPAL N , ERIC W , COLIN R , et al . Deduplicating training data mitigates 
+privacy risks in language models [EB/OL ]. (2022 -02-14) [2023 -08-10]. 
+https ://arxiv .org/abs/ 2202 .06539
+[6] LIU P F , YUAN W Z , FU J L , et al . Pre-train , prompt , and predict : a 
+systematic survey of prompting methods in natural language processing [J]. 
+ACM computing surveys , 55(9): 1-35. DOI: 10.1145 /3560815
+[7] TOUVRON H , THIBAUT L , GAYTUER L , et al . LLaMA : open and efficient 
+foundation language models [EB/OL ]. [2023 -08-10]. http ://arxiv .org/abs/
+2302 .13971
+[8] ZHANG B , SENNRICH R . Root mean square layer normalization [EB/OL ]. 
+(2019 -10-16)[2023 -08-12]. https ://arxiv .org/abs/ 1910 .07467
+[9] SHAZEER N . GLU variants improve transformer [EB/OL ]. (2020 -02-12)
+[2023 -08-10]. https ://arxiv .org/abs/ 2002 .05202
+[10] SU J , LU Y , PAN S , et al . RoFormer : Enhanced transformer with rotary 
+position embedding [EB/OL ]. (2022 -08-09)[2023 -08-12]. https ://arxiv .org/
+abs/2104 .09864
+[11] SU J , LU Y , PAN S , et al . LoRA : low-rank adaptation of large language 
+models [EB/OL ]. (2021 -04-20) [2023 -08-12]. https ://arxiv .org/abs/
+2104 .09864
+[12] TAORI R , GULRAJANI I . Stanford alpaca : an instruction-following llama 
+model [EB/OL ]. [2023 -08-10]. https ://github .com/tatsu-lab/stanford 
+alpaca
+[13] WANG Y , KORDI Y . Self-instruct : aligning language model with self 
+generated instructions [EB/OL ]. (2022 -12-20)[2023 -08-12]. https ://arxiv .
+org/abs/ 2212 .10560
+[14] ZHU J H , LI R P , DING G , et al . AoI-based temporal attention graph neural network for popularity prediction and content caching [EB/OL ]. (2022 -08-
+18)[2023 -08-10]. https ://arxiv .org/abs/ 2208 .08606 v1
+[15] PANG L , YANG C , CHEN D , et al . A survey on intent-driven networks [J]. 
+IEEE acess , 2020 , 8: 22862 –22873 . DOI: 10.1109 /ACCESS .2020 .2969208
+作 者 简 介
+陈宇轩 ，浙江大学在读博士研究生 ；研究方向为
+大型语言模型在通信场景中的应用及语义通信 。
+李荣鹏 ，浙江大学信息与电子工程学院副教授 、
+博士生导师 ；主要研究方向为智能通信网络 、网
+络智能 、网络切片等 ；曾入选首批博士后创新人
+才支持计划 ，获得浙江省杰出青年基金项目资助 ，
+并获得吴文俊人工智能优秀青年奖 、江苏省科学
+技术一等奖等 。
+张宏纲 ，浙江大学兼任教授 、博士生导师 ；长期
+从事无线通信与网络 、人工智能 、认知通信 、绿
+色通信 、复杂网络等领域的研究 ；曾获 2021 年
+IEEE 通 信 学 会 杰 出 论 文 奖 、 《IEEE Internet of 
+Things Journal 》最佳论文奖等 ；发表论文 265余
+篇，拥有 IEEE 802.15UWB 国际标准提案 16项、
+国际专利 3项。
+75

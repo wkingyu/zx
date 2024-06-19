@@ -1,0 +1,93 @@
+基于数字子载波和概率整形的相干光通信系统设计及应用 陆 源  等 技术广角
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4色散补偿能力一般只有 20 000～30 000 ps/nm 。测试充分验证
+了传输后 OSNR 、长期稳定性 、保护倒换能力 、频谱分配等系
+统传输指标 。结果表明 ，各项性能指标表现良好 。
+5 结束语
+本文讨论了数字子载波复用技术和概率整形技术在高速
+相干光通信系统中的优势 。数字子载波技术可以大幅降低色
+散补偿复杂度 ，使非线性损伤容忍度高于单载波 ，还可以进
+一步节省带宽 ，提高频谱效率 。概率整形技术可以进一步接
+近香农容限 ，实现频谱效率的灵活可调 。数字子载波复用技
+术和概率整形技术的联合使用 ，能够提升系统的 ROADM 穿
+通能力和传输容量 。现网测试结果表明 ，这两项技术在
+800G相干系统中具有很高的优越性 。
+参考文献
+[1] ROBERTS K , O'SULLIVAN M , WU K T , et al . Performance of dual-
+polarization QPSK for optical transport systems [J]. Journal of lightwave 
+technology , 2009 , 27(16): 3546 -3559 . DOI: 10.1109 /JLT.2009 .2022484
+[2] GEYER J C , FLUDGER C R S , DUTHEL T , et al . Efficient frequency domain 
+chromatic dispersion compensation in a coherent Polmux QPSK-receiver [C]//
+Proceedings of 2010  Conference on Optical Fiber Communication (OFC/
+NFOEC ), collocated National Fiber Optic Engineers Conference . IEEE , 2010 : 1-3[3] SHIEH W , HO K P . Equalization-enhanced phase 
+noise for coherent-detection systems using 
+electronic digital signal processing [J]. Optics 
+express , 2008 , 16(20): 15718 -15727 . DOI : 
+10.1364 /oe.16.015718
+[4] POGGIOLINI P , NESPOLA A , JIANG Y C , et al . 
+Analytical and experimental results on system 
+maximum reach increase through symbol rate 
+optimization [J]. Journal of lightwave technology , 
+2016 , 34(8): 1872 -1885 . DOI : 10.1109 /
+JLT.2016 .2516398
+[5] CHO J , WINZER P J . Probabilistic constellation 
+shaping for optical fiber communications [J]. 
+Journal of lightwave technology , 2019 , 37(6): 
+1590 -1607 . DOI: 10.1109 /JLT.2019 .2898855
+[6] YOSHIDA T , KARLSSON M , AGRELL E . 
+Hierarchical distribution matching for 
+probabilistically shaped coded modulation [J]. 
+Journal of lightwave technology , 2019 , 37(6): 
+1579 -1589
+[7] JANG J , LEE K B . Transmit power adaptation for multiuser OFDM systems 
+[J]. IEEE journal on selected areas in communications , 2003 , 21(2): 171-
+178. DOI: 10.1109 /JSAC .2002 .807348
+作 者 简 介
+陆源 ，山东省邮电规划设计院有限公司传输网支
+撑中心主任 、中国联通高级工程师 、全国优秀通
+信设计工作者 ；主要从事干线传输和本地传送网
+工程项目的咨询设计与管理工作 ；主持设计的项
+目获省部级奖项 20余项，参与制定通信行业标准
+1项，发表论文 20余篇，拥有国家专利 2项。
+牛文林 ，中国联通山东省分公司云网运营中心云
+网承载组组长 、技术总监 ，中国联通 B级传送网
+专家人才 ，中国联通高级工程师 ；具有丰富的网
+络建设和管理经验 ，担任多年省公司专家组成员 ，
+在推动数字化转型 、网络能力产品化 、智能化运
+营等方面做出突出贡献 ；带领团队获得 2020 年信
+息通信行业 “质量信得过班组 ” 。
+王永奔 ，中兴通讯股份有限公司算法系统工程师 ；
+主要从事相干光通信 DSP算法的研究与应用 。
+胡子荷 ，中兴通讯股份有限公司算法系统工程师 ；
+主要从事相干光通信 DSP算法的研究与应用 。
+BER：误码率     FEC ：前向纠错码      OSNR ：光信噪比
+图8 800G背靠背测试系统的 OSNR 容限OSNR26.00 28.00 30.00 32.00 34.0091.6 GBd@ 195.85
+95 GBd@ 195.85
+91.6 GBd@ 195.45
+95 GBd@ 195.45Pre-FEC BER1E-1
+1E-2
+1E-3图7 800G背靠背测试配置ASE：放大器自发辐射噪声
+MPI-RM：多通路接受主光通道接口参考点
+MPI-SM：多通路源主光通道接口参考点OA：光放大器
+ODU ：光分波器
+OMU ：光合波器OTU：光发射单元
+Rx：接收器
+Tx：发送器Txss
+OTU误码
+分析仪
+ASE
+噪声源光可调
+衰减器 A光谱
+分析仪OTUs1
+λ1
+OMU sn
+λnMPI-SMMPI-RM
+ODUR
+RxRR1
+Rnλ1
+λn
+……OA 光耦合器光可调
+衰减器 B
+OA……OTU
+OTU
+82

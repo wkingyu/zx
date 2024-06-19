@@ -1,0 +1,94 @@
+In mines, dozens of application systems exist, 
+spanning security, location, communication, video, 
+and industrial control systems. The Energy Bureau 
+has outlined basic requirements for application 
+systems of coal enterprise informatization, each 
+service system demanding speci/f_ic quality 
+assurances:
+The 5G system for mobile devices and personnel, 
+above and under the mine, has comprehensive 
+transmission requirements for large bandwidth, 
+low latency, and extensive connectivity. Safety 
+production monitoring networks must be 
+independently constructed per policy mandates.
+Remote control of the comprehensive mining 
+plane requires low latency and jitter.
+Various HD videos and VR/AR inspections require 
+high bandwidth.
+Various underground sensor systems require 
+extensive connectivity. 
+Each application system has multiple service 
+connection points. The main station system may be 
+located above the coal mine or within certain caverns 
+inside it. Industrial control systems entail stringent 
+safety requirements. The Energy Bureau clearly 
+speci/f_ies that the network security of intelligent 
+industrial control systems in fully mechanized mining 
+operations should be at level two or above, with 
+comprehensive consideration for data security in 
+each application subsystem. Traditionally, meeing 
+diverse service requirements involves separate 
+system construction, leading to high costs and 
+complex maintenance.
+SPN Ethernet Ring Network Solution
+To address the issues of high costs and complex 
+ 
+ 
+ 
+ 
+ 
+ 
+Application of SPN Ethernet Ring 
+Network in Smart Mine
+Application Background and 
+Requirements
+he successive proposals of digital 
+transformation strategies like Industry 
+4.0, Industrial Internet, and “Made in 
+China 2025” , along with the rapid 
+development of new-generation information 
+technologies such as the Internet of Things, big data, 
+cloud computing, and 5G, have propelled China’s 
+mining industry towards intelligence. With China’s 
+rich coal resources and limited oil and gas reserves, 
+the coal industry plays a pivotal role in the country’s 
+economic development. To promote integrated 
+development of intelligent technologies and coal 
+mining, eight departments including the National 
+Development and Reform Commission, Energy 
+Administration, and Coal Supervision Bureau jointly 
+issued the “Guiding Opinions on Accelerating the 
+Intelligent Development of Coal Mines” in March 
+2020. These opinions aim to ensure that by 2035, all 
+types of coal mines will achieve intelligence, 
+facilitating the creation of safe, eﬃcient, and 
+environmentally friendly coal mines supported by 
+intelligent perception, decision-making, and 
+automated execution.
+Intelligence in coal mining is the cornerstone 
+technology for enhancing the coal industry’s quality 
+development. It is of great signi/f_icance to boost the 
+safety standards in coal mines and ensure a steady 
+coal supply. Communication network infrastructure 
+is integral to coal mine intelligence. Mines require 
+diverse communication services, each with unique 
+network requirements. Traditional mines generally 
+deploy multiple physical /f_iber optic ring networks to 
+meet the communication needs of various 
+application systems.
+ 
+T
+Vice Director of 
+Mechanical and 
+Electrical Power 
+Department,   Shaanxi 
+Coal Chenghe Mining 
+Co., LtdLi Haichuan
+Deputy Director of 
+Communication Branch 
+of Tiandi (Changzhou) 
+Automation Co., LtdMeng Wei
+Industry Solution 
+Architect, ZTETang Xiaolan
+Slicing Packet Network Special Topic
+32

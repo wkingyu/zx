@@ -1,0 +1,110 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4SHI Wenzhe , LIU Yanbin , ZHOU Qinfen Local Scenario Perception and Web AR Navigation    Special Topic
+restoration is performed , to finally obtain a sparse point cloud 
+map and save the sparse point cloud map in the format of a 3D 
+point plus a descriptor . Then , the point cloud is visualized and 
+divided according to the preset interest point when the user 
+wants to perform a model anchoring display . The related geo -
+fence information is set , which is mainly used for service expe ⁃
+rience after entering the local point cloud range . Currently , 
+the geo -fence range is mainly 3 m–5 m and established ac ⁃
+cording to a specific scenario . The sparse point cloud is di ⁃
+vided into multiple local point cloud maps . Next , the point 
+cloud is optimized by using descriptor deduplication and out ⁃
+lier removal and is stored in the bin format .
+The server performs positioning on the captured initial posi ⁃
+tioning picture to obtain an initial positioning posture of the 
+camera , so as to determine a local point cloud closest to an ini ⁃
+tial positioning point position . The local point cloud communi ⁃
+cation service is responsible for delivering the specific local 
+point cloud to the Web front end in accordance with the re ⁃
+quest of the Web front end for the local point cloud .
+The Web front end sends a request to the server end by us ⁃
+ing a local point cloud communication service , receives spe ⁃
+cific local point cloud information , and then captures an image of a video frame by using a local point cloud positioning system 
+of the Web front end . The Web front end obtains correspond ⁃
+ing camera position information for positioning and then ren ⁃
+ders a navigation route and a corresponding material based on 
+the camera position information obtained by positioning . Fig. 2 
+shows how to implement AR navigation through the local cloud .
+The time consumption of each step of the local point cloud 
+positioning algorithm is collected and optimized , including im ⁃
+age data transmission on a Web end , improvement of a feature 
+extraction algorithm , feature matching optimization , etc. Table 1 
+shows the performance test of cloud positioning of different mod ⁃
+els at different point sizes . In the point cloud of 0.9 MB, the opti ⁃
+mized algorithm can reach 91 fps on an iPhone 13.
+The redundancy of the point cloud size greatly affects the 
+accuracy of the local point cloud positioning algorithm . There ⁃
+fore, two local point cloud optimization solutions are designed : 
+1) Using filter feature descriptors to remove duplicates (Fig. 3);
+2) Using test data to filter real and valid point cloud data and 
+remove redundancy .
+Considering that the positioning algorithm is an optimization 
+problem (reducing a reprojection error ), it is extremely affected 
+by noise , and therefore a final obtained track is not smooth 
+▼Table 1. Different mobile phone models in frames per second
+Descriptor Size/MB
+0.9Mobile Phone Model
+MEIZU 11
+OnePlus 6
+Xiaomi 11
+Iphone 13Extracting ORB Features
+1.052
+0.876
+0.557
+0.098Feature Matching (KNN )
+38
+37
+19
+8PNP
+4
+4
+2
+2Total Calculated Time/ms
+50
+46
+26
+11Frames per Second/fps
+20
+21
+38
+90
+KNN : k-Nearest Neighbor        ORB : oriented FAST and rotated BRIEF          PNP : Perspective -n-Points
+Obtain the initial position sum by referring to orbslam
+Last position optimization (using pnp )Considering mismatches may occur each time when positioning 
+data is placed on the web , the previous frame data is introduced 
+and modified for tracingICP registration is performed continuously during vehicle navigation , and the 
+problem is solved based on the previous frame .
+Orbslam tracing obtains the initial posture first and is optimizing the posture
+Ground truth
+Database .db
+Initial positioningImage
+Continuous positioning
+Query image
+IMUWebDownloadBack -end
+positioningColmap -ORB
+Outlier removal3D point and 
+descriptor
+Continuous positioningContinuous positioningPoint -cloud division
+(density -based/grid -
+based )
+Point -cloud map 
+storagePoint -cloud pre ⁃
+diction process
+Previous frame 
+of image dataPoint -cloud compres ⁃
+sion (ceiling floor point 
+removal )
+DatabasePoint -cloud storage architec ⁃
+ture (the number of 3D points 
+and number of descriptors )
+One to many
+Back -end
+positioningColmap -siftGPU 
+scale recovery9 10 11
+0 1  2  
+3 4 5
+6 7 8
+▲Figure 2. Local scenario perception and the proposed web navigation system architectureICP: Iterative Closest Point      IMU : Inertial Measurement Unit      ORB : oriented FAST and rotated BRIEF
+57

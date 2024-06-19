@@ -1,0 +1,54 @@
+HChina Telecom Builds Smart City in 
+Hangzhou with 5G-Advanced Technology
+angzhou, known as the ‘Capital 
+of Internet’ in China, is a city 
+at the forefront of innovation. 
+During the 19th Asian Games,
+China Telecom and ZTE actively explored 
+innovative 5G-Advanced (5G-A) technology 
+and applied it to secure major events and 
+support innovative business endeavors 
+across various /f_ields. With a focus on 
+delivering an exceptional event experience 
+while enhancing urban infrastructure, 
+they have successfully established a smart 
+city in Hangzhou powered by the 5G-A 
+technology.
+Oﬀering More Immersive Viewing 
+Experience
+Empowering Immersive Experience with 
+a 25 Gbps Network
+China Telecom and ZTE collaborated to 
+create ultra-large 1.6 GHz bandwidth 5G-A 
+equipment, which has been deployed 
+in Xiaoshan, Qiantang River, and other 
+hotspot areas in Hangzhou. The peak downlink rate reached 25 Gbps, and the 
+peak uplink rate reached 17 Gbps. When 
+deployed in large sports venues, a single 
+base station can support dozens of 8K 
+cameras for real-time live broadcasts. The 
+5G-A network can also support more than 
+60 XR business concurrent connections, 
+combined with bullet time and other 
+technologies to achieve an immersive 
+experience for game watching.
+Providing Seamless 5G-A Network 
+Coverage with Dynamic RIS Technology   
+China Telecom has customized dynamic 
+recon/f_igurable intelligent metasurface (RIS), 
+successfully implementing applications in 
+the Asian Games Village. This achievement 
+has enabled high-speed network coverage 
+in challenging areas such as underground 
+garages and shops. The measured data 
+indicates a signi/f_icant improvement 
+compared to scenarios without RIS, with a 
+six-fold increase in the downlink rate and 
+a twenty-fold increase in the uplink rate. 
+Furthermore, the re/f_lection beam of dynamic 
+ 
+RAN Product Planning 
+Manager, ZTESong Yang
+RAN Branding 
+Director, ZTELiu Min
+ 36Success Stories 

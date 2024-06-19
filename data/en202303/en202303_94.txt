@@ -1,0 +1,64 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Research Papers   Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput
+mation theory , 1962 , 8(1): 21–28. DOI : 10.1109 /TIT.1962 .1057683
+[3] MACKAY D J C , NEAL R M . Near Shannon limit performance of low density 
+parity check codes [J]. Electronics letters , 1996 , 32(18): 1645 . DOI : 10.1049 /el: 
+19961141
+[4] HU X Y , ELEFTHERIOU E , ARNOLD D M . Regular and irregular progressive 
+edge -growth tanner graphs [J]. IEEE transactions on information theory , 2005 , 
+51(1): 386–398. DOI : 10.1109 /TIT.2004 .839541
+[5] DIOUF M , DECLERCQ D , FOSSORIER M , et al . Improved PEG construction 
+of large girth QC -LDPC codes [C]//The 9th International Symposium on Turbo 
+Codes and Iterative Information Processing (ISTC ). IEEE , 2016 : 146–150. 
+DOI: 10.1109 /ISTC .2016 .7593094
+[6] LIU Y H , ZHANG M L , NIU X L . Quasi -cyclic low -density parity -check codes 
+based on progressive cycle growth algorithm [C]//The sixth International Confer ‐
+ence on Instrumentation & Measurement , Computer , Communication and Con ‐
+trol (IMCCC ). IEEE , 2016 : 854–857. DOI : 10.1109 /IMCCC .2016 .167
+[7] TIAN T , JONES C R , VILLASENOR J D , et al . Selective avoidance of cycles in 
+irregular LDPC code construction [J]. IEEE transactions on communications , 
+2004 , 52(8): 1242–1247 . DOI : 10.1109 /TCOMM .2004 .833048
+[8] CHENG C C , YANG J D , LEE H C , et al . A fully parallel LDPC decoder archi ‐
+tecture using probabilistic Min -sum algorithm for high -throughput applications 
+[J]. IEEE transactions on circuits and systems I : regular papers , 2014 , 61(9): 
+2738–2746 . DOI : 10.1109 /TCSI .2014 .2312479
+[9] LI M , DERUDDER V , DESSET C , et al . A 100 gbps LDPC decoder for the 
+IEEE 802.11ay standard [C]//The 10th International Symposium on Turbo 
+Codes & Iterative Information Processing (ISTC ). IEEE , 2019 : 1–5. DOI : 
+10.1109 /ISTC .2018 .8625286
+[10] BONCALO O , AMARICAI A . Ultra high throughput unrolled layered architec ‐
+ture for QC -LDPC decoders [C]//IEEE Computer Society Annual Symposium 
+on VLSI (ISVLSI ). IEEE , 2017 : 225–230. DOI : 10.1109 /ISVLSI .2017 .47
+[11] LI M , DERUDDER V , BERTRAND K , et al . High -speed LDPC decoders to ‐
+wards 1 Tb/S [J]. IEEE transactions on circuits and systems I : regular papers , 
+2021 , 68(5): 2224–2233 . DOI : 10.1109 /TCSI .2021 .3060880
+[12] FANG Y , BI G A , GUAN Y L , et al . A survey on protograph LDPC codes and 
+their applications [J]. IEEE communications surveys & tutorials , 2015 , 17(4): 
+1989–2016 . DOI : 10.1109 /COMST .2015 .2436705
+[13] CHEN T Y , DIVSALAR D , WESEL R D . Protograph -based Raptor -like LDPC codes with low thresholds [C]//IEEE International Conference on Communica ‐
+tions (ICC). IEEE , 2012 : 2161–2165 . DOI : 10.1109 /ICC.2012 .6363996
+[14] NGUYEN -LY T T , GUPTA T , PEZZIN M , et al . Flexible , cost -efficient , high -
+throughput architecture for layered LDPC decoders with fully -parallel process ‐
+ing units [C]//Euromicro Conference on Digital System Design (DSD). IEEE , 
+2016 : 230–237. DOI : 10.1109 /DSD .2016 .33
+[15] CUI H X , GHAFFARI F , LE K , et al . Design of high -performance and area -
+efficient decoder for 5G LDPC codes [J]. IEEE transactions on circuits and sys ‐
+tems I : regular papers , 2021 , 68(2): 879–891. DOI : 10.1109 /
+TCSI .2020 .3038887
+Biographies
+LI Hanwen received his BS degree from Fuzhou University , China in 2020 , 
+and MS degree from Nanjing University , China in 2023 . His research interests 
+include very -large scale integration design for digital signal processing and er ‐
+ror control coding .
+BI Ningjing received her BS degree and MS degree in electrical engineering 
+from Nanjing University , China , in 2020  and 2023 , respectively . Her research 
+interest focuses on digital very -large scale integration design .
+SHA Jin (shajin@nju .edu.cn) received his BS degree in physics and PhD de ‐
+gree in electrical engineering from Nanjing University , China in 2002  and 
+2007 , respectively . From 2012  to 2013 , he was a visiting professor with Stan ‐
+ford University , USA . He is currently an associate professor with School of 
+Electronic Science and Engineering , Nanjing University . His current research 
+interests include very -large scale integration design for digital signal process ‐
+ing, error control coding , flash memory error control , and heterogeneous com ‐
+puting systems .
+92

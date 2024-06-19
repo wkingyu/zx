@@ -1,0 +1,78 @@
+investment aspects. The networking solution for 
+massive SPN deployment was also tested.
+Maintenance management: Examining key issues 
+such as maintenance management modes of SPN 
+services from diﬀerent vendors.
+ 
+This initiative comprised the inter-province and 
+intra-province parts. ZTE participated in the 
+Beijing-Guangdong inter-province same-vendor 
+test, the Shanghai-Guangdong inter-province 
+diﬀerent-vendor test, as well as the intra-province 
+same-vendor tests in Beijing and Guangdong. These 
+tests fully validated various network protection 
+switching functions including /f_ine-granularity 
+escape and interconnection protection, as well as 
+functions like lossless bandwidth adjustment, service 
+isolation, and network self-service. These tests also 
+compared the SPN functions with those of PTN and 
+OTN networks. Fig. 2 shows the inter-province private 
+line test topology.
+The test results demonstrated that the SPN could 
+provide hard slicing with /f_lexible granularity and 
+facilitate lossless bandwidth adjustment. It could 
+provide both hard and soft slicing simultaneously, 
+along with multiple protection modes, such as 
+rerouting and /f_ine-granularity escape routes, to 
+improve network security. The statistics of 
+sent/received packets and latency obtained during inband OAM detection matched with those recorded 
+by test meters, and network SLA indicators were 
+eﬀectively detected. The SPN’s network agility and 
+self-service capabilities were also veri/f_ied, con/f_irming 
+the completeness of its functions.
+At the same time, China Mobile launched a live 
+trial of the SPN CPE. The SPN CPEs were expected to 
+facilitate access for various types of customer 
+services and meet the /f_lexible networking 
+requirements across diﬀerent vendors. By 
+connecting with the NNI of the MAN SPN, the SPN 
+CPEs could provide end-to-end /f_ine-granularity hard 
+slicing, hierarchical fault location, channel-associated 
+inband OAM performance monitoring, L2/L3-to-edge 
+multi-service access capability, and lossless bandwidth 
+adjustment.
+ZTE is committed to collaborating with the industry 
+chain to utilize the technological advantages of the SPN 
+to empower a multitude of industry sectors. Across 
+networks in provinces including Shanxi, Shaanxi and 
+Jilin, the SPN has already been extensively used to carry 
+private line services for group customers. Industries like 
+transportation and mining have begun signi/f_icant 
+commercial use of SPN technology. It is anticipated that 
+in the near future, the SPN private line technology will 
+see even wider adoption across many industries to 
+create value for a vast array of users.
+Fig. 2. Inter-province 
+SPN private line test 
+topology.
+Access 
+ring
+Standby path
+Active pathOTNNational backbone OTN
+ OTN OTN
+OTN OTN
+OTN OTN
+Guangdong 
+provincial OTN
+Group customer branch 3
+Self-loopMeter /f_low
+SPNTest meter
+13
+Beijing SPN
+Group customer 
+headquarters/ Test meters
+Group customer branch 1Dongguan SPN
+2
+OTN
+OTNOTN APR 2024
+ 21

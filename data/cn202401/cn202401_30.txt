@@ -1,0 +1,52 @@
+无蜂窝大规模 MIMO 中的大规模随机接入 胡彦丰  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1无蜂窝大规模 MIMO中的
+大规模随机接入
+Massive Random Access in Cell-Free Massive MIMO System
+胡彦丰 /HU Yanfeng1，王东明 /WANG Dongming1，
+梁楚龙 /LIANG Chulong2，尤肖虎 /YOU Xiaohu1
+（ 1.东南大学 ，中国 南京 211102 ；
+2.中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(1.Southeast University , Nanjing 211102 , China ;
+2.ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202401006
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20240226 .0948 .004.html
+网络出版日期 ：2024 -02-26
+收稿日期 ：2024 -01-16
+摘要 ：研究了以用户为中心的无蜂窝大规模多输入多输出 （MIMO ）架构下的大规模随机接入方案 。为实现可扩展架构 ，讨论了接入点 （AP）
+与用户设备 （UE）的关联以及 AP的分簇方法 。针对活跃用户检测 （AUD） ，一种基于最大似然检测 （ML）的方案被提出以获取活跃用户 。通
+过调整阈值 ，可以得到不同精度的检测结果 。利用 AUD 的检测用户集合 ，系统利用基于狄利克雷过程的稀疏贝叶斯学习 （DP-SBL ）完成信道
+估计 （CE） 。该算法可以充分利用 AP的空间聚散特性 ，提高系统准确性 。基于以上工作 ，我们提出了联合 AUD 和CE算法。仿真结果验证了所
+提方案在性能上的优越性 。
+关键词 ：大规模随机接入 ；无蜂窝大规模 MIMO ；活跃用户检测 ；信道估计
+Abstrac t:A user-centric massive random access scheme under the context of cell-free massive multiple-input multiple-output (MIMO ) ar⁃
+chitecture is investigated . To achieve a scalable architecture , the association between access points (APs) and user equipment (UE) as well 
+as the clustering method for APs is discussed . Regarding active UE detection (AUD ), a class of maximum likelihood (ML)-based schemes is 
+proposed to obtain active UE set . By adjusting the threshold , detection results with varying accuracies can be achieved . Leveraging the de ⁃
+tected user set from AUD , the system employs sparse Bayesian learning based on Dirichlet process (DP-SBL ) for channel estimation (CE), 
+effectively utilizing the spatial clustering characteristics of APs to enhance accuracy . Building on this , a joint AUD and CE algorithm is pro ⁃
+posed . Simulation results validate the superiority of the proposed approach in terms of performance .
+Keywords :massive random access ; cell-free massive MIMO ; active UE detection ; channel estimation
+引用格式 ：胡彦丰 , 王东明 , 梁楚龙 , 等. 无蜂窝大规模 MIMO 中的大规模随机接入  [J]. 中兴通讯技术 , 2024 , 30(1): 26-32. DOI : 10.12142 /
+ZTETJ .202401006
+Citation ： HU Y F , WANG D M , LIANG C L , et al . Massive random access in cell-free massive MIMO system [J]. ZTE technology journal , 
+2024 , 30(1): 26-32. DOI: 10.12142 /ZTETJ .202401006
+大规模机器通信 （mMTC ）是5G移动通信技术的关键应
+用场景之一 。在网络中支持海量 MTC 设备 （MTCD ）
+的大规模随机接入情景下 ，如何有效地估计信道 、检测活跃
+用户和对应的数据消息逐渐成为热点研究课题 。在mMTC 场
+景中 ，系统可接入的用户设备量极大 ，这时由于可用信道资
+源是有限的 ，以往基于正交资源分配的方案将限制设备的接
+入效率 。在这种背景下 ，多个用户利用特殊的编码调制方案
+或特定的签名 ，接收机可由对应的算法分离多用户信息 。由
+于这里使用了非正交时频资源 ，所以这种方式也可以称为非正交多址接入 （NOMA ）[1-3]。现有的随机接入方案中 ，设备
+需要通过物理随机接入信道 （PRACH ）和基于争用的四路
+握手过程实现接入 。LTE 系统四路握手过程包括 ：前导信号
+传输 、随机接入响应 、无线电资源控制连接请求 、建立无线
+资源控制 （RRC）请求[4]。该过程又称为资源授权过程 ，是
+影响 mMTC 效率的主要原因[5]。因此 ，基于无授权的大规模
+接入将会是未来 mMTC 场景的关键技术方案之一 。
+近年来 ，为了消除小区边际效应 ，进一步提高通信系统
+的传输效率 ，文献 [6]提出了无蜂窝大规模多输入多输出
+（MIMO ）系统 。E. BJORNSON 等认为无蜂窝大规模 MIMO 是
+网络 MIMO 架构下动态协作分簇 （DCC）的一个特例[7]。由 基金项目 ：国家重点研发计划 （2020 YFB1807200 ）
+26

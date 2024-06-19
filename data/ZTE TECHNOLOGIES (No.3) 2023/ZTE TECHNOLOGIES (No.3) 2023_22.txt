@@ -1,0 +1,76 @@
+network functions, network communication 
+and resource occupation are optimized, so 
+that a lightweight 5G core network can be 
+deployed on one 1U server. The size of the 
+server is reduced to that of A3 paper, the 
+weight is reduced to 5 KG, and the power 
+consumption is 100 W. There is no special 
+requirement for power supply of the 
+equipment room, so the server can adapt to 
+any rack in the equipment room. Mini5GC is 
+highly integrated and has the highest 
+performance of the same size in the industry. 
+It supports 2000 users and has a forwarding 
+capability of 5 Gbps, which can be regarded 
+as small in size but high in performance. 
+Therefore, Mini5GC can be /f_lexibly adapted to 
+the needs of explosion-proof mining, /f_lexible 
+workstations and on-board deployment.
+Second, Mini5GC can achieve integrated 
+delivery of software and hardware, and rapid 
+service provisioning within hours. It allows 
+enterprises to customize functions on demand 
+and enhance their determinism. The 5G LAN 
+can be deployed on demand to support L2 
+Ethernet communication between industrial 
+terminals. Mini5GC implements deterministic 
+network forwarding and high-precision clock 
+synchronization based on TSN, and achieves 
+ultra-low-latency communication and 
+ultra-high-reliability network transmission 
+through URLLC and FRER. In addition, Mini5GC 
+also provides more than 100 business 
+templates for enterprises to choose and 
+con/f_igure on demand. Through solidi/f_ied 
+con/f_iguration, the software and hardware are 
+pre-integrated and installed before delivery. ith the large-scale deployment 
+of 5G networks and the 
+commercial use of new 5G 
+technologies, 5G plays an 
+increasingly important role in enabling digital 
+transformation of industries, and the 
+development trend of private 5G networks is 
+becoming clear. 5G has become a core driving 
+force for industrial digital transformation and 
+“digital and intelligent” social transformation in 
+the industrial, government and enterprise, and 
+intelligent production /f_ields. The implementation 
+of private network products has cleared the 
+barriers for digital transformation of operators 
+and enterprise customers, and has become the 
+core means of empowering the production /f_ield 
+with 5G. 
+ZTE’s private network and core network 
+continue to evolve. With the combination of 
+technological innovation and commercial 
+implementation, ZTE has launched a series of 
+private network and core network products. It 
+has rolled out general iCube to meet the needs 
+of integrated cloud, network, and service and 
+maintenance, and has developed standard i5GC 
+for private 5GC networks. The entire 5GC 
+network can be deployed on a single 2U server. 
+In October 2022, ZTE launched Mini5GC—
+an ultra-light CN product for extreme scenarios 
+such as oil and gas exploration, emergency rescue, 
+and explosion isolation in mines. Mini5GC features 
+ultra-small and ultra-light design, ultra-simple 
+networking, and ultra-high integration. 
+Mini5GC has two attractions. First, it has a 
+highly streamlined architecture and is easy to 
+build. Through the integration of general Mini5GC Helps Core Production in OT 
+Domain Through Scenario-Based 
+Application of 5G Private Networks
+Private Network Product 
+Planning Manager, ZTELi ChunfengW
+205G Fully-Connected Factory Special Topic

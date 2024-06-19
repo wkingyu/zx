@@ -1,0 +1,145 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems    Research Papers
+minimize
+FU,k,FRF,WRF,WBB,k,βk,Tk1
+N∑k=1N ()TkEk-log ||Tk
+subject to ()FU,kFRF2
+F≤β-2
+k,∀k;
+ |
+||||| |
+|||||[]FRFij=ì
+í
+îïïïï
+ïïïï1,i,j∈{ }i,j||[]Upij|=1
+0, else;
+ |
+||||| |
+|||||[]WRFij=ì
+í
+îïï
+ïïïï1,i,j∈{ } i,j||[]Ucij|=1,∀i,j
+0, else.
+(7)
+Since the joint optimization problem of the five variables in 
+Eq. (7) is hard to solve , we adopt the alternating minimization 
+method to decouple the optimization of the transmitter and re ‐
+ceiver and solve the two subproblems separately .
+3.1 Transmitter Design
+In this subsection , we fix the hybrid combiner Wk and opti ‐
+mize the hybrid precoder . Firstly , the closed form solution of 
+Tk can be obtained as follows by differentiating the objective 
+function with respect to Tk
+Tk=E-1
+k. (8)
+Secondly , the optimal digital precoder FBB,k and the scaling 
+factor βk at each subcarrier can be derived with fixed FRF. 
+Considering the power constraint , it can be proved that the op ‐
+timal βk can only be achieved with the maximum transmit 
+power , and the optimal βk is given by :
+βk=1/  FRFFU,kFH
+U,kFH
+RF2
+F.(9)
+According to the Karush -Kuhn -Tucker (KKT ) conditions , 
+FU,k has a closed -form solution as follows :
+FU,k=(FH
+RFGkGH
+kFRF+ξkFH
+RFFRF)-1FH
+RFGk, (10)
+where ξk=(σ2
+ktr(TkWH
+kWk))-1 and Gk=HH
+kWk. 
+Thirdly , by substituting Tk,βk and FBB,k back into the origi ‐
+nal objective function , the optimization problem of FRF can be 
+obtained as follows :
+minimize
+FRFf()FRF
+subject to|
+||||| |
+|||||[]FRFij=ì
+í
+îïïïï
+ïïïï1,i,j∈{ }i,j||[]Upij|=1
+0, else,
+(11)
+where f(FRF)=1
+N∑
+k=1N
+tr( ) ( ) T-1
+k+ξkGH
+kFRF(FH
+RFFRF)-1FH
+RFGk-1.
+Next, we use the MO method to design FRF. The basic idea 
+is to define a Riemannian manifold considering the constant modulus constraint , and iteratively update FRF along the direc ‐
+tion of the Riemann gradient in a way similar to the conven ‐
+tional Euclidean gradient descent algorithm[12]. The key is to 
+derive the Euclidean conjugate gradient of f(FRF) with the FC 
+architecture , which is given by :
+∇FFC
+RFf(FRF)=1
+N∑
+k=1N
+ξk(FRF(FH
+RFFRF)-1FH
+RF-INt)
+GkΩ-2
+kGH
+kFRF(FH
+RFFRF)-1, (12)
+where Ωk≜T-1
+k+ξkGH
+kFRF(FH
+RFFRF)-1FH
+RFGk. Since f(FRF) 
+is only related to the antennas that are connected to each RF 
+chain with any specified hybrid architecture and calculating 
+the gradient involves the derivative with respect to each entry 
+of FRF [13], with FRF=FFC
+RF⊙Up, it can be shown that :
+∇f(FRF)=∇FFC
+RFf(FRF)⊙Up.(13)
+Then , we can obtain the Riemannian gradient by projecting 
+the Euclidean gradient ∇f(FRF) onto the tangent space , and 
+update FRF with a proper step size determined by the well -
+known Armijo backtracking algorithm . Finally , the retraction 
+operation is applied to make the result satisfy the constant 
+modulus constraint[11] as follows :
+μd ↦ Retrx (μd)=vecé
+ëê
+êêê
+êê()x+μdi
+|()x+μdi|ù
+ûú
+úúú
+úú
+.
+(14)
+It is worth noting that with Eqs . (12) and (13), the above al ‐
+gorithm based on the MO method can be adopted in the HBF 
+design with arbitrary hybrid architectures as there is no spe ‐
+cific requirement to the connection matrix Up. Finally , the pre ‐
+coder design with arbitrary fixed hybrid architectures is sum ‐
+marized in Algorithm 1.
+Algorithm 1: Hybrid precoder design based on the MO method
+  Input : ξk,Gk,Tk,Up
+  1: Initialize FRF,0 with random phases , i=0
+  2: repeat
+   3:  Select the step size μ
+   4:  Update vec(FRF,i+1) according to Eq . (14)
+   5:  Update the Riemannian gradient gi=∇f(FRF,i+1) 
+according to Eqs . (12) and (13)
+   6:  Calculate g+
+i,d+
+i from xi to xi+1
+   7:  Select Polak -Ribiere parameter ηi+1
+   8:  Calculate the conjugate direction di+1=-gi+1+
+ηi+1d+
+i
+   9:   Update i←i+1
+  10: until  a stopping condition is satisfied
+  Output : FRF
+97

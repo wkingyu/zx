@@ -1,0 +1,78 @@
+occasion(s) of a CG con/f_iguration are 
+provided, with uplink control information 
+multiplexed in CG PUSCH transmissions of 
+the CG con/f_iguration.
+Network energy savings:  Network energy 
+savings are key to 5G/NR success, aiming to 
+reduce environmental impact (greenhouse 
+gas emissions) and achieve operational cost 
+savings. In the initial study conducted 
+within RAN WGs, various techniques 
+spanning time, frequency, spatial and 
+power domains were investigated based on 
+a network energy consumption model for 
+base stations. Following that, the Rel-18 
+work item introduced several new features 
+including CSI enhancements for 
+adaptations in spatial and power domains, 
+Cell DTX/DRX mechanism in time domain, 
+SSB-less SCell operation for inter-band CA, 
+mechanism to prevent legacy UEs camping 
+and enhancements on CHO procedure, as 
+well as inter-node beam activation and 
+enhancements on paging.
+NTN/NTN-IoT: Rel-18 NR NTN work item 
+speci/f_ies coverage enhancement, NR-NTN 
+deployment in above 10 GHz bands, 
+network-veri/f_ied UE location, and NTN-TN 
+and NTN-NTN mobility and service 
+continuity enhancements. Rel-18 RAN work 
+item further enhances the IoT-NTN in three 
+major areas: performance (HARQ and GNSS 
+enhancements), measurement and mobility enhancements in both idle and connected 
+modes, and enhancements in discontinuous 
+coverage. It also complements the SA2 study 
+on 5GC enhancements for satellite access 
+Phase 2.
+CN Part
+For CN, 28 work items have been 
+completed in R18, including 2 for intelligent 
+network enablement, 11 for enhanced 
+network services, 8 for vertical support, and 7 
+for enhanced network convergence and 
+coverage.
+Network slicing phase 3 & eNSAC: These 
+two work items are led by ZTE. In the 
+network slicing phase 3, functional 
+enhancements and deployment 
+optimizations for 5GS network slicing are 
+speci/f_ied. Key features include support for 
+slice service continuity, service area not 
+matching TA boundary, temporary or 
+periodic slice deployment, multiple 
+network slice admission control (NSAC) 
+service area, partial slices in the registration 
+area, and improved network control of UE 
+usage. Based on the GSMA-de/f_ined 
+network slice template, the eNSAC work 
+item enhances the existing NSAC 
+procedure to control the number of UEs 
+with at least one PDU session/PDN 
+connection per network slice in the case of 
+EPC interworking. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+With some study items and work 
+items in Rel-18 and Rel-19, it is 
+evident that some pre-research 
+on 6G has been initiated in 
+5G-Advanced.
+/gid00056/gid00064/gid00077/gid00070/gid00001/gid00057/gid00072/gid00077/gid00071/gid00084/gid00072 
+FEB 2024 
+ 07

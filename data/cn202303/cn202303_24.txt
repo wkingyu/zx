@@ -1,0 +1,100 @@
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3基于长短期记忆网络的数字孪生移动通信网络环境生成技术 梁广明  等 热点专题
+比例为 9∶1。
+我们采用 3层LSTM 网络 ，输入层节点数目为 1×50，隐
+藏层节点数目为 200，输出层节点数为 10，采用 Adam 优化
+器、MSE 损失函数 ，对输入数据进行线性归一化处理 。
+我们设置 Ptr=50，Ltr=10，即使用 50个时隙 （单时隙
+长度为 30 s）的基站蜂窝人流量来预测未来 10个时隙的基站
+小区内人流量 。从图 6可以看出 ，LSTM 方法能较好地预测
+未来 10个时隙的蜂窝基站人流量总体上升走势 。训练收敛
+后，LSTM 最终在测试集上取得了 82.0%的准确率 。
+4 结束语
+在未来的 6G时代 ，基于数字孪生的移动通信网络具有
+广阔的应用前景 。本文利用数据驱动的长短期神经网络的方
+法，对无线信道 、基站业务流和用户移动轨迹进行时序预
+测。结果表明 ，这些预测最终均达到了 80%以上的准确率 。
+该方法生成了移动通信网络中关键数据的数字镜像 ，为无线
+链路和网络的智能传输策略提供了预训练的高精度数字孪生
+环境 。
+致谢
+感谢电子科技大学信息与通信工程学院的车畅 、杨子慕 、
+陈昌彬 3位同学对本论文做出的贡献 。
+参考文献
+[1] ZHANG T , REN G , MING H , et al . Application exploration of digital twin in 
+rail transit health management [C]//Proceedings of 2022  Global Reliability 
+and Prognostics and Health Management . IEEE , 2022 : 1-5. DOI :10.1109 /
+phm-yantai 55411 .2022 .9942083
+[2] GOLIZADEH A Y , BADIEI A , ZHAO X D , et al . A constraint multi-objective 
+evolutionary optimization of a state-of-the-art dew point cooler using 
+digital twins [J]. Energy conversion and management , 2020 , 211: 112772 . 
+DOI: 10.1016 /j.enconman .2020 .112772
+[3] CHAKSHU N K , CARSON J , SAZONOV I , et al . A semi-active human digital 
+twin model for detecting severity of carotid stenoses from head vibration —
+a coupled computational mechanics and computer vision method [J]. 
+International journal for numerical methods in biomedical engineering , 2019 , 
+35(5): e3180 . DOI: 10.1002 /cnm .3180
+[4] IMT- 2023（6G）推进组 . 6G总体愿景与潜在关键技术白皮书  [R]. 2021
+[5] SHEN G Q , LEI L , LI Z L , et al . Deep reinforcement learning for flocking 
+motion of multi-UAV systems : learn from a digital twin [J]. IEEE Internet of 
+Things journal , 2022 , 9(13): 11141 -11153 . DOI : 10.1109 /
+JIOT .2021 .3127873
+[6] ZHANG K , CAO J Y , ZHANG Y . Adaptive digital twin and multiagent deep 
+reinforcement learning for vehicular edge computing and networks [J]. IEEE 
+transactions on industrial informatics , 2022 , 18(2): 1405 -1413 . DOI : 
+10.1109 /TII.2021 .3088407
+[7] WANG X C , MA L F , LI H C , et al . Digital twin-assisted efficient 
+reinforcement learning for edge task scheduling [C]//Proceedings of 2022  
+IEEE 95th Vehicular Technology Conference : (VTC2022 -Spring ). IEEE , 
+2022 : 1-5. DOI: 10.1109 /VTC 2022 -Spring 54318 .2022 .9860495
+[8] LUO Z Y , WU C , LI Z P , et al . Scaling geo-distributed network function 
+chains : a prediction and learning framework [J]. IEEE journal on selected 
+areas in communications , 2019 , 37(8): 1838 -1850 . DOI : 10.1109 /
+JSAC .2019 .2927068
+[9] YU P , ZHOU F Q , ZHANG X , et al . Deep learning-based resource allocation for 5G broadband TV service [J]. IEEE transactions on broadcasting , 2020 , 
+66(4): 800-813. DOI: 10.1109 /TBC .2020 .2968730
+[10] HOCHREITER S , SCHMIDHUBER J . Long short-term memory [J]. Neural 
+computation , 1997 , 9(8): 1735 -1780 . DOI: 10.1162 /neco .1997 .9.8.1735
+[11] LIPTON Z C , BERKOWITZ J , ELKAN C . A critical review of recurrent neural 
+networks for sequence learning [EB/OL ]. [2023 -04-16]. https ://arxiv .org/
+abs/1506 .00019
+[12] YANN L . A theoretical framework for back-propagation [EB/OL ]. [2023 -
+04-16]. https ://www .researchgate .net/publication/ 2360531 _A_Theoretical_
+Framework_for_Back-Propagation
+[13] TSE D , VISWANATH P . Fundamentals of wireless communication [M]. 
+Cambridge : Cambridge University Press , 2005
+[14] WANG W , ZHOU C H , HE H L , et al . Cellular traffic load prediction with 
+LSTM and Gaussian process regression [C]//Proceedings of ICC 2020  - 
+2020  IEEE International Conference on Communications (ICC). IEEE , 2020 : 
+1-6. DOI: 10.1109 /ICC40277 .2020 .9148738
+[15] 3GPP. User equipment (UE) radio transmission and reception : 3GPP TS 
+38.521-3 [S]. 2022
+[16] Harvard Dataverse . A multi-source dataset of urban life in the city of 
+Milan and the Province of Trentino Dataverse [EB/OL ]. [2023 -04-16]. 
+https ://dataverse .harvard .edu/dataset .xhtml ?persistentId=doi :10.7910 /
+DVN/EGZHFV
+[17] Data World . A user movement trajectory dataset from the Korean 
+academy of science and technology [EB/OL ]. [2023 -04-16]. https ://data .
+world/crawdad/human-mobility-data-collected
+作 者 简 介
+梁广明 ，电子科技大学信息与通信工程学院在读
+硕士研究生 ；主要研究方向为面向移动通信网络
+的数字孪生 、机器学习在无线通信中的应用 、数
+能一体化通信网络等 。
+杨鲲 ，电子科技大学特聘教授 、数能网络实验室
+主任、国家海外高层次引才计划人才 、欧洲科学
+院院士 、IEEE Fellow 、IET Fellow ；研究领域包
+括无线通信和网络 、未来网络技术以及移动边缘
+计算等 ；发表论文 300余篇，获授权发明专利 20
+余项。
+刘强 ，电子科技大学长三角研究院 （衢州）副教
+授；长期从事通信与网络相关的教学和科研工作 ，
+主要研究方向为物联网 、无线传感器网络 、无线
+自组织网络 、低功耗广域网 、分子通信等 ；发表
+论文 40余篇。
+陈建军 ，中兴通讯股份有限公司无线架构工程师 ；
+曾担任中兴通讯 5G分布式皮基站产品经理 ，负责
+TD-SCDMA 网络组网性能优化 、TD-LTE 高速组
+网方案制定 ；主要研究方向为下一代无线通信组
+网架构 。
+20

@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Research Papers   Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks
+the UT is much slower than that of the LEO satellites , it can 
+be regarded as relatively static . Hypothetically , a LEO satel ‐
+lite moving horizontally to the left at a speed vsat relative to UT 
+is equivalent to UT moving to the right at the same speed rela ‐
+tive to beam cells . We further adopt a cyclic mechanism to 
+simplify the periodicity of satellite movement and the simpli ‐
+fied satellite movement model is shown in Fig . 2. When the 
+UT leaves the rightmost cell N as it moves , it will enter the 
+leftmost cell 1. Handover call arrivals , new call arrivals , and 
+call termination may constantly occur during the movement .
+2.2 Channel Reservation Model for Multi -Priority Service
+We assume that there are s types of services , and the num ‐
+ber of new calls of the i-th service follows a Poisson distribu ‐
+tion with an average arrival rate λi
+n. Then the total arrival rate 
+of the i-th service is given as the sum of the arrival rates of 
+new calls and handover calls as follows :
+λi=λi
+n+λi
+h , (1)
+where λi
+h is the arrival rate of the i-th service for handover 
+calls. Obviously , the handover calls of the i-th service come 
+from the previous beam cell and its arrival rate λi
+h can be de ‐
+rived as follows[5]:
+λi
+h=λi
+n(1-Pi
+af)Ph1
+1-(1-Pi
+hf)Ph2 , (2)
+where Ph1, Ph2, Paf and Phf are the handover success probabil ‐
+ity of the source cell , that of the target cell , the new call block ‐
+ing rate of the i-th service , and the handover call failure rate of the i-th service , respectively .
+Besides , we denote the proportion of new calls of i-th ser ‐
+vice as pi , and then the arrival rate of the i-th service can be 
+expressed as :
+λi
+n=λn× pi , (3)
+where λn is the average arrival rate of total new calls and pi 
+satisfies p1+p2+p3+⋅⋅⋅+ps=1. We further assume that 
+the duration of all calls obeys an exponential distribution of a 
+parameter u, so the average duration of the call is 1/u s.
+We adopt a threshold -based channel reservation strategy to 
+realize the admission control of satellite beam cells . We con ‐
+sider that the available bandwidth in a cell is equally allo ‐
+cated to all the channels , and each channel can be assigned to 
+a call . Then , each admitted call will be assigned a channel 
+with enough power to guarantee the quality of service . In this 
+work , we focus on developing an intelligent admission control 
+mechanism for LEO satellite communications . Thus , for sim ‐
+plifying the analysis , we just assume that there is enough 
+power in a cell to guarantee the service quality of each admit ‐
+ted call . For a new call or a handover call , if the number of oc ‐
+cupied channels in the current beam cell is less than the corre ‐
+sponding threshold , the call will be admitted successfully and 
+assigned a channel with power and bandwidth resources , and 
+the number of occupied channels is updated . Otherwise , the 
+call will be blocked . After each decision period , the threshold 
+will be updated according to our adjustment algorithm . We set 
+a threshold k′i for handover calls of the i-th service , while a 
+threshold ki is set for new calls of the  i-th service . As hando ‐
+ver calls are prior to new calls[16], we have ki≤k′i. We also 
+consider that the s types of services have certain priorities , in 
+the way that the type with larger index numbers will be re ‐
+served for more channels than those with smaller index num ‐
+bers. Therefore , the relationship between thresholds of all ser ‐
+vices satisfies 0≤k1≤k′1≤⋅⋅⋅≤ks≤k′s≤C, where C is the 
+total number of beam cell channels . To maximize utilization of 
+the channels , k′s=C is assumed in our model . Fig. 3 illus ‐
+trates the proposed multi -priority service threshold -based 
+channel reservation strategy .
+The set of all thresholds is denoted by K=
+{k1, k′1, k2, k′2,⋯, ks, k′s}. Intuitively , dynamically adjusting the 
+thresholds K to control call admission can effectively improve 
+the overall system performance . On the one hand , if the low -
+priority service threshold is set too low , low -priority service 
+calls will be hard to get admission , even if there are no high -
+▲Figure 1. Basic mobility scenario of low -earth -orbit (LEO ) satellite 
+communication system
+▲Figure 2. Simplified mobility model of low -earth -orbit (LEO ) satellite 
+communication system▲Figure 3. Illustration of multi -priority service threshold -based chan ‑
+nel reservation strategy… …vsatvsat
+vsat
+Handover call New call End of callvsat
+1 2 3… i… N-1 N
+0 Ck1ks-1ksk′s-1 k′1… k′s
+Relative difference between the thresholds
+56

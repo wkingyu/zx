@@ -1,0 +1,84 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Yujie , CHEN Zhang Special Topic   Perceptual Optimization for Point -Based Point Cloud Rendering
+tics of point cloud data pose new requirements and higher 
+challenges to the algorithms for point cloud rendering .
+Currently , two main categories of rendering methods are 
+commonly used for point clouds[11]. One is mesh -based render ⁃
+ing, which constructs a polygonal mesh through surface recon ⁃
+struction algorithms , e.g., Poisson surface reconstruction[12]. 
+These rendering methods can construct a completely closed 
+surface , but the results highly depend on the reconstruction al ⁃
+gorithm , and human intervention may be required to recon ⁃
+struct complex surfaces . As the object in 3D may be compli ⁃
+cated , extensive computation is generally involved[13]. The 
+other category is point -based rendering , which achieves ren ⁃
+dering results by turning points into the base geometry with 
+area (e.g., circles , spheres , cubes , etc.). The point -based meth ⁃
+ods are low in computation and easy to implement , but it is 
+necessary to define the size of the base geometry in advance . 
+Otherwise , empty spaces will appear between points (size too 
+small ) or aliasing artefacts (size too large ). Generally speak ⁃
+ing, point -based rendering is easier to perform in comparison 
+with a polygonal mesh representation where surface recon ⁃
+struction and interpolation are usually needed[10].
+Point -based rendering is a common method widely used in 
+point cloud rendering . In Ref . [10], JAVAHERI et al . used 
+the average Euclidean distance of N (N=10) nearest neigh ⁃
+boring points to determine the rendering radius of points in 
+their research work of point clouds , thus solving the problem 
+of the requirement of artificially defining the size of the base 
+geometry in point rendering and avoiding the empty spaces 
+between points .
+In point cloud rendering , the rendering radius is generally 
+determined by the nearest neighbors . However , this approach 
+faces challenges when there are outliers . Since the rendering 
+radius is determined by the nearest -neighboring points , the 
+rendering radius of the outliers far away from the central re ⁃
+gion of the point cloud sequence may be set as a very large 
+value , which impacts the subjective quality . The above prob ⁃
+lem is illustrated in Fig. 1. The rendering radius of the outli ⁃
+ers can seriously affect the subjective quality of the rendered 
+point cloud sequence . Therefore , it is important to filter out 
+the outliers and set an appropriate rendering radius before 
+rendering to improve the perceptual quality of the point 
+cloud sequence .
+To solve the problem of poor perceptual quality in point -
+based rendering due to the large rendering radius of outlier 
+points , we propose an algorithm for point cloud rendering 
+through outlier detection to optimize the perceptual quality of 
+rendering . The algorithm constructs outlier detection condi ⁃
+tions by combining local and global geometric features . Dur ⁃
+ing rendering , the rendering radius of outliers is set to the 
+minimum . By doing so , the proposed method realizes the per ⁃
+ceptual optimization of point cloud rendering and improves 
+the perceptual quality after point cloud rendering .
+The main contributions of this paper are as follows :1) We propose an outlier detection algorithm with low com ⁃
+plexity . The proposed method uses global and local geometric 
+features to detect outliers in the sequence .
+2) We apply the outlier detection algorithm to point cloud 
+rendering to optimize the perceptual quality of the point ren ⁃
+dering . Compared with the original rendering algorithm , our 
+method improves both the perceptual quality of the rendered 
+point cloud and the objective quality . The ratio of peak signal -
+to-noise ratio (PSNR ) improvement is about 3.6%.
+The rest of this paper is organized as follows . Section 2 in⁃
+troduces the rendering algorithm with outlier point detection . 
+Section 3 shows the rendering results of this rendering algo ⁃
+rithm and examines the algorithm ’s performance in terms of 
+both objective and perceived quality . The paper is summa ⁃
+rized in Section 4.
+2 Rendering Based on Outlier Detection
+2.1 Overview
+Suppose the coordinates of the i-th point in the point cloud 
+sequence are  (xi, yi, zi), i=1,2,⋯, M. The coordinates of the 
+nearest N neighboring points (including the point itself ) 
+are (xn
+i, yn
+i, zn
+i), n=1,2,⋯, N, where i stands for the point to 
+be detected in the point cloud sequence and n stands for the n-
+th neighboring point of the point to be detected .
+▲Figure 1. Illustration of outliers in rendering (rendering primitive is 
+a circle )(a） Point cloud Phil
+（b） Point cloud Head
+48

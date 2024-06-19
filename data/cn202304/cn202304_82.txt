@@ -1,0 +1,54 @@
+基于数字子载波和概率整形的相干光通信系统设计及应用 陆 源  等 技术广角
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4基于数字子载波和概率整形的
+相干光通信系统设计及应用
+Coherent Optical Communication System Based on 
+Digital Subcarrier and Probabilistic Shaping : Design and Application
+陆源/LU Yuan1，牛文林 /NIU Wenlin2，
+王永奔 /WANG Yongben3，胡子荷 /HU Zihe3
+（ 1.山东省邮电规划设计院有限公司 ，中国 济南 250101 ；
+2.中国联通山东省分公司 ，中国 济南 250000 ；
+3.中兴通讯股份有限公司 ，中国 深圳 518057  ）
+(1.Shandong Posts and Telecommunications Planning and Design Insti ⁃
+tute Co . , Ltd, Jinan 250101 , China ;
+2.China Unicom Shandong Branch , Jinan 250000 , China ;
+3.ZTE Corporation , Shenzhen 518057 , China )DOI：10.12142 /ZTETJ .202304014
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230724 .1927 .013.html
+网络出版日期 ：2023 -07-25
+收稿日期 ：2023 -06-15
+摘要 ：相比于传统的单载波架构 ，数字子载波架构更能抵抗光纤传输中的信道损伤 。概率整形技术相比于传统的常规调制格式可以更有效地抵
+抗光放大器引入的噪声 。阐述了数字子载波和概率整形技术的原理以及它们在 800G系统中的应用 。数字子载波复用技术和概率整形技术的联合
+使用，可以进一步提升系统的可重构光分插复用器穿通能力和传输容量 。现网测试验证了两种技术在 800G相干系统中的优越性 。
+关键词 ：数字子载波复用 ；概率整形 ；相干光通信 ；现网测试
+Abstrac t:Compared with the traditional single-carrier architecture , the subcarrier architecture is more resistant to damage in optical fiber 
+transmission . Probabilistic shaping technology can resist noise more effectively than traditional conventional modulation formats . The prin ⁃
+ciples of these two new technologies and their applications in 800G systems are discussed . The combination of digital subcarrier multiplexing 
+technology and probabilistic shaping technology can further enhance the system's reconfigurable optical add-drop multiplexer passthrough 
+capability and transmission capacity . The network testing has verified the superiority of these two technologies in 800G coherent systems .
+Keywords :digital subcarrier multiplexing ; probabilistic shaping ; coherent optical communication ; network test
+引用格式 ：陆源，牛文林 ，王永奔 , 等. 基于数字子载波和概率整形的相干光通信系统设计及应用  [J]. 中兴通讯技术 , 2023 , 29(4): 78-82. DOI: 
+10.12142 /ZTETJ .202304014
+Citation ： LU Y , NIU W L , WANG Y B , et al . Coherent optical communication system based on digital subcarrier and probabilistic shaping : de⁃
+sign and application [J]. ZTE technology journal , 2023 , 29(4): 78-82. DOI: 10.12142 /ZTETJ .202304014
+光通信在过去几十年里得到了巨大发展 。就在 10年前 ，
+主流的商用系统还是直接探测的 10G系统 。如今 ，互
+联网时代的流量大爆发推动了 100G系统的迅速发展 。100G
+系统的实现得益于相干探测和数字信号处理 （DSP）以及高
+速模数转换 （ADC）/数模转换 （DAC）的联合使用[1]。
+随着 5G时代的到来 ，运营商对系统的容量需求急剧增
+加，互联网流量增速已大大超过光网络传输容量的增速 。为
+了应对容量需求的进一步增长 ，未来的光通信系统有以下几
+个研究方向 ：1）基于灵活和感知光网络的高效资源管理 ；
+2）采用更高阶的调制格式和更高的波特率 ；3）采用更先进
+的DSP 和前向纠错码 （FEC）算法 ；4）支持光纤多波段的传输器件 ；5）少模多芯等新型光纤的应用 。高效的光网络
+资源管理是基础 ，因为它可以通过高效地利用现有的光纤基
+础设施 ，来推迟昂贵的新光纤和新器件的部署 。采用更高阶
+的调制格式 （例如 32符号正交幅度调制 ）和更高的波特率
+（>90 GBd ）可以实现单波 800 Gbit/s 的传输速率 。而这会导
+致更严重的信道损伤 ，例如窄带滤波效应 、器件非线性效应
+以及 I/Q之间的时延效应 。这些都需要更复杂的 DSP 算法以
+及更先进的 FEC 方案进行补偿 。此外 ，采用先进的数字通信
+技术 （例如概率整形和数字子载波复用 ）既可以实现灵活的
+频谱效率 ，也可以提升传输性能 。数字子载波复用技术更适
+用于灵活光网络 ，可以更方便地处理信道的动态业务 。此
+78

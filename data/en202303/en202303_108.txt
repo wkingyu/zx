@@ -1,0 +1,89 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Research Papers   Simulation and Modeling of Common Mode EMI Noise in Planar Transformers
+In Ref . [9], considering the winding potential gradient 
+distribution of planar transformers , a two -capacitance 
+model based on common -mode current equivalence is de ‐
+rived based on the winding structure theory . However , the 
+results obtained from the theoretical calculation consider 
+the common -mode equivalent capacitance to be constant , ig‐
+noring the case that the common -mode equivalent capaci ‐
+tance is no longer a pure capacitance at high frequencies . 
+Refs . [10–11] propose a method for evaluating the 
+common -mode EMI characteristics of transformers using 
+vector network analyzer experimental measurements . In 
+this method , the transformer is treated as a common -mode 
+noise filter , and the insertion loss parameter S21 [12–13] used 
+to evaluate the EMI filter performance is referenced into 
+the transformer . The experiment proves that it is feasible 
+and effective to use the insertion loss measurement prin ‐
+ciple to evaluate the common mode noise rejection capabil ‐
+ity of the transformer . However , Refs . [10–11] only use S21 
+as the evaluation basis without further analyzing the spe ‐
+cific meaning of the complete S-parameters obtained by the 
+vector network analyzer to measure the transformer .
+Section 2 analyzes the common mode noise transmission 
+mechanism of the planar transformer , and deduces the ex ‐
+pression of the induced charge Q between the primary and 
+secondary windings according to the potential distribution of 
+the windings when the planar transformer is working . From 
+the expression , two capacitors are sufficient to represent the 
+common -mode noise of the transformer . Section 3 establishes 
+the electromagnetic compatibility equivalent circuit model of 
+planar transformers according to the common mode noise 
+transmission mechanism and the energy transmission charac ‐
+teristics of the transformer and introduces a method to estab ‐
+lish the electromagnetic compatibility model of the full -
+bridge transformer through the experimental measurement of 
+the network analyzer . Section 4 is based on the principle of 
+experimental measurement and modeling of the network ana ‐
+lyzer , and the two -port parameters of the planar transformer 
+are extracted through the electromagnetic field finite element 
+simulation software without physical objects , and are equiva ‐
+lent to a circuit model . Finally , the accuracy of the simula ‐
+tion modeling is verified by a full -bridge circuit prototype ex ‐
+periment in Section 5. Section 6 concludes this paper .
+2 Transmission Mechanism of Common 
+Mode Noise in Planar Transformers
+2.1 Structural Capacitance Calculation
+The common -mode noise transmission of the planar trans ‐
+former is mainly through the distributed capacitance be ‐
+tween the primary winding and the secondary winding . It is 
+worth noting that the distributed capacitance of the trans ‐
+former is not equal to the equivalent capacitance of the com ‐
+mon mode noise , because the voltage on the planar trans ‐former winding is not a constant value . However , the deriva ‐
+tion of the common -mode noise equivalent capacitance is 
+based on the distributed capacitance of the planar trans ‐
+former . The simulation results of a one -turn -to-one -turn cir ‐
+cular plane copper wire are sho wn in Fig . 1. Fig. 1(a) shows a 
+simulation model of a one -turn -to-one -turn circular planar 
+copper conductor . In Fig . 1(c), the planar transformer wind ‐
+ing uses PCB wiring , and the distance d between the turns of 
+the primary and secondary windings is the distance between 
+the layers of the PCB . For a planar transformer with a single -
+layer single -turn structure , considering the current flow fac ‐
+tor, the wiring width w of the winding is generally much 
+larger than d, and the distributed capacitance between the 
+primary winding and the secondary winding can be approxi ‐
+mately regarded as a parallel plate capacitor , ignoring the 
+edge effect . Then the structural capacitance C0 between 
+turns in Fig . 1(c) can be expressed as :
+C0=εrε0S
+d,(1)
+where εr is the dielectric constant of the filling material be ‐
+tween the PCB layers , ε0 is the dielectric constant in 
+vacuum , S is the facing area between turns , and d is the dis ‐
+tance between turns .
+Since the method of approximating parallel plate capaci ‐
+tors is used in the calculation of the capacitance of the pla ‐
+nar transformer structure , in order to test the rationality and 
+accuracy of the approximation , the electromagnetic field fi ‐
+nite element simulation software is used to verify the winding 
+structural capacitance .
+Taking a turn -to-turn ring -shaped flat copper wire as an 
+example , we list the model parameters as follows : the copper 
+thickness is 1 mm, the inner diameter is 12.3 mm, the outer 
+▲Figure 1. Simulation results of one -turn -to-one -turn toroidal planar 
+copper conductors(a) Simulation model of one -turn -to-one -turn circular planar copper conductor
+(b) Electric field intensity distribution between turns
+(c) Electric field energy distribution between turns
+106

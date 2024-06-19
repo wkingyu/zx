@@ -1,0 +1,99 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3REN Min , XU Renyu , ZHU Ting Double Deep Q -Network Decoder Based on EEG Brain -Computer Interface    Special Topic
+The ultimate goal of the agent is to learn an optimal policy 
+π*, and the value function obtained under the optimal policy 
+satisfies the Bellman optimality equation : V*(st)=
+max
+a∈A Q*(s, a), i.e., the optimal value of the state is equal to the 
+expected cumulative reward obtained by taking the optimal ac ‐
+tion in that state , and the optimal policy can be obtained from 
+π*∈argmax
+a Q*(s, a).
+Q-learning is an RL algorithm based on value iteration , 
+which directly estimates the optimal state -action value func ‐
+tion Q*. It updates the Q -function by the following rule :
+Q(st, at)←Q(st, at)+α(R(st, at)+
+ γmax
+a Q(st+1, a)-Q(st, at)) , (2)
+where st+1 represents the next state reached by the agent ex ‐
+ecuting action at in state  st , and α ϵ[0, 1] represents the 
+learning rate . A common approach to deriving a policy based 
+on the Q -function is the ε‐greedy policy , which selects an ac ‐
+tion greedily with the probability of 1-ε based on the Q -
+function and performs any action randomly with the probabil ‐
+ity of ε. This facilitates the exploration of the agent in the envi ‐
+ronment and avoids falling into a local optimum .
+2.2 Double Deep Q‑Networks
+When the state space is large or continuous , it is impractical 
+to directly use the tabular Q -function for storing the values of all 
+state -action pairs . A common solution is to approximate the Q -
+function using a function approximator , e.g., Q(st, at)≈
+Q(st, at, θ), where Q(st, at, θ) represents the parametrized ap ‐
+proximation of the Q -function . Specifically , DQN is a method 
+that approximates the state action value function by the Q -
+learning algorithm through a neural network . In DQN , deep 
+learning and reinforcement learning are combined through a con ‐
+volutional neural network to approximate the state action value 
+function , and high -dimensional states can be input , which solves 
+the dimensional disaster problem faced by traditional Q -learning .
+In the traditional Q -learning algorithm and DQN algorithm , 
+directly selecting the action with the maximum Q value may 
+cause the Q -value overestimation problem , which leads to 
+over -optimistic estimation . DDQN[28] separates action selec ‐
+tion and action value evaluation to avoid the overestimation 
+problem . Like DQN , DDQN has two important ideas : the tar ‐
+get network and experience replay mechanism . At each time 
+step t in DDQN , the agent executes action  at  in current state 
+ st  based on the current policy , receives the reward R( st , at), 
+and transforms to the next state  st+1 . The transition 
+(st , at , R(st , at),  st+1) is added to the experience pool D. The 
+neural network parameters are continuously updated by a gra ‐
+dient descent minimization loss function . The neural network 
+parameters are continuously updated by minimizing the loss function through gradient descent , where the loss function is 
+expressed as the mean square error between the target value 
+and the evaluated value , which is defined as :
+L(θ)=E(st , at , R(st , at),  st+1)[(yDQN-Q(st , at ;θ))2] , (3)
+where the target value yDQN is defined as :
+yDQN= R( st , at)+ γmax
+a′ Q(st+1, a′;θ- ) . (4)
+In Eqs . (3) and (4), θ denotes the online network param ‐
+eters , θ- denotes the target network parameters . Q(st, at;θ) 
+denotes the online network output , and Q(st, at;θ-) denotes 
+the target network output , which is used to calculate the target 
+value , where the target network has the same structure as the 
+online network , except that its parameter values are replicated 
+from the online network without τ steps , and the parameter 
+representations of the target network remain unchanged dur ‐
+ing τ time steps .
+The idea of DDQN is to decouple the action of selecting the 
+maximum value in the target value and evaluating the value of 
+the action , thus avoiding the problem of overestimation . 
+DDQN uses the target network in DQN as the network for 
+evaluation , without having to introduce an additional network . 
+Therefore , in DDQN , the action is selected using the current 
+Q-network , and then its value is evaluated using the target net ‐
+work . Its target value yDDQN is:
+yDDQN= R( st , at)+ γQ(st+1,argmax
+a Q(st+1, a ; θ);θ-).(5)
+The difference between DDQN and DQN is that the selec ‐
+tion of the optimal action in DDQN is based on the online net ‐
+work Q with parameter θ, whereas the selection of the optimal 
+action in DQN is based on the target network with parameter 
+θ-. VAN HASSELT et al .[28] have experimentally demonstrated 
+that compared with DQN , DDQN can effectively reduce over ‐
+estimation and obtain more stable learning .
+2.3 Reinforcement Learning Brain Computer Interfaces
+In recent years , RL has become a significant research inter ‐
+est in artificial intelligence . Through trial and error , the RL 
+agent must discover which actions yield the maximum ex ‐
+pected reward . Thus , the RL -based BCI attempts to allow BCI 
+control algorithms to learn to complete tasks from interactions 
+with the environment rather than explicit training signals . In 
+fact, for many patients using BCI , the only signals available 
+are their internal brain intention to complete the motor task 
+and external feedback after completing the task , as opposed to 
+specific supervised signals . The RL -based BCI attempts to 
+learn a control policy by which , at any time t, the neural de ‐
+coder observes a neural state st∈S, and the neural decoder 
+outputs an action at∈A based on the current policy , which 
+05

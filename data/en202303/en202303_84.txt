@@ -1,0 +1,168 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Research Papers   Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System
+SZNr,k(yINr)=(yΦ͂
+k-
+(Q(d)
+k)-1
+2Ĥ
+kVk(d)Φk-1Vk(d)HĤH
+k(Q(d)
+k)-1
+2)-1 , (22)
+SHkHHk(yINt)=(yΦk-
+(Vk(d))HĤH
+k(Q(d)
+k)-1
+2Φ͂
+k-1(Q(d)
+k)-1
+2Ĥ
+kVk(d))-1 , (23)
+Φ͂
+k=INr  -(Q(d)
+k)-1
+2ηké
+ëù
+û ()Vk(d)HSHkHHk(yINt)Vk(d)(Q(d)
+k)-1
+2
+,
+(24)
+Φk= Idk-(Vk(d))Hῆké
+ëêêêê ù
+ûúúúú()Q(d)
+k-1
+2SZNr,k(yINr)()Q(d)
+k-1
+2Vk(d)
+,
+(25)
+Γk=-ῆké
+ëêêêê ù
+ûúúúú()Q(d)
+k-1
+2SZNr,k(-INr)()Q(d)
+k-1
+2+
+Ĥ
+kH(Q(d)
+k)-1
+2Φ͂
+k-1(Q(d)
+k)-1
+2Ĥ
+k , (26)
+Γ͂
+k=-ηké
+ëù
+ûVk(d)SHkHHk(-INt)()Vk(d)H+
+Ĥ
+kVk(d)Φ-1
+k(Vk(d))HĤ
+kH . (27)
+Then the deterministic equivalent form of rate Rˉ
+k can be ex ‐
+pressed as :
+Rˉ
+k=logdet(ΙNr+Γ͂
+kQk-1)+logdet(Φk)-
+tr(ηk[VkSHkHHk(-INt)VkH]Q-1
+2
+kSZNr,k(-INr)Q-1
+2
+k) , (28)
+Rˉ
+k=logdet(ΙNt+ΓkVkVkH)+logdet(Φ͂
+k)-
+tr(ῆk[Q-1
+2
+kSZNr,k(-ΙNr)Q-1
+2
+k]VkSHkHHk(-INt)VkH) . (29)
+Based on the aforementioned analysis , the approximate 
+closed -form expressions of the second part of B(d)
+k can be de ‐
+rived as Eq . (30) by exploiting the relationship between it and 
+the original expression Rk. The closed -form expressions of C(d)
+k 
+can be derived similarly as Eq . (31).
+E{HkH(Q(d)
+k+HkV(d)
+k(V(d)
+k)HHkH)-1Hk}=
+∂Rk
+∂()VkVH
+k=∂Rˉ
+k
+∂()VkVH
+k=(ΙNt+ΓkVkVkH)-1Γk
+ , (30)E{HH
+k((Q(d)
+k)-1-E{(Q(d)
+k+HkV(d)
+k(V(d)
+k)HHH
+k)-1})Hk}=
+∂Rm
+∂()VmVH
+m=∂Rˉ
+k
+∂()VmVH
+m=ῆpri
+k(Q-1
+k)-ῆpri
+k((Qk+Γ͂
+k)-1)
+.
+(31)
+We then obtain
+B(d)
+k=ĤH
+k(Q(d)
+k)-1Ĥ
+k+ῆk[(Q(d)
+k)-1]-
+(ΙNt+ΓkVkVkH)-1Γk , (32)
+C(d)
+k=ῆpri
+k(Q-1
+k)-ῆpri
+k((Qk+Γ͂
+k)-1) . (33)
+By substituting Eqs . (15), (19), (32) and (33) into Eq . (18), 
+we can derive the close -form of Vk(d+1) and the sum -rate maxi ‐
+mization problem (9) is finally able to be solved by alternately 
+optimizing Vk until the convergence or the maximum iteration 
+times are reached .
+4 Simulation Results
+In this section , our simulation results show the system per ‐
+formance of the proposed beamforming design under channel 
+prediction errors . We consider a MU -MIMO system with the 
+number of UE K set to 4 and each piece of UE is equipped 
+with Nr=4 receive antennas . The transmit antenna number 
+Nt=32 and the transmit power budget P is set to 1. The 
+weight αk for each piece of UE is set equally . In addition , 
+dk=Nr , τ=7, Nslot=10, and w=10. The cluster delay line 
+(CDL ) channel model is used in the simulation to generate a 
+time -varying channel for each piece of UE , where the imple ‐
+mentations exactly follow the 3GPP 5G new radio standard 
+protocol TR 38.901[25]. Specifically , we adopt an urban macro 
+scenario and consider a CDL -A delay profile where the delay 
+spread is set as 100 ns. The Doppler shift is computed by fd=
+v fc c, which is a combination of user speed v, carrier fre ‐
+quency fc and the speed of light c, with fc=2  GHz. Different 
+UE velocities are set to indicate different time -varying chan ‐
+nels for performance comparisons . Several combinations of 
+acquired CSI and beamforming methods are discussed here . 
+The simplest case with no prediction and ZF algorithm is 
+considered , where the CSI used for DL beamforming is the 
+estimated CSI obtained in the previous SRS time slot . With 
+the predicted CSI for DL time slots , ZF and WMMSE are con ‐
+sidered for comparisons . Moreover , the case with perfect CSI 
+known in the transmitter and WMMSE beamforming is also 
+discussed as an ideal case .
+Fig. 4 illustrates the convergence behavior of the proposed 
+beamforming design and WMMSE for the cases of SNR=
+0   dB and SNR=5   dB. Since the extra prediction errors are 
+taken into consideration in the proposed design and then the 
+82

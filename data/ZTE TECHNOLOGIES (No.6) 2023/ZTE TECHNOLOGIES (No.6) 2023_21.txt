@@ -1,0 +1,91 @@
+parameters and connection quality, and 
+visualization of service links using diﬀerent 
+colors to indicate real-time service 
+connection status. Additionally, it provides 
+visualization of ODN where data is 
+automatically uploaded after the QR 
+scanning based on the pre-connectorized 
+solution. The dumb /f_iber resources are 
+displayed on the map with 100% accuracy 
+to depict the entire network topology. 
+E2E precise and fast fault location: 
+Real-time E2E fault diagnosis and accurate 
+fault locating are crucial. The ZENIC ONE 
+2.0 system implements intelligent E2E fault 
+diagnosis on all the paths. When a video is 
+lagging or frozen, it /f_irst creates a network 
+topology pro/f_ile and identi/f_ies the 
+topology lines level by level to determine 
+the termination node of the fault. It then 
+checks the device status and alarm 
+information of the faulty topology node to 
+quickly identify the cause of the user 
+service fault and restores the fault 
+according to the actual cause. 
+E2E accurate discovery of low QoE users 
+for timely improvement:  The ZENIC ONE 
+2.0 system actively identi/f_ies low QoE 
+users, and pinpoints the root causes. It 
+makes a comprehensive analysis of videos, 
+web pages, games, emails, instant 
+messages, and upload/download services, 
+performs E2E diagnosis for low QoE users, 
+and quickly identi/f_ies and locates the root 
+causes. At present, the system achieves an 85% accuracy rate of identifying low QoE 
+user and reduces the time for locating root 
+causes to 10 minutes.
+In the case of China Mobile Yili, the system 
+helped the operator reduce the user 
+complaint rate from 2.5% to 0.41%, improving 
+the user satisfaction, and reduce the low QoE 
+root cause locating time, improving the O&M 
+eﬃciency. 
+E2E Analysis for Faster Optimization
+PON Optimization
+For PON networks, the ZENIC ONE 2.0 
+system supports second-level data collection, 
+ensuring a more accurate re/f_lection of 
+network details. The platform guides the 
+uplink port expansion by analyzing the peak 
+bandwidth on the uplink port and facilitates 
+PON port upgrades by analyzing the traﬃc on 
+the PON port. Furthermore, the system can 
+identify high-value users to proactively 
+recommend value-added service packages by 
+analyzing the uplink port traﬃc of users.
+Home Network Optimization
+Optimizing the home network can directly 
+and eﬀectively improve user satisfaction. In 
+densely populated areas, after the initial 
+installation of a batch of devices, the system 
+can perform periodic and continuous channel 
+optimization to reduce Wi-Fi channel 
+interference. Using the home channel tuning 
+ Fig. 1. ZTE’s ZENIC 
+ONE 2.0 end-to-end 
+management system.
+ 
+ 
+ 
+ 
+ OLTContent sourceBRAS CRBackbone
+ONU WiFiSTBPC
+ODF OCC ODB
+EducationeSportsVRVideoZENIC ONE
+A-SA cardUser services
+CEI based on experience
+Service E2E analysis
+Low QoE user discoveryHome network
+Home network topology
+Wi-Fi remote optimizing
+ONT/Router/STB performanceODN link
+Visible ODN
+Low optical power analysis
+Optical module pre-warningOLT device
+Basic management
+Traﬃc forecast
+Fault intelligent diagnosisContent source
+Low QoE content source 
+discovery and analysis
+ DEC 2023
+ 19

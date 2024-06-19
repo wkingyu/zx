@@ -1,0 +1,110 @@
+Fig. 1. ZTE 
+uSmartNet 
+solution.uSmartNet Enables Intelligent 
+Identi/f_ication and Location of User 
+Perception Issues
+Identifying user perception problems in 
+the network in a timely manner is key to 
+ensuring user experience. uSmartNet can 
+collect the control-plane and user-plane 
+data from the wireless, bearer, and core 
+networks, and clean, correlate, and integrate 
+the data to form a high-quality perception 
+database. To solve the increasing problem 
+of service identi/f_ication rates for new 
+applications, AI capabilities are introduced 
+into the probe system at the data collection 
+layer. Through machine learning, new 
+applications can be identi/f_ied automatically, 
+boosting the overall service identi/f_ication 
+rate of the system to over 90%. This provides 
+a reliable basis for analyzing perception 
+problems. 
+With the support of complete, reliable, 
+and high-quality data, the platform 
+quanti/f_ies the user experience for various 
+service categories like network browsing, 
+video streaming, gaming, OTT video, and 
+OTT voice. Using appropriate mathematical 
+models, it comprehensively evaluates the 
+overall user experience of data services. By 
+means of cascading, time sequence, space 
+domain, aggregation, and failure reasons, 
+the platform demarcates problems with low perception scores to speci/f_ic network 
+domains. 
+To locate user perception problems more 
+quickly and accurately, the platform relies 
+on AI capabilities and expert experience 
+to continually explore and expand its 
+ability to delve deeper into the root causes 
+of the problems. On the wireless side, it 
+analyzes and locates the root causes of cell 
+faults, coverage issues, interference, and 
+capacity constraints based on wireless MR, 
+CDT, alarms, and performance data, and 
+provides corresponding solutions. On the 
+bearer side, it locates problems to speci/f_ic 
+links based on the delay, jitter, and packet 
+loss measurement data of each link, and 
+more accurately identi/f_ies and locates 
+the problems that aﬀect user perception 
+in accordance with the single-domain 
+capabilities of radio, bearer, and core 
+networks. 
+Expertise Combined with uSmartNet's 
+Perception Analysis Capability: 
+Eﬃciently Resolving User Perception 
+Issues
+To solve the perception problems that 
+aﬀect user experience, such as rate, delay, 
+voice quality, and video quality, ZTE has 
+developed comprehensive and practical 
+functions that facilitate the improvement 
+AI AICross-domains
+Single
+domainRNIA
+ZENIC ONECNIA
+NEVSE
+LSE
+RSECross-domain
+Intelligence
+Single-domain
+Intelligence
+NE
+IntelligenceE2E OPEN API
+OPEN APILearning from data or experience: 
+continuous self-evolution and iteration
+From network perception intelligence to 
+network cognitive intelligence
+AI AI
+AI AI
+AI AIAI model
+OPEN APIE2E OPEN APIDigital operations (VMAX)
+VoLTE end-to-end
+guaranteeSlice end-to-end
+guarantee...
+Fault, quality, O&M ...
+Provisioning, perception, 
+diagnosis, and prediction
+uSmartInsight
+Digital brain
+OPEN API • DATA • MODEL 
+Inference platform Data lake Training platform
+Network big data AIModel market
+<30
+Minute
+Million-level 
+data learning
+timeAlarm
+associated 
+ruleRoot 
+cause
+analysis 
+ruleRoot
+cause
+diagnosisInterference
+featuresKPI root
+cause
+analysis 
+rule150+ 200+ Second 20+ 100+
+33OCT 2023

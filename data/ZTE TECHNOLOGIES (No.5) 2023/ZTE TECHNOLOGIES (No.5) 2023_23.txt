@@ -1,0 +1,71 @@
+Chief Technical Delivery 
+Engineer of ZTE Big Data 
+ProductsLi RuimingAutonomous Network Construction: 
+E2E Automatic Collaboration for Complaint 
+Handling and Hidden Risk Identi/f_ication
+s 5G networks are extensively 
+deployed and the digital 
+economy continues to grow, the 
+construction and operation of 
+communication networks face more 
+requirements and challenges. In particular, 
+the proliferation of multiple frequencies 
+and standards has led to increasingly 
+complex and vast communication network 
+structures. Diverse terminals are heavily 
+connected, accompanied by a rapid surge 
+in diﬀerent types of service requirements. 
+Traditional O&M methods are no longer 
+adequate to meet customer eﬃciency 
+and cost expectations, nor can they ful/f_ill 
+the demands for user experience. With 
+automation and intelligence as its core 
+features to improve network quality and 
+eﬃciency, an autonomous network is 
+becoming a crucial trend in the future of 
+communication networks.
+In 2017, ETSI established the /f_irst standard 
+organization for network intelligence, and 
+later, ITU/3GPP/CCSA formed intelligent 
+network projects. The development of 
+autonomous networks began to take 
+shape in 2019. Though certain areas have 
+achieved partial automation capabilities, 
+they mainly concentrate on intelligent tools 
+and functionalities for individual domains 
+and scenarios, lacking complete end-to-end 
+automation. As a result, interconnections 
+between diﬀerent /f_ields rely on manual Aeﬀorts, lacking automatic collaboration.
+As the industry’s leading provider of 
+integrated communications and information 
+technology solutions, ZTE has conducted 
+ongoing research into automation capabilities 
+in areas like wireless, bearer, and core 
+networks. It has achieved industry-leading 
+levels in certain single-domain autonomous 
+functionalities. However, to enhance 
+autonomous capabilities of communication 
+networks and assist operators in their 
+digital transformation, it is necessary to 
+improve end-to-end  (E2E) autonomous 
+capabilities. Therefore, ZTE has proposed a 
+full-domain autonomous network solution 
+leveraging its VMAX big data platform. 
+The solution seamlessly integrates diverse 
+single-domain capabilities to achieve 
+end-to-end intelligence. Particularly, two 
+end-to-end scenarios—customer complaint 
+handling and hidden risk identi/f_ication—have 
+been successfully implemented in multiple 
+projects, thus facilitating operators’ network 
+intelligence enhancement and driving digital 
+transformation.
+ZTE’s uSmartNet full-domain autonomous 
+network solution, built on its big data 
+product VMAX, establishes seamless 
+connectivity between various individual 
+domains through relevant standard 
+interfaces. It retrieves relevant con/f_iguration, 
+alarm, and performance data from wireless, 
+bearer, and core networks. Through the 
+21OCT 2023

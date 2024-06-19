@@ -1,0 +1,91 @@
+three-sector-in-one UBRs, providing high 
+output power in a single unit. This series 
+reduces the number of radios per base 
+station from /f_ifteen to just two with the 
+introduction of 6TR and 12TR UBRs, 
+resulting in signi/f_icant cost savings of up 
+to 60% on rental expenses. ZTE also oﬀers 
+a unique FDD-TDD-integrated 5G UBR for 
+seamless multi-RAT integration, 
+enhancing overall eﬃciency.
+Signi/f_icant energy savings:  ZTE’s UBR 
+series brings substantial energy savings 
+with high-eﬃciency technologies. The 
+unique RF pooling solution optimizes 
+power ampli/f_ier utilization, resulting in 
+up to 40% energy savings. The RRU 
+hibernation function and AI-based traﬃc 
+prediction further contribute to 
+additional power reduction. With a 
+signi/f_icant reduction in power 
+consumption, ZTE’s UBR series helps 
+operators minimize costs and build a 
+sustainable and eﬃcient network 
+infrastructure.
+ZTE supports its industry leading UBR 
+series through three key technologies.
+Unique Super-N power ampli/f_ier 
+architecture:  ZTE employs an innovative 
+Super-N architecture with a multi-level 
+optimal adjustment system, enhancing 
+eﬃciency and reducing power 
+consumption at multiple levels for 
+improved output performance. This results 
+in an 8–10 percentage point increase in 
+power ampli/f_ier eﬃciency compared to the 
+previous generation, leading to a 15–20% 
+reduction in total power consumption.
+Advanced algorithm:  ZTE develops a 
+successful cognitive radio digital 
+pre-distortion (CR-DPD) algorithm, reducing 
+power fallback for eﬃcient and linear power 
+ampli/f_ier operation. This innovation leads to 
+lower power consumption and improved 
+performance.
+Unique RF pooling solutions: Leveraging 
+the UBR series, ZTE develops unique RF pooling solutions dynamically adjusting 
+output power among sectors to increase 
+revenue, save energy, and ensure an 
+optimal user experience. Eﬀectively 
+managing increased traﬃc, these 
+solutions convert it into substantial 
+revenue without negatively impacting 
+performance or coverage. With a 15–20% 
+boost in busy sectors, subscribers enjoy 
+an enhanced experience, and operators 
+achieve increased power eﬃciency.
+In recent projects, over 50,000 
+new-generation ZTE’s UBRs have been 
+successfully deployed in more than 20 
+countries worldwide. Addressing crowded 
+conditions in existing tower and pole 
+installations, these deployments increase 
+output power and capacity in the FDD 
+sub-3 GHz range, improving performance 
+while signi/f_icantly reducing energy 
+consumption. For instance, in one operator’s 
+case, where there is a growing demand for 
+multi-technology multi-band service and 
+traﬃc, tower load eﬃciency and space 
+optimization are vital. In high-traﬃc hotspot 
+areas, the operator introduces the unique 
+tri-band UBR with the industry’s highest 
+output power, reducing site footprint by 
+two-thirds and power consumption by 50%. 
+This leads to signi/f_icant savings in tower space 
+and rental expenses. With UBR replacement 
+and AI features, the total power eﬃciency 
+(GB/KWh) improves by up to 21.6%.
+Conclusion
+ZTE AAU/UBR series addresses the major 
+needs of mobile operators in diﬀerent 
+regions. It plays an increasingly important 
+role for the vast majority of CSPs, as UBR 
+facilitates super cost-eﬀective 4G 
+modernization and enhances 5G coverage 
+with increased cost-eﬀectiveness. This not 
+only addresses the most pressing current 
+demands but also provides better solutions 
+for future business growth.
+ FEB 2024
+ 29

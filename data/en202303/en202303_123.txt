@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3DING Jianwen , LIU Yao , LIAO Hongjian , SUN Bin , WANG Wei Statistical Model of Path Loss for Railway 5G Marshalling Yard Scenario    Research Papers
+According to the results of the nine cells in the marshalling 
+yard scenario , we fit the optimal regression model under each 
+cell through linear regression , including the corresponding con ‐
+stant term and path loss exponent n, and then calculate the cor ‐
+responding correction factor for each cell . By conducting joint 
+analysis of the height information of base stations in the corre ‐
+sponding cell , it is determined whether there is a significant 
+linear relationship between the correction factors (Δ1 and Δ2) 
+and the height of the base station antenna . The fitting results 
+are shown in Figs . 5 and 6. The correction factors are given by :
+Δ1=-141.73, (11)
+Δ2=17.64lght-17.22. (12)
+5 Validation and Evaluation
+The empirical model proposed in this paper is compared 
+with several traditional empirical models that are improved 
+Hata models as well . The traditional empirical models includ ‐
+ing the Stanford University temporary model (SUI) and the 
+Hata -Okumura extended model are selected as the reference 
+model for comparison and verification . The validation data consist of three cells , and the validation data have the same 
+measurement system as the statistical modeling data . The vali ‐
+dation data are not used in statistical modeling , so they can be 
+used to verify the accuracy and generalizability of the model .
+The SUI model , Hata -Okumura extended model and statisti ‐
+cal model are represented by Model 1, Model 2 and Model 3, 
+respectively . Fig. 7 shows a comparison of the accuracy of dif ‐
+ferent models on the validation data at different prediction er ‐
+ror sensitivities . When the maximum prediction error sensitiv ‐
+ity is required to be 10 dB, the maximum prediction accuracy 
+of the SUI model is 61.66%, that of the Hata -Okumura model 
+is 59.55%, and that of the statistical model is 59.55% with an 
+accuracy of 71.06%. In this scenario , compared with the exist ‐
+ing SUI and Hata -Okumura models , the accuracy of the self -
+built statistical model is improved by about 11.06%. However , 
+the prediction accuracies of the SUI model , the Hata -
+Okumura extended model and the self -built model in the mar ‐
+shalling yard scenario are not much different , indicating that 
+the SUI model and the Hata -Okumura extended model have ▼Table 2. Fitting measurement results
+Cell Number
+62
+63
+64
+143
+150
+151
+156
+184
+185Path Loss PL0
+4.565 0
+7.949 0
+3.651 2
+−3.014 8
+−7.115 8
+−4.066 2
+−4.460 3
+−13.105 2
+0.043 9Path -Loss Ex ‐
+ponent  n
+4.513 81
+4.347 35
+4.358 74
+4.542 59
+4.472 55
+4.482 93
+4.442 59
+4.438 65
+4.447 31Correction Fac ‐
+tor Δ1
+−134.29
+−131.07
+−136.12
+−141.86
+−145.97
+−142.92
+−143.31
+−151.96
+−138.89Correction Fac ‐
+tor Δ2
+10.16
+9.25
+8.37
+10.64
+9.95
+10.05
+9.64
+9.44
+9.53
+▲Figure 5. Results of correction factor  Δ1and LS regression fitting curveLS: least -squareMeasurement results
+LS fit
+log10(ht)1.45 1.50 1.55 1.60Correction factor Δ1−130
+−135
+−140
+−145
+−150
+−155
+LS: least -square
+▲Figure 6. Results of correction factor  Δ2and LS regression fitting curve
+▲Figure 7. Accuracy comparison of different models based on valida ‑
+tion data
+CDF: cumulative distribution function      SUI : Stanford University temporary modelMeasurement results
+LS fit
+log10(ht)1.45 1.50 1.55 1.60Correction factor 211.0
+10.5
+10.0
+9.5
+9.0
+8.5
+8
+SUI model
+Hata -Okumura extended model
+Statistical model
+Prediction error sensitivity/dB0   5  10 15 20 25 30 35CDF1.0
+0.8
+0.6
+0.4
+0.2
+0
+121

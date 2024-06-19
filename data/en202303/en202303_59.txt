@@ -1,0 +1,118 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks    Research Papers
+priority service calls . Some channel resources may be wasted , 
+resulting in low system channel utilization . On the other hand , 
+if the low -priority service threshold is set too high , excessive 
+low -priority service calls may be admitted to occupy too many 
+channels . This will decrease the admission success rate of 
+high -priority services in the future . Therefore , in this paper , 
+we focus on designing a channel reservation strategy to dy ‐
+namically adjust the thresholds of multi -priority calls , to real ‐
+ize intelligent admission control .
+2.3 Problem Formulation
+The overall access failure probability at time t, denoted by 
+O(t), as a system performance metric , is defined as :
+O(t)=α0Paf(t)+α1Phf(t)=
+α0∑
+i=1s
+βiPi
+af(t)+α1∑
+i=1s
+βiPi
+hf(t),(4)
+where α0 and α1 are the balance factors of new calls and han ‐
+dover calls respectively , which are used to measure the differ ‐
+ent impacts of new call blockage and handover call failure . 
+And βi is the balance factor of the i-th priority service , which 
+is used to judge the significance of multi -priority services . 
+Meanwhile , we modify Pi
+af(t) and Pi
+hf(t) as long -term metrics 
+of the i-th service as follows :
+Pi
+af(t)=Ni
+af/Ni
+a, (5)
+Pi
+hf(t)= Ni
+hf/Ni
+h, (6)
+where Ni
+af , Ni
+a , Ni
+hf and Ni
+h represent the number of new calls 
+blocked for the i-th service , the total number of new calls for 
+the i-th service , the number of handover calls failed for the i-
+th service , and the total number of handover call for the i-th 
+service , respectively .
+To improve the overall system performance , we minimize 
+O(t), i.e., minimize Pi
+af(t) and Pi
+hf(t) in the long term . As men ‐
+tioned above , the setting of K directly affects the failure rate of 
+new calls and handover calls . When the state space of each 
+beam cell is modeled as a continuous -time M/M/C/C Markov 
+chain , the closed -form relationship of the new call blocking 
+rate, handover call failure rate and K can also be proved[5]. 
+Therefore , we formulate our optimization problem as follows :
+ max        -O(t) ,                                                                                                                                                   
+s. t.         0<k1<k′1<⋯<ks<k′s≤C                            (7 .1),
+                        ki, k′i∈Z ,     i=1, 2,⋯, s                                                      (7 .2), (7)
+where each threshold is limited to an integer for the conve ‐
+nience of adjustment in the dynamic channel reservation strat ‐
+egy. As the number of system channels C and that of services s 
+can be large in real environments , using the brute force 
+method to calculate the optimal thresholds in the current state will cause an exponential increase in time and space complex ‐
+ity. In addition , due to the rapid changes in the environment , 
+optimal thresholds should be derived in real time . Thus , using 
+static optimization to solve Problem (7) is infeasible and thus 
+we resort to a learning -based solution .
+3 Intelligent Admission Control Based on 
+Dynamic Channel Reservation Strategy
+In this section , we control service call admission by adjust ‐
+ing the reserved channel thresholds and model the problem of 
+dynamically adjusting reserved channel thresholds as a Mar ‐
+kov decision process (MDP ). First , we slot the time as decision 
+periods with the slot length TΔ. In each time slot , multiple 
+calls arrive according to the Poisson distribution . The system 
+will adjust the reservation thresholds at the end of each deci ‐
+sion period . The maximum number of calls in a decision pe ‐
+riod is set to N, and even if the decision period is not over , the 
+decision will be made immediately .
+3.1 MDP Model
+An MDP model consists of a five -tuple <S, A, P, R, π>, 
+where S, A, P, R and π represent state space , action space , 
+transition probability between states , reward function , and 
+policy for selecting actions based on the state , respectively , 
+which are defined as follows :
+1) State (S): we assume that the channel resources of the 
+beam cell remain unchanged . The state is defined as :
+s(t)∈{c;λ;K}                 t=nTΔ,  n=0,1,2,⋯, (8)
+where c is the normalized number of channels that have been 
+occupied in the considered beam cell and satisfies c≤C; λ=
+{λ1
+n, λ1
+h,⋯, λs
+n, λs
+h} is the set of the call arrival rates of new 
+calls and handover calls that satisfies Eq . (2); K=
+{k1, k′1,⋯, ks, k′s} is the set of the normalized reserved channel 
+thresholds of new calls and handover calls that satisfies 
+Eq. (7.1).
+2) Action (A): we define the action as current normalized re ‐
+served channel thresholds , which can be expressed as :
+a(t)=KT={k1, k′1,⋯, ks, k′s}T. (9)
+In each decision period , action will be taken based on the 
+current state , which will control the admission by setting re ‐
+served channel thresholds .
+3) Transition Probability (P): generally , the state transition 
+function of the Markov decision process is a certain function 
+P: S×A×S→[0, 1], which represents the probability of the 
+transition to the state s′ given state s after taking action a. 
+Since state transition depends on not only the last action but 
+also the traffic changes caused by the movement of satellites 
+and UTs and call termination in the channel , it cannot be ex ‐
+plicitly expressed in our problem .
+4) Reward (R): for a single service call within a decision pe ‐
+57

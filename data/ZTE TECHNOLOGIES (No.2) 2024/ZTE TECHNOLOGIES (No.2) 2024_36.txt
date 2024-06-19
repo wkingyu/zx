@@ -1,0 +1,91 @@
+especially hard slicing isolation, to signi/f_icantly 
+reduce network construction costs and simplify 
+O&M, laying a solid foundation for intelligent 
+mining development. It oﬀers the following 
+bene/f_its:
+Super-large bandwidth: The all-optical backbone 
+ring network can smoothly expand to 100GE 
+bandwidth, meeting service development needs 
+for the next decade.
+One integrated network: Utilizes one /f_iber, one 
+set of equipment, and one integrated network for 
+industrial, video, and 5G multi-network 
+integration.
+Security isolation: The FlexE technology supports 
+end-to-end hard service isolation, meeting 
+diﬀerentiated service quality requirements.
+Independence:  China’s new-generation 
+international 5G transport standard has 
+completed extensive commercial veri/f_ication. 
+Practical Implementation
+ZTE cooperated with Changzhou Institute of China 
+Coal to build an industry-leading 100G SPN Ethernet 
+slice ring network for Shaanxi Coal and Chemical 
+Industry Group’s Xizhuo coal mine in November 2022. 
+This network provides integrated service 
+transmission for both aboveground and 
+underground production in smart mines. ZTE SPN 
+devices use the MTN hard slicing isolation 
+technology to provide a physical ring network for 
+mining operations, with multiple logical rings 
+catering to various intelligent mine subsystem 
+services.
+The successful application of SPN technology in 
+the B2B /f_ield will lay a reliable foundation for the 
+development of intelligent mines at the Xizhuo coal 
+mine, accelerating the digital transformation towards 
+5G+ intelligent mining. 
+Fig. 2. SPN Ethernet 
+ring network 
+solution.
+Table 1. Bandwidth 
+conﬁguration and 
+slice allocation 
+details for service 
+systems.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Below the mineMining area
+100G ring networkAbove the mineCore SPN6190H
+(standby)Core SPN6190H (active)Integrated 
+monitoring systemSafety supervision 
+ring network 5G system Video monitoring 
+system
+100G backbone ring network
+SPN access deviceSPN convergence device10G connectivity
+SPN CPE
+Network per site slice
+Slice
+5G (or /f_ine-grained slice) 5G transmission slice
+Network per site sliceEmergency broadcast system, personnel positioning system, information 
+release system, and wireless communication system
+Video surveillance (30G slice)
+Integrated monitoring (10G slice)
+Industrial control (or /f_ine-grained slice)
+Reserved slicesIndustrial video system
+Information release system, KJ-628 mine hydrology monitoring and early warning 
+system, ZWX8 mine distributed optical /f_iber temperature measurement system, 
+beam tube monitoring system, roof disaster monitoring system, rock burst 
+monitoring system, dust disaster monitoring system, and geological safety system
+18 industrial control application subsystems, including the tunneling control 
+system, intelligent mining surface system, and main coal /f_low transportation system
+To be allocated based on traﬃc expansionService systems Parameters
+20%
+10%
+30%
+10%
+10%
+20%
+ 
+ 
+Industrial video slice
+Integrated monitoring slice
+Industrial control slice
+5G transmission slice
+Slicing Packet Network Special Topic
+34

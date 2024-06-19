@@ -1,0 +1,67 @@
+emergency scenarios.
+Secure  and reliable, exceptional trust: In the 
+realm of global telecommunications, security 
+and reliability are paramount. ZTE 5G NTN 
+solution is built on advanced encryption and 
+robust communication protocols, ensuring 
+secure communication across all channels. The 
+system’s resilience and reliability are engineered 
+to ensure consistent performance, even under 
+challenging environmental conditions. This 
+reliability is crucial for addressing critical 
+communication needs, especially in scenarios 
+involving natural disasters, remote explorations, 
+and maritime emergencies.
+Rapid Technological Advancements in ZTE 
+5G NTN
+After the R17 NTN standard was frozen in June 
+2022, ZTE has initiated a series of technical 
+experiments and commercial applications 
+worldwide. In May 2023, ZTE, in partnership with 
+China Telecom and VIVO, completed the /f_irst 5G NTN 
+direct-to-cell /f_ield trial in China. This trial utilized 
+domestically developed communication satellites 
+and ground mobile communication systems, with 
+ZTE’s 5G base stations featuring NTN capabilities. It 
+overcame crucial technical challenges such as 
+frequency and time synchronization in geostationary 
+orbit satellite communications, verifying the 
+capabilities for base stations. This enables existing 
+network terminals to connect directly to satellites 
+without the need for modi/f_ications. The signi/f_icant 
+economies of scale brought about by existing 
+terminals and their satellite links will rapidly 
+reduce the cost of satellite connections, 
+showcasing the potential for large-scale 
+commercial applications.
+Universal bene/f_its, diverse integration:  
+Compared to other satellite communication 
+methods, the 5G NTN solution, grounded in the 
+3GPP standard, oﬀers distinct advantages in terms 
+of terminal ubiquity, industry integration, and 
+service versatility. This places it at the forefront of 
+satellite-terrestrial integration technology. 
+Currently, 5G NTN excels in IoT-NTN short 
+messaging and IoT services, and in the future, it 
+will support NR-NTN voice and broadband data 
+services for existing mobile phones.
+Customer priority, enhanced experience:  At 
+the core of  ZTE 5G NTN solution is a dedication 
+to enhancing user experience. The technology 
+transforms ordinary smartphones into advanced 
+communication devices capable of connecting 
+via satellite, enabling individuals in the most 
+remote areas to access reliable network services. 
+For industry users, the solution ensures 
+robust, reliable, and cost-eﬀective 
+communication—essential for eﬃcient 
+operations in maritime, logistics, and 
+Fig 1. Satellite 
+communication is a 
+valuable 
+complement to 
+terrestrial networks.Civil aviation
+Satellite IoTEmergency 
+communicationsRemote areasMarine communications
+ FEB 2024
+ 25

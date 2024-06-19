@@ -1,0 +1,74 @@
+数字孪生赋能下的 6G网络资源管控机制 程子豪  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3孪生技术具有传输数据量大 、传输速率快 、适应能力强等特
+点，可以与多模态通信技术相结合 ，弥补传统通信技术在跨
+模态信息之间潜在关系利用方面的不足 。利用数字孪生技术
+可以解决人工智能技术应用在资源分配方面存在的问题 ，同
+时利用人工智能技术中的机器学习也可以辅助数字孪生建
+模。数字孪生网络层的任务是基于物理层传输的实时数据对
+物理实体进行建模 ，而实际上 ，这些实时数据的量级较大 ，
+对设备的计算资源提出了挑战 。由于不同网元之间的外部特
+征和内部逻辑存在相似性 ，因此在建模的过程中我们可以利
+用人工智能技术学习模型的相似性 ，从而辅助设备对物理实
+体进行建模 ，减少软硬件资源消耗 。
+4 结束语
+本文探讨了基于数字孪生的 6G通信网络的资源管理问
+题，并提出了一种 6G移动通信场景下的物理层 -数字孪生网
+络层 -计算应用层的 3层数字孪生网络建模方法 ；探讨了实 -
+实、虚-虚、虚-实3种连接与交互方式 ，并提出了一种基于
+区块链数据共享与加密的解决方案 ，以确保资源管理决策满
+足实时性 、准确性和安全性要求 ；最后说明了数字孪生在
+6G网络资源管控中的具体应用 ，包括利用数字孪生技术对
+资源管理决策进行仿真 ，并根据网络状态进行验证 ，以降低
+网络异常的几率 。数字孪生能够应用其强大的计算能力对复
+杂优化问题进行求解 ，并为物理实体提供优化决策反馈 。
+参考文献
+[1] 孙滔, 周铖, 段晓东 , 等. 数字孪生网络 (DTN): 概念、架构及关键技术  [J]. 自动化
+学报, 2021 , 47(3)：569-582. DOI: 10.16383 /j.aas.c210097
+[2] GUAN W Q , ZHANG H J , LEUNG V C M . Customized slicing for 6G: 
+enforcing artificial intelligence on resource management [J]. IEEE network , 
+2021 , 35(5): 264-271. DOI: 10.1109 /MNET .011.2000644
+[3] WANG W L , TANG L , WANG C M , et al . Real-time analysis of multiple root 
+causes for anomalies assisted by digital twin in NFV environment [J]. IEEE 
+transactions on network and service management , 2022 , 19(2): 905-921. 
+DOI: 10.1109 /TNSM .2022 .3151249
+[4] VAN HUYNH D , NGUYEN V D , KHOSRAVIRAD S R , et al . URLLC edge 
+networks with joint optimal user association , task offloading and resource 
+allocation : a digital twin approach [J]. IEEE transactions on communications , 
+2022 , 70(11): 7669 -7682 . DOI: 10.1109 /TCOMM .2022 .3205692
+[5] LIU T , TANG L , WANG W L , et al . Digital-twin-assisted task offloading 
+based on edge collaboration in the digital twin edge network [J]. IEEE 
+Internet of Things journal , 2022 , 9(2): 1427 -1444 . DOI : 10.1109 /
+JIOT .2021 .3086961
+[6] 陶飞, 马昕, 戚庆林 , 等. 数字孪生连接交互理论与关键技术  [J]. 计算机集成制
+造系统 , 2023 , 29(1)：1-10. DOI: 10.13196 /j.cims .2023 .01.001
+[7] JIANG H F , QIN S F , FU J L , et al . How to model and implement 
+connections between physical and virtual models for digital twin application 
+[J]. Journal of manufacturing systems , 2021 , 58: 36-51. DOI : 10.1016 /j.
+jmsy .2020 .05.012
+[8] 蒋丽, 谢胜利 , 田辉 . 面向数字孪生边缘网络的区块链分片及资源自适应优化机
+制 [J]. 通 信 学 报 , 2023 , 44(3)：12-23. DOI : 10.11959 /j.issn.1000 −
+436x.2023044
+[9] 龙隆, 刘子辰 , 陆在旺 , 等. 移动边缘网络下服务缓存与资源分配联合优化策略  
+[J]. 通信学报 , 2023 , 44(1)：64-74. DOI: 10.11959 /j.issn.1000 −436x.2023020[10] LIU X N , ZHANG H J , LONG K P , et al . Proximal policy optimization-based 
+transmit beamforming and phase-shift design in an IRS-aided ISAC 
+system for the THz band [J]. IEEE journal on selected areas in 
+communications , 2022 , 40(7): 2056 -2069 . DOI : 10.1109 /
+JSAC .2022 .3158696
+[11] ZHANG H J , FENG L Z , LIU X N , et al . User scheduling and task offloading 
+in multi-tier computing 6G vehicular network [J]. IEEE journal on selected 
+areas in communications , 2023 , 41(2): 446-456. DOI : 10.1109 /
+JSAC .2022 .3227097
+作 者 简 介
+程子豪 ，北京科技大学在读本科生 ；主要研究领
+域为数字孪生通信网络 。
+刘向南 ，北京科技大学在读博士生 ；主要研究领
+域为 6G智能通信资源管理等 。
+高宏伟 ，北京科技大学在读硕士生 ；主要研究领
+域为通信感知一体化与智能通信等 。
+管婉青 ，北京科技大学讲师 ；主要研究方向为
+B5G/6G网络切片 、无线网络资源管理等 。
+张海君 ，北京科技大学教授 、博士生导师 ；主要
+研究方向为 6G移动通信 、人工智能与无线网络 、
+机器学习与大数据等 。
+45

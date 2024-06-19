@@ -1,0 +1,74 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian Review   RIS -Assisted Cell Free MIMO : A Survey
+an active relay to assist the transmission from APs to users . 
+However , since the AP antennas are generally tilted down ⁃
+wards to serve the ground users , communication with UAV 
+usually suffers from poor signal strength . One way to deal 
+with this problem is by tilting the AP antenna upwards or allo ⁃
+cating more transmit power to the UAV . However , this would 
+weaken the communication with ground users . Motivated by 
+the emerging RIS technology , some researchers proposed to 
+utilize RIS to strengthen the UAV com ⁃
+munication while maintaining or even 
+improving the downlink rate at the 
+ground users[41]. By judiciously design ⁃
+ing the reflection coefficients of the RIS 
+and the power allocation , the achievable 
+rate of both the UAV and the ground us ⁃
+ers can be improved without changing 
+the AP antenna tilt .
+4.3 Wireless Energy Transfer
+In practice , most I oE devices will be 
+battery - or energy -constrained due to 
+their limited sizes . Although frequent 
+battery replacement and replenishing 
+may offer a temporary solution to this 
+problem , in future communication sys ⁃
+tems with multitudinous ubiquitous mo ⁃
+bile access devices such as CF MIMO , 
+this comes with dramatically high labor 
+and material costs . As such , advanced 
+energy supplement techniques are ur ⁃
+gently needed to improve the energy 
+shortage challenges .
+Among various candidates , wireless 
+energy transfer has been regarded as a 
+promising technology to address these 
+critical energy replenishing problems . 
+Specifically , the radio frequency (RF) 
+energy signal radiated by the AP can be 
+acquired at the energy receiver by utiliz ⁃
+ing the far -field radiation properties of 
+electromagnetic waves . After that , the 
+AP transforms the received energy sig ⁃
+nal into energy for potential use . Unfor ⁃
+tunately , despite the appealing merits of 
+WET , it still faces some practical prob ⁃
+lems such as severe loss attenuation and 
+signal obstruction . As a remedy , RIS has 
+exactly the ability to smartly enhance 
+the channel conditions via software -
+controlled signal reflection . Figs . 5 and 
+6 illustrate the specific transmission 
+flow and the system architecture of the 
+RIS -assisted CF MIMO system with WET respectively . As shown in Fig . 5, for the proposed RIS -
+assisted CF MIMO systems , multiple cooperative APs transmit 
+both information signals and energy -carrying signals to mul ⁃
+tiple energy receivers and information receivers , where RISs 
+are deployed to enhance the corresponding communication 
+links . In Fig . 6, the system architecture can be divided into 
+four parts . In the first part , the energy receivers transmit the 
+energy demand signal to the APs through direct and RIS -
+▲Figure 5. Transmission flow of RIS -assisted cell -free (CF) multiple -input multiple -output (MIMO ) 
+system with wireless energy transmission (WET )CPU: central processing unit      RIS : reconfigurable intelligent surface     UE : user equipment
+▲Figure 6. Architecture of RIS -assisted cell -free multiple -input multiple -output (CF MIMO ) sys⁃
+tem with wireless energy transmission (WET )AP: access point      CPU : central processing unit      RIS : reconfigurable intelligent surfaceEnergy flow Information flowRISUplinkDownlinkUE
+Fronthaul link
+AP② Received demand signal
+① Energy demand signal
+④ Wireless energy transfer③ Control signalCPU
+Power allocation
+RIS
+Energy receiverCPU
+AP
+82

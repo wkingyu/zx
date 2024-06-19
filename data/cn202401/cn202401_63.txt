@@ -1,0 +1,118 @@
+面向卫星通信与导航的下一代多址接入 侯天为  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1IEEE Internet of Things journal , 2022 , 9(12): 9625 -9639 . DOI : 
+10.1109 /jiot.2021 .3130026
+[5] DAI L L , WANG B C , PENG M G , et al . Hybrid precoding-based 
+millimeter-wave massive MIMO-NOMA with simultaneous 
+wireless information and power transfer [J]. IEEE journal on 
+selected areas in communications , 2019 , 37(1): 131-141. DOI : 
+10.1109 /JSAC .2018 .2872364
+[6] LI A N , BODANESE E , POSLAD S , et al . A trajectory-based gesture 
+recognition in smart homes based on the ultrawideband 
+communication system [J]. IEEE Internet of Things journal , 2022 , 9
+(22): 22861 -22873 . DOI: 10.1109 /jiot.2022 .3185084
+[7] SINHA A K , MOHAMMED S K , RAVITEJA P , et al . OTFS based 
+random access preamble transmission for high mobility scenarios 
+[J]. IEEE transactions on vehicular technology , 2020 , 69(12): 15078 -
+15094 . DOI: 10.1109 /tvt.2020 .3034130
+[8] HADANI R , RAKIB S , TSATSANIS M , et al . Orthogonal time 
+frequency space modulation [C]//Proceedings of IEEE Wireless 
+Communications and Networking Conference (WCNC ). IEEE , 2017 : 
+1-6. DOI: 10.1109 /wcnc .2017 .7925924
+[9] HADANI R , RAKIB S , MOLISCH A F , et al . Orthogonal time 
+frequency space (OTFS ) modulation for millimeter-wave 
+communications systems [C]//Proceedings of IEEE MTT-S 
+International Microwave Symposium (IMS). IEEE , 2017 : 681-683. 
+DOI: 10.1109 /mwsym .2017 .8058662
+[10] SHEN W Q , DAI L L , AN J P , et al . Channel estimation for 
+orthogonal time frequency space (OTFS ) massive MIMO [J]. IEEE 
+transactions on signal processing , 2019 , 67(16): 4204 -4217 . DOI : 
+10.1109 /TSP.2019 .2919411
+[11] DING Z G . Robust beamforming design for OTFS-NOMA [J]. IEEE 
+open journal of the communications society , 2020 , 1: 33-40. DOI: 
+10.1109 /ojcoms .2019 .2953574
+[12] LIU Y X , ZHAO M , XIAO L M , et al . Pilot domain NOMA for grant-
+free massive random access in massive MIMO marine 
+communication system [J]. China communications , 2020 , 17(6): 
+131-144. DOI: 10.23919 /jcc.2020 .06.011
+[13] LEE J H , SEO H , PARK J , et al . Learning emergent random access 
+protocol for LEO satellite networks [J]. IEEE transactions on 
+wireless communications , 2023 , 22(1): 257-269. DOI : 10.1109 /
+twc.2022 .3192365
+[14] YING K K , GAO Z , CHEN S , et al . Quasi-synchronous random 
+access for massive MIMO-based LEO satellite constellations [J]. 
+IEEE journal on selected areas in communications , 2023 , 41(6): 
+1702 -1722 . DOI: 10.1109 /JSAC .2023 .3273699
+[15] LEE J H , KIM Y , LEE I G . Random beam-based random access 
+for low-latency device-to-device communication systems [J]. 
+IEEE access , 2020 , 8: 79887 -79895 . DOI : 10.1109 /
+ACCESS .2020 .2990448
+[16] LIU Y W , LIU X , MU X D , et al . Reconfigurable intelligent surfaces : 
+principles and opportunities [J]. IEEE communications surveys & 
+tutorials , 2021 , 23(3): 1546 -1577 . DOI : 10.1109 /
+comst .2021 .3077737
+[17] ANDREWS J G , BAI T Y , KULKARNI M , et al . Modeling and 
+analyzing millimeter wave cellular systems [J]. IEEE transactions 
+on communications , 2016 : 1. DOI: 10.1109 /tcomm .2016 .2618794
+[18] MU X D , LIU Y W , GUO L , et al . Simultaneously transmitting and 
+reflecting (STAR ) RIS aided wireless communications [J]. IEEE 
+transactions on wireless communications , 2022 , 21(5): 3083 -
+3098 . DOI: 10.1109 /twc.2021 .3118225
+[19] QIN X T , SONG Z Y , HOU T W , et al . Joint resource allocation and 
+configuration design for STAR-RIS-enhanced wireless-powered 
+MEC [J]. IEEE transactions on communications , 2023 , 71(4): 2381 -
+2395 . DOI: 10.1109 /tcomm .2023 .3241176
+[20] ZHANG Z J , DAI L L , CHEN X B , et al . Active RIS vs . passive RIS : 
+which will prevail in 6G? [J]. IEEE transactions on communications , 
+2023 , 71(3): 1707 -1725 . DOI: 10.1109 /tcomm .2022 .3231893
+[21] ZHU X M , JIANG C X , KUANG L L , et al . Capacity analysis of 
+multi-layer satellite networks [C]//Proceedings of International 
+Wireless Communications and Mobile Computing (IWCMC ). IEEE , 
+2020 : 251-256. DOI: 10.1109 /iwcmc 48107 .2020 .9148095
+[22] GUAN D , SUN X , WANG J , et al . RIS-NOMA-aided LEO satellite communication networks [C]//Proceedings of 10th International 
+Conference on Information Systems and Computing Technology 
+(ISCTech ). IEEE , 2022 : 409-413. DOI : 10.1109 /
+isctech 58360 .2022 .00071
+[23] HOU T W , LIU Y W , SONG Z Y , et al . Exploiting NOMA for UAV 
+communications in large-scale cellular networks [J]. IEEE 
+transactions on communications , 2019 , 67(10): 6897 -6911 . DOI : 
+10.1109 /tcomm .2019 .2929806
+[24] HOU T W , LIU Y W , SONG Z Y , et al . UAV-to-everything (U2X) 
+networks relying on NOMA : a stochastic geometry model [J]. IEEE 
+transactions on vehicular technology , 2020 , 69(7): 7558 -7568 . 
+DOI: 10.1109 /tvt.2020 .2994167
+[25] ZHAO Q C , GONG W F , HOU T W , et al . Global navigation satellite 
+system (GNSS ): a reconfigurable intelligent surface (RIS)-aided 
+approach [C]//Proceedings of GLOBECOM 2022  - 2022  IEEE 
+Global Communications Conference . IEEE , 2022 : 3162 -3167 . 
+DOI: 10.1109 /globecom 48099 .2022 .10001462
+[26] HOU T W , LI A N . Performance analysis of NOMA-RIS aided 
+integrated navigation and communication (INAC ) networks [J]. 
+IEEE transactions on vehicular technology , 2023 , 72(10): 13255 -
+13268 . DOI: 10.1109 /tvt.2023 .3277581
+[27] ZHAO Q C , GONG W F , HOU T W , et al . Integrated-navigation-
+and-communication (INAC ): a reconfigurable intelligent surface 
+(RIS)-aided approach [C]//Proceedings of IEEE 97th Vehicular 
+Technology Conference (VTC2023 -Spring ). IEEE , 2023 : 1-6. DOI : 
+10.1109 /vtc2023 -spring 57618 .2023 .10199514
+[28] YOU L , QIANG X Y , TSINOS C G , et al . Beam squint-aware 
+integrated sensing and communications for hybrid massive MIMO 
+LEO satellite systems [J]. IEEE journal on selected areas in 
+communications , 2022 , 40(10): 2994 -3009 . DOI : 10.1109 /
+jsac.2022 .3196114
+[29] ZHANG J A , HUANG X J , GUO Y J , et al . Multibeam for joint 
+communication and radar sensing using steerable analog antenna 
+arrays [J]. IEEE transactions on vehicular technology , 2019 , 68(1): 
+671-685. DOI: 10.1109 /tvt.2018 .2883796
+作 者 简 介
+侯天为 ，北京交通大学副教授 ；主要研究领域为
+下一代多址接入 、智能超表面 、卫星通信与导航
+系统等 ；中国科协青年人才托举对象 ，欧盟“玛
+丽居里学者 ” ；先后主持和参与基金项目 10余项；
+已发表论文 50余篇。
+关达 ，北京交通大学在读博士研究生 ；主要研究
+方向为智能超表面 、卫星通信导航一体化 。
+孙昕 ，北京交通大学教授 ；主要研究领域为下一
+代多址接入 、专业移动通信等 ；先后主持和参与
+基金项目 40余项；已发表论文 100余篇。
+59

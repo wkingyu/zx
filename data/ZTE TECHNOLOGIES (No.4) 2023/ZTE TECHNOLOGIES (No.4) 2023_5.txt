@@ -1,0 +1,74 @@
+Spain leads in FTTH deployments in 
+Europe. What factors do you think 
+have contributed to this significant 
+growth?
+/uni00A0
+Spain was one of the /f_irst countries that 
+started deploying FTTH in Europe with a /f_irm 
+commitment to develop these networks by 
+the main telecommunication companies and 
+the government. This has allowed Spain to 
+be in a quite privileged place and ranked 2nd 
+in Europe in terms of /f_iber optic penetration 
+level (73.5%) according to FTTH Council, but 
+ranking as No. 1 country in both metrics, HP 
+(home passed) and HC (home connected), for 
+many years. Supportive regulation for FTTH 
+roll outs and the /f_lexibility that the diﬀerent 
+Public Administrations are developing, is 
+also a key factor to speed up this technology 
+adoption.
+Another key singularity of the Spanish 
+market is the number of registered local 
+ISPs.
+In Spain there are more than 3,500 
+ISP licenses registered at CNMC (Spanish 
+regulator), around 1,500 of them are already 
+active. Most of these 1,500 are local ones, 
+and have performed a key role in the 
+proximity and customer centric strategy, 
+specially in rural environments, where these 
+companies focus their activity and business, 
+bringing a high quality service by all means 
+to those communities, based on their own 
+local /f_iber roll outs.
+Spanish people have full con/f_idence in /f_iber optic and, as soon as it is available in 
+their homes, they do not hesitate to contract 
+it because of all the advantages over other 
+technologies.
+From your perspective, what are the 
+major challenges for the Spanish 
+FTTH market, and how is Asteo 
+addressing some of those issues?
+Our market is a worldwide reference 
+in terms of eﬀective execution of FTTH 
+deployments, based on the reasons 
+explained above, and as a consequence of 
+this, the FTTH estimated coverage at national 
+level reaches 90%. But, if we consider just 
+rural coverage, the data decreases down to 
+nearly 65% (FTTH Council sourcing). So, our 
+main challenge is to connect any municipality 
+by /f_iber to secure a proper connectivity 
+that guarantees the needed foundation for 
+the digitalization of this rural community, a 
+strategic pillar for its future development.
+Asteo has been born specially to support 
+this, in our phase 1 we are connecting 
+500 municipalities with less than 1,000 
+inhabitants, and for connecting them we are 
+building more than 1,900 km of backhaul 
+(regional /f_iber to interconnect all these 
+municipalities).
+And to fully support this, there is also a 
+big challenge at the Public Administration 
+side to optimize the current administrative 
+processes in order to speed up the civil 
+works permits and licenses./uni00A0pain, one of the leading pioneers of /f_iber-to-the-home (FTTH) in Europe, has achieved a 
+high /f_iber optic penetration. However, the rural areas in Spain still have inadequate 
+broadband connectivity, which hampers their further development. “Asteo has been born 
+specially to support this,” stated Pedro Abad, founder and CEO of Asteo Red Neutra, when 
+discussing his company’s eﬀorts in bringing connectivity to rural Spain through FTTH services in an 
+interview. Asteo Red Neutra is a wholesale FTTH operator that is focused on building ultra-modern 
+FTTH and backhaul networks in rural environments. S
+03AUG 2023

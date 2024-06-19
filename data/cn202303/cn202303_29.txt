@@ -1,0 +1,94 @@
+数字孪生边缘网络 张 彦  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3程提供指导 ，从而提高产品制造的质量和效率 。
+2）智慧工厂 。在工业物联网中 ，数字孪生边缘网络可以
+通过收集数据并创建计算模型来对工业机械设备进行设计和
+测试 ，以减少开发成本和时间 ，提高工业设备的运行安全和
+性能[12]。具体来说 ，数字孪生边缘网络通过实时分析工厂设
+备运行数据来创建数字化孪生体 ，监测和评估工业设备的全
+生命周期状态 ，进行风险预测 、运维优化 、应用数据处理 、
+故障诊断等 。然而 ，在工业物联网领域应用数字孪生边缘网
+络，仍面临一些挑战 ：由于工业设备需要精确的控制和指令
+来确保生产安全 ，因此数字孪生模型应该具有很高的精度 ；
+在一些特殊工业场景中 ，工业设备与数字孪生边缘服务器之
+间的通信是不可靠的 ，需要设计具有一定容错率的数字孪生
+模型来确保孪生体的稳定性 。
+3）智能交通 。传统的交通系统存在交通堵塞和交通事
+故等严重问题 。数字孪生边缘网络通过模拟数字孪生体的城
+市交通流 ，并进行实时分析与优化 ，从而有效地预测和避免
+交通事故 ，改善交通管理和优化行驶路径 。此外 ，通过数字
+孪生体的实时模拟和评估 ，数字孪生边缘网络还可以检测交
+通设施的使用情况 ，并进行维护决策优化 ，以提高交通设施
+的效用 。然而 ，数字孪生边缘网络在智能交通方面也面临着
+一些挑战 ：一方面 ，动态和时变的运输环境对建立准确的交
+通数字孪生模型提出了严峻的挑战 ；另一方面 ，包含智能汽
+车运行状态和信息的大量数据需要传输到数字孪生边缘服务
+器中 。不可靠的通信环境和高传输延迟增加了构建交通数字
+孪生体的难度 。
+4）智慧医疗 。在可穿戴物联网设备的辅助下 ，数字孪
+生边缘网络可以通过实时收集物联网传感器和智能监测设备
+的数据来检测患者的健康状况 ，从而建立数字孪生体 。数字
+孪生体可以通过密切监测患者的状况 ，分析患者的生理状
+态、药物使用信息 、精神状态和生活规律等情况 ，预测患者
+未来的健康状况并提供全方位的医疗护理 。数字孪生体还可
+以通过患者体征的观测 ，协助医生进行手术模拟 ，提高手术
+成功率 。此外 ，数字孪生体也将在医疗设备的监控 、管理和
+维护中发挥重要作用 。
+5 结束语
+数字孪生是推动未来 6G网络发展 、实现泛在智能连接
+的关键驱动力 。为了解决边缘智能网络中资源紧缺这一问
+题，我们提出融合区块链与联邦学习的数字孪生边缘网络架
+构，并详细分析了所提架构的优势及面临的主要挑战 ；进一
+步地 ，探讨了数字孪生边缘网络部署与实施过程中所面临的
+孪生映射与迁移两个主要问题 ，并给出了未来的典型应用场景。数字孪生边缘网络将为未来 6G网络中实现低时延 、高
+可靠 、强安全的边缘智能提供有效的解决方案 ，为泛在智能
+连接愿景的实现奠定重要基础 。
+参考文献
+[1] REN J , MAHFUJUL K M , LYU F , et al . Joint channel allocation and resource 
+management for stochastic computation offloading in MEC [J]. IEEE 
+transactions on vehicular technology , 2020 , 69(8): 8900 -8913 . DOI : 
+10.1109 /TVT.2020 .2997685
+[2] LU Y ., HUANG X , ZHANG K , et al . Blockchain empowered asynchronous 
+federated learning for secure data sharing in Internet of vehicles [J]. IEEE 
+transactions on vehicular technology , 2020 , 69(4): 4298 -4311 . DOI: 
+10.1109 /TVT.2020 .2973651
+[3] WU Y W , ZHANG K , ZHANG Y . Digital twin networks : a survey [J]. IEEE 
+Internet of Things journal , 2021 , 8(18): 13789 -13804 . DOI : 10.1109 /
+JIOT .2021 .3079510
+[4] IMT- 2030（6G）推进组 . 6G总体愿景与潜在关键技术白皮  [R]. 2021
+[5] LU Y L , HUANG X H , DAI Y Y , et al . Blockchain and federated learning for 
+privacy-preserved data sharing in industrial IoT [J].IEEE transactions on 
+industrial informatics , 2019 , 16(6): 4177 -4186 .DOI: 10.1109 /
+TII.2019 .2942190
+[6] YANG Q , LIU Y , CHEN T , et al . Federated machine learning : concept and 
+applications [J]. ACM transactions on intelligent systems and technology 
+(TIST), 2019 , 10(2): 1-19
+[7] 张彦, 张科, 曹佳钰 . 边缘智能驱动的车联网  [J]. 物联网学报 , 2018 , 2(4): 40-
+48. DOI: 10.11959 /j.issn.2096 -3750 .2018 .00080
+[8] AI B, MOLISCH A F , RUPP M , et al . 5G key technologies for smart railways 
+[J]. Proceedings of the IEEE , 2020 , 108(6): 856-893. DOI : 10.1109 /
+JPROC .2020 .2988595
+[9] LU Y L , HUANG X H , ZHANG K , et al . Low-latency federated learning and 
+blockchain for edge association in digital twin empowered 6G networks [J]. 
+IEEE transactions on industrial informatics , 2021 , 17(7): 5098 -5107 . DOI : 
+10.1109 /TII.2020 .3017668
+[10] GEHRMANN C , GUNNARSSON M . A digital twin based industrial 
+automation and control system security architecture [J]. IEEE transactions 
+on industrial informatics , 2020 , 16(1): 669-680. DOI : 10.1109 /
+TII.2019 .2938885
+[11] MILTON M , CASTULO DE LA O , GINN H L , et al . Controller-embeddable 
+probabilistic real-time digital twins for power electronic converter 
+diagnostics [J]. IEEE transactions on power electronics , 2020 , 35(9): 9850 -
+9864 . DOI: 10.1109 /TPEL .2020 .2971775
+作 者 简 介
+张彦 ，挪威奥斯陆大学教授 、欧洲科学院院士 、
+挪威皇家科学院院士 、挪威工程院院士 、IEEE 
+Fellow 、IET Fellow 、全球高被引科学家 ，担任多
+个IEEE 期刊及中国核心期刊的编委 ；主要研究领
+域为新一代无线通信网络和智能安全物联网 。
+卢云龙 ，北京交通大学全国重点实验室副教授 ；
+主要研究方向为数字孪生网络 、边缘智能 、物联
+网 安 全 等 ；获 得 IEEE 车 辆 技 术 学 会 Daniel E . 
+Noble Fellowship Award 、北京市科协首都前沿
+学术成果 。
+25

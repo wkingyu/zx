@@ -1,0 +1,67 @@
+Fig. 1. SPN 2.0 
+FGU-based SPN 
+private line 
+transport solution.
+SRv6 programmable architecture. At the same time, 
+ZTE and China Mobile have also submitted a draft at 
+the IETF SPRING working group. The pilot tests of the 
+phase-1 T-SRv6 transport solution were successfully 
+completed in the existing network of China Mobile in 
+September 2022.
+Native Computing Power and AI
+In addition to the evolution of computing-network 
+convergence services, SPN 2.0 also focuses on utilizing 
+native computing power and AI capabilities to improve 
+the intelligence and adaptability of SPN. As a 
+deployment form of hyper edge computing (HEC), the 
+built-in lightweight AI computing power of SPN 2.0 has 
+been successfully piloted to provide computing and 
+network convergence services for ToB industry 
+applications. In September 2022, China Mobile and ZTE 
+jointly completed the /f_irst pilot of the Cloud SPN 
+computing-network convergence solution in 
+Changzhou, Jiangsu province. This pilot facilitated the 
+upgrade from the traditional quality inspection to the 
+AI-enabled one in industrial manufacturing and will be 
+promoted in the future.
+In terms of SPN 2.0 management and control with 
+AI, the industry has set the   autonomous level 
+improvement goal,  providing a continuously evolving 
+intelligent SPN management and control solution. In 
+2022, ZTE and China Mobile Liaoning jointly launched access transport technology for building the 5G-R 
+next-generation railway integrated transport 
+network. 
+Evolution of Computing-Network 
+Convergence Services
+The development of China Mobile’s computing 
+power network technologies has spurred the 
+demand for SRv6 technology evolution in metro 
+SPN. ZTE and China Mobile has proposed the 
+T-SRv6 solution based on the characteristics of SPN 
+networks. T-SRv6 accurately binds SRv6 services 
+with the SPN slicing channels by extending the 
+programmable END.BXC function of SRv6. This 
+solution combines standard SRv6 technology with 
+transport slicing technology, creating an SRv6 
+solution with transport features aligned with the 
+requirements of new computing power networks 
+such as hard isolation, zero packet loss, 
+deterministic latency, and high-quality 
+diﬀerentiated slicing services. Through the 
+implementation of the T-SRv6 solution, SPN 2.0 
+oﬀers the open slicing capability, agile end-to-end 
+SRv6 interconnection, high quality, diﬀerentiated 
+service, and programmable features.  The T-SRv6 
+solution is illustrated in Fig. 2.
+ZTE has completed the R&D of the key END.BXC 
+function extension of T-SRv6 based on the standard 
+Small 
+SPNSPNSPN SPN SPN SPN
+SPN
+SPN SPNSPN SPN
+SPN SPN SPN SPN
+Metro /f_ixed FGU private lineCore & aggregation Backbone Core & aggregation Access
+Metro 5G FGU private lineAccess
+End-to-end FGU private lineMetro controller Backbone domain controller Metro controllerIntra-province cross-domain 
+controller/orchestrator Slicing Packet Network Special Topic
+16 

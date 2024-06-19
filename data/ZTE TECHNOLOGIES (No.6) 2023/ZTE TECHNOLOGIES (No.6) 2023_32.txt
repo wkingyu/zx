@@ -1,0 +1,77 @@
+while both the service provisioning and 
+the cutover get easy. The solution is 
+applicable to a variety of scenarios, such 
+as the broadband network upgrade and 
+reconstruction, green/f_ield, and MSOs’ 
+optical /f_iber transformation. It is a highly 
+applicable cost-eﬀective solution that allows 
+for continuous bandwidth upgrade and 
+evolution of FTTx network. 
+Conclusion
+ 
+As a technology leader in the optical access 
+/f_ield, ZTE has achieved several signi/f_icant 
+milestones in the development of 50G PON 
+technology. In 2022, ZTE launched the world's 
+/f_irst precise 50G PON prototype at MWC 
+2022 and the world's /f_irst 50G PON+Wi-Fi 7 
+ONU prototype at the FTTH Conference. In 
+2023, ZTE introduced its three-mode Combo 
+PON solution at MWC 2023 and its/uni00A0 Tbit-level/uni00A0
+all-optical access platform, ZXA10 C600E 
+designed for the large-scale deployment 
+of 50G PON networks at the Network X 
+exhibition. 
+Leveraging its extensive experience in 
+the development of FTTx and profound 
+understanding of the future development 
+direction of PON technologies, ZTE will continue 
+to drive innovation in 50G PON technology, 
+expand the 50G PON all-optical foundation, and 
+accelerate the advancement of the 50G PON 
+industry chain.
+Fig. 1. ZTE Combo PON 
+solution for smooth 
+evolution to 50G PON.
+wavelength stacking mechanism, supports 
+GPON, 10G PON and 50G PON, shares the 
+same ODN and platform, and solves the 
+problems of high construction costs, large 
+footprint, complex optical /f_iber cabling, 
+and diﬃcult operation and maintenance 
+during the evolution from GPON to 10G 
+PON and then to 50G PON. This solution 
+helps operators quickly and /f_lexibly 
+provision high-bandwidth services, 
+simpli/f_ies network construction, and saves 
+deployment costs.
+In the network upgrade process, the 
+three-mode Combo PON solution does 
+not need to adjust the ODN or change 
+the existing OLT con/f_igurations and user 
+service data during network upgrade, 
+facilitating /f_lexible deployment and 
+smooth network evolution. Meanwhile, the 
+solution integrates the 50G PON, 10G PON, 
+GPON, and optical multiplexer functions 
+into the same optical module without 
+requiring extra equipment or additional 
+equipment room space, which greatly 
+saves the types of line cards and simpli/f_ies 
+maintenance and management. 
+In addition, the solution uses the 
+wavelength division mode, automatically 
+matches the 50G PON channel, 10G PON 
+channel, and GPON channel with diﬀerent 
+types of ONUs, and inherits the existing 
+OSS provisioning process. The service 
+provisioning /f_low remains unchanged 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Turbocharging FTTx Network Special Topic 
+30 

@@ -1,0 +1,75 @@
+of upgrading AOSP to AndroidTV, the 
+new keys (such as attestation key and 
+widevine key) provided by Google are 
+downloaded online and written into 
+existing commercial STBs. The speci/f_ic 
+steps are as follows: 
+Step 1:  Import the new keys provided 
+by Google to the secured key tool 
+server, encrypt these keys on that 
+server, and generate encrypted key 
+/f_iles with the corresponding encryption 
+device identi/f_iers of STBs as the /f_ile 
+names (Fig. 2). Upload the encrypted 
+key /f_iles to the key management & 
+provision server in a secure channel. 
+This task needs to be completed before or bootloader mode to overwrite the 
+image data for upgrade to the new system. 
+The apps and data formats vary greatly 
+between the old system and the new 
+one. Therefore, when upgrading to the 
+new system, the user data partition will 
+be automatically formatted. This means 
+that any apps and data downloaded and 
+installed by the user in the old system will 
+be cleared. When the new system starts up, 
+it will automatically guide the user through 
+the setup wizard. 
+Key Data Update and Switching 
+After Google approves the project Fig. 2. Step 1 for online 
+download and writing 
+of new keys to commercial 
+STBs.
+Fig. 3. Steps 2 and 3 for 
+online download and 
+writing of new keys to 
+commercial STBs.
+1
+2
+3
+4Key management & 
+provision server
+Key tool serverGoogle, Widevine
+ppk.binEncryption
+keyKeys
+Provision_keywrapper.exe
+Secure serverhttps upload
+Authorized download
+Key management &
+provision serverEncrypted
+keys
+1
+2
+3
+4Key management & 
+provision server
+Key tool serverReboot
+Keybox burned?
+BT pairing
+Locale pick Quick setupDefault
+network... OthersOther setup wizard
+Launcher
+(End)Clean envMark key
+updating?
+Widevine key
+OK?Attestation key
+OK?
+Download
+attestation keybox Download
+widevine keybox 
+Burn 
+widevine keyboxBurn 
+attestation keyboxNetworkPartner pre-setup
+No
+No NoYesYes YesBoot logo Bootanimation
+20New Video Ecosystem Special Topic

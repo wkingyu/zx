@@ -1,0 +1,75 @@
+network management system (NMS), 
+digitally presents the optical link topology 
+of the entire network. This process enables 
+real-time collection and synchronization of 
+ODN resources and make the optical link 
+topology visible and manageable, with 
+resource accuracy reaching 100%.
+The visual management of the ODN 
+encompasses the physical /f_iber network, 
+the digital network, and intelligent 
+management:
+Physical /f_iber network: Pre-
+connectorized boxes with QR codes and 
+pre-connectorized optical cables with 
+barcodes are used to build the physical 
+optical network. The pre-connectorized 
+connections outside the boxes and the 
+point-to-point single-core connections 
+of the cables make it easy to collect the 
+optical link information.
+Digital network:  The mobile app is used 
+to scan and identify the connections of 
+ODN materials such as boxes and optical 
+cables based on image recognition 
+technology. The results generated are 
+transmitted in real time to the NMS, 
+where they are electronically recorded 
+and managed as the basic data of 
+network topology. Based on the acquired information, the NMS presents a digital 
+network topology that perfectly matches 
+the physical /f_iber network.
+Intelligent management:  With the 
+accurate data from the digital network, 
+optical link resources can be visualized 
+on the NMS. A geographic information 
+system (GIS) is employed to display 
+the resource information on a map, 
+thereby providing visual guidance for 
+O&M. Additionally, optical link resource 
+usage is intelligently analyzed to inform 
+resource optimization strategies that 
+guide network O&M and expansion to 
+save time and reduce OPEX.
+Eﬃcient O&M:  When users report faults, 
+automatic testing and diagnosis of 
+faults are initiated for the point to multi 
+point (P2MP) network. Faults of the 
+/f_iber lines, such as breaks, bends, and 
+connector contamination, are identi/f_ied 
+and  accurately located. Based on the 
+test and diagnosis results, maintenance 
+personnel can perform troubleshooting 
+quickly and easily.
+ZTE's Light ODN solution can clearly 
+present the following resource data on the 
+logical view page of the NMS (Fig. 1):  
+ 
+ 
+ 
+ 
+ 
+ 
+ Fig. 1. Logical 
+topology on the NMS.
+10.230.203.983AAFabH-H08-00000-1P-0022310002 
+HUB_BOX
+1AAFabS-F10-00708-1P-01223100012 
+SUB_BOX
+ 
+ 
+ 
+ 
+USER 8 AA2145007001
+USER 4 AA2145003001USER 7 AA2226006872 1-1-2-1 DEC 2023
+15 

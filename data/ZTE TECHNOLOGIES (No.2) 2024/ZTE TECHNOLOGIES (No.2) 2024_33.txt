@@ -1,0 +1,98 @@
+private networks like power, subway, high-speed rail, 
+and mining. Mature 5G-R transport industry chains 
+are now available. 
+Considering the primary challenges outlined for 
+5G-R transport network and the current 
+development roadmap of transport network 
+technologies, adopting an SPN-based 5G-R solution 
+oﬀers the following advantages:
+Building an end-to-end 5G-R backhaul L3 network 
+with SPN, enabling soft/hard-isolation slicing for 
+5G services, and achieving manageable and 
+controllable private network services.
+Supporting E1/STM-1 CBR transport through SPN 
+TDM hard isolation channels,  enabling the 
+comprehensive transmission of both 5G-R and 
+railway production services.
+Utilizing SPN’s standard independence and 
+industry chain advantages to construct a 
+next-generation integrated service access and 
+transport platform for railways, supporting the 
+overall strategy of becoming a 5G-R transportation 
+powerhouse.
+From the perspective of overall 5G-R construction 
+objectives, SPN 2.0 technical standards and products 
+align well with its transport construction 
+requirements, oﬀering advantages in technical 
+capabilities. Currently, China State Railway Group is 
+conducting a range of 5G-R veri/f_ication tests, with 
+ZTE SPN actively cooperating. ZTE has prioritized 
+meeting the 5G-R transport requirements with SPN 
+2.0 in product planning and R&D, contributing to the 
+development of smart railways. 
+packet convergence. Figure 1 outlines the 
+development of the transport technology route. 
+These three transport technologies vary in their 
+support for 5G-R transport.
+M-OTN still employs dedicated OTN interfaces and 
+oﬀers TDM hard isolation slicing, but lacks 5G 
+backhaul applications and L3 networking.
+IPRAN 2.0 supports L3 networking but lacks 
+suﬃcient enhanced capabilities in the transport 
+network, including TDM hard isolation and various 
+manageable and controllable features.
+SPN boasts both TDM hard isolation and L3 
+networking capabilities. It has carried 5G services 
+on a large scale, oﬀering rich manageable and 
+controllable features. 
+Operators have also carried out performance 
+comparison tests for three transport technologies in 
+addition to technology analysis. The test data 
+analysis shows that SPN leads in key performance 
+indexes that support 5G and integrated service 
+transport (Fig. 2). 
+The IMT-2020 5G Transport Promotion Group’s 
+research report on 5G-R transport solutions shows 
+that among the three options, SPN has superior 
+technical satisfaction. In the recent 5G-R technical 
+selection test, ZTE’s SPN successfully completed all 
+test requirements. 
+The ITU-T has released international standards for 
+SPN 1.0 and completed the establishment of 
+formulation of G.fgMTN standards for SPN 2.0 FGU. 
+Over 400,000 SPN devices are deployed in existing 
+networks and are increasingly used in production 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0.2720
+0510152025SPN
+IPRANLatency change loaded with 
+background stream (us)Slice isolation test
+Single-node forwarding 
+latency (us)
+6055.4
+24.78
+2.784SPN
+PTN
+OTN40
+20
+0MTN channel latency test
+Single-node time accurancy (ns)
+12.2
+10.77SPN
+PTN
+OTN15
+10
+5
+03.9SPN high-precision 
+synchronization test
+Fig. 2. Key performance 
+index testing for three 
+transport technologies.
+APR 2024
+31 

@@ -1,0 +1,85 @@
+光接入网络遥测技术的分析与实践 刘 刚  等 技术广角
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3阅操作的通用性和规范性 。
+网络配置协议 NETCONF 由IETF 的RFC4741 发布 （后来
+更新为 RFC6241） ，目前已经成为主流的网络设备配置协议 。
+数据建模语言 YANG 由IETF 的RFC6020 发布 （后来更新为
+RFC7950） ，可以描述任何一个由诸多数据节点构建而成的
+多层级树形结构 。YANG 语言用于 NETCONF 协议相关数据
+和操作的建模 ，以及标准化的数据模型定义 。
+CCSA 的Telemetry 行业标准[8]定义了光接入网络适用的
+Telemetry 标准 YANG 模型 。相关框架结构如下 ：
++--rw telemetry-system
++--rw sensor-groups
+| +--rw sensor-group* [sensor-group-id ]
+| +--rw sensor-group-id -> ../config/sensor-group-id
+……
+| +--rw sensor-paths
+| +--rw sensor-path* [path]
+| +--rw path -> ../config/path
+……
++--rw destination-groups
+| +--rw destination-group* [group-id ]
+| +--rw group-id -> ../config/group-id
+……
+| +--rw destinations
+| +--rw destination* [destination-address destination-port ]
+| +--rw destination-address -> ../config/destination-address
+| +--rw destination-port -> ../config/destination-port
+……
++--rw subscriptions
++--rw persistent-subscriptions
+| +--rw persistent-subscription* [name ]
+| +--rw name -> ../config/name
+| +--rw config
+| | +--rw name ? string
+| | +--rw local-source-address ? an-inet :ip-address
+| | +--rw originated-qos-marking ? an-inet :dscp
+| | +--rw protocol ? identityref
+| | +--rw encoding ? identityref
+……
+| +--rw sensor-profiles
+| | +--rw sensor-profile* [sensor-group ]
+| | +--rw sensor-group -> ../config/sensor-group
+| | +--rw config| | | +--rw sensor-group ? -> ../../../../../../../sensor-groups/
+sensor-group/config/sensor-group-id
+| | | +--rw sample-interval ? uint64
+| | | +--rw heartbeat-interval ? uint64
+| | | +--rw suppress-redundant ? boolean
+……
+| +--rw destination-groups
+| +--rw destination-group* [group-id ]
+| +--rw group-id -> ../config/group-id
+……
+2.1.2 Telemetry 数据订阅的要素分析
+在Telemetry 的YANG 模 型 中 ，subscriptions 节 点 下 的
+persistent-subscriptions 代 表 了 数 据 订 阅 列 表 ，其 下 每 个
+persistent-subscription 节点代表一个数据订阅 。数据订阅主
+要包括以下信息 ：
+1）订阅名
+每个订阅都需要被设定一个独一无二的名字 。
+2）数据发布使用的本地通信地址 、通信协议类型和编
+码类型
+在光接入网络中 ，光线路终端 （OLT）设备支持 Google
+远程过程调用 （gRPC ）协议或用户数据报协议 （UDP）进
+行数据发布 ，支持 protobuffer v 3数据编码 。
+3）被订阅的采样数据和样本周期
+sensor-profiles 节点代表被订阅的数据列表 ，其下的每
+个sensor-profile 节点均包含一个被选中的传感器组 （sensor-
+group ）以及期望的样本间隔 。传感器组可以理解为事先定
+义好的 、由一个或多个采样路径 （sensor-path ）组成的采样
+数据群组 。在光接入网络中 ，OLT 设备被要求支持 CCSA 
+Telemetry 行业标准[8]规定的标准采样路径 。其中 ，每个特定
+的采样路径字符串代表一个标准的采样数据集 。这种方法具
+有规范性好 、便于实现的优点 ，适合信息成员固定的 OLT 设
+备的 Telemetry 数据采集 。
+在光接入网络中 ，考虑到不同属性的数据信息有各自的
+数据变化频度 ，CCSA Telemetry 行业标准[8]为每个采样路径
+设定了各自的数据样本间隔门限值 。
+4）数据采集对象
+Telemetry 的YANG 模型没有数据采集对象节点 ，因此不
+支持显式配置 。整个网络设备中与采样路径相关的所有适用
+对象都会被纳入数据采集范围 。在光接入网络中 ，CCSA 
+Telemetry 行业标准[8]可以通过为采样路径设定特定的过滤条
+件来指定某个数据采集对象 。
+75

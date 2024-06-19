@@ -1,0 +1,57 @@
+6G网络架构和关键技术展望 王友祥  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 56G网络架构和关键技术展望
+Prospect of 6G Network Architecture and Key Technologies
+王友祥 /WANG Youxiang ，唐雄燕 /TANG Xiongyan
+（ 中国联合网络通信有限公司研究院 ，中国 北京 100048  ）
+(China Unicom Research Institute , Beijing 100048 , China )DOI：10.12142 /ZTETJ .202305005
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231016 .1556.018.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-12
+摘要 ：在6G网络技术的发展进程中 ，网络架构至关重要 ，它是移动通信网络的基础和核心中枢 ，决定了整个系统的效率和能力 。分析了全球
+6G发展现状和 5G-A 网络架构演进 ，提出了面向 “新网络 、新服务 、新生态 ”的6G网络架构设计 ，并介绍了 6G网络发展的潜在关键技术 ，包
+括空天地海一体 、通感算一体 、数字孪生 、智能内生等 。
+关键词 ：6G；网络架构 ；系统设计
+Abstrac t:In the development process of 6G network technology , network architecture is very important , which is the foundation and core 
+center of mobile communication network , and determines the efficiency and capability of the whole system . The global 6G development sta ⁃
+tus and the evolution of 5G-A network architecture are analyzed , and the 6G network architecture design for "new network , new service , 
+and new ecology" is proposed . Finally the potential key technologies of 6G network development are introduced , including air-space-
+ground integrated network , integrated sensing , communication and computation , digital twins and intelligent endogeneity .
+Keywords :6G; network architecture ; system design
+引用格式 ：王友祥 , 唐雄燕 . 6G网络架构和关键技术展望  [J]. 中兴通讯技术 , 2023 , 29(5): 21-27. DOI: 10.12142 /ZTETJ .202305005
+Citation ： WANG Y X , TANG X Y . Prospect of 6G network architecture and key technologies [J]. ZTE technology journal , 2023 , 29(5): 21-27. 
+DOI: 10.12142 /ZTETJ .202305005
+5G规模商用提升了用户通信能力和服务质量 ，同时也促
+进了网络流量的快速增长 。根据爱立信最新发表的移动
+报告[1]，2022 年第 2季度至 2023 年第 2季度 ，移动网络数据
+流量增长了 33%，达到每月 134 EB。报告显示 ，在智能手机
+使用量 、移动宽带以及行业数字化的持续增长的共同作用
+下，过去两年移动网络流量几乎翻了一番 ，预计到 2028 年
+将增加到 329 EB。移动通信通常 10年一个代际更替 ，因此
+学术界和工业界开始探索下一代移动通信系统 （6G） 。人工
+智能 （AI） 、卫星互联网 、云原生 、算力网络[2]等新技术的
+出现 ，以及网络低碳绿色化的发展要求 ，驱使通信网络朝着
+更强能力 、更高能效的方向发展 ，以更好地满足不断产生的
+各类业务的服务要求 。
+目前各国正在加紧 6G预研 。从2020 年到 2022 年，欧美
+日韩等国家和地区纷纷成了 6G研发行业联盟 ，包括美国
+NextG 联盟 、欧盟 6G-IA 等[3]。2022 年2月，NextG 联盟发布
+《6G路线图 》 ，确立了 6G远景目标 、技术方向和发展路线 。欧盟 2021 年启动 Hexa-X 6G研究项目 ，聚焦 6G的应用场景
+与关键技术 ；2023 年1月启动第 2阶段研究项目 Hexa-X-II ，
+聚焦 6G的系统化和预标准化研究工作 。日韩也专门设立研
+究基金 ，推动 6G核心技术研究 。中国在 2019 年由工业和信
+息化部牵头成立了中国 IMT- 2030 （6G）推进组 ，聚焦中国
+6G关键技术研究 ，陆续发布了 《6G典型场景和关键能力白
+皮书 》 《6G总体愿景与潜在关键技术白皮书 》 《6G前沿关键
+技术研究报告 》 《6G网络架构愿景与关键技术展望白皮书 》
+《6G无线网络架构和功能技术研究报告 》等近 20份相关技术
+白皮书 。2022 年国务院出台 《“ 十四五 ”数字经济发展规
+划》 ，提出前瞻布局 6G网络技术储备 ，加大 6G技术研发支
+持力度 ，积极参与推动 6G国际标准化工作 。
+2023 年6月，国际电信联盟 （ITU）完成了 《IMT（In‐
+ternational Mobile Telecommunication ）面向 2030 及未来发展
+的框架和总体目标建议书 》 。未来 6G将包含沉浸式通信 、超
+大规模连接 、极高可靠低时延 、通信与智能融合 、感知与通
+信融合 、泛在连接六大典型应用场景 。通过与其他技术的结
+合，如先进计算 ， AI、大数据 、区块链等 ，6G将实现网络 基金项目 ：国家重点研发计划项目 （2022 YFB2902103 ）
+21

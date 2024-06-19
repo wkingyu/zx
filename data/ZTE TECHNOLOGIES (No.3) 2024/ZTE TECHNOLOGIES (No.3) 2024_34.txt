@@ -1,0 +1,66 @@
+Fig. 1. “AI model + 
+5G” collaboration 
+framework in the 
+industry.
+where data is generated and consumed, the system 
+can harness the potential of intelligent service 
+analysis. The integration of AI models into the 5G 
+network empowers industries to tailor their services 
+according to speci/f_ic requirements, ensuring optimal 
+performance and responsiveness. Through 
+continuous monitoring and analysis, the system can 
+dynamically adapt to changing conditions, providing 
+diﬀerentiated service guarantees tailored to the 
+unique needs of each industrial sector. 
+5G Empowers AI Model
+As an information infrastructure in the digital era, 
+the 5G network boasts high bandwidth, low latency, 
+and massive access, greatly enhancing the 
+industry’s data collection capabilities and enriching 
+AI model datasets. At the same time, as 5G networks 
+are widely used in industries, AI models will play a 
+pivotal role in the digital and intelligent 
+transformation of these industries. 
+5G Network Enhances AI Data Sets
+In the industry intelligence process, data stands as 
+the core element shaping the competitiveness of AI 
+models. The 5G network supports multiple access 
+modes like IP/LAN, overcoming mobility restrictions 
+ 
+substantial bandwidth, while production control 
+services prioritize low latency. Therefore, 5G 
+networks need to provide SLA guarantees tailored to 
+diﬀerent users or services. On the core network side, 
+AI models can be used to evaluate and predict user 
+service quality and generate service guarantee 
+policies in time. On the wireless side, these AI models 
+analyze wireless signals and sensor data to 
+implement more accurate resource allocation and 
+scheduling, thereby enhancing network eﬃciency 
+and quality. 
+AI Model Enables Intelligent Service Analysis 
+In industrial application scenarios, stringent 
+security protocols often dictate that data must 
+remain con/f_ined within speci/f_ic areas to mitigate 
+potential risks. However, the emergence of advanced 
+AI models and algorithms has heralded a 
+transformative solution to this challenge. With the 
+introduction of AI models and algorithms, the 5G 
+network can analyze and intelligently classify data 
+traﬃc in real time without compromising security 
+protocols. This innovative approach enables 
+industries not only to uphold con/f_identiality 
+protocols but also to extract valuable insights from 
+the data generated within their con/f_ines. By 
+deploying AI models at the edge of the network, 
+5G empowers AI modelAI model enables 5G
+Intelligent operation
+SLA guaranteeIntelligent service 
+awarenessDataset enhancement 
+Integrated sensing and 
+communication
+Computing-network base  Industry intelligence 
+Cloud-edge-end 
+collaborationMining Manufacturing  Electricity Transportation Financing Government aﬀairs
+Intelligent Computing Special Topic
+32

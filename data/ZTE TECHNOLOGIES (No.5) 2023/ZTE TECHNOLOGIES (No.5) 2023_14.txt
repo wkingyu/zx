@@ -1,0 +1,55 @@
+ith the rapid development 
+of information technologies, 
+digital life has become a 
+consensus and inevitable 
+choice for the development of human 
+society. The digital wave is profoundly 
+changing the way of we produce and 
+live. Mobile communication serves as the 
+information base for the construction of 
+digital society. Meanwhile, newly emerged 
+mobile communication technologies 
+are driving the development of a digital 
+society. As the cornerstone of the mobile 
+communications network, a secure and 
+stable cloud core network is essential for 
+information communication and transfer 
+in a digital society. ZTE’s Cloud Core 
+Network products prioritize security, and 
+aim to build, maintain, and operate a 
+secure and stable core network from three 
+aspects: high reliability, trustworthiness, 
+manageability. 
+Highly-Reliable Network Ensures 
+Security 
+A highly-reliable architecture and 
+highly-reliable products are essential for 
+secure network operations. ZTE’s Cloud Core Network oﬀers a highly-reliable 
+and secure network from three aspects: 
+intra-NE, inter-NE, and the network layer. 
+Intra-NE Reliability
+ZTE’s Cloud Core Network equipment 
+is built on a stateless architecture that 
+separates services and data, enabling 
+resource elasticity without service loss. 
+During the elasticity process, user status 
+data remains intact, ensuring service 
+continuity. The service components also 
+support N+M full load sharing, meaning 
+that if one component fails, other 
+components take over the services in 
+real time to ensure that services are not 
+aﬀected. VMs or containers of the same 
+type in an NE are deployed in anti-aﬃnity 
+mode, distributed across diﬀerent physical 
+hosts or bare machines. In the event of 
+a host failure, the VMs or containers can 
+perform local self-healing or remote 
+regeneration to complete self-recovery. 
+Inter-NE Reliability
+The Cloud Core Network oﬀers various 
+backup modes, including inter-NE load WBuilding a Secure Cloud Core 
+Network to Consolidate the 
+Foundation of Digital Society
+Chen Xinyu, Vice President and General Manager of Cloud and Core Network Products at ZTE
+12Expert Views

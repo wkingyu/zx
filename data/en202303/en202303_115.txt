@@ -1,0 +1,75 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Simulation and Modeling of Common Mode EMI Noise in Planar Transformers    Research Papers
+plate FR 4 is set to 4.4, and the physical diagram and simu ‐
+lation model of the planar transformer are show n in Fig . 13. 
+The physical diagram of Fig . 13(a) shows that the planar 
+transformer of the full -bridge circuit is integrally installed . 
+We import the PCB of the full -bridge circuit into the simula ‐
+tion software and separate the PCB layout of the winding 
+part of the planar transformer to establish the simulation 
+model of the planar transformer .
+The actual planar transformer magnetic core is composed 
+of two magnetic cores . Generally , in order to control the in ‐
+ductance of the magnetizing inductance during the produc ‐
+tion process , an air gap will be opened on the central column 
+of the magnetic core . This air gap is very small and difficult 
+to measure accurately , but the size of the air gap can be de ‐
+termined by comparing the magnetizing inductance . In the 
+simulation , the transformer ’s secondary winding is left open 
+and the primary winding is excited , and the input impedance 
+curve can be obtained , which includes the magnetizing in ‐
+ductance , the leakage inductance and the inter -turn capaci ‐tance of the transformer . Since the planar transformer adopts 
+the interleaved winding method , the leakage inductance is 
+far smaller than the magnetizing inductance . The input im ‐
+pedance curve at a low frequency can be approximately re ‐
+garded as the impedance curve of the magnetizing induc ‐
+tance . After determining the size of the air gap , we short -
+circuit the secondary winding to obtain the leakage induc ‐
+tance ZLk impedance curve of the transformer . After that , we 
+add excitation according to the measurement method in Fig . 
+7 to obtain the Z-parameter impedance curve of the trans ‐
+former at two ports , and derive ZLm, ZC1, and ZC2 in the model 
+according to Eqs . (25)–(27). The simulation results are 
+shown in  Fig. 14.
+5 Experimental Verification
+We use the full -bridge circuit module in the wireless base 
+station power supply as the experimental prototype . The 
+rated input voltage of the full -bridge circuit module is 48 V, 
+the rated output voltage is 12 V, the rated output current is 
+35.8 A, and the operating frequency of the circuit is 170 
+kHz. The experimental prototype is show n in Fig . 15. The 
+planar transformer used in the experimental prototype is the 
+transformer mentioned above . The conduction test of the full 
+bridge circuit is shown in Fig . 15.
+According to the generation and conduction mechanism of 
+common mode noise which is mainly caused by the instanta ‐
+neous potential change when the switching device is turned 
+on or off , and the distributed capacitance that exists between 
+the power supply and ground is affected by the rising and 
+falling edges of the switching device voltage , resulting in 
+noise currents flowing through the line impedance stabiliza ‐
+tion network (LISN ), ground , and P and N lines with the 
+same amplitude and direction . The common -mode noise cir ‐
+▲Figure 15. Full bridge circuit conduction test
+(a) Full bridge circuit plane 
+transformer(b) Simulation model of planar transformer
+▲Figure 13. Full -bridge circuit planar transformer simulation model
+▲Figure 14. Planar transformer simulation resultsPlane transformerD
+C*B*A
+(a) ZC1 simulation resultf/HzZ/Ω1×1031×104
+100
+10
+1×1051×1061×1071×1081×1031×104
+100
+10
+1×1051×1061×1071×108
+f/Hz
+(b) ZC2 simulation result
+(d) ZLK simulation result (c) ZLm simulation resultf/Hz f/HzZ/Ω1×103
+100
+10
+1×1051×1061×1071×1081×1051×1061×1071×10810
+1
+0.1
+0.01Z/ΩZ/Ω
+113

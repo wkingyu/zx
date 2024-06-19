@@ -1,0 +1,154 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Perceptual Quality Assessment for Point Clouds : A Survey    Special Topic
+more attention in subjective PCQA research . JAVAHERI et 
+al. established the IRPC database , studying the impact of 
+three different encoding methods and three rendering solu ⁃
+tions on the visual perceptual quality of point clouds[19]. Addi ⁃
+tionally , the authors creatively evaluated the performance of 
+the encoding scheme proposed by MPEG . PERRY et al . con⁃
+firmed that VPCC ’s compression performance on static con ⁃
+tent is superior to GPCC through subjective point cloud qual ⁃
+ity assessment experiments conducted in four independent 
+labs against the established ICIP 2020  database[31]. In the data ⁃
+bases established in recent years , the types of distortions are 
+more standardized and comprehensive . The WPC database es ⁃
+tablished by LIU et al . covers Gaussian noise , downsampling , 
+GPCC , and VPCC[5]. YANG et al . established the SJTU -
+PCQA[6], which simulates distortions during the communica ⁃
+tion process , including octree -based compression , color noise , 
+geometric noise , and scaling enhancement .
+To more intuitively and clearly exhibit the development of 
+point cloud subjective databases , we have listed the information 
+of some databases in recent years in Table 2. From Table 2, we 
+can surmise that subjective PCQA databases are striving to de ⁃
+velop in the direction of larger scale , more comprehensive dis ⁃
+tortions , and more realistic and richer point cloud models .3 Objective Point Cloud Quality Assessment
+Although subjective quality evaluation is considered to be 
+the test method that best matches the visual perception of the 
+human eye , conducting subjective experiments often costs a 
+great deal of labor and time . Therefore , objective point cloud 
+quality evaluation has emerged as a promising alternative to 
+alleviate the drawbacks of subjective evaluations . Some objec ⁃
+tive point cloud quality evaluation methods are listed in Table 
+3. As with traditional image or video quality assessment , de⁃
+fined from the perspective of the amount of reference informa ⁃
+tion, objective PCQA methods can be categorized into full -
+reference (FR), reduced -reference (RR), and no -reference 
+(NR) assessment methods . Within this classification , FR 
+PCQA methods are distinguished by their utilization of com ⁃
+plete reference point clouds during the assessment of distorted 
+point clouds . Conversely , NR PCQA methods rely exclusively 
+on the distorted point clouds for quality evaluation , without ac ⁃
+cess to the reference point clouds . The RR PCQA methods 
+possess the capability to employ a subset of feature informa ⁃
+tion extracted from the reference point clouds as reference . 
+Subsequently , they conduct a comparative and analytical 
+evaluation of the distorted point clouds , culminating in the 
+derivation of quality assessment outcomes . As defined by the 
+feature extraction method , the objective PCQA methods can 
+▼Table 2. An overview of subjective PCQA databases
+Database
+G-PCD[8, 29]
+RG -PCD[30]
+VsenseVVDB[17]
+M-PCCD[11]
+IRPC[19]
+ICIP2020[31]
+PointXR[35]
+NBU -PCD 1.0[28]
+VsenseVVDB 2[20]
+SJTU -PCQA[6]
+SIAT -PCQD[36]
+CPCD 2.0[42]
+WPC[5]
+WPC 2.0[44]
+WPC 3.0[45]
+LS-PCQA[4]
+BASICS[43]Year
+2017
+2018
+2019
+2019
+2020
+2020
+2020
+2020
+2020
+2020
+2021
+2021
+2021
+2021
+2022
+2023
+2023Attribute
+Colorless
+Colorless
+Colored
+Colored
+Colorless  & Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+Colored
+ColoredModels
+40
+24
+32
+244
+54 & 54
+90
+100
+160
+164
+420
+340
+360
+740
+400
+350
+1 080
+1 494Distortion Type
+Octree , Gaussian noise
+Octree
+VPCC
+GPCC , VPCC
+GPCC , VPCC
+GPCC , VPCC
+GPCC
+Octree
+Draco+JPEG , GPCC , VPCC
+Octree , downsampling , color and geometry noise
+VPCC
+GPCC , VPCC , Gaussian noise
+Gaussian noise , downsampling , GPCC , VPCC
+VPCC
+VPCC
+Color and geometry noise , downsampling , GPCC , VPCC , etc.
+VPCC , GPCC , GeoCNN[46]
+BASICS : Broad Quality Assessment of Static Point Clouds in Compression Scenarios 
+CPCD : Color Point Cloud Dataset with GPCC/VPCC Coding and Gaussian Noise Distortions 
+GeoCNN : Geometry -Based Point Cloud Convolutional Neural Network 
+GPCC : Geometry -Based Point Cloud Compression
+G-PCD: Geometry Point Cloud Database 
+ICIP2020 : A point cloud quality assessment dataset proposed in IEEE International Con ⁃
+ference on Image Processing 2020  
+IRPC : IST (Instituto Superior Téchico ) Render Point Cloud Quality Assessment 
+JPEG : Joint Photographic Experts Group 
+LS-PCQA : Large Scale Point Cloud Quality Assessment Dataset M-PCCD : MPEG Point Cloud Compression Dataset 
+NBU -PCD: Ningbo University Point Cloud Dataset 
+PointXR : A point cloud quality assessment dataset developed by PointXR toolbox 
+RG -PCD: Reconstructed Geometry Point Cloud Dataset 
+SIAT -PCQD : Shenzhen Institute of Advanced Technology Point Cloud Quality Dataset 
+SJTU -PCQA : Shanghai Jiao Tong University Point Cloud Quality Assessment Dataset 
+VsenseVVDB : Vsense Volumetric Video Quality Databases 
+VPCC : Video -based Point Cloud Compression 
+WPC : Waterloo Point Cloud Dataset
+07

@@ -1,0 +1,71 @@
+面向算力网络的多路径时敏优先调度机制 夏华屹  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4SP-PIFO 吞吐量近似相等 。
+根据上述分析 ，本文所设计的 P4-APQ 队列调度算法针
+对较高优先级数据流 ，能够有效降低排队时延及其抖动 ，同
+时提供稳定的吞吐量 。
+3 结束语
+算力网络作为中国率先提出的新型网络架构 ，是推动信
+息产业发展 、支撑 “十四五 ”发展规划中 “网络强国 ”发展
+战略的重要基础 。针对算力网络的低时延传输需求 ，本文提
+出了多路径时敏优先调度机制 ，设计了基于强化学习的多路
+径低时延转发调度算法 ，根据网络实时状态 ，动态选取低时
+延传输路径 ，并在转发出端口设计了等级与队列自适应映射
+算法 ，减少低时延应用的排队时延 。经过相关实验测试及分
+析，本文所设计的多路径时敏优先调度机制能够在算力网络
+场景下提供低时延服务保障 。
+参考文献
+[1] 张宏科 , 于成晓 , 权伟, 等. 融算网络体系基础研究  [J]. 电子学报 , 2022 , 50(12): 
+2928 -2934 . DOI: 10.12263 /DZXB .20221140
+[2] IDC, 浪潮信息 , 清华全球产业院 . 2021 —2022 全球计算力指数评估报告  [EB/
+OL]. (2022 -03-17) [2023 -05-11]. https ://www .inspur .com/lcjtww/
+resource/cms/article/ 2734773 /2734784 /2022122613493315670 .pdf
+[3] 张宏科 , 权伟, 刘康 . 算力网络研究与探索  [J]. 中兴通讯技术 , 2023 , 29(1): 1-
+5. DOI: 10.12142 /ZTETJ .202301001
+[4] MAO Y Y , YOU C S , ZHANG J , et al . A survey on mobile edge computing : 
+the communication perspective [J]. IEEE communications surveys & 
+tutorials , 2017 , 19(4): 2322 -2358 . DOI: 10.1109 /COMST .2017 .2745201
+[5] 中国移动 . 中国移动算力网络白皮书  [EB/OL ]. (2021 -11-02) [2023 -05-15]. 
+http://www .ecconsortium .org/Uploads/file/ 20211108 /1636352251472904 .
+pdf
+[6] VELASCO L , SIGNORELLI M , DIOS D O G , et al . End-to-end intent-based 
+networking [J]. IEEE communications magazine , 2021 , 59(10): 106-112. 
+DOI: 10.1109 /MCOM .101.2100141
+[7] NASIRIAN S , FAGHANI F . Crystal : a scalable and fault-tolerant 
+archimedean-based server-centric cloud data center network architecture 
+[J]. Computer communications , 2019 , 147: 159-179
+[8] CHATTERJEE M , SETUA S K . A multi-objective deadline-constrained task 
+scheduling algorithm with guaranteed performance in load balancing on 
+heterogeneous networks [J].SN computer science , 2021 , 2(5): 1-21. DOI : 
+10.1007 /s42979 -021-00609 -5
+[9] 孙钰坤 , 张兴, 雷波 . 边缘算力网络中智能算力感知路由分配策略研究  [J]. 无线电 通 信 技 术 , 2022 , 48(1): 60-67. DOI : 10.3969 /j.issn.1003 -
+3114 .2022 .01.007
+[10] LI B, TIAN L Y , CHEN D Q , et al . A task scheduling algorithm for phased-
+array radar based on dynamic three-way decision [J]. Sensors , 2019 , 20
+(1): 153. DOI: 10.3390 /s20010153
+[11] 巩宸宇 , 舒洪峰 , 张昕 . 多层次算力网络集中式不可分割任务调度算法  [J]. 中
+兴通讯技术 , 2021 , 27(3): 35-41. DOI: 10.12142 /ZTETJ .202103008
+[12] ALCOZ A G , DIETMULLER A , VANBEVER L . SP-PIFO : approximating 
+push-in first-out behaviors using strict-priority queues [C]//NSDI . 2020 : 
+59-76
+作 者 简 介
+夏华屹 ，北京交通大学电子信息工程学院在读硕
+士研究生 ；主要研究方向为多路径协同传输 、优
+先队列调度等 。
+权伟 ，北京交通大学电子信息工程学院教授 、博
+士生导师 ，移动专用网络国家工程研究中心新型
+网络系统研究所副所长 ，中国通信标准化协会
+TC1 WG4工作组副组长 ；主要研究方向为新型网
+络体系架构 、高可靠网络传输关键技术 ；发表论
+文80余篇。
+                        张宏科 ，中国工程院院士 ，现任北京交通大学电
+子信息工程学院教授 、博导，移动专用网络国家
+工程研究中心主任 ，IEEE Fellow ，曾任两期国
+家“973”计划首席科学家 ，享受国务院政府特
+殊津贴 ，是首批全国高校黄大年式教师团队带头
+人；长期从事专用通信网络理论与工程技术研
+究，建立了标识网络功能结构及解析映射机制 ，
+有效解决了复杂场景下网络高移动支持和高可靠
+传输难题 ；获国家技术发明二等奖 2项、省部级一等奖 4项；出版
+专著 6部。
+25

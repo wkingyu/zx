@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management    Special Topic
+the relationship of different buildings on adjacent buses .
+As for the bus -level graph topology , the agents from the 
+same bus are treated as a cluster and thus every bus is mod ‐
+eled as a node . The node set V2 consists of all the buses in a 
+power distribution network . If two buses are connected in the 
+distribution network , the corresponding node is set to be con ‐
+nected in G2. The operations for connecting edges are defined 
+as follows :
+D2
+ij=ì
+í
+î1,  if i and j are adjacent
+0,  otherwise . (5)
+For better illustration , we visualize one example of graph to ‐
+pology in Fig . 3, where nodes enclosed in the red dotted circle 
+are one of the buses and all the agents located on it .
+3.2 Hierarchical Graph Attention Architecture
+We now present the architecture that exploits the graph to ‐
+pology to handle various observations . The pipeline of the ar ‐
+chitecture is shown in Fig . 4. The architecture consists of four 
+main components : 1) the agent -level attention module that ex ‐
+tracts agent -level representations from the agents ’ observa ‐
+tions based on the agent -level graph topology G1(V1,D1); 2) 
+the aggregation layer that clusters the agent -level nodes to ‐
+gether and aggregates the representations to the embedding from the buses ’ point of view ; 3) the bus -level attention mod ‐
+ule that extracts bus -level representations with the bus -level 
+graph topology G2(V2,D2); 4) the readout layer and concatena ‐
+tion that scales down the size of representations and aggre ‐
+gates the representations from the above two attention layers 
+to distill the final representations . The hierarchical character ‐
+istics of our architecture are mainly reflected in the different 
+graph attention modules and readouts with corresponding pool ‐
+ing operations .
+3.2.1 Agent -Level Attention Module
+We first extract representations from agents ’ observations 
+through an agent -level attention module using the agent -level 
+graph topology mentioned above . Similar to Ref . [19], in graph 
+attention networks , the importance of node j’s feature to node  
+i is calculated as :
+ek
+ij=cT(Wk
+oi||Wk
+oj), (6)
+where cT and Wk are learnable parameters , k is the k-th head 
+among K multi -attention heads , ⋅T represents transposition and 
+|| is the concatenation operation . Then , the coefficients com ‐
+puted by the attention mechanism is defined as :
+αk
+i,j=exp ( )LeakyReLU()ek
+ij
+∑
+v∈N1
+iexp ( ) LeakyReLU()ek
+iv 
+, (7)
+where N1
+i represents the set of node i’s one -hop neighbor 
+nodes in the graph topology G1 and the LeakyReLU nonlinear ‐
+ity is applied .
+Note that the mask graph attention is adopted and only the 
+neighbor node is allowed to participate in the node i’s atten ‐
+tion coefficient calculations . The final output of node i in the 
+attention network is formulated as :
+
+h1
+i=σ(1
+K∑
+k=1K∑
+j∈N1
+jαk
+ijWk
+oj) 
+, (8)
+▲Figure 3. Visualized example of agent -level topology and bus -level to ‑
+pology in one case
+▲Figure 4. An overview of hierarchical graph attention architectureBus -level
+topology
+Agent -level
+topology
+(a) Input agent -level 
+graph(b) Cluster assignment 
+and formation(c) Embed aggregation into 
+bus -level graph
+Original graphAggregation 
+moduleGraph 
+attentionGraph 
+attentionReadout Linear
+Vglobal
+Readout
+15

@@ -1,0 +1,73 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Special Topic   Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression
+3.2 Image Sliced -Based Hierarchical Division
+1) Pre -processing 
+The pre -processing module includes voxelization and scale 
+transformation , for better indexing of each certain point . In 
+voxelization , we divide the space into cubes of size N, which 
+corresponds to the actual resolution of the point cloud . Each 
+point is assigned a unique voxel based on its position . A voxel 
+is recorded as 1; if it is positively occupied , it is 0 otherwise .
+Scale transformation can reduce the sparsity for better com ⁃
+pression by zooming out the point cloud , where the distance 
+between points gets smaller . We aggregate the point cloud co ⁃
+ordinates (x, y, z) using a scaling factor s, i.e.,
+P̂
+n=Pn×s=(xn×s, yn×s, zn×s), s≤1 . (1)
+To ensure lossless compression , we need to ensure that the 
+scaling factor s cannot cause geometry loss and needs to be re ⁃
+corded in the header file .
+2) Sliced -layer division
+This module works by dividing the 3D point cloud along 
+one of its axes , creating several unit -sliced layers with occu ⁃
+pied and non -occupied information only that can be further 
+compressed using a predictive encoder and an arithmetic 
+coder . The function is defined as :
+S(a,b)=slice(G, axis)=ì
+í
+îïïïï
+ïïïïG() x, a, b,  if axis=X
+G() a, y, b,  if axis=Y
+G() a, b, z,  if axis=Z , (2)
+where G refers to the input point cloud coordinate matrix , axis 
+refers to the selected dimension , and S(a, b) is the 2D slice 
+extracted by each layer .
+In general , we conduct experiments on a large number of test sequences , and results suggest that division along the lon ⁃
+gest axis of point cloud spatial variation yields the lowest bi ⁃
+trate, i.e.
+axis=ì
+í
+îïïïï
+ïïïïX,if( ) xmax-xmin≥( ) ymax-ymin,( ) xmax-xmin≥( ) zmax-zmin
+Y,if( ) ymax-ymin>( ) xmax-xmin,( ) ymax-ymin≥( ) zmax-zmin
+Z, if else .
+(3)
+3) Minimum bounding box extraction
+In most cases , on -occupied voxels are typically unavoid ⁃
+able and greatly outnumber occupied voxels . As a result , pro⁃
+cessing and encoding both types of voxels simultaneously 
+burdens the computational complexity and encoding speeds 
+of the compression algorithm . Therefore , we adopt the ori ⁃
+ented bounding box (OBB )[39] to calculate the minimum 
+bounding box for each sliced layer , ensuring that the direc ⁃
+tions of the bounding boxes are consistent across layers . In 
+subsequent processing , only the voxels located within the re ⁃
+stricted rectangle are compressed .
+3.3 Spatial Context -Guided Predictive Encoding
+The goal of spatial context -guided predictive encoding is to 
+encode all the points layer by layer . Inspired by the TSP , we 
+design a prediction mode to explore the potential orders and 
+correlation within each sliced layer . This module consists of 
+partition and the shortest path calculation .
+At first , we partition the sliced layers and determine the R -
+layer and R -layers for each group . We traverse the point cloud 
+layer by layer along the selected axis . When the length of the 
+main direction of the minimum bounding box between adja ⁃
+cent layers differs by a specified unit length , it is recorded as 
+the same group . Otherwise , it is used as the reference layer of 
+▲Figure 1. Proposed framework for spatio -temporal context -guided lossless point cloud geometry compressionInput
+Portraits dense point cloud data sequences Large -scale sparse point cloud data
+Pre -processing Layer partition Predictive encoder Arithmetic encoderOutput
+Low bit rate . bin file…
+Y
+20

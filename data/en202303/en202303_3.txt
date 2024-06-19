@@ -1,0 +1,76 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3GAO Yang Reinforcement Learning and Intelligent Decision   Special Topic
+Special Topic on Special Topic on 
+Reinforcement Learning and Intelligent DecisionReinforcement Learning and Intelligent Decision
+Over the past few years , deep reinforcement learning 
+(RL) has made remarkable progress in a range of ap ‐
+plications , including Go games , vision -based control , 
+and generative dialogue systems . Via error -and -trial 
+mechanisms , deep RL enables data -driven optimization and 
+sequential decision -making in uncertain environments . Com ‐
+pared to traditional programming or heuristic optimization 
+methods , deep RL can elegantly balance exploration and ex ‐
+ploitation and handle environmental uncertainties . As a result , 
+this learning paradigm has attracted increasing attention from 
+both academia and industry and is paving a new path for large -
+scale complex decision -making applications .
+However , when scaling deep RL to more practical sce ‐
+narios , several challenges inevitably arise that require further 
+consideration and urgent attention in the field . Firstly , the 
+dominant model -free deep RL is sample -demanding , as the 
+learning process requires massive interactions with the real 
+environment . This makes it unrealistic to implement deep RL 
+algorithms in some sampling -expensive applications , such as 
+robotics . Secondly , the learned policy is sensitive to changes 
+in the environment and can easily encounter catastrophic fail ‐
+ures when deployed in a new or unseen environment . In some 
+time -sensitive applications , such as autonomous driving , the 
+ability to quickly adapt to new scenes is crucial . Thirdly , in 
+complicated scenarios , the real state of the Markov decision 
+process may be unavailable to access , and multiple objectives 
+may exist in scheduling . In this case , previous deep RL algo ‐rithms for a single agent with fully observable states cannot 
+achieve the desired goal . These concerns weaken the scalabil ‐
+ity of deep RL , and scientific investigations are necessary to 
+meet realistic requirements .
+This special issue aims at overcoming previously mentioned 
+challenges and contributes to applying deep RL to more realis ‐
+tic scenarios .
+The call for papers of this special issue has inspired wide 
+interest and attracted multiple submissions with high quality . 
+After two -round peer reviews , we selected four papers that try 
+to tackle our interested deep RL problems for publication in 
+this special issue . The topics of these published articles in ‐
+clude offline reinforcement learning , meta reinforcement learn ‐
+ing, and multi -agent reinforcement learning . In terms of appli ‐
+cations , these papers range from electroencephalogram (EEG ) 
+brain -machine interface , the grid power management to auto ‐
+matic radar detection with the help of deep RL .
+The first paper , titled “Double Deep Q -Network Decoder 
+Based on EEG Brain -Computer Interface ,” focuses on EEG 
+signal processing . In detail , this work adopts a deep double -Q 
+network for the decoding of EEG signals . In comparison to pre ‐
+vious pattern recognition or signal process methods , deep RL 
+has more adaptability of signal decoding modules in brain -
+machine interface to changing environments . The experimen ‐
+tal results show the effectiveness of more precise EEG sig ‐
+nals’ decoding with deep RL .
+The second paper , titled “Multi -Agent Hierarchical Graph 
+Attention Reinforcement Learning for Grid -Aware Energy 
+Management ,” considers the grid power management problem . 
+Technically , uncertainty of environments is involved in 
+decision -making , and multi -objectives guide the optimization 
+process . As a result , multi -agent reinforcement learning is in ‐
+troduced to improve the search efficiency in the large state 
+space , exploit the topology structure of tasks and enhance co ‐
+operation between agents at multi -levels . The proposed multi -七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七
+七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七七Guest Editor
+DOI: 10.12142 /ZTECOM .202303001
+Citation (Format 1): GAO Yang . Special topic on reinforcement learning 
+and intelligent decision [J]. ZTE Communications , 2023 , 21(3): 1–2. DOI : 
+10.12142 /ZTECOM .202303001
+Citation (Format 2): Y. Gao , “Special topic on reinforcement learning and 
+intelligent decision ,” ZTE Communications , vol. 21, no. 3, pp. 1–2, Sept . 
+2023 . doi: 10.12142 /ZTECOM .202303001 .Guest Editorial >>>
+GAO Yang
+01

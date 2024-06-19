@@ -1,0 +1,102 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4WANG Chongchong , LI Yao , WANG Beibei , CAO Hong , ZHANG Yanyong Special Topic   Point Cloud Processing Methods for 3D Point Cloud Detection Tasks
+ject detection with region proposal networks [J]. IEEE transactions on pattern 
+analysis and machine intelligence , 2017 , 39(6): 1137 –1149 . DOI : 10.1109 /
+TPAMI .2016 .2577031
+[26] CAESAR H , BANKITI V , LANG A H , et al . nuScenes : a multimodal dataset 
+for autonomous driving [EB/OL ]. (2020 -05-05)[2023 -08-21]. https ://arxiv .org/
+abs/1903 .11027
+[27] YIN T W , ZHOU X Y , KRÄHENBÜHL P . Center -based 3D object detection 
+and tracking [EB/OL ]. (2021 -01-06) [2023 -08-21]. https ://arxiv .org/abs/
+2006 .11275
+[28] FAN L , WANG F , WANG N Y , et al . Fully sparse 3D object detection [EB/
+OL]. (2022 -10-03)[2023 -08-21]. https ://arxiv .org/abs/ 2207 .10035
+[29] ZHOU C , ZHANG Y N , CHEN J X , et al . OcTr : octree -based transformer for 
+3D object detection [EB/OL ]. (2023 -03-22)[2023 -08-21]. https ://arxiv .org/pdf/
+2303 .12621 .pdf
+[30] SUN P , KRETZSCHMAR H , DOTIWALLA X , et al . Scalability in perception 
+for autonomous driving : waymo open dataset [EB/OL ]. (2023 -03-22)[2023 -08-
+21]. https ://arxiv .org/abs/ 1912 .04838
+[31] GEIGER A , LENZ P , URTASUN R , et al . Are we ready for autonomous driv ⁃
+ing? The KITTI vision benchmark suite [C]//2012  IEEE Conference on Com ⁃
+puter Vision and Pattern Recognition . IEEE , 2012 . DOI : 10.1109 /
+CVPR .2012 .6248074
+[32] YANG Z T , SUN Y N , LIU S , et al . 3DSSD : point -based 3D single stage object 
+detector [EB/OL ]. (2020 -02-24)[2023 -08-21]. https ://arxiv .org/abs/ 2002 .10187
+[33] SHI S S , WANG X G , LI H S . PointRCNN : 3D object proposal generation and 
+detection from point cloud [C]//2019  IEEE/CVF Conference on Computer Vi ⁃
+sion and Pattern Recognition (CVPR ). IEEE , 2020 : 770–779. DOI : 10.1109 /
+CVPR .2019 .00086
+[34] QI C R , LIU W , WU C X , et al . Frustum PointNets for 3D object detection 
+from RGB -D data [EB/OL ]. (2018 -04-13) [2023 -08-21]. https ://arxiv .org/abs/
+1711 .08488
+[35] CHEN Y L , LIU S , SHEN X Y , et al . Fast point R -CNN [EB/OL ]. (2019 -08-16)
+[2023 -08-21]. https ://arxiv .org/abs/ 1908 .02990
+[36] YANG Z T , SUN Y N , LIU S , et al . 3DSSD : point -based 3D single stage object 
+detector [C]//2020  IEEE/CVF Conference on Computer Vision and Pattern 
+Recognition (CVPR ). IEEE , 2020 : 11037 –11045 . DOI : 10.1109 /
+CVPR 42600 .2020 .01105
+[37] YANG Z T , SUN Y N , LIU S , et al . IPOD : intensive point -based object detec ⁃
+tor for point cloud [EB/OL ]. (2018 -12-13) [2023 -08-21]. https ://arxiv .org/abs/
+1812 .05276
+[38] YANG Z T , SUN Y N , LIU S , et al . STD : sparse -to-dense 3D object detector 
+for point cloud [C]//2019  IEEE/CVF International Conference on Computer Vi ⁃
+sion (ICCV ). IEEE , 2020 : 1951 –1960 . DOI : 10.1109 /ICCV .2019 .00204
+[39] SHI S S , GUO C X , JIANG L , et al . PV -RCNN : point -voxel feature set abstrac ⁃
+tion for 3D object detection [EB/OL ]. (2021 -04-09)[2023 -08-21]. https ://arxiv .
+org/abs/ 1912 .13192
+[40] YOU Y R , WANG Y , CHAO W -L, et al . Pseudo -lidar++ : accurate depth for 
+3d object detection in autonomous driving [EB/OL ]. (2020 -02-15) [2023 -08-
+21]. https ://arxiv .org/abs/ 1906 .06310
+[41] HE C H , ZENG H , HUANG J Q , et al . Structure aware single -stage 3D object 
+detection from point cloud [C]//2020  IEEE/CVF Conference on Computer Vi ⁃
+sion and Pattern Recognition (CVPR ). IEEE , 2020 : 11870 –11879 . DOI : 
+10.1109 /CVPR 42600 .2020 .01189
+[42] SHI W J . Point -GNN : graph neural network for 3D object detection in a point 
+cloud [EB/OL ]. (2020 -03-02)[2023 -08-21]. https ://arxiv .org/abs/ 2003 .01251
+[43] SCARSELLI F , GORI M , TSOI A C , et al . The graph neural network model [J]. 
+IEEE transactions on neural networks , 2009 , 20(1): 61–80. DOI : 10.1109 /tnn.2008 .2005605
+[44] KU J , MOZIFIAN M , LEE J , et al . Joint 3D proposal generation and object de ⁃
+tection from view aggregation [C]//2018  IEEE/RSJ International Conference on 
+Intelligent Robots and Systems (IROS ). ACM , 2018 : 1–8. DOI : 10.1109 /
+IROS .2018 .8594049
+[45] LIANG M , YANG B , CHEN Y , et al . Multi -task multi -sensor fusion for 3D ob ⁃
+ject detection [C]//2019  IEEE/CVF Conference on Computer Vision and Pat ⁃
+tern Recognition (CVPR ). IEEE , 2020 : 7337 –7345 . DOI : 10.1109 /
+CVPR .2019 .00752
+Biographies
+WANG Chongchong received his BS degree in computer science and technol ⁃
+ogy from Huazhong Agricultural University , China in 2022 . He is currently pur ⁃
+suing a master ’s degree in computer science and technology at Anhui Universi ⁃
+ty, China .
+LI Yao received his BS degree in electronic information engineering from Jilin 
+University , China in 2019 . He is currently pursuing a PhD degree in computer 
+science and technology at the University of Science and Technology of China . 
+His research interests include computer vision and intelligent transportation 
+perception system .
+WANG Beibei graduated from University of Science and Technology of China 
+with BS in physics in 2014 . He furthered his studies at the University of Southern 
+California , USA , where he obtained PhD in physics in 2020  and MS in computer 
+science in parallel . His research interests currently focus on computer vision and 
+multimodal perception methods for autonomous systems .
+CAO Hong received his PhD degree from Zhejiang University , China in 2014 . 
+He is currently a associate research fellow with the Institute of Artificial Intelli ⁃
+gence , Hefei Comprehensive National Science Center (Anhui Artificial Intelli ⁃
+gence Laboratory ), China . His research interests include autonomous driving , 
+roadside perception and robotics .
+ZHANG Yanyong (yanyongz@ustc .edu.cn) received her BS from the University 
+of Science and Technology of China (USTC ) in 1997 , and PhD from Penn State 
+University in 2002 . From 2002  and 2018 , she was on the faculty of the Electrical 
+and Computer Engineering Department at Rutgers University , USA . She was also 
+a member of the Wireless Information Networks Laboratory (Winlab ). Since July 
+2018 , she joined the school of Computer Science and Technology at USTC . She 
+has 21 years of research experience in the areas of sensor networks , ubiquitous 
+computing , and high -performance computing , and has published more than 140 
+technical papers in these fields . She received the NSF CAREER award in 2006 , 
+and was elevated to IEEE Fellow in 2017 . She has served/currently serves as the 
+Associate Editor for several journals , including IEEE/ACM Transactions on Net ⁃
+working , IEEE Transactions on Mobile Computing , IEEE Transactions on Service 
+Computin g, IEEE Transactions on Dependable and Secure Computing , and Elsevi ⁃
+er Smart Health . She has served on various conference TPCs including DSN , Sen⁃
+sys, Infocom , etc. She is the TPC co -chair of IPSN ’22.
+46

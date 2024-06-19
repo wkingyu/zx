@@ -1,0 +1,115 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Research Papers   Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks
+riod, the reward function is defined as :
+r=ì
+í
+îïïïï
+ïïïï0                                                                                          access   successfully
+-α0βi    or    -α1βi                         access   failed
+-L                                                                                     (7.1) not meet . (10)
+As is defined in Eq . (10), when a new call or a handover 
+call is blocked , a negative value -α0βi / -α1βi will be given 
+as a punishment . L is a very large constant as a penalty for dis ‐
+satisfying the constraint (7.1). Thus , the reward function of a 
+decision period can be defined as :
+rΔ=∑
+α, β, ir/Ni
+α, β=-α0∑
+i=1sβiNi
+af
+Ni
+a-α1∑
+i=1sβiNi
+hf
+Ni
+h . (11)
+Substituting Eqs . (4)–(6) can be further expressed as :
+rΔ=-( )α0∑
+i=1s
+βiPΔ
+afi+α1∑
+i=1s
+βiPΔ
+hfi=-OΔ(t)
+ . (12)
+Then our optimization problem of maximizing -O(t) can be 
+approximately solved by maximizing the accumulated reward 
+∑TrΔ in the long run .
+5) Policy (π): we use a random policy π(a|s)→[0, 1] to 
+represent the probability of selecting the action a given the 
+current state s.
+In our MDP model , we use the state -value function to evalu ‐
+ate the value of state s, which can be expressed as :
+Vπ(s)=Eπé
+ëêêêê ù
+ûúúúú∑
+k=0∞
+γkrt+k(st+k, at+k)|st , (13)
+where γ is the discount factor representing the discount contri ‐
+bution of the future states to the current state . Besides , the 
+action -value function is used to evaluate the selected action a 
+in the current state s, and can be expressed as :
+Qπ(s, a)=Eπé
+ëêêêê ù
+ûúúúú∑
+k=0∞
+γkrt+k(st+k, at+k)|st, at . (14)
+Assuming that the MDP starts from the state st∈S, it expe ‐
+riences a trajectory as :
+κ~{st, at, st+1, at+1,⋯, st+T, at+T}. (15)
+Since the policy is stochastic , the trajectory κ is uncertain . 
+Denote the probability of trajectory κ as πξ(κ), and the cumu ‐
+lative reward of trajectory κ is R(κ)=∑k=0Tγkrt+k. As a re ‐
+sult, the objective function can be rewritten as :
+max    -O(t)≈U(πξ)=Eκ~πξ(κ)[R(κ)]=∫
+κ~πξ(κ)R(κ)dκ
+.
+(16)3.2 Actor -Critic -Based Dynamic Channel Reservation 
+Strategy
+This MDP problem can be solved by using the reinforce ‐
+ment learning (RL) algorithm . Specifically , we use the Actor -
+Critic framework[17] to model high -dimensional discrete action 
+space , which is a combination of the Actor and the Critic . The 
+Critic uses a neural network to approximate the state -value 
+function and to judge the actions by temporal difference (TD) 
+errors . The Actor uses another neural network to approximate 
+the optimal policy and then selects the action while interact ‐
+ing with the environment .
+1) Actor : The Actor will constantly improve the policy by 
+TD errors . In our MDP problem , the policy πξ is modeled as a 
+conditional probability distribution parameterized by ξ. Thus 
+the process of modifying the policy is equivalent to the pro ‐
+cess of updating the parameter ξ. Through the back -
+propagation algorithm , ξ is updated as follows :
+ξnew=ξold+αactor∇ξU(πξ) , (17)
+where αactor is the learning rate of the Actor , and the gradient 
+∇ξU(πξ) is as follows :
+∇ξU(πξ)=∇ξlogπξ(a|s)×Aπ(s, a), (18)
+where Aπ(s, a) is the advantage function .
+In this problem , we use Gaussian probability distribution to 
+formulate the policy , which can be expressed as :
+πξ(a|s)=1
+2πσexp(-(a-μ(s))2
+2σ2)
+ , (19)
+where μ(s) is the expectation and σ is the standard deviation 
+of the selected action . Meanwhile , μ(s) is the action with the 
+highest probability at the state s and σ represents the extent of 
+exploration over all actions . Exploration and exploitation can 
+be well balanced by exploiting the Gaussian distribution . Thus 
+the policy can be modified through the process of updat ‐
+ing μ(s).
+To update μ(s), we extract a feature vector ϕ(s) from the 
+current state as the input of the Actor neural network , which is 
+expressed as :
+ϕ(s)=(c;λ;K)T. (20)
+The neural network will then output the normalized average 
+of reserved channel thresholds , which is denoted by μ(s)=
+(u1, u′1,⋯, us, u′s)T. Thus the policy can be further derived as a 
+2s-dimensional Gaussian probability distribution :
+πξ(a|s)=1
+(2π)s(||Cov)1
+2e(-1
+2(a-u(s))TCov-1(a-u(s)))
+ , (21)
+58

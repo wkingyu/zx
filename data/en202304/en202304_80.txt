@@ -1,0 +1,113 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Incident and Problem Ticket Clustering and Classification Using Deep Learning    Research Papers
+Reference
+[1] FORELL T , MILOJICIC D , TALWAR V . Cloud management : challenges and 
+opportunities [C]//IEEE International Symposium on Parallel and Distributed 
+Processing Workshops and PhD Forum . IEEE , 2011 : 881–889. DOI : 10.1109 /
+IPDPS .2011 .233
+[2] MARTIN -FLATIN J P . Challenges in cloud management [J]. IEEE cloud com ⁃
+puting , 2014 , 1(1): 66–70. DOI : 10.1109 /MCC .2014 .4
+[3] PEREIRA R , DA SILVA M M . Towards an integrated IT governance and IT 
+management framework [C]//The 16th International Enterprise Distributed Ob ⁃
+ject Computing Conference . IEEE , 2012 : 191 –200. DOI : 10.1109 /
+EDOC .2012 .30
+[4] FARIA N E , SILVA M M . Selecting a software tool for ITIL using a multiple cri ⁃
+teria decision analysis approach [EB/OL ]. [2022 -12-10]. https ://aisel .aisnet .org/
+cgi/viewcontent .cgi?article= 1241 &context=isd 2014
+[5] BOTEZATU M M , BOGOJESKA J , GIURGIU I , et al . Multi -view incident 
+ticket clustering for optimal ticket dispatching [C]//The 21th ACM SIGKDD 
+International Conference on Knowledge Discovery and Data Mining . ACM , 
+2015 : 1711 –1720 . DOI : 10.1145 /2783258 .2788607
+[6] DEVLIN J , CHANG M W , LEE K , et al . BERT : Pre -training of deep bidirec ⁃
+tional transformers for language understanding [EB/OL ]. [2022 -12-10]. https ://
+arxiv .org/abs/ 1810 .04805 .pdf
+[7] ROELLEKE T , WANG J . TF -IDF uncovered : a study of theories and probabili ⁃
+ties [C]//The 31st annual international ACM SIGIR conference on Research and 
+development in information retrieval . ACM , 2008 : 435–442. DOI : 10.1145 /
+1390334 .1390409
+[8] JELODAR H , WANG Y L , YUAN C , et al . Latent Dirichlet allocation (LDA ) 
+and topic modeling : models , applications , a survey [J]. Multimedia tools and ap ⁃
+plications , 2019 , 78(11): 15169 –15211 . DOI : 10.1007 /s11042 -018 -6894 -4
+[9] MO Z L . Stopwords [EB/OL ]. (2019 -12-18) [2022 -12-10]. https ://github .com/
+goto456/stopwords/blob/master/baidu_stopwords .txt
+[10] LARS Y C . Stopwords [EB/OL ]. (2011 -12-06) [2022 -12-10]. https ://gist .github .
+com/larsyencken/ 1440509
+[11] DU M , LI F F , ZHENG G N , et al . DeepLog : anomaly detection and diagnosis 
+from system logs through deep learning [C]//The 2017  ACM SIGSAC Confer ⁃
+ence on Computer and Communications Security . ACM , 2017 : 1285 –1298 . 
+DOI: 10.1145 /3133956 .3134015
+[12] ZHANG X , XU Y , LIN Q W , et al . Robust log -based anomaly detection on un ⁃
+stable log data [C]//Proceedings of the 2019  27th ACM Joint Meeting on Euro ⁃
+pean Software Engineering Conference and Symposium on the Foundations of 
+Software Engineering . ACM , 2019 : 807 – 817. DOI : 10.1145 /
+3338906 .3338931
+[13] LIN J Y , ZHANG Q , BANNAZADEH H , et al . Automated anomaly detection 
+and root cause analysis in virtualized cloud infrastructures [C]//IEEE/IFIP Net ⁃
+work Operations and Management Symposium . IEEE , 2016 : 550–556. DOI : 
+10.1109 /NOMS .2016 .7502857
+[14] HARUTYUNYAN , A N , GRIGORYAN N M , POGHOSYAN A V , et al . Intelli ⁃
+gent troubleshooting in data centers with mining evidence of performance prob ⁃
+lems [EB/OL ]. (2020 -09-20) [2022 -12-10]. https ://www .researchgate .net/publi ⁃
+cation/ 344251115 _Intelligent_Troubleshooting_in_Data_Centers_with_Min ⁃
+ing_Evidence_of_Performance_Problems
+[15] BOU NASSIF A , ABU TALIB M , NASIR Q , et al . Machine learning for cloud 
+security : a systematic review [J]. IEEE access , 2021 , 9: 20717 –20735 . DOI : 
+10.1109 /ACCESS .2021 .3054129
+[16] GRZONKA D , JAKÓBIK A , KOŁODZIEJ J , et al . Using a multi -agent system 
+and artificial intelligence for monitoring and improving the cloud performance 
+and security [J]. Future generation computer systems , 2018 , 86: 1106 –1117 . 
+DOI: 10.1016 /j.future .2017 .05.046
+[17] SHAO Q H , CHEN Y , TAO S , et al . Efficient ticket routing by resolution se ⁃
+quence mining [C]//Proceedings of the 14th ACM SIGKDD international con ⁃
+ference on knowledge discovery and data mining . ACM , 2008 : 605–613. 
+DOI: 10.1145 /1401890 .1401964[18] AGARWAL S , SINDHGATTA R , SENGUPTA B . SmartDispatch : enabling ef ⁃
+ficient ticket dispatch in an IT service environment [C]//The 18th ACM 
+SIGKDD international conference on Knowledge discovery and data mining . 
+ACM , 2012 : 1393 –1401 . DOI : 10.1145 /2339530 .2339744
+[19] LIN D , RAGHU R , RAMAMURTHY V , et al . Unveiling clusters of events for 
+alert and incident management in large -scale enterprise it [C]//The 20th ACM 
+SIGKDD international conference on knowledge discovery and data mining . 
+ACM , 2014 : 1630 –1639 . DOI : 10.1145 /2623330 .2623360
+[20] MANI S , SANKARANARAYANAN K , SINHA V S , et al . Panning require ⁃
+ment nuggets in stream of software maintenance tickets [C]//The 22nd ACM 
+SIGSOFT International Symposium on Foundations of Software Engineering . 
+ACM , 2014 : 678–688. DOI : 10.1145 /2635868 .2635897
+[21] AGARWAL S , AGGARWAL V , AKULA A R , et al . Automatic problem extrac ⁃
+tion and analysis from unstructured text in IT tickets [J]. IBM journal of re ⁃
+search and development , 2017 , 61(1):41–52. DOI : 10.1147 /
+JRD.2016 .2629318
+[22] JAN E E , CHEN K Y , IDÉ T . Probabilistic text analytics framework for infor ⁃
+mation technology service desk tickets [C]//IFIP/IEEE International Sympo ⁃
+sium on Integrated Network Management (IM). IEEE , 2015 : 870–873. DOI : 
+10.1109 /INM .2015 .7140397
+Biographies
+FENG Hailin received his PhD in computer science from the University of Sci ⁃
+ence and Technology of China in June 2007 . Since 2007 , he has been working 
+in the School of Information Engineering of Zhejiang A&F University , China . 
+From 2013  to 2014 , he was a visiting professor at Forest Products Laboratory , 
+USA. He is currently a professor in the School of Mathematics and Computer 
+Science and School of Information Engineering of Zhejiang A&F University . 
+His main interest areas include computer vision , intelligent information process ⁃
+ing, and Internet of Things .
+HAN Jing (han.jing28@zte .com.cn) received her master ’s degree from Nanjing 
+University of Aeronautics and Astronautics , China . She has been with ZTE Cor ⁃
+poration since 2000 , where she worked on 3G/4G key technologies from 2000  to 
+2016  and has become a technical director responsible for intelligent operation 
+of cloud platforms and wireless networks since 2016 . Her research interests in ⁃
+clude machine learning , data mining , and signal processing .
+HUANG Leijun received his PhD in computer science from George Mason 
+University , USA in 2008 . Since 2010 , he has been working in the School of In ⁃
+formation Engineering of Zhejiang A&F University , China . He is currently a lec ⁃
+turer in the School of Mathematics and Computer Science . His main interest ar ⁃
+eas include computer networks , Internet of Things and data mining .
+SHENG Ziwei received her BS degree in software engineering from Huazhong 
+University of Science and Technology , China in 2022 . She is currently pursuing 
+her MS degree in electrical and computer engineering at Carnegie Mellon Uni ⁃
+versity , USA . In her master ’s program , she primarily focuses on the fields of en ⁃
+gineering development and system design . Her ultimate goal is to advance tech ⁃
+nology and foster innovation in these domains .
+GONG Zican received his master ’s degree in professional computing and arti ⁃
+ficial intelligence from the Australian National University in 2019 . He has been 
+a machine learning engineer in ZTE Corporation since 2020 . His research inter ⁃
+ests include machine learning , professional computing and system architecture .
+77

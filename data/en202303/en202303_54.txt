@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3XIE Xinyu , WU Yongpeng , YUAN Zhifeng , MA Yihua Research Papers   Massive Unsourced Random Access Under Carrier Frequency Offset
+veraging different algorithms for JADCE under CFO . As re ‐
+vealed in Fig . 4, the proposed UCS scheme with PBiGAMP 
+reaches the best system performance with spectral efficiency 
+Ψ=BKa/SNs=5 bit/s per channel use . Fig. 4 also indicates 
+that PUPE improves significantly when the number of receiv ‐
+ing antennas is increased . It is due to the higher resolution of ‐
+fered by massive antennas , which not only makes the CS para ‐
+digm sparser but also provides more dimensional information 
+for measuring channel similarity . We also draw in Fig . 4 the 
+error rate of URA under no CFO using the method of Ref . [13] 
+as the baseline . It is shown that the proposed approach under 
+CFO pays 0.4 dB (for M=32) to 1.2 dB (for M=64) in terms 
+of SNR to achieve the target PUPE=0.05 compared with the 
+benchmark .
+6 Conclusions
+This paper investigates MIMO URA countering the influ ‐
+ence of CFO . We formulate URA under CFO as a CS recovery 
+problem with a bilinear graphic structure . The MC -PBiGAMP 
+algorithm is first employed for JADCE with an MC support 
+structure to model the clustered sparsity of the considered an ‐
+gular domain channel . Then , an uncoupled transmission proto ‐
+col is adopted to reduce the computational burden , where mes ‐
+sages are split into several fragments for slotted transmission 
+and stitched together upon clustering user channels . We show 
+by simulations that the proposed scheme is capable of con ‐
+ducting reliable URA transmission under CFO .
+References
+[1] DAWY Z , SAAD W , GHOSH A , et al . Toward massive machine type cellular 
+communications [J]. IEEE wireless communications , 2017 , 24(1): 120–128. 
+DOI: 10.1109 /MWC .2016 .1500284 WC
+[2] WU Y P , GAO X Q , ZHOU S D , et al . Massive access for future wireless com ‐
+munication systems [J]. IEEE wireless communications , 2020 , 27(4): 148–156. 
+DOI: 10.1109 /MWC .001.1900494
+[3] SENEL K , LARSSON E G . Grant -free massive MTC -enabled massive MIMO : a 
+compressive sensing approach [J]. IEEE transactions on communications , 2018 , 
+66(12): 6164–6175 . DOI : 10.1109 /TCOMM .2018 .2866559
+[4] LIU L , YU W . Massive connectivity with massive MIMO —part I : device activity 
+detection and channel estimation [J]. IEEE transactions on signal processing , 
+2018 , 66(11): 2933–2946 . DOI : 10.1109 /TSP .2018 .2818082
+[5] KE M L , GAO Z , WU Y P , et al . Compressive sensing -based adaptive active 
+user detection and channel estimation : massive access meets massive MIMO [J]. 
+IEEE transactions on signal processing , 2020 , 68: 764–779. DOI : 10.1109 /
+TSP.2020 .2967175
+[6] KE M L , GAO Z , WU Y P , et al . Massive access in cell -free massive MIMO -
+based Internet of Things : Cloud computing and edge computing paradigms [J]. 
+IEEE journal on selected areas in communications , 2021 , 39(3): 756–772. 
+DOI: 10.1109 /JSAC .2020 .3018807
+[7] WEI F , CHEN W , WU Y P , et al . Message -passing receiver design for joint 
+channel estimation and data decoding in uplink grant -free SCMA systems [J]. 
+IEEE transactions on wireless communications , 2018 , 18(1): 167–181. DOI : 
+10.1109 /TWC .2018 .2878571
+[8] POLYANSKIY Y . A perspective on massive random -access [C]//International 
+Symposium on Information Theory (ISIT). IEEE , 2017 : 2523–2527 . DOI : 
+10.1109 /ISIT .2017 .8006984
+[9] AMALLADINNE V K , CHAMBERLAND J F , NARAYANAN K R . A coded compressed sensing scheme for unsourced multiple access [J]. IEEE transac ‐
+tions on information theory , 2020 , 66(10): 6509–6533 . DOI : 10.1109 /
+TIT.2020 .3012948
+[10] FENGLER A , HAGHIGHATSHOAR S , JUNG P , et al . Non -Bayesian activity 
+detection , large -scale fading coefficient estimation , and unsourced random ac ‐
+cess with a massive MIMO receiver [J]. IEEE transactions on information 
+theory , 2021 , 67(5): 2925–2951 . DOI : 10.1109 /TIT.2021 .3065291
+[11] XIE X Y , WU Y P , GAO J Y , et al . Massive unsourced random access for mas ‐
+sive MIMO correlated channels [C]//IEEE Global Communications Confer ‐
+ence. IEEE , 2021 : 1–6. DOI : 10.1109 /GLOBECOM 42002 .2020 .9347959
+[12] SHYIANOV V , BELLILI F , MEZGHANI A , et al . Massive unsourced random 
+access based on uncoupled compressive sensing : another blessing of massive 
+MIMO [J]. IEEE journal on selected areas in communications , 2021 , 39(3): 
+820–834. DOI : 10.1109 /JSAC .2020 .3019722
+[13] XIE X Y , WU Y P . Unsourced random access with a massive MIMO receiver : 
+Exploiting angular domain sparsity [C]//IEEE/CIC International Conference on 
+Communications in China (ICCC ). IEEE , 2021 : 741–745. DOI : 10.1109 /
+ICCC 52777 .2021 .9580441
+[14] XIE X Y , WU Y P , AN J P , et al . Massive unsourced random access : exploit ‐
+ing angular domain sparsity [J]. IEEE transactions on communications , 2022 , 
+70(4): 2480–2498 . DOI : 10.1109 /TCOMM .2022 .3153957
+[15] LI Y, XIA M H , WU Y C . Activity detection for massive connectivity under fre ‐
+quency offsets via first -order algorithms [J]. IEEE transactions on wireless com ‐
+munications , 2019 , 18(3): 1988–2002 . DOI : 10.1109 /TWC .2019 .2901482
+[16] SUN G L , LI Y N , YI X P , et al . Massive grant -free OFDMA with timing and 
+frequency offsets [J]. IEEE transactions on wireless communications , 2022 , 21
+(5): 3365–3380 . DOI : 10.1109 /TWC .2021 .3121066
+[17] BELLILI F , SOHRABI F , YU W . Generalized approximate message passing 
+for massive MIMO mmWave channel estimation with Laplacian prior [J]. IEEE 
+transactions on communications , 2019 , 67(5): 3205–3219 . DOI : 10.1109 /
+TCOMM .2019 .2892719
+[18] FENGLER A , JUNG P , CAIRE G . SPARCs for unsourced random access [J]. 
+IEEE transactions on information theory , 2021 , 67(10): 6894–6915 . DOI : 
+10.1109 /TIT.2021 .3081189
+[19] DENG W , SIRIBURANON T , MUSA A , et al . A sub -harmonic injection -
+locked quadrature frequency synthesizer with frequency calibration scheme for 
+millimeter -wave TDD transceivers [J]. IEEE journal of solid -state circuits , 
+2013 , 48(7): 1710–1720 . DOI : 10.1109 /JSSC .2013 .2253396CFO: carrier frequency offset 
+MC -PBiGAMP : Markov -chain -aided parametric bilinear generalized approximate 
+message passing 
+MMV -GAMP : multiple measurement vector -generalized approximate message passing 
+PUPE : per user probability of error 
+SNR: signal -to-noise ratio 
+UCS: uncoupled compressed sensing
+▲Figure 4. Error probabilities of various unsourced random access 
+(URA ) schemes under CFO as a function of SNR with Ns=100, Ka=50SNR/dB0 1 2 3 4 5100
+10−1
+10−2
+10−3PUPE
+UCS with MMV -GAMP (M=32)
+UCS with MMV -GAMP (M=64)
+UCS with MC -PBiGAMP (M=32)
+UCS with MC -PBiGAMP (M=64)
+UCS under no CFO[13] (M=32)
+UCS under no CFO[13] (M=64)
+52

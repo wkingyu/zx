@@ -1,0 +1,53 @@
+通信网络与大模型的融合与协同 任天骐  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2通信网络与大模型的融合与协同
+Integration and Collaboration of Communication Networks and 
+Large Models
+任天骐 /REN Tianqi1，李荣鹏 /LI Rongpeng1，
+张宏纲 /ZHANG Honggang2
+（ 1.浙江大学 ，中国 杭州 310007 ；
+2.之江实验室 ，中国 杭州 310012  ）
+(1.Zhejiang University , Hangzhou 310007 , China ;
+2.Zhijiang Lab , Hangzhou 310012 , China )DOI：10.12142 /ZTETJ .202402005
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.tn.20240407 .1930.004.html
+网络出版日期 ：2024 -04-10
+收稿日期 ：2024 -02-20
+摘要 ：随着以大模型 （LM）为代表的生成式人工智能 （AI）的兴起 ，将LM应用于通信网络的研究引起了学术界和工业界的广泛关注 。回顾了
+目前 LM的主流神经网络架构及其能力涌现机理 ，然后从 AI与通信的双向协同 、网络大模型部署两方面 ，深入探讨了通信网络 LM研究的主要进
+展。还分析了网络 LM NetGPT 将要面临的挑战以及未来的发展方向 。考虑到基于 AI/机器学习 （ML）的通信模型相较于传统模型获得的出色性
+能，认为将通信网络与 LM进行融合并使二者协同工作 ，能进一步地提升系统的性能 。要实现通信网络与 LM的融合与协同 ，本质上是要构建好
+网络 LM，云边协同就提供了一种很好的网络 LM部署方案 。
+关键词 ：LM；生成式 AI；网络智能 ；NetGPT ；模型协同
+Abstrac t:Along with the springing up of generative artificial intelligence (AI), notably epitomized by large models (LM), the incorporation of 
+these LMs within communication networks has attracted extensive attention in both academia and industry . An overview of the dominant 
+deep neural network (DNN ) architecture of LMs and its emerging capabilities is introduced . The significant advancements achieved by apply ⁃
+ing LMs for communication networks from two aspects are discussed , namely , the mutual collaboration between AI and communications , 
+and the deployment of network generative pre-trained transformer (NetGPT ). Additionally , the imminent challenges and further work are 
+also discussed . Considering the outstanding performance of AI/machine learning (ML)-based communication models compared to tradi ⁃
+tional models , it is believed that integrating communication networks with large models and enabling them to work together can further en ⁃
+hance system performance . To realize the integration and collaboration of communication networks and large models , it is essentially neces ⁃
+sary to build NetGPT properly . Edge-cloud collaboration provides a good deployment solution for NetGPT .
+Keywords :LM; generative AI ; network intelligence ; NetGPT ; model collaboration
+引用格式 ：任天骐 , 李荣鹏 , 张宏纲 . 通信网络与大模型的融合与协同  [J]. 中兴通讯技术 , 2024 , 30(2): 29-36. DOI: 10.12142 /ZTETJ .202402005
+Citation ： REN T Q , LI R P , ZHANG H G . Integration and collaboration of communication networks and large models [J]. ZTE technology jour ⁃
+nal, 2024 , 30(2): 29-36. DOI: 10.12142 /ZTETJ .202402005
+随着移动通信网络复杂度的显著增加和通信业务生态的
+多样化 ，通信网络面临着越来越多复杂场景的挑战 。
+因此 ，通信网络既要满足高速 、高质量的通信需求 ，又要向
+用户提供颇具差异性的业务体验 ，还要考虑稳定性和安全
+性，这对通信网络的设计 、运营和维护提出了更高的要求 。
+在这样的背景下 ，人工智能 （AI）技术的出现为解决这些问
+题带来了新希望 。现代 AI建立在机器学习的基础上 ，在众
+多机器学习模型中 ，Transformer 架构[1]因其独特的自注意力机制而脱颖而出 ，它能够处理长距离依赖关系 ，这在自然语
+言处理 （NLP）等领域尤为重要 。
+Transformer 模型为大型预训练模型的构建提供了基础架
+构。2018 年，谷歌提出的 BERT[2]是基于 Transformer 架构的
+第一个突破 ，其革新的双向训练策略极大地提升了模型对文
+本深层次语义理解能力 ，在多项语言任务中取得优秀的性
+能。紧随其后的 GPT- 2[3]采用了 Transformer 的解码器结构 ，
+通过学习大量的文本数据 ，能够生成多样且逻辑合理的文
+本。随着计算资源的提升和优化 ，以及大模型能力标度率和
+具体涌现能力的发现 ，模型的规模正在迅速扩张[4-6]。从
+BERT 模型 1.1亿个参数到 GPT- 3[7]和GPT- 4[8]的数百亿乃至基金项目 ：国家自然科学基金项目 （62071425 ） ；浙江省 “领雁 ”计划项目
+（2022 C01093 ） ；浙江省杰出青年基金项目 （LR23F010005 ）
+29

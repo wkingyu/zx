@@ -1,0 +1,102 @@
+Fig. 1. ZTE’s RAN 
+intelligence 
+architecture.
+Physical 
+network layer
+Intelligent 
+application layerSupreme
+experience
+Data
+modelData
+governanceComputing
+modelingTraﬃc
+model
+Digital-twin
+based modelingOptimization
+& decision-makingExperience
+modelLoad
+modelCoverage
+modelCapacity
+modelFault
+modelEnergy-
+eﬃciency
+model
+Computing
+orchestrationComputing
+exposureData
+opennessData Computing power AlgorithmCapability exposure & data openness 
+(OpenAPI)
+Policy delivery Data collectionOptimal network
+eﬃciencyHigher O&M
+eﬃciencyIntent-driven
+Intelligent 
+service layer
+Visualization
+capabilityPrediction
+& inferencecomputing resources and enhanced 
+computing resources within multiple base 
+stations can be pooled and aggregated 
+through transmission, enabling dynamic 
+sharing and collaborative orchestration 
+of computing power across base stations. 
+This achieves load balancing and eﬃcient 
+utilization of computing resources. The 
+combination of computing power at the 
+base station level with the computing power 
+of intelligent modules on the network 
+management side and an independent 
+intelligent platform forms the foundation for 
+distributed native computing capabilities.
+In the realm of data, standardized data 
+collection processes and a uni/f_ied data 
+model are employed for data collection, 
+cleansing, correlation, and labeling within 
+the RAN system. This enables the generation 
+and maintenance of modeled data such as 
+user pro/f_iles and base station pro/f_iles. Model 
+training and inference for native intelligence 
+within the RAN system is eﬃciently 
+supported by combining distributed data 
+services with domain knowledge as well as 
+model knowledge. 
+In the dimension of algorithms, the 
+real-time intelligent engine deployed at 
+the base station side supports extremely 
+lightweight model training and near-real-time 
+model inference. It improves network 
+eﬃciency and user experience through 
+precise prediction and proactive optimization. 
+On the network management side, Intelligent Service Exposure Empowers 
+Multi-Dimensional Applications
+ZTE’s RAN intelligence architecture 
+consists of three layers: physical network 
+layer, intelligent service layer, and intelligent 
+application layer (Fig. 1). These three layers 
+enable native intelligence within the wireless 
+network and empower operators to achieve 
+cross-domain closed-loop operations, 
+cross-domain collaborative computing, and 
+cross-domain service orchestration.
+The physical network layer encompasses all 
+hardware infrastructure and raw data sources 
+that form the basis for native intelligence 
+within RAN. It includes various devices such as 
+base stations, network management systems, 
+intelligent platforms, as well as a diverse range 
+of data resources from terminals or relay nodes 
+such as mobile phones, wearable devices, 
+connected cars, drones, ATG aircraft, and 
+satellites. These resources facilitate interaction 
+with the intelligent service layer through data 
+collection and policy delivery.
+The intelligent service layer utilizes 
+the computing and data resources from 
+the physical network layer to model and 
+orchestrate computing capabilities and govern 
+data. It employs various algorithm models 
+to orchestrate intelligent atomic capabilities, 
+and ultimately exposes computing power, 
+data, and algorithms in the form of services 
+to the application layer.
+In terms of computing power, the native 
+10Expert Views

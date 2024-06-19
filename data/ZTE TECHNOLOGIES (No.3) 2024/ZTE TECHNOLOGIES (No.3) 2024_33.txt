@@ -1,0 +1,81 @@
+Other AIOps 
+capabilities
+ 
+ 
+ 
+AI Model + 5G: Empowering 
+Industry Intelligence
+ince the second half of 2022, the 
+popularity of AI models, represented by 
+ChatGPT, has swept the world, signaling 
+the oﬃcial entrance of AI technology into 
+the era of AI models. However, in 2023, the model 
+development and applications have followed 
+diﬀerent trajectories. While the models are rapidly 
+evolving, their applications have not kept pace, 
+lagging behind the advancement of AI models. As a 
+new technology, AI models strongly promote the 
+development of basic intelligent science. However, 
+their wide applications need to be integrated with 
+the industry and other technologies. This paper 
+discusses the new paradigm of applying AI models 
+combined with 5G in various industries and 
+explores the prospects and evolution of the “AI 
+model + 5G” to promote the development of 
+industry intelligence.
+In China, the government held six consecutive 
+sessions of the “Blooming Cup” 5G application 
+competitions to promote in-depth integration of the 
+digital economy and the real economy. Throughout 
+this process, various issues have been exposed, such 
+as the high threshold of 5G network technologies, 
+maintenance and operation diﬃculties for industry 
+users, and the failure to realize the value of network 
+data. Additionally, model applications in the industry 
+encounter numerous challenges, such as acquiring 
+high-quality datasets and achieving rapid industrial 
+deployment, which remain signi/f_icant concerns.
+The development of industry intelligence requires 
+that AI model and 5G complement each other, with 
+both being jointly promoted: AI model enables 5G 
+and drives the digital and intelligent transformation 
+of the industry, while 5G empowers AI model and 
+accelerates its applications, as illustrated in Fig. 1. AI Model Enables 5G 
+The challenges encountered in the development 
+of 5G within the industry include complicated 
+network O&M, unguaranteed service level 
+agreements (SLAs), and insuﬃciently diﬀerentiated 
+processing methods for speci/f_ic services. These issues 
+can be addressed by introducing AI models into the 
+5G network.
+AI Model Facilitates Intelligent 5G Network 
+Operation 
+After industry customers deploy 5G networks, 
+professional knowledge and personnel are required 
+for service provisioning and routine O&M, thereby 
+increasing network costs and investment. To mitigate 
+this, AI models are applied in 5G O&M to achieve 
+intelligent network operation, signi/f_icantly reducing 
+industry investment. These AI models aid industry 
+customers in converting service requirements into 
+network planning and con/f_iguration, enabling 
+intent-driven services and improving service 
+provisioning eﬃciency. By analyzing a vast amount of 
+network logs and alarm data, AI models can identify 
+or predict faults and provide corresponding 
+solutions. Through in-depth analysis of customers’ 
+behavior data, AI models can predict network 
+requirements and service preferences, generate 
+related service bundles, and facilitate better network 
+operation. 
+AI Model Guarantees Network SLA   
+Applications in various industries have unique 
+demands concerning network bandwidth and 
+latency. For example, video surveillance services in 
+the intelligent manufacturing /f_ield necessitate 
+Architect of ZTE CCN 
+Product PlanningWang Chaoying
+Chief Engineer of ZTE 
+CCN Product PlanningLiu XiliangS
+JUN 2024
+31 

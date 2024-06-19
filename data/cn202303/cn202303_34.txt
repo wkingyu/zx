@@ -1,0 +1,91 @@
+无线网络孪生中的统计信道建模方法 ：现状与前沿 张树韬  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 33 结束语
+无线网络孪生可以利用数字孪生技术来赋能无线网络 。
+以5G无线网络为例 ，无线网络孪生能够为 5G无线网络的性
+能推断 、预测和优化决策提供高效模型支撑 。我们提出的数
+字孪生信道建模方法通过生成与在地化场景大尺度统计分布
+一致的模拟信道 ，确保了对真实无线网络的准确反映 。数字
+孪生信道的可视化平台能够直观展示无线网络环境下的信道
+多径角度功率谱 ，为覆盖优化和在地化码本设计这两种 5G
+网络优化典型应用提供了新的思路 。未来 ，数字孪生信道需
+要满足灵活性 、泛化性和自适应性等要求 ，以适应日益复杂
+的无线网络环境 。数字孪生信道有着广阔的发展前景 ，在
+5G和6G无线网络的发展中将扮演越来越重要的角色 。
+参考文献
+[1] GRIEVES M , VICKERS J . Digital twin : mitigating unpredictable , undesirable 
+emergent behavior in complex systems [M]//Transdisciplinary perspectives 
+on complex systems . Cham : Springer International Publishing , 2016 : 85-
+113. DOI: 10.1007 /978-3-319-38756 -7_4
+[2] LI Y, ZHANG S T , REN X H , et al . Real-world wireless network modeling 
+and optimization : from model/data-driven perspective [J]. Chinese journal 
+of electronics , 2022 , 31(6): 991-1012 . DOI: 10.1049 /cje.2022 .00.191
+[3] NGUYEN H X , TRESTIAN R , TO D , et al . Digital twin for 5G and beyond [J]. 
+IEEE communications magazine , 2021 , 59(2): 10-15. DOI : 10.1109 /
+MCOM .001.2000343
+[4] KHAN L U , HAN Z , SAAD W , et al . Digital twin of wireless systems : 
+overview , taxonomy , challenges , and opportunities [J]. IEEE 
+communications surveys & tutorials , 2022 , 24(4): 2230 -2254 . DOI: 10.1109 /
+COMST .2022 .3198273
+[5] MIHAI S , YAQOOB M , HUNG D V , et al . Digital twins : a survey on enabling 
+technologies , challenges , trends and future prospects [J]. IEEE 
+communications surveys & tutorials , 2022 , 24(4): 2255 -2291 . DOI: 10.1109 /
+COMST .2022 .3208773
+[6] WU Y W , ZHANG K , ZHANG Y . Digital twin networks : a survey [J]. IEEE 
+Internet of Things journal , 2021 , 8(18): 13789 -13804 . DOI : 10.1109 /
+JIOT .2021 .3079510
+[7] SHEN X M , GAO J , WU W , et al . Holistic network virtualization and pervasive network intelligence for 6G [J]. IEEE communications surveys & 
+tutorials , 2022 , 24(1): 1-30. DOI: 10.1109 /COMST .2021 .3135829
+[8] KURUVATTI N P , HABIBI M A , PARTANI S , et al . Empowering 6G 
+communication systems with digital twin technology : a comprehensive 
+survey [J]. IEEE access , 2022 , 10: 112158 -112186 . DOI : 10.1109 /
+ACCESS .2022 .3215493
+[9] AHMADI H , NAG A , KHAR Z , et al . Networked twins and twins of 
+networks : an overview on the relationship between digital twins and 6G [J]. 
+IEEE communications standards magazine , 2021 , 5(4): 154-160. DOI : 
+10.1109 /MCOMSTD .0001 .2000041
+[10] KHAN L U , SAAD W , NIYATO D , et al . Digital-twin-enabled 6G: vision , 
+architectural trends , and future directions [J]. IEEE communications 
+magazine , 2022 , 60(1): 74-80. DOI: 10.1109 /MCOM .001.21143
+[11] WANG H Z , WU Y L , MIN G Y , et al . A graph neural network-based digital 
+twin for network slicing management [J]. IEEE transactions on industrial 
+informatics , 2022 , 18(2): 1367 -1376 . DOI: 10.1109 /TII.2020 .3047843
+[12] ALMASAN P , FERRIOL-GALMÉS M , PAILLISSE J , et al . Network digital 
+twin: context , enabling technologies , and opportunities [J]. IEEE 
+communications magazine , 2022 , 60(11): 22-27. DOI : 10.1109 /
+MCOM .001.2200012
+[13] HUI L B , WANG M W , ZHANG L , et al . Digital twin for networking : a data-
+driven performance modeling perspective [J]. IEEE network , 2022 (99): 1-
+8. DOI: 10.1109 /MNET .119.2200080
+[14] DING C , HO I W H . Digital-twin-enabled city-model-aware deep 
+learning for dynamic channel estimation in urban vehicular environments 
+[J]. IEEE transactions on green communications and networking , 2022 , 6
+(3): 1604 -1612 . DOI: 10.1109 /TGCN .2022 .3173414
+[15] YUAN X M , CHEN J H , ZHANG N , et al . Digital twin-driven vehicular task 
+offloading and IRS configuration in the Internet of vehicles [J]. IEEE 
+transactions on intelligent transportation systems , 2022 , 23(12): 24290 -
+24304 . DOI: 10.1109 /TITS .2022 .3204585
+[16] LIU T , TANG L , WANG W L , et al . Digital-twin-assisted task offloading 
+based on edge collaboration in the digital twin edge network [J]. IEEE 
+Internet of Things journal , 2022 , 9(2): 1427 -1444 . DOI : 10.1109 /
+JIOT .2021 .3086961
+[17] ÖHLÉN P , JOHNSTON C , OLOFSSON H , et al . Network digital twins –
+outlook and opportunities [J]. Ericsson technology review , 2022 (12): 2-11. 
+DOI: 10.23919 /ETR .2022 .9999174
+[18] PENGNOO M , BARROS M T , WUTTISITTIKULKIJ L , et al . Digital twin for 
+metasurface reflector management in 6G terahertz communications [J]. 
+IEEE access , 2020 , 8: 114580 -114596 . DOI : 10.1109 /
+ACCESS .2020 .3003734
+[19] ZHANG Y B , SUN J L , GUI G , et al . A generalized channel dataset 
+generator for 5G new radio systems based on ray-tracing [J]. IEEE 
+wireless communications letters , 2021 , 10(11): 2402 -2406 . DOI : 10.1109 /
+LWC .2021 .3101908
+[20] YANG Y , LI Y , ZHANG W X , et al . Generative-adversarial-network-based 
+wireless channel modeling : challenges and opportunities [J]. IEEE 
+（a）鸟瞰图 （b）平面图 （c）设计码本
+▲图6 基于数字孪生信道的在地化码本设计BS：基站     NLoS ：非直射信道路径用户栅格障碍物毫米波
+接入点
+障碍物用户栅格
+BS3 m7 m2 m
+0NLoS
+30

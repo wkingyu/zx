@@ -1,0 +1,79 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1YANG Yibing , LIU Ming , XU Rongtao , WANG Gongpu , GONG Wei Special Topic   Link Budget and Enhanced Communication Distance for Ambient Internet of Things
+incident on the tag . A=λ2Gtag
+4π is the effective area of the tag 
+antenna .
+The power of the modulated tag signal received by reader 
+antennas can be written in terms of differential EIRP as
+Pr=∆EIRPGβLp(dup)=PtagGtagKGβLp(dup)=
+PtG2Gtag2β2Lp(ddown)Lp(dup)α|Γ1-Γ2|2
+, (9)
+where ddown is the downlink communication distance . It can be 
+observed that the signal received by the reader undergoes path 
+loss in both the uplink and downlink . Based on the analysis of 
+the sensitivity and received power at readers and tags , respec ⁃
+tively , which is conducted in the next section , it can be seen 
+that the limiting bottleneck for the communication distance of 
+MBCS is the downlink communication distance .
+4 Downlink Improvement of Tag
+4.1 Tag Chip Sensitivity
+In downlink communications , the tag receives and extracts 
+the signaling indication information of RF signals sent from 
+the reader , and sets the corresponding reflection mode . How ⁃
+ever, signal decoding and information extraction from RF sig ⁃
+nals can be implemented by an analog -to-digital converter 
+(ADC ), as in traditional wireless systems . However , it con ⁃
+sumes a significant amount of power and therefore is not suit ⁃
+able for ultra -low power systems . In a signal reception module 
+of the tag , a threshold comparison circuit with lower power 
+consumption is used to achieve frequency down -conversion .
+The tag chip sensitivity is also known as the activation 
+threshold , indicating the minimum power of signaling that 
+can be recognized by the tag ’s logic processing unit and 
+used to perform impedance modulation . Depending on the 
+tag’s reception processing , factors affecting sensitivity may 
+be the forward voltage drop of the diode , the sensitivity of the 
+comparator , and the algorithm limit imposed by the adopted 
+decoding scheme .
+More specifically , if the input signal is lower than the 
+level of forward voltage drop , the received signal cannot be 
+demodulated and no output will be generated . Similarly , 
+when the input signal is too weak , the signal amplitudes that 
+represent different information states are very close to each 
+other . Especially , when the difference is lower than the mini ⁃
+mum difference that can be detected by the comparator (i.e. 
+the sensitivity of the comparator ), the comparator cannot out ⁃
+put reliable results for the following processing . In addition , 
+the decoding algorithm employed by the tag may also have 
+certain performance upper bound , beyond which the decod ⁃
+ing algorithm cannot constantly provide correct output infor ⁃
+mation . This performance upper bound is usually associated 
+with the signal quality .We measure the chip sensitivity of the tag with the follow ⁃
+ing experiments . As shown in Fig . 3, we use universal software 
+radio peripheral (USRP ) to transmit a carrier signal and signal ⁃
+ing with certain power , through an attenuation connected to 
+the tag , and connect the comparator output of the tag to an os ⁃
+cilloscope . The operating frequency is 925 MHz , and the mea ⁃
+surement steps are as follows . Firstly , we measure the thresh ⁃
+old power Pth at the tag antenna when the comparator has a 
+stable waveform output corresponding to the signaling . That 
+is, the tag correctly decodes the signaling and initiates reflec ⁃
+tion. Fig. 4 shows the comparator ’s output waveform mea ⁃
+sured by the oscilloscope at Pth=-19.90 dBm , matching the 
+signaling from the reader . Due to an increase in the attenua ⁃
+tion value of the attenuator , the comparator waveforms no lon ⁃
+ger match . The threshold power Pth is called the tag sensitiv ⁃
+ity. Secondly , the reflection coefficient |Γ|=0.138 4 of im ⁃
+pedance matching is measured by using a vector network ana ⁃
+lyzer (VNA ) at the Pth power level . The tag chip sensitivity 
+Pchip,  sen=-19.98 dBm .
+4.2 Communication Distance Upper Bound
+In MBCS , when Lp(dM)=(λ
+4πdM)2, the upper bound of the 
+downlink distance can be determined by :
+▲Figure 3. Sensitivity measurement experiment
+▲Figure 4. Output waveform of the comparatorPCUniversal software ra ⁃
+dio peripheral
+Oscilloscope
+Backscatter tagAttenuator
+20

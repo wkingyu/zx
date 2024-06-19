@@ -1,0 +1,97 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput    Research Papers
+hardware implementation of the decoder has more impact on 
+the throughput . Many researchers have proposed different de ‐
+coder architectures in the hardware implementation aspect .
+In Ref . [8], researchers used a fully parallel decoding 
+scheme to partition the global interconnection and weaken the 
+routing pressure by grouping the variable nodes . The architec ‐
+ture achieves a throughput of 92.8 Gbit/s . A partial parallel 
+decoder architecture with multi -frame pipeline decoding is 
+proposed in Ref . [9] to increase the parallelism . It can achieve 
+higher throughput while having high decoding flexibility . In 
+Ref. [10], researchers proposed an iterative unfolding architec ‐
+ture, which fully expanded the hardware architecture used for 
+one iteration so that one iteration could be performed per 
+cycle . This approach lacks flexibility while significantly in ‐
+creasing throughput . The multi -core decoder was implemented 
+in Ref . [11], which could satisfy high throughput while being 
+relatively flexible .
+In this paper , we design a new kind of RL -LDPC code aim ‐
+ing at next -generation mobile communication and give the 
+construction results of the core matrix . A code construction 
+algorithm is proposed to optimize the performance of the 
+code by eliminating cycles of lengths 6 and 4. In addition , a 
+hardware architecture is proposed to match the above codes 
+using a multi -core row -layered decoding approach to achieve 
+a throughput of 100 Gbit/s . The multi -core decoder mainly 
+includes an input buffer , a controller , decoder cores and 
+their memory blocks , an output buffer , and an output selec ‐
+tion module .
+The remainder of this paper is organized as follows . Sec‐
+tion 2 introduces the code construction method we proposed . 
+Then we describe the hardware architecture in Section 3. In 
+Section 4, the performance and hardware resource consump ‐
+tion of the code are presented . Finally , the conclusions are 
+drawn in Section 5.
+2 Codes Construction
+2.1 RL -LDPC Codes Construction
+LDPC code is determined by an m×n parity check matrix 
+H, where one element in the H matrix is much less than zero , 
+m represents the number of rows , and n represents the number 
+of columns . Each column corresponds to a variable node (VN), 
+and each row corresponds to a check node (CN). The informa ‐
+tion block length is k=m-n. The elements in the parity 
+check matrix H indicate whether there is information ex ‐
+change between the VNs and the CNs . The tanner diagram 
+can be used to represent the information transmission network 
+that connects the CNs and VNs . As shown in  Fig. 1, the 
+circles represent the CNs and the squares represent the VNs . 
+The structure of starting from one node and making a circle 
+along the connection to return to the node is called a “cycle”. 
+Short cycles can have a bad effect on performance .
+The protograph structure of RL -LDPC is shown  in Fig . 2. HHRC is the core matrix framed in green in Fig . 2, which corre ‐
+sponds to the highest code rate of the LDPC code , and HIRC is 
+the extension matrix framed in blue in Fig . 2. The sizes are 
+marked in the figure . The size of the extension matrix can be 
+adjusted according to different code rates . HHRC and HIRC are 
+constructed and optimized separately[12]. Matrix B is a square 
+matrix with a double diagonal structure and its size is P × P . 
+Matrix I is an identity matrix , which corresponds to the vari ‐
+able node part of RL -LDPC with a degree of 1.
+HHRC consists of a number of elements shown as follows :
+HHRC=é
+ëê
+êê
+êêê
+êêù
+ûú
+úú
+úúú
+úúh1,1h1,2⋯ h1, K+P
+h2,1h2,2⋯ h2, K+P
+⋮ ⋮ ⋮ ⋮
+hP,1hP,2⋯ hP, K+P . (1)
+The parity check matrix is obtained by expanding the base 
+matrix above by a lifting size Z. Therefore , each element of 
+HHRC is replaced by a square matrix of Z×Z. Elements “−1” 
+are replaced by the all -zero matrix , while hi,j>0 elements are 
+replaced by a circulant matrix , obtained by right shifting the 
+identity matrix by hi,j positions . The range of cyclic lifting 
+number hi,j is 0 to Z–1.
+The method of code construction based on protograph is 
+used in this paper . A protograph with a low iterative decoding 
+threshold needs to be constructed first , and then the lifting 
+numbers are generated to obtain our LDPC code . Following 
+▲Figure 1. Tanner graph
+▲Figure 2. Structure of raptor -like low -density parity -check (RL -
+LDPC ) codev1 v2 v3 vn
+…
+…
+c1 c2 cm
+A B O
+I EKN
+MP: CN
+: VN
+CN: check node     VN : variable node
+87

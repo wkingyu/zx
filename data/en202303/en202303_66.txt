@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin Research Papers   A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate
+a transmit power of 33 dBm and finally achieved a transmis ‐
+sion distance of 27 km with 500 Mbit/s . According to these 
+works , the solid -state THz communication technology has 
+fully demonstrated its great application potential and research 
+value in high -rate wireless communication . However , the ex ‐
+ploration of THz communication is still limited to point -to-
+point communication . Therefore , the research on the THz 
+frequency -division multiplexing wireless link is very impor ‐
+tant to THz communication .
+In this paper , we propose a 220 GHz frequency -division 
+multiplexing communication system , which adopts the classi ‐
+cal super outlier architecture , focusing on the design includ ‐
+ing a 220 GHz sub -harmonic mixer , duplexer and THz 
+frequency -division multiplexing communication system , which 
+finally realizes the transmission data rate of 10 Gbit/s for up/
+down link over a distance of 15 m.
+2 System Architecture
+Full duplex communication systems often use a time division 
+multiplexing (TDM ) mode , a frequency -division multiplexing 
+(FDM ) mode and an isolation mode based on waveguide -guided 
+orthogonal couplers[10]. During these modes , FDM is to divide 
+the total bandwidth used for the transmission channel into two 
+sub -carriers with different frequencies for receiving and trans ‐
+mitting . Although the two channels occupy different frequen ‐
+cies and large spectrum resources , the THz band has huge spec ‐
+trum resources . Therefore , the FDM mode is extremely suitable 
+for realizing THz full duplex communication .
+In this paper , a 220 GHz full -duplex wireless communica ‐
+tion system is built in a frequency -division multiplexing mode , 
+and the system block diagram is shown in Fig . 1. The base ‐band signal is upconverted by a C -band frequency conversion 
+module , which is filtered out of the upper sideband and fed 
+into a THz mixer to upconvert to the THz band , and then fil ‐
+tered by a THz duplexer to remove the mirror frequency and 
+get the radio frequency (RF) signal . The operating frequency 
+of the uplink channel is 197.3–199.9 GHz , and that of the 
+downlink channel is 207–213 GHz . The RF link of the com ‐
+munication system is shown in Fig . 2. To effectively reduce 
+the space occupied by the link , the RF link is connected to 
+the duplexer with a curved waveguide .
+3 Critical Components of System
+3.1 220 GHz Sub -Harmonic Mixer Study
+A mixer is a crucial device of a THz communication system 
+that uses a nonlinear device of solid -state devices to generate 
+an output signal containing multiple frequency components[9]. 
+The mixer consists of an RF input structure , a local oscillator 
+(LO) input structure , multiple filters , inverted parallel diode 
+▲Figure 1. Communication system block diagram (a) Upstream transmit and downstream receive (b) Downstream transmit and upstream receive
+BPF: bandpass filter
+BW: bandwidthIF: intermediate frequency
+LPF: low pass filterPDRO : phase -locked dielectric resonator oscillator
+PLL: phase -locked loopSHM : sub -harmonic mixer
+▲Figure 2. Front -end link of the communication system(a) RF link (b) Chassis diagram
+SHMLPF PLL 
+7 GHz BPFReceive IF 
+module
+×12PDRO
+9 GHzf0=1.6 GHz
+BW= 2.6 GHz10 Gbit/s demodulator platform10 Gbit/s modulator platform
+PCf0=1.6 GHz
+BW= 2.6 GHzPDRO
+8.5 GHzTransmit 
+IF module×12BPF
+LPFPLL
+7 GHzBW= 2.6 GHz
+197.3 GHz 199.9 GHz
+CH1: 197–203 GHz
+CH2: 207–213 GHz
+BW= 2.6 GHz
+209.3 GHz 211.9 GHzCH1: 197–203 GHz
+CH2: 207–213 GHz
+BW= 2.6 GHz
+209.3 GHz 211.9 GHzBW= 2.6 GHz
+197.3 GHz 199.9 GHz
+Receive IF 
+module
+Transmit 
+IF modulef0=1.6 GHz
+BW= 2.6 GHzBPF
+LPF ×12
+PDRO
+8.5 GHz
+PC
+PDRO
+9 GHzf0=1.6 GHz
+BW= 2.6 GHz10 Gbit/s demodulator platform10 Gbit/s modulator platform
+×12PLL 
+7 GHzLPF
+BPF
+SHM
+64

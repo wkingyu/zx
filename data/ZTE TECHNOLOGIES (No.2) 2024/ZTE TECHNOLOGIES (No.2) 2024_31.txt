@@ -1,0 +1,81 @@
+Analysis on 5G-R Transport 
+Technology
+Background  
+China State Railway Group issued the/uni00A0“National 
+Railway Planning Outline for Transportation 
+Powerhouse in New Era” in 2020, outlining the 
+direction for advancing railway communication 
+technologies. The outline emphasizes tasks such as 
+developing independent and advanced 
+technological equipment systems, improving the 
+technological level of infrastructure equipment, 
+and empowering smart development through new 
+infrastructure. 
+To implement China’s decisions on deploying 5G 
+networks and other new infrastructure, the Group 
+has set the goal of building a dedicated 5G mobile 
+communication system for railway (5G-R). This 
+large-scale 5G private network will support railway 
+production and operations. As IP-based railway 
+services grow, objectives for intelligent network 
+operation, resource management, system 
+maintenance, and service applications become 
+clearer. New requirements have been raised for the 
+next-generation railway transport network 
+technology, including secure and reliable 5G-R 
+communication for transportation-related 
+production services, 5G-R slice isolation, transport of 
+multiple existing services, and manageable railway 
+private networks. 
+To enhance 5G-R construction, the primary 
+focus of the current transport network is selecting 
+a suitable transport solution based on 5G-R’s key 
+requirements and the development evaluation of 
+railway multi-service transport. In the 2022 5G-R 
+transport solution research project led by China 
+Railway Signal & Communication Corp Ltd (CRSC), 
+the IMT-2020 5G transport promotion group thoroughly analyzed SPN, IPRAN, and M-OTN 
+solutions. The current SPN, based on new 
+international standardized technical solutions  with 
+deep integration of TDM and packet technologies, 
+holds relative advantages and is expected to 
+become the primary choice for 5G-R access 
+backhaul and integrated railway transport. 
+SPN 1.0 has been widely adopted by operators and 
+is evolving to 2.0 for multi-service transport. 
+Featuring /f_ine-granularity 10M FGU hard-isolation 
+slicing with 10GE interfaces, E1/STM-1 CBR 
+multi-service transports, mature coarse-granularity 
+MTN hard-isolation slicing, high-precision inband 
+OAM performance measurement, and manageable 
+transport, it can transport 5G-R and traditional 
+railway communications services from L1 to L3, while 
+ensuring high-isolation, high-reliability, and 
+manageable transport of existing SDH services. 
+Major Challenges
+Operators have put 5G into large-scale commercial 
+use. 5G-R, as the private network technology for 
+railways, faces diﬀerentiated demands for railway 
+production and operation. The primary challenges 
+include:
+L3 networking with transport features:  5G-R 
+inherits the transport network features of GSM-R 
+and introduces /f_lexible L3 networking in addition 
+to bandwidth requirements of the existing 
+SDH/MSTP transport network. It maintains 
+SDH/MSTP hard isolation, high reliability, 
+manageability and controllability, along with 
+other transport features like L3 bidirectional 
+connection, comprehensive traﬃc planning, 
+complete OAM and protection, addressing the 
+ 
+ 
+Senior System 
+Architect, ZTELiu Aihua
+Transport Product 
+Planning Manager, 
+ZTELi Yunlong
+ 
+ 
+ APR 2024
+ 29

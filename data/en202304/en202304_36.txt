@@ -1,0 +1,79 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Lossy Point Cloud Attribute Compression with Subnode -Based Prediction    Special Topic
+Nclsncp  reference candidates . Ntbp 1, Ntbp 2 and Ntbp 4 in⁃
+clude four Nclsncp  reference candidates . Ntbp 3, Ntbp 5 and 
+Ntbp 6 include two Nclsncp  reference candidates . Ntbp 7 has 
+no Nclsncp  reference candidate . More detailed information is 
+listed as follows :
+• Ntbp 0 candidates located in No . 5 and No . 6 subnodes of 
+the left Ncppnn , No. 3 and No . 5 subnodes of the bottom 
+Ncppnn , and No . 3 and No . 6 subnodes of the front Ncppnn .
+• Ntbp 1 candidates located in No . 4 and No . 7 subnodes of 
+the left Ncppnn  and No . 2 and No . 7 subnodes of the front 
+Ncppnn .
+• Ntbp 2 candidates located in No . 4 and No . 7 subnodes of 
+the left Ncppnn  and No . 1 and No . 7 subnodes of the bottom 
+Ncppnn .
+• Ntbp 3 candidates located in No . 5 and No . 6 subnodes of 
+the left Ncppnn .
+• Ntbp 4 candidates located in No . 2 and No . 7 subnodes of 
+the front Ncppnn  and No . 1 and No . 7 subnodes of the bottom 
+Ncppnn .
+• Ntbp 5 candidates located in No . 3 and No . 6 subnodes of 
+the front Ncppnn .
+• Ntbp 6 candidates located in No . 3 and No . 5 subnodes of 
+the bottom Ncppnn .
+Among these reference candidates described above , the 
+existing occupied (i.e., non -empty node ) Nclsncp  can be 
+searched by using the relative position relationship with each 
+corresponding Ntbp  i. In addition to the proposed Nclsncp , 
+we also introduce a prediction scheme based on geometric 
+distribution by using Npn, Ncppnn  and Nclpnn  at Level l-1 
+and Ncpsn  and Nclsncl at Level l, which will be detailed in 
+the next section .
+3.2 Prediction Based on Geometric Distribution
+For each subnode to be predicted Ntbp i in its parent node 
+Npn, we propose to predict them according to the distribution 
+of their neighbor subnodes in the co -plane parent node neigh ⁃
+bor nodes . First of all , the distribution can be mainly divided into the following three categories , a total of six sub -
+categories , mainly including :
+• Distribution 1: The existing Ncppnn  contains Ncpsn , in⁃
+cluding three cases : 1) only one Ncpsn , 2) one Ncpsn  and one 
+Nclsncp , and 3) one Ncpsn  and two Nclsncp .
+• Distribution 2: The existing Ncppnn  does not contain 
+Ncpsn  but contains at least one Nclsncp , including two cases : 
+1) only one Nclsncp  and 2) two Nclsncp .
+• Distribution 3: The existing Ncppnn  does not contain any 
+of Ncpsn  and Nclsncp .
+Then , the corresponding target prediction mode can be de ⁃
+termined by the three types of neighbor subnode distribu ⁃
+tions . For each subnode to be predicted , in addition to their 
+Npn  that will definitely participate in the prediction , the pre ⁃
+diction reference of other nodes is shown in Fig . 5. Specifi ⁃
+cally , for Ncppnn , we will first determine whether it contains 
+Ncpsn , and if so (i.e., satisfying Distribution 1), the attribute 
+value of Ncpsn  will be used as the prediction instead of the at ⁃
+tribute value of its corresponding Ncppnn  whether it contains 
+Nclsncp  or not . Then , if there is no Ncpsn  in Ncppnn , we fur ⁃
+ther determine whether it contains at least Nclsncp , and if so 
+(i.e., satisfying Distribution 2), the average attribute value of 
+Nclsncp  will be used as the prediction instead of the attribute 
+value of its corresponding Ncppnn . If it contains neither of the 
+above two conditions (i.e., satisfying Distribution 3), the attri ⁃
+bute value of Ncppnn  will be directly used for prediction . Be⁃
+sides Ncppnn , for Ncppnn , the attribute value of Nclsncl  will 
+be used as the prediction instead of the attribute value of its 
+corresponding Nclpnn  if it has Nclsncl , which is the same as 
+the current G -PCC.
+4 Experiments
+To validate the effectiveness of the proposed method , we 
+implement our subnode -based prediction scheme on top of the 
+latest MPEG G -PCC reference software TMC 13-v22.0[28] and 
+GeS -TM -v2.0[29]. Extensive simulations have been conducted 
+in accordance with the common test conditions (CTCs )[30] 
+▲Figure 4. Schematic diagram of co -line subnodes of each subnode to be encoded in the same parent node , where the position indexes are organized 
+according to the Morton orderMorton order
+Subnode to be predicted Co-line subnode Parent node Co-plane parent neighbor nodez
+y
+x
+33

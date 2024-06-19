@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LU Zhizheng , HAN Yu , JIN Shi Impacts of Model Mismatch and Array Scale on Channel Estimation for XL -HRIS -Aided Systems    Special Topic
+of distance , the error caused by the channel model mismatch 
+tends towards 0, and the curves for LB and CRLB begin to co ⁃
+incide , because the variation of the realistic channel model 
+and the simplified channel model can be ignored when the 
+transmitter is far from the c -subarray , and only little differ ⁃
+ence exists between the spherical wave model and the planar 
+wave model . However , if the distance is short , the channel 
+model mismatch will significantly increase the LB . Therefore , 
+ignoring the channel model mismatch will only result in a de ⁃
+creased estimation performance .
+In Fig . 5, the LB and CRLB are plotted against the num ⁃
+ber of active elements at the c -subarray . In accordance with 
+Eq. (15), while the CRLB of the pseudo -true AoA parameter 
+tends towards 0 when the number of active elements at the c -
+subarray grows to infinite , the accuracy of the estimated AoA 
+parameter is still limited by the channel model mismatch and 
+tends towards a non -zero constant . This verifies that the accu ⁃
+racy of the estimated AoA parameter still has a non -zero lower 
+bound even in communication systems with extremely large -
+scale arrays . Hence , as the number of elements at the whole 
+array increases , the channel model mismatch must be consid ⁃
+ered to enhance the estimation accuracy and improve commu ⁃
+nication performance .
+Fig. 6 evaluates the SE of the proposed system with various 
+array scale settings . The distance be ⁃
+tween the transmitter and the XL -HRIS 
+is r=5 m, and the AoA is θ=0.5. We 
+can find that the obtained maximum SE , 
+which considers the estimation error in 
+real communication systems , is far lower 
+than that of the perfect CSI scenario 
+when the number of active elements at 
+the c -subarray is small , because the un ⁃
+avoidable error is caused by the channel 
+model mismatch as Eq . (15). Fortunately , 
+with the increase of the array scale of the 
+c-subarray , a more accurate estimate of 
+AoA can be obtained , as shown in Fig . 5, 
+and thus the SE will be improved , which 
+verifies the benefits of the extremely 
+large -scale array for future 6G wireless 
+communication systems . However , as the 
+number of active elements at the c -
+subarray grows to infinity , the obtained 
+maximum SE is always lower than the SE 
+with the prefect CSI . That is because , 
+when the scale of the c -subarray is infi ⁃
+nite, the LB of the estimated AoA tends 
+towards a non -zero constant inversely 
+proportional to r2 as Eq . (15), which can 
+damage the SE of the proposed system 
+when the distance between the transmit ⁃
+ter and the XL -HRIS is short .5 Conclusions
+In this paper , an XL -HRIS -aided system is introduced with 
+a proposed near -field channel estimation algorithm . With the 
+▲Figure 5. LB versus the number of active elements at the c -subarrayAoA: angle of arrival 
+CRLB : Cramer -Rao lower bound LB: lower bound
+▲Figure 6. SE with the array scaleCSI: channel state information
+SE: spectral efficiency XL-HRIS : extremely large -scale hybrid reconfigurable 
+intelligence surfaceCRLB of the pseudo -true AoA
+LB of the true AoAVariance lower bound/rad210-3
+10-4
+10-5
+10-6
+10-7
+10-8
+10-9
+0    50  100 150 200 250 300 350 400 450 500
+Number of active elements at the c -subarray
+Number of elements at the XL -HRIS200          400           600          800         1 000        1  200       1  400        1  600        1  800        2  000        2  200Spectral efficiency/ (bit·s−1·Hz−1)
+13.362
+13.360
+13.358
+13.356
+13.354
+13.352
+13.350
+13.348
+510   510.5  511   511.5 512  512.5  513   513.5  51415
+14
+13
+12
+11
+10
+9SE with perfect CSI
+Maximinm SE in real system , Nsub=2
+Maximinm SE in real system , Nsub=4
+Maximinm SE in real system , Nsub=8
+Maximinm SE in real system , Nsub=16
+Maximinm SE in real system , Nsub=32
+31

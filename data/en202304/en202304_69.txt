@@ -1,0 +1,78 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research Papers   Research on Fall Detection System Based on Commercial Wi -Fi Devices
+and 200 Hz, and adjust the input scale of the network to match 
+the extracted signal features for fall detection . The performance 
+of the system is shown in Fig . 9, where the performance of the 
+system also decreases gradually as the sampling frequency  de⁃
+creases . When the sampling frequency  decreases from 1 000 
+Hz to 200 Hz, the MAR and FAR of the system decrease by 
+8.2% and 1.3%, respectively . This is due to the fact that the 
+user’s velocity increases suddenly during the falling motion , 
+which is harder to capture at lower sampling frequencies .
+4) Signal interpolation algorithm performance analysis . To 
+test the performance of the signal interpolation algorithm in the 
+case of non -uniform sampling , we construct non -uniformly 
+sampled data by randomly selecting 50% of the existing uni ⁃
+formly sampled samples with an overall sampling frequency  of 
+500 Hz, and process the constructed data using a one -
+dimensional linear interpolation method . We then perform fea ⁃
+ture extraction and classification on the constructed non -
+uniformly sampled data and the interpolated data respectively , 
+and observe the effect . As shown in  Fig. 10, after signal interpo ⁃
+lation , the MAR and FAR of the system are 7.2% and 2.5%, re⁃
+spectively . The results are 2.8% and 0.6% lower than the MAR 
+and FAR of the directly non -uniformly sampled data , respec ⁃
+tively . Theoretically , using non -uniformly sampled data to cal ⁃culate the time -frequency domain characteristics of the signal 
+introduces a certain amount of error . The interpolation algo ⁃
+rithm of the signal can mitigate this part of the error .
+5) Relevant parameters and activity analysis . In the experi ⁃
+ment , the MAR and FAR of the system are also changed by 
+adjusting the threshold of activity discrimination . Fig. 11 
+shows the changes in MAR and FAR in the case of system 
+threshold adjustment . It can be seen that MAR and FAR con ⁃
+strain each other , and theoretically , the thresholds can be ad ⁃
+justed as needed to obtain the corresponding performance of 
+the system . In this system , we adjust the MAR around 4.8% 
+and obtain the corresponding FAR of 1.9%. In addition , we 
+analyze the probability of misjudgment for different normal ac ⁃
+tivities and the probability of misjudgment for different fall 
+types , and the results are shown in Figs. 12 and 13, respec ⁃
+tively . It can be seen that the bending and picking up action 
+has the highest false alarm rate of 4.0%, followed by walking 
+and sitting/standing up . The speed of human movements in 
+these actions is usually faster , and the actions of bending 
+down and picking up , and sitting down/standing up have some 
+similarities with falls , so false alarms occur easily . And among 
+the different types of falls , tripping has the highest missed 
+alarm rate of 7.8%, followed by kneeling and sitting/stum ⁃
+bling . Since tripping and kneeling happen when the user usu ⁃
+▲Figure 9. Effect of different channel state information (CSI) sampling 
+frequencies
+FAR : false alarm rate     MAR : missed alarm rate
+▲Figure 10. Signal interpolation algorithm performance analysis▲Figure 11. Impact of threshold selection on performancFAR : false alarm rate     MAR : missed alarm rate
+▲Figure 12. Probability of false alarms for different non -falling activitiesSample frequency/Hz1 000          750          500           330          250           200MAR
+FARRate/%20
+15
+10
+5
+0Rate/%20
+15
+10
+5
+0
+Experiment settingsMAR
+FAR
+Without interpolation With interpolationThreshold0  0.2 0.4 0.6 0.8  110
+8
+6
+4
+2
+0Rate/%MAR
+FAR
+Different activitiesBend/pickup Walk Sit/standRate/%5
+4
+3
+2
+1
+0FAR : false alarm rate     MAR : missed alarm rate
+66

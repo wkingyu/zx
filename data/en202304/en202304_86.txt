@@ -1,0 +1,82 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage    Research Papers
+order voltage ripple of the output voltage is less than 20 V, 
+and the current sinusoidal degree satisfies THD= 3.89%.
+Fig. 10 shows the experimental waveform of transient switch ⁃
+ing. As shown in Fig . 10(a), when the reference voltage changes 
+from 370 V to 400 V, the output voltage reaches the new steady -
+state value within one period (13 ms) without significant over ⁃
+voltage . As shown in Fig . 10(b), in the case of full load switch ⁃
+ing to half load , the amplitude of AC stabilizes at 1/2 of its origi ⁃
+nal value after a short fluctuation . Transient experimental re ⁃
+sults show that the closed -loop control strategy has good dy ⁃
+namic response performance .
+The experimental waveform under the DC input condition is 
+shown in Fig . 11, where the input voltage is 120 V and the out ⁃
+put voltage is 200 V. The bridge arm voltage can be composed of two levels , namely , 100 V and 200 V. Therefore , the feasi ⁃
+bility of the control strategy is verified .
+4 Conclusions
+To achieve low common -mode voltage and high power den ⁃
+sity, this paper proposes a multilevel PFC topology suitable 
+for the communication power supply of 5G base stations . It is 
+a hybrid topology consisting of a five -level ANPC bridge and 
+a diode bridge . A 1 kW experimental prototype is estab ⁃
+lished , which verifies the proposed working principle and 
+control strategy .
+Using the modulation strategy of PS -PWM , the converter 
+produces seven levels while the d v/dt is reduced to Vdc/7, 
+which greatly inhibits the common -mode voltage and reduces 
+the leakage current . Moreover , by adjusting the redundancy 
+switching state action time to balance the flying capacitor volt ⁃
+age, the total harmonic distortion can be suppressed by less 
+than 4%. A dual closed loop system with PI control of the volt ⁃
+age outer loop and quasi -proportion resonant (quasi -PR) con⁃
+trol of the current inner loop is used to realize zero static error 
+tracking . The output voltage is stable within an allowable de ⁃
+viation range , and the control performance is great . Further ⁃
+more , the AC and DC input switching is realized to ensure the 
+reliability and flexibility of the power supply .
+References
+[1] YAN X C , TENG H Y , PING L , et al . Study on security of 5G and satellite con ⁃
+verged communication network [J]. ZTE communications , 2021 , 19(4): 79–89. 
+DOI: 10.12142 /ZTECOM .202104009
+[2] HOU X L , LI X , WANG X , etc. Some observations and thoughts about recon ⁃
+figurable intelligent surface application for 5G evolution and 6G [J]. ZTE Com ⁃
+munications , 2022 , 20(1):14–20. DOI : 10.12142 /ZTECOM .202201003
+[3] WU Q Q , CHEN J Z , WU Z Q , et al . Synthesis and design of 5G duplexer based 
+on optimization method [J]. ZTE communications , 2022 , 20(3): 70–76. DOI : 
+10.12142 /ZTECOM .202203009
+[4] LUO F L . Signal processing techniques for 5G: an overview [J]. ZTE communi ⁃
+cations , 2015 , 13(1): 20–27. DOI : 10.3969 /j.issn.1673 -5188 .2015 .01.003
+[5] WU X Z , QI J J , LIU J D , et al . Review of multilevel inverter topology research 
+using switched capacitor/switched inductor [J]. Proceedings of the CSEE , 2020 , 
+40(1): 222–233, 389. DOI : 10.13334 /j.0258 -8013 .pcsee .190323
+[6] WANG K , ZHENG Z D , XU L , et al . An optimized carrier -based PWM method 
+and voltage balancing control for five -level ANPC converters [J]. IEEE transac ⁃
+tions on industrial electronics , 2020 , 67(11): 9120 –9132 . DOI : 10.1109 /
+TIE.2019 .2956370
+[7] YANG Y , PAN J Y , WEN H Q , et al . Double -vector model predictive control for 
+single -phase five -level actively clamped converters [J]. IEEE transactions on 
+transportation electrification , 2019 , 5(4): 1202 –1213 . DOI : 10.1109 /
+TTE.2019 .2950510
+[8] TAN G J , DENG Q W , LIU Z . An optimized SVPWM strategy for five -level ac ⁃
+tive NPC (5L-ANPC ) converter [J]. IEEE transactions on power electronics , 
+2013 , 29(1): 386–395. DOI : 10.1109 /TPEL .2013 .2248172
+[9] WANG K , XU L , ZHENG Z D , et al . Capacitor voltage balancing of a five -level 
+ANPC converter using phase -shifted PWM [J]. IEEE transactions on power elec ⁃
+tronics , 2015 , 30(3): 1147 –1156 . DOI : 10.1109 /TPEL .2014 .2320985
+[10] ZHANG P , WU X Z , HE S , et al . A second -order voltage ripple suppression 
+strategy of five -level flying capacitor rectifiers under unbalanced AC voltages 
+▲Figure 10. Dynamic characteristic test waveforms : (a) reference volt ⁃
+age value changing from 370 V to 400 V and (b) full load switching to 
+half load(a)
+(b)
+▲Figure 11. Experimental waveform under a direct current (DC) input 
+caseio (5 A/div )Udc (100 V/div ) Un (100 V/div )
+Uo (100 V/div )
+Un (100 V/div ) Udc (100 V/div )
+io (2 A/div )
+Uo (100 V/div )
+Ui (50 V/div )
+Uo (50 V/div )Un (50 V/div )
+83

@@ -1,0 +1,97 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3YU Junpeng , CHEN Yiyu Special Topic   A Practical Reinforcement Learning Framework for Automatic Radar Detection
+model πθ′ in an actual radar scenario and performing rein ‐
+forcement learning iterations online . To facilitate a smooth 
+transition from offline data to online scenarios for the decision 
+model , we incorporate a meta -reinforcement learning algo ‐
+rithm to enhance the model ’s generalization . Given that radar 
+detection requires precise environmental cognition , the intro ‐
+duced inference -based meta -reinforcement learning algorithm 
+includes a task feature inference module and an auxiliary 
+training target . This new meta -reinforcement learning network 
+structure is also utilized in the offline pre -training phase , 
+which indicates the combination of offline reinforcement learn ‐
+ing and meta -reinforcement learning .
+3.3 Reinforcement Learning Method
+Network design : Our design integrates a fundamental RL algo ‐
+rithm and a variational autoencoder (VAE )[50] to encode different 
+task scenarios automatically . These encoded features are subse ‐
+quently inputted into the intelligent agent[39]. The VAE model 
+consists of an encoder qϕ(st,at-1,rt,ht-1)→zt and two decod ‐
+ers pR
+ψ(zt,si,ai,si+1)→ri+1, pT
+ψ(zt,si,ai)→si+1. This model le ‐
+verages the reconstruction constraints of rewards and states , 
+along with constrained dimension to compress the original in ‐
+puts ot={st,at-1,rt} into low -dimensional representation zt effi‐
+ciently . The posterior distribution of a task can be interpreted as 
+a representation of specific task characteristics , such as meteoro ‐
+logical features , ship -type tendencies and radar models . The de ‐
+coder takes a posterior distribution of tasks and some prior 
+knowledge as input to predict the subsequent state . The context 
+encoder qϕ is required to encode an indefinite length historical 
+sequence . Therefore , a recurrent neural network (RNN ) model is 
+employed for approximation , and other models can be approxi ‐
+mated using a multi -layer perceptron (MLP ). The VAE model 
+outputs a low -dimensional representation of tasks zt to policy 
+model πθ(st, zt)→at. The complete network structure is shown 
+in Fig . 4.
+Offline reinforcement learning : Although a variety of offline 
+reinforcement learning algorithms are available , we have opted 
+for the behavioral cloning (BC) objective due to its ease of use 
+and scalability . In practice , our policy model takes all historical 
+trajectories as input . Let’s denote the previously collected data ‐set as D={(oi,ai)}, where the equivalent new state is the his ‐
+torical trajectory oi={si,ai-1,ri}, si=(s1
+i,s2
+i,s3
+i). Thus , the of ‐
+fline training objective is :
+J1=-E()s,aDist(πθ(oi),ai), (2)
+where E()s,a is the expectation , Dist(∙) is the distance calcula ‐
+tion function , which can be set as a 0–1 function for dis ‐
+crete variables . Behavioral cloning targets enable the policy 
+model’s decision actions , πθ(oi), to be closer to expert ac ‐
+tions , thereby allowing the parameters θ to learn a certain 
+level of strategic knowledge .
+Meta -reinforcement learning : We employ reconstruction and 
+the information bottleneck objective to constrain feature informa ‐
+tion. The forms of reward and state reconstruction objective func ‐
+tions are :
+J2=-EriDist(pR
+ψ(qϕ(si,ai-1,ri,hi-1),si,ai,si+1),ri),
+J3=-EsiDist(pT
+ψ(qϕ(si,ai-1,ri,hi-1),si,ai),si) . (3)
+Dist(∙) can be set as the L 2 distance function for continuous 
+variables such as the state and reward . The desired feature of 
+the target , zi=qϕ(si,ai-1,ri,hi-1), retains the original input in ‐
+formation .
+Moreover , the reconstruction objective involves the simultane ‐
+ous optimization of two models , which may result in gradient de ‐
+scent optimization not achieving the expected results . To expe ‐
+dite training , we additionally introduce the information bottle ‐
+neck method optimization objective[36], which is in the form of :
+J4=-EiDKL(qϕ(si,ai-1,ri,hi-1), r(z)), (4)
+where r(z) is the normal distribution .
+During the offline pre -training stage , the overall optimization 
+objective is J1+J2+J3+J4 as the VAE is also trained . In the 
+online training phase , the offline reinforcement learning objec ‐
+tive is replaced by the traditional reinforcement learning objec ‐
+tive JRL, and the overall optimization objective is JRL+J2+
+J3+J4. Note that due to the existing initialization parameters , 
+we need to reduce the learning rate by an order of magnitude 
+during online tuning .
+4 Experiment
+Experimental tasks : Despite the universality of our con ‐
+structed method , we require explicit task scenarios and objec ‐
+tives for the experiment . Our primary experimental scenario 
+involves enhancing the average signal -to-noise ratio (SNR) of 
+radar detection targets by manipulating the radar ’s frequency 
+points . Given the radar ’s relatively short rotation time (either ▲Figure 4. Network structure of the agentqϕ πθ
+pT
+ψpR
+ψDecoder
+DecoderEncoderatstat-1rtsiaisi+1
+rtri+1
+zt
+aisisi+1stht-1
+26

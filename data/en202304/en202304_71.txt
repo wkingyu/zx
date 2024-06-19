@@ -1,0 +1,101 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research Papers   Research on Fall Detection System Based on Commercial Wi -Fi Devices
+Annual International Conference on Mobile Computing and Networking . ACM , 
+2019 . DOI : 10.1145 /3300061 .3345437
+[14] ZENG Y Z , PATHAK P H , MOHAPATRA P . WiWho : WiFi -based person 
+identification in smart spaces [C]//The 15th ACM/IEEE International Confer ⁃
+ence on Information Processing in Sensor Networks (IPSN ). IEEE , 2016 : 1–
+12. DOI : 10.1109 /IPSN .2016 .7460727
+[15] LI X , ZHANG D Q , LV Q , et al . IndoTrack : Device -free indoor human track ⁃
+ing with commodity Wi -Fi [J]. Proceedings of the ACM on interactive , mobile , 
+wearable and ubiquitous technologies , 2017 , 1(3): 1–22. DOI : 10.1145 /
+3130940
+[16] XIE Y X , XIONG J , LI M , et al . mD -track : Leveraging multi -dimensionality for 
+passive indoor Wi -Fi tracking [C]//The 25th Annual International Conference 
+on Mobile Computing and Networking . ACM , 2019 : 1–16. DOI : 10.1145 /
+3300061 .3300133
+[17] WANG Y X , WU K S , NI L M . WiFall : Device -free fall detection by wireless 
+networks [J]. IEEE transactions on mobile computing , 2017 , 16(2): 581–594. 
+DOI: 10.1109 /TMC .2016 .2557792
+[18] WANG H , ZHANG D Q , WANG Y S , et al . RT -fall: A real -time and contact ⁃
+less fall detection system with commodity WiFi devices [J]. IEEE transactions 
+on mobile computing , 2017 , 16(2): 511 –526. DOI : 10.1109 /
+TMC .2016 .2557795
+[19] ZHANG D Q , WANG H , WANG Y S , et al . Anti -fall: a non -intrusive and 
+real -time fall detector leveraging CSI from commodity WiFi devices [C]//Inter ⁃
+national Conference on Smart Homes and Health Telematics . Springer , 2015 : 
+181–193.10.1007 /978 -3-319 -19312 -0_15
+[20] WANG Y C , YANG S , LI F , et al . FallViewer : A fine -grained indoor fall detec ⁃
+tion system with ubiquitous Wi -Fi devices [J]. IEEE Internet of Things journal , 
+2021 , 8(15): 12455 –12466 . DOI : 10.1109 /JIOT .2021 .3063531
+[21] PALIPANA S , ROJAS D , AGRAWAL P , et al . FallDeFi : ubiquitous fall detec ⁃
+tion using commodity Wi -Fi devices [J]. Proceedings of the ACM on interac ⁃
+tive, mobile , wearable and ubiquitous technologies . ACM , 2019 . DOI : 10.1145 /
+3161183
+[22] ZHANG L , WANG Z R , YANG L . Commercial Wi -Fi based fall detection with 
+environment influence mitigation [C]//The 16th Annual IEEE International 
+Conference on Sensing , Communication , and Networking (SECON ). IEEE , 
+2019 : 1–9. DOI : 10.1109 /SAHCN .2019 .8824989
+[23] NAKAMURA T , BOUAZIZI M , YAMAMOTO K , et al . Wi -Fi-CSI -based fall de ⁃
+tection by spectrogram analysis with CNN [C]//IEEE Global Communications 
+Conference . IEEE , 2021 : 1–6. DOI : 10.1109 /GLOBECOM 42002 .2020 .9322323
+[24] YANG Z , ZHOU Z M , LIU Y H . From RSSI to CSI : indoor localization via 
+channel response [J]. ACM computing surveys , 46(2): 1–32. DOI : 10.1145 /
+2543581 .2543592
+[25] XIAO Y . IEEE 802.11n: Enhancements for higher throughput in wireless 
+LANs [J]. IEEE wireless communications , 2005 , 12(6): 82–91. DOI : 10.1109 /
+MWC .2005 .1561948
+[26] QIAN K , WU C S , ZHOU Z M , et al . Inferring motion direction using commod ⁃
+ity Wi -Fi for interactive exergames [C]//The 2017  CHI Conference on Human 
+Factors in Computing Systems . ACM , 2017 : 1961 –1972 . DOI : 10.1145 /
+3025453 .3025678
+[27] GRIFFIN D , LIM J . Signal estimation from modified short -time Fourier trans ⁃
+form [J]. IEEE transactions on acoustics , speech , and signal processing , 1984 , 
+32(2): 236–243. DOI : 10.1109 /TASSP .1984 .1164317
+[28] WANG W , LIU A X , SHAHZAD M , et al . Understanding and modeling of 
+WiFi signal based human activity recognition [C]//The 21st Annual Interna ⁃
+tional Conference on Mobile Computing and Networking . ACM , 2015 : 65–76. DOI: 10.1145 /2789168 .2790093
+[29] SHENSA M J . The discrete wavelet transform : wedding the Atrous and Mallat 
+algorithms [J]. IEEE transactions on signal processing , 1992 , 40(10): 2464 –
+2482 . DOI : 10.1109 /78.157290
+[30] NOBRE J , NEVES R F . Combining principal component analysis , discrete 
+wavelet transform and XGBoost to trade in the financial markets [J]. Expert 
+systems with applications , 2019 , 125: 181 –194. DOI : 10.1016 /j.
+eswa .2019 .01.083
+[31] KRIZHEVSKY A , SUTSKEVER I , HINTON G E . ImageNet classification 
+with deep convolutional neural networks [J]. Communications of the ACM , 
+2017 , 60(6): 84–90. DOI : 10.1145 /3065386
+[32] SHIN H C , ROTH H R , GAO M C , et al . Deep convolutional neural networks 
+for computer -aided detection : CNN architectures , dataset characteristics and 
+transfer learning [J]. IEEE transactions on medical imaging , 2016 , 35(5): 
+1285 –1298 . DOI : 10.1109 /TMI .2016 .2528162
+Biographies
+GONG Panyin received his bachelor ’s degree in software engineering from 
+Huazhong University of Science and Technology , China in 2018  and is currently 
+studying for a master ’s degree in the School of Software , Tsinghua University , 
+China . His research interests include the Internet of Things and wireless sensing .
+ZHANG Guidong received his BE degree from the Department of Electronic 
+Engineering and Information Science , University of Science and Technology of 
+China in 2018 . He is currently working toward his PhD degree with the School 
+of Software , Tsinghua University . His research interests include wireless sens ⁃
+ing and mobile computing .
+ZHANG Zhigang graduated from Xi ’an Jiaotong University , China . Currently , 
+he is the planning director of the cable FM product team of ZTE Corporation . 
+With more than 10 years of experience in research and planning of telecommu ⁃
+nication products , he has accumulated and practiced for many years in home 
+networks , smart homes , IP protocols , etc. He has participated in translating and 
+publishing the textbook , Principles of Compilation , applied for three patents , 
+and made several special speeches in technical forums .
+CHEN Xiao graduated from Nanjing University of Aeronautics and Astronau ⁃
+tics, China . He is currently the director of the Wireline Architecture Depart ⁃
+ment of ZTE Corporation . He has more than 20 years of experience in research 
+and planning of telecommunication products and related technologies . He has 
+organized many national science and technology projects , and published many 
+papers in various publications . He is the leading inventor of many patents .
+DING Xuan (dingx 04@gmail .com) received his bachelor ’s degree from the 
+School of Software , Tsinghua University , China in 2008 , and PhD degree from 
+the Department of Computer Science and Technology , Tsinghua University in 
+2014 . He is currently a research assistant professor in the School of Software , 
+Tsinghua University . His research interests include privacy -preserving comput ⁃
+ing, blockchain , RFID and wireless sensing .
+68

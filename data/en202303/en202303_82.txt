@@ -1,0 +1,122 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Research Papers   Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System
+lated channel model to describe the potential correlations of 
+each channel prediction error in the past slots and express the 
+error model for the k-th piece of UE in the DL time slots of the 
+i-th half -frame period ,
+H͂
+i,k=Er(Ω⊙Hi.i.d.)EtH . (3)
+The statistical information Er, Et and Ω are gathered from 
+practical error samples for the UE , where Er and Et are deter ‐
+ministic unitary matrices that reveal the correlation of the 
+transmit and receive antennas respectively , while each ele ‐
+ment of Ω is the square root of the element of the eigenmode 
+channel coupling matrix . Hi.i.d. is a random matrix with zero 
+mean and unit variance entries , following i .i.d. For illustration 
+purposes , we depict the error model with the time slot struc ‐
+ture in Fig . 3.
+For simplicity , we use Hk as a substitute for HDt
+i,k in the fol ‐
+lowing part to denote the CSI matrix for the k-th UE consider ‐
+ing the beamforming design for only one typical DL transmis ‐
+sion time slot . Based on the analysis mentioned above , the 
+channel matrix for UE can be divided into two parts : the de ‐
+termined prediction channel matrix Ĥ
+k and the random error 
+matrix H͂
+k.
+2.3 Problem Formulation
+Denote the linear precoding matrix for the k-th piece of UE 
+as Vk∈CNt×1. The receive signal of the k-th piece of UE yk at 
+this DL time slot is
+yk=HkVksk+∑
+m=1, m≠kK
+HkVmsm+nk , (4)
+where the transmit signal to the k-th piece of UE sk is indepen ‐
+dent random variables with zero mean and unit variance ; nk 
+represents the additive white Gaussian noise with the distribu ‐
+tion CN(0, σ2INr). Then , the achievable data rate for UE at a 
+DL time slot can be expressed as
+Rk=Eì
+í
+îïï
+ïïïïlogdet(I+HkVkVkHHkH(σ2I+
+∑
+m=1, m≠kK
+HkVmVmHHkH)-1
+)ü
+ý
+þïïïï
+ïïïï . (5)
+To simplify the objective , we treat the aggregate 
+interference -plus -noise as the Gaussian noise for UE and de ‐
+note its covariance matrix as
+Qk=σ2I+Eì
+í
+î∑
+m=1, m≠kK
+HkVmVmHHkHü
+ý
+þ . (6)
+Then the achievable rate for UE at a DL time slot can be re ‐written as
+Rk=E{logdet(I+HkVkVH
+kHH
+kQ-1
+k)} . (7)
+Furthermore , the achievable weighted sum rate of the sys ‐
+tem can be expressed as
+R=τ
+Nslot∑
+k=1K
+αkRk . (8)
+Aiming at optimizing the beamforming matrix to maximize 
+the expected weighted sum rate at a typical DL slot , we can ex ‐
+press the optimization problem as
+max
+{}Vk∑
+k=1K
+αkRk,
+s.t.  ∑
+k=1K
+tr()VkVH
+k≤P , (9)
+where {αk} is the weighting coefficient to ensure fairness 
+among the UE and P denotes the power budget of the BS . 
+Based on the channel model where prediction errors are 
+taken into consideration , we investigate the optimal robust 
+beamforming design for the proposed problem in the next 
+section .
+3 Proposed Robust Beamforming Design
+Due to the randomness introduced by the channel predic ‐
+tion error , it is difficult to obtain the close -form expressions of 
+the objective . To deal with the randomness , a robust beam ‐
+forming design is proposed by considering deterministic 
+equivalents . The NP -hard Problem (9) can be resolved by ex ‐
+ploiting the relationship between the rate and the mean -
+square error (MSE ) matrix , inspired by Ref . [5]. Denote the es ‐
+timated signal at the receiver as ŝk=UH
+kyk, where Uk denotes 
+the receive beamformer of the k-th piece of UE . Assuming that 
+signal sk and noise nk are independent , the MSE matrix can be 
+written as
+MSEk=Es,n{(ŝk-sk)(ŝk-sk)H}=
+(I-UH
+kHkVk)(I-UH
+kHkVk)H+∑
+m≠kK
+UH
+kHkVmVH
+mHH
+kUk+σ2UH
+kUk.(10)
+Fixing all of the transmitting beamforming matrices and 
+adopting the well -known MMSE receiver , we can rewrite the 
+MSE matrix as
+Ek=MSEk(Ummse
+k)=
+I-VkHHkH(Qk+HkVkVkHHkH)-1HkVk . (11)
+Note that Rk=E{logdet(E-1
+k) } can be expressed as a con ‐
+vex function of Ek. Using the first -order condition of the con ‐
+vex function , we can obtain
+80

@@ -1,0 +1,55 @@
+connected to customer premises equipment 
+(CPE). Leveraging world-leading 5G-A commercial 
+terminals, the CPE supports ultra-large bandwidth 
+transmission modes, meeting the transmission 
+requirements of nearly 1.1 Gbps for UHD shallow 
+compression video uplink. Additionally, 5G-A 
+also provides downlink channels for real-time 
+demonstrations of low-latency virtual co-hosting 
+videos.
+As the core equipment for the demonstration, 
+the 5G-A CampSite, a minimalist and mobile 
+coverage solution jointly launched by China 
+Telecom and ZTE, comprises a small cart, an 
+equipment cabinet, and the radio frequency 
+(RF) part. It serves to establish network coverage 
+for temporary needs. The showcased live video 
+transmission and processing, a common business 
+application, jointly demonstrated by CMG and 
+China Telecom, caters to real-time, mobile, 
+high-bandwidth, and low-latency scenarios 
+in new media. The demonstration utilizes a 
+millimeter-wave solution with an 800 MHz 
+bandwidth for RF. The CMG booth, equipped with 
+the A9825 macro base station, achieves an uplink 
+measurement exceeding 2 Gbps and a network 
+RTT latency of less than 4 ms, showcasing superb performance. 
+In the China Telecom booth, the MiCell 
+indoor distributed RF unit demonstrates 
+/f_lexible capabilities of RF equipment in diverse 
+scenarios. Utilizing industry-leading distributed 
+architecture and intermediate frequency 
+pooling technology, MiCell is compact, 
+lightweight, and versatile for deployment on 
+poles, walls, and ceilings. Supporting both 
+horizontal and vertical installation, it caters 
+to various indoor scenarios. Moreover, MiCell 
+employs multi-array antenna technology, 
+allowing /f_lexible beam coverage through 
+software con/f_iguration, enhancing coverage 
+capabilities.
+The 5G-A CampSite at the Hangzhou 
+International Expo Center signi/f_icantly highlights 
+5G-A network capabilities in advancing new 
+media technology. It showcases robust network 
+capabilities and reliable 5G-A application 
+solutions, delivering an excellent UHD experience. 
+ZTE, in collaboration with China Telecom and 
+CMG, will further promote the development of 
+video services using 5G-A technologies, oﬀering 
+enhanced business experiences to audiences in 
+the future.  
+Millimeter-wave macro RF unitMillimeter-wave macro RF unit
+Millimeter-wave MiCell RF unit Millimeter-wave MiCell RF unit
+Virtual co-hosting video service demo
+ 41 FEB 2024

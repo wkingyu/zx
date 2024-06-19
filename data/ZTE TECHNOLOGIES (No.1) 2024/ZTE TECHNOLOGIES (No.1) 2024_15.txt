@@ -1,0 +1,93 @@
+programmable logic controllers (PLC) and 
+other production-line-level applications, 
+supporting the deep integration of 5G 
+into core industrial production processes. 
+Currently, the deterministic capability of 5G 
+has been veri/f_ied in various scenarios, such 
+as steelmaking, manufacturing, empowering 
+the transformation and upgrading of 
+intelligent production.
+Integrated Sensing and 
+Communication: Paving the Way for 
+New business Opportunities
+5G-Advanced breaks communication 
+boundaries, enhancing sensing capabilities 
+with a single station sensing range 
+exceeding 1 km and sensing accuracy 
+reaching sub-meter level. Based on the 
+integrated capabilities of communication, 
+sensing, and computing power, 
+5G-Advanced empowers new digital 
+social economies, such as vehicle-road 
+coordination and low-altitude services. 
+ZTE continues to lead in communication 
+and sensing integration trials and exploration 
+in various scenarios. It has achieved 
+several industry /f_irsts: the /f_irst to achieve 
+communication and sensing integration of a 
+single AAU, and the /f_irst integrated sensing 
+and communication (ISAC ) networking test, 
+veri/f_ing the sensing capability from single-site 
+to multi-site networking. In the V2X scenario, 
+ZTE completed the industry's /f_irst 5G-based 
+communication-sensing-computing-in-one 
+V2X architecture trial in Zhuhai. This trial 
+successfully enabled real-time warnings 
+for blind spots through the entire Uu 
+interface. Moreover, it created the industry’s 
+/f_irst 5G ultra-stable network in Suzhou, 
+supporting the construction of a 5G 
+vehicle-road-cloud integrated autonomous 
+driving technology experience route. In 
+the low-altitude scenario, ZTE completed 
+the industry's /f_irst trial of a "5G based 
+communication-sensing-computing-control 
+integration" low-altitude unmanned aerial vehicle route in Shenzhen. It also realized the 
+application trial of low-altitude unmanned 
+aerial vehicle management based on the 
+communication and sensing integrated AAU 
+in the Hangzhou Asian Games Village.
+Ubiquitous Connectivity: 
+Converging Satellite and Terrestrial 
+Networks for True Connectivity 
+Everywhere
+Ubiquitous connectivity, a key goal 
+of 5G-Advanced, is realized through 
+non-terrestrial network (NTN), an innovative 
+satellite communication technology. By 
+leveraging satellite coverage, NTN integrates 
+with mobile communication standards 
+for connectivity across air, space, sea, and 
+land. This allows smartphones and IoT 
+devices to directly connect to satellites, 
+supporting applications such as emergency 
+communication and wide-area IoT, and 
+ushering in the era of “consumer-grade” 
+satellite communication. 
+ZTE, in collaboration with industry 
+partners, has conducted successful technical 
+trials and commercial applications. These 
+include the /f_irst domestic /f_ield trial of 5G 
+NTN mobile phones connecting directly to 
+satellites, the /f_irst domestic laboratory trial 
+of NR-NTN low-orbit satellite broadband 
+services, and the /f_irst 5G NTN test in marine 
+areas. Real-time service trials in marine 
+and uninhabited island scenarios, covering 
+aspects like water quality monitoring, 
+temperature and humidity monitoring, and 
+emergency rescue, have been completed. 
+These achievements have laid a solid 
+foundation for the commercialization of 
+5G NTN.
+Universal Intelligence: Comprehensive 
+Smart Solutions Enhancing Quality, 
+Eﬃciency, and Innovation Integration
+Universal intelligence has become a 
+vital core capability in the new stage of 
+ 
+ 
+ 
+ 
+ FEB 2024
+13 

@@ -1,0 +1,109 @@
+multi-agent collaboration.
+Retrieval-Augmented Generation  
+To accomplish more complex and 
+knowledge-intensive tasks, it is necessary to build a 
+more accurate and reliable system and alleviate the 
+hallucination issue of AI models. RAG stands out as a 
+key technology for AI models. It helps large language 
+models generate answers by retrieving information 
+from data sources. The RAG technology can greatly 
+enhance the accuracy and relevance of content, 
+eﬀectively addressing hallucination issues, 
+accelerating knowledge updates, and improving the 
+traceability of content generation. RAG has become 
+the most popular system architecture for AI models 
+to obtain new external knowledge.
+Multi-Agent Collaboration Architecture
+Multi-agent collaboration refers to the process in 
+which multiple agents communicate and collaborate 
+with each other in a shared environment to achieve 
+common goals. Each agent possesses a level of 
+autonomy and intelligence, enabling perception, 
+decision-making, and execution based on 
+environment information. Through mutual 
+interaction and cooperation, the system can bene/f_it 
+from the advantages and strengths of each agent to 
+achieve more eﬃcient and intelligent 
+decision-making and action. Leveraging the 
+multi-agent collaboration architecture, independent 
+agents, such as knowledge experts, fault experts, 
+ 
+ 
+ 
+ 
+Fig. 1. ZTE CCN AI 
+O&M model 
+architecture. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+on-duty experts, and solution experts, can be 
+collaboratively created to build an intelligent network 
+O&M system architecture.
+Challenges and Future Development of AI 
+Models in Intelligent O&M
+Although AI models have promising application 
+prospects and advantages in the intelligent O&M 
+/f_ield, challenges still exist, including improving the 
+model’s adaptation capability, reducing complexity, 
+and addressing data privacy and security issues.
+In the future, with the continuous development of 
+technologies and application scenarios, AI models 
+will be widely and deeply applied in the intelligent 
+O&M /f_ield. For instance, with the proliferation and 
+advancement of edge computing, AI models will 
+gradually migrate to the edge to achieve more 
+eﬃcient and real-time intelligent O&M. At the same 
+time, AI models will be closely integrated with 
+machine learning, deep learning, and other 
+technologies to further enhance the eﬃciency and 
+precision of intelligent operation and maintenance. 
+AI models will encounter both challenges and 
+opportunities in handling more extensive data. 
+Therefore, we need to continually explore, innovate, 
+and apply practices tailored to speci/f_ic scenarios and 
+requirements. Additionally, further strengthening 
+research and development in related technologies is 
+necessary to promote the advancement and progress 
+of intelligent O&M technologies.
+TCF intelligent computing platformOTAF O&M platform
+L0 universal AI model (Baichuan AI, LLAMA2, ChatGLM, ZTE GPT…)L1 telecom AI model (ZTE Telecom AI model)L2 CCN AI  O&M model (Fine tuning)New components Legend Enhanced componentsO&M 
+products
+Training 
+productsCNIA
+EMS+Original services Enhanced services of CCN AI O&M model
+CPU resource pool GPU resource poolCCN AI O&M modelCCN AI O&M model plug-inCCN AI model inference services
+Platform baseOther AIOps 
+capabilitiesCoPilot-I
+Intelligent helpInterface wakeup
+Interactive queryCoPilot-A
+Troubleshooting 
+assistance
+Optimization 
+assistance
+Inspection doctorCoPilot-G
+Inspection/
+on-duty report
+Self-de/f_inition 
+report
+Key operation solution
+Inference framework Model management
+Model repository Inference monitoring Inference platform: AIE platformVector knowledge base AI PaaS
+Intelligent query
+Intelligent analysis Solution generation ReportIntelligent help O&M framework: Copilot 
+LangChain
+ 
+EMS
+CloudStudio
+CIIA
+Intelligent Computing Special Topic
+30

@@ -1,0 +1,81 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHANG Bo , WANG Yihui , FENG Yinian , YANG Yonghui , PENG Lin A 220 GHz Frequency -Division Multiplexing Wireless Link with High Data Rate    Research Papers
+sign, the 220 GHz frequency -division full duplexer communi ‐
+cation system is proposed , which realizes real -time high -speed 
+communication with a transmission distance greater than 15 m, 
+and uplink and downlink transmission rates of 10.4 Gbit/s , re‐
+spectively . The measured BER is lower than 10−7. Furthermore , 
+the HD 4K video can be transmitted in real time . This work re ‐
+alizes a high -rate and long -range THz communication system 
+that has broad application prospects in wireless communica ‐
+tion. This paper builds a 220 GHz frequency -division multiplex ‐
+ing communication system , which adopts non -coherent demodu ‐
+lation to achieve a transmission distance of 15 m, an uplink and 
+downlink transmission rate of 10.4 Gbit/s each , and a BER 
+lower than 10−7.
+References
+[1] Cisco Company . Global mobile data traffic forecast update : white paper [R]. 
+Cisco visual networking index : forecast and trends , 2017
+[2] KUKUTSU N , HIRATA A , KOSUGI T , et al . 10 Gbit/s wireless transmission 
+systems using 120 GHz band photodiode and MMIC technologies [C]//Com ‐
+pound semiconductor integrated circuit symposium . IEEE , 2009 : 1–4
+[3] HAMADA H , TSUTSUMI T , MATSUZAKI H , et al . 300 GHz band 120 Gbit/s 
+wireless front -end based on InP -HEMT PAs and mixers [J]. IEEE journal of 
+solid -state circuits , 2020 : 2316–2335
+[4] KOENIG S , LOPEZ -DIAZ D , ANTES J , et al . Wireless sub -THz communication 
+system with high data rate [J]. Nature photonics , 2013 , 7(12):977–981
+[5] SARMAH N , GRZYB J , STATNIKOV K , et al . A fully integrated 240 -GHz 
+direct -conversion quadrature transmitter and receiver chipset in SiGe technol ‐
+ogy [J]. IEEE transactions on microwave theory and techniques , 2016 , 64(2): 
+562–574
+[6] RODRÍGUEZ -VÁZQUEZ P , GRZYB J , HEINEMANN B , et al . A QPSK 110 -
+Gb/s polarization -diversity MIMO wireless link with a 220–255 GHz tunable 
+LO in a SiGe HBT technology [J]. IEEE transactions on microwave theory and 
+techniques , 2020 , 68(9): 3834–3851
+[7] CHEN Z . Solid -state terahertz high -speed wireless communication technology 
+[D]. University of Electronic Science and Technology , 2017
+[8] LIU J , WU Q Y , WANG Y , et al . A 27 km over sea surface , 500Mbps , real time 
+wireless communication system at 0.14 THz [C]//The 46th International Confer ‐
+ence on Infrared , Millimeter and Terahertz Waves (IRMMW -THz), 2021 :1–2
+[9] YU M X , LI G P . Microwave solid -state circuits [M]. Chengdu , China : Univer ‐
+sity of Electronic Science and Technology Press , 2008
+[10] NIU Z Q , ZHANG B , ZHOU Z , et al . Terahertz full duplex high -speed commu ‐
+nication system [J]. Radio communication technology , 2019 , 45(6):643–647
+[11] ISMAIL M A , WANG Y , YU M . Advanced design and optimization of large scale microwave devices [C]//Microwave Symposium Digest (MTT ). IEEE , 2012
+[12] FENG Y N , ZHANG B , et al . A 20.8 Gbps dual -carrier wireless communica ‐
+tion link in 220 GHz band [J]. China communications , 2021 , 18(05):210–220
+[13] CHEN J , KUYLENSTIERNA D , GUNNARSSON S E , et al . Influence of white 
+lo noise on wideband communication [J]. IEEE transactions on microwave 
+theory and techniques , 2018 , 66(7):1–11
+Biographies
+ZHANG Bo (bozhang@uestc .edu.cn) received his BE , MS, and PhD degrees in 
+electromagnetic field and microwave technology from the University of Electron ‐
+ic Science and Technology of China (UESTC ) in 2004 , 2007 , and 2011 , respec ‐
+tively . He has been a senior member of IEEE in 2015 . He is currently a profes ‐
+sor with School of Electronic Science and Engineering , UESTC and Yangtze 
+Delta Region Institute (Huzhou ), UESTC . His research interests are terahertz 
+solid state technology and system .
+WANG Yihui received her BE degree in electronic engineering from Universi ‐
+ty of Electronic Science and Technology of China (UESTC ) in 2017 , and is cur ‐
+rently working toward her MS degree in terahertz solid -state circuit technology 
+in UESTC , focusing on microwave , terahertz solid -state circuits , and terahertz 
+communication .
+FENG Yinian received his BS degree in electronic engineering from Universi ‐
+ty of Electronic Science and Technology of China (UESTC ) in 2016 , where he is 
+currently pursuing his PhD degree in terahertz solid -state circuit technology . 
+His research interests include microwave , terahertz solid -state circuits , and 
+terahertz communication .
+YANG Yonghui received his BS degree in information countermeasure tech ‐
+niques and MS degree in electronic information engineering from Xidian Uni ‐
+versity , China in 2006  and 2010 , respectively . Since 2010 , he has been with 
+ZTE Corporation , where he focuses on wireless communications . His current re ‐
+search interests include 5G and 6G technology , millimeter -wave and terahertz 
+communication .
+PENG Lin received his BS degree in information engineering and MS degree 
+in electromagnetic field and microwave techniques from Nanjing University of 
+Science and Technology , China in 2004  and 2006 , respectively . Since 2006 , he 
+has been with ZTE Corporation , where he focuses on the research of wireless 
+communications . His current research interests include beyond -5G and 6G 
+technology , millimeter -wave and terahertz communications and intelligent re ‐
+flecting surface for wireless applications .
+69

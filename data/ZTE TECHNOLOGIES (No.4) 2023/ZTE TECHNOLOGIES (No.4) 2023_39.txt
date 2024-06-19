@@ -1,0 +1,70 @@
+chose to keep existing set-top boxes (STBs) 
+from four diﬀerent vendors. ZTE designed 
+diﬀerent migration solutions based on the 
+performance and brands of STBs. To reduce 
+the extra BOSS interconnection workload for 
+the operator during video platform 
+migration, ZTE developed custom migration 
+tools to synchronize and migrate user data, 
+content data, and call detail record (CDR) 
+data between the old and new platforms. 
+ZTE also implemented customized rollback 
+and backup redundancy mechanism to 
+maximize data security and guarantee 
+customer experience. With the help of these 
+migration tools, all the subscribers were 
+successfully migrated to ZTE’s new platform. 
+Conclusion 
+In November 2022, ZTE’s video platform 
+passed the pre-acceptance test (PAC) by Türk 
+Telekom. The two parties celebrated this 
+success together and con/f_irmed video 
+services as a key strategic service for further 
+development. 
+With the successful commercial 
+deployment of TV services, ZTE will support 
+Türk Telekom in the re/f_ined operation of 
+content services. By deploying a new video 
+platform, ZTE will collaborate with Türk 
+Telekom to explore innovative services such 
+as smart venue and VR. Moreover, ZTE will 
+help Türk Telekom further implement 
+wholesale and B2B CDN solutions, enabling 
+them to explore new business models in 
+more industries.the production platform. By employing 
+eﬃcient project management solutions, 
+ZTE aligned closely with Türk Telekom's 
+requirements. The sub-module teams 
+held meetings two or three times a week 
+with the customer’s technical leaders to 
+clarify requirements and provide progress 
+reports. This allowed for prompt detection 
+of any problems or missing information, 
+facilitating resources allocation for problem 
+solving. The project staﬀ in Turkey and 
+ZTE’s R&D headquarters arranged daily 
+meetings both respectively and jointly 
+to improve project transparency and 
+address any bottlenecks eﬃciently. ZTE 
+maintained comprehensive project archives 
+including meeting records, discussions and 
+technical documents to ensure traceability. 
+ZTE addressed Türk Telekom’s 
+requirements for CDN, client, service 
+platform, big data, and migration from 
+signing the project to its delivery by 
+providing suitable solutions. ZTE also 
+introduced services like big data analysis 
+and processing, marketing strategy 
+generation and release (including sales 
+promotion and discounts), and advertising 
+management, while actively embracing 
+Google ecosystem to enable ARPU uplift for 
+the operator. In terms of maintenance, ZTE 
+provided customized migration tools, 
+in-service software upgrades, CDN 
+management platforms, and content 
+multi-DRM encryption to facilitate smooth 
+O&M for the operator. 
+The migration was diﬃcult as the operator 
+37AUG 2023

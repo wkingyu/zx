@@ -1,0 +1,115 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LI Wei , GUO Wei , WANG Zhida Filter Design of Wireless Base Station Power Supply    Research Papers
+Icm=Us
+Rcm+Zs . (2)
+After the impedance Zinsert 1 is inserted , its equivalent model 
+is shown in Fig . 8.CM noise current Icm1 in Fig . 8 is:
+Icm1=Us⋅Zinsert1
+Rcm+Zinsert1
+Zs+Rcm⋅Zinsert1
+Rcm+Zinsert1 . (3)
+According to the definition of insertion loss , the insertion 
+loss can be obtained by combining Eqs . (2) and (3):
+IL1=20log|
+|||||Ucm1
+Ucm|
+|||||=20log|
+|||||Icm1⋅Rcm
+Icm⋅Rcm|
+|||||=
+20log|
+||
+||
+|||||
+||
+Zs+Rcm
+Zs+Rcm⋅Zinsert1
+Rcm+Zinsert1|
+||
+||
+|||||
+||
+ . (4)
+Similarly , the insertion loss with Zinsert 2 and Zinsert 3 is:
+IL2=20log|
+|||||Ucm2
+Ucm|
+|||||=20log|
+|||||Icm2⋅Rcm
+Icm⋅Rcm|
+|||||=
+20log|
+||
+||
+|||||
+||
+Zs+Rcm
+Zs+Rcm⋅Zinsert2
+Rcm+Zinsert2|
+||
+||
+|||||
+||
+ . (5)
+IL3=20log|
+|||||Ucm3
+Ucm|
+|||||=20log|
+|||||Icm3⋅Rcm
+Icm⋅Rcm|
+|||||=
+20log|
+||
+||
+|||||
+||
+Zs+Rcm
+Zs+Rcm⋅Zinsert3
+Rcm+Zinsert3|
+||
+||
+|||||
+||
+ . (6)
+It can be obtained from Eqs . (4) and (5):
+IL1-IL2=20log|
+||
+||
+|||||
+||Zs+Rcm⋅Zinsert2
+Rcm+Zinsert2
+Zs+Rcm⋅Zinsert1
+Rcm+Zinsert1|
+||
+||
+|||||
+||
+ . (7)
+▲Figure 5. Ideal common mode (CM) insertion loss (IL) simulation 
+schematic of original electromagnetic interference (EMI ) filter 
+▲Figure 6. Impact of ground impedance on filter insertion loss(a) CM IL curve of EMI filter considering ground impedance
+(b) Ideal CM IL curve of the original EMI filter
+CM: common mode     EMI : electromagnetic interference     IL : insertion loss
+▲Figure 7. Common mode (CM) noise transmission model
+▲Figure 8. A common mode (CM) noise transmission model with Zinsert 10.1 μF 1 000 pF 0.47 μF 0.1 μF1 000 pF
+50 Ω
+vin50 Ω
+Ground impedance
+1×1051×1061×1071×1081×104ILcm2/dB200
+150
+100
+50
+0
+f/Hz
+f/Hz1×1051×1061×1071×1081×104ILcm2/dB500
+400
+300
+200
+100
+0
+UcmRcmIcm
+Us
+ZsUcm1 RcmIcm1
+Us
+ZsZinsert 1
+97

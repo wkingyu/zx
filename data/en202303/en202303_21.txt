@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management    Special Topic
+inverter can be controlled . In Ref . [27], demand is regarded to 
+be constant . CityLearn[12] is a platform that satisfies residential 
+energy demands by controlling various shiftable components 
+inside buildings . This environment has been widely used 
+mainly to experiment with various reinforcement learning algo ‐
+rithms and their improvements , in comparison with reinforce ‐
+ment learning baselines and rule -based control . Besides , 
+GridLearn[5], as an extension of CityLearn , considers both the 
+grid -level and building -side objectives and introduces a more 
+realistic environment where hundreds of agents are involved , 
+and agents should control multiple components with corre ‐
+sponding resources to stabilize voltage in a power distribution 
+network after satisfying the residential energy demand . 
+IA2C[25] and IPPO[23] are used , which shows some effective ‐
+ness compared with the rule -based control method . In our pa ‐
+per, all experiments are conducted based on GridLearn . Apart 
+from the power system field , in game -like environments , works 
+have been proposed to better motivate the cooperation of 
+agents , such as MAA 2C and MAPPO[8], and they have shown 
+good performance in some multi -agent game -like environ ‐
+ments . Another approach to achieving agents ’ cooperation is 
+to learn communication among multiple agents[28–30]. How ‐
+ever, such approaches always lead to high communication 
+overhead because of the large amount of information transfer .
+2) Graph neural networks (GNNs ) have been applied suc ‐
+cessfully to solve prediction and classification tasks in many 
+real -world applications , including recommender systems , 
+chemistry and bioinformatics[21, 31–32]. However , GNN has not yet been fully explored 
+in MARL , mostly due to 
+the different nature of 
+the problem . Former 
+works in Refs . [33–35] 
+attempt to apply GNN to 
+extract better represen ‐
+tations from agents in 
+game -like environments 
+and Ref . [35] considers 
+the unique nature of 
+competitive games to ex ‐
+tract information hierar ‐
+chically . Their methods 
+show encouraging per ‐
+formance with a few 
+agents in games .
+However , it is not yet 
+clear whether MARL 
+with GNN can still 
+achieve competitive per ‐
+formance if applied to 
+fully cooperative tasks 
+with large -scale agents 
+in real -world applica ‐
+tions such as power systems . In the smart grid field , there are 
+few works related to GNN . In Refs . [36–37], mask mecha ‐
+nisms and graph convolutional networks are applied to regu ‐
+late voltage in single -agent reinforcement learning tasks .
+6 Conclusions and Future Work
+In this paper , we propose MAHGA , a novel multi -agent re ‐
+inforcement learning framework for grid -aware energy manage ‐
+ment . Specifically , we first resolve the problem with the CTDE 
+paradigm aiming to stimulate agents to learn cooperation strat ‐
+egy. Then , depending on modeling the distribution network to 
+two different kinds of topology , we propose a hierarchical at ‐
+tention architecture to better extract agents ’ correlations from 
+high -dimensional environment and capture the characteristics 
+of grid . In addition , graph contrastive learning is designed to 
+learn a more effective representation in the reinforcement 
+learning training phase . Extensive experiments on four large -
+scale real -world scenarios have demonstrated the effective ‐
+ness of MAHGA where voltage violations can be significantly 
+reduced compared with other baselines .
+In our future work , we will explore the generalization over 
+different climates and grid topologies , as well as the possibil ‐
+ity of adding more energy control components that buildings 
+can control , like electric vehicles .
+References
+[1] LIU H T , WU W C . Online multi -agent reinforcement learning for decentralized 
+HMAPPO : multi -agent proximal policy optimization applied with MAHGA
+HMAPPOC : HMAPPO without graph contrastive learning
+HMAPPOS : HMAPPO without hierarchical graph attention architectureHRR : hard reduction rate
+MAPPO : multi -agent proximal policy optimization
+SRR: soft reduction rate
+▲Figure 5. Ablation studies on four scenariosClimate zone 2AMAPPO HMAPPOS HMAPPOC HMAPPO
+Climate zone 2A Climate zone 3A Climate zone 3ASRR/%
+HRR/%
+HRR/%SRR/%
+Climate zone 4A Climate zone 4A Climate zone 5A Climate zone 5ASRR/%
+HRR/%
+SRR/%
+HRR/%
+19

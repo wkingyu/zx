@@ -1,0 +1,146 @@
+低开销智能反射面辅助无线通信研究综述 陈天贝  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6[5] FAN C , DIAO Z , LIU W . Research on 5G power consumption and 
+communication power supply scheme [J]. Communication world , 2019 , 26: 
+28-30
+[6] ZOU Y , WANG Q G , CHI Y , et al . Electric load profile of 5G base station in 
+distribution systems based on data flow analysis [J]. IEEE transactions on 
+smart grid , 2022 , 13(3): 2452 -2466 . DOI: 10.1109 /TSG .2022 .3150074
+[7] WANG C X , YOU X H , GAO X Q , et al . On the road to 6G: visions , 
+requirements , key technologies , and testbeds [J]. IEEE communications 
+surveys & tutorials , 2023 , 25(2): 905-974. DOI : 10.1109 /
+COMST .2023 .3249835
+[8] 孙善球 , 林学进 , 王昊, 等. “双碳战略 ”给移动通信天线产业带来的机遇和挑战  
+[J]. 移动通信 , 2022 , 46(3): 99-102
+[9] LIU R Q , WU Q Q , DI RENZO M , et al . A path to smart radio environments : 
+an industrial viewpoint on reconfigurable intelligent surfaces [J]. IEEE 
+wireless communications , 2022 , 29(1): 202-208. DOI : 10.1109 /
+MWC .111.2100258
+[10] WU Q Q , ZHANG R . Beamforming optimization for wireless network aided 
+by intelligent reflecting surface with discrete phase shifts [J]. IEEE 
+transactions on communications , 2020 , 68(3): 1838 -1851 . DOI : 10.1109 /
+TCOMM .2019 .2958916
+[11] AI Y , DEFIGUEIREDO F A P , KONG L , et al . Secure vehicular 
+communications through reconfigurable intelligent surfaces [J]. IEEE 
+transactions on vehicular technology , 2021 , 70(7): 7272 -7276 . DOI : 
+10.1109 /TVT.2021 .3088441
+[12] SRRC . NTT DoCoMo , Metawave test 5G mobile system in Tokyo [EB/OL ]. 
+(2018 -12-06)[2023 -10-15]. http://www .srrc.org.cn/en/news 4504 .aspx
+[13] ARUN V , BALAKRISHNAN H . RFocus : practical beamforming for small 
+devices [EB/OL ]. (2019 -05-13) [2023 -10-15]. https ://arxiv .org/abs/
+1905 .05130 .pdf
+[14] DAI L L , WANG B C , WANG M , et al . Reconfigurable intelligent surface-
+based wireless communications : antenna design , prototyping , and 
+experimental results [J]. IEEE access , 2020 , 8: 45913 -45923 . DOI : 
+10.1109 /ACCESS .2020 .2977772
+[15] 中国移动通信有限公司研究院 . 中国移动联合崔铁军院士团队完成 6G智能超
+表 面 技 术 试 验  [EB/OL ]. (2021 -07-21) [2023 -10-15]. https ://www .sohu .
+com/a/ 478712728 _121124379
+[16] C114通信网 . 中兴通讯联合中国电信完成业界首个 5G高频外场智能超表面
+技 术 验 证 测 试  [EB/OL ]. (2021 -07-08) [2023 -10-15]. http ://www .c114.
+com.cn/news/ 127/a1167281 .html
+[17] 崔铁军 , 金石, 章嘉懿 , 等. 智能超表面技术研究报告  [R]. 2021
+[18] ZAPPONE A , DI RENZO M , SHAMS F , et al . Overhead-aware design of 
+reconfigurable intelligent surfaces in smart radio environments [J]. IEEE 
+transactions on wireless communications , 2021 , 20(1): 126-141. DOI : 
+10.1109 /TWC .2020 .3023578
+[19] WEI X H , SHEN D C , DAI L L . Channel estimation for RIS assisted 
+wireless communications —part I : fundamentals , solutions , and future 
+opportunities [J]. IEEE communications letters , 2021 , 25(5): 1398 -1402 . 
+DOI: 10.1109 /LCOMM .2021 .3052822
+[20] WU Q Q , ZHANG S W , ZHENG B X , et al . Intelligent reflecting surface-
+aided wireless communications : a tutorial [J]. IEEE transactions on 
+communications , 2021 , 69(5): 3313 -3351 . DOI : 10.1109 /
+TCOMM .2021 .3051897
+[21] MA Q , BAI G D , JING H B , et al . Smart metasurface with self-adaptively 
+reprogrammable functions [J]. Light : science & applications , 2019 , 8(1): 1-
+12. DOI: 10.1038 /s41377 -019-0205 -3
+[22] JIA S Q , YUAN X J , LIANG Y C . Reconfigurable intelligent surfaces for 
+energy efficiency in D 2D communication network [J]. IEEE wireless 
+communications letters , 2021 , 10(3): 683-687. DOI : 10.1109 /
+LWC .2020 .3046358
+[23] ZHENG B X , ZHANG R . Intelligent reflecting surface-enhanced OFDM : 
+channel estimation and reflection optimization [J]. IEEE wireless 
+communications letters , 2020 , 9(4): 518-522. DOI : 10.1109 /
+LWC .2019 .2961357
+[24] LIU H , YUAN X J , ZHANG Y J A . Matrix-calibration-based cascaded 
+channel estimation for reconfigurable intelligent surface assisted multiuser 
+MIMO [J]. IEEE journal on selected areas in communications , 2020 , 38
+(11): 2621 -2636 . DOI: 10.1109 /JSAC .2020 .3007057
+[25] ZAPPONE A , DI RENZO M , XI X J , et al . On the optimal number of 
+reflecting elements for reconfigurable intelligent surfaces [J]. IEEE 
+wireless communications letters , 2021 , 10(3): 464-468. DOI : 10.1109 /
+LWC .2020 .3034686
+[26] LEE G , JUNG M , KASGARI A T Z , et al . Deep reinforcement learning for energy-efficient networking with reconfigurable intelligent surfaces [C]//
+Proceedings of ICC 2020  - 2020  IEEE International Conference on 
+Communications (ICC). IEEE , 2020 : 1-6. DOI : 10.1109 /
+ICC40277 .2020 .9149380
+[27] XIE W W , ZOU J , XIAO J , et al . Quan-transformer based channel 
+feedback for RIS-aided wireless communication systems [J]. IEEE 
+communications letters , 2022 , 26(11): 2631 -2635 . DOI : 10.1109 /
+LCOMM .2022 .3198793
+[28] JINDAL N . MIMO broadcast channels with finite-rate feedback [J]. IEEE 
+transactions on information theory , 2006 , 52(11): 5045 -5060 . DOI : 
+10.1109 /TIT.2006 .883550
+[29] SHEN W Q , DAI L L , ZHANG Y , et al . On the performance of channel-
+statistics-based codebook for massive MIMO channel feedback [J]. IEEE 
+transactions on vehicular technology , 2017 , 66(8): 7553 -7557 . DOI : 
+10.1109 /TVT.2017 .2656908
+[30] KUO P H , KUNG H T , TING P G . Compressive sensing based channel 
+feedback protocols for spatially-correlated massive antenna arrays [C]//
+Proceedings of 2012  IEEE Wireless Communications and Networking 
+Conference (WCNC ). IEEE , 2012 : 492-497. DOI : 10.1109 /
+WCNC .2012 .6214417
+[31] SHIN B S , OH J H , YOU Y H , et al . Limited channel feedback scheme for 
+reconfigurable intelligent surface assisted MU-MIMO wireless 
+communication systems [J]. IEEE access , 2022 , 10: 50288 -50297 . DOI : 
+10.1109 /ACCESS .2022 .3174095
+[32] HU C , DAI L L , HAN S F , et al . Two-timescale channel estimation for 
+reconfigurable intelligent surface aided wireless communications [J]. IEEE 
+transactions on communications , 2021 , 69(11): 7736 -7747 . DOI : 10.1109 /
+TCOMM .2021 .3072729
+[33] SHEN D C , DAI L L . Dimension reduced channel feedback for 
+reconfigurable intelligent surface aided wireless communications [J]. IEEE 
+transactions on communications , 2021 , 69(11): 7748 -7760 . DOI : 10.1109 /
+TCOMM .2021 .3100428
+[34] CHEN Y B , WANG Y , WANG Z C , et al . Robust beamforming for active 
+reconfigurable intelligent omni-surface in vehicular communications [J]. 
+IEEE journal on selected areas in communications , 2022 , 40(10): 3086 -
+3103 . DOI: 10.1109 /JSAC .2022 .3196095
+[35] HUANG C W , ZAPPONE A , ALEXANDROPOULOS G C , et al . 
+Reconfigurable intelligent surfaces for energy efficiency in wireless 
+communication [J]. IEEE transactions on wireless communications , 2019 , 
+18(8): 4157 -4170 . DOI: 10.1109 /TWC .2019 .2922609
+[36] KIM J , HOSSEINALIPOUR S , MARCUM A C , et al . Learning-based 
+adaptive IRS control with limited feedback codebooks [J]. IEEE 
+transactions on wireless communications , 2022 , 21(11): 9566 -9581 . DOI : 
+10.1109 /TWC .2022 .3178055
+[37] ZHONG R K , LIU Y W , MU X D , et al . AI empowered RIS-assisted NOMA 
+networks : deep learning or reinforcement learning ? [J]. IEEE journal on 
+selected areas in communications , 2022 , 40(1): 182-196. DOI : 10.1109 /
+JSAC .2021 .3126068
+[38] DU L S , ZHANG W , MA J H , et al . Reconfigurable intelligent surfaces for 
+energy efficiency in multicast transmissions [J]. IEEE transactions on 
+vehicular technology , 2021 , 70(6): 6266 -6271 . DOI : 10.1109 /
+TVT.2021 .3080302
+[39] YOU L , XIONG J Y , NG D W K , et al . Energy efficiency and spectral 
+efficiency tradeoff in RIS-aided multiuser MIMO uplink transmission [J]. 
+IEEE transactions on signal processing , 2021 , 69: 1407 -1421 . DOI : 
+10.1109 /TSP.2020 .3047474
+[40] WANG J H , TANG W K , JIN S , et al . Static power consumption modeling 
+and measurement of reconfigurable intelligent surfaces [EB/OL ]. (2023 -
+03-01)[2023 -10-15]. https ://arxiv .org/abs/ 2303 .00299 .pdf
+[41] WANG J H , TANG W K , LIANG J C , et al . Reconfigurable intelligent surface : 
+power consumption modeling and practical measurement validation (2022 -
+11-01)[2023 -10-15]. https ://arxiv .org/abs/ 2211 .00323 .pdf
+[42] KIM J , YU H , KANG  X , et al . Discrete phase shifts of intelligent reflecting 
+surface systems considering network overhead [J]. Entropy , 2022 , 24(12): 
+1753 . DOI: 10.3390 /e24121753
+[43] XIE Z Y , YI W Q , WU X L , et al . Downlink multi-RIS aided transmission in 
+backhaul limited networks [J]. IEEE wireless communications letters , 
+2022 , 11(7): 1458 -1462 . DOI: 10.1109 /LWC .2022 .3174448
+[44] JIN Y , ZHANG J Y , ZHANG X D , et al . Channel estimation for semi-
+passive reconfigurable intelligent surfaces with enhanced deep residual 
+networks [J]. IEEE transactions on vehicular technology , 2021 , 70(10): 
+11083 -11088 . DOI: 10.1109 /TVT.2021 .3109937
+36

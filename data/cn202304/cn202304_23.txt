@@ -1,0 +1,49 @@
+面向算力网络的多路径时敏优先调度机制 夏华屹  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4面向算力网络的
+多路径时敏优先调度机制
+A Multipath Time Sensitive Priority Scheduling Mechanism for 
+Computing Power Network
+夏华屹 /XIA Huayi ，权伟/QUAN Wei ，张宏科 /ZHANG Hongke
+（ 北京交通大学 ，中国 北京 100044  ）
+(Beijing Jiaotong University , Beijing 100044 , China )DOI：10.12142 /ZTETJ .202304005
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230717 .1741 .002.html
+网络出版日期 ：2023 -07-18
+收稿日期 ：2023 -05-18
+摘要 ：研究了一种面向算力网络的多路径低时延转发调度算法 。该算法可以根据网络状态变化动态更新路径价值量生成路径转发决策 ，并在一
+定置信概率内以多路冗余发包的方式进行多路备份传输 ，降低路径传播时延 。还提出了一种等级与队列映射算法 ，利用网络可编程技术改进设
+备转发逻辑 ，利用有限数量严格优先队列保障数据包近似按等级出队 ，降低数据排队时延 。仿真实验结果表明 ，所提出方法可以降低数据传输
+时延及抖动 ，为算力网络业务提供稳定吞吐量 。
+关键词 ：算力网络 ；低时延 ；多路径 ；优先队列
+Abstrac t:A multipath low latency forwarding scheduling algorithm for computing power networks is studied , which dynamically updates the 
+path value to generate path forwarding decisions based on network state changes . Within a certain confidence probability , multiple backup 
+transmissions are carried out in the form of multiple redundant contracts to reduce path propagation delay . In addition , a rank and queue 
+mapping algorithm is proposed , which uses network programmable technology to improve the device forwarding logic and uses a limited 
+number of strict priority queues to ensure that packets are approximately queued according to the rank , reducing the data queue delay . Simu ⁃
+lation results show that the proposed method can reduce data transmission delay and jitter , and provide stable throughput for computing net ⁃
+work services .
+Keywords :computing power network ; low latency ; multipath ; priority queue
+引用格式 ：夏华屹 , 权伟 , 张宏科 . 面向算力网络的多路径时敏优先调度机制  [J]. 中兴通讯技术 , 2023 , 29(4): 19-25. DOI : 10.12142 /
+ZTETJ .202304005
+Citation ： XIA H Y , QUAN W , ZHANG H K . A multipath time sensitive priority scheduling mechanism for computing power network [J]. ZTE 
+technology journal , 2023 , 29(4): 19-25. DOI: 10.12142 /ZTETJ .202304005
+数字经济已成为中国经济发展不可或缺的驱动力 ，而算
+力作为数字经济的重要部分 ，在信息数据处理 、智能
+算法优化等方面起着关键作用[1]。截至 2023 年3月底 ，中国
+累计建成 5G基站超过 264万个 ，算力总规模达到每秒 180运
+算次数 （EFLOPS ） ；算力规模快速增长 ，梯次优化的算力供
+给体系初步构建 ，算力规模排名全球第二 ，年增长率近
+30%。以OpenAI 推出的智能对话模型 ChatGPT 为代表的人工
+智能 （AI）技术的爆发让全球算力大盘中的智能算力占比提升，第三方数据分析机构 IDC在《2021 —2022 全球计算力指
+数评估报告 》指出 ：算力指数平均每增加 1%，国家数字经
+济和国内生产总值 （GDP）则分别增长 3.5‰和1.8‰[2]。据
+国家发展改革委与工业和信息化部等部门联合实施的 “东数
+西算 ”工程 ，中国将重点发展算力全产业链的自主可控建
+设，形成一体化的新型算力网络体系 。该工程对国家政治 、
+经济以及各行业的发展有着重要意义[3]。
+为提升数据通信质量 ，边缘计算中心 、高性能数据中心
+等算力基础设施在生活中的应用逐渐增多 。但同时这也逐渐
+暴露出算力设施在面对多样化服务流量时 ，计算节点的计算
+任务分配机制不完善 、无法合理使用算力资源等问题 。这使
+得算力设施在使用场景中有了局限性[4]。为解决上述问题 ， 基金项目 ：中央高校基本科研业务费专项资金 （2021 PT202、2022 JBGP 002）
+19

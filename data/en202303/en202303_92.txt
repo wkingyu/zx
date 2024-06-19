@@ -1,0 +1,98 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Research Papers   Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput
+eration is finished . The early termination function in the de ‐
+coding process is implemented by LLR_pblk , which can cal ‐
+culate the parity check result of the current layer . When all 
+the parity checks are satisfied , the decoding will stop suc ‐
+cessfully and enter the waiting state for the decision informa ‐
+tion output .
+4 Implementation Results
+4.1 Results of Improved Error Floor
+We build a compute unified device architecture (CUDA )-
+based code performance testing platform , including a noise 
+generator , a decoder , and a decoding result statistics module . 
+Noise is added directly to the all -zero codeword to improve 
+throughput during testing . And we test the code performance 
+on a single GeForce GTX 1080  Ti GPU .
+We evaluate the performance of the proposed LDPC codes 
+in the additive white Gaussian noise (AWGN ) channel using 
+quadrature phase shift keying (QPSK ) modulation . The belief 
+propagation (BP) flooding decoding schedule is used and the 
+maximum number of iterations is set to 50.
+Compared with the 5G NR LDPC code and the PEG code , 
+the code performance constructed by our algorithm has a cer ‐
+tain optimization effect , as shown in Fig . 6. As we reduce the 
+number of 6 cycles , the error floor is optimized .4.2 Optimized LDPC Code Performance
+After applying the code constraints , the code is constructed 
+using the construction algorithm described above , and perfor ‐
+mance curves with an information blocklength of k=8 448 bits 
+are shown in Fig . 7. Although the code we constructed still 
+has a gap of less than 0.05 dB compared with the 5G NR 
+▲Figure 5. Decoder core architecture
+▲Figure 6. Performance comparison after optimizing the number of 
+6-cycleR=8/9, k=8 448, 5G NR LDPC
+R=8/9, k=8 448, peg LDPC
+R=8/9, k=8 448, modified LDPC
+(Es/N0)/dB5.4 5.6 5.8 6.0 6.2 6.4 6.6FER100
+10-1
+10-2
+10-3
+10-4
+10-5
+10-6
+10-7initial 
+data 
+input
+Dcs 
+data out
+Config ‐
+ure data 
+inputDecoder core
+Count_layerFrom channel APP_LLR
+data_sel0 1
+Controller
+Rd_pblkReg
+AP0 AP1AP2APc−1APcAPn−1
+c−1 …
+…0 1
+0 1Wr_pblk
+dcmax−1 0 10 1 c−2 c−1
+dcmax−1
+ZX
+ZX
+…
+ZX
+ZXSigns
+Signs
+…
+Signs
+SignsMin1
+Min1
+…
+Min1
+Min1Min2
+Min2
+…
+Min2
+Min2Indx_min 1
+Indx_min 1
+Indx_min 1
+Indx_min 1Shift factorShift factor 
+gen
+…
+BS_0_R BS_0_R BS_dcmax_R BS_0_R BS_0_R BS_dcmax_R
+VNG_ dcmax−1VNG_ 1 VNG_ 0
+0 1…
+… dcmax−1
+Cnu_pblk
+Signs , min1, min2, indx_min 1 Signs , min1, min2, indx_min 10 1 … dcmax−1VNG_ 1 VNG_ 0APP_LL
+R_0APP_LL
+R_1APP_LLR
+_dcmax−1…LLR_pblkDecompressor………
+… …
+C2v_Ram
+Decompressor…
+APP_LLR : log likelihood ratios of a posterior probability 
+FER: frame erasure rate
+LDPC : low density parity check codeNR: new radioRam
+90

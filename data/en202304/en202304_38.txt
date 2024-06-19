@@ -1,0 +1,135 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4YIN Qian , ZHANG Xinfeng , HUANG Hongyue , WANG Shanshe , MA Siwei Lossy Point Cloud Attribute Compression with Subnode -Based Prediction    Special Topic
+gains can be achieved both under C 1 and C 2 conditions for all 
+categories . Specifically , 0.2%, 0.3% and 0.5% bitrate reduc ⁃
+tion for luma , chorma and reflectance are obtained under the 
+C1 condition respectively . 0.2%, 0.3% and 0.2% bitrate re ⁃
+duction for luma , chroma Cb and Cr as well as 0.2% bitrate re ⁃
+duction for reflectance are obtained under C 2 condition re ⁃
+spectively . Especially for Am -fused datasets , there are over 
+1% coding gains under the C 1 condition for chroma Cb 
+(1.2%), chroma Cr (1.1%) and reflectance (1.1%). Besides the 
+R-D performance , the computational complexity is evaluated 
+by using the average encoding and decoding time . There are 
+only 2% and 3% extra increases on the encoding and decod ⁃
+ing time on the C 1 condition , with no complexity increase for 
+encoding on the C 2 condition .
+Apart from TMC 13-v22.0, we also compare our proposed 
+method with GeSTM -v2.0 for Cat 2. As shown in Table 3, 
+consistent coding gains can be also achieved both under C 1 
+and C 2 conditions for all Cat 2 datasets . Specifically , 0.4%, 
+0.4% and 0.5% bitrate reduction for luma , chroma Cb and 
+chroma Cr are obtained under the C 1 condition respec ⁃
+tively . 0.3%, 0.3% and 0.4% bitrate reduction for luma , 
+chroma Cb and Cr are obtained under the C 2 condition re ⁃
+spectively . In terms of computational complexity , the encod ⁃
+ing time increases by 6% while the decoding time increases 
+by 10%.
+To further evaluate the prediction effect of the proposed 
+optimization scheme , we also count the errors during the 
+transform domain prediction stage . Specifically , for each se ⁃
+quence in Cat 1, prediction errors of all slices are accumu ⁃
+lated if the upsampled prediction is enabled . As illustrated 
+in Fig . 6, the average prediction errors of each type of point 
+cloud are all smaller than that of the original prediction 
+scheme in TMC 13-v22.0. Therefore , our proposed method 
+can effectively improve compression efficiency by reducing 
+prediction errors .
+5 Conclusions
+In this paper , a subnode -based prediction is proposed to im ⁃
+prove the lossy point cloud attribute compression for the 
+MPEG G -PCC platform . Based on the original upsampled 
+transform domain prediction scheme , we leverage some 
+already -encoded neighbor nodes at the same level as the cur ⁃
+rent node to be encoded to optimize the original prediction 
+▼Table 3. Performance of the proposed method against GeSTM -v2.0 
+under C 1 and C 2 configurations
+Dataset Category
+Cat2-A average
+Cat2-B average
+Cat2-C average
+Overall average
+Avgerage encoding/
+decoding time (%)C1 BD -Rate/%
+L
+−0.4
+−0.3
+−0.5
+-0.4
+106/109Cb
+−0.5
+−0.3
+−0.4
+-0.4Cr
+−0.5
+−0.3
+−0.5
+-0.5C2 BD -Rate/%
+L
+−0.3
+−0.2
+−0.4
+-0.3
+101/110Cb
+−0.3
+−0.2
+−0.4
+-0.3Cr
+−0.4
+−0.2
+−0.3
+-0.4
+BD: Bjontegaard delta▲Figure 6. Prediction errors of the proposed method compared with 
+the original prediction scheme in geometry -based point cloud compres ⁃
+sion (G-PCC ) (i.e., reference software TMC 13-v22.0)SolidPrediction error8 440 439
+8 434 7668 441 000
+8 440 000
+8 439 000
+8 438 000
+8 437 000
+8 436 000
+8 435 000
+8 434000
+8 433 000
+8 432 000
+8 431 000
+TMC 13-v22.0 Proposed method
+(a)
+116 320 000
+116 300 000
+116 280 000
+116 260 000
+116 240 000
+116 220 000
+116 200 000
+116 180 000
+116 160 000
+116 140 000
+116 120 000Sparse
+116 295 917
+116 180 694Prediction error
+TMC 13-v22.0 Proposed method
+(c)
+ScantPrediction error86 270 000
+86 260 000
+86 250 000
+86 240 000
+86 230 000
+86 220 000
+86 210 00086 262 056Dense
+86 228 331
+TMC 13-v22.0 Proposed method
+(b)
+126 860 000
+126 840 000
+126 820 000
+126 800 000
+126 780 000
+126 760 000
+126 740 000
+126 720 000
+126 700 000
+TMC 13-v22.0 Proposed method126 841 602
+126 754 323
+(d)Prediction error
+35

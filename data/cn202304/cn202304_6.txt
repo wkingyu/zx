@@ -1,0 +1,50 @@
+东数西算场景下的算力网关研发及应用 马思聪  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4东数西算场景下的算力网关
+研发及应用
+Research and Application of Computing Power Gateway in 
+East-Data-West-Computing Project
+马思聪 /MA Sicong ，孙吉斌 /SUN Jibin ，孙一豪 /SUN Yihao
+（ 中国电信股份有限公司研究院 ，中国 北京 102209  ）
+(China Telecom Corporation Research Institute , Beijing 102209 , China )DOI：10.12142 /ZTETJ .202304002
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230724 .1524 .004.html
+网络出版日期 ：2023 -07-25
+收稿日期 ：2023 -06-15
+摘要 ：提出了一种面向算力网络场景的新型网络设备 ——算力网关 。认为算力网关是实现算力网络一体化调度的基础 ，通过感知业务应用需求 ，
+结合当前的算力状况和网络状况 ，生成路由信息并发布到网络 ，将计算任务报文路由到合适的计算节点 ，以实现算力资源的最优调度 。现网实
+践验证了算力网关技术方案的有效性 。
+关键词 ：算力网关 ；算力感知 ；算力路由 ；东数西算
+Abstrac t:The computing power gateway , a new network device , is proposed for computing power network scenarios , which is the founda ⁃
+tion for achieving integrated scheduling of computing power networks . By perceiving the information of services and combining the current 
+computing power and network performance , the routing information will be published to the network to route computing task packets to 
+suitable computing nodes , in order to achieve optimal scheduling of computing resources . Finally , the effectiveness of the computing power 
+gateway technology solution is verified through practical verification in the current network .
+Keywords :computing power gateway ; perception of computing power ; routing of computing power ; east-data-west-computing
+引 用 格 式 ：马思聪 ，孙吉斌 ，孙一豪 . 东数西算场景下的算力网关研发及应用  [J]. 中兴通讯技术 , 2023 , 29(4): 2-7. DOI : 10.12142 /
+ZTETJ .202304002
+Citation ： MA S C , SUN J B , SUN Y H . Research and application of computing power gateway in east-data-west-computing project [J]. ZTE 
+technology journal , 2023 , 29(4): 2-7. DOI: 10.12142 /ZTETJ .202304002
+随着数字经济进入新发展阶段 ，业务数字化 、技术融合
+化和数据价值化等加速演进 ，开启数字经济引领高质
+量发展新征程 。在此发展过程中 ，算力作为数字时代核心资
+源的作用日益突出 ，以算力为核心的数字信息基础设施建设
+被提到前所未有的高度[1]。中国相继出台一系列围绕算力基
+础设施的政策文件 ，如《全国一体化大数据中心协同创新体
+系算力枢纽实施方案 》 《新型数据中心发展三年行动计划 》
+等[2]，并加快实施 “新基建 ” “东数西算 ”等工程 ，加强区
+域协同联动 ，推进热点区域与中西部地区 、一线城市与周边
+地区的数据中心协调发展 ，引导算力的集群化发展 。
+为了实现算力像电力 、热力 、水一样 ，由统一的社会基
+础设施进行供应 ，真正地服务于社会经济的各行各业 ，需要在算力基础设施的供给模式方面进行创新 ，算力网络应运而
+生。算力网络是通过网络分发算力节点的计算 、存储 、算法
+等资源信息 ，并结合网络信息和用户需求 ，提供最佳的计
+算、存储 、网络等资源的分发 、关联 、交易与调配 ，从而实
+现各类资源最优化配置使用的新型网络技术 。作为算力网络
+中的核心网元设备 ，算力网关以算力度量 、算力标识为依
+据，通过算力路由 、算力感知等核心功能 ，传输发布相关算
+力策略与数据转发 ，是实现算力网络一体化调度的基础 。
+1 算力网关架构及组网方案
+1.1 总体架构
+算力网关基于开放的白盒网络设备架构 ，将网络中的物
+理硬件和节点操作系统 （NOS）进行解耦 ，使标准化的硬件 基金项目 ：国家科技重大专项 （2022 YFB2901400 ）
+02

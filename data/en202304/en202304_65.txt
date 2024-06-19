@@ -1,0 +1,96 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4GONG Panyin , ZHANG Guidong , ZHANG Zhigang , CHEN Xiao , DING Xuan Research Papers   Research on Fall Detection System Based on Commercial Wi -Fi Devices
+module uses a deep learning model to analyze the spatial fea ⁃
+tures of the input feature spectrum images and perform binary 
+classification to determine the presence of fall activities . We 
+will introduce feature extraction and feature classification re ⁃
+spectively in Sections 2.2 and 2.3.
+2.2 Feature Extraction
+The feature extraction module extracts the corresponding 
+features from the CSI information received by the commercial 
+Wi-Fi device , which is used to characterize the activity of a 
+person to identify the person ’s activity . CSI reflects the infor ⁃
+mation of the physical layer channel and represents the chan ⁃
+nel response of the wireless link[24]. CSI is the channel attri ⁃
+bute of the communication link , which represents the fading 
+factor of the signal between the transmitter and the receiver 
+for each transmission path between the transmitter and the re ⁃
+ceiver as a fading factor . Let X(f, t) and Y(f, t) be the fre ⁃
+quency domain responses of the transmitter and receiver at 
+moment t and subcarrier f, respectively , then the following re ⁃
+lationship exists between them ,
+Y(f, t)=H(f, t)×X(f, t), (1)
+where Y(f, t) represents the channel frequency response 
+(CFR), which is the frequency domain representation of CSI , 
+and is usually a complex value . In practice , there are usually 
+multiple propagation paths between the transmitter and the re ⁃
+ceiver , so it can be written in the following form :
+H(f, t)=∑k=1Nαk(f, t)e-j2πfτk(t), (2) 
+where N is the number of multipaths , and αk(f, t) and τk(t) 
+represent the attenuation coefficient of the k-th propagation 
+path and the propagation delay , respectively . In this experi ⁃
+ment , the CSI information obtained from each receiver an ⁃
+tenna contains 30 subcarriers[25]. In this system , we use the 
+amplitude information of CSI for subsequent data processing .
+As shown in Fig . 1, feature extraction in this system mainly 
+includes signal interpolation , signal denoising , signal smooth ⁃
+ing, principal component analysis , and DWT calculation[22].
+1) The purpose of signal interpolation is to obtain uni ⁃
+formly distributed samples . During the transmission of Wi -Fi 
+signals , due to airport blocking and 
+other reasons , the received data pack ⁃
+ets may have uneven sampling in the 
+time domain . The theoretical analysis 
+of the time -frequency domain in signal 
+processing is based on the assumption 
+of uniform sampling . Therefore , if the 
+actual sampling is non -uniform , the re ⁃
+sults of video analysis will contain 
+noise , and interference frequencies that 
+are not present in the original signal will appear in the spectrum . This can make the extracted 
+time -frequency domain features unable to fully reflect the ac ⁃
+tivity information of the person , which will affect the classifi ⁃
+cation of the person ’s activity . In the system , we perform 
+one -dimensional linear interpolation on the CSI amplitude in ⁃
+formation extracted from non -uniform sampling[18] to reduce 
+the impact of non -uniform sampling .
+2) In the signal denoising part , the original CSI is filtered 
+to retain the main components of personnel activities and fil ⁃
+ter out high -frequency and low -frequency noise . As shown in 
+Fig. 2(a), the original CSI signal usually contains a lot of 
+noise . The noise includes not only low frequency noise such 
+as hardware noise and DC components but also high fre ⁃
+quency noise such as signal burst . The main component of 
+human activities that we need is in the middle of high fre ⁃
+quency and low frequency . Therefore , we use a band -pass 
+Butterworth filter for filtering . The setting of the low cutoff 
+frequency is based on a balance between the requirements of 
+interference elimination and the loss of low -frequency infor ⁃
+mation . Specifically , the speed of normal human motion does 
+not exceed 4 m/s. The Wi -Fi device operates at 5.825 GHz , 
+and the corresponding Doppler frequency spectrum (DFS) up⁃
+per limit is calculated to be 80 Hz[32]. Generally , the range of 
+signal low -frequency noise is 0 Hz–4 Hz, and the Doppler 
+frequency deviation caused by personnel activities including 
+falling , walking , bending and sitting is usually not more than 
+80 Hz. Therefore , we first carry out band -pass filtering on the 
+signal , with a passband range of 4 Hz–80 Hz, to filter out 
+band noise[22]. The filtered CSI signal is shown in Fig . 2(b), 
+and most of the disturbances in the signal have been filtered .
+3) Signal smoothing is to better reduce the influence of in ⁃
+band noise and signal jitter on activity recognition . We use the 
+weighted moving average method to smooth the filtered CSI 
+signal . Let’s assume that the sampling sequence of a subcar ⁃
+rier of the CSI at different times is C=[v1, v2,…, vL], then the 
+smoothed CSI sequence is the weighted average of the CSI 
+sampling values at the previous time , that is :
+v̂i=1
+n+() n-1+…+1×∑j=1n(j×vi-n+j),
+(3)
+where v̂i is the i-th sampling point of the smoothed CSI , and 
+▲Figure 2. (a) Original channel state information (CSI) amplitude image ; (b) CSI amplitude im ⁃
+age after signal denoising ; (c) CSI amplitude image after signal smoothingTimeAmplitude
+(a)TimeAmplitude
+(b)TimeAmplitude
+(c)
+62

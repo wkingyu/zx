@@ -1,0 +1,57 @@
+smart home for senior care has been 
+established. This innovative project leverages 
+FTTR home all-optical networking, along 
+with the integration of smart speakers and 
+healthcare devices. The smart speakers play a 
+multifaceted role by oﬀering health detection, 
+medical care support, and companionship, 
+making senior care both smart and 
+compassionate.
+Over the past three decades, optical 
+networks have played an indispensable role 
+in the continuous evolution of bandwidth 
+capabilities, ranging from 56k to 10G, and 
+the rapid development of applications, 
+transitioning from traditional web browsing 
+to intelligent applications. WDM networks 
+have progressed from single-wavelength 
+2.5G at the end of the twentieth century to 
+the current single-wavelength 400G/800G 
+era. WDM networks have been originally 
+applied only for backbone, while by now they 
+have been expanded to all scenarios of ULH 
+backbone, core metro, DCI, 5-in-1 access as 
+well as SDH replacement. The access network 
+is undergoing a transformation, shifting 
+from G/EPON to XGS-PON and 50G PON, 
+establishing a robust optical foundation for 
+the advancement of the digital economy.As/uni00A0 the cornerstone of the digital economy,/uni00A0
+ZTE has been committed to innovating its 
+foundational capabilities./uni00A0Through continuous 
+iterations of architectures, algorithms, 
+and processes, ZTE has been expanding 
+the scope of service scenarios and service 
+objects of optical networks, collaborating 
+with operators, enterprises and consumers 
+to build an environmentally friendly and 
+low-consumption industrial ecosystem. Taking 
+OTN/uni00A0 as an/uni00A0 example, the 800G pluggable 
+transceiver module with higher integration 
+reduces power consumption per Gbit by 68%, 
+eﬀectively assisting customers in building 
+high-performance next-generation optical 
+networks. /uni00A0
+Moving forward, ZTE is eager to collaborate 
+with global partners to expand network 
+coverage through end-to-end all-optical 
+networks and accomplish comprehensive 
+digital transformation, ensuring equitable 
+access. Leveraging ultimate network 
+capabilities, ZTE aims to bridge experience 
+gaps and boundaries, enabling a broader 
+range of scenario experiences. Together 
+with global partners, ZTE strives to create 
+a ubiquitous, ultimate, green, and eﬃcient 
+all-optical era.
+Hu Junjie delivering a keynote speechHu Junjie delivering a keynote speech
+ 41 DEC 2023

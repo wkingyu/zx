@@ -1,0 +1,103 @@
+Fig. 2. ZTE AiCube 
+X5000 solution.
+ 
+ 
+“N” Domain Models  
+Based on the base AI model, the domain AI model 
+improves professional capabilities through 
+incremental pre-training on the domain Know-How. 
+In the R&D /f_ield, since 2022, ZTE has utilized AI model 
+technologies to enhance R&D eﬃciency, assisting R&D 
+personnel in requirement analysis, product design, 
+programming, testing, version release, and 
+documentation. At present, ZTE’s coding AI models 
+rank among the top assessed by HumanEval, boasting 
+industry-leading capabilities in diverse coding 
+languages and Chinese pro/f_iciency. In the telecom 
+realm, ZTE leverages vast amounts of high-quality 
+network O&M and service operation data to enrich AI 
+telecom models, surpassing others in telecom 
+knowledge. These AI models support multi-mode 
+data in the communication /f_ield, addressing complex 
+issues such as coverage, capacity, performance 
+reports, and network presentation. Moreover, ZTE’s 
+telecom AI models incorporate a robust intent engine 
+integrated with autonomous networks, enhancing 
+operators’ network operation eﬃciency through 
+eﬃcient work/f_low cascades.
+“X” AI Scenario-Based Applications
+ZTE has developed various subdivision 
+applications based on domain AI models such as 
+computer vision-based AI models. These include the 
+urban lifeline solution for comprehensive urban 
+security risk detection and early warning across 
+critical infrastructure like water, power, gas, heat, and 
+transportation. Additionally, ZTE oﬀers a one-stop AI development assistant covering the entire R&D 
+process, built upon the AI coding model. Utilizing the 
+AI network model, ZTE has developed a range of 
+O&M tools, such as fault O&M robots, tailored to 
+support diﬀerent scenarios. Moreover, ZTE has 
+created the SMS anti-fraud service application based 
+on the AI language model. 
+Rich Applications: Empowering Customers’ 
+Digital Intelligent Transformation
+To help operators and partners build end-to-end 
+intelligent computing infrastructure and digital 
+transformation solutions for enterprises, ZTE launches 
+the open and decoupled Nebula intelligent computing 
+solution. This solution provides AI full-stack products 
+and is deployed across various sectors including 
+intelligent computing centers, R&D eﬃciency 
+improvement, communications, anti-fraud governance, 
+and urban governance. In the communications sector,  
+ZTE released the industry’s /f_irst AI-model-based SMS 
+anti-fraud governance system in 2023. In industry 
+domains, ZTE cooperates with numerous partners, 
+signing strategic agreements and implementing 
+multiple projects spanning machine vision, industrial 
+production, and more. As a cornerstone technology 
+of digital transformation, AI models play a pivotal 
+role in the evolution and commercial prosperity of 
+numerous industries in the new era. ZTE is fully 
+poised to seize this signi/f_icant opportunity with its 
+partners, ensuring that AI can catalyze bene/f_its 
+across thousands of industries.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+One-stop AI development AIO computing baseZTE training & inference AIO machine: One-stop delivery, out-of-the-box
+Diverse computing resources
+Intel/independent innovation CPU, 
+NVIDIA/independent innovation GPU 
+multi-hardware adaptation      Diﬀerential customization service
+AI model training, service /f_ine-tuning 
+AI model application system integration
+ Flexible model selection
+Optional preset basic//f_ield model
+Importing a third-party model
+End-to-end work/f_low
+Full lifecycle of MLOps tool coverage training
+Data, training process/result visualizationUni/f_ied resource management
+On-demand allocation and dynamic 
+adjustment of training and inference 
+resources to achieve resource reuseHigh-performance storage network
+IB/RoCE high-Performance RDMAs
+High-performance parallel /f_ile storage
+AiCube X5000
+Training & Inference AIO machine
+Integration of intelligent computing 
+and application 
+ 
+ 
+ 
+ 
+ 
+JUN 2024 
+ 17

@@ -1,0 +1,92 @@
+interfaces, allowing for rapid customization 
+and development for complicated scenarios. 
+Compared to traditional tools, this tool 
+improves the operation eﬃciency by over 
+80%, ensures more accurate data, and 
+guarantees network quality.
+During the commissioning phase, ZTE’s 
+wireless and bearer products support 
+remote commissioning. If a site visit 
+is required for operations, the mobile 
+phone app can be used for one-click site 
+commissioning and tests. This app covers 
+wireless, microwave, and wired products, 
+and reduces operation diﬃculty. It is 
+interconnected with the iTech platform, 
+enabling automatic data delivery and 
+improving site commissioning and 
+debugging eﬃciency by more than 
+30%. The SOP orchestration by site and 
+automatic group building capabilities 
+reduce the communication time by more 
+than 50%.
+After completing the commissioning, 
+the on-site engineer can use AI to 
+locate the root causes of alarms that 
+occur and provide solutions. This allows 
+for identi/f_ication of quality problems 
+and completion of recti/f_ication before 
+leaving the site, without the need for 
+cooperation from back-end personnel. 
+As a result, the number of second site 
+visits can be reduced. In addition, the 
+site commissioning report and workload 
+estimate can be generated automatically. 
+The combination of intelligent tools and 
+digital platforms not only improves the 
+eﬃciency and quality of site construction, 
+commissioning, and debugging, but also 
+greatly improves the working conditions 
+of site operation personnel. This aligns 
+with ZTE’s goal of paying attention to 
+the health and safety of employees 
+and partners, and actively ful/f_illing the 
+corporate social responsibility (CSR).
+ZTE has also improved its digital and 
+intelligent testing and optimization productivity, as well as digital platforms 
+to provide data management of tools and 
+manual operation management capabilities.
+To adapt to multiple scenarios, digital 
+platforms and intelligent tools must be 
+capable of fast on-site combination, 
+programming, and orchestration. ZTE’s 
+iTech digital platform is a site deployment 
+platform that integrates digital and 
+intelligent technologies. It consists of 
+the site work platform and the data 
+management platform. 
+The site work platform provides site 
+engineers with a one-stop solution for 
+their work. It enables process orchestration, 
+interconnection of tools, group coordination, 
+and site navigation. By combining with 
+intelligent tools, it allows for automatic site 
+commissioning and tests, improving work 
+eﬃciency and quality. The platform improves 
+team collaboration through real-time, open, 
+and visible messages. It also automatically 
+calculates workload and asset changes, and 
+generates site commissioning reports.
+The data management platform 
+focuses on the storage and full-process 
+management of key technical data in the 
+site delivery phase. In wireless networks, 
+engineering parameter data such as 
+antenna parameters is crucial in various 
+phases. In the traditional management 
+mode, it is diﬃcult to accurately and 
+timely update data. The data management 
+platform improves the reliability and 
+accuracy of engineering parameter data 
+by implementing online management 
+across the planning, installation, drive test 
+and optimization phases, laying a solid 
+foundation for network quality. 
+In the planning and con/f_iguration phase, 
+ZTE’s intelligent product planning and 
+con/f_iguration tool automates the generation 
+and delivery of product con/f_iguration 
+/f_iles for wireless, bearer, and core network 
+products, reducing errors in manual 
+operations. It provides programmable 
+18Digital & Intelligent Network Services Special Topic

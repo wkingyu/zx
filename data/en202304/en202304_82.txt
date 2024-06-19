@@ -1,0 +1,199 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage    Research Papers
+crease the number of levels and reduce d v/dt in this paper . 
+Otherwise , if the 5L-ANPC topology is adopted for both upper 
+and lower bridge arms , 16 switches are required . The number 
+of switches is too large to meet the requirements of high power 
+density . This paper presents a hybrid rectifier topology by 
+combining the upper bridge arm 5L-ANPC and lower bridge 
+arm diodes .
+The rest of the paper is organized as follows . In Section 2, 
+the operating characteristics and the control strategy of the 5L-
+ANPC hybrid rectifier are introduced , including FC voltage 
+regulation . In Section 3, simulations and experiments verify 
+the effectiveness and performance of the strategy proposed in 
+Section 2. Finally , the conclusion is given in Section 4.
+2 Working Principle
+2.1 Topology Analysis
+A traditional multilevel topology is difficult to apply in five 
+or higher levels because of the inability to control the point 
+voltage in the bus bar and the excessive number of clamping 
+elements . The 5L-ANPC has aroused wide concern after it was 
+proposed . It can improve the output voltage level , using fewer 
+devices when outputting the same number of levels , and its ca ⁃
+pacitor voltage equalizing control algorithm is relatively 
+simple , which has great application potential in switching 
+power supply .
+The AC/DC rectifier circuit needs to realize power factor 
+correction and suppress common -mode current . More levels 
+can be achieved through the combination of upper and lower 
+bridge arms , but it conflicts with the demand for high power 
+density . Therefore , the topological structure of five levels on 
+the upper arm and the diode on the lower arm is adopted , as 
+shown in Fig . 1.
+The upper bridge arm is a single -phase 5L ANPC converter 
+topology , consisting of 8 switches with inverse shunt diodes , 
+an FC Cf , and two supporting capacitors C1 and C2 on the DC 
+side. The first part consists of two supporting capacitors and four switching devices , which are used to clamp the busbar 
+voltage . The latter part uses the FC structure for multilevel 
+output . Assuming that the voltage at the DC side is 4E, the 
+conditions for the topology to work properly are as follows . 1) 
+The voltage of the two support capacitors at the DC side is 
+basically the same , that is , UC1= UC2 = Udc/2 = 2E. 2) The volt ⁃
+age of the flying span capacitor is ensured to be basically 
+stable , i.e., UCf = Udc/4 = E.
+The corresponding switching devices of 5L ANPC converter 
+topology are complementary , and their actions must follow the 
+following switching principles[8]: 1) The switching devices 
+S1 and S3, S2 and S4 must be turned on or off at the same time , 
+respectively . The two groups are complementary and operate 
+at power frequency ; 2) The switching devices S5 and S7, S6 and 
+S8 should be complementary respectively and operate at the 
+switching frequency ; 3) When switching mode of switches is 
+selected , two pairs of switch devices operating at the same 
+time is usually avoided .
+The positive direction of the output current io of the con ⁃
+verter bridge arm and the FC current if are denoted in Fig . 2. 
+All switching states and their related currents can be obtained 
+in Table 1. It can be seen that there are eight different switch ⁃
+ing states from V1 to V8, and the rectifier can produce five volt ⁃
+▼Table 1. Five -level active neutral -point -clamped (5-L ANPC ) converter 
+switching
+V1
+V2
+V3
+V4
+V5
+V6
+V7
+V8S1
+0
+0
+1
+1
+0
+0
+1
+1S2
+0
+1
+0
+1
+0
+1
+0
+1S3
+1
+1
+0
+0
+1
+1
+0
+0S4
+1
+0
+1
+0
+1
+0
+1
+0S5
+0
+0
+0
+0
+1
+1
+1
+1S6
+1
+1
+1
+1
+0
+0
+0
+0S7
+0
+0
+0
+0
+1
+1
+1
+1S8
+1
+1
+1
+1
+0
+0
+0
+0V0
+-2E
+-E
+-E
+0
+0
+E
+E
+2Eio
+0
+io
+-io
+0
+0
+io
+-io
+0if
+0
+0
+io
+io
+io
+io
+0
+0
+▲Figure 1. Topology of hybrid 5L single -phase rectifier (adopting two -
+stage bridge scheme )
+▲Figure 2. Status of the direct current (DC) input switching(a)　Vdc 1 (b)　0.5 Vdc 1
+(c)　0.5 Vdc 2 (d)　Vdc 2
+L
+Vac
+Input sideOutput side
+S7
+S8 S6S5
+CkfS2S1
+S3
+S4C2C1
+VdcioS1
+S2
+S3
+S4S5
+S6S7
+S8if
+CkfCkf
+C2C1
+Vdc
+ioS7
+S8ifS5
+S6S1
+S2
+S3
+S4C2C1
+VdcioS7
+S8CkfS5
+S6S1
+S2
+S3
+S4C2C1
+Vdc
+C2C1
+VdcS1
+S2
+S3
+S4ioS7
+S8CkfS5
+S6
+79

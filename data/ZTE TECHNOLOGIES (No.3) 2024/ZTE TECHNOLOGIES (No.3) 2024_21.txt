@@ -1,0 +1,112 @@
+inter-machine parameter plane interconnection 
+network needs to utilize a high-speed multi-track 
+traﬃc aggregation architecture to give full play to  
+the computing resources of GPU clusters. On the 
+one hand, PCIe 5.0 slots are required to support 
+200/400G high-performance and low-latency 
+IB/RoCE NICs. On the other hand, at least 10 NIC 
+slots are required, with at least two NICs dedicated 
+to the management and storage plane. GPUs and 
+parameter plane NICs are con/f_igured in a 1:1 ratio 
+to ensure that the parameter plane NICs 
+connected to GPU cards in the same position 
+across multiple GPU servers belong to the same 
+switch, optimizing communication eﬃciency and 
+accelerating parallel transmission. 
+High-speed memory and storage: During the 
+training of large AI models, rapid data read and 
+write operations are crucial. It is necessary to 
+support high-speed components such as DDR5 
+memory and NVMe SSD to enhance data 
+transmission speed and reduce latency, thus 
+improving the training eﬃciency.
+Liquid cooling: The ultra-high computing power 
+density of SXM/OAM GPUs causes the power 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fig. 1. ZTE GPU 
+server "3+2+3" 
+solution.
+consumption of GPU servers to increase 
+dramatically. Air cooling solutions restrict the 
+computing power density of intelligent 
+computing data centers, and fail to meet 
+energy-saving and consumption reduction 
+requirements. Liquid cooling becomes necessary.
+Given the special requirements of AI model 
+training and inference on GPU servers, dedicated 
+GPU servers needs to be designed to support/uni00A0
+high-speed intra-sever and inter-sever networking. 
+These servers should be appropriately con/f_igured 
+and optimized to continuously adapt to new 
+challenges and requirements.  
+ZTE GPU Server “3+2+3” Solution
+To cope with the rapid development of AI, ZTE has 
+launched the "3+2+3" GPU server solution, meeting 
+the full-scenario AI application requirements of 
+various customers (see Fig. 1).
+Based on Three Major CPU Platforms
+Tailored to diﬀerent customer needs, ZTE has 
+2U high
+PCIe AIC
+SXM/OAM4U high
+8U highR5300 G5 (4×PCIe 
+dual-width GPUs)
+CPU: Intel EagleStream
+GPU: 4×PCIe 
+dual-width/8×PCIe 
+single-widthR5930 G2 (2×PCIe 
+dual-width GPUs)
+CPU: Hygon 3 
+GPU: 2×PCIe dual-width 
+/6×PCIe single-width
+R6500 G5 (10×PCIe 
+dual-width GPUs)
+CPU: Intel EagleStream
+GPU: 8/10×PCIe dual-width,
+16/20×PCIe single-widthR6530 G2 (8×PCIe 
+dual-width GPU)
+CPU: Hygon 3
+GPU: 8×PCIe 
+dual-width/single-width R6510 G3 (10×PCIe 
+dual-width GPU)
+CPU: ZTE ZFX1.0
+GPU: 8/10×PCIe dual-width, 
+16/20×PCIe single-width
+R6900 G5
+(8×SXM5/OAM GPUs)
+IntelCPU: Intel EagleStream
+GPU: 8/10×PCIe dual-width,
+16/20×PCIe single-widthR6930 G3
+(8×GCH OAM GPU)
+CPU: Hygon 3
+GPU: 8×PCIe 
+dual-width/single-width R6910 G3
+(8×GCH OAM GPU)
+Hygon
+Three CPU platformsZTE ZFXCPU: ZTE ZFX1.0
+GPU: 8/10×PCIe dual-width, 
+16/20×PCIe single-width
+R5310 G3 (4×PCIe 
+dual-width GPUs)
+CPU: ZTE ZFX1.0 
+GPU: 4×PCIe dual-width 
+/8×PCIe single-width
+Two  GPU 
+form factorsSmall model training
+ & medium and small 
+model inference
+Medium and 
+small model 
+training & big 
+model inferenceThree 
+application 
+scenarios
+Large model 
+training  JUN 2024
+ 19

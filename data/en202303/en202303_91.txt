@@ -1,0 +1,110 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput    Research Papers
+   end if
+   end for
+  end for
+  g4max_i,max_j = MAX (g4i,j,n).
+  hmax_i,max_j=random(0,Z).
+  g6max_i,max_j=MAX (g6i,j,n).
+  hmax_i,max_j=random(0,Z).// Elemental position calcula ‐
+tion.
+  n = n + 1.
+  if MAX (g4i,j,n) == MAX (g4i,j,n-1) and
+  MAX (g6i,j,n) == MAX (g6i,j,n-1) then
+   Record current H. // Exit judgment
+ break .
+  end if
+end while
+3 Hardware Design
+We design a multi -core decoder architecture to achieve a 
+throughput of 100 Gbit/s . The architecture is shown in  Fig. 4.
+The multi -core decoder includes an input buffer , controller , 
+decoder core , output buffer , and output selection module . The 
+function of the output selection module is to select the de ‐
+coded data from multiple decoder cores according to the con ‐
+troller configuration . The input buffer module converts the 
+data fragments into a complete codeword . The input buffer 
+module operates at a different higher frequency clock domain 
+to accommodate the data stream with the internal blocks . The 
+controller receives external configuration information , distrib ‐
+utes the complete codeword to the free decoder core , and con ‐
+trols the output of the data frame at the end of the decoding .The decoder core , shown in  Fig. 5, is the core computing 
+module in the multi -core decoder architecture . It includes the 
+log likelihood ratios of a posterior probability (APP_LLR ) in‐
+formation storage module , check -node to variable -node (C2V) 
+message storage module , and other main computing units .
+The decoder core[14] receives data and configuration infor ‐
+mation from the controller . According to the configuration in ‐
+formation , iterative decoding is carried out layer by layer . 
+The initial log likelihood ratios (LLR) information or the up ‐
+dated LLR information of the current layer is read from the 
+LLR storage module during the decoding of each layer . The 
+LLR storage module contains two memory components : shift 
+registers and static random -access memory (SRAM ). The ini ‐
+tial LLR information of each codeword to be decoded or the 
+LLR information that is continuously updated during an itera ‐
+tion is stored in these two pieces of memory . The shift regis ‐
+ters receive the initial information and shift according to the 
+current layer index to accommodate the matrix ’s shift con ‐
+straints during decoding .
+The LLR information to be updated by up to dcmax sets is se ‐
+lected and fed into barrel shifters by the reading network 
+(Rd_pblk ). Note that Rd_pblk is implemented by multiplexers 
+in Ref . [15]. But based on our proposed special protograph 
+structure , the Rd_pblk selects the same sets of LLR informa ‐
+tion from the shift registers without using multiplexers .
+The selected information is aligned to the check node 
+through the barrel shifters . In the same clock cycle , the com ‐
+pressed stored check -node to variable -node (C2V) messages 
+are read from the C 2V_Ram and distributed to the variable 
+node processing array (VNU_pblk ) through the decompressor . 
+The LLR and C 2V messages are input to the VNU_pblk to cal ‐
+culate the new variable -node to 
+check -node (V2C) messages . The new 
+V2C messages are input to the check 
+node processing array (CNU_pblk ) to 
+calculate C 2V messages . At last , the 
+C2V messages are stored in the 
+C2V_Ram .
+New V 2C messages and new C 2V 
+messages are added in the LLR_pblk 
+to obtain new LLR information , which 
+is then realigned to the VNs via bar ‐
+rel shifters . The aligned new LLR in ‐
+formation is written back to the regis ‐
+ters and RAM by writing network 
+(Wr_pblk ) according to the current 
+layer index . Based on the special pro ‐
+tograph structure , Wr_pblk only up ‐
+dates LLR information at fixed loca ‐
+tions . The decoding of one layer is 
+completed after the LLR information 
+is written back . When the decoding of 
+all layers is complete , the current it ‐
+ ▲Figure 4. Multi -core decoder architectureInput buffer Controller
+DistributorConfigure 
+data input 
+Initial data 
+input
+De‐
+coder 
+cores 
+data 
+outDecoder
+Decoder
+coreDecoder
+coreDecoder
+core
+Decoder
+coreDecoder
+coreDecoder
+core
+Decoder
+coreDecoder
+coreDecoder
+coreOut‐
+put 
+selec ‐
+tionOutput
+buffer
+89

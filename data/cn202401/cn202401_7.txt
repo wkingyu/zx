@@ -1,0 +1,59 @@
+6G新型多址技术探讨 严春林  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 16G新型多址技术探讨
+Next Generation Multiple Access for 6G
+严春林 /YAN Chunlin1，袁弋非 /YUAN Yifei2，
+王森/WANG Sen2，吕思颍 /LYU Siying2
+（ 1.中关村泛联移动通信技术创新应用研究院 ，中国 北京 100080 ；
+2.中国移动通信有限公司研究院 ，中国 北京 100053  ）
+(1.ZGC Institute of Ubiquitous-X Innovation and Applications , Beijing 
+100080 , China ;
+2.China Mobile Communication Research Institute , Beijing 100053 , China )DOI：10.12142 /ZTETJ .202401003
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .tn.20240223 .1925 .004.html
+网络出版日期 ：2024 -02-26
+收稿日期 ：2024 -01-10
+摘要 ：6G大规模通信场景迫切需要使用新型多址技术解决海量终端随机接入问题 ，其他多种场景也需要 6G新型多址来提高传输速率 ，降低接
+入时延 ，增强传输可靠性 。回顾了 5G非正交多址的标准化历程 ，总结了各种非正交多址技术的特点 ，以及在标准化过程中的经验 ，研究并评估
+了稀疏交织多址和基于 Reed-Muller 码的无源多址两种新型多址性能 。本研究可为未来 6G新型多址的选型和标准化提供有益参考 。
+关键词 ：非正交多址接入 ；6G新型多址接入 ；压缩感知 ；稀疏交织多址接入
+Abstrac t:The 6G massive machine type communication urgently requires new multiple access technology to support random access of mas ⁃
+sive machine type terminals , and other scenarios in 6G systems also need new multiple access to increase the data rate , reduce transmis ⁃
+sion delay and enhance transmission reliability .  The standardization process of 5G non-orthogonal multiple access and the properties of vari ⁃
+ous non-orthogonal multiple access techniques are reviewed . The experience in the standardization process is then introduced . The perfor ⁃
+mance of two new types of multiple access is studied , including sparse interleave division multiple access and unsourced multiple access 
+based on Reed-Muller code . This study can provide useful references for the scheme selection and the standardization of the 6G multiple 
+access technology in the future .
+Keywords :non-orthogonal multiple access ; 6G new multiple access ; compressed sensing ; sparse interleaver multiple access
+引用格式 ：严春林 ，袁弋非 ，王森，等. 6G新型多址技术探讨  [J]. 中兴通讯技术 , 2024 , 30(1): 3-11. DOI: 10.12142 /ZTETJ .202401003
+Citation ： YAN C L , YUAN Y F , WANG S , et al . Next generation multiple access for 6G [J]. ZTE technology journal , 2024 , 30(1): 3-11. DOI : 
+10.12142 /ZTETJ .202401003
+非正交多址接入 （NOMA ）是无线空口重要基础技术之
+一，它一改前几代移动通信系统以正交方式为主的多
+址方式 ，使得同一小区的多个用户可以在相同的时频域和空
+域资源上叠加传输 ，有望大幅提升系统容量 ，解决碰撞冲突
+问题 ，因此一直受到学术界和工业界的广泛关注[1-3]。5G时
+代第 3代合作伙伴计划 （3GPP）启动了 NOMA 的研究项目 ，
+深入研究了 NOMA 在增强移动宽带 （eMBB ） 、大规模机器通
+信（mMTC ） 、超高可靠超低时延通信 （URLLC ）三大场景
+的潜在能力[1-2]。
+2023 年6月，国际电信联盟 （ITU）完成了国际移动通
+信（IMT）面向 2030 及未来发展的框架和总体目标建议书 ，
+提 出 6G的 六 大 使 用 场 景 ，对5G中 的 eMBB 、mMTC 、
+URLLC 场景进行演进[4]。为满足这些场景的需求 ，需要研究
+新一代的多址技术 。
+在ITU的目标建议书发布之前 ，中国学术界和工业界对6G应用场景进行了分析和预测[5-7]，其中包括海量连接场景 、
+密集紧要连接场景 、空天地一体化场景和大容量场景 ，如图
+1所示 。海量连接场景主要针对物联网 ，这是因为物联网终
+端数量巨大 ，每平方公里就有千万个终端需要连接 。密集紧
+要连接场景主要针对工业互联网 ，它对通信时延和可靠性有
+很高的要求 。空天地一体化场景需要考虑卫星和地面终端接
+入，服务终端数量大 ，信号往返时延大 ，卫星移动速度快 。
+大容量场景主要是针对增强现实 （AR） 、虚拟现实 （VR） 、
+扩展现实 （XR）等极高速数据传输场景 。为进一步提高连
+接密度 ，降低接入时延 ，提高传输可靠性 ，为移动用户提供
+空天服务 ，我们需要研究新型多址技术 。
+表1给出了海量连接场景 、密集紧要连接场景 、空天地
+一体化场景和大容量场景在 5G时代的能力 ，以及 6G时代使
+用新型多址需要解决的问题 。在以上多种场景中 ，海量连接
+场景最具挑战性且需求紧迫 。新型多址在海量连接下的研究
+03

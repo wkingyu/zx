@@ -1,0 +1,73 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Research on Multi -Core Processor Analysis for WCET Estimation   Review
+Research on MultiResearch on Multi --Core Processor Core Processor 
+Analysis for WCET EstimationAnalysis for WCET Estimation
+LUO Haoran1, HU Shuisong1, WANG Wenyong1, 
+TANG Yuke2, ZHOU Junwei2
+(1. University of Electronic Science and Technology of China , Chengdu 
+611731 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China )DOI: 10.12142 /ZTECOM .202401010
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20240226 .1212 .002, published 
+online February 26, 2024
+Manuscript received : 2023 -06-21
+Abstract : Real -time system timing analysis is crucial for estimating the worst -case execution time (WCET ) of a program . To achieve this , 
+static or dynamic analysis methods are used , along with targeted modeling of the actual hardware system . This literature review focuses on cal ⁃
+culating WCET for multi -core processors , providing a survey of traditional methods used for static and dynamic analysis and highlighting the 
+major challenges that arise from different program execution scenarios on multi -core platforms . This paper outlines the strengths and weak ⁃
+nesses of current methodologies and offers insights into prospective areas of research on multi -core analysis . By presenting a comprehensive 
+analysis of the current state of research on multi -core processor analysis for WCET estimation , this review aims to serve as a valuable resource 
+for researchers and practitioners in the field .
+Keywords : real -time system ; worst -case execution time (WCET ); multi -core analysis
+Citation  (Format 1): LUO H R , HU S S , WANG W Y , et al . Research on multi -core processor analysis for WCET estimation [J]. ZTE Communi ⁃
+cations , 2024 , 22(1): 87–94. DOI : 10.12142 /ZTECOM .202401010
+Citation  (Format 2): H. R. Luo, S. S. Hu, W. Y. Wang , et al ., “Research on multi -core processor analysis for WCET estimation ,” ZTE Commu ⁃
+nications , vol. 22, no. 1, pp. 87–94, Mar. 2024 . doi: 10.12142 /ZTECOM .202401010 .
+1 Introduction
+For intelligent devices with real -time embedded systems , 
+the safety -critical nature of tasks is of paramount impor ⁃
+tance . Programs are required to accomplish tasks 
+within stringent time constraints , which not only im ⁃
+poses significant demands on the accuracy of program logic , 
+but also has a consequential impact on the safety -critical per ⁃
+formance of the system . For instance , automotive control sys ⁃
+tems must carry out various tasks within specified time limits , 
+such as engine control , braking systems , and in -car entertain ⁃
+ment . These systems must respond quickly to driver inputs and 
+adapt accordingly to road and traffic conditions . Any untimely 
+response could potentially lead to serious traffic accidents .
+In the design of embedded systems , predictability and reli ⁃
+ability are crucial factors that must be taken into account . Spe⁃
+cifically , the predictability of timing behavior is of utmost im ⁃
+portance . To address this issue , the concept of the worst -case 
+execution time (WCET ) is a key point .
+WCET refers to the maximum time a program takes to ex ⁃
+ecute under the most unfavorable conditions in real -time sys ⁃
+tems. Accurately estimating WCET of a task is critical to guar ⁃
+antee that the task is completed within its deadline without in ⁃curring any delays . This estimation can be utilized to optimize 
+resource allocation and scheduling strategies in the system , 
+thereby making sure that tasks are executed within acceptable 
+time intervals .
+WCET multi -core analysis can help designers evaluate the 
+performance of applications in multi -core processor systems 
+and provide guidance for scheduling algorithms and resource 
+allocation . Through WCET multi -core analysis , application 
+performance in multi -core processor systems can be opti ⁃
+mized , response time can be reduced , and system reliability 
+and efficiency can be improved .
+However , due to the increasing application demands and the 
+increasingly complex design of systems , higher performance re ⁃
+quirements are being placed on system performance , leading to 
+more and more desktop processor features being deployed on 
+the real -time systems . The diversity of complex processor fea ⁃
+tures has made the execution time of instructions in the proces ⁃
+sor uncertain , which has led to uncertainty in WCET analysis .
+Therefore , the results of WCET analysis require both safety 
+and accuracy . The actual execution time of the program 
+should not exceed the estimated time , and the analysis results 
+should be as close as possible to the actual maximum execu ⁃
+tion time of the program , which is referred to as the true value . 
+The true value is theoretically existent , and under the current 
+research , the requirements for WCET also differ based on the 
+This work was supported by ZTE Industry ⁃University ⁃Institute Coopera ⁃
+tion Funds under Grant No . 2022 ZTE09.
+87

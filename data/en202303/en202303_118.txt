@@ -1,0 +1,25 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Research Papers   Simulation and Modeling of Common Mode EMI Noise in Planar Transformers
+Biographies
+LI Wei (li.wei27@zte .com.cn) received his MS degree in mechatronic engi ‐
+neering from Southeast University , China in 2017 . Currently he is working as 
+an EMC engineer in ZTE Corporation . His research interests include switch ‐
+ing power supply of EMC and lightning protection .
+JI Jingkang received his MS degree in mechatronic engineering from South ‐
+east University , China in 2020 . He currently works as an EMC engineer in 
+ZTE Corporation . His research interests include switching power supply of 
+EMC and reverberation chambers .
+LIU Yuanlong received his MS degree from Harbin Institute of Technology , 
+China . Currently he is working as an EMC engineer in ZTE Corporation . His research interests include lightning protection , switching power supply of 
+EMC , and engineering safety .
+SUN Jiawei received his BE degree in electrical engineering and automation 
+and ME degree in power electronics and power transmission both from Fu ‐
+zhou University , China in 2018  and 2022 , respectively . His research interest 
+focuses on power electronics high frequency magnetic technology .
+LIN Subin received his doctor ’s degree from Fuzhou University , China . He 
+currently works as an associate professor with the School of Electrical Auto ‐
+mation , Fuzhou University . He has been engaged in the theoretical research 
+and technical development of power electronic magnetic components for a 
+long time . His main research direction is power electronic electromagnetic 
+component technology , electromagnetic compatibility analysis and diagnosis .
+116

@@ -1,0 +1,50 @@
+低开销智能反射面辅助无线通信研究综述 陈天贝  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6低开销智能反射面辅助无线通信
+研究综述
+Survey on Low-Overhead Reconfigurable Intelligent Surface 
+Assisted Wireless Communication
+陈天贝 /CHEN Tianbei ，李娜/LI Na，陶小峰 /TAO Xiaofeng
+（ 北京邮电大学 ，中国 北京 100876  ）
+(Beijing University of Posts and Telecommunications , Beijing 100876 , China )DOI：10.12142 /ZTETJ .202306006
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231212 .1443 .006.html
+网络出版日期 ：2023 -12-13
+收稿日期 ：2023 -10-15
+摘要 ：智能反射面 （RIS）为无线网络注入新型绿色资源 ，但也带来了新的组网开销 ，成为制约其实际应用的关键 。在考虑开销的基础上 ，RIS
+是否依然能够发挥其赋能无线通信的潜在价值 、如何降低 RIS开销，以及如何减小 RIS开销的影响 ，是亟待探索的问题 。对低开销 RIS辅助无线
+通信进行了系统综述 ，梳理了 RIS开销模型 ，包括 RIS通信开销模型和 RIS电路开销模型 ，分析了开销问题对 RIS协助无线网络性能的负面影响 ，
+并整理了 5种常见的低开销方案 。结合 6G网络发展趋势 ，对未来亟待解决的 RIS开销问题及相关研究方向进行了总结 。本研究有助于激发 RIS
+的无线赋能潜力 ，从而推进 RIS技术在更多场景中的应用 。
+关键词 ：智能反射面 ；低开销设计 ；信道估计 ；信道反馈 ；相位配置 ；功耗开销
+Abstrac t:Reconfigurable Intelligent Surfaces (RISs) are new green resources for wireless networks , but still bring in extra networking over ⁃
+head , which may seriously limit their performance in practical networks . Based on these considerations , it is important to study whether and 
+how RIS can still enhance wireless communication performance , and how to mitigate the impact of RIS overhead . A systematic review of 
+low-overhead RIS-assisted wireless communication is presented . Two models of the RIS overheads are introduced , including communica ⁃
+tion overhead and circuit power consumption of the RIS . The corresponding impact on the communication performance is analyzed , then 
+five low-overhead solutions are introduced . Finally , in line with the development trends of 6G networks , the unresolved issues are summa ⁃
+rized and the corresponding research directions that need urgent attention in the future are envisioned . Our work will contribute to inspiring 
+the potential of RIS-assisted wireless communication and promote RIS ’s application in more scenarios .
+Keywords :reconfigurable intelligent surfaces ; low-overhead design ; channel estimation ; channel feedback ; phase configuration ; power con ⁃
+sumption
+引用格式 ：陈天贝 , 李娜 , 陶小峰 . 低开销智能反射面辅助无线通信研究综述  [J]. 中兴通讯技术 , 2023 , 29(6): 29-38. DOI : 10.12142 /
+ZTETJ .202306006
+Citation ： CHEN T B , LI N , TAO X F . Survey on Low-overhead reconfigurable intelligent surface assisted wireless communication [J]. ZTE 
+technology journal , 2023 , 29(6): 29-38 DOI: 10.12142 /ZTETJ .202306006
+全球范 围内已广泛开启 6G移动通信技术研究的新篇章 。
+国际电信联盟 （ITU）发布 《IMT面向 2030 及未来发
+展的框架与总体目标建议书 》[1]，描述了 6G的场景 、需求 、
+能力 、关键技术推动因素等 。其中 ， “可持续性 ”作为新增
+指标 ，要求未来通信网络采用高效 、低功耗技术 ，为可持
+续发展目标作贡献[2-3]。同时 ，中国在 2020 年提出 “双碳 ”
+战略目标 ，近年来稳步推进能源产业的结构调整 、其他产
+业的低碳转型等 。积极构建绿色低碳的移动通信网络是重
+要内容之一 。5G移动通信网络主要采用优化硬件架构设计 、加快半
+导体工艺 ，以及提高硬件集成度的硬件节能技术与包括符号
+关断 、通道关断 、小区关断等节能技术[4]，一定程度上支撑
+了移动通信产业的绿色低碳需求 ，但距离实现最终的 “双
+碳”目标仍有较大差距 。根据华为提供的数据显示 ，典型的
+5G基站能耗为 11.5 kW[5]，其中 ，超过 75%的能耗来自有源
+天线单元中的功放 、数字基带 、收发信板等关键器件[6]。为
+满足日益增长的通信速率需求 ，6G网络将引入更多有源节
+点，采用更高通信频段等 。这些措施会带来更高的能量消
+29

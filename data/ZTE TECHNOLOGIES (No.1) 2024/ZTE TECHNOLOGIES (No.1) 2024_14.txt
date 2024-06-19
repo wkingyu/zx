@@ -1,0 +1,69 @@
+Fig. 1. Expanding 
+the capabilities of 
+5G-Advanced 
+based on six major 
+scenarios.with operators to undertake extensive 
+deployments.
+Deterministic Capability: 
+Empowering 5G Penetration into 
+Core Production Areas with Bounded 
+Latency
+The digitization transformation of 
+vertical industries empowered by 5G has 
+achieved signi/f_icant results, entering a 
+critical period of large-scale replication in 
+the application management domain. The 
+next step involves further development 
+and penetration into the core production 
+domain. Deterministic capability is the 
+primary challenge, and ZTE addresses 
+this by providing extreme determinism 
+with a low latency of 4 ms at 99.999% 
+reliability and µs-level ultra-low jitter. It also 
+oﬀers gigabit-per-second or higher uplink 
+capacity. ZTE achieves the integration of 
+communication and computing through the 
+base station computing engine NodeEngine 
+and communication-computing-in-one  
+UniEngine, thereby creating a full-stack 
+5G industrial /f_ield network solution. This 
+enables /f_lexible deployment of cloud-based of concurrent XR services, empowering 
+new industries such as smart game 
+viewing, cultural tourism, and gaming with 
+immersive experiences, all without the 
+need for backpacks.
+Massive IoT: Seamless Connectivity 
+Across High, Medium, and Low-Speed 
+Scenarios
+The Internet of things (IoT) demands 
+seamless interconnection across various 
+IoT technologies to meet industry-wide 
+needs of digitization transformation. The 
+industry has basically formed a coordinated 
+development pattern for NB-IoT, 4G, and 5G 
+networks. In the early stage, the high cost 
+of 5G modules and terminals somewhat 
+constrained the large-scale deployment of 
+5G applications. To address this challenge, 
+5G-Advanced introduces the lightweight 5G 
+IoT reduced capability (RedCap), achieving 
+cost and power reductions in terminals 
+through capability trimming, thereby 
+strengthening the IoT network foundation. 
+ZTE has been committed to promoting the 
+commercial deployment and accelerating 
+the application of RedCap, collaborating 
+ 
+ 
+ 
+ 
+ 
+eMBB
+mMTC uRLLCIntegrated sensing
+and communication
+Massive  IoTDeterminisitic
+capability Universal
+intelligenceSeamless 10 Gbps+
+Ubiquitous
+connectivity 5G-Advanced Special Topic 
+ 12

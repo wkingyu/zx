@@ -1,0 +1,51 @@
+基于多时隙业务联合整形的低能耗资源调度方法 李建东  等 热点专题
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6基于多时隙业务联合整形的
+低能耗资源调度方法
+A Multi-Slot Traffic Shaping Based Resource Allocation Method for 
+Low Energy Consumption
+李建东 /LI Jiandong ，牛淳隆 /NIU Chunlong ，
+赵晨曦 /ZHAO Chenxi ，刘俊宇 /LIU Junyu
+（ 西安电子科技大学 ，中国 西安 710071  ）
+(Xidian University , Xi'an 710071 , China )DOI：10.12142 /ZTETJ .202306005
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231211 .1535 .008.html
+网络出版日期 ：2023 -12-12
+收稿日期 ：2023 -10-15
+摘要 ：面向未来 6G移动通信系统超高数据密度的业务需求场景 ，为保障用户服务质量 （QoS）并降低系统能耗 ，首先分析了移动通信系统的能
+耗构成 ，发现了系统能耗的非线性特征 。然后在此基础上 ，设计了多时隙业务联合整形的低能耗资源调度方法 。该方法通过感知用户业务流量
+和时延要求等需求侧的数据特征 ，利用深度强化学习算法在给定的多个时隙内动态调整基站资源分配策略 。该资源分配策略降低了用户业务请
+求的非平稳性 ，从而减少了基站的非线性传输特性产生的额外能耗 。最后通过软件仿真对比不同方法 ，验证了基于多时隙业务联合整形的理论
+和算法的正确性及有效性 。
+关键词 ：系统能耗的非线性特征 ；多时隙业务联合整形 ；低能耗资源调度 ；深度强化学习
+Abstrac t:Facing the business requirements scenario of ultra-high data density of future 6G mobile communication systems , to ensure user 
+quality of service (QoS) and reduce system energy consumption , the energy consumption composition of mobile communication systems is 
+analyzed and the nonlinear characteristics of system energy consumption is studied . On this basis , a low-energy resource allocation method 
+for multi-slot traffic joint shaping is designed . By sensing the data characteristics of the demand side such as user service traffic and delay 
+requirements , this method uses the deep reinforcement learning algorithm to dynamically adjust the base station resource allocation strat ⁃
+egy within a given multiple time slot . The resource allocation strategy reduces the non-stationarity of user service requests , thereby reduc ⁃
+ing the additional energy consumption caused by the nonlinear transmission characteristics of the base station . Finally , by comparing differ ⁃
+ent methods through software simulation , the correctness and effectiveness of the theory and algorithm based on multi-time slot business 
+joint shaping are verified .
+Keywords :nonlinear characteristics of system energy consumption ; multi-slot traffic joint shaping ; low energy resource allocation ; deep rein ⁃
+forcement learning
+引用格式 ：李建东 , 牛淳隆 , 赵晨曦 , 等. 基于多时隙业务联合整形的低能耗资源调度方法  [J]. 中兴通讯技术 , 2023 , 29(6): 23-28. DOI: 10.12142 /
+ZTETJ .202306005
+Citation : LI J D , NIU L C , ZHAO C X , et al . A multi-slot traffic shaping based resource allocation method for low energy consumption [J]. ZTE 
+technology journal , 2023 , 29(6): 23-28. DOI: 10.12142 /ZTETJ .202306005
+随着5G移动通信的全面商用 ，未来的 6G移动通信系统
+的网络性能[1]将在原有的业务场景下进一步提升 。6G
+移动通信将组成一个巨大的分布式神经网络 ，实现通信 、感
+知、计算 、存储一体化[2]，深度融合物理世界 、生物世界和
+数字世界 ，真正实现 “万物互联 ” 。同时 ，随着人工智能
+（AI）技术的进一步发展 ，6G通信网络将会更加智能化[3]。
+基于数据驱动的算法赋能网络动态的自我学习能力和调节能力，充分挖掘用户的潜在需求并制定个性化的服务 。此外 ，
+超密集异构网络 （UDN）[4]在未来 6G移动通信系统的发展中
+依然占据主导地位 ，6G基站的密度进一步提高 ，用户的业
+务数据请求维度进一步增大 ，数据服务的个性化要求进一步
+提升 。上述的发展需求对未来的移动通信网络提出了更高的
+要求 ，如更加密集的基站数目 、更多的天线阵列和更多维度
+的资源管控问题[5]。
+截至 2022 年底 ，全国移动通信基站总数达 1 083万个 。
+基站越多 ，对应的频谱资源管控问题越复杂 ，同时如果资源
+ 基金项目 ：国家重点研发计划项目 （2022 YFB2902302 ）
+23

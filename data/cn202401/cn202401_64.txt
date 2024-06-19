@@ -1,0 +1,54 @@
+面向 Critical MTC 的无连接传输 李志岗  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1面向 Critical MTC 的无连接传输
+Connection-Free Transmission for Critical MTC
+李志岗 /LI Zhigang1，2，袁志锋 /YUAN Zhifeng1，2，
+董展谊 /DONG Zhanyi1，2，李文斌 /LI Wenbin1，2，
+梁楚龙 /LIANG Chulong1，2
+（ 1.中兴通讯股份有限公司 ，中国 深圳 518057 ；
+2.移动网络和移动多媒体技术国家重点实验室 ，中国 深圳 518055  ）
+(1.ZTE Corporation , Shenzhen 518057 , China ;
+2.State Key Laboratory of Mobile Network and Mobile Multimedia Tech ⁃
+nology , Shenzhen 518055 , China )DOI：10.12142 /ZTETJ .202401011
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20240227 .1009 .004.html
+网络出版日期 ：2024 -02-27
+收稿日期 ：2024 -01-10
+摘要 ：关键机器类通信 （Critical MTC ）对时延和可靠性都有极高的要求 。支持海量 Critical MTC 的终端是一个巨大挑战 。提出了一种面向海量
+Critical MTC 终端的无连接传输方案 。为了降低时延 ，提出了基于竞争的无连接单次传输方案 ；为了实现高可靠性 ，设计了具有极低导频碰撞概
+率的稀疏正交多导频 。进一步利用大规模多输入多输出 （MIMO ）的增益来提高可靠性以及在空域复用大量用户 。仿真结果表明 ，提出的方案
+可以支持海量 Critical MTC 终端，同时满足低时延和高可靠的严格要求 。
+关键词 ：无连接传输 ；Critical MTC ；低时延高可靠 ；导频碰撞 ；稀疏正交导频
+Abstrac t:Critical machine-type communication (Critical MTC ) has extremely high requirements for latency and reliability . Supporting massive 
+critical MTC terminals simultaneously is a huge challenge . A connection-free transmission scheme for critical MTC is proposed . To reduce 
+latency , a contention-based connection-free one-shot transmission scheme is proposed . To achieve ultra-reliability , multiple sparse or ⁃
+thogonal pilots with extremely low probability of pilot collision are designed . Furthermore , the gain of massive multiple-input multiple-
+output (MIMO ) is used to improve reliability and multiplex a large number of users in the spatial domain . The simulation results show that 
+the proposed scheme can support a large number of critical MTC terminals while meeting the stringent requirements of low latency and 
+ultra-reliability .
+Keywords :connection-free transmission ; Critical MTC ; ultra reliable low latency ; pilot collision ; sparse orthogonal pilot
+引 用 格 式 ：李 志 岗 ，袁 志 锋 ，董 展 谊 ，等. 面 向 Critical MTC 的 无 连 接 传 输  [J]. 中 兴 通 讯 技 术 , 2024 , 30(1): 60-67. DOI : 10.12142 /
+ZTETJ .202401011
+Citation ： LI Z G , YUAN Z F , DONG Z Y , et al . Connection-free transmission for critical MTC [J]. ZTE technology journal , 2024 , 30(1): 60-67. 
+DOI: 10.12142 /ZTETJ .202401011
+国际电信联盟 （ITU）在2023 年6月完成了 《IMT 面向
+2030 及未来发展的框架和总体目标建议书 》[1]。该建
+议书提出了 6G[2-5]六大典型应用场景 。这些场景不仅包括 5G
+三大典型应用场景的扩展 ：增强移动宽带 （eMBB ）扩展到
+沉浸式通信 、大规模机器类通信 （mMTC ）扩展到海量通
+信、超可靠低时延通信 （URLLC ）扩展到极可靠低时延通
+信（HRLLC ） ，还包括新的三大应用场景 ：通智融合 、通感
+一体和泛在连接 。其中 ，mMTC/ 海量通信旨在支持大规模的
+物联网设备连接 ，满足海量低成本 、低功耗设备的连接需求，极可靠低时延通信则是为了满足低时延和高可靠性通信
+的需求 ，以确保实时和关键性应用的可靠性和稳定性 。
+机器类通信 （MTC）作为 5G重要的应用场景之一[6-8]，
+按需求可以分为两类 ：mMTC 和关键机器类通信 （Critical 
+MTC） 。其中 ，Critical MTC 可以认为是极可靠低时延通信和
+海量通信的融合[9-10]。Critical MTC 对可靠性和时延都有严格
+的要求 ，未来对终端数量也有较高的需求 。Critical MTC 可
+以应用在工业物联网 （IIoT） 、智慧交通 、远程医疗等领
+域[11]。据白皮书预测 ，Critical MTC 将是 6G的一个重要应用
+场，高效支持海量 Critical MTC 终端是一个巨大挑战[12]。
+1 Critical MTC 能力指标与关键技术
+Critical MTC 除了对可靠性和时延具有严格的要求外 ，基金项目 ：国家重点研发计划项目 （2020 YFB1807202 ） ；广东省重点领域研发
+计划 （2019 B010157002 ）
+60

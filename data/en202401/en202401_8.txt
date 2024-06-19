@@ -1,0 +1,99 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LIU Mengyu , ZHANG Yang , JIN Yasheng , ZHI Kangda , PAN Cunhua Special Topic   Towards Near -Field Communications for 6G: Challenges and Opportunities
+47 m for millimeter waves at 28 GHz . As the Rayleigh dis ⁃
+tance increases , the user will be easily located in the near 
+field rather than the far field of the base station (BS), meaning 
+that the consideration of the near -field effect is crucial in 6G 
+wireless communications . Within the near field , far field mod ⁃
+els that approximate EM waves as plane waves are no longer 
+accurate and the spherical shaping of the wavefront cannot be 
+neglected[14]. This new property renders current wireless com ⁃
+munication models and findings based on far field assump ⁃
+tions inapplicable in the near -field cases . Therefore , it is nec ⁃
+essary to re -investigate the challenges , potential benefits , and 
+solutions introduced by considering near -field communica ⁃
+tions to advance 6G communication capabilities .
+Nowadays , there are relatively few articles about near -field 
+communication in 6G[15–18]. The author of Ref . [15] provided 
+an overview of 6G wireless systems including challenges , in⁃
+sights , and related opportunities . Although the article elabo ⁃
+rated on the challenges brought by the near field in future 6G 
+wireless communication , there is a lack of explanation of its 
+specific issues and opportunities . The authors of Ref . [16] pre⁃
+sented an overview of near -field communications , contrasted it 
+with far -field communications , and analyzed the key chal ⁃
+lenges . However , the description of the channel modeling pro ⁃
+cess is neglected . The authors of Ref . [17] studied the basic 
+channel models , antenna structures , and analytical founda ⁃
+tions . Furthermore , the authors of Ref . [18] studied the new 
+opportunities brought by the near -field beam focusing caused 
+by the near -field communications , which is different from that 
+in the far field . Different from the above articles , we focus on 
+more specific research problems in near -field communica ⁃
+tions , especially the combination of near -field communication 
+and new technologies , including the lat ⁃
+est research results in the fields of deep 
+learning and near -field beam training , 
+RIS -aided near -field localization , and 
+near -field transmission scheme design 
+with visibility regions (VRs).
+In this paper , we systematically pres ⁃
+ent the fundamental models , recent ad ⁃
+vancements , and solutions in 6G near -
+field communication . To begin with , we 
+introduce the overall spatial channel 
+model , where the communication region 
+is divided into three parts given different 
+characteristics of array propagation sig ⁃
+nal phases and power . Subsequently , we 
+introduce the formulation of the channel 
+model encompassing the MIMO systems , 
+accounting for both the far field and the 
+near field . Then , we present recent ad ⁃
+vances in near -field communication for 
+6G, including near -field beam training , 
+near -field localization , and near -field transmission scheme design . We elaborate on the challenges 
+encountered in near -field communication within these use 
+cases and provide corresponding solutions . Finally , we share 
+some promising research directions for near -field communica ⁃
+tion, such as investigating the effectiveness of near -field beam 
+training in complex environments , proposing near -field local ⁃
+ization algorithms with low complexity and overhead , and car ⁃
+rying out channel measurements to verify and modify the near -
+field EM channel model .
+2 Fundamentals of Near -Field Communica ⁃
+tions
+In this section , we first introduce the overall space channel 
+model . Subsequently , we elaborate on the modeling approach 
+to the near -field channel . Additionally , the spatial nonstation ⁃
+ary property of the channel in the near field is investigated .
+2.1 Analysis of the Overall Space Channel Model
+As illustrated in Fig. 1, the space from BS to the user can 
+be divided into three regions : far field , radiating near field , 
+and reactive near field . These regions are divided according to 
+the Rayleigh distance and Fresnel distance[19–21], respectively . 
+The far field refers to the region where the distance between 
+the transmitter and the receiver exceeds the Rayleigh dis ⁃
+tance , allowing the propagating signal to be safely approxi ⁃
+mated as the plane wave . In the radiating near field , the dis ⁃
+tance between the transmitter and the receiver is typically less 
+than the Rayleigh distance but greater than the Fresnel dis ⁃
+tance , where the propagating signal can no longer be modeled 
+as the plane wave ; instead , the accurate spherical wave model 
+NUSW : non -uniform spherical wave
+UPW : uniform planar waveUSW : uniform spherical wave
+▲Figure 1. Overall channel modelBase stationSpherical wavefronts
+NUSW USW
+·Non -linear phase
+·Non -uniform power·Non -linear phase
+·Uniform powerPlanar wavefronts
+UPW
+·Linear phase
+·Uniform power
+User
+Uniform power distance
+Radiating near field
+Fresnel distance Rayleigh distanceFar fieldPropagation 
+distance
+Reactive near field
+04

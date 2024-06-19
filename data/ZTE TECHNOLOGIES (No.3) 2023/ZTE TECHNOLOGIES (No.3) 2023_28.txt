@@ -1,0 +1,84 @@
+Fig. 2. 5G dual-
+domain private 
+network solution 
+based on NodeEngine.
+NodeEngine
+Internet
+Local
+network
+2C default
+S-NSSAI
+5G device 5G 2B device 4G device2B S-NSSAILocal data center
+2C PLMNInternet traﬃc
+Local traﬃc 5GC EPC
+BBU & NodeEngine
+CampusApplications
+ZTE’s 5G dual-domain private network 
+solutions have been commercialized in 
+several campuses and industrial parks. ZTE 
+worked with a telecom operator to deploy 
+the ULCL-based 5G dual-domain private 
+network in a university in Wuhan in 
+September 2021. Teachers and students can 
+access both the Internet and intranet while 
+on campus, and only the Internet when oﬀ 
+the campus.
+In August 2022, ZTE cooperated with an 
+operator to deploy the NodeEngine-based 
+5G dual-domain private network in an 
+industrial park in Inner Mongolia. A set of 
+NodeEngine solution was used to enable 
+simultaneous access of the 4G/5G private 
+network and enterprise users in the 
+industrial park. By signing a speci/f_ic RFSP/
+SPID with enterprise users, employees in 
+the park can access both the Internet and 
+the intranet. When leaving the park, they 
+can only access the Internet. 
+Summary
+With the rapid growth of 5G and 
+further improvement of infrastructure, 
+the trend of replacing Wi-Fi with 5G in 
+campus scenarios has become inevitable. 
+Both ULCL-based and the NodeEngine-
+based 5G dual-domain private network 
+solutions are designed to address the 
+limitations of campus networks and 
+enable access to 4G/5G-converged 
+networks, expanding their application 
+scenarios. As a leading global provider 
+of integrated communications solutions, 
+ZTE has been committed to proactively 
+addressing customer needs and working 
+with partners to constantly improve 5G 
+dual-domain private network solutions. 
+This will drive the deep integration of 
+5G+ industries, promoting the digital 
+and intelligent transformation across 
+various sectors. 
+4G/5G Multi-Service Integration with Local 
+Access
+A set of NodeEngine solution can support 
+simultaneous 4G/5G network access and 
+multi-service access to the enterprise 
+intranet, satisfying the requirements of both 
+mobile phones and B2B terminals and 
+services. As a result, this solution meets the 
+local access needs of existing 4G terminal 
+users and protects the investment in 4G. 
+Seamless Oﬄoading and Secure Control
+The solution implements seamless data 
+traﬃc divergence through one-phone-
+one-card access, allowing enterprise 
+employees to simultaneously access the 
+Internet and the enterprise intranet. The 
+NodeEngine performs local traﬃc oﬄoading 
+and allows enterprise users to sign a speci/f_ic 
+RAT/frequency selection priority (RFSP). By 
+identifying users with RFSP labels, it 
+achieves synergetic access and eﬀective 
+management control for speci/f_ic enterprise 
+users on both public and private networks. 
+Only signed enterprise users are allowed to 
+access the enterprise’s intranet services. 
+265G Fully-Connected Factory Special Topic

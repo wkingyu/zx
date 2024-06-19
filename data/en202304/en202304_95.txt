@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Research Papers   Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos
+these studies . On the other hand , some researchers managed 
+to evaluate the sense of presence using physiological sig ⁃
+nals[14–17]. However , this type of method requires professional 
+equipment and the reliability of experimental results strongly 
+relies on the accuracy of the devices .
+To the best of our knowledge , most human perception re ⁃
+search carried out for 360 -degree videos only focused on the 
+perceptual video quality instead of the spatial presence . Re⁃
+cently , we conducted a subjective evaluation experiment on 
+the spatial presence of end users when watching 360 -degree 
+videos displayed on VR devices[18]. We aimed to quantitatively 
+investigate the relationship between various impact factors 
+and the spatial presence .
+In this paper , based on the research outcomes of Ref . [18], 
+the characteristics of the display device of 360 -degree videos 
+are considered . We propose a framework in hierarchical struc ⁃
+ture to clarify the influencing factors of the spatial presence , 
+where both the features of 360 -degree video and HMD are con ⁃
+sidered . A series of rigorous subjective experiments are de ⁃
+signed to reveal the relationship between various influencing 
+factors and the spatial presence . Furthermore , a quantitative 
+evaluation model of spatial presence is built in this work . Con⁃
+tributions of this paper can be concluded as follows :
+1) We propose the first framework to identify the compo ⁃
+nents of spatial presence . This framework provides valuable 
+input for establishing models of assessing the spatial presence 
+of VR services .
+2) We reveal the relationship between spatial presence and 
+various related impact factors based on subjective ratings , 
+which can be used as recommendations for further improving 
+the quality of 360 -degree video services .
+3) We propose the first quantitative model to measure the 
+spatial presence when watching 360 -degree videos on the 
+HMD . The parameters employed in the proposed model can be 
+easily extracted , hence the model would be conveniently de ⁃
+ployed on the network or client to assess the user ’s presence .
+The rest of this paper is organized as follows . Section 2 in⁃
+troduces the related work . Section 3 illustrates the assessment 
+framework and the subjective experiments . Section 4 intro ⁃
+duces the proposed model in detail . In Section 5, the perfor ⁃
+mance of the proposed model is evaluated . Conclusions are 
+drawn in Section 6.
+2 Related Work
+Over the last thirty years , researchers have explained and 
+defined the concept of presence in several different ways . For 
+instance , LOMBARD et . al.[8] defined it as the experience of 
+being engaged by the representations of a virtual world in 
+2002 . Very recently , presence was defined as the feeling of be ⁃
+ing in a perceptible external world around the self[4–7]. The 
+evolution of understanding and definition of the presence was 
+summarized in Refs . [7] and [9]. As the above research is more 
+related to psychoanalysis , straightforward solutions to the mea ⁃surement of presence were outside the scope of these studies . 
+How to measure the presence in practice is still unknown .
+To acquire the subjective sense of presence , some research ⁃
+ers resorted to the design of subjective response question ⁃
+naires[19–24]. More specifically , authors in Ref . [19] designed a 
+questionnaire , called the immersive tendencies questionnaire 
+(ITQ), to investigate the relationship between users ’ sense of 
+presence and some handcrafted influential aspects in virtual en ⁃
+vironments . Authors in Ref . [22] designed a spatial presence 
+questionnaire , named MEC Spatial Presence Questionnaire 
+(MSC -SPQ), to investigate the influence of possible actions , self -
+location , and attention allocation on users ’ sense of spatial 
+presence . However , these studies only focused on revealing the 
+qualitative relationship between specific human perceptual as ⁃
+pects and presence in the generalized VR environment . On the 
+other hand , some researchers tried to evaluate the presence us ⁃
+ing physiological signals[14–17]. This type of measurement re ⁃
+quires the deployment of professional equipment which is im ⁃
+practical for real -world applications . Therefore , designing accu ⁃
+rate and implementation -friendly experimental methods to mea ⁃
+sure presence is of fundamental importance .
+As for the human perception research specifically carried out 
+for 360 -degree videos , to our best knowledge , most studies only 
+focused on evaluating the quality of experience aspects[25–33] in⁃
+stead of assessing the sense of presence . For instance , authors in 
+Ref. [25] investigated how to assess the video quality of 360 -de⁃
+gree videos corresponding to different projection approaches . A 
+quality metric , called spherical peak signal to noise ratio (S-
+PSNR ) was proposed to summarize the average quality over all 
+possible viewports as the video quality . In Ref . [26], authors pro ⁃
+posed an objective video quality assessment method using a 
+weighted PSNR and special zero area distortion projection 
+method for 360 -degree videos . In Ref . [30], authors measured 
+viewport PSNR values over time to assess the objective video 
+quality of 360 -degree video streaming . Recently , authors in Ref . 
+[33] introduced visual attention in assessing the objective qual ⁃
+ity of 360 -degree videos with the assumption that not all of the 
+360 -degree scene is actually watched by users . However , as dis ⁃
+cussed above , the spatial presence of end users was not fully 
+considered in existing research . Our recent work[18] conducted a 
+preliminary experiment for assessing the spatial presence of end 
+users when viewing 360 -degree videos displayed on VR devices . 
+However , modeling the spatial presence of end users is not cov ⁃
+ered. How to quantitatively evaluate users ’ sense of spatial pres ⁃
+ence when viewing 360 -degree videos remains an open issue .
+3 Subjective Evaluation Framework and 
+Subjective Experiments
+In this section , a hierarchical framework with five percep ⁃
+tion modules is first proposed to assess spatial presence . 
+Based on this framework , five subjective experiments were de ⁃
+signed and conducted according to each module in the frame ⁃
+work . Results of subjective experiments are used to investi ⁃
+92

@@ -1,0 +1,92 @@
+well-suited for accommodating this mix of 
+various channel spacing requirements in 
+transmission. It can dynamically allocate 
+spectrum as needed, leading to eﬃcient 
+spectrum utilization and conservation of 
+spectral resources.
+In the WASON service restoration 
+scenario, /f_ixed grids need to manually 
+con/f_igure all ports of WSS and OPM 
+spectrum analysis boards on the 
+working and restoration routes. When 
+a large number of alarms occur on idle 
+network ports, the typical practice is 
+to suppress these alarms. However, in 
+cases where WASON services need to 
+recover due to factors like optical cable 
+interruptions, the previously idle ports 
+become active for the restoration path. 
+In such situations, it’s challenging to 
+manually and promptly remove the alarm 
+suppression from these parts, which can 
+lead to a problem of real network alarms 
+being overlooked. In contrast, /f_lexible 
+grids can automatically enable the 
+ports on the route taken by the service 
+through WSS and OPM spectrum analysis 
+boards. When the service route changes, 
+the system automatically removes these 
+ports, ensuring that network alarms are 
+always visible throughout the process. 
+This feature makes network maintenance 
+more convenient. 
+In a fully automated /f_lexible grid 
+scenario, during the optical-layer 
+end-to-end service provisioning phase, 
+the system can automatically identify 
+and adjust parameters related to service 
+boards and the optical channel’s spectral 
+width. This eliminates the manual 
+con/f_iguration steps for individual 
+network WSS bandwidth and OPM 
+spectral analysis board ports, simplifying 
+network deployment. In the network 
+maintenance phase, WASON services 
+can automatically enable WSS and OPM 
+ports on new recovery routes, and idle 
+ports are automatically removed when the services are restored. This advanced 
+capability facilitates autonomous network 
+management. 
+Intelligent Applications 
+ZTE and a Turkish mobile operator 
+collaborate for the /f_irst time to implement 
+a simpli/f_ied deployment of OTN networks 
+using a combination of intelligent 
+solutions. This deployment encompasses 
+the management and control integrated 
+services, enabling OMS APO and OCH APO 
+functionalities, with all scenarios based on 
+/f_lexible grids.
+In the network deployment phase, there’s 
+no need for WSS channel setting, EOPM 
+channel setting, or OA board resource 
+allocation, resulting in a workload reduction 
+of over 40% for single-point network 
+con/f_igurations. The system automates optical 
+power adjustments, boosting end-to-end 
+service activation eﬃciency by over 70%. 
+In the network maintenance phase, 
+APO can automatically adjust the power of 
+the optical system in real time, achieving 
+intelligent network self-healing and greatly 
+reducing the network management and 
+maintenance costs.  
+In terms of network evolution, the 
+use of /f_lexible grids enables the system 
+to automatically allocate resources 
+when transitioning to diﬀerent service 
+bandwidths, such as 400G in the future. This 
+facilitates signi/f_icant network scalability 
+and growth. 
+ZTE’s OTN intelligent applications come 
+with distinct advantages in saving manpower 
+and time costs, improving network 
+maintenance and management eﬃciency, 
+and promoting network scalability. The 
+intelligent OTN solution is expected to be 
+widely used in future network construction 
+and optimization, helping customers achieve 
+rapid and simpli/f_ied network deployment, 
+along with intelligent self-healing 
+capabilities. 
+31OCT 2023

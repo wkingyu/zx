@@ -1,0 +1,94 @@
+Ultimately, the communication, navigation, 
+sensing (CNS) requirements of low-altitude 
+applications can be met.
+ZTE’s Eﬀorts in Verifying Integrated 
+Sensing and Communication 
+ZTE has been actively exploring and 
+applying ISAC.
+In May 2023, ZTE completed the industry's /f_irst 
+5G “integrated sensing, computation, control 
+and communication" low-altitude drone route 
+veri/f_ication  in Shenzhen with the industry's 
+/f_irst monostatic mode ISAC AAU prototype. 
+The system can detect drones with an area as 
+small as 0.01 square meters, and achieve a 
+sub-meter sensing accuracy, a sensing 
+distance of more than 1 km, and a detection 
+accuracy of more than 99%.
+In September 2023, in order to facilitate 
+low-altitude security inspection during the 19th 
+Asian Games held in Hangzhou, ZTE carried out 
+the application veri/f_ication of a single ISAC AAU 
+device to achieve low-altitude drone control in 
+the Asian Games Village. The AAU can sense the 
+/f_light trajectory of a drone in real time and alert 
+when the drone approaches a warning area, 
+thereby greatly ensuring the low-altitude safety 
+of the Asian Games.
+In October 2023, ZTE completed the industry's 
+/f_irst 5G-A ISAC networking veri/f_ication test, 
+marking a transition from single-point technical 
+veri/f_ication to multi-station regional 
+networking applications. This represents a 
+critical step in exploring low-altitude security 
+assurance and expanding the capacity of 
+communicating networks.
+Moving forward, ZTE will continue to work with 
+industry partners to explore the potential 
+capabilities of “communication+perception+N 
+technology” , conduct system experiments, build 
+end-to-end capabilities, and enhance the 
+integration of multiple 5G-A technologies and the 
+maturity of related industry chains, creating 
+unlimited possibilities for social development and 
+industry upgrading.
+ 
+For low-altitude navigation, high-frequency and 
+high-density low-altitude activities require a more 
+digital and re/f_ined aircraft navigation mode. This 
+requires not only the support of communication 
+facilities, but also the exploration and use of new 
+technical means, such as computer vision, for 
+positioning and navigation.
+5G-Advanced will continue to enhance 
+network performance in terms of coverage, 
+capacity, and user experience. More importantly, 
+it will enhance the business value of 5G networks. 
+ZTE's integrated sensing and communication 
+(ISAC) solution extends the business scope of the 
+5G network from communication into sensing. As 
+one of the important innovative technologies for 
+monetizing the 5G network, it enables the 5G base 
+station to serve as the digital infrastructure of the 
+low-altitude economy, providing capabilities such 
+as real-time broadband communications, precise 
+sensing, positioning and sensing data calculation.
+First, ZTE achieves network coverage in 
+low-altitude areas by using technologies such 
+as large-scale antenna arrays. Leveraging the 
+networking characteristics of base stations, 
+ZTE provides high-speed and reliable 
+communication networks with stable, 
+continuous, seamless coverage for 
+low-altitude areas.
+Second, ZTE leads the industry with the 
+implementation of the monostatic sensing 
+mode AAU. Compared with the bistatic sensing 
+mode, monostatic sensing mode is more /f_lexible 
+and convenient for base station networking. The 
+introduction of ISAC enables 5G base stations to 
+detect the position, speed, trajectory of 
+low-altitude drones, thereby enabling the 5G 
+network to provide capabilities such as 
+positioning, navigation, and trajectory tracking 
+alongside low-altitude communications.
+Moreover, the computing power provided by the 
+industry's unique NodeEngine computing power 
+base station can realize sensing data calculation, 
+encompassing sensing calculation, target 
+recognition, trajectory prediction, monitoring 
+control and video processing. Through capability 
+openness, sensory data can be shared with a 
+low-altitude management platform. 
+ FEB 2024
+ 21

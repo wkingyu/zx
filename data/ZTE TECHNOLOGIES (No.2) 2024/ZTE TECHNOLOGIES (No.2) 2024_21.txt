@@ -1,0 +1,82 @@
+Fig. 1. SPN private 
+line products.
+SPN Private Line Technology
+To establish a precise, integrated, intelligent, and 
+low-carbon next-generation service transport 
+network, SPN technology continually evolves to 
+cater to various scenarios, including 5G transport, 
+industry sectors, and government and enterprise 
+networks. The rich customization capabilities of the 
+SPN private line is built upon several key SPN 
+technologies.
+Hard-Isolated Channel  
+The SPN architecture innovatively introduces 
+slicing Ethernet technology, which extends Ethernet 
+slicing capabilities based on the native Ethernet 
+kernel. It is fully compatible with current Ethernet 
+networks while eliminating the need for packets to 
+go through caching and table lookup at L2/L3. SPN 
+also supports FlexE interfaces and slicing Ethernet 
+cross-connect (SE-XC) channel technologies. This 
+enables Ethernet physical layer networking, which 
+provides deterministic low latency and hard pipe 
+isolation, primarily used for basic slicing in 5G 
+granularity.
+Inheriting SPN’s eﬃcient Ethernet kernel, SPN /f_ine 
+granularity unit (FGU) technology incorporates 
+/f_ine-granularity slicing into the SPN architecture 
+through a hierarchical design, providing end-to-end 
+/f_ine-granularity hard pipes at the FGU sublayer. The 
+FGU uses a TDM mechanism similar to SDH to achieve 
+strict hard isolation between diﬀerent services. By 
+de/f_ining a /f_ixed frame structure, this technology 
+further divides the 5 Gbps time slot at the SPN channel 
+layer, with a minimum granularity of 10 Mbps. SPN FGU technology constructs eﬃcient, lossless, 
+bandwidth-/f_lexible, and reliable end-to-end channels 
+and transport modes to meet diﬀerentiated transport 
+requirements (e.g., low bandwidth, high isolation, and 
+high security) in scenarios like 5G–for-industry-sector 
+applications and private lines.
+Network Quality Perception 
+Leveraging inband operations, administration, and 
+maintenance (OAM), SPN oﬀers end-to-end inband and 
+real-time monitoring capabilities, facilitating direct 
+measurement of service packets. This enables real-time 
+awareness of the SLA for each service and packet. With 
+second-level telemetry data collection, uni/f_ied control, 
+computation, and visualization capabilities, it provides 
+real-time visibility into network quality, active 
+monitoring and rapid fault location.
+ZTE’s inband OAM functionality supports a vast 
+number of concurrent instances, self-learning of traﬃc 
+control, and scenario-focused priority assurance, 
+enhancing network quality perception capabilities of 
+the SPN for carrying diverse services.
+Multiple Network Protection Mechanisms  
+Within the SPN architecture, there exists both a 
+centralized control plane for the management and 
+control system and a distributed control plane for 
+devices, providing multiple network protection 
+mechanisms. The SPN provides basic linear protection 
+modes, such as segment routing-transport pro/f_ile 
+(SR-TP) 1:1 protection, and also VPN fast reroute (FRR) 
+node protection. These network protection 
+mechanisms greatly improve the reliability and security 
+of the SPN. Take the SR-TP tunnel as an example. If both 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Basic SPN private line Premium SPN private line Customized SPN private network
+Product 
+categoryNetwork upgrade over traditional 
+private lineTenant-/service-level dedicated line Big-customer-level private network
+Network 
+solution
+Group customer
+ EnterpriseCloud APR 2024
+ 19

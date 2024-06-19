@@ -1,0 +1,60 @@
+average bandwidth requirement. Typically, 
+burst bandwidth can be 3–5 times that of 
+the average bandwidth. 
+Four Key Principles for 10G PON 
+Construction
+Network construction ahead of service 
+provision:  Network construction forms the 
+foundation for service development and 
+must be done ahead of service growth. 
+Considering future network upgrade 
+and evolution requirements, network 
+construction requires early planning and a 
+forward-looking approach. 
+Step by step:  Network construction is 
+not a one-time eﬀort but an ongoing 
+development process. Network 
+deployment leads the way, and customer 
+premise equipment (CPE) is connected 
+as needed. Throughout the construction 
+process, multiple factors such as service 
+development, market competition, and 
+capital investment must be taken into 
+account. 
+Targeting high-value users with high 
+ARPU:  Network construction should foster 
+user development and pro/f_it generation 
+by enhancing ARPU and customer 
+stickiness, positioning it ahead of market 
+competition. Considering end-to-end bandwidth 
+acceleration:  FBB network acceleration 
+is an end-to-end project spanning from 
+the core layer to the bearer layer and the 
+access layer. Any of these components may 
+impact the eﬀectiveness of bandwidth 
+acceleration, including Wi-Fi and PON 
+technology upgrades, the availability of 
+suﬃcient uplink and downlink bandwidth, 
+and the appropriate splitting ratio.
+10G PON provides four times the 
+bandwidth capacity of GPON and delivers 
+symmetric bandwidth to cater to the 
+requirements of high-bandwidth symmetric 
+services, such as enterprise private lines, 
+campus private networks, and industrial 
+applications. In addition, 10G PON provides 
+end-to-end gigabit access for FTTx, coupled 
+with Wi-Fi 6/Wi-Fi 7 technologies. 
+Any-PON: An Excellent Choice for 10G 
+PON Deploymen t
+ZTE recommends adopting the 
+pay-as-you-grow Any-PON approach for 
+building a 10G PON network, ensuring 
+network upgrades. 
+Any-PON uses diﬀerent optical modules 
+on a line card to connect diﬀerent ONUs, 
+enabling /f_lexible on-demand deployment 
+ 
+ 
+ Expert View
+08 

@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1REN Fang , LI Yidan , YE Bing , LIU Jianguo , CHEN Weizhang Research Papers   Real -Time 4-Mode MDM Transmission Using Commercial 400G OTN Transceivers and All -Fiber Mode Multiplexers
+where neff of the LP01 mode of the customized SMF is 1.453 at 
+1 550 nm. And a standard SMF with a core/cladding radius of 
+4.1/62.5 μm and Δn of 0.36% at 1 550 nm is adopted to phase -
+matching with LP21 and LP02 modes of the TRC -FMF .
+To satisfy the phase -matching condition , FMFs or SMFs are 
+firstly pre -tapered on a fused biconical taper station . Fig. 3 
+shows neff of the four LP modes in the TRC -FMF and LP01 
+modes in the customized SMF and standard SMF as functions 
+of the tapered radius , which are calculated by COMSOL multi ⁃
+physics and Matlab based on the fabricated index profiles . The 
+cross points of the dotted lines indicate the proper tapering ra ⁃
+dii for fabricating each MSC . We can see that the radius of the 
+customized SMF needs to be pre -tapered to 58.5/49.2 μm re⁃
+spectively for the LP01 and LP11 MSCs , while the radius of the 
+FMF is supposed to be pre -tapered to 57 μm for the LP21 
+MSC . For phase -matching with LP02 modes , the radius of the 
+standard SMF should be pre -tapered to 49 μm. Then the 
+FMFs and SMFs are respectively embedded into quartz blocks 
+and polished on the grinding platform (SW -22C, SAMWELL ). 
+After polishing , the two half couplers are mated together to 
+form the MSC .
+The LP01, LP11, LP21 and LP02 MSCs are then cascaded or ⁃
+derly by fusion splicing to form a 4-mode MMUX , and the 
+LP02, LP21, LP11 and LP01 MSCs are cascaded orderly by fusion 
+splicing to form the 4-mode DEMMUX , which is shown in Fig . 
+4(a). It should be noted that since a single MSC can only de ⁃
+multiplex one spatial component of each pair of degenerate 
+modes , a mode rotator is utilized before demultiplexing each 
+degenerate mode to change its spatial orientation and achieve 
+efficient demultiplexing . The output mode fields of the MMUX 
+is presented in Fig . 4(b) and Table 2 shows IL and the modal 
+crosstalk matrix of a pair of MMUX/MDEMUX and 25 km 
+weakly -coupled TRC -FMF . We can find that the maximum IL 
+of the 25 km MDM link is 11.56 dB (LP21 mode ) and the larg ⁃
+est relative modal crosstalk , which is defined as the power ra ⁃tio between the crosstalk and signal for any two LP modes , is 
+−17.5 dB (for the case of LP01 input and LP02 output ).
+3 Experimental Setup and Results
+3.1 Experimental Setup
+Real -time MDM -WDM transmission utilizing commercial 
+400G OTN transceivers and all -fiber side -polishing MMUX/
+MDEMUX was experimentally conducted with the experimen ⁃
+tal setup shown in Fig . 5. The 400G OTN transceivers used 
+dual -polarization (DP) 16 Quadrature Amplitude Modulation 
+(QAM ) with a baud rate of 69 Gbit/s (27% overhead ). Twelve 
+sets of 400G transceivers were configured with three wave ⁃
+lengths for each LP mode . The three central wavelengths for 
+each mode were chosen to be 1 529.528 nm, 1 550.892 nm 
+and 1 564.649 nm to evaluate the characteristics of our trans ⁃
+mission system over the C -band respectively . At the transmit ⁃
+ter, four wavelength -selective switches (WSS ) are utilized as 
+wavelength multiplexers (WMUX ) for each LP mode . Four 
+Erbium -doped fiber amplifiers (EDFA ) are followed to adjust 
+the input power for balancing the span loss of the four LP 
+modes in the MDM link . Then the wavelength -multiplexed sig ⁃
+nals are multiplexed by the 4-mode MMUX . After 25 km ▼Table 2. IL and modal crosstalk matrix of 25 km MDM link at 1 550 nm
+Input Mode
+LP01
+LP11
+LP21
+LP02Output Power/dB
+LP01
+-6.98
+-30.52
+-35.91
+-26.89LP11
+-27.18
+-9.58
+-31.78
+-28.73LP21
+-36.05
+-32.06
+-11.56
+-31.87LP02
+-27.85
+-30.17
+-33.49
+-10.34
+      IL : insertion loss      LP : linearly -polarized      MDM : mode division multiplexing
+▲Figure 3. Effective index of the four LP modes in a triple -ring -core 
+few -mode fiber (TRC -FMF ) and the LP01 mode in two kinds of SMFs 
+versus different tapered radiiFMF : few -mode fiber     LP : linearly -polarized      SMF : single -mode fiber
+▲Figure 4. Diagrams of (a) MMUX/MDEMUX and (b) output mode 
+fields of MMUXLP: linearly -polarized 
+MSC : mode -selective coupler MMUX : mode multiplexer 
+MDEMUX : mode demultiplexer
+Radius/ μmRefractive index1.455
+1.452
+1.449
+1.446
+40 50 60LP01 of FMF LP11 of FMF LP21 of FMF
+LP02 of FMF LP01 of customized SMF
+LP01 of standard SMF(a)
+(b)LP01LP11LP21LP02MDEMUXLP01
+MSCLP11
+MSCLP21
+MSCLP02
+MSC
+MMUX
+LP02
+MSCLP21
+MSCLP11
+MSCLP01
+MSC
+108

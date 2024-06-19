@@ -1,0 +1,73 @@
+pen-pit mines include 
+open-pit coal mines and 
+hillside stone mines. In 
+an open-pit coal mine, 
+the surface soil is stripped oﬀ to form 
+a huge mine with a depth of ten to 
+hundreds of meters. The coal seams 
+buried at the bottom of the pit are 
+dug up and transported to the coal 
+storage area. In a hillside stone mine, 
+stone materials are excavated from 
+top to bottom and transported to the 
+unloading area at the foot of the hill. 
+In recent years, the open-pit mining 
+industry has proposed an intelligent 
+development goal of “safety, fewer 
+people and unmanned coal mining”, 
+and there is an urgent need to reduce 
+costs and increase eﬃciency. With 
+mature applications of new 
+technologies such as machine vision, 
+self-driving, remote control and 5G 
+wireless communication, open-pit 
+mining is rapidly evolving to 
+intelligence. As the connection 
+infrastructure of intelligent mobile 
+equipment, the 5G private network 
+has been widely used in the core 
+production domain of mines. 
+Intelligent Open-pit Mining 
+Creates Need for Wireless 
+Communications 
+Open-pit coal mining involves explosion, loading, and transportation. 
+In the process of intelligent 
+transformation, new services are 
+introduced such as unmanned mining 
+truck transportation, remote control of 
+electric shovel, auxiliary equipment 
+monitoring, and intelligent vehicle 
+management and control. Wired 
+optical cables cannot meet the 
+mobility requirements of mining 
+trucks, which has created the need 
+for 5G wireless networks. 
+An open-pit mine covers a wide 
+area, ranging from two square 
+kilometers to dozens of square 
+kilometers. The core working surface is 
+slowly advanced, gradually getting 
+away from the coverage area of base 
+stations. Therefore, it is necessary to 
+swap and redeploy some base stations. 
+There are dozens to hundreds of 
+unmanned mining trucks, electric 
+shovels, excavators, earth-moving 
+trucks, and other heavy equipment in 
+the open-pit mine, which imposes high 
+requirements on the uplink capacity of 
+the network and the low latency and 
+high reliability of remote control 
+instruction transmission. 
+Open-pit mines have high 
+requirements for production safety 
+and reliability. When there are tasks 
+for high productivity, 24-hour 
+production is required and network 
+failures will greatly aﬀect mining 
+ToB Architect of ZTE RAN 
+Product PlanningZhou Jianhua5G Private Network Solution for 
+Open-Pit Mines: Promoting Large-Scale 
+Application of Unmanned Mining Truck s
+O
+365G Fully-Connected Factory Special Topic

@@ -1,0 +1,97 @@
+Fig. 1. Comparison between 
+the WASON distributed 
+control solution and the 
+management and control 
+integrated solution.the control plane. The controller provides 
+centralized route computation to improve 
+the success rate of service restoration. 
+The management and control integrated 
+solution abstracts the bandwidth supported 
+by each board through the network 
+management system, eliminating the 
+need for manual resource allocation for 
+optical-layer boards. The solution also 
+deploys collaborative services, enabling 
+direct end-to-end cross-layer deployment 
+of OAC services. After deployment, it can 
+generate optical channels (OCHs) while also 
+allowing a one-click removal of services. 
+This simpli/f_ies the steps involved in service 
+deployment and removal.  
+Automated Power Optimization 
+for Cost Reduction and Eﬃciency 
+Improvement 
+The optimization of optical power within 
+the optical power system for traditional 
+OTNs is carried out manually during joint 
+debugging and maintenance phases. This 
+is especially challenging in WASON service 
+restoration scenarios, where the number 
+of routes to be restored can be extensive. Manual operation methods are unable to 
+debug all available paths, demanding a 
+signi/f_icant amount of human eﬀort. The 
+traditional method of prefabricated paths, 
+due to its inability to cover all possible 
+routes, results in certain risks to network 
+robustness. Furthermore, it is unable to 
+promptly adjust optical power in the event 
+of optical cable degradation, consequently 
+aﬀecting services. 
+To tackle this challenge, ZTE has 
+implemented an automatic power 
+optimization (APO) solution. Through 
+intelligent algorithms, this solution enables 
+automatic control and optimization of optical 
+power throughout the entire network. 
+Compared with manual calculations and 
+interventions, this approach is closer to 
+optimal values. This not only enhances 
+transmission performance but also reduces 
+the need for extra transmission performance 
+margins, thereby lowering network 
+construction costs. 
+The APO solution includes a range of 
+functions such as collection and reporting 
+of power detector data, target power 
+preset for the power detector, power 
+parameter setting for the power controller, 
+First node
+WASONWASON
+Distributed controlManagement and control integrated solution
+Policy-based centralized control
+Route
+computing
+Service control
+Resource
+managementResource
+managementResource
+managementIntermediate
+node WASONEnd node
+WASON
+Connection
+managementCall
+management
+Connection
+managementConnection
+managementService controlFirst node
+WASON 
+Route
+computing
+Resource
+managementResource
+managementResource
+managementIntermediate
+node WASONEnd node
+WASON
+Connection
+managementCall
+management
+Connection
+managementConnection
+managementManagement and
+control server
+Centralized
+route computing
+Service
+information VS
+29OCT 2023

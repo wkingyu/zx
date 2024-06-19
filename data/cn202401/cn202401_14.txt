@@ -1,0 +1,83 @@
+6G新型多址技术探讨 严春林  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1仿真的稀疏交织多址 （SIDMA ）性能更好 （同样是 LDPC
+码） 。由于我们的 SIDMA 没有对重复因子进行优化 ，取值都
+是2，SIDMA 使用 LDPC 时在用户较大时有明显的性能损失 。
+同样是 SIDMA 方案 ，使用 CC码性能比 LDPC 更好 。图中在
+Eb/No 小于  3 dB时使用 CC可以支持 275个用户 ，使用 LDPC
+仅仅支持 225个用户 。这说明信道编码对 SIDMA 性能有较大
+的影响 。我们仿真结果 （使用 CC的SIDMA ）与理论界有大
+概1 dB的性能损失 。此处仿真所有用户重复因子是 2。在进
+行重复因子的优化后 ，SIDMA 可以取得更好的性能 ，如支
+持的激活用户数更大 ，或需要的信噪比更低 。 
+表4给出了基于 Reed-Muller 无码源多址方案性能仿真
+的参数设置 。仿真结果如图 12所示 。可以发现 ，当时隙数
+是128时，Reed-Muller 无源多址方案可支持 300个用户 。激
+活用户数大于 200后，由于用户间干扰加剧 ，5%用户接入
+失败率所需比特信噪比增加较快 ，但在激活用户数小于 200
+时基于 Reed-Muller 码无源多址方案性能较好 。Reed-Muller
+码的检测仅仅涉及相关运算 ，计算复杂度较低 ，因此适合作
+为信息比特数较小 （42 bit左右 ）的低复杂度无源多址方案 。4 结论
+本 文 中 我 们 回 顾 了 5G NOMA 的 研 究 历 程 ，总 结 了
+NOMA 主要方案及其特点 ，以及 5G NOMA 标准化的经验 ，
+同时介绍了当前大规模通信的理论突破和 6G新型多址的特
+点。6G新型多址采用竞争式免调度设计 ，支持海量用户接
+入，导频设计和信号检测使用了新的范式 。特别地 ，我们介
+绍了两种典型方案 ：稀疏 IDMA 和基于 Reed-Muller 码的多
+址方案 。这两种方案都可以支持接近 300用户的随机接入 。
+针对稀疏 IDMA ，我们讨论了信道编码对其性能影响 。在稀
+疏IDMA 中使用卷积码可以取得比 LDPC 更好的性能 。信息
+比特数较少时 ，Reed-Muller 码可以满足大规模用户随机接
+入，并且计算复杂度较低 。综合来说 ，稀疏 IDMA 有更大的
+设计灵活性 ，支持不同的用户数 、不同长度的信息比特和不
+同类型的信道编码 ，具有更好的应用前景 。
+参考文献
+[1] 3GPP. Study on non-orthogonal multiple access (NOMA ) for NR : 
+38.812 [S]. 2018
+[2] YUAN Y F , YUAN Z F , TIAN L . 5G non-orthogonal multiple access 
+study in 3GPP [J]. IEEE communications magazine , 2020 , 58(7): 
+90-96. DOI: 10.1109 /MCOM .001.1900450
+[3] YAN C L , YUAN Z F , LI W M , et al . Non-orthogonal multiple 
+access schemes for 5G [J]. ZTE communications , 2016 , 14(4): 11-
+16. DOI:10.3969 /j.issn.1673 -5188 .2016 .04.002
+[4] ITU-R . Framework and overall objectives of the future 
+development of IMT for 2030  and beyond [R]. 2023
+[5] 中国移动通信集团有限公司 . 6G新型多址接入技术白皮书  [R]. 2023
+[6] IMT- 2030（6G）推进组 . 6G典型场景和关键能力白皮书  [R]. 2022
+[7] IMT- 2030（6G）推进组 . 6G总体愿景与潜在关键技术白皮书  [R]. 
+2021
+[8] YUAN Z F , YU G H , LI W M , et al . Multi-user shared access for 
+▲图11 门限随活跃用户数的变化关系CC：卷积码      LDPC ：低密度奇偶校验码     SIDMA ：稀疏交织多址接入
+▼表 4 基于 Reed-Muller 码的无源多址仿真参数
+信道
+调制
+时隙数
+激活用户数
+信息比特数
+编码后比特数
+编码方法AWGN
+BPSK
+128
+50~300
+42
+256
+Reed-Muller
+AWGN ：加性高斯白噪声      BPSK ：二元相移键控图12 基于 Reed-Muller 码无源多址方案性能激活用户数50 100 150 200 250 300文献[22]所述 SIDMA
+SIDMA ， LDPC
+SIDMA ， CC
+Random coding[21]6
+5
+4
+3
+2
+1
+05% 用户接入失败率所需 Eb/No
+激活用户数5% 用户接入失败率所需 Eb/N0
+50  100 150 200 250 30014
+12
+10
+8
+6
+4
+2
+10

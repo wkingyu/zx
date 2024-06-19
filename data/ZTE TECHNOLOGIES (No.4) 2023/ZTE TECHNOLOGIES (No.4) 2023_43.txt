@@ -1,0 +1,90 @@
+achieving the ultralong distance required by backbone 
+networks—many thousands of kilometres—becomes 
+highly challenging. This is especially true at higher 
+capacity, as it’s also diminished by attenuation. And, 
+as with capacity, new thinking is required so that 
+backbone reach can continue expanding to meet 
+growing Internet usage demands.
+Various techniques can be deployed to yield 
+moderate gains in achievable distance, but ZTE 
+proposes that it’s only possible to increase the 
+distance capability of 400G networks by up to 60% by 
+combining three technology innovations:
+A new module in 400G QPSK capable of handling 
+1.2 terabits per second and is able to support up to 
+130G baud rates
+A 3D fusion package—a modelling tool that 
+uni/f_ies design, engineering, electronics and 
+manufacturing into a single software platform. This 
+reduces internal connection distance and improves 
+high-speed signal performance
+ZTE’s new Flex Shaping 2.0 algorithm.
+This solution was tested by China Mobile in 
+a backbone connection simulation, following a 
+route from Zhejiang to Guizhou. According to the 
+companies, a distance of 2,808 km was achieved, and 
+in an extreme veri/f_ication scenario the backbone 
+achieved a reach of 5,616 km.
+Energy Eﬃciency
+Backbone capacity and distance improvements 
+must not be delivered at the cost of higher energy 
+usage per bit. Here also, ZTE claims that some 
+new capabilities are coming into play: new optical 
+modules can reduce gigabit energy in the backbone 
+by 35%, from 0.275 W to 0.175 W per gigabit—not a 
+bad start.
+Accommodating the rapidly rising traﬃc from 
+Internet usage, and doing so with a phased-in 
+approach to performance enhancement and cost, 
+isn’t a trivial task for network operators. 400G 
+backbone represents the next horizon to reach if 
+they’re to stay ahead of demand. It won’t be the last 
+development in the /f_ield, but it does mean that the 
+backbone can continue to provide shape, sturdiness 
+and dependability to the overall network for some 
+time to come.So, what are the criteria for building a 400G 
+backbone? If we think of the backbone network 
+as the highway of Internet connectivity, not only 
+must it be ultrawide in terms of bandwidth, but 
+also ultralong in terms of reach and more energy-
+eﬃcient than previous iterations.
+Ultrawide Capacity
+Optical /f_ibre can be divided into several bands, 
+with each being an independent channel to 
+transmit a predetermined wavelength. According 
+to ITU-T standards, single-mode /f_ibre in the range 
+over 1,260 nanometres is divided into six bands.
+C-band, known as the conventional band, shows 
+the lowest signal loss and oﬀers advantages in 
+long-distance transmission systems. As transmission 
+distance increases, /f_ibre optic ampli/f_iers are used 
+instead of optical-to-electronic-to-optical repeaters, 
+so the C-band becomes more and more important. 
+With the advent of dense wavelength division 
+multiplexing, which allows multiple signals to share 
+a single /f_ibre, the use of C-band has been expanded. 
+It’s typically deployed in urban areas, as well as 
+long-distance and submarine optical transmission 
+systems.
+L-band, known as the long-wavelength 
+band, has the second-lowest wavelength loss, 
+so can be used when C-band doesn’t meet the 
+bandwidth needs. To deliver ultrawide 400G 
+capacity, the backbone of the future will require 
+the combination of C-band and L-band. Network 
+solution provider ZTE claims that it’s the /f_irst to 
+complete a network test of this combination to 
+accommodate 400G backbone capacity.
+Ultralong Distance
+As a transmission technology, optical /f_ibre has 
+many bene/f_its, but it’s prone to attenuation or loss 
+as the light signal travels along the cabling. There 
+are various factors that cause this, for example: 
+intrinsic loss, owing to the characteristics of the 
+/f_ibre, such as material absorption; light dispersion 
+loss or structural defects; and extrinsic loss, based 
+on operating conditions like connector loss or cable 
+bending, as light prefers to travel in a straight line.
+With longer /f_ibre, these losses can accumulate, so 
+AUG 2023
+41

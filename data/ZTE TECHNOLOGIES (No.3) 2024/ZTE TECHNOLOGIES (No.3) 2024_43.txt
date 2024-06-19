@@ -1,0 +1,70 @@
+scenarios and enterprise settings such as hotels and 
+retail establishments. In light of the building 
+structure, the three parties decided to deploy one 
+main ONT and 26 room ONTs on each /f_loor, ensuring 
+that every room had an independent room ONT. The 
+deployment locations of the FTTR devices were 
+meticulously selected by ZTE engineers to guarantee 
+full Wi-Fi signal strength in every corner of the rooms. 
+Leveraging the high-bandwidth capability of the 
+FTTR devices, True Online provided 2 Gbps 
+high-speed packages to boost the Internet 
+experience and service satisfaction of guests 
+signi/f_icantly.
+With the ZTE FTTR solution, Wyndham Royal Lee 
+Phuket achieved its goal of oﬀering high bandwidth 
+and premium Wi-Fi. The deployed solution has four 
+highlight features: gigabit-plus bandwidth and 
+superfast services, full coverage and no dead zones, 
+smart roaming and seamless handover, as well as 
+large space and multiple connections.
+Gigabit-plus bandwidth and superfast 
+services: The solution employs a combination of 
+optical /f_iber and Wi-Fi 6 technology to remove the 
+performance constraints of the traditional 
+Ethernet cable and prevent speed degradation, 
+ensuring smooth gaming, video streaming, and 
+conferencing experiences.
+Full coverage and no dead zones: Fiber extends 
+from the information box to every room to 
+implement whole-home Wi-Fi coverage. The 
+high data rates and strong anti-interference 
+capabilities of the solution ensure that every 
+corner of the home enjoys full signal strength.
+Smart roaming and seamless handover: An 
+in-house smart roaming algorithm enables 
+millisecond-level imperceptible roaming 
+handover without disruptions as guests move 
+about in the hotel building.
+Large space and multiple connections:  Each 
+/f_loor has a full-coverage network comprising up 
+to 26 Wi-Fi hotspots and connecting a 
+maximum of 256 smart devices.
+Creating a New All-Optical Hotel 
+Experience
+True Online’s 2 Gbps bandwidth packages, 
+ 
+coupled with ZTE’s FTTR solution, have 
+transformed the Internet experience oﬀered to 
+guests at Wyndham Royal Lee Phuket. Wyndham 
+Royal Lee Phuket has expressed great satisfaction 
+with the deployment and plans to deepen 
+collaboration with True and ZTE to further 
+enhance hotel network technology and provide its 
+guests with a better service experience. 
+True Online’s  FTTR service launched in Thailand 
+has garnered signi/f_icant industry attention due to 
+its versatile applications, marking it as a new 
+growth area for the operator. As the leader in 
+Thailand’s FBB market, True is committed to 
+strengthening its collaboration with ZTE in 
+exploring new technologies and solutions, 
+expecting to bring the Thai people an even more 
+dynamic and enriching digital life experience. This 
+innovative service has sparked excitement among 
+consumers and industry experts alike, positioning 
+True as a pioneer in delivering cutting-edge 
+telecom solutions tailored to meet the evolving 
+needs of the Thai market.
+True teams up with ZTE to build Thailand’s ﬁrst FTTR community
+ 41 JUN 2024

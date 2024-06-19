@@ -1,0 +1,486 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+cloud’s 3D features as possible . Moreover , 
+among the FR methods , we notice that CPC -
+GSCT[42] performs well on three datasets . We be ⁃
+lieve that CPC -GSCT can perceive the quality of 
+point clouds in a more comprehensive way by 
+taking into account the geometric properties and 
+color features of point clouds from the perspec ⁃
+tive of the point cloud model . Besides , among the 
+NR methods , MM -PCQA[85] stands out in terms of 
+performance , which is a novel multimodal fusion 
+method for PCQA . The excellent performance 
+further demonstrates the feasibility of multimo ⁃
+dality in PCQA .
+5 Conclusions
+In this survey , we present a comprehensive 
+and up -to-date review of PCQA . The paper be ⁃
+gins with an introduction to point clouds and 
+their wide range of applications . Along with it , 
+there is an increasing demand for point cloud ▼Table 5. Performance comparison of different PCQA methods on SJTU -PCQA and 
+WPC . For FR , RR, and NR methods , the best performance of each metric is marked in 
+bold , bold italics , and underlined bold (vacant metrics are not counted in the compari ⁃
+son) respectively . The IQA and VQA methods are marked with * superscript
+Refer ⁃
+ence
+FR
+RR
+NRType
+Model -based
+Projection -based
+Model -based
+Projection -based
+Model -based
+Projection -based
+Model -based & 
+projection -basedMethod
+p2pointHausdorff[68]
+p2pointMSE[68]
+p2planeHaus ⁃
+dorff[47, 49]
+p2planeMSE[47, 49]
+ASMEAN[23]
+ASRMS[23]
+ASMSE[23]
+PC-MSDM[50]
+PCQM[53]
+GraphSIM[55]
+PointSSIM[52]
+CPC -GSCT[42]
+PSNRyuv[10]
+PSNR*
+SSIM*[88]
+MS -SSIM*[100]
+VIF*[101]
+PB-PCQA[6]
+TGP -PCQA[70]
+R-PCQA[73]
+PCMRR[72]
+RR -CAP[74]
+3D-NSS[64]
+BRISQUE*[91]
+NIQE*[96]
+IL-NIQE*[93]
+VIIDEO*[102]
+V-BLIINDS*[103]
+TLVQM*[104]
+VIDEVAL*[105]
+VSFA*[106]
+RAPIQUE*[107]
+StairVQA*[108]
+PQA -Net[67]
+3D-CNN -PC⁃
+QA[83]
+ResSCNN[4]
+IT-PCQA[82]
+VQA -PC[84]
+BQE -CVP[61]
+MM -PCQA[85]SJTU -PCQA
+SRCC
+0.43
+0.40
+0.46
+0.49
+0.51
+0.52
+0.52
+0.32
+0.74
+0.84
+0.68
+0.89
+-
+0.65
+0.55
+0.72
+0.74
+0.60
+0.83
+-
+0.48
+0.75
+0.71
+0.20
+0.22
+0.08
+0.05
+0.68
+0.52
+0.60
+0.72
+0.44
+0.79
+-
+0.83
+0.81
+0.63
+0.85
+0.89
+0.91PLCC
+0.16
+0.47
+0.37
+0.56
+0.65
+0.65
+0.65
+0.41
+0.77
+0.84
+0.71
+0.91
+-
+0.63
+0.56
+0.74
+0.78
+0.60
+0.86
+-
+0.61
+0.76
+0.73
+0.22
+0.37
+0.16
+0.29
+0.78
+0.60
+0.74
+0.82
+0.40
+0.78
+-
+0.86
+0.86
+0.58
+0.86
+0.91
+0.92KRCC
+0.30
+0.28
+0.33
+0.35
+0.36
+0.37
+0.37
+0.21
+0.56
+0.64
+0.49
+0.71
+-
+0.47
+0.39
+0.52
+0.54
+-
+0.65
+-
+0.33
+0.55
+0.51
+0.11
+0.15
+0.05
+0.04
+0.48
+0.34
+0.42
+0.54
+0.34
+0.55
+-
+0.60
+-
+-
+0.65
+0.73
+0.78RMSE
+2.39
+2.13
+2.44
+2.00
+1.82
+1.82
+1.82
+2.21
+1.52
+1.57
+1.70
+0.99
+-
+1.87
+1.99
+1.62
+1.49
+1.86
+1.21
+-
+1.93
+1.55
+1.76
+2.24
+2.26
+2.33
+2.31
+1.50
+1.91
+1.50
+1.40
+2.21
+1.42
+-
+1.22
+-
+-
+1.13
+0.97
+0.77WPC
+SRCC
+0.27
+0.45
+0.28
+0.32
+-
+-
+-
+-
+0.74
+0.58
+0.45
+-
+0.44
+0.42
+0.38
+-
+-
+-
+-
+0.88
+0.30
+0.71
+0.64
+0.37
+0.38
+0.09
+0.07
+0.46
+0.03
+0.37
+0.63
+0.27
+0.72
+0.69
+0.75
+-
+0.54
+0.79
+-
+0.83PLCC
+0.39
+0.48
+0.27
+0.26
+-
+-
+-
+-
+0.74
+0.61
+0.46
+-
+0.53
+0.48
+0.49
+-
+-
+-
+-
+0.88
+0.34
+0.73
+0.65
+0.41
+0.39
+0.14
+0.08
+0.49
+0.01
+0.26
+0.63
+0.35
+0.71
+0.70
+0.76
+-
+0.55
+0.79
+-
+0.83KRCC
+0.19
+0.31
+0.16
+0.22
+-
+-
+-
+-
+0.56
+0.41
+0.32
+-
+0.31
+0.30
+0.32
+-
+-
+-
+-
+-
+0.20
+0.52
+0.44
+0.24
+0.25
+0.08
+0.05
+0.30
+0.20
+0.36
+0.46
+0.20
+0.52
+0.51
+0.56
+-
+0.61
+-
+0.64RMSE
+20.89
+19.89
+21.98
+22.82
+-
+-
+-
+-
+15.16
+17.19
+20.27
+-
+19.31
+15.81
+15.77
+-
+-
+-
+-
+-
+21.53
+15.64
+16.57
+22.54
+22.55
+24.01
+22.92
+19.73
+22.14
+21.09
+17.23
+21.14
+15.07
+15.18
+13.56
+-
+13.62
+-
+12.84
+CAP: content -oriented saliency projection
+3D-CNN -PCQA : 3 Dimension Convolutional Neural 
+Network Point Cloud Quality Assessment 
+3D-NSS: 3 Dimension Natural Scene Statistics AS: Angular Similarity 
+BQE -CVP: Blind Quality Evaluator for Colored Point 
+Cloud Based on Visual Perception 
+BRISQUE : Blind/Referenceless Image Spatial Quali ⁃ty Evaluator 
+CPC -GSCT : A quality assessment 
+metric for colored point cloud 
+based on geometric segmentation 
+and color transformation 
+FR: full -reference assessment
+GraphSIM : Graph Similarity 
+IL-NIQE : Integrated Local Natu ⁃
+ral Image Quality Evaluator 
+IQA: Image Quality Assessment 
+IT-PCQA : Image Transferred 
+Point Cloud Quality Assessment 
+KRCC : Kendall Rank -order Cor ⁃
+relation Coefficient 
+MM -PCQA : Multi -Modal Point 
+Cloud Quality Assessment 
+MSE : Mean Square Error 
+MS -SSIM : Multi -Scale Structure 
+Similarity Index Measure 
+NIQE : Natural Image Quality 
+Evaluator 
+NR: no-reference assessment 
+p2plane : Point to Plane 
+p2point : Point to Point 
+PB-PCQA : Projection -Based 
+Point Cloud Quality Assessment 
+PCMRR : A Reduced Reference 
+Metric for Visual Quality Evalu ⁃
+ation of Point Cloud Content 
+PC-MSDM : Point Cloud -Mesh 
+Structural Distortion Measure 
+PCQM : Point Cloud Quality 
+Metric 
+PLCC : Pearson Linear Correla ⁃
+tion Coefficient 
+PointSSIM : Point Cloud Struc ⁃
+ture Similarity Index Measure 
+PQA : Point Cloud Quality 
+PSNR : Peak Signal -to-Noise Ratio 
+RAPIQUE : Rapid and accurate 
+video quality prediction of user generated content 
+ResSCNN : Residual Sparse Con ⁃
+volutional Neural Network 
+RMS : Root Mean Squared 
+RMSE : Root Mean Square Error 
+R-PCQA : Reduced reference 
+Point Cloud Quality Assessment 
+RR: reduced -reference assess ⁃
+ment
+SJTU -PCQA : Shanghai Jiao 
+Tong University Point Cloud 
+Quality Assessment Dataset 
+SRCC : Spearman Rank -order 
+Correlation Coefficient 
+SSIM : Structure Similarity In ⁃
+dex Measure 
+StairVQA : Staircase Video Qual ⁃
+ity Assessment 
+TGP -PCQA : Texture and Geom ⁃
+etry Projection Based Point 
+Cloud Quality Assessment 
+TLVQM : Two -Level Approach 
+for Consumer Video Quality as ⁃
+sessment
+V-BLIINDS : Blind prediction of 
+natural video quality 
+VIDEVAL : Video Quality Eval ⁃
+uator
+VIF: Visual Information Fidelity 
+VIIDEO : Video Intrinsic Integrity 
+and Distortion Evaluation Oracle 
+VQA : Video Quality Assess ⁃
+ment 
+VQA -PC: Dealing with point 
+cloud quality assessment tasks via 
+using video quality assessment 
+VSFA : a method for quality as ⁃
+sessment of in -the-wild videos 
+WPC : Waterloo Point Cloud Da ⁃
+taset
+12

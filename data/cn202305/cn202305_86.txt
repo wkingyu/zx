@@ -1,0 +1,56 @@
+相干光收发器件未来技术演进 沈百林  等 企业视界
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5相干光收发器件未来技术演进
+Future Technology Evolution of Coherent Transceiver 
+Optical Devices
+沈百林 /SHEN Bailin ，王会涛 /WANG Huitao
+（ 中兴光电子技术有限公司 ， 中国 南京 210012  ）
+(ZTE Photonics Technology Co . , Ltd, Nanjing 210012 , China )DOI：10.12142 /ZTETJ .202305013
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231016 .0928.008.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-12
+摘要 ：相干光收发器件是相干光通信系统的核心器件 。相干光通信系统朝着更大容量 、更长传输距离 、更低成本方向发展 ，同时相干光收发器
+件面临一系列新挑战 ，包括高带宽 、多波段 、高性能 、高可靠性 、高集成度 、低功耗 。相干光收发器件的未来技术演进包括新材料光芯片 、先
+进封装技术 、多路集成架构等方面 。光芯片将存在多种材料 ，包括硅光 、磷化铟和薄膜铌酸锂 ，以及基于硅光平台的异质集成技术 。光器件将
+参考采用微电子行业的先进封装技术 ，以减小芯片间高速电信号的传输距离 ，降低成本 ，保证封装可靠性 。器件级多路集成可满足未来多波传
+输架构的需求 。
+关键词 ：相干通信 ；光器件 ；技术演进
+Abstrac t:Coherent transceiver optical devices are the key devices of coherent optical communication systems . With the development of co ⁃
+herent optical communication systems towards larger capacity , longer transmission distance , and lower cost , coherent transceiver optical de ⁃
+vices face a series of new requirements and challenges , including high bandwidth , wide spectral band , high performance , high reliability , 
+high integration , and low power consumption . Future technology evolution of coherent transceiver optical devices includes : new material op ⁃
+tical chips , advanced packaging technologies , and multi-channel integrated architectures . A variety of materials will exist in optical chips , in⁃
+cluding silicon photonics , indium phosphide and thin-film lithium niobate , as well as heterogeneous integration technologies based on sili ⁃
+con photonics platforms . The optical device will refer to the advanced packaging technology of the microelectronics industry to reduce the 
+high-speed electrical signal transmission distance between chips , and ensure package reliability . The device-level multi-lane integration 
+meets the needs of future multi-wavelength transmission architectures .
+Keywords :coherent communication ; optical components ; technology evolution
+引用格式 ：沈百林 , 王会涛 . 相干光收发器件未来技术演进  [J]. 中兴通讯技术 , 2023 , 29(5): 82-86. DOI: 10.12142 /ZTETJ .202305013
+Citation ： SHEN B L , WANG H T . Future technology evolution of coherent transceiver optical devices [J]. ZTE technology journal , 2023 , 29(5): 
+82-86. DOI: 10.12142 /ZTETJ .202305013
+1 相干光收发器件
+1.1 具体概念
+相干光收发器件[1-3]是光芯片 、电芯片的集成组合 。发
+送部分实现光信号的偏振复用正交调制功能 ，包含电信号驱
+动功能 ；接收部分利用本振信号和输入信号混频干涉 ，实现
+双偏振态信号检测和电信号放大功能 。相干光收发器件的工
+作原理如 图1所示 。
+1.2 在系统中的位置
+波分复用系统包含光转发单元 、复用 /解复用单元 、光
+纤、光放单元 、可重构分叉复用单元 ，以及管理单元 。光转
+发单板实现业务信号到波分复用光信号的光电光转换 。相干
+ 图1 相干光收发器件的工作原理PBC/PBS : 偏振合束 /分束     LD :光源     DSP :数字信号处理调制
+相干 DSP
+混频
+混频调制
+调制
+调制LD
+LDPBC
+-X
+-YS
+S-X
+-YC
+C
+PBSπ/2
+π/2
+82

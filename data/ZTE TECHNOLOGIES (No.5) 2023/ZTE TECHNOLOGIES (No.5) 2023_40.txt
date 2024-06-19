@@ -1,0 +1,90 @@
+solve cross-domain transmission problems, 
+requiring the involvement of a specialized 
+team. In addition, traditional manual analysis 
+is time-consuming and costly, making it 
+diﬃcult to ensure the timely resolution 
+of complaints. Therefore, cross-domain 
+delimiting analysis of transmission problems 
+is a major pain point in improving complaint 
+handling eﬃciency. 
+To address this, ZTE has implemented the 
+one-click cross-domain problem delimiting 
+through the customer complaint handling 
+(CCH) function, utilizing the VMAX-S big 
+data platform and the bearer BigDNA 
+cross-domain capability (Fig. 1). The on-site 
+team only needs to click “Query” to obtain 
+the cross-domain root cause analysis results 
+for both wireless and transmission problems. 
+This assists the complaint handling team in 
+quickly locating problems and solving related 
+faults, signi/f_icantly improving the operator's 
+complaint handling capability. 
+VMAX-S+AAX Implements 
+Cross-Domain Fault Self-Diagnosis
+In the traditional network optimization 
+process, alarm problems have the most 
+direct impact on user perception, and are 
+also common causes for user complaints. 
+However, solving alarm problems can be 
+diﬃcult. For example, when there are a 
+large number of alarms in the network, 
+it is challenging to manually analyze and 
+associate diﬀerent alarm, as well as accurately 
+locate their root causes. This often leads 
+to a reactive approach of addressing the 
+symptoms rather than the underlying issues. 
+Even if the root cause is located, dealing 
+with the problem in face of the complicated 
+network environment requires a professional 
+team, which is labor and time-consuming. 
+Therefore, improving the eﬃciency of alarm 
+handling is a major pain point in current 
+network O&M.
+ZTE addresses this issue with the CCH 
+function of its VMAX-S big data platform, along with the single-domain alarm 
+automation eXpert (AAX) capability of the 
+wireless network. With just one click, the 
+customer can quickly delimit and locate user 
+complaints caused by alarm problems and 
+automatically obtain the root cause diagnosis 
+results and alarm handling suggestions. This 
+allows the onsite complaint handling team 
+to respond to alarms quickly and resolve 
+faults quickly in accordance with handling 
+suggestions. There is no longer a need 
+for manual troubleshooting of alarms and 
+analyzing root causes in a single domain, thus 
+greatly improving troubleshooting eﬃciency 
+and saving O&M manpower. According to the 
+TMF standards for autonomous networks, 
+the VMAX+AAX solution has reached L3 
+cross-domain capability and is close to L4 
+autonomous capability, greatly improving 
+operators’ complaint handling capability.
+Summary 
+In the digital economy era, the use of 
+digital and intelligent tools provides a 
+more diversi/f_ied and eﬃcient solution 
+for predicting and analyzing problems in 
+the AIS network. In the 2023 Q1 Network 
+Assessment organized by AIS, ZTE ranked 
+/f_irst in cross-region network performance. 
+As new scenarios and services continue 
+to emerge, eﬃcient, simpli/f_ied, and 
+intelligent communication networks are 
+required. AIS is committed to building a 5G 
+network benchmark. With the full support 
+of ZTE, AIS has achieved single-domain 
+autonomy across the wireless network, 
+wired network and core network, reaching 
+the L3 capability at the tool side. At the 
+same time, with the deployment of VMAX-S, 
+the single-domain tools can be used to 
+implement cross-domain work/f_lows, laying 
+a solid foundation for the customer’s 
+autonomous network. With continuous and 
+in-depth cooperation, ZTE will assist AIS in 
+moving toward a higher-level autonomous 
+network.
+38Success Stories

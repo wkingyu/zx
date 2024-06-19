@@ -1,0 +1,78 @@
+面向下一代移动通信的前传网络关键技术 赵俊皓  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 5[35] ZHONG L S , ZOU Y , ZHANG S M , et al . Experimental demonstration of 
+delta-sigma modulation supported 65536 -QAM OFDM transmission for 
+fronthaul/WiFi applications [C]//Proceedings of 2021  European 
+Conference on Optical Communication (ECOC ). IEEE , 2021 : 1-3. DOI : 
+10.1109 /ECOC 52684 .2021 .9606072
+[36] ZHAO L , XU S C , WANG M X , et al . Probabilistic shaping-based delta 
+sigma modulation [J]. Optics letters , 2023 , 48(6): 1450 -1453
+[37] HADI M U , MURTAZA G . Enhancing distributed feedback-standard 
+single mode fiber-radio over fiber links performance by neural network 
+digital predistortion [J]. Microwave and optical technology letters , 2021 , 
+63(5): 1558 -1565 . DOI : 10.1002 /mop .32774
+[38] HADI M U . Mitigation of nonlinearities in analog radio over fiber links 
+using machine learning approach [J]. ICT express , 2021 , 7(2): 253-258. 
+DOI: 10.1016 /j.icte.2020 .11.002
+[39] HADI M U , BASIT A . Machine learning for performance enhancement in 
+fronthaul links for IOT applications [C]//Proceedings of 2021  International 
+Conference on Digital Futures and Transformative Technologies 
+(ICoDT 2). IEEE , 2021 : 1-5. DOI : 10.1109 /ICoDT 252288 .2021 .9441542
+[40] HADI M U , SOIN N , KAUSAR S . Enhancing 5Gmulti-band long haul 
+optical fronthaul links performance by magnitude-selective affine digital 
+predistortion method [J]. Microwave and optical technology letters , 
+2022 , 64(4): 827-834. DOI : 10.1002 /mop .33169
+[41] ASSIMAKOPOULOS P , NOOR S , WANG M Q , et al . Flexible and efficient 
+DSP-assisted subcarrier multiplexing for an analog mobile fronthaul [J]. 
+IEEE photonics technology letters , 2021 , 33(5): 267-270. DOI : 10.1109 /
+LPT.2021 .3056511
+[42] SUNG M , CHO S H , KIM J , et al . Demonstration of IFoF-based mobile 
+fronthaul in 5G prototype with 28-GHz millimeter wave [J]. Journal of 
+lightwave technology , 2018 , 36(2): 601-609. DOI : 10.1109 /
+JLT.2017 .2763156
+[43] ISHIMURA S , BEKKALI A , TANAKA K , et al . 1.032-Tb/s CPRI-equivalent 
+rate IF-over-fiber transmission using a parallel IM/PM transmitter for 
+high-capacity mobile fronthaul links [J]. Journal of lightwave technology , 
+2018 , 36(8): 1478 -1484 . DOI : 10.1109 /JLT.2017 .2787151
+[44] ZHU Y , ZHUGE Q , HU W . Efficient SNR scaling at > 10 dB per extra 
+bandwidth using cascaded hybrid digital-analog radio-over-fiber for 
+fronthaul [C]//2022  27th OptoElectronics and Communications 
+Conference (OECC ) and 2022  International Conference on Photonics in 
+Switching and Computing (PSC). IEEE , 2022 : 1-3
+[45] ZHANG C , ZHU Y , HE B , et al . Clone-comb-enabled high-capacity 
+digital-analogue fronthaul with high-order modulation formats [EB/OL ]. 
+(2023 -08-31) [2023 -09-05]. https ://www .nature .com/articles/s 41566 -
+023-01273 -2.
+[46] ZHANG J W , JI Y F . 5G optical fronthaul : key issues , features and goals 
+[J]. Scientia sinica informationis , 2017 , 47(10): 1435 -1442 . DOI : 10.1360 /
+n112017 -00136作 者 简 介
+赵俊皓 ，复旦大学在读硕士研究生 ；主要从事 6G
+高速光接入网和光子无线融合的研究工作 ，包括
+超高速光通信算法与系统 、智能光子信号处理与
+机器学习智能光网络等 。
+                         张俊文 ，复旦大学通信科学与工程系研究员 、马可
+尼青年学者 、国家特聘青年专家 、上海市特聘专
+家、OFC 2022  N4 SC主席、2018 年美国光学学会
+数字系统光学技术组主席 、2019 年IEEE SUM 会
+议接入网分会主席 ，连续多年担任 OFC、SPIE-
+PW等 国 际 大 会 技 术 委 员 ，并 担 任 《IEEE 
+Photonics Journal 》 《Frontiers in Communications 
+and Networks 》副编辑 ；长期从事高速光传输 、
+光无线融合和光接入网的研究 ，在下一代高速光传输 、光接入以及无
+线融合方面取得突出成就 ；先后获得马可尼青年学者奖 、第三届全国
+光学工程学会优秀博士论文提名奖 、IEEE 光子学会博士奖 、王大珩光
+学奖等奖项 ；发表论文 200余篇，出版英文专著 1部，申请美国专利 /
+PCT专利22项、中国专利 1项。
+                         迟楠 ，复旦大学教授 、信息科学与工程学院院
+长，教育部 2006 年度新世纪优秀人才 ，2007 年
+度湖北省杰出青年基金获得者 ，2008 年上海市曙
+光学者 ，日本大川情报基金获得者 ，2009 年上海
+市浦江人才 ，2019 年国家杰出青年科学基金获得
+者，美国光学学会 OSA Fellow ，中国电子学会女
+科学家俱乐部轮值主席 ，中国光学学会纤维与集
+成光学专委会常委委员 ，中国通信学会光通信专
+委会委员 ；主要研究方向是高速调制光传输机制与技术 、光与无线
+融合网络和光电子集成器件 ；在可见光通信研究方面 ，研制了中国
+首个高速实时可见光通信系统样机 ，该样机在第 15届国际工业博览
+会展出并获得创新奖 。
+55

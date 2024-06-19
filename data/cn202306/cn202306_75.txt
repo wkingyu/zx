@@ -1,0 +1,53 @@
+软件定义广域网络 （SD-WAN ）2.0测试方法 党小东  等 技术广角
+中兴通讯技术
+2023  年 12 月    第 29 卷第  6 期   Dec . 2023    Vol . 29  No. 6软件定义广域网络 （SD-WAN ） 2.0
+测试方法
+Test Methodology of Software Defined Wide Area Network 
+(SD-WAN ) 2.0
+党小东 /DANG Xiaodong ，柴瑶琳 /CHAI Yaolin ，
+穆琙博 /MU Yubo
+（ 中国信息通信研究院 ，中国 北京 100191  ）
+(China Academy of Information and Communications Technology ,Beijing 
+100191 , China )DOI：10.12142 /ZTETJ .202306012
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20231212 .1441 .002.html
+网络出版日期 ：2023 -12-13
+收稿日期 ：2023 -10-12
+摘要 ：以产业共性需求为基准 ，结合技术更迭的具体特征 ，构建了设备 、方案和服务 3个维度的软件定义广域网络 （SD-WAN ）2.0测试规范体
+系。该体系从不同维度抽象出测试工作的方向和范围 ，明确了相应的测试评估指标 。该测试方法体系将为进一步的 SD-WAN 2.0测试研究工作
+提供重要参考 。
+关键词 ：SD-WAN  2.0；测试方法 ；设备；方案；服务
+Abstrac t:Based on the common needs of the industry and combined with the specific characteristics of technological change , the software 
+defined wide area network (SD-WAN ) 2.0 test specification system of three dimensions of equipment , solution , and services is con ⁃
+structed . The system abstracts the test direction and test scope of the test work from different dimensions , and clarifies the corresponding 
+test evaluation indicators . This test methodology provides an important reference for further SD-WAN 2.0 test research work .
+Keywords :SD-WAN 2.0; testing method ; equipment ; solution ; service
+引用格式 ：党小东 , 柴瑶琳 , 穆琙博 . 软件定义广域网络 （SD-WAN ）2.0测试方法  [J]. 中兴通讯技术 , 2023 , 29(6): 71-75. DOI : 10.12142 /
+ZTETJ .202306012
+Citation ： DANG X D , CHAI Y L , MU Y B . Test methodology of software defined wide area network (SD-WAN ) 2.0 [J]. ZTE technology jour ⁃
+nal, 2023 , 29(6): 71-75. DOI: 10.12142 /ZTETJ .202306012
+伴随着中国各垂直行业数字化转型的工作推进 ，信息通
+信网络的数字化 、算力化 、智能化将成为产业高质量
+发展的必然选择 。近年来 ，软件定义广域网络 （SD-WAN ）
+已经成为云网融合实践应用的新热点 。IDC最新产业调研数
+据显示[1]，2021 年中国 SD-WAN 市场规模达 1.9亿美元 ，增
+速近 90%；预计未来 5年以每年 55.3%的年复合增长率增长 ，
+到2026 年市场规模将达到 17.2亿美元 。SD-WAN 应用已经
+覆盖电信 、金融 、能源 、零售 、医疗 、教育 、工业 、政务 、
+移动互联网 、交通等 10多个垂直方向 ，已经形成广泛而深
+刻的行业影响 。
+随着 5G、人工智能 、物联网等新业务的加速部署[2-4]，
+广域网应用又迎来诸多新型挑战 ：基础网络架构封闭 、无边
+界安全隐患 、多终端移动性管理复杂 、算力灵活调度困难
+等。局限于 Overlay 网络互联的 SD-WAN 基本功能特性已经无法适配企业新业务需求 ，SD-WAN 逐渐向融合内生安全 、
+IPv6+Underlay 确定性体验保证 、多云访问的 2.0阶段发展
+演进 。
+系统规范的测试方法是技术发展的必要因素 。当前全球
+对SD-WAN 2.0的测试方法还没有形成规范化体系 。本文将
+从设备 、方案 、服务 3个维度对 SD-WAN 2.0测试方法进行
+研 究 ，为SD-WAN 2.0技 术 发 展 提 供 可 靠 、可 用 的 测 试
+依据 。
+1 测试方法体系的总体设计
+1.1 三大测试维度
+随着软件定义技术的不断成熟 ，SD-WAN 2.0逐渐发展
+为融合多种信息技术 （主要包括软件定义网络 、网络功能虚
+71

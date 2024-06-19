@@ -1,0 +1,84 @@
+The RoCEv2 network, built upon Ethernet, 
+allows remote direct memory access via 
+encapsulated RDMA frames in IP/UDP packets. 
+Data packets arriving at the RDMA NIC of the GPU 
+server can be directly transmitted to the GPU 
+memory, bypassing the CPU to reduce the delay. In 
+addition, congestion control solutions like DCQCN 
+are deployed to reduce RoCEv2 congestion and 
+packet loss. Designed as a uni/f_ied transport 
+network, the RoCEv2 network caters to high 
+bandwidth and elasticity needs, oﬀering better 
+support for cloud services and scalability, which is 
+crucial for domestic high-performance networks. 
+  
+RoCEv2 Network Congestion and Flow 
+Control Analysis
+In the RoCEv2 network, DCQCN is the most 
+commonly used congestion control algorithm. It 
+detects and indicates network congestion through 
+the ECN /f_lag on the switch. When congestion is 
+detected, the switch adds ECN /f_lags to data 
+packets. RDMA NIC adjusts data transmission rates 
+based on these /f_lags via CNPs. The DCQCN 
+algorithm is fair and eﬃcient, ideal for high 
+throughput, low-latency scenarios in 
+high-performance computing and AI learning. 
+However, DCQCN also has the following 
+disadvantages that cause network throughput to 
+/f_luctuate between 50% and 60%: 
+Inaccurate congestion indication:  The 1-bit 
+ECN /f_lag lacks precision in distinguishing 
+diﬀerent levels of congestion.
+Slow and inaccurate rate adjustment:  Only he popularity of ChatGPT has 
+accelerated AI development from 
+decision-making to generation, driving 
+the need for high-performance 
+networks for training AI models with billions of 
+parameters. AI model training relies on distributed 
+parallel computing, including data, pipeline, and 
+tensor parallelism. To fully leverage GPU 
+computing power, communication time overhead 
+must be limited to within 5%. This necessitates a 
+high-performance network for AI model training, 
+characterized by zero packet loss, low latency, high 
+throughput, large bandwidth, and large-scale 
+networking.
+ 
+Mainstream Solutions for 
+High-Performance Networks 
+The two main high-performance network 
+technologies used in AI model training scenarios 
+are In/f_iniBand (IB) networks and RDMA over 
+converged Ethernet version 2 (RoCEv2) networks.
+The IB network, originating in the 1990s to replace 
+the PCI bus technology, has become unexpectedly 
+popular and widely used in high-performance 
+computing and AI data centers. It implements 
+packet lossless transmission through the credit 
+/f_low control mechanism, and provides QoS for 
+speci/f_ic traﬃc optimization. Despite its 
+advantages, its complex con/f_iguration, 
+maintenance, and expansion, along with the need 
+for special hardware and subnet managers, incur 
+high costs. Therefore, the IB network is not as 
+popular as Ethernet.
+ 
+ 
+High-Performance Network 
+Designed for AI Model Training
+T
+Chief Engineer of ZTE 
+Cloud & AI Network 
+PlanningYang Maobin
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ JUN 2024
+ 21

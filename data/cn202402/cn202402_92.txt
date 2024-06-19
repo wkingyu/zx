@@ -1,0 +1,61 @@
+大模型关键技术与应用 韩炳涛  等 企业视界
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2abs/1805 .12185
+[35] ZHANG Z Y , LYU L , MA X J , et al . Fine-mixing : mitigating 
+backdoors in fine-tuned language models [EB/OL ]. (2018 -05-
+30)[2024 -04-10]. https ://arxiv .org/abs/ 1805 .12185
+[36] CUI G , YUAN L , HE B , et al . A unified evaluation of textual 
+backdoor learning : frameworks and benchmarks [J]. Advances in 
+neural information processing systems , 2022 , 35: 5009 -5023
+[37] FRANTAR E , ASHKBOOS S , HOEFLER T , et al . GPTQ : accurate 
+post-training quantization for generative pre-trained 
+transformers [EB/OL ]. (2022 -10-31)[2023 -05-22]. https ://arxiv .
+org/abs/ 2210 .17323
+[38] LIN J , TANG J , TANG H T , et al . AWQ : activation-aware weight 
+quantization for LLM compression and acceleration [EB/OL ]. 
+(2023 -05-01)[2023 -10-03]. https ://arxiv .org/abs/ 2306 .00978
+[39] XIAO G X , LIN J , SEZNEC M , et al . SmoothQuant : accurate and 
+efficient post-training quantization for large language models 
+[EB/OL ]. (2022 -11-18) [2024 -02-20]. https ://arxiv .org/abs/
+2211 .10438
+[40] PAN J Y , WANG C C , ZHENG K F , et al . SmoothQuant+ : 
+accurate and efficient 4-bit post-training weightQuantization for 
+LLM [EB/OL ]. (2023 -12-06)[2024 -02-20]. https ://arxiv .org/abs/
+2312 .03788
+[41] YU G I , JEONG J S . Orca : A distributed serving system for 
+transformer-based generative models [EB/OL ]. [2024 -02-20]. 
+https ://www .usenix .org/conference/osdi 22/presentation/yu
+[42] JAIN N , SCHWARTZSCHILD A , WEN Y X , et al . Baseline 
+defenses for adversarial attacks against aligned language models 
+[EB/OL ]. [2024 -02-22]. https ://arxiv .org/abs/ 2309 .00614
+[43] SALEM A , ZHANG Y , HUMBERT M , et al . Ml-leaks : model and 
+data independent membership inference attacks and defenses 
+on machine learning models [EB/OL ].[2024 -03-12]. https ://arxiv .
+org/abs/ 1806 .01246
+[44] ABADI M , CHU A , GOODFELLOW I , et al . Deep learning with 
+differential privacy [C]//Proceedings of the 2016  ACM SIGSAC 
+Conference on Computer and Communications Security . ACM , 
+2016 : 308-318. DOI: 10.1145 /2976749 .2978318
+[45] KEVUATGAB Y , KALMAN M , MATIAS Y . Fast inference from transformers via speculative decoding [EB/OL ]. (2022 -11-30)
+[2024 -03-10]. https ://arxiv .org/abs/ 2211 .17192
+[46] CAI T , LI Y H , GENG Z Y , et al . Medusa : simple framework for 
+accelerating LLM generation with multiple decoding heads [EB/
+OL]. (2023 -01-19) [2024 -03-10]. https ://arxiv .org/abs/
+2401 .10774
+[47] FU Y C , BAILIS P , STOCA P , et al . Breaking the sequential 
+dependency of LLM inference using lookahead decoding [EB/
+OL]. (2024 -02-03) [2024 -02-10]. https ://arxiv .org/abs/
+2402 .02057
+作 者 简 介
+韩炳涛 ，中兴通讯股份有限公司 AI首席专家 、移
+动网络和移动多媒体技术国家重点实验室多媒体
+研究中心副主任 、Linux 深度学习基金会 Adlik 项
+目负责人 ；研究方向为机器学习平台技术和网络
+智能化 ，以及相关核心系统架和 AI算法；拥有发
+明专利多项 ，出版专著多部 。
+刘涛 ，中兴通讯股份有限公司资深算法专家 、
+Adlik 开源项目首席架构师 、AI预研项目经理 ；主
+要研究领域为 AI模型并行训练 、模型推理优化 、
+高性能计算 、异构硬件模型部署等 ；拥有多项发
+明专利 。
+88

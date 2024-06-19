@@ -1,0 +1,57 @@
+数字孪生边缘网络 张 彦  等 热点专题
+中兴通讯技术
+2023  年 6 月    第 29 卷第  3 期   Jun . 2023    Vol . 29  No. 3数字孪生边缘网络
+Digital Twin Edge Networks
+张彦/ZHANG Yan1，卢云龙 /LU Yunlong2
+（ 1.奥斯陆大学 ，挪威 奥斯陆  0317 ；
+2.北 京 交 通 大 学 轨 道 交 通 控 制 与 安 全 国 家 重 点 实 验 室 ，中 国  北 京  
+100044  ）
+(1.University of Oslo , Oslo 0317 , Norway ;
+2.State Key Lab of Rail Traffic Control & Safety , Beijing Jiaotong Univer ⁃
+sity, Beijing 100044 , China )DOI：10.12142 /ZTETJ .202303005
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20230625 .1757.002.html
+网络出版日期 ：2023 -06-26
+收稿日期 ：2023 -04-25
+摘要 ：面向未来网络的愿景与需求 ，融合区块链与联邦智能技术 ，提出了一种新的数字孪生边缘网络架构 ，并探究了数字孪生边缘网络部署与
+实施过程中所面临的主要挑战与关键问题 ，如虚实孪生映射与孪生体迁移等 。所提方案能够在未来网络中构建低时延 、高可靠 、安全可信的边
+缘智能系统 ，可以有效推动未来 6G网络泛在智能连接愿景的落地与实现 。
+关键词 ：6G；数字孪生网络 ；联邦学习 ；边缘智能
+Abstrac t:Focusing on the future vision and requirements of 6G networks , a new integrated architecture called the Digital Twin Edge Network 
+(DITEN ) is proposed , which is based on blockchain and federated intelligence . By utilizing techniques such as resource optimization and rein ⁃
+forcement learning , the challenges of digital twin mapping and digital twin migration during the deployment and implementation of DITEN 
+are explored . The proposed solution aims to establish low-latency , high-reliability , secure , and trustworthy edge intelligence in future net ⁃
+works , thereby facilitating the realization of the pervasive intelligence vision of 6G.
+Keywords :6G; digital twin networks ; federated learning ; edge intelligence
+引用格式 ： 张彦, 卢云龙 . 数字孪生边缘网络  [J]. 中兴通讯技术 , 2023 , 29(3): 21-25. DOI:10.12142 /ZTETJ .202303005
+Citation ： ZHANG Y , LU Y L . Digital twin edge networks [J]. ZTE technology journal , 2023 , 29(3): 21-25. DOI:10.12142 /ZTETJ .202303005
+1 边缘智能网络概述
+无线通信及物联网技术的飞速发展 ，推动了万物互联时
+代的快速到来 。在云 -边-端协同的架构下 ，海量物联
+网设备 、传感器终端等通过无线接入网络 ，带来了极大的计
+算与传输负载 。未来 6G网络以超低时延 、超高可靠 、泛在
+智能为特征 ，旨在实现万物智联 、数字孪生的美好愿景 。然
+而，传统集中式处理架构需要经过较长的传输路径 ，难以满
+足网络中低时延 、高可靠的处理需求 。在这种背景下 ，边缘
+智能网络成为实现 6G泛在智能连接的关键驱动范式 。基于
+数字孪生 、联邦学习等一系列新兴技术 ，通过融合边缘计算
+与人工智能 ，边缘智能网络将计算和存储推进至用户侧 ，能
+够大幅缩短传输距离 ，提升响应的时延表现 。
+面向未来 6G泛在连接 ，智能边缘网络对时延 、资源利
+用效率 、能耗等提出了更为严格的业务需求 。然而 ，边缘设备受限的资源与智能计算的高资源需求之间的矛盾 ，在海量
+连接的情况下变得尤为突出 ，成为边缘智能网络亟需解决的
+问题 。研究者们利用优化理论[1]、强化学习[2]等方法进行计
+算卸载 、资源优化等调度决策 ，从而提升有限资源利用率 ，
+缓解资源供需矛盾 。然而 ，资源的优化调度在较大程度上依
+赖于资源状态与需求的感知 ，以实现精准高效的匹配 。随着
+未来网络规模的迅速扩张 ，网络拓扑结构日益复杂 ，动态异
+构场景下资源的优化调度面临着严峻挑战 。
+本文提出数字孪生边缘网络新型架构 ，通过在边缘网络
+中融合区块链 、联邦智能技术 ，实现数字孪生的高效构建 ；
+对于数字孪生边缘网络的构建和运行过程中所面临的关键基
+础性问题 （时延 、容错 、效率 ）进行了深入分析 ，并对移动
+性场景下数字孪生的构建与迁移问题进行了详细探讨 。
+2 关键驱动技术
+2.1 数字孪生
+数字孪生是数字孪生边缘网络的关键支撑技术 ，同时也基金项目 ：国家自然科学基金 （62201030 ） ；北京市自然科学基金 -丰台轨道交
+通前沿研究联合基金资助 （L211013 ）
+21

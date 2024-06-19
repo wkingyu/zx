@@ -1,0 +1,55 @@
+通信网络与大模型的融合与协同 任天骐  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2arxiv. org/abs/ 2104 .09864
+[38] TAORI R , GULRAJANI I . Stanford alpaca : an instruction-
+following llama model [EB/OL ]. [2024 -03-02]. https ://github .
+com/tatsu-lab/stanford alpaca
+[39] WANG Y , KORDI Y . Self-instruct : aligning language model with 
+self generated instructions [EB/OL ]. (2022 -12-20) [2024 -03-
+02]. https ://arxiv .org/abs/ 2212 .10560
+[40] SUN Y , PENG M , ZHOU Y , et al . Application of machine learning 
+in wireless networks : key techniques and open issues [J]. IEEE 
+communications surveys & tutorials , 2019 , 21(4): 3072 -3108 . 
+DOI: 10.1109 /COMST .2019 .2924243
+[41] GAO J , ZHONG C , LI G Y , et al . Deep learning-based channel 
+estimation for massive MIMO with hybrid transceivers [J]. IEEE 
+transactions on wireless communications , 2021 , 21(7): 5162 -
+5174 . DOI: 10.1109 /TWC .2021 .3137354
+[42] MA X , GAO Z , GAO F , et al . Model-driven deep learning based 
+channel estimation and feedback for millimeter-wave massive 
+hybrid MIMO systems [J]. IEEE journal on selected areas in 
+communications , 2021 , 39(8): 2388 -2406 . DOI : 10.1109 /
+JSAC .2021 .3087269
+[43] YUN S , MOON S , JEON Y S , et al . Intelligent MIMO detection 
+with momentum-induced unfolded layers [J]. IEEE wireless 
+communications letters , 2024 , 13(3): 879-883. DOI : 10.1109 /
+LWC .2023 .3348933
+[44] HE H , WEN C K , JIN S , et al . Model-driven deep learning for 
+MIMO detection [J]. IEEE transactions on signal processing , 
+2020 , 68: 1702 -1715 . DOI: 10.1109 /TSP.2020 .2976585
+[45] KARAKS E K , GEMICI Ö F , HOKELEK İ, et al . Work-in-
+progress : AI based resource and power allocation for NOMA 
+systems [C]//2023  IEEE International Black Sea Conference on 
+Communications and Networking (BlackSeaCom ). IEEE , 2023 : 
+402-407. DOI: 10.1109 /BlackSeaCom 58138 .2023 .10299756
+[46] PILLAI B , CHHABRA G . TCP-CNNLSTM : congestion control 
+scheme for MANET using AI Technologies [C]//2023  Second 
+International Conference on Augmented Intelligence and Sustainable Systems (ICAISS ). IEEE , 2023 : 63-69. DOI: 10.1109 /
+ICAISS 58487 .2023 .10250756
+作 者 简 介
+任天骐 ，浙江大学在读本科生 ；研究方向为大型
+语言模型在通信场景中的应用及语义通信 。
+李荣鹏 ，浙江大学信息与电子工程学院副教授 、
+博士生导师 ；主要研究方向为智能通信网络 、网
+络智能 、网络切片等 ；曾入选首批博士后创新人
+才支持计划 ，获得浙江省杰出青年基金项目资助 ，
+并获吴文俊人工智能优秀青年奖 、江苏省科学技
+术奖一等奖等 。
+张宏纲 ，浙江大学兼任教授 、博士生导师 ；长期
+从事无线通信与网络 、人工智能 、认知通信 、绿
+色通信 、复杂网络等领域的研究 ；曾获 2021 年
+IEEE 通 信 学 会 杰 出 论 文 奖 、IEEE Internet of 
+Things Journal （IoT-J ）最佳论文奖等 ；发表论
+文265篇，拥有 IEEE 802.15 UWB 国际标准提案
+16项、国际专利 3项。
+36

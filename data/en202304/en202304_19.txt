@@ -1,0 +1,40 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHOU Yingjie , ZHANG Zicheng , SUN Wei , MIN Xiongkuo , ZHAI Guangtao Special Topic   Perceptual Quality Assessment for Point Clouds : A Survey
+Biographies
+ZHOU Yingjie (zyj2000 @sjtu .edu.cn) received his BE degree in electronics and 
+information engineering from China University of Mining and Technology in 2023 . 
+He is currently pursuing a PhD degree at the Institute of Image Communication 
+and Network Engineering , Shanghai Jiao Tong University , China . His current re ⁃
+search interests include 3D quality assessment and virtual digital human .
+ZHANG Zicheng (zzc1998 @sjtu .edu.cn) received his BE degree from Shang ⁃
+hai Jiao Tong University , China in 2020  and he is currently pursuing a PhD de ⁃
+gree at the Institute of Image Communication and Network Engineering , Shang ⁃
+hai Jiao Tong University . His research interest include image quality assess ⁃
+ment , video quality assessment , and 3D visual quality assessment .
+SUN Wei received his BE degree from the East China University of Science 
+and Technology , China in 2016 . He is currently pursuing a PhD degree at the 
+Institute of Image Communication and Network Engineering , Shanghai Jiao 
+Tong University , China . His research interests include image quality assess ⁃
+ment , perceptual signal processing , and mobile video processing .
+MIN Xiongkuo received his BE degree from Wuhan University , China in 2013 , and PhD degree from Shanghai Jiao Tong University , China in 2018 . 
+From January 2016  to January 2017 , he was a visiting student with the Universi ⁃
+ty of Waterloo , Canada . From June 2018  to September 2021 , he was a postdoc ⁃
+toral researcher with Shanghai Jiao Tong University . From January 2019  to Jan ⁃
+uary 2021 , he was a visiting postdoctoral researcher with The University of Tex ⁃
+as at Austin , USA and the University of Macau , China . He is currently a tenure -
+track associate professor with the Institute of Image Communication and Net ⁃
+work Engineering , Shanghai Jiao Tong University . His research interests in ⁃
+clude image/video/audio quality assessment , quality of experience , visual atten ⁃
+tion modeling , extended reality , and multimodal signal processing .
+ZHAI Guangtao received his BE and ME degrees from Shandong University , 
+China in 2001  and 2004 , respectively , and PhD degree from Shanghai Jiao 
+Tong University , China in 2009 . From 2008  to 2009 , he was a visiting student 
+with the Department of Electrical and Computer Engineering , McMaster Univer ⁃
+sity, Canada , where he was a postdoctoral fellow from 2010  to 2012 . From 2012  
+to 2013 , he was a Humboldt Research Fellow with the Institute of Multimedia 
+Communication and Signal Processing , Friedrich Alexander University of Erlan ⁃
+gen–Nuremberg , Germany . He is currently a professor with the Department of 
+Electronics Engineering , Shanghai Jiao Tong University . He has published 
+more than 100 journal articles on the topics including visual information acqui ⁃
+sition , image processing , and perceptual signal processing .
+16

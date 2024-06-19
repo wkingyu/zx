@@ -1,0 +1,51 @@
+Deputy General 
+Manager of/uni00A0ZTE 
+Thailand Engineering 
+Service OﬃceLiang AoAZTE Supports AIS in Smart Network 
+Construction and Intelligent O&M
+IS is a leading mobile operator 
+in Thailand, with over 46 million 
+subscribers nationwide. In 
+the digital era, the rapid 
+development of the information and 
+communication industry has dramatically 
+changed people's production and life 
+styles. As an industry leader, AIS is 
+committed to providing high-quality 
+mobile communications services for users in 
+Thailand. 
+ZTE, as the world's leading provider of 
+integrated communications and information 
+technology solutions, has been assisting AIS 
+in building the 3G network since as early as 
+2010. ZTE also helped AIS in deploying its 
+4G network on a large scale, which was put 
+into commercial use in 2015. In early 2020, 
+AIS began to build its 5G network, which has 
+basically achieved full 5G coverage in urban 
+areas and is actively promoting the maturity 
+of the end-to-end 5G industry. However, the 
+coexistence of multiple 2/3/4/5G frequency 
+bands in AIS’s network has made the equipment type and network architecture 
+complicated, posing great challenges to 5G 
+network construction and O&M. 
+As a strategic partner of AIS, ZTE has 
+developed an end-to-end intelligent solution 
+for AIS in network construction and O&M. 
+This solution covers single-domain precision 
+planning, automatic AAPC antenna weight 
+optimization, VDT, NQI, cross-domain 
+complaint handling supported by VMAX-S 
+big data platform, and self-intelligence 
+implementation. It eﬀectively improves 
+network delivery eﬃciency, reduces network 
+maintenance diﬃculties, and reduces 
+network O&M costs. 
+Value-Based Guidance, Precision 
+Planning
+In the initial stage of 5G network 
+construction and during the operation 
+phase of in-service networks, operators face 
+the important goal of improving network 
+utilization and obtaining a timely return 
+36Success Stories

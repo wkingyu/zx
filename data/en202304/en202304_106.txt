@@ -1,0 +1,110 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos    Research Papers
+[21] JENNETT C , COX A L , CAIRNS P , et al . Measuring and defining the experi ⁃
+ence of immersion in games [J]. International journal of human -computer stud ⁃
+ies, 2008 , 66(9): 641–661. DOI : 10.1016 /j.ijhcs .2008 .04.004
+[22] VORDERER P , WIRTH W , GOUVEIA F R , et al . MEC spatial presence ques ⁃
+tionnaire (MEC -SPQ): short documentation and instructions for application 
+[R]. 2004
+[23] CUMMINGS J J , WERTZ E E . Capturing social presence : Concept explication 
+through an empirical analysis of social presence measures [J]. Journal of 
+computer -mediated communication , 2022 , 28(1): zmac 027. DOI : 10.1093 /
+jcmc/zmac 027
+[24] LIN J J W , DUH H B L , PARKER D E , et al . Effects of field of view on pres ⁃
+ence, enjoyment , memory , and simulator sickness in a virtual environment [C]//
+Proc. IEEE Virtual Reality . IEEE , 2002 : 164 –171. DOI : 10.1109 /
+VR.2002 .996519
+[25] YU M , LAKSHMAN H , GIROD B . A framework to evaluate omnidirectional 
+video coding schemes [C]//Proc . 2015  IEEE International Symposium on 
+Mixed and Augmented Reality . IEEE , 2015 : 31–36. DOI : 10.1109 /
+ISMAR .2015 .12
+[26] ZAKHARCHENKO V , CHOI K P , PARK J H . Quality metric for spherical 
+panoramic video [C]//Proc . SPIE Optics and Photonics for Information Process ⁃
+ing X . SPIE , 2016 . DOI : 10.1117 /12.2235885
+[27] XU M , LI C , LIU Y F , et al . A subjective visual quality assessment method of 
+panoramic videos [C]//Proc . 2017  IEEE International Conference on Multime ⁃
+dia and Expo (ICME ). IEEE , 2017 : 517 –522. DOI : 10.1109 /
+ICME .2017 .8019351
+[28] UPENIK E , ŘEŘÁBEK M , EBRAHIMI T . Testbed for subjective evaluation of 
+omnidirectional visual content [C]//Proc . 2016  Picture Coding Symposium 
+(PCS). IEEE , 2017 : 1–5. DOI : 10.1109 /PCS .2016 .7906378
+[29] SCHATZ R , SACKL A , TIMMERER C , et al . Towards subjective quality of ex ⁃
+perience assessment for omnidirectional video streaming [C]//Proc . Ninth Inter ⁃
+national Conference on Quality of Multimedia Experience (QoMEX ). IEEE , 
+2017 : 1–6. DOI : 10.1109 /QoMEX .2017 .7965657
+[30] OZCINAR C , CABRERA J , SMOLIC A . Visual attention -aware omnidirec ⁃
+tional video streaming using optimal tiles for virtual reality [J]. IEEE journal 
+on emerging and selected topics in circuits and systems , 2019 , 9(1): 217–
+230. DOI : 10.1109 /JETCAS .2019 .2895096
+[31] GHAZNAVI -YOUVALARI R , ZARE A , AMINLOU A , et al . Shared coded 
+picture technique for tile -based viewport -adaptive streaming of omnidirec ⁃
+tional video [J]. IEEE transactions on circuits and systems for video technol ⁃
+ogy, 2019 , 29(10): 3106 –3120 . DOI : 10.1109 /TCSVT .2018 .2874179
+[32] DUAN H Y , ZHAI G T , MIN X K , et al . Perceptual quality assessment of om ⁃
+nidirectional images [C]//IEEE International Symposium on Circuits and Sys ⁃
+tems (ISCAS ). 2018 : 1–5. DOI : 10.1109 /ISCAS .2018 .8351786
+[33] XU M , LI C , CHEN Z Z , et al . Assessing visual quality of omnidirectional vid ⁃
+eos [J]. IEEE transactions on circuits and systems for video technology , 2019 , 
+29(12): 3516 –3530 . DOI : 10.1109 /TCSVT .2018 .2886277
+[34] ERMI L , MÄYRÄ F . Fundamental components of the gameplay experience : 
+analysing immersion [C]//Digital Games Research Conference 2005 , Changing 
+Views : Worlds in Play . DBLP , 2005 : 37–53
+[35] SLATER M , WILBUR S . A framework for immersive virtual environments 
+(FIVE ): speculations on the role of presence in virtual environments [J]. Pres ⁃
+ence: teleoperators and virtual environments , 1997 , 6(6): 603–616. DOI : 
+10.1162 /pres .1997 .6.6.603
+[36] CUMMINGS J J , BAILENSON J N . How immersive is enough ? A meta -
+analysis of the effect of immersive technology on user presence [J]. Media psy ⁃
+chology , 2016 , 19(2): 272–309. DOI : 10.1080 /15213269 .2015 .1015740
+[37] ZHAO J B , ALLISON R S , VINNIKOV M , et al . Estimating the motion -to-
+photon latency in head mounted displays [C]//Proc . 2017  IEEE Virtual Reality 
+(VR). IEEE , 2017 : 313–314. DOI : 10.1109 /VR.2017 .7892302
+[38] ITU. Methods for the subjective assessment of video quality , audio quality and 
+audiovisual quality of internet video and distribution quality television in any environment : ITU -T recommendation P .913 [S]. 2021
+[39] ASBUN E , HE Y , HE Y , et al . AHG 8: interdigital test sequences for virtual re ⁃
+ality video coding [R]. 2016
+[40] SUN W , GUO R . Test sequences for virtual reality video coding from letinVR 
+[R]. 2016
+[41] MERCAT A , VIITANEN M , VANNE J . UVG dataset : 50/120 fps 4K se ⁃
+quences for video codec analysis and development [C]//Proc . ACM Multimedia 
+Systems Conference . ACM , 2020 : 297–302. DOI : 10.1145 /3339825 .3394937
+[42] ITU. Methods for objective measurements of perceived audio quality : ITU -R 
+recommendation BS 13871  [S]. 2001
+[43] BAILENSON J N , SWINTH K , HOYT C , et al . The independent and interac ⁃
+tive effects of embodied -agent appearance and behavior on self -report , cogni ⁃
+tive, and behavioral markers of copresence in immersive virtual environments 
+[J]. Presence : teleoperators and virtual environments , 2005 , 14(4): 379–393. 
+DOI: 10.1162 /105474605774785235
+[44] OU Y F , MA Z , LIU T , et al . Perceptual quality assessment of video consider ⁃
+ing both frame rate and quantization artifacts [J]. IEEE transactions on circuits 
+and systems for video technology , 2011 , 21(3): 286–298. DOI : 10.1109 /
+TCSVT .2010 .2087833
+[45] OU Y F , LIU T , ZHAO Z , et al . Modeling the impact of frame rate on percep ⁃
+tual quality of video [C]//Proc . 15th IEEE International Conference on Image 
+Processing . IEEE , 2008 : 689–692. DOI : 10.1109 /ICIP .2008 .4711848
+[46] ZOU W J , YANG F Z , WAN S . Perceptual video quality metric for compres ⁃
+sion artefacts : from two -dimensional to omnidirectional [J]. IET image process ⁃
+ing, 2018 , 12(3): 374–381. DOI : 10.1049 /iet -ipr.2017 .0826
+Biographies
+ZOU Wenjie received his BS and PhD degrees from Xidian University , China 
+in 2009  and 2017 , respectively . He is currently a lecturer with the Multimedia 
+Communication Laboratory , Xidian University . His research interests include 
+QoE, video quality assessment , and multimedia compression .
+GU Chengming received his BE degree in communication engineering from 
+Xidian University , China in 2021 . He is currently working toward an ME degree 
+in information and communication engineering with Xidian University . His re ⁃
+search interests include video coding and processing .
+FAN Jiawei received his BE degree in telecommunications engineering from 
+Xidian University , China in 2022 . He is currently working toward his ME de ⁃
+gree in electronic information with Xidian University . His research interests in ⁃
+clude video coding and processing .
+HUANG Cheng (huang .cheng 5@zte .com.cn) received his MS degree from the 
+School of Computer Science and Engineering , Southeast University , China . He 
+is currently a senior system architect and project manager of video technology 
+research at ZTE Corporation . His research interests include visual coding , stor⁃
+age, transport , and multimedia systems .
+BAI Yaxian received his MS degree in communication engineering from Wu ⁃
+han University of Technology , China . She is currently a senior engineer at ZTE 
+Corporation . Her research interests include video coding and processing and 
+point cloud compression and transmission .
+103

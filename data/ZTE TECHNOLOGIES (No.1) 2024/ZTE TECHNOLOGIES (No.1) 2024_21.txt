@@ -1,0 +1,97 @@
+diﬀerent use cases and environments.
+Re/f_lective RIS is primarily used for on-demand signal 
+re/f_lection in base stations. When obstacles between the 
+base station and the user aﬀect signal quality and user 
+experience, re/f_lective RIS can be deployed to re/f_lect 
+the signal to the user’s location, thereby enhancing 
+the signal there. This technology can be strategically 
+placed in accessible areas like poles, billboards and 
+walls, oﬀering cost-eﬀective deployment options. 
+At the June 2023 Shanghai exhibition, ZTE unveiled 
+its second-generation dynamic re/f_lective RIS, named 
+D-RIS 2.0. This device boasts an 80% reduction in 
+power consumption compared to its predecessor, 
+thanks to advancements in new materials and 
+architecture. It also supports IP65 for outdoor 
+long-term deployment, oﬀering waterproof and 
+dustproof capabilities.
+Refractive RIS is primarily applied to glass surfaces, 
+such as windows in buildings or carriage windows, 
+to achieve outdoor coverage indoors or enhance 
+coverage in high-speed train carriages. To avoid 
+impacting indoor brightness, refractive RIS is typically 
+designed in a transparent form and is therefore also 
+referred to as transparent RIS.
+Advanced Algorithm
+In the early stages of RIS research, the typical 
+approach was static RIS. However, the performance 
+of static RIS is severely constrained due to the 
+inability to dynamically adjust the antenna beam 
+direction in response to changes in the environment 
+and terminal positions. ZTE has developed D-RIS 
+to address this challenge. D-RIS uses dynamic 
+beamforming to automatically track devices in 
+real-time as they move within the coverage area, 
+connecting them to the strongest available link. 
+This greatly expands the base station’s coverage 
+and ensures an optimal user experience. To reduce 
+the processing complexity of RIS and maintain 
+its cost and power consumption at extremely 
+low levels, ZTE’s D-RIS relies on the channel 
+estimation capability of base stations. The base 
+station guides the D-RIS through a beam sweeping 
+process to determine the user’s location. As users 
+engage in services, the base station signals the 
+D-RIS through an in-band air interface to adopt 
+the optimal beam direction towards the user. Additionally, this implementation preserves the 
+interface protocols between base stations and 
+terminals, allowing 5G commercial terminals to access the 
+network through RIS without modi/f_ications. This enables 
+operators to deploy RIS in their 5G networks well before its 
+widespread introduction in 6G.
+ZTE Leads Commercial RIS Trials in the Fields
+ 
+ZTE leads multiple commercial RIS trials, demonstrating 
+that D-RIS can address operators’ growing coverage and 
+performance needs while reducing their CAPEX and OPEX.
+In September 2023, the 19th Asian Games were held in 
+Hangzhou, China. During the event, China Telecom and 
+ZTE showcased cutting-edge 5G-Advanced technologies 
+and implemented several smart projects. Notably, D-RIS 
+emerged as a key technology, delivering cost-eﬀective 
+and energy-eﬃcient features. It played a signi/f_icant role in 
+ensuring ubiquitous 5G-Advanced coverage across sports 
+venues and the Asian Games Village.
+In the vicinity of the Hangzhou Asian Games venues, 
+numerous high-rise buildings posed challenges to 
+indoor 5G signal coverage due to non-line-of-sight 
+(NLOS) conditions. To overcome this, RIS was rapidly 
+deployed to expand the coverage of base station 
+within living areas, shops and parking garages. This 
+cost-eﬀective and eco-friendly solution ensures 
+comprehensive indoor coverage, delivering consistently 
+high data rates for users.
+In sports venues, the demand for network capacity 
+surged, particularly with the introduction of HD 8K sports 
+broadcasts. 5G-Advanced technology facilitated seamless 
+HD streaming of Asian Games events, providing continuous 
+high-speed services for multiple devices. Despite ample 
+bandwidth from high-frequency bands, coverage 
+challenges existed. The combination of AAU with RIS at the 
+Hangzhou Asian Games achieved full coverage within the 
+competition venues, substantially reducing deployment 
+costs and speeding up the deployment process.
+It is imperative to embrace RIS to sustain 
+high-capacity performance in as many indoor and 
+outdoor venues as possible. Imagine enjoying streaming 
+videos or making calls over a 1 Gbps connection from a 
+millimeter-wave outdoor base station, then seamlessly 
+moving indoors without any disruption—this is the true 
+power of RIS.
+ 
+ 
+ 
+ 
+ 
+FEB 2024 
+ 19

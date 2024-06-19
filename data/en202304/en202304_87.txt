@@ -1,0 +1,35 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4TIAN Ruihan , WU Xuezhi , XU Wenzheng , ZUO Zhiling , CHEN Changqing Research Papers   A Hybrid Five -Level Single -Phase Rectifier with Low Common -Mode Voltage
+[J]. IEEE transactions on industrial electronics , 2023 , 70(2): 1140 –1149 . 
+DOI: 10.1109 /TIE.2022 .3159958
+Biographies
+TIAN Ruihan received her BS degree in electrical engineering and automation 
+from Beijing Jiaotong University , China in 2021 , where she is currently pursu ⁃
+ing her MS degree in electrical engineering . Her current research interests in ⁃
+clude multilevel converters and DC/DC converters .
+WU Xuezhi received his BS and MS degrees in electrical engineering from Bei ⁃
+jing Jiaotong University , China in 1996  and 1999 , respectively , and his PhD de ⁃
+gree in electrical engineering from Tsinghua University , China in 2003 . He is 
+currently a professor with the School of Electrical Engineering , Beijing Jiaotong 
+University . His current research interests include microgrids , wind power gener ⁃
+ation systems , power converters for renewable generation systems , power quali ⁃
+ty, and motor control .XU Wenzheng (xuwenzheng@bjtu .edu.cn) received his BS degree in electrical 
+engineering from Beijing Jiaotong University , China in 2012 , MSc degree (with 
+Distinction ) in energy engineering from The University of Hong Kong , China in 
+2013 , and PhD degree in electrical engineering from The Hong Kong Polytech ⁃
+nic University , China in 2020 . He is currently a lecturer with the School of 
+Electrical Engineering , Beijing Jiaotong University . His research interests in ⁃
+clude power electronics , wireless power transfer , transportation electrification , 
+and energy storage converters .
+ZUO Zhiling received his BS degree in automation from Hebei University of 
+Science and Technology , China in 2002 . He is the director of R&D Department 
+of Power Platform in ZTE Corporation . He is now mainly engaged in communi ⁃
+cation power technology research and product development , mainly focusing on 
+the architecture and development trend of communication power supply .
+CHEN Changqing received his BS degree in electronic science and technolo ⁃
+gy from Southwest Jiaotong University , China in 2006 . He is currently working 
+in ZTE Corporation , engaged in communication power supply technology re ⁃
+search and product development . His research interests include high efficiency 
+and high power density power supply , topology development , EMC and loss opti ⁃
+mization and magnetic integration technology .
+84

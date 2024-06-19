@@ -1,0 +1,287 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Incident and Problem Ticket Clustering and Classification Using Deep Learning    Research Papers
+into a training set and a validation set at the ratio of 9∶1 in 
+this pre -training procedure (i.e., the number of incident tick ⁃
+ets used for model training is the number of preprocessed inci ⁃
+dent tickets × 70% × 90%).
+Fig. 6 shows the training loss , training accuracy , validation 
+loss, and validation accuracy of each epoch .
+To verify our model after pretraining , we perform classifica ⁃
+tion tasks on the test set . The assessment results are illus ⁃
+trated in Table 6. The overall precision is up to 86%. The con ⁃
+fusion matrix of prediction results is shown in Table 7. The 
+number in cell (i, j) denotes the number of tickets , the labels 
+of which are i but predicted to be j in this model . Therefore , 
+the numbers of correctly classified incident tickets lie on the 
+diagonal while the number lying off the diagonal shows the dis ⁃
+crepancies in classification . 
+N(i, j)
+∑k=028N(i, k)≥5%, i≠j . (1)From Table 8, we can see that a majority of classification er ⁃
+ror cases occurs among different items of the same sub -
+categories . For example , it is confusing for the model to clas ⁃
+sify the items of some sub -categories like desktop cloud , PC 
+side zmail incidents , ifol finance and uds failure . In addition , 
+7.4% tickets of OS issues - installation are wrongly predicted ▼Table 5. Top labels (combination of sub -categories and components ) 
+and record numbers
+Classification Label
+AIOps - itsp service website
+desktop cloud  - linux desktop cloud
+desktop cloud  - OS issues
+PC side zmail - operation issues
+ifol finance - oerp enterprise resource planning
+desktop cloud - intranet client -side login
+ifol finance - fol finance online
+network proxy - usage issues
+iscp supply chain - iwms .wms cloud storage
+iccp customer relationship - msm marketing
+iccp customer relationship - ccg contract configuration
+PC side zmail - account issues
+iscp supply chain - iwms .mcs manufacture management
+im instant message - usage issues
+PC side zmail - account creation & login
+ifol finance - cms contract management web
+uds failure - security check
+ifol finance - cms contract management form
+icenter - ts team coordination
+desktop cloud - blue or black screen
+engineering domain - cca cloud code review
+desktop cloud - client side login failed
+OS issues - installation
+ibcp human resource - hol online
+iscp supply chain - isrm .srm supplier management
+Mobil application - icenter Mobile side
+individual network issue - restriction
+ibcp human resource - elearning academy
+uds failure - usage issuesNumbers 
+of Records
+16 724
+11 222
+7 162
+7 110
+6 543
+6 531
+6 381
+5 511
+5 086
+4 994
+4 779
+4 622
+4 207
+4 156
+4 043
+4 019
+3 930
+3 886
+3 878
+3 872
+3 584
+3 551
+3 531
+3 258
+3 254
+3 234
+3 213
+3 178
+3 008ID
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28▲Figure 6. Training loss and accuracy vs validation loss and accuracyTraining and validation loss
+1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0Loss1.0
+0.8
+0.6
+0.4
+0.2Training loss
+Validation loss
+0.90
+0.85
+0.80
+0.75Accuracy
+1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0Training and validation accuracy
+EpochsTraining acc
+Validation acc
+▼Table 6. Prediction accuracy on test data
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+Accuracy
+Macro avg
+Weighted avgPrecision
+0.91
+0.85
+0.67
+0.80
+0.88
+0.73
+0.93
+0.91
+0.93
+0.91
+0.91
+0.84
+0.90
+0.91
+0.80
+0.80
+0.89
+0.79
+0.93
+0.67
+0.95
+0.87
+0.89
+0.90
+0.91
+0.95
+0.87
+0.95
+0.79
+0.86
+0.86Recall
+0.91
+0.85
+0.65
+0.85
+0.88
+0.75
+0.93
+0.93
+0.92
+0.93
+0.90
+0.80
+0.91
+0.93
+0.82
+0.80
+0.90
+0.77
+0.94
+0.71
+0.95
+0.89
+0.88
+0.89
+0.91
+0.93
+0.77
+0.96
+0.69
+0.86
+0.86F1-score
+0.91
+0.85
+0.66
+0.83
+0.88
+0.74
+0.93
+0.92
+0.93
+0.92
+0.91
+0.82
+0.91
+0.92
+0.81
+0.80
+0.90
+0.78
+0.93
+0.69
+0.95
+0.88
+0.89
+0.90
+0.91
+0.94
+0.81
+0.95
+0.74
+0.86
+0.86
+0.86Support
+4 951
+3 289
+2 071
+2 146
+1 931
+1 974
+1 872
+1 619
+1 543
+1 470
+1 500
+1 381
+1 231
+1 266
+1 188
+1 206
+1 228
+1 159
+1 119
+1 173
+980
+1 046
+1 060
+925
+978
+994
+960
+955
+968
+44 183
+44 183
+44 183
+75

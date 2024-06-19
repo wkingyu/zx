@@ -1,0 +1,92 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1WEI Guo , ZHAO Yajun , CHEN LiSpecial Topic   Near -Field Communication and Sensing Towards 6G
+effects , where the phase variation of the signal becomes sig ⁃
+nificant , and mismatched channel models may reduce the ac ⁃
+curacy of the estimation . In this case , the paper meticulously 
+studies the impact of the array scale , distance , and signal -to-
+noise ratio on the lower bound of parameter estimation for XL -
+HRIS in the near -field region .
+The fourth paper titled “Degree of Freedom Analysis for Ho ⁃
+lographic MIMO Based on a Mutual -Coupling -Compliant  
+Channel Model ” utilizes a mutual -coupling -compliant circuit 
+multiple -input multiple -output (MIMO ) model to study the 
+DoF of the holographic MIMO (HMIMO ) channel . The DoF is 
+a key indicator of the spatial multiplexing layers of a wireless 
+channel . Recent studies indicate that in near -field communi ⁃
+cation , when considering strong mutual coupling , the effective 
+DoF may be less than the number of antennas . This paper in ⁃
+vestigates the DoF in HMIMO systems , provides an upper 
+bound on DOF under strong coupling conditions , and vali ⁃
+dates the results through numerical simulations .
+The fifth paper titled “Near -Field Beam Training for Holo ⁃
+graphic MIMO Communications : Typical Methods , Challenges 
+and Future Directions ” conducts a comprehensive survey of 
+near -field beam training methods in HMIMO systems . 
+HMIMO is a promising technology in future wireless systems 
+for achieving ultra -high frequency spectral efficiency and spa ⁃
+tial resolution . Due to the increase in antenna aperture , the 
+spherical wavefront effect in near -field communication be ⁃
+comes more pronounced in HMIMO systems , necessitating the 
+use of new near -field beam training methods . The paper intro ⁃
+duces , analyzes , and compares the performance of several typi ⁃
+cal near -field beam training methods , validating them on a 
+hardware platform . Additionally , it addresses the challenges 
+and outlines future research directions in near -field beam 
+training .
+The sixth paper titled “Near -Field Wireless Power Trans ⁃
+fer, Sensing and Communication with Bessel Beams ” con ⁃
+ducts a comprehensive survey on the generation and applica ⁃
+tion of Bessel beams in the near -field region . Bessel beams 
+are a type of beam with limited propagation distance . Unlike 
+traditional phased -array beamforming , Bessel beams exhibit 
+unique non -diffracting characteristics , maintaining a stable 
+beam intensity along the propagation direction without spread ⁃
+ing. The paper introduces the concept and basic theory of Bes ⁃
+sel beams , and categorizes and discusses research on their 
+generation and applications , with particular emphasis on their 
+application in near -field wireless power transfer and communi ⁃cation . Finally , the research challenges and opportunities asso ⁃
+ciated with Bessel beams are discussed .
+To conclude , it is hoped that this special issue serves as a 
+solid foundation , helping researchers understand and address 
+the upcoming near -field challenges in wireless networks . Ad⁃
+ditionally , we hope that this special issue sparks more re ⁃
+search interest in near -field communication and sensing in 6G 
+networks . Finally , we sincerely express our gratitude to all the 
+authors and reviewers whose outstanding work contributes to 
+the success of this special issue . We sincerely hope that the 
+papers in this special issue provide both clarity and insight for 
+all readers in the field .
+Biographies
+WEI Guo received his BS degree in electronic engineering from the University 
+of Science and Technology of China (USTC ) in 1983  and MS and PhD degrees 
+in electronic engineering from the Chinese Academy of Sciences , China in 1986  
+and 1991 , respectively . He is currently a professor with the School of Informa ⁃
+tion Science and Technology , USTC . He has won the second prize of the Nation ⁃
+al Science and Technology Progress Award and published more than 100 pa⁃
+pers. He holds dozens of national invention patents . His current research inter ⁃
+ests include wireless and mobile communications , wireless multimedia commu ⁃
+nications , and wireless information networks .
+ZHAO Yajun received his BE , MS, and PhD degrees . Since 2010 , he has as ⁃
+sumed the role of Chief Engineer at the Wireless and Computing Product R&D 
+Institute , ZTE Corporation . Prior to this , he contributed to wireless technology 
+research at the Wireless Research Department , Huawei . Currently , his primary 
+focus centers on 5G standardization technology and the advancement of future 
+mobile communication technology , particularly 6G. His research pursuits en ⁃
+compass a broad spectrum , including reconfigurable intelligent surfaces (RIS), 
+spectrum sharing , flexible duplex , CoMP , and interference mitigation . He has 
+played an instrumental role in founding the RIS Tech Alliance (RISTA ) and cur ⁃
+rently holds the position of Deputy Secretary General within the organization . 
+Additionally , he is a founding member of the RIS task group under the purview 
+of the China IMT -2030  (6G) Promotion Group , where he serves as the deputy 
+leader .
+CHEN Li received his BE degree in electrical and information engineering 
+from Harbin Institute of Technology , China in 2009  and PhD degree in electri ⁃
+cal engineering from the University of Science and Technology of China (USTC ) 
+in 2014 . He joined The University of Hong Kong , China as a postdoctor from 
+2016  to 2017 . He is currently an associate professor with the Department of 
+Electronic Engineering and Information Science , USTC . He has hosted a num ⁃
+ber of national projects and won the second prize of the Anhui Provincial Natu ⁃
+ral Science Award and the Anhui Provincial Outstanding Youth Fund . His re ⁃
+search interests include integrated communication and computation and inte ⁃
+grated communication and sensing .
+02

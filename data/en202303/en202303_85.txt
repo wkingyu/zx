@@ -1,0 +1,95 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3ZHU Yuting , LI Zeng , ZHANG Hongtao Robust Beamforming Under Channel Prediction Errors for Time -Varying MIMO System    Research Papers
+randomness of the objective is to be solved , it is supposed to 
+be more complex to conduct . As shown in this figure , the pro ‐
+posed one converges a little slower than WMMSE but both be ‐
+have almost the same . And the proposed converges within 10 
+iterations , which confirms the practicality of our beamforming 
+design . Moreover , it is observed that both algorithms take 
+more iterations to converge as the SNR increases .
+From F igs. 5 and 6, we can observe the averaged sum -rate 
+performance of the system under different SNRs for different 
+beamforming cases . Firstly , it is easy to notice the perfor ‐
+mance gain achieved by the channel prediction , which grows 
+as the SNR increases . With the predicted CSI , WMMSE can ‐
+not attain equivalent gain compared with our proposed 
+method that takes the error into consideration , due to the im ‐
+perfection of CSI brought by the prediction errors which cause the performance limitation . The proposed beamforming 
+design outperforms WMMSE more as the SNR goes higher . 
+Comparing these two figures , we can find that the overall per ‐
+formance goes down as the UE velocity increases , with the 
+performance gaps from the ideal perfect case to others be ‐
+coming larger , but our robust method can maintain certain 
+gains under such a severe time -varying effect . The proposed 
+design can even achieve more gain against WMMSE with a 
+higher velocity .
+Fig. 7 shows the sum -rate performance comparisons during 
+the DL time slot within the half -frame period . The statistics of 
+each DL time slot plotted in the figure are obtained by averag ‐
+ing 100 periods . As time goes by , the outdating of acquired 
+▲Figure 4. Convergence behavior of the proposed beamforming design 
+and WMMSESNR: signal -to-noise ratio      WMMSE : weighted minimum mean -squared -error
+▲Figure 5. Averaged sum rate versus SNR under different beamform ‑
+ing methods with v=60 km/hCSI: channel state information 
+SNR: signal -to-noise ratio WMMSE : weighted minimum mean -squared -error 
+ZF: zero -forcing
+▲Figure 6. Averaged sum rate versus SNR under different beamform ‑
+ing methods with v=120 km/hCSI: channel state information 
+SNR: signal -to-noise ratio WMMSE : weighted minimum mean -squared -error 
+ZF: zero -forcing
+▲Figure 7. Sum rate versus DL time slots under different beamforming 
+methods with v=60 km/hCSI: channel state information 
+DL: downlink 
+SNR: signal -to-noise ratio WMMSE : weighted minimum mean -squared -error 
+ZF: zero -forcingDL time slot in a period1 2 3 4 5 6 7Averaged sunm rate/ (bit·s-1·Hz-1)
+Averaged sunm rate/ (bit·s-1·Hz-1)10.2
+9.8
+9.4
+9.0
+8.6
+8.2No prediction+ZF
+Prediction+ZF
+Prediction+WMMSE
+Prediction+proposed robust design
+Perfect CSI+WMMSEPerfect CSI+WMMSE
+Prediction+proposed robust design
+Prediction+WMMSE
+Prediction+ZF
+No prediction+ZF
+−5                      0                       5                       10                     1518
+16
+14
+12
+10
+8
+6
+4
+2
+0Perfect CSI+WMMSE
+Prediction+proposed robust design
+Prediction+WMMSE
+Prediction+ZF
+No prediction+ZF
+−5                      0                       5                       10                     15Averaged sunm rate/ (bit·s-1·Hz-1)16
+14
+12
+10
+8
+6
+4
+2
+0Sum rate/ (bit·s-1·Hz-1)11
+10
+9
+8
+7
+6
+5
+4Proposed robust design , SNR= 5 dB
+WMMSE , SNR= 5 dB
+Proposed robust design , SNR= 0 dB
+WMMSE , SNR= 0 dB
+0   2  4   6   8   10 12 14 16 18 20
+Iterations SNR/dB
+SNR/dB
+83

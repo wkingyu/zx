@@ -1,0 +1,82 @@
+Fig. 1. Comparison 
+between key 
+features of ZXA10 
+C600E and ZXA10 
+C600.
+ZXA10 C600
+ High-end router
+NP+CLOS architecture
+200 Gbps bandwidth per slot
+10G PON deployment 
+ZXA10 C600E
+High-end router
+NP+CLOS architecture
+TGbps bandwidth per slotDeterministic
+Open
+Energy-eﬃcient
+ 
+ 
+ 
+50G PON deployment 
+ 
+and GPON Combo solution. GPON, 10G 
+PON, and 50G PON optical network units 
+(ONUs) can be connected on demand 
+and coexist within the same optical 
+distribution network (ODN), without 
+the need to modify existing optical line 
+terminals (OLTs) and ODN. 50G PON 
+devices are highly compatible with the 
+in-service ONUs, minimizing the cost of 
+network upgrades.
+Deterministic bandwidth and 
+latency:  To meet the requirements 
+for deterministic bandwidth, low 
+latency, and low jitter in certain 
+industrial scenarios and campus 
+environments, ZXA10 C600E employs 
+hard pipes to guarantee the necessary 
+bandwidth and low latency for 
+services. For instance, through the use 
+of single-frame multi-burst technology 
+to trade bandwidth for time, the 
+latency can be reduced by up to 75%. 
+The hard pipe technology is employed 
+to create hard slices for downstream 
+PON traﬃc. By adopting a hard pipe 
+scheme, the original scheme of 
+statistical multiplexing for downstream 
+PON traﬃc is optimized to ensure the 
+performance. The dynamic bandwidth 
+allocation (DBA) on the PON ports is 
+ 
+to build a sustainable green network.
+ZXA10 C600E has the following features:
+Compatibility with the service cards 
+of ZXA10 C600:  To ensure smooth 
+network evolution and seamless 
+platform switchover, ZXA10 C600E 
+is forward-compatible with service 
+cards of ZXA10 C600, including GPON, 
+10-Gigabit-capable symmetric passive 
+optical network (XG (S)-PON), Any-PON, 
+Combo PON, 50G PON Combo, 
+point-to-point (PtP), and Ethernet 
+uplink cards. This facilitates hybrid 
+networking of ZXA10 C600E and ZXA10 
+C600, allowing for the intermixing of 
+service cards. As a result, operators can 
+minimize the expenses associated with 
+network upgrades.
+Tbps-level per-slot bandwidth 
+capability to meet the requirements 
+for large-scale 50G PON deployment:  
+Employing the Combo PON concept to 
+implement the evolution from GPON 
+to 10G PON and further to 50G PON is 
+a cost-eﬀective solution that requires 
+minimal changes to the existing 
+network. Tbps-level bandwidth meets 
+the requirements for large-scale 
+deployment of the 50G PON, 10G PON Turbocharging FTTx Network Special Topic 
+ 12

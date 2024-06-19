@@ -1,0 +1,97 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3CHENG Lei , QIN Shuang , FENG Gang Learning -Based Admission Control for Low -Earth -Orbit Satellite Communication Networks    Research Papers
+also find that AC -DCRS outperforms FCR , HPFCR , and DCR 
+in these two aspects . This is because AC -DCRS can well bal ‐
+ance the call admission of all services from the level of the en ‐
+tire system . Ensuring the admission of high -priority service 
+calls makes as many calls of multiple services as possible get 
+admission .
+We assume that the total call arrival rate changes dynami ‐
+cally at a certain time frequency . The initial total call arrival 
+rate is 8 calls/s , and the range of change is [λt-2, λt+2], 
+where λt is the current total call arrival rate . As shown in Fig . 7, 
+the AC -DCRS can achieve better system performance in differ ‐
+ent dynamic scenarios , compared with comparison algorithms . 
+This is because our AC -DCRS can learn the optimal admis ‐
+sion control strategy under the current traffic and can adjust 
+the threshold in real time .Finally , we show the convergence of the value function in 
+the AC -DCRS algorithm . We separately consider the conver ‐
+gence in the small state space (C = 20) and big state space (C=
+100) cases . We observe the dynamic change of the state -value 
+function at a certain state as the Critic evolves . As shown in 
+Fig. 8, we can find that after certain training steps , the value 
+function converges . The convergence speed varies with the 
+sizes of state space , for the reason that it requires more itera ‐
+tions to traverse a larger state space to reach optimal strategy . 
+In addition , the obtained strategy through training can be ap ‐
+plied to similar scenarios in different satellite beam cells . The 
+training data of different satellite beam cells in similar sce ‐
+narios can be shared for migration training , which will acceler ‐
+ate the convergence to the optimal strategy .
+5 Conclusions
+In this paper , we have proposed a dynamic channel reserva ‐
+tion strategy AC -DCRS based on the Actor -Critic algorithm to 
+realize intelligent admission control in a satellite network . AC -
+DCRS can learn an optimal admission policy for both new 
+calls and handover calls with different service priorities , 
+which will improve the performance of both the user side and 
+the network . Numerical results show that our proposed AC -
+DCRS algorithm achieves better long -term overall system per ‐
+formance , average call success rate , and channel utilization 
+under different traffic conditions and dynamic scenarios com ‐
+pared with traditional channel reservation strategies .
+References
+[1] LIU J J , SHI Y P , FADLULLAH Z M , et al . Space -air-ground integrated network : 
+a survey [J]. IEEE communications surveys & tutorials , 2018 , 20(4): 2714–
+2741 . DOI : 10.1109 /COMST .2018 .2841996
+[2] DING R , CHEN T T , LIU L , et al . 5G integrated satellite communication sys ‐
+tems: architectures , air interface , and standardization [C]//International Confer ‐
+ence on Wireless Communications and Signal Processing (WCSP ). IEEE , 2020 : 
+702–707. DOI : 10.1109 /WCSP 49889 .2020 .9299757
+[3] DENG R Q , DI B Y , ZHANG H L , et al . Ultra -dense LEO satellite constel ‐
+lation design for global coverage in terrestrial -satellite networks [C]//
+Global Communications Conference . IEEE , 2021 : 1–6. DOI : 10.1109 /▲Figure 6. Average call success rate with varying  λAC -DCRS : DCR strategy based on Actor -Critic algorithm      
+DCR : dynamic channel reservation
+FCR: fixed channel reservation
+HPFCR : handover priority fixed channel reservation strategy
+▲Figure 7. O(t) with change frequency varyingAC -DCRS : DCR strategy based on Actor -Critic algorithm      
+DCR : dynamic channel reservation
+FCR: fixed channel reservation
+HPFCR : handover priority fixed channel reservation strategy
+▲Figure 8. Value function with time varyingAC -DCRS
+FCR
+HPFCR
+DCR
+0   5  10 15 20 25
+λAverage call success rate1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+AC -DCRS
+FCR
+HPFCR
+DCRO(t)
+Time change frequency20 30 40 50 60 70 80 90 10015
+10
+5
+0Training timesteps0         10 000       20 000     30 000     40 000      50 000      60 000Value function of C=100
+C=20
+C=100
+Value function of C=200
+-50
+-100
+-150
+-200
+-250
+-300-2
+-4
+-6
+-8
+-10
+-12
+-14
+61

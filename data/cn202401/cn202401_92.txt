@@ -1,0 +1,99 @@
+下一代多址接入技术的挑战与关键进展 陈 为  等 专家论坛
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1IEEE transactions on signal processing , 2021 , 69: 3768 -3781 . 
+DOI: 10.1109 /TSP.2021 .3090679
+[18] SHAO X D , CHEN X M , NG D W K , et al . Cooperative activity 
+detection : sourced and unsourced massive random access 
+paradigms [J]. IEEE transactions on signal processing , 2020 , 68: 
+6578 -6593 . DOI: 10.1109 /TSP.2020 .3039342
+[19] 刘梦晓 , 周晶, 张文逸 . 用于超高移动性信道的正交时频空调制  [J]. 
+中 兴 通 讯 技 术 , 2021 , 27(4): 9-13. DOI : 10.12142 /
+ZTETJ .202104003
+[20] DING Z G , SCHOBER R , FAN P Z , et al . OTFS-NOMA : an 
+efficient approach for exploiting heterogenous user mobility 
+profiles [J]. IEEE transactions on communications , 2019 , 67(11): 
+7950 -7965 . DOI: 10.1109 /tcomm .2019 .2932934
+[21] NAEEM M K , ABOZARIBA R , ASADUZZAMAN M , et al . Mobility 
+support for MIMO-NOMA user clustering in next-generation 
+wireless networks [J]. IEEE transactions on mobile computing , 
+2023 , 22(10): 6011 -6026 . DOI: 10.1109 /TMC .2022 .3186430
+[22] GANJI M , ZOU X , JAFARKHANI H . Asynchronous transmission 
+for multiple access channels : rate-region analysis and system 
+design for uplink NOMA [J]. IEEE transactions on wireless 
+communications , 2021 , 20(7): 4364 -4378 . DOI : 10.1109 /
+twc.2021 .3058405
+[23] ZHANG H J , ZHANG H S , LONG K P , et al . Deep learning based 
+radio resource management in NOMA networks : user 
+association , subchannel and power allocation [J]. IEEE 
+transactions on network science and engineering , 2020 , 7(4): 
+2406 -2415 . DOI: 10.1109 /tnse .2020 .3004333
+[24] HUANG H , YANG Y , DING Z , et al . Deep learning-based sum 
+data rate and energy efficiency optimization for MIMO-NOMA 
+systems [J]. IEEE transactions on wireless communications , 
+2020 , 19(8): 5373 -5388
+[25] YE N , LI X M , YU H X , et al . DeepNOMA : a unified framework 
+for NOMA using deep multi-task learning [J]. IEEE transactions 
+on wireless communications , 2020 , 19(4): 2208 -2225 . DOI : 
+10.1109 /twc.2019 .2963185
+[26] HU C , WANG H , SONG R F . Group successive interference 
+cancellation assisted semi-blind channel estimation in multi-cell 
+massive MIMO-NOMA systems [J]. IEEE communications 
+letters , 2021 , 25(9): 3085 -3089 . DOI : 10.1109 /
+lcomm .2021 .3095119
+[27] PERDANA R H Y , NGUYEN T V , AN B . Adaptive user pairing in 
+multi-IRS-aided massive MIMO-NOMA networks : spectral 
+efficiency maximization and deep learning design [J]. IEEE 
+transactions on communications , 2023 , 71(7): 4377 -4390 . DOI : 
+10.1109 /tcomm .2023 .3277533
+[28] REZAEI F , HEIDARPOUR A R , TELLAMBURA C , et al . Underlaid 
+spectrum sharing for cell-free massive MIMO-NOMA [J]. IEEE 
+communications letters , 2020 , 24(4): 907-911. DOI : 10.1109 /
+lcomm .2020 .2966195
+[29] AL-ERYANI Y , AKROUT M , HOSSAIN E . Multiple access in cell-
+free networks : outage performance , dynamic clustering , and 
+deep reinforcement learning-based design [J]. IEEE journal on 
+selected areas in communications , 2021 , 39(4): 1028 -1042 . 
+DOI: 10.1109 /jsac.2020 .3018825[30] NIKOPOUR H , BALIGH H . Sparse code multiple access [C]//
+Proceedings of IEEE 24th Annual International Symposium on 
+Personal , Indoor , and Mobile Radio Communications (PIMRC ). 
+IEEE , 2013 : 332-336. DOI: 10.1109 /pimrc .2013 .6666156
+[31] REBHI M , HASSAN K , RAOOF K , et al . Sparse code multiple 
+access : potentials and challenges [J]. IEEE open journal of the 
+communications society , 2021 , 2: 1205 -1238 . DOI : 10.1109 /
+ojcoms .2021 .3081166
+[32] YUAN Z F , YU G H , LI W M , et al . Multi-user shared access for 
+Internet of Things [C]//Proceedings of IEEE 83rd Vehicular 
+Technology Conference (VTC Spring ). IEEE , 2016 : 1-5. DOI : 
+10.1109 /vtcspring .2016 .7504361
+[33] THUSHAN S , ALI S , MAHMOOD N H , et al . Deep learning-
+based blind multiple user detection for grant-free SCMA and 
+MUSA systems [J]. IEEE transactions on machine learning in 
+communications and networking , 2023 , 1: 61-77. DOI : 10.1109 /
+tmlcn .2023 .3283350
+[34] DAI X M , ZHANG Z Y , BAI B M , et al . Pattern division multiple 
+access : a new multiple access technology for 5G [J]. IEEE 
+wireless communications , 2018 , 25(2): 54-60. DOI : 10.1109 /
+mwc .2018 .1700084
+[35] SHEN S , CHEN Y W , ZHOU Q , et al . Demonstration of pattern 
+division multiple access with message passing algorithm for 
+multi-channel mmWave uplinks via RoF mobile fronthaul [J]. 
+Journal of lightwave technology , 2020 , 38(21): 5908 -5915 .DOI: 
+10.1109 /JLT.2020 .3005905
+作 者 简 介
+陈为 ，北京交通大学教授 ；长期从事无线通信 、
+信号处理 、人工智能技术研究 ，并围绕高维信息
+感知和处理 、海量机器类通信 、语义通信 、智慧
+交通开展研究工作 ；作为负责人承担国家优秀青
+年科学基金等多项省部级及以上项目 ；获2022 年
+度信息通信领域十大科技进展 、首届詹天佑铁道
+科学技术奖秦驰道专项奖 （青年奖 ）等荣誉 。
+                          艾渤 ，北京交通大学教授 、电子信息工程学院
+院长，国家 6G技术研发总体专家组专家 ，国家
+自然科学基金委创新群体带头人 ，国家杰出青年
+科学基金 、优秀青年科学基金 、牛顿高级学者基
+金、中国科协 “求是杰出青年奖 ”获得者 ，中共
+中央组织部 “万人计划 ”领军人才 ，北京市优秀
+教师，IEEE Fellow ，IEEE VTS 杰出讲师 ；入选
+斯坦福 2020 —2022 年全球前 2%顶尖科学家终
+身影响力榜 ，获省部级科技奖励 9项。
+88

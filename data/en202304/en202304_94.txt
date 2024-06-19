@@ -1,0 +1,67 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos   Research Papers
+Beyond Video QualityBeyond Video Quality :: Evaluation of  Evaluation of 
+Spatial Presence in Spatial Presence in 360360 --Degree VideosDegree Videos
+ZOU Wenjie1, GU Chengming1, FAN Jiawei1, 
+HUANG Cheng2,3, BAI Yaxian2,3
+(1. School of Telecommunications Engineering , Xidian University , Xi’an 
+710071 , China ；
+ 2. ZTE Corporation , Shenzhen 518057 , China ；
+ 3. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China )DOI: 10.12142 /ZTECOM .202304012
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20231129 .1000 .002.html, 
+published online November 29, 2023
+Manuscript received : 2023 -05-08
+Abstract : With the rapid development of immersive multimedia technologies , 360 -degree video services have quickly gained popularity and 
+how to ensure sufficient spatial presence of end users when viewing 360 -degree videos becomes a new challenge . In this regard , accurately ac ⁃
+quiring users ’ sense of spatial presence is of fundamental importance for video service providers to improve their service quality . Unfortu ⁃
+nately , there is no efficient evaluation model so far for measuring the sense of spatial presence for 360 -degree videos . In this paper , we first de ⁃
+sign an assessment framework to clarify the influencing factors of spatial presence . Related parameters of 360 -degree videos and head -
+mounted display devices are both considered in this framework . Well -designed subjective experiments are then conducted to investigate the 
+impact of various influencing factors on the sense of presence . Based on the subjective ratings , we propose a spatial presence assessment 
+model that can be easily deployed in 360 -degree video applications . To the best of our knowledge , this is the first attempt in literature to estab ⁃
+lish a quantitative spatial presence assessment model by using technical parameters that are easily extracted . Experimental results demon ⁃
+strate that the proposed model can reliably predict the sense of spatial presence .
+Keywords : virtual reality ; quality assessment ; omnidirectional video ; spatial presence
+Citation  (Format 1): ZOU W J , GU C M , FAN J W , et al . Beyond video quality : evaluation of spatial presence in 360 -degree videos [J]. ZTE 
+Communications , 2023 , 21(4): 91–103. DOI : 10.12142 /ZTECOM .202304012
+Citation  (Format 2): W. J. Zou, C. M. Gu, J. W. Fan, et al ., “Beyond video quality : evaluation of spatial presence in 360 -degree videos ,” ZTE 
+Communications , vol. 21, no. 4, pp. 91–103, Dec. 2023 . doi: 10.12142 /ZTECOM .202304012 .
+1 Introduction
+In the past decade , multimedia streaming services have 
+had an explosive growth[1]. Among a variety of multimedia 
+types , 360 -degree videos become the major type of virtual 
+reality (VR) content in the current stage . Major video -
+sharing websites such as YouTube and Facebook have already 
+started to offer 360 -degree video -on-demand and live 360 -de⁃
+gree video streaming services .
+In contrast to traditional 2D videos , 360 -degree videos can 
+provide full 360 -degree scenes to end users , using the Head -
+Mounted Display (HMD ) as a display device . With a higher 
+degree of freedom (DoF) and wider field of view (FOV ) during 
+the viewing process , end users are provided with a stronger 
+sense of immersion and a feeling of being in a perceptible vir ⁃
+tual scene around the users . Different from the experience of 
+traditional 2D videos[2–3], this type of feeling is usually termed as presence[4–7]. According to the classification of presence in 
+Refs. [8] and [9], presence covers a broad range of aspects in ⁃
+cluding spatial presence , social presence , self -presence[10], en⁃
+gagement , realism , and cultural presence . In the field of 360 -
+degree video processing , researchers are more interested in 
+spatial presence , which describes the feeling , sense , or state 
+of “being there ” in a mediated environment[4]. This feeling oc ⁃
+curs when part or all of a person ’s perception fails to accu ⁃
+rately acknowledge the role of technology that makes it appear 
+that she/he is in a physical location and environment different 
+from her/his actual location and environment in the physical 
+world[11].
+Over the last twenty years , a variety of work has been con ⁃
+ducted to investigate the users ’ sense of presence in VR envi ⁃
+ronments , especially for scenes rendered by computers[12–13]. 
+These studies mainly focused on measuring specific influenc ⁃
+ing factors of the sense of presence and revealing the qualita ⁃
+tive relationship between presence and specific human percep ⁃
+tual aspects in a generalized VR environment . Directly quanti ⁃
+fying the sense of presence is , however , outside the scope of 
+This work is supported in part by ZTE Industry⁃University⁃Institute Coop ⁃
+eration Funds .
+91

@@ -1,0 +1,81 @@
+and forming a super node (including 256 GPUs and 
+256 CPUs) through high-speed interconnection 
+technology, memory capacity can increase by 230 
+times. In addition, AI chips use the von-Neumann 
+architecture where computing and storage are 
+separated, leading to signi/f_icant energy 
+consumption (60% to 90%) during data migration. 
+Estimating based on 60% of the maximum power 
+consumption of H800 (700W), data migration 
+consumes 420W. To solve this problem, the memory 
+and computing integration technology fully 
+integrates memory and computing, avoiding data 
+migration and greatly improving energy eﬃciency.
+Regarding interconnection buses, after 3D parallel 
+splitting of AI models, data transmission between 
+chips becomes essential. Tensor parallel (TP)  
+transmission dominates transmission time, 
+exceeding 90%. Test data shows that using the same 
+number of servers to train GPT-3, compared to PCIe, 
+reduces the transmission time of one micro-batch 
+between adjacent GPUs from 246.1 ms to 78.7 ms, 
+and overall training time from 40.6 days to 22.8 days. 
+Therefore, the bandwidth of the interconnected bus 
+becomes crucial.
+ 
+Storage for AI Computing   
+At various stages of end-to-end development for 
+AI model, innovation requirements have been 
+proposed for storage, including:
+Multi-data storage: Multimodal datasets such as video, image, and audio bring requirements for 
+diverse storage formats such as blocks, /f_iles, 
+objects, and big data, as well as for protocol 
+interworking.
+Massive storage: To ensure the precision of AI 
+model training, the dataset is usually 2–3 times the 
+size of the parameter values. In the current era of 
+rapid development for AI models, expanding from 
+100 billion to one trillion, storage capacity serves 
+as a crucial indicator.
+High concurrent performance: In the AI parallel 
+training scenario, multiple training nodes need to 
+read datasets simultaneously. During the training 
+process, each training node needs to periodically 
+save checkpoint to ensure system resilience for 
+breakpoint training. The high performance of 
+these read/write operations can greatly improve 
+the eﬃciency of AI model training.
+Therefore, for AI computing storage, it is necessary 
+to provide multi-data storage capability and 
+multi-protocol interworking capability for block (iSCSI), 
+/f_ile (NAS), object (S3), and big data (HDFS). Performance 
+can be improved through comprehensive software and 
+hardware optimization. Hardware acceleration 
+methods involve oﬄoading storage interface 
+protocols via DPUs, and performing deduplication, 
+compression, and security operations, as well as 
+automatic data tiering and partitioning based on 
+popularity. Software optimization methods include 
+distributed caching, parallel /f_ile access systems, and 
+ 
+Fig. 1. Innovative 
+architecture of the 
+AI data center.
+Lossless/low latency Infrastructure
+CPU Block storage Ordinary networkResource management
+Cloud resource orchestration (VM/container/bare metal) 
+Auxiliary facilities
+Low-power rack Air cooling General data center
+Infrastructure
+CPU/xPU Multi-data  storage Lossless networkResource management
+Cluster scheduling Capability enhancement Task Orchestration
+Auxiliary facilities
+high-power rack Air/liquid cooling AI data center (new)
+Low power/air cooling
+High power/liquid cooling CPU xPUCloud computing resource scheduling
+cluster management /task scheduling
+Computing
+ 
+Storage NetworkMatrix operation/parallel processing/cluster calculation
+Concurrent access/massive multimodal data Expert Views
+06 

@@ -1,0 +1,90 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Simulation and Modeling of Common Mode EMI Noise in Planar Transformers    Research Papers
+vs
+1m=vD+0.5Δv .(14)
+Substituting Eqs . (6)–(8) and Eqs . (11)–(14) into Eq . (9), 
+the total induced charge Qall can be expressed as :
+Qall=(Cp1s1+Cp2s1+Cp3s1)vBD+
+(2Cp1s1+Cp2s1)Δv,(15)
+where Cp1s1, Cp2s1, and Cp3s1 are quantitative after the planar 
+transformer structure and material are determined , and the 
+induced charge Qall can be calculated with only two voltage 
+variables vBD and Δv. Qall reflects the induced charge be ‐
+tween the primary and secondary windings , and replaces the 
+voltage variable Δv with the voltage variables vAD and vBD be‐
+tween the primary and secondary windings , as shown in 
+Eq. (16).
+Δv=vA-vB
+3=vAD-vBD
+3.(16)
+Substituting Eq . (16) into Eq . (15) and eliminating Δv, we 
+can get :
+Qall=(1
+3Cp1s1+2
+3Cp2s1+Cp3s1)vBD+(2
+3Cp1s1+1
+3Cp2s1)vAD.
+(17)
+Eq. (17) shows that the induced charge Qall is divided into 
+two parts , and the induced charge Qall can be reduced to the 
+transformer port BD and port AD. Then the expressions of ca ‐
+pacitance CBD and CAD are:
+CBD=1
+3Cp1s1+2
+3Cp2s1+Cp3s1,(18)
+CAD=2
+3Cp1s1+1
+3Cp2s1 . (19)
+The capacitance CBD between B and D and the capacitance 
+CAD between A and D are the equivalent common -mode ca ‐
+pacitance of the planar transformer . The sum of the induced 
+charges at both ends of the capacitance CBD and CAD is Qall. 
+The corresponding two -capacitor models of the transformer 
+are shown i n Fig . 5.
+3 Electromagnetic Compatibility Equiva ‑
+lent Circuit Model of Planar Transformer
+The electromagnetic compatibility equivalent circuit 
+model of the full -bridge transformer is sh own in Fig . 6. This 
+model can not only realize the energy transmission character ‐
+istics of the transformer but also reflect its electromagnetic 
+compatibility characteristics .Np represents the number of turns of the primary winding , 
+Ns the number of turns of the secondary winding , ZLk the 
+leakage inductance impedance , ZLm the magnetizing induc ‐
+tance impedance , and ZC1 and ZC2 the common mode equiva ‐
+lent capacitance impedance . When the frequency is low , ZLk 
+and ZLm can be represented by pure inductance , and ZC1 and 
+ZC2 can be represented by pure capacitance . However , as the 
+frequency increases , the electromagnetic environment inside 
+the transformer becomes more and more complex , and the 
+electromagnetic compatibility characteristics inside the 
+transformer can no longer be represented by the pure induc ‐
+tance or pure capacitance model of these four impedance pa ‐
+rameters . At the same time , in order to take into account the 
+basic circuit functions of transmitting energy , the lumped 
+concept is adopted , and the positions of ZLk, ZLm, ZC1, and 
+ZC2 are kept unchanged . According to the specific imped ‐
+ance curve of the four parameters , a high -order model com ‐
+posed of inductance , resistance and capacitance is used to 
+represent the electromagnetic compatibility equivalent cir ‐
+cuit model of the planar transformer . At the operating fre ‐
+quency of the switch tube of the isolated converter , the 
+model can realize the energy transfer from the primary side 
+to the secondary side , and at the frequency of conducted elec ‐
+tromagnetic interference , the model can reflect the electro ‐
+magnetic compatibility characteristics of the transformer .
+To extract ZC1 and ZC2, it is necessary to simulate the ac ‐
+tual working conditions of the planar transformer in the full -
+bridge circuit , and to form the same potential distribution on 
+▲Figure 5. Two -capacitor model
+▲Figure 6. Electromagnetic compatibility equivalent circuit model of 
+planar transformerA
+BC
+D
+CBDCAD
+A
+BC
+DZLK
+ZLm
+ZC2ZC1
+NpNs
+109

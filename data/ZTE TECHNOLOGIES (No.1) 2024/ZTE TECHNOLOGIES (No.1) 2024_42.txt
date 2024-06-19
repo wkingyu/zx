@@ -1,0 +1,55 @@
+within the base station, eliminating the need 
+for detours to UPF in traditional private 
+network services. This signi/f_icantly reduces 
+the transmission path, simpli/f_ies the network 
+structure, decreases transmission latency, and 
+ensures network reliability.
+The NodeEngine computing engine 
+deployed this time not only supports video 
+data identi/f_ication and distribution but also 
+incorporates a simpli/f_ied core network function 
+known as 5GCCP. This deployment liberates 
+the production and broadcasting network 
+at the Hangzhou International Expo Center 
+from the cumbersome process of remotely 
+connecting to the core network required by 
+conventional private networks, preventing 
+business interruptions caused by link failures. 
+Moreover, while NodeEngine identi/f_ies business 
+types, it can also analyze the QoS requirements 
+through its intelligent algorithm. By deploying 
+various scheduling strategies, it ensures 
+optimal business QoS performance, greatly 
+simplifying operational challenges related to 
+card management and network maintenance 
+that may arise during the video production and broadcasting process.
+The 5G-A network capabilities, characterized 
+by large capacity, high reliability and low 
+latency, serve as the core driving force behind 
+CMG’s UHD shallow compression coding and 
+real-time production technology. This meets 
+the requirements of 4K video 1:8 (8K video 1:32) 
+shallow compression large uplink services and 
+virtual co-hosting services. The system operates 
+smoothly and reliably for a long time with no 
+packet loss, meeting the higher requirements 
+of video shallow compression production 
+and broadcasting compared to traditional 
+deep compression. It requires ultra-large 
+uplink bandwidth (4K@50P 1:8, 1.1G), ultra-low 
+latency (end-to-end 100 ms), and transmission 
+stability (no packet loss during transmission). 
+The successful demonstration oﬀers insights 
+and reference for the future evolution of 
+wireless production and broadcasting studios, 
+providing valuable scenario validation for the 
+industry.
+During the demonstration, the camera 
+achieved end-to-end business transmission 
+through the encoding and decoding box 
+ 
+Millimeter-wave macro RF unit
+Millimeter-wave MiCell RF unit 
+Virtual co-hosting video service demo
+Virtual co-hosting video service demo
+40 Success Stories 

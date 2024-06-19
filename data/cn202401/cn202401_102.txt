@@ -1,0 +1,46 @@
+数据中心光模块技术及演进 张平化  等 企业视界
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1面临一定挑战 ，但基于其在成本和功耗方面的优势 ，硅光技
+术有望成为未来光器件的主流技术 。薄膜铌酸锂是超高速数
+据中心和相干光传输的核心光器件 ，具有高性能 、低成本 、
+小尺寸 、可批量生产且与 CMOS 工艺兼容等优点 ，是未来高
+速光互连极具竞争力的解决方案 。当数据中心内部连接的要
+求超过 1.6T并走向 3.2T时，色散损伤和链路预算将对直接
+检测 （IM-DD ）解决方案提出更高要求 。因此 ，相干精简版
+解决方案有望成为大批量 3.2T数据中心内互联应用的有力
+竞争者 。
+致谢
+感谢中兴光电子技术有限公司沈百林 、熊孝海等专家对
+本研究的帮助 ！
+参考文献
+[1] Cisco . 2020  Cisco and/or its affiliates [EB/OL ]. [2024 -01-15]. 
+https ://www .cisco .com/c/dam/global/en_sg/partners/assets/
+networking-academy-cybersecurity/Josh-mccloud-
+becybersmart-presentation .pdf
+[2] 中国通信标准化协会 . 用于液冷系统中的光模块研究报告  [R]. 2021
+[3] 西南证券人工智能专题研究 : LPO 光模块  [EB/OL ]. [2024 -01-15]. 
+https ://pdf.dfcfw .com/pdf/H 3_AP202312061613416719 _1.pdf?
+1701854056000 .pdf
+[4] IPEC . IPEC 成功立项 OIO研究项目 , 探索下一代数据中心交换芯片
+技 术 演 进  [EB/OL ]. [2024 -01-15]. https ://www .ipec-std .org/zh/
+5219 .html
+[5] MINKENBERG C , KRISHNASWAMY R , ZILKIE A , et al . Co-
+packaged datacenter optics : opportunities and challenges [J]. IET 
+optoelectronics , 2021 , 15(2): 77-91. DOI: 10.1049 /ote2.12020
+[6] 卞玲艳 , 曾艳萍 , 蔡莹 , 等 大数据时代光电共封技术的机遇与挑战  
+[J]. 激光与光电子学进展 , 2024 , 61(11). DOI： 10.3788 /LOP 231348
+[7] GUI T , WANG X F , TANG M , et al . Real-time demonstration of 600 Gbit/s DP- 64QAM selfomodyne coherent bi-direction 
+transmission with uncooled DFB laser [C]//2020  Optical Fiber 
+Communications Conference and Exhibition (OFC), 2020 , IEEE . 
+DOI: 10.1364 /OFC .2020 .Th4C.3 
+作 者 简 介
+张平化 ，中兴光电子技术有限公司工程师 ；主要
+从事光模块规划工作 。
+王会涛 ，中兴光电子技术有限公司规划总工 ；长
+期从事光通信系统 、光电子器件产品和技术的研
+发及规划工作 ；曾获得中国通信学会科技进步奖
+一等奖 、教育部技术发明奖二等奖 ；拥有专利 10
+余项。
+付志明 ，中兴光电子技术有限公司工程师 ；主要
+从事光模块规划工作 。
+98

@@ -1,0 +1,95 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SUN Yunqi , JIAN Mengnan , YANG Jun , ZHAO Yajun , CHEN Yijian Special Topic   Degree of Freedom Analysis for Holographic MIMO Based on a Mutual -Coupling -Compliant Channel Model
+the Rayleigh fading channel , we generate 100 sets of F and 
+calculate the corresponding channel matrices for each 
+scene . The singular values are an average of 100 random 
+channel matrices .
+First, we study the DOF of a ULA system and a UPA system 
+with λ/2 spacing and 200λ distance as a benchmark . In this 
+scenario , the ULA system and the UPA system are weak cou ⁃
+pling arrays in the far field . The DOF distribution is shown in 
+Fig. 4(a) for a far -field channel as well as a near -field channel 
+at the distance of 10λ. Additionally , simulations considering 
+the mutual coupling are shown in Fig . 4(b) for λ/4 spacing 
+with the same antenna configuration .
+In Fig . 4(a), it can be seen that the ULA and UPA have 
+similar singular value distributions in both the far -field and 
+the near -field. Furthermore , the singular values for the simu ⁃
+lated near -field channel are much bigger than those of the far-field channel . This can be clearly interpreted as a gain of 
+the path loss . Since Dfarfield=20Dnearfield, the singular values 
+should decrease by a factor of 400 in the far -field, which is 
+exactly the inverse -square law . The simulations in Fig . 4(b) 
+supports this similarity in modest mutual coupling . Also , the 
+rich scattering channel greatly increases the available DOF 
+of the system , thereby improving spatial multiplexing and 
+channel performance .
+Second , we study the influence of planting more antennas 
+into an array with a fixed aperture to the channel matrix . Spe⁃
+cifically , we analyze eight antenna configurations with a fixed 
+7.5λ ULA and 1.5λ×1.5λ UPA aperture listed in Table 1 
+with indexes 5–8 and 13–16. 
+Fig. 5 shows that the ULA and UPA share similar singular 
+values in the near - and far -fields of a dense array configura ⁃
+tion and the near field of a super -dense array configuration . 
+▲Figure 4. Singular values in non -mutual coupling and modest mutual 
+coupling : (a) singular values for λ/2 spacing ULA and UPA at the far -
+field (200λ) and near -field (10λ); (b) singular values for λ/4 spacing 
+ULA and UPA at the far -field (200λ) and near -field (10λ). See Table 1 
+for the detailed configurations denoted by the legendsFF: far -field 
+MC: mutual -coupling NF: near -field 
+ULA : uniform linear array UPA : uniform planar array
+▲Figure 5. Singular values for dense arrays with fixed aperture : (a) 
+The dense array has 31 antennas ULA and 7×7 elements UPA , and an ⁃
+tenna spacing is λ/4; (b) the super -dense array has 76 antennas ULA 
+and 16×16 antennas UPA , and antenna spacing is λ/10. See Table 1 for 
+the detailed configurations denoted by the legends
+DEN : dense 
+FF: far -field  NF: near -field  
+UDEN : ultra dense ULA : uniform linear array
+UPA : uniform planar array(b)(a) (a)
+(b)Singular value index0   2  4   6  8 10 12 14log10 σSingular value distribution
+-1
+-2
+-3
+-4
+-5ULA_FF
+UPA_FF
+ULA_NF
+UPA_NF
+Singular value distributionlog10 σ-2
+-4
+-6
+-8
+-10ULA_FF
+UPA_FF
+ULA_FF_MC
+UPA_FF_MC
+ULA_NF_MC
+UPA_NF_MC
+Singular value index0   2  4   6  8 10 12 14Singular value distributionlog10 σ-1
+-2
+-3
+-4
+-5ULA_FF
+UPA_FF
+ULA_FF_DEN
+UPA_FF_DEN
+ULA_NF_DEN
+UPA_NF_DEN
+Singular value index0   2  4   6  8 10 12 14
+Singular value distributionlog10 σ-1.5
+-2.0
+-2.5
+-3.0
+-3.5
+-4.0
+-4.5
+-5.0
+-5.5ULA_FF
+UPA_FF
+ULA_FF_UDEN
+UPA_FF_UDEN
+ULA_NF_UDEN
+UPA_NF_UDEN
+0   2  4   6  8 10 12 14
+38

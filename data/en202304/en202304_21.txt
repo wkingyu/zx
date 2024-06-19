@@ -1,0 +1,106 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZHANG Huiran , DONG Zhen , WANG Mingsheng Special Topic   Spatio -Temporal Context -Guided Algorithm for Lossless Point Cloud Geometry Compression
+type of data . With increasing approaches to point cloud com ⁃
+pression available and presented , two -point cloud data com ⁃
+pression frameworks —TMC 13 and TMC 2 were issued in 
+2018 . The research above shows remarkable progress has 
+been made in the compression technology of point cloud . How ⁃
+ever, prior work mostly dealt with the spatial and temporal cor ⁃
+relation of point clouds separately but had not yet been ex ⁃
+ploited to their full potential in point cloud compression .
+To address the aforementioned challenges , we introduce a 
+spatio -temporal context -guided method for lossless point 
+cloud geometry compression . We first divide point clouds into 
+unit layers along the main axis . We then design a prediction 
+mode via a travelling salesman algorithm , by adopting spatio -
+temporal correlation . Finally , the residuals are written into bit ⁃
+streams with a utilized context -adaptive arithmetic encoder . 
+Our main contributions are as follows .
+1) We design a prediction mode applicable to both intra -
+frame and inter -frame point cloud , via the extended travelling 
+salesman problem (TSP). By leveraging both the spatial and 
+temporal redundancies of point clouds , the geometry predic ⁃
+tion can make better use of spatial correlation and therefore 
+enable various types of scenarios .
+2) We present an adaptive arithmetic encoder with fast con ⁃
+text update , which selects the optimal 3D context from the 
+context dictionary , and suppresses the increase of entropy esti ⁃
+mation . As a result , it enhances the probability calculation ef ⁃
+ficiency of entropy encoders and yields significant compres ⁃
+sion results .
+The rest of this paper is structured as follows . Section 2 
+gives an outline of related work on point cloud geometry com ⁃
+pression . Section 3 firstly presents an overview of the pro ⁃
+posed framework . Then , the proposed method is descibed in 
+detail . Experimental results and conclusions are presented in 
+Sections 4 and 5, respectively .
+2 Related Work
+There have been many point cloud geometry compression 
+algorithms proposed in the literature . CAO et al .[8] and 
+GRAZIOSI et al .[9] conduct an investigation and summary of 
+current point cloud compression methods , focusing on spatial 
+dimension compression technology and MPEG standardization 
+frameworks respectively . We provide a brief review of recent 
+developments in two categories : single -frame point cloud com ⁃
+pression and multi -frame point cloud compression .
+2.1 Single -Frame Point Cloud Compression
+Single -frame point clouds are widely used in engineering 
+surveys , cultural heritage preservation , geographic information 
+systems , and other scenarios . The octree is a widely used data 
+structure to efficiently represent point clouds , which can be 
+compressed by recording information through the occupied 
+nodes . HUANG et al .[10] propose an octree -based method that 
+recursively subdivides the point cloud into nodes with their positions represented by the geometric center of each unit . 
+FAN et al .[11] further improve this method by introducing clus ⁃
+ter analysis to generate a level of detail (LOD ) hierarchy and 
+encoding it in a breadth -first order . However , these methods 
+can cause distortion due to the approximation of the original 
+model during the iterative process .
+To address these limitations , scholars have introduced geo ⁃
+metric structure features , such as the triangular surface 
+model[12], the planar surface model[13–14], and the clustering al ⁃
+gorithm[15], for inter -layer prediction and residual calculation . 
+RENTE et al .[16] propose a concept of progressive layered com ⁃
+pression that first uses the octree structure for coarse -grained 
+encoding and then uses the graph Fourier transform for com ⁃
+pression and reconstruction of cloud details . In 2019 , MPEG 
+released the geometry -based point cloud compression (G-
+PCC) technology for both static and dynamic point clouds , 
+which is implemented through coordinate transformation , vox⁃
+elization , geometric structure analysis , and arithmetic coding 
+step by step[17].
+Since certain octants within an octree may be sparsely popu ⁃
+lated or even empty , some methods have been proposed to op ⁃
+timize the tree structure by pruning sub -nodes and therefore 
+conserve memory allocation . For example , DRICOT et al .[18] 
+propose an inferred direct coding mode (IDCM ) for terminat ⁃
+ing the octree partition based on predefined conditions of spar ⁃
+sity analysis , which involves pruning the octree structure to 
+save bits allocated to child nodes . ZHANG et al .[19] suggest 
+subdividing the point cloud space along principal components 
+and adapting the partition method from the binary tree , 
+quadtree and octree . Compared with the traditional octree par ⁃
+titioning , the hybrid models mentioned above can effectively 
+reduce the number of bits used to represent sparse points , 
+therefore saving nodes that need to be encoded . However , com ⁃
+plex hyperparameter conditions and mode determination are 
+required in the process , making it difficult to meet the require ⁃
+ments of self -adaptation and low complexity .
+With deep neural networks making significant strides in im ⁃
+age and video compression , researchers have explored ways to 
+further reduce bit rates by leveraging super prior guidance 
+and the redundancy of latent space expression during the com ⁃
+pression process . QUACH et al .[20] and HUANG et al .[21] pro⁃
+pose methods that incorporate these concepts . GUARDA et al .
+combine convolutional neural networks and autoencoders to 
+exploit redundancy between adjacent points and enhance cod ⁃
+ing adaptability in Ref . [22]. Recently , WANG et al .[23] pro⁃
+pose a point cloud compression method based on the varia ⁃
+tional auto -encoder , which improves the compression ratio by 
+learning the hyperprior and reducing the memory consumption 
+of arithmetic coding . The aforementioned methods use neural 
+network encoders to capture the high -order hidden vector of 
+the point cloud , the entropy model probabilities , and the edge 
+probabilities of which fit better , thus reducing the memory 
+consumption of arithmetic coding .
+18

@@ -1,0 +1,94 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHAO Yaqiong , KE Hongqin , XU Wei , YE Xinquan , CHEN Yijian Review   RIS -Assisted Cell Free MIMO : A Survey
+This is achieved under the control of a central processing unit 
+(CPU) via high -speed fiber or wireless backhaul/fronthaul 
+links . The biggest difference between CF MIMO and conven ⁃
+tional massive MIMO systems is the absence of clear boundary 
+demarcation between cells , which allows inter -cell interfer ⁃
+ence to be effectively cancelled . According to Refs . [8–10], 
+the CF MIMO system outperforms the traditional co -located an ⁃
+tenna systems , such as massive MIMO , in terms of 95%-likely 
+per -user spectral efficiency (SE). This is because the received 
+signal at each UE suffers from disparate large -scale fading 
+components from distinct APs , leading to high diversity gain . 
+Besides , good quality of service (QoS) can be guaranteed to 
+the cell -edge UE by deploying more APs in their vicinity , and 
+thus the CF MIMO system often provides wider coverage than 
+its counterpart . Due to these appealing advantages , the CF 
+MIMO technique has been regarded as a promising candidate 
+for future wireless networks[11], and has attracted increasing at ⁃
+tention for its wide application in channel estimation[12], trans ⁃
+mit beamforming[13] and resource allocation[14].
+Nevertheless , to harvest the promising performance gains of 
+the CF MIMO technique , 
+more distributed APs are re ⁃
+quired , which brings about 
+high costs and power con ⁃
+sumption in practical imple ⁃
+mentations . This issue be ⁃
+comes even more important 
+when considering green and 
+sustainable communications . 
+Among various candidates , 
+the emerging meta -surface 
+technique called reconfigu ⁃
+rable intelligent surface (RIS) 
+stands out with its unique ca ⁃
+pabilities of low cost , low en ⁃
+ergy consumption and pro ⁃
+grammability[15–19]. Made up 
+of a large number of passive 
+components , RIS can boost 
+communication by reprogram ⁃
+ming incident signals and re ⁃
+flecting them in a certain di ⁃
+rection under the control of an 
+intelligent controller . In addi ⁃
+tion, RIS can be handily inte ⁃
+grated into existent communi ⁃
+cation scenarios with low ca ⁃
+bling costs and can be densely 
+deployed regardless of inter ⁃
+ference management among 
+multiple RISs . The above ben ⁃
+efits have motivated extensive 
+study interests on the various applications of RISs in channel capacity improvement , cover ⁃
+age extension , and power saving .
+Motivated by the above discussions , we try to provide a thor ⁃
+ough survey on RIS -assisted CF MIMO for next -generation 
+wireless communications and future network applications in 
+this paper . Specifically , we focus on recent contributions to 
+typical performance metrics such as energy efficiency and 
+spectral efficiency to understand the role of RISs in CF -MIMO 
+systems from the viewpoint of communication optimization . 
+Furthermore , some novel emerging applications of the RIS -
+assisted CF MIMO technique within various future networks 
+are investigated . Besides , some open problems and technical 
+challenges are pointed out .
+The organization of this survey is provided in Fig . 2, where 
+key technologies of CF MIMO are first introduced in Section 
+2. The interplay between RISs and CF MIMO systems is then 
+introduced in terms of main communication performance met ⁃
+rics and optimization frameworks in Section 3. Emerging appli ⁃
+cations of RIS -assisted CF MIMO in wireless networks are fur ⁃
+ther discussed in Section 4. Finally , the technical challenges 
+▲Figure 2. Structure of this paperMIMO : multiple -input multiple -output      RIS : reconfigurable intelligent surfaceSection 1: Introduction
+Section 2: Key technologies for cell -free MIMO 
+systems
+Section 3: Two performance metrics for RIS -
+assisted cell -free MIMO
+Section 4: Applications of RIS -assisted cell -free 
+MIMO
+Section 5: Technical challenges and future 
+directions
+Section 6: Conclusions• Channel estimation
+• Transmit precoding and power control
+• Synchronization and phase calibration
+• Energy efficiency
+• Spectral efficiency
+• Physical layer security
+• Unmanned aerial vehicle
+• Wireless energy transfer
+• Technical challenges
+• Future directions
+78

@@ -1,0 +1,82 @@
+智能算力核心基础系统软件的现状与展望 郑纬民  等 热点专题
+中兴通讯技术
+2024  年 4 月    第 30 卷第  2 期   Apr . 2024    Vol . 30  No. 2scalable distributed training systems with highly efficient 
+collective communication library [J]. IEEE micro , 2021 , 41(5): 85-
+92. DOI: 10.1109 /MM .2021 .3091475
+[28] 华为技术有限公司 . 昇思通信  [EB/OL ]. [2024 -02-20]. https ://
+www .mindspore .cn/docs/zh-CN/r 1.10/api_python/mindspore .
+communication .html
+[29] NVIDIA Corporation . cutlass : Fast linear algebra in CUDA C++
+[EB/OL ]. [2024 -02-26]. https ://developer .nvidia .com/blog/
+cutlass-linear-algebra-cuda
+[30] NVIDIA Corporation . cuBLAS : Basic linear algebra on NVIDIA 
+GPU [EB/OL ]. [2024 -02-26]. https ://developer .nvidia .com/cublas
+[31] NVIDIA Corporation . cuDNN : the NVIDIA CUDA deep neural 
+network library [EB/OL ]. [2024 -02-20]. https ://developer .nvidia .
+com/cudnn
+[32] Advanced Micro Devices . rocBLAS library [EB/OL ]. [2024 -02-
+22]. https ://github .com/ROCm/rocBLAS
+[33] Advanced Micro Devices . hipDNN library [EB/OL ]. [2024 -02-
+23]. https ://github .com/ROCm/hipDNN
+[34] 华为技术有限公司 . AI异构计算架构 , 昇腾计算服务层 , 昇腾算子库
+AOL [EB/OL ]. [2024 -02-20]. https ://www .hiascend .com/
+software/cann
+[35] The Apache Software Foundation . Apache TVM [EB/OL ]. [2024 -
+02-23]. https ://tvm .apache .org
+[36] OpenXLA . XLA (Accelerated Linear Algebra ) [EB/OL ]. [2024 -02-
+23]. https ://openxla .org/xla
+[37] ZHENG L Y , WANG H J , ZHAI J D , et al . EINNET : optimizing 
+tensor programs with derivation-based transformations [EB/OL ]. 
+[2024 -02-20]. https ://www .usenix .org/conference/osdi 23/
+presentation/zheng
+[38] MA Z X , WANG H J , XING J Z , et al . PowerFusion : a tensor 
+compiler with explicit data movement description and 
+instruction-level graph IR [EB/OL ]. (2023 -07-11)[2024 -02-20]. 
+https ://arxiv .org/abs/ 2307 .04995
+[39] The Kubernetes Authors . Production-grade container 
+orchestration [EB/OL ]. [2024 -02-20]. https ://kubernetes .io
+[40] 华为技术有限公司 . AI开发平台 _ModelArts_AI 智能开放平台 _人工
+智 能 平 台 _机 器 学 习 -华 为 云  [EB/OL ]. [2024 -02-20]. https ://
+www .huaweicloud .com/product/modelarts .html
+[41] The Linux Foundation . Horovod [EB/OL ]. [2024 -02-22]. https ://
+horovod .ai
+[42] Ray-project . Ray [EB/OL ]. [2024 -02-24]. https ://www .ray.io
+[43] MA Z X , HE J A , QIU J Z , et al . BaGuaLu : targeting brain scale 
+pretrained models with over 37 million cores [C]//Proceedings of 
+the 27th ACM SIGPLAN Symposium on Principles and Practice 
+of Parallel Programming . ACM , 2022 : 192–204. DOI : 10.1145 /
+3503221 .3508417
+[44] 王豪杰 , 马子轩 , 郑立言 , 等. 面向新一代神威超级计算机的高效内
+存分配器  [J]. 清华大学学报 (自然科学版 ), 2022 , 62(5): 943-951. 
+DOI: 10.16511 /j.cnki.qhdxxb .2022 .22.007[45] JIANG Z H , LIN H B , ZHONG Y M , et al . MegaScale : scaling 
+large language model training to more than 10, 000 GPUs [EB/
+OL]. (2024 -02-23) [2024 -02-25]. https ://arxiv .org/abs/
+2402 .15627
+作 者 简 介
+                        郑纬民 ，清华大学计算机系教授 、中国工程院院
+士；长期从事高性能计算机体系结构 、并行算法
+和系统的研究 ，提出可扩展的存储系统结构及轻
+量并行的扩展机制 ，发展了存储系统扩展性理论
+与方法 ，在中国率先研制并成功应用集群架构高
+性能计算机 ，在国产神威太湖之光上研制的极大
+规模天气预报应用获得 ACM 戈登·贝尔奖 ；曾获
+国家科技进步奖一等奖 1项、二等奖 2项，国家技
+术发明奖二等奖 1项，何梁何利基金科学与技术进步奖 ，以及首届
+中国存储终身成就奖 ；发表学术论文 400余篇，编写和出版相关教
+材和专著 10部。
+                       翟季冬 ，清华大学计算机系长聘教授 、博士生导
+师，国家杰出青年科学基金获得者 ，国家重点研
+发计划项目负责人 ，清华大学计算机系高性能所
+副所长 ，中国计算机学会 （CCF）高性能计算专
+委副主任 、CCF杰出会员 ，ACM 中国高性能计算
+专家委员会秘书长 ；主要研究领域包括并行计算 、
+编程模型与编译优化 ；研究成果获 IEEE TPDS 
+2021 最佳论文奖 、IEEE CLUSTER 2021 最佳论
+文奖、ACM ICS 2021 最佳学生论文奖等 ；获教育部科技进步奖一
+等奖、中国计算机学会自然科学奖一等奖 、CCF-IEEE CS 青年科学
+家奖；发表论文 100余篇，出版专著 1部。
+翟明书 ，清华大学计算机系高性能所在读博士研
+究生；主要研究领域包括高性能计算 、机器学习
+系统；曾担任清华大学学生超算团队队长 ，获得
+两次世界冠军 ；发表多篇论文 。
+08

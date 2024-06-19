@@ -1,0 +1,100 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1SHEN Jiayu , YANG Jun , ZHU Chen , DENG Zhiji , HUANG Chongwen Near -Field Beam Training for Holographic MIMO Communications : Typical Methods , Challenges and Future Directions    Special Topic
+3.3.1 Equal Interval Multi -Beam (EIMB ) Training
+First, the (horizontal ) antennas or reflective elements are di ⁃
+vided into M subarrays , each consisting of L≜Nx/M neighbor ⁃
+ing elements . For each subarray m∈M≜{1,2,…,M}, we 
+equip it with a separate codebook , Wm, which consists of J=
+Nx codewords covering the same sampling direction as the 
+single -beam codebook , i.e., {α(j), j∈J}. Thus , we have
+Wm={wm(1),wm(2),…,wm(J)},∀m∈M, (6)
+where wm(j)∈CL×1, j∈J represents the codeword of subar ⁃
+ray m and uses only L antennas or reflecting elements to direct 
+the reflected beam in the direction  α(j). Based on the single -
+beam codeword C(j), we construct wm(j) as:
+wm(j)≜[C(j)]() m-1L+1:mL  . (7)
+Thus , when all M subarrays turn the reflected beam in the 
+same direction  α(j), the composite multi -beam encoding 
+[wT
+1(j),wT
+2(j),…,wT
+M(j)]T is equivalent to its single -beam 
+counterpart C(j). Compared with the full -array codeword 
+C(j), each subarray codeword w͂m(j) has a wider beam width 
+(i.e., 2M/Nx versus  2/Nx) and a smaller beam gain (i.e., Nx/M 
+versus Nx). Next , for the proposed multi -beam training , the BS 
+is allowed to steer the subarray beams in several different di ⁃
+rections simultaneously , usually according to the multi -beam 
+codebook Wm, m∈M varying over the duration of the train ⁃
+ing symbols . By appropriately designing the beam directions 
+of the BS subarrays on different training symbols , the optimal 
+beam direction for each user can be found with high probabil ⁃
+ity by a simple comparison of the received signal power/SNR . 
+For ease of exposition , we consider a typical case where M=
+2R, R∈Z, and L are even numbers , Nx=ML. The proposed 
+fast beam training method consists of two phases , namely 
+beam scanning and beam identification , as described below .
+1) The beam scanning phase consists of 1+log2 M rounds 
+in which the set of BS subarray beam directions sends mul ⁃
+tiple training symbols . For each 
+round r∈{1,2,…, log2 M+1}, we 
+denote B(r, b) as the collection of 
+subarray beam directions (in as ⁃
+cending order ) during the b-th train ⁃
+ing symbol . For any set of beam di ⁃
+rections A⊆J, we define its intra -
+set distance as
+ds(A)= min
+p, q∈A;p≠q |p-q|. (8)
+Thus , a larger in -set distance in ⁃
+dicates that the beams indexed by 
+A are farther apart in the spatial do ⁃
+main . For r=1, the Nx directions are mapped into L bins , each bin including M directions . In 
+order to separate the beam directions in each bin as much as 
+possible to minimize inter -beam interference , the bins are 
+set to
+B(1, b)={ } b, b+L,…,b+(M-1)L,∀b∈{ } 1,2,…, L ,(9)
+which maximizes the minimum bin distance among all bins , 
+ds(B(1,b))=L, ∀b∈{1,2,…,L}, as shown in Fig . 3. Then , for 
+each group ℓ, an odd subset of  B(1, ℓ), and an even subset of ℓ
+B(1, ℓ+L/2) are extracted to construct a new bin . In addi ⁃
+tion, for each round of beam sweeping , the same (maximum ) 
+intra -bin distance for different bins can be numerically de ⁃
+rived as
+ds(B(r,b))=ì
+í
+îïï
+ïïL,      if r∈{}1,2,
+L/2, if r∈{ } 3,4,…, log2M+1. (10)
+Finally , the total number of training symbols is
+T(fa)
+t=L+L(log 2M)
+2=Nx
+M()1+log 2M
+2 . (11)
+2) Beam identification : after the scanning phase , each user 
+can independently identify its optimal BS beam direction based 
+on its own received power/SNR in the first phase . Consider an 
+arbitrary user k. Let Pk(r, b) denote its received power at bin b 
+in the r-th sweep round and Î
+k(r) denote the set of candidate di ⁃
+rections for its optimal beam direction after the r-th sweep 
+round . For r=1, Î
+k(r) is set to be the best bin with the maxi ⁃
+mum received power , i.e., Î
+k(1)=B(1, b*
+k), b*
+k=
+arg max 
+b∈{1,2,…,L}Pk(1, b). For each subsequent round 
+r∈{2,3,…,log 2M+1}, the user only needs to check a bin that 
+has a common direction with Î
+k(1), since it is the only one that 
+may contain the optimal beam direction , denoted by B(r,bk(r)), 
+where bk(r)={b∈{1,2,…, L/2}|B(r,b)∩Î
+k(1)≠∅}. For this 
+bin, since the expected received power of the corresponding 
+▲Figure 3. Multi -beam schematic of the hierarchical search processRound r=1
+Bin 1: (1, 5, 9, 13) Bin 2: (2, 6, 10, 14) Bin 3: (3, 7, 11, 15) Bin 4: (4, 8, 12, 16)
+Bin 1: (1, 5, 11, 15) Bin 2: (2, 6, 12, 16) Bin 1: (1, 9, 7, 15) Bin 2: (2, 10, 8, 16)Round r=2 Round r=3
+45

@@ -1,0 +1,52 @@
+面向 6G移动通信的极化多址接入技术 崔宏基  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1面向 6G移动通信的
+极化多址接入技术
+Polar Coded Multiple Access Technology for 6G Mobile Communication
+崔宏基 /CUI Hongji ，牛凯/NIU Kai
+（ 北京邮电大学泛网无线通信教育部重点实验室 ，中国 北京 100876  ）
+(The Key Laboratory of Universal Wireless Communications , Ministry of 
+Education , Beijing University of Posts and Telecommunications , Beijing 
+100876 , China )DOI：10.12142 /ZTETJ .202401005
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20240228 .0936.002.html
+网络出版日期 ：2024 -02-27
+收稿日期 ：2023 -12-16
+摘要 ：极化码是第一种达到信道容量的编码方案 ，是5G信道编码方案之一 。面对 6G更高可靠度 、更低时延 、更大连接的业务需求 ，提出面向
+6G的极化多址接入技术 。极化多址接入技术能够充分利用多用户之间的极化效应 ，以实现更高的系统容量和系统接入能力 。有源极化编码接入
+方案能够满足 6G大容量高可靠的传输需求 ，无源极化编码随机接入方案能够提高系统的接入能力 。这些方案表明 ，极化多址接入技术能够满足
+6G移动通信系统的超高可靠 、高频谱效率 、大容量的传输需求 ，是重要的候选技术之一 。
+关键词 ：多址接入 ；极化编码 ；随机接入 ；非正交多址接入
+Abstrac t:Polar codes are the first encoding scheme to achieve channel capacity and are employed in one of the channel coding schemes in 
+5G. Faced with the demands of 6G for higher reliability , lower latency , and increased connectivity , polar-coded multiple access techniques 
+tailored for 6G are proposed . The polar-coded multiple access technique leverages the polarization effect among multiple users to achieve 
+higher system capacity and access capability . The sourced polar-coded multiple access scheme can meet the high-capacity and high-
+reliability transmission requirements of 6G, while the unsourced polar-coded random access scheme enhances the system's access capabil ⁃
+ity. These approaches indicate that polar-coded multiple access technologies can address the ultra-high reliability , high spectral efficiency , 
+and large-capacity transmission requirements of 6G mobile communication systems , making them a crucial candidate technology .
+Keywords :multiple access ; polar code ; random access ; non-orthogonal multiple access
+引用格式 ：崔宏基 , 牛凯 . 面向 6G移动通信的极化多址接入技术  [J]. 中兴通讯技术 , 2024 , 30(1): 19-25. DOI: 10.12142 /ZTETJ .202401005
+Citation ： CUI H J , NIU K . Polar coded multiple access technology for 6G mobile communication [J]. ZTE technology journal , 2024 , 30(1): 19-
+25. DOI: 10.12142 /ZTETJ .202401005
+随着6G标准化逐渐提上日程 ，全球移动通信技术的争
+夺焦点正迅速转向 6G。2023 年6月，国际电信联盟无
+线电通信部门 （ITU-R ）的新建议草案[1]提出了 6G通信的六
+大应用场景 ：沉浸式通信 、海量通信 、超高可靠度低延迟通
+信、万物互联 、集成人工智能通信是和集成感知通信 ，具体
+如图 1所示 。相比于 5G移动通信 ，6G对接入数量 、接入类
+型、可靠度和时延都提出更为严格的要求 。同时 ，6G通信
+技术以更高级别 “智能 ”促进网络 “简约 ” ，驱动网络动态
+重构形成 “智简无线网络 ” 。本文所提出的极化多址技术是
+满足大连接高可靠通信的关键技术途径 。多址接入技术旨在满足多个用户的接入需求 ，提高系统
+频 谱 效 率 。多 址 接 入 技 术 经 历 了 1G的 频 分 多 址 接 入
+（FDMA ） 、2G的时分多址接入 （TDMA ） 、3G的码分多址接
+入（CDMA ） 、4G和5G的正交频分多址接入 （OFDMA ） 。这
+些多址技术都是正交多址接入 （OMA ）技术 ，对多用户信
+号进行正交划分 。虽然这些技术的信号处理复杂度较低 ，但
+并不能达到上下行信道容量域 。非正交多址接入 （NOMA ）
+技术是 6G空口技术的关键技术 ，其核心思想是突破正交多
+址接入时域 、频域或者码域资源的正交划分 ，多个用户信号
+在相同资源上叠加传输 ，从而显著提升频谱效率 。2017 年，
+Y. POLYANSKIY 提出无源多址接入 （UMA ）[2]的概念 。不同
+于传统 OMA 技术 ，UMA 移除了网络的协作中心来以降低频
+繁访问大量短数据包的传输成本和延迟 ，是一种无协调免授 基金项目 ：国家自然科学基金 （62071058 ）
+19

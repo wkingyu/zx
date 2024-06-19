@@ -1,0 +1,91 @@
+ensure enterprises have a better 
+service experience. ZTE has actively 
+worked with partners to build and 
+improve the solutions and gradually 
+promote their maturity. 
+5G cellular positioning:  ZTE 
+has completed end-to-end 
+commercial trials of 5G cellular 
+positioning technology in 
+diﬀerent scenarios such as 
+industrial manufacturing, 
+transportation hubs, chemical 
+parks, and hospitals.
+5G+UWB deep integration: 
+ZTE has carried out in-depth 
+cooperation with industry-
+leading UWB enterprises, taking 
+the lead in launching 5G+UWB 
+deep integration solutions and 
+promoting commercial trials and 
+implementation.
+Interface standardization: 
+ZTE has worked with industry 
+chain partners to promote the 
+standardization of location 
+service interfaces, and has 
+completed the integration with 
+multiple business applications.
+5G terminal form:  ZTE has 
+promoted terminal partners 
+to enrich 5G terminal types.
+ZTE will continue to work closely 
+with partners to further promote the 
+development of the 5G end-to-end 
+industry chain, provide all-scenario 
+5G hybrid positioning solution for 
+complex and hazardous scenarios, 
+and promote the rapid implementation 
+of positioning management systems. 
+The solution will become one of the 
+strong supports for 5G-enabled 
+vertical industries, empowering 
+enterprise security management 
+and facilitating their digital 
+transformation.provides basic location and 
+trajectory analysis. Map service is 
+used for closed parks or indoor 
+places, providing map production 
+rendering and location information 
+presentation. It can choose 
+centralized or distributed 
+deployment methods according to 
+the enterprise’s existing cloud-edge 
+architecture or its own distribution.
+The service layer, which is the 
+enterprise’s service portal, provides 
+enterprise-oriented application 
+services, and is a part of the 
+enterprise digital platform, 
+including personnel management, 
+vehicle management, electronic 
+attendance, and electronic fence. It 
+can also be combined with the 
+digital twin technology to fully 
+perceive people, equipment and 
+environment, establish an eﬃcient 
+connection under the complex 
+environment of the enterprise, and 
+combine the operation of factory 
+production system with the 
+enterprise personnel positioning 
+management system. The service 
+layer and the platform layer are 
+decoupled to be /f_lexibly integrated. 
+The digital platform of the 
+enterprise can directly call the 
+platform layer for application 
+service presentation, or directly use 
+the open location data of the 
+platform layer to provide location 
+services for the enterprise as 
+required.
+Enterprise-oriented location 
+services need to consider map 
+construction and end-to-end 
+system integration, and also need 
+to provide end-to-end positioning 
+solutions in the /f_ields of terminal, 
+network, platform, map, and 
+application integration, so as to 
+29JUN 2023

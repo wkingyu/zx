@@ -1,0 +1,91 @@
+frame replication and elimination for 
+reliability (FRER), PLC packet priority and 
+scheduling timing orchestration, and 
+mapping packets with diﬀerent priorities to 
+TSN priorities. To ensure latency 
+performance, several techniques are 
+introduced such as mini-slots, DS frame 
+structure, URLLC service preemption, uplink 
+pre-scheduling, SR period parameters, and 
+DRX function. Moreover, a series of 
+enhanced designs are performed on the 5G 
+air interface to trade redundancy resources 
+for high reliability. For instance, control 
+channel enhancement, low CQI/MCS table, 
+and repeated transmission are introduced 
+at the physical layer to improve fault 
+tolerance of modulation and demodulation, 
+and reliability of data transmission, and 
+PDCP replication is introduced at the PDCP 
+layer to improve data redundancy.
+Reliable autonomy:  Improves data 
+transmission reliability
+For 5G networking in industrial /f_ields, 
+dual-module connections are established 
+through industrial CPEs while dual-frequency 
+networking is used between industrial CPEs 
+and industrial base stations. The FRER 
+technology is enabled to greatly improve 
+data transmission reliability. In addition, 
+industrial base stations also provide 
+"isolated site autonomy", which allows 
+existing services to operate normally when 
+the control plane of the base station is 
+disconnected from the 5GC core network.
+Network-service collaboration:  Enables 
+the network to coordinate and adapt 
+to services
+On the industrial sites, there are various 
+service scenarios, such as PLC control, AGV 
+transport, machine vision, and data 
+collection, which involve many service 
+types that vary greatly. To ensure a re/f_ined 
+guarantee of services in the wireless 
+network, it is necessary to understand the 
+service features and the requirements of each service for network transmission. 
+Industrial base stations have the 
+capability of "accurate identi/f_ication". By 
+introducing the AI algorithm and analyzing 
+data streams, these stations can dynamically 
+identify service types and automatically 
+match them with the requirements of QoS 
+templates. Characteristics of the service 
+/f_low may be further identi/f_ied, such as the 
+survival time period of the PLC service, the 
+I frame and the P frame of the video 
+service /f_low, and the size, period, and 
+arrival time of the packet. These features 
+can be combined with air interface 
+scheduling technology for re/f_ined 
+processing. This elevates the control from 
+the traditional service /f_low level to the 
+service packet-level granularity, enabling 
+the network to coordinate and adapt to 
+services and achieve the precision eﬀects.
+Computing and network integration: 
+Centralized and cloud-based PLC 
+computing power sharing platform
+In traditional industrial production lines, 
+a physical PLC acts as a bridge between 
+application systems such as device data 
+and IT network information processing, and 
+plays a crucial role in data structuration 
+and logic control. However, this approach 
+has some disadvantages. First, the 
+protocols between PLCs of diﬀerent 
+manufacturers are not open, which poses 
+challenges to the coordination and 
+extension required by software-de/f_ined 
+/f_lexible manufacturing. This requires an 
+upgrade to the application system, 
+resulting in latency and service reliability 
+problems. Second, the private /f_ieldbuses of 
+diﬀerent vendors are incompatible, making 
+interconnection inconvenient, and the /f_ield 
+device layer is tightly coupled with the PLC, 
+increasing the operation and maintenance 
+costs for enterprises. Finally, the digital and 
+intelligent transformation of enterprises 
+requires on-site network intelligence and 
+big data. Traditional PLC devices cannot 
+185G Fully-Connected Factory Special Topic

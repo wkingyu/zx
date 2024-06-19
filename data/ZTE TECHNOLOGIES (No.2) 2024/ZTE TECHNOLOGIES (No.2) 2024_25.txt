@@ -1,0 +1,82 @@
+and transport network technologies, constituting an 
+SRv6 solution with transport network features. 
+Compared with the standard SRv6 solution, T-SRv6 
+stands out with key features such as /f_lexible slicing, 
+eﬃcient forwarding, bidirectional same path, and 
+agile deployment.
+Flexible Slicing to Meet Diverse Computing 
+Connectivity Needs Across Industries
+The SPN network supports metro transport 
+network (MTN)-based slicing technology, oﬀering 
+soft-isolated high-reliability SR-TP connections and 
+/f_lexible SR BE connections in a shared slice, or 
+hard-isolated MTN channel connections in an 
+exclusive slice. With SRv6’s programmable capability, 
+it can bind SRv6 to SR-TP tunnel in the SPN network 
+using the Endpoint bound to an SR-MPLS policy 
+(End.BM) de/f_ined by RFC 8986, providing a 
+soft-isolated slice channel with statistical 
+multiplexing and QoS bandwidth guarantee to the 
+computing network. In addition, the T-SRv6 solution 
+extends the standard SRv6 solution by de/f_ining the 
+endpoint bound to a cross-connect channel 
+(End.BXC) function to bind SRv6 to MTN channel hard 
+isolation slice channels in the SRv6 network, 
+providing lossless and deterministic hard isolation 
+connections to the computing network. This 
+approach enables end-to-end SRv6 binding to 
+diﬀerent types of slicing channels within the SPN 
+network, meeting the diﬀerentiated SLA 
+ 
+ 
+employing a hierarchical management and 
+control architecture and service model due to the 
+distinct domains of the metro SPN and 
+intra-province/inter-province backbone. The 
+cross-domain orchestrator identi/f_ies domain border 
+nodes and links. Each domain’s SPN/cloud private 
+network controller computes and con/f_igures the 
+forwarding path, and reports the binding SID (BSID) 
+indicating the intra-domain path to the orchestrator. 
+The orchestrator orchestrates the BSID into an 
+end-to-end SRv6 policy path. Since the intra-domain 
+forwarding path indicated by the BSID is con/f_igured 
+by each domain controller and remains invisible to 
+external networks, SRv6 programmable technology 
+is used to associate the BSID with SR-TP or MTN 
+channel within the domain. In this way, the SPN 
+network can achieve SRv6 capability only at border 
+nodes while maintaining existing SR-TP or MTN 
+channel forwarding mechanisms within the domain, 
+thus creating an SPN SRv6 solution with transport 
+features.
+Key T-SRv6 Features
+The T-SRv6 solution supports /f_lexible and 
+programmable capabilities de/f_ined by the standard 
+SRv6 solution. It can interoperate with networks like 
+the intra-province/inter-province cloud private 
+networks of China Mobile, exclusively supporting the 
+standard SRv6 solution. Moreover, it combines SRv6 
+  SPNSPN controllerOrchestrator
+SPN T-SRv6 nodeCloud private 
+networkCloud private 
+network controller
+Computing 
+center
+Inband O&MSRv6 policy
+BSID-01 BSID-02Computing user
+SR-TP/MTN channel SRv6 policy
+Intra-domain connection
+End-to-end connection
+End-to-end O&MSPN node in the 
+existing networkFig. 1. Architecture 
+of the T-SRv6 
+solution.
+ 
+ 
+ 
+ 
+ 
+ 
+ APR 2024
+ 23

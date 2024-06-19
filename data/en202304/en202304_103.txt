@@ -1,0 +1,52 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4ZOU Wenjie , GU Chengming , FAN Jiawei , HUANG Cheng , BAI Yaxian Research Papers   Beyond Video Quality : Evaluation of Spatial Presence in 360 -Degree Videos
+tionship can be represented by
+DMOS(MTP)=max(min(ln(v16MTP+1), 4), 0), (13)
+DMOS(AL)=max(min(v17ln(v18AL+1), 4), 0), (14)
+where v16, v17 and v18 are equal to 0.065 46, 0.428 9 and 0.275 4, 
+respectively . We modeled the proprioceptive matching as
+PM(MTP,AL)=max(min(5-DMOS(MTP)-
+DMOS(AL), 5), 1). (15)
+4.5 Spatial Presence Assessment
+First, the relationship between the visual/acoustic realism 
+and the spatial presence is modeled . As shown in Fig . 13, the 
+spatial presence increases with the rise of VRE and ARE . 
+This phenomenon confirms the conclusion drawn in our previ ⁃
+ous work[18]. The relationship shown in Fig . 13 can be calcu ⁃
+lated as
+SPAV(VRE, ARE)=min(max(v19VRE+v20ARE+
+v21VRE×ARE+v22, 1), 5), (16)
+where v19, v20, v21, and v22 are equal to 1.285, 0.01, 0.027 4, 
+and −1.529, respectively ; SPAV represents the spatial pres ⁃
+ence provided by the visual and acoustic experience .
+Second , the impact of proprioceptive matching is investi ⁃
+gated . Fig. 14 shows the relationship between the propriocep ⁃
+tive matching and the degradation of spatial presence . We can 
+find that the degradation of spatial presence decreases with 
+the increase of proprioceptive matching . The relationship in Fig. 14 can be modeled as
+DSP(PM)=v23⋅exp(v24⋅PM)+v25 , (17)
+where v23, v24 and v25 are equal to −0.467 9, 0.533 8 and 4.367, 
+respectively . Hence , the spatial presence can be calculated by
+SP(SPAV, DSP)=min(max(SPAV-DSP, 1), 5). (18)
+By utilizing the proposed model , the spatial presence of 
+▲Figure 12. Relationship between the two types of latency and the deg ⁃
+radation of proprioceptive matchingDMOS : difference mean opinion score     MTP : motion -to-photon
+▲Figure 13. Relationships between the two types of realism and the spa ⁃
+tial presenceARE : acoustic realism    SP : spatial presence     VRE : visual realism
+DSP: degradation of spatial presence     PM : proprioceptive matching
+▲Figure 14. Relationships between the proprioceptive matching and 
+degradation of spatial presenceLatency/msMTP latency
+Audio latencyDMOS4
+3
+2
+1
+0
+0           300         600         900        1 200       1 500     1 800      2 100VRE ARESP
+VRE ARESP
+PM1 2 3 4 5DSP4
+3
+2
+1
+0(a)
+(b)
+100

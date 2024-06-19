@@ -1,0 +1,60 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3TANG Yuanqi , ZHANG Huimin , ZHENG Zheng , LI Ping , ZHU Yu Research Papers   Hybrid Architecture and Beamforming Optimization for Millimeter Wave Systems
+refers to the case where the number of overlapped antennas 
+equals half the number of transmit antennas in the OL archi ‐
+tecture . As shown in Fig . 5, the performance of the HBF -
+WMO algorithm improves with more transmit antennas . Fig. 6 
+also shows that the gap between the performance of the HBF -
+WMO algorithm and the optimal FDBF algorithm narrows with more RF chains equipped at the transmitter .
+5.2 Performance with Different Partitions of Antenna 
+Subarrays
+Next, we compare the performance of fixed and dynamic 
+partitions of antenna subarrays with the PC architecture . Four 
+types of partitions under the fixed PC architecture are consid ‐
+ered at the transmitter , as shown in Fig . 7. For the HBF sys ‐
+tem with the PC -dynamic architecture , the antenna subarrays 
+are first dynamically partitioned based on the algorithm pro ‐
+posed in Section 4 and then the HBF matrices are optimized 
+based on the HBF -WMO algorithm in Section 3. Fig. 8 shows 
+the average spectral efficiency performance as a function of 
+SNR with fixed and dynamic antenna subarrays . It can be 
+seen that of the four fixed partition types , the third one 
+achieves the best performance . This is mainly due to the bal ‐
+anced horizontal and vertical angle resolution of the subarray 
+in the third type and the original distribution of angles in CDL -
+A. It is also shown that the dynamic partition outperforms the 
+third fixed partition type with about 1 dB at the cost of more 
+power consumption and the associated complex circuit 
+brought by Nt=512 more switches employed in the switch 
+network . According to Ref . [24], the power consumed by each 
+switch is about 5 mW .
+6 Conclusions
+With relatively small hardware costs and performance loss 
+compared with FDBF , HBF for mmWave communication sys ‐
+tems has attracted much attention . Meanwhile , the design of 
+hybrid architecture has also become a research hotspot consid ‐
+ering the practical implementation complexity . We have inves ‐
+▲Figure 6. Spectral efficiency vs number of transmit RF chains for the 
+HBF -WMO algorithm with different fixed hybrid architectures for a mas‑
+sive multiple -input multiple -output -orthogonal frequency division multi ‑
+plexing (MIMO -OFDM )  system with SNR =0 dB, N=64, Nt=512, Nr=8, 
+Nt
+RF=2, Ns=2FC: fully -connected
+FD: fully digital
+OL: overlappedPC: partially -connected
+SVD: singular value decomposition
+ZF: zero forcing
+▲Figure 7. Diagram of four fixed subarray types with the partially -connected architecture at the transmitter with Nt=512, Nt
+RF=4 Spectral efficiency/ (bit•s−1•Hz−1)FD-SVD
+FD-ZF
+FC
+PC
+OL 1/2
+NRF2 3 4 5 6 7 812.5
+11.5
+10.5
+9.5
+PC type 1
+PC type 3PC type 2
+PC type 4
+102

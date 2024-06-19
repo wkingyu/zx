@@ -1,0 +1,41 @@
+5G Provides a Multi-layer Fully-Connected 
+Network
+In the network construction of traditional 
+factories, the typical approach is to /f_irst 
+establish a “campus network” at the factory 
+level. This campus network serves to 
+enable the factory’s IT network and some 
+production networks to move to clouds. It 
+oﬀers broad coverage and is often shared 
+with public user networks. 
+As the connection /f_ield extends to the 
+“shop-/f_loor level” and “production-line 
+level”, the “campus network” based on the 
+sharing mode is no longer applicable. The 
+most important problems to be solved at 
+the shop-/f_loor and production-line levels 
+are the reliable connection in the OT 
+domain and the “/f_ield network” deployed 
+with local computing power. Unlike the 
+“campus network” that aims to solve all 
+connection problems with a single network, the “/f_ield network” is customized 
+for speci/f_ic OT domain services. Therefore, 
+there will be multiple customized “/f_ield 
+networks” to accomodate diﬀerent types 
+of OT domain scenarios. 
+The 5G network provides abundant 
+networking frameworks. For the “campus 
+network”, a networking approach 
+compatible with the operator’s network 
+can be adopted, with UPF deployed inside 
+the campus. For the “/f_ield network”, an 
+integrated hyper-converged networking 
+mode can be used, and the networking is 
+completed locally in the shop/f_loor or 
+production line. 
+5G Provides Enhanced Flexibility and 
+Reliability
+Currently, there are three primary 
+technologies used in the industry for 
+industrial Internet communication 
+08Expert Views

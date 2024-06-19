@@ -1,0 +1,112 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Review   Research on Multi -Core Processor Analysis for WCET Estimation
+that hits the shared cache . Similarly , the authors identified the 
+latest conflict timing , Latest , in the interference state , which 
+represents the latest fetch time of the access request that hits 
+the shared cache . By analyzing the relationship between Earli ⁃
+est and Latest for different access requests of tasks , they deter ⁃
+mined whether conflicts existed . If the earliest conflict timing 
+of one access request is greater than the latest conflict timing 
+of another access request , or the latest conflict timing of one 
+access request is less than the earliest conflict timing of an ⁃
+other access request , no conflicts occur . This method provides 
+an effective means of modeling and analyzing cache conflicts 
+based on execution graphs . It can be used to identify and re ⁃
+solve conflicts in complex multi -core embedded systems .
+The comparison of different shared cache conflict analysis 
+methods is shown in Table 2.
+CHATTOPADHYAY et al . proposed subdividing shared 
+cache analysis into instruction cache analysis , address analysis , 
+data cache analysis , cache access classification , and unified 
+cache analysis[22]. They also optimized the shared cache analysis .
+ZHU et al . addressed this issue by proposing a multilevel 
+coherence protocol that defines a coherence domain consisting 
+of intra -domain access and cross -domain access in a multi -
+core processor[7]. The cache state update functions within and 
+across the coherence domains are obtained based on cache 
+read/write strategies and the modified exclusive shared and in ⁃
+valid (MESI ) coherence protocol . Consequently , this enables 
+WCET analysis under the nested multilevel coherence proto ⁃
+col. This approach provides a way to analyze cache interfer ⁃
+ence in multi -core processors and improves the accuracy of 
+WCET analysis for real -time systems .
+Although many approaches have been proposed for analyz ⁃
+ing shared caches , there remain some challenges in the exist ⁃
+ing methods . For instance , LYU et al .􀆳s approach based on 
+automata may lead to state explosion , while CHEN et al .􀆳s 
+method may produce excessively conservative WCET results . 
+Due to the crucial significance of accurate analysis of shared 
+caches , improving the accuracy of conflict analysis is a sig ⁃
+nificant concern . Researchers are exploring the hardware 
+implementation of code execution to develop more precise 
+techniques for analyzing shared cache conflicts . As this area 
+is continuously evolving and developing , further research is 
+necessary to improve the existing methods and to develop 
+new and more accurate techniques for analyzing shared 
+cache conflicts .
+3.1.2 Shared Bus Analysis
+In embedded multi -core processors , interconnects and com ⁃munication between on -chip cores are typically established us ⁃
+ing buses . However , this bus allocation scheme can introduce 
+interference that in turn affects the WCET of an analysis task . 
+Researchers have proposed several solutions to this problem .
+Regarding the on -chip bus allocation strategies , namely 
+TDMA or Round Robin , CHATTOPADHYAY et al . proposed 
+a method for calculating the bus waiting delay using relative 
+offsets , assuming that the first memory access request of each 
+basic block in the task always occurs at the start of the corre ⁃
+sponding processor core 􀆳s bus time slice[8]. By combining the 
+memory access request sequence obtained based on abstract 
+interpretation analysis within the basic block and the hit/miss 
+status in L 1 and L 2 caches , the relative offset ∆  of the first 
+memory access request can be calculated , and thus the bus 
+waiting time , Wait (∆), for other memory access requests 
+within the basic block can be computed . The theoretical foun ⁃
+dation of this method is that if a program commences during 
+its running core 􀆳s bus time slice , its WCET estimation is unaf ⁃
+fected by the choice of bus slot . Consequently , the approach 
+can consistently prvide a reliable WCET estimation and en ⁃
+hances the precision of bus waiting delay analysis . However , 
+when handling loop structures within a task , the method must 
+be aligned for each loop iteration , and the cumulative error 
+grows as the number of loops increases .
+KELTER et al .[9] proposed a bus wait delay analysis method 
+based on data flow analysis techniques to address the short ⁃
+comings of the method in Ref . [8]. They extended the basic 
+blocks in the control flow graph (CFG) and classified the in ⁃
+struction sequences into one of three types : never accessing 
+the bus , always accessing the bus , or possibly accessing the 
+bus. They calculated the relative offset on the bus based on 
+the instruction sequences and used data flow analysis to di ⁃
+vide the calculation results into two types of offset sets : collec ⁃
+tion and interval . The algorithm utilizes the data flow analysis 
+on the offset sets to identify whether a stable state can be 
+achieved and then select the maximum value as the bus offset . 
+The algorithm iteratively analyzes the collection and interval 
+offset sets until a fixed point is reached in the offset set , or the 
+loop limit is reached , avoiding the loop alignment requirement 
+present in other approaches . This feature provides an advan ⁃
+tage to the algorithm and further improves the accuracy of the 
+WCET estimation .
+On-chip bus delay analysis faces a significant challenge due 
+to the absence of precise timing details on memory access re ⁃
+quests . To address this issue , CHEN et al .[20] proposed a 
+method to establish timing based on the execution order of 
+memory access requests and the temporal order of basic 
+▼Table 2. Comparison of different shared cache conflict analysis methods
+Comparative Content
+Analysis accuracy
+Analysis complexity
+Analytical methodAnalysis Based on Address Mapping
+Low
+Low
+Address mapping analysisAnalysis Based on Logical Order
+Higher
+High
+Cache conflict graph and logic analysisAnalysis Based on Model Checking
+High
+High
+Time automatonAnalysis Based on Time Series Category
+High
+Higher
+Block -based temporal modeling
+90

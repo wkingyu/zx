@@ -1,0 +1,120 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1LUO Haoran , HU Shuisong , WANG Wenyong , TANG Yuke , ZHOU Junwei Review   Research on Multi -Core Processor Analysis for WCET Estimation
+References
+[1] LYU M S , GUAN N , ZHANG Y , et al . A survey of WCET analysis of real -time 
+operating systems [C]//Proc . International Conference on Embedded Software 
+and Systems . IEEE , 2009 : 65–72. DOI : 10.1109 /ICESS .2009 .24
+[2] LYU M S . Research on worst -case execution time analysis techniques of real -
+time systems [D]. Shenyang : Northeastern University , 2010
+[3] HECKMANN R , LANGENBACH M , THESING S , et al . The influence of pro ⁃
+cessor architecture on the design and the results of WCET tools [J]. Proceedings 
+of the IEEE , 2003 , 91(7): 1038–1054 . DOI : 10.1109 /JPROC .2003 .814618
+[4] LI X F , ROYCHOUDHURY A , MITRA T . Modeling out -of-order processors for 
+WCET analysis [J]. Real -time systems , 2006 , 34(3): 195–227. DOI : 10.1007 /
+s11241 -006 -9205 -5
+[5] YAN J , ZHANG W . WCET analysis for multi -core processors with shared L 2 in⁃
+struction caches [C]//Proc . IEEE Real -Time and Embedded Technology and Ap ⁃
+plications Symposium . IEEE , 2008 : 80–89. DOI : 10.1109 /RTAS .2008 .6
+[6] LYU M , YI W , GUAN N , et al . Combining abstract interpretation with model 
+checking for timing analysis of multicore software [C]//31st IEEE Real -Time 
+Systems Symposium . IEEE , 2010 : 339–349. doi: 10.1109 /RTSS .2010 .30.
+[7] ZHU Y A , SHI X C , YAO Y , et al . A WCET analysis method for multi -core pro ⁃
+cessors with multi -tier coherence protocol [J]. Journal of computer research and 
+development , 2023 , 60(1): 30–42. DOI : 10.7544 /issn1000 -1239 .202111244
+[8] CHATTOPADHYAY S , ROYCHOUDHURY A , MITRA T . Modeling shared 
+cache and bus in multi -cores for timing analysis [C]//Proc . 13th International 
+Workshop on Software & Compilers for Embedded Systems . ACM , 2010 : 1–
+10. DOI : 10.1145 /1811212 .1811220
+[9] KELTER T , FALK H , MARWEDEL P , et al . Bus -aware multicore WCET analy ⁃
+sis through TDMA offset bounds [C]//Proc . 23rd Euromicro Conference on Real -
+Time Systems . IEEE , 2011 : 3–12. DOI : 10.1109 /ECRTS .2011 .9
+[10] DEVERGE J F , PUAUT I . Safe measurement -based WCET estimation [C]//5th 
+International Workshop on Worst -Case Execution Time Analysis (WCET' 05). 
+OASICS , 2007 : 13–16. DOI : 10.4230 /OASICS .WCET .2005 .808
+[11] RIEDER B , WENZEL I , STEINHAMMER K , et al . Using a runtime measure ⁃
+ment device with measurement -based WCET analysis [C]//Embedded System 
+Design : Topics , Techniques and Trends , Proc . of IFIP TC 10 Working Confer ⁃
+ence : International Embedded Systems Symposium (IESS ). Springer , 2007 : 
+15–26. DOI :10.1007 /978 -0-387 -72258 -0_2
+[12] WENZEL I , RIEDER B , KIRNER R , et al . Automatic timing model generation 
+by CFG partitioning and model checking [C]//Design , Automation and Test in 
+Europe . IEEE , 2005 : 606 -611. DOI : 10.1109 /DATE .2005 .76
+[13] DASARI D , NELIS V . An analysis of the impact of bus contention on the 
+WCET in multicores [C]//Proc . IEEE 14th International Conference on High 
+Performance Computing and Communication & 2012  IEEE 9th International 
+Conference on Embedded Software and Systems . IEEE , 2012 : 1450–1457 . 
+DOI: 10.1109 /HPCC .2012 .212
+[14] CHATTOPADHYAY S , ROYCHOUDHURY A . Unified cache modeling for 
+WCET analysis and layout optimizations [C]//Proc . 30th IEEE Real -Time Sys ⁃
+tems Symposium . IEEE , 2009 : 47–56. DOI : 10.1109 /RTSS .2009 .20
+[15] PUSCHNER P , BURNS A . Guest editorial : a review of worst -case execution -
+time analysis [J]. Real -time systems , 2000 , 18(2): 115–128. DOI : 10.1023 /A: 
+1008119029962
+[16] THEILING H , FERDINAND C , WILHELM R . Fast and precise WCET predic ⁃
+tion by separated cache and path analyses [J]. Real -time systems , 2000 , 18(2): 
+157–179. DOI : 10.1023 /A: 1008141130870
+[17] LI X F , LIANG Y , MITRA T , et al . Chronos : a timing analyzer for embedded 
+software [J]. Science of computer programming , 2007 , 69(1/2/3): 56–67
+[18] HUYNH B K , JU L , ROYCHOUDHURY A . Scope -aware data cache analysis 
+for WCET estimation [C]//Proc . 17th IEEE Real -Time and Embedded Technol ⁃
+ogy and Applications Symposium . IEEE , 2011 : 203–212. DOI : 10.1109 /
+RTAS .2011 .27
+[19] LIANG Y , DING H P , MITRA T , et al . Timing analysis of concurrent programs 
+running on shared cache multi -cores [J]. Real -time systems , 2012 , 48(6): 638–
+680. DOI : 10.1007 /s11241 -012 -9160 -2
+[20] CHEN F Y , ZHANG D S , WANG Z Y . Static analysis of Run -time inter -thread 
+interferences in shared cache multi -core architectures based on instruction fetching timing [C]//Proc . IEEE International Conference on Computer Science 
+and Automation Engineering . IEEE , 2011 : 208–212. DOI : 10.1109 /
+CSAE .2011 .5952455
+[21] CHEN F Y , ZHANG D S , WANG Z Y . Static analysis of run -time inter -core in ⁃
+terferences for concurrent programs in shared cache multicore architectures 
+[J]. Applied mechanics and materials , 2012 , 198/199: 523–527. DOI : 
+10.4028 /www .scientific .net/AMM .198 -199.523
+[22] CHATTOPADHYAY S , CHONG L K , ROYCHOUDHURY A , et al . A unified 
+WCET analysis framework for multicore platforms [J]. ACM transactions on 
+embedded computing systems , 13(4s): 124. DOI : 10.1145 /2584654
+[23] DAVIS R I , CUCU -GROSJEAN L . A survey of probabilistic timing analysis 
+techniques for real -time systems [J]. Leibniz Transactions on Embedded Sys ⁃
+tems (LITES ), 2019 , 6(1): 03:1–03:60. DOI : 10.4230 /LITES -v006 -i001 -a003
+[24] AbsInt . aiT [EB/OL ]. [2023 -01-17]. https ://www .absint .com/ait
+[25] Rapita Systems . Rapitime [EB/OL ]. [2023 -01-17]. https ://www .rapitasystems .
+com/products/rapitime
+[26] XMOS Ltd . XMOS [EB/OL ]. [2023 -01-17]. https ://www .xmos .ai/software -tools
+[27] National University of Singapore . Chronos [EB/OL ]. [2023 -01-17]. https ://www .
+comp .nus.edu.sg/~rpembed/chronos
+[28] Tidorum Ltd . Bound -T execution time analyzer [EB/OL ]. [2023 -01-17]. http ://
+www.bound -t.com
+[29] IRISA team . Heptane [EB/OL ]. [2023 -01-17]. https ://team .nria.fr/pacap/soft ⁃
+ware/heptane
+[30] MRTC . Swedish execution time analysis tool [EB/OL ]. [2023 -01-17]. http ://
+www.mrtc.mdh.se/projects/wcet/sweet .html
+Biographies
+LUO Haoran received his bachelor 􀆳s degree from Sichuan University , China . 
+He is pursuing a master 􀆳s degree at University of Electronic Science and Tech ⁃
+nology of China (UESTC ). Driven by a deep passion for computer science , he ac ⁃
+tively engages in various academic activities and research projects .
+HU Shuisong received his bachelor 􀆳s degree from University of Electronic Sci ⁃
+ence and Technology of China (UESTC ). He is pursuing a master 􀆳s degree at 
+UESTC . He actively engages in research and exploration in various areas , in⁃
+cluding computer networks and operation system .
+WANG Wenyong (wangwy@uestc .edu.cn) is a professor at the School of Com ⁃
+puter Science , University of Electronic Science and Technology of China 
+(UESTC ). He is an IEEE member and a senior member of the China Computer 
+Federation (CCF). He serves as a member of the CCF Information Network , Soft⁃
+ware Engineering , and High -Performance Computing committees , a council mem ⁃
+ber of the China Internet Association , a member of the Expert Committee of China 
+Education and Research Computer Network (CERNET ), and a member of the Ex ⁃
+pert Committee of China Next Generation Internet (CNGI ). He is also a member of 
+the Ministry of Education 􀆳s Next Generation Internet Technology Innovation 
+Team and serves on the Technical Committee of the National Engineering Labora ⁃
+tory for Next Generation Internet Core Network at Tsinghua University , China . 
+His research interests include computer networks and data sharing and exchange .
+TANG Yuke is currently working at the tool support project team of the De ⁃
+partment of Operating System Products , ZTE Corporation . He is mainly engaged 
+in compilation , debugging , performance tuning and defect detection of operat ⁃
+ing systems .
+ZHOU Junwei graduated from Southwest JiaoTong University , China , with a 
+major in computer science and joined ZTE Corporation in 2022 . He is currently 
+working at the Department of Operation System Products and mainly responsi ⁃
+ble for the development of WCET tools .
+94

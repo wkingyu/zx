@@ -1,0 +1,67 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management    Special Topic
+MultiMulti --Agent Hierarchical Graph Attention Agent Hierarchical Graph Attention 
+Reinforcement Learning for Reinforcement Learning for 
+GridGrid --Aware Energy ManagementAware Energy Management
+FENG Bingyi , FENG Mingxiao , WANG Minrui , 
+ZHOU Wengang , LI Houqiang
+(University of Science and Technology of China , Hefei 230026 , China )DOI: 10.12142 /ZTECOM .202303003
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20230829 .1650 .002.html, 
+published online August 30, 2023
+Manuscript received : 2023 -06-10
+Abstract : The increasing adoption of renewable energy has posed challenges for voltage regulation in power distribution networks . Grid -
+aware energy management , which includes the control of smart inverters and energy management systems , is a trending way to mitigate this 
+problem . However , existing multi -agent reinforcement learning methods for grid -aware energy management have not sufficiently considered 
+the importance of agent cooperation and the unique characteristics of the grid , which leads to limited performance . In this study , we propose a 
+new approach named multi -agent hierarchical graph attention reinforcement learning framework (MAHGA ) to stabilize the voltage . Specifi ‐
+cally , under the paradigm of centralized training and decentralized execution , we model the power distribution network as a novel hierarchical 
+graph containing the agent -level topology and the bus -level topology . Then a hierarchical graph attention model is devised to capture the com ‐
+plex correlation between agents . Moreover , we incorporate graph contrastive learning as an auxiliary task in the reinforcement learning pro ‐
+cess to improve representation learning from graphs . Experiments on several real -world scenarios reveal that our approach achieves the best 
+performance and can reduce the number of voltage violations remarkably .
+Keywords : demand -side management ; graph neural networks ; multi -agent reinforcement learning ; voltage regulation
+Citation  (Format 1): FENG B Y , FENG M X , WANG M R , et al . Multi -agent hierarchical graph attention reinforcement learning for grid -aware 
+energy management [J]. ZTE Communications , 2023 , 21(3): 11–21. DOI : 10.12142 /ZTECOM .202303003
+Citation  (Format 2): B. Y. Feng , M. X. Feng , M. R. Wang , et al ., “Multi -agent hierarchical graph attention reinforcement learning for grid -aware 
+energy management ,” ZTE Communications , vol. 21, no. 3, pp. 11–21, Sept . 2023 . doi: 10.12142 /ZTECOM .202303003 .
+1 Introduction
+The increasing shortage of fossil fuels and growing 
+awareness of the need for environmental protection 
+have made the adoption of solar photovoltaic (PV) 
+power generation an important trend in the develop ‐
+ment of renewable energy . In recent years , more and more PV 
+systems have been integrated into power distribution net ‐
+works , owing to their low -carbon , clean , and economical ben ‐
+efits. However , the growing popularity of PV systems poses sig ‐
+nificant challenges to the stability of the power grid voltage . 
+Thus , the need to make optimal use of the existing control ‐
+lable resources in the power grid to ensure safe and reliable 
+operation , reduce energy waste , and improve the acceptance 
+of renewable energy has gained widespread attention . Prior re ‐
+search has suggested that using an inverter to control PV 
+power conversion can alleviate this issue[1–2]. In addition , vari‐ous energy storage and energy demand responses are also rec ‐
+ommended as a means of voltage regulation[3–4]. Therefore , a 
+comprehensive scheme is required to coordinate the control 
+among these resources to ensure the stable operation of the en ‐
+tire power system with high PV penetration , which is referred 
+to as grid -aware energy management[5].
+Meanwhile , multi -agent reinforcement learning (MARL ) 
+has demonstrated impressive efficacy not only in games[6–8] 
+but also in real -world applications[9–10]. Recently , MARL has 
+also been employed to tackle issues in the power grid[11]. Un‐
+der a data -driven and model -free setting , MARL does not 
+need precise environment modeling and can be applied in 
+situations with high PV penetration compared with tradi ‐
+tional methods[11]. Moreover , using MARL in the power grid 
+also potentially reduces costs and is regarded to have plug -
+and -play capability[12].
+For grid -aware energy management , buildings established 
+on a specific node in a power distribution network are consid ‐
+ered as agents , which need to control the charge/discharge 
+rate or electric energy conversion rate of multiple components , 
+such as PV and battery . As the electric energy consumed or 
+This work is supported by National Key R&D Program of China under 
+Grant No . 2022 ZD0119802  and National Natural Science Foundation of 
+China under Grant No . 61836011 .
+ZHOU Wengang and LI Houqiang are the corresponding authors .
+11

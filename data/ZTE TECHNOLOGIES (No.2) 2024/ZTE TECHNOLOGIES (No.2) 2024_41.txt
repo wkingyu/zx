@@ -1,0 +1,89 @@
+models by service type, high/low-traﬃc by traﬃc 
+scale, regular/irregular-traﬃc areas by traﬃc 
+features, and short/long-cycle scenarios by traﬃc 
+changes. 
+Traﬃc Trend Prediction and Energy Saving 
+Policy Selection
+Combining multi-model weights with the 
+operational status of each period, long-term trend 
+prediction adopts Prophet and LSTM algorithms to 
+predict the next period’s traﬃc trend, generating 
+periodic prediction baselines and determining 
+maximum and minimum traﬃc prediction ranges. 
+The short-term early warning algorithm utilizes 
+ARIMA and exponential regression algorithms to 
+predict real-time traﬃc, assess trends, and make 
+energy-saving decisions such as chip/module/board 
+sleep based on real-time traﬃc trends. It evaluates 
+the long-term trend model and dynamically adjusts 
+it according to real-time traﬃc data. 
+Energy Saving Safety Mechanism
+In sandbox mode, the energy-saving algorithm 
+simulates operation, evaluates its impact on devices 
+and services, and calculates energy-saving eﬀects.
+Multi-Layer Protection Mechanism
+Given the fundamental role of the SPN in the 
+communication network, ensuring network security 
+is crucial. The energy-saving solution integrates a 
+multi-layer security protection mechanism spanning 
+from NE to network. 
+On the NE side, multiple regression algorithms are 
+used for weighted analysis and prediction of 
+network traﬃc to generate trend prediction models, 
+build energy consumption prediction baselines, and 
+calculate secure and reliable energy-saving spaces 
+based on the traﬃc model. Moreover, the power 
+consumption distribution inside the equipment is 
+controlled according to its structural thermodynamic 
+model. Combined with the design of ZTE’s in-house 
+core chips, diﬀerent components such as chips, fans, 
+modules and boards within the equipment are 
+adjusted to execute energy-saving policies in a 
+secure and reliable environment. 
+On the network side, to deal with prevalent 
+scenarios in transport networks like protection 
+switching or traﬃc migration, the controller analyzes traﬃc 
+relationships between NEs, calculates the protection path 
+of each NE in real time, predicts potential traﬃc migration, 
+and avoids burst step impacts that a single NE cannot 
+predict. This approach establishes an energy-saving policy 
+on the network layer, ensuring energy eﬃciency under 
+stringent performance conditions. 
+Energy Saving Exit Mechanism
+To ensure uninterrupted service operation, the 
+system incorporates three energy-saving exit 
+mechanisms: when real-time traﬃc exceeds the preset 
+threshold, a speci/f_ic alarm is triggered, and the 
+energy-saving mode is manually deactivated. 
+Veri/f_ication in Guangdong Mobile’s 
+Existing Network
+The AI energy-saving solution was discussed multiple 
+times by Guangdong Mobile and ZTE, underwent 
+numerous lab veri/f_ications, and was deployed and 
+tested extensively in China Mobile Shaoguan in May 
+2022.                                    
+Energy eﬃciency: If dynamic energy saving is 
+disabled, the existing network of Guangdong Mobile 
+with 955 sets of ZXCTN 6700 is estimated to consume 
+16.5177 million kWh. Enabling dynamic energy saving 
+saves 15.28%, approximately 2.5239 million kWh 
+annually, equivalent to 2.0191 million RMB in electricity 
+costs.
+Security veri/f_ication: The devices enter energy-saving 
+mode to test four scenarios: burst traﬃc, board 
+plugging/unplugging, tunnel switchover, and forced 
+shutdown. No alarms or packet loss occur in the 
+system, achieving the expected result. The system 
+has operated securely and stably for over six months, 
+enduring tests during major events such as Dragon 
+Boat Festival, shopping festivals, college entrance 
+examinations, National Day, and Spring Festival. 
+Achievement promotion: Building on successful 
+trials in Guangdong, China Mobile has actively 
+promoted the SPN dynamic energy-saving solution to 
+other provinces in the country. It’s now being applied 
+in Heilongjiang, and will expand to Gansu, Guizhou, 
+Zhejiang, Yunnan, and Fujian. Pilot projects and 
+applications are expected to be completed across all 
+provincial branches of China Mobile. 
+ 39 APR 2024

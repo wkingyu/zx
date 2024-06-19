@@ -1,0 +1,68 @@
+he global 5G network is 
+advancing steadily. By the end of 
+September 2023, 300 operators 
+in 114 countries and regions
+had launched commercial 5G networks based 
+on 3GPP standards. 290 operators in 1 13 
+countries and territories had either launched 
+or soft-launched 5G mobile services. As 
+of Q3 2023, the total number of 5G base 
+stations deployed worldwide had exceeded 
+4.81 million, with an addition of 330,000 
+in the quarter and a cumulative increase 
+of 1.17 million for the year. This represents 
+a year-on-year growth of 56.17% and a 
+quarter-on-quarter growth of 7.3%. At the 
+same time, driven by new technologies and 
+business scenarios, the boundaries of wireless 
+communication are continually expanding. 
+5G development is accelerating towards the 
+new stage of 5G-Advanced, serving as the 
+intermediate stage in the evolution towards 
+6G. 5G-Advanced is not only the cornerstone 
+of 5G application development in the next 
+decade but also the key to shaping the future 
+digital society.
+ZTE expands and evolves the 
+technological capabilities of 5G-Advanced 
+based on six major scenarios: seamless 10 Gbps+, Massive IoT, deterministic 
+capability, integrated sensing and 
+communication, ubiquitous connectivity, 
+and universal intelligence (Fig. 1). It aims 
+to deliver value in three key areas of 
+5G-Advanced: B2C (consumer-oriented) for 
+a smart digital life, connecting virtual and 
+real worlds; B2B (business-oriented) to build 
+a smart digital industry, penetrating the 
+production domain; B2X (society-oriented) 
+to solidify a smart digital society, expanding 
+the new economy of connected vehicles 
+and low-altitude satellites.  We will analyze 
+the capabilities and value of 5G-Advanced 
+based on these six scenarios, as well as 
+introduce ZTE’s accumulated expertise and 
+practice in each scenario.
+Seamless 10 Gbps+: Ubiquitous Wide 
+Bandwidth, Enhanced Experience, 
+and Scenario Expansion
+The network is the foundation of all 
+applications. Emerging business forms 
+ 
+ 
+ 
+Deputy General 
+Manager of RAN 
+Products, ZTELiu Shuang
+Solution Director of 
+RAN Products, ZTENi Yanzi
+ZTE Opens New Horizons 
+of 5G-Advanced
+T
+ 
+ 
+ 
+ 
+ 
+ 
+ 5G-Advanced Special Topic
+10 

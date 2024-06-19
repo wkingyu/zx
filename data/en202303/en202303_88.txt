@@ -1,0 +1,68 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Hanwen , BI Ningjing , SHA Jin Research Papers   Design of Raptor -Like LDPC Codes and High Throughput Decoder Towards 100 Gbit/s Throughput
+Design of RaptorDesign of Raptor --Like LDPC Codes and Like LDPC Codes and 
+High Throughput Decoder Towards High Throughput Decoder Towards 
+100100 Gbit/s Throughput Gbit/s Throughput
+LI Hanwen , BI Ningjing , SHA Jin
+(School of Electronic Science & Engineering , Nanjing University , Nan ⁃
+jing 210000 , China )DOI: 10.12142 /ZTECOM .202303012
+https ://kns .cnki.net/kcms/detail/ 34.1294 .TN.20230718 .1034 .002.html, 
+published online July 19, 2023
+Manuscript received : 2023 -01-29
+Abstract : This paper proposes a raptor -like low -density parity -check (RL-LDPC ) code design together with the corresponding decoder hard ‐
+ware architecture aiming at next -generation mobile communication . A new kind of protograph different from the 5G new radio (NR) LDPC ba ‐
+sic matrix is presented , and a code construction algorithm is proposed to improve the error -correcting performance . A multi -core layered de ‐
+coder architecture that supports up to 100 Gbit/s throughput is designed based on the special protograph structure .
+Keywords : RL-LDPC ; error floor ; high throughput ; protograph ; 5G NR
+Citation  (Format 1): LI H W , BI N J , SHA J . Design of raptor -like LDPC codes and high throughput decoder towards 100 Gbit/s throughput [J]. 
+ZTE Communications , 2023 , 21(3): 86–92. DOI : 10.12142 /ZTECOM .202303012
+Citation  (Format 2): H. W. Li, N. J. Bi, and J . Sha, “Design of raptor -like LDPC codes and high throughput decoder towards 100 Gbit/s through ‐
+put,” ZTE Communications , vol. 21, no. 3, pp. 86–92, Sept . 2023 . doi: 10.12142 /ZTECOM .202303012 .
+1 Introduction
+5G is emerging as a promising technology on a global 
+scale . However , with the demand for virtual reality (VR), 
+Metaverse , and other high throughput applications , the 
+transmission speed needs to be improved . As one of the 
+most important technologies in wireless communication , chan ‐
+nel coding is of great significance to the improvement of sys ‐
+tem reliability[1].
+Low -density parity -check (LDPC ) codes have been applied 
+in many communication systems due to their top performance , 
+which is close to the Shannon limit and suitable for parallel 
+structures . LDPC codes were first proposed by GALLAGER in 
+1963[2], and in 1996 , MACKAY and NEAL proposed the posi ‐
+tional degree propagation iterative decoding algorithm for 
+LDPC codes[3], which significantly improved performance .
+Code construction is a critical part of LDPC code design 
+because it directly affects error correction performance . The 
+random construction method cannot guarantee the absence 
+of short cycles . Based on this , the progressive edge growth 
+(PEG ) algorithm was proposed[4], which tries to avoid short 
+cycles . Some improved PEG algorithms were proposed in Refs. [5–6], which failed to guarantee the good perfor ‐
+mance of the code . The approximate cycle extrinsic (ACE ) 
+message degree algorithm was suggested in Ref . [7], which 
+could eliminate the cycles selectively in the LDPC codes . 
+The codes constructed by the ACE algorithm have lower er ‐
+ror floors but perform worse in the waterfall region than the 
+PEG algorithm .
+Typically , the LDPC code can be obtained by lifting the pro ‐
+tograph , which is a structure that governs the macroscopic sta ‐
+tistics of the code . The protograph is an important optimiza ‐
+tion object in LDPC design because it determines the error -
+correcting performance of LDPC codes . Some wireless commu ‐
+nication LDPC codes are designed with this approach , like the 
+5G NR LDPC code .
+The belief propagation (BP) algorithm is the classic decod ‐
+ing algorithm for LDPC codes . The BP algorithm is computa ‐
+tionally intensive and not conducive to hardware implementa ‐
+tion, so researchers have proposed the min -sum decoding algo ‐
+rithm , which still uses the idea of iterative decoding with 
+probabilistic computation but reduces the hardware resource 
+greatly . It occupies an important position in the implementa ‐
+tion of LDPC decoders , and most of the decoders adopt this 
+method as a guiding idea .
+The code construction algorithm and the decoding algo ‐
+rithm tend to affect the performance of the code , while the 
+This work is supported in part by ZTE Industry -University -Institute Coop ⁃
+eration funds under Grant No . 2020 ZTE01-03.
+86

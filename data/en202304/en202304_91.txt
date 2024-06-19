@@ -1,0 +1,146 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4XIONG Zhiang , ZHAO Ping , FAN Jiyuan , WU Zengqiang , GONG Hongwei Research Papers   Mixed Electric and Magnetic Coupling Design Based on Coupling Matrix Extraction
+electric coupling or magnetic coupling is slightly stronger than 
+the other one to provide a weak total coupling for constructing 
+the narrowband passband . Therefore , if the absolute value of 
+the synthesized capacitance matrix element Cij is larger , the 
+electric and magnetic coupling in the mixed coupling struc ⁃
+ture should be tuned stronger simultaneously .
+To conclude , the FDC in the lowpass coupling matrix model 
+is sCij+jMij, where Mij represents the total coupling exhibited 
+by the mixed electric and magnetic coupling at the center fre ⁃
+quency , and Cm is related to the strength of both the electric 
+and the magnetic coupling coefficient in the mixed coupling .
+3 Analysis of Electromagnetic Model
+For the experimental validation , a 7th-order in -line bandpass 
+filter is designed with coaxial cavity structures in this section . 
+The 7th-order filter contains two mixed electric and magnetic 
+couplings , the structure of which is shown in Fig . 3(a). The 
+simulation results of the second -order filter block are shown in 
+Fig. 3(b). The center frequency of the filter is 3.5 GHz , the 
+bandwidth is 0.2 GHz , and the return loss is 18 dB. The open end of the metal rod is connected to a folded metal sheet . 
+Two adjacent metal sheets form a parallel plate capacitor to 
+realize a strong electric coupling . The height of the plate 
+hplate is 3.6 mm. The short ends of adjacent coaxial resonators 
+are connected by a metal ridge to realize a strong magnetic 
+coupling . The height of the ridge ，hridge， is 6.3 mm . The 
+strong electrical coupling and the magnetic coupling exist si ⁃
+multaneously to form a mixed electric and magnetic cou ⁃
+pling . If hplate or hridge increases , the electric coupling or mag ⁃
+netic coupling will become stronger in this design .
+By repeatedly applying the MVF technique to extract the 
+coupling matrix from simulation data[12], we can study the rela ⁃
+tionship between the mixed coupling coefficients and the ele ⁃
+ment values of the coupling and capacitance matrices . Tables 
+1 and 2 show the extracted values of Mij and Cij when EC and 
+MC are changed . It can be found from Table 1 that when hridge 
+and hplate increase simultaneously , Cij increases , whereas Mij al⁃
+most does not change . Therefore , Cij is related to both the elec ⁃
+tric and magnetic coupling coefficients in the mixed coupling .
+Table 2 shows that when EC increases and MC decreases , Mij 
+increases . Since  Mij represents the total coupling exhibited by 
+the mixed electric and magnetic coupling at the center fre ⁃
+quency , it can be seen that EC is stronger than MC in the mixed 
+coupling structure shown in Fig . 3(a). Table 2 also shows that 
+we can control Mij by increasing the difference between EC 
+and MC without affecting Cij.
+Table 3 shows that when MC increases , the TZ is shifted to 
+▼Table 3. Changing the height of the ridge or the plate when TZ is in 
+the lower stopband
+hridge/mm
+6.30
+6.90
+7.50
+8.10
+8.70hplate/mm
+3.60
+3.60
+3.60
+3.60
+3.60Mij
+1.440 2
+0.760 1
+−0.029 4
+−0.912 7
+−1.601 0Cij
+0.343 3
+0.353 5
+0.363 0
+0.372 8
+0.397 9TZ/rad
+−4.20
+−2.15
+0.08
+2.45
+4.02
+TZ: transmission zero▼Table 1. Simultaneously changing the heights of the ridge and the plate
+hridge/mm
+6.70
+6.50
+6.30
+6.10
+5.90hplate/mm
+3.96
+3.78
+3.60
+3.43
+3.27Mij
+1.436 2
+1.440 9
+1.440 2
+1.443 8
+1.438 3Cij
+0.369 5
+0.355 3
+0.343 3
+0.331 8
+0.320 9TZ/rad
+−3.89
+−4.06
+−4.20
+−4.35
+−4.48
+TZ: transmission zero
+▼Table 2. Changing the height of the ridge or the plate
+hridge/mm
+6.70
+6.50
+6.30
+6.10
+5.90hplate/mm
+3.43
+3.50
+3.60
+3.68
+3.75Mij
+0.794 5
+1.097 2
+1.440 2
+1.761 0
+2.056 8Cij
+0.341 8
+0.341 8
+0.343 3
+0.343 7
+0.343 8TZ/rad
+−2.32
+−3.21
+−4.20
+−5.12
+−5.98
+TZ: transmission zero
+(a) EM model of the mixed electric and magnetic coupling structure in coaxial 
+combline filters
+(b) Simulated response of the second -order filter
+▲Figure 3. EM model and response of second -order filterEM: electromagnetichplate
+hridge
+3.0 3.1 3.2 3.3 3.4 3.5 3.6 3.7 3.8 3.9 4.0S11
+S12S-parameters/dB0
+-10
+-20
+-30
+-40
+-50
+-60
+Frequency/GHzxyz
+88

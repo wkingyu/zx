@@ -1,0 +1,61 @@
+private clients. In addition, NFS over RDMA and GPUs 
+can greatly reduce data access latency.  
+Lossless Network
+The parallel computing nature of AI model 
+training brings a large amount of communication 
+overhead, making the network a key factor that 
+restricts training eﬃciency. Lossless network is thus 
+essential, requiring zero packet loss, high 
+throughput, large bandwidth, stable low latency, 
+and ultra-large-scale networking.
+Currently, lossless network protocols are divided 
+into IB and RoCE. The IB network, originally 
+designed for high-performance computing (HPC), 
+boasts low latency, high bandwidth, SDN topology 
+management, rich networking topologies, and high 
+forwarding eﬃciency. However, its industrial chain 
+remains closed. RoCE, designed for a uni/f_ied 
+transport network, oﬀers high bandwidth and 
+network /f_lexibility. It provides strong support for 
+cloud-based services and promotes ecological 
+openness. Therefore, RoCE is essential for 
+localization. Nevertheless, its network performance 
+and technology maturity lag behind IB, and latency 
+requires further optimization based on chips.
+Traditional network congestion and traﬃc control 
+algorithms operate independently on both the client 
+side and the network side. The network provides only coarse-grained congestion marking information, 
+making it challenging to prevent congestion, packet 
+loss, and queuing delays in high-throughput, 
+full-load scenarios. Therefore, it is necessary to 
+implement accurate and fast congestion control and 
+traﬃc scheduling algorithms through client-network 
+coordination to further enhance network 
+performance.
+In network topology, Fat-Tree CLOS and Torus rail 
+multi-plane topologies are two mainstream 
+solutions for addressing network congestion issues 
+in network design. The Fat-Tree CLOS network 
+enhances traditional tree network by maintaining a 
+low convergence ratio of 1:1 for uplink bandwidth to 
+downlink bandwidth, ensuring no blocking path 
+between any two nodes. The Torus rail multi-plane 
+network connects GPUs at the same location on 
+diﬀerent servers to the same group of switches, 
+forming a rail plane. GPUs at diﬀerent server 
+locations are connected to diﬀerent switches, 
+creating multiple rail planes.
+Resource Task Scheduling Platform 
+Unlike general computing resource management 
+platforms that distribute resources to multiple 
+tenants using virtual cloud technology, intelligent 
+computing scenarios concentrate on aggregating 
+computing power. In AI task training, hundreds of 
+ 
+ 
+ 
+ 
+ 
+ 
+JUN 2024 
+ 07

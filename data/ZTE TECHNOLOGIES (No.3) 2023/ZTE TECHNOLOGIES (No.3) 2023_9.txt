@@ -1,0 +1,72 @@
+fragmented data makes it diﬃcult for 
+enterprises to accumulate digital assets, 
+hindering process optimization and 
+iterative improvements. 
+5G Empowers the Industrial Internet
+The introduction of 5G oﬀers 
+eﬀective solutions to the challenges 
+encountered by the industrial Internet. 
+In terms of connectivity, 5G simpli/f_ies 
+the traditional /f_ive-layer architecture of 
+the industrial Internet into three layers (Fig. 1), facilitating the integration of 
+data silos. Regarding networking, the 
+new 5G network architecture provides a 
+level of reliability and stability on par 
+with industrial Ethernet, ensuring 
+seamless operation in the core OT 
+domain of industrial production. 
+Furthermore, 5G inherently possesses 
+cloud-edge synergy capabilities, 
+allowing enterprises to independently 
+deploy applications and resolve the 
+problem of fragmented data from 
+industrial control manufacturers. The industrial Internet is the central component 
+among various elements in the application of 
+5G in factories. It directly serves the IT and OT 
+business systems of enterprises, while the 5G 
+network plays a crucial role in ensuring its 
+smooth operation. 
+/gid00044 /gid00048 /gid00061 /gid00054 /gid00001/gid00031 /gid00056 /gid00061 /gid00054 /gid00053 /gid00052 /gid00056
+Fig. 1. The three-layer 
+architecture of the 
+industrial Internet.
+ERP
+MES
+SCADA
+PLCEnterprise layer
+Factory layer
+Shopfloor
+Device layerIT networkISA 95 service architecture of the industrial Internet Three-layer architecture
+OT network
+OT production
+equipment
+Sensor/actuator…IT auxiliary production
+equipment
+Printer and scanner…Monitoring
+deviceOﬃce
+equip-
+mentEnergy
+equip-
+mentVideo 
+network
+OT production
+equipment
+Sensor/actuator…IT auxiliary
+production equipment
+Printer and scanner…Monitoring
+deviceOﬃce
+equip-
+mentEnergy
+equip-
+mentSCADA
+TerminalEdgeCloudOﬃce
+systemMonitoring
+systemEnergy
+systemERP/MES
+Industrial Internet 
+platform/IoT platform
+Data
+ControlDataOﬃce 
+networkEnergy
+network  
+07JUN 2023

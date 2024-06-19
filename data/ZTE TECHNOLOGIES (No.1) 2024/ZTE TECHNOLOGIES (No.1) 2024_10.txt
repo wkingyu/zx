@@ -1,0 +1,94 @@
+XR & media services: To better support XR 
+and other media services in the 5G system, 
+this work item enhances policy control and 
+QoS mechanisms for characteristics like 
+multi-modality /f_lows and PDU set handling. 
+It also supports 5GS information exposure 
+for XR and other media services, and 
+provides solutions to meet performance 
+requirements for round-trip latency, jitter, 
+UE power saving, and the trade-oﬀ 
+between QoE and UE power saving.
+System support for AI/ML-based 
+services: This work item aims to provide 
+intelligent transmission support for 
+AI/ML-based services at the application 
+layer. This enables service providers to 
+leverage 5GS as an intelligent platform to 
+assist in their AI/ML operations at the 
+application layer.
+Release-19: Exploring 6G Technology
+RAN Part
+The initial Rel-19 package has included 16 
+study items and work items, with 8 being 
+further enhancements of Rel-18 topics and 8 
+being new topics.
+AI/ML for NG-RAN, air interface and 
+mobility: This study item led by ZTE aims 
+to investigate new AI/ML based use cases, 
+i.e., network slicing and CCO, within 
+existing NG-RAN interfaces and 
+architecture (including non-split and split 
+architectures). This goal is to identify 
+enhancements that can support AI/ML 
+functionality. Moreover, the study 
+involves further discussions on the Rel-18 
+leftovers, including mobility optimization 
+for NR-DC, split architecture support for 
+Rel-18 use cases, energy saving 
+enhancements such as energy cost 
+prediction, continuous MDT collection 
+targeting the same UE across RRC states, 
+and multi-hop UE trajectory across gNBs. 
+The AL/ML for air interface and mobility 
+in NR will also be speci/f_ied in Rel-19. 
+Channel modelling enhancements for 7-24GHz:  This study item also led by ZTE 
+aims to validate through measurements 
+the channel model of TR38.901 within the 
+7-24 GHz frequency range. It will adapt 
+and extend as necessary the channel 
+model of TR38.901 for this frequency 
+range, addressing key aspects for 
+applicable scenarios such as near-/f_ield 
+propagation (ensuring consistency 
+between near-/f_ield and far-/f_ield) and 
+spatial non-stationarity.
+Ambient IoT:  This study targets a further 
+assessment at RAN WG-level of ambient IoT, 
+a new 3GPP IoT technology suitable for 
+deployment in a 3GPP system. Ambient IoT 
+relies on ultra-low complexity devices with 
+ultra-low power consumption, specially 
+designed for very-low-end IoT applications. 
+The study will provide clear diﬀerentiation, 
+addressing use cases and scenarios that 
+cannot be ful/f_illed based on existing 3GPP 
+LPWA IoT technology, such as NB-IoT, even 
+when considering reduced peak Tx power.
+CN Part
+The initial Rel-19 package has included 15 
+study items, comprising 8 further 
+enhancements of Rel-18 topics and 7 
+new topics.
+UPF enhancement for exposure and SBA 
+phase 2:  The study item led by ZTE aims to 
+address R18 leftovers to enhance UPF 
+capabilities for exposure and achieve better 
+integration of UPF into 5GC SBA. The 
+speci/f_ic objectives include supporting 
+selection of UPF for user plane 
+functionalities, optimizing the procedures 
+related to UPF data collection, e.g., 
+direct/indirect subscription of UPF via 
+control plane from application, and 
+enhancing the interface between AF and 
+5GC to permit UPF handling of headers 
+(e.g., detection of IP header, http header, 
+etc), uplink and downlink, as well as 
+reporting/noti/f_ications.
+Architecture support of ambient 
+power-enabled IoT:  This study item aims to 
+ 
+ 
+ Expert View
+08 

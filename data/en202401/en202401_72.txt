@@ -1,0 +1,93 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+the VCM standard . The encoding and decoding processes of 
+using VVC and VCM codecs are roughly similar . They both 
+send the video to the encoder to compress it into a code 
+stream , decode the code stream , and send it to different ma ⁃
+chine vision tasks to obtain the performance of different tasks . 
+However , in machine consumption , the code stream size and 
+machine vision task performance are evaluated , and the de ⁃
+coded data of the code stream are not necessarily restored to 
+the original input , as long as the code rate is reduced while en ⁃
+suring task performance . In the method for human consump ⁃
+tion, the code stream size and the quality of the reconstructed 
+video are evaluated , and the code stream needs to be restored 
+and reconstructed for humans to watch .
+4.5 Anchor Generation
+In an image/video encoding process , the original input is 
+usually scaled to a smaller resolution (100%, 75%, 50% and 
+25% of the original size ) before compression and scaled back 
+to the original resolution . In the process of anchor generation , 
+the input image/video will be cropped by down -sampling , then 
+compressed and decompressed by VTM[22], using up -sampling 
+methods to restore the original input . After that , it will be sent 
+to the task network to perform machine vision tasks and calcu ⁃
+late the accuracy with ground truth . Among them , the open -
+source software FFmpeg 4.2.2[23] is used for the up -down sam ⁃
+pling and format conversion of the image . In addition , for the 
+case where the zoom ratio is 100%, instead of directly input ⁃
+ting the original image , padding is performed to fill the edge .
+5 Proposals for VCM Standard
+Existing methods for machine vision coding can be roughly 
+divided into two technical approaches : Track -1 and Track -2. 
+The methods of VCM Track -1 are feature map coding methods 
+while the methods of VCM Track -2 compress videos first and 
+then reconstruct them as the input of the machine vision tasks . 
+The representative methods of these two approaches are intro ⁃
+duced in this section . In addition , this chap ⁃
+ter will elaborate on the performance results 
+comparison between different Track -1 meth ⁃
+ods and the standardization of the Track -2 
+framework .
+5.1 Methods for Track -1
+The methods of VCM Track -1 utilize the 
+backbone network to extract feature maps 
+from images or videos , which are then com ⁃
+pressed , transmitted , and reconstructed be ⁃
+fore being sent to the back -end analysis net ⁃
+work for machine vision tasks . This type of 
+compression method only compresses the 
+feature maps required for machine vision 
+tasks . The primary advantage of this 
+method is its capability to significantly re ⁃duce the number of data that need to be transmitted . However , 
+it cannot realize the reconstruction of the original input signal . 
+These methods can be mainly divided into the following cat ⁃
+egories in terms of specific implementation .
+5.1.1 Feature Map Rearragement and Compression by VTM
+VVC uses traditional coding methods such as transform and 
+quantization to compress images/videos , and the feature map 
+can be regarded as a sequence of images to some extent . 
+Therefore , an intuitive idea is to rearrange the obtained fea ⁃
+ture maps , and then treat them as ordinary images for compres ⁃
+sion and transmission through the traditional codec VVC . The 
+feature map with 256 channels was regarded as 256 images in 
+Ref. [24], where they were stitched , rearranged , and then 
+quantized into 10-bit YUV 4∶0∶0 grayscale images , using 
+VTM for compression . There might be not only spatial redun ⁃
+dancy but also temporal redundancy between feature maps , 
+and a method was proposed for reordering based on the gradi ⁃
+ent between feature map channels[25]. Using the spatial -
+priority assignment and temporal -priority allocation strategy 
+for feature maps reduces BPP while maintaining mAP perfor ⁃
+mance . The schematic diagram is shown in Fig . 3, where the 
+feature maps of 256 channels are rearranged by the method of 
+space priority and time priority , which explores the spatial re ⁃
+dundancy and temporal redundancy of feature maps , taking 
+both of them into account to achieve efficient feature map com ⁃
+pression .
+This kind of method is relatively simple , intuitive and easy 
+to implement . The feature map can be easily converted into a 
+grayscale image for storage . The process of compression , trans ⁃
+mission and reconstruction is also accomplished by existing 
+codec software , without complicated convolution operation or 
+model training process . However , since the data volume of the 
+feature map is much larger than that of the original image , and 
+there is no obvious advantage in using VTM to compress the 
+feature map compared to directly compressing the input image/
+▲Figure 3. Spatial -priority and temporal -priority allocation , where the numbers in the dia ⁃
+mond blocks represent the feature map numbers , and the arrows represent the rearrange ⁃
+ment order#1 #2 #3 #4 ……
+#60 ……
+#256
+(b) Temporal -priority allocation (a) Spacial -priority allocation
+68

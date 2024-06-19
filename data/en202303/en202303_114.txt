@@ -1,0 +1,80 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Research Papers   Simulation and Modeling of Common Mode EMI Noise in Planar Transformers
+where μ′ is the real permeability and μ″ is the imaginary per ‐
+meability . The equivalent series model of the core imped ‐
+ance can be expressed as :
+Z=jωμN2Ae
+le , (30)
+where N is the number of turns of the winding , le is the 
+equivalent magnetic circuit length , Ae is the cross -sectional 
+area of the magnetic core , and ω is the measured angular 
+frequency .
+Substituting Eq . (29) into Eq . (30), we can get :
+Z=jω(μ′-jμ″)N2Ae
+le  . (31)
+Comparing Eqs . (28) and (31), we can get the real and 
+imaginary parts of the complex permeability of the magnetic 
+core as follows :
+μ′=Lsle
+N2Ae,
+(32)
+μ″=Rsle
+ωN2Ae.
+(33)
+The core loss tangent is :
+tan(θ)=μ″
+μ′.(34)
+In order to verify that the complex permeability obtained 
+by the experimental measurement can truly represent the 
+core parameters of the actual sample in the finite element 
+simulation software , an impedance analyzer is used to extract 
+the complex permeability of the magnetic ring in Fig . 11 ac‐
+cording to the method in Fig . 10. The impedance anal yzer model is WK 6500 B, the core material of the magnetic ring is 
+DMR 96, the measured outer diameter is 25 mm, the inner di ‐
+ameter is 15 mm, and the height is 7 mm.
+The real and imaginary parts of the complex magnetic per ‐
+meability of the magnetic ring obtained by the impedance 
+analyzer are shown i n Fig . 12.
+4.2 Planar Transformer Simulation Modeling
+The measurement of the two -port parameters of the planar 
+transformer by the network analyzer is introduced previously . 
+According to the measurement results , the impedance curves 
+of the leakage inductance , magnetizing inductance and 
+equivalent common mode capacitance of the transformer are 
+obtained , and the electromagnetic compatibility equivalent 
+circuit model of the transformer is established . However , the 
+method based on the actual sample measurement of the trans ‐
+former cannot realize the prediction of conducted EMI noise 
+in the design stage of planar transformer , and the method of 
+deriving the equivalent capacitance of common -mode noise 
+based on the theory of transformer winding stacked structure 
+can only reflect the transmission characteristics of trans ‐
+former common -mode noise at low frequency . The electro ‐
+magnetic field finite element simulation software HFSS of 
+Ansys can simulate the function of the network analyzer , ob‐
+tain the two -port Z-parameters of the transformer , and realize 
+the extraction of the wide -band parameters of the planar 
+transformer without physical objects . At the same time , due 
+to the use of a planar transformer , the accuracy and consis ‐
+tency of the winding structure parameters are higher than 
+those of the traditional manual winding transformer , which is 
+conducive to improving the consistency between the simula ‐
+tion model and the real thing .
+Take the planar transformer of the full -bridge circuit as 
+an example . The magnetizing inductance is designed to be 
+110 μH, the turn ratio of the primary winding and the sec ‐
+ondary winding is 3:1, the number of turns on the primary 
+side is 3, and the number of turns on the secondary side is 
+1. The core material is DMR 96, the relative permittivity of 
+ ▲Figure 11. Actual core samples
+▲Figure 12. Real and imaginary parts of core complex permeability ex ‑
+tracted by the impedance analyzerFrequency/HzReal part of complex permeability μ'
+Imaginary part of complex permeability μ' '
+1×1051×1061×1071×108Permeability μr5 000
+4 000
+3 000
+2 000
+1 000
+0
+-1 000
+112

@@ -1,0 +1,100 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Recent Advances in Video Coding for Machines Standard and Technologies    Review
+represents the output of the neural network , and positive/nega ⁃
+tive represents the label in the ground truth .
+The recall and precision of the given IoU threshold are de ⁃
+fined as follows :
+recall(TIoU) = TP()TIoU
+TP()TIoU + FN()TIoU, (3)
+precision(TIoU) = TP()TIoU
+TP()TIoU + FP()TIoU. (4)
+The neural network of detection or segmentation can pair 
+the recall and precision values with specific IoU thresholds 
+and different confidence levels . For each recall value  r in the 
+pairs , we define p(r) as the maximum precision value in all 
+precision values where the corresponding recall values are 
+above the given recall value  r:
+p(r) = max
+r͂:r͂ ≥r precision(r͂). (5)
+The average precision (AP) of a given category of an object 
+is defined as the average value of p(r) for all recall values pro ⁃
+vided by the neural network , which can characterize the area 
+of the entire precision -recall (PR) curve . The mAP means the 
+average AP of all categories . By default , mAP is equivalent to 
+mAP@ 0.5, where 0.5 represents the threshold of IoU . In addi ⁃
+tion, mAP@ [0.5∶ 0.95] represents the average mAP on differ ⁃
+ent IoU thresholds (from 0.5 to 0.95, with a step size of 0.05).For object tracking , multiple object tracking accuracy 
+(MOTA ) is used to measure the capability of the algorithm to 
+continuously track the target , which can intuitively measure 
+the performance of the tracker and is not affected by the accu ⁃
+racy of the detector . The calculation formula of MOTA is :
+MOTA=1-∑( ) FN + FP + IDsw
+∑GT , (6)
+where IDsw is the number of ID changes assigned by the real 
+label during the tracking process . GT is ground truth , which 
+represents the true value in the labels of all tracking targets in 
+the current frame .
+In traditional video encoding methods , to facilitate a fair 
+comparison of compression performance , the bitrate is often 
+converted to obtain the modified Bjontegaard delta bit -rate 
+(BD -rate) under the same encoding quality . Similarly , this ap ⁃
+proach can be adopted for machine vision coding , with a slight 
+modification . Instead of using the original peak signal -to-noise 
+ratio (PSNR ) metric to measure image quality , the accuracy 
+rate, which serves as a performance measurement for machine 
+vision tasks , can be used to calculate the BD rate . Similarly , 
+the accuracy of machine vision tasks can be represented by 
+BD -mAP or BD -MOTA , which shows the task ’s accuracy 
+while maintaining a consistent bitrate .
+4.4 Evaluation Pipeline
+Fig. 2 shows the pipeline of the evaluation framework for 
+▲Figure 2. Pipeline of VCM evaluation framework , where the dotted lines represent reconstruction quality assessment for human visionPSNR : peak signal -to-noise ratio     VCM : video coding for machines     VVC : versatile video coding PSNR : peak signal -to-noise ratio     VCM : video coding for machines     VVC : versatile video codingVideo BitstreamDecoded data for 
+machines
+Decoded video 
+for humanVCM
+decoderVCM
+encoderTask -1
+Object detection
+Task -2
+Object segmentation
+Task -3
+Object tracking
+Task -n
+Other machine taskEvaluate task -1 
+performance
+Evaluate task -2 
+performance
+Evaluate task -3 
+performance
+Evaluate task -n 
+performance
+BitrateCompute PSNR
+PSNR
+Compute rate -distortion
+Compute bitrateBitrate
+VVC/H .266
+encoderVVC/H .266
+decoderCompute PSNRPSNR
+Decoded videoCompute rate -performanceTask -1 performance
+Task -2 performance
+Task -3 performance
+Task -n performance
+BitstreamCompute bitrate
+Task -1
+Object detectionEvaluate task -1 
+performance
+Evaluate task -2 
+performance
+Evaluate task -3 
+performance
+Evaluate task -n 
+performanceTask -1 performance
+Task -2 performance
+Task -3 performance
+Task -n performanceTask -2
+Object segmentation
+Task -3
+Object tracking
+Task -n
+Other machine task
+67

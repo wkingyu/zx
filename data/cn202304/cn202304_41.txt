@@ -1,0 +1,90 @@
+面向算力网络的云边端协同调度技术 周 旭  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4本文所提的 DSAC 都能够提供较低的端到端时延 。但DSAC
+比AuTo 的时延更低 。这是由于 DSAC 将强化学习算法中的
+演员 -评论员架构与软策略优化算法相结合 。这样一来 ，演
+员通过观察当前网络状态和历史流量数据来选择一个最优的
+流量调度决策 ，评论员则根据演员的决策和真实流量数据来
+评估演员的决策 ，再反馈给演员进行策略优化 。基于 DSAC
+算法的协同流量调度有效降低了端到端时延 。
+如图 4所示 ，在平均吞吐率方面 ，随着并发流量数目的
+增多 ，各个算法的平均吞吐率都在增加 。当并发流数量小于
+80时，相比于 Hedera 和PIAS ，AuTo 和DSAC 获得的平均吞
+吐率有着明显的优势 。这是由于 AuTo 和DRL 为每个子网络
+分配一个深度强化学习智能体 。这些智能体可以通过学习从
+其他子网络到自身的流量路由 ，实现全局流量优化 ，从而能
+够在减少端到端时延的同时提高平均吞吐率 。这进一步表明
+了在多流并发情况下 ，算法的端到端时延和平均吞吐率都有
+着更好的表现 。
+6 结束语
+本文首先介绍了分布式云边端算力的未来发展趋势 ，探
+讨了融合云边端的协同网络架构 ，分析了云边端协同调度的
+关键技术 ，明确了其在解决实时性和高性能计算问题上的重
+要作用 ；其次 ，结合具体的应用场景如物联网 、自动驾驶 、
+远程医疗和虚拟现实等 ，展示了云边端协同调度技术的实际
+影响和潜力 ；最后 ，以云边端协同网络中的流量调度为例 ，
+从多流并发情况下的端到端时延和平均吞吐率需求出发 ，提
+出了基于分布式强化学习的协同流量调度算法 ，并通过实验
+验证了所提协同流量调度方案的有效性 。本研究推动了云边
+端协同调度技术在分布式的云边端算力场景中的应用 。参考文献
+[1] 雷波, 刘增义 , 王旭亮 , 等. 基于云 、网、边融合的边缘计算新方案 : 算力网络  [J]. 
+电信科学 , 2019 , 35(9): 44-51. DOI: 10.11959 /j.issn.1000 -0801 .2019209
+[2] 张宏科 , 权伟, 刘康 . 算力网络研究与探索  [J]. 中兴通讯技术 , 2023 , 29(1): 1-
+5. DOI: 10.12142 /ZTETJ .202301001
+[3] 段晓东 , 姚惠娟 , 付月霞 , 等. 面向算网一体化演进的算力网络技术  [J]. 电信科
+学, 2021 , 37(10): 76-85. DOI: 10.11959 /j.issn.1000 -0801 .2021248
+[4] ASGHAR H , JUNG E S . A survey on scheduling techniques in the edge 
+cloud : issues , challenges and future directions [EB/OL ]. [2023 -05-22]. 
+https ://arxiv .org/abs/ 2202 .07799
+[5] KAI C H , ZHOU H , YI Y B , et al . Collaborative cloud-edge-end task 
+offloading in mobile-edge computing networks with limited communication 
+capability [J]. IEEE transactions on cognitive communications and 
+networking , 2021 , 7(2): 624-634. DOI: 10.1109 /TCCN .2020 .3018159
+[6] YANG H , LIANG Y S , YUAN J Q , et al . Distributed blockchain-based trusted 
+multidomain collaboration for mobile edge computing in 5G and beyond [J]. 
+IEEE transactions on industrial informatics , 2020 , 16(11): 7094 -7104 . DOI : 
+10.1109 /TII.2020 .2964563
+[7] 金天骄 , 栗蔚 . 基于算力网络的大数据计算资源智能调度分配方法  [J]. 数据与
+计算发展前沿 , 2022 (6): 29-37
+[8] 衷璐洁 , 王目 . 区块链赋能的算力网络协同资源调度方法  [J]. 计算机研究与发
+展, 2023 , 60(4): 750-762. DOI: 10.7544 /issn1000 -1239 .202330002
+[9] 李铭轩 , 曹畅, 唐雄燕 , 等. 面向算力网络的边缘资源调度解决方案研究  [J]. 数
+据 与 计 算 发 展 前 沿 , 2020 , 2(4): 80-91. DOI : 10.11871 /jfdc.issn.2096 -
+742X.2020 .04.007
+[10] 刘泽宁 , 李凯, 吴连涛 , 等. 多层次算力网络中代价感知任务调度算法  [J]. 计算
+机 研 究 与 发 展 , 2020 , 57(9): 1810 -1822 . DOI : 10.7544 /issn1000 -
+1239 .2020 .20200198
+[11] CHEN L , LINGYS J , CHEN K , et al . AuTO : scaling deep reinforcement 
+learning for datacenter-scale automatic traffic optimization [C]//
+Proceedings of the 2018  Conference of the ACM Special Interest Group 
+on Data Communication . ACM , 2018 : 191-205. DOI : 10.1145 /
+3230543 .3230551
+[12] BAI W , CHEN L , CHEN K , et al . PIAS : practical information-agnostic flow 
+scheduling for commodity data centers [C]//Proceedings of IEEE/ACM 
+Transactions on Networking . IEEE , 2017 : 1954 -1967 . DOI : 10.1109 /
+TNET .2017 .2669216
+[13] AL-FARES M , RADHAKRISHNAN S , RAGHAVAN B , et al . Hedera : dynamic 
+flow scheduling for data center networks [J]. NSDI , 2010 , 10(8): 89-92
+作 者 简 介
+周旭 ，中国科学院计算机网络信息中心先进网络
+技术与应用发展部主任 、研究员 ；主要研究领域
+为未来网络 、5G移动网络 、网络人工智能等 ；主
+持科技部 、工业和信息化部 、国家发展和改革委
+员会等重大项目 10余项，获得部级科学技术奖一
+等奖 1项、二等奖 1项；发表论文 70余篇，申请
+专利 60余项 （其中已授权 14项） ，主持/参与制定
+国际标准 /行业标准 11项。
+李琢 ，中国科学院大学在读博士研究生 ；主要研
+究方向为未来网络 、分布式协同网络 、多智能体
+系统和强化学习 。
+图4 多流并发下的平均吞吐率20  40   60    80 100 120 140 160 180 200Hedera
+PIAS
+AuTo
+DSAC平均吞吐率 /（Mbit/s ）1 000
+900
+800
+700
+600
+500
+并发流数量
+37

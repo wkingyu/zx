@@ -1,0 +1,94 @@
+computing boards to traditional base stations, 
+it enables elastic expansion and capability 
+exposure of edge computing. The NodeEngine 
+solution can be centrally managed and 
+scheduled by the intelligent network brain, 
+providing ubiquitous computing services. 
+In 2021, ZTE launched a wireless 
+intelligent orchestration solution based on 
+the above-mentioned native intelligence 
+architecture, including user orchestration and 
+network orchestration. User orchestration 
+focuses on delivering the best possible 
+experience and resource eﬃciency by 
+intelligently guiding users to optimal 
+frequency bands and cells, thereby enhancing 
+user satisfaction. Network orchestration 
+aims to maximize 5G experience while 
+ensuring the ful/f_illment of 4G network 
+demands, providing operators with a more 
+bene/f_icial resource sharing mode and 
+improving network eﬃciency. 
+In 2022, with the successful implementation 
+of computing base stations and wireless 
+intelligent orchestration, ZTE combined 
+a range of achievements in system 
+architecture, technological innovation, 
+and commercial deployment of wireless 
+network intelligence. This led to the oﬃcial 
+launch of the comprehensive RAN Composer 
+native intelligence solution. Leveraging 
+the computing power, data, and algorithm 
+services at the intelligent service layer, ZTE 
+developed several intelligent applications at 
+the application layer and rapidly advanced 
+their commercial deployment in the /f_ield. 
+The evolution of wireless networks 
+towards intelligence has begun, and ZTE’s 
+RAN Composer native intelligence solution 
+has seen multiple intelligent applications 
+deployed both domestically and overseas, 
+showcasing its value in enhancing experience, 
+eﬃciency, and network maintenance. Moving 
+forward, ZTE will continue to advance the 
+process of wireless network intelligence, 
+guided by the core principles of surpassing, 
+intelligence, and leadership, to build the most 
+superior network.
+the lightweight intelligent engine supports 
+lightweight model training and non-real-time 
+model inference, facilitating eﬃcient and 
+proactive network operations through 
+capabilities like quality insights and 
+intelligent troubleshooting. Additionally, this 
+architecture also supports the deployment 
+of digital twin systems on independent 
+intelligent platforms. Through data 
+interaction with the physical network, it 
+implements a series of atomic capabilities 
+such as dynamic simulation, predictive 
+optimization, intelligent decision-making, 
+and data derivation. 
+The intelligent service layer can manage 
+and orchestrate the above-mentioned 
+computing power, data, and algorithm atomic 
+capabilities in a microservice architecture. It 
+exposes these capabilities to operators in the 
+form of AI as a service (AIaaS), empowering 
+the application layer. Operators can eﬃciently 
+and cost-eﬀectively integrate AI capabilities 
+into their own systems through service 
+calls and low-code development. This allows 
+for /f_lexible and on-demand feature expansion 
+as well as resource scaling. 
+At the intelligent application layer, 
+operators can leverage AI services to achieve 
+highly automated and intelligent processes 
+for network planning, construction, and 
+maintenance. They can access on-demand 
+capabilities for network visualization, 
+modeling and simulation, precise network 
+planning for multiple scenarios, optimization 
+of network policies and parameters, precise 
+network fault diagnosis, and predictive 
+maintenance. In addition, operators 
+can perform on-demand trial runs and 
+performance evaluations for new services, as 
+well as research and low-cost experimentation 
+for new technologies. 
+ZTE’s Achievements in RAN Intelligence
+In 2020, ZTE launched the industry’s unique 
+NodeEngine computing base station solution 
+to drive the commercial implementation 
+of native intelligence in RAN. By adding 
+11OCT 2023

@@ -1,0 +1,89 @@
+Telecom introduced ZTE’s integrated 
+sensing and communication (ISAC) 
+technology, ensuring low-altitude security 
+during the Asian Games. By utilizing this 
+technology, a low-altitude security line is 
+established at the entrance of the Asian 
+Games Village. The 5G-A base station 
+facilitates the detection of object positions 
+and heights within a 1 km range, achieving 
+sub-meter level accuracy.
+Industry’s First 5G NTN Application in 
+Sea Scenario Enables Real-Time 
+Monitoring and Transmission of Water 
+Quality Data
+China Telecom and ZTE have successfully 
+conducted the industry’s /f_irst 5G 
+non-terrestrial network (NTN) application 
+veri/f_ication in sea scenarios. In these sea 
+and uninhabited island scenarios, seamless 
+on-orbit interaction and eﬃcient business 
+data transmission can be achieved, 
+enabling real-time business veri/f_ication 
+across multiple terminals and diverse 
+situations. This encompasses sea water 
+quality monitoring, uninhabited island 
+temperature and humidity monitoring, 
+as well as uninhabited island emergency 
+distress management, yielding favorable 
+outcomes.
+Optimizing Network Operational 
+Eﬃciency
+Establishing a Comprehensive Control 
+System Based on Digital Twin
+In the face of the vast scale of networks, 
+achieving rapid response and coordination 
+is of great importance. Therefore, China 
+Telecom collaborates with ZTE and other 
+industry partners to contribute to the 
+“Tianmu” control system. By leveraging the 
+digital twin technology, they can realize 
+a 3D venue rotation eﬀect for provincial 
+sports events while establishing a robust 
+“central brain” for safeguarding. This 
+central brain empowers real-time control over large-scale communication networks, 
+private networks, and critical services, 
+facilitating eﬃcient command execution 
+and accurate decision-making.
+Cluster DFS Oﬀers Eﬀective Solutions 
+for Uplink Capacity
+China Telecom and ZTE has implemented 
+the Cluster dynamic frame sharing 
+(DFS) technology. By predicting traﬃc 
+distribution characteristics, the frame 
+structure is dynamically adjusted within 
+base station clusters, enabling the network 
+in Asian Games venues to eﬀectively 
+cater to dynamic /f_luctuations in services. 
+The data from Binjiang Gymnasium 
+demonstrates that Cluster DFS enhances 
+venue upstream capacity by over 60%, 
+ensuring bandwidth for various upstream 
+services including live streaming.
+Intelligent Respiration Network Ensures 
+Seamless Internet Access for A Multitude 
+of Individuals
+ To address network congestion issues in 
+high-concurrency scenarios, China Telecom 
+and ZTE have introduced the industry's /f_irst 
+intelligent respiration network solution. 
+This innovative approach leverages time 
+and frequency-based traﬃc distribution 
+trends to enable power shrinkage within 
+the network through power sharing, 
+thereby facilitating /f_lexible coverage 
+adjustments. By eﬃciently allocating 
+limited network resources, it eﬀectively 
+caters to the requirements of multi-terminal 
+high-concurrency services while ensuring 
+an optimal user experience.
+The collaboration between China Telecom 
+and ZTE is driving progress and innovation, 
+empowering the transformation of Hangzhou 
+with cutting-edge technologies. Through 
+the deployment of 5G-A innovations, they 
+inject boundless vitality and enthusiasm into 
+Hangzhou, ultimately establishing it as a 
+smart city. 
+ 
+38 Success Stories 

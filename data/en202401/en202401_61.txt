@@ -1,0 +1,73 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1CAO Xinghan , YIN Huarui , YOU Changsheng Near -Field Wireless Power Transfer , Sensing and Communication with Bessel Beams    Special Topic
+Other works primarily achieve this through leaky waveguides . 
+In 2011 , leveraging the completeness and orthogonality of circu ⁃
+lar waveguide modes , thin circular loop antennas placed coaxi ⁃
+ally inside the waveguide were used to generate Bessel beams in 
+the microwave domain[26]. The study specifically discussed the 
+TE polarization . ETTORRE et al . expanded the possibilities of 
+generating Bessel beams through leaky -wave modes . They pro ⁃
+posed the method of generating Bessel beams through a leaky 
+radial waveguide using vector potential analysis in Ref . [25] and 
+experimentally validated it in Ref . [27] (Fig. 6). The proposed 
+structure can generate arbitrary zeroth -order propagating Bessel 
+beams at microwave and millimeter -wave frequencies . In Ref . 
+[16], a TE -polarized Bessel antenna operating at 5.8 GHz , de⁃
+signed by the principle of duality with the TM mode , was pro ⁃
+posed using leaky -wave modes . Other studies can be found in 
+Refs. [28] and [29], where a radial parallel plate waveguide 
+(PPW ) loaded with annular slots operating at 30 GHz with longi ⁃
+tudinal polarization and transverse polarization were proposed 
+respectively . It is worth noting that , although the studies men ⁃
+tioned above focus on the 3–30 GHz frequency range , the re ⁃
+searchers in Refs . [25] and [27] have indicated that their pro ⁃
+posed structures can also be applied to millimeter waves . In 
+other frequency bands , such as acoustic waves , millimeter 
+waves , terahertz , and optical waves , the research on generating 
+Bessel beams can be found in Refs . [30–34], and their prin ⁃
+ciples and methods are generally similar .
+3.3 Research Challenges
+Currently , the efficient and convenient generation of Bessel 
+beams remains a topic of research in the field of Bessel beam 
+studies . There are several research issues worth exploring . 
+Firstly , reducing device complexity and enhancing versatility 
+pose significant challenges in generating Bessel beams . As men ⁃
+tioned earlier , the generation of Bessel beams requires precise 
+phase control , which is currently difficult to achieve with exist ⁃
+ing devices . Approaches such as using metasurfaces or lenses often involve the integration of multiple devices , leading to addi ⁃
+tional costs . Furthermore , some phase -controlled designs neces ⁃
+sitate highly intricate feed networks . Investigating how to synthe ⁃
+size Bessel beams on existing antenna structures or easily scal ⁃
+able devices is a research proposition worth exploring . Sec ⁃
+ondly , it is worth investigating how to manipulate the character ⁃
+istics of generated Bessel beams . For instance , altering the 
+phase and intensity distribution on the generating aperture can 
+change properties such as direction , depth of field , main lobe 
+width , intensity distribution , and others . Lastly , research on gen ⁃
+erating Bessel beams through vector wave theory is still in its 
+early stages and deserves further exploration . In conclusion , the 
+diffraction analysis and near -field characteristics of Bessel 
+beams necessitate more refined antenna designs . In the future , 
+antenna arrays with higher integration and continuous phase 
+modulation capabilities are expected to address this issue .
+4 Application of Bessel Beam
+As mentioned earlier , the unique properties of Bessel beams , 
+including non -diffractive characteristics , self -healing properties , 
+a small main lobe size , great directionality , high intensity , and a 
+long depth of focus , have sparked researchers 􀆳 interests in ex ⁃
+Feed
+▲Figure 6. Illustration of the Bessel beam leaky radial waveguide[25] 
+and its experimental prototype[27]Ground plane ρρ1h εr1KρKρ
+LW -modesImpedance 
+sheetzmaxFresnel Zone
+LW-radiation
+boundaryεr2Region 2
+LW
+-radiationboundaryθ=sin-1(Re(kρ)/k2)
+Region 1z
+LW: leaky -wave
+x
+yz
+▲Figure 5. A metasurface transforms a circularly polarized Gaussian 
+beam into a vector Bessel beam with high efficiency[11]
+57

@@ -1,0 +1,36 @@
+智能增强的免授权多址接入技术 于含笑  等 热点专题
+中兴通讯技术
+2024  年 2 月    第 30 卷第  1 期   Feb . 2024    Vol . 30  No. 1journal on selected areas in communications , 2019 , 37(10): 2239 -
+2250 . DOI: 10.1109 /JSAC .2019 .2933973
+[6] HE H T , WEN C K , JIN S , et al . Deep learning-based channel 
+estimation for beamspace mmWave massive MIMO systems [J]. 
+IEEE wireless communications letters , 2018 , 7(5): 852-855. DOI : 
+10.1109 /LWC .2018 .2832128
+[7] AHN Y , KIM W , SHIM B . Active user detection and channel 
+estimation for massive machine-type communication : deep 
+learning approach [J]. IEEE Internet of Things journal , 2022 , 9(14): 
+11904 -11917 . DOI: 10.1109 /JIOT .2021 .3132329
+[8] DING T , YUAN X J , LIEW S C . Sparsity learning-based multiuser 
+detection in grant-free massive-device multiple access [J]. IEEE 
+transactions on wireless communications , 2019 , 18(7): 3569 -
+3582 . DOI: 10.1109 /TWC .2019 .2915955
+[9] LIU J J , SHI Z J , ZHANG S W , et al . Distributed Q-learning aided 
+uplink grant-free NOMA for massive machine-type 
+communications [J]. IEEE journal on selected areas in 
+communications , 2021 , 39(7): 2029 -2041 . DOI : 10.1109 /
+JSAC .2021 .3078496
+[10] NAPARSTEK O , COHEN K . Deep multi-user reinforcement 
+learning for distributed dynamic spectrum access [J]. IEEE 
+transactions on wireless communications , 2019 , 18(1): 310-323. 
+DOI: 10.1109 /TWC .2018 .2879433作 者 简 介
+于含笑 ，北京理工大学通信技术研究所博士后 ；
+主要研究领域为 5G/6G通信网络 、低轨卫星通信
+网络；主持并参与国家自然科学基金青年 、国家
+重点研发等 6项；发表论文 12篇。
+费泽松 ，北京理工大学通信技术研究所教授 ；主
+要研究领域为 5G/6G通信网络 、通感一体化网络
+及空天地一体化网络 ；先后主持国家自然科学基
+金重点与面上项目 、国家科技重大专项以及国家
+重点研发计划等 10余项国家级项目 ，获得 3项省
+部级自然科学奖 ；发表论文 100余篇。
+40

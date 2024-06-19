@@ -1,0 +1,30 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3FENG Bingyi , FENG Mingxiao , WANG Minrui , ZHOU Wengang , LI Houqiang Multi -Agent Hierarchical Graph Attention Reinforcement Learning for Grid -Aware Energy Management    Special Topic
+FENG Mingxiao received his BE degree in computer science from University of 
+Science and Technology of China in 2017 . Now he is working towards his PhD de ‐
+gree with the School of Information Science and Technology , University of Sci ‐
+ence and Technology of China . His research interests mainly include deep rein ‐
+forcement learning , multi -agent reinforcement learning , and large language model .
+WANG Minrui received his BE degree in computer science from Anhui Uni ‐
+versity , China in 2020 , and his MS degree from the University of Science and 
+Technology of China , in 2023 . His research interests mainly include deep rein ‐
+forcement learning , multi -agent reinforcement learning , and machine learning 
+for recommendation systems .
+ZHOU Wengang received his BE degree in electronic information engineering 
+from Wuhan University , China in 2006 , and PhD degree in electronic engineer ‐
+ing and information science from the University of Science and Technology of China (USTC ) in 2011 . From September 2011  to September 2013 , he worked as 
+a postdoc researcher in Computer Science Department at the University of Tex ‐
+as, USA . He is currently a professor at the EEIS Department , USTC . His re ‐
+search interests include reinforcement learning , multimedia information retriev ‐
+al, and computer vision . In those fields , he has published over 100 papers in 
+IEEE/ACM Transactions  and CCF Tier -A International Conferences .
+LI Houqiang (lihq@ustc .edu.cn) received his BS , ME, and PhD degrees in 
+electronic engineering from University of Science and Technology of China 
+(USTC ) in 1992 , 1997 , and 2000 , respectively . He is a professor and the Vice 
+Dean of the School of Information Science and Technology , USTC , and the Di ‐
+rector of MOE -Microsoft Key Laboratory of Multimedia Computing and Commu ‐
+nication . He is a fellow of IEEE . His research interests include deep learning , 
+reinforcement learning , image/video coding , image/video analysis , and comput ‐
+er vision , etc. He has authored and co -authored over 300 papers in journals and 
+conferences , and holds over 60 granted patents .
+21

@@ -1,0 +1,71 @@
+ZTE COMMUNICATIONS
+March  2024  Vol.22 No.1ZHANG Qiang , MEI Junjun , GUAN Tao , SUN Zhewen , ZHANG Zixiang , YU Li Review   Recent Advances in Video Coding for Machines Standard and Technologies
+Recent Advances in Video Coding for Recent Advances in Video Coding for 
+Machines Standard and TechnologiesMachines Standard and Technologies
+ZHANG Qiang1,2, MEI Junjun1,2, GUAN Tao1,2, 
+SUN Zhewen3, ZHANG Zixiang3, YU Li3
+(1. State Key Laboratory of Mobile Network and Mobile Multimedia 
+Technology , Shenzhen 518055 , China；
+ 2. ZTE Corporation , Shenzhen 518057 , China；
+ 3. Huazhong University of Science and Technology , Wuhan 430074 , China )DOI: 10.12142 /ZTECOM .202401008
+https : //kns .cnki.net/kcms/detail/ 34.1294 .TN.20240203 .1937 .002.html, 
+published online February 5, 2024
+Manuscript received : 2023 -07-02
+Abstract : To improve the performance of video compression for machine vision analysis tasks , a video coding for machines (VCM ) standard 
+working group was established to promote standardization procedures . In this paper , recent advances in video coding for machine standards 
+are presented and comprehensive introductions to the use cases , requirements , evaluation frameworks and corresponding metrics of the VCM 
+standard are given . Then the existing methods are presented , introducing the existing proposals by category and the research progress of the 
+latest VCM conference . Finally , we give conclusions .
+Keywords : video coding for machines ; VCM ; video compression
+Citation  (Format 1): ZHANG Q , MEI J J , GUAN T , et al . Recent advances in video coding for machines standard and technologies [J]. ZTE 
+Communications , 2024 , 22(1): 62–76. DOI : 10.12142 /ZTECOM .202401008
+Citation  (Format 2): Q. Zhang , J. J. Mei, T. Guan , et al ., “Recent advances in video coding for machines standard and technologies ,” ZTE Com ⁃
+munications , vol. 22, no. 1, pp. 62–76, Mar. 2024 . doi: 10.12142 /ZTECOM .202401008 .
+1 Introduction
+Vision is an important way for human beings to per ⁃
+ceive the external environment . As a digital form of vi ⁃
+sual information , video has become an indispensable 
+part of everyone ’s daily life . With the explosive 
+growth of video data , more and more video has been used for 
+machine vision analysis in industrial or intelligent scenes , 
+while only a small portion is watched by humans . With the 
+continuous development of multimedia technology , machines 
+process video more automatically and intelligently , and even 
+interact with each other directly without human participation . 
+Therefore , this type of communication is often referred to as 
+machine -to-machine (M2M) communication .
+Traditional video coding frameworks , such as H .264/Ad⁃
+vanced Video Coding (AVC ), H.265/high efficiency video cod ⁃
+ing (HEVC ), and H .266/Versatile Video Coding (VVC ), were 
+developed for the Human Visual System (HVS ), achieving 
+higher compression efficiency while maintaining good subjec ⁃
+tive quality . The essence of achieving efficient compression is 
+to remove as much redundancy as possible . For example , hu⁃
+man eyes have a high perception of brightness and a low per ⁃ception of chroma , so the redundant chrominance information 
+will be discarded appropriately during encoding . Human eyes 
+are less sensitive to high -frequency information than to low -
+frequency information , hence the high -frequency information 
+can be compressed by transformation and quantization . In ad ⁃
+dition , pixel values change little in adjacent space and time , 
+therefore spatial and temporal redundancy can be removed 
+through intra -frame and inter -frame prediction , respectively . 
+However , while removing redundancy is effective for com ⁃
+pressing visual information in human vision , it does not neces ⁃
+sarily apply to machine vision . Traditional codecs are de ⁃
+signed to compress images and videos in a way that exploits 
+the physiological properties of human eyes , making the com ⁃
+pression less perceptible to human viewers . However , in ma ⁃
+chine vision task scenes , the compressed information will be 
+provided to machines for consumption instead of humans . Ma⁃
+chines do not possess the same visual characteristics as hu ⁃
+mans , and therefore , there is a need to develop a new coding 
+standard specifically tailored for machine vision tasks . The de ⁃
+velopment of machine learning/deep learning and the wide ⁃
+spread use of image and video sensors have led to massive 
+data demands in various intelligent platforms , including the 
+Internet of Things (IoT), Internet of Vehicles (IoV), video sur ⁃
+veillance , and smart cities . In this era of AI -driven video intel ⁃
+ligence , many researchers are exploring ways to achieve 
+This work was partially supported by ZTE Industry -University -Institute 
+Cooperation Funds .
+62

@@ -1,0 +1,52 @@
+东数西算下面向业务的路由策略分析与探索 魏汝翔  等 热点专题
+中兴通讯技术
+2023  年 8 月    第 29 卷第  4 期   Aug . 2023    Vol . 29  No. 4东数西算下面向业务的
+路由策略分析与探索
+Analysis and Exploration of Service Oriented Routing Strategies 
+in East-Data-West-Computing Requirement Transfer
+魏汝翔 /WEI Ruxiang ，刘琦/LIU Qi，赵广/ZHAO Guang ，
+曹畅/CAO Chang ，唐雄燕 /TANG Xiongyan
+（ 中国联合网络通信有限公司研究院 ，中国 北京 100048  ）
+(The Research Institute of China Unicom , Beijing 100048 , China )DOI：10.12142 /ZTETJ .202304004
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228 .TN.20230717 .1807 .006.html
+网络出版日期 ：2023 -07-18
+收稿日期 ：2023 -06-12
+摘要 ：基于各类业务对算力与网络指标的需求 ，结合当前网络流量现状与未来网络流量发展趋势 ，分析了包含算力业务的路由策略与实现机制 ，
+探索在东数西算场景下 ，面向业务和算力分布的路由策略 。提出了一种基于业务属性与算力资源分布的混合式路由策略 ，将全国分成若干 “算
+力区域 ” ，在不同算力区域之间采用集中式路由决策 ，在算力区域内部采用分布式路由决策 。该策略能够提供一种安全 、灵活、高效的全局路由
+方法。
+关键词 ：东数西算 ；算力网络 ；算力业务 ；路由策略
+Abstrac t:Based on the demand of various services for computing power and network indicators , combined with the current status of net ⁃
+work traffic and the future trends of network traffic development , the routing strategy and implementation mechanism including computing 
+power business are analyzed , and the routing strategy oriented to business and computing power distribution under the scenario of east-
+data-west-computing is explored . A hybrid routing strategy based on service attributes and computing power resource distribution is pro ⁃
+posed , which divides the whole region into several "computing power regions" . The centralized routing strategy is adopted between different 
+computing power regions , and the distributed routing strategy is adopted within the computing power regions . The hybrid routing strategy 
+can provide a secure , flexible , and efficient overall routing strategy .
+Keywords :east-data-west-computing ; computing power network ; computing power service ; routing strategy
+引用格式 ：魏汝翔 , 刘琦 , 赵广 , 等. 东数西算下面向业务的路由策略分析与探索  [J]. 中兴通讯技术 , 2023 , 29(4): 14-18. DOI : 10.12142 /
+ZTETJ .202304004
+Citation ： WEI R X , LIU Q , ZHAO G , et al . Analysis and exploration of service oriented routing strategies in the east-data-west-computing re ⁃
+quirement transfer [J]. ZTE technology journal , 2023 , 29(4): 14-18. DOI: 10.12142 /ZTETJ .202304004
+1 算力业务的需求指标和分类
+在数字经济时代 ，算力如同农业时代的水利 、工业时代
+的电力 ，既是国民经济发展的重要基础 ，也是科技竞
+争的新焦点 。算力是设备或平台为完成某种业务所具备的处
+理业务信息的关键核心能力 ，包括逻辑运算能力 、并行计算
+能力 、神经网络加速能力等[1-2]。
+算力业务除了对上述算力资源有要求外 ，还会根据具体
+的业务类型 ，对网络的上下行带宽 、时延 、抖动 、存储等方
+面有不同的要求 。算力业务从应用的角度可以分为计算类 、
+存储类 、互动类 ，这3类业务会互相重叠 、交叉[3]，一种算
+力业务经常同时属于上述多种分类 。不同业务对算力与网络指标的要求不尽相同 。总的来说 ，对于计算类与存储类等对
+网络时延与抖动要求不高的算力业务 ，适用于 “东数西算 ”
+场景 ，可将海量数据传输到西部进行计算与存储 ；而对于互
+动类业务 ，不适用于东数西算 ，应合理利用边缘算力 ，就近
+提供服务 。
+东数西算对传统基于距离的路由策略提出了新的需求 。
+在路由决策时 ，不再将所有业务都分配到距离 （包括跳数 、
+开销 、时延等 ）最近的节点 ，而是综合考虑业务属性与算力
+资源的分布 ，在已知各类业务对网络指标 、算力与存储需求
+的情况下 ，通过路由策略对各类业务进行分配 ：将对实时性
+要求较低的冷数据分配到西部算力枢纽节点 ，将对实时性有
+14

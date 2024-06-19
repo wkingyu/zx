@@ -1,0 +1,116 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3SHEN Jiahao , JIANG Ke , TAN Xiaoyang Special Topic   Boundary Data Augmentation for Offline Reinforcement Learning
+genera tor is optimized via the discriminator and the pre -
+trained reference policy simultaneously , and then the gener ‐
+ated data is provided for the offline RL algorithm to enhance 
+its robustness .
+4.1 Motivation
+As mentioned before , to enhance the robustness of the 
+new policy , it is necessary to generate more OOD data . Con ‐
+sidering that not all the OOD data are generalizable in the 
+offline setting , we generate certain OOD states that are not 
+very far away from the training dataset and require that the 
+pre -trained reference policy has high entropy in making de ‐
+cisions at these states . In other words , our generated data 
+should have two features : 1) OOD , which means that the dis ‐
+tribution should be different from the training dataset , such 
+that the reference agent would be confused about what to do 
+at these states , and 2) boundary , which means that the gener ‐
+ated data should not be totally unrelated to the offline data ‐
+set. Hence we name this kind of OOD data as boundary 
+OOD data .
+4.2 Generating Boundary OOD Data
+In this section , we describe how to generate boundary OOD 
+data within the adversarial generative framework .
+First , recall that the loss function of GAN is defined as fol ‐
+lows:
+min
+Gmax
+DEPin ()x[log D(x)]+EPpri()z[log (1-D(G(z)))] ,(3)
+where G denotes the generator , D the discriminator , Pin  refers 
+to the distribution of in -distribution (ID) data while Ppri(z) re‐
+fers to some prior distributions such as a Gaussian distribu ‐
+tion. The loss function minimizes the error rate of the discrimi ‐
+nator for the real data while maximizing the error rate of the 
+discriminator for the generated data until a Nash equilibrium 
+is achieved .
+To generate the desired boundary OOD data described in 
+the previous section , we adopt the following loss function :
+min
+Gmax
+Dé
+ëEPin ()s[log D(s)]+EPGB()s'[log (1-D(s'))]ù
+û+
+βGEPGB()s'H[πpre(⋅|s')], (4)
+where s' refers to the generated OOD state and πpre refers to 
+the pre -trained reference policy . The first term of Eq . (4) re‐
+quires that the generated distribution PGB(⋅) should still follow 
+the distribution Pin(⋅) of the offline dataset , but under the con ‐
+straint defined by the second term of Eq .(4), which forces the 
+generated data to satisfy the requirement that the reference 
+policy has high entropy H[πpre(⋅|s′)] over them , where the en ‐
+tropy of the reference policy πpre is defined as H[πpre(⋅|s′)]=
+∑a πpre(a|s′)log πpre(a|s′). The tradeoff between the above two terms is controlled by another parameter βG, which should 
+be set based on the specific applications .
+In implementation , we use Conditional GAN[33] to generate 
+s′ conditioned on the origin state s and use the pre -trained 
+CQL as the reference policy πpre.
+4.3 Boundary Conservative Q -Learning
+To enhance the robustness of the new policy learned offline , 
+we aim to weaken its confidence at the generated boundary 
+OOD states mentioned before . A direct way to realize this is to 
+add regularization LBCQL to maximize the entropy of the new 
+policy when making decisions at these states :
+LBCQL=Hé
+ëêêêê ù
+ûúúúúπ()a|
+|||||s^
+=-∑a π()a|
+|||||s^
+log π()a|
+|||||s^
+, (5)
+where s^
+ is the boundary OOD state generated and π is the 
+new policy . Then the whole loss function of the policy network 
+is as follows :
+Lπ=-Es∼D, a∼π()a|sQ  
+(s, a)-λLBCQL, (6)
+where λ is the balance -coefficient of the BCQL term , π is the 
+new policy , and Q^
+ is the target Q network .
+As Eq . (6) shows , we can keep the new policy conservative 
+as commonly done in normal offline RL training , but it has to 
+be uncertain as the reference policy does when facing the gen ‐
+erated boundary OOD data . Then the loss function of Q net ‐
+works can be formulated as follows :
+LQ=αEs∼Dé
+ëEa∼π()a|s[Q(s, a)]-Ea∼πβ()a|s[Q(s, a)]ù
+û+
+1
+2Es, a, s'∼Dé
+ëê
+êêê(Q-B  π
+Q  
+)2ù
+ûú
+úúú
+ , (7)
+where  α is the weight of the CQL term and πβ denotes the em ‐
+pirical behavior policy .
+Algorithm 1. Boundary -CQL
+Input : Q networks Q, pre -trained reference policy πpre, prior 
+distribution ppri(z), generator GB, offline dataset D, generative 
+coefficient βG, and OOD punishment coefficient λ
+1: Train GB via Eq . (4) using πpre and βG
+2: for each iteration do
+3:  Sample a mini -batch B=(s, a, r, s′) from D
+4:  Sample z from ppri(z) and generate s^
+=GB(z)
+5:  Update the new policy π with s^
+ and B via Eq . (6)
+6:  Update the Q networks Q with B via Eq . (7)
+7: end for
+8: Output the new policy π
+Algorithm 1 summarizes the main pipeline of the proposed 
+32

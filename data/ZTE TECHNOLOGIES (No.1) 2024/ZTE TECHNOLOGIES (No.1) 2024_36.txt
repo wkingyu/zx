@@ -1,0 +1,90 @@
+Reducing Limitations on Mobile 
+Network Infrastructure 
+In China, most metro systems were built 
+with a distance of about 1 meter from tunnels 
+to train carriages. However, a minimum of 1.2 
+meters is needed for installing new cables, 
+considering isolation and security 
+requirements. Insuﬃcient power is another 
+factor. To support 5G service and new signal 
+sources (5G RRUs), the power supply needs to 
+increase from 60 kW to at least 100 kW. The 
+cable-based solution faces obstacles, with 
+network signals signi/f_icantly weakened inside 
+the metro due to signal attenuation from 
+dense metal carriages and the Doppler Eﬀect 
+caused by the train’s rapid movement.
+The 5G-Advanced powered smart metro 
+solution innovatively relocates network 
+equipment deployment from tunnels to 
+metro carriages, eﬀectively addressing China 
+Telecom’s space limitations and signal 
+attenuation challenges caused by dense 
+metal carriages. 
+Creating More Value for 
+Mobile Operators
+5G-Advanced powered smart metro is 
+the most cutting-edge solution for specialized 5G network coverage. With a 
+quadrupled average downlink speed, 
+equivalent to upgrading from 480p to 
+1080p video quality, it achieves a 15 Gbps 
+high-speed backhaul through the 
+millimeter-wave technology. This 
+technology supports approximately 75 
+channels of 8K HD camera live-streams 
+simultaneously. Metro mobile users, on 
+average, consume three times more 
+payload. This unique solution allows for 
+deployment across over 190 metro models, 
+providing mobile operators with increased 
+collaboration opportunities with various 
+industrial partners. The achievement is 
+attributed to its unique architecture and 
+innovative products (Fig. 1).
+Easier deployment:  The unique BBU + 
+pRRU two-level architecture signi/f_icantly 
+simpli/f_ies metro network deployment. 
+Speci/f_ically, slim BBU and Qcell (pRRU) are 
+used for in-metro coverage, while 
+5G-Advanced AAUs deployed in tunnels 
+serve as high-speed backhaul, receiving 
+data from CPEs at both ends of the train 
+simultaneously. Construction time has 
+been reduced from one year to six 
+months.
+Innovative products: The slim BBU, half 
+the size of typical BBU and the industry’s 
+ 
+Fully coverage for Shanghai Metro 
+Line 4 @ 34 KM
+Serving 980k passengers/day
+50%↓
+Construction cycle
+One year to six months20%+↓
+Construction budget
+11M USD -> 9M USD280%+
+DL user speed rate
+600M -> 1.7G+78%↓
+Green & low carbon
+746 Kw -> 169 Kw
+5G-Advanced 
+AAU
+CPE
+BBUMetro service serverCore network
+Relay GW
+5G-Advanced AAU
+pRRUSlim BBU
+CPE
+pRRU
+In-car router
+CN
+STN
+Backhaul in tunnel
+In-metro 5G coverage
+Fig. 1. 5G-Advanced 
+powered smart metro 
+solution.
+ 
+ 
+ 
+34 Success Stories 

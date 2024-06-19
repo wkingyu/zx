@@ -1,0 +1,56 @@
+6G网络架构展望 刘玉芹  等 热点专题
+中兴通讯技术
+2023  年 10 月    第 29 卷第  5 期   Oct . 2023    Vol . 29  No. 56G网络架构展望
+Prospects for 6G Network Architecture
+刘玉芹 /LIU Yuqin ，邢燕霞 /XING Yanxia ，
+陈鹏/CHEN Peng
+（ 中国电信股份有限公司研究院 ，中国 广州 510630 ）
+(Research Institute of China Telecom Co . , Ltd , Guangzhou 510630 , 
+China )DOI：10.12142 /ZTETJ .202305004
+网络出版地 址：http://kns.cnki.net/kcms/detail/ 34.1228.TN.20231016 .1553.014.html
+网络出版日期 ：2023 -10-17
+收稿日期 ：2023 -08-23
+摘要 ：从系统架构 、网络功能 、网络组网 3个层面对 6G网络架构进行阐述 。在网络系统层面 ，从全局角度描述 6G各层各面的关系 ，提出“三
+层四面 ”系统架构 ；在网络功能层面 ，从网络功能视图的角度描述 6G功能服务的划分和组成 ，提出至简功能架构 ；在组网层面 ，从网络部署视
+图的角度描述 6G网络之间的连接关系和组网形态 ，提出分层分布式组网架构 。所提出的 6G网络架构能够满足新业务新场景需求 ，降低网络复
+杂度，提升网络灵活性 。
+关键词 ：6G；网络架构 ；网络简化 ；分层分布式架构
+Abstrac t:The network architecture is expounded from three aspects of the overall system , network function , and networking . From the as ⁃
+pect of the network system , the "three-layer and four-plane" system architecture is proposed by describing the relationships between vari ⁃
+ous layers and planes of 6G from a global view ; from the aspect of network function , the simplified function architecture is proposed by de ⁃
+scribing the division and composition of 6G function services from a network function view ; from the aspect of networking , the hierarchical 
+and distributed network deployment architecture is proposed by describing the connection relationships and network forms between 6G net ⁃
+works from the network deployment view . The proposed 6G network architecture can meet the requirements of new services and new sce ⁃
+narios , reduce network complexity , and improve network flexible .
+Keywords :6G; network architecture ; network simplification ; hierarchical and distributed architecture
+引用格式 ：刘玉芹 , 邢燕霞 , 陈鹏 . 6G网络架构展望  [J]. 中兴通讯技术 , 2023 , 29(5): 16-20. DOI:10.12142 /ZTETJ .202305004
+Citation ： LIU Y Q , XING Y X , CHEN P . Prospects for 6G network architecture [J]. ZTE technology journal , 2023 , 29(5): 16-20. DOI :10.12142 /
+ZTETJ .202305004
+当前全球 6G处于统一愿景 、形成技术框架的关键时期 ，
+国 际 电 信 联 盟 无 线 电 通 信 部 门 5D工 作 组 （ITU-R 
+WP5D）于2023 年6月完成了 《IMT面向 2030 及未来发展的
+框架和总体目标建议书 》[1]，汇集了全球 6G愿景共识 ，总结
+了6G用户和应用的九大趋势 ，并提出了沉浸式通信 、超可
+靠低延迟通信 、大规模通信 、泛在连接 、人工智能与通信融
+合、感知与通信融合六大场景 。除了要满足传统 5G网络的 3
+类场景需求外 ，未来 6G网络还需要进一步提供泛在连接 、
+通信与智能融合 、通信与感知融合等服务 。在技术指标方
+面，未来 6G网络除了在传统性能指标方面有进一步的增强
+外，还提出了更多的新功能及性能指标 。
+此外 ，6G网络将应用于多样化的使用场景 ，如面向企
+业（2B）类的智能工厂 ，面向消费者 （2C）类的多接入 ，面向个人类的个人车内通信 、个人及家庭数字医护等场景 。
+不同的场景对网络的功能及性能需求也有所差异 ，同时对网
+络的灵活性 、定制化也提出了更高要求[2-6]。
+后续 6G将从愿景阶段进入架构与关键技术方案的研究
+和标准化阶段 。网络架构设计是 6G网络愿景落地的重要环
+节和技术手段 ，是未来网络部署的依据 ，也直接体现了 6G
+网络的商业价值 。当前各国研究机构都在进行网络架构及关
+键技术研究 ，包括美国的 Next G[7]、欧盟 “Hexa-X ”[8-9]、
+5G PPP[10]等。
+根据上述分析 ，6G应用和场景对网络提出了新的 、差
+异化的功能和性能需求 ，同时对网络的灵活性也提出了更高
+要求 。但当前网络在本质上还是集中式的架构 ，且结构复
+杂，面临着灵活扩展的挑战 。另外 ，网络切片间的网络架
+构、网络功能是基本一致的 ，无法更好地适配不同场景的需
+求。因此 ，未来 6G需要一个比 5G更为完善的网络架构 。 基金项目 ：国家重点研发计划项目 （2020 YFB1806700 、2022 YFB2902104 ）
+16

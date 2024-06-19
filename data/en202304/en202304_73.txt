@@ -1,0 +1,99 @@
+ZTE COMMUNICATIONS
+December  2023  Vol.21 No.4FENG Hailin , HAN Jing , HUANG Leijun , SHENG Ziwei , GONG Zican Research Papers   Incident and Problem Ticket Clustering and Classification Using Deep Learning
+pecially at the beginning when the problem was initially re ⁃
+ported to resolve the issue efficiently . The specific technical 
+challenge of classifying an early ticket is that the only avail ⁃
+able feature is problem description .
+2 Related Work
+Since the day when computer systems were created , IT op ⁃
+eration has been a critical issue . With the prevalence of on ⁃
+line services , in order to minimize system downtime and 
+maintain premium service level agreements , IT operation 
+plays a central role in achieving such a goal . Especially in to ⁃
+day’s highly distributed multi -layered cloud environment , it 
+is untrivial to effectively find the matching departments to re ⁃
+solve the issue .
+Artificial intelligence has been applied in IT operations , es⁃
+pecially in anomaly detection[11–12], problem troubleshoot ⁃
+ing[13–14], and security[15–16]. A few works have attempted to 
+improve the efficiency of ticket dispatching . BOTEZATU et al .
+[5] tried to find the most cost -effective agent for ticket resolu ⁃
+tion, rather than finding a matching group or department . 
+SHAO et al .[17] focused on the transfer information in ticket 
+resolution and formulated a model based on prior resolution 
+steps . AGARWAL et al .[18] used a supported vector machine 
+and a discriminative term to predict the matching department . 
+While we use ticket descriptions and other attributes to find 
+the best department , our solution is quite different from the 
+previous works .
+In terms of ticket analysis , there are only a few works on 
+alerts or ticket clustering . LIN et al .[19] used graph theory and 
+similarity measures as Jaccard as the cluster mechanism . 
+MANI et al .[20] proposed a technique combining latent seman ⁃
+tic indexing and a hierarchical n-gram algorithm . AGARWAL 
+et al.[21] used a mixture of data mining , machine learning , and 
+natural language parsing techniques to extract and analyze un ⁃
+structured tests in IT tickets . JAN et al .[22] proposed a frame ⁃
+work for text analysis in an IT service environment . We exam ⁃
+ine the clustering characteristics to discover the content of the 
+ticket descriptions specific to the system under investigation . 
+Our approach is generic to all systems with minor adjustments 
+of synonyms and user dictionaries . When it comes to cluster ⁃
+ing itself , we believe our dataset is also unique as it is from 
+the latest container -based cloud environment which is more 
+complicated than prior systems .
+3 Design of Clustering System
+We apply different topic modeling algorithms to cluster the 
+tickets based on their descriptions and compare their perfor ⁃
+mance by calculating their sum of square error (SSE) and sil ⁃
+houette scores . The clustering results indicate the number of 
+major topics in the ticket description corpus . Since it is an un ⁃
+supervised learning process , it saves great effort from data an ⁃
+notation . For ticket classification , word embedding models 
+have shown much better performance . Therefore , we only adopt the supervised approach using a pre -trained BERT 
+model[6] which is fine -tuned with domain -specific labeled data .
+Fig. 1 illustrates the overall steps we perform ticket descrip ⁃
+tion clustering . First , data preprocessing is performed by ex ⁃
+tracting texts , merging synonyms , removing stop words , etc. Af⁃
+ter tokenizing the texts , we construct 4 types of bags of words 
+(BoW ), including binary BoW , term frequency (TF) BoW , term 
+frequency inverse document frequency (TF-IDF)[7] BoW , and 
+expert -weighted BoW . For each of the BoW , we apply principal 
+component analysis (PCA) to check for clustering possibility 
+and use K -Means to cluster the topics . We also perform latent 
+dirichlet allocation (LDA )[8] for topic extraction and modeling . 
+BoW : bag of words
+IDF: inverse document frequency
+kNN: k-nearest neighborLDA : latent Dirichlet allocation
+PCA: principal component analysis
+TF: term frequency
+▲Figure 1. Data analysis flowTraining data
+(known tickets ）
+Extract texts of related attributes
+Tokenize the texts , merge synonyms , 
+remove stop -words and count word 
+occurrences
+Select top tokens for each attribute
+Compute 
+binary 
+BoWCompute 
+TF BoWCompute 
+TF-IDF 
+BoWCompute 
+expert -
+weighted 
+BoWFor each attribute of each ticket , 
+count the occurrence of each token
+For each ticket , compute the weighted sum of the 
+word -frequency vectors from each attribute
+Apply PCA on the word -frequency matrix and check 
+for clustering possibility by inspecting scatter plots
+Apply K -means 
+clusteringApply LDA topic 
+extraction
+Clustering 
+modelLDA topic
+model
+Classify with kNN Determine the topic PreprocessUnknown data
+（new tickets ）
+70

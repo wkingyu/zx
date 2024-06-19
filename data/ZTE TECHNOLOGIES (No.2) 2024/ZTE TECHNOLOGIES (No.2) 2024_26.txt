@@ -1,0 +1,75 @@
+requirements of various industry applications. 
+Eﬃcient Forwarding to Give Full Play to Existing 
+Network Capabilities
+Due to its hierarchical architecture, cross-domain 
+SRv6 uses two types of packet encapsulation: 
+end-to-end SRv6 and intra-domain encapsulation. In 
+the T-SRv6 solution, end-to-end SRv6 employs 
+general SRH encapsulation for interworking with 
+heterogeneous networks. Within the SPN domain, 
+T-SRv6 uses SR-TP label stack or MTN frame 
+encapsulation. Given the SPN’s strict constraint paths, 
+SR-TP encapsulation involves a 4-bytes constraint 
+label at each hop, enhancing encapsulation 
+eﬃciency through label stripping during forwarding. 
+In contrast, hop-by-hop SRv6 encapsulation includes 
+a 16-byte constraint label along with an additional 48 
+bytes for IPv6 header and SRH header encapsulation. 
+Therefore, hop-by-hop SRv6 exhibits signi/f_icantly 
+lower encapsulation eﬃciency compared to the 
+T-SRv6 solution. Although G-SRv6 utilizes the header 
+compression technology to reduce per-hop 
+constraint encapsulation to 4 bytes like T-SRv6, its 
+encapsulation eﬃciency remains relatively low due 
+to IPv6 header and SRH encapsulation overhead. 
+Fig. 2 compares encapsulation eﬃciency in diﬀerent 
+packet lengths, using a 10-layer constraint label as a 
+reference. 
+ 
+ 
+Enhanced encapsulation eﬃciency not only 
+boosts eﬀective bandwidth utilization but also 
+improves forwarding performance. This avoids 
+performance degradation  caused by the need for 
+internal chip processing when encapsulated bytes 
+exceed the processing capacity of the device chip.
+Bidirectional Same Path to Meet Application Needs 
+of Delay-Symmetric Industry
+In the T-SRv6 solution, transport network 
+technology features are reserved in the SPN network. 
+The forwarding paths of SR-TP and MTN channel are 
+bidirectionally the same. Moreover, the protection 
+mechanism implements bidirectional protection 
+switching through the APS protocol to ensure that 
+the forwarding paths are bidirectionally the same 
+after the switching. This approach oﬀers natural 
+advantages for certain industrial applications, like 
+grid diﬀerential protection signals, which demand 
+bidirectional delay symmetry. 
+Agile Deployment for Rapid Computing Service 
+Provision
+In the T-SRv6 solution, only edge nodes in the SPN 
+network need to support T-SRv6 capability, with no 
+need to upgrade forwarding nodes. In a typical cloud 
+service activation scenario, the SPN network simply 
+adds a pair of termination devices connected to the 
+Fig. 2. Encapsulation 
+eﬃciency comparison 
+between T-SRv6 and 
+hop-by-hop 
+SRv6/G-SR6.
+0.000.200.400.600.801.00
+128 256 512 1518Encapsulation eﬃciency comparison
+T-SRv6 encapsulation eﬃciency (/f_irst node)
+T-SRv6 encapsulation eﬃciency (tail node)
+Hop-by-hop SRv6 encapsulation eﬃciency
+Hop-by-hop G.SRv6 encapsulation eﬃciency
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Slicing Packet Network Special Topic 
+24 

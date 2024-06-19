@@ -1,0 +1,119 @@
+ZTE COMMUNICATIONS
+September  2023  Vol.21 No.3LI Wei , JI Jingkang , LIU Yuanlong , SUN Jiawei , LIN Subin Research Papers   Simulation and Modeling of Common Mode EMI Noise in Planar Transformers
+cuit of the full -bridge circuit is shown in Fig . 16. There are 5 
+main potential jump points , of which the four potential jump 
+points are the 4 terminals of the transformer . Part of the 
+common -mode noise current at the two potential trip points 
+on the primary side of the transformer conducts the common -
+mode noise current to ground through the switching device ’s 
+coupling capacitor to the ground , and the other part of the 
+common -mode noise current is transmitted from the primary 
+side to the secondary side through the interturn capacitance 
+of the transformer through the potential change of the trans ‐
+former primary side and the secondary side winding , and 
+then flows into the earth , LISN , and back to the primary side . 
+For the two potential jump points on the secondary side of 
+the transformer , since the secondary side is connected to the 
+ground , the common -mode noise current flowing through the 
+coupling capacitor between the switching device and ground 
+flows directly back on the secondary side without flowing 
+through the LISN .
+According to the substitution theorem , the switches Q1, Q3, 
+Q6, and Q7 and the output inductor Lo are equivalent to cur ‐
+rent sources , and the switches Q2, Q4, Q5, and Q8 are equiva ‐
+lent to voltage sources . The input capacitor Cin and the out ‐
+put capacitor Co can be regarded as a short circuit due to 
+their small impedance , and the common mode impedance 
+Zcm of the LISN can be regarded as 25 Ω. The equivalent cir ‐
+cuit diagram after the application of the substitution theorem 
+is shown in Fig . 17.
+When the current sources work together , all voltage 
+sources are short -circuited , and an equivalent circuit dia ‐
+gram can be obtained . The primary current source is short -
+circuited , the voltage at the transformer port is 0, and the sec ‐
+ondary side current source is connected in parallel across 
+the secondary winding of the transformer , which is also short -
+circuited . All current sources are short -circuited when the 
+current source is active , and no common mode noise current 
+is formed in Zcm . The equivalent circuit diagram consider ‐
+ing only the current source is shown in Fig . 18.
+When the voltage sources work together , open all current 
+sources to obtain the equivalent circuit diagram . The equiva ‐lent circuit diagram considering only the voltage sources is 
+shown in Fig . 19. Q2, Q4 and Q8 will generate common mode 
+noise current on Zcm. Using the superposition theorem for the 
+voltage sources Q2, Q4, and Q8, the common -mode noise volt ‐
+age V·
+cm generated on Zcm can be found :
+V·
+cm=-1
+( )1
+Zcm+1
+ZAD+1
+ZBD-1
+ZAD⋅1
+ZAD
+1
+ZLk+1
+ZLm+1
+ZAD⋅
+é
+ëê
+êê
+êêê
+êê
+êê
+1
+ZLm⋅V·
+Q8+1
+ZBD⋅V·
+Q4+1
+ZAD⋅æ
+èç
+çç
+ççççç
+çç1
+ZLk⋅V·
+Q2+1
+ZLmV·
+Q4
+1
+ZLk+1
+ZLm+1
+ZADö
+ø÷
+÷÷
+÷÷÷÷÷
+÷÷ù
+ûú
+úú
+úúú
+úú
+úú
++V·
+Q8
+.(35)
+We use an oscilloscope to measure the voltage waveforms 
+V·
+Q2, V·
+Q4, and V·
+Q8 across the switching tubes Q2, Q4, and Q8,  
+perform Fourier decomposition on them , substitute the re ‐
+sults into Eq . (35) to obtain the predicted noise spectrum , 
+and compare it with the measured results , which is shown in 
+LISN : line impedance stabilization network
+▲Figure 16. Full -bridge circuit noise path LISN1 μF1 μF50 Ω
+50 Ω0.1 μF0.1 μF50 μF
+50 μFCin
+Q2Q1Q3
+Q4 Q6Q5 Q7
+Q8CoLo
+R
+▲Figure 17. Equivalent circuit diagram after applying the substitution 
+theoremZcmZC2ZLmZLk
+Q2Q1Q3
+Q4ZC1Q5Q7Lo
+Q8 Q6
+▲Figure 18. Equivalent circuit diagram considering only current sourceQ5Q1Q3Q7Lo
+ZC2ZLmZLKZC1
+Zcm
+114

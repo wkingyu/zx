@@ -1,0 +1,81 @@
+s the /f_irst release of 5G-Advanced, 
+Release-18 has ushered in the 
+5G-Advanced era. The 3GPP 
+standardization on physical layer 
+design was /f_inished in August 2023, and the 
+ASN.1 will be frozen in June 2024, by which all 
+speci/f_ications will be stable and ready for 
+implementation.
+Release-19, with the initial package 
+approved in December 2023, has commenced 
+exploration into 6G technology. Targeting 
+completion by the end of 2025, it aims to 
+serve as a bridge to 6G.
+Release-18: Initiating 5G-Advanced Era
+RAN Part
+For RAN, 26 study items or work items h ave 
+been completed in R18, with 3 of them 
+enabling intelligence or eﬃciency, 9 
+supporting verticals, and 14 enhancing 
+network coverage and capacity.
+eSmall data transmission:  As a WI led by 
+ZTE, in Rel-18, mobile terminated small data 
+transmissions are supported with the 
+completion of the MT-SDT WI. For DL, 
+MT-SDT (i.e., DL-triggered small data) oﬀers 
+similar bene/f_its as MO-SDT, such as 
+reducing signaling overhead and UE power 
+consumption by avoiding unnecessary 
+transitions to RRC_CONNECTED and 
+reducing latency by allowing fast 
+transmission of small and infrequent packets, e.g. for positioning.
+Network controlled repeaters:  This work 
+item, which is also led by ZTE, speci/f_ies the 
+signaling and behavior for side control 
+information (i.e., beam-forming, UL-DL TDD 
+operation, and ON-OFF information), 
+control plane signaling and procedures, 
+and solutions for network-controlled 
+repeater management.
+Extended reality (XR): XR Awareness, 
+power saving enhancements and capacity 
+enhancements have been speci/f_ied in this 
+work item. For XR awareness, one 
+additional buﬀer size table, a new MAC CE 
+for delay status report (DSR) of buﬀered 
+data, and reporting of uplink assistance 
+information (jitter range, burst arrival time, 
+UL data burst periodicity) per QoS /f_low 
+have been introduced to enhance uplink 
+resource scheduling by NG-RAN. For power 
+saving enhancements, the gNB may 
+con/f_igure a DRX cycle expressed in rational 
+numbers to match the periodicities of video 
+frame rates. In addition, con/f_igured grants 
+may be set without the need for the UE to 
+monitor possible UL retransmissions, thus 
+increasing power savings for the UE. For 
+capacity enhancements, con/f_igured 
+grant-based PUSCH transmissions are 
+enhanced with support of multiple CG 
+PUSCH transmission occasions within a 
+single period of a CG con/f_iguration. 
+Moreover, indications of unused CG PUSCH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A
+5G-Advanced: 
+Bridging to 6G
+Wang Xinhui   ZTE Vice President and Head of Standardization & Industry Relations Expert View
+06 

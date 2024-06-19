@@ -1,0 +1,64 @@
+n June 2022, China Mobile, along with 
+partners including ZTE, released the slicing 
+packet network/uni00A0 (SPN) 2.0 White Paper, 
+marking the beginning of the SPN 2.0 era. 
+The SPN 1.0 technology has been widely used by 
+China Mobile and other operators for carrying 5G 
+backhaul services and has been increasingly 
+adopted by vertical industries such as subway, mine, 
+and expressway. With the gradual deployment of 
+China Mobile’s metro private line services on SPN 
+networks and the growing transport demands of 
+China Mobile’s metro computing power networks, 
+SPN technology is evolving towards integrated 
+service transport. 
+SPN 2.0 aims to build an integrated transport 
+platform that integrates TDM and packet 
+multiplexing technology for metropolitan area 
+networks and industry private networks. It focuses 
+on high-value slicing private lines, slicing private 
+networks that empower industrial digitalization and 
+new computing-network convergence services. To 
+support high-value slicing private lines, SPN 2.0 has 
+introduced the 10M /f_ine-granularity unit (FGU) 
+technology, which achieves or even surpasses the 
+quality of MSTP private lines. Miniaturized SPN 
+devices have been also introduced to provide 
+/f_ine-granularity access and increase SPN coverage. 
+To meet the needs of slicing private networks 
+empowering industrial digitalization, SPN 2.0 
+provides both soft and hard isolation, along with deterministic reliable communication, through the 
+deep integration of TDM and packet technologies. In 
+terms of the evolution of computing power 
+networks, SPN 2.0 proposes transport SRv6 (T-SRv6) 
+and native AI technologies to support new service 
+transport.
+High-Value Slicing Private Lines
+The SPN 2.0 private line technology, centered on 
+the metro transport network (MTN)/FGU slice 
+channels, provides hard isolation, multi-service 
+transport, inband OAM-based quality perception, as 
+well as various network protection and self-service 
+functions. This technology meets the demands of 
+/f_ixed private lines, 5G private lines, and 
+cross-provincial backbone end-to-end private lines 
+with miniaturized SPN devices. 
+At present, ZTE has deployed SPN private lines to 
+carry enterprise customer private line services for 
+China Mobile across a number of provinces. ZTE has 
+cooperated with China Mobile on enterprise 
+standard formulation, prototype R&D, and pilot tests 
+of miniaturized SPN devices, thereby expanding the 
+coverage capabilities of SPN private lines. In addition, 
+leveraging the construction of provincial and 
+Chief Engineer of 5G 
+Transport Planning, 
+ZTEZhao Fuchuan
+Senior System 
+Architect, ZTELiu Aihua
+SPN 2.0: Empowering  
+Various Industries 
+I
+SPN 2.0
+Slicing Packet Network Special Topic 
+ 14
